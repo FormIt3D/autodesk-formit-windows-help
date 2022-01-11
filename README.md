@@ -9,4 +9,4 @@
 With FormIt® architectural modeling software, architects can sketch, collaborate, analyze, and revise early-stage design concepts, and work smarter from the beginning with BIM-based conceptual design.
 
 * Running FormIt for Windows requires a subscription to **FormIt Pro**, which is part of the [Autodesk AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview).
-* You can also download [FormIt for Windows](https://formit.autodesk.com/page/download) and start a 30-day free trial of FormIt Pro.
+* You can also download [FormIt for Windows](https://formit.autodesk.com/page/download) and start a 30-day free trial of **FormIt** **Pro**.
