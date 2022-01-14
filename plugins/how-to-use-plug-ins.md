@@ -20,9 +20,14 @@ The Plugin Manager organizes plugins into categories to help you find the plugin
 
 **Installed Plugins:** Plugins already installed by the user.&#x20;
 
-**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team. More details to come on this in the future.
+**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team.\
+GitHub tags:  _formit-plugin  formit-plugin-recommended_
 
-**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team.
+**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team. \
+GitHub tags:  _formit-plugin_
+
+**For Developers Plugins**: Plugins built by the community to enable the creation of new FormIt plugins. \
+GitHub tags:  _formit-plugin  formit-plugin-developers_
 
 ## Add Your Private or Local Plugin
 
