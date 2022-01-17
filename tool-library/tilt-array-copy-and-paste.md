@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# Caras: Inclinar cara y Facetar caras suaves
 
-## Working with Faces: Tilt and Facet/Smooth
+## Trabajo con caras: Inclinar cara y Facetar caras suaves
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+Para crear diseños más complejos después de crear un boceto de una forma o colocar una primitiva, puede utilizar varias herramientas contextuales a fin de modificar la geometría. Estas operaciones incluyen Inclinar cara, Matriz, Copiar y Pegar.
 
-### Tilt Face
+### Inclinar cara
 
-To **tilt a face:**
+Para **inclinar una cara**, realice lo siguiente:
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. Seleccione una cara y haga clic con el botón derecho para ver el menú contextual.
+2. Seleccione el icono **Inclinar cara** en el menú contextual.
+3. Defina el eje de inclinación. Para ello, dibuje una línea.
+4. Haga clic en un tercer punto para iniciar la operación de inclinación.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### Facetar caras suaves
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+Si pasa el cursor sobre una cara y observa líneas discontinuas, esto significa que la cara está formada por caras más pequeñas debido a la deformación de la cara. Para **convertir las líneas discontinuas en bordes del modelo**, realice lo siguiente:
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. Seleccione la cara o el objeto que desea cambiar y haga clic con el botón derecho para ver el menú contextual.
+2. En el menú contextual, seleccione la herramienta **Facetar caras suaves**.
+3. Los bordes se añaden automáticamente en la ubicación en la que la cara se ha suavizado anteriormente.
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+Este comando también funciona de la forma opuesta: puede seleccionar caras facetadas y elegir la herramienta **Facetar caras suaves** en el menú contextual para ocultar los bordes y conseguir que las caras parezcan suaves.
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

@@ -1,92 +1,93 @@
-# 1.2 - Project Set Up with Images and Grid
+# 1.2 - Configuración de proyectos con imágenes y rejilla
 
-_You can import PNG or JPG images onto the ground plane of the model by selecting File > Import from the Navigation Bar. However, to gain more control over the scale and position of an imported image, we can create a custom material and apply it to a rectangle that we have drawn ourselves._
+_Puede importar imágenes PNG o JPG en el plano de suelo del modelo. Para ello, seleccione Archivo > Importar desde la barra de navegación. Sin embargo, para obtener un mayor control sobre la escala y la posición de una imagen importada, podemos crear un material personalizado y aplicarlo a un rectángulo que hemos dibujado nosotros mismos._
 
-_If you did not complete the last section, download and open the_ _**1.2 - Project Set Up with Images and Grid.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Si no ha completado la última sección, abra el archivo_ _**1.2 - Project Set Up with Images and Grid.axm**_ _del_ _**conjunto de datos de la parte 1 de FormIt Primer**._
 
-## **Calculate Image Size**
+## **Calcular el tamaño de la imagen**
 
-The provided **plan.png** is an image of a plan printed on a 24” x 26” Sheet (ARCH D) which is 3600 pixels wide by 2400 pixels high. By knowing the drawing scale (¼"=1'-0") and the image dimensions you can calculate that 1’ = 25 pixels, which means that the image should be 144'x96' when imported into FormIt at full scale.
+El archivo **plan.png** proporcionado es una imagen de un plano impreso en un hoja \(ARCH D\) de 24" x 26", cuya anchura es de 3600 píxeles y su altura es de 2400 píxeles. Al conocer la escala de dibujo \(¼"=1'-0"\) y las cotas de imagen, puede calcular que 1' es igual a 25 píxeles, lo que significa que la imagen debe presentar un tamaño de 144' x 96' cuando se importa a escala completa en FormIt.
 
-![](<../../.gitbook/assets/0 (1) (2).png>)
+![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Import an Image to scale**
+## **Importar una imagen para ajustar su escala**
 
-1 – Click the **Top View** icon from the **Floating Navigation Bar** to see the scene from above.
+1 - Haga clic en el icono **Vista superior** de la **barra de navegación flotante** para ver la escena desde arriba.
 
-![](<../../.gitbook/assets/1 (1).png>)
+![](../../.gitbook/assets/1%20%281%29.png)
 
-2 - Choose the **Rectangle Tool (R)** from the 3D Sketch toolbar.
+2 - Seleccione la **herramienta Rectángulo \(R\)** en la barra de herramientas Boceto 3D.
 
-![](<../../.gitbook/assets/2 (1).png>)
+![](../../.gitbook/assets/2%20%281%29.png)
 
-3 – To create a rectangle that is exactly **144’** x **96’**, click anywhere in the workspace to define the starting point, then move the mouse to preview and define the first side length. Start typing a dimension value to access a dialog where you can input the exact dimension. Click **OK** or press the **Enter** key to commit the dimension. Repeat the process to set the second side’s length and finish the rectangle.
+3 - Para crear un rectángulo con un tamaño exacto de **144'** x **96'**, haga clic en cualquier lugar del espacio de trabajo para definir el punto inicial y, a continuación, mueva el ratón para obtener una vista preliminar y definir la longitud del primer lado. Empiece a escribir un valor de cota para acceder a un cuadro de diálogo en el que puede introducir la cota exacta. Haga clic en **Aceptar** o pulse la tecla **Intro** para confirmar la cota. Repita el proceso para establecer la longitud del segundo lado y finalizar el rectángulo.
 
-![ Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+![Introduzca la longitud del primer lado del rectángulo.](../../.gitbook/assets/3%20%281%29.png)
 
-![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+![Introduzca la longitud del segundo lado del rectángulo.](../../.gitbook/assets/4%20%281%29.png)
 
-![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+![Finalice el rectángulo.](../../.gitbook/assets/5%20%281%29.png)
 
-4 - To create the new “Floor Plan” material:
+4 - Para crear el nuevo material "Plano de planta", realice lo siguiente:
 
-1. Open the **Material Palette**.
-2. Click the **+** icon to create a new material.
-3. Name the new material “**Floor Plan”.**
-4. Under **MAPS** click on the **Texture** preview tile and browse to **plan.png** in the **Farnsworth House Data Set >  Supporting Files > Images** folder. Then click **Open**.
-5. Under **PROPERTIES**, change the image’s scale by entering **144'** in the **Horizontal Scale** field and **96'** in the **Vertical Scale** field. Note that unlocking horizontal and vertical scale (**chain link** icon) may be required to insert values that change the image proportions.
-6. Check **Transparency** and set it at around half. This will help align the imported floor plan image to the satellite image.
-7. Click **OK** to finish the material.
+1. Abra la **paleta Materiales**.
+2. Haga clic en el icono **+** para crear un material nuevo.
+3. Asigne al nuevo material el nombre "**Plano de planta".**
+4. En **MAPAS**, haga clic en el mosaico de vista preliminar de **textura** y vaya al archivo **plan.png** de la carpeta **Farnsworth House Data Set &gt; Supporting Files &gt; Images**. A continuación, haga clic en **Abrir**.
+5. En **PROPIEDADES**, cambie la escala de la imagen. Para ello, introduzca **144'** en el campo **Escala horizontal** y **96'** en el campo **Escala vertical**. Tenga en cuenta que puede que sea necesario desbloquear la escala horizontal y vertical \(**icono de eslabón de cadena**\) para insertar valores que cambien las proporciones de la imagen.
+6. Active **Transparencia** y establezca su valor en aproximadamente la mitad. Esto ayudará a alinear la imagen del plano de planta importada con la imagen de satélite.
+7. Haga clic en **Aceptar **para finalizar el material.
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 - To paint the rectangle:
+5 - Para pintar el rectángulo, realice lo siguiente:
 
-1. In the **Material Palette**, single-click on the **Floor Plan material** tile to paint with this material.
-2. Click on the rectangle you sketched to paint it. Press **Esc** to exit the paintbrush tool.
+1. En la **paleta Materiales**, haga clic una vez en el mosaico **Material de plano de planta** para pintar con este material.
+2. Haga clic en el rectángulo que ha dibujado para pintarlo. Pulse **Esc** para salir de la herramienta Pincel.
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 - If the material appears inverted or backward, you may need to reverse the face. You can do so by right-clicking with the mouse to access the **Context Menu** and selecting the Reverse Face (FF) button.
+6 - Si el material aparece invertido o hacia atrás, es posible que deba invertir la cara. Para ello, haga clic con el botón derecho del ratón para acceder al **menú contextual** y seleccione el botón Invertir cara \(FF\).
 
 ![](../../.gitbook/assets/8.png)
 
-## **Align the Imported Image to the Satellite Image**
+## **Alinear la imagen importada con la imagen de satélite**
 
-1 – To move the image, first select the rectangle by double-clicking on it. Then click-and-drag the rectangle and move it until it overlaps the building in the Satellite image. We will come back to aligning it perfectly later, just try to get it close for now.
+1 - Para mover la imagen, seleccione primero el rectángulo. Para ello, haga doble clic en él. A continuación, haga clic en el rectángulo y arrástrelo hasta que solape con el edificio de la imagen de satélite. Volveremos a alinearlo perfectamente más tarde; por el momento, solo vamos a intentar acercarlo.
 
 ![](../../.gitbook/assets/9.png)
 
-2 - To rotate the rectangle to align with the Satellite image:
+2 - Para rotar el rectángulo a fin de alinearlo con la imagen de satélite:
 
-1. Right-click on the rectangle to bring up the context menu. Choose **Rotate (Q).**
-2. The **Rotate Widget** appears in the middle of the rectangle. Select the widget by clicking once on the orange grip in the middle. Move the widget to the bottom left corner of the rectangle. It will snap to the corner. Click to place it.
-3. Type **9**, and the dimension box will appear. Click **OK** to rotate the rectangle counterclockwise by 9 degrees.
+1. Haga clic con el botón derecho en el rectángulo para abrir el menú contextual. Seleccione **Rotar \(Q\).**
+2. El **widget de rotación** aparece en el centro del rectángulo. Seleccione el widget. Para ello, haga clic una vez en el pinzamiento naranja situado en el centro. Desplace el widget a la esquina inferior izquierda del rectángulo. Se forzará el cursor a la esquina. Haga clic para colocarlo.
+3. Introduzca **9**; aparecerá el cuadro de cota. Haga clic en el botón **Aceptar** para rotar el rectángulo 9 grados en sentido antihorario.
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Align the Grid to the Satellite Image**
+## **Alinear la rejilla con la imagen de satélite**
 
-1 - Now, we will align the grid with the Satellite image and the floor plan. Right-click anywhere on the **ground plane** and choose **Set Axes (SZ)**.
+1 - Ahora, vamos a alinear la rejilla con la imagen de satélite y el plano de planta. Haga clic con el botón derecho en cualquier lugar del **plano de suelo** y seleccione **Establecer ejes \(SZ\)**.
 
 ![](../../.gitbook/assets/12.png)
 
-2 – The **Set Axis** widget will appear. Move the axis to the bottom left corner of the rectangle, where it should snap. Click to place it.
+2 - Aparecerá el widget para **establecer ejes**. Desplace el eje a la esquina inferior izquierda del rectángulo, donde se debería forzar el cursor. Haga clic para colocarlo.
 
 ![](../../.gitbook/assets/13.png)
 
-3 - Click on the grip at the end of the red axis. Move the grip to the bottom right corner of the rectangle so that the red axis aligns with the bottom edge of the plane. Click off in space to commit this change.
+3 - Haga clic en el pinzamiento situado en el extremo del eje rojo. Desplace el pinzamiento a la esquina inferior derecha del rectángulo para que el eje rojo se alinee con el borde inferior del plano. Haga clic fuera del espacio para confirmar este cambio.
 
 ![](../../.gitbook/assets/14.png)
 
-4 - To align the view with the new grid, click the Top View icon from the Navigation Bar to reset the scene.
+4 - Para alinear la vista con la nueva rejilla, haga clic en el icono Vista superior de la barra de navegación para restablecer la escena.
 
 ![](../../.gitbook/assets/15.png)
 
-5 - To ensure the building in both images overlap, select the plan to move it once more until it overlaps the Satellite image correctly.
+5 - Para garantizar que el edificio de ambas imágenes se solape, seleccione el plano para desplazarlo una vez más hasta que se solape correctamente con la imagen de satélite.
 
 ![](../../.gitbook/assets/16.png)
 
-6 - The satellite image, the rectangle, and the grid are now aligned, which will simplify 3D sketching.
+6 - La imagen de satélite, el rectángulo y la rejilla ahora están alineados, lo que simplificará el boceto 3D.
+

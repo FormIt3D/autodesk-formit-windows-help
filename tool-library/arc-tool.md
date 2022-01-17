@@ -1,23 +1,24 @@
-# Arc
+# Arco
 
-Use the Arc tool to create half circles or symmetrical arcs. There are two ways to create arcs.
+Utilice la herramienta Arco para crear medio círculo o arcos simétricos. Existen dos formas de crear arcos.
 
-## Arc by Three Points
+## Arco por tres puntos
 
-![](../.gitbook/assets/arc\_three\_pts.png)
+![](../.gitbook/assets/arc_three_pts.png)
 
-An arc is defined by three points and can be drawn on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
+Un arco se define mediante tres puntos y se puede dibujar en los ejes X, Y y Z. Defina el primer punto y, a continuación, determine una distancia desde el primer punto hasta el segundo. Por último, defina un tercer punto para la altura del arco. Se le proporcionará automáticamente un punto de "medio círculo" al que puede forzar el cursor; además, la línea de arco se extenderá más allá de los primeros dos puntos.
 
-You can see the length between the first point and the second point as you're determining the second points next location; to manually specify a length, simply enter a value and a dimension box will appear.
+Puede ver la longitud entre el primer punto y el segundo mientras determina la próxima ubicación del segundo punto; para especificar manualmente una longitud, simplemente introduzca un valor y aparecerá un cuadro de cota.
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-After drawing the arc, you can make a face using the [Line tool](line-tool.md) to connect the first and second points.
+Después de dibujar el arco, puede crear una cara mediante la [herramienta Línea](line-tool.md) para conectar el primer punto y el segundo.
 
-## Arc by Center
+## Arco por centro
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Choose the mid point of the arc, then drag to choose the center, and drag to define the length of the arc. Simply start typing a value to enter a precise number of degrees for the arc.
+Seleccione el punto medio del arco y, a continuación, arrastre para elegir el centro y definir la longitud del arco. Solo tiene que empezar a escribir un valor para introducir un número preciso de grados para el arco.
 
-![](../.gitbook/assets/arc\_circle\_demo.gif)
+![](../.gitbook/assets/arc_circle_demo.gif)
+

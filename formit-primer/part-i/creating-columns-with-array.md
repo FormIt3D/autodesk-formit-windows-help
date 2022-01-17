@@ -1,146 +1,146 @@
-# 1.8 - Create Columns with Array
+# 1.8 - Crear pilares con matriz
 
-_In this exercise, we will sketch a detailed element - an I-beam column. Then we will use the Array tool to quickly create multiple equally-spaced copies._
+_En este ejercicio, vamos a crear un boceto de un elemento detallado: un pilar de viga en I. A continuación, utilizaremos la herramienta Matriz para crear rápidamente varias copias espaciadas uniformemente._
 
-_If you did not complete the last section, download and open the_ _**1.8 – Create Columns with Array.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Si no ha completado la última sección, descargue y abra el archivo_ _**1.8 – Create Columns with Array.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
-## **Sketch the Column Profile**
+## **Crear el boceto del perfil de pilar**
 
-1 - To facilitate the drafting process:
+1 - Para facilitar el proceso de dibujo, realice lo siguiente:
 
-1. Go to the **Top View (VT)**.
-2. Switch the view mode to **Orthographic (VO)**.
-3. Turn off the **Main Building** **Floor** and **Roof** layers. This step will prevent the new geometry from snaping to the existing geometry on those layers.
-4. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
-5. Turn off the **Snap to Grid (SG)** feature (if you have it on). This will help with drawing the detail lines.
+1. Vaya a la **Vista superior \(VT\)**.
+2. Cambie el modo de vista a **Ortogonal \(VO\)**.
+3. Desactive las capas **Main Building**, **Floor** y **Roof**. Este paso impedirá que la nueva geometría se ajuste a la geometría existente en esas capas.
+4. Amplíe la esquina superior izquierda de la imagen de **plano de planta importado** para poder ver el pilar en detalle.
+5. Desactive la función **Forzar cursor a rejilla \(SG\)** \(si la ha activado\). Esto ayudará a dibujar las líneas de detalle.
 
-![](<../../.gitbook/assets/0 (13) (1).png>)
+![](../../.gitbook/assets/0%20%2813%29.png)
 
-_To draw the column, we will first draw one half, then mirror it to quickly create the other symmetrical half._
+_Para dibujar el pilar, dibujaremos primero la mitad y, a continuación, lo reflejaremos para crear rápidamente la otra mitad simétrica._
 
-2 - To create the first half of the I-beam, use the **Line tool (L)** to make the following sketch using the specified dimensions. Don’t worry about the exact position of the column on the plan image just yet.
+2 - Para crear la primera mitad de la viga en I, utilice la **herramienta Línea \(L\)** para crear el siguiente boceto con las cotas especificadas. No se preocupe por la posición exacta del pilar en la imagen de plano.
 
-![](<../../.gitbook/assets/1 (18).png>)
+![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - To mirror the shape you have just drawn:
+3 - Para reflejar la forma que acaba de dibujar, realice lo siguiente:
 
-1. Double-click to select all the faces and edges of the drawn geometry.
-2. Right-click and select the **Mirror Tool (MI)**.
-3. Click on the center orange grip of the **Mirror Widget** and place it at the geometry’s bottom left corner.
-4. Use the bottom arrow from the double-sided arrow button in the Widget to rotate the mirroring-axis -90 degrees (clockwise).
-5. Single-click off in space, or press **Esc** to finish the mirroring process. The result should look like an I-beam profile with a line down the middle. Press **Esc** again to clear the selection.
+1. Haga doble clic para seleccionar todas las caras y los bordes de la geometría dibujada.
+2. Haga clic con el botón derecho y seleccione la **herramienta Reflejar \(MI\)**.
+3. Haga clic en el pinzamiento naranja central del **widget Reflejar** y colóquelo en la esquina inferior izquierda de la geometría.
+4. Utilice la flecha inferior del botón de flecha de doble cara del widget para rotar el eje de simetría -90 grados \(sentido horario\).
+5. Haga clic una vez en el espacio o pulse **Esc** para finalizar el proceso de reflejo. El resultado debe tener un aspecto similar al de un perfil de viga en I con una línea que desciende por el medio. Pulse **Esc** de nuevo para anular la selección.
 
-![](<../../.gitbook/assets/2 (5).png>)
+![](../../.gitbook/assets/2%20%285%29.png)
 
-![](<../../.gitbook/assets/3 (7).png>)
+![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Note**: The final geometry location and orientation is previewed with the ghosted blue shape while you are adjusting the mirror widget. You can use this preview as a reference to mirror the geometry to the intended location._
+_**Nota**: La orientación y la ubicación de la geometría final se previsualizan con la forma azul fantasma mientras se ajusta el widget Reflejar. Puede utilizar esta vista preliminar como referencia para reflejar la geometría en la ubicación deseada._
 
-4 - To join both sides into a single geometry, remove the line dividing them by clicking on it to select it and then pressing **Delete**. Now the two surfaces are joined into a single surface.
+4 - Para unir ambos lados en una sola geometría, elimine la línea que los divide. Para ello, haga clic en ella para seleccionarla y, a continuación, pulse **Suprimir**. Ahora las dos superficies se unen en una sola.
 
-5 - To move the geometry to its final location:
+5 - Para mover la geometría a su ubicación final, realice lo siguiente:
 
-1. If off, turn on the **Plan Image** and **Roof** layers, to use them as a guide.
-2. Double-click the column profile to select its face and all of its lines. Start moving the selection along the green axis (**Y Axis**). Hold **Shift** and move the profile until it aligns with the Roof, then click to place it.
-3. Similar to the previous step, move the geometry once again, this time locking it to the red axis (**X Axis**).
-4. Click to place it on top of the I-Beam drawn in the **Plan Image**. Getting it close is fine, like in the following image, the horizontal position does not need to be perfect.
+1. Si está desactivada, active las capas **Plan Image** y **Roof** para utilizarlas como guía.
+2. Haga doble clic en el perfil de pilar para seleccionar su cara y todas sus líneas. Empiece a mover la selección a lo largo del eje verde \(**Eje Y**\). Mantenga pulsada la tecla **Mayús** y mueva el perfil hasta que se alinee con la cubierta y, a continuación, haga clic para colocarlo.
+3. De forma similar al paso anterior, vuelva a mover la geometría; esta vez, bloquéela en el eje rojo \(**Eje X**\).
+4. Haga clic para colocarla encima de la viga en I dibujada en **Plan Image**. Acercarse es suficiente, como en la siguiente imagen, la posición horizontal no tiene que ser perfecta.
 
-_**Note:**_ _The_ _**Shift**_ _key will lock the geometry to move along only one axis, in this case, the green (**Y Axis**). This will ensure the column profile does not accidentally move up and align to the top of the roof plane._
+_**Nota:**_ _La tecla_ _**Mayús**_ _bloqueará la geometría para moverla solo a lo largo de un eje, en este caso, el verde \(**Eje Y**\). De este modo, se garantiza que el perfil del pilar no se mueva hacia arriba y se alinee accidentalmente con la parte superior del plano de cubierta._
 
-![](<../../.gitbook/assets/4 (9) (1).png>)
+![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Extrude and Array the Column**
+## **Extrusión y matriz del pilar**
 
-1 - To facilitate the next drafting process, switch the view mode back to **Perspective (VP)** and **Orbit (O)** to position the camera as to visualize the I-Beam profile from the northwest. Use the north arrow at the bottom left corner to help you position the view.
+1 - Para facilitar el siguiente proceso de dibujo, vuelva a cambiar el modo de vista a **Perspectiva \(VP\)** y utilice **Orbitar \(O\)** para colocar la cámara como si se visualizase el perfil de la viga en I desde el noroeste. Utilice la flecha norte situada en la esquina inferior izquierda para facilitar la colocación de la vista.
 
-![](<../../.gitbook/assets/5 (1).jpeg>)
+![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Note:**_ _To learn how to navigate around the sketch, we recommend checking out the_ _**Navigate the Scene**_ _chapter._
+_**Nota:**_ _Para obtener información sobre cómo desplazarse por el boceto, se recomienda que consulte el capítulo sobre_ _**desplazamiento por la escena**_ _._
 
-2- Select the column profile face and extrude the face up to **17’-8”**.
+2- Seleccione la cara del perfil del pilar y extruya la cara hasta**17'-8"**.
 
-_**Note:**_ _If while moving the column profile, it aligned itself to the roof, extrude the face down by_ _**17’-8”**_\
-_instead of up._
+_**Nota:**_ _Si el perfil del pilar se alinea con la cubierta al moverlo, extruya la cara hacia abajo_ _**17'-8"**   en lugar de hacia arriba._
 
-3 - Zoom out and turn the **Roof** layer on (if off). The top of the column should line up with the top of the roof.
+3 - Reduzca la vista y active la capa **Roof** \(si está desactivada\). La parte superior del pilar debe alinearse con la parte superior de la cubierta.
 
-![](<../../.gitbook/assets/6 (9) (1).png>)
+![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - To keep the model organized and tidy, select the column geometry again and do the following:
+4 - Para mantener el modelo organizado y ordenado, seleccione de nuevo la geometría del pilar y realice lo siguiente:
 
-1. **Group (G)** and name it **Column Tall**.
-2. Create a new **Layer** called **Column** and add the group to it.
-3. Import the material **Metal - Brushed - Colorized** and paint the group with it.
+1. Utilice la herramienta **Grupo \(G\)** y asígnele el nombre **Column Tall**.
+2. Cree una nueva **capa** denominada **Column** y añádala al grupo.
+3. Importe el material **Metal - Brushed - Colorized** y pinte el grupo con él.
 
-![](<../../.gitbook/assets/7 (4) (1).png>)
+![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Note:**_ _See previous chapters for more information on_ _**Groups**,_ _**Layers**, and_ _**Materials**._
+_**Nota:**_ _Consulte los capítulos anteriores para obtener más información sobre los_ _**grupos**, las_ _**capas** y los_ _**materiales**._
 
-4 - Click **Esc** to clear the paintbrush tool.
+4 - Haga clic en **Esc** para desactivar la herramienta de pincel.
 
-## **Array the Columns**
+## **Organizar en matriz los pilares**
 
-1 - Go to the **Top View (VT)** and switch the camera mode to **Orthographic (VO)** again.
+1 - Vaya a la **Vista superior \(VT\)** y cambie de nuevo el modo de cámara a **Ortogonal \(VO\)**.
 
-2 - Turn off the **Roof** layer.
+2 - Desactive la capa **Roof**.
 
-3 - To start the array process:
+3 - Para iniciar el proceso de agrupación en matriz, realice lo siguiente:
 
-1. Single-click to select the column group. Right-click to bring the **Context Menu** and choose **Array (AR)**.
-2. In the **Array Properties** dialog, use the following settings:
-   * **Length Between Copies**
-   * **Linear** (default)
-   * **Group each solid then array** (default)
-   * **Number of Copies: 3**
-   * Press **OK** to close the dialog.
+1. Haga clic una vez para seleccionar el grupo de pilares. Haga clic con el botón derecho para abrir el **menú contextual** y seleccione **Matriz \(AR\)**.
+2. En el cuadro de diálogo **Propiedades de matriz**, utilice los siguientes parámetros:
+   * **Longitud entre copias**
+   * **Lineal** \(por defecto\)
+   * **Agrupar cada sólido e incluir en matriz** \(por defecto\)
+   * **Número de copias: 3**
+   * Pulse **Aceptar** para cerrar el cuadro de diálogo.
 
-![](<../../.gitbook/assets/8 (3) (1).png>)
+![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - To place the new elements:
+4 - Para colocar los nuevos elementos, realice lo siguiente:
 
-1. Single-click on the column to start the **Array**. Move the cursor along the red axis (**X axis**).
-2. Set dimension to **22'**. You now have **four** columns **22'** apart.
-3. **Esc** to clear your selection.
+1. Haga clic una vez en el pilar para iniciar la herramienta **Matriz**. Mueva el cursor a lo largo del eje rojo \(**Eje X**\).
+2. Defina la cota en **22'**. Ahora tiene **cuatro** pilares con una separación de **22'**.
+3. Pulse **Esc** para borrar la selección.
 
-![](<../../.gitbook/assets/9 (6) (1).png>)
+![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - To select all the **Tall Column** groups at once, hover your mouse over one of them and press the **Tab** key once. Notice that all 4 column’s bounding boxes have been highlighted. Single-click on the column your mouse is hovering over and they will all be selected. This is a quick way to select all instances of the same group at once.
+5 - Para seleccionar todos los grupos de **Tall Column** a la vez, coloque el cursor sobre uno de ellos y pulse la tecla **Tab** una vez. Observe que se han resaltado los cuadros delimitadores de los cuatro pilares. Haga clic una vez en el pilar sobre el que ha colocado el cursor del ratón; se seleccionarán todos. Esta es una forma rápida de seleccionar todos los ejemplares del mismo grupo a la vez.
 
-6 - Perform another **Array (AR)** to create the columns at the other side of the building. This time make 1 copy along the green axis across the building. Set dimension to **29'- 4 5/8”.**
+6 - Utilice de nuevo la herramienta **Matriz \(AR\)** para crear los pilares en el otro lado del edificio. Esta vez, realice una copia a lo largo del eje verde a través del edificio. Establezca la cota en **29'- 4 5/8".**
 
-_**Note:**_ _29’ 4 5/8” = 8 5/8” (column depth) + 28’-8” (main building width)._
+_**Nota:**_ _29' 4 5/8" = 8 5/8" \(profundidad del pilar\) + 28'-8" \(anchura del edificio principal\)._
 
-7 - To visualize the whole building, go to the **3D View (V3)** and set it to **Perspective (VP)**. If off, turn on the **Main Building Floor**, **Roof**, **Lower Terrace**, and **Column** layers.
+7 - Para visualizar todo el edificio, vaya a la **Vista 3D \(V3\)** y establézcalo en **Perspectiva \(VP\)**. Si están desactivadas, active las capas **Main Building Floor**, **Roof**, **Lower Terrace** y **Column**.
 
-![](<../../.gitbook/assets/10 (7) (1).png>)
+![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Create the Terrace Columns**
+## **Crear los pilares de la terraza**
 
-_Now we will duplicate the main building columns to create similar, but shorter, versions for the terrace._
+_Ahora duplicaremos los pilares del edificio principal para crear versiones similares, pero más cortas, para la terraza._
 
-1 - To facilitate drafting, we recommend going back to an **Orthogonal (OV)** and **Top View (VT)** setting.
+1 - Para facilitar el dibujo, es recomendable volver a los parámetros **Ortogonal \(OV\)** y **Vista superior \(VT\)**.
 
-2 - To create the new columns:
+2 - Para crear los nuevos pilares, realice lo siguiente:
 
-1. Hold **Ctrl** or **Shift**, click on the 3 columns closest to the **Lower Terrace Floor** to select them.
-2. Single-click on any one of the columns to start moving all 3 selected columns at once. Press the **Ctrl** key once to create a **quick copy**. A ghost preview of the copy will appear.
-3. Move the copies down along the green axis (**Y Axis**) by **23’-4 3/8**”. Press **Esc**.
-4. Without deselecting, move the copied columns along the red axis (**X Axis**) by **22’** to place them in their final position.
-5. Again, with the 3 new columns still selected, right-click one of the copied columns and select **Make Unique (MU)**. These columns are now associated with each other, but unique from the originals.
+1. Mantenga pulsada la tecla **Ctrl** o **Mayús** y haga clic en los tres pilares más próximos al **suelo de la terraza interior** para seleccionarlos.
+2. Haga clic una vez en cualquiera de los pilares para empezar a mover los tres pilares seleccionados a la vez. Pulse la tecla **Ctrl** una vez para crear una **copia rápida**. Aparecerá una vista preliminar fantasma de la copia.
+3. Mueva las copias hacia abajo a lo largo del eje verde \(**Eje Y**\) **23'-4 3/8"**. Pulse **Esc**.
+4. Sin anular la selección, mueva los pilares copiados a lo largo del eje rojo \(**Eje X**\) **22'** para colocarlos en su posición final.
+5. Con los tres nuevos pilares seleccionados, haga clic otra vez con el botón derecho en uno de los pilares copiados y seleccione **Establecer como exclusivo \(MU\)**. Estos pilares están ahora asociados entre sí, pero son exclusivos frente a los originales.
 
-_**Note:**_ _Holding_ _**Shift**_ _or_ _**Ctrl**_ _allows you to select multiple elements at once, or remove elements from your current selection._
+_**Nota:**_ _Si se mantiene pulsada la tecla_ _**Mayús**_ _o_ _**Ctrl**_ _, es posible seleccionar varios elementos a la vez o eliminar elementos de la selección actual._
 
-![](<../../.gitbook/assets/11 (7) (1).png>)
+![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - Modify the new column group:
+3 - Modifique el nuevo grupo de pilares. Para ello, realice lo siguiente:
 
-1. Double-click to edit one of the new groups and rename it **Column Short.**
-2. Adjust the height of the new column to align to the top of the **Lower Terrace** **Floor** (3’-2”). To do that, select and drag the column’s face down along the blue axis (**Z axis**) and hold **Shift**. Hover the cursor anywhere on the top face of the **Lower Terrace Floor** and the column’s height will automatically align to the Lower Terrace. Once the height is set, click to finish.
+1. Haga doble clic para editar uno de los nuevos grupos y cambie su nombre a **Column Short.**
+2. Ajuste la altura del nuevo pilar para alinearlo con la parte superior de la **suelo de terraza** **inferior** \(3'-2"\). Para ello, seleccione y arrastre la cara del pilar hacia abajo a lo largo del eje azul \(**Eje Z**\) y mantenga pulsada la tecla **Mayús**. Coloque el cursor sobre cualquier lugar de la cara superior del **suelo de terraza inferior** y la altura del pilar se alineará automáticamente con la terraza inferior. Una vez que se haya definido la altura, haga clic para finalizar.
 
-![](<../../.gitbook/assets/12 (4).png>)
+![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Note:**_ _You can check the height of the short columns by using the_ _**Measure (ME)**_ _tool. Alternatively, you can select one of the column’s vertical edge and see its length in the_ _**Properties Palette**._
+_**Nota:**_ _Puede comprobar la altura de los pilares cortos mediante la herramienta_ _**Medir \(ME\)**_ _. También puede seleccionar uno de los bordes verticales del pilar y ver su longitud en la_ _**paleta Propiedades**._
 
-4- Using the techniques you just learned, copy the furthest short column to the opposite side of the **Lower Terrace Floor** to create the last remaining column.
+4- Mediante las técnicas que acaba de aprender, copie el pilar corto más lejano al lado opuesto del **suelo de terraza inferior** para crear el último pilar restante.
 
-![](<../../.gitbook/assets/13 (4).png>)
+![](../../.gitbook/assets/13%20%284%29.png)
+

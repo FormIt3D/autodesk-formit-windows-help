@@ -1,14 +1,15 @@
-# Mirror
+# Reflejar
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+Utilice la herramienta Reflejar para crear un duplicado reflejado de un objeto.
 
-To mirror an object:
+Para reflejar un objeto, realice lo siguiente:
 
-1. Double-click to select a single object, or single-click to select a group.&#x20;
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**.&#x20;
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. Haga doble clic para seleccionar un único objeto o haga clic una vez para seleccionar un grupo.
+2. Haga clic con el botón derecho y seleccione la herramienta Reflejar en el menú contextual o escriba el método abreviado de teclado **MI**.
+3. Se muestran un plano y el eje en el que se reflejará el objeto. El plano se puede desplazar o rotar para personalizar el eje del reflejo.
+4. Cuando haya terminado de ajustar el plano del objeto reflejado, haga clic en cualquier lugar fuera de la selección.
 
 ![](../.gitbook/assets/mirror.png)
 
 ![](../.gitbook/assets/mirror2.png)
+

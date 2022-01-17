@@ -1,6 +1,7 @@
-# Placing Primitives
+# Colocación de primitivas
 
-1. In the [Action Toolbar](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md) click to open the **Primitives button** and [select](select-edge-face-or-object.md) the cube.   ![](<../.gitbook/assets/primitive-cube (1).png>)&#x20;
-2. Then drag and **click to place** the cube.  ![](<../.gitbook/assets/image-2- (1).png>)  &#x20;
-3. While dragging the cube it will be shown with default dimensions. You can change those dimensions **while dragging** by hitting the **Tab** key. This will bring up a **Tool Options** dialog where the dimensions can be edited. ![](<../.gitbook/assets/image (1).png>) &#x20;
-4. After entering new values and hitting **OK**, the cube will be displayed with the new dimensions.
+1. En la [barra de herramientas de acciones](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md), haga clic para abrir el **botón Primitivas** y [seleccione](select-edge-face-or-object.md) el cubo. ![](../.gitbook/assets/primitive-cube.png)
+2. A continuación, arrastre y **haga clic para colocar** el cubo. ![](../.gitbook/assets/image-2-%20%281%29.png)
+3. Al arrastrar el cubo, este se mostrará con las cotas por defecto. Puede cambiar esas cotas **mientras arrastra**. Para ello, pulse la tecla **Tab**. Se abre el cuadro de diálogo **Opciones de herramientas**, que permite editar las cotas. ![](../.gitbook/assets/image%20%281%29.png)
+4. Después de introducir nuevos valores y pulsar **Aceptar**, el cubo se mostrará con las nuevas cotas.
+

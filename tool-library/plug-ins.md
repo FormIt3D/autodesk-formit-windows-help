@@ -1,46 +1,47 @@
-# Plug-Ins
+# Módulos de extensión
 
-Use the Plugin Manager to install useful plugins from the FormIt Team, or learn how to [**build your own FormIt plugins**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
+Utilice el Plugin Manager para instalar módulos de extensión útiles del equipo de FormIt o aprenda a [**crear sus propios módulos de extensión de FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
 
-## The FormIt Plugin Manager
+#### Plugin Manager de FormIt
 
-The FormIt Plugin Manager works as a hub for discovering and managing Formit plugins.
+Plugin Manager de FormIt funciona como un centro para descubrir y administrar los módulos de extensión de FormIt.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+Plugin Manager se carga automáticamente cuando se inicia FormIt, siempre que este tenga acceso a Internet.
 
-You can access the Plug-In Manager by clicking its tab icon on the right side of the application window:
+Para acceder a Plugin Manager, haga clic en el icono de ficha ubicado a la derecha de la ventana de la aplicación:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-## The Plugin Manager categorizes different types of plugins:
+#### Plugin Manager clasifica los distintos tipos de módulos de extensión:
 
-* **Installed plugins**
-* **Recommended plugins**
-  * Plugins that the FormIt team recommends to expand FormIt's core functionality and unlock new workflows.
-  * Community-developed plugins will appear here after being approved by the FormIt team. More details to come on this in the future.
-* **Public plugins**
-  * Plugins built by the community, but which have not been reviewed or approved by the FormIt team.
+* **Módulos de extensión instalados**
+* **Módulos de extensión recomendados**
+   * Módulos de extensión que el equipo de FormIt recomienda para expandir las funciones principales de FormIt y descubrir nuevos flujos de trabajo.
+   * Los módulos de extensión desarrollados por la comunidad aparecerán aquí después de que los apruebe el equipo de FormIt. Se proporcionará más información sobre esto en el futuro.
+* **Módulos de extensión públicos**
+   * Módulos de extensión creados por la comunidad, pero que no ha revisado o aprobado el equipo de FormIt.
 
-## The Plugin Manager is designed using a series of expandable and collapsible interfaces, which makes managing plugins and their repositories easy:
+#### Plugin Manager se ha diseñado mediante una serie de interfaces extensibles y contraíbles, lo que facilita la administración de módulos de extensión y sus repositorios:
 
-* **Managing Plugins:**
-  * Click on a plugin name to see its description.
-  * Toggle the switch to install or uninstall it.
-    * The plugin will manifest as a toolbar at the top of the application, a panel on the right side, or a dialog in the middle, depending on the plugin type.
-* If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom and hit (+):
+* **Administración de módulos de extensión:**
+   * Haga clic en el nombre de un módulo de extensión para ver su descripción.
+   * Active o desactive el conmutador para instalarlo o desinstalarlo.
+      * El módulo aparecerá como una barra de herramientas en la parte superior de la aplicación, un panel en el lado derecho o un cuadro de diálogo en el centro, según el tipo de módulo.
+* Si está [desarrollando su propio módulo de extensión](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), puede añadir su dirección URL privada en el campo de la parte inferior y pulsar \(+\), como se muestra a continuación:
 
-![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
+![Plugin Manager de FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-## How Plugins Work
+#### Funcionamiento de los módulos de extensión
 
-* Plugins are web-based and available in FormIt for Windows and FormIt for Web.
-* Plugins are comprised of a series of files and folders hosted on GitHub, or on a local server when building your own.
-* External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
-  * External plugins will not load if no internet connection is detected when FormIt starts.
-  * Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.
-  * External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change.
-* Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
-* The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins.
-  * If you need to reset your Plugin Manager to its defaults, delete the following registry key:
-    * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
-    * Note this will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+* Los módulos de extensión están basados en la Web y disponibles en FormIt para Windows y FormIt para Web.
+* Los módulos de extensión están formados por una serie de archivos y carpetas alojados en GitHub o en un servidor local cuando se crea uno propio.
+* Los módulos de extensión externos \(aquellos no hospedados localmente\) requieren una conexión a Internet para cargarse inicialmente. Esto implica lo siguiente:
+   * Los módulos de extensión externos no se cargarán si no se detecta conexión a Internet al iniciar FormIt.
+   * Una vez cargados, algunos módulos de extensión externos pueden seguir trabajando en modo sin conexión en esa sesión, pero es posible que otros no funcionen hasta que se restablezca la conectividad.
+   * Los módulos de extensión externos cargan el código más reciente del servidor en cada ejecución, por lo que sus funciones se actualizarán cada vez que el autor publique un cambio.
+* Los módulos de extensión se cargan de forma asíncrona, lo que significa que su orden en la interfaz de FormIt puede cambiar en cada nueva sesión.
+* Plugin Manager utiliza claves del Registro de Windows para almacenar los repositorios y los módulos instalados.
+   * Si necesita restablecer Plugin Manager a sus valores por defecto, elimine la siguiente clave del Registro:
+      * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
+      * Tenga en cuenta que esto desinstalará todos los repositorios y los módulos de extensión añadidos por el usuario, lo que restablecerá Plugin Manager para incluir solo los repositorios y los módulos de extensión integrados.
+

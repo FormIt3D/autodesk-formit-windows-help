@@ -1,80 +1,81 @@
 # Railing Along Path
 
-## Powered By Dynamo
+## Con tecnología de Dynamo
 
-In FormIt 2021 and newer, you can generate a railing along a path, and quickly customize the results in-place. Railing Along Path is powered by Dynamo, which means the resulting railing is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+En FormIt 2021 y versiones posteriores, puede generar una barandilla a lo largo de un camino y personalizar rápidamente los resultados in situ. La herramienta "Railing Along Path" cuenta con tecnología de Dynamo, lo que significa que la barandilla resultante se puede configurar fácilmente para obtener los resultados deseados y si se vuelve a ejecutar la lógica, se actualizará la geometría in situ.
 
-![](<../.gitbook/assets/railing-along-path (1).gif>)
+![](../.gitbook/assets/railing-along-path.gif)
 
-## Starting Railing Along Path
+## Inicio de "Railing Along Path"
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the Railing Along Path sample
-* On the left side of the screen, you'll see a prompt to "Select path for railing"
-  * You should select only a series of contiguous edges, or a Group containing only a series of edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter/Return.
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated railing in a FormIt Group, ready for modifying (see below).
+* Vaya al panel Dynamo en FormIt para Windows y asegúrese de que se encuentra en el directorio de muestras de Dynamo.
+* Haga clic en la muestra "Railing Along Path".
+* En el lado izquierdo de la pantalla, aparecerá una solicitud para seleccionar un camino para la barandilla.
+   * Aquí, debe seleccionar solo una serie de bordes contiguos o un grupo que contenga solo una serie de bordes.
+   * Una vez que haya seleccionado el camino, haga clic en el botón "finish" o pulse Intro.
+* El panel de Dynamo indicará que está procesando los cambios. Cuando haya terminado, tendrá una barandilla generada por Dynamo en un grupo de FormIt, lista para modificar \(consulte la información mostrada a continuación\).
 
-## Iterating In Place
+## Iteración in situ
 
-After running Railing Along Path, you'll notice its results are set to default values. Maybe these work for you, but you can heavily customize the railing to suit your needs.
+Después de ejecutar "Railing Along Path", observará que sus resultados se han establecido en los valores por defecto. Es posible que le parezcan satisfactorios estos valores, pero también puede personalizar la barandilla para adaptarla a sus necesidades.
 
-When Railing Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Railing Along Path instance.
+Cuando se ejecuta, esta función crea un nuevo grupo que contiene los resultados y FormIt selecciona automáticamente el grupo y las opciones disponibles para ese ejemplar de "Railing Along Path".
 
-You can always return to the Railing Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+Siempre puede volver a las propiedades de "Railing Along Path". Para ello, seleccione el grupo y cambie al panel Propiedades o modifique el grupo que mostrará automáticamente las propiedades.
 
-![](<../.gitbook/assets/railing-along-path-options (1).png>)
+![](../.gitbook/assets/railing-along-path-options.png)
 
-### Railing Height
+### Altura de barandilla
 
-The overall height of the railing. Uses the current FormIt units.
+La altura total de la barandilla. Utiliza las unidades actuales de FormIt.
 
 ### Post Spacing
 
-The spacing between main vertical posts. Uses the current FormIt units.
+La distancia entre las pilastras verticales principales. Utiliza las unidades actuales de FormIt.
 
 ### Add Posts at Path Vertices
 
-When **true**, posts will be added at each vertex of the selected path, and the calculation for the next post positioning resets at that point.
+Si se establece en **True**, las pilastras se añadirán en cada vértice del camino seleccionado y el cálculo de la siguiente posición de la pilastra se restablecerá en ese punto.
 
-For example, if you selected a series of 3 edges, a post will appear at each of the two inner points. This is useful if the vertices indicate a change of direction (like going up stairs or turning corners) where a post would naturally occur.
+Por ejemplo, si ha seleccionado una serie de tres bordes, aparecerá una pilastra en cada uno de los dos puntos interiores. Esto resulta útil si los vértices indican un cambio de dirección \(como subir escaleras o girar esquinas\) en el que se colocará de forma natural una pilastra.
 
-When **false**, posts will only be added along the path starting from one end, and measuring the distance along the path, ignoring vertices along the way. This is useful if you've selected an arc, spline, or circle, where the vertices are not important, and you want the post spacing to ignore them.
+Si se establece en **False**, las pilastras solo se añadirán a lo largo del camino empezando desde un extremo y midiendo la distancia a lo largo del camino, omitiendo los vértices a lo largo de la trayectoria. Esto resulta útil si ha seleccionado un arco, una spline o un círculo, donde los vértices no son importantes y desea que la distancia entre pilastras los omita.
 
 ### Reverse Path Direction
 
-When calculating the positioning of the posts, the direction of the chosen path will determine which end of the path will start the post spacing measurement.
+Al calcular la posición de las pilastras, la dirección del camino seleccionado determinará el extremo del camino en el que se iniciará la medición de la distancia entre pilastras.
 
-In cases where the post spacing results in leftover space on an undesirable end of the path, you can change this value to **true** to flip the curve, and start the post spacing measurement at the opposite end.
+En los casos en que la distancia entre pilastras dé como resultado el espacio restante en un extremo no deseado del camino, puede cambiar este valor a **True** para voltear la curva e iniciar la medición de la separación entre pilastras en el extremo opuesto.
 
-### Post Width + Depth
+### Post Width + Post Depth
 
-The size (in plan) of the rectangular vertical post profiles. Uses the current FormIt units.
+El tamaño \(en plano\) de los perfiles de pilastra vertical rectangular. Utiliza las unidades actuales de FormIt.
 
-### Handrail Width + Height
+### Handrail Width + Handrail Height
 
-The size (in section) of the rectangular handrail profile. Uses the current FormIt units.
+El tamaño \(en sección\) del perfil de pasamanos rectangular. Utiliza las unidades actuales de FormIt.
 
 ### Baluster Orientation
 
-When true, balusters will be oriented horizontally, like cables. When false, the balusters will be oriented vertically, for a more traditional aesthetic.
+Si se establece en "True", los balaustres se orientarán horizontalmente, como los cables. Si se establece en "False", los balaustres se orientarán verticalmente para obtener una estética más tradicional.
 
-### Baluster width + Depth
+### Baluster Width + Baluster Depth
 
-The size of the baluster's rectangular profile. Uses the current FormIt units.
+El tamaño del perfil rectangular del balaustre. Utiliza las unidades actuales de FormIt.
 
 ### Baluster Spacing
 
-The amount of space between each baluster. Uses the current FormIt units.
+La cantidad de espacio entre cada balaustre. Utiliza las unidades actuales de FormIt.
 
 ### Bottom Rail Start Height
 
-The distance between the bottom of the railing, and the bottom rail that supports the balusters. Uses the current FormIt units.
+La distancia entre la parte inferior de la barandilla y el barandal inferior que soporta los balaustres. Utiliza las unidades actuales de FormIt.
 
-### Run
+### Ejecutar
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+Después de editar las opciones, haga clic en el botón Ejecutar para ejecutar el gráfico subyacente de Dynamo y generar nuevos resultados. Este botón se colorea de azul cuando se han modificado los parámetros, por lo que debe hacer clic en él para ver las actualizaciones en la geometría final.‌
 
-### Edit Embedded Graph
+### Editar gráfico incrustado
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+Al hacer clic en este botón, se inicia el entorno del editor de gráficos de Dynamo, por lo que puede ver y editar el gráfico subyacente de Dynamo para cambiar los parámetros y ver las actualizaciones directas con mayor rapidez o para inspeccionar o ajustar la lógica.
+

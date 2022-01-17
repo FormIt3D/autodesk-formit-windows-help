@@ -1,74 +1,75 @@
-# 1.10 - Computational Groups with Dynamo
+# 1.10 - Grupos de cálculo con Dynamo
 
-_In this chapter, we will leverage the computational power of_ [_**Dynamo**_](http://dynamobim.org) _to place and modify flexible groups that are tied to OOTB Dynamo Graphs Samples._
+_En este capítulo, aprovecharemos la potencia de cálculo de_ [_**Dynamo**_](http://dynamobim.org/) _para colocar y modificar grupos flexibles vinculados a muestras de gráficos de Dynamo de OOTB._
 
-_If you did not complete the last section, download and open the_ _**1.10 – Computational Groups with Dynamo.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Si no ha completado la última sección, descargue y abra el archivo_ _**1.10 – Computational Groups with Dynamo.axm**_ _en los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
-_You can_ [_**learn more here**_](http://formit.autodesk.com/page/formit-dynamo) _about how FormIt and Dynamo work together for computational design workflows._
+_Puede_ [_**obtener más información aquí**_](http://formit.autodesk.com/page/formit-dynamo) _sobre cómo funcionan juntos FormIt y Dynamo para los flujos de trabajo de diseño computacional._
 
-## **Create Lower Terrace Stairs**
+## **Crear escaleras de terraza interior**
 
-1 - Make sure the **Lower Terrace, Main Building Floor**, and **Plan Image** layers are turned on, since that is where we are going to add the stairs.
+1 - Asegúrese de que las capas **Lower Terrace, Main Building Floor** y **Plan Image** estén activadas, ya que es aquí donde vamos a añadir la escaleras.
 
-2 - To place a stair group tied to one of the OOTB Dynamo Samples:
+2 - Para colocar un grupo de escaleras vinculado a una de las muestras de Dynamo de OOTB:
 
-1. Open the **Dynamo Palette** in the Palette Bar. You should see a few built-in Dynamo objects in the **Dynamo Samples** directory
-2. Single-click the **Stairs** Dynamo sample to bring it to the model space. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.
-3. Move your cursor over the canvas, and once the stair is loaded, a ghosted preview of the stair geometry will now be moving alongside your mouse. Move your cursor over the canvas, near the terrace, and click to place the stair. Press **Esc** to clear the selection. Note that after placing the stairs the **Properties Palette** will automatically open.
+1. Abra la **paleta Dynamo** en la barra de paletas. Debería ver algunos objetos de Dynamo integrados en el directorio de **muestras de Dynamo**.
+2. Haga clic una vez en la muestra de Dynamo **Stairs** para llevarlo al espacio modelo. FormIt ejecutará el gráfico entre bastidores y generará la geometría de escalera a partir de este gráfico.
+3. Mueva el cursor sobre el lienzo y, una vez cargada la escalera, se desplazará una vista preliminar fantasma de la geometría de la escalera junto con el ratón. Mueva el cursor sobre el lienzo, cerca de la terraza, y haga clic para colocar la escalera. Pulse **Esc** para anular la selección. Tenga en cuenta que, después de colocar las escaleras, la **paleta Propiedades** se abrirá automáticamente.
 
-![](<../../.gitbook/assets/0 (15) (1).png>)
+![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**Note:**_ [_**You can also link local directories**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _containing Dynamo graphs, and run your own local Dynamo graphs just like these samples._
+_**Nota:**_ [_**También puede vincular directorios locales**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _que contengan gráficos de Dynamo y ejecutar sus propios gráficos locales de Dynamo como estas muestras._
 
-3 - To update the stairs dimensions:
+3 - Para actualizar las cotas de las escaleras, realice lo siguiente:
 
-1. With the stair group selected, modify the inputs available under the Dynamo **INPUTS** section at the bottom of the **Properties Palette** to match as shown below. Most groups created via Dynamo Scrips will have a Dynamo section included in their properties when selected.
+1. Con el grupo de escaleras seleccionado, modifique las entradas disponibles en la sección **ENTRADAS** de Dynamo en la parte inferior de la **paleta Propiedades** para que coincidan con las que se muestran a continuación. En la mayoría de los grupos creados mediante las secuencias de comandos de Dynamo, se incluirá una sección de Dynamo cuando se seleccionen.
    * Add Top Landing = False
    * Add Middle Landing = False
    * Add Bottom Landing = False
-   * Floor-to-Floor Height = 2.6
+   * Floor-to-Floor Height = 2,6
    * Stair Width = 12
-   * Riser Height = 0.6
-   * Tread Length = 1.25
-   * Tread Overlap = 0.25
-   * Tread Thickness = 0.25
-   * Height Between Middle Landings = (not relevant since no middle landing is being created)
-   * Middle Landing Length = (not relevant since no middle landing is being created)
-   * Top/Bottom Landing Length = (not relevant since no landing is being created)
-2. Click on the **Run** button to re-run the Dynamo script using the updated input values.
-3. Move the group as needed to place the stair in the correct location accordingly to the **Plan Image**. Take care not to change the elevation of the stair group at all as you move it. Refer to previous chapters to learn more about tricks and techniques when moving model elements.
+   * Riser Height = 0,6
+   * Tread Length = 1,25
+   * Tread Overlap = 0,25
+   * Tread Thickness = 0,25
+   * Height Between Middle Landings = \(no es pertinente porque no se está creando ningún descansillo central\)
+   * Middle Landing Length = \(no es pertinente porque no se está creando ningún descansillo central\)
+   * Top/Bottom Landing Length = \(no es pertinente porque no se está creando ningún descansillo\)
+2. Haga clic en el botón **Ejecutar** para volver a ejecutar la secuencia de comandos de Dynamo con los valores de entrada actualizados.
+3. Mueva el grupo según sea necesario para colocar la escalera en la ubicación correcta en consonancia con la **imagen del plano**. Tenga cuidado de no cambiar la elevación del grupo de escaleras al moverlo. Consulte los capítulos anteriores para obtener más información sobre los trucos y las técnicas al mover elementos de modelo.
 
-![](<../../.gitbook/assets/1 (11).png>)
+![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**‌Note:**_ _The_ _**Floor-to-Floor Height**_ _input is an approximation of the stair’s total height. The_ _**Riser Height**_ _is the parameter that actually defines the height of the stairs. In this example we set the_ _**Floor-to-Floor Height**_ _as 2.6’ but the final stair height is 3.0’ (0.6’ (**Riser Height**) x 5 (number of risers)). Since the span between the ground and the terrace top of floor is 3’-2”, the remaining 2” is contained in the upper riser._
+_**Nota:**_ _La entrada de_ _**Floor-to-Floor Height**_ _es una aproximación de la altura total de la escalera. El parámetro_ _**Riser Height**_ _define realmente la altura de las escaleras. En este ejemplo, se establece el valor de __**Floor-to-Floor Height**__ en 2,6', pero la altura final de la escalera es de 3,0' \(0,6' de \(**Riser Height**\) x 5 \(número de contrahuellas\)\). Dado que el intervalo entre el suelo y la parte superior del suelo de la terraza es de 3'-2", los 2" restantes se encuentran en la contrahuella superior._
 
-## **Create Main Building Stairs**
+## **Crear las escaleras del edificio principal**
 
-_In the previous steps we created a stair with no landings. Now we will create a stair that uses an upper landing that aligns with the_ _**Main Building Floor**._
+_En los pasos anteriores, hemos creado una escalera sin descansillos. Ahora crearemos una escalera que utiliza un descansillo superior que se alinea con el_ _**suelo del edificio principal**._
 
-1 - Start by making a copy of the stairs we just made:
+1 - Realice primero una copia de las escaleras que acabamos de crear, como se indica a continuación:
 
-1. Select the existing stair and then click anywhere on the **Plan Image** to start a move command. This will cause FormIt to use the elevation of the **Plan Image** as the starting reference height for place our new copy. Press **Ctrl** to make a **quick copy**.
-2. Move the cursor over closer to the main building above the terrace. Note that now the terrace’s top face is the new reference plane. Click to place the group.
+1. Seleccione la escalera existente y, a continuación, haga clic en cualquier lugar de la **imagen del plano** para iniciar un comando de desplazamiento. Esta acción permitirá que FormIt utilice la elevación de la **imagen del plano** como la altura de referencia inicial para colocar la nueva copia. Pulse **Ctrl** para realizar una **copia rápida**.
+2. Mueva el cursor en una ubicación más próxima al edificio principal por encima de la terraza. Observe que ahora la cara superior de la terraza es el nuevo plano de referencia. Haga clic para colocar el grupo.
 
-![](<../../.gitbook/assets/2 (9) (1).png>)
+![](../../.gitbook/assets/2%20%289%29.png)
 
-_**Note:**_ _Since the_ _**Plan Image**_ _is at the_ _**Ground Level**_ _plane, the_ _**Move Tool**_ _will use that plane as a reference for its start point. Note the_ _**On Face**_ _tooltip in the above image, indicating that the Plan Image face is selected as the starting reference, and the top face of the_ _**Lower Terrace Floor**_ _is selected as the ending reference._
+_**Nota:**_ _Como la_ _**imagen del plano**_ _se encuentra en el plano de_ _**nivel de suelo**_ _, la_ _**herramienta Mover**_ _utilizará ese plano como referencia para su punto inicial. Obsérvese la información de herramientas_ _**En la cara**_ _de la imagen de arriba, que indica que la cara de la imagen del plano está seleccionada como referencia inicial y la cara superior del_ _**suelo de la terraza superior**_ _está seleccionada como la referencia final._
 
-2 - Use the **Make Unique (MU)** tool so that when we change this stair’s Dynamo inputs it will not affect the lower stair. Reposition the group as needed so that it is close to its final location – we will fine tune this later. You can toggle the **Lower Terrace** layer visibility to see the plan below to help position it, but again be careful not to change the new stair’s elevation as you move it.
+2. Utilice la herramienta **Establecer como exclusivo \(MU\)** para que, al cambiar las entradas de Dynamo de esta escalera, esto no afecte a la escalera inferior. Cambie la posición del grupo según sea necesario para que esté cerca de su ubicación final. Lo ajustaremos de forma más precisa posteriormente. Puede activar o desactivar la visibilidad de la capa **Lower Terrace** para ver el plano siguiente para ayudarle a colocarla, pero tenga cuidado de no cambiar el alzado de la nueva escalera a medida que la desplaza.
 
-3 - In the **Properties Palette** update the **Dynamo Inputs** as shown below and run the script once more.
+3 - En la **paleta Propiedades**, actualice las **entradas de Dynamo** como se muestra a continuación y ejecute la secuencia de comandos una vez más.
 
 * Add Top Landing = True
-* Floor-to-Floor Height = 2.333
-* Riser Height = 0.466
-* Tread Length = 1.5
-* Top/Bottom Landing Length = 2.5
+* Floor-to-Floor Height = 2,333
+* Riser Height = 0,466
+* Tread Length = 1,5
+* Top/Bottom Landing Length = 2,5
 
-![](<../../.gitbook/assets/3 (1).jpeg>)
+![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**Note:**_ _If you set_ _**Add Bottom Landing**_ _to_ _**true**_ _and re-run the script, the bottom landing’s top face should align with the_ _**Lower Terrace Floor**’s top face. This is happening because – differently from the previous stairs - we adjusted the_ _**Riser Height**_ _to match the_ _**Floor-to-Floor Height**_ _to the true height we want (2’-4” or 2.333’)._
+_**Nota:**_ _Si establece_ _**Add Bottom Landing**_ _en_ _**True**_ _y vuelve a ejecutar la secuencia de comandos, la cara superior del descansillo inferior debería alinearse con la cara superior del_ _**suelo de la terraza inferior**. Esto sucede porque, a diferencia de las escaleras anteriores, hemos ajustado el valor de_ _**Riser Height**_ _para que coincida con el valor de_ _**Floor-to-Floor Height**_ _en la verdadera altura que deseamos \(2'-4'' o 2,333'\)._
 
-2 - Reposition the group again to its final position. The top landing should be flush with the **Main Building Floor**.
+2 - Vuelva a colocar el grupo en su posición final. El descansillo superior debe estar nivelado con el **suelo del edificio principal**.
 
-3 - To finalize the stairs, add the **Stone - Travertine** material to it to match the floors. To learn more about how to apply materials, see previous chapters.
+3 - Para finalizar las escaleras, añada el material **Stone - Travertine** para que coincida con los suelos. Para obtener más información sobre cómo aplicar materiales, consulte los capítulos anteriores.
+

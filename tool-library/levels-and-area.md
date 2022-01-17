@@ -1,45 +1,48 @@
-# Levels and Area
+# Niveles y área
 
-After creating geometry in FormIt, you can apply Levels to indicate where floor elevations are, and to generate area calculations.
+Después de crear la geometría en FormIt, puede aplicar Niveles para indicar dónde están las elevaciones de suelo y generar cálculos de área.
 
-Take a look at the [FormIt Primer ](../formit-primer/part-i/adding-floors-with-levels.md)to see Levels in action.
+Consulte [FormIt Primer](../formit-primer/part-i/adding-floors-with-levels.md) para ver los niveles en acción.
 
-## Creating and Configuring Levels
+## Creación y configuración de niveles
 
-You'll find the Levels panel on the right side of FormIt for Windows:
+Encontrará el panel Niveles en el lado derecho de FormIt para Windows, como se muestra a continuación:
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-### Create and Delete Levels
+#### Crear y suprimir niveles
 
-* Create a new Level by clicking the "+" button.
-* Create a series of Levels by clicking the "++" button.
-  * This will allow specifying how many Levels to create, and the vertical distance between them.
-* Select one or more Levels and click "-" to delete them.
+* Para crear un nivel, haga clic en el botón "+".
+* Para crear un serie de niveles, haga clic en el botón "++".
+   * Esto permitirá especificar los niveles que se van a crear y la distancia vertical entre ellos.
+* Seleccione uno o más niveles y haga clic en "-" para suprimirlos.
 
-### Rename, Set Elevations, and Renumber Levels
+#### Cambiar nombre, establecer elevaciones y volver a numerar niveles
 
-* Rename a Level by double-clicking on the name, or by right-clicking and choosing "Edit Name".
-* Adjust a Level's elevation by double-clicking on the number, or by right-clicking and choosing "Edit Elevation".
-* Click the Refresh icon at the top to renumber Levels.
-  * This is useful if you've added or removed levels, and the default naming scheme is out of sync (i.e. Level 1, Level 2, Level 5).
-  * This button will ignore any Levels with custom names, but will renumber any Levels with the name following the "Level 1" syntax.
+* Cambie el nombre de un nivel. Para ello, haga doble clic en el nombre o haga clic con el botón derecho y seleccione Editar nombre.
+* Ajuste la elevación de un nivel. Para ello, haga doble clic en el número o haga clic con el botón derecho y seleccione Editar elevación.
+* Haga clic en el icono Actualizar en la parte superior para cambiar la numeración de los niveles.
+   * Esto resulta útil si ha añadido o eliminado niveles y el esquema de nombres por defecto no está sincronizado \(por ejemplo, Nivel 1, Nivel 2, Nivel 5\).
+   * Este botón omitirá los niveles con nombres personalizados, pero volverá a numerar los niveles con el nombre que se encuentre después de la sintaxis "Nivel 1".
 
-## Applying Levels
+## Aplicación de niveles
 
-To apply Levels to an object, you'll need to select the object and head over to the Properties panel.
+Para aplicar niveles a un objeto, deberá seleccionar el objeto y pasar al panel Propiedades.
 
-Note that to apply Levels to an object, the object must be solid, with no back face or watertight issues. [Learn how to check your model for watertight and back face issues](https://formit.autodesk.com/blog/post/repairing-solid-models).
+Tenga en cuenta que, para aplicar niveles a un objeto, este debe ser sólido, sin problemas de caras posteriores o hermeticidad. [Obtenga información sobre cómo comprobar si el modelo presenta problemas de hermeticidad y caras posteriores](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-With a solid object selected in the canvas (in this example, a simple building shell), the Properties panel will show a "Use Levels" checkbox.
+Con un objeto sólido seleccionado en el lienzo \(en este ejemplo, un vaciado de edificio simple\), el grupo Propiedades presentará la casilla de verificación Utilizar niveles.
 
-* If the FormIt sketch already has Levels defined (see above), then checking this box will use all Levels that would intersect this shape (ignoring any that would be too high or too low).
-* If the FormIt sketch does not have Levels already, checking this box will create enough default Levels.(12' floor-to-floor height) to intersect the entire shape, and will automatically apply those Levels to this object.
+* Si el boceto de FormIt ya tiene niveles definidos \(como se muestra arriba\), al activar esta casilla, se utilizarán todos los niveles que se intersequen con esta forma \(y se omitirán los que sean demasiado altos o bajos\).
+* Si el boceto de FormIt no tiene niveles, al activar esta casilla, se crearán suficientes niveles por defecto\(altura de suelo a suelo de 12'\) para intersecar toda la forma y se aplicarán automáticamente esos niveles a este objeto.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Levels + Revit
+## Niveles + Revit
 
-When Levels are applied to FormIt geometry, those Levels will be sent to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit).
+Si se aplican niveles a la geometría de FormIt, esos niveles se enviarán a Revit cuando se utilice el [complemento FormIt](https://formit.autodesk.com/page/formit-revit).
 
-In Revit, you can use the FormIt levels to create Mass floors, Floor by Face, and floor plans associated with the FormIt Levels.
+En Revit, puede utilizar los niveles de FormIt para crear suelos de masa, suelos por cara y planos de planta asociados a ellos.
+
+
+

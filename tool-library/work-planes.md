@@ -1,15 +1,16 @@
-# Work Planes
+# Planos de trabajo
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+Cuando se cambian los ejes globales en el boceto principal o los ejes locales de un grupo, se asocia un plano de trabajo a los ejes X e Y. Un **plano de trabajo** es una superficie virtual bidimensional que se utiliza como plano por defecto para la creación de bocetos. Este plano de trabajo se estirará hasta el infinito y proporcionará una superficie para crear el boceto sin forzar el cursor a los elementos que se encuentran detrás de él.
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+Para obtener información sobre cómo editar el plano de suelo, consulte [Estilos visuales.](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## Cambio de planos de trabajo
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+Rote los [ejes universales](world-axes.md) al plano de otro objeto en el boceto. De este modo, se alineará el plano de trabajo activo para que se corresponda con esta cara. Ahora puede crear bocetos, colocar elementos y modificar elementos en relación con el nuevo plano XY en lugar del plano de suelo por defecto. Puede orbitar detrás o debajo de la rejilla y los planos de trabajo para forzar el cursor y establecer deducciones a los elementos que están detrás.
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style > Environment > **Display Grid (DG).**
+Puede activar y desactivar la visibilidad de la línea de rejilla para beneficiarse de la creación de bocetos basados en planos de trabajo. Puede controlar este parámetro en Estilo visual &gt; Entorno &gt; **Mostrar rejilla \(DG\).**
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings > **Snap to Grid (SG).**
+También puede controlar si se fuerza el cursor a la rejilla al dibujar. Active y desactive este parámetro en Configuración &gt; **Forzar cursor a rejilla \(SG\).**
 
 ![](../.gitbook/assets/work-plane.gif)
+

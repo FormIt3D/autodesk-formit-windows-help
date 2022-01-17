@@ -1,21 +1,22 @@
-# 1.14 - Export Image
+# 1.14 - Exportar imagen
 
-_In this chapter, we will be exporting a high-resolution image of the sectional perspective scene we have built up over the last few chapters._
+_En este capítulo, exportaremos una imagen de alta resolución de la escena en sección en perspectiva que hemos creado en los últimos capítulos._
 
-_Although not required to complete this chapter, if you did not follow the whole tutorial up until this point and would like to export images similar to what is shown below, download and open the_ _**1.14 – Export Image.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Aunque no es necesario completar este capítulo, si no ha seguido todo el aprendizaje hasta este momento y desea exportar imágenes similares a las que se muestran a continuación, descargue y abra el archivo_ _**1.14 - Export Image.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
-1 - When exporting an image, whatever is shown in the canvas will be exported almost exactly as you see it in FormIt. We would like to export an image of the **Section** Scene.
+1 - Al exportar una imagen, lo que se muestra en el lienzo se exportará casi exactamente como aparece en FormIt. Deseamos exportar una imagen de la escena **Section**.
 
-1. So first we need to open up that scene form the **Scenes Palette** by double-click on it.
-2. From the **Main Manu** bar, go to **File > Export > Locally (Ctrl + E)**. The **Export File** window will pop-up.
-3. In the new window, under **File type options** scroll down and select **As Image** (it is the last one). In the export options box, after **Preset:** changes the dropdown option to be **4K UHD** instead of **Viewport**. This will automatically define the output image resolution, **Dimension (px)**, to **3840** x **2160** pixels.
-4. Click on **Export** and the **Specify file to save to…** window will pop-up.
-5. In the new window, navigate to choose the location and name to save the image at, then click **Save**.
+1. Por lo tanto, debemos abrir esa escena en la **paleta Escenas**. Para ello, haga doble clic en ella.
+2. En la barra **Menú principal**, vaya a **Archivo &gt; Exportar &gt; Localmente \(Ctrl + E\)**. Se abrirá la ventana **Exportar archivo**.
+3. En la nueva ventana, en **Opciones de tipo de archivo**, desplácese hacia abajo y seleccione **Como imagen** \(la última opción\). En el cuadro de opciones de exportación, después de **Predefinido:**, cambie la opción desplegable a **4K UHD** en lugar de **Ventana gráfica**. Esta acción definirá automáticamente la resolución de la imagen de salida, **Cotas \(px\)**, en **3840** x **2160** píxeles.
+4. Haga clic en **Exportar**; aparecerá la ventana **Especifique el archivo en el que desea guardar...**.
+5. En la nueva ventana, desplácese para elegir la ubicación en la que desea guardar la imagen y su nombre; a continuación, haga clic en **Guardar**.
 
-![](<../../.gitbook/assets/0 (5).png>)
+![](../../.gitbook/assets/0%20%285%29.png)
 
-2 - If you wish to compare your results to the provided export image, go to **Farnsworth House Data Set > Supporting Files > Images**.
+2 - Si desea comparar los resultados con la imagen de exportación proporcionada, vaya a **Farnsworth House Data Set &gt; Supporting Files &gt; Images**.
 
-![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
+![Se ha proporcionado una imagen de exportación de muestra del conjunto de datos de Farnsworth House.](../../.gitbook/assets/1%20%2816%29.png)
 
 \_\_
+

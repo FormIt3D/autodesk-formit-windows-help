@@ -1,15 +1,20 @@
-# Faces: Flatten
+# Caras: Aplanar caras
 
-Use the **Flatten Faces** tool to force two or more object faces into the same plane.
+Utilice la herramienta **Aplanar caras** para forzar dos o más caras de objetos en el mismo plano.
 
-When two or more object faces are selected, you can select the **Flatten Faces** tool from the **Context** menu. You can also access **Flatten Faces** using the shortcut "**FL**."
+Cuando se seleccionan dos o más caras de objeto, puede seleccionar la herramienta **Aplanar caras** en el menú **contextual**. También puede acceder a **Aplanar caras** mediante el método abreviado **FL**.
 
-![](../.gitbook/assets/flatten\_faces.png)
+![](../.gitbook/assets/flatten_faces.png)
 
-**Flatten Faces** can be useful as a repair tool when a face that should be planar becomes unexpectedly faceted (with smooth edges between the facets), either when importing lower-fidelity data like [SketchUp models](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), or after accidentally moving a vertex or edge which causes a face to get faceted or triangulated.
+**Aplanar caras** puede ser útil como herramienta de reparación cuando una cara que debería ser plana se faceta de forma inesperada \(con bordes suaves entre las facetas\), ya sea al importar datos de baja fidelidad como [modelos de SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten) o después de mover accidentalmente un vértice o un borde que provoca que una cara se facete o se triangule.
 
-You can also use **Flatten Faces** as a design tool for aligning or extending shapes. To do this, first, select a guide surface, then select additional faces to flatten to the plane of the first surface.
+También puede utilizar la herramienta **Aplanar caras** como herramienta de diseño para alinear o alargar formas. Para ello, seleccione primero una superficie guía y, a continuación, elija caras adicionales para aplanar hasta el plano de la primera superficie.
 
-Check out the video below to see the power and versatility of **Flatten Faces**:
+Consulte el siguiente vídeo para ver la eficacia y la versatilidad de la herramienta **Aplanar caras**:
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
+
+
+
+
+

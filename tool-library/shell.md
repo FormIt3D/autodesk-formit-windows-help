@@ -1,3 +1,4 @@
-# Shell
+# Vaciado
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+A partir de un objeto sólido, se puede crear un "vaciado" de una anchura especificada. Los vaciados son útiles para crear muros rápidamente a partir de un modelo de masa.
+

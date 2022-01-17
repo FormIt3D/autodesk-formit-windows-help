@@ -1,13 +1,14 @@
-# Circle
+# Círculo
 
-Use the Circle tool to draw a circle in space or on another object.
+Utilice la herramienta Círculo para dibujar un círculo en el espacio o en otro objeto.
 
-Keyboard: C
+Teclado: C
 
-![](../.gitbook/assets/circle\_toolbar.png)
+![](../.gitbook/assets/circle_toolbar.png)
 
-To draw a circle, first, choose the center point and then specify the circle radius. Next, the circle automatically becomes a face.
+Para dibujar un círculo, seleccione primero el centro y, a continuación, especifique el radio del círculo. A continuación, el círculo se convierte automáticamente en una cara.
 
 ![](../.gitbook/assets/circle1.png)
 
 ![](../.gitbook/assets/circle2.png)
+

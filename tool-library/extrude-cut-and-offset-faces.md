@@ -1,29 +1,30 @@
-# Faces: Extrude, Cut and Offset
+# Caras: Extruir, Cortar y Desfase
 
-Push or pull a face, imprint new shapes on existing ones, or create new offset edges.
+Empuje una cara o tire de ella, estampe nuevas formas en las existentes o cree nuevos bordes de desfase.
 
-## Extrude
+## Extruir
 
-To push or pull a face, select a face with a single click, then click and drag. The face will move back and forth, you can now move your mouse to snap and inference on other model elements. Click again to finish moving the face. Hold down the CTRL key to retain the original edges.
+Para empujar una cara o tirar de ella, seleccione una cara con un solo clic y, a continuación, haga clic y arrastre. La cara se moverá hacia adelante y hacia atrás; ahora puede mover el ratón para forzar el cursor y realizar deducciones en otros elementos del modelo. Haga clic de nuevo para finalizar el desplazamiento de la cara. Mantenga pulsada la tecla CTRL para conservar los bordes originales.
 
-![](<../.gitbook/assets/extrude (1).png>)
+![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprint
+## Estampar
 
-To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles, or circles onto existing faces. This action creates new faces that can be pushed or pulled independently of the original face.
+Si desea estampar formas, utilice una herramienta de boceto 3D para dibujar líneas, arcos, splines, rectángulos o círculos en caras existentes. Esta acción crea nuevas caras que se pueden empujar o de las que se puede tirar con independencia de la cara original.
 
-![](../.gitbook/assets/imprint1.png)\
+![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## Desfase
 
-To offset the face of an object:
+Para desfasar la cara de un objeto, realice lo siguiente:
 
-1. First select the face you would like to edit, then right-click to view the **Context** menu.&#x20;
-2. From the **Context** menu, click on the **Offset Face** tool.&#x20;
-3. Move your cursor over the selected face and adjust the lines that display until you reach your desired offset effect.
-4. Click anywhere to complete the offset. You can now independently push or pull the offset face.
+1. Seleccione primero la cara que desea editar y, a continuación, haga clic con el botón derecho para ver el menú **contextual**.
+2. En el menú **contextual**, haga clic en la herramienta **Desfasar cara**.
+3. Coloque el cursor sobre la cara seleccionada y ajuste las líneas que se muestran hasta que obtenga el efecto de desfase deseado.
+4. Haga clic en cualquier lugar para completar el desfase. Ahora puede empujar o tirar con independencia de la cara de desfase.
 
-![](../.gitbook/assets/offset1.png)\
-![](../.gitbook/assets/offset2.png)\
+![](../.gitbook/assets/offset1.png)  
+![](../.gitbook/assets/offset2.png)  
 ![](../.gitbook/assets/offset3.png)
+

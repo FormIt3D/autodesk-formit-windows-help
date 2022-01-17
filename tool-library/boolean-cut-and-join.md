@@ -1,27 +1,28 @@
-# Boolean Cut
+# Corte booleano
 
-You can cut one object or group from another with the Cut Tool. There are two ways to access the Cut tool:
+Puede cortar un objeto o grupo de otro con la herramienta Cortar. Existen dos métodos para acceder a la herramienta Cortar:
 
-## Run the Cut command first
+## Ejecutar primero el comando Cortar
 
-Keyboard: C G
+Teclado: C G
 
-![](../.gitbook/assets/cut\_tool.png)
+![](../.gitbook/assets/cut_tool.png)
 
-Run the Cut command and follow the mode instruction in the upper left of the screen
+Ejecute el comando Cortar y siga la instrucción de modo que aparece en la parte superior izquierda de la pantalla.
 
-Single-click to select an object to cut into:
+Haga clic una vez para seleccionar un objeto en el que cortar:
 
-![](../.gitbook/assets/boolean\_cut.png)
+![](../.gitbook/assets/boolean_cut.png)
 
-Single click to select an object(s) or group(s) to be removed:
+Haga clic una vez para seleccionar los objetos o los grupos que se van a eliminar:
 
-![](../.gitbook/assets/boolean\_cut2.png)
+![](../.gitbook/assets/boolean_cut2.png)
 
-Click the checkmark to finish the command. The object that was removed remains in the scene. You can delete it or use [Layers ](layers.md)to hide it.
+Haga clic en la marca de verificación para finalizar el comando. El objeto que se ha eliminado permanece en la escena. Puede suprimirlo o utilizar la herramienta [Capas](layers.md) para ocultarlo.
 
-## Select objects first
+## Seleccionar primero objetos
 
-1. Double-click to select the object to be cut into. (Single-click for a Group)
-2. Holding the **CTRL key** double click an overlapping object(s) to cut out.
-3. Right-click on the object that will be cut, and choose the [**Cut tool**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) in the Context Menu. ![](<../.gitbook/assets/cut tool.png>)
+1. Haga doble clic para seleccionar el objeto en el que desea cortar. \(Haga clic una vez para un grupo\).
+2. Si mantiene pulsada la tecla **CTRL**, haga doble clic en objetos solapados para recortarlos.
+3. Haga clic con el botón derecho en el objeto que se va a cortar y seleccione la [**herramienta Cortar**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) en el menú contextual. ![](../.gitbook/assets/booleancut.png)
+

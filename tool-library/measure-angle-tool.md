@@ -1,21 +1,26 @@
-# Measure Angle
+# Medir ángulo
 
-The Measure Angle tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+La herramienta Medir ángulo se encuentra en la [barra de herramientas](../formit-introduction/tool-bars.md).
 
-The Measure Angle tool is used to measure angles between vertices, edges, faces, and volumes. You can also use the Measure Angle tool to drive dimensions of geometry.
+La herramienta Medir ángulo permite medir ángulos entre vértices, bordes, caras y volúmenes. También puede utilizar la herramienta Medir ángulo para controlar las cotas de la geometría.
 
-*   From the **Measure** toolbar menu, select the **Measure Angle** tool or use the keyboard shortcut **M A** and select a starting point.
+* En el menú de la barra de herramientas **Medir**, seleccione la herramienta **Medir ángulo** o utilice el método abreviado de teclado **M A** y seleccione un punto inicial.
 
-    ![](../.gitbook/assets/measure-angle.png)
-*   Click and drag the handle to the starting vertex.
+   ![](../.gitbook/assets/measure-angle.png)
 
-    ![](../.gitbook/assets/measure-angle2.png)
-*   Use the arrows to measure the angle between one point to another.
+* Haga clic en el pinzamiento y arrástrelo al vértice inicial.
 
-    ![](../.gitbook/assets/measure-angle4.png)
-*   To change the geometry, click on an edge or face and enter a new angle value by clicking on the displayed angle.
+   ![](../.gitbook/assets/measure-angle2.png)
 
-    ![](<../.gitbook/assets/measure-angle3 (1).png>)
-*   Your changes or measurements display:
+* Utilice las flechas para medir el ángulo entre un punto y otro.
 
-    ![](../.gitbook/assets/measure-angle5.png)
+   ![](../.gitbook/assets/measure-angle4.png)
+
+* Para cambiar la geometría, haga clic en un borde o una cara y especifique un nuevo valor de ángulo haciendo clic en el ángulo mostrado.
+
+   ![](../.gitbook/assets/measure-angle3.png)
+
+* Se muestran los cambios o las medidas, como se muestra a continuación:
+
+   ![](../.gitbook/assets/measure-angle5.png)
+

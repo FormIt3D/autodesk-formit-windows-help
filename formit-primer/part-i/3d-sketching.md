@@ -1,68 +1,69 @@
-# 1.3 - 3D Sketch and Drag Face
+# 1.3 - Boceto 3D y Arrastrar cara
 
-_We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at its core consists of drawing lines to create faces and then dragging those faces to create volumes._
+_Estamos listos para empezar a dibujar la Farnsworth House. El modelado 3D en FormIt consiste en esencia en dibujar líneas para crear caras y, a continuación, arrastrar esas caras para crear volúmenes._
 
-‌ _If you did not complete the last section, download and open the_ _**1.3 - 3D Sketch and Drag Face.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+‌ _Si no ha completado la última sección, descargue y abra el archivo_ _**1.3 - 3D Sketch and Drag Face.axm**_ _del_ _**conjunto de datos de la parte 1 de FormIt Primer**._
 
-## **Draw Faces with Lines**
+## **Dibujar caras con líneas**
 
-1 – To facilitate the modeling process, you can use the **Floating Navigation Toolbar** to switch between different views modes. For this exercise, we recommend using the **Perspective (VP)** and **3D View (V3).**
+1 - Para facilitar el proceso de modelado, puede utilizar la **barra de herramientas de navegación flotante** para alternar entre los diferentes modos de vista. Para este ejercicio, se recomienda utilizar **Perspectiva \(VP\)** y **Vista 3D \(V3\).**
 
-![](<../../.gitbook/assets/0 (4).png>)
+![](../../.gitbook/assets/0%20%284%29.png)
 
-2 – Newly created geometry will automatically join or “stick to” any existing ungrouped geometry it touches. To avoid this, you will typically want to organize your geometry with groups. To create a group from the floor plan, select the rectangle by double-clicking it, then right-click to access the **Context Menu** and select **Group (G).**
+2 - La geometría recién creada se unirá o "se adherirá" automáticamente a cualquier geometría existente sin agrupar que toque. Para evitar esto, por lo general, es recomendable organizar la geometría en grupos. Para crear un grupo a partir del plano de planta, seleccione el rectángulo haciendo doble clic en él y, a continuación, haga clic con el botón derecho para acceder al **menú contextual** y seleccione **Grupo \(G\).**
 
-![](<../../.gitbook/assets/1 (2).png>)
+![](../../.gitbook/assets/1%20%282%29.png)
 
-3 – When tracing the plan we don’t want the lines to snap to the grid, so click on **Settings** in the **Main Menu** and unchecking **Snap to Grid (SG).**
+3 - Al trazar el plano, no deseamos que las líneas fuercen el cursor a la rejilla, por lo que haga clic en **Configuración** en el **menú principal** y desactive **Forzar cursor a rejilla \(SG\).**
 
-![](<../../.gitbook/assets/2 (12).png>)
+![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 – To start drawing, click the **Create Sketch** (Pencil) icon in the **Standard Toolbar** and choose the **Line tool (L)**.
+4 - Para iniciar el dibujo, haga clic en el icono **Crear boceto** \(Lápiz\) de la **barra de herramientas estándar** y seleccione la **herramienta Línea \(L\)**.
 
-![](<../../.gitbook/assets/3 (17).png>)
+![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 - Let's start by creating a rectangle on the imported image. To create the first line:
+5 - Creemos primero un rectángulo en la imagen importada. Para crear la primera línea, realice lo siguiente:
 
-1. While in the **Line tool**, click near **the upper left corner** of the upper terrace in the imported sketch.
-2. Move your mouse along the red axis that appears.
-3. Click the **Tab** key to input the dimension: **77'-4 1\8".**
+1. En la **herramienta Línea**, haga clic cerca de **la esquina superior izquierda** de la terraza superior del boceto importado.
+2. Desplace el cursor a lo largo del eje rojo que aparece.
+3. Haga clic en la tecla **Tab** para introducir la siguiente cota: **77'-4 1\8".**
 
-![](<../../.gitbook/assets/4 (16).png>)
+![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Note:** Anytime a temporary dimension appears while sketching, you can either press_ _**Tab** or just start typing a number_ _to open the_ _**Dimension Dialog**._
+_**Nota:** Cada vez que aparezca una cota temporal durante la creación del boceto, puede pulsar_ _**Tab** o simplemente empezar a escribir un número_ _para abrir el_ _**cuadro de diálogo Cota**._
 
-6 – To create the second line, move your mouse down along the green axis and enter **28’-8**” for the upper terrace’s short edge.
+6 - Para crear la segunda línea, desplace el cursor del ratón hacia abajo a lo largo del eje verde y escriba **28'-8"** para el borde corto de la terraza superior.
 
-7 - To define the rectangle’s third edge and finish:
+7 - Para definir el tercer borde y el acabado del rectángulo:
 
-1. Move your mouse along the red axis and hold down the **Shift** key. The red axis line will thicken to indicate that the line is locked to this axis.
-2. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the endpoint.
-3. The third point will automatically be set, parallel to the red - axis defined by (A) - and the green axis - defined by (B).
-4. Finally, to finish enclosing the rectangle, release the **Shift** key and click back on the first point you drew. Press **Esc** twice to exit the sketch tool.
+1. Desplace el cursor del ratón por el eje rojo y mantenga pulsada la tecla **Mayús**. Aumentará el grosor de la línea del eje rojo para indicar que está bloqueada en este eje.
+2. Mientras mantiene pulsada la tecla **Mayús**, desplace el cursor del ratón hasta el primer punto que ha dibujado. Haga clic para confirmar el punto final.
+3. El tercer punto se establecerá automáticamente, paralelo al eje rojo definido por \(A\) y el eje verde definido por \(B\).
+4. Por último, para terminar de cerrar el rectángulo, suelte la tecla **Mayús** y haga clic en el primer punto que ha dibujado. Pulse **Esc** dos veces para salir de la herramienta Boceto.
 
-_**Note:**_ _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off the world axes, a purple axis line will allow you to stay 90 degrees relative to your off-axis line._
+_**Nota:**_ _Los ejes rojo y verde le permiten dibujar de forma paralela y perpendicular al eje. Cuando dibuja una línea fuera de los ejes universales, una línea de eje morado le permitirá mantener un ángulo de 90 grados con respecto a la línea fuera del eje._
 
-![](<../../.gitbook/assets/5 (2) (1).png>)
+![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Drag the Face to Create Volume**
+## **Arrastrar la cara para crear un volumen**
 
-1 - Single-click inside the outline you just drew to select the face. You are now automatically in the **Drag Face** tool.
+1 - Haga clic una vez dentro del contorno que acaba de dibujar para seleccionar la cara. Ahora se encuentra automáticamente en la herramienta **Arrastrar cara**.
 
-2 - Single-click again to start the dragging. Move your mouse upwards (along the positive Z-axis) to extrude a volume in that direction. Start typing **12'-2"**, and a dimension box will appear with this value, then hit **Enter**.
+2 - Vuelva a hacer clic una vez para empezar a arrastrar la cara. Desplace el cursor del ratón hacia arriba \(a lo largo del eje Z positivo\) para extruir un volumen en esa dirección. Empiece a escribir **12'-2"**; aparecerá un cuadro de cota con este valor. A continuación, pulse **Intro**.
 
-![](<../../.gitbook/assets/6 (3) (1).png>)
+![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Note:**_ _A_ _single-click_ _will select just a single face, whereas a_ _double-click_ _will select all (ungrouped) adjacent edges and faces._
+_**Nota:**_ _Si solo __hace clic una vez,__ seleccionará solo una cara, mientras que, si __hace doble clic,__ seleccionará todos los bordes y las caras adyacentes \(desagrupadas\)._
 
-## **3D Sketching with Arc, Spline, and Circle**
+## **Boceto 3D con arco, spline y círculo**
 
-_The following exercise is not critical to finishing the house. However, it will allow you to experiment with some of the other 3D Sketching tools available. Click_ _**here**_ _to learn more about 3D sketching with World Axes._
+_El siguiente ejercicio no es fundamental para finalizar la casa. Sin embargo, le permitirá experimentar con algunas de las otras herramientas de boceto 3D disponibles. Haga clic_ _**aquí**_ _para obtener más información sobre el boceto 3D con ejes universales._
 
-1 - Select the **Arc by three arc points (A)** tool. Click to define the start, and then the endpoint. The third click defines the arc's radius.
+1 - Seleccione la herramienta **Arco a partir de tres puntos \(A\)**. Haga clic para definir el inicio y, a continuación, el punto final. Al hacer clic por tercera vez, se define el radio del arco.
 
-2 - Select the **Spline (S)** tool. Click to define any number of points to draw a spline.
+2 - Seleccione la herramienta **Spline \(S\)**. Haga clic para definir el número de puntos que desee para dibujar una spline.
 
-3 - Select the **Circle (C)** tool. Hover and click to define the circle's center point. Click and drag or enter a dimension to define the radius.
+3 - Seleccione la herramienta **Círculo \(C\)**. Mantenga el cursor sobre el punto central del círculo y haga clic para definirlo. Haga clic y arrastre o introduzca una cota para definir el radio.
 
-![](<../../.gitbook/assets/7 (7).png>)
+![](../../.gitbook/assets/7%20%287%29.png)
+

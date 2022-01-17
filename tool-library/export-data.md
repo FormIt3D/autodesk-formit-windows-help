@@ -1,21 +1,22 @@
-# Import and Export Data
+# Importación y exportación de datos
 
-## Importing Data
+## Importación de datos
 
-The following file formats can be imported.
+Se pueden importar los siguientes formatos de archivo.
 
-* **OBJ**: OBJ 3D mesh files are imported as a single FormIt Group. No materials are imported.
-* **DWG**: 2D and 3D DWG files are imported as a single FormIt Group. Object colors are supported.
-* **STL**:  STL 3D mesh files are imported as a single FormIt Group.
-* **SAT**: SAT solid model files are imported as a single FormIt Group.
-* **SKP**: SketchUp files are imported. Groups and Components are imported as FormIt Groups. Layers and materials are supported.&#x20;
+* **OBJ**: los archivos de malla 3D OBJ se importan como un único grupo de FormIt. No se importa ningún material.
+* **DWG**: los archivos DWG 2D y 3D se importan como un único grupo de FormIt. Se admiten los colores de objeto.
+* **STL**: los archivos de malla 3D STL se importan como un único grupo de FormIt.
+* **SAT**: los archivos de modelo sólido SAT se importan como un único grupo de FormIt.
+* **SKP**: se importan los archivos de SketchUp. Los grupos y componentes se importan como grupos de FormIt. Se admiten capas y materiales.
 
-[**Find out more about how to work with imported data**](../formit-primer/part-i/import-export-and-content-library.md)
+[**Obtenga más información sobre cómo trabajar con datos importados**](../formit-primer/part-i/import-export-and-content-library.md).
 
-## Exporting Data
+## Exportación de datos
 
-FormIt can export the following file formats: AXM (FormIt file), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ (with a separate .MTL file), PNG images.
+FormIt puede exportar los siguientes formatos de archivo: AXM \(archivo de FormIt\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(materiales y 3D en un único archivo ZIP\) e imágenes PNG.
 
-When exporting individual files, you can choose to export **All Objects**, **Visible Only**, or **Selected Only**.
+Al exportar archivos individuales, puede optar por importar **Todos los objetos**, **Solo elementos visibles** o **Solo selección**.
 
-![](<../.gitbook/assets/export\_window (1).png>)
+![](../.gitbook/assets/export_window.png)
+

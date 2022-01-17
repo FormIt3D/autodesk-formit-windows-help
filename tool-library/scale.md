@@ -1,12 +1,13 @@
-# Scale Object
+# Ajustar escala de objetos
 
-You can use the **Scale tool** to adjust the size and orientation of objects.
+Puede utilizar la **herramienta Escala** para ajustar el tamaño y la orientación de los objetos.
 
-1. Select an object you want to adjust.&#x20;
-2. Right-click to launch the **Context Menu**.&#x20;
-3. From the Context Menu, select the **Scale tool**.&#x20;
-4. Use the scroll wheel on your mouse to scale the geometry up or down.
+1. Seleccione el objeto que desea ajustar.
+2. Haga clic con el botón derecho del ratón para iniciar el **menú contextual**.
+3. En el menú contextual, seleccione la **herramienta Escala**.
+4. Utilice la rueda de desplazamiento del ratón para aumentar o reducir la escala de la geometría.
 
 ![](../.gitbook/assets/scale1.png)
 
 ![](../.gitbook/assets/scale2.png)
+

@@ -1,21 +1,22 @@
-# Delete, Edit, Move
+# Suprimir, Editar y Mover
 
-Remove an object, change its location, or modify its properties.
+Elimine un objeto, cambie su ubicación o modifique sus propiedades.
 
-## Delete
+## Eliminar
 
-First, make a geometry selection. Then, right-click to see the Context Menu where you can click on the **Delete Tool**. You can also press the delete key on your keyboard.
+Realice primero una selección de geometría. A continuación, haga clic con el botón derecho para ver el menú contextual, donde puede hacer clic en la **herramienta Suprimir**. También puede pulsar la tecla Supr del teclado.
 
-![](<../.gitbook/assets/delete (1).png>)
+![](../.gitbook/assets/delete%20%281%29.png)
 
-## Edit
+## Editar
 
-When using many of the editing tools like Move, Array, Push-Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also simply start typing a numeric value to access the Edit Dimension dialog. Alternatively, you can hit Tab to bring up the Edit Dimension dialog, but Tab is no longer required with FormIt for Windows v17 and newer.
+Al utilizar muchas de las herramientas de edición, como Mover, Matriz, Empujar-tirar cara y Desfase, aparecerá un cuadro de cota de color azul. Puede hacer clic en esta cota después de finalizar la operación e introducir un valor específico. También puede comenzar a escribir un valor numérico para acceder al cuadro de diálogo Editar cota. También puede pulsar la tecla Tab para abrir el cuadro de diálogo Editar cota, pero ya no es necesario usar la tecla Tab con FormIt en Windows v17 y versiones posteriores.
 
-![](<../.gitbook/assets/edit\_dimensions (1).png>)
+![](../.gitbook/assets/edit_dimensions.png)
 
-## Move Edges, Faces, or Objects
+## Mover bordes, caras u objetos
 
-First select the edge, face, or object. The move tool is automatically activated. Hover to see snaps and inference points to specify where you want to start your move operation, click to start. Now hover your mouse to see snaps and inference points to the location you want to move the object. Click again to place the object.
+Seleccione primero el borde, la cara o el objeto. La herramienta Mover se activa automáticamente. Desplace el cursor para ver los forzados de cursor y los puntos de deducción a fin de especificar dónde desea iniciar la operación de desplazamiento; haga clic para empezar. Ahora coloque el cursor para ver los forzados de cursor y los puntos de deducción en la ubicación en la que desea mover el objeto. Haga clic de nuevo para colocar el objeto.
 
-![](../.gitbook/assets/edit\_edge.png)
+![](../.gitbook/assets/edit_edge.png)
+

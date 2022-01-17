@@ -1,17 +1,18 @@
-# Orthographic Camera
+# Cámara ortogonal
 
-FormIt 2021 includes the addition of a new Orthographic Camera feature. You can find the Orthographic and Perspective buttons in the Navigation Menu:
+FormIt 2021 incorpora la nueva función Cámara ortogonal. Puede encontrar los botones Ortogonal y Perspectiva en el menú de navegación, como se muestra a continuación:
 
-![Orthographic (bottom) and Perspective (top) camera view buttons ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Botones de vista de cámara Ortogonal \(inferior\) y Perspectiva \(superior\) ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-This new option allows you to easily toggle between the Orthographic and Perspective camera views.
+Esta nueva opción permite alternar fácilmente entre las vistas de cámara ortogonal y en perspectiva.
 
-![A model can be toggled from Perspective Camera to Orthographic Camera mode.](<../.gitbook/assets/ortho-camera (1).gif>)
+![Un modelo se puede cambiar del modo de cámara Perspectiva a Ortogonal. ](../.gitbook/assets/ortho-camera.gif)
 
-Once in Orthographic camera, any other camera tools will respect the current mode. For example, **Align Camera to Face** will align the Orthographic Camera to the face, resulting in an orthographic elevation view.
+Una vez que se encuentre en la cámara ortogonal, cualquier otra herramienta de cámara respetará el modo actual. Por ejemplo, **Alinear cámara con cara** alineará la cámara ortogonal con la cara, lo que dará como resultado una vista de elevación ortogonal.
 
-If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position, making it easier to access those pre-set views.
+Si se desplaza manualmente a una vista ortogonal predefinida, como Vista superior o Vista frontal, la cámara ortogonal se ajustará a esa posición, lo que facilitará el acceso a esas vistas predefinidas.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Note:** If camera clipping occurs in Orthographic Camera mode, you can switch back to Perspective Mode, zoom out, and then try again.
+**Nota** Si se produce un recorte de cámara en el modo de cámara Ortogonal, puede cambiar al modo Perspectiva, reducir la vista e intentarlo de nuevo.
+

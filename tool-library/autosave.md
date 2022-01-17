@@ -1,51 +1,54 @@
-# AutoSave
+# Guardado automático
 
-Starting with v17.3, FormIt for Windows includes AutoSave, which makes a backup copy of your FormIt model while you work. This backup file can be used to recover data if FormIt closes with unsaved changes.
+A partir de la versión v17.3, FormIt para Windows incluye la función Guardado automático, que realiza una copia de seguridad del modelo de FormIt mientras trabaja. Este archivo de copia de seguridad se puede utilizar para recuperar datos si FormIt se cierra con cambios no guardados.
 
-## Toggling AutoSave
+### Activación y desactivación de Guardado automático
 
-Find configuration options for AutoSave in Edit > Preferences > AutoSave.
+Las opciones de configuración de la función Guardado automático se encuentran en Editar &gt; Preferencias &gt; Guardado automático.
 
-![](<../.gitbook/assets/20190613-autosave (1).png>)
+![](../.gitbook/assets/20190613-autosave.png)
 
-AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box.
+La función Guardado automático está activada por defecto, pero puede desactivarla por completo. Para ello, solo tiene que anular la selección de la casilla.
 
-Set the interval (in minutes) at which AutoSave will make a backup copy by entering a value in the "AutoSave interval" number box.
+Establezca el intervalo \(en minutos\) en el que la función Guardado automático realizará una copia de seguridad. Para ello, especifique un valor en el cuadro de número Intervalo de guardado automático.
 
-Note that these preferences are application-level, and will not change when opening different files.
+Tenga en cuenta que estas preferencias son de nivel de aplicación y no cambiarán al abrir archivos diferentes.
 
-## How AutoSave Works
+### Funcionamiento de Guardado automático
 
-When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
+Cuando la función Guardado automático está activada, esta determina si el archivo de FormIt actual tiene cambios sin guardar. Si hay cambios sin guardar, la función Guardado automático crea una copia de seguridad del archivo en el intervalo especificado.
 
-Backup files are stored next to the original file, and have an extension of `.axmb`.
+Los archivos de copia de seguridad se almacenan junto al archivo original y presentan la extensión `.axmb`.
 
-For example, if your original FormIt file is stored at `C:/Users/<user>/FormIt/MyProject.axm`, the backup file can be found at `C:/Users/<user>/FormIt/MyProject.axmb`.
+Por ejemplo, si el archivo de FormIt original se almacena en `C:/Users/<user>/FormIt/MyProject.axm`, el archivo de copia de seguridad se encuentra en `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-If you start a new FormIt session without opening an existing file, unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start adding unsaved changes next to the new location, as noted above.
+Si inicia una nueva sesión de FormIt sin abrir un archivo existente, los cambios no guardados se encuentran en `C:/Users/<user>/Documents/Untitled.axmb`. Una vez que guarde el nuevo modelo en una ubicación diferente, la copia de seguridad comenzará a añadir cambios sin guardar junto a la nueva ubicación, como se ha indicado anteriormente.
 
-When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
+Al guardar cambios en el archivo original, la función Guardado automático suprime el archivo de copia de seguridad ya que esta copia es ahora más antigua que el archivo original. Sin embargo, si se realizan posteriormente cambios en el archivo guardado, la función Guardado automático volverá a iniciar el proceso de copia de seguridad en el intervalo especificado.
 
-If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
+Si el archivo de trabajo tiene cambios sin guardar y decide cerrar FormIt y descartar los cambios, se suprimirá la copia de seguridad de Guardado automático. Sin embargo, si se fuerza el cierre de FormIt, al apagar el equipo o debido a un bloqueo de la aplicación, el archivo de copia de seguridad de Guardado automático se conservará y se podrá utilizar más adelante para recuperar los datos.
 
-## Working With AutoSave Enabled
+### Trabajar con la función Guardado automático activada
 
-FormIt minimizes the potential performance impact of AutoSave by executing the backup in a separate process. With small- to medium-sized files, you shouldn't notice when AutoSave backs up. With very large files (\~400MB and above), you might notice just a momentary pause while FormIt copies the entire model and starts backing up in a separate process.
+FormIt minimiza los posibles efectos en el rendimiento de la función Guardado automático al ejecutar la copia de seguridad en un proceso independiente. En archivos de tamaño pequeño a mediano, no se debería notar el proceso de copia de seguridad de la función Guardado automático. En archivos muy grandes \(~400 MB y superiores\), es posible que observe una pausa momentánea mientras FormIt copia todo el modelo y comienza a realizar una copia de seguridad en un proceso independiente.
 
-If you're wondering if AutoSave is currently backing up, you can watch the status bar the bottom left of the application for a brief "AutoSaving..." message:
+Si se pregunta si se está realizando una copia de seguridad de Guardado automático, puede consultar la barra de estado en la parte inferior izquierda de la aplicación para ver si aparece el mensaje corto "Guardando automáticamente...":
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-If your status bar is disabled, you can enable it at Window > Status Bar or via the shortcut HS.
+Si la barra de estado está desactivada, puede activarla en la barra de estado de Windows &gt; o mediante el método abreviado HS.
 
-## Recovering Data with AutoSave
+### Recuperación de datos con Guardado automático
 
-When opening a FormIt file with a backup available, FormIt will alert you that the backup file exists. As mentioned above, this could be simply due to you closing FormIt without electing to save changes to this project last time it was edited, or due to FormIt unexpectedly closing.
+Al abrir un archivo de FormIt con una copia de seguridad disponible, FormIt le avisará de que el archivo de copia de seguridad existe. Como se ha indicado anteriormente, esto puede deberse simplemente a que cerró FormIt sin optar por guardar los cambios realizados en este proyecto la última vez que se modificó o a que FormIt se cerró de forma inesperada.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Clicking the "Open it?" hyperlink will load the `.axmb` backup file.
+Al hacer clic en el hipervínculo "¿Desea abrirla?", se cargará el archivo de copia de seguridad `.axmb`.
 
-Similarly, you can use File > Open, and manually select the `.axmb` file from the file explorer to open a backup.
+De forma similar, puede utilizar &Archivo gt; Abrir y seleccionar manualmente el archivo `.axmb` en el explorador de archivos para abrir una copia de seguridad.
 
-Once the backup file is open, the next time you save, FormIt will require you to pick a different FormIt file (`.axm`) to overwrite. You cannot overwrite FormIt backup files (`.axmb`).
+Una vez abierto el archivo de copia de seguridad, la próxima vez que guarde, FormIt le pedirá que seleccione un archivo de FormIt \(`.axm`\) diferente para sobrescribirlo. No se pueden sobrescribir los archivos de copia de seguridad de FormIt \(`.axmb`\).
+
+
+

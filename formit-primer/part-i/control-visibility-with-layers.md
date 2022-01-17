@@ -1,53 +1,54 @@
-# 1.6 - Control Visibility with Layers
+# 1.6 - Controlar la visibilidad con capas
 
-_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
+_Al igual que AutoCAD y Photoshop, las capas de FormIt permiten administrar la visibilidad de los objetos del modelo. En este capítulo, vamos a crear una capa para guardar y ocultar la masa de construcción para su posterior análisis._
 
-_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Si no ha completado la última sección, descargue y abra el archivo_ _**1.6 - Control Visibility with Layers.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
-## **Create Layers**
+## **Crear capas**
 
-1 - To create the new layers:
+1 - Para crear nuevas capas, realice lo siguiente:
 
-1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
-2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
+1. Vaya a la **paleta Capas** y haga clic en el signo **+** tres veces para crear tres capas.
+2. Haga doble clic en los nombres de capa para cambiarles el nombre a **Masa**, **Suelo del edificio principal** e **Imagen de plano.**
 
-![](<../../.gitbook/assets/0 (20).png>)
+![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
+_**Nota**_ _Puede hacer clic en un nombre de capa y arrastrarlo hacia arriba o hacia abajo para reordenar las capas._
 
-2 - To assign the **Massing - Main Building** group to the **Massing** layer:
+2 - Para asignar el grupo **Masa - Edificio principal** a la capa **Masa**, realice lo siguiente:
 
-1. In the canvas, select the **Massing - Main Building** group.
-2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
+1. En el lienzo, seleccione el grupo **Masa - Edificio principal**.
+2. En la **paleta Capas**, seleccione la capa **Masa** en el menú desplegable **Selección en:**. Del mismo modo, asigne el grupo **Imagen de plano** a la capa **Imagen de plano**.
 
-![](<../../.gitbook/assets/1 (13) (1).png>)
+![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicate Group**
+## **Duplicar grupo**
 
-_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+_Ahora comenzaremos el proceso de modelado del edificio con más detalle. El primer paso consiste en crear la geometría del suelo en función de la masa de construcción que ya tenemos._
 
-1 - Select the **Massing - Main Building** group again. Press **Ctrl + C (Copy)** to copy, and then **Ctrl + Shift + V (Paste in Place)** to paste the mass in the same place.
+1 - Seleccione de nuevo el grupo **Masa - Edificio principal**. Pulse **Ctrl + C \(Copiar\)** para copiar y, a continuación, **Ctrl + Mayús + V \(Pegar in situ\)** para pegar la masa en el mismo lugar.
 
-2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique (MU)** option.
+2 - Para disociar la nueva geometría del grupo original, haga clic con el botón derecho para acceder al **Menú contextual** y seleccione la opción **Establecer como exclusivo \(MU\)**.
 
-![](<../../.gitbook/assets/2 (18).png>)
+![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+_**Nota** El nuevo grupo ya no está asociado con el original. Los cambios realizados en el nuevo grupo no modificarán el grupo original._
 
-## **Create the Floor Geometry**
+## **Crear la geometría de suelo**
 
-1 - Reassign group’s layer:
+1 - Vuelva a asignar la capa del grupo como se indica a continuación:
 
-1. Single-click to select either of the **Massing – Main Building** groups.
-2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
-3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+1. Haga clic una vez para seleccionar uno de los grupos de **Masa - Edificio principal**.
+2. Coloque el grupo en la capa **Suelo del edificio principal** mediante el menú desplegable **Selección en:** de la **paleta Capas**.
+3. Desactive la capa **Masa** para ocultar su geometría y mantenerla a salvo de cualquier modificación accidental.
 
-![](<../../.gitbook/assets/3 (18) (1).png>)
+![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+2 - Haga doble clic en el grupo visible **Masa - Edificio principal** para editarlo. Cambie el nombre del grupo a **Suelo** en la **paleta Propiedades**.
 
-![](<../../.gitbook/assets/4 (12) (1).png>)
+![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+3 - **Haga clic una vez** en la **cara superior** de la geometría para seleccionarla. Haga clic de nuevo y comience a arrastrar la cara hacia abajo. Cuando arrastre la cara hacia abajo, introduzca **11'-2"**; aparecerá el **cuadro de diálogo Cota**. Haga clic en **Aceptar** después de introducir el valor. El suelo resultante debe tener un grosor de 1'. Haga doble clic en el espacio para salir del grupo.
 
-![](<../../.gitbook/assets/5 (10).png>)
+![](../../.gitbook/assets/5%20%2810%29.png)
+

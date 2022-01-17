@@ -1,7 +1,6 @@
 # Dynamo
 
-In FormIt for Windows v17.0 and newer, Dynamo is built-in, allowing you to run your local Dynamo graphs to easily generate complex geometry in FormIt.
+En FormIt para Windows v17.0 y versiones posteriores, Dynamo está integrado, lo que permite ejecutar gráficos locales de Dynamo para generar fácilmente geometría compleja en FormIt.
 
-[Learn how FormIt + Dynamo work](https://formit.autodesk.com/page/formit-dynamo).
+[Obtenga información sobre cómo funciona FormIt + Dynamo](https://formit.autodesk.com/page/formit-dynamo).
 
-![](<../.gitbook/assets/dynamo panel.png>)

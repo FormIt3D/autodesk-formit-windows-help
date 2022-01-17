@@ -1,19 +1,20 @@
-# Lines
+# Líneas
 
-Use lines to divide faces and construct geometry.
+Utilice líneas para dividir caras y construir geometría.
 
-Keyboard: L
+Teclado: L
 
-![](../.gitbook/assets/line\_toolbar.png)
+![](../.gitbook/assets/line_toolbar.png)
 
-You can draw lines on the X, Y, or Z axis and also on existing geometry. When you snap to an axis, a colored line extends beyond the line you are drawing indicating which the axis you are drawing on. You can see the length of the line as you draw, and you can manually enter a specfic length by pressing **tab** and enter a value.
+Puede dibujar líneas en los ejes X, Y o Z, así como en la geometría existente. Cuando se fuerza el cursor a un eje, una línea de color se extiende más allá de la línea que se está dibujando para indicar en qué eje se está dibujando. Puede ver la longitud de la línea a medida que la dibuja. También, puede introducir manualmente una longitud específica. Para ello, pulse la tecla **Tab** e introduzca un valor.
 
-Line colors by axis:
+Colores de línea por eje:
 
-To specify a length, simply type a dimension value, and an Edit Dimension dialog will appear. Hit OK or press Enter to accept the value.
+Para especificar una longitud, escriba un valor de cota; aparecerá el cuadro de diálogo Editar cota. Pulse Aceptar o Intro para aceptar el valor.
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = Rojo
+* Y = Verde
+* Z = Azul
 
 ![](../.gitbook/assets/lines.png)
+

@@ -1,17 +1,18 @@
-# Undo Manager
+# Administrador de deshacer
 
-FormIt features a unique Undo/Redo system, which can be used in two different ways to either undo per-Group, or chronologically and globally:
+FormIt presenta un sistema exclusivo de Deshacer/Rehacer, que se puede utilizar de dos formas diferentes para deshacer por grupo o de forma cronológica y global, como se indica a continuación:
 
-* Undo/Redo while editing a nested Group will only affect the changes inside that Group
-  * This means you can make a change in this Group, then make many changes in other Groups, and return to the original Group and have the option to Undo the last change made in this Group without affecting changes made more recently, elsewhere
-*   Undo/Redo from the Main Sketch (not while editing a Group) acts like traditional Undo/Redo systems: the last change made in **any** Group will be undone, based on chronological order.
+* Las acciones Deshacer/Rehacer al editar un grupo anidado solo afectarán a los cambios dentro de ese grupo.
+   * Esto significa que puede realizar un cambio en este grupo, realizar muchos cambios en otros grupos, volver al grupo original y tener la opción de deshacer el último cambio realizado en este grupo sin que ello afecte a los cambios realizados más recientemente en cualquier otro lugar.
+* El comportamiento de Deshacer/Rehacer desde el boceto principal \(no mientras se edita un grupo\) es igual al de los sistemas tradicionales; se deshará el último cambio realizado en **cualquier** grupo según el orden cronológico.
 
-    The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
+El Administrador de deshacer registra todos los cambios realizados en cada grupo del modelo de FormIt, incluidos los cambios realizados en el boceto principal. Esto resulta útil para conocer visualmente las operaciones que se han deshecho en cualquier grupo del modelo.
 
-![](<../.gitbook/assets/undo-manager (1).png>)
+![](../.gitbook/assets/undo-manager.png)
 
-The Undo Manager will indicate in **bold** the current state, as well as any operations before this state, and any operations that once existed but have since been undone.
+El Administrador de deshacer indicará en **negrita** el estado actual, las operaciones anteriores a este estado y las operaciones que existían, pero que se han deshecho desde entonces.
 
-You can right-click a state and select "Roll To" to effectively Undo or Redo as necessary to return to that model state.
+Puede hacer clic con el botón derecho en un estado y seleccionar Pasar a para deshacer o rehacer de forma eficaz según sea necesario a fin de volver a ese estado del modelo.
 
-Groups that have been explicitly deleted, or are no longer in existence due to an Undo or Redo, are shown as \*Inactive\*. These can be restored by Undoing or Redoing inside their parent Group until they come back into existence.
+Los grupos que se han suprimido explícitamente o que ya no existen debido a una acción Deshacer o Rehacer se muestran como \*Inactivo\*. Se pueden restablecer mediante la acción Deshacer o Rehacer dentro de su grupo principal hasta que vuelvan a existir.
+

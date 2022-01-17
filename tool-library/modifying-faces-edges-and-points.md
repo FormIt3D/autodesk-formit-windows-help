@@ -1,33 +1,33 @@
-# Modifying Faces, Edges, and Points
+# Modificación de caras, bordes y puntos
 
-Things get really interesting when you start to push and pull the objects you have placed. Single click will allow you to select a single vertex, edge, face, or Mesh.
+Las cosas se ponen interesantes al empezar a empujar los objetos colocados o tirar de ellos. Puede seleccionar un único vértice, un borde, una cara o una malla con un solo clic.
 
-## Modifying Faces
+## Modificación de caras
 
-1. Single-click a face
-2. FormIt automatically puts you in the Drag Face or Extrude tool.&#x20;
-3. Click somewhere to identify a starting point for the operation.&#x20;
-4. After you click, you can snap to other objects to align this face.
-5.  As with move, you can click the **temporary dimension** or simply start typing a value to define the amount of movement.
+1. Haga clic una vez en una cara.
+2. FormIt le lleva automáticamente a la herramienta Arrastrar cara o Extruir.
+3. Haga clic en cualquier parte para identificar un punto inicial para la operación.
+4. Después de hacer clic, puede forzar el cursor a otros objetos para alinear esta cara.
+5. Al igual que con el desplazamiento, puede hacer clic en la **cota temporal** o simplemente empezar a escribir un valor para definir la cantidad de movimiento.
 
-    ![](../.gitbook/assets/modify.png)
+![](../.gitbook/assets/modify.png)
 
-You can also delete a face by using the **Delete** key, or by right-clicking and invoking Delete from the context menu.
+También puede suprimir una cara. Para ello, pulse la tecla **Supr** o haga clic con el botón derecho y ejecute Suprimir en el menú contextual.
 
-You can also delete a face by using **Right click > X button**.
+También puede suprimir una cara mediante **clic con el botón derecho > botón X**.
 
-## Modifying Edges
+## Modificación de bordes
 
-1. Single-click an edge
-2. FormIt automatically puts you in the Move tool
-3. Position your mouse over a point in space that you want to start the Move operation from.
-4. Click, and now you can drag the edge to modify the shape.
+1. Haga clic una vez en un borde.
+2. FormIt le lleva automáticamente a la herramienta Mover.
+3. Coloque el cursor en el punto del espacio desde el que desea iniciar la operación de desplazamiento.
+4. Haga clic en el borde y arrástrelo para modificar la forma.
 
 ![](../.gitbook/assets/modify2.png)
 
-## Modifying Points
+## Modificación de puntos
 
-1. Single-click one of the corners of one of the cubes.
-2. Similar to an edge, you drag the point along one of the axes to redefine the shape. [NextNon-Uniform Scale](https://app.gitbook.com/@formit3d/s/autodesk-formit-360-windows-help/\~/drafts/-MQs8s\_UgCysrQBxlywu/tool-library/non-uniform-scale)
+1. Haga clic una vez en una de las esquinas de uno de los cubos.
+2. De forma similar a un borde, arrastre el punto a lo largo de uno de los ejes para redefinir la forma. [Escala no uniforme siguiente](non-uniform-scale.md)
 
-![](<../.gitbook/assets/modify3 (1).png>)
+![](<../.gitbook/assets/modify3 (1) (1).png>)

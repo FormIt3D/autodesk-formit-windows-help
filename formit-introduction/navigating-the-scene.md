@@ -1,29 +1,30 @@
-# Navigating the Scene
+# Navegación por la escena
 
-Use your mouse or touchscreen to easily navigate in and around your FormIt models:
+Utilice el ratón o la pantalla táctil para navegar fácilmente por los modelos de FormIt:
 
-* **Orbit** by right-clicking and dragging the mouse or swiping across the screen for touch-enabled devices. This will use your cursor point in 3D space about which to orbit the camera.
-  * You can also hold the Shift key to Pan.
-* **Zoom** in and out by scrolling the mouse wheel up and down, or pinching for touch-enabled devices. This will use a point in 3D space at which to zoom to, and will slow down the zoom as you approach a surface or another object.
-  * You can also hold Ctrl to zoom at a constant rate, not affected by proximity to objects.
-* **Pan** by middle-clicking and dragging the mouse, or dragging two fingers for touch-enabled devices.
+* Utilice la herramienta **Orbitar**. Para ello, haga clic con el botón derecho y arrastre el ratón o deslice un dedo por la pantalla en los dispositivos táctiles. De este modo, se utilizará el punto del cursor en el espacio 3D alrededor del que se orbitará la cámara.
+   * También puede mantener pulsada la tecla Mayús para encuadrar.
+* Utilice la herramienta **Zoom** para ampliar y reducir la vista. Para ello, desplace la rueda del ratón hacia arriba y hacia abajo o realice un gesto de pellizco en los dispositivos táctiles. De este modo, se utilizará un punto en el espacio 3D al que aplicar zoom y se reducirá el zoom al acercarse a una superficie u otro objeto.
+   * También puede mantener pulsada la tecla Ctrl para aplicar zoom a una velocidad constante que no se vea afectada por la proximidad a los objetos.
+* Utilice la herramienta **Encuadrar**. Para ello, haga clic con el botón central y arrastre el ratón o deslice dos dedos en los dispositivos móviles.
 
-You can also use the floating navigation toolbar on the right side of the canvas to go into specific view modes. Shortcuts are noted in parentheses.
+También puede utilizar la barra de herramientas de navegación flotante situada en el lado derecho del lienzo para acceder a modos de vista específicos. Los métodos abreviados se indican entre paréntesis.
 
-![](../.gitbook/assets/20190618-ortho-views.png) **Orthographic views**: Click to reveal a flyout menu of available [orthographic views](../tool-library/orthographic-views.md).
+![](../.gitbook/assets/20190618-ortho-views.png) **Vistas ortogonales**: haga clic para que se muestre un menú desplegable de las [vistas ortogonales](../tool-library/orthographic-views.md) disponibles.
 
-![](../.gitbook/assets/20190618-3d-view.png) **Default 3D View (ZD):** Launches the default 3D view.
+![](../.gitbook/assets/20190618-3d-view.png) **Vista 3D por defecto \(ZD\):** inicia la vista 3D por defecto.
 
-![](../.gitbook/assets/jet-pack.png) **Walkthrough (FT):** “Jetpack” mode allows you to walk through the scene using your keyboard. Use WASD to move forward/backward/left/right, and use Q/E to move up/down. Use the spacebar key to "fly."
+![](../.gitbook/assets/jet-pack.png) **Recorrido \(FT\):** el modo de "mochila propulsora" permite recorrer la escena con el teclado. Utilice WASD para desplazarse adelante/atrás/a izquierda/a derecha y Q/E para subir/bajar. Utilice la barra espaciadora para "volar".
 
-![](../.gitbook/assets/orbit-tool.png) **Orbit (O):** When enabled, left-click and drag the mouse to orbit around the model. You can also do this at any time by right-click and dragging.
+![](../.gitbook/assets/orbit-tool.png) **Orbitar \(O\):** si está activada esta opción, haga clic con el botón izquierdo y arrastre el ratón para orbitar alrededor del modelo. También puede hacerlo en cualquier momento. Para ello, haga clic con el botón derecho y arrastre.
 
-![](../.gitbook/assets/swivel.PNG) **Swivel (SV):** Use the Swivel tool from the Navigation toolbar to look around the scene from a fixed point.
+![](../.gitbook/assets/swivel.PNG) **Pivotar \(SV\):** utilice la herramienta Pivotar de la barra de herramientas de navegación para mirar alrededor de la escena desde un punto fijo.
 
-![](../.gitbook/assets/panning.png) **Pan (P):** Click and drag the middle mouse button, or use the Pan (hand) tool from the Navigation toolbar to pan across the scene.
+![](../.gitbook/assets/panning.png) **Encuadrar \(P\):** haga clic y arrastre el botón central del ratón o utilice la herramienta Encuadrar \(mano\) de la barra de herramientas de navegación para encuadrar la escena.
 
-![](../.gitbook/assets/zoom.png) **Zoom (Z):** Scroll the mouse wheel, or select the Zoom tool from the Navigation toolbar and click and drag the left mouse button to zoom.
+![](../.gitbook/assets/zoom.png) **Zoom \(Z\):** desplace la rueda del ratón o seleccione la herramienta Zoom en la barra de herramientas de navegación y haga clic en el botón izquierdo del ratón y arrastre para aplicar zoom.
 
-![](../.gitbook/assets/zoom\_all.png) **Zoom All (ZE or ZA):** Zoom to fit the entire model into the current view
+![](../.gitbook/assets/zoom_all.png) **Zoom todo \(ZE o ZA\):** aplique el zoom para ajustar todo el modelo a la vista actual.
 
-![](../.gitbook/assets/zoom\_selection.png) **Zoom Selection (ZS):** Zoom to fit all of the currently selected objects into the current view.
+![](../.gitbook/assets/zoom_selection.png) **Zoom selección \(ZS\):** aplique zoom para ajustar todos los objetos seleccionados actualmente a la vista actual.
+
