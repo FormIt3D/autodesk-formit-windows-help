@@ -10,3 +10,4 @@ Con el software de modelado arquitectónico FormIt®, los arquitectos pueden dib
 
 * Para ejecutar FormIt para Windows, se requiere una suscripción a **FormIt Pro**, que forma parte de la [Autodesk AEC Collection](https://www.autodesk.es/collections/architecture-engineering-construction/overview).
 * También puede descargar [FormIt para Windows](https://formit.autodesk.com/page/download) e iniciar una versión de prueba gratuita de 30 días de FormIt Pro.
+
