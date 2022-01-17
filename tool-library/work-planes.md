@@ -1,15 +1,16 @@
-# Work Planes
+# Planos de trabalho
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+Quando você altera os eixos universais no esboço principal ou os eixos locais de um grupo, um plano de trabalho é associado aos eixos X e Y. Um **plano de trabalho** é uma superfície bidimensional virtual usada como o plano padrão para o esboço. Esse plano de trabalho será esticado até o infinito e fornecerá uma superfície para o esboço sem efetuar o snap aos elementos atrás dele.
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+Para saber como editar o plano do chão, consulte [Estilos visuais.](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## Alterar os planos de trabalho
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+Gire os [Eixos universais](world-axes.md) para o plano de outro objeto no esboço. Isso alinhará o plano de trabalho ativo para corresponder a essa face. Agora é possível desenhar, inserir elementos e modificar elementos relativos ao novo plano XY, em vez do plano de chão padrão. É possível orbitar atrás ou abaixo da grade e dos planos de trabalho para efetuar o snap e inferência para elementos atrás dela.
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style > Environment > **Display Grid (DG).**
+É possível ativar e desativar a visibilidade da linha de eixo para se beneficiar do esboço com base no plano de trabalho. É possível controlar essa configuração em Estilo visual &gt; Ambiente &gt; **Exibir grade \(DG\).**
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings > **Snap to Grid (SG).**
+Também é possível controlar se você efetua o snap à grade ao desenhar. Ative e desative essa configuração em Configurações &gt; **Snap à grade \(SG\).**
 
 ![](../.gitbook/assets/work-plane.gif)
+

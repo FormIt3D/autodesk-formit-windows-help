@@ -1,7 +1,6 @@
-# Multiple Clients
+# Vários clientes
 
-Use FormIt to design anytime, anywhere.
+Use o FormIt para projetar a qualquer momento e em qualquer lugar.
 
-In addition to [Windows](https://formit.autodesk.com/download) and [Web](https://formit.autodesk.com/app) apps, FormIt runs on Apple iPad for intuitive and fast touch-based iteration, with support for Apple Pencil. Combine FormIt with other powerful mobile apps like Autodesk Sketchbook Pro and create entire presentations on the go!
+Além dos aplicativos [Windows](https://formit.autodesk.com/download) e [Web](https://formit.autodesk.com/app), o FormIt é executado no Apple iPad para iteração intuitiva e rápida baseada em toque, com suporte para o Apple Pencil. Combine o FormIt com outros aplicativos móveis avançados, como o Autodesk Sketchbook Pro e crie apresentações completas em qualquer lugar.
 
-![FormIt on Apple iPad](<../.gitbook/assets/ipad scenes (1).png>)

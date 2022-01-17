@@ -1,14 +1,15 @@
-# Mirror
+# Espelhamento
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+Use a ferramenta Espelhar para criar uma cópia espelhada de um objeto.
 
-To mirror an object:
+Para espelhar um objeto:
 
-1. Double-click to select a single object, or single-click to select a group.&#x20;
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**.&#x20;
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. Clique duas vezes para selecionar um único objeto ou clique uma vez para selecionar um grupo.
+2. Clique com o botão direito do mouse e selecione a ferramenta Espelhar no menu de contexto ou digite o atalho de teclado **MI**.
+3. Um plano exibe e mostra o eixo no qual o objeto será espelhado. É possível mover ou rotacionar o plano para personalizar o eixo do espelho.
+4. Quando terminar de ajustar o plano do objeto espelhado, clique em qualquer lugar fora da seleção.
 
 ![](../.gitbook/assets/mirror.png)
 
 ![](../.gitbook/assets/mirror2.png)
+

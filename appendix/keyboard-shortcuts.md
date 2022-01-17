@@ -1,148 +1,149 @@
-# Keyboard Shortcuts
+# Atalhos do teclado
 
-| Command                                        | Shortcut(s)        |
-| ---------------------------------------------- | ------------------ |
-| Application Settings: Display Dimensions       | D, D               |
-| Application Settings: Snap to Grid             | S, G               |
-| Collaboration: Invite to Session               | C, I               |
-| Collaboration: Join Session                    | C, J               |
-| Collaboration: Start Session                   | C, S               |
-| Display: Ambient Shadows                       | D, A               |
-| Display: Axes                                  | D, Z               |
-| Display: Back Faces                            | D, B               |
-| Display: Edges                                 | D, E               |
-| Display: Extend Lines                          | D, X               |
-| Display: Grid                                  | D, G               |
-| Display: Group Bounding Boxes                  | B, B               |
-| Display: Hidden Lines                          | D, H               |
-| Display: Monotone Surfaces                     | D, M               |
-| Display: North Arrow                           | D, N               |
-| Display: Shadows                               | D, S               |
-| Display: Silhouettes                           | D, O               |
-| Display: Sketchy Lines                         | D, K               |
-| Display: Thin Edges                            | D, T               |
-| Display: Watertight Issues                     | D, W               |
-| Draw: Arc                                      | A                  |
-| Draw: Circle                                   | C                  |
-| Draw: Line                                     | L                  |
-| Draw: Rectangle                                | R                  |
-| Draw: Spline                                   | S                  |
-| Edit: Copy                                     | Ctrl + C           |
-| Edit: Delete                                   | Delete             |
-| Edit: Paste                                    | Ctrl + V           |
-| Edit: Preferences                              |                    |
-| Edit: Redo                                     | Ctrl + Y           |
-| Edit: Redo                                     | Ctrl + Shift + Z   |
-| Edit: Reset Axes                               | R, Z               |
-| Edit: Set Axes                                 | S, Z               |
-| Edit: Undo                                     | Ctrl + Z           |
-| Energy Analysis: Cancel Insight                |                    |
-| Energy Analysis: Generate Insight              |                    |
-| Energy Analysis: View Insight                  |                    |
-| File: Export Image                             |                    |
-| File: Export Model To                          | Ctrl + E           |
-| File: Import 3D Model                          | Ctrl + I           |
-| File: Import Image                             | Ctrl + Shift + I   |
-| File: New                                      | Ctrl + N           |
-| File: Open from BIM 360 Docs                   | Alt + O            |
-| File: Open                                     | Ctrl + O           |
-| File: Save As to BIM 360 Docs                  | Alt + S            |
-| File: Save with History                        | Ctrl + S, Ctrl + H |
-| File: Save                                     | Ctrl + S           |
-| Group: Edit Group (Context Menu)               | E                  |
-| Group: Edit Group (Tool Bar)                   | Alt + E            |
-| Group: Finish Group Action                     | F                  |
-| Group: Group (Context Menu)                    | G                  |
-| Group: Group (Toolbar)                         | Alt + G            |
-| Group: Make Unique (Context Menu)              | M, U               |
-| Group: Make Unique (Toolbar)                   | Alt + M            |
-| Group: UnGroup (Context Menu)                  | U                  |
-| Group: UnGroup (Toolbar)                       | Alt + U            |
-| Group: UnGroup All (Context Menu)              | U, A               |
-| Group: UnGroup All (Toolbar)                   | Alt + A            |
-| Group: UnGroup Model                           | U, M               |
-| Help: About                                    |                    |
-| Help: Check for FormIt Updates                 |                    |
-| Help: FormIt Blog                              |                    |
-| Help: FormIt Gallery                           |                    |
-| Help: FormIt Videos                            |                    |
-| Help: Get Support                              |                    |
-| Help: Help                                     |                    |
-| Help: What's New                               |                    |
-| Levels: Display Levels                         | D, L               |
-| Levels: Use Levels                             | U, L               |
-| Prevent materials on back side faces           |                    |
-| Primitive: Cube                                | Alt + B            |
-| Primitive: Cylinder                            | Alt + C            |
-| Primitive: Dome                                | Alt + D            |
-| Primitive: Prism                               | Alt + R            |
-| Primitive: Pyramid                             | Alt + P            |
-| Prototype: Display mouse/grid status           |                    |
-| Selection Filter: Edges                        | E, S               |
-| Selection Filter: Faces                        | F, S               |
-| Selection Filter: Groups                       | G, S               |
-| Selection Filter: Solids                       | S, S               |
-| Settings: Large Buttons                        |                    |
-| Sketch Settings: Toggle Unit Type              | U, T               |
-| Solar Analysis: Analyze                        | A, A               |
-| Solar Analysis: Enter/Exit Solar Analysis Mode | S, A               |
-| Solar Analysis: Exit                           |                    |
-| Solar Analysis: Reset                          |                    |
-| Tools: Array                                   | A, R               |
-| Tools: Cover                                   | C, V               |
-| Tools: Cut Geometry (Context Menu)             | C, C               |
-| Tools: Cut Geometry (Toolbar)                  | C, G               |
-| Tools: Enable Touch                            | E, T               |
-| Tools: Enable Touch                            | T, M               |
-| Tools: Extrude Edges                           | E, E               |
-| Tools: Fillet                                  | F, I               |
-| Tools: Information                             |                    |
-| Tools: Join Geometry (Context Menu)            | J, C               |
-| Tools: Join Geometry (Toolbar)                 | J, G               |
-| Tools: Lasso Select                            | L, L               |
-| Tools: Loft Edges                              | L, O               |
-| Tools: Measure                                 | M                  |
-| Tools: Measure Angle                           | M, A               |
-| Tools: Merge Edges and Vertices                | M, E               |
-| Tools: Mirror                                  | M, I               |
-| Tools: Multi-Move                              | M, M               |
-| Tools: Offset Edge                             | O, E               |
-| Tools: Offset Face                             | O, F               |
-| Tools: Offset Solid                            | O, S               |
-| Tools: Reverse Faces                           | F, F               |
-| Tools: Rotate                                  | Q                  |
-| Tools: Run Script from Editor                  |                    |
-| Tools: Scale                                   | S, C               |
-| Tools: Select                                  | Space              |
-| Tools: Set Location                            | S, L               |
-| Tools: Shell                                   | S, H               |
-| Tools: Smooth Edges                            | S, E               |
-| Tools: Sweep                                   | S, W               |
-| Tools: Taper Face                              | T, F               |
-| Tools: Unsmooth Edges                          | U, E               |
-| View: Blue Theme                               |                    |
-| View: Default Theme                            |                    |
-| View: First Person Fly-Through                 | F, T               |
-| View: Orbit Camera                             |                    |
-| View: Pan Camera                               |                    |
-| View: System Theme                             |                    |
-| View: Toggle Perspective                       |                    |
-| View: Top                                      | Z, T               |
-| View: Zoom All                                 | Z, A               |
-| View: Zoom All                                 | Z, E               |
-| View: Zoom All                                 | Z, Z               |
-| View: Zoom All Images                          | Z, I               |
-| View: Zoom Camera                              |                    |
-| View: Zoom Out                                 |                    |
-| View: Zoom Selection                           | Z, S               |
-| Window: Design Toolbar                         | H, D               |
-| Window: Floating Navigation Toolbar            | H, B               |
-| Window: Main Menu                              | H, M               |
-| Window: Navigation Toolbar                     | H, N               |
-| Window: Operations Toolbar                     | H, O               |
-| Window: Settings Toolbar                       | H, C               |
-| Window: Sketch Toolbar                         | H, K               |
-| Window: Solids Toolbar                         | H, P               |
-| Window: Standard Toolbar                       | H, T               |
-| Window: Status Bar                             | H, S               |
-| Window: View Toolbar                           | H, V               |
+| Comando | Atalho\(s\) |
+| :--- | :--- |
+| Configurações do aplicativo: Exibir cotas | D, D |
+| Configurações do aplicativo: Snap à grade | S, G |
+| Colaboração: Convidar para a sessão | C, I |
+| Colaboração: Participar da sessão | C, J |
+| Colaboração: Iniciar sessão | C, S |
+| Exibir: Sombras de ambiente | D, A |
+| Exibir: Eixos | D, Z |
+| Exibir: Faces posteriores | D, B |
+| Exibir: Arestas | D, E |
+| Exibir: Estender linhas | D, X |
+| Exibir: Grade | D, G |
+| Exibir: Caixas delimitadoras de grupo | B, B |
+| Exibir: Linhas ocultas | D, H |
+| Exibir: Superfícies monotônicas | D, M |
+| Exibir: Seta de norte | D, N |
+| Exibir: Sombras | D, S |
+| Exibir: Silhuetas | D, O |
+| Exibir: Linhas de esboço | D, K |
+| Exibir: Arestas finas | D, T |
+| Exibir: Problemas herméticos | D, W |
+| Desenhar: Arco | A |
+| Desenhar: Círculo | C |
+| Desenhar: Linha | L |
+| Desenhar: Retângulo | R |
+| Desenhar: Spline | S |
+| Editar: Copiar | Ctrl+C |
+| Editar: Excluir | Excluir |
+| Editar: Colar | Ctrl + V |
+| Editar: Preferências |  |
+| Editar: Refazer | Ctrl+Y |
+| Editar: Refazer | Ctrl+Shift+Z |
+| Editar: Redefinir eixos | R, Z |
+| Editar: Definir eixos | S, Z |
+| Editar: Desfazer | Ctrl+Z |
+| Análise de energia: Cancelar Insight |  |
+| Análise de energia: Gerar Insight |  |
+| Análise de energia: Visualizar Insight |  |
+| Arquivo: Exportar imagem |  |
+| Arquivo: Exportar modelo para | Ctrl+E |
+| Arquivo: Importar modelo 3D | Ctrl + I |
+| Arquivo: Importar imagem | Ctrl + Shift + I |
+| Arquivo: Novo | Ctrl + N |
+| Arquivo: Abrir do BIM 360 Docs | Alt+O |
+| Arquivo: Abrir | Ctrl + O |
+| Arquivo: Salvar como no BIM 360 Docs | Alt+S |
+| Arquivo: Salvar com histórico | Ctrl + S, Ctrl + H |
+| Arquivo: Salvar | Ctrl+S |
+| Grupo: Editar grupo \(menu de contexto\) | E |
+| Grupo: Editar grupo \(barra de ferramentas\) | Alt+E |
+| Grupo: Concluir ação do grupo | F |
+| Grupo: Grupo \(menu de contexto\) | G |
+| Grupo: Grupo \(barra de ferramentas\) | Alt+G |
+| Grupo: Tornar exclusivo \(menu de contexto\) | M, U |
+| Grupo: Tornar exclusivo \(barra de ferramentas\) | Alt + M |
+| Grupo: Desagrupar \(menu de contexto\) | U |
+| Grupo: Desagrupar \(barra de ferramentas\) | Alt+U |
+| Grupo: Desagrupar tudo \(menu de contexto\) | U, A |
+| Grupo: Desagrupar tudo \(barra de ferramentas\) | Alt + A |
+| Grupo: Desagrupar modelo | U, M |
+| Ajuda: Sobre |  |
+| Ajuda: Verificar atualizações do FormIt |  |
+| Ajuda: Blog do FormIt |  |
+| Ajuda: Galeria do FormIt |  |
+| Ajuda: Vídeos do FormIt |  |
+| Ajuda: Obter suporte |  |
+| Ajuda: Ajuda |  |
+| Ajuda: Novidades |  |
+| Níveis: Exibir níveis | D, L |
+| Níveis: Usar níveis | U, L |
+| Evitar materiais em faces do lado posterior |  |
+| Primitivo: Cubo | Alt + B |
+| Primitivo: Cilindro | Alt + C |
+| Primitivo: Domo | Alt + D |
+| Primitivo: Prisma | Alt + R |
+| Primitivo: Pirâmide | Alt + P |
+| Protótipo: Exibir status do mouse/grade |  |
+| Filtro de seleção: Arestas | E, S |
+| Filtro de seleção: Faces | F, S |
+| Filtro de seleção: Grupos | G, S |
+| Filtro de seleção: Sólidos | S, S |
+| Configurações: Botões grandes |  |
+| Configurações de esboço: Alternar tipo de unidade | U, T |
+| Análise solar: Analisar | A, A |
+| Análise solar: Entrar/sair no modo de análise solar | S, A |
+| Análise solar: Sair |  |
+| Análise solar: Redefinir |  |
+| Ferramentas: Matriz | A, R |
+| Ferramentas: Cobertura | C, V |
+| Ferramentas: Cortar geometria \(menu de contexto\) | C, C |
+| Ferramentas: Cortar geometria \(barra de ferramentas\) | C, G |
+| Ferramentas: Ativar contato | E, T |
+| Ferramentas: Ativar contato | T, M |
+| Ferramentas: Extrusão de arestas | E, E |
+| Ferramentas: Raio de arredondamento | F, I |
+| Ferramentas: Informações |  |
+| Ferramentas: Unir geometria \(menu de contexto\) | J, C |
+| Ferramentas: Unir geometria \(barra de ferramentas\) | J, G |
+| Ferramentas: Seleção de laço | L, L |
+| Ferramentas: Arestas de transição | L, O |
+| Ferramentas: Medir | M |
+| Ferramentas: Medir ângulo | M, A |
+| Ferramentas: Mesclar arestas e vértices | M, E |
+| Ferramentas: Espelhar | M, I |
+| Ferramentas: Mover múltiplos | M, M |
+| Ferramentas: Deslocar aresta | O, E |
+| Ferramentas: Deslocar face | O, F |
+| Ferramentas: Deslocar sólido | O, S |
+| Ferramentas: Inverter faces | F, F |
+| Ferramentas: Rotacionar | Q |
+| Ferramentas: Executar script no editor |  |
+| Ferramentas: Escala | S, C |
+| Ferramentas: Selecionar | Espaço |
+| Ferramentas: Definir localização | S, L |
+| Ferramentas: Parede | S, H |
+| Ferramentas: Arestas suaves | S, E |
+| Ferramentas: Varredura | S, W |
+| Ferramentas: Afilar face | T, F |
+| Ferramentas: Arestas não suaves | U, E |
+| Vista: Tema azul |  |
+| Vista: Tema padrão |  |
+| Vista: Vista de voo em primeira pessoa | F, T |
+| Vista: Orbitar câmera |  |
+| Vista: Efetuar pan da câmera |  |
+| Vista: Tema do sistema |  |
+| Vista: Alternar perspectiva |  |
+| Vista: Superior | Z, T |
+| Vista: Zoom em tudo | Z, A |
+| Vista: Zoom em tudo | Z, E |
+| Vista: Zoom em tudo | Z, Z |
+| Vista: Zoom em todas as imagens | Z, I |
+| Vista: Zoom da câmera |  |
+| Vista: Afastar zoom |  |
+| Vista: Seleção de zoom | Z, S |
+| Janela: Barra de ferramentas de projeto | H, D |
+| Janela: Barra de ferramentas de navegação flutuante | H, B |
+| Janela: Menu principal | H, M |
+| Janela: Barra de ferramentas de navegação | H, N |
+| Janela: Barra de ferramentas de operações | H, O |
+| Janela: Barra de ferramentas de configurações | H, C |
+| Janela: Barra de ferramentas de esboço | H, K |
+| Janela: Barra de ferramentas de sólidos | H, P |
+| Janela: Barra de ferramentas padrão | H, T |
+| Janela: Barra de Status | H, S |
+| Janela: Barra de ferramentas de vista | H, V |
+

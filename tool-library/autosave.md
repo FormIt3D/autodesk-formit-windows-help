@@ -1,51 +1,54 @@
-# AutoSave
+# Salvar automático
 
-Starting with v17.3, FormIt for Windows includes AutoSave, which makes a backup copy of your FormIt model while you work. This backup file can be used to recover data if FormIt closes with unsaved changes.
+A partir da v17.3, o FormIt para Windows inclui o recurso Salvar automático, que faz uma cópia de backup do modelo do FormIt enquanto você trabalha. Esse arquivo de backup poderá ser usado para recuperar dados se o FormIt for fechado com alterações não salvas.
 
-## Toggling AutoSave
+### Ativar/desativar Salvar automático
 
-Find configuration options for AutoSave in Edit > Preferences > AutoSave.
+Encontre as opções de configuração para Salvar automático em Editar &gt; Preferências &gt; Salvar automático.
 
-![](<../.gitbook/assets/20190613-autosave (1).png>)
+![](../.gitbook/assets/20190613-autosave.png)
 
-AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box.
+O recurso Salvar automático é ativado por padrão, mas pode ser desativado completamente simplesmente ao desmarcar a caixa.
 
-Set the interval (in minutes) at which AutoSave will make a backup copy by entering a value in the "AutoSave interval" number box.
+Defina o intervalo \(em minutos\) no qual Salvar automático fará uma cópia de backup inserindo um valor na caixa de número “Intervalo do salvamento automático”.
 
-Note that these preferences are application-level, and will not change when opening different files.
+Observe que essas preferências estão no nível do aplicativo e não serão alteradas ao abrir arquivos diferentes.
 
-## How AutoSave Works
+### Como o recurso Salvar automático funciona
 
-When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
+Quando Salvar automático está ativado, ele determina se o arquivo do FormIt atual tem alterações não salvas. Se houver alterações não salvas, o recurso Salvar automático criará uma cópia de backup do arquivo no intervalo especificado.
 
-Backup files are stored next to the original file, and have an extension of `.axmb`.
+Os arquivos de backup são armazenados junto ao arquivo original e têm uma extensão de `.axmb`.
 
-For example, if your original FormIt file is stored at `C:/Users/<user>/FormIt/MyProject.axm`, the backup file can be found at `C:/Users/<user>/FormIt/MyProject.axmb`.
+Por exemplo, se o arquivo FormIt original estiver armazenado em `C:/Users/<user>/FormIt/MyProject.axm`, o arquivo de backup poderá ser encontrado em `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-If you start a new FormIt session without opening an existing file, unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start adding unsaved changes next to the new location, as noted above.
+Se você iniciar uma nova sessão do FormIt sem abrir um arquivo existente, as alterações não salvas poderão ser encontradas em `C:/Users/<user>/Documents/Untitled.axmb`. Depois de salvar o novo modelo em uma localização diferente, o backup começará a adicionar alterações não salvas ao lado da nova localização, como indicado acima.
 
-When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
+Quando você salva as alterações no arquivo original, Salvar automático exclui automaticamente o arquivo de backup, já que o backup agora é mais antigo do que o arquivo original. No entanto, se você fizer alterações subsequentes ao arquivo salvo, Salvar automático iniciará novamente o backup no intervalo especificado.
 
-If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
+Se o arquivo de trabalho tiver alterações não salvas e você optar por fechar o FormIt e descartar as alterações, o backup de Salvar automático será excluído. No entanto, se o FormIt for forçado a fechar, por um desligamento do computador ou um erro fatal do aplicativo, o arquivo de backup de Salvar automático será mantido e poderá ser usado posteriormente para recuperar os dados.
 
-## Working With AutoSave Enabled
+### Trabalhar com Salvar automático ativado
 
-FormIt minimizes the potential performance impact of AutoSave by executing the backup in a separate process. With small- to medium-sized files, you shouldn't notice when AutoSave backs up. With very large files (\~400MB and above), you might notice just a momentary pause while FormIt copies the entire model and starts backing up in a separate process.
+O FormIt minimiza o impacto potencial do recurso Salvar automático no desempenho executando o backup em um processo separado. Com arquivos de tamanho pequeno a médio, você não deve perceber quando Salvar automático faz backup. Com arquivos muito grandes \(~400 MB ou mais\), você pode observar apenas uma pausa momentânea enquanto o FormIt copia todo o modelo e começa a fazer backup em um processo separado.
 
-If you're wondering if AutoSave is currently backing up, you can watch the status bar the bottom left of the application for a brief "AutoSaving..." message:
+Se estiver se perguntando se Salvar automático está fazendo backup no momento, você poderá observar a barra de status na parte inferior esquerda do aplicativo para ver uma breve mensagem “Salvando automaticamente...”:
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-If your status bar is disabled, you can enable it at Window > Status Bar or via the shortcut HS.
+Se a barra de status estiver desativada, será possível ativá-la em Janela &gt; Barra de status ou por meio do atalho HS.
 
-## Recovering Data with AutoSave
+### Recuperar dados com Salvar automático
 
-When opening a FormIt file with a backup available, FormIt will alert you that the backup file exists. As mentioned above, this could be simply due to you closing FormIt without electing to save changes to this project last time it was edited, or due to FormIt unexpectedly closing.
+Quando você abre um arquivo FormIt com um backup disponível, o FormIt alertará que o arquivo de backup existe. Como mencionado acima, isso pode ser simplesmente devido ao fechamento do FormIt sem escolher salvar as alterações feitas nesse projeto na última vez em que ele foi editado ou devido ao fechamento inesperado do FormIt.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Clicking the "Open it?" hyperlink will load the `.axmb` backup file.
+Clicar no link “Abrir?” carregará o arquivo de backup `.axmb`.
 
-Similarly, you can use File > Open, and manually select the `.axmb` file from the file explorer to open a backup.
+De forma similar, é possível usar Arquivo &gt; Abrir e selecionar manualmente o arquivo `.axmb` no gerenciador de arquivos para abrir um backup.
 
-Once the backup file is open, the next time you save, FormIt will require you to pick a different FormIt file (`.axm`) to overwrite. You cannot overwrite FormIt backup files (`.axmb`).
+Quando o arquivo de backup estiver aberto, na próxima vez que você salvar, o FormIt exigirá que você selecione um arquivo do FormIt diferente \(`.axm`\) para substituir. Não é possível substituir os arquivos de backup do FormIt \(`.axmb`\).
+
+
+

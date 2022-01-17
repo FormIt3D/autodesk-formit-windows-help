@@ -1,15 +1,16 @@
 # Spline
 
-The Spline tool allows you to create organic sketches in space or on other objects.
+A ferramenta Spline permite criar esboços orgânicos no espaço ou em outros objetos.
 
 ![](../.gitbook/assets/spline.png)
 
-A spline is drawn from at least 3 interpolated points. The connected geometry is simplified creating a smooth and organic curve between the specified points. Like other drawing tools, splines can be drawn in 3D by snapping to 3D points while drawing.
+Uma spline é desenhada com base em pelo menos 3 pontos interpolados. A geometria conectada é simplificada criando uma curva suave e orgânica entre os pontos especificados. Como outras ferramentas de desenho, as splines podem ser desenhadas em 3D ao efetuar o snap para pontos 3D durante o desenho.
 
-To specify a distance, start typing a dimension value, and hit OK or press Enter in the Edit Dimension dialog.
+Para especificar uma distância, comece a digitar um valor de cota e pressione OK ou Enter na caixa de diálogo Editar cota.
 
-Splines can also close on themselves creating a face.
+As splines também podem fechar sobre si mesmas criando uma face.
 
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+

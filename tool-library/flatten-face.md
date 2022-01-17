@@ -1,15 +1,20 @@
-# Faces: Flatten
+# Faces: aplainar
 
-Use the **Flatten Faces** tool to force two or more object faces into the same plane.
+Use a ferramenta **Aplainar faces** para forçar duas ou mais faces de objeto no mesmo plano.
 
-When two or more object faces are selected, you can select the **Flatten Faces** tool from the **Context** menu. You can also access **Flatten Faces** using the shortcut "**FL**."
+Quando duas ou mais faces de objeto são selecionadas, é possível selecionar a ferramenta **Aplainar faces** no **menu de contexto**. Também é possível acessar **Aplainar faces** usando o atalho “**FL**”.
 
-![](../.gitbook/assets/flatten\_faces.png)
+![](../.gitbook/assets/flatten_faces.png)
 
-**Flatten Faces** can be useful as a repair tool when a face that should be planar becomes unexpectedly faceted (with smooth edges between the facets), either when importing lower-fidelity data like [SketchUp models](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), or after accidentally moving a vertex or edge which causes a face to get faceted or triangulated.
+**Aplainar faces** pode ser útil como uma ferramenta de reparo quando uma face que deveria ser plana se torna facetada inesperadamente \(com arestas suaves entre as facetas\), ao importar dados de fidelidade inferior como [modelos do SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten) ou após mover acidentalmente um vértice ou aresta que faz com que uma face seja facetada ou triangulada.
 
-You can also use **Flatten Faces** as a design tool for aligning or extending shapes. To do this, first, select a guide surface, then select additional faces to flatten to the plane of the first surface.
+Também é possível usar **Aplainar faces** como uma ferramenta de projeto para alinhar ou estender formas. Para fazer isso, selecione primeiro uma superfície guia e, em seguida, selecione faces adicionais para aplainar para o plano da primeira superfície.
 
-Check out the video below to see the power and versatility of **Flatten Faces**:
+Confira o vídeo abaixo para ver a potência e a versatilidade de **Aplainar faces**:
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
+
+
+
+
+

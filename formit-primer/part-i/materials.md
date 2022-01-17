@@ -1,137 +1,138 @@
-# 1.7 - Paint with Materials
+# 1.7 – Pintar com materiais
 
-As we saw in an **earlier exercise**, you can create your own materials, and then paint faces with those materials in FormIt. In this exercise, you will create and edit more materials as well as import materials from the Autodesk Material Library.
+Como vimos em um **exercício anterior**, você pode criar seus próprios materiais e, em seguida, pintar faces com esses materiais no FormIt. Neste exercício, você vai criar e editar mais materiais, bem como importar materiais da Bibliotecas de materiais da Autodesk.
 
-_If you did not complete the last section, download and open the_ _**1.7 - Paint with Materials.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.7 – Paint with Materials.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-## **Create the Glass Walls**
+## **Criar as paredes de vidro**
 
-1 - To view the plan containing the dimensions we are going to reference, go to the **Layer Palette** and turn on the **Plan Image** layer.
+1 – Para visualizar a planta que contém as cotas que vamos referenciar, vá para a **paleta Camadas** e ative a camada **Imagem da planta**.
 
-2 - Select the **Rectangle Tool (R)**. We are going to create a rectangle directly on top of the existing floor group. Make sure you are not editing the Floor Group but drawing on top of the existing grouped object.
+2 – Selecione a **ferramenta Retângulo \(R\)**. Vamos criar um retângulo diretamente na parte superior do grupo do piso existente. Certifique-se de que você não esteja editando o Grupo do piso, e sim desenhando na parte superior do objeto agrupado existente.
 
-![](<../../.gitbook/assets/0 (3).png>)
+![](../../.gitbook/assets/0%20%283%29.png)
 
-3 - To start the rectangle for the glass area:
+3 – Para iniciar o retângulo na área de vidro:
 
-1. Click at the back corner of the existing floor and move the mouse along its shorter edge.
-2. Type **28’-8”** to define the first edge length, and click **OK**. This should be the same length as the existing short edge of the floor.
-3. To define the second edge, start moving the mouse along the existing floor’s longer edge. Type **55'-5 ½"** to set the length of the second edge, then click **OK**.
-4. Click **Esc** to exit the rectangle tool. Single-click inside the new rectangle to select the face and start dragging it up.
+1. Clique no canto posterior do piso existente e mova o mouse ao longo da aresta mais curta.
+2. Digite **28’-8"** para definir o comprimento da primeira aresta e clique em **OK**. Esse deve ser o mesmo comprimento da aresta curta existente do piso.
+3. Para definir a segunda aresta, comece a mover o mouse ao longo da aresta mais longa existente do piso. Digite **55'-5 ½"** para definir o comprimento da segunda aresta e, em seguida, clique em **OK**.
+4. Pressione **ESC** para sair da ferramenta de retângulo. Clique uma vez dentro do novo retângulo para selecionar a face e começar a arrastá-la para cima.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](../../.gitbook/assets/1%20%283%29.png)
 
-4 - To define the height, move the mouse upwards along the **Z Axis**, press the **Tab** key, and enter **11'-2"**.
+4 – Para definir a altura, mova o mouse para cima ao longo do **Eixo Z**, pressione a tecla **Tab** e insira **11'-2"**.
 
-![](<../../.gitbook/assets/2 (4) (1).png>)
+![](../../.gitbook/assets/2%20%284%29.png)
 
-_**Note:**_ _Anytime you are using a tool for which you can enter a dimension, you can either press_ _**Tab**_ _or just start typing numbers!_
+_**Observação:**_ _Sempre que você estiver usando uma ferramenta na qual possa inserir uma cota, poderá pressionar_ _**Tab**_ _ou apenas começar a digitar os números._
 
-5 - Double-click and **Group (G)** the new geometry.
+5 – Clique duas vezes e **agrupe \(G\)** a nova geometria.
 
-6 - Double-click the group to edit it. In the **Properties Palette** name the group **Glass Walls.**
+6 – Clique duas vezes no grupo para editá-lo. Na **paleta Propriedades**, nomeie o grupo como **Paredes de vidro.**
 
-![](<../../.gitbook/assets/3 (3).png>)
+![](../../.gitbook/assets/3%20%283%29.png)
 
-7 - To define the glass wall’s thickness:
+7 – Para definir a espessura da parede de vidro:
 
-1. Right-click on the top face and choose the **Offset Face Tool (OF).**
-2. Move your mouse cursor inward, and type in **4".**
-3. Click **Esc** twice to clear the tool, and the selection.
+1. Clique com o botão direito do mouse na face superior e escolha a **ferramenta Deslocar face \(OF\).**
+2. Mova o cursor do mouse para dentro e digite **4".**
+3. Clique em **Esc** duas vezes para limpar a ferramenta e a seleção.
 
-![](<../../.gitbook/assets/4 (17).png>)
+![](../../.gitbook/assets/4%20%2817%29.png)
 
-​_**Note:**_ _The default unit for imperial projects are feet, similar to Revit. If you enter a single number without a specified unit, like_ _**4**, you will get_ _**4 feet (4’)**_ _and not_ _**4 inches (4”)**._
+​_**Observação:**_ _A unidade padrão para projetos imperiais é pés, tal como no Revit. Se você inserir um número sem uma unidade especificada, como_ _**4**, obterá_ _**4 pés \(4’\)**_ _e não_ _**4 polegadas \(4"\)**._
 
-8 - To carve out the interior area, single-click the interior top face to select it, then click again to start the **drag face** operation. Push the face all the way down, until it disappears, and click in the space to finish the process.
+8 – Para recortar a área interna, clique uma vez na face superior interna para selecioná-la e, em seguida, clique novamente para iniciar a operação de **arrastar a face**. Empurre a face para baixo até que ela desapareça e clique no espaço para concluir o processo.
 
-![](<../../.gitbook/assets/5 (12).png>)
+![](../../.gitbook/assets/5%20%2812%29.png)
 
-_**Note:**_ _In FormIt, unlike other software, you cannot accidentally push the face you are trying to delete ‘too far’ such that a new negative extrusion is formed._
+_**Observação:**_ _No FormIt, ao contrário de outros softwares, não é possível empurrar acidentalmente a face que você está tentando excluir “muito longe”, de modo que uma nova extrusão negativa seja formada._
 
-9 - End **Edit Group** mode by double-clicking off in space or pressing **Esc.**
+9 – Termine o modo **Editar grupo** clicando duas vezes no espaço ou pressionando **Esc.**
 
-10 - Select the **Glass Walls** group with a single-click and put it on the **Main Building Floor** layer.
+10 – Selecione o grupo **Paredes de vidro** com um único clique e coloque-o na camada **Piso do edifício principal**.
 
-![](<../../.gitbook/assets/6 (13) (1).png>)
+![](../../.gitbook/assets/6%20%2813%29.png)
 
-## **Import a Material from the Autodesk Material Library**
+## **Importar um material da Bibliotecas de materiais da Autodesk**
 
-1 - Edit the **Glass Walls** group again by double-clicking into it.
+1 – Edite o grupo **Paredes de vidro** novamente clicando duas vezes nele.
 
-2 - To import a new material to the model:
+2 – Para importar um novo material para o modelo:
 
-1. Go to the **Materials Palette**.
-2. Choose **Material Sample** in the drop-down menu at the top of the palette to navigate through the **Autodesk Material Library.** ​
-3. Click on the **Glass+Glazing** folder to open it.
-4. Find the **Glass – Blue Tint** material and single-click on it to add that material to your **In Sketch** material library.
-5. Note that you should be back in the **In Sketch** library, which now includes the newly selected material.
+1. Vá para a **paleta Materiais**.
+2. Selecione **Amostra de material** no menu suspenso, na parte superior da paleta, para navegar através da **Biblioteca de materiais da Autodesk.** ​
+3. Clique na pasta **Vidro+Vidraça** para abri-la.
+4. Localize o material **Vidro – Matiz azul** e clique uma vez nele para adicionar esse material à biblioteca de materiais na opção **No esboço**.
+5. Observe que você deve estar de volta na biblioteca **No esboço**, que agora inclui o material recém-selecionado.
 
-![](<../../.gitbook/assets/7 (8) (1).png>)
+![](../../.gitbook/assets/7%20%288%29.png)
 
-![](<../../.gitbook/assets/8 (8).png>)
+![](../../.gitbook/assets/8%20%288%29.png)
 
-3 - After adding the material, you should automatically be in the **Paintbrush** tool. If not, simply single-click on the **Glass – Blue Tint** material again. To paint all the walls, double-click the geometry with the **Painbrush** tool. This will apply the selected material to the entire object. ![](<../../.gitbook/assets/9 (1).png>)​
+3 – Após adicionar o material, você deve estar automaticamente na ferramenta **Pincel**. Se não estiver, clique uma vez no material **Vidro – Matiz Azul** novamente. Para pintar todas as paredes, clique duas vezes na geometria com a ferramenta **Pincel**. Isso permitirá aplicar o material selecionado em todo o objeto. ![](../../.gitbook/assets/9%20%281%29.png)​
 
-4 - Click **Esc** to exit the **Paintbrush** tool. Click **Esc** again, or double-click off in space to exit the group.
+4 – Clique em **Esc** para sair da ferramenta **Pincel**. Clique em **Esc** novamente ou clique duas vezes no espaço para sair do grupo.
 
-## **Quick Copy the Floor to Create the Roof**
+## **Cópia rápida do piso para criar o telhado**
 
-1 - To quickly create the roof based on the floor geometry:
+1 – Para criar rapidamente o telhado com base na geometria do piso:
 
-1. Select the **Floor** group with a single-click.
-2. Click one of the lower corners to start the **Move** tool.
-3. Start moving the floor up along the blue axis (**Z Axis**). Create a **quick copy** by tapping the **Ctrl** key. A "ghost" preview of the copy should appear. ​
-4. While moving along the blue axis (**Z Axis**), start typing **12' 2"** and a **Dimension Dialog** will appear. Click **OK** or press **Enter** to finalize the position.
+1. Selecione o grupo **Piso** com um único clique.
+2. Clique em um dos cantos inferiores para iniciar a ferramenta **Mover**.
+3. Comece a mover o piso para cima ao longo do eixo azul \(**Eixo Z**\). Crie uma **cópia rápida** tocando na tecla **Ctrl**. Uma visualização “fantasma” da cópia deve aparecer. ​
+4. Ao mover ao longo do eixo azul \(**Eixo Z**\), comece a digitar **12' 2"** e será exibida uma **caixa de diálogo Cota**. Clique em **OK** ou pressione **Enter** para finalizar o posicionamento.
 
-![](<../../.gitbook/assets/10 (1).png>)
+![](../../.gitbook/assets/10%20%281%29.png)
 
-![](<../../.gitbook/assets/11 (1).png>)
+![](../../.gitbook/assets/11%20%281%29.png)
 
-## **Edit the Roof**
+## **Editar o telhado**
 
-1 - While the copied group is still selected, use the **Make Unique (MU)** command to disassociate this group from the floor group.
+1 – Enquanto o grupo copiado ainda estiver selecionado, use o comando **Tornar único \(MU\)** para dissociar esse grupo do grupo do piso.
 
-2 - Double-click the group to edit it. Re-name the group to **Roof** in the **Properties Palette**. Exit the group by double-clicking off in space.
+2 – Clique duas vezes no grupo para editá-lo. Nomeie novamente o grupo como **Telhado** na **paleta Propriedades**. Saia do grupo clicando duas vezes no espaço.
 
-3 - In the **Layers Palette**, make a new **Layer** called **Roof** and add the **Roof** group to it. You can toggle the layer on and off to verify the correct elements are on the roof. Refer to **Chapter 6** for more information on how to work with **Layers**.
+3 – Na **paleta Camadas**, crie uma nova **Camada** chamada **Telhado** e adicione o grupo **Telhado** a essa camada. É possível ativar e desativar a camada para verificar se os elementos corretos estão no telhado. Consulte o **Capítulo 6** para obter mais informações sobre como trabalhar com **Camadas**.
 
-4 - Navigate back to the **Materials Palette** and import the **Concrete - Broom Finish - Colorized 1** material from the **Concrete+Asphalt** folder in the **Material Samples** **(Production)** library. Note that by clicking on the material, the selected geometry will be automatically painted, and the new material will be added to the **In Sketch** material library.
+4 – Navegue de volta para a **paleta Materiais** e importe o material **Concreto – Acabamento escovado – Colorido 1** da pasta **Concreto+Asfalto**, na biblioteca de **Amostras de material** **\(Produção\)**. Observe que, ao clicar no material, a geometria selecionada será automaticamente pintada e o novo material será adicionado à biblioteca de materiais **No esboço**.
 
 ![](../../.gitbook/assets/12.jpeg)
 
-_**Note:**_ _Painting a group outside of_ _**Group Edit Mode**_ _is a helpful technique that allows you to paint different instances of the same group with different materials._
+_**Observação:**_ _Pintar um grupo fora do_ _**Modo de edição de grupos**_ _é uma técnica útil que permite pintar diferentes instâncias do mesmo grupo com diferentes materiais._
 
-## **Create the Lower Terrace**
+## **Criar o terraço inferior**
 
-1 - Based on the **Plan Image**, create the lower terrace as a **Rectangle (R)** that is **55' 3"** long and **22'-7 3/4"** wide, and extrude it by 1’. Position the new rectangle so that it is 8 5/8” away from the main building South edge (the depth of the columns we will create later).
+1 – Com base na **Imagem da planta**, crie o terraço inferior como um **Retângulo \(R\)** que tem **55' 3"** de comprimento e **22'-7 3/4"** de largura e faça a extrusão por 1’. Posicione o novo retângulo de forma que esteja a uma distância de 8 5/8" da aresta sul do edifício principal \(criaremos mais tarde a profundidade das colunas\).
 
-_**Notes**:_
+_**Notas:**_
 
-* _Refer to previous chapters to learn how to draw and extrude rectangles._
-* _You may need to toggle_ _**Snap to Grid (SG)**_ _on or off to click at_ the terrace's corner.
+* _Consulte os capítulos anteriores para saber como desenhar e efetuar a extrusão de retângulos._
+* _Talvez seja necessário ativar ou desativar a opção __**Snap à grade \(SG\)**__ para clicar no_ canto do terraço.
 
-2 - To finalize the lower terrace:
+2 – Para finalizar o terraço inferior:
 
-1. **Group (G)** the geometry and name it **Lower Terrace Floor**.
-2. **Move** the group up **2'-2"** off the ground plane.
-3. Create a new **Layer** called **Lower Terrace** and add the group to it.
-4. Add the **Terrace Level Floor** to the group.
+1. **Agrupe \(G\)** a geometria e nomeie-a como **Piso do terraço inferior**.
+2. **Mova** o grupo para cima **2'-2"** do plano do chão.
+3. Crie uma nova **Camada** chamada **Terraço inferior** e adicione o grupo à camada.
+4. Adicione o **Piso do nível do terraço** ao grupo.
 
-![](<../../.gitbook/assets/13 (1).png>)
+![](../../.gitbook/assets/13%20%281%29.png)
 
-_**Note:**_ _This image doesn’t represent the step-by-step process to create and assign the geometry to groups, levels, and layers. For more information on these processes, refer to previous chapters in this Primer._
+_**Observação:**_ _Essa imagem não representa o processo passo a passo para criar e atribuir a geometria a grupos, níveis e camadas. Para obter mais informações sobre esses processos, consulte os capítulos anteriores deste Manual._
 
-3 - Import the material **Stone > Stone - Travertine**.
+3 – Importe o material **Pedra &gt; Pedra – Travertino**.
 
-4 - In the **Materials Palette**, find the imported **Travertine** material and modify it:
+4 – Na **paleta Materiais**, localize o material **Travertino** importado e modifique-o:
 
-1. Double-click the preview tile to open the **Material Editor** pop-up.
-2. Click the **Color** preview tile to open the **Color Editor** pop-up.
-3. Change the **Val** field to **190** to darken the tint of the material.
+1. Clique duas vezes na miniatura de visualização para abrir a janela pop-up **Editor de material**.
+2. Clique na miniatura de visualização de **Cor** para abrir a janela pop-up **Editor de cores**.
+3. Altere o campo **Valor** para **190** para escurecer o matiz do material.
 
-![](<../../.gitbook/assets/14 (2).png>)
+![](../../.gitbook/assets/14%20%282%29.png)
 
-5 - **Paint** the **Floor** and **Lower Terrace Floor** groups with the modified **Travertine** material.
+5 – **Pinte** os grupos **Piso** e **Piso do terraço inferior** com o material **Travertino** modificado.
 
 ![](../../.gitbook/assets/15.jpeg)
+

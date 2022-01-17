@@ -1,29 +1,29 @@
-# World Axes
+# Eixos universais
 
-The default coordinate system and grid can be modified by changing the world axis.
+É possível modificar o sistema de coordenadas e a grade padrão ao alterar o eixo universal.
 
-## Drawing and Modeling with Axes
+## Desenho e modelagem com eixos
 
-When a blank sketch is opened in FormIt, the World Axes are displayed as three red, green and blue lines in the center of the screen. These three lines, define the three Cartesian directions that define the 3D world. The "X" direction is defined by the red line, the "Y" direction by the green line and the "Z" or "up" direction by the blue line.
+Quando um esboço em branco é aberto no FormIt, os eixos universais são exibidos como três linhas vermelhas, verdes e azuis no centro da tela. Essas três linhas definem as três direções cartesianas que definem o mundo 3D. A direção “X” é definida pela linha vermelha, a direção “Y” pela linha verde e a direção “Z” ou “acima” pela linha azul.
 
 ![](../.gitbook/assets/axis.png)
 
-To rotate the grid and redefine the origin point for the sketch, **right-click** on empty space in the scene and choose the **Set Axes (SZ)** icon from the context menu\
-![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
+Para rotacionar a grade e redefinir o ponto de origem para o esboço, **clique com o botão direito do mouse** no espaço vazio na cena e selecione o ícone **Definir eixos \(SZ\)** no menu de contexto  ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-The Set Axes widget appears. Click on the large grip in the center to pick up the widget. Click again to set the origin point. Now click the dot on the red axis to rotate the grid, or click the dot on the blue axes to pivot the grid plane vertically. Click off into space to confirm the change\
-![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
+O widget Definir eixos é exibido. Clique na alça grande no centro para selecionar o widget. Clique novamente para definir o ponto de origem. Agora, clique no ponto no eixo vermelho para rotacionar a grade ou clique no ponto nos eixos azuis para girar o plano da grade verticalmente. Clique fora do espaço para confirmar a alteração.  
+![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-To **reset** the origin and grid back to the default setting, right-click on empty space in the scene and choose to **Reset Axes (RZ)**
+Para **redefinir** a origem e a grade de volta para a configuração padrão, clique com o botão direito do mouse em um espaço vazio na cena e escolha **Redefinir eixos \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## World Axes and Local Axes
+## Eixos universais e eixos locais
 
-The steps above explain how to control the **global coordinate system** of your sketch. When you start working with [**groups** ](groups.md)then you can control the **local coordinate system** of that group uniquely from the overall sketch. When you edit a group, you can edit the local coordinate system following the same steps as above - but these changes will only apply to the group
+As etapas acima explicam como controlar o **sistema de coordenadas global** do esboço. Quando você começa a trabalhar com [**grupos**](groups.md), é possível controlar o **sistema de coordenadas local** desse grupo de forma exclusiva do esboço geral. Quando você edita um grupo, é possível editar o sistema de coordenadas local seguindo as mesmas etapas acima – mas essas alterações somente se aplicam ao grupo.
 
-## Interactions with Axes
+## Interações com eixos
 
-* The **red, green, and blue axes** display when you're in sketch tools to guide your 3D sketching
-* The **purple axis** displays a perpendicular and parallel axis relative to lines drawn at an angle
-* Hold down the **Shift key** while sketching or moving to **lock to the current axis**
+* Os eixos **vermelho, verde e azul** são exibidos quando você está em ferramentas de esboço para guiar o esboço 3D
+* O **eixo roxo** exibe um eixo perpendicular e paralelo com relação às linhas desenhadas em um ângulo
+* Mantenha pressionada a tecla **Shift** ao desenhar ou mover para **travar no eixo atual**
+

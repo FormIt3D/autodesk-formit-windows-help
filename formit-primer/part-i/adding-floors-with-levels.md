@@ -1,35 +1,36 @@
-# 1.4 - Add Floors with Levels
+# 1.4 – Adicionar pisos com níveis
 
-_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
+_Os níveis permitem dividir massas com dados de piso individuais e calcular a área bruta por massa de construção. Os níveis do FormIt e seus nomes personalizados serão convertidos em níveis do Revit quando o arquivo for convertido para o Revit._
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
+_Se você não completou a última seção, faça o download e abra o arquivo **1.4 – Add Floors with Levels.axm** nos **Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-## **Create, and Customize Levels**
+## **Criar e personalizar níveis**
 
-1 - To create levels:
+1 – Para criar níveis:
 
-1. Go to the **Level Palette** in the **Palette Bar**.
-2. Click **+** (**Add Level**) four times to create four Levels.
-3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
-4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
+1. Vá para a **paleta Níveis** na **Barra de paletas**.
+2. Clique em **+** \(**Adicionar nível**\) quatro vezes para criar quatro níveis.
+3. Clique duas vezes na elevação atual de cada nível para modificá-los para: **0’-0", 2’-2", 4’-6"** e **17’-8"**.
+4. Clique duas vezes no nome atual de cada nível e renomeie-os: **Solo, Terraço, Construção principal** e **Topo do telhado.**
 
-![](<../../.gitbook/assets/0 (16) (1).png>)
+![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
+_**Observação**: É possível clicar no ícone __**++**__ para criar vários níveis, com uma distância especificada e uniforme separada. Isso é útil para construções com vários andares_.
 
-## **Apply Levels to Geometry**
+## **Aplicar níveis à geometria**
 
-_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
+_Nas etapas anteriores, só criamos níveis. Agora estamos prontos para aplicar esses níveis à geometria que criamos._
 
-1 - To apply levels to the exiting geometry:
+1 – Para aplicar níveis à geometria existente:
 
-1. Select the entire upper terrace mass by double-clicking it.
-2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
-3. Now the currently selected geometry has three levels applied to it (**Main Building, Terrace,** and **Ground**), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
-4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
+1. Selecione toda a massa do terraço superior clicando duas vezes nela.
+2. Na **paleta Propriedades**, clique em **Usar níveis**. Esse passo pré-selecionará todos os níveis que atualmente efetuam a interseção com a geometria selecionada.
+3. Agora a geometria atualmente selecionada tem três níveis aplicados \(**Construção principal, Terraço **e **Solo**\), mas para este exercício, queremos aplicar somente **Solo**. Desmarque **Construção principal** e **Terraço**.
+4. Esse processo assegura que somente a área intersecionada pelo **Solo** seja considerada para o cálculo da área bruta, que pode ser vista no campo **Área por nível**.
 
-![](<../../.gitbook/assets/1 (4) (1).png>)
+![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+_**Observação**: Se você não visualizar linhas de nível azuis na massa, digite_ _**DL**_ _para_ _**Exibir níveis**._
 
-![](<../../.gitbook/assets/2 (3) (1).png>)
+![](../../.gitbook/assets/2%20%283%29.png)
+

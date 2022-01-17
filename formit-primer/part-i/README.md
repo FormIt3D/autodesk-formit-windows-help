@@ -1,21 +1,24 @@
-# Part I
+# Parte I
 
-## Modeling Mies van der Rohe's Farnsworth House
+## Modelagem da Residência Farnsworth de Mies van der Rohe
 
-In Part I of this Primer, we are going to go over the basic FormIt tools and workflows to build a historic modernist house in just under two hours! Refer to the **FormIt Introduction** and **Tool Library** sections for detailed explanations on tools, toolbars, palettes, and processes discussed herein.
+Na Parte I deste Manual, vamos analisar as ferramentas e os fluxos de trabalho básicos do FormIt para construir uma casa modernista histórica em apenas duas horas. Consulte as seções **Introdução ao FormIt** e **Biblioteca de ferramentas** para obter explicações detalhadas sobre ferramentas, barras de ferramentas, paletas e processos aqui discutidos.
 
-![The Farnsworth House](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
-### Pre-requisites
 
-Before beginning Part I, download and install FormIt for Windows using the directions found in the FormIt Introduction section here: [**Prerequisites and Installation**](../../formit-introduction/prerequisites-and-installation.md).
+![Residência Farnsworth](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
-You will also need to download the data set found at the link below. The data set is a collection of files used throughout Part I.
+### Pré-requisitos
 
-_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [_**Web Application**_](https://formit.autodesk.com/app)_**.** For more information about FormIt versions and licensing, visit the_ [_FormIt website_](https://formit.autodesk.com).
+Antes de iniciar a Parte I, faça o download e instale o FormIt para Windows usando as instruções encontradas na seção Introdução do FormIt aqui: [**Pré-requisitos e instalação**](../../formit-introduction/prerequisites-and-installation.md).
 
-### Data Set
+Você também precisará fazer o download do conjunto de dados encontrado no link abaixo. O conjunto de dados é uma coleção de arquivos usados em toda a Parte I.
 
-Throughout Part I, we will build the Farnsworth House step by step, breaking up the modeling into manageable chapters. If you wish to only complete specific chapters, the data set below will provide you with the progress up until the chapter you chose to do. Besides the **Chapter Files**, the data set also contains the necessary **Supporting Files** to complete all exercises.
+_Se você não puder executar o FormIt para Windows, a maioria do tutorial poderá ser concluída usando a_ [_**Aplicação Web gratuita**_](https://formit.autodesk.com/app)_**.**Para obter mais informações sobre as versões e o licenciamento do FormIt, visite o_ ****[_**site do FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
 
-* [**FormIt Primer Data Set Part I**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)
+### Definir dados
+
+Ao longo da Parte I, vamos construir a Residência Farnsworth passo a passo, dividindo a modelagem em capítulos gerenciáveis. Se você desejar apenas concluir capítulos específicos, o conjunto de dados abaixo fornecerá o progresso até o capítulo escolhido. Além dos **Arquivos de capítulo**, o conjunto de dados também contém os **Arquivos de suporte** necessários para completar todos os exercícios.
+
+* \*\*\*\*[**Parte I dos Conjuntos de dados do Manual do FormIt**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
+

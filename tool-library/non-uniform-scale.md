@@ -1,40 +1,41 @@
-# Non-Uniform Scale
+# Escala não uniforme
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**Use Escala não uniforme para esticar objetos em 1, 2 ou 3 cotas.**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+Selecione qualquer combinação de arestas, faces, sólidos, malhas ou grupos e acesse Escala não uniforme usando o atalho de teclado **NU** ou a opção Menu de contexto:
 
-![](../.gitbook/assets/nu-scale\_context-menu.PNG)
+![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.**
+**Uma vez ativada a opção, você verá uma série de alças que podem ser usadas para dimensionar de forma não uniforme o objeto em 1, 2 ou 3 eixos simultaneamente.**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+Para maior clareza, somente as alças voltadas para a câmera serão desenhadas. Orbite em torno do objeto se você precisar ajustar uma alça no outro lado.
 
-![](../.gitbook/assets/nu-scale\_grips-1.PNG)
+![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+Após clicar em uma alça, você verá uma série de caixas de texto editáveis onde é possível ajustar a escala por porcentagem ou distância:
 
-![](../.gitbook/assets/nu-scale\_grips-2.PNG)
+![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**Quando as caixas de cota estiverem visíveis, será possível:**
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Começar a digitar um número para editar automaticamente a caixa de porcentagem e especificar um fator de escala.
+   * Inserir um número negativo inverterá a direção da escala.
+* Ou clicar para definir temporariamente a localização da alça e, em seguida, clicar na caixa que contém a cota para dimensionar por distância.
+* Clicar fora do espaço ou pressionar Esc para concluir a operação Escala não uniforme.
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**O dimensionamento em uma das alças de aresta de canto respeitará a proporção das cotas adjacentes:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Comece a digitar um número para editar o valor de porcentagem.
+* Ou clique para definir temporariamente a localização da alça e, em seguida, clique em uma das duas caixas de cota para dimensionar por distância.
+* Clique fora do espaço ou pressione Esc para concluir a operação Escala não uniforme.
 
-![](../.gitbook/assets/nu-scale\_grips-3.PNG)
+![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**De forma similar, a escala em uma das alças de canto respeitará a proporção de toda a forma e, de forma eficaz, dimensionará uniformemente:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Comece a digitar um número para editar o valor de porcentagem.
+* Ou clique para definir temporariamente a localização da alça e, em seguida, clique em uma das três caixas de cota para dimensionar por distância.
+* Clique fora do espaço ou pressione Esc para concluir a operação Escala não uniforme.
 
-![](../.gitbook/assets/nu-scale\_grips-4.PNG)
+![](../.gitbook/assets/nu-scale_grips-4.PNG)
+

@@ -1,77 +1,78 @@
-# Toolbars and Palettes
+# Barras de ferramentas e paletas
 
-## Toolbars
+## Barras Ferr.
 
-The standard toolbar is enabled by default, but is split into the following sections. You can optionally enable, disable, and rearrange individual sections using the Windows menu.
+A barra de ferramentas padrão é ativada por padrão, mas é dividida nas seções a seguir. Opcionalmente, é possível ativar, desativar e reorganizar seções individuais usando o menu do Windows.
 
-### File
+### Arquivo
 
-![](../.gitbook/assets/file\_icons.png)
+![](../.gitbook/assets/file_icons.png)
 
-1. **File menu** with file operations like Open, Save, and Export
-2. **Undo** your last change
-3. **Redo** a change you undid
+1. **Menu Arquivo** com operações de arquivo como Abrir, Salvar e Exportar
+2. **Desfazer** a última alteração
+3. **Refazer** uma alteração desfeita
 
-### Geometry
+### Geometria
 
-![](<../.gitbook/assets/geometry\_icons (1).png>)
+![](../.gitbook/assets/geometry_icons%20%281%29.png)
 
-1. [**Selection**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) and area selection filters
-2. [**Measure** ](../tool-library/measure-tool.md)Distance and [**Measure Angle**](../tool-library/measure-angle-tool.md) tools
-3. [**Section Planes**](../tool-library/section-planes.md)
-4. [**3D Sketching Tools**](../formit-primer/part-i/3d-sketching.md)
-5. [**Primitive** ](../tool-library/place-primitive-object.md)toolbar
-6. [**Advanced Geometry**](tool-bars.md) toolbar with Join, Cut, Sweep, Loft, and Shell
-7. [**Groups** ](../tool-library/groups.md)toolbar
+1. \*\*\*\*[**Seleção**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) ****e filtros de seleção de área
+2. Ferramentas [**Medir** ](../tool-library/measure-tool.md)distância e [**Medir ângulo**](../tool-library/measure-angle-tool.md) ****
+3. [**Planos de corte**](../tool-library/section-planes.md)
+4. [**Ferramentas de desenho 3D**](../formit-primer/part-i/3d-sketching.md)
+5. Barra de ferramentas [**Primitivo**](../tool-library/place-primitive-object.md)
+6. Barra de ferramentas [**Geometria avançada**]() com Unir, Cortar, Varredura, Elevar e Casca
+7. Barra de ferramentas [**Grupos**](../tool-library/groups.md)
 
-### Settings
+### Configurações
 
-![](../.gitbook/assets/settings\_icons.png)
+![](../.gitbook/assets/settings_icons.png)
 
-1. **Settings** menu for UI and app settings.
-2. **Touch Mode** to enable interactions on touch screen devices.
-3. [**Collaboration**](../tool-library/collaboration.md) for managing collaboration sessions with multiple users.
-4. **Autodesk account login.**
-5. **Information** menu for help and links.
+1. Menu **Configurações** para configurações da interface do usuário e do aplicativo.
+2. **Modo de toque** para ativar interações em dispositivos de tela sensível ao toque.
+3. [**Colaboração**](../tool-library/collaboration.md) para gerenciar sessões de colaboração com vários usuários.
+4. **Login na Autodesk Account.**
+5. Manu **Informações** para ajuda e links.
 
-### Design
+### Projeto
 
-![](../.gitbook/assets/design\_icons.png)
+![](../.gitbook/assets/design_icons.png)
 
-1. [**Location** ](../tool-library/setting-location.md)
-2. [**Sun, Shadows, and Solar Analysis**](../tool-library/solar-analysis.md)
-3. [**Energy Analysis**](../tool-library/energy-analysis.md)
+1. [**Localização** ](../tool-library/setting-location.md)
+2. [**Análise de luz solar, de sombras e de sol**](../tool-library/solar-analysis.md)
+3. [**Análise de energia**](../tool-library/energy-analysis.md)
 
-## Palette
+## Paleta
 
-![](<../.gitbook/assets/properties (1).png>) [**Properties**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](../.gitbook/assets/properties%20%281%29.png)[**Propriedades**](https://windows.help.formit.autodesk.com/tool-library/properties)\*\*\*\*
 
-![](../.gitbook/assets/layers.png) [**Layers**](../tool-library/layers.md)
+![](../.gitbook/assets/layers.png)[**Camadas**](../tool-library/layers.md)
 
-![](../.gitbook/assets/scenes.png) [**Scenes**](../tool-library/scenes.md)
+![](../.gitbook/assets/scenes.png)[**Cenas**](../tool-library/scenes.md)
 
-![](../.gitbook/assets/visual\_styles.png) [**Visual Styles**](../tool-library/visual-styles.md)
+![](../.gitbook/assets/visual_styles.png)[**Estilos visuais**](../tool-library/visual-styles.md)
 
-![](../.gitbook/assets/branch\_tree.png) [**Groups Tree**](../tool-library/groups-tree.md)
+![](../.gitbook/assets/branch_tree.png)[**Árvore de grupos**](../tool-library/groups-tree.md)
 
-![](../.gitbook/assets/dynamo.png) [**Dynamo**](../tool-library/dynamo.md)
+![](../.gitbook/assets/dynamo.png)[**Dynamo**](../tool-library/dynamo.md)
 
-![](../.gitbook/assets/levels.png) [**Levels**](../tool-library/levels-and-area.md)
+![](../.gitbook/assets/levels.png)[**Níveis**](../tool-library/levels-and-area.md)
 
-![](../.gitbook/assets/content\_library.png) [**Content Library**](../tool-library/content-library.md)
+![](../.gitbook/assets/content_library.png)[**Biblioteca de conteúdo**](../tool-library/content-library.md)
 
-![](../.gitbook/assets/undo.png) [**Undo Manager**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
+![](../.gitbook/assets/undo.png)[**Gerenciador de desfazer**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin\_img.png) [**Plug-Ins**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
+![](../.gitbook/assets/plugin_img.png)[**Plug-ins**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)\*\*\*\*
 
-## Context Menu
+## Menu de contexto
 
-Right-click on an element in the 3D canvas to display a menu of commands and modifications for that type of geometry. Hover over the icons to see their names.
+Clique com o botão direito do mouse em um elemento na tela 3D para exibir um menu de comandos e modificações para aquele tipo de geometria. Passe o mouse sobre os ícones para ver seus nomes.
 
-![](../.gitbook/assets/wheel\_img.png)
+![](../.gitbook/assets/wheel_img.png)
 
-## Keyboard Shortcuts
+## Atalhos do teclado
 
-Customize your FormIt [k**eyboard shortcuts**](../appendix/keyboard-shortcuts.md) in Edit > Preferences > Shortcuts.
+Personalize os [atalhos **de teclado**](../appendix/keyboard-shortcuts.md) do FormIt em Editar > Preferências > Atalhos.
 
-![](<../.gitbook/assets/shortcuts\_img (1).png>)
+![](../.gitbook/assets/shortcuts_img.png)
+

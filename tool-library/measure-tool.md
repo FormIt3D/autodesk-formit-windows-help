@@ -1,13 +1,14 @@
-# Measure
+# Medir
 
-The **Measure** tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+A ferramenta **Medir** está localizada na [barra de ferramentas](../formit-introduction/tool-bars.md).
 
-You can use the **Measure** tool to measure existing geometry in a model. You can also use the **Measure** tool to assign dimensions to geometry.
+É possível usar a ferramenta **Medir** para medir a geometria existente em um modelo. Também é possível usar a ferramenta **Medir** para atribuir cotas à geometria.
 
-1. Select the **Measure** tool.
-2. Select two points to measure the distance between them.
-3. Select a face or edge you want to adjust, click the displayed value and add a new value in the dialog box that displays.
+1. Selecione a ferramenta **Medir**.
+2. Selecione dois pontos para medir a distância entre eles.
+3. Selecione uma face ou aresta que deseja ajustar, clique no valor exibido e adicione um novo valor na caixa de diálogo que é exibida.
 
-![](<../.gitbook/assets/measure (1).png>)\
-![](<../.gitbook/assets/measure2 (1).png>)\
+![](../.gitbook/assets/measure%20%281%29.png)  
+![](../.gitbook/assets/measure2.png)  
 ![](../.gitbook/assets/measure3.png)
+

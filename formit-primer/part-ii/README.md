@@ -1,27 +1,28 @@
-# Part II
+# Parte II
 
-## Advanced Tools
+## Ferramentas avançadas
 
-In **Part II** of this Primer, we are going to dive into some of the more advanced tools FormIt has to offer. We will explore how to use simple yet powerful modeling, diagnostic, analysis, and interoperability tools to modify and enhance the Encode Campus Model pictured below.
+Na **Parte II** deste Manual, vamos nos aprofundar em algumas das ferramentas mais avançadas que o FormIt tem a oferecer. Vamos explorar como usar ferramentas simples, porém poderosas, de modelagem, diagnóstico, análise e interoperabilidade para modificar e aprimorar o modelo Encode Campus descrito abaixo.
 
-If you are new to FormIt, we recommend starting with **Part I**, as **Part II** will assume you are already familiar with the basics of FormIt.
+Se você não estiver familiarizado com o FormIt, recomendamos começar com a **Parte I**, pois a **Parte II** assumirá que você já está familiarizado com os conceitos básicos do FormIt.
 
-Refer to the **FormIt Introduction** and **Tool Library** sections for detailed explanations on specific tools, toolbars, palettes, and processes discussed herein.
+Consulte as seções **Introdução ao FormIt** e **Biblioteca de ferramentas** para obter explicações detalhadas sobre ferramentas, barras de ferramentas, paletas e processos específicos discutidos aqui.
 
-![](<../../.gitbook/assets/screen1 (1).jpg>)
+![](../../.gitbook/assets/screen1.jpg)
 
-### Pre-requisites
+### Pré-requisitos
 
-Before beginning Part II, download and install FormIt for Windows using the directions found in the FormIt Introduction section here: [**Prerequisites and Installation**](../../formit-introduction/prerequisites-and-installation.md).
+Antes de iniciar a Parte II, faça o download e instale o FormIt para Windows usando as instruções encontradas na seção Introdução do FormIt aqui: [**Pré-requisitos e instalação**](../../formit-introduction/prerequisites-and-installation.md).
 
-For most chapters, you will also need to download and make use of the data set found at the link below.
+Para a maioria dos capítulos, você também precisará fazer o download e o uso do conjunto de dados encontrado no link abaixo.
 
-_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [_**Web Application**_](https://formit.autodesk.com/app)_**.** For more information about FormIt versions and licensing, visit the_ [_FormIt website_](https://formit.autodesk.com)_._
+_Se você não puder executar o FormIt para Windows, a maioria do tutorial poderá ser concluída usando a_ [_**Aplicação Web gratuita**_](https://formit.autodesk.com/app)_**.**Para obter mais informações sobre as versões e o licenciamento do FormIt, visite o_ ****[_**site do FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
 
-### Data Set
+### Definir dados
 
-The Encode Campus, pictured above, is a fictional medium-sized multi-use project set in an urban plot, complete with organized layers, scenes, materials, and even geometries tied to live editable Dynamo scripts.
+O Encode Campus, descrito acima, é um projeto ficcional multiuso de médio porte definido em uma plotagem urbana, completo com camadas organizadas, cenas, materiais e até mesmo geometrias vinculadas a scripts do Dynamo editáveis ao vivo.
 
-All façade elements of the Encode building are controlled by Dynamo scripts, driven by a path at the base of the building that defines the façade shape.
+Todos os elementos de fachada da construção Encode são controlados por scripts do Dynamo, orientados por um caminho na base da construção que define a forma da fachada.
 
-* [**FormIt Primer Data Sets Part II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)
+* \*\*\*\*[**Parte II dos Conjuntos de dados do Manual do FormIt**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
+

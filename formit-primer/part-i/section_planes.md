@@ -1,39 +1,40 @@
-# 1.13 - Section Planes
+# 1.13 – Planos de corte
 
-_In this chapter you will learn how to use_ _**Section Planes**_ _to cut your model, revealing interior spaces and structural elements. FormIt supports multiple_ _**Section Planes**_ _at once for a Section Box-like effect._
+_Neste capítulo, você aprenderá como usar_ _**Planos de corte**_ _para cortar o modelo, revelando espaços internos e elementos estruturais. O FormIt suporta vários_ _**planos de corte**_ _de uma vez para um efeito semelhante a Caixa de corte._
 
-_If you did not complete the previous chapter, download and open the_ _**1. 13 - Section Planes.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Se você não concluiu o capítulo anterior, faça o download e abra o arquivo_ _**1. 13 – Section Planes.axm**_ _dos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-1 - To create a new Section Plane:
+1 – Para criar um novo plano de corte:
 
-1. Click on the **Section Plane (SP)** button from the **Standard Toolbar**.
-2. Hover over the model to identify a plane to use as reference. Note the arrows at the corners of the **Section Plane** indicating the direction of the section cut. Press the **Tab** key to alternate between different planes, if needed.
-3. Click to place the **Section Plane** anywhere on the southern glass wall of the main building. The plane will scale to the size of your model and remain selected.
+1. Clique no botão **Plano de corte \(SP\)** na **barra de ferramentas padrão**.
+2. Passe o mouse sobre o modelo para identificar um plano a ser usado como referência. Observe as setas nos cantos do **Plano de corte** indicando a direção do corte de seção. Pressione a tecla **Tab** para alternar entre diferentes planos, se necessário.
+3. Clique para colocar o **Plano de corte** em qualquer lugar na parede de vidro sul do edifício principal. O plano será dimensionado para o tamanho do modelo e permanecerá selecionado.
 
-![Section plane preview when hovering over the glass wall.](<../../.gitbook/assets/0 (6).png>)
+![Visualização do plano de corte ao passar o cursor sobre a parede de vidro.](../../.gitbook/assets/0%20%286%29.png)
 
-![Scaled section plane after being placed.](<../../.gitbook/assets/1 (19) (1).png>)
+![ Plano de corte dimensionado após ser inserido.](../../.gitbook/assets/1%20%2819%29.png)
 
-2 - With the section plane still select, click to start moving it backwards until it is cutting through part of the main building, similar to the image below. This works similarly to moving any model element, except that the section plane can only move along an axis perpendicular to the direction it is facing. Once you are happy with the position, press **Esc** to clear the selection.
+2 – Com o plano de corte ainda selecionado, clique para começar a movê-lo para trás até que esteja cortando através de parte do edifício principal, similar à imagem abaixo. Isso funciona de forma similar a mover qualquer elemento do modelo, exceto que o plano de corte somente pode se mover ao longo de um eixo perpendicular à direção que está voltada. Quando estiver satisfeito com a posição, pressione **Esc** para limpar a seleção.
 
-![](<../../.gitbook/assets/2 (11) (1).png>)
+![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Note:**_ _You can add up to 6 section cuts to your model at once._
+_**Observação:**_ _É possível adicionar até seis cortes de seção ao modelo de uma só vez._
 
-3 - Open the **Layers** **Palette**. Note that two (2) new layers have been generated - **Section Indicators** and **Section Cut 1**.
+3 – Abra a **paleta** **Camadas**. Observe que duas \(2\) novas camadas foram geradas – **Indicadores de seção** e **Corte de seção 1**.
 
-1. Toggle the **Section Cut 1** layer off and back on. This controls whether the section cuts the model or not.
-2. Now toggle the **Section Indicator** layer off. This hides the section plane and its arrow indicators, but does not affect whether the actual section cut is active or not.
+1. Ative e desative a camada **Corte da seção 1**. Isso controla se a seção corta o modelo ou não.
+2. Agora, desative a camada **Indicador de seção**. Isso oculta o plano de corte e seus indicadores de seta, mas não afeta se o corte de seção real está ativo ou não.
 
-![](<../../.gitbook/assets/3 (6) (1).png>)
+![](../../.gitbook/assets/3%20%286%29.png)
 
-4 - In the **Surface Tab** of the **Visual Styles** **Palette**:
+4 – Na **guia Superfície** da **paleta** **Estilos visuais**:
 
-1. Check the box next to **Poche Color** to turn it on. This effect will color any solids cut by the section plane with a specified color. Black is the default color, but you can simply click on the color preview to change it.
-2. Turn of **Shadows (DS)**.
+1. Marque a caixa ao lado de **Cor de preenchimento** para ativá-la. Esse efeito colorirá quaisquer sólidos cortados pelo plano de corte com uma cor especificada. Preto é a cor padrão, mas você pode simplesmente clicar na visualização de cor para alterá-la.
+2. Desative **Sombras \(DS\)**.
 
 ![](../../.gitbook/assets/poche.png)
 
-5 - To finalize your section, go to the **Scenes Palette** and create a new Scene called **Section**, saving the current **Camera** position, **Layers** visibility, and **Visual Styles** settings.
+5 – Para finalizar o corte, vá para a **paleta Cenas** e crie uma nova cena chamada **Corte**, salvando a posição atual da **Câmera**, a visibilidade das **Camadas** e as configurações dos **Estilos visuais**.
 
-![](<../../.gitbook/assets/5 (7).png>)
+![](../../.gitbook/assets/5%20%287%29.png)
+

@@ -1,89 +1,90 @@
-# Meshes
+# Malhas
 
-Starting in v17.0, FormIt offers a new type of geometry: Meshes.
+A partir da v17.0, o FormIt oferece um novo tipo de geometria: Meshes.
 
-Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance.
+As malhas são representações leves de objetos do FormIt padrão e são ótimas para melhorar o desempenho da geometria de polígonos altos, como mobiliário ou ambientes 3D, como pessoas, árvores, carros e sinalização. As malhas também são ótimas para geometria DWG complexa que, de outra forma, poderia afetar o desempenho do FormIt.
 
-Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
+Os objetos podem ser convertidos em malhas e as malhas podem ser convertidas de volta em objetos sem perder nenhum dado. Alguns tipos de arquivo são automaticamente importados como malhas, como OBJ, STL e DWG. Saiba mais sobre a conversão entre tipos e outros benefícios e limitações de malhas abaixo.
 
-## Converting Objects to Meshes
+### Converter objetos em malhas
 
-Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
+Qualquer combinação de vértices, arestas, faces ou corpos sólidos pode ser convertida em malhas.
 
-Simply select Objects, and either use shortcut OM (Objects to Meshes) or right-click and select Objects to Meshes in the Context Menu:
+Basta selecionar Objects e usar o atalho OM \(Objects to Meshes\) ou clicar com o botão direito do mouse e selecionar Objects to Meshes no menu de contexto:
 
-![](../.gitbook/assets/context-menu\_object-to-mesh.PNG)
+![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Once the Objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Quando os objetos tiverem sido convertidos em malhas, você verá uma mensagem de confirmação na parte superior da tela:
 
-![](../.gitbook/assets/success\_object-to-mesh.PNG)
+![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**When converting Objects to Meshes:**
+**Ao converter objetos em malhas:**
 
-* Edges that were smoothed on the Objects will remain smoothed in the resulting Meshes.
-* Material orientations on the Objects will remain unchanged in the resulting Meshes.
-* A Mesh is created for every material applied. For example, if you convert a single cube painted 6 different colors, you'll get 6 different Meshes.
-  * Converting back to an Object will re-seal the individual meshes back into a solid body.
-* Selecting a solid body will convert and replace the entire body with a Mesh, but selecting individual edges or vertices owned by a solid will create a new Mesh on top of the existing geometry, without affecting the original body.
-* Converting a set of edges or vertices will create a single Linemesh (a mesh made of edges) or a single Pointmesh (a mesh made of points), which means you won't be able to select individual edges or vertices once they've been combined into a single Mesh. Convert them back to Objects if you want to adjust the position of a single element.
+* As arestas que foram suavizadas nos objetos permanecerão suavizadas nas malhas resultantes.
+* As orientações de material nos objetos permanecerão inalteradas nas malhas resultantes.
+* Uma malha será criada para cada material aplicado. Por exemplo, se você converter um único cubo pintado em 6 cores diferentes, você obterá 6 malhas diferentes.
+   * Converter de volta em um objeto vedará novamente as malhas individuais de volta em um corpo sólido.
+* Selecionar um corpo sólido converterá e substituirá todo o corpo por uma malha, mas selecionar arestas ou vértices individuais pertencentes a um sólido criará uma nova malha sobre a geometria existente, sem afetar o corpo original.
+* A conversão de um conjunto de arestas ou vértices criará uma única malha de linhas \(uma malha feita de arestas\) ou uma única malha de ponto \(uma malha feita de pontos\), o que significa que você não será capaz de selecionar arestas ou vértices individuais depois que eles forem combinados em uma única malha. Converta-os de volta em objetos se você desejar ajustar a posição de um único elemento.
 
-**Converting Grouped geometry to Meshes:**
+**Converter geometria agrupada em malhas:**
 
-* Meshes become even more powerful when you can convert an entire Group and all of its nested Groups into Meshes.
-* Groups and their nested contents can be converted to Groups by using a plugin:
-  * Look for the Plugin Manager icon on the right side of the application:
-    * ![](../.gitbook/assets/plugin-manager\_icon.PNG)&#x20;
-  * Find the "Mesh + Unmesh All" plugin, and click the checkbox to install it:
-    * ![](../.gitbook/assets/plugin-manager\_mesh-unmesh-all.png)&#x20;
-  * The Mesh + Unmesh All plugin will load. Simply select a Group containing Objects you want to convert to Meshes, and click Mesh All.
-    * ![](../.gitbook/assets/mesh-unmesh-all-plugin.png)&#x20;
-  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation:
+* As malhas se tornam ainda mais poderosas quando você pode converter um grupo inteiro e todos os seus grupos aninhados em malhas.
+* Os grupos e seu conteúdo aninhado podem ser convertidos em grupos usando um plug-in:
+   * Procure o ícone Plugin Manager no lado direito do aplicativo:
+      * ![](../.gitbook/assets/plugin-manager_icon.PNG)
+   * Localize o plug-in “Mesh + Unmesh All” e clique na caixa de seleção para instalá-lo:
+      * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
+   * O plug-in Mesh + Unmesh All será carregado. Basta selecionar um grupo que contenha os objetos que você deseja converter em malhas e clicar em Mesh All.
+      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
+   * Ao converter objetos aninhados ou malhas com esse plug-in, você verá uma mensagem de atualização na parte superior da tela informando quantos grupos e instâncias de grupos foram afetados pela operação:
 
-![](../.gitbook/assets/success\_mesh-all.png)
+![](../.gitbook/assets/success_mesh-all.PNG)
 
-## Interacting With Meshes
+### Interação com malhas
 
-**Because of their lightweight nature, Meshes have certain limitations and behaviors:**
+**Por causa de sua natureza leve, as malhas têm certas limitações e comportamentos:**
 
-* You won't be able to edit the individual faces, edges, or vertices of a Mesh.
-  * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces (see above).
-* Snapping to Meshes is limited to the faces and vertices of Meshes. For performance, snapping and inferencing will not work with edges of Meshes.
-  * However, DWG files converted to Meshes (a different type of mesh known as a Linemesh) will retain the ability to snap to and inference to Mesh edges.
-* Meshes cannot have Levels applied to them.
-* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not.&#x20;
-  * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
-* Meshes cannot be used in advanced modeling operations, like Solid Join/Cut, 3D Shell, 3D Offset, Fillet, Loft, Sweep, or Cover.
+* Não será possível editar faces, arestas ou vértices individuais de uma malha.
+   * No entanto, será possível reformatar malhas e mover malhas individuais criadas como resultado de diferentes materiais aplicados às faces \(consulte acima\).
+* O snap a malhas será limitado às faces e vértices de malhas. Para fins de desempenho, o snap e a inferência não funcionarão com arestas de malhas.
+   * No entanto, os arquivos DWG convertidos em malhas \(um tipo diferente de malha conhecido como malha de linhas\) manterão a capacidade de efetuar inferência e snap a arestas de malha.
+* As malhas não poderão ter níveis aplicados.
+* As malhas não informarão problemas herméticos ou de face posterior. Converta-os de volta em objetos para ver se eles são herméticos ou não.
+   * Os objetos que estavam herméticos antes da conversão em uma malha permanecerão herméticos quando convertidos de volta em um objeto.
+* Não é possível usar as malhas em operações avançadas de modelagem, como Unir/Cortar sólido, Casca 3D, Deslocamento 3D, Concordância, Elevação, Varredura ou Cobertura.
 
-Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
+Caso contrário, as malhas serão exibidas e se comportarão como qualquer outro objeto do FormIt: colocadas em grupos, atribuídas a camadas, visualizadas em cenas, usadas para análise etc.
 
-**You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:**
+**Você saberá que está interagindo com uma malha se a dica de ferramenta relatar “On Mesh” ou se o painel Properties relatar uma malha:**
 
-![](../.gitbook/assets/snap\_on-mesh.png)
+![](../.gitbook/assets/snap_on-mesh.PNG)
 
-![](../.gitbook/assets/properties-panel\_mesh.png)
+![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Some file types are automatically imported as Meshes to improve performance:**
+**Alguns tipos de arquivo são automaticamente importados como malhas para melhorar o desempenho:**
 
-* STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
-* DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
+* Os arquivos STL e OBJ, que podem conter geometria densa, como nuvens de pontos de outros aplicativos, são automaticamente importados como malhas.
+* Os arquivos DWG, que podem conter milhões de pequenos segmentos de aresta em curvas de alta qualidade, são automaticamente importados como malhas.
 
-## Converting Meshes Back to Objects
+### Converter malhas de volta em objetos
 
-Simply select Meshes, and either use shortcut MO (Meshes to Objects) or right-click and select Meshes to Objects in the Context Menu:
+Basta selecionar Meshes e usar o atalho MO \(Meshes to Objects\) ou clicar com o botão direito do mouse e selecionar Meshes to Objects no menu de contexto:
 
-![](../.gitbook/assets/context-menu\_mesh-to-object.PNG)
+![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Quando os objetos tiverem sido convertidos em malhas, você verá uma mensagem de confirmação na parte superior da tela:
 
-![](../.gitbook/assets/success\_mesh-to-object.PNG)
+![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**When converting Meshes back to Objects:**
+**Ao converter malhas de volta em objetos:**
 
-* Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
-* Converting a series of edges (for example from a DWG file) or a series of vertices (for example from a pointcloud) to a Mesh and back will automatically put the unmeshed Objects into a Group.
-  * This prevents the new edges or vertices from merging with other geometry which could have adverse effects and impact performance.
-  * Simply can Ungroup the resulting Group to release the edges and/or vertices.
+* Quaisquer objetos que anteriormente eram sólidos/herméticos antes de converter em uma malha serão unidos novamente em um sólido hermético ao converter de volta em um objeto.
+* Converter uma série de arestas \(por exemplo de um arquivo DWG\) ou uma série de vértices \(por exemplo de uma nuvem de pontos\) em uma malha e convertê-los de volta colocará automaticamente os objetos sem malha em um grupo.
+   * Isso impedirá que as novas arestas ou vértices mesclem com outra geometria, o que poderá ter efeitos adversos e afetar o desempenho.
+   * Será possível desagrupar simplesmente o grupo resultante para liberar as arestas e/ou vértices.
 
-**Converting Grouped Meshes back to Objects:**
+**Converter malhas agrupadas de volta em objetos:**
 
-* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects.
+* Consulte as instruções acima para usar o plug-in Mesh + Unmesh All para converter grupos e suas malhas aninhadas de volta em objetos.
+

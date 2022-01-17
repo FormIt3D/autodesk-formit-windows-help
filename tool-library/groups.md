@@ -1,57 +1,58 @@
-# Groups
+# Grupos
 
-One of the most basic yet important techniques in FormIt workflows involves grouping. Groups allow you to keep your geometry from sticking together and allow you to set up parent/child relationships between copied elements so that if you update one element, both elements update. Learn more about groups [here](../formit-primer/part-i/grouping-objects.md).
+Uma das técnicas mais básicas, porém importantes, nos fluxos de trabalho do FormIt envolve o agrupamento. Os grupos permitem que você impeça que a geometria fique unida e possibilitam configurar as relações pai/filho entre os elementos copiados para que, se você atualizar um elemento, ambos os elementos sejam atualizados. Saiba mais sobre os grupos [aqui](../formit-primer/part-i/grouping-objects.md).
 
-Groups can be created and edited in two ways: either from the context menu of a selected group, or from the main toolbar.
+É possível criar e editar os grupos de duas maneiras: no menu de contexto de um grupo selecionado ou na barra de ferramentas principal.
 
-## Groups Interactions
+## Interações de grupos
 
-To **create a group**, select the elements you'd like to group together — this can include edges, faces, solids, or other groups — and right-click. Choose the **Group (G)** tool from the context menu. Imported images and satellite images cannot be grouped.
+Para **criar um grupo**, selecione os elementos que você deseja agrupar (isso pode incluir arestas, faces, sólidos ou outros grupos) e clique com o botão direito do mouse. Selecione a ferramenta **Grupo \(G\)** no menu de contexto. Não é possível agrupar imagens importadas e imagens de satélite.
 
-To **select a group**, single-click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
+Para **selecionar um grupo**, clique uma vez no grupo. Observe as linhas tracejadas que são exibidas ao selecionar um grupo; elas indicam o tamanho total do grupo.
 
-To **edit a group**, double-click the group. This launches an edit mode where you can only view and snap to elements outside of the current group, but cannot select them. You can also hide the elements outside of the current group by using the **H** keyboard shortcut.
+Para **editar um grupo**, clique duas vezes no grupo. Isso inicia um modo de edição no qual você só pode visualizar e efetuar o snap para elementos fora do grupo atual, mas não pode selecioná-los. Também é possível ocultar os elementos fora do grupo atual usando o atalho de teclado **H**.
 
-You can create **groups within groups:** these are called **nested groups** and can be created within the group edit mode. To move up one level in nested groups, click anywhere outside of the groups.
+É possível criar **grupos dentro de grupos:** eles são chamados de **grupos aninhados** e podem ser criados dentro do modo de edição de grupo. Para mover um nível acima em grupos aninhados, clique em qualquer lugar fora dos grupos.
 
-To **exit group edit mode,** double-click anywhere outside of the group.
+Para **sair do modo de edição de grupo**, clique duas vezes em qualquer lugar fora do grupo.
 
-You can **copy a group** to create a relationship between the original group and its copy: if you edit any copied groups, the same changes will affect all related groups.
+É possível **copiar um grupo** para criar uma relação entre o grupo original e sua cópia: se você editar qualquer grupo copiado, as mesmas alterações afetarão todos os grupos relacionados.
 
-To **sever the relationship between copied groups**, select the group or groups you would like to make separate, right-click, and choose **Make Unique** from the context menu. You can also select Make Unique from the Groups toolbar.
+Para **remover a relação entre grupos copiados**, selecione o grupo ou os grupos que você deseja separar, clique com o botão direito do mouse e selecione **Tornar exclusivo** no menu de contexto. Também é possível selecionar Tornar exclusivo na barra de ferramentas Grupos.
 
-To **select all related groups**, hover over a group and press the Tab key. When all related groups become highlighted, click on the groups to select them. You can then perform an action on all groups at once.
+Para **selecionar todos os grupos relacionados**, passe o cursor sobre um grupo e pressione a tecla Tab. Quando todos os grupos relacionados estiverem realçados, clique nos grupos para selecioná-los. É possível executar uma ação em todos os grupos de uma vez.
 
-The [**Groups Tree**](groups-tree.md) provides a single place to view and manage all of the groups in a project.
+A [**Árvore de grupos**](groups-tree.md) fornece um único local para visualizar e gerenciar todos os grupos em um projeto.
 
-## Groups Context menu and Toolbar access
+## Menu de contexto Grupos e acesso à barra de ferramentas
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Group Elements**
+**Agrupar elementos**
 
-To create a group from the Groups toolbar item, select one or more elements, select the **Create Group** icon, and then select the **Finish** icon. Alternatively, you can select **Create Group** from the Groups tool bar item, then select elements you would like to group and select the **Finish** icon.
+Para criar um grupo com base no item da barra de ferramentas Grupos, selecione um ou mais elementos, selecione o ícone **Criar grupo** e, em seguida, selecione o ícone **Concluir**. Como alternativa, é possível selecionar **Criar grupo** no item da barra de ferramentas Grupos, selecionar os elementos que você deseja agrupar e selecionar o ícone **Concluir**.
 
-To **edit a group from the Groups toolbar item**, select the **Edit Group** icon and then click the group you want to edit. When you are done making edits, select the **Finish** icon. This tool allows you to choose the specific group you'd like to edit, even if it is deeply nested.
+Para **editar um grupo no item da barra de ferramentas Grupos**, selecione o ícone **Editar grupo** e clique no grupo que você deseja editar. Quando tiver terminado de fazer edições, selecione o ícone **Concluir**. Essa ferramenta permite selecionar o grupo específico que você deseja editar, mesmo que ele esteja profundamente aninhado.
 
-**To make a group unique from the toolbar,** select the **Make Unique** icon in the Groups toolbar item. Additionally, you can select **Make Unique** from the Groups toolbar item and then select the group you would like to make unique and click the **Finish** icon.
+**Para tornar um grupo exclusivo na barra de ferramentas,** selecione o ícone **Tornar exclusivo** no item da barra de ferramentas Grupos. Além disso, é possível selecionar **Tornar exclusivo** no item da barra de ferramentas Grupos, selecionar o grupo que você deseja tornar exclusivo e clicar no ícone **Concluir**.
 
-**To ungroup a group from the Groups toolbar item,** select the group you want to change and choose the **Ungroup** icon from the Groups toolbar menu.This ungroups your current selection, but does not ungroup any nested groups. Alternatively, you can select **Ungroup** from the toolbar, select the group you want to change, and then select the **Finish** icon.
+**Para desagrupar um grupo do item da barra de ferramentas Grupos,** selecione o grupo que você deseja alterar e escolha o ícone **Desagrupar** no menu da barra de ferramentas Grupos. Isso desagrupa a seleção atual, mas não desagrupa nenhum grupo aninhado. Como alternativa, é possível selecionar **Desagrupar** na barra de ferramentas, selecionar o grupo que você deseja alterar e, em seguida, selecionar o ícone **Concluir**.
 
-**To ungroup all groups nested below your currently selected group,** select a group with nested groups and choose **Ungroup All Nested** from the Groups toolbar.
+**Para desagrupar todos os grupos aninhados abaixo do grupo atualmente selecionado,** selecione um grupo com grupos aninhados e selecione **Desagrupar todos aninhados** na barra de ferramentas Grupos.
 
-**To ungroup all groups in your model,** select the **Ungroup All** tool from the Groups toolbar.
+**Para desagrupar todos os grupos no modelo,** selecione a ferramenta **Desagrupar tudo** na barra de ferramentas Grupos.
 
-## Groups and Revit
+## Grupos e Revit
 
-If you're familiar with Revit **families**, then you are familiar with the concept of groups in FormIt. FormIt groups have features you can use to transfer them intelligently into Revit.
+Se você está familiarizado com as **famílias** do Revit, também está familiarizado com o conceito de grupos no FormIt. Os grupos do FormIt têm recursos que você pode usar para transferi-los de forma inteligente para o Revit.
 
-**FormIt Group Categories**
+**Categorias de grupos do FormIt**
 
-You can specify the **categories** for groups in FormIt so that your FormIt groups become families of the same categories when you import them into Revit. You can assign categories to your FormIt groups by selecting a group, entering **Group Edit** mode, and using the **Properties** panel to choose categories. You can also assign categories in the **Groups Tree** panel.
+É possível especificar as **categorias** para grupos no FormIt para que os grupos do FormIt se tornem famílias das mesmas categorias ao importá-las para o Revit. É possível atribuir categorias aos grupos do FormIt selecionando um grupo, entrando no modo **Edição de grupo** e usando o painel **Propriedades** para escolher categorias. Também é possível atribuir categorias no painel **Árvore de grupos**.
 
-**FormIt Group Names**
+**Nomes de grupos do FormIt**
 
-You can also use the **Properties** panel to specify a name for your FormIt group. This can be helpful in navigating your own model, and when you import your model to Revit you can easily filter elementsusing the name of the group.
+Também é possível usar o painel **Propriedades** para especificar um nome para o grupo do FormIt. Isso pode ser útil para navegar em seu próprio modelo e, ao importar o modelo para o Revit, será possível filtrar facilmente os elementos usando o nome do grupo.
 
-Note that **nested groups in FormIt are not imported into Revit as nested groups**. This prevents deeply-nested Revit families.
+Observe que os **grupos aninhados no FormIt não são importados para o Revit como grupos aninhados**. Isso impede famílias do Revit profundamente aninhadas.
+

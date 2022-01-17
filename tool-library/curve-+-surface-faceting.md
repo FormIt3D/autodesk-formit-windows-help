@@ -1,39 +1,39 @@
-# Curve + Surface Faceting
+# Curva + facetamento de superfície
 
-FormIt is a polyhedral modeling system, so objects like circles, arcs, and splines are represented by a series of straight edges. Similarly, a curved surface like the wall of a cylinder, or a dome, is comprised of a series of planar faces with hidden border edges.
+O FormIt é um sistema de modelagem poliédrico, portanto, objetos como círculos, arcos e splines são representados por uma série de arestas retas. De forma similar, uma superfície curva como a parede de um cilindro ou um domo é composta de uma série de faces planas com arestas de borda ocultas.
 
-By default, FormIt uses 40 edges, or facets, to represent a circle, and 24 facets to represent a 3D, curved object like a cylinder. For more complex surfaces like a dome, a value of 24 sets the perimeter faceting count, and also impacts how densely faceted the rest of the shape is.
+Por padrão, o FormIt usa 40 arestas ou facetas para representar um círculo e 24 facetas para representar um objeto curvado 3D como um cilindro. Para superfícies mais complexas, como um domo, um valor de 24 define a contagem de facetamento do perímetro e também afeta a intensidade da densidade com que o restante da forma é facetado.
 
-In FormIt for Windows v18 and newer, the curve and surface faceting values are customizable:
+No FormIt para Windows v18 e versões mais recentes, os valores de facetamento de curva e superfície são personalizáveis:
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](../.gitbook/assets/faceting.png)
+![](<../.gitbook/assets/faceting (1).png>)
 
 **Curve Faceting Quality**
 
-Changing the Curve Faceting Quality will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle or a quarter-circle arc with 16 facets.
+Alterar Curve Faceting Quality afetará o número de facetas usadas ao desenhar novos círculos e arcos no FormIt, bem como ao inserir formas primitivas. Por exemplo, defini-la como 64 criaria um círculo completo de 64 lados ou um arco de um quarto de círculo com 16 facetas.
 
-This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry from Dynamo. You can set this value for new sketches, or just the current sketch.
+Esse valor também afetará a qualidade de círculos e arcos importados de arquivos SAT, bem como ao consolidar a geometria do Dynamo. É possível definir esse valor para novos esboços ou apenas para o esboço atual.
 
-For existing curves, you can also use the Rebuild Curve plugin to retroactively rebuild an **existing** arc or circle with a new faceting count:
+Para curvas existentes, também é possível usar o plug-in Rebuild Curve para reconstruir retroativamente um arco ou círculo **existente** com uma nova contagem de facetamento:
 
-![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
-![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
+![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
 **Surface Faceting Quality**
 
-Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo.
+Alterar essa configuração global afetará a qualidade das superfícies curvas 3D importadas de arquivos SAT e quando consolidadas do Dynamo.
 
-For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases. Once you've got a result that's high quality, you can [convert it into a Mesh](meshes.md) to improve performance.
+Por exemplo, defini-la como 64 e, em seguida, consolidar uma esfera do Dynamo usará 64 faces em torno do equador da esfera, mais 64 facetas em cada um dos anéis que vão para os polos da esfera, o que aumenta rapidamente. Use valores maiores com cautela, pois, em alguns casos, isso pode afetar o desempenho do FormIt. Quando você tiver um resultado de alta qualidade, será possível [convertê-lo em uma malha](meshes.md) para aprimorar o desempenho.
 
-When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
+Ao trabalhar com o Dynamo, é possível modificar a qualidade de facetamento e clicar em “Run Graph” no painel Properties sem alterar nenhum parâmetro para aproveitar as novas contagens de facetamento:
 
-![](<../.gitbook/assets/faceting\_column (1).gif>)
+![](../.gitbook/assets/faceting\_column.gif)
 
-As with curves, you can set the surface faceting quality for new sketches, or for the current sketch only.
+Como ocorre com as curvas, é possível definir a qualidade de facetamento da superfície para novos esboços ou somente para o esboço atual.
 
-Note that faceting values are currently limited to multiples of 4, so when entering numbers manually, FormIt will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+Observe que os valores de facetamento estão limitados atualmente a múltiplos de 4, portanto, ao inserir números manualmente, o FormIt será arredondado para o múltiplo mais próximo. É possível usar os controles deslizantes e as setas para percorrer os valores aceitos.
 
-![](<../.gitbook/assets/units-+-precision (1).png>)
+![](../.gitbook/assets/units-+-precision.png)

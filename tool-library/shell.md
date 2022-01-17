@@ -1,3 +1,4 @@
-# Shell
+# Casca
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+Com base em um objeto sólido, é possível criar uma “casca” de uma largura especificada. As cascas são úteis para criar rapidamente paredes com base em um modelo de massa:
+

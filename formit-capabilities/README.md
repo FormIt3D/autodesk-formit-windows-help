@@ -1,11 +1,9 @@
-# FormIt Capabilities
+# Recursos do FormIt
 
-![](../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## FormIt Capabilities
+## Recursos do FormIt
 
-Create conceptual building designs with a powerful built-in solid modeling system, incredible visualization options, and a native Dynamo integration, all while initiating a BIM workflow.
+Crie projetos de construção conceitual com um poderoso sistema de modelagem de sólidos incorporado, incríveis opções de visualização e uma integração nativa do Dynamo, tudo isso enquanto inicia um fluxo de trabalho de BIM.
 
-Use Autodesk® FormIt® to capture building design concepts when ideas occur. Take advantage of accurate and easy solid modeling, organize your ideas in Groups and Layers, and get real-world site information, such as satellite images, to correctly orient and analyze your designs with shadows, Solar Analysis, and Energy Analysis. Move your preliminary designs to centralized data storage for access and refinement in Autodesk® Revit® software or other software.
-
-![](../.gitbook/assets/formit-capabilities.png)
+Use o Autodesk® FormIt® para registrar conceitos de projeto de edificações quando ocorrerem ideias. Aproveite a modelagem sólida precisa e fácil, organize suas ideias em grupos e camadas e obtenha informações do local do mundo real, como imagens de satélite, para orientar e analisar corretamente seus projetos com sombras, análise solar e análise energética. Mova os projetos preliminares para o armazenamento de dados centralizado para acesso e refinamento no software Autodesk® Revit® ou em outros softwares.

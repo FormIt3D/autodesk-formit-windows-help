@@ -1,98 +1,103 @@
 # Array Along Path
 
-## Powered by Dynamo
+## Fornecido pelo Dynamo
 
-In FormIt 2021 and newer, you can array objects along a path, and quickly customize the results in-place. Array Along Path is powered by Dynamo, which means the array is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+No FormIt 2021 e versões mais recentes, é possível dispor objetos ao longo de um caminho em uma matriz e personalizar rapidamente os resultados no local. A amostra Array Along Path é fornecida pelo Dynamo, o que significa que o corrimão resultante é facilmente configurável para obter os resultados desejados, e a nova execução da lógica atualizará a geometria no local.
 
-![](<../.gitbook/assets/array-along-path (1).gif>)
+![](../.gitbook/assets/array-along-path.gif)
 
-## Starting Array Along Path
+## Iniciar Array Along Path
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
-* Click the Array Along Path sample.
-* On the left side of the screen, you'll see a prompt to "Select object(s) to array."
-  * You can select any mix of FormIt objects for this step.
-  * Once you've got something selected, you can hit the "next" arrow on the left side of the screen, or just hit Enter.
-* Now you'll see a prompt to "Select path for array."
-  * Here, you should select only a series of contiguous edges, or a Group containing a series of contiguous edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter.&#x20;
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated Array in a FormIt Group, ready for modifying (see below).
+* Vá para o painel do Dynamo no FormIt para Windows e certifique-se de que você esteja no diretório Dynamo Samples.
+* Clique na amostra Array Along Path.
+* No lado esquerdo da tela, você verá um prompt para “Select object\(s\) to array”.
+   * É possível selecionar qualquer combinação de objetos do FormIt para esta etapa.
+   * Depois de selecionar algo, é possível clicar na seta “Avançar” no lado esquerdo da tela ou pressionar Enter.
+* Agora você verá um prompt para “Select path for array”.
+   * Aqui, você deve selecionar somente uma série de arestas contíguas ou um grupo que contém uma série de arestas contíguas.
+   * Depois de selecionar o caminho, clique no botão “finish” ou pressione Enter.
+* O painel do Dynamo indicará que está processando as alterações. Ao terminar, você terá uma matriz, gerada pelo Dynamo em um grupo do FormIt, pronta para modificação \(veja abaixo\).
 
-## Iterating In Place
+## Iteração no local
 
-After running Array Along Path, you'll see its results are set to default values, so you'll want to modify them to suit your needs.
+Após executar Array Along Path, você verá que seus resultados estão definidos com os valores padrão; por isso, será conveniente modificá-los para atender às suas necessidades.
 
-When Array Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Array Along Path instance.
+Quando a amostra Array Along Path é executada, ela cria um novo grupo que contém os resultados, e o FormIt selecionará automaticamente o grupo e mostrará as opções disponíveis para essa instância de Array Along Path.
 
-You can always return to the Array Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+Você sempre pode retornar às propriedades Array Along Path selecionando o grupo e alternando para o painel Properties ou editando o grupo que mostrará automaticamente Properties.
 
-![](<../.gitbook/assets/array along path (1).png>)
+![](../.gitbook/assets/array-along-path-options.png)
 
-### Select Object(s) to Array <a href="#run" id="run"></a>
+### Select Object\(s\) to Array <a id="run"></a>
 
-Click this to go back to the selection wizard to change which objects are being arrayed.
+Clique nessa opção para voltar ao assistente de seleção e alterar quais objetos estão sendo dispostos em matriz.
 
 ### Select Array Path
 
-Click this to go back to the selection wizard to change the path that is used to calculate the array.
+Clique para voltar ao assistente de seleção para alterar o caminho usado para calcular a matriz.
 
-### Array Type <a href="#run" id="run"></a>
+### Array Type <a id="run"></a>
 
-This toggles the type of array to calculate: By Distance, or By Number.
+Isso alterna o tipo de matriz para cálculo: By Distance ou By Number.
 
-**When true**, the calculation will be "By Distance", so the number below refers to the distance between copies.
+**Quando true**, o cálculo será “By Distance”. O número abaixo se refere à distância entre cópias.
 
-**When false**, the calculation will by "By Number of Copies", so the number below this field refers to the number of copies to fit along the path.
+**Quando false**, o cálculo será feito por “By Number of Copies”. O número abaixo desse campo se refere ao número de cópias que se ajustam ao longo do caminho.
 
 ### Include Original Selection In Results
 
-When **true**:
+Quando **true**:
 
-* The object(s) selected will be counted as one of the new copies
-* The resulting Dynamo Group will include the original selection in its results, so the new copies will Z-fight with the original selection. You can put the original selection on a [Layer](layers.md), and turn it off to hide it.
+* Os objetos selecionados serão contabilizados como uma das novas cópias.
+* O grupo do Dynamo resultante incluirá a seleção original em seus resultados, de modo que as novas cópias efetuarão a luta Z com a seleção original. É possível colocar a seleção original em uma [Camada](layers.md) e desativá-la para ocultá-la.
 
-When **false**:
+Quando **false**:
 
-* The resulting array will **not** include the original selection, so you'll get the number of copies you specified **in addition to** the original selection, and the results won't Z-fight
+* A matriz resultante **não** incluirá a seleção original, portanto você obterá o número de cópias especificado **além** da seleção original, e os resultados não efetuarão a luta Z.
 
 ### Rotate Copies Along Path
 
-When **true**, the copies are rotated to maintain the orientation of the original object relative to the path.
+Quando **true**, as cópias são rotacionadas para manter a orientação do objeto original com relação ao caminho.
 
-When **false**, the copies are not rotated, only moved.
+Quando **false**, as cópias não são rotacionadas, somente movidas.
 
 ### Use Relative Positioning Along Path
 
-When **true**:
+Quando **true**:
 
-* Each copy will maintain the distance between the path and the original object.
-* If the original object is **not** positioned at one of the path endpoints, the largest remaining segment of the path will be used for the array calculation.&#x20;
+* Cada cópia manterá a distância entre o caminho e o objeto original.
+* Se o objeto original **não** estiver posicionado em uma das extremidades do caminho, o maior segmento restante do caminho será usado para o cálculo da matriz.
 
-When **false**:
+Quando **false**:
 
-* The entire length of the path will used to calculate the array, regardless of where the original object is relative to the path.&#x20;
-* This decouples the path's location relative to the object, and simply uses the entire path. Useful if the path and object are not near each other.
+* O comprimento inteiro do caminho será usado para calcular a matriz, independentemente de onde o objeto original está em relação ao caminho.
+* Isso dissocia a localização do caminho em relação ao objeto e simplesmente usa o caminho inteiro. Isso será útil se o caminho e o objeto não estiverem próximos um do outro.
 
 ### Reverse Path Direction
 
-For closed paths only. When using Array Along Path with a closed path, the direction of the curve may unexpectedly flip the expected results of the array. Toggle this to **true** to reverse the array direction if the results are flipped.
+Somente para caminhos fechados. Ao usar Array Along Path com um caminho fechado, a direção da curva pode inesperadamente inverter os resultados esperados da matriz. Alterne para **true** para inverter a direção da matriz se os resultados forem invertidos.
 
-### Run <a href="#run" id="run"></a>
+### Run <a id="run"></a>
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+Após editar as opções, clique no botão “Run” para executar o gráfico subjacente do Dynamo e gerar novos resultados. Esse botão ficará azul quando os parâmetros forem alterados, para que você saiba que ele precisa ser clicado para ver as atualizações na geometria final.‌
 
-### Edit Embedded Graph <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
+### Edit Embedded Graph <a id="edit-embedded-graph"></a>
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+Clicar nesse botão iniciará o ambiente do editor gráfico do Dynamo, para que você possa visualizar e editar o gráfico subjacente do Dynamo para alterar mais rapidamente os parâmetros e ver as atualizações ao vivo ou para inspecionar/ajustar a lógica.
+
+
 
 ## Selecting Geometry
 
-When selecting objects for Array Along Path, and other selection-based Dynamo graphs:
+Ao selecionar objetos para Array Along Path e outros gráficos do Dynamo com base em seleção:
 
-* You can select any mix of FormIt objects - vertices, edges, faces, solids, Groups, and Meshes.&#x20;
-  * Note that depending on the step, some of these objects should not be selected.
-  * For example, when selecting the path, you should only select a contiguous series of edges, or a Group containing a contiguous series of edges. Anything else will cause the graph to fail.
-* You can double-click on an object to select everything attached.&#x20;
-* You can use the area selection window to grab a series of objects.
-* You can select objects already selected to deselect them.
-* At least one object is required to proceed with a selection-based step.
+* Será possível selecionar qualquer combinação de objetos do FormIt: vértices, arestas, faces, sólidos, grupos e malhas.
+   * Observe que, dependendo da etapa, alguns desses objetos não devem ser selecionados.
+   * Por exemplo, ao selecionar o caminho, você deverá selecionar somente uma série contígua de arestas ou um Grupo que contém uma série contígua de arestas. Qualquer outra coisa causará a falha do gráfico.
+* Será possível clicar duas vezes em um objeto para selecionar tudo que está anexado.
+* Será possível usar a janela de seleção de área para capturar uma série de objetos.
+* Será possível selecionar objetos já selecionados para desfazer a seleção.
+* Ao menos um objeto é necessário para continuar com uma etapa com base na seleção.
+
+
+

@@ -1,7 +1,8 @@
-# Align Camera With Face
+# Alinhar câmera com a face
 
-Quickly align the camera to look directly at any face.
+Alinhe rapidamente a câmera para olhar diretamente para qualquer face.
 
-Select a single face, then right-click to access the Context Menu. Look for Align Camera with Face at the top of the menu, or use shortcut AF:
+Selecione uma única face e, em seguida, clique com o botão direito do mouse para acessar o menu de contexto. Procure Alinhar câmera com a face na parte superior do menu ou use o atalho AF:
 
 ![](../.gitbook/assets/alignwithface.gif)
+

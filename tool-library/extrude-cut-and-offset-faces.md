@@ -1,29 +1,30 @@
-# Faces: Extrude, Cut and Offset
+# Faces: extrusão, corte e deslocamento
 
-Push or pull a face, imprint new shapes on existing ones, or create new offset edges.
+Empurre ou puxe uma face, estampe novas formas em formas existentes ou crie novas arestas deslocadas.
 
-## Extrude
+## Extrusão
 
-To push or pull a face, select a face with a single click, then click and drag. The face will move back and forth, you can now move your mouse to snap and inference on other model elements. Click again to finish moving the face. Hold down the CTRL key to retain the original edges.
+Para empurrar ou puxar uma face, selecione uma face com um único clique e, em seguida, clique e arraste. A face se moverá para frente e para trás. Agora, você pode mover o mouse para efetuar o snap e inferência em outros elementos do modelo. Clique novamente para concluir a movimentação da face. Mantenha pressionada a tecla Ctrl para manter as arestas originais.
 
-![](<../.gitbook/assets/extrude (1).png>)
+![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprint
+## Estampar
 
-To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles, or circles onto existing faces. This action creates new faces that can be pushed or pulled independently of the original face.
+Para estampar formas, use uma ferramenta de esboço 3D para desenhar linhas, arcos, splines, retângulos ou círculos em faces existentes. Essa ação cria novas faces que podem ser empurradas ou puxadas independentemente da face original.
 
-![](../.gitbook/assets/imprint1.png)\
+![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## Deslocamento
 
-To offset the face of an object:
+Para deslocar a face de um objeto:
 
-1. First select the face you would like to edit, then right-click to view the **Context** menu.&#x20;
-2. From the **Context** menu, click on the **Offset Face** tool.&#x20;
-3. Move your cursor over the selected face and adjust the lines that display until you reach your desired offset effect.
-4. Click anywhere to complete the offset. You can now independently push or pull the offset face.
+1. Primeiro selecione a face que você deseja editar e, em seguida, clique com o botão direito do mouse para visualizar o **menu de contexto**.
+2. No **menu de contexto**, clique na ferramenta **Deslocar face**.
+3. Mova o cursor sobre a face selecionada e ajuste as linhas que são exibidas até atingir o efeito de deslocamento desejado.
+4. Clique em qualquer lugar para completar o deslocamento. Agora é possível empurrar ou puxar a face deslocada de forma independente.
 
-![](../.gitbook/assets/offset1.png)\
-![](../.gitbook/assets/offset2.png)\
+![](../.gitbook/assets/offset1.png)  
+![](../.gitbook/assets/offset2.png)  
 ![](../.gitbook/assets/offset3.png)
+

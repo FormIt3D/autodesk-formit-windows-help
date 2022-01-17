@@ -1,146 +1,146 @@
-# 1.8 - Create Columns with Array
+# 1.8 – Criar colunas com matriz
 
-_In this exercise, we will sketch a detailed element - an I-beam column. Then we will use the Array tool to quickly create multiple equally-spaced copies._
+_Neste exercício, vamos desenhar um elemento detalhado – uma coluna de viga em I. Em seguida, usaremos a ferramenta Matriz para criar rapidamente várias cópias uniformemente espaçadas._
 
-_If you did not complete the last section, download and open the_ _**1.8 – Create Columns with Array.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.8 – Create Columns with Array.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
-## **Sketch the Column Profile**
+## **Desenhar o perfil da coluna**
 
-1 - To facilitate the drafting process:
+1 – Para facilitar o processo de desenho:
 
-1. Go to the **Top View (VT)**.
-2. Switch the view mode to **Orthographic (VO)**.
-3. Turn off the **Main Building** **Floor** and **Roof** layers. This step will prevent the new geometry from snaping to the existing geometry on those layers.
-4. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
-5. Turn off the **Snap to Grid (SG)** feature (if you have it on). This will help with drawing the detail lines.
+1. Acesse **Vista superior \(VT\)**.
+2. Alterne o modo de visualização para **Ortográfico \(VO\)**.
+3. Desative as camadas **Prédio principal** **Piso** e **Telhado**. Essa etapa impedirá que a nova geometria efetue o snap à geometria existente nessas camadas.
+4. Aplique zoom no canto superior esquerdo da imagem da **planta de piso importada** para que você possa visualizar a coluna em detalhes.
+5. Desative o recurso **Snap à grade \(SG\)** \(se estiver ativado\). Isso vai ajudar a desenhar as linhas de detalhe.
 
-![](<../../.gitbook/assets/0 (13) (1).png>)
+![](../../.gitbook/assets/0%20%2813%29.png)
 
-_To draw the column, we will first draw one half, then mirror it to quickly create the other symmetrical half._
+_Para desenhar a coluna, primeiro vamos desenhar uma metade e, em seguida, espelhá-la para criar rapidamente a outra metade simétrica._
 
-2 - To create the first half of the I-beam, use the **Line tool (L)** to make the following sketch using the specified dimensions. Don’t worry about the exact position of the column on the plan image just yet.
+2 – Para criar a primeira metade da viga em I, use a **ferramenta Linha \(L\)** para fazer o seguinte esboço usando as cotas especificadas. Não se preocupe ainda com a posição exata da coluna na imagem da planta.
 
-![](<../../.gitbook/assets/1 (18).png>)
+![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - To mirror the shape you have just drawn:
+3 – Para espelhar a forma que você acabou de desenhar:
 
-1. Double-click to select all the faces and edges of the drawn geometry.
-2. Right-click and select the **Mirror Tool (MI)**.
-3. Click on the center orange grip of the **Mirror Widget** and place it at the geometry’s bottom left corner.
-4. Use the bottom arrow from the double-sided arrow button in the Widget to rotate the mirroring-axis -90 degrees (clockwise).
-5. Single-click off in space, or press **Esc** to finish the mirroring process. The result should look like an I-beam profile with a line down the middle. Press **Esc** again to clear the selection.
+1. Clique duas vezes para selecionar todas as faces e arestas da geometria desenhada.
+2. Clique com o botão direito do mouse e selecione a **ferramenta Espelhar \(MI\)**.
+3. Clique na alça laranja central do **Widget de espelho** e coloque-a no canto inferior esquerdo da geometria.
+4. Use a seta inferior do botão de seta dupla no Widget para rotacionar o eixo de espelhamento em 90 graus \(sentido horário\).
+5. Clique uma vez no espaço ou pressione **Esc** para concluir o processo de espelhamento. O resultado deve ser semelhante a um perfil de viga em I com uma linha no meio. Pressione novamente **ESC** para limpar a seleção.
 
-![](<../../.gitbook/assets/2 (5).png>)
+![](../../.gitbook/assets/2%20%285%29.png)
 
-![](<../../.gitbook/assets/3 (7).png>)
+![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Note**: The final geometry location and orientation is previewed with the ghosted blue shape while you are adjusting the mirror widget. You can use this preview as a reference to mirror the geometry to the intended location._
+_**Observação**: A orientação e a localização da geometria final são visualizadas com a forma azul fantasma enquanto você estiver ajustando o widget de espelho. É possível usar essa visualização como uma referência para espelhar a geometria para a localização desejada._
 
-4 - To join both sides into a single geometry, remove the line dividing them by clicking on it to select it and then pressing **Delete**. Now the two surfaces are joined into a single surface.
+4 – Para unir ambos os lados em uma única geometria, remova a linha divisória clicando nela para selecioná-la e, em seguida, pressione **Excluir**. Agora, as duas superfícies estão unidas em uma única superfície.
 
-5 - To move the geometry to its final location:
+5 – Para mover a geometria para sua posição final:
 
-1. If off, turn on the **Plan Image** and **Roof** layers, to use them as a guide.
-2. Double-click the column profile to select its face and all of its lines. Start moving the selection along the green axis (**Y Axis**). Hold **Shift** and move the profile until it aligns with the Roof, then click to place it.
-3. Similar to the previous step, move the geometry once again, this time locking it to the red axis (**X Axis**).
-4. Click to place it on top of the I-Beam drawn in the **Plan Image**. Getting it close is fine, like in the following image, the horizontal position does not need to be perfect.
+1. Se estiverem desativadas, ative as camadas **Imagem da planta** e **Telhado** para usá-las como guia.
+2. Clique duas vezes no perfil da coluna para selecionar sua face e todas as suas linhas. Comece a mover a seleção ao longo do eixo verde \(**Eixo Y**\). Mantenha pressionada a tecla **Shift** e mova o perfil até que ele se alinhe com o telhado e, em seguida, clique para posicioná-lo.
+3. De forma semelhante à etapa anterior, mova a geometria novamente, desta vez bloqueando-a no eixo vermelho \(**Eixo X**\).
+4. Clique para posicioná-la na parte superior da viga em I desenhada na **Imagem da planta**. É suficiente ficar próximo da posição desejada, como na imagem a seguir, a posição horizontal não precisa ser perfeita.
 
-_**Note:**_ _The_ _**Shift**_ _key will lock the geometry to move along only one axis, in this case, the green (**Y Axis**). This will ensure the column profile does not accidentally move up and align to the top of the roof plane._
+_**Observação:**_ _A tecla_ _**Shift**_ _bloqueará a geometria para que o movimento aconteça ao longo de apenas um eixo. Neste caso, o verde \(**Eixo Y**\). Isso vai garantir que o perfil da coluna não se mova acidentalmente para cima e se alinhe com a parte superior do plano do telhado._
 
-![](<../../.gitbook/assets/4 (9) (1).png>)
+![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Extrude and Array the Column**
+## **Extrusão e matriz da coluna**
 
-1 - To facilitate the next drafting process, switch the view mode back to **Perspective (VP)** and **Orbit (O)** to position the camera as to visualize the I-Beam profile from the northwest. Use the north arrow at the bottom left corner to help you position the view.
+1 – Para facilitar o próximo processo de desenho, alterne o modo de vista de volta para **Perspectiva \(VP\)** e use a **Órbita \(O\)** para posicionar a câmera de forma a visualizar o perfil da viga em I da perspectiva noroeste. Use a seta de norte no canto inferior esquerdo para ajudar a posicionar a vista.
 
-![](<../../.gitbook/assets/5 (1).jpeg>)
+![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Note:**_ _To learn how to navigate around the sketch, we recommend checking out the_ _**Navigate the Scene**_ _chapter._
+_**Observação:**_ _Para saber como navegar pelo esboço, recomendamos consultar o capítulo_ _**Navegar na cena**_ _._
 
-2- Select the column profile face and extrude the face up to **17’-8”**.
+2 – Selecione a face do perfil da coluna e faça a extrusão da face para cima em **17’-8"**.
 
-_**Note:**_ _If while moving the column profile, it aligned itself to the roof, extrude the face down by_ _**17’-8”**_\
-_instead of up._
+_**Observação:**_ _Se, ao mover o perfil da coluna, ele se alinhar com o telhado, faça a extrusão da face para baixo em_ _**17’-8"**  , em vez de para cima._
 
-3 - Zoom out and turn the **Roof** layer on (if off). The top of the column should line up with the top of the roof.
+3 – Diminua o zoom e ative a camada **Telhado** \(se estiver desativada\). A parte superior da coluna deve se alinhar com a parte superior do telhado.
 
-![](<../../.gitbook/assets/6 (9) (1).png>)
+![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - To keep the model organized and tidy, select the column geometry again and do the following:
+4 – Para manter o modelo organizado e arrumado, selecione a geometria da coluna novamente e faça o seguinte:
 
-1. **Group (G)** and name it **Column Tall**.
-2. Create a new **Layer** called **Column** and add the group to it.
-3. Import the material **Metal - Brushed - Colorized** and paint the group with it.
+1. **Agrupe \(G\)** e nomeie-a como **Altura da coluna**.
+2. Crie uma nova **Camada** chamada **Coluna** e adicione o grupo à camada.
+3. Importe o material **Metal – Escovado – Colorido** e pinte o grupo com ele.
 
-![](<../../.gitbook/assets/7 (4) (1).png>)
+![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Note:**_ _See previous chapters for more information on_ _**Groups**,_ _**Layers**, and_ _**Materials**._
+_**Observação:**_ _Consulte os capítulos anteriores para obter mais informações sobre_ _**Grupos**,_ _**Camadas**e_ _**Materiais**._
 
-4 - Click **Esc** to clear the paintbrush tool.
+4 – Clique em **Esc** para limpar a ferramenta de pincel.
 
-## **Array the Columns**
+## **Matriz de colunas**
 
-1 - Go to the **Top View (VT)** and switch the camera mode to **Orthographic (VO)** again.
+1 – Vá para a **Vista superior \(VT\)** e alterne novamente o modo de câmera para **Ortogonal \(VO\)**.
 
-2 - Turn off the **Roof** layer.
+2 – Desative a camada **Telhado**.
 
-3 - To start the array process:
+3 – Para iniciar o processo de matriz:
 
-1. Single-click to select the column group. Right-click to bring the **Context Menu** and choose **Array (AR)**.
-2. In the **Array Properties** dialog, use the following settings:
-   * **Length Between Copies**
-   * **Linear** (default)
-   * **Group each solid then array** (default)
-   * **Number of Copies: 3**
-   * Press **OK** to close the dialog.
+1. Clique uma vez para selecionar o grupo de colunas. Clique com o botão direito do mouse para abrir o **Menu de contexto** e selecione **Matriz \(AR\)**.
+2. Na caixa de diálogo **Propriedades da matriz**, use as seguintes configurações:
+   * **Comprimento entre cópias**
+   * **Linear** \(padrão\)
+   * **Agrupar cada sólido e, em seguida, a matriz** \(padrão\)
+   * **Número de cópias: 3**
+   * Clique em **OK** para fechar a caixa de diálogo.
 
-![](<../../.gitbook/assets/8 (3) (1).png>)
+![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - To place the new elements:
+4 – Para posicionar os novos elementos:
 
-1. Single-click on the column to start the **Array**. Move the cursor along the red axis (**X axis**).
-2. Set dimension to **22'**. You now have **four** columns **22'** apart.
-3. **Esc** to clear your selection.
+1. Clique uma vez na coluna para iniciar a **Matriz**. Mova o cursor ao longo do eixo vermelho \(**Eixo X**\).
+2. Defina a cota como **22'**. Agora, existem **quatro** colunas a uma distância de **22'**.
+3. Pressione **Esc** para limpar a seleção.
 
-![](<../../.gitbook/assets/9 (6) (1).png>)
+![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - To select all the **Tall Column** groups at once, hover your mouse over one of them and press the **Tab** key once. Notice that all 4 column’s bounding boxes have been highlighted. Single-click on the column your mouse is hovering over and they will all be selected. This is a quick way to select all instances of the same group at once.
+5 – Para selecionar todos os grupos da **Coluna Altura** de uma vez, passe o cursor do mouse sobre um deles e pressione a tecla **Tab** uma única vez. Observe que todas as caixas delimitadoras das quatro colunas foram realçadas. Clique uma vez na coluna sobre a qual está o cursor do mouse e todas serão selecionadas. Essa é uma forma rápida de selecionar todas as instâncias do mesmo grupo de uma só vez.
 
-6 - Perform another **Array (AR)** to create the columns at the other side of the building. This time make 1 copy along the green axis across the building. Set dimension to **29'- 4 5/8”.**
+6 – Execute outra **Matriz \(AR\)** para criar as colunas no outro lado do edifício. Desta vez, faça uma cópia ao longo do eixo verde em todo o edifício. Defina a cota como **29'- 4 5/8".**
 
-_**Note:**_ _29’ 4 5/8” = 8 5/8” (column depth) + 28’-8” (main building width)._
+_**Observação:**_ _29’ 4 5/8" = 8 5/8" \(profundidade da coluna\) + 28’-8" \(largura do edifício principal\)._
 
-7 - To visualize the whole building, go to the **3D View (V3)** and set it to **Perspective (VP)**. If off, turn on the **Main Building Floor**, **Roof**, **Lower Terrace**, and **Column** layers.
+7 – Para visualizar todo o edifício, vá para a opção **Vista 3D \(V3\)** e defina-a como **Perspectiva \(VP\)**. Se estiverem desativadas, ative as camadas **Piso do edifício principal**, **Telhado**, **Terraço inferior** e **Coluna**.
 
-![](<../../.gitbook/assets/10 (7) (1).png>)
+![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Create the Terrace Columns**
+## **Criar as colunas do terraço**
 
-_Now we will duplicate the main building columns to create similar, but shorter, versions for the terrace._
+_Agora, vamos duplicar as colunas do edifício principal para criar versões semelhantes, mas menores, para o terraço._
 
-1 - To facilitate drafting, we recommend going back to an **Orthogonal (OV)** and **Top View (VT)** setting.
+1 – Para facilitar o desenho, recomendamos voltar para uma configuração **Ortogonal \(OV\)** e com **Vista superior \(VT\)**.
 
-2 - To create the new columns:
+2 – Para criar as novas colunas:
 
-1. Hold **Ctrl** or **Shift**, click on the 3 columns closest to the **Lower Terrace Floor** to select them.
-2. Single-click on any one of the columns to start moving all 3 selected columns at once. Press the **Ctrl** key once to create a **quick copy**. A ghost preview of the copy will appear.
-3. Move the copies down along the green axis (**Y Axis**) by **23’-4 3/8**”. Press **Esc**.
-4. Without deselecting, move the copied columns along the red axis (**X Axis**) by **22’** to place them in their final position.
-5. Again, with the 3 new columns still selected, right-click one of the copied columns and select **Make Unique (MU)**. These columns are now associated with each other, but unique from the originals.
+1. Mantenha pressionada a tecla **Ctrl** ou **Shift**, clique nas três colunas mais próximas do **Piso do terraço inferior** para selecioná-las.
+2. Clique uma vez em qualquer uma das colunas para começar a mover todas as três colunas selecionadas de uma só vez. Pressione a tecla **Ctrl** uma vez para criar uma **cópia rápida**. Uma visualização fantasma da cópia será exibida.
+3. Mova as cópias para baixo ao longo do eixo verde \(**Eixo Y**\) por **23’-4 3/8**". Pressione **Esc**.
+4. Sem desmarcar, mova as colunas copiadas ao longo do eixo vermelho \(**Eixo X**\) por **22’** para colocá-las em sua posição final.
+5. Novamente, com as três novas colunas ainda selecionadas, clique com o botão direito do mouse em uma das colunas copiadas e selecione **Tornar único \(MU\)**. Agora, essas colunas estão associadas entre si, mas são exclusivas dos originais.
 
-_**Note:**_ _Holding_ _**Shift**_ _or_ _**Ctrl**_ _allows you to select multiple elements at once, or remove elements from your current selection._
+_**Observação:**_ _Ao manter pressionada a tecla_ _**Shift**_ _ou a tecla_ _**Ctrl**_ _, é possível selecionar vários elementos de uma só vez ou remover elementos da seleção atual._
 
-![](<../../.gitbook/assets/11 (7) (1).png>)
+![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - Modify the new column group:
+3 – Modificar o novo grupo de colunas:
 
-1. Double-click to edit one of the new groups and rename it **Column Short.**
-2. Adjust the height of the new column to align to the top of the **Lower Terrace** **Floor** (3’-2”). To do that, select and drag the column’s face down along the blue axis (**Z axis**) and hold **Shift**. Hover the cursor anywhere on the top face of the **Lower Terrace Floor** and the column’s height will automatically align to the Lower Terrace. Once the height is set, click to finish.
+1. Clique duas vezes para editar um dos novos grupos e renomeie-o como **Coluna curta.**
+2. Ajuste a altura da nova coluna para alinhar com a parte superior do **Piso do** **terraço inferior** \(3’-2"\). Para fazer isso, selecione e arraste a face da coluna para baixo ao longo do eixo azul \(**Eixo Z**\) e mantenha pressionada a tecla **Shift**. Passe o cursor sobre qualquer lugar na face superior do **Piso do terraço inferior** e a altura da coluna será automaticamente alinhada com o Terraço inferior. Uma vez definida a altura, clique para concluir.
 
-![](<../../.gitbook/assets/12 (4).png>)
+![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Note:**_ _You can check the height of the short columns by using the_ _**Measure (ME)**_ _tool. Alternatively, you can select one of the column’s vertical edge and see its length in the_ _**Properties Palette**._
+_**Observação:**_ _É possível verificar a altura das colunas curtas usando a ferramenta_ _**Medir \(ME\)**_ _. Outra opção é selecionar uma das arestas verticais da coluna e ver seu comprimento na_ _**paleta Propriedades**._
 
-4- Using the techniques you just learned, copy the furthest short column to the opposite side of the **Lower Terrace Floor** to create the last remaining column.
+4 – Com as técnicas que você acabou de aprender, copie a coluna curta mais afastada para o lado oposto do **Piso do terraço inferior** para criar a última coluna restante.
 
-![](<../../.gitbook/assets/13 (4).png>)
+![](../../.gitbook/assets/13%20%284%29.png)
+

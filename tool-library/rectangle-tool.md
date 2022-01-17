@@ -1,23 +1,24 @@
-# Rectangle
+# Retângulo
 
-You can use the **Rectangle** tool in the **Create Sketch** toolbar menu to quickly draw a rectangular face. Extrude the face to create a rectangular volume.
+É possível usar a ferramenta **Retângulo** no menu da barra de ferramentas **Criar esboço** para desenhar rapidamente uma face retangular. Faça a extrusão da face para criar um volume retangular.
 
-Keyboard shortcut: R
+Atalho de teclado: R
 
-Use the axes to ensure you're drawing in the correct direction:
+Use os eixos para assegurar que você esteja desenhando na direção correta:
 
-You can draw rectangles on the X, Y, or Z-axis. As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
+É possível desenhar retângulos no eixo X, Y ou Z. Ao desenhar, é possível especificar uma cota simplesmente digitando um valor, que abrirá a caixa de diálogo Editar cota. Pressione Enter ou OK para aceitar a cota.
 
-To draw a rectangle, click to set the first point in your sketch.
+Para desenhar um retângulo, clique para definir o primeiro ponto no esboço.
 
-Line colors by axis:
+Cores de linha por eixo:
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = Vermelho
+* Y = Verde
+* Z = Azul
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-When you finish drawing the rectangle, it becomes a face that can be extruded to create a volume.
+Quando você terminar de desenhar o retângulo, ele se torna numa face que pode sofrer extrusão para criar um volume.
+

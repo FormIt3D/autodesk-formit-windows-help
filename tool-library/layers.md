@@ -1,27 +1,28 @@
-# Layers
+# Camadas
 
-Use Layers to control the visibility of FormIt objects.
+Use as camadas para controlar a visibilidade dos objetos do FormIt.
 
-See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Consulte Camadas em ação ao seguir o [Manual do FormIt.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
-## Creating and Naming Layers
+## Criar e nomear camadas
 
-In the Layers panel, you can create and name your Layers by clicking the "**+**" icon.
+No painel Camadas, é possível criar e nomear as camadas clicando no ícone “**+**”.
 
-![](<../.gitbook/assets/layer-locking-image (1).jpg>)
+![](../.gitbook/assets/layer-locking-image.jpg)
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible but not selectable or editable.
+É possível clicar duas vezes no nome para renomear a camada ou alternar a visibilidade de seus objetos ao marcar e desmarcar a caixa esquerda. Use a caixa de seleção à direita para bloquear e desbloquear camadas. Uma camada bloqueada ainda estará visível, mas não poderá ser selecionada ou editável.
 
-## Managing Objects on Layers
+## Gerenciar objetos em camadas
 
-Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on.
+Selecione objetos na tela e, em seguida, use o menu suspenso na parte superior do painel Camadas para indicar em qual camada os objetos selecionados devem ser colocados.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt does not have the concept of a "default" or "working layer." All new geometry will be created on "No Layer" and you'll need to reassign objects to Layers after they're generated.
+O FormIt não tem o conceito de “padrão” ou “camada de trabalho”. Toda a nova geometria será criada em “Nenhuma camada” e você precisará reatribuir os objetos às camadas após serem gerados.
 
-You can right-click a Layer and choose "Select All Objects On Layer" to select all the geometry currently assigned to this Layer.
+É possível clicar com o botão direito do mouse em uma camada e escolher “Selecionar todos os objetos na camada” para selecionar toda a geometria atualmente atribuída a essa camada.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-You can also reorder the Layers in the panel by dragging and dropping them to a new position. Note that this has no impact on geometry visibility - this is purely an organizational tool in the panel.
+Também é possível reordenar as camadas no painel ao arrastar e soltá-las em uma nova posição. Observe que isso não tem impacto na visibilidade da geometria – essa é apenas uma ferramenta organizacional no painel.
+

@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# Faces: inclinar e facetar/suavizar
 
-## Working with Faces: Tilt and Facet/Smooth
+## Trabalhar com faces: inclinar e facetar/suavizar
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+Para criar projetos mais complexos após desenhar uma forma ou inserir um primitivo, é possível usar diversas ferramentas contextuais para modificar a geometria. Essas operações incluem Inclinar, Matriz, Copiar e Colar.
 
-### Tilt Face
+### Inclinar face
 
-To **tilt a face:**
+Para **inclinar uma face:**
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. Selecione uma face e clique com o botão direito do mouse para ver o menu de contexto.
+2. Selecione o ícone **Inclinar** no menu de contexto.
+3. Defina o eixo de inclinação desenhando uma linha.
+4. Clique num terceiro ponto para iniciar a operação de inclinação.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### Facetas/faces suaves
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+Se você passar o cursor sobre uma face e observar linhas pontilhadas, isso significará que a face é composta de faces menores devido à face que está sendo distorcida. Para **transformar as linhas pontilhadas em arestas do modelo:**
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. Selecione a face ou o objeto que deseja alterar e clique com o botão direito do mouse para ver o menu de contexto.
+2. No menu de contexto, selecione a ferramenta **Facetas suaves**.
+3. São adicionadas arestas automaticamente no local onde a face era anteriormente suave.
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+Esse comando também funciona da maneira oposta: é possível selecionar faces que são facetadas e selecionar a ferramenta **Facetas suaves** no menu de contexto para ocultar as arestas e fazer com que as faces pareçam suaves.
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

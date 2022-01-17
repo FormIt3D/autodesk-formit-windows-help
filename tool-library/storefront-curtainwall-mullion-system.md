@@ -1,79 +1,80 @@
-# Storefront/Curtainwall Mullion System
+# Sistema de montante de vitrine/cortina parede
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Powered by Dynamo
+## Fornecido pelo Dynamo
 
-The ability to quickly create storefront/curtainwall mullion systems in FormIt is powered by Dynamo. You can find the Storefront Curtainwall system in the Dynamo Samples directory in the Dynamo panel:
+A capacidade de criar rapidamente sistemas de montante de vitrine/cortina parede no FormIt é fornecida pelo Dynamo. É possível localizar o sistema Storefront Curtainwall no diretório Dynamo Samples no painel Dynamo:
 
-![](<../.gitbook/assets/storefront-curtainwall-button (1) (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Selecting "Glass" For Mullion System
+## Selecionar “Glass” para o sistema do montante
 
-Starting in FormIt 2021.2, the Storefront Curtainwall system uses the new [SelectFromFormIt node](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), allowing you to select a piece of "glass" (a single face or an extruded solid) around which to generate a mullion system.
+A partir do FormIt 2021.2, o sistema Storefront Curtainwall usa o novo [nó SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), permitindo que você selecione um pedaço de “vidro” \(um sólido de face única ou de extrusão\) em torno do qual será gerado um sistema de montante.
 
-![A simple plane of "glass" with an opening for doors at the bottom.](../.gitbook/assets/storefron-system-1\_glass-only.png)
+![ Um plano simples de &quot;vidro&quot; com uma abertura para portas na parte inferior.](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-When you click the Storefront Curtainwall thumbnail (notice the icon indicating that a selection is required), FormIt will prompt you to select the glass geometry to continue:
+Quando você clicar na miniatura Storefront Curtainwall \(observe o ícone que indica que uma seleção é necessária\), o FormIt solicitará que você selecione a geometria do vidro para continuar:
 
-![](<../.gitbook/assets/storefront-curtainwall-prompt (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-A few notes and caveats about how selecting glass works:
+Algumas notas e ressalvas sobre como funciona a seleção de vidro:
 
-* Currently, only planar surfaces are supported. If you select a series of surfaces (for example, a "curved" surface comprised of smaller planar surfaces), the script will find the largest planar face and will use that.
-* If your glass is solid - i.e. a single face extruded very slightly to convey a bit of thickness - the script will find the biggest surface, so the resulting mullions will generate on one side of the glass solid.
-* You can sketch openings for doors, and remove the resulting surface from the glass boundary, and the resulting mullions will respect the door opening, leaving it blank for the addition of doors.
-* Due to Dynamo limitations, this script won't work if the glass geometry has openings in the middle.
+* No momento, somente superfícies planas são suportadas. Se você selecionar uma série de superfícies \(por exemplo, uma superfície “curvada” composta de superfícies planas menores\), o script encontrará a maior face plana e a usará.
+* Se o vidro for sólido – ou seja, uma única face com extrusão muito pequena para transmitir um pouco de espessura – o script encontrará a maior superfície, de modo que os montantes resultantes serão gerados em um lado do sólido de vidro.
+* É possível desenhar aberturas para portas e remover a superfície resultante do limite de vidro. Os montantes resultantes respeitarão a abertura da porta, deixando-a em branco para a adição de portas.
+* Devido às limitações do Dynamo, esse script não funcionará se a geometria de vidro tiver aberturas no meio.
 
-## Tips and Tricks
+## Dicas e truques
 
-When selecting geometry for a Dynamo graph in FormIt, certain organizational tricks can simplify the experience and allow for easy instancing of results:
+Ao selecionar a geometria de um gráfico do Dynamo no FormIt, alguns truques organizacionais podem simplificar a experiência e permitir a instanciação fácil dos resultados:
 
-* Put the glass in a Group, and use the Group as the selection for the Storefront/Curtainwall script. That way, it's easier to edit the glass profile after the mullions have been generated, and if the glass is heavily modified between runs and the face IDs have changed, the Group ensures that the script will always find the glass - because it's using the Group ID, not the face ID.
-* If you're planning on copying and pasting the results of the mullion system to other places in your model, it's best to have the glass and the resulting mullions contained in a Group This will also prevent issues with the selection node not knowing which glass instance to use when just the resulting mullion Group is copied and pasted.
-  * Put your glass in a Group first. Double-click it to select the glass, and hit G or use the Group commands in the context menu or toolbar.&#x20;
-  * Select the resulting Group, and put it in another Group.
-  * Double-click to enter the first Group. This is the "container" for both the glass and the resulting mullions.
-  * Click the Storefront Curtainwall thumbnail, and use the glass Group as the selection.&#x20;
-  * After the script runs, you can exit the Group and copy/paste the container around as needed. You can edit any of the instances (adjusting the glass shape or parameters) without issue.
+* Coloque o vidro em um grupo e use o grupo como a seleção para o script Storefront/Curtainwall. Dessa forma, é mais fácil editar o perfil de vidro após os montantes terem sido gerados e, se o vidro for muito modificado entre os trechos e as IDs de face tiverem sido alteradas, o grupo garantirá que o script sempre encontre o vidro – porque ele está usando a ID de grupo, não a ID de face.
+* Se você estiver planejando copiar e colar os resultados do sistema de montante em outros locais do modelo, será melhor ter o vidro e os montantes resultantes contidos em um grupo. Isso também evitará problemas nos quais o nó de seleção não sabe qual instância de vidro usar quando apenas o grupo de montante resultante foi copiado e colado.
+   * Coloque o vidro em um grupo primeiro. Clique duas vezes para selecionar o vidro e pressione G ou use os comandos de grupo no menu de contexto ou na barra de ferramentas.
+   * Selecione o grupo resultante e coloque-o em outro grupo.
+   * Clique duas vezes para inserir o primeiro grupo. Esse é o “contêiner” para o vidro e os montantes resultantes.
+   * Clique na miniatura Storefront Curtainwall e use o grupo de vidro como seleção.
+   * Após a execução do script, você pode sair do grupo e copiar/colar o contêiner conforme necessário. É possível editar qualquer uma das instâncias \(ajustando a forma do vidro ou parâmetros\) sem problemas.
 
-## Mullion System Options
+## Opções do sistema de montante
 
-Once you select glass and run the script, you'll get a result in the FormIt canvas, in the form of a FormIt Group. This Group will be automatically selected, and the Properties panel will reveal the available options.
+Depois de selecionar o vidro e executar o script, você obterá um resultado na tela do FormIt, na forma de um grupo do FormIt. Esse grupo será selecionado automaticamente e o painel Properties exibirá as opções disponíveis.
 
-![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run**: If you modify the shape of the glass and want to re-run the graph to update the mullion results, click this.&#x20;
-* **Edit Embedded Graph**: Edit the Dynamo script that's generating the geometry. This script is embedded in the FormIt file and is specific to this Group.
-* **Select Glass (Surface or Solid)**: Click this to update the selection to a different piece of glass around which to generate mullions.
+* **Run**: se você modificar a forma do vidro e desejar executar novamente o gráfico para atualizar os resultados do montante, clique nessa opção.
+* **Edit Embedded Graph**: edite o script do Dynamo que está gerando a geometria. Esse script é incorporado no arquivo FormIt e é específico para esse grupo.
+* **Select Glass \(Surface or Solid\)**: clique para atualizar a seleção para uma peça de vidro diferente ao redor da qual serão gerados montantes.
 
-The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the current FormIt units.
+O script usará valores padrão para sua primeira execução, portanto, você desejará ajustá-los para seu caso de uso exclusivo. Todos os valores usarão as unidades atuais do FormIt.
 
-* **Mullion Width + Depth**: The width and depth of all mullion elements.
-* **Vertical Mullion Spacing**: The distance, on center, between each vertical mullion.
-* **Flip Vertical Mullion Layout**: The script starts the vertical mullion spacing from one side, chosen arbitrarily. If the result starts the mullion spacing on the wrong side for your use case, set this to True to flip the layout to start on the opposite site.
-* **Center Vertical mullion Layout**: Instead of starting the vertical mullion spacing calculation at one end of the glass, start the calculation in the middle, creating a symmetrical layout of vertical mullions.
-* **First Horizontal Mullion Spacing**: Sets the first horizontal mullion spacing from the bottom. Useful if you need a row of shorter glazing modules at the bottom, separate from the rest of the horizontal mullion spacing.
-* **Horizontal Mullion Spacing**: The typical horizontal mullion spacing, on center, starting after the first mullion as outlined above.&#x20;
-* **Flip Horizontal Mullion Layout**: If you want the horizontal mullion layout to start at the top instead of the bottom, set this to True.
-* **Center Horizontal Mullion Layout**: Instead of starting the horizontal mullion spacing calculation at the bottom or top of the glass, start the calculation in the middle, creating a symmetrical layout of horizontal mullions.
+* **Mullion Width + Depth**: a largura e a profundidade de todos os elementos do montante.
+* **Vertical Mullion Spacing**: a distância, no centro, entre cada montante vertical.
+* **Flip Vertical Mullion Layout**: o script inicia o espaçamento do montante vertical de um lado, escolhido arbitrariamente. Se o resultado iniciar o espaçamento do montante no lado errado para seu caso de uso, defina como True para inverter o layout para iniciar no terreno oposto.
+* **Center Vertical mullion Layout**: em vez de iniciar o cálculo do espaçamento do montante vertical em uma extremidade do vidro, inicie o cálculo no meio, criando um layout simétrico de montantes verticais.
+* **First Horizontal Mullion Spacing**: define o primeiro espaçamento do montante horizontal começando na parte inferior. Será útil se você precisar de uma linha de módulos de vidraça mais curtos na parte inferior, separada do restante do espaçamento do montante horizontal.
+* **Horizontal Mullion Spacing**: o espaçamento do montante horizontal típico, no centro, começando após o primeiro montante como descrito acima.
+* **Flip Horizontal Mullion Layout**: se você desejar que o layout do montante horizontal comece na parte superior, em vez de na parte inferior, defina essa opção como True.
+* **Center Horizontal Mullion Layout**: em vez de iniciar o cálculo do espaçamento do montante horizontal na parte inferior ou superior do vidro, inicie o cálculo no meio, criando um layout simétrico de montantes horizontais.
 
-## Hidden Options
+## Opções ocultas
 
-Looking for more customization? Several advanced options are hidden from the FormIt properties panel, but are accessible by clicking "Edit Embedded Graph" to reveal the full graph contents in Dynamo:
+Procurando mais personalização? Diversas opções avançadas estão ocultas do painel de propriedades do FormIt, mas podem ser acessadas clicando em “Edit Embedded Graph” para visualizar o conteúdo completo do gráfico no Dynamo:
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Randomized Mullions
+### Montantes aleatórios
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: Set this to True to space the vertical or horizontal mullions randomly
-* **Min/Max Mullion Spacing (if random)**: Adjust these values to set a range of minimum and maximum randomized spacing values
+* **Randomize Vertical and Horizontal Mullion Layout**: defina como True para espaçar os montantes verticais ou horizontais aleatoriamente.
+* **Min/Max Mullion Spacing \(if random\)**: ajuste esses valores para definir uma faixa de valores de espaçamento aleatório mínimo e máximo.
 
-### Border Mullions
+### Montantes de borda
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions:** By default, the mullion system will use the glass boundary, and offset it inward to create the border mullions. To offset outward, set this option to True. This will increase the overall size of the mullion system outside the glass boundary by the Mullion Width setting.
-* **Tolerance Between Selection and Border Mullions**: By default, the mullion system will generate exactly at the border of the glass, which could cause Z-fighting where the edge of the glass and the outer surfaces of the border mullions collide. In most cases, this won't be visible, but if your use case requires the edges of the system to be visible and you want to avoid Z-fighting, enable this option and adjust the tolerance value as necessary.
+* **Flip Offset Direction of Border Mullions:** por padrão, o sistema de montante usará o limite de vidro e o deslocará para dentro para criar os montantes de borda. Para deslocar para fora, defina essa opção como True. Isso aumentará o tamanho geral do sistema de montante fora do limite de vidro pela configuração Mullion Width.
+* **Tolerance Between Selection and Border Mullions**: por padrão, o sistema de montante será gerado exatamente na borda do vidro, o que pode causar a luta Z onde a borda do vidro e as superfícies externas dos montantes de borda colidem. Na maioria dos casos, isso não será visível, mas se seu caso de uso exigir que as arestas do sistema estejam visíveis e você desejar evitar a luta Z, ative essa opção e ajuste o valor de tolerância conforme necessário.
+

@@ -1,9 +1,9 @@
-# FormIt Introduction
+# Introdução ao FormIt
 
-![](../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Introduction to FormIt
+## Introdução ao FormIt
 
-Learn some of the basics about FormIt - what it can do, where you can get it, and how you can customize it.
+Aprenda alguns dos conceitos básicos do FormIt – o que ele pode fazer, onde você pode obtê-lo e como você pode personalizá-lo.
 
-If you're done with the initial setup and ready to learn how to use it, check out the [FormIt Primer](../formit-primer/).
+Se você tiver terminado a configuração inicial e estiver pronto para aprender como usá-lo, consulte o [Manual do FormIt](../formit-primer/).

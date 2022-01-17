@@ -1,17 +1,20 @@
-# Collaboration
+# Colaboração
 
-FormIt allows multiple users to collaboratively edit a FormIt model on any combination of Windows, iPadOS, or Web clients, all while seeing their changes in real-time!
+O FormIt permite que vários usuários editem de forma colaborativa um modelo do FormIt em qualquer combinação de clientes Windows, iPadOS ou Web, tudo isso enquanto veem suas alterações em tempo real.
 
-With a FormIt Pro subscription, you have access to the Real-time Collaboration feature which allows you to:
+Com uma assinatura do FormIt Pro, você tem acesso ao recurso Colaboração em tempo real, que permite:
 
-* Start a collaboration session and invite colleagues.
-* Join a collaboration from the FormIt Windows, Web, or iPadOS apps.
-* Collaborate with colleagues to explore designs in a shared sandbox environment.
-* Follow another collaborator's camera to see the model from their viewpoint.
-* Let a client follow your camera as you guide them through your design.
-* Chat with collaborators in the session.
+* Iniciar uma sessão de colaboração e convidar colegas.
+* Participar de uma colaboração dos aplicativos FormIt para Windows, Web ou iPadOS.
+* Colaborar com colegas para explorar projetos em um ambiente compartilhado de sandbox.
+* Seguir a câmera de outro colaborador para ver o modelo de seu ponto de vista.
+* Deixar que um cliente siga sua câmera enquanto você os guia através do projeto.
+* Conversar com colaboradores na sessão.
 
-## Start a Collaboration Session
+## Iniciar uma sessão de colaboração
 
-1. From the Collaboration drop-down, choose "Start sharing session." ![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
-2. Email a link to collaborators. This link prompts recipients to log into their Autodesk accounts to immediately start collaborating.  ![](<../.gitbook/assets/collaborate (1).png>)
+1. No menu suspenso Colaboração, selecione “Iniciar sessão de compartilhamento”. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. Envie um link por e-mail para os colaboradores. Esse link solicita que os destinatários efetuem login nas Autodesk Accounts para iniciar imediatamente a colaboração. ![](../.gitbook/assets/collaborate.png)
+
+
+

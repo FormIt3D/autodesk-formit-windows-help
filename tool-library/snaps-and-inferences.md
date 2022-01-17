@@ -1,61 +1,61 @@
-# Snaps and Inferences
+# Snaps e inferências
 
-To make sketching and modeling easier, use snaps and inference points to accurately create, place, and edit geometry. You can use whatever axis you choose as the axis on which to draw or execute another action, such as extruding a surface.
+Para facilitar o esboço e a modelagem, use snaps e pontos de inferência para criar, inserir e editar a geometria com precisão. É possível usar qualquer eixo escolhido para desenhar ou executar outra ação, como a extrusão de uma superfície.
 
-**Note:** _See_ [_Keyboard Shortcuts_](../appendix/keyboard-shortcuts.md) _for information about how to speed up your use of the software's tools._
+**Observação:** _Consulte_ [_Atalhos de teclado_](../appendix/keyboard-shortcuts.md)_ para obter informações sobre como acelerar o uso das ferramentas do software._
 
-## Snapping
+## Posicionamento
 
-There are several snaps that can aid you while you are sketching and modeling. Snapping to objects is automatically enabled, and you can snap to:
+Há vários snaps que poderão ajudar enquanto você estiver desenhando e modelando. O snap a objetos é automaticamente ativado. É possível efetuar snap a:
 
-|                                                                                                                                                                            |                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| Vertices                                                                                                                                                                   | ![](<../.gitbook/assets/inf3 (3).png>) |
-| Edges. When hovering over the edge, small red dots will be drawn at the ends and at the mid point.                                                                         | ![](../.gitbook/assets/inf4.png)       |
-| Edge mid points                                                                                                                                                            | ![](../.gitbook/assets/inf5.png)       |
-| The plane of a face. When hovering over the face a small red dot will be drawn at the face centroid. This will make it easy to find that point, if you want to snap to it. | ![](../.gitbook/assets/inf6.png)       |
-| Face centroids                                                                                                                                                             | ![](../.gitbook/assets/inf7.png)       |
-| The work plane, if you don't snap to anything else.                                                                                                                        | ![](../.gitbook/assets/inf8.png)       |
-| Circle or arc centers                                                                                                                                                      | ![](../.gitbook/assets/inf9.png)       |
-| Mesh vertices                                                                                                                                                              | ![](../.gitbook/assets/inf2.png)       |
-| The plane of a mesh facet.                                                                                                                                                 | ![](../.gitbook/assets/inf1.png)       |
+|                                                                                                                                                                            |                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Vértices | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Arestas. Ao passar o cursor sobre a aresta, pequenos pontos vermelhos serão desenhados nas extremidades e no ponto médio. | ![](../.gitbook/assets/inf4.png) |
+| Pontos médios da aresta | ![](../.gitbook/assets/inf5.png) |
+| O plano de uma face. Ao passar o cursor sobre a face, um pequeno ponto vermelho será desenhado no centroide da face. Isso facilitará a localização desse ponto, caso você deseje efetuar snap a ele. | ![](../.gitbook/assets/inf6.png) |
+| Centroides de face | ![](../.gitbook/assets/inf7.png) |
+| O plano de trabalho, se você não efetuar o snap a nenhuma outra coisa. | ![](../.gitbook/assets/inf8.png) |
+| Centros de arco ou círculo | ![](../.gitbook/assets/inf9.png) |
+| Vértices de malha | ![](../.gitbook/assets/inf2.png) |
+| O plano de uma faceta de malha. | ![](../.gitbook/assets/inf1.png) |
 
-To snap to the grid, you must enable the **Snap to Grid (SG)** toggle from the Settings menu.
+Para efetuar o snap à grade, será necessário ativar a opção **Snap à grade (SG)** no menu Configurações.
 
-## Inference Axes and Points
+## Eixos e pontos de inferência
 
-Automatic selection of inference points is always enabled and will help you constrain the movement of geometry. Inference axes are generated by tools automatically or when you hover the mouse over edges or points. Inference axes are always drawn on the screen with dashes so that you know where they are and are easy to snap to.
+A seleção automática de pontos de inferência sempre está ativada e ajudará a restringir o movimento da geometria. Os eixos de inferência são gerados por ferramentas automaticamente ou quando você passa o mouse sobre as arestas ou os pontos. Os eixos de inferência são sempre desenhados na tela com traços para que você saiba onde estão e para que seja fácil efetuar o snap.
 
-**Axis:** You can move geometry along the X, Y, or Z axis. The X-axis inference is red, the Y-axis is green, and the Z-axis is blue.
+**Eixo:** é possível mover a geometria ao longo do eixo X, Y ou Z. A inferência do eixo X é vermelho e o eixo Z é azul.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Axis Locking:** You can lock movement along the X, Y, or Z axis. Hold down the Shift key while on an axis inference, then move your mouse to snap and inference to other elements.
+**Bloqueio de eixo:** é possível bloquear o movimento ao longo do eixo X, Y ou Z. Mantenha pressionada a tecla Shift enquanto estiver em uma inferência de eixo e, em seguida, mova o mouse para efetuar o snap e a inferência para outros elementos.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Parallel:** You can sketch or move geometry parallel to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a parallel reference.
+**Paralelo:** é possível desenhar ou mover a geometria paralela aos elementos existentes. As inferências perpendiculares são roxas. É necessário passar o cursor sobre uma linha que você deseja usar como referência paralela.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Perpendicular:** You can also draw or move geometry perpendicular to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a perpendicular reference.
+**Perpendicular:** também é possível desenhar ou mover a geometria perpendicular aos elementos existentes. As inferências perpendiculares são roxas. É necessário passar o cursor sobre uma linha que você deseja usar como referência perpendicular.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Extending from a point:** You can also use inferences to extend from a point reference. Hover the mouse over a point you want to use as a reference until the tooltip appears, then use the inference axis that extends from the point.
+**Estender desde um ponto:** também é possível usar as inferências para estender desde uma referência de ponto. Passe o mouse sobre um ponto que você deseja usar como referência até que a dica de ferramenta seja exibida e, em seguida, use o eixo de inferência que se estende desde o ponto.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Circle Center**: If you want to snap to the center of an arc or circle, hover over the arc or circle. This will show a small red dot at the center. It will stay visible for about 5 seconds after you move away from the arc or circle. Now move the cursor over the red dot to snap to the center.
+**Centro do círculo**: caso deseje efetuar o snap ao centro de um arco ou círculo, passe o cursor sobre o arco ou círculo. Isso mostrará um pequeno ponto vermelho no centro. Ele permanecerá visível por cerca de 5 segundos após você se afastar do arco ou círculo. Agora, mova o cursor sobre o ponto vermelho para efetuar o snap ao centro.
 
 ![](../.gitbook/assets/inf17.png)
 
-**True arc and spline midpoints**: When you hover over a circle, arc or spline you will be able to snap to the true midpoint. It and the end points will be shown by a small red dot. When inferencing on an arc you will also snap to the vertices of the straight edges that represent the arc.
+**Pontos médios de arco e spline verdadeiros**: quando você passar o cursor sobre um círculo, arco ou spline, será possível efetuar o snap ao ponto central verdadeiro. Ele e os pontos finais serão exibidos por um pequeno ponto vermelho. Ao inferir em um arco, você também efetuará o snap aos vértices das arestas retas que representam o arco.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Clearing inferences**: It is possible that drawing will generate a larger number of inferences, which may be in the way of placing points that are not supposed to snap to those inferences. If you press he **Shift + Spacebar** keys, all inferences will be cleared, except for those at the last placed point.
+**Limpar inferências**: é possível que o desenho gere um número maior de inferências, que pode estar na forma de colocar pontos que não devem efetuar o snap a essas inferências. Se você pressionar as teclas **Shift + barra de espaço**, todas as inferências serão apagadas, exceto as no último ponto inserido.
 
-![Before clearing inferences](../.gitbook/assets/inf19.png)
+![Antes de limpar as inferências](../.gitbook/assets/inf19.png)
 
-![After clearing inferences](../.gitbook/assets/inf20.png)
+![Após limpar as inferências](../.gitbook/assets/inf20.png)
