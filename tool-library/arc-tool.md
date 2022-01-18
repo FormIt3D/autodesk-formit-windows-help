@@ -1,23 +1,24 @@
-# Arc
+# Łuk
 
-Use the Arc tool to create half circles or symmetrical arcs. There are two ways to create arcs.
+Korzystaj z narzędzia Łuk, aby tworzyć półokręgi lub łuki symetryczne. Istnieją dwa sposoby tworzenia łuków.
 
-## Arc by Three Points
+## Łuk na podstawie trzech punktów
 
-![](../.gitbook/assets/arc\_three\_pts.png)
+![](../.gitbook/assets/arc_three_pts.png)
 
-An arc is defined by three points and can be drawn on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
+Łuk jest definiowany przez trzy punkty i można go narysować na osiach X, Y i Z. Zdefiniuj pierwszy punkt, a następnie określ odległość od pierwszego do drugiego punktu, a na końcu — trzeci punkt wskazujący wysokość łuku. Automatycznie pojawi się punkt „półokręgu”, do którego można będzie przyciągać. Linia łuku zostanie wydłużona poza dwa pierwsze punkty.
 
-You can see the length between the first point and the second point as you're determining the second points next location; to manually specify a length, simply enter a value and a dimension box will appear.
+Długość między pierwszym a drugim punktem jest widoczna podczas określania drugiego punktu w następnym położeniu. Aby ręcznie określić długość, wystarczy wprowadzić wartość, a pojawi się pole wymiaru.
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-After drawing the arc, you can make a face using the [Line tool](line-tool.md) to connect the first and second points.
+Po narysowaniu łuku można utworzyć powierzchnię za pomocą [narzędzia Linia](line-tool.md), łącząc pierwszy i drugi punkt.
 
-## Arc by Center
+## Łuk na podstawie środka
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Choose the mid point of the arc, then drag to choose the center, and drag to define the length of the arc. Simply start typing a value to enter a precise number of degrees for the arc.
+Wybierz punkt środkowy łuku, przeciągnij, aby wybrać środek, a potem przeciągnij, aby zdefiniować długość łuku. Aby wprowadzić dokładną liczbę stopni kąta łuku, wystarczy rozpocząć wpisywanie wartości.
 
-![](../.gitbook/assets/arc\_circle\_demo.gif)
+![](../.gitbook/assets/arc_circle_demo.gif)
+

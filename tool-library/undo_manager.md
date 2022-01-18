@@ -1,17 +1,18 @@
-# Undo Manager
+# Menedżer cofania
 
-FormIt features a unique Undo/Redo system, which can be used in two different ways to either undo per-Group, or chronologically and globally:
+Program FormIt zawiera wyjątkowy system poleceń Cofnij/Wykonaj ponownie, którego można używać na dwa różne sposoby: do cofania według grupy lub chronologicznie i globalnie:
 
-* Undo/Redo while editing a nested Group will only affect the changes inside that Group
-  * This means you can make a change in this Group, then make many changes in other Groups, and return to the original Group and have the option to Undo the last change made in this Group without affecting changes made more recently, elsewhere
-*   Undo/Redo from the Main Sketch (not while editing a Group) acts like traditional Undo/Redo systems: the last change made in **any** Group will be undone, based on chronological order.
+* Wybranie polecenia Cofnij/Wykonaj ponownie podczas edycji grupy zagnieżdżonej wpłynie tylko na zmiany wewnątrz tej grupy.
+   * Oznacza to, że można wprowadzić zmiany w tej grupie, a następnie wprowadzić wiele zmian w innych grupach i po powrocie do tej pierwszej grupy cofać ostatnie zmiany wprowadzone w tej grupie bez wpływu na zmiany wprowadzone później w innych miejscach.
+* Polecenie Cofnij/Wykonaj ponownie użyte w szkicu głównym \(a nie podczas edycji grupy\) działa podobnie jak tradycyjne systemy Cofnij/Wykonaj ponownie: cofnięta zostanie ostatnia zmiana wprowadzona w **dowolnej** grupie na podstawie kolejności chronologicznej.
 
-    The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
+Menedżer cofania rejestruje wszystkie zmiany w każdej grupie w modelu programu FormIt, w tym zmiany wprowadzone w szkicu głównym. Ułatwia to wizualne zrozumienie tego, które operacje zostały cofnięte w dowolnej grupie w modelu.
 
-![](<../.gitbook/assets/undo-manager (1).png>)
+![](../.gitbook/assets/undo-manager.png)
 
-The Undo Manager will indicate in **bold** the current state, as well as any operations before this state, and any operations that once existed but have since been undone.
+Menedżer cofania wyróżnia **pogrubieniem czcionki** stan bieżący, jak również wszystkie operacje poprzedzające ten stan oraz wszystkie operacje, które wykonano, ale cofnięto.
 
-You can right-click a state and select "Roll To" to effectively Undo or Redo as necessary to return to that model state.
+Można kliknąć stan prawym przyciskiem myszy i wybrać opcję „Przełącz do”, aby odpowiednio cofnąć lub wykonać ponownie w celu powrócenia do tego stanu modelu.
 
-Groups that have been explicitly deleted, or are no longer in existence due to an Undo or Redo, are shown as \*Inactive\*. These can be restored by Undoing or Redoing inside their parent Group until they come back into existence.
+Grupy, które jawnie usunięto lub już nie istnieją z powodu cofnięcia lub ponownego wykonania operacji, są wyświetlane jako \*Nieaktywne\*. Można je przywrócić przez cofanie lub ponowne wykonywanie operacji w odpowiedniej grupie nadrzędnej do momentu ich ponownego pojawienia się.
+

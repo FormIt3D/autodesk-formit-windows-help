@@ -1,13 +1,16 @@
-# Polygon
+# Wielobok
 
-Use the Polygon tool to draw a regular n-sided polygon in space or on another object.
+Narzędzie Wielobok służy do rysowania wielokąta foremnego o n bokach w przestrzeni lub na innym obiekcie.
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](../.gitbook/assets/image%20%289%29.png)
 
-Start the polygon and click to choose the center point. Specify the radius by drawing the second point, typing in a dimension, or hitting **Tab** to bring up **Tool Options**.
+Rozpocznij rysowanie wielokąta i kliknij, aby wybrać punkt środkowy. Określ promień, rysując drugi punkt, wpisując wymiar lub naciskając klawisz **Tab**, aby wywołać okno dialogowe **Opcje narzędzia**.
 
-![](<../.gitbook/assets/image (7).png>)
+![](../.gitbook/assets/image%20%287%29.png)
 
-**Tool Options** allows you to change the number of sides and specify a particular radius.
+Okno dialogowe **Opcje narzędzia** umożliwia zmianę liczby boków i określenie promienia.
 
 ![](../.gitbook/assets/image.png)
+
+
+

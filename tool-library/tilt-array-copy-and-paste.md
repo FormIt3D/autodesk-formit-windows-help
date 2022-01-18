@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# Powierzchnie: pochylanie i spłaszczanie/wygładzanie
 
-## Working with Faces: Tilt and Facet/Smooth
+## Praca z powierzchniami: pochylanie i spłaszczanie/wygładzanie
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+Aby tworzyć bardziej złożone projekty po naszkicowaniu kształtu lub umieszczeniu prymitywu, można modyfikować geometrię za pomocą kilku narzędzi kontekstowych. Te operacje obejmują polecenia Pochyl, Szyk oraz Kopiuj i Wklej.
 
-### Tilt Face
+### Pochylanie powierzchni
 
-To **tilt a face:**
+**Pochylanie powierzchni:**
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. Wybierz powierzchnię i kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe.
+2. Wybierz ikonę **Pochyl** z menu kontekstowego.
+3. Zdefiniuj oś pochylenia, rysując linię.
+4. Kliknij trzeci punkt, aby rozpocząć operację pochylania.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### Spłaszczanie/wygładzanie powierzchni
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+Jeśli po umieszczeniu kursora na powierzchni pojawiają się linie kropkowane, oznacza to, że dana powierzchnia składa się z mniejszych powierzchni, ponieważ jest zdeformowana. **Przekształcanie linii kropkowanych w krawędzie modelu:**
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. Wybierz powierzchnię lub obiekt, który chcesz zmienić, a następnie kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe.
+2. Z menu kontekstowego wybierz narzędzie **Powierzchnie wygładzone płaszczyzną**.
+3. W miejscu, w którym powierzchnia była wcześniej gładka, zostaną automatycznie dodane krawędzie.
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+To polecenie działa też w odwrotny sposób: można również wybrać powierzchnie mające wiele płaszczyzn i wybrać narzędzie **Powierzchnie wygładzone płaszczyzną** z menu kontekstowego, aby ukryć krawędzie i wygładzić powierzchnie.
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

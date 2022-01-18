@@ -1,29 +1,30 @@
-# Faces: Extrude, Cut and Offset
+# Powierzchnie: wyciąganie, wycinanie i odsuwanie
 
-Push or pull a face, imprint new shapes on existing ones, or create new offset edges.
+Wypchnij lub pociągnij powierzchnię, odciśnij nowe kształty na istniejących lub utwórz nowe odsunięte krawędzie.
 
-## Extrude
+## Wyciąganie
 
-To push or pull a face, select a face with a single click, then click and drag. The face will move back and forth, you can now move your mouse to snap and inference on other model elements. Click again to finish moving the face. Hold down the CTRL key to retain the original edges.
+Aby wypchnąć lub pociągnąć powierzchnię, wybierz ją jednym kliknięciem, a następnie kliknij i przeciągnij. Powierzchnia będzie przesuwana w przód i w tył. Teraz za pomocą myszy możesz przyciągać ją i korzystać z wnioskowania względem innych elementów modelu. Kliknij ponownie, aby zakończyć przesuwanie powierzchni. Przytrzymaj naciśnięty klawisz CTRL, aby zachować oryginalne krawędzie.
 
-![](<../.gitbook/assets/extrude (1).png>)
+![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprint
+## Odciskanie
 
-To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles, or circles onto existing faces. This action creates new faces that can be pushed or pulled independently of the original face.
+Aby odcisnąć kształty, za pomocą narzędzia Szkic 3D narysuj linie, łuki, splajny, prostokąty lub okręgi na istniejących powierzchniach. Ta operacja spowoduje utworzenie nowych powierzchni, które można wypychać lub ciągnąć niezależnie od oryginalnej powierzchni.
 
-![](../.gitbook/assets/imprint1.png)\
+![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## Odsunięcie
 
-To offset the face of an object:
+Odsuwanie powierzchni obiektu:
 
-1. First select the face you would like to edit, then right-click to view the **Context** menu.&#x20;
-2. From the **Context** menu, click on the **Offset Face** tool.&#x20;
-3. Move your cursor over the selected face and adjust the lines that display until you reach your desired offset effect.
-4. Click anywhere to complete the offset. You can now independently push or pull the offset face.
+1. Najpierw wybierz powierzchnię, którą chcesz edytować, a następnie kliknij prawym przyciskiem myszy, aby wyświetlić **menu kontekstowe**.
+2. W **menu kontekstowym** kliknij narzędzie **Odsuń powierzchnię**.
+3. Przesuwaj kursor nad wybraną powierzchnią i dopasowuj wyświetlane linie, aż osiągniesz żądany efekt odsunięcia.
+4. Kliknij w dowolnym miejscu, aby zakończyć odsunięcie. Teraz możesz niezależnie wypychać lub ciągnąć odsuniętą powierzchnię.
 
-![](../.gitbook/assets/offset1.png)\
-![](../.gitbook/assets/offset2.png)\
+![](../.gitbook/assets/offset1.png)  
+![](../.gitbook/assets/offset2.png)  
 ![](../.gitbook/assets/offset3.png)
+

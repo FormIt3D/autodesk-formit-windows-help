@@ -1,29 +1,28 @@
-# World Axes
+# Osie globalne
 
-The default coordinate system and grid can be modified by changing the world axis.
+Domyślny układ współrzędnych i siatkę można modyfikować, zmieniając oś globalną.
 
-## Drawing and Modeling with Axes
+## Rysowanie i modelowanie z osiami
 
-When a blank sketch is opened in FormIt, the World Axes are displayed as three red, green and blue lines in the center of the screen. These three lines, define the three Cartesian directions that define the 3D world. The "X" direction is defined by the red line, the "Y" direction by the green line and the "Z" or "up" direction by the blue line.
+Gdy w programie FormIt zostanie otwarty pusty szkic, osie globalne będą wyświetlane na środku ekranu jako trzy linie: czerwona, zielona i niebieska. Te trzy linie określają trzy kierunki kartezjańskie definiujące przestrzeń 3D. Kierunek „X” jest definiowany przez linię czerwoną, kierunek „Y” przez linię zieloną, a kierunek „Z” („w górę”) przez linię niebieską.
 
 ![](../.gitbook/assets/axis.png)
 
-To rotate the grid and redefine the origin point for the sketch, **right-click** on empty space in the scene and choose the **Set Axes (SZ)** icon from the context menu\
-![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
+Aby obrócić siatkę i ponownie zdefiniować punkt początkowy szkicu, **kliknij prawym przyciskiem myszy** puste miejsce w scenie i wybierz ikonę **Ustaw osie \(SZ\)** z menu kontekstowego.  ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-The Set Axes widget appears. Click on the large grip in the center to pick up the widget. Click again to set the origin point. Now click the dot on the red axis to rotate the grid, or click the dot on the blue axes to pivot the grid plane vertically. Click off into space to confirm the change\
-![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
+Zostanie wyświetlony widżet Ustaw osie. Kliknij duży uchwyt w środku, aby aktywować widżet. Kliknij ponownie, aby ustawić punkt początkowy. Kliknij kropkę na czerwonej osi, aby obrócić siatkę, lub kliknij kropkę na niebieskich osiach, aby obrócić płaszczyznę siatki w pionie. Kliknij w innym miejscu poza tym obszarem, aby zatwierdzić tę zmianę.  ![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-To **reset** the origin and grid back to the default setting, right-click on empty space in the scene and choose to **Reset Axes (RZ)**
+Aby **przywrócić ustawienia domyślne** punktu początkowego i siatki, kliknij prawym przyciskiem myszy puste miejsce w scenie i wybierz opcję **Resetuj osie \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## World Axes and Local Axes
+## Osie globalne i lokalne
 
-The steps above explain how to control the **global coordinate system** of your sketch. When you start working with [**groups** ](groups.md)then you can control the **local coordinate system** of that group uniquely from the overall sketch. When you edit a group, you can edit the local coordinate system following the same steps as above - but these changes will only apply to the group
+W powyższych instrukcjach opisano sposób sterowania **globalnym układem współrzędnych** szkicu. Po rozpoczęciu pracy z [**grupami**](groups.md) można sterować **lokalnym układem współrzędnych** danej grupy niezależnie od szkicu ogólnego. Podczas edycji grupy można edytować lokalny układ współrzędnych, wykonując te same czynności co powyżej — w tym przypadku zmiany będą miały zastosowanie tylko do grupy.
 
-## Interactions with Axes
+## Interakcje z osiami
 
-* The **red, green, and blue axes** display when you're in sketch tools to guide your 3D sketching
-* The **purple axis** displays a perpendicular and parallel axis relative to lines drawn at an angle
-* Hold down the **Shift key** while sketching or moving to **lock to the current axis**
+* **Osie czerwona, zielona i niebieska** są wyświetlane podczas pracy z narzędziami do szkicowania w celu ułatwienia szkicowania 3D.
+* **Oś fioletowa** wskazuje osie prostopadłą i równoległą względem linii rysowanych pod kątem.
+* Przytrzymaj naciśnięty **klawisz Shift** podczas szkicowania lub przesuwania, aby **zablokować ruch względem bieżącej osi**.
+

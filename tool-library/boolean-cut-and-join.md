@@ -1,27 +1,28 @@
-# Boolean Cut
+# Wycięcie logiczne
 
-You can cut one object or group from another with the Cut Tool. There are two ways to access the Cut tool:
+Za pomocą narzędzia Wytnij można wyciąć jeden obiekt lub grupę z innego obiektu. Dostęp do narzędzia Wytnij można uzyskać na dwa sposoby:
 
-## Run the Cut command first
+## Najpierw uruchomienie polecenia Wytnij
 
-Keyboard: C G
+Klawiatura: C G
 
-![](../.gitbook/assets/cut\_tool.png)
+![](../.gitbook/assets/cut_tool.png)
 
-Run the Cut command and follow the mode instruction in the upper left of the screen
+Uruchom polecenie Wytnij i postępuj zgodnie z instrukcją trybu w lewym górnym rogu ekranu.
 
-Single-click to select an object to cut into:
+Kliknij jednokrotnie, aby wybrać obiekt, w którym zostanie zrobione wycięcie:
 
-![](../.gitbook/assets/boolean\_cut.png)
+![](../.gitbook/assets/boolean_cut.png)
 
-Single click to select an object(s) or group(s) to be removed:
+Kliknij jednokrotnie przyciskiem myszy, aby wybrać obiekty lub grupy do usunięcia:
 
-![](../.gitbook/assets/boolean\_cut2.png)
+![](../.gitbook/assets/boolean_cut2.png)
 
-Click the checkmark to finish the command. The object that was removed remains in the scene. You can delete it or use [Layers ](layers.md)to hide it.
+Kliknij znacznik wyboru, aby wykonać polecenie. Usunięty obiekt pozostaje w danej scenie. Można go usunąć lub ukryć za pomocą opcji [Warstwy](layers.md).
 
-## Select objects first
+## Najpierw wybranie obiektów
 
-1. Double-click to select the object to be cut into. (Single-click for a Group)
-2. Holding the **CTRL key** double click an overlapping object(s) to cut out.
-3. Right-click on the object that will be cut, and choose the [**Cut tool**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) in the Context Menu. ![](<../.gitbook/assets/cut tool.png>)
+1. Kliknij dwukrotnie, aby wybrać obiekt, w którym zostanie zrobione wycięcie. \(W przypadku grupy kliknij jednokrotnie\).
+2. Przytrzymując naciśnięty **klawisz CTRL**, kliknij dwukrotnie nakładające się obiekty, aby je wyciąć.
+3. Kliknij prawym przyciskiem myszy obiekt, który zostanie wycięty, i wybierz z menu kontekstowego [**narzędzie Wytnij**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md). ![](../.gitbook/assets/booleancut.png)
+

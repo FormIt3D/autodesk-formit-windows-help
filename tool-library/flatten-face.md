@@ -1,15 +1,20 @@
-# Faces: Flatten
+# Powierzchnie: spłaszczanie
 
-Use the **Flatten Faces** tool to force two or more object faces into the same plane.
+Za pomocą narzędzia **Spłaszcz powierzchnie** można wymusić umieszczenie dwóch lub więcej powierzchni obiektu w tej samej płaszczyźnie.
 
-When two or more object faces are selected, you can select the **Flatten Faces** tool from the **Context** menu. You can also access **Flatten Faces** using the shortcut "**FL**."
+Po wybraniu co najmniej dwóch powierzchni obiektu można wybrać narzędzie **Spłaszcz powierzchnie** z **menu kontekstowego**. Dostęp do narzędzia **Spłaszcz powierzchnie** można również uzyskać za pomocą skrótu „**FL**”.
 
-![](../.gitbook/assets/flatten\_faces.png)
+![](../.gitbook/assets/flatten_faces.png)
 
-**Flatten Faces** can be useful as a repair tool when a face that should be planar becomes unexpectedly faceted (with smooth edges between the facets), either when importing lower-fidelity data like [SketchUp models](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), or after accidentally moving a vertex or edge which causes a face to get faceted or triangulated.
+Polecenie **Spłaszcz powierzchnie** może być przydatne jako narzędzie naprawcze, gdy powierzchnia, która powinna być płaska, stała się nieoczekiwanie płaszczyznowa \(z gładkimi krawędziami między płaszczyznami\) — w wyniku importowania danych o niższej dokładności, takich jak [modele programu SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), lub w wyniku przypadkowego przesunięcia wierzchołka bądź krawędzi, co nadało powierzchni charakter płaszczyznowy lub triangulowany.
 
-You can also use **Flatten Faces** as a design tool for aligning or extending shapes. To do this, first, select a guide surface, then select additional faces to flatten to the plane of the first surface.
+Polecenia **Spłaszcz powierzchnie** można również używać jako narzędzia do projektowania w celu wyrównywania lub wydłużania kształtów. Aby to zrobić, najpierw wybierz powierzchnię prowadzącą, a następnie wybierz dodatkowe powierzchnie, które mają zostać spłaszczone do płaszczyzny pierwszej powierzchni.
 
-Check out the video below to see the power and versatility of **Flatten Faces**:
+Obejrzyj poniższe nagranie wideo, aby zobaczyć możliwości i przekonać się o uniwersalności funkcji **Spłaszcz powierzchnie**:
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
+
+
+
+
+

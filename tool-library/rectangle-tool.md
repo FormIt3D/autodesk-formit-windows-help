@@ -1,23 +1,24 @@
-# Rectangle
+# Prostokąt
 
-You can use the **Rectangle** tool in the **Create Sketch** toolbar menu to quickly draw a rectangular face. Extrude the face to create a rectangular volume.
+Narzędzie **Prostokąt** z menu paska narzędzi **Utwórz szkic** umożliwia szybkie rysowanie powierzchni prostokątnej. Wyciągnij tę powierzchnię, aby utworzyć bryłę prostokątną.
 
-Keyboard shortcut: R
+Skrót klawiaturowy: R
 
-Use the axes to ensure you're drawing in the correct direction:
+Za pomocą osi upewnij się, że rysunek jest wykonywany w odpowiednim kierunku:
 
-You can draw rectangles on the X, Y, or Z-axis. As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
+Prostokąty można rysować na osi X, Y lub Z. Podczas rysowania można określić wymiar, wpisując wartość, co spowoduje wyświetlenie okna dialogowego Edycja wymiaru. Naciśnij klawisz Enter lub naciśnij przycisk OK, aby zaakceptować wymiar.
 
-To draw a rectangle, click to set the first point in your sketch.
+W celu narysowania prostokąta kliknij, aby ustawić pierwszy punkt w szkicu.
 
-Line colors by axis:
+Kolory linii według osi:
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = kolor czerwony
+* Y = kolor zielony
+* Z = kolor niebieski
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-When you finish drawing the rectangle, it becomes a face that can be extruded to create a volume.
+Po zakończeniu rysowania prostokąta staje się on powierzchnią, którą można wyciągnąć, aby utworzyć bryłę.
+

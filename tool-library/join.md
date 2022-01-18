@@ -1,29 +1,32 @@
-# Boolean Join
+# Łączenie logiczne
 
-You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
+Za pomocą narzędzia Dołącz można połączyć jeden obiekt lub grupę z inną. Dostęp do narzędzia Dołącz można uzyskać na dwa sposoby:
 
-## Run the Join command first
+## Najpierw uruchomienie polecenia Dołącz
 
-Keyboard: J G
+Klawiatura: J G
 
-![](../.gitbook/assets/boolean\_join.png)
+![](../.gitbook/assets/boolean_join.png)
 
-Run the Join command and follow the mode instruction in the upper left of the screen
+Uruchom polecenie Dołącz i postępuj zgodnie z instrukcją trybu w lewym górnym rogu ekranu.
 
-Single-click to select an object to join into.
+Kliknij jednokrotnie, aby wybrać obiekt, do którego chcesz dołączyć.
 
-![](<../.gitbook/assets/cut\_mode01 (1).png>)
+![](../.gitbook/assets/cut_mode01.png)
 
-Single-click to select an object or group to be joined.
+Kliknij jednokrotnie, aby wybrać obiekt lub grupę do dołączenia.
 
-![](<../.gitbook/assets/cut\_mode02 (1).png>)
+![](../.gitbook/assets/cut_mode02.png)
 
-Click the checkmark to finish the command.
+Kliknij znacznik wyboru, aby wykonać polecenie.
 
-## Select objects first
+## Najpierw wybranie obiektów
 
-1. Double-click to select the object to be joined (single click for a group).
-2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
-3. Right click on any of the objects and choose the Join Tool in the Context Menu.
+1. Kliknij dwukrotnie, aby wybrać obiekt, który ma zostać dołączony \(w przypadku grupy kliknij jednokrotnie\).
+2. Trzymając naciśnięty klawisz **CTRL**, kliknij dwukrotnie nakładający się obiekt, który chcesz dołączyć do pierwszego obiektu.
+3. Kliknij prawym przyciskiem myszy jeden z tych obiektów i wybierz narzędzie Dołącz z menu kontekstowego.
 
-![](<../.gitbook/assets/join tool.png>)
+![](../.gitbook/assets/join-tool.png)
+
+
+

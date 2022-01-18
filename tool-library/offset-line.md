@@ -1,53 +1,56 @@
-# Offset Line
+# Linia odsunięcia
 
-Draw parallel, or offset, lines using the Offset Line tool. This is useful to create 2D shapes that can later be extruded to look like 3D walls.
+Rysuj linie równoległe (czyli odsunięte) za pomocą narzędzia Linia odsunięcia. Jest to przydatne do tworzenia kształtów 2D, które można później wyciągać, aby wyglądały jak ściany 3D.
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool:
+Narzędzie **Linia odsunięcia** działa podobnie jak narzędzie [**Linia**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
-* Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes.&#x20;
-* A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool.
-* Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
+* Kliknij, aby ustawić pierwszy punkt, a następnie przesuń kursor i umieść kolejne punkty, przyciągając do istniejącej geometrii lub osi odniesienia.
+* Zostanie wyświetlony podgląd wynikowego kształtu. Drugi i trzeci punkt określają płaszczyznę dla kolejnych punktów, więc wynikowa całość jest płaska.
+* Dodawaj kolejne punkty, a następnie naciśnij klawisz **Escape** lub kliknij dwukrotnie, aby zakończyć pracę z narzędziem.
+* Wszystkie przecięcia wewnętrzne zostaną wyczyszczone i scalone, pozostawiając jedną gotową do wyciągnięcia powierzchnię.
 
-![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
+![Po umieszczeniu 2 punktów i przeciągnięciu trzeciego punktu](../.gitbook/assets/walls1.png)
 
-The input line is drawn in red, and by default is placed in the center of the offset lines.
+Linia wejściowa jest rysowana na czerwono i jest domyślnie umieszczana w środku linii odsunięcia.
 
-You can change the alignment of the offset lines and their thickness by hitting the **Tab** key. This will invoke the **Tool Options** dialog:
+Dopasowanie linii odsunięcia i ich grubość można zmienić, naciskając klawisz **Tab**. Spowoduje to wywołanie okna dialogowego **Opcje Narzędzia**:
 
-![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
+![Opcje narzędzia Linia odsunięcia](../.gitbook/assets/walls2.png)
 
-Change the **Alignment** to **Left** and the **Thickness** to 6", for example, and the offset lines will be drawn to the left of the input lines, 6 inches apart.
+Zmień ustawienie opcji **Wyrównanie** na **Lewo** i opcji **Grubość** na 6", a linie odsunięcia będą rysowane po lewej stronie linii wejściowych w odległości 6 cali od siebie.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Useful Tips
+## Przydatne porady
 
-You can draw a closed shape by snapping to the first point placed. The resulting corner will be cleaned up automatically:
+Przyciągając do pierwszego umieszczonego punktu, można narysować zamknięty kształt. Wynikowy narożnik zostanie automatycznie wyczyszczony:
 
 ![](../.gitbook/assets/walls4.png)
 
-You can freely draw the input lines on top of each other. When the tool is finished the resulting intersections are cleaned up.
+Linie wejściowe można dowolnie rysować jedna na drugiej. Po zakończeniu działania narzędzia przecięcia wynikowe są czyszczone.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Inherently, the Offset Line tool must generate geometry on a plane, so the first few points determine the plane that the remaining points will follow.
+Narzędzie Linia odsunięcia musi generować geometrię na płaszczyźnie: pierwszych kilka punktów określa płaszczyznę, za którą będą podążać pozostałe punkty.
 
-Start drawing on the side of a cube, for example, to use the plane of that face. After three non colinear points are placed the input plane is fixed for the remainder of the input. Note, that when drawing on a face the resulting shape is inserted into the face, splitting it into multiple faces. To prevent the insertion, the face you draw on must be part of a [Group](https://windows.help.formit.autodesk.com/tool-library/groups).
+Na przykład rozpocznij rysowanie od boku sześcianu, aby użyć płaszczyzny tej powierzchni. Po umieszczeniu trzech niewspółliniowych punktów płaszczyzna wejściowa jest stała dla pozostałej części danych wejściowych. Należy pamiętać, że podczas rysowania na powierzchni kształt wynikowy jest wstawiany na tej powierzchni, co dzieli ją na wiele powierzchni. Aby można było zapobiec temu wstawieniu, rysowana powierzchnia musi być częścią [grupy](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![Drawing on a vertical face](../.gitbook/assets/walls7.png)
+![Rysowanie na powierzchni pionowej](../.gitbook/assets/walls7.png)
 
-![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
+![Po zakończeniu pracy narzędzia linie zostają wstawione, a podzielonymi powierzchniami można dalej manipulować](../.gitbook/assets/walls8.png)
 
-You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image.
+Można również użyć narzędzia Linia odsunięcia, aby śledzić dane z rysunku rzutu. Zaimportuj rzut jako obraz.
 
-* Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).&#x20;
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
+* Zmień rozmiar obrazu, tak aby rzut miał odpowiednią skalę. Jest to szczegółowo opisane [tutaj](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
+* Za pomocą [kamery prostopadłej](orthographic-camera.md) można śledzić w prostokątnym [widoku z góry](orthographic-views.md).
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
+
+
+

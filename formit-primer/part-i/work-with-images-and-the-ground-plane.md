@@ -1,92 +1,93 @@
-# 1.2 - Project Set Up with Images and Grid
+# 1.2 — Konfiguracja projektu z obrazami i siatką
 
-_You can import PNG or JPG images onto the ground plane of the model by selecting File > Import from the Navigation Bar. However, to gain more control over the scale and position of an imported image, we can create a custom material and apply it to a rectangle that we have drawn ourselves._
+_Obrazy PNG lub JPG można importować na płaszczyznę terenu modelu, wybierając opcje Plik &gt; Importuj na pasku nawigacji. Aby jednak uzyskać większą kontrolę nad skalą i położeniem zaimportowanego obrazu, można utworzyć materiał niestandardowy i zastosować go do samodzielnie narysowanego prostokąta._
 
-_If you did not complete the last section, download and open the_ _**1.2 - Project Set Up with Images and Grid.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.2 - Project Set Up with Images and Grid.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
 
-## **Calculate Image Size**
+## **Obliczanie rozmiaru obrazu**
 
-The provided **plan.png** is an image of a plan printed on a 24” x 26” Sheet (ARCH D) which is 3600 pixels wide by 2400 pixels high. By knowing the drawing scale (¼"=1'-0") and the image dimensions you can calculate that 1’ = 25 pixels, which means that the image should be 144'x96' when imported into FormIt at full scale.
+Dostarczony plik **plan.png** jest obrazem rzutu drukowanym na arkuszu 24" x 26" \(ARCH D\) o szerokości 3600 pikseli i wysokości 2400 pikseli. Znając skalę rysunku \(¼"=1'-0"\) i wymiary obrazu, można obliczyć, że 1' = 25 pikseli, co oznacza, że obraz powinien mieć rozmiar 144' x 96' w przypadku zaimportowania do formatu programu FormIt w pełnej skali.
 
-![](<../../.gitbook/assets/0 (1) (2).png>)
+![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Import an Image to scale**
+## **Importowanie obrazu w skali**
 
-1 – Click the **Top View** icon from the **Floating Navigation Bar** to see the scene from above.
+1 — Kliknij ikonę **Widok z góry** na **ruchomym pasku nawigacji**, aby wyświetlić scenę z góry.
 
-![](<../../.gitbook/assets/1 (1).png>)
+![](../../.gitbook/assets/1%20%281%29.png)
 
-2 - Choose the **Rectangle Tool (R)** from the 3D Sketch toolbar.
+2 — Wybierz **narzędzie Prostokąt \(R\)** na pasku narzędzi Szkic 3D.
 
-![](<../../.gitbook/assets/2 (1).png>)
+![](../../.gitbook/assets/2%20%281%29.png)
 
-3 – To create a rectangle that is exactly **144’** x **96’**, click anywhere in the workspace to define the starting point, then move the mouse to preview and define the first side length. Start typing a dimension value to access a dialog where you can input the exact dimension. Click **OK** or press the **Enter** key to commit the dimension. Repeat the process to set the second side’s length and finish the rectangle.
+3 — W celu utworzenia prostokąta o długości dokładnie **144’** x **96’** kliknij w dowolnym miejscu w obszarze roboczym, aby zdefiniować punkt początkowy, a następnie przesuń wskaźnik myszy, aby wyświetlić podgląd i zdefiniować długość pierwszego boku. Rozpocznij wpisywanie wartości wymiaru, aby uzyskać dostęp do okna dialogowego, w którym można wprowadzić dokładny wymiar. Kliknij przycisk **OK** lub naciśnij klawisz **Enter**, aby zatwierdzić wymiar. Powtórz ten proces, aby ustawić długość drugiego boku i dokończyć prostokąt.
 
-![ Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+![ Wprowadź długość pierwszego boku prostokąta.](../../.gitbook/assets/3%20%281%29.png)
 
-![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+![Wprowadź długość drugiego boku prostokąta.](../../.gitbook/assets/4%20%281%29.png)
 
-![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+![Dokończ prostokąt.](../../.gitbook/assets/5%20%281%29.png)
 
-4 - To create the new “Floor Plan” material:
+4 — Aby utworzyć nowy materiał „Floor Plan”:
 
-1. Open the **Material Palette**.
-2. Click the **+** icon to create a new material.
-3. Name the new material “**Floor Plan”.**
-4. Under **MAPS** click on the **Texture** preview tile and browse to **plan.png** in the **Farnsworth House Data Set >  Supporting Files > Images** folder. Then click **Open**.
-5. Under **PROPERTIES**, change the image’s scale by entering **144'** in the **Horizontal Scale** field and **96'** in the **Vertical Scale** field. Note that unlocking horizontal and vertical scale (**chain link** icon) may be required to insert values that change the image proportions.
-6. Check **Transparency** and set it at around half. This will help align the imported floor plan image to the satellite image.
-7. Click **OK** to finish the material.
+1. Otwórz **paletę Materiał**.
+2. Kliknij ikonę **+**, aby utworzyć nowy materiał.
+3. Nadaj nowemu materiałowi nazwę „**Floor Plan”.**
+4. W obszarze **MAPY** kliknij obszar podglądu **Tekstura** i przejdź do pliku **plan.png** w folderze **Farnsworth House Data Set &gt;  Supporting Files &gt; Images**. Następnie kliknij przycisk **Otwórz**.
+5. W obszarze **WŁAŚCIWOŚCI** zmień skalę obrazu, wprowadzając wartość **144'** w polu **Skala pozioma** i wartość **96'** w polu **Skala pionowa**. Pamiętaj, że może być wymagane odblokowanie skali poziomej i pionowej \(ikona **ogniwa łańcucha**\) w celu wstawienia wartości, które zmieniają proporcje obrazu.
+6. Zaznacz pole wyboru **Przezroczystość** i ustaw jej wartość równą około połowie. Ułatwi to wyrównanie zaimportowanego obrazu rzutu kondygnacji względem obrazu satelitarnego.
+7. Kliknij przycisk **OK**, aby dokończyć materiał.
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 - To paint the rectangle:
+5 — Aby pomalować prostokąt:
 
-1. In the **Material Palette**, single-click on the **Floor Plan material** tile to paint with this material.
-2. Click on the rectangle you sketched to paint it. Press **Esc** to exit the paintbrush tool.
+1. Na **palecie Materiał** kliknij jeden raz obszar **Materiał Floor Plan**, aby pomalować tym materiałem.
+2. Kliknij naszkicowany prostokąt, aby go pomalować. Naciśnij klawisz **Esc**, aby zakończyć pracę z narzędziem pędzla.
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 - If the material appears inverted or backward, you may need to reverse the face. You can do so by right-clicking with the mouse to access the **Context Menu** and selecting the Reverse Face (FF) button.
+6 — Jeśli materiał jest wyświetlany jako odwrócony, może być konieczne odwrócenie powierzchni. Można to zrobić, klikając prawym przyciskiem myszy, aby uzyskać dostęp do **menu kontekstowego**, i wybierając przycisk Odwróć powierzchnię \(FF\).
 
 ![](../../.gitbook/assets/8.png)
 
-## **Align the Imported Image to the Satellite Image**
+## **Wyrównywanie zaimportowanego obrazu względem obrazu satelitarnego**
 
-1 – To move the image, first select the rectangle by double-clicking on it. Then click-and-drag the rectangle and move it until it overlaps the building in the Satellite image. We will come back to aligning it perfectly later, just try to get it close for now.
+1 — Aby przesunąć obraz, najpierw wybierz prostokąt, klikając go dwukrotnie. Następnie kliknij i przeciągnij prostokąt i przesuwaj go, aż nałoży się na budynek na obrazie satelitarnym. O idealne wyrównanie zadbamy później, na razie wystarczy wyrównanie mniej więcej odpowiednie.
 
 ![](../../.gitbook/assets/9.png)
 
-2 - To rotate the rectangle to align with the Satellite image:
+2 — Aby obrócić prostokąt w celu wyrównania go względem obrazu satelitarnego:
 
-1. Right-click on the rectangle to bring up the context menu. Choose **Rotate (Q).**
-2. The **Rotate Widget** appears in the middle of the rectangle. Select the widget by clicking once on the orange grip in the middle. Move the widget to the bottom left corner of the rectangle. It will snap to the corner. Click to place it.
-3. Type **9**, and the dimension box will appear. Click **OK** to rotate the rectangle counterclockwise by 9 degrees.
+1. Kliknij prawym przyciskiem myszy prostokąt, aby wywołać menu kontekstowe. Wybierz opcję **Obróć \(Q\).**
+2. W środku prostokąta zostanie wyświetlony **widżet obracania**. Wybierz widżet, klikając jeden raz pomarańczowy uchwyt w środku. Przesuń widżet do lewego dolnego narożnika prostokąta. Zostanie on przyciągnięty do narożnika. Kliknij, aby umieścić ten element.
+3. Wpisz **9**, a pojawi się pole wymiaru. Kliknij przycisk **OK**, aby obrócić prostokąt przeciwnie do ruchu wskazówek zegara o 9 stopni.
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Align the Grid to the Satellite Image**
+## **Wyrównywanie siatki względem obrazu satelitarnego**
 
-1 - Now, we will align the grid with the Satellite image and the floor plan. Right-click anywhere on the **ground plane** and choose **Set Axes (SZ)**.
+1 — Teraz wyrównamy siatkę względem obrazu satelitarnego i rzutu kondygnacji. Kliknij prawym przyciskiem myszy w dowolnym miejscu na **płaszczyźnie terenu** i wybierz opcję **Ustaw osie \(SZ\)**.
 
 ![](../../.gitbook/assets/12.png)
 
-2 – The **Set Axis** widget will appear. Move the axis to the bottom left corner of the rectangle, where it should snap. Click to place it.
+2 — Zostanie wyświetlony widżet **Ustaw oś**. Przesuń oś w lewy dolny narożnik prostokąta, do którego powinna zostać przyciągnięta. Kliknij, aby umieścić ten element.
 
 ![](../../.gitbook/assets/13.png)
 
-3 - Click on the grip at the end of the red axis. Move the grip to the bottom right corner of the rectangle so that the red axis aligns with the bottom edge of the plane. Click off in space to commit this change.
+3 — Kliknij uchwyt na końcu czerwonej osi. Przesuń uchwyt do prawego dolnego narożnika prostokąta, tak aby czerwona oś była wyrównana względem dolnej krawędzi płaszczyzny. Kliknij w innym miejscu poza tym obszarem, aby zatwierdzić tę zmianę.
 
 ![](../../.gitbook/assets/14.png)
 
-4 - To align the view with the new grid, click the Top View icon from the Navigation Bar to reset the scene.
+4 — Aby wyrównać widok względem nowej siatki, kliknij ikonę Widok z góry na pasku nawigacji, aby zresetować scenę.
 
 ![](../../.gitbook/assets/15.png)
 
-5 - To ensure the building in both images overlap, select the plan to move it once more until it overlaps the Satellite image correctly.
+5 — Aby budynek na obu obrazach się nakładał, wybierz rzut, aby ponownie go przesuwać, aż właściwie nałoży się na obraz satelitarny.
 
 ![](../../.gitbook/assets/16.png)
 
-6 - The satellite image, the rectangle, and the grid are now aligned, which will simplify 3D sketching.
+6 — Obraz satelitarny, prostokąt i siatka są teraz wyrównane, co uprości szkicowanie 3D.
+

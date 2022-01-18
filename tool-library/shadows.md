@@ -1,25 +1,28 @@
-# Sun + Shadows
+# Słońce i cienie
 
-Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
+Narzędzie **Słońce i cienie** umożliwia badanie wpływu trajektorii słońca na projekty.
 
-The first step for accurate shadow studies is to [**set your project location**](setting-location.md).
+Pierwsze, co należy zrobić, aby dokładnie przeanalizować cienie, to [**ustawienie położenia projektu**](setting-location.md).
 
-Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+Po ustawieniu położenia i opcjonalnym zaimportowaniu obrazu satelitarnego można modelować projekt, uwzględniając kontekst budynku, oraz elementy dające cienie, takie jak żaluzje i drzewa.
 
-## The Sun + Shadows Menu
+### Menu Słońce i cienie
 
-Turn shadows on in the Sun + Shadows menu at the top of the application (you can also enable shadows, as well as adjust shadow intensity, in [**Visual Styles**](../formit-introduction/tool-bars.md)):
+Włącz cienie w menu Słońce i cienie w górnej części aplikacji \(cienie możesz również włączyć i dostosować ich intensywność w obszarze [**Style wizualne**](../formit-introduction/tool-bars.md)\):
 
-![](../.gitbook/assets/sun-+-shadows.png)
+![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+W tym miejscu można dostosować porę dnia i dzień roku. Domyślnym wyświetlanym rokiem jest rok 2000 — bez obaw, nie ma to wpływu na dokładność badania zacienienia i słońca.
 
-## The Sun Editor
+### Edytor słońca
 
-You can also toggle the Sun Editor from the Sun + Shadows menu (or use shortcut DR), which provides a graphical display of the sun's location in space:
+Za pomocą menu Słońce i cienie można również przełączać Edytor słońca \(można to też robić przy użyciu DR\), który umożliwia wyświetlanie położenia słońca w przestrzeni:
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
-* Grab the circular grip to move the sun along its path and effectively adjust the time of day.
-* Adjust the time of year from the Sun + Shadows menu. Doing so will adjust the angle and orientation of the graphical sun path based on the time of year.
+* Edytor słońca przesuwa się wraz z kamerą, więc może być konieczne dopasowanie poziomu powiększenia i/lub orientacji kamery, aby ustawić widżet w położeniu, które ma sens w badanym projekcie.
+* Za pomocą okrągłego uchwytu przesuń słońce wzdłuż jego ścieżki i dopasuj odpowiednio porę dnia.
+* Dopasuj porę roku za pomocą menu Słońce i cienie. Spowoduje to dostosowanie kąta i orientacji graficznej trajektorii słońca na podstawie pory roku.
+
+
+

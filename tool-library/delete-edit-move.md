@@ -1,21 +1,22 @@
-# Delete, Edit, Move
+# Usuwanie, edytowanie, przesuwanie
 
-Remove an object, change its location, or modify its properties.
+Usuń obiekt, zmień jego położenie lub zmień jego właściwości.
 
-## Delete
+## Usuń
 
-First, make a geometry selection. Then, right-click to see the Context Menu where you can click on the **Delete Tool**. You can also press the delete key on your keyboard.
+Najpierw dokonaj wyboru geometrii. Następnie kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe, w którym możesz kliknąć **narzędzie Usuń**. Możesz również nacisnąć klawisz Delete na klawiaturze.
 
-![](<../.gitbook/assets/delete (1).png>)
+![](../.gitbook/assets/delete%20%281%29.png)
 
-## Edit
+## Edytuj
 
-When using many of the editing tools like Move, Array, Push-Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also simply start typing a numeric value to access the Edit Dimension dialog. Alternatively, you can hit Tab to bring up the Edit Dimension dialog, but Tab is no longer required with FormIt for Windows v17 and newer.
+Podczas korzystania z wielu narzędzi edycji, takich jak narzędzia przesunięcia, szyku, pchnięcia/ciągnięcia powierzchni i odsunięcia, jest wyświetlana niebieska ramka wymiarowa. Po zakończeniu operacji można kliknąć ten wymiar i wprowadzić określoną wartość. Można również po prostu rozpocząć wpisywanie wartości liczbowej, aby uzyskać dostęp do okna dialogowego Edycja wymiaru. Ewentualnie można kliknąć klawisz Tab, aby wywołać okno dialogowe Edytuj wymiar, ale naciśnięcie klawisza Tab nie jest już wymagane w przypadku korzystania z programu FormIt dla systemu Windows 17 ani w nowszych wersjach.
 
-![](<../.gitbook/assets/edit\_dimensions (1).png>)
+![](../.gitbook/assets/edit_dimensions.png)
 
-## Move Edges, Faces, or Objects
+## Przesuwanie krawędzi, powierzchni lub obiektów
 
-First select the edge, face, or object. The move tool is automatically activated. Hover to see snaps and inference points to specify where you want to start your move operation, click to start. Now hover your mouse to see snaps and inference points to the location you want to move the object. Click again to place the object.
+Najpierw wybierz krawędź, powierzchnię lub obiekt. Narzędzie przesuwania zostanie automatycznie aktywowane. Ustaw kursor, aby wyświetlić punkty przyciągania i wnioskowania oraz określić, gdzie chcesz rozpocząć operację przesuwania. Kliknij, aby rozpocząć. Teraz umieść wskaźnik myszy, aby wyświetlić punkty przyciągania i wnioskowania dla położenia, do którego chcesz przesunąć obiekt. Kliknij ponownie, aby umieścić obiekt.
 
-![](../.gitbook/assets/edit\_edge.png)
+![](../.gitbook/assets/edit_edge.png)
+

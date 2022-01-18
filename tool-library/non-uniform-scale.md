@@ -1,40 +1,41 @@
-# Non-Uniform Scale
+# Skalowanie niejednorodne
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**Skalowanie niejednorodne umożliwia rozciągnięcie obiektów w jednym, dwóch lub trzech wymiarach.**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+Wybierz dowolną kombinację krawędzi, powierzchni, brył, siatek lub grup i uzyskaj dostęp do polecenia skalowania niejednorodnego za pomocą skrótu klawiaturowego **NU** lub opcji menu kontekstowego:
 
-![](../.gitbook/assets/nu-scale\_context-menu.PNG)
+![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.**
+**Gdy ta funkcja jest aktywna, wyświetlonych jest szereg uchwytów, za pomocą których można skalować obiekt niejednorodnie w osiach wszystkich trzech wymiarów jednocześnie.**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+Dla zachowania przejrzystości rysowane są tylko uchwyty widoczne dla kamery. Aby dopasować uchwyt po drugiej stronie, obróć obiekt.
 
-![](../.gitbook/assets/nu-scale\_grips-1.PNG)
+![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+Po kliknięciu uchwytu zostanie wyświetlony szereg edytowalnych pól tekstowych, w których można dostosować skalę za pomocą wartości procentowej lub odległości:
 
-![](../.gitbook/assets/nu-scale\_grips-2.PNG)
+![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**Oto co można zrobić, gdy są widoczne pola wymiarów:**
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Rozpocznij wpisywanie liczby, aby automatycznie edytować pole wartości procentowej i określić współczynnik skali.
+   * Wprowadzenie wartości ujemnej spowoduje odwrócenie kierunku skali.
+* Możesz również kliknąć, aby tymczasowo ustawić położenie uchwytu, a następnie kliknąć pole zawierające wymiar, aby przeskalować według odległości.
+* Kliknij poza danym obszarem lub naciśnij klawisz ESC, aby zakończyć operację skalowania niejednorodnego.
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**Skalowanie za pomocą jednego z uchwytów krawędzi narożnika zachowuje zgodność ze współczynnikiem proporcji sąsiednich wymiarów:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Rozpocznij wpisywanie liczby, aby edytować wartość procentową.
+* Możesz również kliknąć, aby tymczasowo ustawić położenie uchwytu, a następnie kliknąć jedno z dwóch pól wymiarów, aby przeskalować według odległości.
+* Kliknij poza danym obszarem lub naciśnij klawisz ESC, aby zakończyć operację skalowania niejednorodnego.
 
-![](../.gitbook/assets/nu-scale\_grips-3.PNG)
+![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**Podobnie: skalowanie za pomocą jednego z uchwytów narożnika uwzględnia współczynnik proporcji całego kształtu i w efekcie powoduje skalowanie jednorodne:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Rozpocznij wpisywanie liczby, aby edytować wartość procentową.
+* Możesz również kliknąć, aby tymczasowo ustawić położenie uchwytu, a następnie kliknąć jedno z trzech pól wymiarów, aby przeskalować według odległości.
+* Kliknij poza danym obszarem lub naciśnij klawisz ESC, aby zakończyć operację skalowania niejednorodnego.
 
-![](../.gitbook/assets/nu-scale\_grips-4.PNG)
+![](../.gitbook/assets/nu-scale_grips-4.PNG)
+

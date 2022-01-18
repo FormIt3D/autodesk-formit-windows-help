@@ -1,41 +1,41 @@
-# Setting Up the Project
+# Konfigurowanie projektu
 
-## Starting Off
+## Rozpoczęcie
 
-When you start FormIt, you'll be in a 3D environment. Take some time to learn how to [navigate around the 3D space](navigating-the-scene.md), then start building a project ([here's how](../formit-primer/)), use the File menu to open an existing FormIt project, or import a variety of other file types.
+Po uruchomieniu programu FormIt włączone zostaje środowisko 3D. Poświęć trochę czasu, aby dowiedzieć się, jak [poruszać się po przestrzeni 3D](navigating-the-scene.md), a następnie rozpocząć tworzenie projektu \([oto jak](../formit-primer/)\), używać menu Plik w celu otwierania istniejącego projektu programu FormIt lub importować różne inne typy plików.
 
-FormIt allows opening, saving, and exporting to files both locally and on Autodesk Docs. [Using Autodesk Docs in FormIt](https://formit.autodesk.com/page/formit-autodesk-docs/) is a great way to share models in the cloud.
+Program FormIt umożliwia otwieranie, zapisywanie i eksportowanie plików lokalnie i w usłudze BIM 360 Docs. [Korzystanie z usługi BIM 360 Docs w programie FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) to doskonały sposób na udostępnianie modeli w chmurze.
 
-In addition to using the File menu, you can open any importable 3D model in FormIt by dragging and dropping the file into the canvas. To import a file into the current sketch, hold Ctrl while dragging and dropping.
+Jeśli chodzi o zapisywanie, program FormIt [automatycznie zapisuje pracę użytkownika](../tool-library/autosave.md) po rozpoczęciu wprowadzania zmian w modelu. Mimo to częste zapisywanie jest zalecane, ponieważ powoduje ono czyszczenie pliku kopii zapasowej i pozwala zaoszczędzić miejsce.
 
-FormIt will [AutoSave your work](../tool-library/autosave.md) once you start making changes to the model. Saving often is still recommended because it will clean up the backup file and save space.
+## Ustawienia aplikacji
 
-## App Settings
+* Jednostki:
 
-*   Units:
+   ![](../.gitbook/assets/formit_units.png)
 
-    ![](../.gitbook/assets/formit\_units.png)
+   * Ustawienie tej opcji wpływa na jednostki we wszystkich narzędziach i w całej zaimportowanej geometrii, na przykład w dodatku Dynamo i plikach bez jednostek, takich jak STL.
 
-    * Setting this will affect the units in all tools and imported geometry, like Dynamo and unitless file types like STL.
-* Snap to Grid:
-  * Forces tools with placement points to snap to the grid intersection points. Note that you can turn the grid off in [Visual Styles](../formit-primer/part-i/visual-settings.md); if the grid is off, snapping to it will be disabled as well.
-* Display Editable Dimensions:
-  * Choose whether to keep the dimension boxes visible (we recommend keeping this on if you want to draw with accuracy).
-* Hide Context/Show Edited Group Only:
-  * This affects whether editing a Group will show its surroundings or not. You can easily change this setting using the shortcut (H). Toggling H while modeling in and out of Groups allows you to view Groups both in isolation and in context as needed.
-* Preselection Highlight:
-  * By default, FormIt will "preselect" objects when you hover over them. This is useful to ensure the object you want to select is the object you get, but can be distracting when presenting a design. Use this option or the shortcut to quickly toggle back and forth between showing and hiding preselection highlight as necessary. Note that this option needs to be enabled to use features like [Smart Selection](https://www.youtube.com/watch?v=akLeB1FADt4).&#x20;
+* Przyciągaj do siatki:
+   * W przypadku narzędzi z punktami umieszczenia wymusza przyciąganie do punktów przecięcia siatki. Należy pamiętać, że siatkę można wyłączyć w oknie [Style wizualne](../formit-primer/part-i/visual-settings.md). Jeśli siatka jest wyłączona, przyciąganie do niej również zostanie wyłączone.
+* Wyświetl wymiary edytowalne:
+   * Określ, czy pola wymiarów mają być widoczne \(zalecane jest pozostawienie ich włączonych, jeśli chcesz rysować z dokładnością\).
+* Ukryj kontekst/Pokaż tylko edytowaną grupę:
+   * Ma to wpływ na to, czy podczas edycji grupy będzie wyświetlane jej otoczenie. To ustawienie można łatwo zmienić za pomocą skrótu \(H\). Przełączanie za pomocą skrótu H podczas modelowania w grupach i poza nimi umożliwia wyświetlanie grup w izolacji i w kontekście — zgodnie z potrzebami.
+* Wyróżnienie wstępnego wyboru:
+   * Domyślnie w programie FormIt po umieszczeniu na nich wskaźnika myszy obiekty będą „wstępnie wybierane”. Jest to przydatne, ponieważ pozwala upewnić się, że wybrany jest właściwy obiekt, ale może rozpraszać podczas prezentacji projektu. Użyj tej opcji lub skrótu, aby szybko przełączać się między wyświetlaniem i ukryciem wyróżnienia wstępnego wyboru stosownie do potrzeb. Należy pamiętać, że ta opcja musi być włączona, aby można było korzystać z funkcji takich jak [inteligentny wybór](https://www.youtube.com/watch?v=akLeB1FADt4).
 
-## Touch Mode
+## Tryb dotykowy
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-If your computer has a touchscreen, use Touch Mode to easily navigate your model and create geometry. If you're using FormIt for iOS too, this will feel familiar.
+Jeśli komputer ma ekran dotykowy, za pomocą trybu dotykowego możesz łatwo nawigować po modelu i tworzyć geometrię. Jeśli używasz też aplikacji FormIt dla systemu iOS, ten tryb będzie wyglądać znajomo.
 
-When Touch Mode is on, FormIt's interaction becomes more like FormIt on iPad, calibrating navigation and modification tools to work with a touch interface. Because of this, using FormIt with a mouse and keyboard while Touch Mode is on is not recommended.
+Przy włączonym trybie dotykowym interakcja z programem FormIt przypomina bardziej tę w aplikacji FormIt na iPadzie. Narzędzia do nawigacji i modyfikacji są skalibrowane do pracy z interfejsem dotykowym. Z tego powodu nie zaleca się używania programu FormIt z myszą i klawiaturą, gdy włączony jest tryb dotykowy.
 
-When Touch Mode is on, you'll see it highlighted in the toolbar, as well as a "Touch Mode" banner in the lower-left corner of the screen.
+Gdy włączony jest tryb dotykowy, zostanie to wyróżnione na pasku narzędzi, jak również wskazane za pomocą banera „Tryb dotykowy” w lewym dolnym rogu ekranu.
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 
 ![](../.gitbook/assets/20190618-touch-mode-banner.png)
+

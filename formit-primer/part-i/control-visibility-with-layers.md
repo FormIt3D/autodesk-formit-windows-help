@@ -1,53 +1,54 @@
-# 1.6 - Control Visibility with Layers
+# 1.6 — Sterowanie widocznością za pomocą warstw
 
-_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
+_Podobnie jak w programach AutoCAD i Photoshop, warstwy w programie FormIt umożliwiają zarządzanie widocznością obiektów w modelu. W tym rozdziale utworzymy warstwę, aby zapisać i ukryć bryłę budynku na potrzeby przyszłej analizy._
 
-_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik_ _**1.6 — Control Visibility with Layers.axm**_ _z folderu_ _**FormIt Primer Part 1 Datasets**._
 
-## **Create Layers**
+## **Tworzenie warstw**
 
-1 - To create the new layers:
+1 — Aby utworzyć nowe warstwy:
 
-1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
-2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
+1. Przejdź do **palety Warstwy** i kliknij znak **+** trzy razy, aby utworzyć trzy warstwy.
+2. Kliknij dwukrotnie nazwy warstw, aby zmienić ich nazwy na **Massing**, **Main Building Floor** oraz **Plan Image.**
 
-![](<../../.gitbook/assets/0 (20).png>)
+![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
+_**Uwaga:**_ _Możesz kliknąć nazwę warstwy i przeciągnąć ją w górę lub w dół, aby zmienić kolejność warstw._
 
-2 - To assign the **Massing - Main Building** group to the **Massing** layer:
+2 — Aby przypisać grupę **Massing - Main Building** do warstwy **Massing**:
 
-1. In the canvas, select the **Massing - Main Building** group.
-2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
+1. W obszarze rysunku wybierz grupę **Massing - Main Building**.
+2. Na **palecie Warstwy** wybierz warstwę **Massing** z menu rozwijanego „**Wybór włączony:”**. Podobnie przypisz grupę **Plan Image** do warstwy **Plan Image**.
 
-![](<../../.gitbook/assets/1 (13) (1).png>)
+![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicate Group**
+## **Powielanie grup**
 
-_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+_Teraz zaczniemy bardziej szczegółowo modelować budynek. Pierwszym krokiem jest utworzenie geometrii kondygnacji na podstawie już gotowego modelu bryłowego budynku._
 
-1 - Select the **Massing - Main Building** group again. Press **Ctrl + C (Copy)** to copy, and then **Ctrl + Shift + V (Paste in Place)** to paste the mass in the same place.
+1 — Ponownie wybierz grupę **Massing - Main Building**. Naciśnij kombinację klawiszy **Ctrl+C \(Kopiuj\)**, aby skopiować bryłę, a następnie **Ctrl+Shift+V \(Wklej lokalnie\)**, aby wkleić bryłę w tym samym miejscu.
 
-2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique (MU)** option.
+2 — Aby odłączyć nową geometrię grupy od oryginalnej grupy: kliknij prawym przyciskiem myszy, aby uzyskać dostęp do **menu kontekstowego**, i wybierz opcję **Ustaw jako niepowtarzalne \(MU\)**.
 
-![](<../../.gitbook/assets/2 (18).png>)
+![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+_**Uwaga**: Nowa grupa nie jest już skojarzona z oryginalną. Zmiany w nowej grupie nie spowodują zmian oryginalnej grupy._
 
-## **Create the Floor Geometry**
+## **Tworzenie geometrii kondygnacji**
 
-1 - Reassign group’s layer:
+1 — Ponownie przypisz warstwę grupy:
 
-1. Single-click to select either of the **Massing – Main Building** groups.
-2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
-3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+1. Kliknij jednokrotnie, aby wybrać jedną z grup **Massing – Main Building**.
+2. Umieść grupę w warstwie **Main Building Floor**, korzystając z listy rozwijanej **Wybór włączony:** na **palecie Warstwy**.
+3. Usuń zaznaczenie warstwy **Massing**, aby ukryć jej geometrię i zabezpieczyć ją przed przypadkowymi zmianami.
 
-![](<../../.gitbook/assets/3 (18) (1).png>)
+![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+2 — Kliknij dwukrotnie widoczną grupę **Massing – Main Building**, aby ją edytować. Zmień nazwę grupy na **Floor** na **palecie Właściwości**.
 
-![](<../../.gitbook/assets/4 (12) (1).png>)
+![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+3 — **Kliknij jednokrotnie** **górną powierzchnię** geometrii, aby ją wybrać. Kliknij ponownie i rozpocznij przeciąganie powierzchni w dół. Podczas przeciągania powierzchni w dół wpisz **11’-2"**, a zostanie wyświetlone **okno dialogowe Wymiar**. Po wprowadzeniu wartości kliknij przycisk **OK**. Wynikowa podłoga powinna mieć grubość 1'. Kliknij dwukrotnie poza tym obszarem, aby opuścić tę grupę.
 
-![](<../../.gitbook/assets/5 (10).png>)
+![](../../.gitbook/assets/5%20%2810%29.png)
+

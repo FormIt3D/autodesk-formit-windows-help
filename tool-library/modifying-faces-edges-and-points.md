@@ -1,33 +1,33 @@
-# Modifying Faces, Edges, and Points
+# Modyfikowanie powierzchni, krawędzi i punktów
 
-Things get really interesting when you start to push and pull the objects you have placed. Single click will allow you to select a single vertex, edge, face, or Mesh.
+Wypychanie i ciągnięcie umieszczonych obiektów może dawać bardzo interesujące wyniki. Kliknięcie jednokrotne umożliwia wybranie pojedynczego wierzchołka, krawędzi, powierzchni lub siatki.
 
-## Modifying Faces
+## Modyfikowanie powierzchni
 
-1. Single-click a face
-2. FormIt automatically puts you in the Drag Face or Extrude tool.&#x20;
-3. Click somewhere to identify a starting point for the operation.&#x20;
-4. After you click, you can snap to other objects to align this face.
-5.  As with move, you can click the **temporary dimension** or simply start typing a value to define the amount of movement.
+1. Kliknij jednokrotnie powierzchnię.
+2. Program FormIt automatycznie umieści Cię w narzędziu Przeciągnij powierzchnię lub Wyciągnij.
+3. Kliknij w dowolnym miejscu, aby określić punkt początkowy operacji.
+4. Po kliknięciu możesz przyciągać do innych obiektów, aby wyrównać tę powierzchnię.
+5. Podobnie jak w przypadku przesunięcia, możesz kliknąć **wymiar tymczasowy** lub po prostu rozpocząć wpisywanie wartości, aby zdefiniować wielkość przesunięcia.
 
-    ![](../.gitbook/assets/modify.png)
+![](../.gitbook/assets/modify.png)
 
-You can also delete a face by using the **Delete** key, or by right-clicking and invoking Delete from the context menu.
+Można również usunąć powierzchnię, używając klawisza **Delete** lub klikając prawym przyciskiem myszy i wywołując polecenie Usuń z menu kontekstowego.
 
-You can also delete a face by using **Right click > X button**.
+Powierzchnię można również usunąć, **klikając prawym przyciskiem myszy i wybierając przycisk X**.
 
-## Modifying Edges
+## Modyfikowanie krawędzi
 
-1. Single-click an edge
-2. FormIt automatically puts you in the Move tool
-3. Position your mouse over a point in space that you want to start the Move operation from.
-4. Click, and now you can drag the edge to modify the shape.
+1. Kliknij jednokrotnie krawędź.
+2. Program FormIt automatycznie umieści Cię w narzędziu Przesuń.
+3. Umieść wskaźnik myszy na punkcie w przestrzeni, od którego chcesz rozpocząć operację przesuwania.
+4. Kliknij, a następnie przeciągnij krawędź, aby zmienić kształt.
 
 ![](../.gitbook/assets/modify2.png)
 
-## Modifying Points
+## Modyfikowanie punktów
 
-1. Single-click one of the corners of one of the cubes.
-2. Similar to an edge, you drag the point along one of the axes to redefine the shape. [NextNon-Uniform Scale](https://app.gitbook.com/@formit3d/s/autodesk-formit-360-windows-help/\~/drafts/-MQs8s\_UgCysrQBxlywu/tool-library/non-uniform-scale)
+1. Kliknij jednokrotnie narożnik jednego z sześcianów.
+2. Podobnie jak w przypadku krawędzi, przeciągnij punkt wzdłuż jednej z osi, aby ponownie zdefiniować kształt. [Następne: Skalowanie niejednorodne](non-uniform-scale.md)
 
-![](<../.gitbook/assets/modify3 (1).png>)
+![](<../.gitbook/assets/modify3 (1) (1).png>)

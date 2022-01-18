@@ -1,15 +1,16 @@
-# Work Planes
+# Płaszczyzny robocze
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+W przypadku zmiany osi globalnych w szkicu głównym lub osi lokalnych grupy z osiami X i Y zostaje skojarzona płaszczyzna robocza. **Płaszczyzna robocza** jest wirtualną powierzchnią 2-wymiarową używaną jako płaszczyzna domyślna szkicowania. Ta płaszczyzna robocza rozciąga się w nieskończoność i zapewnia powierzchnię do szkicowania bez przyciągania do elementów znajdujących się za nią.
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+Aby dowiedzieć się, jak edytować płaszczyznę terenu, zobacz temat [ Style wizualne.](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## Zmienianie płaszczyzn roboczych
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+Obróć [osie globalne](world-axes.md) do płaszczyzny innego obiektu w szkicu. Spowoduje to wyrównanie aktywnej płaszczyzny roboczej odpowiednio do tej powierzchni. Teraz można szkicować, umieszczać elementy i modyfikować elementy względem tej nowej płaszczyzny XY, a nie domyślnej płaszczyzny terenu. Można obracać widok wokół siatki i płaszczyzn roboczych — za nimi lub pod nimi — aby przyciągać do elementów znajdujących się za nimi i korzystać z wnioskowania względem tych elementów.
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style > Environment > **Display Grid (DG).**
+Widoczność linii siatki można włączać i wyłączać, aby korzystać ze szkicowania opartego na płaszczyźnie roboczej. Ustawieniem tym można sterować w obszarze Styl wizualny &gt; Środowisko &gt; **Wyświetl siatkę \(DG\).**
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings > **Snap to Grid (SG).**
+Można również określić, czy podczas rysowania ma być włączone przyciąganie do siatki. Włącz lub wyłącz to ustawienie w obszarze Ustawienia &gt; **Przyciągaj do siatki \(SG\).**
 
 ![](../.gitbook/assets/work-plane.gif)
+

@@ -1,13 +1,14 @@
-# Measure
+# Jednostka
 
-The **Measure** tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+Narzędzie **Zmierz** znajduje się na [pasku narzędzi](../formit-introduction/tool-bars.md).
 
-You can use the **Measure** tool to measure existing geometry in a model. You can also use the **Measure** tool to assign dimensions to geometry.
+Za pomocą narzędzia **Zmierz** można zmierzyć istniejącą geometrię w modelu. Za pomocą narzędzia **Zmierz** można również przypisać wymiary do geometrii.
 
-1. Select the **Measure** tool.
-2. Select two points to measure the distance between them.
-3. Select a face or edge you want to adjust, click the displayed value and add a new value in the dialog box that displays.
+1. Wybierz narzędzie **Zmierz**.
+2. Wybierz dwa punkty, aby zmierzyć odległość między nimi.
+3. Wybierz powierzchnię lub krawędź, którą chcesz dostosować, kliknij wyświetloną wartość i dodaj nową wartość w wyświetlonym oknie dialogowym.
 
-![](<../.gitbook/assets/measure (1).png>)\
-![](<../.gitbook/assets/measure2 (1).png>)\
+![](../.gitbook/assets/measure%20%281%29.png)  
+![](../.gitbook/assets/measure2.png)  
 ![](../.gitbook/assets/measure3.png)
+

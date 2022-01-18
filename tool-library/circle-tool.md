@@ -1,13 +1,14 @@
-# Circle
+# Okrąg
 
-Use the Circle tool to draw a circle in space or on another object.
+Narzędzie Okrąg służy do rysowania okręgu w przestrzeni lub na innym obiekcie.
 
-Keyboard: C
+Klawiatura: C
 
-![](../.gitbook/assets/circle\_toolbar.png)
+![](../.gitbook/assets/circle_toolbar.png)
 
-To draw a circle, first, choose the center point and then specify the circle radius. Next, the circle automatically becomes a face.
+Aby narysować okrąg, najpierw wybierz punkt środkowy, a następnie określ promień okręgu. Okrąg automatycznie staje się powierzchnią.
 
 ![](../.gitbook/assets/circle1.png)
 
 ![](../.gitbook/assets/circle2.png)
+

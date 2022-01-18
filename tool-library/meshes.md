@@ -1,89 +1,90 @@
-# Meshes
+# Siatki
 
-Starting in v17.0, FormIt offers a new type of geometry: Meshes.
+Począwszy od wersji 17.0, program FormIt oferuje nowy typ geometrii: Siatki.
 
-Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance.
+Siatki to lekkie reprezentacje standardowych obiektów programu FormIt, które doskonale zwiększają wydajność geometrii wieloboków, takich jak meble lub elementy otoczenia 3D, na przykład ludzie, drzewa, samochody i oznakowanie. Siatki są również przydatne w przypadku złożonej geometrii DWG, która bez nich mogłaby mieć wpływ na wydajność programu FormIt.
 
-Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
+Obiekty można przekształcać w siatki, a siatki można przekształcać z powrotem w obiekty bez utraty danych. Niektóre typy plików są automatycznie importowane jako siatki, na przykład OBJ, STL i DWG. Poniżej znajdziesz więcej informacji na temat przekształcania typów oraz innych korzyści i ograniczeń dotyczących siatek.
 
-## Converting Objects to Meshes
+### Przekształcanie obiektów w siatki
 
-Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
+Dowolną kombinację wierzchołków, krawędzi, powierzchni lub brył można przekształcić w siatkę.
 
-Simply select Objects, and either use shortcut OM (Objects to Meshes) or right-click and select Objects to Meshes in the Context Menu:
+Wystarczy wybrać obiekty i użyć skrótu OM \(Obiekty na siatki\) lub kliknąć prawym przyciskiem myszy i wybrać opcję Obiekty na siatki w menu kontekstowym:
 
-![](../.gitbook/assets/context-menu\_object-to-mesh.PNG)
+![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Once the Objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Po przekształceniu obiektów w siatki na górze ekranu zostanie wyświetlony komunikat potwierdzający:
 
-![](../.gitbook/assets/success\_object-to-mesh.PNG)
+![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**When converting Objects to Meshes:**
+**Podczas przekształcania obiektów w siatki**
 
-* Edges that were smoothed on the Objects will remain smoothed in the resulting Meshes.
-* Material orientations on the Objects will remain unchanged in the resulting Meshes.
-* A Mesh is created for every material applied. For example, if you convert a single cube painted 6 different colors, you'll get 6 different Meshes.
-  * Converting back to an Object will re-seal the individual meshes back into a solid body.
-* Selecting a solid body will convert and replace the entire body with a Mesh, but selecting individual edges or vertices owned by a solid will create a new Mesh on top of the existing geometry, without affecting the original body.
-* Converting a set of edges or vertices will create a single Linemesh (a mesh made of edges) or a single Pointmesh (a mesh made of points), which means you won't be able to select individual edges or vertices once they've been combined into a single Mesh. Convert them back to Objects if you want to adjust the position of a single element.
+* Krawędzie, które zostały wygładzone na obiektach, pozostaną wygładzone w powstałych siatkach.
+* Orientacje materiałów na obiektach pozostaną niezmienione w powstałych siatkach.
+* Dla każdego zastosowanego materiału jest tworzona siatka. Na przykład w przypadku przekształcania pojedynczego sześcianu pomalowanego 6 różnymi kolorami otrzymamy 6 różnych siatek.
+   * Przekształcenie z powrotem w obiekt spowoduje ponowną zamianę poszczególnych siatek w bryłę.
+* Wybranie bryły spowoduje przekształcenie i zastąpienie całej bryły siatką, ale wybranie pojedynczych krawędzi lub wierzchołków należących do bryły spowoduje utworzenie nowej siatki na istniejącej geometrii bez wpływu na oryginalną bryłę.
+* Przekształcenie zestawu krawędzi lub wierzchołków spowoduje utworzenie pojedynczej siatki liniowej \(siatki złożonej z krawędzi\) lub pojedynczej siatki punktów \(siatki złożonej z punktów\), co oznacza, że nie będzie można wybrać poszczególnych krawędzi lub wierzchołków po ich połączeniu w jedną siatkę. Aby dopasować położenie pojedynczego elementu, należy przekształcić je z powrotem w obiekty.
 
-**Converting Grouped geometry to Meshes:**
+**Przekształcanie zgrupowanej geometrii w siatki:**
 
-* Meshes become even more powerful when you can convert an entire Group and all of its nested Groups into Meshes.
-* Groups and their nested contents can be converted to Groups by using a plugin:
-  * Look for the Plugin Manager icon on the right side of the application:
-    * ![](../.gitbook/assets/plugin-manager\_icon.PNG)&#x20;
-  * Find the "Mesh + Unmesh All" plugin, and click the checkbox to install it:
-    * ![](../.gitbook/assets/plugin-manager\_mesh-unmesh-all.png)&#x20;
-  * The Mesh + Unmesh All plugin will load. Simply select a Group containing Objects you want to convert to Meshes, and click Mesh All.
-    * ![](../.gitbook/assets/mesh-unmesh-all-plugin.png)&#x20;
-  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation:
+* Siatki dają jeszcze więcej możliwości po przekształceniu całej grupy i wszystkich jej zagnieżdżonych grup.
+* Grupy i ich zagnieżdżone elementy można przekształcić w siatki za pomocą wtyczki:
+   * Znajdź ikonę narzędzia Plugin Manager po prawej stronie aplikacji:
+      * ![](../.gitbook/assets/plugin-manager_icon.PNG)
+   * Znajdź wtyczkę „Mesh + Unmesh All” i kliknij pole wyboru, aby ją zainstalować:
+      * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
+   * Zostanie wczytana wtyczka Mesh + Unmesh All. Wystarczy wybrać grupę zawierającą obiekty, które mają zostać przekształcone w siatki, a następnie kliknąć opcję Mesh All.
+      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
+   * Podczas przekształcania obiektów zagnieżdżonych lub siatek za pomocą tej wtyczki na górze ekranu będzie wyświetlany komunikat dotyczący aktualizacji z informacjami o liczbie grup i wystąpień grup, na które miała wpływ operacja:
 
-![](../.gitbook/assets/success\_mesh-all.png)
+![](../.gitbook/assets/success_mesh-all.PNG)
 
-## Interacting With Meshes
+### Interakcja z siatkami
 
-**Because of their lightweight nature, Meshes have certain limitations and behaviors:**
+**Ze względu na ich lekką naturę siatki mają określone ograniczenia i zachowania:**
 
-* You won't be able to edit the individual faces, edges, or vertices of a Mesh.
-  * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces (see above).
-* Snapping to Meshes is limited to the faces and vertices of Meshes. For performance, snapping and inferencing will not work with edges of Meshes.
-  * However, DWG files converted to Meshes (a different type of mesh known as a Linemesh) will retain the ability to snap to and inference to Mesh edges.
-* Meshes cannot have Levels applied to them.
-* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not.&#x20;
-  * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
-* Meshes cannot be used in advanced modeling operations, like Solid Join/Cut, 3D Shell, 3D Offset, Fillet, Loft, Sweep, or Cover.
+* Nie można edytować poszczególnych powierzchni, krawędzi ani wierzchołków siatki.
+   * Można jednak ponownie malować siatki i przesuwać poszczególne siatki utworzone w wyniku zastosowania do powierzchni innych materiałów \(patrz wyżej\).
+* Przyciąganie do siatek jest ograniczone do ich powierzchni i wierzchołków. Ze względu na wydajność przyciąganie i wnioskowanie nie działa z krawędziami siatek.
+   * Jednak pliki DWG przekształcone w siatki \(inny typ siatki zwany siatką liniową\) zachowują możliwość przyciągania i wnioskowania w przypadku krawędzi siatki.
+* Do siatek nie można stosować poziomów.
+* Siatki nie zgłaszają problemów ze szczelnością ani tylnymi powierzchniami. Aby sprawdzić, czy siatki są szczelne, należy przekształcić je z powrotem w obiekty.
+   * Obiekty, które były szczelne przed przekształceniem w siatkę, po przekształceniu z powrotem w obiekt pozostają szczelne.
+* Siatek nie można używać w zaawansowanych operacjach modelowania, takich jak łączenie/docinanie brył, skorupa 3D, odsunięcie 3D, zaokrąglenie, wyciągnięcie złożone, przeciągnięcie lub zakrywanie.
 
-Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
+W przeciwnym razie siatki są wyświetlane i zachowują się tak samo jak wszystkie pozostałe obiekty programu FormIt: umieszczone w grupach, przypisane do warstw, wizualizowane w scenach, używane do analizy itp.
 
-**You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:**
+**Jeśli na etykietce narzędzia jest wyświetlana informacja „Na siatce” lub w panelu Właściwości jest wyświetlana informacja o siatce, wiesz, że masz do czynienia z siatką:**
 
-![](../.gitbook/assets/snap\_on-mesh.png)
+![](../.gitbook/assets/snap_on-mesh.PNG)
 
-![](../.gitbook/assets/properties-panel\_mesh.png)
+![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Some file types are automatically imported as Meshes to improve performance:**
+**Niektóre typy plików są automatycznie importowane jako siatki w celu zwiększenia wydajności:**
 
-* STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
-* DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
+* Pliki STL i OBJ, które mogą zawierać gęstą geometrię, na przykład chmury punktów z innych aplikacji, są automatycznie importowane jako siatki.
+* Pliki DWG, które mogą zawierać miliony małych segmentów krawędzi na krzywych o wysokiej jakości, są automatycznie importowane jako siatki.
 
-## Converting Meshes Back to Objects
+### Przekształcanie siatek z powrotem w obiekty
 
-Simply select Meshes, and either use shortcut MO (Meshes to Objects) or right-click and select Meshes to Objects in the Context Menu:
+Wystarczy wybrać siatki, a następnie użyć skrótu MO \(Siatki na obiekty\) lub kliknąć prawym przyciskiem myszy i wybrać z menu kontekstowego opcję Siatki na obiekty:
 
-![](../.gitbook/assets/context-menu\_mesh-to-object.PNG)
+![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Po przekształceniu obiektów w siatki na górze ekranu zostanie wyświetlony komunikat potwierdzający:
 
-![](../.gitbook/assets/success\_mesh-to-object.PNG)
+![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**When converting Meshes back to Objects:**
+**Podczas przekształcania siatek z powrotem w obiekty:**
 
-* Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
-* Converting a series of edges (for example from a DWG file) or a series of vertices (for example from a pointcloud) to a Mesh and back will automatically put the unmeshed Objects into a Group.
-  * This prevents the new edges or vertices from merging with other geometry which could have adverse effects and impact performance.
-  * Simply can Ungroup the resulting Group to release the edges and/or vertices.
+* Wszystkie obiekty, które przed przekształceniem w siatkę były szczelne lub miały postać bryły, podczas przekształcania z powrotem w obiekt zostaną ponownie połączone w szczelną bryłę.
+* Przekształcenie serii krawędzi \(na przykład z pliku DWG\) lub serii wierzchołków \(na przykład z chmury punktów\) w siatkę i z powrotem spowoduje automatyczne umieszczenie obiektów bez siatki w grupie.
+   * Zapobiega to scalaniu nowych krawędzi lub wierzchołków z inną geometrią, co mogłoby mieć negatywny wpływ na wydajność.
+   * Aby zwolnić krawędzie i/lub wierzchołki, można po prostu usunąć grupowanie powstałej grupy.
 
-**Converting Grouped Meshes back to Objects:**
+**Przekształcanie zgrupowanych siatek z powrotem w obiekty:**
 
-* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects.
+* Aby użyć wtyczki Mesh + Unmesh All w celu przekształcenia grup i ich zagnieżdżonych siatek z powrotem w obiekty, zapoznaj się z powyższymi instrukcjami.
+

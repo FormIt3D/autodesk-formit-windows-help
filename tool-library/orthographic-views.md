@@ -1,30 +1,26 @@
-# Orthographic Views
+# Widoki prostopadłe
 
-View your model in various orthographic views, including top, sides, and bottom.
+**Wyświetl model w różnych widokach prostopadłych, w tym w widokach z góry, z boków i z dołu.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-You'll find orthographic views in the View menu, by clicking the Orthographic icon in the floating navigation toolbar, or by using the shortcut V O. Click the Top View icon in the floating navigation toolbar to access several view options.
+**Dostęp do widoków prostopadłych można uzyskać, klikając górną ikonę na ruchomym pasku narzędzi nawigacji:**
 
-![](../.gitbook/assets/floating-nav\_flyout-v2.png)
+![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Some helpful hints when working with orthographic views:**
+**Zestaw przydatnych wskazówek podczas pracy z widokami prostokątnymi:**
 
-* When switching between orthographic views, FormIt will maintain the zoom level for consistency.
-* When switching elevation views (front/right/left/back), FormIt will maintain the ground height for consistency.
-* You can hold Shift while Panning in an orthographic view to lock the Pan movement to the horizontal or vertical axis.
-*   Orthographic view directions are based on the world axes. You can realign the axes, which will change the orientations of all the orthographic views:
+* Podczas przełączania się między widokami prostopadłymi program FormIt zachowuje poziom powiększenia w celu zachowania spójności.
+* Podczas przełączania się między widokami elewacji (przód/prawo/lewo/tył) program FormIt zachowuje wysokość podłoża w celu zachowania spójności.
+* Aby zablokować przesuwanie widoku w kierunku osi poziomej lub pionowej, podczas przesuwania w widoku prostopadłym można przytrzymać naciśnięty klawisz Shift.
+* Kierunki widoku prostopadłego są oparte na osiach globalnych. Można ponownie wyrównać osie, co spowoduje zmianę orientacji wszystkich widoków prostopadłych:
+   * Użyj skrótu SZ lub kliknij prawym przyciskiem myszy w pustej przestrzeni (poza wszelkimi geometriami):
+   * ![](../.gitbook/assets/set-axes\_context.PNG)
+   * Ustaw początek i ustaw uchwyt na czerwonych osiach, aby wyrównać go z konkretnym kierunkiem
+   * ![](../.gitbook/assets/set-axes.PNG)
 
-    * Use shortcut SZ, or right-click in space (not over any geometry):
+**Widoki prostopadłe działają w połączeniu z innymi funkcjami programu FormIt:**
 
-    ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
-
-    * Set the origin, and set the grip on the red axes to align it with a meaningful direction
-
-    ![](../.gitbook/assets/set-axes.PNG)&#x20;
-
-**Orthographic views work in conjunction with other FormIt features:**
-
-* Save elevation views as Scenes so you can return to them later.
-* Control visibility of geometry that might get in the way of elevation views using Layers.
-* Add Section Planes to create section-elevations.
+* Zapisuj widoki elewacji jako sceny, aby móc do nich później wracać.
+* Steruj widocznością geometrii, która może przeszkadzać w widokach elewacji, za pomocą warstw.
+* Dodawaj płaszczyzny przekroju, aby tworzyć elewacje-przekroje.

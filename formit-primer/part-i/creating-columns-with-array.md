@@ -1,146 +1,146 @@
-# 1.8 - Create Columns with Array
+# 1.8 — Tworzenie słupów przy użyciu narzędzia Szyk
 
-_In this exercise, we will sketch a detailed element - an I-beam column. Then we will use the Array tool to quickly create multiple equally-spaced copies._
+_W tym ćwiczeniu naszkicujemy element szczegółowy — słup o kształcie dwuteownika. Następnie za pomocą narzędzia Szyk szybko utworzymy wiele kopii w równych odstępach._
 
-_If you did not complete the last section, download and open the_ _**1.8 – Create Columns with Array.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik_ _**1.8 — Create Columns with Array.axm**_ _z folderu_ _**FormIt Primer Part 1 Datasets**._
 
-## **Sketch the Column Profile**
+## **Szkicowanie profilu słupa**
 
-1 - To facilitate the drafting process:
+1 — Dla ułatwienia procesu kreślenia:
 
-1. Go to the **Top View (VT)**.
-2. Switch the view mode to **Orthographic (VO)**.
-3. Turn off the **Main Building** **Floor** and **Roof** layers. This step will prevent the new geometry from snaping to the existing geometry on those layers.
-4. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
-5. Turn off the **Snap to Grid (SG)** feature (if you have it on). This will help with drawing the detail lines.
+1. Przejdź do **Widoku z góry \(VT\)**.
+2. Przełącz tryb widoku na **Prostopadły \(VO\)**.
+3. Wyłącz warstwy **Budynek główny**, **Podłoga** i **Dach**. Dzięki temu nowa geometria nie będzie przyciągana do istniejącej geometrii na tych warstwach.
+4. Powiększ lewy górny narożnik **zaimportowanego obrazu rzutu podłogi**, aby widzieć szczegóły słupa.
+5. Wyłącz **Przyciąganie do siatki \(SG\)** \(jeśli jest włączone\). To pomoże w rysowaniu linii szczegółów.
 
-![](<../../.gitbook/assets/0 (13) (1).png>)
+![](../../.gitbook/assets/0%20%2813%29.png)
 
-_To draw the column, we will first draw one half, then mirror it to quickly create the other symmetrical half._
+_Aby narysować słup, najpierw narysujemy połowę, a następnie wykonamy odbicie lustrzane, aby szybko utworzyć drugą, symetryczną połowę._
 
-2 - To create the first half of the I-beam, use the **Line tool (L)** to make the following sketch using the specified dimensions. Don’t worry about the exact position of the column on the plan image just yet.
+2 — Aby utworzyć pierwszą połowę dwuteownika, użyj **narzędzia Linia \(L\)** i wykonaj następujący szkic o podanych wymiarach. Na tym etapie nie musisz się martwić dokładnym położeniem słupa na rzucie.
 
-![](<../../.gitbook/assets/1 (18).png>)
+![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - To mirror the shape you have just drawn:
+3 — Utwórz odbicie lustrzane narysowanego kształtu:
 
-1. Double-click to select all the faces and edges of the drawn geometry.
-2. Right-click and select the **Mirror Tool (MI)**.
-3. Click on the center orange grip of the **Mirror Widget** and place it at the geometry’s bottom left corner.
-4. Use the bottom arrow from the double-sided arrow button in the Widget to rotate the mirroring-axis -90 degrees (clockwise).
-5. Single-click off in space, or press **Esc** to finish the mirroring process. The result should look like an I-beam profile with a line down the middle. Press **Esc** again to clear the selection.
+1. Kliknij dwukrotnie, aby wybrać wszystkie powierzchnie i krawędzie narysowanej geometrii.
+2. Kliknij prawym przyciskiem myszy i wybierz **narzędzie Odbicie lustrzane \(MI\)**.
+3. Kliknij środkowy pomarańczowy uchwyt **narzędzia odbicia lustrzanego** i umieść go w lewym dolnym rogu geometrii.
+4. Użyj strzałki w dół na przycisku strzałki dwustronnej w narzędziu, aby obrócić oś odbicia lustrzanego o –90 stopni \(zgodnie z ruchem wskazówek zegara\).
+5. Kliknij jeden raz w pustym obszarze lub naciśnij klawisz **Esc**, aby zakończyć proces tworzenia odbicia lustrzanego. Rezultat powinien wyglądać jak profil dwuteownika z linią biegnącą pionowo przez środek. Naciśnij ponownie klawisz **Esc**, aby anulować wybór.
 
-![](<../../.gitbook/assets/2 (5).png>)
+![](../../.gitbook/assets/2%20%285%29.png)
 
-![](<../../.gitbook/assets/3 (7).png>)
+![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Note**: The final geometry location and orientation is previewed with the ghosted blue shape while you are adjusting the mirror widget. You can use this preview as a reference to mirror the geometry to the intended location._
+_**Uwaga**: podczas dopasowywania narzędzia odbicia lustrzanego położenie i orientacja tworzonej geometrii są widoczne na podglądzie jako półprzezroczysty niebieski kształt. Można skorzystać z tego podglądu jako odniesienia, aby utworzyć odbicie lustrzane geometrii w zamierzonym położeniu._
 
-4 - To join both sides into a single geometry, remove the line dividing them by clicking on it to select it and then pressing **Delete**. Now the two surfaces are joined into a single surface.
+4 — Aby połączyć połowy w jedną geometrię, usuń dzielącą je linię, wybierając ją kliknięciem, a następnie naciskając klawisz **Delete**. Teraz obie powierzchnie zostały połączone w jedną.
 
-5 - To move the geometry to its final location:
+5 — Przesuń geometrię w jej ostateczne położenie:
 
-1. If off, turn on the **Plan Image** and **Roof** layers, to use them as a guide.
-2. Double-click the column profile to select its face and all of its lines. Start moving the selection along the green axis (**Y Axis**). Hold **Shift** and move the profile until it aligns with the Roof, then click to place it.
-3. Similar to the previous step, move the geometry once again, this time locking it to the red axis (**X Axis**).
-4. Click to place it on top of the I-Beam drawn in the **Plan Image**. Getting it close is fine, like in the following image, the horizontal position does not need to be perfect.
+1. Jeśli są wyłączone, włącz warstwy **Obraz rzutu** i **Dach**, aby używać ich jako odniesienia.
+2. Kliknij dwukrotnie profil słupa, aby wybrać jego powierzchnię i wszystkie linie. Rozpocznij przesuwanie wybranych elementów wzdłuż zielonej osi \(**osi Y**\). Przytrzymaj klawisz **Shift** i przesuwaj profil do momentu wyrównania z dachem, a następnie kliknij, aby go umieścić.
+3. Podobnie jak w poprzednim kroku przesuń ponownie geometrię, tym razem blokując ją na czerwonej osi \(**osi X**\).
+4. Kliknij, aby umieścić element na belce dwuteowej narysowanej na **obrazie rzutu**. Wystarczy umieścić go blisko, jak na poniższej ilustracji — położenie w poziomie nie musi być idealne.
 
-_**Note:**_ _The_ _**Shift**_ _key will lock the geometry to move along only one axis, in this case, the green (**Y Axis**). This will ensure the column profile does not accidentally move up and align to the top of the roof plane._
+_**Uwaga:**_ _klawisz_ _**Shift**_ _umożliwia zablokowanie geometrii w celu przesuwania jej tylko wzdłuż jednej osi, w tym przypadku — zielonej \(**osi Y**\). To zapobiega przypadkowemu przesunięciu profilu słupa w górę i wyrównaniu go do górnej części płaszczyzny dachu._
 
-![](<../../.gitbook/assets/4 (9) (1).png>)
+![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Extrude and Array the Column**
+## **Wyciąganie słupa i tworzenie szyku**
 
-1 - To facilitate the next drafting process, switch the view mode back to **Perspective (VP)** and **Orbit (O)** to position the camera as to visualize the I-Beam profile from the northwest. Use the north arrow at the bottom left corner to help you position the view.
+1 — Dla ułatwienia kolejnego procesu kreślenia przełącz widok z powrotem na tryb **Perspektywa \(VP\)** i **obróć \(O\)** kamerę w taki sposób, aby widzieć profil belki dwuteowej z północnego zachodu. Użyj strzałki wskazującej północ w lewym dolnym rogu, aby łatwiej ustawić widok.
 
-![](<../../.gitbook/assets/5 (1).jpeg>)
+![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Note:**_ _To learn how to navigate around the sketch, we recommend checking out the_ _**Navigate the Scene**_ _chapter._
+_**Uwaga:**_ _aby dowiedzieć się, jak poruszać się po szkicu, zapoznaj się z rozdziałem_ _**Nawigacja po scenie**_ _._
 
-2- Select the column profile face and extrude the face up to **17’-8”**.
+2. Wybierz powierzchnię profilu słupa i wyciągnij powierzchnię w górę o **17 stóp i 8 cali**.
 
-_**Note:**_ _If while moving the column profile, it aligned itself to the roof, extrude the face down by_ _**17’-8”**_\
-_instead of up._
+_**Uwaga:**_ _jeśli podczas przesuwania profil słupa został wyrównany względem dachu, wyciągnij powierzchnię o_ _**17 stóp i 8 cali**   w dół, a nie w górę._
 
-3 - Zoom out and turn the **Roof** layer on (if off). The top of the column should line up with the top of the roof.
+3 — Pomniejsz widok i włącz warstwę **Dach** \(jeśli jest wyłączona\). Górna powierzchnia słupa powinna być wyrównana do górnej powierzchni dachu.
 
-![](<../../.gitbook/assets/6 (9) (1).png>)
+![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - To keep the model organized and tidy, select the column geometry again and do the following:
+4 — Uporządkuj model, ponownie wybierając geometrię słupa i wykonując następujące czynności:
 
-1. **Group (G)** and name it **Column Tall**.
-2. Create a new **Layer** called **Column** and add the group to it.
-3. Import the material **Metal - Brushed - Colorized** and paint the group with it.
+1. Dodaj słup do **grupy \(G\)** i nazwij ją **Słup — wysoki**.
+2. Utwórz nową **Warstwę** o nazwie **Słup** i dodaj do niej tę grupę.
+3. Zaimportuj materiał **Metal — matowy — kolorowy** i pomaluj nim grupę.
 
-![](<../../.gitbook/assets/7 (4) (1).png>)
+![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Note:**_ _See previous chapters for more information on_ _**Groups**,_ _**Layers**, and_ _**Materials**._
+_**Uwaga:**_ _więcej informacji na temat_ _**grup**,_ _**warstw** i_ _**materiałów** zawierają poprzednie rozdziały._
 
-4 - Click **Esc** to clear the paintbrush tool.
+4 — Naciśnij klawisz **Esc**, aby wyczyścić narzędzie pędzla.
 
-## **Array the Columns**
+## **Tworzenie szyku słupów**
 
-1 - Go to the **Top View (VT)** and switch the camera mode to **Orthographic (VO)** again.
+1 — Przejdź do **widoku z góry \(VT\)** i ponownie przełącz tryb kamery na **Prostopadły \(VO\)**.
 
-2 - Turn off the **Roof** layer.
+2 — Wyłącz warstwę **Dach**.
 
-3 - To start the array process:
+3 — Rozpocznij tworzenie szyku:
 
-1. Single-click to select the column group. Right-click to bring the **Context Menu** and choose **Array (AR)**.
-2. In the **Array Properties** dialog, use the following settings:
-   * **Length Between Copies**
-   * **Linear** (default)
-   * **Group each solid then array** (default)
-   * **Number of Copies: 3**
-   * Press **OK** to close the dialog.
+1. Kliknij grupę słupa jeden raz, aby ją wybrać. Kliknij prawym przyciskiem myszy, aby wyświetlić **menu kontekstowe**, i wybierz narzędzie **Szyk \(AR\)**.
+2. W oknie dialogowym **Właściwości szyku** użyj następujących ustawień:
+   * **Długość pomiędzy kopiami**
+   * **Liniowa** \(ustawienie domyślne\)
+   * **Pogrupuj każdą bryłę, a następnie utwórz szyk** \(ustawienie domyślne\)
+   * **Liczba kopii: 3**
+   * Kliknij przycisk **OK**, aby zamknąć okno dialogowe.
 
-![](<../../.gitbook/assets/8 (3) (1).png>)
+![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - To place the new elements:
+4 — Umieść nowe elementy:
 
-1. Single-click on the column to start the **Array**. Move the cursor along the red axis (**X axis**).
-2. Set dimension to **22'**. You now have **four** columns **22'** apart.
-3. **Esc** to clear your selection.
+1. Kliknij słup jeden raz, aby rozpocząć tworzenie **szyku**. Przesuń kursor wzdłuż czerwonej osi \(**osi X**\).
+2. Ustaw wymiar na **22 stopy**. Masz teraz **cztery** słupy w odległości **22 stóp**.
+3. Naciśnij klawisz **Esc**, aby anulować wybór.
 
-![](<../../.gitbook/assets/9 (6) (1).png>)
+![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - To select all the **Tall Column** groups at once, hover your mouse over one of them and press the **Tab** key once. Notice that all 4 column’s bounding boxes have been highlighted. Single-click on the column your mouse is hovering over and they will all be selected. This is a quick way to select all instances of the same group at once.
+5 — Aby wybrać wszystkie grupy **Słup — wysoki** jednocześnie, umieść wskaźnik myszy na jednej z nich i naciśnij klawisz **Tab** jeden raz. Zobaczysz, że wszystkie 4 ramki ograniczające słupów zostały wyróżnione. Kliknij jeden raz słup, na którym znajduje się kursor myszy, aby wybrać wszystkie z nich. To szybki sposób na wybranie wszystkich wystąpień tej samej grupy jednocześnie.
 
-6 - Perform another **Array (AR)** to create the columns at the other side of the building. This time make 1 copy along the green axis across the building. Set dimension to **29'- 4 5/8”.**
+6 — Ponownie użyj narzędzia **Szyk \(AR\)**, aby utworzyć słupy po drugiej stronie budynku. Tym razem utwórz 1 kopię wzdłuż zielonej osi biegnącej w poprzek budynku. Ustaw wymiar na **29 stóp i 4 i 5/8 cala.**
 
-_**Note:**_ _29’ 4 5/8” = 8 5/8” (column depth) + 28’-8” (main building width)._
+_**Uwaga:**_ _29 stóp i 4 i 5/8 cala = 8 i 5/8 cala \(głębokość słupa\) + 28 stóp i 8 cali \(szerokość budynku głównego\)._
 
-7 - To visualize the whole building, go to the **3D View (V3)** and set it to **Perspective (VP)**. If off, turn on the **Main Building Floor**, **Roof**, **Lower Terrace**, and **Column** layers.
+7 — Aby wyświetlić cały budynek, przejdź do **widoku 3D \(V3\)** i ustaw tryb **Perspektywa \(VP\)**. Jeśli są wyłączone, włącz warstwy **Podłoga budynku głównego**, **Dach**, **Taras dolny** i **Słup**.
 
-![](<../../.gitbook/assets/10 (7) (1).png>)
+![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Create the Terrace Columns**
+## **Tworzenie słupów tarasu**
 
-_Now we will duplicate the main building columns to create similar, but shorter, versions for the terrace._
+_Teraz powielimy słupy budynku głównego, aby utworzyć podobne, ale krótsze słupy tarasu._
 
-1 - To facilitate drafting, we recommend going back to an **Orthogonal (OV)** and **Top View (VT)** setting.
+1 — Dla ułatwienia kreślenia zalecamy powrót do ustawień **Ortogonalny \(OV\)** i **Widok z góry \(VT\)**.
 
-2 - To create the new columns:
+2 — Utwórz nowe słupy:
 
-1. Hold **Ctrl** or **Shift**, click on the 3 columns closest to the **Lower Terrace Floor** to select them.
-2. Single-click on any one of the columns to start moving all 3 selected columns at once. Press the **Ctrl** key once to create a **quick copy**. A ghost preview of the copy will appear.
-3. Move the copies down along the green axis (**Y Axis**) by **23’-4 3/8**”. Press **Esc**.
-4. Without deselecting, move the copied columns along the red axis (**X Axis**) by **22’** to place them in their final position.
-5. Again, with the 3 new columns still selected, right-click one of the copied columns and select **Make Unique (MU)**. These columns are now associated with each other, but unique from the originals.
+1. Przytrzymaj wciśnięty klawisz **Ctrl** lub **Shift** i kliknij 3 słupy znajdujące się najbliżej **podłogi dolnego tarasu**, aby je wybrać.
+2. Kliknij jeden raz dowolny ze słupów, aby rozpocząć przesuwanie wszystkich 3 wybranych słupów jednocześnie. Naciśnij jeden raz klawisz **Ctrl**, aby utworzyć **szybką kopię**. Zostanie wyświetlony półprzezroczysty podgląd kopii.
+3. Przesuń kopie w dół zielonej osi \(**osi Y**\) o **23 stopy i 4 i 3/8 cala**. Naciśnij klawisz **Esc**.
+4. Nie anulując wyboru, przesuń skopiowane słupy wzdłuż czerwonej osi \(**osi X**\) o **22 stopy**, aby umieścić je w docelowym położeniu.
+5. Nadal nie anulując wyboru 3 nowych słupów, kliknij prawym przyciskiem myszy jeden ze skopiowanych słupów i wybierz opcję **Ustaw jako unikatowe \(MU\)**. Słupy są teraz skojarzone ze sobą, ale unikatowe względem oryginałów.
 
-_**Note:**_ _Holding_ _**Shift**_ _or_ _**Ctrl**_ _allows you to select multiple elements at once, or remove elements from your current selection._
+_**Uwaga:**_ _przytrzymanie naciśniętego klawisza_ _**Shift**_ _lub_ _**Ctrl**_ _pozwala wybrać wiele elementów jednocześnie lub usunąć elementy z bieżącego wyboru._
 
-![](<../../.gitbook/assets/11 (7) (1).png>)
+![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - Modify the new column group:
+3 — Zmodyfikuj nową grupę słupów:
 
-1. Double-click to edit one of the new groups and rename it **Column Short.**
-2. Adjust the height of the new column to align to the top of the **Lower Terrace** **Floor** (3’-2”). To do that, select and drag the column’s face down along the blue axis (**Z axis**) and hold **Shift**. Hover the cursor anywhere on the top face of the **Lower Terrace Floor** and the column’s height will automatically align to the Lower Terrace. Once the height is set, click to finish.
+1. Kliknij dwukrotnie, aby edytować jedną z nowych grup i zmień jej nazwę na **Słup — krótki.**
+2. Dopasuj wysokość nowej kolumny, aby wyrównać ją względem górnej krawędzi **Podłogi** **dolnego tarasu** \(3 stopy i 2 cale\). W tym celu wybierz powierzchnię słupa i przeciągnij ją w dół wzdłuż niebieskiej osi \(**osi Z**\), przytrzymując naciśnięty klawisz **Shift**. Umieść kursor w dowolnym miejscu na górnej powierzchni **Podłogi dolnego tarasu**, a wysokość słupa zostanie automatycznie wyrównana do dolnego tarasu. Po ustawieniu wysokości kliknij, aby zakończyć.
 
-![](<../../.gitbook/assets/12 (4).png>)
+![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Note:**_ _You can check the height of the short columns by using the_ _**Measure (ME)**_ _tool. Alternatively, you can select one of the column’s vertical edge and see its length in the_ _**Properties Palette**._
+_**Uwaga:**_ _wysokość krótkich słupów można sprawdzić za pomocą narzędzia_ _**Zmierz \(ME\)**_ _. Można również wybrać jedną z pionowych krawędzi słupa i wyświetlić jej długość na_ _**palecie Właściwości**._
 
-4- Using the techniques you just learned, copy the furthest short column to the opposite side of the **Lower Terrace Floor** to create the last remaining column.
+4. Korzystając z poznanych tu technik, skopiuj najbardziej oddalony krótki słup na przeciwległą stronę **Podłogi dolnego tarasu**, aby utworzyć ostatni słup.
 
-![](<../../.gitbook/assets/13 (4).png>)
+![](../../.gitbook/assets/13%20%284%29.png)
+

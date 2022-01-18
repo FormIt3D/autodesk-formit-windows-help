@@ -1,39 +1,40 @@
-# 1.13 - Section Planes
+# 1.13 — Płaszczyzny przekroju
 
-_In this chapter you will learn how to use_ _**Section Planes**_ _to cut your model, revealing interior spaces and structural elements. FormIt supports multiple_ _**Section Planes**_ _at once for a Section Box-like effect._
+_Z tego rozdziału dowiesz się, jak używać_ _**płaszczyzn przekroju**_ _do cięcia modelu, odsłaniania pomieszczeń wewnętrznych i elementów konstrukcyjnych. Program FormIt obsługuje jednocześnie wiele_ _**płaszczyzn przekroju**_ _w celu uzyskania efektu przypominającego zakres przekroju._
 
-_If you did not complete the previous chapter, download and open the_ _**1. 13 - Section Planes.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Jeśli poprzedni rozdział nie został ukończony, pobierz i otwórz plik_ _**1. 13 — Section Planes.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
 
-1 - To create a new Section Plane:
+1 — Tworzenie nowej płaszczyzny przekroju:
 
-1. Click on the **Section Plane (SP)** button from the **Standard Toolbar**.
-2. Hover over the model to identify a plane to use as reference. Note the arrows at the corners of the **Section Plane** indicating the direction of the section cut. Press the **Tab** key to alternate between different planes, if needed.
-3. Click to place the **Section Plane** anywhere on the southern glass wall of the main building. The plane will scale to the size of your model and remain selected.
+1. Kliknij przycisk **Płaszczyzna przekroju \(SP\)** na **standardowym pasku narzędzi**.
+2. Ustaw kursor na modelu, aby zidentyfikować płaszczyznę, która ma służyć jako odniesienie. Zwróć uwagę na strzałki w narożnikach **płaszczyzny przekroju**, które wskazują kierunek cięcia przekroju. Naciśnij klawisz **Tab**, aby w razie potrzeby przełączać się między różnymi płaszczyznami.
+3. Kliknij, aby umieścić **płaszczyznę przekroju** w dowolnym miejscu na południowej ścianie szklanej budynku głównego. Płaszczyzna zostanie przeskalowana do rozmiaru modelu i pozostanie wybrana.
 
-![Section plane preview when hovering over the glass wall.](<../../.gitbook/assets/0 (6).png>)
+![Podgląd płaszczyzny przekroju po umieszczeniu wskaźnika myszy na ścianie szklanej.](../../.gitbook/assets/0%20%286%29.png)
 
-![Scaled section plane after being placed.](<../../.gitbook/assets/1 (19) (1).png>)
+![Przeskalowana płaszczyzna przekroju po umieszczeniu.](../../.gitbook/assets/1%20%2819%29.png)
 
-2 - With the section plane still select, click to start moving it backwards until it is cutting through part of the main building, similar to the image below. This works similarly to moving any model element, except that the section plane can only move along an axis perpendicular to the direction it is facing. Once you are happy with the position, press **Esc** to clear the selection.
+2 — Przy nadal wybranej płaszczyźnie przekroju kliknij, aby rozpocząć przesuwanie jej do tyłu, aż przetnie część budynku głównego, jak na poniższej ilustracji. Działa to podobnie do przesuwania dowolnego elementu modelu, ale płaszczyzna przekroju może się przesuwać tylko wzdłuż osi prostopadłej do kierunku, w którym jest skierowany jej front. Po uzyskaniu zadowalającego położenia naciśnij klawisz **Esc**, aby anulować wybór.
 
-![](<../../.gitbook/assets/2 (11) (1).png>)
+![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Note:**_ _You can add up to 6 section cuts to your model at once._
+_**Uwaga:**_ _Do modelu można dodać jednocześnie maksymalnie 6 przekrojów._
 
-3 - Open the **Layers** **Palette**. Note that two (2) new layers have been generated - **Section Indicators** and **Section Cut 1**.
+3 — Otwórz **paletę** **Warstwy**. Zauważ, że wygenerowano dwie \(2\) nowe warstwy — **Wskaźniki przekroju** i **Cięcie przekroju 1**.
 
-1. Toggle the **Section Cut 1** layer off and back on. This controls whether the section cuts the model or not.
-2. Now toggle the **Section Indicator** layer off. This hides the section plane and its arrow indicators, but does not affect whether the actual section cut is active or not.
+1. Włącz i wyłącz warstwę **Cięcie przekroju 1**. Steruje to tym, czy przekrój przecina model.
+2. Teraz wyłącz warstwę **Wskaźniki przekroju**. Powoduje to ukrycie płaszczyzny przekroju i jej wskaźników w postaci strzałek, ale nie wpływa na to, czy samo cięcie przekroju jest aktywne, czy nie.
 
-![](<../../.gitbook/assets/3 (6) (1).png>)
+![](../../.gitbook/assets/3%20%286%29.png)
 
-4 - In the **Surface Tab** of the **Visual Styles** **Palette**:
+4 — Na **karcie Powierzchnia** na **palecie** **Style wizualne**:
 
-1. Check the box next to **Poche Color** to turn it on. This effect will color any solids cut by the section plane with a specified color. Black is the default color, but you can simply click on the color preview to change it.
-2. Turn of **Shadows (DS)**.
+1. Zaznacz pole wyboru obok opcji **Kolor wypełnienia**, aby ją włączyć. Efekt ten spowoduje pokolorowanie wszystkich brył przeciętych przez płaszczyznę przekroju określonym kolorem. Domyślnym kolorem jest kolor czarny, ale wystarczy kliknąć podgląd koloru, aby go zmienić.
+2. Wyłącz opcję **Cienie \(DS\)**.
 
 ![](../../.gitbook/assets/poche.png)
 
-5 - To finalize your section, go to the **Scenes Palette** and create a new Scene called **Section**, saving the current **Camera** position, **Layers** visibility, and **Visual Styles** settings.
+5 — Aby zakończyć tworzenie przekroju, przejdź do **palety Sceny** i utwórz nową scenę o nazwie **Section**, zapisując bieżącą pozycję **kamery**, widoczność **warstw** i ustawienia **stylów wizualnych**.
 
-![](<../../.gitbook/assets/5 (7).png>)
+![](../../.gitbook/assets/5%20%287%29.png)
+

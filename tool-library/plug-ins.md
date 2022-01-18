@@ -1,46 +1,47 @@
-# Plug-Ins
+# Wtyczki
 
-Use the Plugin Manager to install useful plugins from the FormIt Team, or learn how to [**build your own FormIt plugins**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
+Za pomocą narzędzia Plugin Manager zainstaluj przydatne wtyczki z od zespołu programu FormIt, lub dowiedz się, jak [**opracować własne wtyczki programu FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
 
-## The FormIt Plugin Manager
+#### Narzędzie Plugin Manager programu FormIt
 
-The FormIt Plugin Manager works as a hub for discovering and managing Formit plugins.
+Narzędzie Plugin Manager programu FormIt działa jako centrum wyszukiwania wtyczek programu Formit i zarządzania nimi.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+Narzędzie Plugin Manager jest wczytywane automatycznie podczas uruchamiania programu FormIt, o ile program FormIt ma dostęp do Internetu.
 
-You can access the Plug-In Manager by clicking its tab icon on the right side of the application window:
+Dostęp do narzędzia Plugin Manager można uzyskać, klikając ikonę jego karty znajdującą się po prawej stronie okna aplikacji:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-## The Plugin Manager categorizes different types of plugins:
+#### Narzędzie Plugin Manager kategoryzuje różne typy wtyczek:
 
-* **Installed plugins**
-* **Recommended plugins**
-  * Plugins that the FormIt team recommends to expand FormIt's core functionality and unlock new workflows.
-  * Community-developed plugins will appear here after being approved by the FormIt team. More details to come on this in the future.
-* **Public plugins**
-  * Plugins built by the community, but which have not been reviewed or approved by the FormIt team.
+* **Zainstalowane wtyczki**
+* **Zalecane wtyczki**
+   * Wtyczki zalecane przez zespół programu FormIt na potrzeby rozszerzenia podstawowych funkcji programu FormIt i udostępnienia nowych procesów roboczych.
+   * Po zatwierdzeniu przez zespół programu FormIt pojawią się tutaj wtyczki opracowane przez społeczność. W przyszłości zostanie udostępnionych więcej szczegółów na ten temat.
+* **Wtyczki publiczne**
+   * Wtyczki utworzone przez społeczność, które nie zostały zweryfikowane ani zatwierdzone przez zespół programu FormIt.
 
-## The Plugin Manager is designed using a series of expandable and collapsible interfaces, which makes managing plugins and their repositories easy:
+#### Narzędzie Plugin Manager zaprojektowano przy użyciu szeregu rozwijalnych i zwijanych interfejsów, co ułatwia zarządzanie wtyczkami i ich repozytoriami:
 
-* **Managing Plugins:**
-  * Click on a plugin name to see its description.
-  * Toggle the switch to install or uninstall it.
-    * The plugin will manifest as a toolbar at the top of the application, a panel on the right side, or a dialog in the middle, depending on the plugin type.
-* If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom and hit (+):
+* **Zarządzanie wtyczkami:**
+   * Kliknij nazwę wtyczki, aby zobaczyć jej opis.
+   * Przełącz przełącznik, aby ją zainstalować lub odinstalować.
+      * Wtyczka będzie widoczna jako pasek narzędzi w górnej części aplikacji, panel po prawej stronie lub okno dialogowe w środku, w zależności od jej typu.
+* Jeśli [tworzysz własną wtyczkę](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), możesz dodać jej prywatny adres URL w polu na dole i kliknąć \(+\):
 
-![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
+![Narzędzie Plugin Manager programu FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-## How Plugins Work
+#### Jak działają wtyczki
 
-* Plugins are web-based and available in FormIt for Windows and FormIt for Web.
-* Plugins are comprised of a series of files and folders hosted on GitHub, or on a local server when building your own.
-* External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
-  * External plugins will not load if no internet connection is detected when FormIt starts.
-  * Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.
-  * External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change.
-* Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
-* The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins.
-  * If you need to reset your Plugin Manager to its defaults, delete the following registry key:
-    * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
-    * Note this will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+* Wtyczki są oparte na technologii internetowej i są dostępne w programie FormIt dla systemu Windows oraz w wersji internetowej programu FormIt.
+* Wtyczki składają się z serii plików i folderów przechowywanych w serwisie GitHub lub na serwerze lokalnym (w przypadku tworzenia własnej wtyczki).
+* Wtyczki zewnętrzne \(wtyczki inne niż hostowane lokalnie\) wymagają połączenia z Internetem do wstępnego wczytania, co ma następujące konsekwencje:
+   * Wtyczki zewnętrzne nie zostaną wczytane, jeśli podczas uruchamiania programu FormIt nie zostanie wykryte połączenie z Internetem.
+   * Po wczytaniu niektóre wtyczki zewnętrzne mogą nadal działać w trybie offline w danej sesji, ale działanie innych może zostać przerwane, dopóki połączenie nie zostanie przywrócone.
+   * Wtyczki zewnętrzne wczytują najnowszy kod na serwerze przy każdym uruchomieniu, więc ich funkcje są aktualizowane za każdym razem, gdy autor wprowadza zmiany.
+* Wtyczki są wczytywane asynchronicznie, co oznacza, że kolejność wtyczek w interfejsie programu FormIt może się zmieniać podczas każdej nowej sesji.
+* Narzędzie Plugin Manager używa kluczy rejestru w systemie Windows do przechowywania zainstalowanych repozytoriów i wtyczek.
+   * Aby przywrócić domyślne ustawienia narzędzia Plugin Manager, należy usunąć następujący klucz rejestru:
+      * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
+      * Należy pamiętać, że spowoduje to odinstalowanie wszystkich repozytoriów i wtyczek dodanych przez użytkownika, a więc zresetowanie narzędzia Plugin Manager do stanu, w którym będzie zawierać tylko wbudowane repozytoria i wtyczki.
+

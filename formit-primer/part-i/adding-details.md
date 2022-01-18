@@ -1,128 +1,129 @@
-# 1.9 - Adding Details
+# 1.9 — Dodawanie szczegółów
 
-_FormIt is a great massing tool - as well as a great modeling tool. We will start to add detail to the Farnsworth House in the form of doors and mullions for the glass box. We will then cover some additional tools, and practice the process of adding new geometry, layers, materials, and group management._
+_FormIt to doskonałe narzędzie zarówno do modelowania bryłowego, jak i tworzenia szczegółowych modeli. Zaczniemy dodawać do domu pani Farnsworth szczegóły w postaci drzwi i szprosów w pomieszczeniu ze szklanymi ścianami. Następnie omówimy pewne dodatkowe narzędzia i przećwiczymy proces dodawania geometrii, warstw i materiałów oraz zarządzania grupami._
 
-_If you did not complete the last section, download and open the_ _**1.9 - Adding Details.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik_ _**1.9 — Adding Details.axm**_ _z folderu_ _**FormIt Primer Part 1 Datasets**._
 
-## **Create Window Frames**
+## **Tworzenie ram okiennych**
 
-_We are going to create a 2" metal frame and mullions around the glass box. Note that these mullions will intentionally overlap with the glass box._
+_Utworzymy teraz wokół pomieszczenia ze szklanymi ścianami 2-calową ramę metalową ze szprosami. Pamiętaj, że szprosy celowo nakładają się na szklane ściany._
 
-1 - Create a new layer called **Glass Walls** and move the **Glass Wall** group to it.
+1 — Utwórz nową warstwę o nazwie **Szklane ściany** i przenieś na nią grupę **Szklana ściana**.
 
-2 - To facilitate visualization, turn off the **Roof** layer so we can see the entire glass box.
+2 — Dla lepszej widoczności wyłącz warstwę **Dach**, dzięki czemu będzie można zobaczyć całe pomieszczenie ze szklanymi ścianami.
 
-3 - To start creating the first window frame:
+3 — Rozpocznij tworzenie pierwszej ramy okiennej:
 
-1. At the building’s western side, use the **Rectangle Tool (R)** to draw a new surface directly over the exterior glass face. Make sure to create the surface outside the **Glass Walls** group.
-2. Select and drag the newly created face **2"** towards the interior. Press **Esc** to clear the selection. The final result should look like the image below.
-3. Single-click the face you just created. Right-click to access the **Context Menu** to use the **Offset Face tool (OF).**
+1. Użyj **narzędzia Prostokąt \(R\)**, aby narysować nową powierzchnię bezpośrednio nad zewnętrzną powierzchnią szkła po zachodniej stronie budynku. Pamiętaj, aby utworzyć tę powierzchnię poza grupą **Szklane ściany**.
+2. Wybierz nowo utworzoną powierzchnię i przeciągnij o **2 cale** w kierunku wnętrza. Naciśnij klawisz **Esc**, aby anulować wybór. Końcowy rezultat powinien wyglądać tak jak na poniższej ilustracji.
+3. Kliknij jeden raz utworzoną powierzchnię. Kliknij prawym przyciskiem myszy, aby otworzyć **menu kontekstowe** i użyj **narzędzia Odsuń powierzchnię \(OF\).**
 
-_**Note:**_ _If you have trouble selecting the new face, press the_ _**Space Bar**_ _key to alternate between different selectable objects, or temporarily turn off the_ _**Glass Walls**_ _layer._
+_**Uwaga:**_ _w przypadku problemów z wybraniem nowej powierzchni naciskaj klawisz_ _**Spacja**_ _, aby przechodzić między różnymi obiektami, które można wybrać, lub tymczasowo wyłącz warstwę_ _**Szklane ściany**_ _._
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - To set the offset dimension, move your mouse toward the inside of the face, and enter **2"** to create a new smaller rectangle.
+4 — Aby ustawić wymiar odsunięcia, przesuń wskaźnik myszy w kierunku środka powierzchni i wprowadź wartość **2 cale**, aby utworzyć nowy, mniejszy prostokąt.
 
-![](<../../.gitbook/assets/1 (9).png>)
+![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - Single-click to select the interior rectangle you just created. Click again and drag the face towards the building’s interior until it disappears. Click once more to finish removing the center volume from the frame geometry.
+5 — Kliknij nowo utworzony wewnętrzny prostokąt jeden raz, aby go wybrać. Kliknij ponownie i przeciągnij powierzchnię w kierunku wnętrza budynku, aż zniknie. Kliknij jeszcze raz, aby dokończyć usuwanie objętości ze środka geometrii ramy.
 
-![](<../../.gitbook/assets/2 (21).png>)
+![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - Double-click to select the geometry we just created and **Group (G)** it. Name the group **Mullion Frame – EW**.​
+6 — Kliknij dwukrotnie, aby wybrać utworzoną geometrię, i dodaj ją do **Grupy \(G\)**. Nadaj grupie nazwę **Rama szprosu — wschód-zachód**.​
 
-7 - Create a Layer named **Mullion** and place the new group on it.
+7 — Utwórz warstwę o nazwie **Szpros** i umieść na niej nową grupę.
 
-8 - To set the frame’s material:
+8 — Ustaw materiał ramy:
 
-1. Inside the **Materials Palette**, duplicate the **Metal – Brushed – Colorized** material by right-clicking on it and selecting **Duplicate Material**.
-2. Double-click the new material’s preview tile to edit it.
-3. Rename it to **Metal – Brushed – Gray**.
-4. Modify the material’s color by clicking on the **Color** tile in the **Maps** section, and darken the grey by changing the **Val:** to **150**.
+1. Na **palecie Materiały** powiel materiał **Metal — matowy — kolorowy**, klikając go prawym przyciskiem myszy i wybierając polecenie **Powiel materiał**.
+2. Kliknij dwukrotnie kafelek podglądu nowego materiału, aby go edytować.
+3. Zmień jego nazwę na **Metal — matowy — szary**.
+4. Zmień kolor materiału, klikając kafelek **Kolor** w sekcji **Mapy**, a następnie przyciemnij odcień szarości, zmieniając wartość **War:** na **150**.
 
-![](<../../.gitbook/assets/3 (4).png>)
+![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - Click **OK** to save these changes to the new material, and then paint the **Mullion Frame – EW** group with it. Afterward, the group's **Properties Palette** should match what is shown in the below image:
+9 — Kliknij przycisk **OK**, aby zapisać zmiany w nowym materiale, a następnie pomaluj nim grupę **Rama szprosu — wschód-zachód**. Po zakończeniu **paleta Właściwości** grupy powinna wyglądać tak, jak na poniższej ilustracji:
 
-![](<../../.gitbook/assets/4 (2).jpeg>)
+![](../../.gitbook/assets/4.jpeg)
 
-10 - Create a new instance of the frame on the eastern side by using any of the following tools: **Quick copy**, **Array,** or **Mirror**.
+10 — Utwórz nowe wystąpienie ramy po wschodniej stronie za pomocą dowolnego z następujących narzędzi: **Szybka kopia**, **Szyk** lub **Odbicie lustrzane**.
 
-11 -Repeat the steps above for the North and South sides of the glass box. Name the new group **Mullion Frame – NS**. Don’t forget to paint them and place them on the **Mullion** layer!
+11 — Powtórz powyższe czynności po północnej i południowej stronie pomieszczenia ze szklanymi ścianami. Nadaj nowej grupie nazwę **Rama szprosu — północ-południe**. Nie zapomnij pomalować elementów i umieścić ich na warstwie **Szpros**.
 
-![](<../../.gitbook/assets/5 (16) (1).png>)
+![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Note:**_ _The mullion frames overlap each other at the corners. This is intentional. The above result shows the resulting mullion frame geometry with the_ _**Glass Wall**_ _and_ _**Column**_ _layers turned off._
+_**Uwaga:**_ _ramy szprosów nakładają się na siebie w narożnikach. To jest zamierzone. Powyżej przedstawiono wynikową geometrię ram szprosów z wyłączonymi warstwami_ _**Szklana ściana**_ _i_ _**Słup**_ _._
 
-**Create Mullions**
+**Tworzenie szprosów**
 
-1 - In plane with the exterior glass face on the building’s South or North side, draw a **2” x 10’-10” Rectangle (R)** spanning from between the bottom and top of the mullion frame. Do not worry about the exact position of the rectangle along the frame, we will move it into place in the following steps.
+1 — W jednej płaszczyźnie z zewnętrzną powierzchnią szkła po południowej lub północnej stronie budynku narysuj **Prostokąt \(R\) o wymiarach 2 cale x 10 stóp i 10 cali** sięgający dolnej i górnej krawędzi ramy szprosu. Nie przejmuj się dokładnym położeniem prostokąta względem ramy — przeniesiemy go w odpowiednie miejsce w kolejnych krokach.
 
-![](<../../.gitbook/assets/6 (11).png>)
+![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - Extrude the rectangle back **2”**, and then **Group (G)** it and name the group **Mullion – Vertical**. Place the group on the **Mullion** layer and paint it with the **Metal – Brushed – Grey** material.
+2 — Wyciągnij prostokąt o **2 cale** w tył, a następnie dodaj go do **grupy \(G\)** o nazwie **Szpros — pionowy**. Umieść grupę na warstwie **Szpros** i pomaluj ją materiałem **Metal — matowy — szary**.
 
-**Locating the Mullions**
+**Określanie położenia szprosów**
 
-_Now we will set the location for the first mullion so that its centered on the_ _**Mid-Point**_ _of a column._
+_Teraz ustawimy położenie pierwszego szprosu, tak aby był wyśrodkowany względem_ _**punktu środkowego**_ _słupa._
 
-1 - To see the columns again, turn on the **Column** layer, if it was off. While you are in the **Layers Palette**, you can also turn off the **Lower Terrace** and **Plan Image** layers to make the next steps easier.
+1 — Aby ponownie wyświetlić słupy, włącz warstwę **Słup**, jeśli była wyłączona. Na **palecie Warstwy** można również wyłączyć warstwy **Dolny taras** i **Obraz rzutu**, aby ułatwić wykonywanie kolejnych kroków.
 
-2 - To move the mullion to its new location:
+2 — Przesuń szpros w nowe położenie:
 
-1. Single-click to select the vertical mullion group you just created. **Zoom (Z)** in and click on the **Mid-Point** of the mullion’s bottom exterior edge, symbolized by a red triangle**.**
-2. Start moving the geometry horizontally towards a column. Press **Shift** to lock the movement in the red axis (**X Axis**). Note that once the movement is locked the red axis gets thicker.
-3. Zoom out until you can see the base of the column. While still holding **Shift**, click on the **Mid-Point** at the base of the column's outer face. The mullion will continue to only move along the red axis (**X Axis**), but will align to the **Mid-Point** you just clicked on.
+1. Kliknij utworzoną grupę szprosu pionowego jeden raz, aby ją wybrać. **Powiększ \(Z\)** widok i kliknij **punkt środkowy** dolnej krawędzi zewnętrznej szprosu, oznaczony czerwonym trójkątem**.**
+2. Rozpocznij przesuwanie geometrii w poziomie w kierunku słupa. Naciśnij klawisz **Shift**, aby zablokować ruch na czerwonej osi \(**osi X**\). Pamiętaj, że po zablokowaniu ruchu czerwona oś zostanie pogrubiona.
+3. Pomniejszaj widok, aż będzie widać podstawę słupa. Trzymając wciśnięty klawisz **Shift**, kliknij **punkt środkowy** u podstawy zewnętrznej powierzchni słupa. Szpros będzie nadal przesuwany tylko wzdłuż czerwonej osi \(**osi X**\), ale zostanie wyrównany do klikniętego **punktu środkowego**.
 
-![](<../../.gitbook/assets/7 (1) (1).jpeg>)
+![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Note:**_ _The mullion is now directly behind the column. Turn off the_ _**Column**_ _layer or_ _**Orbit (O)**_ _to visualize the mullion._
+_**Uwaga:**_ _szpros znajduje się teraz bezpośrednio za słupem. Wyłącz warstwę_ _**Słup**_ _lub użyj narzędzia_ _**Obróć\(O\)**_ _, aby zobaczyć szpros._
 
-3 - Press **Esc** to clear the **Move** tool.
+3 — Naciśnij klawisz **Esc**, aby wyczyścić narzędzie **Przesuń**.
 
-4 - Use the **Array (AR)** or **Quick Copy** tool to create four (4) more vertical mullions along the same side, spaced **11’** apart. To learn how to use the **Array Tool**, refer to previous chapters.
+4 — Za pomocą narzędzia **Szyk \(AR\)** lub **Szybka kopia** utwórz jeszcze cztery \(4\) szprosy pionowe po tej samej stronie, rozmieszczone w odstępach **11 stóp**. Aby dowiedzieć się, jak używać **narzędzia Szyk**, zapoznaj się z poprzednimi rozdziałami.
 
-5 - Use the Tab key to select all the **Vertical** Mullion groups, and copy them to the opposite side of the building, so that both the **North** and **South** frames have identical mullion layouts, as shown in the next image:
+5 — Użyj klawisza Tab, aby wybrać wszystkie grupy szprosów **pionowych** i skopiować je na przeciwną stronę budynku, tak aby ramy **północna** i **południowa** miały identyczny układ szprosów, co pokazano na poniższej ilustracji:
 
-![](<../../.gitbook/assets/8 (6).png>)
+![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Create the Door Mullions**
+## **Tworzenie szprosów drzwi**
 
-1 - **Orbit (O)** the perspective view until you are looking at the center of the West mullion frame.
+1 — **Obróć \(O\)** widok perspektywiczny w celu pokazania środka ramy szprosów po zachodniej stronie.
 
-2 - Similar to creating mullion frames, draw a **3’-6”** wide door panel with a **2”x 2”** frame. Make it a **Group (G)** with the properties: Group Name: **Curtain Wall Door**; layer: **Mullion**; material: **Metal – Brushed – Grey**.
+2 — Podobnie jak podczas tworzenia ram szprosów narysuj panel drzwi o szerokości **3 stóp i 6 cali** z ramą **2 x 2 cale**. Dodaj go do **grupy \(G\)** o następujących właściwościach: nazwa grupy: **Drzwi ściany kurtynowej**; warstwa: **Szpros**; materiał: **Metal — matowy — szary**.
 
-3 - Copy this group to create the second door frame, and move them so that they are centered in the **Mullion Frame – EW** group, as shown below.
+3 — Skopiuj tę grupę, aby utworzyć drugą ramę drzwi, i przesuń ramy w taki sposób, aby były wyśrodkowane względem grupy **Rama szprosu — wschód-zachód**, jak pokazano poniżej.
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Create Roof Cornice with Sweep**
+## **Tworzenie gzymsu dachowego przy użyciu narzędzia Przeciągnięcie**
 
-_We will now create the cornice of the Farnsworth House using one of FormIt’s advanced modeling tools -_ _**Sweep**. To learn about other advanced modeling, check out the_ **2.2 -** _**Advanced Modeling** chapter_ _in the_ _**FormIt Primer - Part II**._
+_Teraz utworzymy gzyms domu pani Farnsworth za pomocą jednego z zaawansowanych narzędzi do modelowania programu FormIt — __**Przeciągnięcie**. Aby poznać inne zaawansowane funkcji modelowania, zapoznaj się z rozdziałem_ **2.2 —** _**Modelowanie zaawansowane**_ _w sekcji_ _**FormIt Primer — część II**._
 
-_The first step into creating a_ _**Sweep**_ _is to draw a profile perpendicular to the sweep “extrusion”. To do that, we will use the roof geometry as a guide._
+_Pierwszym krokiem procesu tworzenia_ _**Przeciągnięcia**_ _jest narysowanie profilu prostopadłego do wyciągnięcia. W tym celu użyjemy geometrii dachu jako wzoru._
 
-1 - Turn on the **Roof** layer and zoom in to one of its corners.
+1 — Włącz warstwę **Dach** i powiększ jeden z jej narożników.
 
-2 - Using one of the roof’s vertical sides as a reference, draw two adjacent rectangles. The first will be **6”** high by **4 5/8**” wide, and the second is **2”x 2”**. Delete the line dividing the two rectangles to create a single face. The result should look as below.
+2 — Używając jednej z pionowych powierzchni dachu jako odniesienia, narysuj dwa sąsiadujące prostokąty. Pierwszy będzie miał wysokość **6 cali** i szerokość **4 i 5/8** cala, a drugi — **2 x 2 cale**. Usuń linię dzielącą oba prostokąty, aby utworzyć jedną powierzchnię. Rezultat powinien wyglądać tak, jak poniżej.
 
-![](<../../.gitbook/assets/10 (1).jpeg>)
+![](../../.gitbook/assets/10.jpeg)
 
-3 - To create the sweep:
+3 — Utwórz przeciągnięcie:
 
-1. With no selected geometry, click on the **Advanced Modeling Tools** button in the **Standard Toolbar**, and select **Sweep (SW)**.
-2. The **Sweep Selection Wizard** will start and prompt you to **Select a face (or edges) for sweep profile**. Select the profile face we just created.
-3. Once the profile is selected, you will be prompted to **Select a face (or edge) for sweep path, then click finish**. Select the top face of the roof. FormIt will automatically use the boundaries of the selected face as the sweep’s path, and the sweep will be created around the entire roof.
+1. Bez wybranej geometrii kliknij przycisk **Zaawansowane narzędzia modelowania** na **standardowym pasku narzędzi** i wybierz **Przeciągnięcie \(SW\)**.
+2. Zostanie uruchomiony **Kreator wyboru przeciągnięcia** i zobaczysz monit **Należy wybrać powierzchnię \(lub krawędzie\) dla profilu przeciągnięcia**. Wybierz powierzchnię profilu utworzoną w poprzednim kroku.
+3. Po wybraniu profilu zostanie wyświetlony monit **Należy wybrać powierzchnię \(lub krawędzie\) dla ścieżki przeciągnięcia, a następnie kliknąć przycisk Zakończ**. Wybierz górną powierzchnię dachu. Program FormIt automatycznie użyje obwiedni wybranej powierzchni jako ścieżki przeciągnięcia i utworzy przeciągnięcie wokół całego dachu.
 
-_**Note:**_ _If you are having trouble selecting either of the faces,_ _**Orbit (O)**_ _around to view the face a little better and try again. As an alternate option, select all the edges of the roof instead of the roof’s top face to complete the sweep._
+_**Uwaga:**_ _w przypadku problemów z wybraniem dowolnej z powierzchni użyj narzędzia_ _**Obróć \(O\)**_ _, aby lepiej zobaczyć powierzchnię, i spróbuj ponownie. Możesz też wybrać wszystkie krawędzie dachu zamiast jego górnej powierzchni, aby ukończyć tworzenie przeciągnięcia._
 
-![](<../../.gitbook/assets/11 (2).png>)
+![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - Keep your model organized by creating a **Roof - Cornice** group, adding it to the **Roof** layer, and assigning the **Metal – Brushed – Colorized** material to it.
+4 — Aby uporządkować model, utwórz grupę **Dach — gzyms**, dodaj ją do warstwy **Dach** i przypisz do niej materiał **Metal — matowy — kolorowy**.
 
-![](<../../.gitbook/assets/12 (1).png>)
+![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - To finish up, turn on the **Column** layer, and you will see that the newly created sweep intersects with the tops of the columns. Resolve this by editing any one of the **Column Tall** groups, and dragging the top face down until it aligns with the bottom of the cornice.
+5 — Na koniec włącz warstwę **Słup**. Zobaczysz, że nowo utworzony gzyms przecina górne części słupów. Aby to poprawić, edytuj dowolną grupę **Słup — wysoki** i przeciągnij górną powierzchnię w dół do momentu wyrównania z dolną powierzchnią gzymsu.
 
-![](<../../.gitbook/assets/13 (5).png>)
+![](../../.gitbook/assets/13%20%285%29.png)
+

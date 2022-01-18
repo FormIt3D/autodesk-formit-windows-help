@@ -1,51 +1,54 @@
-# AutoSave
+# Autozapis
 
-Starting with v17.3, FormIt for Windows includes AutoSave, which makes a backup copy of your FormIt model while you work. This backup file can be used to recover data if FormIt closes with unsaved changes.
+Od wersji 17.3 program FormIt dla systemu Windows zawiera funkcję Autozapis, która umożliwia tworzenie kopii zapasowej modelu FormIt podczas pracy. Używając tego pliku kopii zapasowej, można odzyskać dane, gdy program FormIt zostanie zamknięty bez zapisania zmian.
 
-## Toggling AutoSave
+### Włączanie i wyłączanie autozapisu
 
-Find configuration options for AutoSave in Edit > Preferences > AutoSave.
+Znajdź opcje konfiguracji funkcji Autozapis, wybierając opcje Edycja &gt; Preferencje &gt; Autozapis.
 
-![](<../.gitbook/assets/20190613-autosave (1).png>)
+![](../.gitbook/assets/20190613-autosave.png)
 
-AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box.
+Funkcja Autozapis jest domyślnie włączona, ale można ją całkowicie wyłączyć przez usunięcie zaznaczenia pola wyboru.
 
-Set the interval (in minutes) at which AutoSave will make a backup copy by entering a value in the "AutoSave interval" number box.
+Ustaw czas \(w minutach\), co jaki funkcja Autozapis będzie wykonywała kopię zapasową, wprowadzając wartość w polu liczbowym „Interwał autozapisu”.
 
-Note that these preferences are application-level, and will not change when opening different files.
+Pamiętaj, że te preferencje są wprowadzane na poziomie aplikacji i nie zmieniają się podczas otwierania różnych plików.
 
-## How AutoSave Works
+### Działanie funkcji Autozapis
 
-When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
+Włączona funkcja Autozapis sprawdza, czy w bieżącym pliku programu FormIt znajdują się niezapisane zmiany. Jeśli istnieją niezapisane zmiany, Autozapis tworzy kopię zapasową pliku co określony czas.
 
-Backup files are stored next to the original file, and have an extension of `.axmb`.
+Pliki kopii zapasowych są przechowywane obok oryginalnego pliku i mają rozszerzenie `.axmb`.
 
-For example, if your original FormIt file is stored at `C:/Users/<user>/FormIt/MyProject.axm`, the backup file can be found at `C:/Users/<user>/FormIt/MyProject.axmb`.
+Na przykład jeśli oryginalny plik programu FormIt jest przechowywany w lokalizacji `C:/Users/<user>/FormIt/MyProject.axm`, plik kopii zapasowej można znaleźć w lokalizacji `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-If you start a new FormIt session without opening an existing file, unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start adding unsaved changes next to the new location, as noted above.
+Jeśli rozpoczynasz nową sesję programu FormIt, nie otwierając istniejącego pliku, niezapisane zmiany można znaleźć w lokalizacji `C:/Users/<user>/Documents/Untitled.axmb`. Po zapisaniu nowego modelu w innej lokalizacji funkcja tworzenia kopii zapasowej zacznie dodawać niezapisane zmiany obok nowej lokalizacji, jak wspomniano powyżej.
 
-When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
+Po zapisaniu zmian w oryginalnym pliku funkcja Autozapis automatycznie usuwa plik kopii zapasowej, ponieważ kopia zapasowa jest teraz starsza niż oryginalny plik. Jednak wprowadzanie kolejnych zmian w zapisanym pliku spowoduje ponowne rozpoczęcie wykonywania kopii zapasowych przez funkcję Autozapis w określonych odstępach czasu.
 
-If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
+Jeśli plik roboczy zawiera niezapisane zmiany, ale wybierzesz zamknięcie programu FormIt i odrzucenie zmian, kopia zapasowa funkcji Autozapis zostanie usunięta. Jednak jeśli zamknięcie programu FormIt zostało wymuszone — przez wyłączenie komputera lub awarię aplikacji — plik kopii zapasowej funkcji Autozapis zostanie zachowany i będzie można użyć go później do odzyskania danych.
 
-## Working With AutoSave Enabled
+### Praca z włączonym autozapisem
 
-FormIt minimizes the potential performance impact of AutoSave by executing the backup in a separate process. With small- to medium-sized files, you shouldn't notice when AutoSave backs up. With very large files (\~400MB and above), you might notice just a momentary pause while FormIt copies the entire model and starts backing up in a separate process.
+Program FormIt minimalizuje potencjalny wpływ funkcji Autozapis na wydajność, wykonując kopię zapasową w ramach oddzielnego procesu. W przypadku plików o małych i średnich rozmiarach wykonywanie kopii zapasowej przez funkcję Autozapis powinno być niezauważalne. W przypadku bardzo dużych plików \(około 400 MB lub więcej\) można zauważyć zaledwie chwilową przerwę, gdy program FormIt kopiuje cały model i rozpoczyna wykonywanie kopii zapasowej w oddzielnym procesie.
 
-If you're wondering if AutoSave is currently backing up, you can watch the status bar the bottom left of the application for a brief "AutoSaving..." message:
+Jeśli zastanawiasz się, czy funkcja Autozapis wykonuje w danej chwili kopię zapasową, możesz sprawdzić, czy na pasku stanu w lewym dolnym rogu aplikacji jest wyświetlany krótki komunikat „Automatyczne zapisywanie...”:
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-If your status bar is disabled, you can enable it at Window > Status Bar or via the shortcut HS.
+Jeśli pasek stanu jest wyłączony, możesz go włączyć, wybierając opcje Okno &gt; Pasek stanu lub używając skrótu HS.
 
-## Recovering Data with AutoSave
+### Odzyskiwanie danych za pomocą funkcji Autozapis
 
-When opening a FormIt file with a backup available, FormIt will alert you that the backup file exists. As mentioned above, this could be simply due to you closing FormIt without electing to save changes to this project last time it was edited, or due to FormIt unexpectedly closing.
+Podczas otwierania pliku programu FormIt z dostępną kopią zapasową program FormIt poinformuje o istnieniu pliku kopii zapasowej. Jak wspomniano powyżej, może to być spowodowane zamknięciem programu FormIt bez wybrania opcji zapisania zmian w tym projekcie podczas jego ostatniej edycji lub nieoczekiwanym zamknięciem programu FormIt.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Clicking the "Open it?" hyperlink will load the `.axmb` backup file.
+Kliknięcie hiperłącza „Otworzyć?” spowoduje wczytanie pliku kopii zapasowej `.axmb`.
 
-Similarly, you can use File > Open, and manually select the `.axmb` file from the file explorer to open a backup.
+Aby otworzyć kopię zapasową, można również użyć poleceń Plik &gt; Otwórz i ręcznie wybrać plik `.axmb` z eksploratora plików.
 
-Once the backup file is open, the next time you save, FormIt will require you to pick a different FormIt file (`.axm`) to overwrite. You cannot overwrite FormIt backup files (`.axmb`).
+Po otwarciu pliku kopii zapasowej przy następnym zapisywaniu program FormIt będzie wymagał wybrania innego pliku FormIt \(`.axm`\) do zastąpienia. Nie można zastępować plików kopii zapasowej programu FormIt \(`.axmb`\).
+
+
+

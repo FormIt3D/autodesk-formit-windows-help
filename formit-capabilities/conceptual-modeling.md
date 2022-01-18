@@ -1,17 +1,22 @@
-# Conceptual Solid Modeling
+# Modelowanie brył koncepcyjnych
 
-Quickly and easily create conceptual geometry to work through design options.
+Szybko i łatwo twórz geometrię koncepcyjną, aby pracować z użyciem wariantów projektu.
 
-FormIt's solid modeling kernel enables incredible, time-saving workflows to make modeling easy and efficient.
+Jądro do modelowania brył programu FormIt zapewnia niezwykłe, oszczędzające czas procesy robocze umożliwiające łatwe i wydajne modelowanie.
 
-**Learn why solid modeling is advantageous, and how to ensure your model is solid so it can be used in downstream applications, like Revit:**
+**Dowiedz się, dlaczego modelowanie brył jest korzystne i jak zapewnić, że model będzie bryłą, aby można go było używać w aplikacjach do pracy na kolejnych etapach, takich jak Revit:**
 
 {% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
 
-**Once your model is solid, you can take advantage of solid extrusion techniques to quickly clean up geometry and maintain organized models:**
+**Gdy model jest już bryłą, można skorzystać z technik wyciągania brył, aby szybko wyczyścić geometrię i zadbać o uporządkowanie modeli:**
 
 {% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
 
-**Additionally, use Smart Selection tools to quickly select similar geometry and save clicks:**
+**Ponadto za pomocą narzędzi inteligentnego wybierania można szybko wybrać podobną geometrię i zaoszczędzić sobie kliknięć:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
+
+
+
+
+

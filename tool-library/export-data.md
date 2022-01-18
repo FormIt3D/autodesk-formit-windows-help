@@ -1,21 +1,22 @@
-# Import and Export Data
+# Import i eksport danych 
 
-## Importing Data
+## Importowanie danych
 
-The following file formats can be imported.
+Importować można następujące formaty plików.
 
-* **OBJ**: OBJ 3D mesh files are imported as a single FormIt Group. No materials are imported.
-* **DWG**: 2D and 3D DWG files are imported as a single FormIt Group. Object colors are supported.
-* **STL**:  STL 3D mesh files are imported as a single FormIt Group.
-* **SAT**: SAT solid model files are imported as a single FormIt Group.
-* **SKP**: SketchUp files are imported. Groups and Components are imported as FormIt Groups. Layers and materials are supported.&#x20;
+* **OBJ**: Pliki OBJ siatek 3D są importowane jako pojedyncze grupy programu FormIt. Nie są importowane żadne materiały.
+* **DWG**: Pliki DWG 2D i 3D są importowane jako pojedyncze grupy programu FormIt. Kolory obiektów są obsługiwane.
+* **STL**: Pliki STL siatek 3D są importowane jako pojedyncze grupy programu FormIt.
+* **SAT**: Pliki modeli brył SAT są importowane jako pojedyncze grupy programu FormIt.
+* **SKP**: Pliki programu SketchUp są importowane. Grupy i komponenty są importowane jako grupy programu FormIt. Warstwy i materiały są obsługiwane.
 
-[**Find out more about how to work with imported data**](../formit-primer/part-i/import-export-and-content-library.md)
+[**Dowiedz się więcej na temat pracy z importowanymi danymi**](../formit-primer/part-i/import-export-and-content-library.md)
 
-## Exporting Data
+## Eksportowanie danych
 
-FormIt can export the following file formats: AXM (FormIt file), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ (with a separate .MTL file), PNG images.
+Program FormIt umożliwia eksportowanie następujących formatów plików: AXM \(FormIt\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ \(materiały i 3D w jednym pliku ZIP\) oraz obrazy PNG.
 
-When exporting individual files, you can choose to export **All Objects**, **Visible Only**, or **Selected Only**.
+Podczas eksportowania pojedynczych plików można wybrać opcję eksportu **Wszystkie obiekty**, **Tylko widoczne** lub **Tylko wybrane**.
 
-![](<../.gitbook/assets/export\_window (1).png>)
+![](../.gitbook/assets/export_window.png)
+

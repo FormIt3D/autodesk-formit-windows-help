@@ -1,5 +1,6 @@
-# Section Planes
+# Płaszczyzny tnące
 
-Use **Section Planes** to cut into your FormIt model, revealing interior spaces and structural elements.
+Za pomocą **płaszczyzn przekroju** możesz ciąć model programu FormIt, odsłaniając pomieszczenia wewnętrzne i elementy konstrukcyjne.
 
-Learn about Section Planes in the [FormIt Primer](../formit-primer/part-i/section\_planes.md).
+Więcej na temat płaszczyzn przekroju można znaleźć w [podręczniku FormIt Primer](../formit-primer/part-i/section_planes.md).
+

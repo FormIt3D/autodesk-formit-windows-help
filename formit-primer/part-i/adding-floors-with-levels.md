@@ -1,35 +1,36 @@
-# 1.4 - Add Floors with Levels
+# 1.4 — Dodawanie kondygnacji z poziomami
 
-_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
+_Poziomy umożliwiają tworzenie płatów brył z odniesieniami do poszczególnych kondygnacji i obliczanie powierzchni całkowitej na bryłę budynku. Poziomy programu FormIt i ich nazwy niestandardowe zostaną przekształcone w poziomy programu Revit po przekonwertowaniu pliku na format programu Revit._
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
+_Jeśli nie ukończono poprzedniej sekcji, pobierz i otwórz plik**1.4 — Add Floors with Levels.axm** z folderu **FormIt Primer Part 1 Datasets**._
 
-## **Create, and Customize Levels**
+## **Tworzenie i dostosowywanie poziomów**
 
-1 - To create levels:
+1 — Aby utworzyć poziomy:
 
-1. Go to the **Level Palette** in the **Palette Bar**.
-2. Click **+** (**Add Level**) four times to create four Levels.
-3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
-4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
+1. Przejdź do **palety Poziomy** na **pasku palet**.
+2. Kliknij przycisk **+** \(**Dodaj poziom**\) cztery razy, aby utworzyć cztery poziomy.
+3. Kliknij dwukrotnie bieżącą rzędną każdego poziomu, aby zmienić je na: **0’-0", 2'-2", 4’-6"** i **17’-8"**.
+4. Kliknij dwukrotnie bieżącą nazwę każdego poziomu i zmień je na: **Ground, Terrace, Main Building** i **Top of Roof.**
 
-![](<../../.gitbook/assets/0 (16) (1).png>)
+![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
+_**Uwaga**: Możesz kliknąć ikonę_ _**++**_ _w celu utworzenia wielu poziomów z określonymi i jednakowymi odstępami między nimi. Jest to przydatne w przypadku budynków wielokondygnacyjnych_.
 
-## **Apply Levels to Geometry**
+## **Stosowanie poziomów do geometrii**
 
-_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
+_W poprzednich krokach tylko utworzyliśmy poziomy. Teraz możemy zastosować te poziomy do utworzonej geometrii._
 
-1 - To apply levels to the exiting geometry:
+1 — Aby zastosować poziomy do istniejącej geometrii:
 
-1. Select the entire upper terrace mass by double-clicking it.
-2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
-3. Now the currently selected geometry has three levels applied to it (**Main Building, Terrace,** and **Ground**), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
-4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
+1. Wybierz całą bryłę górnego tarasu, klikając ją dwukrotnie.
+2. Na **palecie Właściwości** kliknij opcję **Użyj poziomów**. W tym kroku zostaną wstępnie wybrane wszystkie poziomy, które aktualnie przecinają wybraną geometrię.
+3. Obecnie wybrana geometria ma zastosowane trzy poziomy \(**Main Building, Terrace** i **Ground**\), ale w tym ćwiczeniu chcemy zastosować tylko poziom **Ground**. Anuluj zaznaczenie pól wyboru **Main Building** i **Terrace**.
+4. Ten proces zapewnia uwzględnienie w obliczeniach powierzchni całkowitej tylko powierzchni przeciętej przez poziom **Ground**, co widać w polu **Powierzchnia wg poziomu**.
 
-![](<../../.gitbook/assets/1 (4) (1).png>)
+![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+_**Uwaga**: Jeśli na bryle nie widać niebieskich linii poziomu, wpisz_ _**DL**_ _w polu_ _**Wyświetl poziomy**._
 
-![](<../../.gitbook/assets/2 (3) (1).png>)
+![](../../.gitbook/assets/2%20%283%29.png)
+

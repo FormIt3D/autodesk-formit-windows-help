@@ -1,66 +1,67 @@
-# 1.12 - Visual Styles
+# 1.12 — Style wizualne
 
-_Modeling conceptual masses is just half of what FormIt has to offer. The other half are beautiful graphics that help to tell a story to a client, or team member. In this chapter, we will cover ways to set up your_ _**graphic visual styles**_ _and create animations._
+_Modelowanie brył koncepcyjnych to tylko połowa możliwości oferowanych przez program FormIt. Druga połowa to piękne grafiki, które pomagają przedstawić opowieść klientowi lub członkowi zespołu. W tym rozdziale omówiono sposoby konfigurowania_ _**graficznych stylów wizualnych**_ _i tworzenia animacji._
 
-_If you did not complete the last section, download and open the_ _**1.12 – Visual Styles.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.12 – Visual Styles.axm**_ _z zestawów danych_ _**FormIt Primer Part 1 Datasets**._
 
-## **Create an Animation**
+## **Tworzenie animacji**
 
-_In these next steps, we will learn how to use_ _**Scenes**_ _to create an animation._
+_W ramach następnych kroków dowiemy się, jak tworzyć animacje za pomocą_ _**Scen**_ _._
 
-1 – To create the first **Scene**:
+1 — Aby utworzyć pierwszą **scenę**:
 
-1. Turn on all the layers except **Terrain**, **Plan Image,** and **Massing**.
-2. Make sure the camera mode is set to **Perspective (VP)**, and position the camera so that it is looking at the entire house from slightly above, similar to the image below.
-3. Open the **Scenes Palette**.
-4. Click on the **+** icon to create a new scene from our current view.
-5. Rename it to **Aerial View 1**, and match the other **Scene Properties** to what is shown in the image below.
+1. Włącz wszystkie warstwy z wyjątkiem warstw **Terrain**, **Plan Image** i **Massing**.
+2. Upewnij się, że jako tryb kamery ustawiono opcję **Perspektywa \(VP\)**, i skieruj kamerę tak, aby jej pole widzenia obejmowało cały dom z nieznacznie podwyższonej pozycji, podobnie jak na poniższym rysunku.
+3. Otwórz **paletę Sceny**.
+4. Kliknij ikonę **+**, aby utworzyć nową scenę z bieżącego widoku.
+5. Zmień jego nazwę na **Aerial View 1** i dopasuj pozostałe **Właściwości sceny** do tego, co pokazano na poniższym rysunku.
 
-![](<../../.gitbook/assets/0 (17) (1).png>)
+![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - To create the second **Scene** and then animate between them:
+2 — Aby utworzyć drugą **scenę**, a następnie dodać animację między nimi:
 
-1. Adjust the camera to a new position so that you are looking at the house from a different angle. Create a new **Scene** named **Aerial View 2** using the same process we followed in the previous step.
-2. Click the **Play** button. After the set **Pause Time** of **2 Seconds**, the animation will start slowly moving back and forth between the two scenes. This will continue until you click the **Stop** button to stop the animation.
+1. Dostosuj kamerę do nowego położenia, tak aby oglądać dom pod innym kątem. Utwórz nową **scenę** o nazwie **Aerial View 2**, stosując ten sam proces, który przeprowadzono w poprzednim kroku.
+2. Kliknij przycisk **Odtwórz**. Po ustawieniu opcji **Czas wstrzymania** na **2 sekundy** animacja zacznie powoli poruszać się w jednym i drugim kierunku między dwoma scenami. Operacja będzie kontynuowana do momentu kliknięcia przycisku **Zatrzymaj** w celu zatrzymania animacji.
 
-![](<../../.gitbook/assets/1 (12) (1).png>)
+![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Note:**_ _You can adjust the_ _**Pause Time**,_ _**Transition Time**, and_ _**Camera Speed**_ _using the settings at the bottom of the_ _**Scene Properties**. Try adding some more scenes and playing with these settings to customize your animation._
+_**Uwaga:**_ _Można dostosować_ _**Czas wstrzymania**,_ _**Czas przejścia** i_ _**Prędkość kamery**_ _za pomocą ustawień na dole okna dialogowego_ _**Właściwości sceny**. Spróbuj dodać więcej scen i dostosować animację, eksperymentując z wartościami tych ustawień._
 
-## **Customize the Visual Styles**
+## **Dostosowywanie stylów wizualnych**
 
-_Now we are going to create another scene with some customized **Visual Styles** settings._
+_Teraz utworzymy kolejną scenę z pewnymi dostosowanymi ustawieniami **stylów wizualnych**._
 
-1 - First, open the **Visual Styles Palette**. Note there are four (4) tabs at the top, each containing different visual settings: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**. To learn more about each tab visit the **Visual Styles** chapter in the **Tool Library** section.
+1 — Najpierw otwórz **paletę Style wizualne**. Należy pamiętać, że u góry znajdują się cztery \(4\) karty, z których każda zawiera różne ustawienia wizualne: **Powierzchnie**, **Krawędzie**, **Środowisko** i **Diagnostyka modelu**. Aby dowiedzieć się więcej na temat każdej karty, zapoznaj się z rozdziałem **Style wizualne** w sekcji **Biblioteka narzędzi**.
 
-2 – To customize some settings in the **Surface Tab**:
+2 —— Aby dostosować niektóre ustawienia na **karcie Powierzchnia**:
 
-1. Turn on **Shadows (DS)**.
-2. Turn on **Ambient Shadows (DA)**.
-3. Turn on **Monotone Surfaces (DM)**. This makes an abstract black and white image without any materials.
+1. Włącz opcję **Cienie \(DS\)**.
+2. Włącz opcję **Cienie otoczenia \(DA\)**.
+3. Włącz opcję **Powierzchnie monotone \(DM\)**. Spowoduje to utworzenie abstrakcyjnego czarno-białego obrazu bez użycia żadnych materiałów.
 
-![](<../../.gitbook/assets/2 (20) (1).png>)
+![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – To customize some settings in the **Edge Tab**:
+3 — Aby dostosować niektóre ustawienia na **karcie Krawędź**:
 
-*
-  1. Adjust the sliders to lighten the **Edges** contrast to around **30%**.
-  2. Turn on the **Extend Edges (DX).**
-  3. Adjust the sliders to lighten the **Silhouettes** contrast to **30%**.
+* 
+   1. Dostosuj suwaki, aby rozjaśnić kontrast dla opcji **Krawędzie** do wartości około **30%**.
+   2. Włącz opcję **Wydłuż krawędzie \(DX\).**
+   3. Dostosuj suwaki, aby rozjaśnić kontrast dla opcji **Sylwetki** do wartości **30%**.
 
-![](<../../.gitbook/assets/3 (11) (1).png>)
+![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - To customize some settings in the **Environment Tab**:
+4 — Aby dostosować niektóre ustawienia na **karcie Środowisko**:
 
-1. Turn off **Axes**.
-2. Turn off **Levels**, if on.
+1. Wyłącz opcję **Osie**.
+2. Wyłącz opcję **Poziomy**, jeśli jest włączona.
 
-![](<../../.gitbook/assets/4 (8) (2).png>)
+![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - Create a new scene called **Customized Scene** to save these settings. Now you can switch back and forth between the **Scenes** to reset the graphic settings.
+5 — Utwórz nową scenę o nazwie **Customized Scene**, aby zapisać te ustawienia. Teraz można przełączać się między **scenami**, aby resetować ustawienia grafiki.
 
-![](<../../.gitbook/assets/5 (6) (1).png>)
+![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Note**: If you uncheck the_ _**Camera**_ _property of the new scene, you can use it to only toggle on the visual settings we just created without move the camera position. Give it a try by going to one of your previous Aerial scenes, and then double-clicking on the_ _**Customized Scene**_ _and watching what happens!_
+_**Uwaga**: Po wyczyszczeniu właściwości_ _**Kamera**_ _nowej sceny możesz za jej pomocą jedynie przełączać ustawienia wizualne utworzone przed chwilą bez przesuwania położenia kamery. Spróbuj przejść do jednej z poprzednich scen widocznych z lotu ptaka („Aerial...”), a następnie kliknij dwukrotnie pozycję_ _**Customized Scene**_ _i obserwuj, co się stanie._
 
-_**Note:**_ _To Learn about_ _**Visual Styles Diagnostics**_ _and advanced applications for_ _**Scenes**, check out the_ _**Primer Part II**._
+_**Uwaga:**_ _Aby dowiedzieć się więcej na temat_ _**diagnostyki stylów wizualnych**_ _i zaawansowanych zastosowań_ _**scen**, zapoznaj się z częścią_ _**Primer Part II**._
+

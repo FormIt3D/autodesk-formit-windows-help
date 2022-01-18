@@ -2,18 +2,18 @@
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Content
+## Zawartość
 
-[**Part I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) covers a single workflow tutorial that goes over the basic tools while modeling the famous Farnsworth House step-by-step to help you start modeling today.
+\*\*\*\*[**Część I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*obejmuje samouczek z pojedynczym procesem roboczym, w ramach którego omawiane są podstawowe narzędzia i krok po kroku modelowany jest słynny dom pani Farnsworth, co ułatwia natychmiastowe rozpoczęcie modelowania.
 
 ![](<../.gitbook/assets/farnsworth-house (1).png>)
 
-[**Part II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) covers some more advanced tools using a pre-modeled fictional architectural project to explore advanced modeling features, analytical tools, and computational tools to help you take FormIt to the next level.
+\*\*\*\*[**Część II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) zawiera omówienie bardziej zaawansowanych narzędzi z wykorzystaniem wstępnie wymodelowanego fikcyjnego projektu architektonicznego na potrzeby przeglądu zaawansowanych funkcji modelowania, narzędzi analitycznych i narzędzi obliczeniowych, co pozwala rozwinąć umiejętności korzystania z programu FormIt.
 
-![](<../.gitbook/assets/screen1 (1).jpg>)
+![](../.gitbook/assets/screen1.jpg)
 
-## Credits
+## Autorstwo
 
-This 2021 Edition of the FormIt Primer is a redesign and expansion upon the first Primer, developed in partnership with [EvolveLAB](https://www.evolvelab.io).
+Ta wersja 2021 podręcznika FormIt Primer to przeprojektowana i rozszerzona wersja pierwszego podręcznika Primer opracowanego wspólnie z firmą [EvolveLAB](https://www.evolvelab.io).
 
 [![](<../.gitbook/assets/evolvelab\_logo\_\_horizontal (1).png>)](https://www.evolvelab.io)

@@ -1,61 +1,61 @@
-# Snaps and Inferences
+# Przyciąganie i wnioskowanie
 
-To make sketching and modeling easier, use snaps and inference points to accurately create, place, and edit geometry. You can use whatever axis you choose as the axis on which to draw or execute another action, such as extruding a surface.
+Aby łatwiej szkicować i modelować, używaj przyciągania i punktów wnioskowania w celu dokładnego tworzenia, umieszczania i edytowania geometrii. Można używać dowolnej osi jako tej, na podstawie której będzie coś rysowane lub zostanie wykonana inna operacja, np. wyciągnięcie powierzchni.
 
-**Note:** _See_ [_Keyboard Shortcuts_](../appendix/keyboard-shortcuts.md) _for information about how to speed up your use of the software's tools._
+**Uwaga:** _Zobacz temat_ [_Skróty klawiaturowe_](../appendix/keyboard-shortcuts.md)_, aby uzyskać informacje na temat przyspieszenia korzystania z narzędzi oprogramowania._
 
-## Snapping
+## Przyciąganie
 
-There are several snaps that can aid you while you are sketching and modeling. Snapping to objects is automatically enabled, and you can snap to:
+Istnieje kilka trybów przyciągania, które mogą być pomocne podczas szkicowania i modelowania. Przyciąganie do obiektów jest automatycznie włączone i można je przyciągać do następujących elementów:
 
-|                                                                                                                                                                            |                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| Vertices                                                                                                                                                                   | ![](<../.gitbook/assets/inf3 (3).png>) |
-| Edges. When hovering over the edge, small red dots will be drawn at the ends and at the mid point.                                                                         | ![](../.gitbook/assets/inf4.png)       |
-| Edge mid points                                                                                                                                                            | ![](../.gitbook/assets/inf5.png)       |
-| The plane of a face. When hovering over the face a small red dot will be drawn at the face centroid. This will make it easy to find that point, if you want to snap to it. | ![](../.gitbook/assets/inf6.png)       |
-| Face centroids                                                                                                                                                             | ![](../.gitbook/assets/inf7.png)       |
-| The work plane, if you don't snap to anything else.                                                                                                                        | ![](../.gitbook/assets/inf8.png)       |
-| Circle or arc centers                                                                                                                                                      | ![](../.gitbook/assets/inf9.png)       |
-| Mesh vertices                                                                                                                                                              | ![](../.gitbook/assets/inf2.png)       |
-| The plane of a mesh facet.                                                                                                                                                 | ![](../.gitbook/assets/inf1.png)       |
+|                                                                                                                                                                            |                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Wierzchołki | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| krawędzi Po ustawieniu wskaźnika na krawędzi na końcach i w punkcie środkowym zostaną narysowane małe czerwone kropki. | ![](../.gitbook/assets/inf4.png) |
+| Punkty środkowe krawędzi | ![](../.gitbook/assets/inf5.png) |
+| Płaszczyzna powierzchni. Po ustawieniu wskaźnika na powierzchni na środku ciężkości powierzchni zostanie narysowana mała czerwona kropka. Ułatwi to znalezienie tego punktu, jeśli chcesz do niego przyciągnąć. | ![](../.gitbook/assets/inf6.png) |
+| Środki ciężkości powierzchni | ![](../.gitbook/assets/inf7.png) |
+| Płaszczyzna robocza, jeśli nie przyciągniesz do niczego innego. | ![](../.gitbook/assets/inf8.png) |
+| Środki okręgów lub łuków | ![](../.gitbook/assets/inf9.png) |
+| Wierzchołki siatki | ![](../.gitbook/assets/inf2.png) |
+| Płaszczyzna fasety siatki. | ![](../.gitbook/assets/inf1.png) |
 
-To snap to the grid, you must enable the **Snap to Grid (SG)** toggle from the Settings menu.
+Aby przyciągnąć do siatki, należy włączyć przełącznik **Przyciągaj do siatki (SG)** w menu Ustawienia.
 
-## Inference Axes and Points
+## Punkty i osie wnioskowania
 
-Automatic selection of inference points is always enabled and will help you constrain the movement of geometry. Inference axes are generated by tools automatically or when you hover the mouse over edges or points. Inference axes are always drawn on the screen with dashes so that you know where they are and are easy to snap to.
+Automatyczny wybór punktów wnioskowania jest zawsze włączony i pomaga ograniczyć ruch geometrii. Osie wnioskowania są generowane za pomocą narzędzi automatycznie lub po umieszczeniu wskaźnika myszy na krawędziach bądź punktach. Osie wnioskowania są zawsze rysowane na ekranie za pomocą kresek, dzięki czemu użytkownik wie, gdzie się znajdują, i można łatwo do nich przyciągać.
 
-**Axis:** You can move geometry along the X, Y, or Z axis. The X-axis inference is red, the Y-axis is green, and the Z-axis is blue.
+**Oś:** Geometrię można przesuwać wzdłuż osi X, Y lub Z. Oś wnioskowania X ma kolor czerwony, oś Y zielony, a oś Z niebieski.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Axis Locking:** You can lock movement along the X, Y, or Z axis. Hold down the Shift key while on an axis inference, then move your mouse to snap and inference to other elements.
+**Blokowanie osi:** Ruch można blokować wzdłuż osi X, Y lub Z. Przy wskaźniku znajdującym się na osi wnioskowania przytrzymaj klawisz Shift, a następnie przesuń mysz, aby przyciągnąć i wnioskować w zakresie innych elementów.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Parallel:** You can sketch or move geometry parallel to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a parallel reference.
+**Równoległe:** Geometrię można szkicować lub przesuwać równolegle do istniejących elementów. Wnioskowania prostopadłe są fioletowe. Należy umieścić kursor na linii, która ma służyć jako odniesienie równoległe.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Perpendicular:** You can also draw or move geometry perpendicular to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a perpendicular reference.
+**Prostopadłe:** Można również rysować lub przesuwać geometrię prostopadle do istniejących elementów. Wnioskowania prostopadłe są fioletowe. Należy umieścić kursor na linii, która ma służyć jako odniesienie prostopadłe.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Extending from a point:** You can also use inferences to extend from a point reference. Hover the mouse over a point you want to use as a reference until the tooltip appears, then use the inference axis that extends from the point.
+**Wydłużanie od punktu:** Można również używać odniesień, aby wydłużać od punktu odniesienia. Ustaw wskaźnik myszy na punkcie, który ma służyć jako odniesienie, i poczekaj, aż zostanie wyświetlona etykieta narzędzia, a następnie użyj osi wnioskowania, która rozciąga się od tego punktu.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Circle Center**: If you want to snap to the center of an arc or circle, hover over the arc or circle. This will show a small red dot at the center. It will stay visible for about 5 seconds after you move away from the arc or circle. Now move the cursor over the red dot to snap to the center.
+**Środek okręgu**: Aby przyciągnąć do środka łuku lub okręgu, ustaw kursor na łuku lub okręgu. Spowoduje to wyświetlenie małej czerwonej kropki w środku. Po odsunięciu kursora od łuku lub okręgu będzie ona widoczna przez około 5 sekund. Teraz przesuń kursor na czerwoną kropkę, aby przyciągnąć do środka.
 
 ![](../.gitbook/assets/inf17.png)
 
-**True arc and spline midpoints**: When you hover over a circle, arc or spline you will be able to snap to the true midpoint. It and the end points will be shown by a small red dot. When inferencing on an arc you will also snap to the vertices of the straight edges that represent the arc.
+**Rzeczywiste punkty środkowe łuku i splajnu**: Po umieszczeniu wskaźnika myszy na okręgu, łuku lub splajnie można przyciągać do rzeczywistego punktu środkowego. Ten punkt i punkty końcowe będą wskazywane za pomocą małej czerwonej kropki. Podczas wnioskowania na łuku można również przyciągać do wierzchołków krawędzi prostych, które reprezentują łuk.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Clearing inferences**: It is possible that drawing will generate a larger number of inferences, which may be in the way of placing points that are not supposed to snap to those inferences. If you press he **Shift + Spacebar** keys, all inferences will be cleared, except for those at the last placed point.
+**Czyszczenie elementów wnioskowania**: Może się zdarzyć, że wskutek rysowania zostanie wygenerowana duża liczba elementów wnioskowania, co może przeszkadzać w umieszczaniu punktów, które nie powinny być przyciągane do tych elementów. Naciśnięcie klawiszy **Shift + Spacja** spowoduje usunięcie wszystkich elementów wnioskowania, z wyjątkiem tych znajdujących się w ostatnio umieszczonym punkcie.
 
-![Before clearing inferences](../.gitbook/assets/inf19.png)
+![Przed wyczyszczeniem elementów wnioskowania](../.gitbook/assets/inf19.png)
 
-![After clearing inferences](../.gitbook/assets/inf20.png)
+![Po wyczyszczeniu elementów wnioskowania](../.gitbook/assets/inf20.png)

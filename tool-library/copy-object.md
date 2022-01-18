@@ -1,28 +1,29 @@
-# Copy Object
+# Kopiuj obiekt
 
-There are three ways to copy an object.
+Istnieją trzy sposoby kopiowania obiektu.
 
-**Copy Using the Context Menu**
+**Kopiowanie za pomocą menu kontekstowego**
 
-1. Select the object by double-clicking it.
-2. Right-click the object.
-3. Select the [**Copy tool**](tilt-array-copy-and-paste.md) in the Context Menu.
-4. Right-click anywhere else in the scene and choose the **Paste button**.
+1. Wybierz obiekt, klikając go dwukrotnie.
+2. Kliknij prawym przyciskiem myszy obiekt.
+3. Wybierz [**narzędzie Kopiuj**](tilt-array-copy-and-paste.md) z menu kontekstowego.
+4. Kliknij prawym przyciskiem myszy w dowolnym innym miejscu w scenie i wybierz **przycisk Wklej**.
 
-Note: This also works with **CTRL + C** or **V**. Use Paste In Place (**CTRL+Shift+V**) to paste an object exactly where it was copied from.
+Uwaga: działa to również z kombinacją klawiszy **CTRL+C** lub **V**. Za pomocą polecenia Wklej lokalnie \(**CTRL+Shift+V**\) wklej obiekt dokładnie w miejscu, z którego został skopiowany.
 
-**Copy Using the CTRL Key**
+**Kopiowanie za pomocą klawisza CTRL**
 
-1. Select the object by clicking it (double-click to select a whole body or everything attached).
-2. Press and hold the **CTRL key** and start dragging the object, or start moving the object and then tap **CTRL**
-3. Instead of moving the object, you'll now be moving a copy of it.
-4. Note that Ctrl-copy does not currently work when Touch Mode is enabled.&#x20;
-   1. In Touch Mode, you'll need to use the copy/paste tools in the Context Menu (press and hold) or use Ctrl+C and Ctrl+V, then place the object down, and reposition it as needed.
+1. Wybierz obiekt, klikając go \(kliknij dwukrotnie, aby wybrać całą bryłę lub wszystkie dołączone elementy\).
+2. Naciśnij i przytrzymaj **klawisz CTRL** i rozpocznij przeciąganie obiektu albo najpierw rozpocznij przesuwanie obiektu, a potem naciśnij klawisz **CTRL**.
+3. W ten sposób zamiast przesuwać obiekt, przenosisz jego kopię.
+4. Pamiętaj, że polecenie Kopiuj przy naciśniętym klawiszu Ctrl nie działa obecnie, gdy jest włączony tryb dotykowy.
+   1. W trybie dotykowym należy użyć narzędzi Kopiuj/Wklej z menu kontekstowego \(przez naciśnięcie i przytrzymanie\) lub użyć kombinacji klawiszy Ctrl+C i Ctrl+V, a następnie umieścić obiekt i zmienić jego położenie zgodnie z potrzebami.
 
-**Copy Using the Array Tool**
+**Kopiowanie za pomocą narzędzia Szyk**
 
-1. Select the object by double-clicking it
-2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
-3. Select the number of copies you want to make
-4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .**  ![](<../.gitbook/assets/array\_properties (2).png>)
+1. Wybierz obiekt, klikając go dwukrotnie.
+2. **Kliknij prawym przyciskiem myszy** obiekt i wybierz [**narzędzie Szyk**](tilt-array-copy-and-paste.md).
+3. Określ liczbę kopii do utworzenia.
+4. Wybierz, czy następne przeciągnięcie zdefiniuje odległość między dwoma obiektami, czy całkowitą długość szyku.
+5. Kliknij **OK.**  ![](../.gitbook/assets/array_properties.png)
+

@@ -1,80 +1,81 @@
 # Railing Along Path
 
-## Powered By Dynamo
+## Obsługiwane przez dodatek Dynamo
 
-In FormIt 2021 and newer, you can generate a railing along a path, and quickly customize the results in-place. Railing Along Path is powered by Dynamo, which means the resulting railing is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+W programie FormIt 2021 i w nowszych wersjach można generować poręcz wzdłuż ścieżki i szybko dostosowywać wyniki lokalnie. Poręcz wzdłuż ścieżki jest obsługiwana przez dodatek Dynamo, co oznacza, że wynikową poręcz można łatwo skonfigurować, aby uzyskać żądane wyniki, a ponowne uruchomienie logiki spowoduje zaktualizowanie geometrii lokalnie.
 
-![](<../.gitbook/assets/railing-along-path (1).gif>)
+![](../.gitbook/assets/railing-along-path.gif)
 
-## Starting Railing Along Path
+## Uruchamianie przykładu Railing Along Path
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the Railing Along Path sample
-* On the left side of the screen, you'll see a prompt to "Select path for railing"
-  * You should select only a series of contiguous edges, or a Group containing only a series of edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter/Return.
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated railing in a FormIt Group, ready for modifying (see below).
+* Przejdź do panelu Dynamo w programie FormIt dla systemu Windows i upewnij się, że znajdujesz się w katalogu Dynamo Samples.
+* Kliknij przykład Railing Along Path.
+* Po lewej stronie ekranu zostanie wyświetlony monit „Select path for railing”.
+   * W tym miejscu należy wybrać tylko serię przylegających krawędzi lub grupę zawierającą serię krawędzi.
+   * Po wybraniu ścieżki kliknij przycisk „finish” lub naciśnij klawisz Enter/Return.
+* W panelu Dynamo będzie wyświetlana informacja o przetwarzaniu zmian. Po zakończeniu poręcz wygenerowana przez dodatek Dynamo będzie dostępna w grupie FormIt i będzie można ją modyfikować \(patrz poniżej\).
 
-## Iterating In Place
+## Iteracja lokalna
 
-After running Railing Along Path, you'll notice its results are set to default values. Maybe these work for you, but you can heavily customize the railing to suit your needs.
+Po uruchomieniu narzędzia Railing Along Path wyniki jego działania będą miały wartości domyślne. Być może będą w danym przypadku odpowiednie, ale poręcz można w znacznym stopniu dostosować do własnych potrzeb.
 
-When Railing Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Railing Along Path instance.
+Gdy narzędzie Railing Along Path jest uruchomione, tworzona jest nowa grupa zawierająca wyniki, a polecenie FormIt automatycznie wybiera grupę i wyświetla dostępne opcje dla wystąpienia tego narzędzia.
 
-You can always return to the Railing Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+W każdej chwili można wrócić do właściwości narzędzia Railing Along Path, wybierając grupę i przełączając się na panel Właściwości lub edytując grupę, co spowoduje automatyczne wyświetlenie właściwości.
 
-![](<../.gitbook/assets/railing-along-path-options (1).png>)
+![](../.gitbook/assets/railing-along-path-options.png)
 
-### Railing Height
+### Wysokość poręczy
 
-The overall height of the railing. Uses the current FormIt units.
+Całkowita wysokość poręczy. Używane są bieżące jednostki programu FormIt.
 
 ### Post Spacing
 
-The spacing between main vertical posts. Uses the current FormIt units.
+Odstępy między głównymi słupkami pionowymi. Używane są bieżące jednostki programu FormIt.
 
 ### Add Posts at Path Vertices
 
-When **true**, posts will be added at each vertex of the selected path, and the calculation for the next post positioning resets at that point.
+Gdy jest ustawiona wartość **true**, słupki zostaną dodane w poszczególnych wierzchołkach wybranej ścieżki, a obliczenia dla następnego położenia słupka zostaną zresetowane w tych punktach.
 
-For example, if you selected a series of 3 edges, a post will appear at each of the two inner points. This is useful if the vertices indicate a change of direction (like going up stairs or turning corners) where a post would naturally occur.
+Na przykład jeśli wybrano serię 3 krawędzi, w każdym z dwóch punktów wewnętrznych pojawi się słupek. Jest to przydatne, jeśli wierzchołki wskazują zmianę kierunku \(np. kierunek schodów w górę lub zakręty\) w miejscach, w których słupki w naturalny sposób występują.
 
-When **false**, posts will only be added along the path starting from one end, and measuring the distance along the path, ignoring vertices along the way. This is useful if you've selected an arc, spline, or circle, where the vertices are not important, and you want the post spacing to ignore them.
+Gdy jest ustawiona wartość **false**, słupki zostaną dodane tylko wzdłuż ścieżki rozpoczynającej się na jednym końcu i z pomiarem odległości wzdłuż ścieżki oraz ignorowaniem występujących wzdłuż ścieżki wierzchołków. Jest to przydatne, jeśli wybrano łuk, splajn lub okrąg, w których wierzchołki nie są ważne i powinny być ignorowane w odstępach między słupkami.
 
 ### Reverse Path Direction
 
-When calculating the positioning of the posts, the direction of the chosen path will determine which end of the path will start the post spacing measurement.
+Podczas obliczania położenia słupków kierunek wybranej ścieżki określa, od którego końca ścieżki rozpocznie się pomiar odstępów między słupkami.
 
-In cases where the post spacing results in leftover space on an undesirable end of the path, you can change this value to **true** to flip the curve, and start the post spacing measurement at the opposite end.
+W przypadkach gdy odstępy między słupkami powodują powstanie pustej przestrzeni na nieodpowiednim końcu ścieżki, można zmienić tę wartość na **true**, aby odwrócić krzywą i rozpocząć pomiar odstępów między słupkami na przeciwległym końcu.
 
 ### Post Width + Depth
 
-The size (in plan) of the rectangular vertical post profiles. Uses the current FormIt units.
+Rozmiar \(w rzucie\) profili pionowych słupków prostokątnych. Używane są bieżące jednostki programu FormIt.
 
 ### Handrail Width + Height
 
-The size (in section) of the rectangular handrail profile. Uses the current FormIt units.
+Rozmiar \(w przekroju\) profilu poręczy prostokątnej. Używane są bieżące jednostki programu FormIt.
 
 ### Baluster Orientation
 
-When true, balusters will be oriented horizontally, like cables. When false, the balusters will be oriented vertically, for a more traditional aesthetic.
+Gdy jest ustawiona wartość „true”, tralki będą zorientowane poziomo, podobnie jak kable. W przypadku wartości „false” tralki będą zorientowane pionowo, zapewniając bardziej tradycyjną estetykę.
 
 ### Baluster width + Depth
 
-The size of the baluster's rectangular profile. Uses the current FormIt units.
+Rozmiar profilu prostokątnego tralki. Używane są bieżące jednostki programu FormIt.
 
 ### Baluster Spacing
 
-The amount of space between each baluster. Uses the current FormIt units.
+Ilość miejsca między poszczególnymi tralkami. Używane są bieżące jednostki programu FormIt.
 
 ### Bottom Rail Start Height
 
-The distance between the bottom of the railing, and the bottom rail that supports the balusters. Uses the current FormIt units.
+Odległość między dołem poręczy a dolną szyną, która podpiera tralki. Używane są bieżące jednostki programu FormIt.
 
-### Run
+### Uruchom
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+Po zakończeniu edycji opcji kliknij przycisk „Run”, aby uruchomić podstawowy wykres dodatku Dynamo i wygenerować nowe wyniki. Po zmianie parametrów przycisk zmienia kolor na niebieski, dzięki czemu wiesz, że należy go kliknąć, aby zobaczyć aktualizacje w końcowej geometrii.‌
 
 ### Edit Embedded Graph
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+Kliknięcie tego przycisku spowoduje uruchomienie środowiska edytora wykresów Dynamo, aby można było wyświetlić i edytować podstawowy wykres Dynamo w celu szybszej zmiany parametrów i wyświetlenia aktualizacji na żywo bądź sprawdzenia/dopasowania logiki.
+

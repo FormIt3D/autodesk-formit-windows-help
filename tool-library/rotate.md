@@ -1,13 +1,14 @@
-# Rotate Object
+# Obracanie obiektu
 
-You can change the orientation of objects using the Rotate tool in the Context Menu.
+Orientację obiektów można zmieniać za pomocą narzędzia Obróć z menu kontekstowego.
 
-1. Select an element you want to rotate and right-click to launch the Context Menu.
-2. From the Context Menu, select the Rotate tool.&#x20;
-3. When the protractor graphic appears on your mouse, click to set the plane for rotation.
-4. Use the blue grips to specify the start point of the rotation, and reset the axis if necessary. Use the arrows or the editable dimension box to set the rotation angle.&#x20;
+1. Wybierz element, który chcesz obrócić, i kliknij prawym przyciskiem myszy, aby wyświetlić menu kontekstowe.
+2. Z menu kontekstowego wybierz narzędzie Obróć.
+3. Gdy na wskaźniku myszy pojawi się grafika kątomierza, kliknij, aby ustawić płaszczyznę obrotu.
+4. Użyj niebieskich uchwytów, aby określić punkt początkowy obrotu i jeśli to konieczne, zresetuj oś. Za pomocą strzałek lub edytowalnego pola wymiarowego ustaw kąt obrotu.
 
-Note that you can alse use the **Q** keyboard shortcut to access the rotate tool after selecting an element.
+Można też użyć skrótu klawiaturowego **Q**, aby po wybraniu elementu uzyskać dostęp do narzędzia obrotu.
 
-![](../.gitbook/assets/rotate1.png)\
+![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)
+

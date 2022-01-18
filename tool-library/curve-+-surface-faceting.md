@@ -1,39 +1,39 @@
-# Curve + Surface Faceting
+# Płaszczyzny krzywej i powierzchni
 
-FormIt is a polyhedral modeling system, so objects like circles, arcs, and splines are represented by a series of straight edges. Similarly, a curved surface like the wall of a cylinder, or a dome, is comprised of a series of planar faces with hidden border edges.
+Program FormIt jest wielościennym systemem modelowania, w którym obiekty, takie jak okręgi, łuki i splajny, są reprezentowane przez serię prostych krawędzi. Podobnie zakrzywiona powierzchnia, na przykład ściana walca lub kopuła, składa się z szeregu płaskich powierzchni z ukrytymi krawędziami obramowania.
 
-By default, FormIt uses 40 edges, or facets, to represent a circle, and 24 facets to represent a 3D, curved object like a cylinder. For more complex surfaces like a dome, a value of 24 sets the perimeter faceting count, and also impacts how densely faceted the rest of the shape is.
+Domyślnie w programie FormIt używanych jest 40 krawędzi lub płaszczyzn do reprezentacji okręgu i 24 płaszczyzny do reprezentacji zakrzywionego obiektu 3D, na przykład walca. W przypadku bardziej złożonych powierzchni, takich jak kopuła, wartość 24 określa liczbę płaszczyzn tworzących obwód, a także wpływa na gęstość płaszczyzn pozostałej części kształtu.
 
-In FormIt for Windows v18 and newer, the curve and surface faceting values are customizable:
+W programie FormIt dla systemu Windows w wersji 18 i nowszych wartości płaszczyzn powierzchni i krzywej można dostosowywać:
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](../.gitbook/assets/faceting.png)
+![](<../.gitbook/assets/faceting (1).png>)
 
 **Curve Faceting Quality**
 
-Changing the Curve Faceting Quality will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle or a quarter-circle arc with 16 facets.
+Zmiana parametru Curve Faceting Quality wpłynie na liczbę płaszczyzn używanych podczas rysowania nowych okręgów i łuków w programie FormIt oraz podczas umieszczania kształtów prymitywów. Na przykład ustawienie wartości 64 spowoduje utworzenie 64-stronnego pełnego okręgu lub ćwierćokręgu z 16 płaszczyznami.
 
-This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry from Dynamo. You can set this value for new sketches, or just the current sketch.
+Ta wartość wpłynie również na jakość okręgów i łuków importowanych z plików SAT, jak również podczas nanoszenia geometrii z dodatku Dynamo. Tę wartość można ustawić dla nowych szkiców lub tylko dla bieżącego szkicu.
 
-For existing curves, you can also use the Rebuild Curve plugin to retroactively rebuild an **existing** arc or circle with a new faceting count:
+W przypadku istniejących krzywych można również użyć wtyczki Rebuild Curve, aby przebudować **istniejący** łuk lub okrąg za pomocą nowej liczby płaszczyzn:
 
-![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
-![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
+![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
 **Surface Faceting Quality**
 
-Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo.
+Zmiana tego ustawienia globalnego wpłynie na jakość zakrzywionych powierzchni 3D importowanych z plików SAT, jak również nanoszonych z dodatku Dynamo.
 
-For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases. Once you've got a result that's high quality, you can [convert it into a Mesh](meshes.md) to improve performance.
+Na przykład ustawienie wartości 64 spowoduje, że po naniesieniu sfery z dodatku Dynamo będą używane 64 płaszczyzny wokół równika sfery i 64 płaszczyzny w każdym z pierścieni biegnących do biegunów sfery, co szybko się sumuje. Wyższe wartości należy stosować ostrożnie, ponieważ w niektórych przypadkach mogą one mieć wpływ na wydajność programu FormIt. Po uzyskaniu wysokiej jakości rezultatu można [przekształcić go w siatkę](meshes.md), aby poprawić wydajność.
 
-When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
+Podczas pracy z dodatkiem Dynamo można zmienić jakość płaszczyzn i kliknąć przycisk „Run Graph” w panelu Właściwości, nie zmieniając żadnych parametrów, aby skorzystać z nowej liczby płaszczyzn:
 
-![](<../.gitbook/assets/faceting\_column (1).gif>)
+![](../.gitbook/assets/faceting\_column.gif)
 
-As with curves, you can set the surface faceting quality for new sketches, or for the current sketch only.
+Podobnie jak w przypadku krzywych, jakość płaszczyzn powierzchni można ustawić dla nowych szkiców lub tylko dla bieżącego szkicu.
 
-Note that faceting values are currently limited to multiples of 4, so when entering numbers manually, FormIt will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+Pamiętaj, że wartości liczby płaszczyzn są obecnie ograniczone do wielokrotności liczby 4, dlatego podczas ręcznego wprowadzania liczb program FormIt będzie zaokrąglał je do najbliższej wielokrotności. Do przełączania akceptowanych wartości służą również suwaki i strzałki.
 
-![](<../.gitbook/assets/units-+-precision (1).png>)
+![](../.gitbook/assets/units-+-precision.png)

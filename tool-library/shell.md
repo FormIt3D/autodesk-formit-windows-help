@@ -1,3 +1,4 @@
-# Shell
+# Skorupa
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+Na podstawie obiektu bryłowego można utworzyć „skorupę” („powłokę”) o określonej szerokości. Są one przydatne do szybkiego tworzenia ścian z modelu bryłowego:
+

@@ -1,14 +1,15 @@
-# Mirror
+# Odbij
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+Narzędzie Odbij służy do tworzenia lustrzanego odbicia obiektu.
 
-To mirror an object:
+Tworzenie odbicia lustrzanego obiektu:
 
-1. Double-click to select a single object, or single-click to select a group.&#x20;
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**.&#x20;
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. Kliknij dwukrotnie, aby wybrać pojedynczy obiekt, lub kliknij jednokrotnie, aby wybrać grupę.
+2. Kliknij prawym przyciskiem myszy i wybierz z menu kontekstowego narzędzie Odbij lub wpisz skrót klawiaturowy **MI**.
+3. Zostanie wyświetlona płaszczyzna wskazująca oś, za pomocą których zostanie odbity obiekt. Płaszczyznę można przesuwać lub obracać, aby dostosować oś odbicia.
+4. Po zakończeniu dopasowywania płaszczyzny odbijanego obiektu kliknij w dowolnym miejscu poza obszarem wyboru.
 
 ![](../.gitbook/assets/mirror.png)
 
 ![](../.gitbook/assets/mirror2.png)
+

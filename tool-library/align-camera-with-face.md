@@ -1,7 +1,8 @@
-# Align Camera With Face
+# Wyrównywanie kamery z powierzchnią
 
-Quickly align the camera to look directly at any face.
+Szybko wyrównaj kamerę, aby patrzeć bezpośrednio na dowolną powierzchnię.
 
-Select a single face, then right-click to access the Context Menu. Look for Align Camera with Face at the top of the menu, or use shortcut AF:
+Wybierz pojedynczą powierzchnię, a następnie kliknij prawym przyciskiem myszy, aby uzyskać dostęp do menu kontekstowego. Znajdź opcję Wyrównaj kamerę z powierzchnią u góry menu lub użyj skrótu AF:
 
 ![](../.gitbook/assets/alignwithface.gif)
+
