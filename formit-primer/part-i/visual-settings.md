@@ -1,66 +1,67 @@
-# 1.12 - Visual Styles
+# 1.12 - 表示スタイル
 
-_Modeling conceptual masses is just half of what FormIt has to offer. The other half are beautiful graphics that help to tell a story to a client, or team member. In this chapter, we will cover ways to set up your_ _**graphic visual styles**_ _and create animations._
+_コンセプト マスのモデリングは、FormIt が提供するものの半分にすぎません。もう半分は、クライアントやチーム メンバーにストーリーを伝えるのに役立つ美しいグラフィックスです。この章では、グラフィックスの_ _**表示スタイル**_ _を設定し、アニメーションを作成する方法について説明します。_
 
-_If you did not complete the last section, download and open the_ _**1.12 – Visual Styles.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_直前のセクションを完了していない場合は、_ _**FormIt Primer Part 1 Datasets**_ _から_ _**1.12 - Visual Styles.axm**ファイルをダウンロードして開きます。_
 
-## **Create an Animation**
+## **アニメーションを作成する**
 
-_In these next steps, we will learn how to use_ _**Scenes**_ _to create an animation._
+_次の手順では、__**シーン**__を使用してアニメーションを作成する方法について学習します。_
 
-1 – To create the first **Scene**:
+1 - 最初の**シーン**を作成するには、次のように操作します。
 
-1. Turn on all the layers except **Terrain**, **Plan Image,** and **Massing**.
-2. Make sure the camera mode is set to **Perspective (VP)**, and position the camera so that it is looking at the entire house from slightly above, similar to the image below.
-3. Open the **Scenes Palette**.
-4. Click on the **+** icon to create a new scene from our current view.
-5. Rename it to **Aerial View 1**, and match the other **Scene Properties** to what is shown in the image below.
+1. **Terrain**、**Plan Image**、**Massing** 以外のすべてのレイヤをオンにします。
+2. カメラ モードが**パース\(VP\)**に設定されていることを確認し、下のイメージのように少し上から家全体が見えるようにカメラを配置します。
+3. **[シーン]パレット**を開きます。
+4. **[+]**アイコンをクリックして、現在のビューから新しいシーンを作成します。
+5. 名前を **Aerial View 1** に変更し、**[シーン プロパティ]**を下のイメージと同じように設定します。
 
-![](<../../.gitbook/assets/0 (17) (1).png>)
+![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - To create the second **Scene** and then animate between them:
+2 - 2 つ目の**シーン**を作成し、その間でアニメーションを作成するには、次のように操作します。
 
-1. Adjust the camera to a new position so that you are looking at the house from a different angle. Create a new **Scene** named **Aerial View 2** using the same process we followed in the previous step.
-2. Click the **Play** button. After the set **Pause Time** of **2 Seconds**, the animation will start slowly moving back and forth between the two scenes. This will continue until you click the **Stop** button to stop the animation.
+1. 別の角度から家が見えるように、カメラを新しい位置に調整します。前の手順と同様に、**Aerial View 2** という名前の新しい**シーン**を作成します。
+2. **[再生]**ボタンをクリックします。**[停止時間]**を **2 秒**に設定すると、2 つのシーン間でアニメーションがゆっくりと前後に動き始めます。これは、**[停止]**ボタンをクリックしてアニメーションを停止するまで継続します。
 
-![](<../../.gitbook/assets/1 (12) (1).png>)
+![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Note:**_ _You can adjust the_ _**Pause Time**,_ _**Transition Time**, and_ _**Camera Speed**_ _using the settings at the bottom of the_ _**Scene Properties**. Try adding some more scenes and playing with these settings to customize your animation._
+_**注**_ _:_ _**[シーン プロパティ]**の下部にある設定を使用して、_ _**停止時間**、_ _**遷移時間**_ _、_ _**カメラ速度**を調整できます。シーンをさらに追加し、これらの設定を使用して再生し、アニメーションをカスタマイズしてみてください。_
 
-## **Customize the Visual Styles**
+## **表示スタイルをカスタマイズする**
 
-_Now we are going to create another scene with some customized **Visual Styles** settings._
+_ここでは、カスタマイズした**表示スタイル**設定を使用して別のシーンを作成します。_
 
-1 - First, open the **Visual Styles Palette**. Note there are four (4) tabs at the top, each containing different visual settings: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**. To learn more about each tab visit the **Visual Styles** chapter in the **Tool Library** section.
+1 - 最初に、**[表示スタイル]パレット**を開きます。上部には、**サーフェス**、**エッジ**、**環境**、**モデル診断**の 4 つの表示設定用タブがあります。各タブの詳細については、「**ツール ライブラリ**」セクションの「**表示スタイル**」の章を参照してください。
 
-2 – To customize some settings in the **Surface Tab**:
+2 - **[サーフェス]タブ**の設定をカスタマイズするには、次のように操作します。
 
-1. Turn on **Shadows (DS)**.
-2. Turn on **Ambient Shadows (DA)**.
-3. Turn on **Monotone Surfaces (DM)**. This makes an abstract black and white image without any materials.
+1. **[影\(DS\)]**をオンにします。
+2. **[アンビエント シャドウ\(DA\)]**をオンにします。
+3. **[単色のサーフェス\(DM\)]**をオンにします。これで、マテリアルを持たない抽象的な白黒イメージが作成されます。
 
-![](<../../.gitbook/assets/2 (20) (1).png>)
+![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – To customize some settings in the **Edge Tab**:
+3 – **[エッジ]タブ**の設定をカスタマイズするには、次のように操作します。
 
-*
-  1. Adjust the sliders to lighten the **Edges** contrast to around **30%**.
-  2. Turn on the **Extend Edges (DX).**
-  3. Adjust the sliders to lighten the **Silhouettes** contrast to **30%**.
+* 
+   1. スライダを調整して、**[エッジ]**のコントラストを **30%** 前後まで明るくします。
+   2. **[延長エッジ\(DX\)]をオンにします。**
+   3. スライダを調整して、**[シルエット]**のコントラストを **30%** に調整します。
 
-![](<../../.gitbook/assets/3 (11) (1).png>)
+![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - To customize some settings in the **Environment Tab**:
+4 - **[環境]タブ**で一部の設定をカスタマイズするには、次のように操作します。
 
-1. Turn off **Axes**.
-2. Turn off **Levels**, if on.
+1. **[軸]**をオフにします。
+2. **[レベル]**がオンの場合は、オフにします。
 
-![](<../../.gitbook/assets/4 (8) (2).png>)
+![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - Create a new scene called **Customized Scene** to save these settings. Now you can switch back and forth between the **Scenes** to reset the graphic settings.
+5 - **Customized Scene** という名前の新しいシーンを作成し、これらの設定を保存します。これで、**シーン**を切り替えてグラフィックス設定をリセットすることができます。
 
-![](<../../.gitbook/assets/5 (6) (1).png>)
+![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Note**: If you uncheck the_ _**Camera**_ _property of the new scene, you can use it to only toggle on the visual settings we just created without move the camera position. Give it a try by going to one of your previous Aerial scenes, and then double-clicking on the_ _**Customized Scene**_ _and watching what happens!_
+_**注:**新しいシーンの_ _**[カメラ]**_ _プロパティのチェックを外すと、カメラ位置を動かさずに、先ほど作成した表示設定のみを切り替えることができます。以前の Aerial シーンの 1 つに移動し、_ _**Customized Scene**_ _をダブルクリックして何が起こるか観察してみてください。_
 
-_**Note:**_ _To Learn about_ _**Visual Styles Diagnostics**_ _and advanced applications for_ _**Scenes**, check out the_ _**Primer Part II**._
+_**注:** **表示スタイルの診断**_ _や_ _**シーン**の高度なアプリケーションについて詳しくは、_ _**Primer Part II** のドキュメントを参照してください。_
+

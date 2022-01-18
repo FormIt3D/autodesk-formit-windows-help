@@ -1,14 +1,15 @@
-# Mirror
+# 鏡像化
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+[鏡像化]ツールを使用して、オブジェクトの鏡像化された複製を作成します。
 
-To mirror an object:
+オブジェクトを鏡像化するには、次のように操作します。
 
-1. Double-click to select a single object, or single-click to select a group.&#x20;
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**.&#x20;
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. 1 つのオブジェクトをダブルクリックで選択するか、グループをシングルクリックで選択します。
+2. 右クリックしてコンテキスト メニューから[鏡像化]ツールを選択するか、キーボード ショートカットの **MI** を入力します。
+3. オブジェクトを鏡像化するための軸が平面として表示されます。この平面を移動または回転させて、鏡像化の軸をカスタマイズします。
+4. 鏡像化が終わったら、何も選択されていない場所をクリックして終了します。
 
 ![](../.gitbook/assets/mirror.png)
 
 ![](../.gitbook/assets/mirror2.png)
+

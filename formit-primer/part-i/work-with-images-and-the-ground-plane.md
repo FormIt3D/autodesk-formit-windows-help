@@ -1,92 +1,93 @@
-# 1.2 - Project Set Up with Images and Grid
+# 1.2 - イメージとグリッドを使用したプロジェクトの設定
 
-_You can import PNG or JPG images onto the ground plane of the model by selecting File > Import from the Navigation Bar. However, to gain more control over the scale and position of an imported image, we can create a custom material and apply it to a rectangle that we have drawn ourselves._
+_ナビゲーション バーの[ファイル] &gt; [読み込み]から、モデルの地盤面に PNG または JPG イメージを読み込むことができます。ただし、読み込んだイメージの尺度と位置をより詳細にコントロールするために、カスタム マテリアルを作成し、自分で描いた長方形に適用することができます。_
 
-_If you did not complete the last section, download and open the_ _**1.2 - Project Set Up with Images and Grid.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_直前のセクションを完了していない場合は、_ _**1.2 - Project Setup with Images and Grid.axm**_ _ファイルを_ _**FormIt Primer Part 1 Datasets**からダウンロードして開きます。_
 
-## **Calculate Image Size**
+## **イメージ サイズを計算する**
 
-The provided **plan.png** is an image of a plan printed on a 24” x 26” Sheet (ARCH D) which is 3600 pixels wide by 2400 pixels high. By knowing the drawing scale (¼"=1'-0") and the image dimensions you can calculate that 1’ = 25 pixels, which means that the image should be 144'x96' when imported into FormIt at full scale.
+用意されている **plan.png** は、幅 3600 x 高さ 2400 ピクセルの 24" x 26" シート\(ARCH D\)に印刷された平面図のイメージです。図面の尺度\(¼" = 1'-0"\)とイメージの寸法から、1 = 25 ピクセルと計算できます。つまり、フル スケールで FormIt に読み込むと、このイメージは 144'x96' になります。
 
-![](<../../.gitbook/assets/0 (1) (2).png>)
+![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Import an Image to scale**
+## **イメージを読み込んで尺度変更する**
 
-1 – Click the **Top View** icon from the **Floating Navigation Bar** to see the scene from above.
+1 - **[浮動ナビゲーション バー]**の**[上面ビュー]**アイコンをクリックして、上からシーンを表示します。
 
-![](<../../.gitbook/assets/1 (1).png>)
+![](../../.gitbook/assets/1%20%281%29.png)
 
-2 - Choose the **Rectangle Tool (R)** from the 3D Sketch toolbar.
+2 - [3D スケッチ]ツールバーから**[長方形\(R\)]ツール**を選択します。
 
-![](<../../.gitbook/assets/2 (1).png>)
+![](../../.gitbook/assets/2%20%281%29.png)
 
-3 – To create a rectangle that is exactly **144’** x **96’**, click anywhere in the workspace to define the starting point, then move the mouse to preview and define the first side length. Start typing a dimension value to access a dialog where you can input the exact dimension. Click **OK** or press the **Enter** key to commit the dimension. Repeat the process to set the second side’s length and finish the rectangle.
+3 - 正確に **144'** x **96'** の長方形を作成するには、ワークスペース内の任意の場所をクリックして始点を定義し、マウスを動かして最初の辺の長さをプレビューして定義します。寸法の値の入力を開始すると、正確な寸法を入力できるダイアログ ボックスが表示されます。**[OK]**をクリックするか**[Enter]**キーを押して寸法を確定します。このプロセスを繰り返して、2 番目の辺の長さを設定し、長方形を完成させます。
 
-![ Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+![ Enter length for rectangle&#x2019;s first side.](../../.gitbook/assets/3%20%281%29.png)
 
-![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+![Enter length for rectangle&#x2019;s second side.](../../.gitbook/assets/4%20%281%29.png)
 
-![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+![Finish the rectangle.](../../.gitbook/assets/5%20%281%29.png)
 
-4 - To create the new “Floor Plan” material:
+4 - 新しい「Floor Plan」マテリアルを作成するには、次のように操作します。
 
-1. Open the **Material Palette**.
-2. Click the **+** icon to create a new material.
-3. Name the new material “**Floor Plan”.**
-4. Under **MAPS** click on the **Texture** preview tile and browse to **plan.png** in the **Farnsworth House Data Set >  Supporting Files > Images** folder. Then click **Open**.
-5. Under **PROPERTIES**, change the image’s scale by entering **144'** in the **Horizontal Scale** field and **96'** in the **Vertical Scale** field. Note that unlocking horizontal and vertical scale (**chain link** icon) may be required to insert values that change the image proportions.
-6. Check **Transparency** and set it at around half. This will help align the imported floor plan image to the satellite image.
-7. Click **OK** to finish the material.
+1. **[マテリアル]パレット**を開きます。
+2. **[+]**アイコンをクリックして、新しいマテリアルを作成します。
+3. 新しいマテリアルに **Floor Plan**
+4. **[マップ]**セクションの**テクスチャ** プレビュー タイルをクリックし、**Farnsworth House Data Set &gt; Supporting Files &gt; Images** フォルダの **plan.png** を参照します。次に**[開く]**をクリックします。
+5. **[プロパティ]**セクションで、**[水平スケール]**フィールドに **144'**、**[垂直スケール]**フィールドに **96'** とそれぞれ入力してイメージのスケールを変更します。イメージの比率を変更する値を挿入する場合は、**鎖**アイコンをクリックして、水平スケールと垂直スケールのロックを解除しなければならないことがあります。
+6. **[透過度]**をオンにし、約半分に設定します。これで、読み込まれた平面図イメージを衛星画像の位置に合わせることができます。
+7. **[OK]**をクリックしてマテリアルを終了します。
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 - To paint the rectangle:
+5 - 長方形をペイントするには、次のように操作します。
 
-1. In the **Material Palette**, single-click on the **Floor Plan material** tile to paint with this material.
-2. Click on the rectangle you sketched to paint it. Press **Esc** to exit the paintbrush tool.
+1. **[マテリアル]パレット**でペイントするマテリアルとして**[Floor Plan]マテリアル**のタイルをクリックして選択します。
+2. スケッチした長方形をクリックしてペイントします。**[Esc]**を押し、ペイントブラシ ツールを終了します。
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 - If the material appears inverted or backward, you may need to reverse the face. You can do so by right-clicking with the mouse to access the **Context Menu** and selecting the Reverse Face (FF) button.
+6 - マテリアルが反転または逆方向に表示される場合は、必要に応じて面を反転します。マウスで右クリックして表示される**コンテキスト メニュー**から、[面を反転\(FF\)]ボタンを選択します。
 
 ![](../../.gitbook/assets/8.png)
 
-## **Align the Imported Image to the Satellite Image**
+## **読み込まれたイメージを衛星画像に合わせる**
 
-1 – To move the image, first select the rectangle by double-clicking on it. Then click-and-drag the rectangle and move it until it overlaps the building in the Satellite image. We will come back to aligning it perfectly later, just try to get it close for now.
+1 - イメージを移動するには、まずイメージをダブルクリックして長方形を選択します。次に、長方形をクリックしてドラッグし、衛星画像の建物と重なるまで移動させます。後で完全な位置合わせを行うので、ここではだいたいの調整を行います。
 
 ![](../../.gitbook/assets/9.png)
 
-2 - To rotate the rectangle to align with the Satellite image:
+2 - 衛星画像に合わせて長方形を回転させるには、次のように操作します。
 
-1. Right-click on the rectangle to bring up the context menu. Choose **Rotate (Q).**
-2. The **Rotate Widget** appears in the middle of the rectangle. Select the widget by clicking once on the orange grip in the middle. Move the widget to the bottom left corner of the rectangle. It will snap to the corner. Click to place it.
-3. Type **9**, and the dimension box will appear. Click **OK** to rotate the rectangle counterclockwise by 9 degrees.
+1. 長方形を右クリックして、コンテキストメニューを表示します。**[回転\(Q\)]**
+2. 長方形の中央に**回転ウィジェット**が表示されます。中央のオレンジ色のグリップをクリックして、ウィジェットを選択します。ウィジェットを長方形の左下コーナーに移動します。コーナーにスナップします。クリックすると配置されます。
+3. **9** と入力すると、寸法ボックスが表示されます。**[OK]**をクリックして、長方形を反時計回りに 9 度回転します。
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Align the Grid to the Satellite Image**
+## **グリッドを衛星画像に位置合わせする**
 
-1 - Now, we will align the grid with the Satellite image and the floor plan. Right-click anywhere on the **ground plane** and choose **Set Axes (SZ)**.
+1 - 次に、衛星画像と平面図にグリッドを位置合わせします。**地盤面**上で右クリックし、**[軸を設定(SZ)]**を選択します。
 
 ![](../../.gitbook/assets/12.png)
 
-2 – The **Set Axis** widget will appear. Move the axis to the bottom left corner of the rectangle, where it should snap. Click to place it.
+2 - **[軸を設定]**のウィジェットが表示されます。スナップする長方形の左下コーナーに軸を移動します。クリックすると配置されます。
 
 ![](../../.gitbook/assets/13.png)
 
-3 - Click on the grip at the end of the red axis. Move the grip to the bottom right corner of the rectangle so that the red axis aligns with the bottom edge of the plane. Click off in space to commit this change.
+3 - 赤い軸の端にあるグリップをクリックします。グリップを長方形の右下コーナーに移動して、赤い軸を平面の下部エッジに揃えます。スペースの任意の場所をクリックして、この変更を確定します。
 
 ![](../../.gitbook/assets/14.png)
 
-4 - To align the view with the new grid, click the Top View icon from the Navigation Bar to reset the scene.
+4 - ビューを新しいグリッドに位置合わせするには、ナビゲーション バーの[上面ビュー]アイコンをクリックしてシーンをリセットします。
 
 ![](../../.gitbook/assets/15.png)
 
-5 - To ensure the building in both images overlap, select the plan to move it once more until it overlaps the Satellite image correctly.
+5 - 両方のイメージの建物を確実に重ねるには、平面図を選択し、衛星画像に重なるまで動かします。
 
 ![](../../.gitbook/assets/16.png)
 
-6 - The satellite image, the rectangle, and the grid are now aligned, which will simplify 3D sketching.
+6 - 衛星画像、長方形、グリッドが位置合わせされ、3D スケッチがしやすくなります。
+

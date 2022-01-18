@@ -1,97 +1,98 @@
-# 1.5 - Group Objects
+# 1.5 - オブジェクトをグループ化する
 
-_Groups in FormIt function similarly to Families in Revit and Components in SketchUp. Grouping different objects prevent their geometry from joining. Copies of a group act as an instance of the original geometry, meaning that changes to one copy will affect all of them._
+_FormIt のグループは、Revit のファミリや SketchUp のコンポーネントと同様に機能します。オブジェクトをグループ化すると、そのジオメトリは結合できなくなります。グループのコピーは、元のジオメトリのインスタンスとして機能します。つまり、1 つのコピーに対する変更は、それらのすべてに影響します。_
 
-_If you did not complete the last section, download and open the_ _**1.5 - Group Objects.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_直前のセクションを完了していない場合は、_ _**1.5 - Group Objects.axm**_ _ファイルを_ _**FormIt Primer Part 1 Datasets**からダウンロードして開きます。_
 
-## **Create a Group**
+## **グループを作成する**
 
-1 - Select the upper terrace mass by double-clicking it.
+1 - 上部のテラス マスをダブルクリックして選択します。
 
-2 - Right-click and select **Group (G)**, or simply press ‘**G**’.
+2 - 右クリックして**[グループ\(G\)]**を選択するか、単に[**G**]を押します。
 
-![](<../../.gitbook/assets/0 (1).jpeg>)
+![](../../.gitbook/assets/0%20%281%29.jpeg)
 
-3 - Notice that after creating a Group, you get automatically placed in the Move tool.
+3 - グループを作成すると、自動的に[移動]ツールに移動します。
 
-## **Move a Group**
+## **グループを移動する**
 
-1 - To assist in the modeling process, turn on **Grid Snapping (SG)**, if it was off.
+1 - モデリング プロセスをしやすくするために、**[グリッドにスナップ\(SG\)]**がオフの場合はオンにします。
 
-![](<../../.gitbook/assets/1 (14).png>)
+![](../../.gitbook/assets/1%20%2814%29.png)
 
-2 - To start moving the selected object, while still in the **Move (M)** command, click once on any lower corner of the mass. Then move your cursor up, and you should see a blue (Z) axis line appear. This line will assist you in moving the object straight up.
+2 - 選択したオブジェクトの移動を開始するには、**[移動\(M\)]**コマンドを実行したまま、マスの下部コーナーを 1 回クリックします。カーソルを上に動かすと、青い Z 軸線が表示されます。この線は、オブジェクトを真上に移動させるのに役立ちます。
 
-3 - With the blue axis visible, type **4'-6"** and a dimension dialog will appear. After entering the dimension, click **OK** or press **Enter** on the keyboard. This will move the entire mass up off the ground plane along the **Z axis**.
+3 - 青い軸が表示されている状態で、**4'-6"** と入力すると、[寸法]ダイアログが表示されます。寸法を入力したら、**[OK]**をクリックするか、キーボードの**[Enter]**を押します。これにより、マス全体が **Z 軸**に沿って地盤面から上に移動します。
 
-_**Note:**_ _Similar to Revit, you can also type_ _**4’6**,_ _**4’6”,**_ _or_ _**4.5**, and the program will interpret the value as 4(feet) 6(inches) when using imperial units._
+_**注:**_ _Revit と同様に、_ _**4'6**、_ _**4' 6"、**_ _または_ _**4.5**と入力することもできます。インチ単位を使用すると、プログラムはこの値も 4 フィート 6 インチと解釈します。_
 
-![](<../../.gitbook/assets/2 (2).png>)
+![](../../.gitbook/assets/2%20%282%29.png)
 
-## **Edit a Group**
+## **グループを編集する**
 
-1 - To enter the **Group Edit Mode**, double-click the mass.
+1 - **グループ編集モード**を開始するには、マスをダブルクリックします。
 
-1. In the **Properties Palette**, rename the Group **"Massing - Main Building"**.
-2. To save the changes and exit the **Group Edit Mode**, click on the **Finish Group Edit** checkmark icon in the upper left corner of the canvas, or double-click off in space.
+1. **[プロパティ]パレット**で、グループの名前を **Massing - Main Building** に変更します。
+2. 変更を保存して**グループ編集モード**を終了するには、キャンバスの左上コーナーにある**[グループ編集を終了]**チェックマーク アイコンをクリックするか、スペース内でダブルクリックします。
 
-![](<../../.gitbook/assets/3 (12) (1).png>)
+![](../../.gitbook/assets/3%20%2812%29.png)
 
-_**Notes**:_
+_**注**:_
 
-* _To learn about the_ _**Category**_ _options, go to the_ _**Working with Revit**_ _chapter._‌
-* _Each Group has its own undo/redo history that is distinct from the overall project - you can click the_ _**Undo**_ _and_ _**Redo**_ _arrows in the_ _**Group Edit Wizard**_ _in the upper left corner of the canvas._
+* _**カテゴリ**_ _オプションについては、_ _**「Revit を使用する」**_ _の章を参照してください。_
+* _各グループには、プロジェクト全体とは異なる独自の元に戻す/やり直しの履歴があります。キャンバスの左上にある_ _**グループ編集ウィザード**_ _で_ _**[元に戻す]**_ _と_ _**[やり直し]**_ _の矢印をクリックできます。_
 
-## **Apply Levels to a Group**
+## **グループにレベルを適用する**
 
-_**Note:**_ _Grouping a geometry overrides previous settings you may have applied to the geometry. Because of that, you will require to re-apply the Levels from the previous exercise._
+_**注:**_ _ジオメトリをグループ化すると、ジオメトリに適用した以前の設定は上書きされます。このため、前の演習で使用したレベルを再度適用する必要があります。_
 
-1 - To apply levels to a group:
+1 - グループにレベルを適用するには、次のように操作します。
 
-1. Single-click the **Massing** **- Main Building** group to select it.
-2. Go to the **Properties Palette** and check **Use Levels.**
-3. Keep only the **Main Building** level by unchecking all the others.
-4. The **Area by Level** field will display the currently selected object(s) gross area. The area of each **Level** is displayed in front of each **Level**’s name.
-5. If you do not see a blue level line crossing the object horizontally, turn on the level display by going to the **Settings menu > Visual Style > Display Levels (DL).**
+1. **Massing** **- Main Building** グループをシングルクリックして選択します。
+2. **[プロパティ]パレット**に移動し、**[レベルを使用]をオンにします。**
+3. 他のレベルのチェックをすべてオフにして、**Main Building** のレベルのみをオンのままにします。
+4. **[レベルの面積]**フィールドには、現在選択されているオブジェクトの総面積が表示されます。各**レベル**の面積が、各**レベル**名の横に表示されます。
+5. オブジェクトと水平に交差する青いレベル線が表示されない場合は、**[設定]メニュー &gt; [表示スタイル] &gt; [レベルを表示\(DL\)]を選択してレベル表示をオンにします。**
 
-_**Note**: If there is no area reported for the_ _**Main Building**_ _level, the geometry may not be intersecting the Level, which should be at 4’-6” height. Troubleshoot by repositioning the geometry or the_ _**Level**_ _height so they intersect._
+_**注**:_ _**Main Building**_ _レベルの面積が報告されない場合は、ジオメトリがレベルと交差していない可能性があります。レベルの高さは 4'-6" である必要があります。ジオメトリまたは_ _**レベル**_ _の高さを再配置して交差させることでトラブルシューティングを行います。_
 
 ![](../../.gitbook/assets/levels-to-groups.png)
 
-2 - Deselect the Group by pressing **Esc** or single-clicking off in space. With no selected object, the **Properties Palette** will report the overall sketch’s gross area - rather than a specific object’s area.
+2 - **[Esc]**を押すか、スペース内をクリックしてグループを選択解除します。オブジェクトを選択しない場合、**[プロパティ]パレット**には特定のオブジェクトの面積ではなく、スケッチ全体の総面積が表示されます。
 
-![](<../../.gitbook/assets/5 (15).png>)
+![](../../.gitbook/assets/5%20%2815%29.png)
 
-## **Manage Groups**
+## **グループを管理する**
 
-1 - To view and manage all groups in the sketch:
+1 - スケッチ内のすべてのグループを表示および管理するには、次のように操作します。
 
-1. Go to the **Group Tree Palette**. There you will see:
-   * **Terrain** group – group automatically created when the **satellite image was imported**.
-   * **Massing - Main Building** – the building mass geometry group we just created.
-   * **group 2** – unnamed group containing the floor plan image.
-2. To rename **group 2** through the Group Tree Palette, double-click on **group 2**, and then type **Plan Image**.
+1. **[グループ ツリー]パレット**に移動します。次の内容が表示されます。
+   * **Terrain** - **衛星画像が読み込まれた**ときに自動的に作成される地形のグループ。
+   * **Massing - Main Building** - 先ほど作成した建物マスのジオメトリ グループ。
+   * **group 2** - 平面図イメージを含む名前のないグループ。
+2. [グループ ツリー]パレットで **group 2** の名前を変更するには、**group 2** をダブルクリックし、**Plan Image** と入力します。
 
-![](<../../.gitbook/assets/6 (4).png>)
+![](../../.gitbook/assets/6%20%284%29.png)
 
-_**Notes:**_
+_**注:**_
 
-* _For a tidy model, we recommend keeping the group names descriptive._
-* _This is a handy way to manage and edit all groups in the model from one place._
+* _モデルを整理できるよう、内容がわかるようなグループ名を付けることをお勧めします。_
+* _この方法は、モデル内のすべてのグループを 1 つの場所から管理および編集するときに便利です。_
 
-2 - With the **Plan Image** group still selected, navigate to the **Properties Palette**. Note that the group name was also updated in the **Group** field.
+2 - **Plan Image** グループを選択した状態で、**[プロパティ]パレット**にナビゲートします。**[グループ]**フィールドのグループ名も更新されています。
 
-![](<../../.gitbook/assets/7 (11).png>)
+![](../../.gitbook/assets/7.png)
 
-## **Hide Group Context**
+## **グループ コンテキストを非表示**
 
-_This tool is a quick way to hide all geometry outside the group you are currently editing. It becomes very handy whenever you have a large and complex model and other geometries get in the way._
+_このツールを使用すると、現在編集しているグループの外部にあるすべてのジオメトリをすばやく非表示にすることができます。大規模で複雑なモデルや他のジオメトリが邪魔になる場合に、非常に便利な機能です。_
 
-1 - To isolate a group:
+1 - グループを分離するには、次のように操作します。
 
-1. Double-click on its geometry to edit the group.
-2. Navigate to **Settings** in the **Main Menu** and check **Hide Group Context** or simply press **H** on your keyboard. Note how the **Plan Image** disappears.
-3. Finish editing the group. Note that the **Hide Group Context (H)** mode is only active while inside the **Group Edit Wizard**.
-4. To toggle this mode off again, simply press **H**. This option can be toggled at any time, inside or outside of a group.
+1. 編集するグループのジオメトリをダブルクリックします。
+2. **[メイン メニュー]**の**[設定]**メニューで**[グループ コンテキストを非表示]**をオンにするか、キーボードで**[H]**キーを押します。**平面図イメージ**が消えたことに注目してください。
+3. グループの編集を終了します。**[グループ コンテキストを非表示\(H\)]**モードは**グループ編集ウィザード**内でのみアクティブであることに注目してください。
+4. このモードを再びオフにするには、**[H]**を押します。このオプションは、グループの内外でいつでも切り替えることができます。
 
-![](<../../.gitbook/assets/8 (5).png>)
+![](../../.gitbook/assets/8%20%285%29.png)
+

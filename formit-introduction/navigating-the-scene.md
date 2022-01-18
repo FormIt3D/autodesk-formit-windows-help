@@ -1,29 +1,30 @@
-# Navigating the Scene
+# シーンのナビゲーション
 
-Use your mouse or touchscreen to easily navigate in and around your FormIt models:
+マウスまたはタッチスクリーンを使用すると、FormIt モデル内および周辺を簡単にナビゲートできます。
 
-* **Orbit** by right-clicking and dragging the mouse or swiping across the screen for touch-enabled devices. This will use your cursor point in 3D space about which to orbit the camera.
-  * You can also hold the Shift key to Pan.
-* **Zoom** in and out by scrolling the mouse wheel up and down, or pinching for touch-enabled devices. This will use a point in 3D space at which to zoom to, and will slow down the zoom as you approach a surface or another object.
-  * You can also hold Ctrl to zoom at a constant rate, not affected by proximity to objects.
-* **Pan** by middle-clicking and dragging the mouse, or dragging two fingers for touch-enabled devices.
+* **オービット**するには、右クリックしてマウスをドラッグするか、タッチ対応デバイスの画面上でスワイプします。これは、カメラの軌道を制御する 3D 空間でカーソル ポイントを使用します。
+   * [Shift]キーを押しながら画面移動することもできます。
+* **拡大および縮小**は、マウス ホイールを上下にスクロールするか、タッチ対応デバイスをピンチして行います。これは、ズームする 3D 空間のポイントを使用し、サーフェスまたは別のオブジェクトに近づくにつれてズームが遅くなります。
+   * [Ctrl]を押しながら一定の速さでズームすることもできます。これはオブジェクトとの距離に影響されません。
+* **画面移動**するには、マウスをミドルクリックしてドラッグするか、タッチ対応のデバイスで 2 本の指をドラッグします。
 
-You can also use the floating navigation toolbar on the right side of the canvas to go into specific view modes. Shortcuts are noted in parentheses.
+キャンバスの右側にある浮動ナビゲーション ツールバーを使用して、ビュー モードを切り替えることもできます。括弧で囲まれている文字はショートカットです。
 
-![](../.gitbook/assets/20190618-ortho-views.png) **Orthographic views**: Click to reveal a flyout menu of available [orthographic views](../tool-library/orthographic-views.md).
+![](../.gitbook/assets/20190618-ortho-views.png)**正投影ビュー**: クリックすると、使用可能な[正投影ビュー](../tool-library/orthographic-views.md)のフライアウト メニューが表示されます。
 
-![](../.gitbook/assets/20190618-3d-view.png) **Default 3D View (ZD):** Launches the default 3D view.
+![](../.gitbook/assets/20190618-3d-view.png)**既定の 3D ビュー\(ZD\):** 既定の 3D ビューを起動します。
 
-![](../.gitbook/assets/jet-pack.png) **Walkthrough (FT):** “Jetpack” mode allows you to walk through the scene using your keyboard. Use WASD to move forward/backward/left/right, and use Q/E to move up/down. Use the spacebar key to "fly."
+![](../.gitbook/assets/jet-pack.png)**ウォークスルー\(FT\):** 「Jetpack」モードでは、キーボードのキーを使用してシーン内をウォークスルーできます。W/A/S/D で前後左右に、Q/E で上下に移動します。スペース キーを使用すると「フライ」できます。
 
-![](../.gitbook/assets/orbit-tool.png) **Orbit (O):** When enabled, left-click and drag the mouse to orbit around the model. You can also do this at any time by right-click and dragging.
+![](../.gitbook/assets/orbit-tool.png)**オービット \(O\): ** 有効にすると、マウスを左クリックしてドラッグし、モデルの周囲をオービットできます。右クリックしてドラッグすることで、いつでも行うことができます。
 
-![](../.gitbook/assets/swivel.PNG) **Swivel (SV):** Use the Swivel tool from the Navigation toolbar to look around the scene from a fixed point.
+![](../.gitbook/assets/swivel.PNG) **旋回\(SV\):** 固定された点を基点としてシーンの周囲を旋回できます。
 
-![](../.gitbook/assets/panning.png) **Pan (P):** Click and drag the middle mouse button, or use the Pan (hand) tool from the Navigation toolbar to pan across the scene.
+![](../.gitbook/assets/panning.png)**画面移動\(P\):** マウスの中央ボタンをクリックしてドラッグするか、ナビゲーション ツールバーの[画面移動]ツール\(手のアイコン\)を使用して、シーン全体を画面移動します。
 
-![](../.gitbook/assets/zoom.png) **Zoom (Z):** Scroll the mouse wheel, or select the Zoom tool from the Navigation toolbar and click and drag the left mouse button to zoom.
+![](../.gitbook/assets/zoom.png) **ズーム\(Z\):** ズームするには、マウス ホイールをスクロールするか、ナビゲーション ツールバーのズーム ツールを使用して、マウスの左ボタンをクリックしてドラッグします。
 
-![](../.gitbook/assets/zoom\_all.png) **Zoom All (ZE or ZA):** Zoom to fit the entire model into the current view
+![](../.gitbook/assets/zoom_all.png)**全体表示\(ZE または ZA\):** モデル全体が現在のビューにフィットするようにズームします。
 
-![](../.gitbook/assets/zoom\_selection.png) **Zoom Selection (ZS):** Zoom to fit all of the currently selected objects into the current view.
+![](../.gitbook/assets/zoom_selection.png)**選択部分をズーム\(ZS\):** 現在選択されているすべてのオブジェクトを現在のビューに合わせてズームします。
+

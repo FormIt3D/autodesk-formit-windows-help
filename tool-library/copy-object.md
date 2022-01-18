@@ -1,28 +1,29 @@
-# Copy Object
+# オブジェクトをコピーする
 
-There are three ways to copy an object.
+オブジェクトをコピーするには、次に示す 3 つの方法があります。
 
-**Copy Using the Context Menu**
+**コンテキスト メニューを使用してコピーする**
 
-1. Select the object by double-clicking it.
-2. Right-click the object.
-3. Select the [**Copy tool**](tilt-array-copy-and-paste.md) in the Context Menu.
-4. Right-click anywhere else in the scene and choose the **Paste button**.
+1. オブジェクトをダブルクリックして選択します。
+2. オブジェクトを右クリックします。
+3. コンテキスト メニューから[**[コピー]ツール**](tilt-array-copy-and-paste.md)を選択します。
+4. シーン内の他の場所を右クリックし、**[貼り付け]ボタン**を選択します。
 
-Note: This also works with **CTRL + C** or **V**. Use Paste In Place (**CTRL+Shift+V**) to paste an object exactly where it was copied from.
+注: **[Ctrl]+[C]**または**[Ctrl]+[V]**キーを使用した場合も、同じ動作になります。オブジェクトをコピー元と正確に同じ場所に貼り付けるには、[所定の位置に貼り付け] \(**[Ctrl]+[Shift]+[V]**\)を使用します。
 
-**Copy Using the CTRL Key**
+**[Ctrl]キーを使用してコピーする**
 
-1. Select the object by clicking it (double-click to select a whole body or everything attached).
-2. Press and hold the **CTRL key** and start dragging the object, or start moving the object and then tap **CTRL**
-3. Instead of moving the object, you'll now be moving a copy of it.
-4. Note that Ctrl-copy does not currently work when Touch Mode is enabled.&#x20;
-   1. In Touch Mode, you'll need to use the copy/paste tools in the Context Menu (press and hold) or use Ctrl+C and Ctrl+V, then place the object down, and reposition it as needed.
+1. オブジェクトをクリックして選択します\(ボディ全体またはアタッチされたすべての要素を選択するにはダブルクリックします\)。
+2. **[Ctrl]キー**を押しながらオブジェクトのドラッグを開始するか、オブジェクトの移動を開始してから**[Ctrl]**を押します。
+3. オブジェクトを移動するのではなく、オブジェクトのコピーを移動している状態になります。
+4. タッチ モードが有効になっている場合は、[Ctrl]キーによるコピーが機能しないことに注意してください。
+   1. タッチ モードでは、コンテキスト メニュー\(長押し\)の[コピー]/[貼り付け]ツールまたは[Ctrl]+[C]と[Ctrl]+[V]を使用してオブジェクトを配置し、必要に応じて位置を変更します。
 
-**Copy Using the Array Tool**
+**配列ツールを使用してコピーする**
 
-1. Select the object by double-clicking it
-2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
-3. Select the number of copies you want to make
-4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .**  ![](<../.gitbook/assets/array\_properties (2).png>)
+1. オブジェクトをダブルクリックして選択します。
+2. オブジェクトを**右クリック**して、[**[配列]ツール**](tilt-array-copy-and-paste.md)を選択します。
+3. 作成するコピー数を選択します。
+4. 次のドラッグで 2 つのオブジェクト間の距離を定義するか、配列の全長を定義するかを選択します。
+5. **[OK]をクリックします。**  ![](../.gitbook/assets/array_properties.png)
+

@@ -1,128 +1,129 @@
-# 1.9 - Adding Details
+# 1.9 - 詳細を追加する
 
-_FormIt is a great massing tool - as well as a great modeling tool. We will start to add detail to the Farnsworth House in the form of doors and mullions for the glass box. We will then cover some additional tools, and practice the process of adding new geometry, layers, materials, and group management._
+_FormIt は、優れたマス作成ツールであり、優れたモデリング ツールでもあります。ガラスのボックスに対してドアとマリオンの形状を作成して、Farnsworth House に詳細を追加します。次に、いくつかの追加のツールについて説明し、新しいジオメトリ、レイヤ、マテリアルの追加およびグループ管理のプロセスを練習します。_
 
-_If you did not complete the last section, download and open the_ _**1.9 - Adding Details.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_直前のセクションを完了していない場合は、_ _**FormIt Primer Part 1 Datasets**_ _から_ _**1.9 - Adding Details.axm**ファイルをダウンロードして開きます。_
 
-## **Create Window Frames**
+## **窓枠を作成する**
 
-_We are going to create a 2" metal frame and mullions around the glass box. Note that these mullions will intentionally overlap with the glass box._
+_この演習では、2" のメタル フレームと、ガラスのボックスを囲むマリオンを作成します。作成したリオンを、ガラスのボックスと意図的に重ねます。_
 
-1 - Create a new layer called **Glass Walls** and move the **Glass Wall** group to it.
+1 - **Glass Walls** という名前の新しいレイヤを作成し、グループ **Glass Wall** をそのレイヤに移動します。
 
-2 - To facilitate visualization, turn off the **Roof** layer so we can see the entire glass box.
+2 - 見やすくするには、レイヤ **Roof** をオフにして、ガラスのボックス全体が表示されるようにします。
 
-3 - To start creating the first window frame:
+3 - 最初の窓枠の作成を開始します。
 
-1. At the building’s western side, use the **Rectangle Tool (R)** to draw a new surface directly over the exterior glass face. Make sure to create the surface outside the **Glass Walls** group.
-2. Select and drag the newly created face **2"** towards the interior. Press **Esc** to clear the selection. The final result should look like the image below.
-3. Single-click the face you just created. Right-click to access the **Context Menu** to use the **Offset Face tool (OF).**
+1. 建物の西側で**[長方形\(R\)]**ツールを使用して、外部ガラス面の上に新しいサーフェスを直接描画します。サーフェスを必ずグループ **Glass Walls** の外側に作成してください。
+2. 新しく作成した面を選択して内側に **2"** ドラッグします。**[Esc]**を押して、選択をクリアします。最終的な結果は下図のようになります。
+3. 作成した面をシングルクリックします。右クリックして**コンテキスト メニュー**から**[面をオフセット\(OF\)]ツールを選択します。**
 
-_**Note:**_ _If you have trouble selecting the new face, press the_ _**Space Bar**_ _key to alternate between different selectable objects, or temporarily turn off the_ _**Glass Walls**_ _layer._
+_**注:**_ _新しい面を選択できない場合は、_ _**[Spacebar]**_ _を押して選択できるオブジェクトを切り替えるか、レイヤ_ _**Glass Walls**_ _を一時的にオフにします。_
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - To set the offset dimension, move your mouse toward the inside of the face, and enter **2"** to create a new smaller rectangle.
+4 - オフセット寸法を設定します。面の内側にマウスを動かし、**2"** と入力して新しい小さな長方形を作成します。
 
-![](<../../.gitbook/assets/1 (9).png>)
+![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - Single-click to select the interior rectangle you just created. Click again and drag the face towards the building’s interior until it disappears. Click once more to finish removing the center volume from the frame geometry.
+5 - 作成した内側の長方形をシングルクリックして選択します。もう一度クリックし、面を建物の内側方向に、消えるまでドラッグします。もう一度クリックして、フレーム ジオメトリからの中央の体積の削除を終了します。
 
-![](<../../.gitbook/assets/2 (21).png>)
+![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - Double-click to select the geometry we just created and **Group (G)** it. Name the group **Mullion Frame – EW**.​
+6 - 作成したジオメトリをダブルクリックして選択し、**グループ\(G\)**にします。そのグループに「**Mullion Frame – EW**」という名前を付けます​。
 
-7 - Create a Layer named **Mullion** and place the new group on it.
+7 - **Mullion** という名前のレイヤを作成し、この新しいグループをそのレイヤに配置します。
 
-8 - To set the frame’s material:
+8 - フレームのマテリアルを設定します。
 
-1. Inside the **Materials Palette**, duplicate the **Metal – Brushed – Colorized** material by right-clicking on it and selecting **Duplicate Material**.
-2. Double-click the new material’s preview tile to edit it.
-3. Rename it to **Metal – Brushed – Gray**.
-4. Modify the material’s color by clicking on the **Color** tile in the **Maps** section, and darken the grey by changing the **Val:** to **150**.
+1. **[マテリアル]パレット**内でマテリアル **Metal - Brushed - Colorized** を右クリックして**[マテリアルを複製]**を選択し、複製します。
+2. 編集するために新しいマテリアルのプレビュー タイルをダブルクリックしします。
+3. 名前を「**Metal – Brushed – Gray**」に変更します。
+4. マテリアルの色を変更します。**[マップ]**セクションで**[色]**タイルをクリックして、**[Val]**で明度を「**150**」に変更してグレーを暗くします。
 
-![](<../../.gitbook/assets/3 (4).png>)
+![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - Click **OK** to save these changes to the new material, and then paint the **Mullion Frame – EW** group with it. Afterward, the group's **Properties Palette** should match what is shown in the below image:
+9 - **[OK]**をクリックして新しいマテリアルに対するこれらの変更を保存し、グループ **Mullion Frame – EW** をペイントします。この操作で、グループの**[プロパティ]パレット**は下図に示す内容と同じになるはずです。
 
-![](<../../.gitbook/assets/4 (2).jpeg>)
+![](../../.gitbook/assets/4.jpeg)
 
-10 - Create a new instance of the frame on the eastern side by using any of the following tools: **Quick copy**, **Array,** or **Mirror**.
+10 - **クイック コピー**、**配列**、または**鏡像化**のいずれかのツールを使用して、東側にフレームの新しいインスタンスを作成します。
 
-11 -Repeat the steps above for the North and South sides of the glass box. Name the new group **Mullion Frame – NS**. Don’t forget to paint them and place them on the **Mullion** layer!
+11 - ガラスのボックスの北側と南側で、上記の手順を繰り返します。新しいグループに「**Mullion Frame – NS**」という名前を付けます。ペイントして、レイヤ **Mullion** に配置するのを忘れないでください。
 
-![](<../../.gitbook/assets/5 (16) (1).png>)
+![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Note:**_ _The mullion frames overlap each other at the corners. This is intentional. The above result shows the resulting mullion frame geometry with the_ _**Glass Wall**_ _and_ _**Column**_ _layers turned off._
+_**注:**_ _マリオン フレームは、コーナーで互いに重なっています。これは意図的に行われています。上の結果は、レイヤ_ _**Glass Wall**_ _および_ _**Column**_ _をオフにした状態のマリオン フレーム ジオメトリを示しています。_
 
-**Create Mullions**
+**マリオンを作成する**
 
-1 - In plane with the exterior glass face on the building’s South or North side, draw a **2” x 10’-10” Rectangle (R)** spanning from between the bottom and top of the mullion frame. Do not worry about the exact position of the rectangle along the frame, we will move it into place in the following steps.
+1 - 建物の南側または北側の外部ガラス面の平面で、マリオン フレームの下部と上部の間に **2" x 10'-10" の長方形**を描画します。長方形をフレームに沿った正確な位置にする必要はありません。次の手順で、適切な位置に移動します。
 
-![](<../../.gitbook/assets/6 (11).png>)
+![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - Extrude the rectangle back **2”**, and then **Group (G)** it and name the group **Mullion – Vertical**. Place the group on the **Mullion** layer and paint it with the **Metal – Brushed – Grey** material.
+2 - 長方形を後方に **2"** 押し出し、**グループ\(G\)**にして、そのグループに「**Mullion – Vertical**」という名前を付けます。グループをレイヤ **Mullion** に配置し、マテリアル **Metal – Brushed – Grey** を使用してペイントします。
 
-**Locating the Mullions**
+**マリオンの位置を指定する**
 
-_Now we will set the location for the first mullion so that its centered on the_ _**Mid-Point**_ _of a column._
+_次に、最初のマリオンの位置を、中心が柱の_ _**中点**_ _上となるように設定します。_
 
-1 - To see the columns again, turn on the **Column** layer, if it was off. While you are in the **Layers Palette**, you can also turn off the **Lower Terrace** and **Plan Image** layers to make the next steps easier.
+1 - レイヤ **Column** がオフの場合はオンにして、柱を再度表示します。**[レイヤ]パレット**を開いている場合は、レイヤ **Lower Terrace** と **Plan Image** もオフにすると、次の手順で操作しやすくなります。
 
-2 - To move the mullion to its new location:
+2 - マリオンを新しい位置に移動します。
 
-1. Single-click to select the vertical mullion group you just created. **Zoom (Z)** in and click on the **Mid-Point** of the mullion’s bottom exterior edge, symbolized by a red triangle**.**
-2. Start moving the geometry horizontally towards a column. Press **Shift** to lock the movement in the red axis (**X Axis**). Note that once the movement is locked the red axis gets thicker.
-3. Zoom out until you can see the base of the column. While still holding **Shift**, click on the **Mid-Point** at the base of the column's outer face. The mullion will continue to only move along the red axis (**X Axis**), but will align to the **Mid-Point** you just clicked on.
+1. 作成した垂直マリオンのグループをシングルクリックして選択します。**[ズーム \(Z\)]** で拡大し、赤色の三角形で示された、マリオン下部の外部エッジの **中点** をクリックします**。**
+2. ジオメトリを柱に向かって水平方向に移動します。**[Shift]**を押して移動を赤色の **X 軸**方向にロックします。移動がロックされると、赤色の軸の線が太くなります。
+3. 柱の下部が見えるように縮小表示します。**[Shift]**を押したまま、柱の外側面の下部にある**中点**をクリックします。マリオンは赤色の **X 軸**方向にのみ移動し続けますが、先ほどクリックした**中点**に位置合わせされます。
 
-![](<../../.gitbook/assets/7 (1) (1).jpeg>)
+![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Note:**_ _The mullion is now directly behind the column. Turn off the_ _**Column**_ _layer or_ _**Orbit (O)**_ _to visualize the mullion._
+_**注:**_ _マリオンは柱のすぐ後ろにあります。レイヤ_ _**Column**_ _をオフにするか、_ _**オービット\(O\)**_ _して、マリオンが表示されるようにします。_
 
-3 - Press **Esc** to clear the **Move** tool.
+3 - **[Esc]**を押して**[移動]**ツールを終了します。
 
-4 - Use the **Array (AR)** or **Quick Copy** tool to create four (4) more vertical mullions along the same side, spaced **11’** apart. To learn how to use the **Array Tool**, refer to previous chapters.
+4 - **[配列\(AR\)]**または**[クイック コピー]**ツールを使用して、同じ側面に沿って **11'** 間隔でさらに 4 つの垂直マリオンを作成します。**配列ツール**の使用方法については、前の章を参照してください。
 
-5 - Use the Tab key to select all the **Vertical** Mullion groups, and copy them to the opposite side of the building, so that both the **North** and **South** frames have identical mullion layouts, as shown in the next image:
+5 - [Tab]キーを使用してすべての**垂直**マリオンのグループを選択し、建物の反対側にコピーして、次の図のように、**北**側のフレームと**南**側のフレームのマリオン レイアウトが同じになるようにします。
 
-![](<../../.gitbook/assets/8 (6).png>)
+![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Create the Door Mullions**
+## **ドア マリオンを作成する**
 
-1 - **Orbit (O)** the perspective view until you are looking at the center of the West mullion frame.
+1 - パース投影ビューを**オービット\(O\)**して、西のマリオン フレームの中心が表示されるようにします。
 
-2 - Similar to creating mullion frames, draw a **3’-6”** wide door panel with a **2”x 2”** frame. Make it a **Group (G)** with the properties: Group Name: **Curtain Wall Door**; layer: **Mullion**; material: **Metal – Brushed – Grey**.
+2 - マリオン フレームの作成と同様に、幅が **3'-6"** のドア パネルを **2" x 2"** のフレームで描画します。**グループ\(G\)**にして、グループ名: **Curtain Wall Door**、レイヤ: **Mullion**、マテリアル: **Metal – Brushed – Grey** に設定します。
 
-3 - Copy this group to create the second door frame, and move them so that they are centered in the **Mullion Frame – EW** group, as shown below.
+3 - このグループをコピーして 2 つ目のドア フレームを作成し、次に示すように、グループ **Mullion Frame – EW** の中央に配置されるように移動します。
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Create Roof Cornice with Sweep**
+## **スイープで屋根のコーニスを作成する**
 
-_We will now create the cornice of the Farnsworth House using one of FormIt’s advanced modeling tools -_ _**Sweep**. To learn about other advanced modeling, check out the_ **2.2 -** _**Advanced Modeling** chapter_ _in the_ _**FormIt Primer - Part II**._
+_FormIt の高度なモデリング ツールである_ _**スイープ**を使用して、Farnsworth House のコーニスを作成します。その他の高度なモデリングについては、_ _**FormIt Primer Part 2** の「_ **2.2 -** _**高度なモデリング**」の章_ _を参照してください。_
 
-_The first step into creating a_ _**Sweep**_ _is to draw a profile perpendicular to the sweep “extrusion”. To do that, we will use the roof geometry as a guide._
+_**スイープ**_ _を作成するには、まずスイープの「押し出し」に垂直なプロファイルを描画します。これを行うには、屋根ジオメトリをガイドとして使用します。_
 
-1 - Turn on the **Roof** layer and zoom in to one of its corners.
+1 - レイヤ **Roof** をオンにし、そのコーナーの 1 つを拡大表示します。
 
-2 - Using one of the roof’s vertical sides as a reference, draw two adjacent rectangles. The first will be **6”** high by **4 5/8**” wide, and the second is **2”x 2”**. Delete the line dividing the two rectangles to create a single face. The result should look as below.
+2 - 屋根の垂直な側面の 1 つを基準として使用し、隣接する 2 つの長方形を描画します。1 つ目は高さ **6"** で幅が **4 5/8"**、2 つ目は **2" x 2"** です。2 つの長方形を分割する線分を削除して、1 つの面を作成します。結果は次のようになります。
 
-![](<../../.gitbook/assets/10 (1).jpeg>)
+![](../../.gitbook/assets/10.jpeg)
 
-3 - To create the sweep:
+3 - スイープを作成します。
 
-1. With no selected geometry, click on the **Advanced Modeling Tools** button in the **Standard Toolbar**, and select **Sweep (SW)**.
-2. The **Sweep Selection Wizard** will start and prompt you to **Select a face (or edges) for sweep profile**. Select the profile face we just created.
-3. Once the profile is selected, you will be prompted to **Select a face (or edge) for sweep path, then click finish**. Select the top face of the roof. FormIt will automatically use the boundaries of the selected face as the sweep’s path, and the sweep will be created around the entire roof.
+1. ジオメトリを選択していない状態で、**[標準ツールバー]**の**[高度なモデリング ツール]**ボタンをクリックし、**[スイープ\(SW\)]**を選択します。
+2. **スイープの選択ウィザード**が開き、**[スイープ プロファイルの面\(またはエッジ\)を選択します。]**というプロンプトが表示されます。作成したプロファイル面を選択します。
+3. プロファイルを選択すると、**[スイープ パスの面\(またはエッジ\)を選択し、[終了]をクリックします。]**というプロンプトが表示されます。屋根の最上面を選択します。FormIt は選択した面の境界をスイープのパスとして自動的に使用し、スイープは屋根全体の周囲に作成されます。
 
-_**Note:**_ _If you are having trouble selecting either of the faces,_ _**Orbit (O)**_ _around to view the face a little better and try again. As an alternate option, select all the edges of the roof instead of the roof’s top face to complete the sweep._
+_**注:**_ _選択できない面がある場合は、_ _**オービット\(O\)**_ _して面を少し見やすくしてから、もう一度試してください。あるいは、屋根の最上面ではなく屋根のすべてのエッジを選択して、スイープを完成させるという方法もあります。_
 
-![](<../../.gitbook/assets/11 (2).png>)
+![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - Keep your model organized by creating a **Roof - Cornice** group, adding it to the **Roof** layer, and assigning the **Metal – Brushed – Colorized** material to it.
+4 - **Roof - Cornice** というグループを作成し、それをレイヤ **Roof** に追加して、マテリアル **Metal – Brushed – Colorized** を割り当てることによって、モデルを整理します。
 
-![](<../../.gitbook/assets/12 (1).png>)
+![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - To finish up, turn on the **Column** layer, and you will see that the newly created sweep intersects with the tops of the columns. Resolve this by editing any one of the **Column Tall** groups, and dragging the top face down until it aligns with the bottom of the cornice.
+5 - 仕上げを行うためにレイヤ **Column** をオンにすると、新しく作成したスイープが柱の上部と交差していることがわかります。これを解決するには、グループ **Column Tall** のいずれかを編集し、上面を下にドラッグしてコーニスの下端に位置合わせします。
 
-![](<../../.gitbook/assets/13 (5).png>)
+![](../../.gitbook/assets/13%20%285%29.png)
+

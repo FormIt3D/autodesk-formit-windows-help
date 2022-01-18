@@ -1,19 +1,20 @@
-# Lines
+# 線分
 
-Use lines to divide faces and construct geometry.
+線分を使用して面を分割し、ジオメトリを作成します。
 
-Keyboard: L
+キーボード ショートカット: [L]
 
-![](../.gitbook/assets/line\_toolbar.png)
+![](../.gitbook/assets/line_toolbar.png)
 
-You can draw lines on the X, Y, or Z axis and also on existing geometry. When you snap to an axis, a colored line extends beyond the line you are drawing indicating which the axis you are drawing on. You can see the length of the line as you draw, and you can manually enter a specfic length by pressing **tab** and enter a value.
+線分は X、Y、Z 軸上、および既存のジオメトリに描画できます。線分の描画中にいずれかの軸にスナップすると、その軸を示す色の線が、線分の延長線上に表示されます。線分の長さは描画しながら確認できます。また、**[Tab]**を押して値を入力すると、手動で特定の長さを入力できます。
 
-Line colors by axis:
+軸の色
 
-To specify a length, simply type a dimension value, and an Edit Dimension dialog will appear. Hit OK or press Enter to accept the value.
+長さを指定する場合は、その値を入力し、自動的に表示される寸法編集用のダイアログで、[OK]をクリックするか[Enter]を押して値を確定します。
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X 軸 = 赤
+* Y 軸 = 緑
+* Z 軸 = 青
 
 ![](../.gitbook/assets/lines.png)
+

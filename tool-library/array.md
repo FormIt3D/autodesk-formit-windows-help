@@ -1,15 +1,16 @@
-# Array
+# 配列
 
-You can create both linear and radial arrays in FormIt. To **array edges, faces, or entire objects**, click on the Array icon from the Context Menu. Next, choose Linear or Radial, specify the other parameters, and click the object to start an array. Click again to place the arrayed elements.
+FormIt では、直線配列と放射状配列の両方を作成できます。**エッジ、面、またはオブジェクト全体に配列を作成する**には、コンテキスト メニューの[配列]アイコンをクリックします。次に、[直線]または[放射状]を選択し、他のパラメータを指定してオブジェクトをクリックすると、配列が開始されます。再度クリックして配列要素を配置します。
 
-## Linear
+## 直線
 
-![](../.gitbook/assets/array.png)\
-![](../.gitbook/assets/array\_linear2.png)\
-![](../.gitbook/assets/linear\_array\_3.png)
+![](../.gitbook/assets/array.png)  
+![](../.gitbook/assets/array_linear2.png)  
+![](../.gitbook/assets/linear_array_3.png)
 
-## Radial
+## 放射状
 
-![](<../.gitbook/assets/array\_radial1 (1).png>)\
-![](../.gitbook/assets/radial\_array2.png)\
-![](../.gitbook/assets/radial\_array3.png)
+![](../.gitbook/assets/array_radial1.png)  
+![](../.gitbook/assets/radial_array2.png)  
+![](../.gitbook/assets/radial_array3.png)
+

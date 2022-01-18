@@ -1,7 +1,8 @@
-# Align Camera With Face
+# カメラを面に位置合わせする
 
-Quickly align the camera to look directly at any face.
+カメラを簡単に位置合わせして、面が直接見えるようにします。
 
-Select a single face, then right-click to access the Context Menu. Look for Align Camera with Face at the top of the menu, or use shortcut AF:
+1 つの面を選択し、右クリックしてコンテキスト メニューの最上部にある[カメラを面に位置合わせ]を選択するか、ショートカットの AF を入力します。
 
 ![](../.gitbook/assets/alignwithface.gif)
+

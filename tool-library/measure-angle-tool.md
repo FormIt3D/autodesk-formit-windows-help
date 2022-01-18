@@ -1,21 +1,26 @@
-# Measure Angle
+# 角度を計測する
 
-The Measure Angle tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+[角度を計測]ツールは、[ツールバー](../formit-introduction/tool-bars.md)にあります。
 
-The Measure Angle tool is used to measure angles between vertices, edges, faces, and volumes. You can also use the Measure Angle tool to drive dimensions of geometry.
+[角度を計測]ツールを使用して、頂点、エッジ、面、体積間の角度を計測します。また、ジオメトリの寸法を調整することもできます。
 
-*   From the **Measure** toolbar menu, select the **Measure Angle** tool or use the keyboard shortcut **M A** and select a starting point.
+* **[計測]**ツールバー メニューから**[角度を計測]**ツールを選択するか、キーボード ショートカットの **MA** を使用して、始点を選択します。
 
-    ![](../.gitbook/assets/measure-angle.png)
-*   Click and drag the handle to the starting vertex.
+   ![](../.gitbook/assets/measure-angle.png)
 
-    ![](../.gitbook/assets/measure-angle2.png)
-*   Use the arrows to measure the angle between one point to another.
+* ハンドルをクリックして、開始位置の頂点までドラッグします。
 
-    ![](../.gitbook/assets/measure-angle4.png)
-*   To change the geometry, click on an edge or face and enter a new angle value by clicking on the displayed angle.
+   ![](../.gitbook/assets/measure-angle2.png)
 
-    ![](<../.gitbook/assets/measure-angle3 (1).png>)
-*   Your changes or measurements display:
+* 矢印を使用して、点と点の間の角度を計測します。
 
-    ![](../.gitbook/assets/measure-angle5.png)
+   ![](../.gitbook/assets/measure-angle4.png)
+
+* ジオメトリを変更するには、エッジまたは面をクリックし、表示された角度をクリックして新しい角度値を入力します。
+
+   ![](../.gitbook/assets/measure-angle3.png)
+
+* 変更した角度値に合わせてジオメトリが変化します。
+
+   ![](../.gitbook/assets/measure-angle5.png)
+

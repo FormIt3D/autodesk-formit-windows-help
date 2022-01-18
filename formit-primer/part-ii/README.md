@@ -1,27 +1,28 @@
-# Part II
+# パート 2
 
-## Advanced Tools
+## 拡張ツール
 
-In **Part II** of this Primer, we are going to dive into some of the more advanced tools FormIt has to offer. We will explore how to use simple yet powerful modeling, diagnostic, analysis, and interoperability tools to modify and enhance the Encode Campus Model pictured below.
+Primer **パート 2** では、FormIt に備わっている高度なツールについて説明します。シンプルでありながら強力なモデリング、診断、解析、相互運用ツールを使用して、下図の Encode Campus のモデルを修正および拡張する方法について説明します。
 
-If you are new to FormIt, we recommend starting with **Part I**, as **Part II** will assume you are already familiar with the basics of FormIt.
+FormIt を初めて使用する場合は、**パート 1** から始めることをお勧めします。**パート 2** では、FormIt についての基本的な知識があることを前提として説明を進めます。
 
-Refer to the **FormIt Introduction** and **Tool Library** sections for detailed explanations on specific tools, toolbars, palettes, and processes discussed herein.
+特定のツール、ツールバー、パレット、プロセスの詳細な説明については、「**FormIt の概要**」および「**ツール ライブラリ**」のセクションを参照してください。
 
-![](<../../.gitbook/assets/screen1 (1).jpg>)
+![](../../.gitbook/assets/screen1.jpg)
 
-### Pre-requisites
+### 前提条件
 
-Before beginning Part II, download and install FormIt for Windows using the directions found in the FormIt Introduction section here: [**Prerequisites and Installation**](../../formit-introduction/prerequisites-and-installation.md).
+パート 2 を開始する前に、「FormIt の概要」セクションの「[**前提条件とインストール**](../../formit-introduction/prerequisites-and-installation.md)」の指示に従って、FormIt for Windows をダウンロードしてインストールします。
 
-For most chapters, you will also need to download and make use of the data set found at the link below.
+ほとんどの章で、次のリンクにあるデータ セットもダウンロードして利用する必要があります。
 
-_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [_**Web Application**_](https://formit.autodesk.com/app)_**.** For more information about FormIt versions and licensing, visit the_ [_FormIt website_](https://formit.autodesk.com)_._
+_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app) _でほとんどのチュートリアルを完了できます。FormIt のバージョンとライセンスの詳細については、_ ****[_**FormIt の Web サイト**_](https://formit.autodesk.com)_\*\*\*\*_を参照してください。
 
-### Data Set
+### データ セット
 
-The Encode Campus, pictured above, is a fictional medium-sized multi-use project set in an urban plot, complete with organized layers, scenes, materials, and even geometries tied to live editable Dynamo scripts.
+上図の Encode Campus は、都市のプロットに設定された中規模で多目的の架空プロジェクトで、整理されたレイヤ、シーン、マテリアルに加えて、ライブ編集可能な Dynamo スクリプトに関連付けられたジオメトリも含まれています。
 
-All façade elements of the Encode building are controlled by Dynamo scripts, driven by a path at the base of the building that defines the façade shape.
+この建物のすべてのファサード要素は、Dynamo スクリプトによってコントロールされ、建物の基礎にあるパスでファサード形状を定義します。
 
-* [**FormIt Primer Data Sets Part II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)
+* \*\*\*\*[**FormIt Primer Data Sets Part II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
+

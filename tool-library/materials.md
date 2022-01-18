@@ -1,157 +1,157 @@
-# Materials
+# マテリアル
 
-Make your FormIt models pop with Materials that support reflection, gloss, and bump maps.
+FormIt モデルに反射、光沢、バンプ マップをサポートするマテリアルを取り込みます。
 
-## The Materials Panel
+## [マテリアル]パネル
 
-![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
+![](<../.gitbook/assets/materials-sample-category (2).png>)
 
-In the materials panel, you can choose from a wide variety of Material Samples, navigate between linked Material libraries, and, as of FormIt 2021, access and use the Material contents of other FormIt (.AXM) files.
+[マテリアル]パネルでは、さまざまなマテリアル サンプルから選択したり、リンクされたマテリアル ライブラリ間をナビゲートできます。FormIt 2021 では、他の FormIt (.AXM)ファイルのマテリアル コンテンツにアクセスして使用できます。
 
-### Material Library Sources
+### マテリアル ライブラリ ソース
 
-In FormIt 2021 and newer, the Materials panel has a drop-down interface to choose from available Material Library sources: In-Sketch, Material Samples, and [linked libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+FormIt 2021 以降の[マテリアル]パネルにはドロップダウン インタフェースがあり、使用可能なマテリアル ライブラリ ソース(スケッチ内、マテリアル サンプル、[リンクされたライブラリ](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries))から選択できます。
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
-#### In Sketch
+#### スケッチ内
 
-Shows the Materials saved to the current FormIt sketch.
+現在の FormIt スケッチに保存されているマテリアルが表示されます。
 
-#### Material Samples
+#### マテリアル サンプル
 
-Shows a list of available sample Materials. These offerings are stored on a cloud-based server, so please note:
+使用可能なサンプルのマテリアルのリストが表示されます。このサンプルはクラウド ベースのサーバに保存されているため、次の点にご注意ください。
 
-* An internet connection is required when accessing Material Samples categories for the first time.
-* When accessing a category for the first time, it will be downloaded and then cached on your computer, so that future sessions won't require a download.&#x20;
-* The FormIt team may occasionally update the offerings in Material Samples. When that happens, FormIt will automatically delete and re-download the categories to get the latest.&#x20;
+* [マテリアル サンプル]カテゴリに初めてアクセスする場合は、インターネット接続が必要です。
+* カテゴリに初めてアクセスすると、ダウンロードされてコンピュータにキャッシュされるため、その後のセッションではダウンロードする必要はありません。
+* FormIt チームは、マテリアル サンプルで提供する内容を更新することがあります。その場合、FormIt では自動的にそのカテゴリが削除されて再ダウンロードされ、最新の情報が取得されます。
 
 ![](../.gitbook/assets/materials-samples\_original.png)
 
-**Linked Libraries**
+**リンクされたライブラリ**
 
-Other directories and locations will appear after [linking Material libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+その他のフォルダや場所は、[マテリアル ライブラリをリンク](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)した後に表示されます。
 
-### Create, Delete, and Eyedropper
+### 作成、削除、スポイト
 
-![](../.gitbook/assets/materials\_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss settings.
+![](../.gitbook/assets/materials\_add.PNG) 色、テクスチャ、バンプ マップ、カットアウト マップ、透過度、反射/光沢の設定を定義して、**新しいマテリアルを作成**します。
 
-![](<../.gitbook/assets/materials\_delete (1).PNG>) **Delete** selected Material(s).
+![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) 選択したマテリアルを**削除**します。
 
-![](../.gitbook/assets/materials\_eyedropper.PNG) **Eyedropper** a Material painted in the scene, and immediately start painting with it.
+![](../.gitbook/assets/materials\_eyedropper.PNG) シーン内のペイントされたマテリアルを**スポイト**で吸い上げるようにして、すぐにペイントを開始します。
 
-* Click the Eyedropper tool, then click a face painted with a Material
-* The material that's found on the face will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
+* [スポイト]ツールをクリックした後、マテリアルでペイントする面をクリックします。
+* 面の上にあるマテリアルがパネルでハイライト表示され、そのマテリアルをロードした状態で[ペイントブラシ]ツールがアクティブになります。
 
-### Refresh, Link Libraries, and Purge Unused
+### 更新、ライブラリをリンク、未使用項目を削除
 
-![](../.gitbook/assets/materials-link.png) **Link Material libraries** from local directories. Directories containing JPG, PNG, or AXM (FormIt) files will display content. See [Linking Material Libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) for more information.
+![](../.gitbook/assets/materials-link.png) ローカルのフォルダから**マテリアル ライブラリをリンク**します。JPG、PNG、または AXM (FormIt)ファイルを含むフォルダには、コンテンツが表示されます。詳細については、「[マテリアル ライブラリをリンクする](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)」を参照してください。
 
-![](../.gitbook/assets/materials-refresh.png)**Refresh** the current directory. Only enabled when viewing a locally-linked directory (not In Sketch or Material Samples).
+![](../.gitbook/assets/materials-refresh.png) 現在のフォルダを**更新**します。ローカルでリンクされたフォルダを表示している場合にのみ有効です(スケッチ内やマテリアル サンプルでは無効です)。
 
-![](../.gitbook/assets/materials-purge.png) **Purged unused** Materials from the current FormIt sketch.
+![](../.gitbook/assets/materials-purge.png) 現在の FormIt スケッチのマテリアルから**未使用項目を削除**します。
 
-Unused Materials can accumulate naturally through the process of iteration, but they can add significantly to the file size if they use high-quality textures.
+未使用のマテリアルは、処理を繰り返すことで自然に蓄積されますが、高品質のテクスチャが使用されている場合は、ファイル サイズが大幅に増えることがあります。
 
-Unused Materials appear with a grey-colored name in the In Sketch list.
+未使用のマテリアルは、スケッチ内リストで名前が灰色で表示されます。
 
-Click the Purge Unused tool to delete all unused Materials. You'll see a prompt first, so you can cancel if you have second thoughts. This button is only enabled in the In Sketch list.
+未使用のマテリアルをすべて削除するには、[未使用項目を削除]ツールをクリックします。確認のメッセージが表示されるため、キャンセルも可能です。このボタンは、[スケッチ内]リストでのみ有効です。
 
-### Linking Material Libraries
+### マテリアル ライブラリをリンクする
 
-FormIt 2021 and newer offers the ability to link the Materials panel to local directories (libraries) containing Material content, including folders of JPGs, PNGs, and/or FormIt files:
+FormIt 2021 以降では、JPG、PNG、FormIt ファイルのフォルダなど、マテリアル コンテンツを含むローカル フォルダ(ライブラリ)に[マテリアル]パネルをリンクすることができます。
 
 ![](../.gitbook/assets/materials-axms.png)
 
-![View individual Materials from a FormIt file, or JPG/PNG files in a directory. ](../.gitbook/assets/materials-axm-content.png)
+![View individual Materials from a FormIt file, or JPG/PNG files in a directory.](../.gitbook/assets/materials-axm-content.png)
 
-* **JPG/PNG files** will display as Materials, which can be painted directly into the current FormIt sketch.
-  * Clicking on a thumbnail converts the image file to a FormIt Material on the fly, and copies it to the current sketch.&#x20;
-  * FormIt will return you to the "In Sketch" directory to see the Material you've just copied to the sketch.
-* **FormIt files (\*.axm)** will display as folders with a FormIt icon.&#x20;
-  * Clicking on the FormIt file folders will display all FormIt Materials saved to that file.
-  * Note that FormIt must load part of the file to get the Material contents, so larger files may take longer to display Materials in the panel.
+* **JPG/PNG ファイル**はマテリアルとして表示され、現在の FormIt スケッチに直接ペイントできます。
+   * サムネイルをクリックすると、イメージ ファイルがすぐに FormIt マテリアルに変換され、現在のスケッチにコピーされます。
+   * FormIt は「スケッチ内」フォルダに戻り、コピーしたマテリアルがスケッチに表示されます。
+* **FormIt ファイル(\*.axm)**は、FormIt アイコンが付いたフォルダとして表示されます。
+   * FormIt ファイル フォルダをクリックすると、そのファイルに保存されているすべての FormIt マテリアルが表示されます。
+   * FormIt は、マテリアル コンテンツを取得するためにファイルの一部をロードする必要があるため、大きなファイルの場合はパネルでマテリアルを表示するのに時間がかかることがあります。
 
-### Material Interactions
+### マテリアルの相互作用
 
-**Paint a Material** by single-clicking clicking the thumbnail. You'll be placed into the Paintbrush tool, where you can now hover over geometry in the FormIt canvas and click faces or Groups to paint them.
+**マテリアルをペイント**するには、サムネイルをシングルクリックします。[ペイントブラシ]ツールがアクティブになり、FormIt のキャンバスでジオメトリにカーソルを合わせて面またはグループをクリックすると、ペイントできます。
 
-Once you're in the Paintbrush tool:
+[ペイントブラシ]ツールがアクティブになったら、次のように操作します。
 
-* Paint faces and Groups by single-clicking.
-  * When painting Groups, the Material will cascade into the nested geometry and will cover any surface or Group painted with the Default Material.
-* Paint entire solids by double-clicking a face to select everything attached.
+* シングルクリックで面とグループをペイントします。
+   * グループをペイントすると、マテリアルはネストされたジオメトリに重ねて表示され、既定のマテリアルでペイントされたサーフェスまたはグループを隠します。
+* 面をダブルクリックしてアタッチされたすべての要素を選択すると、ソリッド全体がペイントされます。
 
-You can also select faces and Groups first, then single-click a Material thumbnail to paint the selection with that Material.
+面とグループを最初に選択してからマテリアルのサムネイルをシングルクリックして、そのマテリアルで選択した要素をペイントすることもできます。
 
-**Edit a Material** by double-clicking on the thumbnail, which will bring up the Material Editor (see below).
+**マテリアルを編集**するには、サムネイルをダブルクリックします。マテリアル エディタが表示されます(次を参照)。
 
-**Rename a Material** by double-clicking the name.
+**マテリアルの名前を変更**するには、名前をダブルクリックします。
 
-**Identify a Material** painted on geometry by selecting it, and looking for the highlight and icon indicating what Material(s) are painted on the selected geometry.
+**ジオメトリにペイントされたマテリアルを特定**するには、ジオメトリを選択し、選択したジオメトリにペイントされたマテリアルを示すハイライト表示とアイコンを探します。
 
 ![](../.gitbook/assets/material\_selected.png)
 
-**The Default Material** can be used to effectively "clear" a face or a Group of any Materials. Any geometry not painted with a Material is implicitly painted with the Default Material.
+**既定のマテリアル**を使用すると、マテリアルの面やグループを効果的に「クリア」することができます。マテリアルでペイントされていないジオメトリは特に指定がない限り、既定のマテリアルでペイントされます。
 
-### List Management
+### リストの管理
 
-Adjust the size of the thumbnails by adjusting the width of the column (click and drag the vertical line to the right of "Material").
+列の幅を調整してサムネイルのサイズを調整します(「マテリアル」の右にある垂直線をクリックしてドラッグします)。
 
-Filter for specific Materials by typing in the "Filter..." bar.
+特定のマテリアルをフィルタするには、[フィルタ]バーに入力します。
 
-Materials with names that display in a grey font indicate that those Materials that are not used in the current sketch.
+名前が灰色のフォントで表示されるマテリアルは、現在のスケッチで使用されていないものです。
 
-## Create and Edit Materials
+## マテリアルを作成および編集する
 
 ![](<../.gitbook/assets/materials-editor (1).png>)
 
-When you create or edit a Material, you'll see the Material Editor dialog, where you can customize:
+マテリアルを作成または編集する際、[マテリアル エディタ]ダイアログが表示され、次の項目をカスタマイズできます。
 
-* **Color**
-* **Image Maps**
-  * Click the thumbnail to choose a new map.
-  * Click the Save icon to save the map for editing in another application.
-  * Click the Delete icon to delete the map from this material.
-    * **Texture from an image file**
-      * JPG or PNG
-    * **Bump map from an image file**
-      * JPG recommended
-      * Great for adding depth effects to Materials.
-      * You can use freeware like ShaderMap to generate bump maps given a texture.
-    * **Cutout map from an image file**
-      * PNG
-      * Great for Materials that have selective transparency, like chain-link fences or perforated panels.
-* **Name**
-* **Horizontal and Vertical Scale**
-  * When enabled, the Lock Aspect button will ensure the horizontal and vertical scale respect the texture's aspect ratio.&#x20;
-  * Stretch a Material by adjusting horizontal scale independently from vertical scale.
-  * You can override the horizontal and vertical scale per-face using the Adjust Material Placement tool (see below).
-* **Transparency**, **Reflection**, and **Gloss**
+* **色**
+* **イメージ マップ**
+   * サムネイルをクリックして新しいマップを選択します。
+   * 別のアプリケーションで編集するためにマップを保存するには、[保存]アイコンをクリックします。
+   * このマテリアルからマップを削除するには、[削除]アイコンをクリックします。
+      * **イメージ ファイルからのテクスチャ**
+         * JPG または PNG
+      * **イメージ ファイルからのバンプ マップ**
+         * JPG を推奨
+         * マテリアルに奥行き効果を追加するのに適しています。
+         * ShaderMap のようなフリーウェアを使用すると、テクスチャを指定したバンプ マップを生成できます。
+      * **イメージ ファイルからのカットアウト マップ**
+         * PNG
+         * 金網フェンスや穴あきパネルなど、選択透過性を持つマテリアルに適しています。
+* **名前**
+* **水平および垂直スケール**
+   * [縦横比を固定]ボタンを有効にすると、水平および垂直スケールはテクスチャの縦横比に従います。
+   * 垂直スケールと水平スケールを別々に調整して、マテリアルをストレッチします。
+   * [マテリアルの配置を調整]ツール(次を参照)を使用して、面ごとに水平および垂直スケールを変更できます。
+* **透過度**、**反射**、**光沢**
 
-## Adjusting Material Placement
+## マテリアルの配置を調整する
 
-When painting a Material on a face, FormIt takes a best guess as to the best orientation:
+面にマテリアルをペイントする場合、FormIt では最適な推測値で最適な方向に設定されます。
 
-* Vertical faces will orient with the texture's top oriented along the Z-axis.
-* Horizontal faces will orient the texture lengthwise along the longest side of the face.
+* 垂直面は、テクスチャの上が Z 軸の方向となるように設定されます。
+* 水平面は、テクスチャの縦方向が面の最も長い側面に沿うように設定されます。
 
-Use the **Adjust Material Placement** tool to override the default Material placement, as well as the Material's scale on specific faces:
+**[マテリアルの配置を調整]**ツールを使用して、特定の面上で、既定のマテリアルの配置とマテリアルのスケールを変更します。
 
-* Select a face or faces painted with a Material
-  * If the face is inheriting its Material from its parent Group, you'll need to paint the face directly first.
-* Access the Adjust Material Placement tool through the shortcut MP or from the right-click context menu:
+* マテリアルでペイントされた面を選択します。
+   * 面が親グループからマテリアルを継承している場合は、最初に面を直接ペイントする必要があります。
+* [マテリアルの配置を調整]ツールには、ショートカットの MP または右クリックで表示されるコンテキスト メニューからアクセスします。
 
-![](../.gitbook/assets/adjust-material-placement.png)
+![](../.gitbook/assets/adjust-material-placement.PNG)
 
-Use the on-screen controls to interactively move, rotate and scale the material textures directly on the face:
+画面上のコントロールを使用して、面上で直接マテリアル テクスチャをインタラクティブに移動、回転、スケールします。
 
 ![](../.gitbook/assets/materialplacement.gif)
 
 ![](../.gitbook/assets/adjust-material-placement.gif)
 
-To reset any of the changes to the material placement, simply paint the face again with the original material, from the Materials panel.
+マテリアルの配置に加えた変更をリセットするには、[マテリアル]パネルから元のマテリアルを使用して面を再びペイントします。
 
-## Material Translation to Revit
+## Revit へのマテリアルの変換
 
-Materials will transfer to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit) for Revit 2018 or later.
+Revit 2018 以降では、[FormIt アドイン](https://formit.autodesk.com/page/formit-revit)を使用すると、マテリアルが Revit に転送されます。

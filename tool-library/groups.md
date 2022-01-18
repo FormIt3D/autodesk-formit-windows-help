@@ -1,57 +1,58 @@
-# Groups
+# グループ
 
-One of the most basic yet important techniques in FormIt workflows involves grouping. Groups allow you to keep your geometry from sticking together and allow you to set up parent/child relationships between copied elements so that if you update one element, both elements update. Learn more about groups [here](../formit-primer/part-i/grouping-objects.md).
+FormIt ワークフローで最も基本的でかつ重要なテクニックの 1 つに、グループ化があります。グループを使用すると、ジオメトリが互いに固定されないようにし、コピーした要素間の親子関係を設定して 1 つの要素を更新すると、両方の要素が更新されるようにすることができます。グループの詳細は[こちら](../formit-primer/part-i/grouping-objects.md)をご覧ください。
 
-Groups can be created and edited in two ways: either from the context menu of a selected group, or from the main toolbar.
+グループは、選択したグループのコンテキストメニューから、またはメイン ツールバーから作成および編集できます。
 
-## Groups Interactions
+## グループの相互作用
 
-To **create a group**, select the elements you'd like to group together — this can include edges, faces, solids, or other groups — and right-click. Choose the **Group (G)** tool from the context menu. Imported images and satellite images cannot be grouped.
+**グループを作成**するには、グループ化する要素\(エッジ、面、ソリッド、その他のグループを含む\)を選択し、右クリックします。コンテキスト メニューから**[グループ\(G\)]**ツールを選択します。読み込まれたイメージと衛星画像はグループ化できません。
 
-To **select a group**, single-click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
+**グループを選択**するには、グループをシングルクリックします。グループを選択すると破線が表示されます。この線はグループの合計サイズを示します。
 
-To **edit a group**, double-click the group. This launches an edit mode where you can only view and snap to elements outside of the current group, but cannot select them. You can also hide the elements outside of the current group by using the **H** keyboard shortcut.
+**グループを編集**するには、グループをダブルクリックします。これにより、編集モードが起動し、現在のグループの外側にある要素を表示およびスナップできますが、選択することはできません。キーボード ショートカットの**[H]**を使用して、現在のグループの外側にある要素を非表示にすることもできます。
 
-You can create **groups within groups:** these are called **nested groups** and can be created within the group edit mode. To move up one level in nested groups, click anywhere outside of the groups.
+**グループ内にグループ**を作成できます。それらは**ネストされたグループ**と呼ばれ、グループ編集モード内で作成できます。ネストされたグループ内で 1 レベル上に移動するには、グループの外側の任意の場所をクリックします。
 
-To **exit group edit mode,** double-click anywhere outside of the group.
+**グループ編集モードを終了**するには、グループの外側の任意の場所をダブルクリックします。
 
-You can **copy a group** to create a relationship between the original group and its copy: if you edit any copied groups, the same changes will affect all related groups.
+**グループをコピー**して、元のグループとそのコピー間の関係を作成できます。コピーしたグループを編集すると、関連するすべてのグループに同じ変更が反映されます。
 
-To **sever the relationship between copied groups**, select the group or groups you would like to make separate, right-click, and choose **Make Unique** from the context menu. You can also select Make Unique from the Groups toolbar.
+**コピーしたグループ間の関係を切断する**には、分離するグループを選択して右クリックし、コンテキスト メニューから**[固有にする]**を選択します。[グループ]ツールバーから[固有にする]を選択することもできます。
 
-To **select all related groups**, hover over a group and press the Tab key. When all related groups become highlighted, click on the groups to select them. You can then perform an action on all groups at once.
+**すべての関連グループを選択**するには、グループにカーソルを合わせて[Tab]キーを押します。すべての関連グループがハイライト表示されたら、グループをクリックして選択します。その後、すべてのグループに対して一度にアクションを実行できます。
 
-The [**Groups Tree**](groups-tree.md) provides a single place to view and manage all of the groups in a project.
+[**グループ ツリー**](groups-tree.md)では、1 つの場所でプロジェクト内のすべてのグループを表示および管理できます。
 
-## Groups Context menu and Toolbar access
+## グループ コンテキスト メニューとツールバー アクセス
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Group Elements**
+**グループ要素**
 
-To create a group from the Groups toolbar item, select one or more elements, select the **Create Group** icon, and then select the **Finish** icon. Alternatively, you can select **Create Group** from the Groups tool bar item, then select elements you would like to group and select the **Finish** icon.
+[グループ]ツールバーからグループを作成するには、1 つまたは複数の要素を選択し、**[グループを作成]**アイコンを選択してから**[終了]**アイコンを選択します。または、[グループ]ツールバーから**[グループを作成]**を選択し、グループ化する要素を選択して**[終了]**アイコンを選択します。
 
-To **edit a group from the Groups toolbar item**, select the **Edit Group** icon and then click the group you want to edit. When you are done making edits, select the **Finish** icon. This tool allows you to choose the specific group you'd like to edit, even if it is deeply nested.
+**[グループ]ツールバーからグループを編集**するには、**[グループを編集]**アイコンを選択し、編集するグループをクリックします。編集が終了したら、**[終了]**アイコンを選択します。このツールを使用すると、深くネストされていても、編集する特定のグループを選択できます。
 
-**To make a group unique from the toolbar,** select the **Make Unique** icon in the Groups toolbar item. Additionally, you can select **Make Unique** from the Groups toolbar item and then select the group you would like to make unique and click the **Finish** icon.
+**ツールバーからグループを固有にするには、**[グループ]ツールバーの**[固有にする]**アイコンを選択します。さらに、[グループ]ツールバーから**[固有にする]**を選択し、固有にするグループを選択して**[終了]**アイコンをクリックします。
 
-**To ungroup a group from the Groups toolbar item,** select the group you want to change and choose the **Ungroup** icon from the Groups toolbar menu.This ungroups your current selection, but does not ungroup any nested groups. Alternatively, you can select **Ungroup** from the toolbar, select the group you want to change, and then select the **Finish** icon.
+**[グループ]ツールバーからグループ解除する**には、該当するグループを選択し、[グループ]ツールバー メニューから**[グループ解除]**アイコンを選択します。これにより、現在選択されているグループがグループ解除されますが、ネストされたグループはグループ解除されません。または、ツールバーから**[グループ解除]**を選択し、該当するグループを選択して、**[終了]**アイコンをクリックします。
 
-**To ungroup all groups nested below your currently selected group,** select a group with nested groups and choose **Ungroup All Nested** from the Groups toolbar.
+**現在選択しているグループの下にネストされているすべてのグループをグループ解除する**には、ネストされたグループを持つグループを選択し、[グループ]ツールバーから**[ネストをすべてグループ解除]**のアイコンを選択します。
 
-**To ungroup all groups in your model,** select the **Ungroup All** tool from the Groups toolbar.
+**モデル内のすべてのグループをグループ解除する**には、[グループ]ツールバーから**[すべてグループ解除]**ツールを選択します。
 
-## Groups and Revit
+## グループと Revit
 
-If you're familiar with Revit **families**, then you are familiar with the concept of groups in FormIt. FormIt groups have features you can use to transfer them intelligently into Revit.
+Revit **ファミリ**に慣れている場合は、FormIt でのグループの概念にもすぐに馴染めることでしょう。FormIt グループには、Revit にインテリジェントに転送するための機能が用意されています。
 
-**FormIt Group Categories**
+**FormIt グループ カテゴリ**
 
-You can specify the **categories** for groups in FormIt so that your FormIt groups become families of the same categories when you import them into Revit. You can assign categories to your FormIt groups by selecting a group, entering **Group Edit** mode, and using the **Properties** panel to choose categories. You can also assign categories in the **Groups Tree** panel.
+FormIt のグループの**カテゴリ**を指定して、FormIt グループを Revit に読み込むときに、FormIt グループが同じカテゴリのファミリになるようにすることができます。FormIt グループにカテゴリを割り当てるには、グループを選択し、**[グループ編集]**モードを開始し、**[プロパティ]**パレットを使用してカテゴリを選択します。**[グループ ツリー]**パレットでカテゴリを割り当てることもできます。
 
-**FormIt Group Names**
+**FormIt グループ名**
 
-You can also use the **Properties** panel to specify a name for your FormIt group. This can be helpful in navigating your own model, and when you import your model to Revit you can easily filter elementsusing the name of the group.
+**[プロパティ]**パレットを使用して、FormIt グループの名前を指定することもできます。これは、ユーザ独自のモデルをナビゲートする場合に役立ちます。モデルを Revit に読み込む場合、グループの名前を使用して要素を簡単に絞り込むことができます。
 
-Note that **nested groups in FormIt are not imported into Revit as nested groups**. This prevents deeply-nested Revit families.
+**FormIt 内のネストされたグループは、ネストされたグループとして Revit に読み込まれません**。これにより、Revit ファミリが深くネストされることを回避できます。
+

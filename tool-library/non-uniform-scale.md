@@ -1,40 +1,41 @@
-# Non-Uniform Scale
+# 不均等スケール
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**[不均等スケール]を使用して、1 次元、2 次元、または 3 次元でオブジェクトをストレッチします。**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+エッジ、面、ソリッド、メッシュ、またはグループを自由に組み合わせて選択し、キーボード ショートカットの **NU** を使用するか、コンテキスト メニューの[不均等スケール]を選択します。
 
-![](../.gitbook/assets/nu-scale\_context-menu.PNG)
+![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.**
+**アクティブにすると、一連のグリップが表示され、同時に 1 つ、2 つ、または 3 つの軸でオブジェクトを不均等にスケールできます。**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+分かりやすくするために、カメラに面しているグリップのみが描画されます。反対側のグリップを調整する場合は、オブジェクトを中心にオービットします。
 
-![](../.gitbook/assets/nu-scale\_grips-1.PNG)
+![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+グリップをクリックすると、編集可能なテキスト ボックスが表示され、パーセンテージまたは距離でスケールを調整できます。
 
-![](../.gitbook/assets/nu-scale\_grips-2.PNG)
+![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**寸法ボックスが表示されたら、次の操作を実行できます**。
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* パーセンテージの数値を入力して、スケールの係数を指定します。
+   * 負の値を入力すると、スケールの方向が反転します。
+* または、クリックしてグリップの位置を一時的に設定し、寸法を含んだボックスをクリックして距離でスケールを変更します。
+* スペースの外でクリックするか[Esc]を押して、[不均等スケール]操作を終了します。
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**コーナー エッジのグリップのいずれかでスケールを変更する際は、隣接する寸法の縦横比に従います。**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 数値の入力を開始して、パーセンテージの値を編集します。
+* または、クリックしてグリップの位置を一時的に設定し、2 つの寸法ボックスの一方をクリックして距離でスケールを変更します。
+* スペースの外でクリックするか[Esc]を押して、[不均等スケール]操作を終了します。
 
-![](../.gitbook/assets/nu-scale\_grips-3.PNG)
+![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**同様に、コーナーのグリップのいずれかでスケールを変更する際は、シェイプ全体の縦横比に従うため、実質的に均等にスケール変更されます。**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 数値の入力を開始して、パーセンテージの値を編集します。
+* または、クリックしてグリップの位置を一時的に設定し、3 つの寸法ボックスのいずれかをクリックして距離でスケールを変更します。
+* スペースの外でクリックするか[Esc]を押して、[不均等スケール]操作を終了します。
 
-![](../.gitbook/assets/nu-scale\_grips-4.PNG)
+![](../.gitbook/assets/nu-scale_grips-4.PNG)
+

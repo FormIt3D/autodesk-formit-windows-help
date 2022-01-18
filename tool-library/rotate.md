@@ -1,13 +1,14 @@
-# Rotate Object
+# オブジェクトを回転させる
 
-You can change the orientation of objects using the Rotate tool in the Context Menu.
+コンテキスト メニューの[回転]ツールによって、オブジェクトの方向を変更できます。
 
-1. Select an element you want to rotate and right-click to launch the Context Menu.
-2. From the Context Menu, select the Rotate tool.&#x20;
-3. When the protractor graphic appears on your mouse, click to set the plane for rotation.
-4. Use the blue grips to specify the start point of the rotation, and reset the axis if necessary. Use the arrows or the editable dimension box to set the rotation angle.&#x20;
+1. 回転させる要素を選択し、右クリックしてコンテキスト メニューを起動します。
+2. コンテキスト メニューから、[回転]ツールを選択します。
+3. 分度器のグラフィックスがマウスに表示されたら、回転させる平面をクリックして設定します。
+4. 青いグリップを使用して回転の始点を指定します。軸は必要に応じてリセットできます。矢印または編集可能な寸法ボックスを使用して、回転角度を設定します。
 
-Note that you can alse use the **Q** keyboard shortcut to access the rotate tool after selecting an element.
+要素を選択した後でキーボード ショートカットの **Q** を使用しても[回転]ツールにアクセスできます。
 
-![](../.gitbook/assets/rotate1.png)\
+![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)
+

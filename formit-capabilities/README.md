@@ -1,11 +1,9 @@
-# FormIt Capabilities
+# FormIt の機能
 
-![](../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## FormIt Capabilities
+## FormIt の機能
 
-Create conceptual building designs with a powerful built-in solid modeling system, incredible visualization options, and a native Dynamo integration, all while initiating a BIM workflow.
+BIM ワークフローを開始しながら、強力なビルトイン ソリッド モデリング システム、ビジュアライゼーションの多彩なオプション、および Dynamo とのネイティブな統合を使用してコンセプト建築設計を作成します。
 
-Use Autodesk® FormIt® to capture building design concepts when ideas occur. Take advantage of accurate and easy solid modeling, organize your ideas in Groups and Layers, and get real-world site information, such as satellite images, to correctly orient and analyze your designs with shadows, Solar Analysis, and Energy Analysis. Move your preliminary designs to centralized data storage for access and refinement in Autodesk® Revit® software or other software.
-
-![](../.gitbook/assets/formit-capabilities.png)
+Autodesk® FormIt® を使用すると、思いついたアイデアをすぐに建築設計のコンセプトとして具体化することができます。正確で簡単なソリッド モデリングを活用し、グループやレイヤでアイデアを整理し、衛星画像などの実際の現場情報を取得して設計の向きを正しく設定し、設計の影の調査、日照解析、エネルギー解析を実行します。予備設計を中央のデータ ストレージに保管すると、Autodesk® Revit® などのソフトウェアからその予備設計にアクセスして編集できるようになります。

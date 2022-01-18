@@ -1,5 +1,6 @@
-# Section Planes
+# 断面平面
 
-Use **Section Planes** to cut into your FormIt model, revealing interior spaces and structural elements.
+**[断面平面]**を使用して FormIt モデルに切り込みを入れ、内部スペースと構造要素を表示します。
 
-Learn about Section Planes in the [FormIt Primer](../formit-primer/part-i/section\_planes.md).
+断面平面の詳細については、[FormIt Primer](../formit-primer/part-i/section_planes.md) を参照してください。
+

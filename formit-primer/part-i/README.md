@@ -1,21 +1,24 @@
-# Part I
+# パート 1
 
-## Modeling Mies van der Rohe's Farnsworth House
+## Mies van der Rohe のファンズワース邸をモデリングする
 
-In Part I of this Primer, we are going to go over the basic FormIt tools and workflows to build a historic modernist house in just under two hours! Refer to the **FormIt Introduction** and **Tool Library** sections for detailed explanations on tools, toolbars, palettes, and processes discussed herein.
+Primer パート 1 では、FormIt の基本的なツールとワークフローについて説明し、歴史的なモダニズム建築の邸宅をわずか 2 時間で作成します。ここで説明するツール、ツールバー、パレット、プロセスの詳細な説明については、「**FormIt の概要**」および「**ツール ライブラリ**」のセクションを参照してください。
+
+
 
 ![The Farnsworth House](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
-### Pre-requisites
+### 前提条件
 
-Before beginning Part I, download and install FormIt for Windows using the directions found in the FormIt Introduction section here: [**Prerequisites and Installation**](../../formit-introduction/prerequisites-and-installation.md).
+パート 1 を開始する前に、「FormIt の概要」セクションの「[**前提条件とインストール**](../../formit-introduction/prerequisites-and-installation.md)」の指示に従って、FormIt for Windows をダウンロードしてインストールします。
 
-You will also need to download the data set found at the link below. The data set is a collection of files used throughout Part I.
+次のリンクにあるデータ セットもダウンロードする必要があります。データ セットは、パート 1 を通して使用するファイルのコレクションです。
 
-_If you cannot run FormIt for Windows, the majority of the tutorial can be completed using the free_ [_**Web Application**_](https://formit.autodesk.com/app)_**.** For more information about FormIt versions and licensing, visit the_ [_FormIt website_](https://formit.autodesk.com).
+_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app) _でほとんどのチュートリアルを完了できます。FormIt のバージョンとライセンスの詳細については、_ ****[_**FormIt の Web サイト**_](https://formit.autodesk.com)_\*\*\*\*_を参照してください。
 
-### Data Set
+### データ セット
 
-Throughout Part I, we will build the Farnsworth House step by step, breaking up the modeling into manageable chapters. If you wish to only complete specific chapters, the data set below will provide you with the progress up until the chapter you chose to do. Besides the **Chapter Files**, the data set also contains the necessary **Supporting Files** to complete all exercises.
+パート 1 では、取り組みやすいようにモデリングを複数の章に分割しています。順を追ってファンズワース邸を作成していきます。特定の章のみを完了する場合は、選択した章までの作業を終えたデータを下のデータ セットから取得できます。データ セットには、**各章のファイル**の他に、すべての演習を完了するために必要な**サポート ファイル**も含まれています。
 
-* [**FormIt Primer Data Set Part I**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)
+* \*\*\*\*[**FormIt Primer Data Set Part I**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
+

@@ -1,17 +1,20 @@
-# Collaboration
+# コラボレーション
 
-FormIt allows multiple users to collaboratively edit a FormIt model on any combination of Windows, iPadOS, or Web clients, all while seeing their changes in real-time!
+FormIt では、Windows、iPadOS、Web のどのクライアントの組み合わせでも、複数のユーザがコラボレートして同じ FormIt モデルを編集でき、そのすべての変更内容をリアルタイムで確認できます。
 
-With a FormIt Pro subscription, you have access to the Real-time Collaboration feature which allows you to:
+FormIt Pro のサブスクリプションを購入している場合は、リアルタイム コラボレーション機能を使用して次の操作を行うことができます。
 
-* Start a collaboration session and invite colleagues.
-* Join a collaboration from the FormIt Windows, Web, or iPadOS apps.
-* Collaborate with colleagues to explore designs in a shared sandbox environment.
-* Follow another collaborator's camera to see the model from their viewpoint.
-* Let a client follow your camera as you guide them through your design.
-* Chat with collaborators in the session.
+* コラボレーション セッションを開始し、他のメンバーを招待する。
+* FormIt の Windows、Web、または iPadOS 用のアプリケーションからコラボレーションに参加する。
+* 他のメンバーとコラボレートして、共有サンドボックス環境内で設計を検証する。
+* コラボレーションに参加している他のメンバーのカメラをフォローして、そのメンバーの視点でモデルを表示する。
+* 自分のカメラをクライアントにフォローしてもらい、設計内をガイドする。
+* セッション内で他のメンバーとチャットする。
 
-## Start a Collaboration Session
+## コラボレーション セッションを開始する
 
-1. From the Collaboration drop-down, choose "Start sharing session." ![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
-2. Email a link to collaborators. This link prompts recipients to log into their Autodesk accounts to immediately start collaborating.  ![](<../.gitbook/assets/collaborate (1).png>)
+1. [コラボレーション]ドロップダウンから、[共有セッションを開始]を選択します。![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. コラボレーションに参加するメンバーに電子メールでリンクを送信します。受信したメンバーがこのリンクをクリックすると、Autodesk アカウントにログインするためのプロンプトが表示され、すぐにコラボレーションを開始できます。![](../.gitbook/assets/collaborate.png)
+
+
+

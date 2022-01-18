@@ -1,23 +1,24 @@
-# Rectangle
+# 長方形
 
-You can use the **Rectangle** tool in the **Create Sketch** toolbar menu to quickly draw a rectangular face. Extrude the face to create a rectangular volume.
+**[スケッチを作成]**ツールバー メニューの**[長方形]**ツールを使用すると、長方形の面を簡単に描画できます。その面を押し出して長方形の体積を作成します。
 
-Keyboard shortcut: R
+キーボード ショートカット: [R]
 
-Use the axes to ensure you're drawing in the correct direction:
+軸を使用して、適切な方向に描画するようにします。
 
-You can draw rectangles on the X, Y, or Z-axis. As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
+X、Y、Z 軸上に長方形を描画できます。描画中に値を入力すると寸法編集用のダイアログが表示され、寸法を指定できます。[Enter]を押すか[OK]をクリックして、寸法を確定します。
 
-To draw a rectangle, click to set the first point in your sketch.
+長方形を描画するには、スケッチ内で最初の点をクリックして設定します。
 
-Line colors by axis:
+軸の色
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X 軸 = 赤
+* Y 軸 = 緑
+* Z 軸 = 青
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-When you finish drawing the rectangle, it becomes a face that can be extruded to create a volume.
+長方形の描画が終了すると、長方形は面になり、押し出して体積を作成できます。
+

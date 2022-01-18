@@ -1,53 +1,54 @@
-# 1.6 - Control Visibility with Layers
+# 1.6 - レイヤを使用して表示をコントロールする
 
-_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
+_AutoCAD や Photoshop と同様に、FormIt のレイヤを使用して、モデル内のオブジェクトの表示設定を管理することができます。この演習では、今後の解析で使用する建物マスの保存と非表示を行うためのレイヤを作成します。_
 
-_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_直前のセクションを完了していない場合は、_ _**1.6 - Control Visibility with Layers.axm**_ _ファイルを_ _**FormIt Primer Part 1 Datasets** からダウンロードして開きます。_
 
-## **Create Layers**
+## **レイヤを作成する**
 
-1 - To create the new layers:
+1 - 新しいレイヤを作成するには、次のように操作します。
 
-1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
-2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
+1. **[レイヤ]パレット**に移動し、**[+]**記号を 3 回クリックして 3 つのレイヤを作成します。
+2. レイヤ名をダブルクリックして、それらの名前を **Massing**、**Main Building Floor**、**Plan Image**
 
-![](<../../.gitbook/assets/0 (20).png>)
+![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
+_**注:**_ _レイヤ名をクリックして上下にドラッグすると、レイヤの順序を変更できます。_
 
-2 - To assign the **Massing - Main Building** group to the **Massing** layer:
+2 - **Massing - Main Building** グループを **Massing** レイヤに割り当てるには、次のように操作します。
 
-1. In the canvas, select the **Massing - Main Building** group.
-2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
+1. キャンバスで、**Massing - Main Building** グループを選択します。
+2. **[レイヤ]パレット**で、**[選択]**のドロップダウン メニューから **Massing** レイヤを選択します。同様に、**Plan Image** グループを **Plan Image** レイヤに割り当てます。
 
-![](<../../.gitbook/assets/1 (13) (1).png>)
+![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicate Group**
+## **グループを複製する**
 
-_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+_ここでは、建物のモデリング プロセスをさらに詳しく行います。最初の手順では、既にある建物マスに基づいて床ジオメトリを作成します。_
 
-1 - Select the **Massing - Main Building** group again. Press **Ctrl + C (Copy)** to copy, and then **Ctrl + Shift + V (Paste in Place)** to paste the mass in the same place.
+1 - **Massing - Main Building** グループを再度選択します。**[Ctrl]+[C] \(コピー\)**を押してコピーし、**[Ctrl]+[Shift]+[V] \(その場に貼り付け\) **を押して同じ場所にマスを貼り付けます。
 
-2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique (MU)** option.
+2 - 新しいグループ ジオメトリを元のグループから分離するには、右クリックして**コンテキスト メニュー**から**[固有にする\(MU\)]**オプションを選択します。
 
-![](<../../.gitbook/assets/2 (18).png>)
+![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+_**注**: 新しいグループは元のグループと関連付けられなくなります。新しいグループに変更を加えても、元のグループは変更されません。_
 
-## **Create the Floor Geometry**
+## **床のジオメトリを作成する**
 
-1 - Reassign group’s layer:
+1 - グループのレイヤを再割り当てします。
 
-1. Single-click to select either of the **Massing – Main Building** groups.
-2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
-3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+1. **Massing – Main Building** グループのいずれかをシングルクリックして選択します。
+2. **[レイヤ]パレット**の**[選択]**のドロップダウンを使用して、グループを **Main Building Floor** レイヤに配置します。
+3. **Massing** レイヤのチェックを外すと、ジオメトリが非表示になり、誤って編集しないようにすることができます。
 
-![](<../../.gitbook/assets/3 (18) (1).png>)
+![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+2 - 表示されている **Massing – Main Building** グループをダブルクリックして編集します。**[プロパティ]パレット**でグループの名前を「**Floor**」に変更します。
 
-![](<../../.gitbook/assets/4 (12) (1).png>)
+![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+3 - ジオメトリの**上面**を**シングルクリック**して選択します。もう一度クリックして、その面を下にドラッグします。面を下にドラッグするときに、**11'-2"** と入力すると、**[寸法]ダイアログ**が表示されます。値を入力した後、**[OK]**をクリックします。この操作により、床の厚さが 1' になります。スペース内でダブルリックしてグループを終了します。
 
-![](<../../.gitbook/assets/5 (10).png>)
+![](../../.gitbook/assets/5%20%2810%29.png)
+

@@ -1,74 +1,75 @@
-# 1.10 - Computational Groups with Dynamo
+# 1.10 - Dynamo の計算グループ
 
-_In this chapter, we will leverage the computational power of_ [_**Dynamo**_](http://dynamobim.org) _to place and modify flexible groups that are tied to OOTB Dynamo Graphs Samples._
+_この章では、_ [_**Dynamo**_](http://dynamobim.org/) _の計算機能を活用して、OOTB Dynamo グラフ サンプルに関連付けられているフレキシブルなグループを配置し、修正します。_
 
-_If you did not complete the last section, download and open the_ _**1.10 – Computational Groups with Dynamo.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_直前のセクションを完了していない場合は、_ _**1.10 – Computational Groups with Dynamo.axm**_ _を_ _**FormIt Primer Part 1 Datasets** からダウンロードして開きます。_
 
-_You can_ [_**learn more here**_](http://formit.autodesk.com/page/formit-dynamo) _about how FormIt and Dynamo work together for computational design workflows._
+_FormIt と Dynamo が連携した計算設計ワークフローについて詳しくは、_[_**こちら**_](http://formit.autodesk.com/page/formit-dynamo)_をご覧ください。_
 
-## **Create Lower Terrace Stairs**
+## **下部テラス階段を作成する**
 
-1 - Make sure the **Lower Terrace, Main Building Floor**, and **Plan Image** layers are turned on, since that is where we are going to add the stairs.
+1 - **Lower Terrace (下部テラス)、Main Building Floor (メインの建物の床)**、および **Plan Image (平面図イメージ)** の各レイヤがオンになっていることを確認します。これが、階段を追加する場所になります。
 
-2 - To place a stair group tied to one of the OOTB Dynamo Samples:
+2 - OOTB Dynamo Samples のいずれかに関連付けられた階段グループを配置するには、次のように操作します。
 
-1. Open the **Dynamo Palette** in the Palette Bar. You should see a few built-in Dynamo objects in the **Dynamo Samples** directory
-2. Single-click the **Stairs** Dynamo sample to bring it to the model space. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.
-3. Move your cursor over the canvas, and once the stair is loaded, a ghosted preview of the stair geometry will now be moving alongside your mouse. Move your cursor over the canvas, near the terrace, and click to place the stair. Press **Esc** to clear the selection. Note that after placing the stairs the **Properties Palette** will automatically open.
+1. パレット バーで**[Dynamo]パレット**を開きます。**Dynamo Samples** フォルダにビルトインの Dynamo オブジェクトがいくつか表示されます。
+2. その中の **Stairs** サンプルをクリックして、モデル空間に取り込みます。FormIt はバックグラウンドでグラフを実行し、このグラフから階段ジオメトリを生成します。
+3. カーソルをキャンバス上に移動させ、階段がロードされると、階段ジオメトリのゴースト プレビューがマウスと一緒に動きます。カーソルをキャンバスのテラス付近に移動し、クリックして階段を配置します。**[Esc]**を押して、選択をクリアします。階段を配置すると、**[プロパティ]パレット**が自動的に開きます。
 
-![](<../../.gitbook/assets/0 (15) (1).png>)
+![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**Note:**_ [_**You can also link local directories**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _containing Dynamo graphs, and run your own local Dynamo graphs just like these samples._
+_**注:**_ Dynamo グラフを含む[_**ローカルフォルダをリンク**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _して、これらのサンプルと同様に、独自のローカル Dynamo グラフを実行することもできます。_
 
-3 - To update the stairs dimensions:
+3 - 階段の寸法を更新するには、次のように操作します。
 
-1. With the stair group selected, modify the inputs available under the Dynamo **INPUTS** section at the bottom of the **Properties Palette** to match as shown below. Most groups created via Dynamo Scrips will have a Dynamo section included in their properties when selected.
-   * Add Top Landing = False
-   * Add Middle Landing = False
-   * Add Bottom Landing = False
-   * Floor-to-Floor Height = 2.6
-   * Stair Width = 12
-   * Riser Height = 0.6
-   * Tread Length = 1.25
-   * Tread Overlap = 0.25
-   * Tread Thickness = 0.25
-   * Height Between Middle Landings = (not relevant since no middle landing is being created)
-   * Middle Landing Length = (not relevant since no middle landing is being created)
-   * Top/Bottom Landing Length = (not relevant since no landing is being created)
-2. Click on the **Run** button to re-run the Dynamo script using the updated input values.
-3. Move the group as needed to place the stair in the correct location accordingly to the **Plan Image**. Take care not to change the elevation of the stair group at all as you move it. Refer to previous chapters to learn more about tricks and techniques when moving model elements.
+1. 階段グループを選択した状態で、**[プロパティ]パレット**の下部にある Dynamo の**[INPUTS]**セクションで使用可能な入力項目を次のように修正します。Dynamo スクリプトを使用して作成したほとんどのグループには、選択したときにそのプロパティに Dynamo セクションが含まれています。
+   * Add Top Landing \(上部踊り場を追加\) = False
+   * Add Middle Landing \(中間の踊り場を追加\) = False
+   * Add Bottom Landing \(下部踊り場を追加\) = False
+   * Floor-to-Floor Height \(床から床の高さ\) = 2.6
+   * Stair Width \(階段の幅\) = 12
+   * Riser Height \(蹴上げ寸法\) = 0.6
+   * Tread Length \(踏み面の長さ\) = 1.25
+   * Tread Overlap \(踏み面オーバーラップ\) = 0.25
+   * Tread Thickness \(踏み面の厚さ\) = 0.25
+   * Height Between Middle Landings \(中間の踊り場間の高さ\) = \(中間の踊り場が作成されていないため関係ありません\)
+   * Middle Landing Length \(中間の踊り場の長さ\) = \(中間の踊り場が作成されていないため関係ありません\)
+   * Top/Bottom Landing Length \(上部/下部の踊り場の長さ\) = \(踊り場が作成されていないため関係ありません\)
+2. **[Run]**ボタンをクリックし、更新された入力値を使用して Dynamo スクリプトを再実行します。
+3. グループを必要に応じて移動し、**平面図イメージ**に合わせて階段を正しい位置に配置します。移動するときには、階段グループの高さを変えないように注意してください。モデル要素を移動する際のコツとテクニックの詳細については、前の章を参照してください。
 
-![](<../../.gitbook/assets/1 (11).png>)
+![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**‌Note:**_ _The_ _**Floor-to-Floor Height**_ _input is an approximation of the stair’s total height. The_ _**Riser Height**_ _is the parameter that actually defines the height of the stairs. In this example we set the_ _**Floor-to-Floor Height**_ _as 2.6’ but the final stair height is 3.0’ (0.6’ (**Riser Height**) x 5 (number of risers)). Since the span between the ground and the terrace top of floor is 3’-2”, the remaining 2” is contained in the upper riser._
+_**注:**_ _[_ _**Floor-to-Floor Height**_ _]の入力値は、階段の合計の高さの近似値です。_ _**[Riser Height]**_ _は、実際に階段の高さを定義するパラメータです。この例では、_ _**[Floor-to-Floor Height]**_ _を 2.6' に設定していますが、最終的な階段の高さは 3.0' \(0.6 \(**蹴上げ寸法**\) x 5 \(蹴上げの数\)\)になります。地面から最上階のテラス間のスパンが 3'-2" であるため、残りの 2" は上部蹴上げに含まれます。_
 
-## **Create Main Building Stairs**
+## **メインの建物の階段を作成する**
 
-_In the previous steps we created a stair with no landings. Now we will create a stair that uses an upper landing that aligns with the_ _**Main Building Floor**._
+_前の手順では、踊り場のない階段を作成しました。今度は、_ _**メインの建物の床**に位置を合わせた、上部踊り場を使用する階段を作成します。_
 
-1 - Start by making a copy of the stairs we just made:
+1 - 先ほど作成した階段のコピーを作成します。
 
-1. Select the existing stair and then click anywhere on the **Plan Image** to start a move command. This will cause FormIt to use the elevation of the **Plan Image** as the starting reference height for place our new copy. Press **Ctrl** to make a **quick copy**.
-2. Move the cursor over closer to the main building above the terrace. Note that now the terrace’s top face is the new reference plane. Click to place the group.
+1. 既存の階段を選択し、**平面図イメージ**の任意の場所をクリックして、移動コマンドを開始します。これにより、FormIt は新しいコピーを配置する場所の開始基準の高さとして、**平面図イメージ**の高さを使用します。**[Ctrl]**を押して、**クイック コピー**を作成します。
+2. カーソルをテラス上のメインの建物近くに移動させます。テラス上面が新たな参照平面になっていることに注目してください。クリックしてグループを配置します。
 
-![](<../../.gitbook/assets/2 (9) (1).png>)
+![](../../.gitbook/assets/2%20%289%29.png)
 
-_**Note:**_ _Since the_ _**Plan Image**_ _is at the_ _**Ground Level**_ _plane, the_ _**Move Tool**_ _will use that plane as a reference for its start point. Note the_ _**On Face**_ _tooltip in the above image, indicating that the Plan Image face is selected as the starting reference, and the top face of the_ _**Lower Terrace Floor**_ _is selected as the ending reference._
+_**注**_ _:_ _**平面図イメージ**_ _は_ _**地面レベル**_ _の平面にあるため、_ _**移動ツール**_ _は開始地点の参照としてその平面を使用します。上の図の__**[面上]**__ツールチップに注目してください。これは、平面図イメージの面が開始の参照として選択され、__**下部テラスの床**__の上面が終了の参照として選択されていることを示しています。_
 
-2 - Use the **Make Unique (MU)** tool so that when we change this stair’s Dynamo inputs it will not affect the lower stair. Reposition the group as needed so that it is close to its final location – we will fine tune this later. You can toggle the **Lower Terrace** layer visibility to see the plan below to help position it, but again be careful not to change the new stair’s elevation as you move it.
+2 - **[固有にする\(MU\)]**ツールを使用して、この階段の Dynamo 入力を変更しても下の階段に影響しないようにします。必要に応じてグループを再配置し、最終的な位置に近づけます。後で微調整します。**Lower Terrace** レイヤの表示に切り替えて下の平面図を表示すると配置しやすくなりますが、ここでも、移動するときには新しい階段の高さを変えないよう注意してください。
 
-3 - In the **Properties Palette** update the **Dynamo Inputs** as shown below and run the script once more.
+3 - **[プロパティ]パレット**で、次に示すように **Dynamo 入力**を更新し、スクリプトをもう一度実行します。
 
-* Add Top Landing = True
-* Floor-to-Floor Height = 2.333
-* Riser Height = 0.466
-* Tread Length = 1.5
-* Top/Bottom Landing Length = 2.5
+* 上部踊り場を追加 = True
+* 床から床の高さ = 2.333
+* 蹴上げ寸法 = 0.466
+* 踏み面の長さ = 1.5
+* 上部/下部の踊り場の長さ = 2.5
 
-![](<../../.gitbook/assets/3 (1).jpeg>)
+![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**Note:**_ _If you set_ _**Add Bottom Landing**_ _to_ _**true**_ _and re-run the script, the bottom landing’s top face should align with the_ _**Lower Terrace Floor**’s top face. This is happening because – differently from the previous stairs - we adjusted the_ _**Riser Height**_ _to match the_ _**Floor-to-Floor Height**_ _to the true height we want (2’-4” or 2.333’)._
+_**注**_ _:_ _**下部踊り場の追加**_ _を_ _**True**_ _に設定してスクリプトを再実行する場合、下部踊り場の上面は_ _**下部テラスの床**の上面に位置を合わせる必要があります。これは、前の階段とは異なり、__**蹴上げ寸法**__を調整して、__**床から床の高さ**__を目的の高さ\(2’-4"、つまり 2.333’\)に一致させているためです。_
 
-2 - Reposition the group again to its final position. The top landing should be flush with the **Main Building Floor**.
+2 - グループを最終的な位置に再配置します。上部踊り場は、**メインの建物の床**と同じ高さでなければなりません。
 
-3 - To finalize the stairs, add the **Stone - Travertine** material to it to match the floors. To learn more about how to apply materials, see previous chapters.
+3 - 階段を確定するには、床と一致するように **Stone - Travertine** マテリアルを階段に追加します。マテリアルの適用方法の詳細については、前の章を参照してください。
+

@@ -1,146 +1,146 @@
-# 1.8 - Create Columns with Array
+# 1.8 - 配列を使用して柱を作成する
 
-_In this exercise, we will sketch a detailed element - an I-beam column. Then we will use the Array tool to quickly create multiple equally-spaced copies._
+_この演習では、詳細要素をスケッチして I 形の柱を作成します。次に、配列ツールを使用して、等間隔に複数のコピーをすばやく作成します。_
 
-_If you did not complete the last section, download and open the_ _**1.8 – Create Columns with Array.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_直前のセクションを完了していない場合は、_ _**FormIt Primer Part 1 Datasets**_ _から_ _**1.8 – Create Columns with Array.axm** ファイルをダウンロードして開きます。_
 
-## **Sketch the Column Profile**
+## **柱のプロファイルをスケッチする**
 
-1 - To facilitate the drafting process:
+1 - 作図プロセスを容易にするために、次のように操作します。
 
-1. Go to the **Top View (VT)**.
-2. Switch the view mode to **Orthographic (VO)**.
-3. Turn off the **Main Building** **Floor** and **Roof** layers. This step will prevent the new geometry from snaping to the existing geometry on those layers.
-4. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
-5. Turn off the **Snap to Grid (SG)** feature (if you have it on). This will help with drawing the detail lines.
+1. **[上面ビュー\(VT\)]**に移動します。
+2. ビュー モードを**[正投影\(VO\)]**に切り替えます。
+3. レイヤ **Main Building** **Floor** および **Roof** をオフにします。これで、新しいジオメトリはこれらのレイヤ上の既存のジオメトリにスナップしなくなります。
+4. **読み込まれた平面図**のイメージの左上コーナーを拡大表示して、柱の詳細が表示されるようにします。
+5. **[グリッドにスナップ\(SG\)]**機能がオンになっている場合はオフにします。これで、詳細な線分を描画できるようになります。
 
-![](<../../.gitbook/assets/0 (13) (1).png>)
+![](../../.gitbook/assets/0%20%2813%29.png)
 
-_To draw the column, we will first draw one half, then mirror it to quickly create the other symmetrical half._
+柱を描画するには、まず半分を描画し、次に鏡像化して、対称的な残りの半分をすばやく作成します。__
 
-2 - To create the first half of the I-beam, use the **Line tool (L)** to make the following sketch using the specified dimensions. Don’t worry about the exact position of the column on the plan image just yet.
+2 - I 形の最初の半分を作成するには、**[線分\(L\)]**ツールを使用し、指定した寸法で次のスケッチを作成します。ここでは、柱を平面図イメージ上の正確な位置に配置する必要はありません。
 
-![](<../../.gitbook/assets/1 (18).png>)
+![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - To mirror the shape you have just drawn:
+3 - 描画したシェイプを鏡像化します。
 
-1. Double-click to select all the faces and edges of the drawn geometry.
-2. Right-click and select the **Mirror Tool (MI)**.
-3. Click on the center orange grip of the **Mirror Widget** and place it at the geometry’s bottom left corner.
-4. Use the bottom arrow from the double-sided arrow button in the Widget to rotate the mirroring-axis -90 degrees (clockwise).
-5. Single-click off in space, or press **Esc** to finish the mirroring process. The result should look like an I-beam profile with a line down the middle. Press **Esc** again to clear the selection.
+1. ダブルクリックして、描画したジオメトリのすべての面とエッジを選択します。
+2. 右クリックして**[鏡像化\(MI\)]**ツールを選択します。
+3. **[鏡像化]ウィジェット**の中央のオレンジ色のグリップをクリックし、ジオメトリの左下コーナーに配置します。
+4. ウィジェットで両方向矢印ボタンを下に動かして、鏡像化の軸を -90 度、時計回りに回転させます。
+5. スペース内以外でシングルクリックするか、**[Esc]**を押して鏡像化プロセスを終了します。結果は、中央に線分がある I 形のプロファイルになるはずです。再度**[Esc]**を押して、選択をクリアします。
 
-![](<../../.gitbook/assets/2 (5).png>)
+![](../../.gitbook/assets/2%20%285%29.png)
 
-![](<../../.gitbook/assets/3 (7).png>)
+![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Note**: The final geometry location and orientation is previewed with the ghosted blue shape while you are adjusting the mirror widget. You can use this preview as a reference to mirror the geometry to the intended location._
+_**注:** 鏡像化ウィジェットを調整しているときに、ゴースト モードの青色のシェイプで最終的なジオメトリの位置と方向がプレビューされます。このプレビューを参考にして、ジオメトリを目的の位置に鏡像化できます。_
 
-4 - To join both sides into a single geometry, remove the line dividing them by clicking on it to select it and then pressing **Delete**. Now the two surfaces are joined into a single surface.
+4 - 両側を単一のジオメトリに結合するには、分割している線分をクリックして選択し、**[Delete]**を押して削除します。これで、2 つのサーフェスが単一のサーフェスに結合されました。
 
-5 - To move the geometry to its final location:
+5 - ジオメトリを最終的な位置に移動します。
 
-1. If off, turn on the **Plan Image** and **Roof** layers, to use them as a guide.
-2. Double-click the column profile to select its face and all of its lines. Start moving the selection along the green axis (**Y Axis**). Hold **Shift** and move the profile until it aligns with the Roof, then click to place it.
-3. Similar to the previous step, move the geometry once again, this time locking it to the red axis (**X Axis**).
-4. Click to place it on top of the I-Beam drawn in the **Plan Image**. Getting it close is fine, like in the following image, the horizontal position does not need to be perfect.
+1. レイヤ **Plan Image** と **Roof** がオフの場合はオンにして、ガイドとして使用します。
+2. 柱のプロファイルをダブルクリックして、その面とすべての線分を選択します。緑色の **Y 軸**に沿って選択を移動します。**[Shift]**を押しながらプロファイルを移動して屋根と位置合わせし、クリックして配置します。
+3. 前の手順と同様に、ジオメトリを再度移動します。今回は、ジオメトリを赤色の **X 軸**にロックします。
+4. クリックして、**Plan Image** に描画された I 形の上に配置します。次の図のようにすると、うまく近づけることができます。水平位置は完璧である必要はありません。
 
-_**Note:**_ _The_ _**Shift**_ _key will lock the geometry to move along only one axis, in this case, the green (**Y Axis**). This will ensure the column profile does not accidentally move up and align to the top of the roof plane._
+_**注:**_ _[_ _**Shift**_ _]キーを押すと、ジオメトリが 1 つの軸にのみ沿って移動するようにロックされます。この例では緑色の **Y 軸**です。これで、柱のプロファイルが誤って上に移動して屋根平面の上部に位置合わせされることがなくなります。_
 
-![](<../../.gitbook/assets/4 (9) (1).png>)
+![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Extrude and Array the Column**
+## **柱を押し出して配列する**
 
-1 - To facilitate the next drafting process, switch the view mode back to **Perspective (VP)** and **Orbit (O)** to position the camera as to visualize the I-Beam profile from the northwest. Use the north arrow at the bottom left corner to help you position the view.
+1 - 次の作図プロセスを容易にするために、ビュー モードを**[パース投影\(VP\)]**に戻し、**オービット\(O\)**して、北西から I 形のプロファイルを見られるようにカメラ位置を調整します。左下隅の方位記号がビューの配置に役立ちます。
 
-![](<../../.gitbook/assets/5 (1).jpeg>)
+![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Note:**_ _To learn how to navigate around the sketch, we recommend checking out the_ _**Navigate the Scene**_ _chapter._
+_**注:**_ _スケッチ内をナビゲートする方法については、_ _**「シーンをナビゲートする」**_ _の章を参照することをお勧めします。_
 
-2- Select the column profile face and extrude the face up to **17’-8”**.
+2 - 柱のプロファイル面を選択し、面を **17'-8"** まで上に押し出します。
 
-_**Note:**_ _If while moving the column profile, it aligned itself to the roof, extrude the face down by_ _**17’-8”**_\
-_instead of up._
+_**注:**_ _柱のプロファイルを移動する際に、柱のプロファイルが屋根に位置合わせされている場合は、面を上ではなく_ _**17'-8"**   だけ下に押し出します。_
 
-3 - Zoom out and turn the **Roof** layer on (if off). The top of the column should line up with the top of the roof.
+3 - 縮小表示し、レイヤ **Roof** がオフであればオンにします。柱の上端は屋根の上端と揃っている必要があります。
 
-![](<../../.gitbook/assets/6 (9) (1).png>)
+![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - To keep the model organized and tidy, select the column geometry again and do the following:
+4 - モデルを整理するために、柱のジオメトリを再度選択して、次の操作を行います。
 
-1. **Group (G)** and name it **Column Tall**.
-2. Create a new **Layer** called **Column** and add the group to it.
-3. Import the material **Metal - Brushed - Colorized** and paint the group with it.
+1. **グループ\(G\)**にして、名前を **Column Tall** に設定します。
+2. 新しい**レイヤ**を **Column** という名前で作成し、グループをそのレイヤに追加します。
+3. マテリアル **Metal - Brushed - Colorized** を読み込み、グループをペイントします。
 
-![](<../../.gitbook/assets/7 (4) (1).png>)
+![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Note:**_ _See previous chapters for more information on_ _**Groups**,_ _**Layers**, and_ _**Materials**._
+_**注**_ _:_ _**グループ**、_ _**レイヤ**、_ _**マテリアル**の詳細については、前の章を参照してください。_
 
-4 - Click **Esc** to clear the paintbrush tool.
+4 - **[Esc]**を押して、[ペイントブラシ]ツールを終了します。
 
-## **Array the Columns**
+## **柱を配列する**
 
-1 - Go to the **Top View (VT)** and switch the camera mode to **Orthographic (VO)** again.
+1 - **[上面ビュー\(VT\)]**に移動し、カメラ モードを再度**[正投影\(VO\)]**に切り替えます。
 
-2 - Turn off the **Roof** layer.
+2 - レイヤ **Roof** をオフにします。
 
-3 - To start the array process:
+3 - 配列処理を開始します。
 
-1. Single-click to select the column group. Right-click to bring the **Context Menu** and choose **Array (AR)**.
-2. In the **Array Properties** dialog, use the following settings:
-   * **Length Between Copies**
-   * **Linear** (default)
-   * **Group each solid then array** (default)
-   * **Number of Copies: 3**
-   * Press **OK** to close the dialog.
+1. 柱のグループをシングルクリックして選択します。右クリックして**コンテキスト メニュー**から**[配列\(AR\)]**を選択します。
+2. **[配列複写プロパティ]**ダイアログで、次の設定を使用します。
+   * **コピー間の長さ**
+   * **直線**(既定)
+   * **各ソリッドをグループ化して配列に格納**(既定)
+   * **コピー数: 3**
+   * **[OK]**を押して、ダイアログを閉じます。
 
-![](<../../.gitbook/assets/8 (3) (1).png>)
+![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - To place the new elements:
+4 - 新しい要素を配置します。
 
-1. Single-click on the column to start the **Array**. Move the cursor along the red axis (**X axis**).
-2. Set dimension to **22'**. You now have **four** columns **22'** apart.
-3. **Esc** to clear your selection.
+1. 柱をシングルクリックして、**[配列]**を開始します。赤色の **X 軸**に沿ってカーソルを移動します。
+2. 寸法を **22'** に設定します。これで、**4** つの柱の間隔が **22'** になりました。
+3. **[Esc]**を押して選択をクリアします。
 
-![](<../../.gitbook/assets/9 (6) (1).png>)
+![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - To select all the **Tall Column** groups at once, hover your mouse over one of them and press the **Tab** key once. Notice that all 4 column’s bounding boxes have been highlighted. Single-click on the column your mouse is hovering over and they will all be selected. This is a quick way to select all instances of the same group at once.
+5 - **Tall Column** のすべてのグループを一度に選択するには、いずれかのグループにマウスを合わせて、**[Tab]**キーを一度押します。これで、4 つの柱の境界ボックスがすべてハイライト表示されます。マウスを合わせている柱をシングルクリックすると、それらがすべて選択されます。この方法は、同じグループのすべてのインスタンスを一度に簡単に選択できて便利です。
 
-6 - Perform another **Array (AR)** to create the columns at the other side of the building. This time make 1 copy along the green axis across the building. Set dimension to **29'- 4 5/8”.**
+6 - もう一度**[配列\(AR\)]**を実行して、建物の反対側に柱を作成します。今回は、建物の緑色の軸に沿って 1 つのコピーを作成します。寸法を **29'- 4 5/8"**
 
-_**Note:**_ _29’ 4 5/8” = 8 5/8” (column depth) + 28’-8” (main building width)._
+_**注:**_ _29' 4 5/8" = 8 5/8" (柱の奥行き) + 28'-8" (メインの建物の幅)_
 
-7 - To visualize the whole building, go to the **3D View (V3)** and set it to **Perspective (VP)**. If off, turn on the **Main Building Floor**, **Roof**, **Lower Terrace**, and **Column** layers.
+7 - 建物全体を表示するには、**[3D ビュー\(V3\)]**に移動し、**[パース投影\(VP\)]**に設定します。レイヤ **Main Building Floor**、**Roof**、**Lower Terrace**、および **Column** がオフの場合はオンにします。
 
-![](<../../.gitbook/assets/10 (7) (1).png>)
+![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Create the Terrace Columns**
+## **テラスの柱を作成する**
 
-_Now we will duplicate the main building columns to create similar, but shorter, versions for the terrace._
+_メインの建物の柱を複製して、短いバージョンの柱をテラスに作成します。_
 
-1 - To facilitate drafting, we recommend going back to an **Orthogonal (OV)** and **Top View (VT)** setting.
+1 - 作図しやすくするために、**[正投影\(VO\)]**および**[上面ビュー\(VT\)]**の設定に戻ることをお勧めします。
 
-2 - To create the new columns:
+2 - 新しい柱を作成します。
 
-1. Hold **Ctrl** or **Shift**, click on the 3 columns closest to the **Lower Terrace Floor** to select them.
-2. Single-click on any one of the columns to start moving all 3 selected columns at once. Press the **Ctrl** key once to create a **quick copy**. A ghost preview of the copy will appear.
-3. Move the copies down along the green axis (**Y Axis**) by **23’-4 3/8**”. Press **Esc**.
-4. Without deselecting, move the copied columns along the red axis (**X Axis**) by **22’** to place them in their final position.
-5. Again, with the 3 new columns still selected, right-click one of the copied columns and select **Make Unique (MU)**. These columns are now associated with each other, but unique from the originals.
+1. **[Ctrl]**または**[Shift]**を押しながら、**Lower Terrace Floor** に最も近い 3 つの柱をクリックして選択します。
+2. いずれかの柱をシングルクリックすると、選択した 3 つの柱すべてが一度に移動します。**[Ctrl]**キーを一度押すと、**クイック コピー**が作成されます。コピーのゴースト モードのプレビューが表示されます。
+3. コピーを緑色の **Y 軸**に沿って下に **23'-4 3/8**" だけ移動します。**[Esc]**を押します。
+4. 選択解除せずに、コピーした柱を赤色の **X 軸**に沿って **22'** だけ移動して、最終的な位置に配置します。
+5. 再度、3 つの新しい柱を選択した状態で、コピーした柱の 1 つを右クリックし、**[固有にする\(MU\)]**を選択します。これらの柱は相互に関連付けられていますが、元の柱とは別物になっています。
 
-_**Note:**_ _Holding_ _**Shift**_ _or_ _**Ctrl**_ _allows you to select multiple elements at once, or remove elements from your current selection._
+_**注:**_ _[_ _**Shift**_ _]または_ _**[Ctrl]**_ _を押したままにすると、複数の要素を一度に選択したり、現在の選択から要素を削除できます。_
 
-![](<../../.gitbook/assets/11 (7) (1).png>)
+![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - Modify the new column group:
+3 - 新しい柱グループを修正します。
 
-1. Double-click to edit one of the new groups and rename it **Column Short.**
-2. Adjust the height of the new column to align to the top of the **Lower Terrace** **Floor** (3’-2”). To do that, select and drag the column’s face down along the blue axis (**Z axis**) and hold **Shift**. Hover the cursor anywhere on the top face of the **Lower Terrace Floor** and the column’s height will automatically align to the Lower Terrace. Once the height is set, click to finish.
+1. ダブルクリックして新しいグループのいずれかを編集し、名前を「**Column Short」に変更します。**
+2. 新しい柱の高さを調整して、**Lower Terrace** **Floor** の上面(3'-2")に位置合わせします。これを行うには、柱の面を選択して青色の **Z 軸**に沿って**[Shift]**を押したまま下にドラッグします。**Lower Terrace Floor** の上面の任意の場所にカーソルを合わせると、柱の高さが自動的に Lower Terrace に位置合わせされます。高さを設定したら、クリックして終了します。
 
-![](<../../.gitbook/assets/12 (4).png>)
+![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Note:**_ _You can check the height of the short columns by using the_ _**Measure (ME)**_ _tool. Alternatively, you can select one of the column’s vertical edge and see its length in the_ _**Properties Palette**._
+_**注:**_ _[_ _**計測\(ME\)**_ _]ツールを使用して、短い柱の高さを確認できます。_または、いずれかの柱の垂直エッジを選択し、**[プロパティ]パレット**で長さを確認することもできます。__
 
-4- Using the techniques you just learned, copy the furthest short column to the opposite side of the **Lower Terrace Floor** to create the last remaining column.
+4 - 先ほど学習した技法を使用し、最も遠い場所にある短い柱を **Lower Terrace Floor** の反対側にコピーして残りの柱を作成します。
 
-![](<../../.gitbook/assets/13 (4).png>)
+![](../../.gitbook/assets/13%20%284%29.png)
+

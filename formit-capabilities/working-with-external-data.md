@@ -1,11 +1,12 @@
-# Working with Data Formats
+# さまざまなデータ形式を使用する
 
-Import a variety of image file formats and 3D file formats to add detail to your sketch.
+さまざまなイメージ ファイル形式や 3D ファイル形式を読み込んで、スケッチに詳細を追加します。
 
-The following file formats can be imported:
+次のファイル形式を読み込むことができます。
 
-* Windows:  OBJ, DWG, STL, SAT, SKP&#x20;
-* Web: OBJ, STL
-* iOS: OBJ, STL, SAT
+* Windows: OBJ、DWG、STL、SAT、SKP
+* Web: OBJ、STL
+* iOS: OBJ、STL、SAT
 
-See [Importing Models](../formit-primer/part-i/import-export-and-content-library.md) for more on importing data and working with the Content Library.
+データの読み込みとコンテンツ ライブラリの使用の詳細については、「[モデルを読み込む](../formit-primer/part-i/import-export-and-content-library.md)」を参照してください。
+

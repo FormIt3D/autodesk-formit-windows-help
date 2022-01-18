@@ -1,29 +1,30 @@
-# World Axes
+# ワールド軸
 
-The default coordinate system and grid can be modified by changing the world axis.
+ワールド軸を変更することにより、既定の座標系とグリッドを変更できます。
 
-## Drawing and Modeling with Axes
+## 軸を使用して描画およびモデリングする
 
-When a blank sketch is opened in FormIt, the World Axes are displayed as three red, green and blue lines in the center of the screen. These three lines, define the three Cartesian directions that define the 3D world. The "X" direction is defined by the red line, the "Y" direction by the green line and the "Z" or "up" direction by the blue line.
+空のスケッチを FormIt で開くと、ワールド軸が画面の中心に赤、緑、青の 3 本線で表示されます。これらの 3 本の線は、3D ワールドを定義する 3 つの直交座標方向を示します。「X」方向は赤、「Y」方向は緑、「Z」方向(「上」方向)は青色の線で表示されます。
 
 ![](../.gitbook/assets/axis.png)
 
-To rotate the grid and redefine the origin point for the sketch, **right-click** on empty space in the scene and choose the **Set Axes (SZ)** icon from the context menu\
-![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
+グリッドを回転させてスケッチの原点を再定義するには、シーン内の何もない場所で**右クリック**し、コンテキスト メニューから**[軸を設定\(SZ\)]**アイコンを選択します。  
+![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-The Set Axes widget appears. Click on the large grip in the center to pick up the widget. Click again to set the origin point. Now click the dot on the red axis to rotate the grid, or click the dot on the blue axes to pivot the grid plane vertically. Click off into space to confirm the change\
-![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
+[軸を設定]ウィジェットが表示されます。中央の大きなグリップをクリックして、ウィジェットを選択します。もう一度クリックして原点を設定します。次に、赤い軸上の点をクリックしてグリッドを回転させるか、青い軸上の点をクリックしてグリッド平面を垂直方向に回転させます。スペース内をクリックして変更を確定します。  
+![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-To **reset** the origin and grid back to the default setting, right-click on empty space in the scene and choose to **Reset Axes (RZ)**
+原点とグリッドを既定の設定に**リセット**するには、シーン内の何もない場所で右クリックし、**[軸をリセット\(RZ\)]**を選択します。
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## World Axes and Local Axes
+## ワールド軸とローカル軸
 
-The steps above explain how to control the **global coordinate system** of your sketch. When you start working with [**groups** ](groups.md)then you can control the **local coordinate system** of that group uniquely from the overall sketch. When you edit a group, you can edit the local coordinate system following the same steps as above - but these changes will only apply to the group
+前述の手順では、スケッチの**グローバル座標系**をコントロールする方法について説明してします。[**グループ**](groups.md)を使用して作業を開始すると、そのグループの**ローカル座標系**をスケッチ全体から一意にコントロールできます。グループを編集する際に前述と同じ手順でローカル座標系を編集できますが、行った変更はそのグループのみに適用されます。
 
-## Interactions with Axes
+## 軸に関する操作
 
-* The **red, green, and blue axes** display when you're in sketch tools to guide your 3D sketching
-* The **purple axis** displays a perpendicular and parallel axis relative to lines drawn at an angle
-* Hold down the **Shift key** while sketching or moving to **lock to the current axis**
+* スケッチ ツールでの作業中は**赤、緑、青の軸**が表示され、3D スケッチのガイドとなります。
+* **紫の軸**は、角度のある線分に対して垂直な軸と平行な軸を示します。
+* **[Shift]キー**を押しながらスケッチまたは移動すると、**現在の軸に固定**されます。
+

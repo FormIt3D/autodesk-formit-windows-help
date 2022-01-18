@@ -1,154 +1,155 @@
-# 1.11 - Import Models with Content Library
+# 1.11 - コンテンツ ライブラリを使用してモデルを読み込む
 
-_In this chapter, we will import existing SketchUp models, as well as use the FormIt Content Library to place OOTB families that have been converted from Revit. Note that when opening SKP files with FormIt, they come with intact Materials, Groups and Components, Layers (Tags), and Scenes. Some clean-up may be needed to keep your projects tidy and organized._
+_この章では、既存の SketchUp モデルを読み込み、FormIt コンテンツ ライブラリを使用して、Revit から変換された OOTB ファミリを配置します。FormIt で SKP ファイルを開くと、マテリアル、グループ、コンポーネント、レイヤ\(タグ\)、シーンがそのまま残っています。プロジェクトを整理された状態にするためにクリーンアップが必要になる場合があります。_
 
-_For this chapter we will be using files from the_ **Farnsworth House Data Set > Supporting Files** folder. If you have not already, be sure to download the required folders, or entire data set, from the _**FormIt Primer Part 1 Datasets**._
+_この章では、_ **Farnsworth House Data Set > Supporting Files** フォルダのファイルを使用します。必要なフォルダやデータ セット全体をまだダウンロードしていない場合は、_**FormIt Primer Part 1 Datasets** からダウンロードしてください。_
 
-## **Import and Edit SKP files**
+## **SKP ファイルを読み込んで編集する**
 
-_First, we will go through the process of adding a piece of downloaded content to your own personal content library_. Note that in this exercise we will be only using SKP files. To learn more about how to open/import other file formats, refer to [**this blog post about Formit 2021.2 features**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) and to **this chapter about** **Expanded Import and Export File Formats**.
+_まず、ダウンロードしたコンテンツの一部をユーザ独自のコンテンツ ライブラリに追加する方法を説明します_。この演習では、SKP ファイルのみを使用します。他のファイル形式を開いたり読み込む方法の詳細については、[**FormIt 2021.2 の機能に関するこのブログの投稿**\(英語\)](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available)および**この章**の**読み込みおよび書き出しファイル形式の解説**を参照してください。
 
-1 - Make sure to **Save (Ctrl + S)** any open work, then start a new FormIt sketch. To do this, you can either:
+1 - 開いている作業を**保存\([Ctrl]+[S]\)**し、新しい FormIt スケッチを開始します。これを実行するには、次の操作を行います。
 
-1. Open another session on FormIt in a new window by right-clicking on the FormIt Icon in the **Windows Taskbar** and clicking on the **FormIt** icon. This will open a new FormIt window, allowing you to run two FormIt sessions side-by-side.
-2. OR, after saving, start a **New Sketch (Ctrl + N)** from the **File** dropdown in the **Main Menu** bar.
+1. **Windows タスクバー**の FormIt アイコンを右クリックして **FormIt** アイコンを選択し、新しいウィンドウで FormIt の別のセッションを開きます。これで、新しい FormIt ウィンドウが開き、2 つの FormIt セッションを並べて実行できるようになります。
+2. または、保存後に**メイン メニュー** バーの**[ファイル]**ドロップダウンから**[新しいスケッチ\([Ctrl]+[N]\)]**を選択して開始します。
 
-![](<../../.gitbook/assets/0 (19).png>)
+![](../../.gitbook/assets/0%20%2819%29.png)
 
-2 - Create a new folder called **Custom FormIt Content** inside the **Farnsworth House Data Set > Supporting Files > FormIt** folder in the _**Farnsworth House Data Set**._
+2 - **Custom FormIt Content** という名前の新しいフォルダを、 **Farnsworth House Data Set** 内の _**Farnsworth House Data Set > Supporting Files > FormIt **フォルダに作成します。_
 
-3 - **Save (Ctrl + S)** your new sketch in that folder. We recommend naming it: **Ottoman – Barcelona\_Mies.axm**
+3 - 新しいスケッチをそのフォルダに**保存\([Ctrl]+[S]\)**します。名前は **Ottoman - Barcelona¥_Mies.axm** にすることをお勧めします。
 
-4 - In the new empty FormIt file:
+4 - 新しい空の FormIt ファイルで、次の操作を行います。
 
-1. **Import a Local File (Ctrl + I)** by selecting **Import > Locally…** from the **File** dropdown in the **Main Menu** bar.
-2. Choose: **Ottoman – Barcelona\_Mies.skp** from the **Farnsworth House Data Set > Supporting Files > SketchUp** and click **Open**.
+1. **メイン メニュー** バーの**[ファイル]**ドロップダウンから**[読み込み] &gt; [ローカルに\([Ctrl]+[I]\)]**を選択して、ファイルを**ローカルに**読み込みます。
+2. **Farnsworth House Data Set &gt; Supporting Files &gt; SketchUp** から **Ottoman – Barcelona\_Mies.skp** を選択して**[開く]**をクリックします。
 
-_**Note:**_ _If you do not see the_ _**Ottoman – Barcelona\_Mise.skp file**, make sure the file format dropdown in the bottom right is set to_ _**All Supported Formats**._
+_**注**_ _:_ _**Ottoman – Barcelona\_Mise.skp ファイル**が表示されない場合は、右下のファイル形式ドロップダウンが_ _**[サポートされているすべての形式]**に設定されているか確認してください。_
 
-![](<../../.gitbook/assets/1 (7).png>)
+![](../../.gitbook/assets/1%20%287%29.png)
 
-5 - Rename the imported group **Ottoman - Barcelona\_Mies**.
+5 - 読み込まれたグループの名前を **Ottoman - Barcelona\_Mies** に変更します。
 
-6 - When we eventually import this model into our Farnsworth House file, it will be placed by using this file’s **Origin** point. To control l placement point, we want to move the **Ottoman - Barcelona\_Mies** group so one if its corners is located at the **Origin**. To do this:
+6 - このモデルを最終的に Farnsworth House ファイルに読み込むと、このファイルの**原点**を使用して配置されます。配置点をコントロールするには、コーナーのいずれかの位置が**原点**になるように、グループ **Ottoman - Barcelona\_Mies** を移動します。このためには、次の操作を行います。
 
-1. Ensure **Snap to Grid (SG)** is on. Draw a reference **Line (L)** starting at the **Origin** (There the X, Y, and Z axes intersect). Click anywhere to place the second point.
-2. Select the ottoman group and start the move command by single-clicking on the lower left corner of its leg, as shown. _To learn more about how to move objects, refer to previous chapters._
-3. Move the group to the **Origin**, by snapping to the start point of the reference line we just drew.
-4. Delete the reference line.
+1. **[グリッドにスナップ\(SG\)]**がオンになっていることを確認します。基準とする**線分\(L\)**の描画を、**原点**\(X、Y、Z 軸が交差する点\)から開始します。任意の場所をクリックして 2 番目の点を配置します。
+2. オットマンのグループを選択し、図に示すように、脚の左下コーナーをシングルクリックして移動コマンドを開始します。_オブジェクトを移動する方法の詳細については、前の章を参照してください。_
+3. 先ほど描画した基準線の始点にスナップして、グループを**原点**に移動します。
+4. 基準線を削除します。
 
-![](<../../.gitbook/assets/2 (17) (1).png>)
+![](../../.gitbook/assets/2%20%2817%29.png)
 
-7 - We recommend deleting any unwanted layers that were imported with the SKP file, as any layers this model has will eventually be imported into our Farnsworth House model. To do that, go to the **Layers Palette**, select **Layer 0**, and click the **-** button. This will delete the layer while keeping its geometry.
+7 - SKP ファイルとともに読み込まれた不要なレイヤは削除することをお勧めします。このモデルに含まれるすべてのレイヤが最終的に Farnsworth House モデルに読み込まれるためです。これを行うには、**[レイヤ]パレット**に移動し、**Layer 0** を選択して**[-]**ボタンをクリックします。これで、ジオメトリを維持したままレイヤが削除されます。
 
-![](<../../.gitbook/assets/3 (16) (1).png>)
+![](../../.gitbook/assets/3%20%2816%29.png)
 
-_**Note:**_ _Whenever you delete a layer, any geometry or groups that were on that layer are assigned to have_ _**No Layer**, which is the default value for any object that has not yet been assigned to a layer._
+_**注:**_ _レイヤを削除すると、そのレイヤのすべてのジオメトリやグループは_ _**「レイヤなし」**となります。これは、レイヤに割り当てられていないすべてのオブジェクトの既定値です。_
 
-## **Create Content Thumbnail**
+## **コンテンツのサムネイルを作成する**
 
-_This next step will setup a scene to be used as the_ _**Content**_ _thumbnail, which will be displayed in the_ _**Content Library Palette**._
+_次の手順では、_ _**コンテンツ**_ _のサムネイルとして使用されるシーンをセットアップします。これは_ _**[コンテンツ ライブラリ]パレット**に表示されます。_
 
-1 - To define the view settings for the thumbnail scene:
+1 - サムネイル シーンのビュー設定を定義します。
 
-1. In the **Environment** tab of the **Visual Style Palette**, uncheck all the checkboxes and set the **Lower/ Background** color to white.
-2. Make sure your view mode is set to **Perspective** **(VP)**.
-3. Use the **View Navigation Tools** to zoom in pick a camera location that represents the object well, similar to the below image.
+1. **[表示スタイル]パレット**の**[環境]**タブで、すべてのチェックボックスをオフにし、**[下部/背景]**の色を白色に設定します。
+2. ビュー モードが**[パース投影** **\(VP\)]**に設定されていることを確認します。
+3. **ビューのナビゲーション ツール**を使用して拡大表示し、下図のように、オブジェクトを適切に表示するようにカメラ位置を選択します。
 
-![](<../../.gitbook/assets/4 (13) (1).png>)
+![](../../.gitbook/assets/4%20%2813%29.png)
 
-2 - To save the settings you just set, create a scene:
+2 - この設定を保存するため、シーンを作成します。
 
-1. Go to the **Scene Palette**.
-2. Click on the **+** button. This will create a new scene based on your current settings.
-3. Rename it **Thumbnail** and make sure that at least the first four (4) checkboxes are checked; **Camera**, **Layers**, **Sun and Shadows**, and **Visual Styles**. The rest of the scene settings are not really relevant for creating the thumbnail image.
-4. Use the **Update Scene** button any time you want to refresh your **Scene** to match the current camera view and visual settings.
+1. **[シーン]パレット**に移動します。
+2. **[+]**ボタンをクリックします。これで、現在の設定に基づいて新しいシーンが作成されます。
+3. 名前を **Thumbnail** に変更し、少なくとも最初の 4 つのチェックボックス\(**[カメラ]**、**[レイヤ]**、**[太陽と日影]**、**[表示スタイル]**\)がオンになっていることを確認します。残りのシーン設定は、サムネイル イメージの作成には関係ありません。
+4. **[シーンを更新]**ボタンを使用すると、現在のカメラ ビューと表示設定に合わせて**シーン**をいつでも更新できます。
 
-![](<../../.gitbook/assets/5 (11) (1).png>)
+![](../../.gitbook/assets/5%20%2811%29.png)
 
-3 - **Save (Ctrl + S)** the completed ottoman model again. Note that the **Content Thumbnail** is created from the current view when the model was last saved, so make sure you are in the **Thumbnail Scene** before you save.
+3 - 完成したオットマン モデルをもう一度**保存\([Ctrl]+[S]\)**します。**コンテンツのサムネイル**は、モデルが最後に保存されたときに現在のビューから作成されるため、保存する前にシーン **Thumbnail** で作業していることを確認してください。
 
-_If you wish, you can compare your file against ours by opening the_ _**Ottoman - Barcelona\_Mies.axm**_ _file saved at_ _**Farnsworth House Data Set > Supporting Files > FormIt > Furniture**_ _in the_ _**Farnsworth House Data Set**.‌_
+_作成したファイルを、当社が作成したファイルと比較する場合は、_ _**Ottoman - Barcelona\_Mies.axm**_ _ファイルを開いてください。このファイルは_ _**Farnsworth House Data Set**_ _内の_ _**Farnsworth House Data Set > Supporting Files > FormIt > Furniture** に保存されています。‌_
 
-_You can follow the same steps above with the bench and chair SKP files located in the same folder as the ottoman._
+_オットマンと同じフォルダにあるベンチと椅子の SKP ファイルを使用して、上記と同じ手順を実行することができます。_
 
-_**Tip:**_ _To expedite the process we recommend using the_ _**Ottoman - Barcelona\_Mies.axm**_ _file you just created as a template. While modeling you may want to turn on the_ _**Grid**_ _and the_ _**Axes**_ _again from the_ _**Visual Styles Palette**. By adjusting only the camera position of your_ _**Thumbnail Scene**_ _for each piece of furniture, it will ensure that the_ _**Content Thumbnails**_ _remain consistent for all of your content models._
+_**ヒント:**_ _効率よく処理するために、先ほど作成した_ _**Ottoman - Barcelona\_Mies.axm**_ _ファイルをテンプレートとして使用することをお勧めします。モデリング中に、_ _**[グリッド]**_ _と_ _**[軸]**_ _を_ _**[表示スタイル]パレット**で再度オンにすることが必要となる場合があります。家具ごとに_ _**シーンThumbnail**_ _のカメラ位置のみを調整することで、_ _**コンテンツのサムネイル**_ _をすべてのコンテンツ モデルで一貫した状態に保つことができます。_
 
-## **Link a Content Library**
+## **コンテンツ ライブラリにリンクする**
 
-_Now back to our Farnsworth House project. We will learn how to link the **FormIt** folder in the **Farnsworth House Data Set**, to easily access all of its files - including the_ **Custom FormIt Content** _we just created - from within our project._
+Farnsworth House プロジェクトに戻ります。_**Farnsworth House Data Set**内の**FormIt** フォルダをリンクして、先ほど作成した_ **Custom FormIt Content** _を含むすべてのファイルにプロジェクト内から簡単にアクセスする方法について学習します。_
 
-1 - After switching back to, or re-opening, the Farnsworth House model. _If you did not complete the last chapter, download and open the_ _**1.11 - Import Models with Content Library.axm**_ _file from the_ _**Farnsworth House Data Set**._
+1 - Farnsworth House モデルに戻るか、再度開きます。_直前の章を完了していない場合は、_ _**Farnsworth House Data Set**_ _から_ _**1.11 - Import Models with Content Library.axm**ファイルをダウンロードして開きます。_
 
-1. Open the **Content Library Palette** and click the **Link Content Library Directory** icon. The **Preferences** window will pop-up with the **Content Library** tab open.
-2. Click the **+** icon to **Add a new Content Library location**. A third window will pop-up for you to navigate your computer’s directory and select a folder.
-3. In the _**Farnsworth House Data Set**, navigate through the folders:_ _**Supporting Files > FormIt**. There you will find the_ folders containing the **.axm** files we created earlier in this chapter. Double-click the **FormIt** folder to select it.
-4. Click **Select Folder** and that folder’s path will show up in the **Library Locations – Local** Panel.
-5. Back in the **Preferences** window, click **OK**, and the linked folder will be added to the **Content Library**.
-6. To access this new library, open the drop-down menu at the top for the **Content Library Palette** and select **FormIt**.
-7. Note that the folder structure and all the **.axm** files in the linked folder will show up in the **Content Library Palette**. Double click any sub-folders to access the files in it.&#x20;
+1. **[コンテンツ ライブラリ]パレット**を開き、**[コンテンツ ライブラリ フォルダをリンク]**アイコンをクリックします。**[基本設定]**ウィンドウが表示され、**[コンテンツ ライブラリ]**タブが開きます。
+2. **[+]**アイコンをクリックして、**新しいコンテンツ ライブラリの場所を追加**します。お使いのコンピュータのフォルダをナビゲートして選択するための、3 つ目のウィンドウが表示されます。
+3. __**Farnsworth House Data Set** で、**Supporting Files &gt; FormIt** フォルダにナビゲートします。__この章で先ほど作成した **.axm** ファイルを含むフォルダを見つけます。**FormIt** フォルダをダブルクリックして選択します。
+4. **[フォルダを選択]**をクリックすると、そのフォルダのパスが**[ライブラリの場所]の[ローカル]**パネルに表示されます。
+5. **[基本設定]**ウィンドウに戻り、**[OK]**をクリックすると、リンクされたフォルダが**コンテンツ ライブラリ**に追加されます。
+6. この新しいライブラリにアクセスするには、**[コンテンツ ライブラリ]パレット**の上部にあるドロップダウン メニューを開き、**[FormIt]**を選択します。
+7. フォルダ構造と、リンクされたフォルダ内のすべての **.axm** ファイルが**[コンテンツ ライブラリ]パレット**に表示されます。サブフォルダをダブルクリックすると、その中のファイルにアクセスできます。
 
 ![](../../.gitbook/assets/link-library-content.png)
 
-**Note:** If you have access to **Autodesk Docs** (previously know as Autodesk 360), you can also access files you may have stored there through the **Content Library** drop-down menu.
+**注:** **Autodesk Docs** \(以前は Autodesk 360 と呼ばれていました\)にアクセスできる場合は、**[コンテンツ ライブラリ]**ドロップダウン メニューを使用して、そこに保存されているファイルにアクセスすることもできます。
 
-## **Place Content from the Library**
+## **ライブラリからコンテンツを配置する**
 
-_‌Now we will place the content items we created inside in the Farnsworth model._
+作成したコンテンツ アイテムを Farnsworth モデル内に配置します。__
 
-1 - So that we can see inside the house to place the furniture, turn off the **Roof** layer and **Orbit (O)** the perspective view until you can see the entire Main Building Floor.
+1 - 家の中を見て家具を配置できるように、レイヤ **Roof** をオフにして、Main Building Floor 全体が見えるようになるまでパース ビューを**オービット\(O\)**します。
 
-2 - Back in the **Content Library Palette**, ensure the dropdown is still set to the **FormIt**. Before placing any of the furniture we just made, we need to place the ‘core’ of the house:
+2 - **[コンテンツ ライブラリ]パレット**に戻り、ドロップダウンが **FormIt** に設定されたままであることを確認します。先ほど作成した家具を配置する前に、家の「コア」を配置する必要があります。
 
-1. Click on the folder named **Other** to open it, and then click on the **Farnsworth House – Core** thumbnail to select it.
-2. Hover the mouse over the **Main Building Floor,** to click on the **Centroid** of the floor to place the **Core**.
-3. To go back UP to the FormIt folder, use the **Navigate Up** button.
+1. **Other** という名前のフォルダをクリックして開き、サムネイル **Farnsworth House - Core** をクリックして選択します。
+2. **Main Building Floor** の上にマウスを合わせて、床の**図心**をクリックして **Core** を配置します。
+3. FormIt フォルダに戻るには、**[上にナビゲート]**ボタンを使用します。
 
-![](<../../.gitbook/assets/7 (2).jpeg>)
+![](../../.gitbook/assets/7%20%282%29.jpeg)
 
-3 - Set the camera to an **Orthographic (VO)** **Top View (VT)** and turn of the **Main Building Floor** to see the **Plan Image**. Refer to previous chapters to learn more about the **Views** and **Layers** settings.
+3 - カメラを**[正投影\(VO\)]**、**[上面ビュー\(VT\)]**に設定し、**Main Building Floor** をオフにして **Plan Image** を表示します。**ビュー**と**レイヤ**の設定の詳細については、前の章を参照してください。
 
-4 - Select the **Farnsworth House - Core** and move it until it closely aligns with the Plan Image.
+4 - **Farnsworth House - Core** を選択し、Plan Image に近い位置に配置されるまで移動します。
 
-![](<../../.gitbook/assets/8 (1).png>)
+![](../../.gitbook/assets/8%20%281%29.png)
 
-_**Note:**_ _While moving the_ _**Core**, be careful not to change its elevation. You can either use the_ _**Shift**_ _key to restrict the movement to always be along one of the axes, or ensure that the start and end reference points of your_ _**Move (M)**_ _command are both at the same height by clicking only on the_ _**Plan Image**, not the_ _**Core**_ _itself. Refer to previous chapters to learn more about the_ _**Move (M)**_ _Tool.‌_
+_**注**_ _:_ _**Core**を移動する際は、高さを変更しないように注意してください。たとえば_ _**[Shift]**_ _キーを使用して移動が常に軸の 1 つに沿うように制限したり、_ _**Core**_ _自体ではなく_ _**Plan Image**のみをクリックして_ _**[移動\(M\)]**_ _コマンドので開始参照点と終了参照点を同じ高さにすると便利です。_ _**移動\(M\)**_ _ツールの詳細については、前の章を参照してください。‌_
 
-## **Place Furniture from the Library**
+## **ライブラリから家具を配置する**
 
-1 - Using a similar process, you can now place the furniture you created earlier in this chapter from the **Custom FormIt Content** folder. If you did not convert all three (3) of the SKP files, you can use the premade versions inside the **Furniture** folder instead.
+1 - 同様のプロセスを使用すると、この章で最初に作成した家具を **Custom FormIt Content** フォルダから配置できます。3 つの SKP ファイルすべてを変換しなかった場合は、代わりに **Furniture** フォルダ内の作成済みバージョンを使用できます。
 
-_**Notes:**_
+_**注:**_
 
-* _Turn the_ _**Main Building Floor**_ _layer back on, so you can place furniture directly on the_ _**Main Building Floor**’s surface._
-* _While placing a new object, use the_ _**Tab**_ _key to alternate between placement planes._
-* _While placing a new object, use the_ _**Space Bar**_ _key to rotate it by 90 intervals before placing._
+* _レイヤ_ _**Main Building Floor**_ _をオンに戻して、_ _**Main Building Floor**のサーフェスに家具を直接配置できるようにします。_
+* _新しいオブジェクトを配置する際に_ _**[Tab]**_ _キーを使用すると、配置平面を切り替えることができます。_
+* _新しいオブジェクトを配置する際に_ _**[Spacebar]**_ _キーを使用すると、配置前に 90 度間隔で回転させることができます。_
 
-![](<../../.gitbook/assets/9 (3).png>)
+![](../../.gitbook/assets/9%20%283%29.png)
 
-2 - Similarly, explore the **Content Library Samples** to place OOTB Content. Note that multiple of these have several different sizes to choose from, similar to Family Types in Revit.
+2 - 同様に、**コンテンツ ライブラリのサンプル**を調べて、OOTB コンテンツを配置します。多くのサンプルは、Revit のファミリ タイプと同様に、複数のサイズから選択できます。
 
-![](<../../.gitbook/assets/10 (6).png>)
+![](../../.gitbook/assets/10%20%286%29.png)
 
-## **Using the Scale Tool**
+## **スケール ツールを使用する**
 
-1 - Using the techniques, you just learned, place one instance of the **tree\_pine** component from the **Farnsworth House Data Set > FormIt > Planting** folder.
+1 - 先ほど学習した技法を使用して、**Farnsworth House Data Set &gt; FormIt &gt; Planting** フォルダにある **tree\_pine** コンポーネントのインスタンスを 1 つ配置します。
 
-1. Once placed, select the group and rename it to **Tree**. Right-click to access the **Context Menu** and choose **Non-Uniform Scale (NU)**.
-2. Click on one of the **Non-Uniform Scale Buttons** to resize and change the proportions of the **Tree** group as desired.
+1. 配置したら、グループを選択して名前を **Tree** に変更します。右クリックして、**コンテキスト メニュー**から**[不均等スケール\(NU\)]**を選択します。
+2. **不均等スケール ボタン**の 1 つをクリックして、グループ **Tree** のサイズと比率を必要に応じて変更します。
 
-![](<../../.gitbook/assets/11 (3).png>)
+![](../../.gitbook/assets/11%20%283%29.png)
 
-![](<../../.gitbook/assets/12 (2).png>)
+![](../../.gitbook/assets/12%20%282%29.png)
 
-_**Note:**_ _Similarly, the_ _**Scale (SC)**_ _tool can be used to re-scale an entire model or group uniformly._
+_**注:**_ _同様に、_ _**[スケール\(SC\)]**_ _ツールを使用すると、モデルまたはグループ全体を均一に再スケールできます。_
 
-2 - Copy this group and place multiple trees around the house, using the **Scale Tools** to create a variety of sizes and proportions.
+2 - このグループをコピーして家の周りに複数の樹木を配置し、**スケール ツール**を使用してさまざまなサイズと比率を作成します。
 
-![](<../../.gitbook/assets/13 (6).png>)
+![](../../.gitbook/assets/13%20%286%29.png)
 
-_**Note:**_ _Even though the trees are all instances of the same group, we were able to_ _**Scale**_ _them to different sizes. Using the_ _**Scale (SC)**_ _and_ _**Non-Uniform Scale (NU)**_ _outside of group edit mode allows you to modify individual instances of the same group. If we were to edit one of the_ _**Tree**_ _groups and modify its geometry or material, all group instances would still be updated, but also each would keep their current customized scale. Give it a try!_
+_**注:**_ _樹木はすべて同じグループのインスタンスですが、異なるサイズに_ _**スケール**_ _できました。グループ編集モード以外で_ _**[スケール\(SC\)]**_ _や_ _**[不均等スケール\(NU\)]**_ _を使用すると、同じグループの個々のインスタンスを変更できます。グループ_ _**Tree**_ _の 1 つを編集してそのジオメトリまたはマテリアルを変更すると、グループのすべてのインスタンスが更新されますが、各インスタンスのカスタマイズされた現在のスケールは維持されます。お試しください。_
 
-### **Keep Model Tidy**
+### **モデルを整理された状態に保つ**
 
-_Remember to always sort added content onto layers. In this example, we recommend placing the core and all furniture on the_ _**Main Building Floor**_ _layer and the trees on a new layer named_ _**Planting**._
+_追加したコンテンツは常にレイヤで分類してください。この例では、コアとすべての家具をレイヤ_ _**Main Building Floor**_ _に配置し、樹木を_ _**Planting**という名前の新しいレイヤに配置することをお勧めします。_
+

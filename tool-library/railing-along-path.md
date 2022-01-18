@@ -1,80 +1,81 @@
-# Railing Along Path
+# パスに沿った手摺
 
-## Powered By Dynamo
+## Dynamo 提供
 
-In FormIt 2021 and newer, you can generate a railing along a path, and quickly customize the results in-place. Railing Along Path is powered by Dynamo, which means the resulting railing is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+FormIt 2021 以降では、パスに沿って手摺を生成し、結果をその場で簡単にカスタマイズできます。Railing Along Path \(パスに沿った手摺\)は Dynamo から提供されています。つまり、作成された手摺は簡単に目的の形に設定でき、ロジックを再実行するとジオメトリが所定の位置で更新されます。
 
-![](<../.gitbook/assets/railing-along-path (1).gif>)
+![](../.gitbook/assets/railing-along-path.gif)
 
-## Starting Railing Along Path
+## Railing Along Path を開始する
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the Railing Along Path sample
-* On the left side of the screen, you'll see a prompt to "Select path for railing"
-  * You should select only a series of contiguous edges, or a Group containing only a series of edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter/Return.
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated railing in a FormIt Group, ready for modifying (see below).
+* FormIt for Windows の[Dynamo]パレットに移動し、Dynamo Samples フォルダを開いていることを確認します。
+* Railing Along Path サンプルをクリックします。
+* 画面の左側に、「手摺用のパスを選択します」というプロンプトが表示されます。
+   * 一連の連続したエッジのみ、または一連のエッジのみを含むグループを選択します。
+   * パスを選択したら、[終了]ボタンをクリックするか、[Enter]/[Return]キーを押します。
+* [Dynamo]パレットに、変更を処理していることが示されます。完了すると、FormIt グループに Dynamo で生成された手摺が作成され、修正できるようになります\(下記参照\)。
 
-## Iterating In Place
+## 所定の位置で反復する
 
-After running Railing Along Path, you'll notice its results are set to default values. Maybe these work for you, but you can heavily customize the railing to suit your needs.
+Railing Along Path を実行すると、その結果は既定値に設定されています。これでも問題ないかもしれませんが、ニーズに合わせて手摺を大幅にカスタマイズすることもできます。
 
-When Railing Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Railing Along Path instance.
+[Railing Along Path]を実行すると、結果を含む新しいグループが作成され、FormIt によって自動的にそのグループが選択されて、Railing Along Path インスタンスで使用可能なオプションが表示されます。
 
-You can always return to the Railing Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+グループを選択して[プロパティ]パレットに切り替えるか、自動的に[プロパティ]が表示されるグループを編集することで、Railing Along Path プロパティにいつでも戻ることができます。
 
-![](<../.gitbook/assets/railing-along-path-options (1).png>)
+![](../.gitbook/assets/railing-along-path-options.png)
 
 ### Railing Height
 
-The overall height of the railing. Uses the current FormIt units.
+手摺の全体の高さ。現在の FormIt 単位を使用します。
 
 ### Post Spacing
 
-The spacing between main vertical posts. Uses the current FormIt units.
+メインの垂直の親柱の間隔。現在の FormIt 単位を使用します。
 
 ### Add Posts at Path Vertices
 
-When **true**, posts will be added at each vertex of the selected path, and the calculation for the next post positioning resets at that point.
+**True** の場合は選択したパスの各頂点に親柱が追加され、その点で次の親柱の位置の計算がリセットされます。
 
-For example, if you selected a series of 3 edges, a post will appear at each of the two inner points. This is useful if the vertices indicate a change of direction (like going up stairs or turning corners) where a post would naturally occur.
+たとえば、一連の 3 つのエッジを選択した場合、2 つの内側の点それぞれに親柱が表示されます。これは、その頂点が、親柱の向く方向の変化\(上り階段や曲がり角など\)を示している場合に便利です。
 
-When **false**, posts will only be added along the path starting from one end, and measuring the distance along the path, ignoring vertices along the way. This is useful if you've selected an arc, spline, or circle, where the vertices are not important, and you want the post spacing to ignore them.
+**False** の場合は一方の終点からパスに沿って親柱が追加され、パスに沿った距離が計測されます。途中の頂点は無視されます。これは、頂点が重要でない円弧、スプライン、または円を選択し、親柱の間隔で頂点を無視する場合に便利です。
 
 ### Reverse Path Direction
 
-When calculating the positioning of the posts, the direction of the chosen path will determine which end of the path will start the post spacing measurement.
+親柱の位置を計算する場合、選択したパスの方向によって、親柱の間隔の計測を開始するパスの終点が決まります。
 
-In cases where the post spacing results in leftover space on an undesirable end of the path, you can change this value to **true** to flip the curve, and start the post spacing measurement at the opposite end.
+親柱の間隔によってパスの望ましくない終点にスペースが残る場合は、この値を **True** に変更してカーブを反転し、反対側の終点で親柱の間隔の計測を開始できます。
 
-### Post Width + Depth
+### Post Width / Post Depth
 
-The size (in plan) of the rectangular vertical post profiles. Uses the current FormIt units.
+角型の垂直親柱のプロファイル サイズ\(平面図\)です。現在の FormIt 単位を使用します。
 
-### Handrail Width + Height
+### Handrail Width / Handrail Height
 
-The size (in section) of the rectangular handrail profile. Uses the current FormIt units.
+角型の補助手摺のプロファイル サイズ\(断面\)です。現在の FormIt 単位を使用します。
 
 ### Baluster Orientation
 
-When true, balusters will be oriented horizontally, like cables. When false, the balusters will be oriented vertically, for a more traditional aesthetic.
+True の場合、手摺子はケーブルのように水平方向になります。False の場合、手摺子は垂直方向に配置され、従来の外観になります。
 
-### Baluster width + Depth
+### Baluster Width / Baluster Depth
 
-The size of the baluster's rectangular profile. Uses the current FormIt units.
+角型の手摺子のプロファイル サイズ。現在の FormIt 単位を使用します。
 
 ### Baluster Spacing
 
-The amount of space between each baluster. Uses the current FormIt units.
+各手摺子間の幅。現在の FormIt 単位を使用します。
 
 ### Bottom Rail Start Height
 
-The distance between the bottom of the railing, and the bottom rail that supports the balusters. Uses the current FormIt units.
+手摺の下部と、手摺子を支える下部手摺間の距離。現在の FormIt 単位を使用します。
 
 ### Run
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+オプションを編集したら、[Run]ボタンをクリックしてベースとなる Dynamo グラフを実行し、新しい結果を生成します。パラメータを変更すると、このボタンは青に変わるため、最終的なジオメトリで更新内容を確認するためには、ボタンをクリックする必要があることが分かります。‌
 
 ### Edit Embedded Graph
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+このボタンをクリックすると、Dynamo グラフ エディタ環境が起動されます。ベースとなる Dynamo グラフを表示および編集して、パラメータをすばやく変更したり、ライブで更新を確認したり、ロジックを調査/調整できます。
+

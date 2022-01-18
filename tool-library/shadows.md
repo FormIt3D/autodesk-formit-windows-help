@@ -1,25 +1,28 @@
-# Sun + Shadows
+# 太陽 + 日影
 
-Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
+**[太陽 + 日影]**ツールを使用して、太陽の軌道がプロジェクトに与える影響を調べます。
 
-The first step for accurate shadow studies is to [**set your project location**](setting-location.md).
+影を正確に調査するには、最初に[**プロジェクトの場所を設定**](setting-location.md)する必要があります。
 
-Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+場所を設定し、必要に応じて衛星画像を読み込んでから、建物のコンテキストと、ルーバーや木などのシェーディング要素をモデリングしてプロジェクトを作成します。
 
-## The Sun + Shadows Menu
+### [太陽 + 日影]メニュー
 
-Turn shadows on in the Sun + Shadows menu at the top of the application (you can also enable shadows, as well as adjust shadow intensity, in [**Visual Styles**](../formit-introduction/tool-bars.md)):
+アプリケーションの上部にある[太陽 + 日影]メニューで[影]をオンにします\([**[表示スタイル]**](../formit-introduction/tool-bars.md)でも影を有効にできます。影の強度の調整も可能です\)。
 
-![](../.gitbook/assets/sun-+-shadows.png)
+![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+ここで、時間と日付を調整できます。既定で年が 2000 と表示されますが、太陽による日影の解析の精度には影響しません。
 
-## The Sun Editor
+### 太陽エディタ
 
-You can also toggle the Sun Editor from the Sun + Shadows menu (or use shortcut DR), which provides a graphical display of the sun's location in space:
+[太陽 + 日影]メニューで[太陽エディタ]をオンにするかショートカットの DR を使用すると、スペース内に太陽の場所をグラフィカルに表示できます。
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
-* Grab the circular grip to move the sun along its path and effectively adjust the time of day.
-* Adjust the time of year from the Sun + Shadows menu. Doing so will adjust the angle and orientation of the graphical sun path based on the time of year.
+* [太陽エディタ]はカメラとともに移動するため、必要に応じてズーム レベルやカメラの向きを調整し、調査している設計に適した位置にウィジェットが表示されるようにします。
+* 円形のグリップをつかみ、太陽を軌道に沿って動かして時間を効率的に調整します。
+* [太陽 + 日影]メニューで日付を調整します。この操作を行うと、グラフィカルな太陽の軌道の角度と向きが日付に基づいて調整されます。
+
+
+

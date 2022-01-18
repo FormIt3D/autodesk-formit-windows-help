@@ -1,39 +1,40 @@
-# 1.13 - Section Planes
+# 1.13 - 断面平面
 
-_In this chapter you will learn how to use_ _**Section Planes**_ _to cut your model, revealing interior spaces and structural elements. FormIt supports multiple_ _**Section Planes**_ _at once for a Section Box-like effect._
+_この章では、_ _**断面平面**_ _を使用してモデルを切り取り、内部スペースと構造要素を表示する方法について学習します。FormIt は、複数の_ _**断面平面**_ _を同時にサポートし、切断ボックスのような効果をもたらします。_
 
-_If you did not complete the previous chapter, download and open the_ _**1. 13 - Section Planes.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_前の章を完了していない場合は、_ _**1.13 - Section Planes.axm**_ _ファイルを_ _**FormIt Primer Part 1 Datasets**からダウンロードして開きます。_
 
-1 - To create a new Section Plane:
+1 - 新しい断面平面を作成するには、次のように操作します。
 
-1. Click on the **Section Plane (SP)** button from the **Standard Toolbar**.
-2. Hover over the model to identify a plane to use as reference. Note the arrows at the corners of the **Section Plane** indicating the direction of the section cut. Press the **Tab** key to alternate between different planes, if needed.
-3. Click to place the **Section Plane** anywhere on the southern glass wall of the main building. The plane will scale to the size of your model and remain selected.
+1. **[標準ツールバー]**の**[断面平面\(SP\)]**ボタンをクリックします。
+2. モデルにカーソルを合わせて、参照として使用する平面を特定します。断面の方向を示す矢印が**断面平面**のコーナーに表示されます。**[Tab]**キーを押すと、別の平面に切り替えることができます。
+3. メインの建物の南側ガラス壁の任意の場所をクリックして**断面平面**を配置します。平面はモデルのサイズに合わせてスケールされ、選択されたままになります。
 
-![Section plane preview when hovering over the glass wall.](<../../.gitbook/assets/0 (6).png>)
+![Section plane preview when hovering over the glass wall.](../../.gitbook/assets/0%20%286%29.png)
 
-![Scaled section plane after being placed.](<../../.gitbook/assets/1 (19) (1).png>)
+![Scaled section plane after being placed.](../../.gitbook/assets/1%20%2819%29.png)
 
-2 - With the section plane still select, click to start moving it backwards until it is cutting through part of the main building, similar to the image below. This works similarly to moving any model element, except that the section plane can only move along an axis perpendicular to the direction it is facing. Once you are happy with the position, press **Esc** to clear the selection.
+2 - 断面平面を選択したまま、下の図のように、メインの建物の一部を切断するまで後方に移動を開始します。これは、断面平面が向いている方向に垂直な軸に沿ってのみ移動できる点を除き、モデル要素の移動と同様に機能します。位置に問題がなければ、**[Esc]**を押して選択を解除します。
 
-![](<../../.gitbook/assets/2 (11) (1).png>)
+![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Note:**_ _You can add up to 6 section cuts to your model at once._
+_**注:**_ _ モデルには最大 6 つの断面を同時に追加できます。_
 
-3 - Open the **Layers** **Palette**. Note that two (2) new layers have been generated - **Section Indicators** and **Section Cut 1**.
+3 - **[レイヤ]** **パレット**を開きます。2 つの新しいレイヤ、**Section Indicators** と **Section Cut 1** が生成されていることに注目してください。
 
-1. Toggle the **Section Cut 1** layer off and back on. This controls whether the section cuts the model or not.
-2. Now toggle the **Section Indicator** layer off. This hides the section plane and its arrow indicators, but does not affect whether the actual section cut is active or not.
+1. **Section Cut 1** レイヤをオフにした後、オンに戻します。これで、断面がモデルを切断するかどうかをコントロールします。
+2. 次に、**Section Indicator** レイヤをオフに切り替えます。これにより、断面平面とその矢印インジケータが非表示になりますが、実際の断面カットがアクティブであるかどうかは影響を受けません。
 
-![](<../../.gitbook/assets/3 (6) (1).png>)
+![](../../.gitbook/assets/3%20%286%29.png)
 
-4 - In the **Surface Tab** of the **Visual Styles** **Palette**:
+4 - **[表示スタイル**]**パレット**の**[サーフェス]タブ**で、次の操作を行います。
 
-1. Check the box next to **Poche Color** to turn it on. This effect will color any solids cut by the section plane with a specified color. Black is the default color, but you can simply click on the color preview to change it.
-2. Turn of **Shadows (DS)**.
+1. **[ポシェの色]**をオンにします。これで、断面平面によってカットされたソリッドに特定の色が付きます。既定の色は黒ですが、色のプレビューをクリックするだけで簡単に変更できます。
+2. **[影\(DS\)]**をオンにします。
 
 ![](../../.gitbook/assets/poche.png)
 
-5 - To finalize your section, go to the **Scenes Palette** and create a new Scene called **Section**, saving the current **Camera** position, **Layers** visibility, and **Visual Styles** settings.
+5 - 断面を完成させるには、**[シーン]パレット**に移動し、**Section** という名前の新しいシーンを作成して、現在の**カメラ**位置、**レイヤ**の表示設定、および**[表示スタイル]**の設定を保存します。
 
-![](<../../.gitbook/assets/5 (7).png>)
+![](../../.gitbook/assets/5%20%287%29.png)
+

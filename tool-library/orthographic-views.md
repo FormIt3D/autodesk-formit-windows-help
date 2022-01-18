@@ -1,30 +1,26 @@
-# Orthographic Views
+# 正投影ビュー
 
-View your model in various orthographic views, including top, sides, and bottom.
+**上面、側面、下面などのさまざまな正投影ビューでモデルを表示します。**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-You'll find orthographic views in the View menu, by clicking the Orthographic icon in the floating navigation toolbar, or by using the shortcut V O. Click the Top View icon in the floating navigation toolbar to access several view options.
+正投影ビューは、浮動ナビゲーション ツールバーの**最上部のアイコン**をクリックすると表示されます。
 
-![](../.gitbook/assets/floating-nav\_flyout-v2.png)
+![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Some helpful hints when working with orthographic views:**
+**正投影ビューを使用する際に役立つヒントをまとめました**
 
-* When switching between orthographic views, FormIt will maintain the zoom level for consistency.
-* When switching elevation views (front/right/left/back), FormIt will maintain the ground height for consistency.
-* You can hold Shift while Panning in an orthographic view to lock the Pan movement to the horizontal or vertical axis.
-*   Orthographic view directions are based on the world axes. You can realign the axes, which will change the orientations of all the orthographic views:
+* 正投影ビュー間で切り替えると、一貫性を保つためにズーム レベルが維持されます。
+* 立面図ビュー(前面/右側面/左側面/後面)を切り替えると、一貫性を保つために地面の高さが維持されます。
+* 正投影ビューで[Shift]を押しながら画面移動すると、画面移動の動きを水平軸または垂直軸にロックできます。
+* 正投影ビューの方向は、ワールド軸に基づいています。軸の位置合わせを変更すると、すべての正投影ビューの向きが変わります。
+   * ショートカットの SZ を使用するか、スペース内のジオメトリのない場所で右クリックします。
+   * ![](../.gitbook/assets/set-axes\_context.PNG)
+   * 原点を設定し、グリップを赤い軸上に設定して、適切な方向に位置合わせします。
+   * ![](../.gitbook/assets/set-axes.PNG)
 
-    * Use shortcut SZ, or right-click in space (not over any geometry):
+**正投影ビューは、他の FormIt 機能と連動します**
 
-    ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
-
-    * Set the origin, and set the grip on the red axes to align it with a meaningful direction
-
-    ![](../.gitbook/assets/set-axes.PNG)&#x20;
-
-**Orthographic views work in conjunction with other FormIt features:**
-
-* Save elevation views as Scenes so you can return to them later.
-* Control visibility of geometry that might get in the way of elevation views using Layers.
-* Add Section Planes to create section-elevations.
+* 立面図ビューをシーンとして保存すると、後で戻ることができます。
+* レイヤを使用して、立面図ビューの妨げになる可能性のあるジオメトリの表示をコントロールします。
+* 断面平面を追加して、断面の立面図を作成します。

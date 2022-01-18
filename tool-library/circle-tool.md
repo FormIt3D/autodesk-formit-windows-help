@@ -1,13 +1,14 @@
-# Circle
+# 円
 
-Use the Circle tool to draw a circle in space or on another object.
+[円]ツールを使用して、スペース内または別のオブジェクト上に円を描画します。
 
-Keyboard: C
+キーボード ショートカット: [C]
 
-![](../.gitbook/assets/circle\_toolbar.png)
+![](../.gitbook/assets/circle_toolbar.png)
 
-To draw a circle, first, choose the center point and then specify the circle radius. Next, the circle automatically becomes a face.
+円を描画するには、まず中心点を選択し、次に円の半径を指定します。円が自動的に面になります。
 
 ![](../.gitbook/assets/circle1.png)
 
 ![](../.gitbook/assets/circle2.png)
+

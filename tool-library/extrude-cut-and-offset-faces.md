@@ -1,29 +1,30 @@
-# Faces: Extrude, Cut and Offset
+# 面: 押し出し、切り取り、オフセット
 
-Push or pull a face, imprint new shapes on existing ones, or create new offset edges.
+面のプッシュやプル、既存の面への新しいシェイプのインプリント、新しいオフセット エッジの作成を行います。
 
-## Extrude
+## 押し出し
 
-To push or pull a face, select a face with a single click, then click and drag. The face will move back and forth, you can now move your mouse to snap and inference on other model elements. Click again to finish moving the face. Hold down the CTRL key to retain the original edges.
+面のプッシュやプルを行うには、対象となる面をシングルクリックで選択し、もう一度クリックしてドラッグします。面は前後に移動します。移動先のモデル要素にマウスカーソルを置いて、スナップと推定配置点を表示します。もう一度クリックすると、面の移動が完了します。元のエッジを保持するには、[Ctrl]キーを押したままにします。
 
-![](<../.gitbook/assets/extrude (1).png>)
+![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprint
+## インプリント
 
-To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles, or circles onto existing faces. This action creates new faces that can be pushed or pulled independently of the original face.
+シェイプをインプリントするには、3D スケッチ ツールを使用して、直線、円弧、スプライン、長方形、または円を既存の面上に描画します。この操作により、元の面から独立してプッシュやプルを行うことができる新しい面が作成されます。
 
-![](../.gitbook/assets/imprint1.png)\
+![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## オフセット
 
-To offset the face of an object:
+オブジェクトの面をオフセットします。
 
-1. First select the face you would like to edit, then right-click to view the **Context** menu.&#x20;
-2. From the **Context** menu, click on the **Offset Face** tool.&#x20;
-3. Move your cursor over the selected face and adjust the lines that display until you reach your desired offset effect.
-4. Click anywhere to complete the offset. You can now independently push or pull the offset face.
+1. まず、編集する面を選択し、右クリックして**コンテキスト** メニューを表示します。
+2. **コンテキスト** メニューから、**[面をオフセット]**ツールをクリックします。
+3. 選択した面の上にカーソルを移動し、目的のオフセットが得られるまで、表示される線分を調整します。
+4. 任意の場所をクリックしてオフセットを完了します。これで、個別にオフセット面のプッシュやプルができるようになります。
 
-![](../.gitbook/assets/offset1.png)\
-![](../.gitbook/assets/offset2.png)\
+![](../.gitbook/assets/offset1.png)  
+![](../.gitbook/assets/offset2.png)  
 ![](../.gitbook/assets/offset3.png)
+

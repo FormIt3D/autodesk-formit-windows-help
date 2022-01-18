@@ -1,135 +1,136 @@
-# Frequently Asked Questions
+# よくある質問(FAQ)
 
-## About FormIt
+## FormIt について
 
-**What is FormIt and FormIt Pro?**
+**FormIt や FormIt Pro はどのような製品ですか?**
 
-FormIt is a 3D modeling, visualization, analysis, and computation environment for architectural design.
+FormIt は、建築デザインのための 3D モデリング、ビジュアライゼーション、解析、計算環境です。
 
-FormIt features:
+FormIt には次のような特徴があります。
 
-* A robust solid modeling engine, with powerful tools and workflows optimized for building design
-* Enhanced environmental visualization to illustrate design options, including saved model states using Scenes
-* Location, satellite imagery, and 3D terrain using Bing Maps
-* Materials from the Autodesk Material Library
-* Model organization and visibility tools like Groups, Layers, and Scenes
-* Analysis tools, including:
-  * Watertight and Back Faces validation for solid model diagnostics and repair
-  * Sun and Shadows
-  * Solar Analysis
-  * Energy Analysis
-* Autodesk product integrations:
-  * BIM 360 Docs
-  * Insight (Energy Analysis)
-  * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
-  * [Revit](https://formit.autodesk.com/page/formit-revit)
-* File format support:
-  * Open/Import
-    * AXM, DWG, FBX, SAT, STL, OBJ, WSM, SketchUp, Image
-  * Export
-    * AXM, FBX, OBJ, STL, SAT, DAE, DXF
+* 堅牢なソリッド モデリング エンジンであり、強力なツールとワークフローが建築デザインに最適化されている
+* 環境ビジュアライゼーションが強化され、シーンを使用した保存済みのモデル状態などのデザイン オプションを表示できる
+* Bing マップを使用した位置、衛星画像、3D 地形
+* Autodesk Material Library のマテリアル
+* グループ、レイヤ、シーンなどのモデルの構成および表示ツール
+* 解析ツールの例
+   * ソリッド モデルの診断および修復のための密閉性および背面の検証
+   * 太陽と日影
+   * 日照解析
+   * エネルギー分析
+* 統合されているオートデスク製品
+   * BIM 360 Docs
+   * Insight (エネルギー解析)
+   * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
+   * [Revit](https://formit.autodesk.com/page/formit-revit)
+* サポートされるファイル形式
+   * 開く/読み込む
+      * AXM、DWG、FBX、SAT、STL、OBJ、WSM、SketchUp、Image
+   * 書き出す
+      * AXM、FBX、OBJ、STL、SAT、DAE、DXF
 
-FormIt is available for free on [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) and [in your browser](https://app.formit.autodesk.com). A **FormIt Pro** subscription is required to use [FormIt for Windows](https://formit.autodesk.com/page/download), the most powerful and feature-rich version of FormIt. The **FormIt Pro** subscription also enables additional features on iOS and Web, like Solar and Energy Analysis. **FormIt Pro** is included in the [Autodesk AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview).
+FormIt は、[iOS](https://itunes.apple.com/jp/app/autodesk-formit-360/id575282599?mt=8) および[ご使用のブラウザ](https://app.formit.autodesk.com/)で無償で使用できます。**FormIt Pro** のサブスクリプションは、[FormIt for Windows](https://formit.autodesk.com/page/download) を使用する場合に必要です。これは、FormIt の最も強力で機能が豊富なバージョンです。**FormIt Pro** のサブスクリプションでは、日照解析やエネルギー解析などの機能を、iOS や Web 上で行うこともできます。**FormIt Pro** は、[Autodesk AEC Collection](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview) に含まれています。
 
-**What happened to FormIt for Android?**
+**FormIt for Android はどうなったのでしょうか?**
 
-In an effort to streamline the FormIt product offering, we had to make the hard decision to discontinue the Android app. If you have it installed, it will continue to run, but it is no longer available from the Play Store.
+FormIt 製品の提供を合理化するために、Android アプリを廃止するという苦渋の決断を下す必要がありました。インストール済み場合は引き続きお使いいただけますが、Play ストアからは入手できなくなりました。
 
-**How do I get FormIt?**
+**FormIt の利用を開始する方法を教えてください**
 
-To run the Windows version, you must have access to **FormIt Pro**, which is part of our [AEC Industry Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview) subscription. So, if your office has Revit, there is a good chance you have access to FormIt already! You can [download FormIt for Windows directly from our website](https://formit.autodesk.com/page/download) or from the Autodesk Desktop App.
+Windows バージョンを実行するには、**FormIt Pro** へのアクセス権が必要です。これは [AEC Collection](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview) のサブスクリプションに含まれています。オフィスに Revit がある場合は、FormIt にアクセスできる可能性が高いです。[当社の Web サイトから直接 FormIt for Windows をダウンロード](https://formit.autodesk.com/page/download)できます。または Autodesk デスクトップ アプリからもダウンロードできます。
 
-Additionally, the Web version can be run directly for free from our website: [http://formit.autodesk.com](http://formit.autodesk.com)
+また、Web バージョンは、直接 Web サイト [http://formit.autodesk.com](http://formit.autodesk.com) から無料で実行できます。
 
-The iOS version can be downloaded for free from the Apple App Store (iPad only).
+iOS バージョンは、Apple App Store から無料でダウンロードできます(iPad のみを対象としています)。
 
-**If I am a student or educator, can I get access to FormIt Pro for no cost?**
+**学生または教育機関の場合は、無償で FormIt Pro を利用できますか?**
 
-Yes! You can access the FormIt Pro subscription through the [Autodesk Education Portal](https://www.autodesk.com/education/free-software/formit-pro).
+はい。FormIt Pro のサブスクリプションは、[Autodesk Education Portal](https://www.autodesk.co.jp/education/edu-software/overview?sorting=featured&page=1) からアクセスできます。
 
-**How do I learn FormIt?**
+**FormIt の学習方法を教えてください**
 
-The best place to start is the [FormIt Primer tutorial](../formit-primer/).
+[FormIt Primer チュートリアル](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html)から始めることをお勧めします。
 
-There are multiple sections of the Primer, ranging from beginner (creating an entire modern house) to more advanced (working with Revit and Dynamo in more advanced ways).
+FormIt Primer には、現代的な家屋全体を作成する初心者向けのセクションから、Revit と Dynamo も利用する高度な内容のセクションまで用意されています。
 
-We also have over 20 videos in our FormIt Friday webinar series. These can be found on our [YouTube channel](https://www.youtube.com/channel/UCdZJr6Bo4pwBu3lQqcxlDsw).
+また、FormIt Friday ウェビナー シリーズには 20 を超えるビデオもあり、[YouTube チャンネル](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH)からご視聴いただけます。
 
-## Working with Revit
+## Revit と連携する
 
-**How does FormIt work with Revit?**
+**FormIt は Revit とどのように連携しますか?**
 
-FormIt is a separate 3D sketching and design application, but it creates data that can be converted easily to Revit [using the FormIt Add-In for Revit](https://formit.autodesk.com/page/formit-revit).
+FormIt は単独で 3D スケッチおよびデザインが可能なアプリケーションですが、[Revit の FormIt アドインを使用](https://formit.autodesk.com/page/formit-revit)すると、簡単に Revit に変換できるデータを作成できます。
 
-**What happens when you import into Revit?**
+**Revit に読み込むと、どうなりますか?**
 
-Starting in 2016, Revit ships with an add-in for working with FormIt data. When you import a FormIt AXM file into Revit, this add-in looks at each object in the file and re-creates it in Revit using the API. By default, everything in FormIt is categorized as Mass.
+バージョン 2016 以降、Revit には FormIt データを使用して作業するためのアドインが付属しています。FormIt の AXM ファイルを Revit に読み込む際に、このアドインによってファイル内の各オブジェクトが検査され、API を使用して Revit で再作成されます。既定では、FormIt 内のすべての要素はマスとして分類されます。
 
-The FormIt Converter takes each Mass object and creates a Mass family in Revit using the [Direct Shape API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
+FormIt コンバータは、[直接形状の API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/JPN/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html) を使用して、Revit で各マス オブジェクトを取得してマス ファミリを作成します。
 
-Direct Shape is a non-editable object used in IFC workflows. Although it is not editable, it has the distinct advantage of transferring full material textures between FormIt and Revit. [Here is a tutorial](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html) that explains the FormIt to Revit workflow in more detail.
+直接形状は、IFC ワークフローで使用される編集不可能なオブジェクトです。編集はできませんが、FormIt と Revit の間でマテリアル テクスチャをすべて転送できるという明確な利点があります。FormIt から Revit へのワークフローの詳細について説明する[チュートリアルはこちら](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html)にあります。
 
-**Can FormIt create walls, floors and other Revit system families?**
+**FormIt で壁や床などの Revit システム ファミリを作成できますか?**
 
-Not directly. As stated above, each object defaults to Mass category. To create walls, floors, etc. you should import the model into Revit using the converter add-in and use native Revit tools to create system families from the underlying mass model.
+直接作成することはできません。上述のように、各オブジェクトは既定でマス カテゴリとなります。壁、床などを作成するには、コンバータ アドインを使用してモデルを Revit に読み込み、ネイティブの Revit ツールを使用して基礎となるマス モデルからシステム ファミリを作成する必要があります。
 
-**Can Revit send data back to FormIt?**
+**Revit からデータを FormIt に戻すことはできますか?**
 
-Yes. To import data back into FormIt, export all or, preferably, _part_ of your Revit file to the SAT file format. There is usually no need to send ALL of your Revit data to FormIt. Instead, create a filtered view in Revit that only includes the minimal data (for instance, floors and walls) before saving to SAT.
+はい。データを FormIt に再度読み込むには、Revit ファイルのすべてまたは可能な場合は一部を SAT ファイル形式に書き出します。__通常、Revit データのすべてを FormIt に送信する必要はありません。代わりに、SAT に保存する前に、床と壁といった最小データ)のみを含むようにフィルタしたビューを Revit で作成します。
 
-## Working with other apps
+## 他のアプリケーションと連携する
 
-**Why is the default file format ".AXM"?**
+**既定のファイル形式が「.AXM」であるのはなぜですか?**
 
-The internal codename before FormIt was officially named was XModeler - so the file format we created was Autodesk X Modeler, or AXM for short.
+FormIt の公式の名前が決まる前、社内で使われていたコードネームは XModeler でした。そのため、作成したファイル形式は Autodesk X Modeler、略して AXM となりました。
 
-**What kind of 3D formats can FormIt import?**
+**FormIt ではどの種類の 3D 形式を読み込むことができますか?**
 
-* Windows:  AXM, DWG, FBX, OBJ, SAT, SKP, STL
-* Web: OBJ, STL
-* iOS: OBJ, STL, SAT
+* Windows: AXM、DWG、FBX、OBJ、SAT、SKP、STL
+* Web: OBJ、STL
+* iOS: OBJ、STL、SAT
 
-**What kind of formats can FormIt export?**
+**FormIt ではどの種類の形式を書き出すことができますか?**
 
-* Windows: FBX, OBJ, SAT, STL, DAE, DXF
-* Web: OBJ, SAT, STL
+* Windows: FBX、OBJ、SAT、STL、DAE、DXF
+* Web: OBJ、SAT、STL
 * iOS: OBJ
 
-**How does FormIt work with Dynamo?**
+**FormIt は Dynamo とどのように連携しますか?**
 
-[Learn how FormIt and Dynamo work together](https://formit.autodesk.com/page/formit-dynamo) to create computational design workflows.
+計算設計ワークフローを作成するための [FormIt と Dynamo の連携についてはこちら](https://formit.autodesk.com/page/formit-dynamo)をご覧ください。
 
-**How does FormIt compare to SketchUp?**
+**FormIt の SketchUp との違いは何ですか?**
 
-* Better [**interop with Revit**](../tool-library/revit.md) _\*\*_
-* [**Dynamo integration**](../tool-library/dynamo.md) for computational design
-* Native tools for [**solar analysis**](../tool-library/solar-analysis.md) and [**energy analysis powered**](../tool-library/energy-analysis.md) by Autodesk Insight
-* A more robust solid modeling kernel that enables advanced modeling operations
-* Native advanced modeling tools like [**Sweep, Cover, Loft**](../tool-library/cover-sweep-loft.md), Offset/Shell Solid, and 3D Blend/Fillet and [**Flatten Faces**](../tool-library/flatten-face.md)
-* Multiple visible [**section planes** ](../tool-library/section-planes.md)
-* Diagnostic tools like [**Display Watertight issues and Display Back Faces**](../tool-library/visual-styles.md)
-* [**Export pieces of the model**](../tool-library/export-data.md) based on what is selected and/or visible
-* Native OBJ, SAT, and STL export
+* [**Revit との相互運用性**](../tool-library/revit.md)が向上
+* 計算設計のための[**Dynamo との統合**](../tool-library/dynamo.md)
+* [**日照解析**](../tool-library/solar-analysis.md)および Autodesk Insight による[**エネルギー解析**](../tool-library/energy-analysis.md)のネイティブ ツール
+* 高度なモデリング操作を可能にする、より堅牢なソリッド モデリング カーネル
+* [**スイープ、かぶり、ロフト**](../tool-library/cover-sweep-loft.md)、ソリッドをオフセット/シェル化、3D ブレンド/フィレット、[**面を平坦化**](../tool-library/flatten-face.md)などの、ネイティブの高度なモデリング ツール
+* 複数の[**断面平面**](../tool-library/section-planes.md)を表示可能
+* [**密閉性に関する問題を表示、および背面を表示**](../tool-library/visual-styles.md)などの診断ツール
+* 選択または表示されている内容に基づいて[**モデルの一部を書き出す**](../tool-library/export-data.md)
+* ネイティブの OBJ、SAT、STL の書き出し
 
-**Can I use my SketchUp keyboard shortcuts?**
+**SketchUp のキーボード ショートカットを使用できますか?**
 
-Yes! FormIt for Windows has a completely editable keyboard map. Many common SketchUp shortcuts are already there by default, but you can edit them in the Edit > Preferences menu.
+はい。FormIt for Windows には、完全に編集可能なキーボード マップがあります。多くの一般的な SketchUp のショートカットは既定で存在しますが、[編集] &gt; [基本設定]メニューで編集できます。
 
-**Can I use my DWG files?**
+**DWG ファイルを使用できますか?**
 
-Yes! FormIt imports 2D and 3D DWG files.
+はい。FormIt は 2D および 3D の DWG ファイルを読み込みます。
 
-## Common support questions
+## 一般的なサポートの質問
 
-**How do I get support?**
+**サポートを利用するにはどうすればよいですか?**
 
-You can start with your Autodesk reseller, or find us on the [FormIt forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142). It's best to search for the question you have first, and if it hasn't been answered, post a new topic and the FormIt team will respond.
+オートデスク認定販売パートナーにお問い合わせいただくか、[FormIt フォーラム](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ja)をご覧ください。そこではまず質問を検索することをお勧めします。まだ回答がない場合は、新しいトピックを投稿すると、FormIt チームが回答します。
 
-**What to do if I cannot log in?**
+**ログインできない場合はどうすればよいですか?**
 
-* This [forum post](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) covers common login issues
-* If you have a PC with a switchable graphics processor (GPU) it is important to ensure that FormIt always uses the higher performance GPU. Here are instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) and [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1)
+* この[フォーラムの投稿\(英語\)](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=ja)には、一般的なログインの問題が記載されています
+* 切り替え可能なグラフィックス プロセッサ(GPU)を搭載した PC を使用する場合は、FormIt が常により高性能な GPU を使用するようにすることが重要です。[AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) および [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1) の場合の手順はこちらをご覧ください(英語)
 
-**What to do if Insight Energy Analysis fails?**
+**Insight のエネルギー解析が失敗した場合はどうすればよいですか?**
 
-If the Insight Energy Analysis reports an error or fails to return any results, [take a look at our Insight Energy Analysis page](https://formit.autodesk.com/page/formit-insight) for common troubleshooting tips.
+Insight のエネルギー解析でエラーが報告された場合や、結果が返されない場合は、[Insight のエネルギー解析のページ(英語)](https://formit.autodesk.com/page/formit-insight)で、一般的なトラブルシューティングのヒントを参照してください。
+

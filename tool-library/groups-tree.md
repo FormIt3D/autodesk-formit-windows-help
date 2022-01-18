@@ -1,13 +1,12 @@
-# Groups Tree
+# グループ ツリー
 
-The **Groups Tree** palette provides a single place to manage all of the groups in the file. The tree view displays nested groups and the Status column shows which group is currently being edited and whether the group is from Dynamo or Revit. The Instance column displays instance IDs to help differentiate instances of the same group.
+**[グループ ツリー]**パレットを使用すると、1 つの場所でファイル内のすべてのグループを管理できます。ツリー ビューにはネストされたグループが表示され、[ステータス]列には、現在編集中のグループと、そのグループが Dynamo と Revit のどちらから変換されたかが表示されます。
 
-* **Select**: Each instance is listed individually. Select an instance in the tree and the instance(s) are selected in the 3D scene.
-* **Edit**: To edit a group, use the pen icon at the top of the palette or right-click and choose Edit.
-* **Rename**: To rename a group, double-click the name or right-click and choose Rename.
-* **Delete**: To delete a group, use the (**-**) icon at the top of the palette or right-click and choose Delete. Select multiple groups to delete them all at once.
-  * Tip: To select multiple groups one by one, use the Ctrl key. To select a range of groups, select a group, hold Shift, and select another group. This will add all groups in between to the selection.
-* **Ungroup**: Right-click a group and select Ungroup.
-* **Change Category**: To change a group's category, select the group and use the Category drop-down at the top of the palette.
+* **選択する**: 個別に一覧表示されたツリー内のインスタンスを選択すると、3D シーン内でそのインスタンスが選択されます。
+* **編集する**: グループを編集するには、パレットの上部にあるペンのアイコンを使用するか、右クリックして[編集]を選択します。
+* **名前を変更する**: グループの名前を変更するには、名前をダブルクリックするか、右クリックして[名前変更]を選択します。
+* **削除する**: グループを削除するには、パレットの上部にある**[-]**のアイコンを使用するか、右クリックして[削除]を選択します。
+* **カテゴリを変更する**: グループのカテゴリを変更するには、グループを選択し、パレットの上部にある[カテゴリ]ドロップダウンを使用します。
 
-![](<../.gitbook/assets/groups tree.png>)
+![](../.gitbook/assets/groups.png)
+

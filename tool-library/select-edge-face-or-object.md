@@ -1,34 +1,35 @@
-# Selection
+# 選択
 
-## Direct Selection
+## 直接選択
 
-To **select a vertex, edge, or face**, hover over the object, then single-click to select it.
+**頂点、エッジ、または面を選択**するには、オブジェクトにカーソルを合わせ、シングルクリックで選択します。
 
-![](../.gitbook/assets/direct\_selection1.png)
+![](../.gitbook/assets/direct_selection1.png)
 
-To **select an entire object**, or an object and anything attached to it, double click the object.
+**オブジェクト全体を選択**、つまりオブジェクトとそれにアタッチされているものすべてを選択するには、オブジェクトをダブルクリックします。
 
-![](../.gitbook/assets/direct\_selection2.png)
+![](../.gitbook/assets/direct_selection2.png)
 
-You can also hold Ctrl or Shift, and add or remove elements from the current selection.
+[Ctrl]または[Shift]を押しながら、現在の選択に要素を追加または削除することもできます。
 
-## Selection Filtering
+## 選択フィルタ
 
-For area or lasso selection (see below), you can filter the selection based on type.
+領域選択または投げ縄選択\(下図を参照\)では、タイプに基づいて選択をフィルタできます。
 
-This is especially useful when you've got a mix of geometry types in close proximity, and you want to use area or lasso selection to cast a wide net, but retrieve only a certain type of geometry, while excluding others.
+この機能は、さまざまなジオメトリ タイプが近接している場合に特に便利で、領域選択または投げ縄選択を使用して大きく囲っても特定のジオメトリ タイプのみが選択され、他のタイプは除外されます。
 
-![](<../.gitbook/assets/selection-filter (1).png>)
+![](../.gitbook/assets/selection-filter.png)
 
-## Area/Window Selection
+## 領域/ウィンドウ選択
 
-To **select multiple pieces of geometry simultaneously**, use the window selection tool. Make sure you have nothing selected, then click and drag your mouse from left to right, or from right to left, to capture multiple pieces.
+**複数のジオメトリをまとめて選択**するには、ウィンドウ選択ツールを使用します。 何も選択されていない状態で、マウスをクリックして左右どちらかにドラッグすると、複数のジオメトリがまとめて選択されます。
 
-![](../.gitbook/assets/direct\_selection3.png)
+![](../.gitbook/assets/direct_selection3.png)
 
-## Lasso Selection
+## 投げ縄選択
 
-For **more precise control** when selecting multiple pieces of geometry simultaneously, use the lasso tool. You can select it from the context menu after right-clicking over the empty canvas. Then draw a boundary around your desired selection area.
+複数のジオメトリを**より正確に選択**するには、投げ縄ツールを使用します。空のキャンバス内を右クリックすると、コンテキスト メニューに投げ縄ツールが表示されます。投げ縄ツールを使用して、対象となる選択領域を囲むように境界を描画します。
 
-![](../.gitbook/assets/lasso1.png)\
+![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)
+

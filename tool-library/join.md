@@ -1,29 +1,32 @@
-# Boolean Join
+# ブール演算による結合
 
-You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
+[結合]ツールを使用して、1 つのオブジェクトまたはグループを別のオブジェクトまたはグループに結合できます。[結合]ツールにアクセスするには、次の 2 つの方法があります。
 
-## Run the Join command first
+## 最初に[結合]コマンドを実行する場合
 
-Keyboard: J G
+キーボード ショートカット: [J]、[G]
 
-![](../.gitbook/assets/boolean\_join.png)
+![](../.gitbook/assets/boolean_join.png)
 
-Run the Join command and follow the mode instruction in the upper left of the screen
+[結合]コマンドを実行し、画面の左上に表示されるモードの指示に従います。
 
-Single-click to select an object to join into.
+結合先のオブジェクトをシングルクリックで選択します。
 
-![](<../.gitbook/assets/cut\_mode01 (1).png>)
+![](../.gitbook/assets/cut_mode01.png)
 
-Single-click to select an object or group to be joined.
+結合するオブジェクトまたはグループをシングルクリックで選択します。
 
-![](<../.gitbook/assets/cut\_mode02 (1).png>)
+![](../.gitbook/assets/cut_mode02.png)
 
-Click the checkmark to finish the command.
+チェックマークをクリックしてコマンドを終了します。
 
-## Select objects first
+## 最初にオブジェクトを選択する場合
 
-1. Double-click to select the object to be joined (single click for a group).
-2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
-3. Right click on any of the objects and choose the Join Tool in the Context Menu.
+1. 結合するオブジェクトをダブルクリックで選択します\(グループの場合はシングルクリック\)。
+2. **[Ctrl]キー**を押しながら、最初のオブジェクトと結合する、重なっているオブジェクトをダブルクリックします。
+3. いずれかのオブジェクトを右クリックし、コンテキスト メニューから[結合]ツールを選択します。
 
-![](<../.gitbook/assets/join tool.png>)
+![](../.gitbook/assets/join-tool.png)
+
+
+

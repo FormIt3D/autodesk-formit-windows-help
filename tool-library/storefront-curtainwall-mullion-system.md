@@ -1,79 +1,80 @@
-# Storefront/Curtainwall Mullion System
+# ショー ウィンドウ/カーテン ウォールのマリオン システム
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Powered by Dynamo
+## Dynamo 提供
 
-The ability to quickly create storefront/curtainwall mullion systems in FormIt is powered by Dynamo. You can find the Storefront Curtainwall system in the Dynamo Samples directory in the Dynamo panel:
+Dynamo を搭載した FormIt では、ショー ウィンドウやカーテン ウォールのマリオン システムを簡単に作成できます。Storefront Curtainwall システムは、[Dynamo]パレットの Dynamo Samples フォルダにあります。
 
-![](<../.gitbook/assets/storefront-curtainwall-button (1) (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Selecting "Glass" For Mullion System
+## マリオン システムの「ガラス」を選択する
 
-Starting in FormIt 2021.2, the Storefront Curtainwall system uses the new [SelectFromFormIt node](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), allowing you to select a piece of "glass" (a single face or an extruded solid) around which to generate a mullion system.
+FormIt 2021.2 から、Storefront Curtainwall システムでは新しい [SelectFromFormIt ノード](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)が使用され、マリオン システムを生成するための「ガラス」\(単一の面または押し出しソリッド\)を選択できるようになりました。
 
-![A simple plane of "glass" with an opening for doors at the bottom.](../.gitbook/assets/storefron-system-1\_glass-only.png)
+![A simple plane of &quot;glass&quot; with an opening for doors at the bottom.](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-When you click the Storefront Curtainwall thumbnail (notice the icon indicating that a selection is required), FormIt will prompt you to select the glass geometry to continue:
+Storefront Curtainwall サムネイル\(選択が必要であることを示すアイコン\)をクリックすると、ガラス ジオメトリの選択を求めるプロンプトが表示されます。
 
-![](<../.gitbook/assets/storefront-curtainwall-prompt (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-A few notes and caveats about how selecting glass works:
+ガラスの選択について、いくつか注意事項があります。
 
-* Currently, only planar surfaces are supported. If you select a series of surfaces (for example, a "curved" surface comprised of smaller planar surfaces), the script will find the largest planar face and will use that.
-* If your glass is solid - i.e. a single face extruded very slightly to convey a bit of thickness - the script will find the biggest surface, so the resulting mullions will generate on one side of the glass solid.
-* You can sketch openings for doors, and remove the resulting surface from the glass boundary, and the resulting mullions will respect the door opening, leaving it blank for the addition of doors.
-* Due to Dynamo limitations, this script won't work if the glass geometry has openings in the middle.
+* 現在サポートされているのは平面サーフェスのみです。たとえば、小さな平面サーフェスで構成される「曲面」サーフェスなど、一連のサーフェスを選択した場合、スクリプトはその中で最大の平面を見つけて、それを使用します。
+* ガラスがソリッド\(厚さを伝えるために単一の面がわずかに押し出されているなど\)の場合、スクリプトは最大のサーフェスを見つけるため、マリオンはガラスのソリッドの片側に生成されます。
+* ドアの開口部をスケッチし、作成されたサーフェスをガラス境界から除去することができます。作成されたマリオンは、ドアの開口部を考慮し、ドアを追加するためにそこを空白のままにします。
+* Dynamo の制限により、ガラス ジオメトリの中央に開口部がある場合、このスクリプトは機能しません。
 
-## Tips and Tricks
+## ヒントとコツ
 
-When selecting geometry for a Dynamo graph in FormIt, certain organizational tricks can simplify the experience and allow for easy instancing of results:
+FormIt で Dynamo グラフのジオメトリを選択する場合、次のような特定の操作を行うことで操作を簡略化し、結果を簡単にインスタンス化できます。
 
-* Put the glass in a Group, and use the Group as the selection for the Storefront/Curtainwall script. That way, it's easier to edit the glass profile after the mullions have been generated, and if the glass is heavily modified between runs and the face IDs have changed, the Group ensures that the script will always find the glass - because it's using the Group ID, not the face ID.
-* If you're planning on copying and pasting the results of the mullion system to other places in your model, it's best to have the glass and the resulting mullions contained in a Group This will also prevent issues with the selection node not knowing which glass instance to use when just the resulting mullion Group is copied and pasted.
-  * Put your glass in a Group first. Double-click it to select the glass, and hit G or use the Group commands in the context menu or toolbar.&#x20;
-  * Select the resulting Group, and put it in another Group.
-  * Double-click to enter the first Group. This is the "container" for both the glass and the resulting mullions.
-  * Click the Storefront Curtainwall thumbnail, and use the glass Group as the selection.&#x20;
-  * After the script runs, you can exit the Group and copy/paste the container around as needed. You can edit any of the instances (adjusting the glass shape or parameters) without issue.
+* ガラスをグループに配置し、Storefront/Curtainwall スクリプトの選択としてグループを使用します。これにより、マリオンの生成後にガラスのプロファイルを編集しやすくなります。実行間でガラスを大幅に変更して面 ID を変更した場合、グループはスクリプトでガラスを常に見つけることができます。これは面 ID ではなくグループ ID を使用しているためです。
+* モデル内の他の場所にマリオン システムの結果をコピーして貼り付ける場合は、ガラスと作成されたマリオンをグループに含めることをお勧めします。これにより、作成されたマリオン グループをコピーして貼り付けるときに使用するガラス インスタンスが選択ノードに認識されないという問題も回避できます。
+   * まずガラスをグループに入れます。これをダブルクリックしてガラスを選択し、[G]キーを押すか、コンテキスト メニューまたはツールバーの[グループ]コマンドを使用します。
+   * 作成されたグループを選択し、別のグループに配置します。
+   * ダブルクリックして、最初のグループを開きます。これは、ガラスと作成されるマリオンの両方の「コンテナ」です。
+   * Storefront Curtainwall サムネイルをクリックし、ガラスのグループを選択として使用します。
+   * スクリプトを実行した後でグループを終了し、必要に応じてコンテナをコピーして貼り付けることができます。問題なく、どのインスタンスもガラスの形状やパラメータを調整するなどの編集ができます。
 
-## Mullion System Options
+## マリオン システム オプション
 
-Once you select glass and run the script, you'll get a result in the FormIt canvas, in the form of a FormIt Group. This Group will be automatically selected, and the Properties panel will reveal the available options.
+ガラスを選択してスクリプトを実行すると、FormIt キャンバスに FormIt グループの形式で結果が表示されます。このグループは自動的に選択され、使用可能なオプションが[プロパティ]パレットに表示されます。
 
-![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run**: If you modify the shape of the glass and want to re-run the graph to update the mullion results, click this.&#x20;
-* **Edit Embedded Graph**: Edit the Dynamo script that's generating the geometry. This script is embedded in the FormIt file and is specific to this Group.
-* **Select Glass (Surface or Solid)**: Click this to update the selection to a different piece of glass around which to generate mullions.
+* **Run**: ガラスの形状を修正し、グラフを再実行してマリオンの結果を更新する場合は、このボタンをクリックします。
+* **Edit Embedded Graph**: ジオメトリを生成する Dynamo スクリプトを編集します。このスクリプトは FormIt ファイルに埋め込まれ、このグループに固有のものです。
+* **Select Glass \(Surface or Solid\)**: これをクリックすると、選択内容が別のガラスに更新され、その周囲にマリオンが生成されます。
 
-The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the current FormIt units.
+スクリプトは最初に実行した既定値を使用するため、独自の使用事例に合わせて調整します。すべての値は、現在の FormIt 単位を使用します。
 
-* **Mullion Width + Depth**: The width and depth of all mullion elements.
-* **Vertical Mullion Spacing**: The distance, on center, between each vertical mullion.
-* **Flip Vertical Mullion Layout**: The script starts the vertical mullion spacing from one side, chosen arbitrarily. If the result starts the mullion spacing on the wrong side for your use case, set this to True to flip the layout to start on the opposite site.
-* **Center Vertical mullion Layout**: Instead of starting the vertical mullion spacing calculation at one end of the glass, start the calculation in the middle, creating a symmetrical layout of vertical mullions.
-* **First Horizontal Mullion Spacing**: Sets the first horizontal mullion spacing from the bottom. Useful if you need a row of shorter glazing modules at the bottom, separate from the rest of the horizontal mullion spacing.
-* **Horizontal Mullion Spacing**: The typical horizontal mullion spacing, on center, starting after the first mullion as outlined above.&#x20;
-* **Flip Horizontal Mullion Layout**: If you want the horizontal mullion layout to start at the top instead of the bottom, set this to True.
-* **Center Horizontal Mullion Layout**: Instead of starting the horizontal mullion spacing calculation at the bottom or top of the glass, start the calculation in the middle, creating a symmetrical layout of horizontal mullions.
+* **Mullion Width / Mullion Depth**: すべてのマリオン要素の幅と奥行き。
+* **Vertical Mullion Spacing**: 各垂直マリオン間の中心距離。
+* **Flip Vertical Mullion Layout**: このスクリプトは、任意に選択した一方の側面から垂直マリオンの間隔を開始します。使用事例にそぐわない側でマリオンの間隔が開始された場合は、この値を True に設定すると、反対側で開始するようにレイアウトが反転します。
+* **Center Vertical mullion Layout**: ガラスの一方の端で垂直マリオンの間隔の計算を開始する代わりに、中央から計算を開始して垂直マリオンの対称レイアウトを作成します。
+* **First Horizontal Mullion Spacing**: 下部に 1 つ目の水平マリオンの間隔を設定します。下部に短いガラス モジュールを並べて、残りの水平マリオンの間隔と別にする必要がある場合に便利です。
+* **Horizontal Mullion Spacing**: 上記の 1 つ目のマリオンの後に、中央から開始する一般的な水平マリオンの間隔です。
+* **Flip Horizontal Mullion Layout**: 水平マリオン レイアウトを下部ではなく上部で開始する場合は、これを True に設定します。
+* **Center Horizontal Mullion Layout**: ガラスの下部または上部で水平マリオンの間隔の計算を開始する代わりに、中央から計算を開始して水平マリオンの対称レイアウトを作成します。
 
-## Hidden Options
+## 非表示のオプション
 
-Looking for more customization? Several advanced options are hidden from the FormIt properties panel, but are accessible by clicking "Edit Embedded Graph" to reveal the full graph contents in Dynamo:
+さらにカスタマイズが必要ですか? FormIt の[プロパティ]パレットでは、いくつかの高度なオプションが非表示になっていますが、[Edit Embedded Graph]をクリックすると、Dynamo でグラフの内容をすべて表示できます。
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Randomized Mullions
+### ランダム化マリオン
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: Set this to True to space the vertical or horizontal mullions randomly
-* **Min/Max Mullion Spacing (if random)**: Adjust these values to set a range of minimum and maximum randomized spacing values
+* **Randomize Vertical/Horizontal Mullion Layout**: 垂直マリオンまたは水平マリオンをランダムに配置するには、この値を True に設定します。
+* **Min/Max Mullion Spacing \(if random\)**: ランダムな最小および最大の間隔値の範囲を設定します。
 
-### Border Mullions
+### 境界マリオン
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions:** By default, the mullion system will use the glass boundary, and offset it inward to create the border mullions. To offset outward, set this option to True. This will increase the overall size of the mullion system outside the glass boundary by the Mullion Width setting.
-* **Tolerance Between Selection and Border Mullions**: By default, the mullion system will generate exactly at the border of the glass, which could cause Z-fighting where the edge of the glass and the outer surfaces of the border mullions collide. In most cases, this won't be visible, but if your use case requires the edges of the system to be visible and you want to avoid Z-fighting, enable this option and adjust the tolerance value as necessary.
+* **Flip Offset Direction of Border Mullions**: 既定では、マリオン システムはガラスの境界を使用し、それを内側にオフセットして境界マリオンを作成します。外側にオフセットするには、このオプションを True に設定します。これにより、[Mullion Width]の設定によるガラス境界の外側のマリオン システム全体のサイズが大きくなります。
+* **Tolerance Between Selection and Border Mullions**: 既定では、マリオン システムはガラスの境界に正確に生成されます。この場合、ガラスのエッジと境界マリオンの外側サーフェスが衝突する Z 競合が発生する可能性があります。ほとんどの場合、これは表示されませんが、使用事例でシステムのエッジを表示する必要があり、Z 競合を回避する場合はこのオプションを有効にして、必要に応じて許容値を調整します。
+

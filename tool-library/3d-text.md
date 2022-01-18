@@ -1,49 +1,49 @@
-# 3D Text
+# 3D テキスト
 
-## Powered by Dynamo
+## Dynamo 提供
 
-In FormIt 2021 and newer, you can generate and modify 3D Text objects, which are powered by Dynamo. Dynamo enables editing the font, size, and other properties of the text in-place, without having to re-generate and re-position the text when edits are needed.
+FormIt 2021 以降では、Dynamo が提供する 3D テキスト オブジェクトを生成および修正できます。編集が必要な場合、Dynamo を使用すると、テキストのフォント、サイズ、その他のプロパティをその場で編集できます。テキストを再生成して位置を変更する必要はありません。
 
-![](<../.gitbook/assets/3d-text (1).gif>)
+![](../.gitbook/assets/3d-text.gif)
 
-## Placing 3D Text
+## 3D テキストを配置する
 
 ![](../.gitbook/assets/3d-text-placement.gif)
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
-* Click the 3D Text sample.
-* Move your cursor to the canvas, and you'll see the 3D Text appear on your cursor.
-  * Before placing, you can hover over geometry to orient the 3D Text differently - for example, on a vertical surface to get the text to align itself vertically. You can also hit Tab to cycle between orientations.
-* Click to place the 3D Text, which will be generated inside a FormIt Group.
-* After placing, the Properties panel will show up to reveal the available options for 3D Text.
+* FormIt for Windows の[Dynamo]パレットに移動し、Dynamo Samples フォルダを選択します。
+* 3D Text サンプルをクリックします。
+* カーソルをキャンバスに移動すると、カーソル上に 3D テキストが表示されます。
+   * 配置する前に、ジオメトリにカーソルを合わせて 3D テキストの方向を変えることができます。たとえば、垂直面ではテキストを垂直に合わせることができます。[Tab]キーを押すと、方向を切り替えることもできます。
+* クリックして 3D テキストを配置します。このテキストは FormIt グループ内に生成されます。
+* 配置後、3D テキストで使用可能なオプションを表示する[プロパティ]パレットが表示されます。
 
-## Iterating In Place
+## 所定の位置で反復する
 
-The beauty of using Dynamo to generate 3D Text is that editing it is easy, and keeps the text in its current position, for quick iteration.
+Dynamo を使用して 3D テキストを生成する方法のメリットは、編集が簡単で、テキストを現在の位置に保持できるため、すばやく反復できることです。
 
-3D Text options are available in the Properties panel when the 3D Text Group is selected, or when editing the Group.
+3D テキストの各種オプションは、3D Text グループを選択したときや、グループを編集するときに表示される[プロパティ]パレットで使用できます。
 
-After placing the 3D Text initially, the Properties panel will be displayed automatically. You can also select the Group and switch to Properties yourself, or double-click the Group to automatically switch to the Properties panel.
+3D テキストを最初に配置すると、[プロパティ]パレットが自動的に表示されます。グループを選択して手動で[プロパティ]パレットに切り替えることも、またグループをダブルクリックして自動的に[プロパティ]パレットに切り替えることもできます。
 
-![](<../.gitbook/assets/3d-text-options (1).png>)
+![](../.gitbook/assets/3d-text-options.png)
 
 ### Text
 
-Enter the text you'd like the 3D Text geometry to display. This field also previews the selected font and justification. Hit Enter/Return for multiple lines.
+3D テキスト ジオメトリとして表示するテキストを入力します。このフィールドでは、選択したフォントと位置合わせもプレビューされます。複数行にする場合は[Enter]/[Return]キーを押します。
 
 ### Font
 
-Select the font for the 3D Text. This list will display the fonts available on the machine, and selecting a new font will update the Text field.
+3D テキストのフォントを選択します。このリストにはマシンで使用可能なフォントが表示され、新しいフォントを選択すると[Text]フィールドが更新されます。
 
-Note that some fonts have more complex geometry, and may take more time to generate using Dynamo.
+フォントの中には複雑なジオメトリを持つものがあり、Dynamo を使用した生成に時間がかかることがあります。
 
 ### Justification
 
-This will move the text to align relative to the Group's Local Coordinate System origin.
+グループのローカル座標系の原点を基準にしてテキストを移動させることができます。
 
-* Left will ensure the text starts at the Group's origin, and expands to the right.
-* Center will ensure the text is always centered about the Group's origin.
-* Right will ensure the text ends at the Group's origin.
+* 左の場合、テキストはグループの原点から始まり、右に展開されます。
+* 中心の場合、テキストは常にグループの原点を中心に配置されます。
+* 右の場合、テキストはグループの原点で終了します。
 
 ![](../.gitbook/assets/3d-text-justification-combined.png)
 
@@ -51,66 +51,71 @@ This will move the text to align relative to the Group's Local Coordinate System
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-The height of the text, in the current FormIt units.
+現在の FormIt 単位でのテキストの高さ。
 
 ### Extrusion Depth
 
-The amount of 3D extrusion of the text, in the current FormIt units. 3D Text is designed to be solid, so this value can't be zero, but you can get it very close to 0 so it's less obvious that it's extruded.
+現在の FormIt 単位でのテキストの 3D 押し出しの深さ。3D テキストはソリッドであるため、この値をゼロにすることはできません。ただし、ゼロに非常に近い値を設定すると、押し出しは目立たなくなります。
 
 ### Tracking
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-Tracking is useful to adjust the default spacing between letters from a particular font. Uses the current FormIt units, and can be positive or negative. For example, in Feet, 0.25 will add 3" of spacing between each letter. Conversely, -0.25 will make all the letters 3" closer.
+トラッキングは、特定のフォントの文字間に存在する既定の間隔を調整する場合に便利です。現在の FormIt 単位を使用します。正または負の値を指定できます。たとえば、フィート単位での 0.25 は各文字間に 3" の間隔を追加します。逆に、-0.25 と指定すると、各文字が 3" 近くなります。
 
 ### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-If you have multiple lines in the Text field, this value controls how much space is between each line of text. Uses the current FormIt units.
+テキスト フィールドに複数の行がある場合、この値は各行間の間隔をコントロールします。現在の FormIt 単位を使用します。
 
 ### Invert Text
 
 ![](../.gitbook/assets/3d-text-inverted.png)
 
-When True, this option will create a solid around the text, and will remove the text from it, giving the result of "inverted" text - as if the text was cut out of a material.
+True の場合、このオプションは文字の周囲を塗り潰し、そこから文字を除去して、素材からその文字が切り取られたかのような「反転」した文字を生成します。
 
 ### Inverted Text Border
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Only applies when Invert Text is true. Specifies the amount of border around the text to use for the solid from which the text is removed. Uses the current FormIt units.
+[Invert Text]が True の場合にのみ適用されます。テキストを削除するソリッドに使用する、テキスト周辺の境界の幅を指定します。現在の FormIt 単位を使用します。
 
 ### Curve Faceting Quality
 
-Curves from fonts are converted to line segments using 3D Text, so this value controls how fine the curves are faceted.
+フォントのカーブは 3D テキストを使用してライン セグメントに変換されるため、この値は曲線の切り子面品質をコントロールします。
 
-Lower numbers will result in more coarse faceting (longer segments) and higher numbers will result in finer faceting (shorter segments). This value overrides FormIt's Curve and Surface faceting settings in Preferences.
+小さい数値を指定すると切り子面が粗くなり(長いセグメント)、大きい数値を指定すると切り子面が細かくなります(短いセグメント)。この値は、[基本設定]の FormIt の曲線およびサーフェスの切り子面設定よりも優先されます。
 
 ### Run
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know that "Run" needs to be clicked to see the updates in the final geometry.‌
+オプションを編集したら、[Run]ボタンをクリックしてベースとなる Dynamo グラフを実行し、新しい結果を生成します。パラメータを変更すると、このボタンは青に変わるため、最終的なジオメトリで更新内容を確認するためには、ボタンをクリックする必要があることが分かります。‌
 
 ### Edit Embedded Graph
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to quickly change parameters and see live updates, or to inspect/adjust the logic. This isn't required but can be useful for troubleshooting or for faster editing. See below for more.
+このボタンをクリックすると、Dynamo グラフ エディタ環境が起動します。ベースとなる Dynamo グラフを表示し、編集して、パラメータをすばやく変更したり、ライブで更新を表示したり、ロジックを確認/調整できます。これは必須ではありませんが、トラブルシューティングや編集のスピードアップに役立ちます。詳細については、以下を参照してください。
 
-## Iterate Faster in Dynamo
+## Dynamo での反復処理を高速化
 
-If you're iterating on 3D Text options, it might be faster to launch the Dynamo graph editor, which will allow you to adjust parameters and see the changes in real-time. This also allows you to inspect the logic behind the graph, in case there are issues.
+3D Text オプションを繰り返し使用する場合は、Dynamo グラフ エディタを起動すると時間を短縮できる可能性があります。このエディタでは、パラメータを調整して変更をリアルタイムで確認できます。また、問題が発生した場合は、グラフのロジックを調べることもできます。
 
 ![](../.gitbook/assets/3d-text-edit-embedded.png)
 
-You can click the "Edit Embedded Graph" button in the Properties panel, to start the Dynamo graph editor.
+[プロパティ]パレットの[Edit Embedded Graph]ボタンをクリックすると、Dynamo グラフ エディタを起動できます。
 
-![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
+![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
 
-## Troubleshooting
+## トラブルシューティング
 
-3D Text uses Dynamo behind the scenes, and Dynamo uses a modeling kernel called ASM to generate its geometry, which is passed back to FormIt.
+3D Text はシーンの背後で Dynamo を使用し、Dynamo は ASM と呼ばれるモデリング カーネルを使用してそのジオメトリを生成し、FormIt に返します。
 
-Some fonts may create "self-intersecting curves", or other problematic geometry, which cause errors in ASM.
+一部のフォントでは、「自己交差カーブ」や、ASM でエラーを引き起こす問題のあるジオメトリが作成されることがあります。
 
-If you get an error when trying to run 3D Text, or if letters disappear, it's worth clicking "Edit Embedded Graph" to see what's going wrong with the graph, and where the failure might be happening.
+[3D Text]を実行しようとしたときにエラーが発生した場合、または文字が消えた場合は、[Edit Embedded Graph]をクリックしてグラフの問題とエラーが発生している可能性のある場所を確認してください。
 
-Some fonts also have known issues that prevent them from being turned into proper geometry. Bahnschrift is one example of this. If you run into another font that's problematic, [let us know on the forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142). We'll do what we can to fix issues with specific fonts.
+フォントの中には、適切なジオメトリに変換できない既知の問題を持つものもあります。Bahnschrift はその一例です。問題のある別のフォントが見つかった場合は、[フォーラムでお知らせください](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ja)。特定のフォントに関する問題を修正するために、オートデスクは最善を尽くします。
+
+
+
+
+

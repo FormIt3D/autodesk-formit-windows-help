@@ -1,33 +1,33 @@
-# Modifying Faces, Edges, and Points
+# 面、エッジ、点を修正する
 
-Things get really interesting when you start to push and pull the objects you have placed. Single click will allow you to select a single vertex, edge, face, or Mesh.
+配置したオブジェクトをプッシュ操作やプル操作で変更する方法を理解すると、さまざまな操作を実行できるようになります。シングルクリックで、頂点、エッジ、面、またはメッシュを 1 つ選択できます。
 
-## Modifying Faces
+## 面を修正する
 
-1. Single-click a face
-2. FormIt automatically puts you in the Drag Face or Extrude tool.&#x20;
-3. Click somewhere to identify a starting point for the operation.&#x20;
-4. After you click, you can snap to other objects to align this face.
-5.  As with move, you can click the **temporary dimension** or simply start typing a value to define the amount of movement.
+1. 面をシングルクリックします。
+2. 自動的に[面をドラッグ]ツールまたは[押し出し]ツールが起動します。
+3. クリックして、操作の開始点を指定します。
+4. クリックすると、この面を位置合わせする他のオブジェクトにスナップできます。
+5. 移動の場合と同様に、**仮寸法**をクリックするか値の入力を開始して、表示されるダイアログから移動量を定義できます。
 
-    ![](../.gitbook/assets/modify.png)
+![](../.gitbook/assets/modify.png)
 
-You can also delete a face by using the **Delete** key, or by right-clicking and invoking Delete from the context menu.
+面を削除する場合は、**[Delete]**キーを使用するか、右クリックしてコンテキスト メニューから[削除]コマンドを選択します。
 
-You can also delete a face by using **Right click > X button**.
+**右クリックして[X]ボタン**を押しても面を削除できます。
 
-## Modifying Edges
+## エッジを修正する
 
-1. Single-click an edge
-2. FormIt automatically puts you in the Move tool
-3. Position your mouse over a point in space that you want to start the Move operation from.
-4. Click, and now you can drag the edge to modify the shape.
+1. エッジをシングルクリックします。
+2. 自動的に[移動]ツールが起動します。
+3. 移動操作の起点となるスペース内の点にマウスを合わせます。
+4. クリックすると、エッジをドラッグしてシェイプを修正できるようになります。
 
 ![](../.gitbook/assets/modify2.png)
 
-## Modifying Points
+## 点を修正する
 
-1. Single-click one of the corners of one of the cubes.
-2. Similar to an edge, you drag the point along one of the axes to redefine the shape. [NextNon-Uniform Scale](https://app.gitbook.com/@formit3d/s/autodesk-formit-360-windows-help/\~/drafts/-MQs8s\_UgCysrQBxlywu/tool-library/non-uniform-scale)
+1. 立方体のいずれかのコーナーをシングルクリックします。
+2. エッジの場合と同様に、いずれかの軸に沿って点をドラッグしてシェイプを変更します。[次不均等スケール](non-uniform-scale.md)
 
-![](<../.gitbook/assets/modify3 (1).png>)
+![](<../.gitbook/assets/modify3 (1) (1).png>)

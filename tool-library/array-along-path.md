@@ -1,98 +1,103 @@
-# Array Along Path
+# パスに沿った配列
 
-## Powered by Dynamo
+## Dynamo 提供
 
-In FormIt 2021 and newer, you can array objects along a path, and quickly customize the results in-place. Array Along Path is powered by Dynamo, which means the array is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+FormIt 2021 以降では、パスに沿ってオブジェクトを配列し、結果をその場でカスタマイズできます。Array Along Path \(パスに沿った配列\)は Dynamo から提供されています。そのため、配列を簡単に設定して目的の結果を得ることができ、ロジックを再実行するとジオメトリがその場で更新されます。
 
-![](<../.gitbook/assets/array-along-path (1).gif>)
+![](../.gitbook/assets/array-along-path.gif)
 
-## Starting Array Along Path
+## Array Along Path を開始する
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
-* Click the Array Along Path sample.
-* On the left side of the screen, you'll see a prompt to "Select object(s) to array."
-  * You can select any mix of FormIt objects for this step.
-  * Once you've got something selected, you can hit the "next" arrow on the left side of the screen, or just hit Enter.
-* Now you'll see a prompt to "Select path for array."
-  * Here, you should select only a series of contiguous edges, or a Group containing a series of contiguous edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter.&#x20;
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated Array in a FormIt Group, ready for modifying (see below).
+* FormIt for Windows の[Dynamo]パレットに移動し、Dynamo Samples フォルダを選択します。
+* Array Along Path のサンプルをクリックします。
+* 画面の左側に、「配列するオブジェクトを選択してください」というプロンプトが表示されます。
+   * この手順では、FormIt オブジェクトを組み合わせて選択できます。
+   * 項目を選択したら、プロンプトの右向き矢印の[次へ]ボタンをクリックするか、[Enter]を押します。
+* 次に、「配列用のパスを選択してください」というプロンプトが表示されます。
+   * ここでは、一連の連続したエッジのみ、または一連の連続したエッジを含むグループを選択する必要があります。
+   * パスを選択したら、チェックマークのボタンをクリックするか[Enter]を押して終了します。
+* [Dynamo]パレットに、変更を処理していることが示されます。完了すると、Dynamo で生成された配列が FormIt グループに表示され、修正できるようになります(下記参照)。
 
-## Iterating In Place
+## 所定の位置で反復する
 
-After running Array Along Path, you'll see its results are set to default values, so you'll want to modify them to suit your needs.
+[Array Along Path]を実行した後、その結果が既定値に設定されていることが分かります。そこで、必要に応じて配列を変更します。
 
-When Array Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Array Along Path instance.
+[Array Along Path]を実行すると結果を含む新しいグループが作成され、FormIt は自動的にそのグループを選択して、[Array Along Path]インスタンスで使用可能なオプションを表示します。
 
-You can always return to the Array Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+[グループ]を選択して[プロパティ]パレットに切り替えるか、自動的に[プロパティ]が表示されるグループを編集することで、いつでも[Array Along Path]プロパティに戻ることができます。
 
-![](<../.gitbook/assets/array along path (1).png>)
+![](../.gitbook/assets/array-along-path-options.png)
 
-### Select Object(s) to Array <a href="#run" id="run"></a>
+### Select Object\(s\) to Array <a id="run"></a>
 
-Click this to go back to the selection wizard to change which objects are being arrayed.
+これをクリックすると、選択ウィザードに戻って配列するオブジェクトを変更できます。
 
 ### Select Array Path
 
-Click this to go back to the selection wizard to change the path that is used to calculate the array.
+これをクリックすると、選択ウィザードに戻って、配列の計算に使用するパスを変更できます。
 
-### Array Type <a href="#run" id="run"></a>
+### Array Type <a id="run"></a>
 
-This toggles the type of array to calculate: By Distance, or By Number.
+計算する配列のタイプを、距離または数のどちらかに切り替えることができます。
 
-**When true**, the calculation will be "By Distance", so the number below refers to the distance between copies.
+**True** の場合、計算は「距離」によって行われます。したがって、下の数はコピー間の距離を意味します。
 
-**When false**, the calculation will by "By Number of Copies", so the number below this field refers to the number of copies to fit along the path.
+**False** の場合、「コピー数」で計算が行われるため、このフィールドの下の数はパスに沿ってフィットするコピーの数を意味します。
 
 ### Include Original Selection In Results
 
-When **true**:
+**True** の場合:
 
-* The object(s) selected will be counted as one of the new copies
-* The resulting Dynamo Group will include the original selection in its results, so the new copies will Z-fight with the original selection. You can put the original selection on a [Layer](layers.md), and turn it off to hide it.
+* 選択したオブジェクトは新しいコピーの 1 つとしてカウントされます。
+* 結果として得られる Dynamo グループには、元の選択が結果に含まれるため、新しいコピーと元の選択との間に Z 競合が発生します。元の選択を[レイヤ](layers.md)に配置し、オフにして非表示にすることができます。
 
-When **false**:
+**False** の場合:
 
-* The resulting array will **not** include the original selection, so you'll get the number of copies you specified **in addition to** the original selection, and the results won't Z-fight
+* 結果の配列に元の選択は**含まれません**。そのため、元の選択に**加えて**指定したコピーの数を取得でき、結果で Z 競合は起こりません。
 
 ### Rotate Copies Along Path
 
-When **true**, the copies are rotated to maintain the orientation of the original object relative to the path.
+**True** の場合、コピーはパスに対して元のオブジェクトの方向を維持するように回転します。
 
-When **false**, the copies are not rotated, only moved.
+**False** の場合、コピーは回転せず、移動するだけです。
 
 ### Use Relative Positioning Along Path
 
-When **true**:
+**True** の場合:
 
-* Each copy will maintain the distance between the path and the original object.
-* If the original object is **not** positioned at one of the path endpoints, the largest remaining segment of the path will be used for the array calculation.&#x20;
+* 各コピーは、パスと元のオブジェクト間の距離を維持します。
+* 元のオブジェクトがパスの終点の 1 つに配置されて**いない**場合は、パスの残りの最大セグメントが配列計算に使用されます。
 
-When **false**:
+**False** の場合:
 
-* The entire length of the path will used to calculate the array, regardless of where the original object is relative to the path.&#x20;
-* This decouples the path's location relative to the object, and simply uses the entire path. Useful if the path and object are not near each other.
+* 元のオブジェクトがパスに対してどこに位置するかに関係なく、パスの全長が配列の計算に使用されます。
+* これにより、オブジェクトに対するパスの位置が切り離され、パス全体が使用されます。パスとオブジェクトが互いに離れている場合に便利です。
 
 ### Reverse Path Direction
 
-For closed paths only. When using Array Along Path with a closed path, the direction of the curve may unexpectedly flip the expected results of the array. Toggle this to **true** to reverse the array direction if the results are flipped.
+閉じたパスにのみ対応します。閉じたパスで[Array Along Path]を使用すると、曲線の方向によって配列の結果が予期せぬ方向に反転することがあります。結果が反転した場合は、これを **True** に切り替えて、配列の方向を反転させます。
 
-### Run <a href="#run" id="run"></a>
+### Run <a id="run"></a>
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+オプションを編集したら、[Run]ボタンをクリックしてベースとなる Dynamo グラフを実行し、新しい結果を生成します。パラメータを変更すると、このボタンは青に変わるため、最終的なジオメトリで更新内容を確認するためには、ボタンをクリックする必要があることが分かります。‌
 
-### Edit Embedded Graph <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
+### Edit Embedded Graph <a id="edit-embedded-graph"></a>
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+このボタンをクリックすると、Dynamo グラフ エディタ環境が起動されます。ベースとなる Dynamo グラフを表示および編集して、パラメータをすばやく変更したり、ライブで更新を確認したり、ロジックを調査/調整できます。
 
-## Selecting Geometry
 
-When selecting objects for Array Along Path, and other selection-based Dynamo graphs:
 
-* You can select any mix of FormIt objects - vertices, edges, faces, solids, Groups, and Meshes.&#x20;
-  * Note that depending on the step, some of these objects should not be selected.
-  * For example, when selecting the path, you should only select a contiguous series of edges, or a Group containing a contiguous series of edges. Anything else will cause the graph to fail.
-* You can double-click on an object to select everything attached.&#x20;
-* You can use the area selection window to grab a series of objects.
-* You can select objects already selected to deselect them.
-* At least one object is required to proceed with a selection-based step.
+## ジオメトリを選択する
+
+[Array Along Path]用のオブジェクトと、他の選択ベースの Dynamo グラフを選択する場合:
+
+* 頂点、エッジ、面、ソリッド、グループ、メッシュなど、FormIt オブジェクトを組み合わせて選択できます。
+   * 手順によっては、一部のオブジェクトは選択できません。
+   * たとえば、パスを選択する場合、連続した一連のエッジのみ、または連続した一連のエッジを含むグループを選択する必要があります。それ以外の場合は、グラフが失敗します。
+* オブジェクトをダブルクリックすると、アタッチされているものをすべて選択できます。
+* 領域選択ウィンドウを使用して、一連のオブジェクトを選択できます。
+* 既に選択されているオブジェクトを選択すると、選択解除できます。
+* 選択ベースの手順で処理するには、1 つ以上のオブジェクトが必要です。
+
+
+

@@ -1,53 +1,56 @@
-# Offset Line
+# オフセット ライン
 
-Draw parallel, or offset, lines using the Offset Line tool. This is useful to create 2D shapes that can later be extruded to look like 3D walls.
+[オフセット ライン]ツールを使用して、平行つまりオフセットの線分を描画します。これは、後で 3D 壁のように押し出す 2D 形状を作成する場合に便利です。
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool:
+**[オフセット ライン]**ツールは、[**[線分]**](https://windows.help.formit.autodesk.com/tool-library/line-tool)ツールと同様に機能します。
 
-* Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes.&#x20;
-* A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool.
-* Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
+* クリックして最初の点を設定し、カーソルを移動して後続の点を配置し、既存のジオメトリまたは推定軸にスナップします。
+* 作成した形状のプレビューが表示されます。2 番目と 3 番目の点によって、残りの点がフォローする平面が決まります。そのため、結果は平面になります。
+* 続けて点を追加したあと、**[Esc]**を押すか、ダブルクリックしてツールを終了します。
+* 自己交差はクリーン アップされ、結合されて、押し出し可能な 1 つの面になります。
 
 ![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
 
-The input line is drawn in red, and by default is placed in the center of the offset lines.
+入力線分は赤で描画され、既定ではオフセット ラインの中心に配置されます。
 
-You can change the alignment of the offset lines and their thickness by hitting the **Tab** key. This will invoke the **Tool Options** dialog:
+オフセット ラインの位置合わせと太さを変更するには、**[Tab]**キーを押します。これで、**[ツール オプション]**ダイアログが表示されます。
 
 ![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
 
-Change the **Alignment** to **Left** and the **Thickness** to 6", for example, and the offset lines will be drawn to the left of the input lines, 6 inches apart.
+たとえば、**[位置合わせ]**を**[左]**に、**[厚さ]**を 6" に変更すると、オフセット ラインは入力線分の左に 6 インチの間隔で描画されます。
 
 ![](../.gitbook/assets/walls3.png)
 
-## Useful Tips
+## 便利なヒント
 
-You can draw a closed shape by snapping to the first point placed. The resulting corner will be cleaned up automatically:
+最初に配置した点にスナップすると、閉じた形状を描画できます。作成されたコーナーは自動的にクリーン アップされます。
 
 ![](../.gitbook/assets/walls4.png)
 
-You can freely draw the input lines on top of each other. When the tool is finished the resulting intersections are cleaned up.
+入力線分は自由に重ねて描画できます。ツールを終了すると、作成された交差はクリーン アップされます。
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Inherently, the Offset Line tool must generate geometry on a plane, so the first few points determine the plane that the remaining points will follow.
+本質的に、[オフセット ライン]ツールは平面上にジオメトリを生成するため、残りの点がフォローする平面は最初の数点によって決まります。
 
-Start drawing on the side of a cube, for example, to use the plane of that face. After three non colinear points are placed the input plane is fixed for the remainder of the input. Note, that when drawing on a face the resulting shape is inserted into the face, splitting it into multiple faces. To prevent the insertion, the face you draw on must be part of a [Group](https://windows.help.formit.autodesk.com/tool-library/groups).
+たとえば、立方体の側面から描画を開始して、その面の平面を使用します。同一線上にない 3 つの点が配置された後、残りの入力に対して入力平面が固定されます。面に描画すると、作成された形状が面に挿入され、複数の面に分割されます。挿入を防ぐには、描画する面が[グループ](https://windows.help.formit.autodesk.com/tool-library/groups)の一部である必要があります。
 
 ![Drawing on a vertical face](../.gitbook/assets/walls7.png)
 
 ![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
 
-You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image.
+また、[オフセット ライン]ツールを使用して、平面図からトレースすることもできます。平面図をイメージとして読み込みます。
 
-* Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).&#x20;
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
+* 適切な尺度が平面図に設定されるように、イメージのサイズを変更します。詳細については、[こちら](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane)を参照してください。
+* [正投影カメラ](orthographic-camera.md)を使用して、正投影の[上面ビュー](orthographic-views.md)でトレースすることができます。
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
+
+
+

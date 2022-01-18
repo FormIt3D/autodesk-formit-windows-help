@@ -1,15 +1,20 @@
-# Faces: Flatten
+# 面: 平坦化
 
-Use the **Flatten Faces** tool to force two or more object faces into the same plane.
+**[面を平坦化]**ツールを使用して、2 つ以上のオブジェクトの面を強制的に同じ平面にします。
 
-When two or more object faces are selected, you can select the **Flatten Faces** tool from the **Context** menu. You can also access **Flatten Faces** using the shortcut "**FL**."
+2 つ以上のオブジェクトの面を選択すると、**コンテキスト** メニューから**[面を平坦化]**ツールを選択できます。ショートカットの **FL** を使用して**[面を平坦化]**にアクセスすることもできます。
 
-![](../.gitbook/assets/flatten\_faces.png)
+![](../.gitbook/assets/flatten_faces.png)
 
-**Flatten Faces** can be useful as a repair tool when a face that should be planar becomes unexpectedly faceted (with smooth edges between the facets), either when importing lower-fidelity data like [SketchUp models](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), or after accidentally moving a vertex or edge which causes a face to get faceted or triangulated.
+**[面を平坦化]**は、平面であるべき面に予期しない切り子面が生成され、その切り子面間にスムーズなエッジがある場合の修復ツールとして役立ちます。このような切り子面が生成されるのは、[SketchUp モデル](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten)などの精度の低いデータを読み込んだ場合か、頂点やエッジを誤って移動したために面が切り子面や三角形に分割された場合です。
 
-You can also use **Flatten Faces** as a design tool for aligning or extending shapes. To do this, first, select a guide surface, then select additional faces to flatten to the plane of the first surface.
+**[面を平坦化]**は、シェイプを位置合わせまたは延長するための設計ツールとして使用することもできます。これを行うには、まずガイドとなるサーフェスを選択し、次にこの最初のサーフェスの平面に合わせて平坦化する追加の面を選択します。
 
-Check out the video below to see the power and versatility of **Flatten Faces**:
+次のビデオで、強力で汎用性の高い**[面を平坦化]**の機能について説明しています。
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
+
+
+
+
+

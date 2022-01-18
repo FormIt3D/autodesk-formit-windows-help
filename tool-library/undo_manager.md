@@ -1,17 +1,18 @@
-# Undo Manager
+# 元に戻す(アンドゥ)マネージャ
 
-FormIt features a unique Undo/Redo system, which can be used in two different ways to either undo per-Group, or chronologically and globally:
+FormIt には独自の[元に戻す]/[やり直す]システムがあり、グループ単位で元に戻す、または日時順で全体を元に戻す、という 2 つの異なる方法で使用できます。
 
-* Undo/Redo while editing a nested Group will only affect the changes inside that Group
-  * This means you can make a change in this Group, then make many changes in other Groups, and return to the original Group and have the option to Undo the last change made in this Group without affecting changes made more recently, elsewhere
-*   Undo/Redo from the Main Sketch (not while editing a Group) acts like traditional Undo/Redo systems: the last change made in **any** Group will be undone, based on chronological order.
+* ネストされたグループの編集中に[元に戻す]/[やり直す]を実行すると、そのグループ内の変更にのみ反映されます。
+   * つまり、このグループで変更を行った後に他のグループで多くの変更を行っても、元のグループに戻ってこのグループで最後に行った変更を元に戻すことができます。他のグループで直前まで行っていた変更には影響しません。
+* メイン スケッチから\(グループの編集中以外に\) [元に戻す]/[やり直す]を実行すると、従来の[元に戻す]/[やり直す]システムのように動作します。つまり、**グループに関係なく**日時順で最後に行った変更が元に戻されます。
 
-    The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
+アンドゥ マネージャには、メイン スケッチで行われた変更を含め、FormIt モデル内のあらゆるグループ内の変更がすべて記録されます。これは、モデル内の任意のグループで元に戻された操作を視覚的に理解するのに役立ちます。
 
-![](<../.gitbook/assets/undo-manager (1).png>)
+![](../.gitbook/assets/undo-manager.png)
 
-The Undo Manager will indicate in **bold** the current state, as well as any operations before this state, and any operations that once existed but have since been undone.
+アンドゥ マネージャには、現在の状態が**太字**で示されます。また、この状態より前の操作、および実行された後に元に戻された操作もすべて表示されます。
 
-You can right-click a state and select "Roll To" to effectively Undo or Redo as necessary to return to that model state.
+状態を右クリックして[ロール先]を選択すると、必要に応じて[元に戻す]または[やり直す]が実行されて、そのモデルの状態に戻ることができます。
 
-Groups that have been explicitly deleted, or are no longer in existence due to an Undo or Redo, are shown as \*Inactive\*. These can be restored by Undoing or Redoing inside their parent Group until they come back into existence.
+明示的に削除されたグループ、または[元に戻す]または[やり直す]によって存在しなくなったグループは、「\*非アクティブ\*」と表示されます。このようなグループは、その親グループ内で[元に戻す]または[やり直す]を実行することで復元できます。
+

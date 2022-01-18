@@ -1,23 +1,24 @@
-# Arc
+# 円弧
 
-Use the Arc tool to create half circles or symmetrical arcs. There are two ways to create arcs.
+[円弧]ツールを使用して、半円や左右対称の円弧を作成します。円弧の作成には、次の 2 つの方法があります。
 
-## Arc by Three Points
+## 3 点を指定した円弧
 
-![](../.gitbook/assets/arc\_three\_pts.png)
+![](../.gitbook/assets/arc_three_pts.png)
 
-An arc is defined by three points and can be drawn on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
+3 つの点を指定して円弧を作成します。X、Y、Z 軸に描画できます。最初の点を指定したら、その点から 2 つ目の点までの距離を決定し、最後に 3 つ目の点を指定して円弧の高さを決定します。スナップできる「半円」の点が自動的に表示されます。これを超えると、円弧の線は最初の 2 つの点を超えて伸びます。
 
-You can see the length between the first point and the second point as you're determining the second points next location; to manually specify a length, simply enter a value and a dimension box will appear.
+2 つ目の点を指定する際には最初の点との距離が表示されるため、それを参考にしながら場所を設定できます。また、値の入力を開始すると表示される寸法編集用ダイアログ ボックスから距離を手動で指定することもできます。
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-After drawing the arc, you can make a face using the [Line tool](line-tool.md) to connect the first and second points.
+円弧を描画した後、[[線分]ツール](line-tool.md)を使用して 1 つ目と 2 つ目の点を接続すると、面を作成できます。
 
-## Arc by Center
+## 中心を指定した円弧
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Choose the mid point of the arc, then drag to choose the center, and drag to define the length of the arc. Simply start typing a value to enter a precise number of degrees for the arc.
+円弧の中心点を指定し、円の半径となる 2 つめの点を決定し、その点をドラッグして円弧の長さを定義します。値の入力を開始すると表示される寸法編集用ダイアログ ボックスを利用して、円弧の正確な角度を指定することもできます。
 
-![](../.gitbook/assets/arc\_circle\_demo.gif)
+![](../.gitbook/assets/arc_circle_demo.gif)
+

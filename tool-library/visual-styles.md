@@ -1,93 +1,94 @@
-# Visual Styles
+# 表示スタイル
 
-Customize the visual appearance of your model, including overall lighting, edge styles, and environmental effects. The Visual Styles panel can be found by clicking the sunglasses icon in the palette bar:
+全体的な照明、エッジ スタイル、環境効果など、モデルの外観をカスタマイズします。[表示スタイル]パレットは、パレット バーのサングラス アイコンをクリックすると表示されます。
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Visual Styles [can be set per-Scene](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), so you can save your favorite style settings and apply them to other Scenes.
+表示スタイルは[シーン単位で設定できる](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings)ため、好みのスタイル設定を保存して他のシーンに適用することもできます。
 
-## Surfaces
+## サーフェス
 
-Manage the way surfaces are displayed and shaded.
+サーフェスの表示方法とシェーディング方法を管理します。
 
-![](<../.gitbook/assets/visual\_styles (1).png>)
+![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness as defined in the material's color or texture. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
+**アンビエント ブライトネス**は、シーン内のすべてのマテリアルの全体的な明るさをコントロールします。値が 100 の場合、光をあてられたマテリアルは、マテリアルのカラーまたはテクスチャで定義された完全な明るさで表示されます。100 を超える値では、マテリアルは露出オーバーになりますが、FormIt で SketchUp モデルがまだ暗く見える場合などに役立つことがあります。既定値は 100 です。
 
-**Ambient Contrast** controls how much darker faces in shade appear, when compared to faces exposed to direct sunlight. A value of 0 means that lighting has no effect (all materials will appear at their full brightness regardless of orientation), whereas higher values will make faces in shade appear increasingly darker. The default value is 25.
+**アンビエント コントラスト**は、直射日光にさらされている面と比較して、シェーディングの面がどの程度暗く表示されるかをコントロールします。値が 0 の場合、ライティングは効果がありません\(方向に関係なく、すべてのマテリアルが完全な明るさで表示されます\)。値が大きいほど、シェーディングの面は暗く表示されます。既定値は 25 です。
 
-Toggle **Shadows** to see how your design would be [shaded at the current time of day](https://windows.help.formit.autodesk.com/tool-library/shadows).
+**[影]**のオン/オフを切り替えると、設計物の[現在の時刻でのシェーディングの様子](https://windows.help.formit.autodesk.com/tool-library/shadows)がよくわかります。
 
-**Shadow Intensity** controls how dark shadows draw on the ground plane and other faces. A value of 0 will make shadows effectively invisible, and a value of 100 will make shadows black. The default value is 20.
+**[影の強度]**は、地盤面やその他の面に描画する影の暗さをコントロールします。値が 0 の場合、影は実質的に非表示になり、値が 100 の場合、影は黒になります。既定値は 20 です。
 
-**Ambient Shadows** add a touch of shading to corners to add realism to your FormIt model.
+**アンビエント シャドウ**を使用すると、コーナーにシェーディングを追加して FormIt モデルにリアリズムを加えることができます。
 
-**Monotone Surfaces** disables the color and texture of all materials, and makes the surrounding environment white. Useful for shadow or shading studies.
+**単色のサーフェス**はすべてのマテリアルのカラーとテクスチャを無効にし、周囲の環境を白くします。これは、影またはシェーディングの調査に役立ちます。
 
-The Surface Colors section defines default colors for faces when no material is applied.
+[サーフェス カラー]セクションは、マテリアルが適用されていない場合の面の既定の色を定義します。
 
-**Faces** is the default color of all front-facing FormIt faces (or both sides, if Back Faces is unchecked) when no material is applied.
+**面**は、マテリアルが適用されていない場合の、FormIt の前向きの面\([背面]がオフの場合は両面\)の既定の色です。
 
-**Back Faces** is used to display different materials on either side of a single face, for SketchUp models that are imported into FormIt and require this. This option is unchecked by default, but is checked when SketchUp models are opened or imported. In non-SketchUp geometry, the specified Back Face color will shown on the back sides of faces.
+**背面**は、FormIt に読み込まれ、背面を必要とする SketchUp モデルについて、単一の面のいずれかの側に異なるマテリアルを表示するために使用されます。このオプションは既定ではオフになっていますが、SketchUp モデルを開いたり読み込んだりするとオンになります。SketchUp 以外のジオメトリでは、指定した背面色が面の裏側に表示されます。
 
-Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
+[断面カット エフェクト]および[断面ポシェ エフェクト]セクションでは、[[断面平面]](section-planes.md)ツールを使用する場合の面、線分、ポシェの既定の色を管理します。
 
-### Edges
+## 地盤面
 
-Manage the display style of all edges in the model.
+グループ編集モードで[地盤面]をオフに切り替えると、青い[作業面]のグリッドもオフに切り替わります。
 
-![](../.gitbook/assets/edges.png)
+[作業面]の色は、[表示スタイル]パレットからカスタマイズすることもできます。
 
-**Contrast** affects how visible all edges are. A value of 0 would make the edges effectively invisible. The default value is 60.
+![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-**Color** affects the color of all edges in the model. The default is black.
+## エッジ
 
-**Thick Edges** make all edges thicker, including Silhouette Edges.
+モデル内のすべてのエッジの表示スタイルを管理します。
 
-**Sketchy Edges** adds a sketchy effect to all edges, to simulate a hand-drawn effect.
+![](../.gitbook/assets/edges.PNG)
 
-**Hidden Edges** displays edges otherwise occluded by surfaces.
+**コントラスト**は、すべてのエッジの表示に影響します。値が 0 の場合、エッジは実質的に非表示になります。既定値は 60 です。
 
-**Extended Edges** adds an extension to some edges, to simulate a hand-drawn effect.
+**色**は、モデル内のすべてのエッジの色に影響します。既定は黒です。
 
-## Environment
+**厚いエッジ**をオンにすると、シルエット エッジを含むすべてのエッジが厚くなります。
 
-Toggle display of environmental effects and helper objects.
+**手書き風のエッジ**をオンにすると、手書きの効果をシミュレートするために、すべてのエッジにスケッチ効果が追加されます。
 
-![](../.gitbook/assets/visual-styles1.PNG)
+**隠線エッジ**をオンにすると、サーフェスで隠れているエッジが表示されます。
 
-**Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
+**延長エッジ**をオンにすると、一部のエッジが延長され、手書きの効果がシミュレートされます。
 
-**Axes** controls the display of the XYZ axes that shows up at the world origin, or at the Group origin if editing a Group.
+## 環境
 
-**Levels** controls the display of [**Levels**](levels-and-area.md) set in the Levels Panel.
+環境効果とヘルパー オブジェクトの表示を切り替えます。
 
-**Fog** controls the display of fog that is drawn to make the transition between the ground plane and the sky appear seamless. Turning off Fog will result in a hard horizon line where the ground plane (if enabled) meets the sky.
+![](../.gitbook/assets/environment.PNG)
 
-**North Arrow** controls the display of a small graphical widget that indicates the direction of project north (as determined by location and satellite imagery).
+**グリッド**は、地盤面のグリッドの表示と、グループの編集時に表示されるグリッドの表示をコントロールします。この設定がオフの場合、[グリッドにスナップ]オプションは無効になります。
 
-Environmental colors like sky, background, and ground plane can also be customized.
+**軸**は、ワールド原点、またはグループの編集時にはグループ原点に表示される XYZ 軸の表示をコントロールします。
 
-The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors.
+**レベル** - [レベル]パレットで設定された[**レベル**](levels-and-area.md)の表示をコントロールします。
 
-If the **Sky** option is unchecked, only the **Lower / Background** color will be visible.
+**フォグ**は、地盤面と空の境がシームレスに見えるように描画するフォグの表示をコントロールします。フォグをオフにすると、地盤面\(有効な場合\)と空の境の位置に水平線が作成されます。
 
-Control **ground plane** transparency by using the slider.
+**方位記号**は、プロジェクトの北の方向\(場所と衛星画像によって決定\)を示す小さなグラフィカル ウィジェットの表示をコントロールします。
 
-When the ground plane is toggled off in Group Edit Mode, the blue work plane grid is now toggled off, also.&#x20;
+空、背景、地盤面などの環境の色もカスタマイズできます。
 
-The color of the **work plane** can also be customized from the Visual Styles panel.&#x20;
+上空は、**下部/背景**、**中央**、**上部**のカラー グラデーションで構成されています。
 
-![](<../.gitbook/assets/Visual styles - ground plane transparency.png>)
+**[上空]**オプションがオフの場合は、**[下部/背景]**の色のみが表示されます。
 
-## Diagnostics
+## 診断
 
-Toggle the display of diagnostic tools.
+各種診断ツールの表示を切り替えます。
 
-![](../.gitbook/assets/diagnostics.png)
+![](../.gitbook/assets/diagnostics.PNG)
 
-**Watertight Issues** highlights in red all edges that are not part of a watertight solid object.
+**密閉性問題** - 密閉性に問題のあるソリッド オブジェクトのすべてのエッジが赤でハイライト表示されます。
 
-**Back Faces** highlights in red all faces that are facing the wrong way (all solid objects should have the back faces facing towards the inside of the solid shape).
+**背面**は、誤った方向を向いているすべての面が赤でハイライト表示されます\(すべてのソリッド オブジェクトの背面がソリッド形状の内側を向いている必要があります\)。
 
-[Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[密閉性および背面の診断を使用してソリッド モデルの問題を特定して修正する方法について詳しくは、こちらを参照してください。](https://formit.autodesk.com/blog/post/repairing-solid-models)
+

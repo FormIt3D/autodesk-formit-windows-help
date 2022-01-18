@@ -1,9 +1,9 @@
-# FormIt Introduction
+# FormIt の概要
 
-![](../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Introduction to FormIt
+## FormIt の概要
 
-Learn some of the basics about FormIt - what it can do, where you can get it, and how you can customize it.
+FormIt の基本事項として、機能、取得先、カスタマイズ方法について説明します。
 
-If you're done with the initial setup and ready to learn how to use it, check out the [FormIt Primer](../formit-primer/).
+初期設定が完了し、使用方法を学習する準備ができている場合は、「[FormIt Primer](../formit-primer/)」を参照してください。

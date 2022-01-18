@@ -1,39 +1,39 @@
-# Curve + Surface Faceting
+# 曲面 + サーフェス切り子面
 
-FormIt is a polyhedral modeling system, so objects like circles, arcs, and splines are represented by a series of straight edges. Similarly, a curved surface like the wall of a cylinder, or a dome, is comprised of a series of planar faces with hidden border edges.
+FormIt は多面体モデリング システムであるため、円、円弧、スプラインなどのオブジェクトは一連の直線エッジで表されます。同様に、円柱の壁やドームのような曲面は、境界エッジが非表示になっている一連の平面で構成されています。
 
-By default, FormIt uses 40 edges, or facets, to represent a circle, and 24 facets to represent a 3D, curved object like a cylinder. For more complex surfaces like a dome, a value of 24 sets the perimeter faceting count, and also impacts how densely faceted the rest of the shape is.
+既定では、FormIt は 40 個のエッジ\(ファセット\)を使用して円を表し、24 個のファセットを使用して円柱のような 3D の曲面オブジェクトを表します。ドームなどの複雑な表面の場合、24 という値は周囲の切り子面の数を設定し、その形の残りの部分の切り子面密度にも影響します。
 
-In FormIt for Windows v18 and newer, the curve and surface faceting values are customizable:
+FormIt for Windows v18 以降では、曲面とサーフェスの切り子面の値をカスタマイズできます。
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](../.gitbook/assets/faceting.png)
+![](<../.gitbook/assets/faceting (1).png>)
 
 **Curve Faceting Quality**
 
-Changing the Curve Faceting Quality will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle or a quarter-circle arc with 16 facets.
+曲線の切り子面品質を変更すると、FormIt で新しい円や円弧を描画するときや、プリミティブ形状を配置するときに使用される切り子面の数に影響します。たとえば、これを 64 に設定すると、64 辺の完全な円または 16 の切り子面の四半円円弧が作成されます。
 
-This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry from Dynamo. You can set this value for new sketches, or just the current sketch.
+この値は、SAT ファイルから読み込んだ円や円弧の品質や、Dynamo からジオメトリをベイク処理する際の品質にも影響します。この値は、新しいスケッチまたは現在のスケッチに対して設定できます。
 
-For existing curves, you can also use the Rebuild Curve plugin to retroactively rebuild an **existing** arc or circle with a new faceting count:
+既存の曲面の場合は、Rebuild Curve プラグインを使用して、新しい切り子面の数を持つ**既存**の円弧または円を遡及的に再構築することもできます。
 
-![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
-![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
+![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
 **Surface Faceting Quality**
 
-Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo.
+このグローバル設定を変更すると、SAT ファイルから読み込んだ 3D 曲面サーフェスや、Dynamo からベイク処理した 3D 曲面サーフェスの品質に影響します。
 
-For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases. Once you've got a result that's high quality, you can [convert it into a Mesh](meshes.md) to improve performance.
+たとえば、これを 64 に設定して Dynamo から球をベイク処理すると、球の赤道の周囲に 64 面、さらに球の両極に向かう各リングに 64 の切り子面が使用されます。場合によっては FormIt のパフォーマンスに影響を与えることがあるため、高い値を使用する場合は注意が必要です。高品質な結果が得られたら、[メッシュに変換](meshes.md)してパフォーマンスを向上させることができます。
 
-When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
+Dynamo を使用して作業している場合は、切り子面品質を修正して[プロパティ]パレットのグラフの実行ボタンをクリックするだけで、パラメータを変更しなくても新しい切り子面の数を利用できます。
 
-![](<../.gitbook/assets/faceting\_column (1).gif>)
+![](../.gitbook/assets/faceting\_column.gif)
 
-As with curves, you can set the surface faceting quality for new sketches, or for the current sketch only.
+曲面の場合と同様に、新しいスケッチまたは現在のスケッチに対してのみ、サーフェスの切り子面品質を設定できます。
 
-Note that faceting values are currently limited to multiples of 4, so when entering numbers manually, FormIt will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+切り子面の値は現在のところ 4 の倍数に制限されているため、手動で数値を入力すると、最も近い倍数に丸められます。スライダと矢印を使用して、使用できる値を切り替えることができます。
 
-![](<../.gitbook/assets/units-+-precision (1).png>)
+![](../.gitbook/assets/units-+-precision.png)

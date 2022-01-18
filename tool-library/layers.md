@@ -1,27 +1,28 @@
-# Layers
+# レイヤ
 
-Use Layers to control the visibility of FormIt objects.
+レイヤを使用して FormIt オブジェクトの表示をコントロールします。
 
-See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+レイヤを使用した表示のコントロールについて詳しくは、[FormIt Primer](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers) のこちらのドキュメントを参照してください。
 
-## Creating and Naming Layers
+## レイヤを作成して名前を付ける
 
-In the Layers panel, you can create and name your Layers by clicking the "**+**" icon.
+レイヤを作成して名前を付けるには、[レイヤ]パネルで**[+]**アイコンをクリックします。
 
-![](<../.gitbook/assets/layer-locking-image (1).jpg>)
+![](../.gitbook/assets/layer-locking-image.jpg)
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible but not selectable or editable.
+名前をダブルクリックしてレイヤの名前を変更したり、左側のチェックボックスを使用してそのレイヤのオブジェクトの表示/非表示を切り替えることができます。右側のチェックボックスは、レイヤのロック/ロック解除に使用します。ロックされたレイヤは表示されたままですが、選択や編集はできません。
 
-## Managing Objects on Layers
+## レイヤ上のオブジェクトを管理する
 
-Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on.
+キャンバス内でオブジェクトを選択し、[レイヤ]パネルの上部にあるドロップダウンを使用して、選択したオブジェクトを配置する先のレイヤを指定します。
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt does not have the concept of a "default" or "working layer." All new geometry will be created on "No Layer" and you'll need to reassign objects to Layers after they're generated.
+FormIt には、「既定レイヤ」や「作業レイヤ」という概念がありません。新しく作成されるすべてのジオメトリは「レイヤなし」となるため、生成した後でオブジェクトをレイヤに再割り当てする必要があります。
 
-You can right-click a Layer and choose "Select All Objects On Layer" to select all the geometry currently assigned to this Layer.
+レイヤを右クリックして[レイヤ上のすべてを選択]を選択すると、このレイヤに現在割り当てられているすべてのジオメトリを選択できます。
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-You can also reorder the Layers in the panel by dragging and dropping them to a new position. Note that this has no impact on geometry visibility - this is purely an organizational tool in the panel.
+パネル内のレイヤをドラッグして新しい位置に動かすと、レイヤの順序を変更できます。ただし、この操作はジオメトリの表示には影響しません。パネル内が整理されるだけです。
+

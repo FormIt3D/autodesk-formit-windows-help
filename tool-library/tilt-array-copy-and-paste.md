@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# 面: 傾斜およびファセット/スムーズ化
 
-## Working with Faces: Tilt and Facet/Smooth
+## 面を傾斜およびファセット/スムーズ化する
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+形状をスケッチするか、プリミティブを配置した後、より複雑な設計を作成するには、いくつかのコンテキスト ツールを使用してジオメトリを修正します。これらの操作では、傾斜ツール、配列ツール、コピーと貼り付けツールを使用します。
 
-### Tilt Face
+### 面を傾斜する
 
-To **tilt a face:**
+**面を傾斜**するには、次の操作を行います。
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. 面を選択して右クリックし、コンテキスト メニューを表示します。
+2. コンテキスト メニューから**[面を傾斜]**アイコンを選択します。
+3. 線分を描画して傾斜軸を定義します。
+4. 3 つ目の点をクリックして、傾斜操作を開始します。
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### 面をファセットまたはスムーズ化する
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+面にカーソルを合わせると点線が表示される場合は、その面が歪んでいるため複数の小さな面で構成されています。**点線をモデルのエッジに変換**するには、次の操作を行います。
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. 変更する面またはオブジェクトを選択し、右クリックしてコンテキスト メニューを表示します。
+2. コンテキスト メニューから**[面をスムーズ ファセット]**ツールを選択します。
+3. 直前まで面がスムーズだった場所に、エッジが自動的に追加されます。
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+このコマンドで逆の操作も行うことができます。つまり、切り子面となっている面を選択してコンテキスト メニューから**[面をスムーズ ファセット]**ツールを選択すると、エッジを非表示にして面をスムーズにすることができます。
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

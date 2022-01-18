@@ -1,15 +1,16 @@
-# Work Planes
+# 作業面
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+メイン スケッチのワールド軸、またはグループのローカル軸を変更する際、作業面は X 軸と Y 軸に関連付けられます。**作業面**は、スケッチするための既定の平面として使用される、仮想 2 次元サーフェスです。この作業面は無限に広がり、面に隠れる要素にスナップすることなくスケッチできるサーフェスが提供されます。
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+地盤面を編集する方法については、「[表示スタイル](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## 作業面を変更する
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+スケッチ内の別のオブジェクトの平面まで[ワールド軸](world-axes.md)を回転させます。 これにより、アクティブな作業面がこの面に合わせて配置されます。これで、要素をスケッチして配置し、既定の地盤面ではなく、新しい XY 平面を基準に要素を修正することができます。回転させてグリッド(作業面)の後ろ側(下側)を表示し、面に隠れる要素の推定配置点にスナップできます。
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style > Environment > **Display Grid (DG).**
+作業面ベースのスケッチでは、グリッド線の表示/非表示を切り替えることができます。この設定は、[表示スタイル] &gt; [基本設定] &gt; **[グリッドを表示\(DG\)]**
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings > **Snap to Grid (SG).**
+また、描画時にグリッドにスナップするかどうかをコントロールすることもできます。この設定のオン/オフは、[設定] &gt; **[グリッドにスナップ\(SG\)]**
 
 ![](../.gitbook/assets/work-plane.gif)
+

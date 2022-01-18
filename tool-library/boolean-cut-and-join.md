@@ -1,27 +1,28 @@
-# Boolean Cut
+# ブール演算による切り取り
 
-You can cut one object or group from another with the Cut Tool. There are two ways to access the Cut tool:
+[切り取り]ツールを使用して、1 つのオブジェクトまたはグループを別のオブジェクトまたはグループから切り取ることができます。[切り取り]ツールにアクセスするには、次の 2 つの方法があります。
 
-## Run the Cut command first
+## 最初に[切り取り]コマンドを実行する場合
 
-Keyboard: C G
+キーボード ショートカット: [C]、[G]
 
-![](../.gitbook/assets/cut\_tool.png)
+![](../.gitbook/assets/cut_tool.png)
 
-Run the Cut command and follow the mode instruction in the upper left of the screen
+[切り取り]コマンドを実行し、画面の左上に表示されるモードの指示に従います。
 
-Single-click to select an object to cut into:
+切り取られる側のオブジェクトをシングルクリックで選択します。
 
-![](../.gitbook/assets/boolean\_cut.png)
+![](../.gitbook/assets/boolean_cut.png)
 
-Single click to select an object(s) or group(s) to be removed:
+切り取るオブジェクトまたはグループをシングルクリックで選択します。
 
-![](../.gitbook/assets/boolean\_cut2.png)
+![](../.gitbook/assets/boolean_cut2.png)
 
-Click the checkmark to finish the command. The object that was removed remains in the scene. You can delete it or use [Layers ](layers.md)to hide it.
+チェックマークをクリックしてコマンドを終了します。削除されたオブジェクトはシーンに残ります。このオブジェクトを削除したり、[レイヤ](layers.md)を使用して非表示にすることができます。
 
-## Select objects first
+## 最初にオブジェクトを選択する場合
 
-1. Double-click to select the object to be cut into. (Single-click for a Group)
-2. Holding the **CTRL key** double click an overlapping object(s) to cut out.
-3. Right-click on the object that will be cut, and choose the [**Cut tool**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) in the Context Menu. ![](<../.gitbook/assets/cut tool.png>)
+1. 切り取られる側のオブジェクトをダブルクリックで選択します。\(グループの場合はシングルクリック\)
+2. **[Ctrl]キー**を押しながら、切り取る側の重なっているオブジェクトをダブルクリックします。
+3. 切り取られる側のオブジェクトを右クリックし、コンテキスト メニューで[**[切り取り]ツール**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)を選択します。![](../.gitbook/assets/booleancut.png)
+

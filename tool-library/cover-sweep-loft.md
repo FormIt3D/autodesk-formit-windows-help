@@ -1,42 +1,43 @@
-# Cover, Sweep, Loft
+# かぶり、スイープ、ロフト
 
-Enclose open edges, make geometry changes along a path of edges, and connect multiple profiles or edges.
+この演習では、開いているエッジを囲む方法、エッジのパスに沿ってジオメトリを変更する方法、複数のプロファイルやエッジを接続する方法について説明します。
 
-## To close a series of faces
+## 一連の面を閉じるには
 
-1. From the **Advanced Geometry Tools** menu in the action bar, click the **Cover** tool.  ![](<../.gitbook/assets/cover-tool (1).png>)
-2.  Click the edges of the object you want to cover.
+1. アクション バーの**[高度なジオメトリ ツール]**メニューから、**[かぶり]**ツールをクリックします。![](../.gitbook/assets/cover-tool.png)
+2. 囲むオブジェクトのエッジをクリックします。
 
-    ![](../.gitbook/assets/cover\_tool1.png)
+![](../.gitbook/assets/cover_tool1.png)
 
-    1.  Click **Finish**   &#x20;
+3. **[終了]**をクリックします。    
+   ![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)![](../.gitbook/assets/cover-finish.PNG)
 
-        ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1).png>)![](../.gitbook/assets/cover-finish.PNG)
+## パスに沿ってジオメトリをスイープするには
 
-## To sweep geometry along a path
+1. 線分を使用して、切り取るオブジェクトの面をマークします。![](../.gitbook/assets/sweep.png)
+2. [スイープ]ツール アイコンをクリックします。![](../.gitbook/assets/sweep-tool.png)
+3. 上の手順でマークした面を選択します。
 
-1. Use a line to mark the face of an object that you want to cut. ![](../.gitbook/assets/sweep.png)
-2. Click the sweep tool icon.   ![](<../.gitbook/assets/sweep-tool (1).png>)
-3.  Select the face you marked earlier.
+        ![](../.gitbook/assets/sweep2.png) 
 
-    ```
-     ![](../.gitbook/assets/sweep2.png) 
-    ```
+4. 切り取るエッジを選択します。
 
-    1.  Select the edge you want to cut.
+   ![](../.gitbook/assets/sweep3.png)
 
-        ![](../.gitbook/assets/sweep3.png)
-    2. Click the **Finish** icon. The original object is modified along the sweep path. ![](../.gitbook/assets/sweep4.png)![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1).png>)
+5. **[終了]**アイコンをクリックします。元のオブジェクトが、スイープ パスに沿って変更されます。 ![](../.gitbook/assets/sweep4.png)![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
 
-## To loft multiple profiles or edges
+## 複数のプロファイルまたはエッジをロフトするには
 
-1. From the **Advanced Geometry Tools** menu in the Action bar, click the **Loft** tool.  ![](<../.gitbook/assets/loft-tool (1).png>)
-2.  Select the face or edges you want to loft on the first object.
+1. アクション バーの**[高度なジオメトリ ツール]**メニューから、**[ロフト]**ツールをクリックします。![](../.gitbook/assets/loft-tool.png)
+2. 最初のオブジェクトでロフトする面またはエッジを選択します。
 
-    ![](../.gitbook/assets/loft1.png)
-3.  Select the face or edges you want to loft on the second object. Repeat this step for additional objects.
+   ![](../.gitbook/assets/loft1.png)
 
-    ![](../.gitbook/assets/loft2.png)
-4.  Click the **Finish** icon. ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (2).png>)
+3. 次のオブジェクトでロフトする面またはエッジを選択します。この手順を繰り返してオブジェクトを追加します。
 
-    ![](../.gitbook/assets/loft3.png)
+   ![](../.gitbook/assets/loft2.png)
+
+4. **[終了]**アイコンをクリックします。![](../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low%20%281%29.png)
+
+   ![](../.gitbook/assets/loft3.png)
+

@@ -1,17 +1,22 @@
-# Conceptual Solid Modeling
+# コンセプト ソリッド モデリング
 
-Quickly and easily create conceptual geometry to work through design options.
+コンセプト ジオメトリをすばやく簡単に作成して、各種の設計オプションを試してみることができます。
 
-FormIt's solid modeling kernel enables incredible, time-saving workflows to make modeling easy and efficient.
+FormIt のソリッド モデリング カーネルは時間を節約できる優れたワークフローを可能にし、簡単かつ効率的なモデリングを実現します。
 
-**Learn why solid modeling is advantageous, and how to ensure your model is solid so it can be used in downstream applications, like Revit:**
+**ソリッド モデリングに利点がある理由と、モデルをソリッドにして Revit などの次の段階のアプリケーションで使用できるようにする方法について説明します。**
 
 {% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
 
-**Once your model is solid, you can take advantage of solid extrusion techniques to quickly clean up geometry and maintain organized models:**
+**モデルをソリッドにすると、ソリッドの押し出しを利用してジオメトリをすばやくクリーン アップし、モデルを常に整理できます。**
 
 {% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
 
-**Additionally, use Smart Selection tools to quickly select similar geometry and save clicks:**
+**さらに、スマート選択ツールを使用して類似するジオメトリをすばやく選択し、クリックした内容を保存します。**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
+
+
+
+
+

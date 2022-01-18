@@ -1,13 +1,16 @@
-# Polygon
+# ポリゴン
 
-Use the Polygon tool to draw a regular n-sided polygon in space or on another object.
+[ポリゴン]ツールでは、スペース内または別のオブジェクト上に正 N 角形のポリゴンを描画します。
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](../.gitbook/assets/image%20%289%29.png)
 
-Start the polygon and click to choose the center point. Specify the radius by drawing the second point, typing in a dimension, or hitting **Tab** to bring up **Tool Options**.
+[ポリゴン]ツールを開始し、中心点をクリックして選択します。半径を指定するには、2 つ目の点を描画するか、寸法を入力したり**[Tab]**を押すと表示される**[ツール オプション]**ダイアログ ボックスを使用します。
 
-![](<../.gitbook/assets/image (7).png>)
+![](../.gitbook/assets/image%20%287%29.png)
 
-**Tool Options** allows you to change the number of sides and specify a particular radius.
+**[ツール オプション]**ダイアログ ボックスでは、辺の数を変更したり、半径の値を指定できます。
 
 ![](../.gitbook/assets/image.png)
+
+
+

@@ -1,21 +1,12 @@
 # Revit
 
-FormIt has been designed to work well with Revit. To learn more about the basics, refer to [**this section in the FormIt Primer tutorial**](revit.md).
+FormIt は Revit と連動するように設計されています。基本的な機能の詳細については、FormIt Primer の[**こちらのチュートリアル**]()を参照してください。
 
-## Working with data from Revit
+## Revit のデータを使用する
 
-You can send geometry from Revit to FormIt. This is useful for doing quick study models and then sending geometry back to Revit.
+Revit から FormIt にジオメトリを送信できます。これは、モデルをすばやく解析してジオメトリを Revit に戻す場合などに便利です。ビデオによるデモンストレーションをご覧ください。
 
-Import a FormIt object to Revit by using the Import CAD button on the Insert tab in Revit and selecting an .axm file. Make edits, and then use the 3D Sketch button on the Massing & Site tab to open the model in FormIt. This is available from 3D views only.
+## Revit コンテンツを作成する
 
-Choose to bring all visible objects or just selected objects into FormIt. Choosing to bring only selected objects is helpful if the Revit model is large and the design will reference only a portion of the Revit model.
+FormIt を使用してコンテンツを作成し、Revit ファミリで使用できます。ビデオによるデモンストレーションをご覧ください。
 
-Model in FormIt by adding forms or applying levels, materials, content, and more.
-
-You can choose to include or exclude objects to send to Revit in the Layers palette. When you’re ready to send your updates back to Revit, you can do so easily with the Send to Revit button.
-
-The first time you do this, you’ll be prompted to save the sketch. This creates a link between FormIt and Revit, and you’ll be able to send subsequent edits to Revit by either resaving the file or using the Send to Revit button.
-
-![](<../.gitbook/assets/formit revit.jpg>)
-
-Here is a [video demonstration](https://youtu.be/yFTMI3V-v1Y).

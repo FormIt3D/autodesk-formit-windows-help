@@ -1,108 +1,99 @@
-# Setting Location
+# 場所を設定する
 
-Setting your your project's location in the world it is important for the accuracy of your model and downstream analyses, including:
+モデルと下流工程での解析を正確に実行するには、プロジェクトの場所を地球上の実際の地点に設定することが重要になります。
 
-* Location is used to import a satellite image which can be used to trace an existing site or building.
-* Location is used to import 3D terrain, which can be used to reference topological data for a site.
-* Location is used for accurate positioning of the sun in the sky, affecting the calculation of shadows.
-* Location is used for Solar Analysis and Energy Analysis to provide accurate analytical calculations.
+* 場所は、既存の敷地または建物のトレースに使用する衛星画像を読み込む際に使用します。
+* 場所は、敷地のトポロジ データの参照に使用する 3D 地形を読み込む際に使用します。
+* 場所は、影の計算に影響を与える、太陽の正確な位置付けのために使用されます。
+* 場所は、正確な解析計算を行うために、日照解析とエネルギー解析で使用されます。
 
-You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services.
+[場所を設定]ダイアログとそのサービスにアクセスするには、Autodesk アカウントでサインインする必要があります。
 
-### Getting Started With Location
+### 場所ツールを使用する
 
-* Launch the **Set Location** dialog from the **Location** tool in the toolbar, or with the keyboard shortcut SL.
+* ツールバーの**[場所]**ツール、またはキーボード ショートカットの SL を使用して、**[場所を設定]**ダイアログを開きます。
 
-![](<../.gitbook/assets/location-toolbar (1).png>)
+![](../.gitbook/assets/location-toolbar.png)
 
-* Begin by typing the location of your project into the search box in the upper left hand corner of the _Set Location_ window.&#x20;
+* まず、_[場所を設定]_ウィンドウの左上コーナーにある検索ボックスでプロジェクトの場所を入力します。
 
-![](<../.gitbook/assets/location-step-1 (1).png>)
+![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Select one of the auto-populating location options, or hit Enter to choose the first one
-* You'll zoom in to the location you searched for automatically
+* 自動入力されたオプションの 1 つを選択するか、[Enter]を押して最初のオプションを選択します。
+* 自動的に検索した場所に拡大ズームします。
 
-### Set Location Only vs. Import Satellite Image and Terrain
+### 場所のみを設定する場合と衛星画像と地形を読み込む場合
 
-Once you've searched for a location, you can choose one of two options:
+場所を検索したら、次の 2 つのオプションのいずれかを選択できます。
 
-* **Set Location Only** will set the location in the file without importing satellite imagery.
-* **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure.
+* **[場所のみを設定]**を選択すると、衛星画像を読み込まずに、ファイル内の場所が設定されます。
+* **[衛星画像と地形を読み込む]**を使用すると場所が設定され、設定可能なズーム レベルと範囲を使用して衛星画像と地形も読み込まれます。
 
-### Importing Satellite Imagery
+### 衛星画像を読み込む
 
-* Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window.
-* A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery.
+* **[場所を設定]**ウィンドウの右上にある**[衛星画像と地形を読み込む]**をクリックします。
+* 衛星画像のプレビューがウィンドウの中央に表示され、画像に対する FormIt の原点も表示されます。
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Drag the satellite imagery within the square to adjust its position
-* Once the square area encapsulates the imagery you want, click **Finish Importing**
-* The image will be imported to scale, with true north facing up, centered at the FormIt canvas origin. You can change the transparency and Z-ordering of the imported image by double-clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md).&#x20;
+* 場所を調整するには、衛星画像を正方形内にドラッグします。
+* 正方形領域に目的のイメージがおさまったら、**[読み込みを終了]**をクリックします。
+* 画像は、FormIt キャンバスの原点を中心として、真北を上にして尺度変更した状態で読み込まれます。読み込んだ画像の透明性と Z オーダーを変更するには、画像をダブルクリックして[**[プロパティ]パレット**](../formit-introduction/tool-bars.md)に移動します。
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Updating Satellite Imagery
+### 衛星画像を更新する
 
-After importing satellite imagery the first time, you can use the Set Location window to adjust the zoom level or extents of the satellite imagery.
+衛星画像を初めて読み込んだ後、[場所を設定]ウィンドウを使用して、衛星画像のズーム レベルまたは範囲を調整できます。
 
-* Start the **Set Location** window again by accessing it from the toolbar, as outlined above.
-* Click **Import Satellite Image and Terrain.**
-* You'll see the current satellite image zoom level and extents, as shown in the FormIt canvas
-* Simply adjust the position or zoom, and click **Finish Importing** as you did before
-* When the image is re-imported into the canvas, it will move to the correct location relative to the original image position (and may no longer be centered at the origin):
+* 前述のように、ツールバーからアクセスして、**[場所を設定]**ウィンドウを再度起動します。
+* **[衛星画像と地形を読み込む]をクリックします。**
+* FormIt キャンバスに表示されるように、現在の衛星画像のズーム レベルと範囲が表示されます。
+* 場所またはズームを調整し、先ほどと同様に**[読み込みを終了]**をクリックします。
+* 画像をキャンバスに再読み込みすると、元の画像の位置に対して相対的に正しい場所に移動します\(原点を中心に配置することはできません\)。
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importing Terrain
+### 地形を読み込む
 
-New in FormIt 2021.3, when you use the **Set Location** dialog to import satellite imagery, you'll also get terrain.
+FormIt 2021.3 の新機能では、**[場所を設定]**ダイアログを使用して衛星画像を読み込むと、地形も得られます。
 
-![](../.gitbook/assets/terrain-button\_original.png)
+![](../.gitbook/assets/terrain-button_original.png)
 
-When terrain is imported, it's placed on a layer, which is off by default (in case you've started modeling, your model may be covered by the terrain).
+地形が読み込まれると、既定ではオフになっているレイヤに配置されます\(モデリングを開始している場合は、モデルが地形に覆われることがあります\)。
 
-When you're ready to view terrain, toggle the Terrain layer by checking the box:
+地形を表示する準備ができたら、チェックボックスをオンにして Terrain レイヤに切り替えます。
 
-![](<../.gitbook/assets/terrain-layer (1) (1).png>)
+![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
-![](../.gitbook/assets/terrain\_solid.png)
+![](../.gitbook/assets/terrain_solid.png)
 
-### Working with Terrain
+### 地形を使用する
 
-Terrain will be placed in a FormIt Group. Double-click the Group to edit it.
+地形は FormIt グループに配置されます。グループを編集するにはダブルクリックします。
 
-Inside, you'll find two Meshes: One for the sides and bottom, and one for the top.
+内部には、2 つのメッシュがあります。1 つは側面と底面、もう 1 つは上面です。
 
-If you want to modify the terrain, you'll need to convert the Meshes to a single, solid object:
+地形を修正する場合は、メッシュを単一のソリッド オブジェクトに変換する必要があります。
 
-* Select both Meshes
-* Right click, and choose the Meshes to Objects option, or use shortcut MO
+* 両方のメッシュを選択します。
+* 右クリックして[メッシュをオブジェクトに]オプションを選択するか、ショートカットの MO を使用します。
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-When converting both Meshes to an object at the same time, FormIt can combine them into a solid, manifold object, which can be used for solid operations like Boolean Cut.
+両方のメッシュを同時にオブジェクトに変換する場合、FormIt ではそれらをソリッドの多様体オブジェクトに結合できます。これは、ブール演算カットなどのソリッド操作に使用できます。
 
-From here, you can use a combination of [Top View](orthographic-views.md) and [Orthographic Camera](orthographic-camera.md) to trace your site boundary on a horizontal plane, then extrude that plane into a volume that intersects the terrain. Using a transparent [material](materials.md) helps so you can see the terrain through your cutting solid:
+ここから、[上面ビュー](orthographic-views.md)と[正投影カメラ](orthographic-camera.md)を組み合わせて使用し、水平面の敷地境界をトレースして、その平面を地形と交差する体積に押し出すことができます。透明な[マテリアル](materials.md)を使用すると、切断ソリッドを通して地形を確認できます。
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Use the Cut Geometry tool, and select the terrain as the "Solid to be cut into" and the cutting volume as the "Solid to be removed."
+[ジオメトリを切り取り]ツールを使用して、地形を「切り取るソリッド」として選択し、切り取る体積を「削除するソリッド」として選択します。
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-The result will be the terrain with your cutting solid removed, exposing void where you can draw your new site and foundation.
+これで、切断ソリッドが除去された地形になり、空間が露出して新しい敷地と基礎を作成できるようになります。
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-You can use [layers](layers.md) to hide the cutting solid, or even make copies of the terrain with and without the cut, in case you need to reference the original terrain, or change the cut shape before executing the solid cut operation.
+元の地形を参照する必要がある場合や、ソリッド切り取り操作を実行する前に切り取り形状を変更する必要がある場合は、[レイヤ](layers.md)を使用して、切り取りソリッドを非表示にしたり、切り取りを行った地形、または行っていない地形のコピーを作成することができます。
 
-### Troubleshooting the Set Location Dialog
-
-Setting a location in FormIt requires an internet connection to download satellite and terrain data from Bing Maps.
-
-Additionally, because Set Location dialog is a FormIt plugin under the hood, it requires access to GitHub to function. If you're having issues with the Set Location dialog, check that you have access to [https://github.io](https://github.io):&#x20;
-
-* Go to your web browser.
-* Try navigating to [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)
-* If you don't see some data show up, your network or firewall may be blocking access to GitHub.

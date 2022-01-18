@@ -1,15 +1,16 @@
-# Model Tree
+# モデル ツリー
 
-The Model Tree provides a way to view the topological hierarchy of your FormIt model.
+モデル ツリーには、FormIt モデルのトポロジ階層が表示されます。
 
-Enable the Model Tree by going to the Window menu, and checking the box next to Model Tree.
+[ウィンドウ]メニューにある[モデル ツリー]のチェックボックスをオンにして有効にします。
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-Inside the Model Tree, each Group is identified as a History, since each Group has its own command history, or Undo/Redo stack.
+各グループには、コマンドの履歴、つまり[元に戻す]操作と[やり直し]操作を保管するための専用スタックがあるため、モデル ツリー内で各グループは履歴として表示されます。
 
-Within each History, you'll see a list of nested Groups, instances, or geometric objects like bodies.
+各履歴内に、ボディなどのネストされたグループ、インスタンス、ジオメトリ オブジェクトのリストが表示されます。
 
-You can also view non-geometric attributes (string attributes) attached to FormIt objects using the Model Tree. [You can place string attributes on Groups created by the SendToFormIt node using Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+モデル ツリーを使用して、FormIt オブジェクトにアタッチされているジオメトリ以外のアトリビュート\(文字列アトリビュート\)を表示することもできます。[Dynamo を使用して、SendToFormIt ノードによって作成されたグループに文字列アトリビュートを配置できます](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)。
 
 ![](../.gitbook/assets/model-tree-attribute.png)
+

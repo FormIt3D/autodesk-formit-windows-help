@@ -1,45 +1,48 @@
-# Levels and Area
+# レベルと面積
 
-After creating geometry in FormIt, you can apply Levels to indicate where floor elevations are, and to generate area calculations.
+FormIt でジオメトリを作成した後、レベルを適用して床の高さを指定したり、面積計算を生成することができます。
 
-Take a look at the [FormIt Primer ](../formit-primer/part-i/adding-floors-with-levels.md)to see Levels in action.
+レベルの操作方法について詳しくは、FormIt Primer の[こちら](../formit-primer/part-i/adding-floors-with-levels.md)のページを参照してください。
 
-## Creating and Configuring Levels
+## レベルを作成、設定する
 
-You'll find the Levels panel on the right side of FormIt for Windows:
+FormIt for Windows の右側に[レベル]パレットがあります。
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-### Create and Delete Levels
+#### レベルを作成、削除する
 
-* Create a new Level by clicking the "+" button.
-* Create a series of Levels by clicking the "++" button.
-  * This will allow specifying how many Levels to create, and the vertical distance between them.
-* Select one or more Levels and click "-" to delete them.
+* [+]ボタンをクリックすると、新しいレベルを 1 つ作成できます。
+* [++]ボタンをクリックすると、一連のレベルを作成できます。
+   * ここでは、作成するレベルの数と、レベル間の垂直距離を指定できます。
+* 1 つまたは複数のレベルを選択して[-]をクリックすると、削除できます。
 
-### Rename, Set Elevations, and Renumber Levels
+#### レベルの名前を変更し、高さを設定し、番号を変更する
 
-* Rename a Level by double-clicking on the name, or by right-clicking and choosing "Edit Name".
-* Adjust a Level's elevation by double-clicking on the number, or by right-clicking and choosing "Edit Elevation".
-* Click the Refresh icon at the top to renumber Levels.
-  * This is useful if you've added or removed levels, and the default naming scheme is out of sync (i.e. Level 1, Level 2, Level 5).
-  * This button will ignore any Levels with custom names, but will renumber any Levels with the name following the "Level 1" syntax.
+* レベル名を変更するには、名前をダブルクリックするか、右クリックして[名前を編集]を選択します。
+* レベルの高さを調整するには、数字をダブルクリックするか、右クリックして[高さを編集]を選択します。
+* レベルの番号を変更するには、上部にある[更新]アイコンをクリックします。
+   * これは、レベルを追加または削除した場合など、既定の命名規則が同期していないときに便利です\(レベル 1、レベル 2、レベル 5 など\)。
+   * このボタンはカスタム名を持つレベルを無視しますが、「レベル 1」といった構文の名前のレベル番号は変更されます。
 
-## Applying Levels
+## レベルを適用する
 
-To apply Levels to an object, you'll need to select the object and head over to the Properties panel.
+オブジェクトにレベルを適用するには、オブジェクトを選択して[プロパティ]パレットに移動します。
 
-Note that to apply Levels to an object, the object must be solid, with no back face or watertight issues. [Learn how to check your model for watertight and back face issues](https://formit.autodesk.com/blog/post/repairing-solid-models).
+レベルをオブジェクトに適用するには、オブジェクトが背面や密封性問題のないソリッドである必要があります。モデルの密封性や背面の問題がないかモデルをチェックする方法については[こちら](https://formit.autodesk.com/blog/post/repairing-solid-models)を参照してください。
 
-With a solid object selected in the canvas (in this example, a simple building shell), the Properties panel will show a "Use Levels" checkbox.
+キャンバスでソリッドのオブジェクトが選択されている場合\(この例では、単純な建物シェル\)、[プロパティ]パレットに[レベルを使用]チェックボックスが表示されます。
 
-* If the FormIt sketch already has Levels defined (see above), then checking this box will use all Levels that would intersect this shape (ignoring any that would be too high or too low).
-* If the FormIt sketch does not have Levels already, checking this box will create enough default Levels.(12' floor-to-floor height) to intersect the entire shape, and will automatically apply those Levels to this object.
+* FormIt スケッチに既にレベルが定義されている場合\(上記を参照\)、このチェックボックスをオンにすると、この形状と交差するすべてのレベルが使用されます\(高すぎたり低すぎたりするレベルは無視されます\)。
+* FormIt スケッチにレベルがまだ存在しない場合は、このチェックボックスをオンにすると、十分な既定のレベルが作成されます。\(床から床の高さ 12'\)がシェイプ全体と交差し、それらのレベルをこのオブジェクトに自動的に適用します。
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Levels + Revit
+## レベル + Revit
 
-When Levels are applied to FormIt geometry, those Levels will be sent to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit).
+レベルが FormIt ジオメトリに適用されると、[FormIt アドイン](https://formit.autodesk.com/page/formit-revit)を使用するときにそれらのレベルが Revit に送信されます。
 
-In Revit, you can use the FormIt levels to create Mass floors, Floor by Face, and floor plans associated with the FormIt Levels.
+Revit では、FormIt レベルを使用して、FormIt レベルに関連付けられたマス床、床\(面\)、平面図を作成できます。
+
+
+

@@ -1,6 +1,7 @@
-# Placing Primitives
+# プリミティブを配置する
 
-1. In the [Action Toolbar](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md) click to open the **Primitives button** and [select](select-edge-face-or-object.md) the cube.   ![](<../.gitbook/assets/primitive-cube (1).png>)&#x20;
-2. Then drag and **click to place** the cube.  ![](<../.gitbook/assets/image-2- (1).png>)  &#x20;
-3. While dragging the cube it will be shown with default dimensions. You can change those dimensions **while dragging** by hitting the **Tab** key. This will bring up a **Tool Options** dialog where the dimensions can be edited. ![](<../.gitbook/assets/image (1).png>) &#x20;
-4. After entering new values and hitting **OK**, the cube will be displayed with the new dimensions.
+1. [標準ツールバー](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md)で**[プリミティブ]ボタン**をクリックして開き、立方体を[選択](select-edge-face-or-object.md)します。![](../.gitbook/assets/primitive-cube.png)
+2. 選択した立方体をドラッグし、適切な位置で**クリックして配置**します。![](../.gitbook/assets/image-2-%20%281%29.png)
+3. ドラッグしている間、立方体は既定の寸法で表示されます。**ドラッグ中**に寸法を変更するには、**[Tab]**キーを押します。自動的に表示される**[ツール オプション]**ダイアログで、寸法を編集できます。![](../.gitbook/assets/image%20%281%29.png)
+4. 新しい値を入力して**[OK]**をクリックすると、新しい寸法の立方体が表示されます。
+

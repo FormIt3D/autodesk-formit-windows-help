@@ -1,3 +1,4 @@
-# Shell
+# シェル
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+ソリッド オブジェクトから、指定した幅の「シェル」を作成できます。シェルは、マス モデルから壁をすばやく作成する場合に便利です。
+

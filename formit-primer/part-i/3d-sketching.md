@@ -1,68 +1,69 @@
-# 1.3 - 3D Sketch and Drag Face
+# 1.3 - 3D スケッチと面のドラッグ
 
-_We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at its core consists of drawing lines to create faces and then dragging those faces to create volumes._
+_これで、ファンズワース邸を描く準備ができました。FormIt の中核となる 3D モデリングでは、線分を描いて面を作成し、それらの面をドラッグして立体を作成します。_
 
-‌ _If you did not complete the last section, download and open the_ _**1.3 - 3D Sketch and Drag Face.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_直前のセクションを完了していない場合は、_ _**1.3 - 3D Sketch and Drag Face.axm**_ _ファイルを_ _**FormIt Primer Part 1 Datasets**からダウンロードして開きます。_
 
-## **Draw Faces with Lines**
+## **線分を使用して面を描画する**
 
-1 – To facilitate the modeling process, you can use the **Floating Navigation Toolbar** to switch between different views modes. For this exercise, we recommend using the **Perspective (VP)** and **3D View (V3).**
+1 - モデリング プロセスを容易にするために、**浮動ナビゲーション ツールバー**を使用して異なるビュー モードに切り替えることができます。この演習では、**パース\(VP\)**と **3D ビュー\(V3\)を使用することをお勧めします。**
 
-![](<../../.gitbook/assets/0 (4).png>)
+![](../../.gitbook/assets/0%20%284%29.png)
 
-2 – Newly created geometry will automatically join or “stick to” any existing ungrouped geometry it touches. To avoid this, you will typically want to organize your geometry with groups. To create a group from the floor plan, select the rectangle by double-clicking it, then right-click to access the **Context Menu** and select **Group (G).**
+2 - 新しく作成されたジオメトリは、グループ化されていない既存の接触するジオメトリと自動的に結合または「固定」されます。これを回避するには、通常、ジオメトリをグループで整理します。平面図からグループを作成するには、長方形をダブルクリックして選択し、右クリックの**コンテキスト メニュー**から**[グループ\(G\)]**
 
-![](<../../.gitbook/assets/1 (2).png>)
+![](../../.gitbook/assets/1%20%282%29.png)
 
-3 – When tracing the plan we don’t want the lines to snap to the grid, so click on **Settings** in the **Main Menu** and unchecking **Snap to Grid (SG).**
+3 - 平面図をトレースするときに線分をグリッドにスナップしないようにするため、**[メイン メニュー]**の**[設定]**をクリックし、**[グリッドにスナップ\(SG\)]のチェックを外します。**
 
-![](<../../.gitbook/assets/2 (12).png>)
+![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 – To start drawing, click the **Create Sketch** (Pencil) icon in the **Standard Toolbar** and choose the **Line tool (L)**.
+4 - 描画を開始するには、**[標準ツールバー]**の**[スケッチを作成]** (鉛筆のアイコン)をクリックし、**[線分\(L\)]**ツールを選択します。
 
-![](<../../.gitbook/assets/3 (17).png>)
+![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 - Let's start by creating a rectangle on the imported image. To create the first line:
+5 -まず、読み込まれたイメージに長方形を作成します。最初の線分を作成するには、次のように操作します。
 
-1. While in the **Line tool**, click near **the upper left corner** of the upper terrace in the imported sketch.
-2. Move your mouse along the red axis that appears.
-3. Click the **Tab** key to input the dimension: **77'-4 1\8".**
+1. **[線分]ツール**で、読み込まれたスケッチの上部テラスの**左上コーナー**付近をクリックします。
+2. 表示される赤い軸に沿ってマウスを動かします。
+3. **[Tab]**キーをクリックして、寸法に **77'-4 1/8" と入力します。**
 
-![](<../../.gitbook/assets/4 (16).png>)
+![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Note:** Anytime a temporary dimension appears while sketching, you can either press_ _**Tab** or just start typing a number_ _to open the_ _**Dimension Dialog**._
+_**注:** スケッチ中に仮寸法が表示された場合は、_ _**[Tab]**キーを押すか、単に数値_ _を入力すると_ _**[寸法]ダイアログ**を開くことができます。_
 
-6 – To create the second line, move your mouse down along the green axis and enter **28’-8**” for the upper terrace’s short edge.
+6 - 2 番目の線分を作成するには、緑色の軸に沿ってマウスを下に移動させ、上部テラスの短いエッジに **28'-8"** と入力します。
 
-7 - To define the rectangle’s third edge and finish:
+7 - 長方形の 3 番目のエッジを定義し、仕上げるには、次のように操作します。
 
-1. Move your mouse along the red axis and hold down the **Shift** key. The red axis line will thicken to indicate that the line is locked to this axis.
-2. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the endpoint.
-3. The third point will automatically be set, parallel to the red - axis defined by (A) - and the green axis - defined by (B).
-4. Finally, to finish enclosing the rectangle, release the **Shift** key and click back on the first point you drew. Press **Esc** twice to exit the sketch tool.
+1. 赤い軸に沿ってマウスを動かし、**[Shift]** キーを押したままにします。赤い軸線は太くなり、その線がこの軸にロックされていることを示します。
+2. **[Shift]**キーを押しながら、最初に描いたポイントにマウスを移動します。クリックして終点を確定します。
+3. 3 番目のポイントは自動的に設定され、\(A\)で定義された赤い軸と\(B\)で定義された緑の軸に平行になります。
+4. 最後に、**[Shift]**キーを放して長方形の囲みを完成させ、最初に描いたポイントに戻ってクリックします。**[Esc]**キーを 2 回押して、スケッチ ツールを終了します。
 
-_**Note:**_ _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off the world axes, a purple axis line will allow you to stay 90 degrees relative to your off-axis line._
+_**注:**_ _赤と緑の軸は、グリッドに対して平行および垂直を維持します。ワールド軸から離れた線分を描く場合は、紫色の軸線によって軸から外れた線分に対して 90 度を維持することができます。_
 
-![](<../../.gitbook/assets/5 (2) (1).png>)
+![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Drag the Face to Create Volume**
+## **面をドラッグして立体にする**
 
-1 - Single-click inside the outline you just drew to select the face. You are now automatically in the **Drag Face** tool.
+1 - 先ほど描いたアウトラインの内側をシングルクリックして、面を選択します。これで、**[面をドラッグ]**ツールが自動的に開きます。
 
-2 - Single-click again to start the dragging. Move your mouse upwards (along the positive Z-axis) to extrude a volume in that direction. Start typing **12'-2"**, and a dimension box will appear with this value, then hit **Enter**.
+2 - 再度シングルクリックして、ドラッグを開始します。マウスを正の Z 軸に沿って上に動かし、ボリュームをその方向に押し出します。**12'-2"** と入力すると、この値を持つ寸法ボックスが表示されます。ここで**[Enter]**を押します。
 
-![](<../../.gitbook/assets/6 (3) (1).png>)
+![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Note:**_ _A_ _single-click_ _will select just a single face, whereas a_ _double-click_ _will select all (ungrouped) adjacent edges and faces._
+_**注:**_ _シングル_ _クリックすると_ _単一の面が選択され、_ _ダブルクリック_ _すると \(グループ化されていない\) 隣接するエッジおよび面がすべて選択されます。_
 
-## **3D Sketching with Arc, Spline, and Circle**
+## **円弧、スプライン、円を使用した 3D スケッチ**
 
-_The following exercise is not critical to finishing the house. However, it will allow you to experiment with some of the other 3D Sketching tools available. Click_ _**here**_ _to learn more about 3D sketching with World Axes._
+_次の演習は、家屋の仕上げを行うために必須の演習ではありませんが、利用できるその他の 3D スケッチ ツールの仕組みを理解するのに役立ちます。ワールド軸を使用して 3D スケッチを行う方法については、__**こちら**__を参照してください。_
 
-1 - Select the **Arc by three arc points (A)** tool. Click to define the start, and then the endpoint. The third click defines the arc's radius.
+1 - **[3 円弧点による円弧\(A\)]**ツールを選択します。クリックして始点を定義し、次に終点を定義します。3 回目のクリックで、円弧の半径を定義します。
 
-2 - Select the **Spline (S)** tool. Click to define any number of points to draw a spline.
+2 - **[スプライン\(S\)]**ツールを選択します。クリック操作により、スプラインを描画するための点を必要な数だけ指定できます。
 
-3 - Select the **Circle (C)** tool. Hover and click to define the circle's center point. Click and drag or enter a dimension to define the radius.
+3 - **[円\(C\)]**ツールを選択します。カーソルを合わせてクリックし、円の中心点を定義します。クリックしてドラッグするか、寸法を入力して半径を定義します。
 
-![](<../../.gitbook/assets/7 (7).png>)
+![](../../.gitbook/assets/7%20%287%29.png)
+

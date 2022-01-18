@@ -1,12 +1,13 @@
-# Scale Object
+# オブジェクトをスケールする
 
-You can use the **Scale tool** to adjust the size and orientation of objects.
+**[スケール]ツール**によって、オブジェクトのサイズと向きを調整できます。
 
-1. Select an object you want to adjust.&#x20;
-2. Right-click to launch the **Context Menu**.&#x20;
-3. From the Context Menu, select the **Scale tool**.&#x20;
-4. Use the scroll wheel on your mouse to scale the geometry up or down.
+1. 調整するオブジェクトを選択します。
+2. 右クリックして**コンテキスト メニュー**を起動します。
+3. コンテキスト メニューから**[スケール]ツール**を選択します。
+4. マウスのスクロール ホイールを使用して、ジオメトリの拡大と縮小を行います。
 
 ![](../.gitbook/assets/scale1.png)
 
 ![](../.gitbook/assets/scale2.png)
+
