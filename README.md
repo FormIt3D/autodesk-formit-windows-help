@@ -10,4 +10,3 @@
 
 * Для запуска FormIt для Windows требуется подписка на решение **FormIt Pro**, входящее в [коллекцию Autodesk AEC Collection](https://www.autodesk.ru/collections/architecture-engineering-construction/overview).
 * Кроме того, можно скачать [FormIt для Windows](https://formit.autodesk.com/page/download) и запустить бесплатную 30-дневную пробную версию FormIt Pro.
-
