@@ -10,4 +10,3 @@
 
 * 執行 Windows 版 FormIt 需要 **FormIt Pro** 固定期限的使用授權，這是 [Autodesk 工程建設軟體集](https://www.autodesk.com.tw/collections/architecture-engineering-construction/overview)的一部分。
 * 您也可以下載 [Windows 版 FormIt](https://formit.autodesk.com/page/download)，然後開始免費試用 FormIt Pro 30 天。
-
