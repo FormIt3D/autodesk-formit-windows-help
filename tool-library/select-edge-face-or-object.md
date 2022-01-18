@@ -1,34 +1,35 @@
-# Selection
+# 선택
 
-## Direct Selection
+## 직접 선택
 
-To **select a vertex, edge, or face**, hover over the object, then single-click to select it.
+**정점, 모서리 또는 면을 선택**하려면 객체 위에 마우스 커서를 놓은 다음, 한 번 클릭하여 선택합니다.
 
-![](../.gitbook/assets/direct\_selection1.png)
+![](../.gitbook/assets/direct_selection1.png)
 
-To **select an entire object**, or an object and anything attached to it, double click the object.
+**전체 객체를 선택**하거나 1개의 객체 및 객체에 연결된 항목을 선택하려면 객체를 두 번 클릭합니다.
 
-![](../.gitbook/assets/direct\_selection2.png)
+![](../.gitbook/assets/direct_selection2.png)
 
-You can also hold Ctrl or Shift, and add or remove elements from the current selection.
+또한 Ctrl 또는 Shift 키를 누른 상태에서 현재 선택한 항목에 요소를 추가하거나 해당 항목에서 제거할 수도 있습니다.
 
-## Selection Filtering
+## 선택 필터링
 
-For area or lasso selection (see below), you can filter the selection based on type.
+면적 또는 올가미를 선택\(아래 참고\)하는 경우 유형을 기준으로 선택을 필터링할 수 있습니다.
 
-This is especially useful when you've got a mix of geometry types in close proximity, and you want to use area or lasso selection to cast a wide net, but retrieve only a certain type of geometry, while excluding others.
+이 기능은 매우 근접한 형상 유형이 혼합되어 있고, 면적 또는 올가미 선택을 사용하여 넓은 네트를 투영하고, 특정 유형의 형상만 검색하고 다른 유형은 제외하려고 하는 경우 특히 유용합니다.
 
-![](<../.gitbook/assets/selection-filter (1).png>)
+![](../.gitbook/assets/selection-filter.png)
 
-## Area/Window Selection
+## 면적/창 선택
 
-To **select multiple pieces of geometry simultaneously**, use the window selection tool. Make sure you have nothing selected, then click and drag your mouse from left to right, or from right to left, to capture multiple pieces.
+**여러 형상 조각을 동시에 선택**하려면 창 선택 도구를 사용합니다. 아무것도 선택하지 않았는지 확인한 다음, 클릭한 후 왼쪽에서 오른쪽으로 또는 오른쪽에서 왼쪽으로 마우스를 끌어 여러 조각을 캡처합니다.
 
-![](../.gitbook/assets/direct\_selection3.png)
+![](../.gitbook/assets/direct_selection3.png)
 
-## Lasso Selection
+## 올가미 선택
 
-For **more precise control** when selecting multiple pieces of geometry simultaneously, use the lasso tool. You can select it from the context menu after right-clicking over the empty canvas. Then draw a boundary around your desired selection area.
+여러 형상 조각을 동시에 선택할 때 **더욱 정밀하게 제어**하려면 올가미 도구를 사용합니다. 빈 캔버스를 마우스 오른쪽 버튼으로 클릭한 후 상황에 맞는 메뉴에서 올가미를 선택할 수 있습니다. 그런 다음, 원하는 선택 면적 주위에 경계를 그립니다.
 
-![](../.gitbook/assets/lasso1.png)\
+![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)
+

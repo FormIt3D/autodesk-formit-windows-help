@@ -1,51 +1,54 @@
-# AutoSave
+# 자동 저장
 
-Starting with v17.3, FormIt for Windows includes AutoSave, which makes a backup copy of your FormIt model while you work. This backup file can be used to recover data if FormIt closes with unsaved changes.
+Windows용 FormIt은 17.3 버전부터 작업하는 동안 FormIt 모델의 백업 사본을 만들 수 있는 자동 저장 기능을 제공합니다. 이 백업 파일은 변경사항이 저장되지 않은 상태에서 FormIt이 닫히는 경우 데이터를 복구하는 데 사용할 수 있습니다.
 
-## Toggling AutoSave
+### 자동 저장 전환
 
-Find configuration options for AutoSave in Edit > Preferences > AutoSave.
+편집 &gt; 기본 설정 &gt; 자동 저장에서 자동 저장에 대한 구성 옵션을 찾습니다.
 
-![](<../.gitbook/assets/20190613-autosave (1).png>)
+![](../.gitbook/assets/20190613-autosave.png)
 
-AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box.
+자동 저장은 기본적으로 사용하도록 설정되어 있지만 해당 확인란을 선택 취소하기만 하면 아예 사용하지 않는 것으로 설정할 수 있습니다.
 
-Set the interval (in minutes) at which AutoSave will make a backup copy by entering a value in the "AutoSave interval" number box.
+"자동 저장 간격" 수치 상자에 값을 입력하여 자동 저장 기능으로 백업 사본을 만들 간격\(분\)을 설정합니다.
 
-Note that these preferences are application-level, and will not change when opening different files.
+이러한 기본 설정은 응용프로그램 레벨이며 다른 파일을 열 때 변경되지 않습니다.
 
-## How AutoSave Works
+### 자동 저장 작동 방식
 
-When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
+자동 저장이 사용하도록 설정되어 있는 경우 자동 저장 기능은 현재 FormIt 파일에 저장되지 않은 변경사항이 있는지 여부를 확인합니다. 저장하지 않은 변경사항이 있으면 자동 저장 기능은 지정된 간격으로 파일의 백업 사본을 작성합니다.
 
-Backup files are stored next to the original file, and have an extension of `.axmb`.
+백업 파일은 원본 파일 옆에 저장되며 확장자는 `.axmb`입니다.
 
-For example, if your original FormIt file is stored at `C:/Users/<user>/FormIt/MyProject.axm`, the backup file can be found at `C:/Users/<user>/FormIt/MyProject.axmb`.
+예를 들어, 원본 FormIt 파일이 `C:/Users/<user>/FormIt/MyProject.axm`에 저장되어 있는 경우 백업 파일은 `C:/Users/<user>/FormIt/MyProject.axmb`에서 찾을 수 있습니다.
 
-If you start a new FormIt session without opening an existing file, unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start adding unsaved changes next to the new location, as noted above.
+기존 파일을 열지 않고 새 FormIt 세션을 시작하는 경우 `C:/Users/<user>/Documents/Untitled.axmb`에서 저장되지 않은 변경사항을 찾을 수 있습니다. 새 모델을 다른 위치에 저장하면 백업은 위에 설명된 대로 새 위치 옆에 저장되지 않은 변경사항을 추가하기 시작합니다.
 
-When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
+변경사항을 원본 파일에 저장하면 백업이 현재 원본 파일보다 이전 버전이므로 자동 저장 기능이 백업 파일을 자동으로 삭제합니다. 그러나 저장된 파일을 계속 변경하면 자동 저장을 다시 실행하여 지정된 간격으로 백업을 시작하라는 메시지가 표시됩니다.
 
-If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
+작업 파일에 저장되지 않은 변경사항이 있는 상태에서 FormIt을 닫고 변경사항을 취소하도록 선택하면 자동 저장 백업이 삭제됩니다. 그러나 컴퓨터 종료 또는 응용프로그램 충돌로 인해 FormIt이 강제로 종료되면 자동 저장 백업 파일은 그대로 유지되며 나중에 데이터를 복구하는 데 사용할 수 있습니다.
 
-## Working With AutoSave Enabled
+### 자동 저장이 사용하도록 설정된 상태에서 작업
 
-FormIt minimizes the potential performance impact of AutoSave by executing the backup in a separate process. With small- to medium-sized files, you shouldn't notice when AutoSave backs up. With very large files (\~400MB and above), you might notice just a momentary pause while FormIt copies the entire model and starts backing up in a separate process.
+FormIt은 별도의 프로세스로 백업을 실행하여 자동 저장이 성능에 미치는 잠재적인 영향을 최소화합니다. 파일의 크기가 작거나 중간인 경우 자동 저장 기능이 백업을 수행하는 것을 느끼지 못할 것입니다. 하지만 파일의 크기가 매우 큰(400MB 이상) 경우에는 FormIt에서 전체 모델을 복사하고 별도의 프로세스로 백업을 시작하는 동안 잠시 일시 중지되는 것을 느낄 수도 있습니다.
 
-If you're wondering if AutoSave is currently backing up, you can watch the status bar the bottom left of the application for a brief "AutoSaving..." message:
+자동 저장 기능이 현재 백업을 수행하고 있는지 궁금한 경우 응용프로그램 왼쪽 아래의 상태 막대에서 "자동 저장 중..." 메시지가 잠깐 표시되는 것을 확인할 수 있습니다.
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-If your status bar is disabled, you can enable it at Window > Status Bar or via the shortcut HS.
+상태 막대가 사용 안 함으로 설정되어 있으면 창 &gt; 상태 막대에서 또는 바로 가기 HS를 통해 상태 막대를 사용하도록 설정할 수 있습니다.
 
-## Recovering Data with AutoSave
+### 자동 저장을 사용한 데이터 복구
 
-When opening a FormIt file with a backup available, FormIt will alert you that the backup file exists. As mentioned above, this could be simply due to you closing FormIt without electing to save changes to this project last time it was edited, or due to FormIt unexpectedly closing.
+백업을 사용할 수 있는 FormIt 파일을 열면 FormIt에 백업 파일이 존재한다는 경고가 표시됩니다. 위에서 설명한 것처럼, 이러한 상황이 발생하는 것은 프로젝트를 마지막으로 편집했을 때 변경사항을 저장하지 않고 FormIt을 닫았거나 FormIt이 예기치 않게 닫혔기 때문일 수 있습니다.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Clicking the "Open it?" hyperlink will load the `.axmb` backup file.
+"이 파일을 여시겠습니까?" 하이퍼링크를 클릭하면 `.axmb` 백업 파일이 로드됩니다.
 
-Similarly, you can use File > Open, and manually select the `.axmb` file from the file explorer to open a backup.
+마찬가지로 파일 &gt; 열기를 사용하고, 파일 탐색기에서 `.axmb` 파일을 수동으로 선택하여 백업을 열 수 있습니다.
 
-Once the backup file is open, the next time you save, FormIt will require you to pick a different FormIt file (`.axm`) to overwrite. You cannot overwrite FormIt backup files (`.axmb`).
+백업 파일이 열려 있으면 다음번에 저장할 때 FormIt에서 덮어쓸 다른 FormIt 파일\(`.axm`\)을 선택하도록 요구합니다. FormIt 백업 파일\(`.axmb`\)은 덮어쓸 수 없습니다.
+
+
+

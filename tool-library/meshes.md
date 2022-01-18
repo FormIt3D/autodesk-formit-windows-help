@@ -1,89 +1,90 @@
-# Meshes
+# 메쉬
 
-Starting in v17.0, FormIt offers a new type of geometry: Meshes.
+FormIt은 17.0 버전부터 새로운 유형의 형상인 메쉬를 제공합니다.
 
-Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance.
+메쉬는 표준 FormIt 객체의 단순한 표현으로, 가구와 같은 높은 다각형 형상의 성능이나 사람, 나무, 자동차 및 표지판과 같은 3D 환경을 개선하는 데 매우 유용합니다. 또한 메쉬는 FormIt의 성능에 영향을 줄 수 있는 복잡한 DWG 형상에도 적합합니다.
 
-Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
+객체를 메쉬로 변환할 수 있으며, 데이터 손실 없이 메쉬를 객체로 다시 변환할 수 있습니다. 일부 파일 형식은 OBJ, STL 및 DWG와 같은 메쉬로 자동으로 가져오기됩니다. 아래에서 메쉬의 유형 간 변환과 기타 이점 및 제한 사항에 대해 자세히 알아보십시오.
 
-## Converting Objects to Meshes
+### 객체를 메쉬로 변환
 
-Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
+정점, 모서리, 면 또는 솔리드 본체의 조합은 메쉬로 변환할 수 있습니다.
 
-Simply select Objects, and either use shortcut OM (Objects to Meshes) or right-click and select Objects to Meshes in the Context Menu:
+객체를 선택하고 바로 가기 OM\(객체를 메쉬로\)을 사용하거나 마우스 오른쪽 버튼을 클릭하고 상황에 맞는 메뉴에서 객체를 메쉬로를 선택하면 됩니다.
 
-![](../.gitbook/assets/context-menu\_object-to-mesh.PNG)
+![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Once the Objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+객체가 메쉬로 변환되면 화면 상단에 확인 메시지가 표시됩니다.
 
-![](../.gitbook/assets/success\_object-to-mesh.PNG)
+![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**When converting Objects to Meshes:**
+**객체를 메쉬로 변환할 때:**
 
-* Edges that were smoothed on the Objects will remain smoothed in the resulting Meshes.
-* Material orientations on the Objects will remain unchanged in the resulting Meshes.
-* A Mesh is created for every material applied. For example, if you convert a single cube painted 6 different colors, you'll get 6 different Meshes.
-  * Converting back to an Object will re-seal the individual meshes back into a solid body.
-* Selecting a solid body will convert and replace the entire body with a Mesh, but selecting individual edges or vertices owned by a solid will create a new Mesh on top of the existing geometry, without affecting the original body.
-* Converting a set of edges or vertices will create a single Linemesh (a mesh made of edges) or a single Pointmesh (a mesh made of points), which means you won't be able to select individual edges or vertices once they've been combined into a single Mesh. Convert them back to Objects if you want to adjust the position of a single element.
+* 객체에서 부드럽게 처리된 모서리는 결과 메쉬에서 부드럽게 유지됩니다.
+* 객체의 재료 방향은 결과 메쉬에서 변경되지 않고 유지됩니다.
+* 적용된 모든 재료에 대해 메쉬가 작성됩니다. 예를 들어 6가지 색상으로 페인팅된 단일 정육면체를 변환하면 6개의 서로 다른 메쉬가 작성됩니다.
+   * 객체로 다시 변환하면 개별 메쉬가 솔리드 본체로 다시 밀봉됩니다.
+* 솔리드 본체를 선택하면 전체 본체가 변환되고 메쉬로 대체되지만 솔리드가 소유한 개별 모서리 또는 정점을 선택하면 원래 본체에 영향을 주지 않고 기존 형상 위에 새 메쉬가 작성됩니다.
+* 모서리 또는 정점 세트를 변환하면 단일 Linemesh\(모서리로 구성된 메쉬\) 또는 단일 Pointmesh\(점으로 구성된 메쉬\)가 작성됩니다. 이는 단일 메쉬로 결합되면 개별 모서리나 정점을 선택할 수 없음을 의미합니다. 단일 요소의 위치를 조정하려면 객체로 다시 변환합니다.
 
-**Converting Grouped geometry to Meshes:**
+**그룹화된 형상을 메쉬로 변환:**
 
-* Meshes become even more powerful when you can convert an entire Group and all of its nested Groups into Meshes.
-* Groups and their nested contents can be converted to Groups by using a plugin:
-  * Look for the Plugin Manager icon on the right side of the application:
-    * ![](../.gitbook/assets/plugin-manager\_icon.PNG)&#x20;
-  * Find the "Mesh + Unmesh All" plugin, and click the checkbox to install it:
-    * ![](../.gitbook/assets/plugin-manager\_mesh-unmesh-all.png)&#x20;
-  * The Mesh + Unmesh All plugin will load. Simply select a Group containing Objects you want to convert to Meshes, and click Mesh All.
-    * ![](../.gitbook/assets/mesh-unmesh-all-plugin.png)&#x20;
-  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation:
+* 전체 그룹 및 내포된 모든 그룹을 메쉬로 변환할 수 있을 때 메쉬는 훨씬 강력해집니다.
+* 그룹 및 내포된 컨텐츠는 플러그인을 사용하여 그룹으로 변환할 수 있습니다.
+   * 응용프로그램 오른쪽에서 Plugin Manager 아이콘을 찾습니다.
+      * ![](../.gitbook/assets/plugin-manager_icon.PNG)
+   * "Mesh + Unmesh All" 플러그인을 찾은 후 확인란을 클릭하여 설치합니다.
+      * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
+   * Mesh + Unmesh All 플러그인이 로드됩니다. 메쉬로 변환할 객체가 포함된 그룹을 선택하고 Mesh All을 클릭하면 됩니다.
+      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
+   * 이 플러그인을 사용하여 중첩된 객체 또는 메쉬를 변환할 때 화면 상단에 작업의 영향을 받은 그룹의 수 및 그룹의 인스턴스(instance) 수를 나타내는 업데이트 메시지가 표시됩니다.
 
-![](../.gitbook/assets/success\_mesh-all.png)
+![](../.gitbook/assets/success_mesh-all.PNG)
 
-## Interacting With Meshes
+### 메쉬와 상호 작용
 
-**Because of their lightweight nature, Meshes have certain limitations and behaviors:**
+**메쉬는 경량이므로 다음과 같은 특정 제한 사항 및 동작이 적용됩니다.**
 
-* You won't be able to edit the individual faces, edges, or vertices of a Mesh.
-  * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces (see above).
-* Snapping to Meshes is limited to the faces and vertices of Meshes. For performance, snapping and inferencing will not work with edges of Meshes.
-  * However, DWG files converted to Meshes (a different type of mesh known as a Linemesh) will retain the ability to snap to and inference to Mesh edges.
-* Meshes cannot have Levels applied to them.
-* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not.&#x20;
-  * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
-* Meshes cannot be used in advanced modeling operations, like Solid Join/Cut, 3D Shell, 3D Offset, Fillet, Loft, Sweep, or Cover.
+* 메쉬의 개별 면, 모서리 또는 정점은 편집할 수 없습니다.
+   * 그러나 다양한 재료가 면에 적용되어 작성된 메쉬를 다시 페인트하고 개별 메쉬를 이동할 수 있습니다\(위 참고\).
+* 메쉬로 스냅은 메쉬의 면과 정점으로 제한됩니다. 성능상의 이유로 스냅 및 추정은 메쉬의 모서리에 작동하지 않습니다.
+   * 그러나 메쉬\(Linemesh로 알려진 다른 유형의 메쉬\)로 변환된 DWG 파일은 메쉬 모서리에 스냅하고 추정하는 기능을 유지합니다.
+* 메쉬에는 레벨을 적용할 수 없습니다.
+* 메쉬는 수밀 또는 뒷면 문제를 보고하지 않습니다. 메쉬를 객체로 다시 변환하여 객체가 수밀인지 여부를 확인합니다.
+   * 메쉬로 변환되기 전에 수밀이었던 객체는 객체로 다시 변환될 때 수밀 상태를 유지합니다.
+* 솔리드 결합/절단, 3D 쉘, 3D 간격띄우기, 모깎기, 로프트, 스윕 또는 피복과 같은 고급 모델링 작업에는 메쉬를 사용할 수 없습니다.
 
-Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
+그렇지 않으면 메쉬가 표시되고 다른 FormIt 객체처럼 동작합니다. 즉, 그룹에 배치되고 레이어에 지정되고 장면에 시각화되거나 해석에 사용됩니다.
 
-**You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:**
+**툴팁에서 "메쉬에서"를 보고하거나 특성 패널에서 메쉬를 보고하면 메쉬와 상호 작용하고 있는 것입니다.**
 
-![](../.gitbook/assets/snap\_on-mesh.png)
+![](../.gitbook/assets/snap_on-mesh.PNG)
 
-![](../.gitbook/assets/properties-panel\_mesh.png)
+![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Some file types are automatically imported as Meshes to improve performance:**
+**일부 파일 형식은 성능을 향상하기 위해 자동으로 메쉬로 가져오기됩니다.**
 
-* STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
-* DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
+* 다른 응용프로그램의 점 구름과 같이 조밀한 형상을 포함할 수 있는 STL 및 OBJ 파일은 자동으로 메쉬로 가져오기됩니다.
+* 고품질 곡선에 수백만 개의 작은 모서리 세그먼트를 포함할 수 있는 DWG 파일은 자동으로 메쉬로 가져오기됩니다.
 
-## Converting Meshes Back to Objects
+### 메쉬를 객체로 다시 변환
 
-Simply select Meshes, and either use shortcut MO (Meshes to Objects) or right-click and select Meshes to Objects in the Context Menu:
+메쉬를 선택하고 바로 가기 MO\(메쉬를 객체로\)를 사용하거나 마우스 오른쪽 버튼을 클릭하고 상황에 맞는 메뉴에서 메쉬를 객체로를 선택하면 됩니다.
 
-![](../.gitbook/assets/context-menu\_mesh-to-object.PNG)
+![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+객체가 메쉬로 변환되면 화면 상단에 확인 메시지가 표시됩니다.
 
-![](../.gitbook/assets/success\_mesh-to-object.PNG)
+![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**When converting Meshes back to Objects:**
+**메쉬를 다시 객체로 변환할 때:**
 
-* Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
-* Converting a series of edges (for example from a DWG file) or a series of vertices (for example from a pointcloud) to a Mesh and back will automatically put the unmeshed Objects into a Group.
-  * This prevents the new edges or vertices from merging with other geometry which could have adverse effects and impact performance.
-  * Simply can Ungroup the resulting Group to release the edges and/or vertices.
+* 메쉬로 변환되기 전에 이전에 솔리드/수밀이었던 모든 객체는 객체로 다시 변환될 때 수밀 솔리드에 다시 결합됩니다.
+* 일련의 모서리\(예: DWG 파일에 포함\) 또는 일련의 정점\(예: 점 구름에 포함\)을 메쉬로 변환한 다음 되돌리면 메쉬되지 않은 객체가 그룹에 자동으로 추가됩니다.
+   * 이렇게 하면 새 모서리나 정점이 다른 형상과 병합되지 않으므로 역효과가 나타나고 성능이 영향을 받을 수 있습니다.
+   * 결과 그룹을 해제하여 모서리 및/또는 정점을 해제하기만 하면 됩니다.
 
-**Converting Grouped Meshes back to Objects:**
+**그룹화된 메쉬를 객체로 다시 변환:**
 
-* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects.
+* 위의 지침에 따라 메쉬 + 전체 메쉬 플러그인을 사용하여 그룹 및 내포된 메쉬를 객체로 다시 변환합니다.
+

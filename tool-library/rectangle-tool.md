@@ -1,23 +1,24 @@
-# Rectangle
+# 직사각형
 
-You can use the **Rectangle** tool in the **Create Sketch** toolbar menu to quickly draw a rectangular face. Extrude the face to create a rectangular volume.
+**스케치 작성** 도구막대 메뉴의 **직사각형** 도구를 사용하여 직사각형 면을 빠르게 그릴 수 있습니다. 면을 돌출시켜 직사각형 체적을 작성할 수도 있습니다.
 
-Keyboard shortcut: R
+키보드 바로 가기: R
 
-Use the axes to ensure you're drawing in the correct direction:
+축을 사용하여 올바른 방향으로 그리고 있는지 확인합니다.
 
-You can draw rectangles on the X, Y, or Z-axis. As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
+X, Y 또는 Z축에 직사각형을 그릴 수 있습니다. 그리는 동안 값을 입력하기만 하면 치수 편집 대화상자가 나타나므로 치수를 지정할 수 있습니다. Enter 키를 누르거나 확인을 눌러 치수를 승인합니다.
 
-To draw a rectangle, click to set the first point in your sketch.
+직사각형을 그리려면 스케치의 첫 번째 점을 클릭하여 설정합니다.
 
-Line colors by axis:
+축별 선 색상:
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = 빨간색
+* Y = 녹색
+* Z = 파란색
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-When you finish drawing the rectangle, it becomes a face that can be extruded to create a volume.
+직사각형 그리기를 마치면 직사각형은 돌출되어 체적을 작성할 수 있는 면이 됩니다.
+

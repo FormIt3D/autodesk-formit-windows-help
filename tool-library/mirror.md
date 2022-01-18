@@ -1,14 +1,15 @@
-# Mirror
+# 미러
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+대칭 도구를 사용하여 객체의 대칭 사본을 작성합니다.
 
-To mirror an object:
+객체를 대칭하려면
 
-1. Double-click to select a single object, or single-click to select a group.&#x20;
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**.&#x20;
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. 두 번 클릭하여 단일 객체를 선택하거나 한 번 클릭하여 그룹을 선택합니다.
+2. 마우스 오른쪽 버튼을 클릭하고 상황에 맞는 메뉴에서 대칭 도구를 선택하거나 키보드 바로 가기 **MI**를 입력합니다.
+3. 평면이 표시되고 평면에 객체가 대칭되는 축이 표시됩니다. 평면을 이동하거나 회전하여 대칭 축을 사용자화할 수 있습니다.
+4. 대칭된 객체의 평면 조정을 마치면 선택 항목 외부의 아무 곳이나 클릭합니다.
 
 ![](../.gitbook/assets/mirror.png)
 
 ![](../.gitbook/assets/mirror2.png)
+

@@ -1,29 +1,30 @@
-# Navigating the Scene
+# 장면 탐색
 
-Use your mouse or touchscreen to easily navigate in and around your FormIt models:
+마우스 또는 터치 스크린을 사용하여 FormIt 모델을 손쉽게 탐색하고 둘러볼 수 있습니다.
 
-* **Orbit** by right-clicking and dragging the mouse or swiping across the screen for touch-enabled devices. This will use your cursor point in 3D space about which to orbit the camera.
-  * You can also hold the Shift key to Pan.
-* **Zoom** in and out by scrolling the mouse wheel up and down, or pinching for touch-enabled devices. This will use a point in 3D space at which to zoom to, and will slow down the zoom as you approach a surface or another object.
-  * You can also hold Ctrl to zoom at a constant rate, not affected by proximity to objects.
-* **Pan** by middle-clicking and dragging the mouse, or dragging two fingers for touch-enabled devices.
+* 마우스 오른쪽 버튼을 클릭하고 끌거나 터치 지원 장치의 화면을 스와이프하여 **궤도**를 이동합니다. 그러면 카메라 궤도를 이동하려는 3D 공간에서 커서 점이 사용됩니다.
+   * Shift 키를 누른 상태로 초점이동할 수도 있습니다.
+* 마우스 휠을 위아래로 스크롤하거나 터치 지원 장치에서 손가락을 펼치거나 오므려서 **줌 확대/축소**합니다. 이렇게 하면 줌할 3D 공간에서 점이 사용되고 표면 또는 다른 객체에 접근할 때 줌이 느려집니다.
+   * Ctrl 키를 누른 상태로 일정한 속도로 줌 확대/축소할 수도 있습니다. 이렇게 하면 객체 근접성의 영향을 받지 않습니다.
+* 마우스 가운데 버튼을 클릭하고 끌거나 터치 지원 장치의 경우 두 손가락을 끌어 **초점이동**합니다.
 
-You can also use the floating navigation toolbar on the right side of the canvas to go into specific view modes. Shortcuts are noted in parentheses.
+캔버스 오른쪽에 있는 부동 탐색 도구막대를 사용하여 특정 뷰 모드로 전환할 수도 있습니다. 바로 가기가 괄호 안에 표시되어 있습니다.
 
-![](../.gitbook/assets/20190618-ortho-views.png) **Orthographic views**: Click to reveal a flyout menu of available [orthographic views](../tool-library/orthographic-views.md).
+![](../.gitbook/assets/20190618-ortho-views.png) **직교 뷰**: 사용 가능한 [직교 뷰](../tool-library/orthographic-views.md)의 플라이아웃 메뉴를 표시하려면 클릭합니다.
 
-![](../.gitbook/assets/20190618-3d-view.png) **Default 3D View (ZD):** Launches the default 3D view.
+![](../.gitbook/assets/20190618-3d-view.png) **기본 3D 뷰\(ZD\):** 기본 3D 뷰를 시작합니다.
 
-![](../.gitbook/assets/jet-pack.png) **Walkthrough (FT):** “Jetpack” mode allows you to walk through the scene using your keyboard. Use WASD to move forward/backward/left/right, and use Q/E to move up/down. Use the spacebar key to "fly."
+![](../.gitbook/assets/jet-pack.png) **보행 시선\(FT\):** "제트팩" 모드를 사용하면 키보드를 사용하여 보행 시선을 따라 장면을 이동할 수 있습니다. 앞으로/뒤로/왼쪽으로/오른쪽으로 이동하려면 WASD를 사용하고 위/아래로 이동하려면 Q/E를 사용합니다. "조감"하려면 스페이스바 키를 사용합니다.
 
-![](../.gitbook/assets/orbit-tool.png) **Orbit (O):** When enabled, left-click and drag the mouse to orbit around the model. You can also do this at any time by right-click and dragging.
+![](../.gitbook/assets/orbit-tool.png) **궤도 이동\(O\):** 이 옵션을 사용으로 설정할 경우 마우스 왼쪽 버튼을 클릭하고 끌면 모델 궤도를 이동할 수 있습니다. 또한 마우스 오른쪽 버튼을 클릭하고 끌어서도 언제든지 이 작업을 수행할 수 있습니다.
 
-![](../.gitbook/assets/swivel.PNG) **Swivel (SV):** Use the Swivel tool from the Navigation toolbar to look around the scene from a fixed point.
+![](../.gitbook/assets/swivel.PNG) **회전\(SV\):** 탐색 도구막대의 회전 도구를 사용하여 고정 지점에서 장면을 둘러봅니다.
 
-![](../.gitbook/assets/panning.png) **Pan (P):** Click and drag the middle mouse button, or use the Pan (hand) tool from the Navigation toolbar to pan across the scene.
+![](../.gitbook/assets/panning.png) **초점이동\(P\):**마우스 가운데 버튼을 클릭하고 끌거나 탐색 도구막대에서 초점이동\(손 모양\) 도구를 사용하여 장면에서 초점이동합니다.
 
-![](../.gitbook/assets/zoom.png) **Zoom (Z):** Scroll the mouse wheel, or select the Zoom tool from the Navigation toolbar and click and drag the left mouse button to zoom.
+![](../.gitbook/assets/zoom.png) **줌\(Z\):** 마우스 휠을 스크롤하거나 탐색 도구막대에서 줌 도구를 선택하고 마우스 왼쪽 버튼을 클릭한 후 끌어 줌합니다.
 
-![](../.gitbook/assets/zoom\_all.png) **Zoom All (ZE or ZA):** Zoom to fit the entire model into the current view
+![](../.gitbook/assets/zoom_all.png) **전체 줌\(ZE 또는 ZA\):** 전체 모델을 현재 뷰에 맞게 줌합니다.
 
-![](../.gitbook/assets/zoom\_selection.png) **Zoom Selection (ZS):** Zoom to fit all of the currently selected objects into the current view.
+![](../.gitbook/assets/zoom_selection.png) **선택사항 줌\(ZS\):** 현재 선택한 모든 객체를 현재 뷰에 맞게 줌합니다.
+

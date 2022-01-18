@@ -1,33 +1,33 @@
-# Modifying Faces, Edges, and Points
+# 면, 모서리 및 점 수정
 
-Things get really interesting when you start to push and pull the objects you have placed. Single click will allow you to select a single vertex, edge, face, or Mesh.
+배치한 객체의 밀고 당기기를 시작하면 흥미로운 결과가 나타납니다. 한 번 클릭하면 단일 정점, 모서리, 면 또는 메쉬를 선택할 수 있습니다.
 
-## Modifying Faces
+## 면 수정
 
-1. Single-click a face
-2. FormIt automatically puts you in the Drag Face or Extrude tool.&#x20;
-3. Click somewhere to identify a starting point for the operation.&#x20;
-4. After you click, you can snap to other objects to align this face.
-5.  As with move, you can click the **temporary dimension** or simply start typing a value to define the amount of movement.
+1. 면을 한 번 클릭합니다.
+2. 그러면 FormIt의 면 끌기 또는 돌출 도구로 자동으로 이동됩니다.
+3. 아무 곳이나 클릭하여 작업 시작점을 식별합니다.
+4. 클릭한 후 다른 객체로 스냅하여 이 면을 정렬할 수 있습니다.
+5. 이동과 마찬가지로 **임시 치수**를 클릭하거나 값을 입력하여 이동량을 정의할 수 있습니다.
 
-    ![](../.gitbook/assets/modify.png)
+![](../.gitbook/assets/modify.png)
 
-You can also delete a face by using the **Delete** key, or by right-clicking and invoking Delete from the context menu.
+**Delete** 키를 사용하거나 마우스 오른쪽 버튼을 클릭하고 상황에 맞는 메뉴에서 삭제를 호출하여 면을 삭제할 수도 있습니다.
 
-You can also delete a face by using **Right click > X button**.
+또한 **마우스 오른쪽 버튼을 클릭하고 X 버튼**을 눌러 면을 삭제할 수도 있습니다.
 
-## Modifying Edges
+## 모서리 수정
 
-1. Single-click an edge
-2. FormIt automatically puts you in the Move tool
-3. Position your mouse over a point in space that you want to start the Move operation from.
-4. Click, and now you can drag the edge to modify the shape.
+1. 모서리를 한 번 클릭합니다.
+2. 그러면 FormIt의 이동 도구로 자동으로 이동됩니다.
+3. 이동 작업을 시작할 공간의 점 위에 마우스 커서를 놓습니다.
+4. 이제 모서리를 클릭한 후 끌어 모양을 수정할 수 있습니다.
 
 ![](../.gitbook/assets/modify2.png)
 
-## Modifying Points
+## 점 수정
 
-1. Single-click one of the corners of one of the cubes.
-2. Similar to an edge, you drag the point along one of the axes to redefine the shape. [NextNon-Uniform Scale](https://app.gitbook.com/@formit3d/s/autodesk-formit-360-windows-help/\~/drafts/-MQs8s\_UgCysrQBxlywu/tool-library/non-uniform-scale)
+1. 한 정육면체의 모서리 중 하나를 한 번 클릭합니다.
+2. 모서리와 마찬가지로, 축 중 하나를 따라 점을 끌어 모양을 재정의합니다. [다음 비균일 축척](non-uniform-scale.md)
 
-![](<../.gitbook/assets/modify3 (1).png>)
+![](<../.gitbook/assets/modify3 (1) (1).png>)

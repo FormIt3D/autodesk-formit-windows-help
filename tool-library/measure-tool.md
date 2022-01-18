@@ -1,13 +1,14 @@
-# Measure
+# 측정
 
-The **Measure** tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+**측정** 도구는 [도구막대](../formit-introduction/tool-bars.md)에 있습니다.
 
-You can use the **Measure** tool to measure existing geometry in a model. You can also use the **Measure** tool to assign dimensions to geometry.
+**측정** 도구를 사용하여 모델의 기존 형상을 측정할 수 있습니다. **측정** 도구를 사용하여 형상에 치수를 지정할 수도 있습니다.
 
-1. Select the **Measure** tool.
-2. Select two points to measure the distance between them.
-3. Select a face or edge you want to adjust, click the displayed value and add a new value in the dialog box that displays.
+1. **측정** 도구를 선택합니다.
+2. 두 점을 선택하여 두 점 사이의 거리를 측정합니다.
+3. 조정할 면 또는 모서리를 선택하고 표시된 값을 클릭한 다음, 표시되는 대화상자에서 새 값을 추가합니다.
 
-![](<../.gitbook/assets/measure (1).png>)\
-![](<../.gitbook/assets/measure2 (1).png>)\
+![](../.gitbook/assets/measure%20%281%29.png)  
+![](../.gitbook/assets/measure2.png)  
 ![](../.gitbook/assets/measure3.png)
+

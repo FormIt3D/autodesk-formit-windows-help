@@ -1,40 +1,41 @@
-# Non-Uniform Scale
+# 비균일 축척
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**비균일 축척을 사용하여 객체를 1, 2 또는 3차원으로 연장할 수 있습니다.**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+모서리, 면, 솔리드, 메쉬 또는 그룹의 조합을 선택하고 키보드 바로 가기 **NU**를 사용하거나 상황에 맞는 메뉴 옵션에서 비균일 축척에 액세스합니다.
 
-![](../.gitbook/assets/nu-scale\_context-menu.PNG)
+![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.**
+**활성화되면 1축, 2축 또는 3축에서 객체를 동시에 비균일하게 축척하는 데 사용할 수 있는 일련의 그립이 표시됩니다.**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+명확히 표시하기 위해 카메라를 향하는 그립만 그려집니다. 반대쪽의 그립을 조정해야 하는 경우 객체 궤도를 이동합니다.
 
-![](../.gitbook/assets/nu-scale\_grips-1.PNG)
+![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+그립을 클릭하면 일련의 편집 가능한 텍스트 상자가 표시됩니다. 이 텍스트 상자에서 비율이나 거리로 축척을 조정할 수 있습니다.
 
-![](../.gitbook/assets/nu-scale\_grips-2.PNG)
+![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**치수 상자가 표시되면 다음을 수행할 수 있습니다.**
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 숫자 입력을 시작하여 백분율 상자를 자동으로 편집하고 축척 비율을 지정합니다.
+   * 음수를 입력하면 축척 방향이 반전됩니다.
+* 또는 클릭하여 그립 위치를 임시로 설정한 다음, 치수가 포함된 상자를 클릭하여 거리로 축적합니다.
+* 공간을 클릭하거나 Esc 키를 눌러 비균일 축척 작업을 마칩니다.
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**코너 모서리 그립 중 하나의 축척을 조정하면 인접 치수의 종횡비가 적용됩니다.**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 숫자 입력을 시작하여 백분율 값을 편집합니다.
+* 또는 클릭하여 그립 위치를 임시로 설정한 다음, 두 개의 치수 상자 중 하나를 클릭하여 거리로 축척합니다.
+* 공간을 클릭하거나 Esc 키를 눌러 비균일 축척 작업을 마칩니다.
 
-![](../.gitbook/assets/nu-scale\_grips-3.PNG)
+![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**마찬가지로 코너 그립 중 하나를 축척하면 전체 모양의 종횡비가 적용되며 효과적으로 균일하게 축척됩니다.**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* 숫자 입력을 시작하여 백분율 값을 편집합니다.
+* 또는 클릭하여 그립 위치를 임시로 설정한 다음, 세 개의 치수 상자 중 하나를 클릭하여 거리로 축척합니다.
+* 공간을 클릭하거나 Esc 키를 눌러 비균일 축척 작업을 마칩니다.
 
-![](../.gitbook/assets/nu-scale\_grips-4.PNG)
+![](../.gitbook/assets/nu-scale_grips-4.PNG)
+

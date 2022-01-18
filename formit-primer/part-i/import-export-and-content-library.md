@@ -1,154 +1,155 @@
-# 1.11 - Import Models with Content Library
+# 1.11 - 컨텐츠 라이브러리를 사용하여 모델 가져오기
 
-_In this chapter, we will import existing SketchUp models, as well as use the FormIt Content Library to place OOTB families that have been converted from Revit. Note that when opening SKP files with FormIt, they come with intact Materials, Groups and Components, Layers (Tags), and Scenes. Some clean-up may be needed to keep your projects tidy and organized._
+_이 장에서는 기존 SketchUp 모델을 가져오고 FormIt 컨텐츠 라이브러리를 사용하여 Revit에서 변환된 OOTB 패밀리를 배치해 볼 예정입니다. FormIt에서 SKP 파일을 열면 그대로 유지된 재료, 그룹 및 구성요소, 레이어\(태그\) 및 장면이 포함되어 있습니다. 프로젝트를 깔끔하게 정리하기 위해 약간의 정리가 필요할 수 있습니다._
 
-_For this chapter we will be using files from the_ **Farnsworth House Data Set > Supporting Files** folder. If you have not already, be sure to download the required folders, or entire data set, from the _**FormIt Primer Part 1 Datasets**._
+_이 장에서는_ **판스워스 하우스 데이터세트 > 지원 파일** 폴더의 파일을 사용합니다. 아직 다운로드하지 않은 경우_**FormIt Primer 1부 데이터세트**에서 필수 폴더 또는 전체 데이터세트를 다운로드해야 합니다._
 
-## **Import and Edit SKP files**
+## **SKP 파일 가져오기 및 편집**
 
-_First, we will go through the process of adding a piece of downloaded content to your own personal content library_. Note that in this exercise we will be only using SKP files. To learn more about how to open/import other file formats, refer to [**this blog post about Formit 2021.2 features**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) and to **this chapter about** **Expanded Import and Export File Formats**.
+_우선 다운로드한 컨텐츠 일부를 사용자의 개인 컨텐츠 라이브러리에 추가하는 프로세스를 살펴보겠습니다_. 이 연습에서는 SKP 파일만 사용합니다. 다른 파일 형식을 열거나 가져오는 방법에 대한 자세한 내용은 [**Formit 2021.2 기능에 대한 블로그 게시글**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) 및 **확장된 가져오기 및 내보내기 파일 형식**에 **관한 이 장**을 참조하십시오
 
-1 - Make sure to **Save (Ctrl + S)** any open work, then start a new FormIt sketch. To do this, you can either:
+1 - 열려 있는 작업을 모두 **저장\(Ctrl + S\)**한 다음 새 FormIt 스케치를 시작합니다. 이렇게 하려면 다음을 수행합니다.
 
-1. Open another session on FormIt in a new window by right-clicking on the FormIt Icon in the **Windows Taskbar** and clicking on the **FormIt** icon. This will open a new FormIt window, allowing you to run two FormIt sessions side-by-side.
-2. OR, after saving, start a **New Sketch (Ctrl + N)** from the **File** dropdown in the **Main Menu** bar.
+1. **Windows 작업 표시줄**에서 FormIt 아이콘을 마우스 오른쪽 버튼으로 클릭하고 **FormIt** 아이콘을 클릭하여 새 창에서 FormIt의 다른 세션을 엽니다. 이렇게 하면 새 FormIt 창이 열리고 두 FormIt 세션을 나란히 실행할 수 있습니다.
+2. 또는 저장한 후에 **주 메뉴** 막대의 **파일** 드롭다운에서 **새 스케치\(Ctrl + N\)**를 시작합니다.
 
-![](<../../.gitbook/assets/0 (19).png>)
+![](../../.gitbook/assets/0%20%2819%29.png)
 
-2 - Create a new folder called **Custom FormIt Content** inside the **Farnsworth House Data Set > Supporting Files > FormIt** folder in the _**Farnsworth House Data Set**._
+2 - _**판스워스 하우스 데이터세트**의 **판스워스 하우스 데이터세트 &gt; 지원 파일 &gt; FormIt** 폴더 내에 **사용자 지정 FormIt 컨텐츠**라는 새 폴더를 작성합니다._
 
-3 - **Save (Ctrl + S)** your new sketch in that folder. We recommend naming it: **Ottoman – Barcelona\_Mies.axm**
+3 - 해당 폴더에 새 스케치를 **저장\(Ctrl + S\)**합니다. 이름을 **Ottoman – Barcelona\_Mies.axm**으로 지정하는 것이 좋습니다.
 
-4 - In the new empty FormIt file:
+4 - 비어 있는 새 FormIt 파일에서 다음 작업을 수행합니다.
 
-1. **Import a Local File (Ctrl + I)** by selecting **Import > Locally…** from the **File** dropdown in the **Main Menu** bar.
-2. Choose: **Ottoman – Barcelona\_Mies.skp** from the **Farnsworth House Data Set > Supporting Files > SketchUp** and click **Open**.
+1. **주 메뉴** 막대의 **파일** 드롭다운에서 **가져오기 &gt; 로컬로…**를 선택하여 **로컬 파일 가져오기\(Ctrl + I\)**를 수행합니다.
+2. **판스워스 하우스 데이터세트 &gt; 지원 파일 &gt; SketchUp**에서 **Ottoman – Barcelona\_Mies.skp**를 선택하고 **열기**를 클릭합니다.
 
-_**Note:**_ _If you do not see the_ _**Ottoman – Barcelona\_Mise.skp file**, make sure the file format dropdown in the bottom right is set to_ _**All Supported Formats**._
+_**주**_ _:_ _**Ottoman – Barcelona\_Mise.skp 파일**이 보이지 않으면 오른쪽 하단에 있는 파일 형식 드롭다운이_ _**지원되는 모든 형식**으로 설정되어 있는지 확인합니다._
 
-![](<../../.gitbook/assets/1 (7).png>)
+![](../../.gitbook/assets/1%20%287%29.png)
 
-5 - Rename the imported group **Ottoman - Barcelona\_Mies**.
+5 - 가져온 그룹의 이름을 **Osumt - Barcelona\_Mies**로 바꿉니다.
 
-6 - When we eventually import this model into our Farnsworth House file, it will be placed by using this file’s **Origin** point. To control l placement point, we want to move the **Ottoman - Barcelona\_Mies** group so one if its corners is located at the **Origin**. To do this:
+6 - 최종적으로 이 모델을 판스워스 하우스 파일로 가져오면 이 파일의 **원점** 점을 사용하여 배치됩니다. l 배치 점을 제어하기 위해 구석이 **원점**에 있는 경우 하나로 **Automotive - Barcelona\_Mies** 그룹을 이동하려고 합니다. 이 작업을 수행하려면 다음을 수행하십시오.
 
-1. Ensure **Snap to Grid (SG)** is on. Draw a reference **Line (L)** starting at the **Origin** (There the X, Y, and Z axes intersect). Click anywhere to place the second point.
-2. Select the ottoman group and start the move command by single-clicking on the lower left corner of its leg, as shown. _To learn more about how to move objects, refer to previous chapters._
-3. Move the group to the **Origin**, by snapping to the start point of the reference line we just drew.
-4. Delete the reference line.
+1. **그리드로 스냅\(SG\)**이 켜져 있는지 확인합니다. **원점**에서 시작하여 참조**선\(L\)**을 그립니다\(X축, Y축, Z축이 교차함\). 아무 곳이나 클릭하여 두 번째 점을 배치합니다.
+2. 표시된 것처럼 ottoman 그룹을 선택하고 다리의 왼쪽 하단을 한 번 클릭하여 이동 명령을 시작합니다. _객체를 이동하는 방법에 대한 자세한 내용은 이전 장을 참조하십시오._
+3. 방금 그린 참조선의 시작점에 스냅하여 그룹을 **원점**으로 이동합니다.
+4. 참조선을 삭제합니다.
 
-![](<../../.gitbook/assets/2 (17) (1).png>)
+![](../../.gitbook/assets/2%20%2817%29.png)
 
-7 - We recommend deleting any unwanted layers that were imported with the SKP file, as any layers this model has will eventually be imported into our Farnsworth House model. To do that, go to the **Layers Palette**, select **Layer 0**, and click the **-** button. This will delete the layer while keeping its geometry.
+7 - SKP 파일을 사용하여 가져온 원치 않는 레이어는 삭제하는 것이 좋습니다. 이 모델에 있는 모든 레이어는 결국에는 판스워스 하우스 모델로 가져오게 되기 때문입니다. 이렇게 하려면 **레이어 팔레트**로 이동하여 **레이어 0**을 선택하고 **-** 버튼을 클릭합니다. 이렇게 하면 레이어의 형상은 유지되지만 레이어는 삭제됩니다.
 
-![](<../../.gitbook/assets/3 (16) (1).png>)
+![](../../.gitbook/assets/3%20%2816%29.png)
 
-_**Note:**_ _Whenever you delete a layer, any geometry or groups that were on that layer are assigned to have_ _**No Layer**, which is the default value for any object that has not yet been assigned to a layer._
+_**주:**_ _레이어를 삭제할 때마다 해당 레이어에 있는 모든 형상 또는 그룹에_ _**레이어 없음**이 지정되며 이는 레이어에 아직 지정되지 않은 모든 객체에 대한 기본값입니다._
 
-## **Create Content Thumbnail**
+## **컨텐츠 썸네일 작성**
 
-_This next step will setup a scene to be used as the_ _**Content**_ _thumbnail, which will be displayed in the_ _**Content Library Palette**._
+_이 다음 단계에서는_ _**컨텐츠 라이브러리 팔레트**에 표시될_ _**컨텐츠**_ _썸네일로 사용할 장면을 설정합니다._
 
-1 - To define the view settings for the thumbnail scene:
+1 - 썸네일 장면에 대한 뷰 설정을 정의하려면 다음 작업을 수행합니다.
 
-1. In the **Environment** tab of the **Visual Style Palette**, uncheck all the checkboxes and set the **Lower/ Background** color to white.
-2. Make sure your view mode is set to **Perspective** **(VP)**.
-3. Use the **View Navigation Tools** to zoom in pick a camera location that represents the object well, similar to the below image.
+1. **비주얼 스타일 팔레트**의 **환경** 탭에서 모든 확인란을 선택 취소하고 **아래쪽/배경** 색상을 흰색으로 설정합니다.
+2. 뷰 모드가 **투시** **\(VP\)**로 설정되어 있는지 확인합니다.
+3. 아래 이미지와 유사하게 **뷰 탐색 도구**를 사용하여 객체를 잘 나타내는 카메라 위치를 줌 확대합니다.
 
-![](<../../.gitbook/assets/4 (13) (1).png>)
+![](../../.gitbook/assets/4%20%2813%29.png)
 
-2 - To save the settings you just set, create a scene:
+2 - 방금 지정한 설정을 저장하려면 다음과 같이 장면을 작성합니다.
 
-1. Go to the **Scene Palette**.
-2. Click on the **+** button. This will create a new scene based on your current settings.
-3. Rename it **Thumbnail** and make sure that at least the first four (4) checkboxes are checked; **Camera**, **Layers**, **Sun and Shadows**, and **Visual Styles**. The rest of the scene settings are not really relevant for creating the thumbnail image.
-4. Use the **Update Scene** button any time you want to refresh your **Scene** to match the current camera view and visual settings.
+1. **장면 팔레트**로 이동합니다.
+2. **+** 버튼을 클릭합니다. 이렇게 하면 현재 설정을 기반으로 새 장면이 작성됩니다.
+3. **썸네일**로 이름을 바꾸고 처음 네 개\(4\)의 확인란(**카메라**, **레이어**, **태양 및 그림자** 및 **그림자 비주얼 스타일**)이 선택되어 있는지 확인합니다. 나머지 장면 설정은 썸네일 이미지를 만드는 데 별로 관련이 없습니다.
+4. **장면**을 현재 카메라 뷰 및 시각화 설정과 일치하도록 새로 고치려면 언제든지 **장면 업데이트** 버튼을 사용합니다.
 
-![](<../../.gitbook/assets/5 (11) (1).png>)
+![](../../.gitbook/assets/5%20%2811%29.png)
 
-3 - **Save (Ctrl + S)** the completed ottoman model again. Note that the **Content Thumbnail** is created from the current view when the model was last saved, so make sure you are in the **Thumbnail Scene** before you save.
+3 - 완성한 ottoman 모델을 다시 **저장\(Ctrl + S\)**합니다. **컨텐츠 썸네일**은 모델이 마지막으로 저장될 때 현재 뷰에서 작성되므로 저장하기 전에 **썸네일 장면**이 열려 있는지 확인합니다.
 
-_If you wish, you can compare your file against ours by opening the_ _**Ottoman - Barcelona\_Mies.axm**_ _file saved at_ _**Farnsworth House Data Set > Supporting Files > FormIt > Furniture**_ _in the_ _**Farnsworth House Data Set**.‌_
+_원하는 경우_ _**판스워스 하우스 데이터세트**의_ _**판스워스 하우스 데이터세트 > 지원 파일 > FormIt > 가구**_ _에 저장된_ _**Ottoman - Barcelona\_Mies.axm**_ _파일을 열어 여러분의 파일과 비교할 수 있습니다.‌_
 
-_You can follow the same steps above with the bench and chair SKP files located in the same folder as the ottoman._
+_ottoman과 동일한 폴더에 있는 벤치 및 의자 SKP 파일을 사용하여 위의 동일한 단계를 수행할 수 있습니다._
 
-_**Tip:**_ _To expedite the process we recommend using the_ _**Ottoman - Barcelona\_Mies.axm**_ _file you just created as a template. While modeling you may want to turn on the_ _**Grid**_ _and the_ _**Axes**_ _again from the_ _**Visual Styles Palette**. By adjusting only the camera position of your_ _**Thumbnail Scene**_ _for each piece of furniture, it will ensure that the_ _**Content Thumbnails**_ _remain consistent for all of your content models._
+_**팁:**_ _이 프로세스를 신속하게 진행하려면 방금 템플릿으로 작성한_ _**Ottoman - Barcelona\_Mies.axm**_ _파일을 사용하는 것이 좋습니다. 모델링하는 동안_ _**비주얼 스타일 팔레트**에서_ _**그리드**_ _및_ _**축**__을 켜려고 할 수 있습니다. 각 가구에 대해_ _**썸네일 장면**_ _의 카메라 위치만 조정하면_ _**컨텐츠 썸네일**_ _이 모든 컨텐츠 모델에서 일관성 있게 유지됩니다._
 
-## **Link a Content Library**
+## **컨텐츠 라이브러리 링크**
 
-_Now back to our Farnsworth House project. We will learn how to link the **FormIt** folder in the **Farnsworth House Data Set**, to easily access all of its files - including the_ **Custom FormIt Content** _we just created - from within our project._
+_이제 판스워스 하우스 프로젝트로 돌아갑니다. 방금 작성한_ **사용자 지정 FormIt 컨텐츠**_를 포함하여 프로젝트 내에서 모든 파일에 쉽게 액세스하기 위해 **판스워스 하우스 데이터세트**에서 **FormIt** 폴더를 링크하는 방법을 알아보겠습니다._
 
-1 - After switching back to, or re-opening, the Farnsworth House model. _If you did not complete the last chapter, download and open the_ _**1.11 - Import Models with Content Library.axm**_ _file from the_ _**Farnsworth House Data Set**._
+1 - 판스워스 하우스 모델로 다시 전환하거나 이 모델을 다시 엽니다. _마지막 장을 완료하지 않은 경우_ _**판스워스 하우스 데이터세트**에서_ _**1.11 - Import Models with Content Library.axm**_ _파일을 다운로드하여 엽니다._
 
-1. Open the **Content Library Palette** and click the **Link Content Library Directory** icon. The **Preferences** window will pop-up with the **Content Library** tab open.
-2. Click the **+** icon to **Add a new Content Library location**. A third window will pop-up for you to navigate your computer’s directory and select a folder.
-3. In the _**Farnsworth House Data Set**, navigate through the folders:_ _**Supporting Files > FormIt**. There you will find the_ folders containing the **.axm** files we created earlier in this chapter. Double-click the **FormIt** folder to select it.
-4. Click **Select Folder** and that folder’s path will show up in the **Library Locations – Local** Panel.
-5. Back in the **Preferences** window, click **OK**, and the linked folder will be added to the **Content Library**.
-6. To access this new library, open the drop-down menu at the top for the **Content Library Palette** and select **FormIt**.
-7. Note that the folder structure and all the **.axm** files in the linked folder will show up in the **Content Library Palette**. Double click any sub-folders to access the files in it.&#x20;
+1. **컨텐츠 라이브러리 팔레트**를 열고 **컨텐츠 라이브러리 디렉토리 링크** 아이콘을 클릭합니다. **기본 설정** 창에 **컨텐츠 라이브러리** 탭이 열린 상태로 팝업이 표시됩니다.
+2. **새 컨텐츠 라이브러리 위치 추가**에 해당하는 **+** 아이콘을 클릭합니다. 컴퓨터 디렉토리를 탐색하고 폴더를 선택할 수 있는 세 번째 창이 나타납니다.
+3. _**판스워스 하우스 데이터세트**에서 폴더_ _**지원 파일 &gt; FormIt**을 탐색합니다. 여기에서 이 장의 앞부분에서_ 작성한**.axm** 파일이 포함된 폴더를 찾을 수 있습니다. **FormIt** 폴더를 두 번 클릭하여 선택합니다.
+4. **폴더 선택**을 클릭하면 해당 폴더의 경로가 **라이브러리 위치 - 로컬** 패널에 표시됩니다.
+5. 다시 **기본 설정** 창에서 **확인**을 클릭합니다. 그러면 링크된 폴더가 **컨텐츠 라이브러리**에 추가됩니다.
+6. 이 새 라이브러리에 액세스하려면 맨 위에서 **컨텐츠 라이브러리 팔레트**에 해당하는 드롭다운 메뉴를 열고 **FormIt**을 선택합니다.
+7. 폴더 구조와 링크된 폴더의 모든 **.axm** 파일이 **컨텐츠 라이브러리 팔레트**에 표시됩니다. 하위 폴더를 두 번 클릭하여 하위 폴더의 파일에 액세스합니다.
 
 ![](../../.gitbook/assets/link-library-content.png)
 
-**Note:** If you have access to **Autodesk Docs** (previously know as Autodesk 360), you can also access files you may have stored there through the **Content Library** drop-down menu.
+**주:** \(이전에는 Autodesk 360으로 알려진\) **Autodesk Docs**에 액세스할 수 있는 경우 **컨텐츠 라이브러리** 드롭다운 메뉴를 통해 저장해 둔 파일에 액세스할 수도 있습니다.
 
-## **Place Content from the Library**
+## **라이브러리의 컨텐츠 배치**
 
-_‌Now we will place the content items we created inside in the Farnsworth model._
+_이제 작성한 컨텐츠 항목을 판스워스 모델 내부에 배치합니다._
 
-1 - So that we can see inside the house to place the furniture, turn off the **Roof** layer and **Orbit (O)** the perspective view until you can see the entire Main Building Floor.
+1 - 가구를 배치할 집 내부를 볼 수 있도록 전체 주 건물 바닥이 표시될 때까지 **지붕** 레이어를 끄고 투시 뷰를 **궤도 이동\(O\)**합니다.
 
-2 - Back in the **Content Library Palette**, ensure the dropdown is still set to the **FormIt**. Before placing any of the furniture we just made, we need to place the ‘core’ of the house:
+2 - 다시 **컨텐츠 라이브러리 팔레트**로 돌아가서 드롭다운이 여전히 **FormIt**으로 설정되어 있는지 확인합니다. 방금 만든 가구를 배치하기 전에 집의 '코어'를 배치해야 합니다.
 
-1. Click on the folder named **Other** to open it, and then click on the **Farnsworth House – Core** thumbnail to select it.
-2. Hover the mouse over the **Main Building Floor,** to click on the **Centroid** of the floor to place the **Core**.
-3. To go back UP to the FormIt folder, use the **Navigate Up** button.
+1. 이름이 **기타**인 폴더를 클릭하여 연 다음 **판스워스 하우스 - 코어** 썸네일을 클릭하여 선택합니다.
+2. 마우스를 **주 건물 바닥** 위에 놓고 바닥의 **중심**를 클릭하여 **코어**를 배치합니다.
+3. FormIt 폴더로 다시 돌아가려면 **위로 탐색** 버튼을 사용합니다.
 
-![](<../../.gitbook/assets/7 (2).jpeg>)
+![](../../.gitbook/assets/7%20%282%29.jpeg)
 
-3 - Set the camera to an **Orthographic (VO)** **Top View (VT)** and turn of the **Main Building Floor** to see the **Plan Image**. Refer to previous chapters to learn more about the **Views** and **Layers** settings.
+3 - 카메라를 **직교\(VO\)** **평면도\(VT\)**로 설정하고 **주 건물 바닥**을 다시 켜서 **평면도 이미지**를 확인합니다. **뷰** 및 **레이어** 설정에 대한 자세한 내용을 이전 장을 참조하십시오.
 
-4 - Select the **Farnsworth House - Core** and move it until it closely aligns with the Plan Image.
+4 - **판스워스 하우스 - 코어**를 선택하고 평면도 이미지에 맞춰 정렬될 때까지 이동합니다.
 
-![](<../../.gitbook/assets/8 (1).png>)
+![](../../.gitbook/assets/8%20%281%29.png)
 
-_**Note:**_ _While moving the_ _**Core**, be careful not to change its elevation. You can either use the_ _**Shift**_ _key to restrict the movement to always be along one of the axes, or ensure that the start and end reference points of your_ _**Move (M)**_ _command are both at the same height by clicking only on the_ _**Plan Image**, not the_ _**Core**_ _itself. Refer to previous chapters to learn more about the_ _**Move (M)**_ _Tool.‌_
+_**주:**_ _**코어**를 이동하는 동안 높이를 변경하지 않도록 주의하십시오. **Shift**_ _키를 사용하여 항상 축 중 하나를 따르도록 이동을 제한하거나_ _**코어**_ _자체가 아니라_ _**평면도 이미지**만 클릭하여_ _**이동\(M\)**_ _명령의 시작 및 끝 참조점이 둘 다 같은 높이에 있도록 할 수 있습니다. **이동\(M\)**_ _도구에 대해 자세히 알아보려면 이전 장을 참조하십시오.‌_
 
-## **Place Furniture from the Library**
+## **라이브러리의 가구 배치**
 
-1 - Using a similar process, you can now place the furniture you created earlier in this chapter from the **Custom FormIt Content** folder. If you did not convert all three (3) of the SKP files, you can use the premade versions inside the **Furniture** folder instead.
+1 - 유사한 프로세스를 사용하여 **사용자 지정 FormIt 컨텐츠** 폴더에서 이 장의 앞부분에서 작성한 가구를 배치할 수 있습니다. SKP 파일의 세 개\(3\)를 모두 변환하지 않은 경우 대신 **가구** 폴더 내에서 미리 만들어진 버전을 대신 사용할 수 있습니다.
 
-_**Notes:**_
+_**주:**_
 
-* _Turn the_ _**Main Building Floor**_ _layer back on, so you can place furniture directly on the_ _**Main Building Floor**’s surface._
-* _While placing a new object, use the_ _**Tab**_ _key to alternate between placement planes._
-* _While placing a new object, use the_ _**Space Bar**_ _key to rotate it by 90 intervals before placing._
+* _**주 건물 바닥**_ _레이어를 다시 켜 가구를_ _**주 건물 바닥**의 표면에 직접 배치할 수 있습니다._
+* _새 객체를 배치하는 동안_ _**Tab**_ _키를 사용하여 배치 평면 간에 전환합니다._
+* _새 객체를 배치하는 동안 배치하기 전에_ _**스페이스바**_ _키를 사용하여 객체를 90도 간격으로 회전합니다._
 
-![](<../../.gitbook/assets/9 (3).png>)
+![](../../.gitbook/assets/9%20%283%29.png)
 
-2 - Similarly, explore the **Content Library Samples** to place OOTB Content. Note that multiple of these have several different sizes to choose from, similar to Family Types in Revit.
+2 - 마찬가지로 **컨텐츠 라이브러리 샘플**을 탐색하여 OOTB 컨텐츠를 배치합니다. 이러한 항목 중 여러 개에는 Revit의 패밀리 유형과 유사하게 선택할 수 있는 여러 가지 다른 크기가 있습니다.
 
-![](<../../.gitbook/assets/10 (6).png>)
+![](../../.gitbook/assets/10%20%286%29.png)
 
-## **Using the Scale Tool**
+## **축척 도구 사용**
 
-1 - Using the techniques, you just learned, place one instance of the **tree\_pine** component from the **Farnsworth House Data Set > FormIt > Planting** folder.
+1 - 방금 배운 기술을 사용하여 **판스워스 하우스 데이터세트 &gt; FormIt &gt; 재배** 폴더에서 **tree\_pine** 구성요소의 인스턴스(instance) 하나를 배치합니다.
 
-1. Once placed, select the group and rename it to **Tree**. Right-click to access the **Context Menu** and choose **Non-Uniform Scale (NU)**.
-2. Click on one of the **Non-Uniform Scale Buttons** to resize and change the proportions of the **Tree** group as desired.
+1. 배치되면 그룹을 선택하고 이름을 **나무**로 바꿉니다. 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는 메뉴**에 액세스한 다음 **비균일 축척\(NU\)**을 선택합니다.
+2. **비균일 축척 버튼** 중 하나를 클릭하여 **트리** 그룹의 비율을 원하는 대로 크기 조정하고 변경합니다.
 
-![](<../../.gitbook/assets/11 (3).png>)
+![](../../.gitbook/assets/11%20%283%29.png)
 
-![](<../../.gitbook/assets/12 (2).png>)
+![](../../.gitbook/assets/12%20%282%29.png)
 
-_**Note:**_ _Similarly, the_ _**Scale (SC)**_ _tool can be used to re-scale an entire model or group uniformly._
+_**주:**_ _마찬가지로,_ _**축척\(SC\)**_ _도구는 전체 모델 또는 그룹의 축척을 균일하게 다시 조정하는 데 사용할 수 있습니다._
 
-2 - Copy this group and place multiple trees around the house, using the **Scale Tools** to create a variety of sizes and proportions.
+2 - 이 그룹을 복사하고 **축척 도구**를 사용하여 다양한 크기와 비율로 작성하여 집 주위에 여러 나무를 배치합니다.
 
-![](<../../.gitbook/assets/13 (6).png>)
+![](../../.gitbook/assets/13%20%286%29.png)
 
-_**Note:**_ _Even though the trees are all instances of the same group, we were able to_ _**Scale**_ _them to different sizes. Using the_ _**Scale (SC)**_ _and_ _**Non-Uniform Scale (NU)**_ _outside of group edit mode allows you to modify individual instances of the same group. If we were to edit one of the_ _**Tree**_ _groups and modify its geometry or material, all group instances would still be updated, but also each would keep their current customized scale. Give it a try!_
+_**주:**_ _나무가 모두 동일한 그룹의 인스턴스(instance)이긴 하지만 다른 크기로_ _**축척**__할 수 있습니다. 그룹 편집 모드 외부에서_ _**축척\(SC\)**_ _및_ _**비균일 축척\(NU\)**_ _을 사용하여 동일한 그룹의 개별 인스턴스(instance)를 수정할 수 있습니다. **트리**_ _그룹 중 하나를 편집하고 해당 형상 또는 재료를 수정하는 경우 모든 그룹 인스턴스가 업데이트되지만 각 인스턴스(instance)는 현재 사용자화된 축척을 유지합니다. 체험해 보십시오._
 
-### **Keep Model Tidy**
+### **모델을 깔끔하게 유지하기**
 
-_Remember to always sort added content onto layers. In this example, we recommend placing the core and all furniture on the_ _**Main Building Floor**_ _layer and the trees on a new layer named_ _**Planting**._
+_추가된 컨텐츠는 항상 레이어에 정렬해야 합니다. 이 예에서는 코어 및 모든 가구를_ _**주 건물 바닥**_ _레이어에 배치하고 이름이_ _**재배**인 새 레이어에 나무를 배치하는 것이 좋습니다._
+

@@ -1,7 +1,10 @@
-# Properties
+# 특성
 
-The **Properties Palette** displays information and data relevant to a selected object in the Formit Workplane.
+**특성 팔레트**에는 Formit 작업 기준면에서 선택한 객체와 관련된 정보 및 데이터가 표시됩니다.
 
-Using the Properties Palette, you can edit the group of an object, assign an object to a layer, and change the material of an object.
+특성 팔레트를 사용하여 객체 그룹을 편집하고, 레이어에 객체를 지정하고, 객체의 재료를 변경할 수 있습니다.
 
-![](../.gitbook/assets/properties\_palette.png)
+![](../.gitbook/assets/properties_palette.png)
+
+
+

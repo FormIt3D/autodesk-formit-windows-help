@@ -1,45 +1,48 @@
-# Levels and Area
+# 레벨 및 면적
 
-After creating geometry in FormIt, you can apply Levels to indicate where floor elevations are, and to generate area calculations.
+FormIt에서 형상을 작성한 후 레벨을 적용하여 바닥 높이가 있는 위치를 나타내고 면적 계산을 생성할 수 있습니다.
 
-Take a look at the [FormIt Primer ](../formit-primer/part-i/adding-floors-with-levels.md)to see Levels in action.
+[FormIt 입문서](../formit-primer/part-i/adding-floors-with-levels.md)에서 실제로 작동하는 레벨을 확인할 수 있습니다.
 
-## Creating and Configuring Levels
+## 레벨 작성 및 구성
 
-You'll find the Levels panel on the right side of FormIt for Windows:
+Windows용 FormIt의 경우 오른쪽에 레벨 패널이 있습니다.
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-### Create and Delete Levels
+#### 레벨 작성 및 삭제
 
-* Create a new Level by clicking the "+" button.
-* Create a series of Levels by clicking the "++" button.
-  * This will allow specifying how many Levels to create, and the vertical distance between them.
-* Select one or more Levels and click "-" to delete them.
+* 새 레벨을 작성하려면 "+" 버튼을 클릭합니다.
+* 일련의 레벨을 작성하려면 "++" 버튼을 클릭합니다.
+   * 이렇게 하면 작성할 레벨 수와 레벨 사이의 수직 거리를 지정할 수 있습니다.
+* 하나 이상의 레벨을 선택하고 "-"를 클릭하여 삭제합니다.
 
-### Rename, Set Elevations, and Renumber Levels
+#### 레벨 이름 바꾸기, 높이 설정 및 레벨 번호 다시 지정
 
-* Rename a Level by double-clicking on the name, or by right-clicking and choosing "Edit Name".
-* Adjust a Level's elevation by double-clicking on the number, or by right-clicking and choosing "Edit Elevation".
-* Click the Refresh icon at the top to renumber Levels.
-  * This is useful if you've added or removed levels, and the default naming scheme is out of sync (i.e. Level 1, Level 2, Level 5).
-  * This button will ignore any Levels with custom names, but will renumber any Levels with the name following the "Level 1" syntax.
+* 이름을 두 번 클릭하거나 마우스 오른쪽 버튼을 클릭하고 "이름 편집"을 선택하여 레벨 이름을 바꿉니다.
+* 번호를 두 번 클릭하거나 마우스 오른쪽 버튼을 클릭하고 "높이 편집"을 선택하여 레벨의 높이를 조정합니다.
+* 맨 위에 있는 새로 고침 아이콘을 클릭하여 레벨 번호를 다시 지정합니다.
+   * 이 기능은 레벨을 추가 또는 제거했으며 기본 명명 체계가 동기화되지 않은 경우\(예: 레벨 1, 레벨 2, 레벨 5\) 유용합니다.
+   * 이 버튼을 누르면 사용자 지정 이름이 있는 모든 레벨이 무시되지만, 이름이 "레벨 1" 구문을 따르는 모든 레벨 번호는 다시 지정됩니다.
 
-## Applying Levels
+## 레벨 적용
 
-To apply Levels to an object, you'll need to select the object and head over to the Properties panel.
+객체에 레벨을 적용하려면 객체를 선택하고 특성 패널로 이동해야 합니다.
 
-Note that to apply Levels to an object, the object must be solid, with no back face or watertight issues. [Learn how to check your model for watertight and back face issues](https://formit.autodesk.com/blog/post/repairing-solid-models).
+객체에 레벨을 적용하려면 객체가 솔리드여야 하며 뒷면 또는 수밀 문제가 없어야 합니다. [모델에 수밀 및 뒷면 문제가 있는지 확인하는 방법을 알아보십시오](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-With a solid object selected in the canvas (in this example, a simple building shell), the Properties panel will show a "Use Levels" checkbox.
+캔버스에서 솔리드 객체를 선택한 경우\(이 예에서는 간단한 건물 쉘\) 특성 패널에 "레벨 사용" 확인란이 표시됩니다.
 
-* If the FormIt sketch already has Levels defined (see above), then checking this box will use all Levels that would intersect this shape (ignoring any that would be too high or too low).
-* If the FormIt sketch does not have Levels already, checking this box will create enough default Levels.(12' floor-to-floor height) to intersect the entire shape, and will automatically apply those Levels to this object.
+* FormIt 스케치에 이미 레벨이 정의되어 있는 경우\(위 참고\) 이 확인란을 선택하면 이 모양을 교차하는 모든 레벨이 사용됩니다\(너무 높거나 너무 낮은 레벨 무시\).
+* FormIt 스케치에 레벨이 아직 없는 경우 이 확인란을 선택하면 전체 모양을 교차할충분한 기본 레벨\(12' 바닥 간 높이\)이 작성되고 해당 레벨이 이 객체에 자동으로 적용됩니다.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Levels + Revit
+## 레벨 + Revit
 
-When Levels are applied to FormIt geometry, those Levels will be sent to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit).
+레벨이 FormIt 형상에 적용되면 [FormIt 애드인](https://formit.autodesk.com/page/formit-revit)을 사용할 때 해당 레벨이 Revit으로 전송됩니다.
 
-In Revit, you can use the FormIt levels to create Mass floors, Floor by Face, and floor plans associated with the FormIt Levels.
+Revit에서 FormIt 레벨을 사용하여 FormIt 레벨과 연관된 매스 바닥, 면으로 바닥 만들기 및 평면도를 작성할 수 있습니다.
+
+
+

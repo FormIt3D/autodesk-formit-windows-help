@@ -1,27 +1,28 @@
-# Layers
+# 레이어
 
-Use Layers to control the visibility of FormIt objects.
+레이어를 사용하여 FormIt 객체의 가시성을 제어할 수 있습니다.
 
-See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+[FormIt 입문서](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)를 참조하여 레이어의 실제 작동을 확인하십시오.
 
-## Creating and Naming Layers
+## 레이어 작성 및 이름 지정
 
-In the Layers panel, you can create and name your Layers by clicking the "**+**" icon.
+레이어 패널에서 "**+**" 아이콘을 클릭하여 레이어를 작성하고 이름을 지정할 수 있습니다.
 
-![](<../.gitbook/assets/layer-locking-image (1).jpg>)
+![](../.gitbook/assets/layer-locking-image.jpg)
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible but not selectable or editable.
+이름을 두 번 클릭하여 레이어의 이름을 바꾸거나 왼쪽 상자를 선택 및 선택 취소하여 객체의 가시성을 전환할 수 있습니다. 오른쪽 확인란을 사용하여 레이어를 잠그거나 잠금을 해제합니다. 잠긴 레이어는 계속 표시되지만 선택하거나 편집할 수 없습니다.
 
-## Managing Objects on Layers
+## 레이어의 객체 관리
 
-Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on.
+캔버스에서 객체를 선택한 다음, 레이어 패널 맨 위에 있는 드롭다운을 사용하여 선택한 객체를 배치해야 하는 레이어를 나타냅니다.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt does not have the concept of a "default" or "working layer." All new geometry will be created on "No Layer" and you'll need to reassign objects to Layers after they're generated.
+FormIt에는 "기본" 또는 "작업 레이어"라는 개념이 없습니다. 모든 새 형상이 "레이어 없음"으로 작성되므로, 레이어를 생성한 후 객체를 레이어에 재지정해야 합니다.
 
-You can right-click a Layer and choose "Select All Objects On Layer" to select all the geometry currently assigned to this Layer.
+레이어를 마우스 오른쪽 버튼으로 클릭하고 "레이어의 모든 객체 선택"을 선택하여 이 레이어에 현재 지정된 모든 형상을 선택할 수 있습니다.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-You can also reorder the Layers in the panel by dragging and dropping them to a new position. Note that this has no impact on geometry visibility - this is purely an organizational tool in the panel.
+패널에서 레이어를 새 위치로 끌어다 놓아 순서를 변경할 수도 있습니다. 순서를 변경해도 형상 가시성에는 영향을 주지 않습니다. 순서 변경은 패널의 구성 도구일 뿐입니다.
+

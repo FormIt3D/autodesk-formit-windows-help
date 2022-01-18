@@ -1,7 +1,8 @@
-# Align Camera With Face
+# 면에 맞춰 카메라 정렬
 
-Quickly align the camera to look directly at any face.
+면을 직접 보도록 카메라를 신속하게 정렬할 수 있습니다.
 
-Select a single face, then right-click to access the Context Menu. Look for Align Camera with Face at the top of the menu, or use shortcut AF:
+단일 면을 선택한 다음, 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴에 액세스합니다. 메뉴 맨 위에서 면에 맞춰 카메라 정렬을 찾거나 바로 가기 AF를 사용합니다.
 
 ![](../.gitbook/assets/alignwithface.gif)
+

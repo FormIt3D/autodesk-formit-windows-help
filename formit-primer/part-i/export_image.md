@@ -1,21 +1,22 @@
-# 1.14 - Export Image
+# 1.14 - 이미지 내보내기
 
-_In this chapter, we will be exporting a high-resolution image of the sectional perspective scene we have built up over the last few chapters._
+_이 장에서는 마지막 몇 개의 장에 걸쳐 빌드한 단면 투시 장면의 고해상도 이미지를 내보냅니다._
 
-_Although not required to complete this chapter, if you did not follow the whole tutorial up until this point and would like to export images similar to what is shown below, download and open the_ _**1.14 – Export Image.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_이 장을 완료하는 데 꼭 필요하지는 않지만, 지금까지 전체 튜토리얼을 따르지 않은 상태에서 아래에 표시된 것과 유사한 이미지를 내보내려면_ _**FormIt 입문서 1부 데이터세트**에서_ _**1.14 – Export Image.axm**_ _파일을 다운로드하여 엽니다._
 
-1 - When exporting an image, whatever is shown in the canvas will be exported almost exactly as you see it in FormIt. We would like to export an image of the **Section** Scene.
+1 - 이미지를 내보낼 때 캔버스에 표시되는 항목은 FormIt에서 보이는 것과 거의 동일하게 내보내집니다. **단면** 장면의 이미지를 내보내려고 합니다.
 
-1. So first we need to open up that scene form the **Scenes Palette** by double-click on it.
-2. From the **Main Manu** bar, go to **File > Export > Locally (Ctrl + E)**. The **Export File** window will pop-up.
-3. In the new window, under **File type options** scroll down and select **As Image** (it is the last one). In the export options box, after **Preset:** changes the dropdown option to be **4K UHD** instead of **Viewport**. This will automatically define the output image resolution, **Dimension (px)**, to **3840** x **2160** pixels.
-4. Click on **Export** and the **Specify file to save to…** window will pop-up.
-5. In the new window, navigate to choose the location and name to save the image at, then click **Save**.
+1. 먼저 **장면 팔레트**에서 장면을 두 번 클릭하여 열어야 합니다.
+2. **주 메뉴** 막대에서 **파일 &gt; 내보내기 &gt; 로컬로\(Ctrl + E\)**로 이동합니다. **파일 내보내기** 창이 팝업됩니다.
+3. 새 창의 **파일 유형 옵션**에서 아래로 스크롤하여 **이미지로**\(마지막 옵션임\)를 선택합니다. 내보내기 옵션 상자에서 **사전 설정:**을 실행하면 드롭다운 옵션이 **뷰포트** 대신 **4K UHD**로 변경됩니다. 이렇게 하면 출력 이미지 해상도인 **치수\(px\)**가 **3840** x **2160** 픽셀로 자동 정의됩니다.
+4. **내보내기**를 클릭하면 **저장할 파일 지정...** 창이 팝업됩니다.
+5. 새 창에서 이미지를 저장할 위치와 이름을 선택한 다음, **저장**을 클릭합니다.
 
-![](<../../.gitbook/assets/0 (5).png>)
+![](../../.gitbook/assets/0%20%285%29.png)
 
-2 - If you wish to compare your results to the provided export image, go to **Farnsworth House Data Set > Supporting Files > Images**.
+2 - 결과를 제공된 내보내기 이미지와 비교하려면 **Farnsworth House Data Set &gt; Supporting Files &gt; Images**로 이동합니다.
 
-![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
+![Farnsworth House Data Set에서 제공되는 샘플 내보내기 이미지](../../.gitbook/assets/1%20%2816%29.png)
 
 \_\_
+

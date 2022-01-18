@@ -1,56 +1,29 @@
-# Prerequisites and Installation
+# 전제 조건 및 설치
 
-## Download and Installation
+## 다운로드 및 설치
 
-* Download the latest [FormIt for Windows](https://formit.autodesk.com/page/download).
-* Use your Autodesk account to sign in, or [create a free Autodesk account here](https://accounts.autodesk.com).
-* The FormIt Add-In for Revit is included with Revit 2017 and newer. You can also download and manually install the add-in [from our website](https://formit.autodesk.com/page/formit-revit).
+* 최신 [Windows용 FormIt](https://formit.autodesk.com/page/download)을 다운로드합니다.
+* Autodesk 계정을 사용하여 로그인하거나 [여기에서 무료 Autodesk 계정을 생성](https://accounts.autodesk.com/)합니다.
+* Revit용 FormIt 애드인은 Revit 2017 이상 버전에 포함되어 있습니다. 또한 [Autodesk 웹 사이트](https://formit.autodesk.com/page/formit-revit)에서 애드인을 다운로드하여 수동으로 설치할 수도 있습니다.
 
-## Recommended System Configuration
+## 권장 시스템 구성
 
-| Requirement                    | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Operating System**           | <p>Microsoft® Windows® 8, 8.1, 10, or 11. </p><p><em></em></p><p><em>Note: Parallels Desktop is not officially supported due to degraded performance and graphics issues in OpenGL drivers.</em></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **CPU**                        | <p>Intel® Pentium®, Xeon®, or i-Series processor or AMD® equivalent with SSE2 technology. </p><p></p><p>Highest affordable CPU speed rating recommended.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Memory**                     | 4 GB RAM minimum, 8GB or higher recommended.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| **Video Card (GPU)**           | <p>A discrete NVIDIA or AMD video card that supports OpenGL 2.0 is required. OpenGL 4.2 support is strongly recommended. </p><p></p><p>For systems with switchable video cards, follow manufacturer instructions to ensure FormIt always uses the dedicated GPU for best performance. See instructions for <a href="https://www.amd.com/en/support/kb/faq/dh-017">AMD </a>and <a href="http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1">NVIDIA</a>. </p><p></p><p>For best performance and reliability, ensure your video card drivers are up-to-date from the manufacturer's website or Windows Update. </p><p></p><p>FormIt will show a message at startup if it's unable to use your video card due to outdated drivers or other issues. If FormIt fails to start after updating drivers, please <a href="https://forums.autodesk.com/t5/formit-forum/bd-p/142">reach out on the forums</a>.</p> |
-| **Disk Space**                 | 1 GB free disk space.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| **Connectivity and Licensing** | <p>An internet connection is required when launching FormIt for the first time, in order to sign in to your Autodesk account. </p><p></p><p>An internet connection is also required to load plugins when launching FormIt. If an internet connection is not detected at startup, the application will launch without plugins.</p><p></p><p>An Autodesk account with a FormIt Pro cloud subscription is required to run FormIt Pro on Windows. <em></em> FormIt Pro is available as part of the <a href="https://www.autodesk.com/collections/architecture-engineering-construction/overview"><strong>Autodesk AEC Collection</strong></a>.</p>                                                                                                                                                                                                                                                                                                  |
+| 요구사항 | 상세 정보 |
+| :--- | :--- |
+| **운영 체제** | Microsoft® Windows® 8, 8.1 또는 10 _주: Parallels Desktop은 OpenGL 드라이버의 성능 저하 및 그래픽 문제로 인해 공식적으로 지원되지 않습니다._ |
+| **CPU** | Intel® Pentium®, Xeon®, i-Series 프로세서 또는 SSE2 기술이 적용된 동급 AMD®. CPU 정격 속도는 가장 높은 것을 권장합니다. |
+| **메모리** | 최소 4GB RAM, 8GB 이상 권장 |
+| **비디오 카드\(GPU\)** | OpenGL 4.2 및 DirectX 11 이상을 지원하는 개별 NVIDIA 또는 AMD GPU를 사용하는 것이 좋습니다. 전환 가능한 그래픽 카드가 있는 시스템의 경우 제조업체 지침에 따라 FormIt이 항상 전용 GPU를 사용하도록 하십시오. [AMD](https://www.amd.com/ko/support/kb/faq/dh-017) 및 [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1)에 대한 지침을 참고하십시오. 최상의 성능과 신뢰성을 위해 제조업체의 웹 사이트나 Windows 업데이트를 통해 그래픽 카드 드라이버를 최신 상태로 유지해야 합니다. FormIt이 시작될 때 오래된 드라이버 또는 기타 문제로 인해 비디오 카드를 사용할 수 없는 경우 메시지가 표시됩니다. 드라이버를 업데이트한 후 FormIt을 시작할 수 없는 경우 [포럼에 문의](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en)하십시오. |
+| **디스크 공간** | 1GB의 사용 가능한 디스크 공간 |
+| **연결 및 라이센싱** | Windows에서 FormIt Pro를 실행하려면 FormIt Pro 클라우드 서브스크립션이 있는 Autodesk 계정이 필요합니다. FormIt Pro는 [**Autodesk AEC 컬렉션**](https://www.autodesk.co.kr/collections/architecture-engineering-construction/overview)의 일부로 제공됩니다. |
 
-## Offline Access
+## 권장 Windows DPI 설정
 
-When you first run FormIt for Windows, you need to be connected to the internet so your license can be validated. After the first sign-in, you can use the app offline for 30 days. After this, you’ll need to go online to validate your license again.
+Windows용 FormIt은 디스플레이 화면이 Windows에서 125% 이하의 DPI 배율로 설정된 경우 가장 잘 작동합니다.
 
-When using FormIt for Windows offline, some functionality will be limited:
+이 설정은 Windows 10에서 다음을 수행하여 변경할 수 있습니다.
 
-* The Set Location tool will not function, as it requires an internet connection to retrieve satellite and terrain data from Bing Maps.&#x20;
-  * However, any existing satellite and terrain already in the model from a previous online session will remain.&#x20;
-* Any plugins, including the Plugin Manager, will not load, as they get the latest code from GitHub on every application launch.&#x20;
-  * Workaround: If you load up all your plugins while online and keep the FormIt session running when going offline, the plugins that were previously loaded will remain and function normally.
-* Sample materials will not load, since they come from a cloud-hosted server.&#x20;
-  * Workaround: Navigate into the sample materials category folders while connected to the internet. The folders are downloaded and stored on your machine and can be accessed later when offline.&#x20;
-* You will not be able to save to or open from Autodesk Docs, including from within the Content Library.
+* 시작 메뉴에서 "디스플레이"를 검색하고 "디스플레이 설정 변경"을 선택합니다.
+* FormIt에서 사용할 모니터를 나타내는 직사각형을 선택합니다.
+* "배율 및 레이아웃" 섹션에서 "텍스트, 앱 및 기타 항목의 크기" 드롭다운을 열고 125% 이하의 값을 선택합니다.
 
-## Recommended Windows DPI Settings
-
-FormIt for Windows works best when the display screen is set to 125% or less DPI scaling in Windows.
-
-You can change this in Windows 10 by doing the following:
-
-* Search "Display" in the Start Menu, and choose "Change Display Settings"&#x20;
-* Select the rectangle representing the monitor you'll be using with FormIt
-* Under "Scale and Layout" section, open the "Size of text, apps, and other items" dropdown and select a value of 125% or less
-
-## Troubleshooting
-
-### Windows 10 system error
-
-If you're running FormIt on Windows 10 version 1909, you may see this error message:
-
-![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
-
-This is due to a known issue with certain versions of Windows 10 Pro N. To avoid this error, download the Media Feature Pack for your version of Windows 10 here: [Media Feature Pack List for Windows N Editions](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a).
-
-### Unable to sign in
-
-When attempting to sign in to your account in FormIt, the login dialog may hang, preventing you from proceeding. If this happens, you may need to unblock \*.autodesk.com in your network firewall. Contact your IT department for support.

@@ -1,93 +1,94 @@
-# Visual Styles
+# 비주얼 스타일
 
-Customize the visual appearance of your model, including overall lighting, edge styles, and environmental effects. The Visual Styles panel can be found by clicking the sunglasses icon in the palette bar:
+전체 조명, 모서리 스타일 및 환경 효과를 포함하여 모델의 비주얼 모양을 사용자 지정합니다. 비주얼 스타일 패널은 팔레트 막대에서 선글라스 아이콘을 클릭하여 찾을 수 있습니다.
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Visual Styles [can be set per-Scene](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), so you can save your favorite style settings and apply them to other Scenes.
+비주얼 스타일은 [장면별로 설정할 수 있습니다](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings). 따라서 자주 사용하는 스타일 설정을 저장하고 다른 장면에 적용할 수 있습니다.
 
-## Surfaces
+## 표면
 
-Manage the way surfaces are displayed and shaded.
+표면이 표시되고 음영처리되는 방식을 관리합니다.
 
-![](<../.gitbook/assets/visual\_styles (1).png>)
+![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness as defined in the material's color or texture. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
+**주변 밝기**는 장면에 있는 모든 재료의 전체 밝기를 제어합니다. 값이 100이면 조명에 노출된 재료가 재료의 색상 또는 텍스처에 정의된 대로 전체 밝기로 표시됩니다. 값이 100을 넘으면 재료가 과도하게 노출되지만 FormIt에서 여전히 어둡게 보이는 SketchUp 모델에 유용할 수 있습니다. 기본값은 100입니다. 
 
-**Ambient Contrast** controls how much darker faces in shade appear, when compared to faces exposed to direct sunlight. A value of 0 means that lighting has no effect (all materials will appear at their full brightness regardless of orientation), whereas higher values will make faces in shade appear increasingly darker. The default value is 25.
+**주변 대비**는 직사광선에 노출된 면과 비교할 때 음영의 면이 얼마나 더 어둡게 나타나는지를 제어합니다. 값이 0이면 조명이 영향을 주지 않음을 의미하고\(모든 재료는 방향에 관계없이 전체 밝기로 표시됨\), 값이 클수록 음영의 면이 더 어둡게 나타납니다. 기본값은 25입니다.
 
-Toggle **Shadows** to see how your design would be [shaded at the current time of day](https://windows.help.formit.autodesk.com/tool-library/shadows).
+설계가 [하루 중 현재 시간에 어떻게 음영처리되는지](https://windows.help.formit.autodesk.com/tool-library/shadows) 확인하려면 **그림자**를 전환합니다.
 
-**Shadow Intensity** controls how dark shadows draw on the ground plane and other faces. A value of 0 will make shadows effectively invisible, and a value of 100 will make shadows black. The default value is 20.
+**그림자 강도**는 그림자가 지반 면 및 다른 면에 얼마나 어둡게 그려지는지를 제어합니다. 값이 0이면 그림자가 사실상 표시되지 않고 값이 100이면 그림자가 검은색으로 변합니다. 기본값은 20입니다.
 
-**Ambient Shadows** add a touch of shading to corners to add realism to your FormIt model.
+**앰비언트 그림자**는 코너에 음영처리 터치를 추가하여 FormIt 모델에 사실성을 더합니다.
 
-**Monotone Surfaces** disables the color and texture of all materials, and makes the surrounding environment white. Useful for shadow or shading studies.
+**단조 표면**은 모든 재료의 색상과 텍스처를 사용 안 함으로 설정하고 주변 환경을 흰색으로 만듭니다. 그림자 또는 음영 연구에 유용합니다.
 
-The Surface Colors section defines default colors for faces when no material is applied.
+표면 색상 섹션은 재료가 적용되지 않은 경우 면의 기본 색상을 정의합니다.
 
-**Faces** is the default color of all front-facing FormIt faces (or both sides, if Back Faces is unchecked) when no material is applied.
+**면**은 재료가 적용되지 않은 경우 모든 정면 FormIt 면\(또는 뒷면이 선택되지 않은 경우 양쪽 면\)의 기본 색상입니다.
 
-**Back Faces** is used to display different materials on either side of a single face, for SketchUp models that are imported into FormIt and require this. This option is unchecked by default, but is checked when SketchUp models are opened or imported. In non-SketchUp geometry, the specified Back Face color will shown on the back sides of faces.
+**뒷면**은 FormIt으로 가져온 SketchUp 모델에 대해 단일 면의 양쪽에 서로 다른 재료를 표시하는 데 사용됩니다. 이 옵션은 기본적으로 선택되어 있지 않지만 SketchUp 모델을 열거나 가져올 때 선택됩니다. SketchUp 이외의 형상에서 지정된 뒷면 색상이 면의 뒷면에 표시됩니다.
 
-Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
+[단면 평면](section-planes.md) 도구를 사용하는 경우 면, 선 및 지면 횡단면 효과의 기본 색상을 관리하려면 단면 절단 효과 및 단면 지면 횡단면 효과 섹션을 사용합니다.
 
-### Edges
+## 지반 면
 
-Manage the display style of all edges in the model.
+그룹 편집 모드에서 지반 면이 꺼져 있으면 파란색 작업 기준면 그리드도 꺼집니다.
 
-![](../.gitbook/assets/edges.png)
+작업 기준면의 색상은 비주얼 스타일 패널에서 사용자 지정할 수도 있습니다.
 
-**Contrast** affects how visible all edges are. A value of 0 would make the edges effectively invisible. The default value is 60.
+![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-**Color** affects the color of all edges in the model. The default is black.
+## 모서리
 
-**Thick Edges** make all edges thicker, including Silhouette Edges.
+모델에 있는 모든 모서리의 표시 스타일을 관리합니다.
 
-**Sketchy Edges** adds a sketchy effect to all edges, to simulate a hand-drawn effect.
+![](../.gitbook/assets/edges.PNG)
 
-**Hidden Edges** displays edges otherwise occluded by surfaces.
+**대비**는 모든 모서리가 표시되는 방식에 영향을 줍니다. 값이 0이면 모서리가 사실상 표시되지 않습니다. 기본값은 60입니다.
 
-**Extended Edges** adds an extension to some edges, to simulate a hand-drawn effect.
+**색상**은 모델의 모든 모서리 색상에 영향을 줍니다. 기본값은 검은색입니다.
 
-## Environment
+**두꺼운 모서리**를 사용하면 실루엣 모서리를 포함하여 모든 모서리가 더 두꺼워집니다.
 
-Toggle display of environmental effects and helper objects.
+**스케치 모서리**는 모든 모서리에 스케치 효과를 추가하여 손으로 그린 효과를 시뮬레이션합니다.
 
-![](../.gitbook/assets/visual-styles1.PNG)
+**숨겨진 모서리**는 표면에 가려져 있는 모서리를 표시합니다.
 
-**Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
+**확장된 모서리**는 일부 모서리를 확장하여 손으로 그린 효과를 시뮬레이션합니다.
 
-**Axes** controls the display of the XYZ axes that shows up at the world origin, or at the Group origin if editing a Group.
+## 환경
 
-**Levels** controls the display of [**Levels**](levels-and-area.md) set in the Levels Panel.
+환경 효과 및 도우미 객체의 표시를 전환합니다.
 
-**Fog** controls the display of fog that is drawn to make the transition between the ground plane and the sky appear seamless. Turning off Fog will result in a hard horizon line where the ground plane (if enabled) meets the sky.
+![](../.gitbook/assets/environment.PNG)
 
-**North Arrow** controls the display of a small graphical widget that indicates the direction of project north (as determined by location and satellite imagery).
+**그리드**는 지반 면의 그리드 표시와 그룹을 편집할 때 표시되는 그리드를 제어합니다. 그리드가 사용 안 함으로 설정되어 있으면 "그리드로 스냅" 옵션이 사용 안 함으로 설정됩니다.
 
-Environmental colors like sky, background, and ground plane can also be customized.
+**축**은 표준 원점 또는 그룹 원점(그룹을 편집하는 경우)에 표시되는 XYZ 축의 표시를 제어합니다.
 
-The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors.
+**레벨**은 레벨 패널에 설정된 [**레벨**](levels-and-area.md)의 표시를 제어합니다.
 
-If the **Sky** option is unchecked, only the **Lower / Background** color will be visible.
+**안개**는 지반 면과 하늘 사이의 변환이 원활하게 나타나도록 하기 위해 그려진 안개의 표시를 제어합니다. 안개를 끄면 지반 면\(사용하도록 설정된 경우\)이 하늘과 만나는 수평선이 뚜렷하게 나타납니다.
 
-Control **ground plane** transparency by using the slider.
+**북쪽 화살표**는 도북 방향을 나타내는 작은 그래픽 위젯의 표시를 제어합니다\(위치 및 위성 이미지에 따라 결정됨\).
 
-When the ground plane is toggled off in Group Edit Mode, the blue work plane grid is now toggled off, also.&#x20;
+하늘, 배경 및 지반 면과 같은 환경 색상도 사용자 지정할 수 있습니다.
 
-The color of the **work plane** can also be customized from the Visual Styles panel.&#x20;
+하늘은 **하단/배경**, **중간** 및 **상단** 색상의 그라데이션으로 구성됩니다.
 
-![](<../.gitbook/assets/Visual styles - ground plane transparency.png>)
+**하늘** 옵션을 선택 취소하면 **하단/배경** 색상만 표시됩니다.
 
-## Diagnostics
+## 진단
 
-Toggle the display of diagnostic tools.
+진단 도구의 표시를 전환합니다.
 
-![](../.gitbook/assets/diagnostics.png)
+![](../.gitbook/assets/diagnostics.PNG)
 
-**Watertight Issues** highlights in red all edges that are not part of a watertight solid object.
+**수밀 문제**는 수밀 솔리드 객체의 일부가 아닌 모든 모서리를 빨간색으로 강조표시합니다.
 
-**Back Faces** highlights in red all faces that are facing the wrong way (all solid objects should have the back faces facing towards the inside of the solid shape).
+**뒷면**은 잘못된 방향을 향하고 있는 모든 면을 빨간색으로 강조표시합니다\(모든 솔리드 객체의 뒷면은 솔리드 모양 내부를 향해야 함\).
 
-[Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[수밀 및 뒷면 진단 사용에 대해 자세히 알아보고 솔리드 모델의 문제를 식별하고 수정하십시오](https://formit.autodesk.com/blog/post/repairing-solid-models).
+

@@ -1,77 +1,78 @@
-# Toolbars and Palettes
+# 도구막대 및 팔레트
 
-## Toolbars
+## 도구막대
 
-The standard toolbar is enabled by default, but is split into the following sections. You can optionally enable, disable, and rearrange individual sections using the Windows menu.
+표준 도구막대는 기본적으로 사용으로 설정되어 있지만, 다음과 같은 섹션으로 나누어져 있습니다. 필요에 따라 창 메뉴를 사용하여 개별 섹션을 사용, 사용 안 함으로 설정하고 재정렬할 수 있습니다.
 
-### File
+### 파일
 
-![](../.gitbook/assets/file\_icons.png)
+![](../.gitbook/assets/file_icons.png)
 
-1. **File menu** with file operations like Open, Save, and Export
-2. **Undo** your last change
-3. **Redo** a change you undid
+1. 열기, 저장 및 내보내기와 같은 파일 작업이 포함된 **파일 메뉴**
+2. 마지막 변경 사항 **실행취소**
+3. 실행 취소한 변경 사항 **재실행**
 
-### Geometry
+### 형상
 
-![](<../.gitbook/assets/geometry\_icons (1).png>)
+![](../.gitbook/assets/geometry_icons%20%281%29.png)
 
-1. [**Selection**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) and area selection filters
-2. [**Measure** ](../tool-library/measure-tool.md)Distance and [**Measure Angle**](../tool-library/measure-angle-tool.md) tools
-3. [**Section Planes**](../tool-library/section-planes.md)
-4. [**3D Sketching Tools**](../formit-primer/part-i/3d-sketching.md)
-5. [**Primitive** ](../tool-library/place-primitive-object.md)toolbar
-6. [**Advanced Geometry**](tool-bars.md) toolbar with Join, Cut, Sweep, Loft, and Shell
-7. [**Groups** ](../tool-library/groups.md)toolbar
+1. \*\*\*\*[**선택사항**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) ****및 면적 선택 필터
+2. [**거리** ](../tool-library/measure-tool.md)측정 및 [**각도 측정**](../tool-library/measure-angle-tool.md) ****도구
+3. [**단면 평면**](../tool-library/section-planes.md)
+4. [**3D 스케치 도구**](../formit-primer/part-i/3d-sketching.md)
+5. [**원형** ](../tool-library/place-primitive-object.md)도구막대
+6. 결합, 절단, 스윕, 로프트 및 쉘이 포함된 [**고급 형상**]() 도구막대
+7. [**그룹** ](../tool-library/groups.md)도구막대
 
-### Settings
+### 설정
 
-![](../.gitbook/assets/settings\_icons.png)
+![](../.gitbook/assets/settings_icons.png)
 
-1. **Settings** menu for UI and app settings.
-2. **Touch Mode** to enable interactions on touch screen devices.
-3. [**Collaboration**](../tool-library/collaboration.md) for managing collaboration sessions with multiple users.
-4. **Autodesk account login.**
-5. **Information** menu for help and links.
+1. UI 및 앱 설정에 대한 **설정** 메뉴
+2. 터치 스크린 장치에서의 상호 작용을 지원하는 **터치 모드**
+3. 여러 사용자와의 공동작업 세션을 관리할 수 있는 [**공동작업**](../tool-library/collaboration.md)
+4. **Autodesk 계정 로그인**
+5. 도움말 및 링크에 대한 **정보** 메뉴
 
-### Design
+### 설계
 
-![](../.gitbook/assets/design\_icons.png)
+![](../.gitbook/assets/design_icons.png)
 
-1. [**Location** ](../tool-library/setting-location.md)
-2. [**Sun, Shadows, and Solar Analysis**](../tool-library/solar-analysis.md)
-3. [**Energy Analysis**](../tool-library/energy-analysis.md)
+1. [**위치** ](../tool-library/setting-location.md)
+2. [**태양, 그림자 및 일조 해석**](../tool-library/solar-analysis.md)
+3. [**에너지 해석**](../tool-library/energy-analysis.md)
 
-## Palette
+## 팔레트
 
-![](<../.gitbook/assets/properties (1).png>) [**Properties**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](../.gitbook/assets/properties%20%281%29.png) [**특성**](https://windows.help.formit.autodesk.com/tool-library/properties)\*\*\*\*
 
-![](../.gitbook/assets/layers.png) [**Layers**](../tool-library/layers.md)
+![](../.gitbook/assets/layers.png) [**레이어**](../tool-library/layers.md)
 
-![](../.gitbook/assets/scenes.png) [**Scenes**](../tool-library/scenes.md)
+![](../.gitbook/assets/scenes.png) [**장면**](../tool-library/scenes.md)
 
-![](../.gitbook/assets/visual\_styles.png) [**Visual Styles**](../tool-library/visual-styles.md)
+![](../.gitbook/assets/visual_styles.png) [**비주얼 스타일**](../tool-library/visual-styles.md)
 
-![](../.gitbook/assets/branch\_tree.png) [**Groups Tree**](../tool-library/groups-tree.md)
+![](../.gitbook/assets/branch_tree.png) [**그룹 트리**](../tool-library/groups-tree.md)
 
 ![](../.gitbook/assets/dynamo.png) [**Dynamo**](../tool-library/dynamo.md)
 
-![](../.gitbook/assets/levels.png) [**Levels**](../tool-library/levels-and-area.md)
+![](../.gitbook/assets/levels.png) [**레벨**](../tool-library/levels-and-area.md)
 
-![](../.gitbook/assets/content\_library.png) [**Content Library**](../tool-library/content-library.md)
+![](../.gitbook/assets/content_library.png)[**컨텐츠 라이브러리**](../tool-library/content-library.md)
 
-![](../.gitbook/assets/undo.png) [**Undo Manager**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
+![](../.gitbook/assets/undo.png) [**실행취소 관리자**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin\_img.png) [**Plug-Ins**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
+![](../.gitbook/assets/plugin_img.png) [**플러그인**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)\*\*\*\*
 
-## Context Menu
+## 상황에 맞는 메뉴
 
-Right-click on an element in the 3D canvas to display a menu of commands and modifications for that type of geometry. Hover over the icons to see their names.
+3D 캔버스에서 요소를 마우스 오른쪽 버튼으로 클릭하여 해당 유형의 형상에 대한 명령 및 수정 메뉴를 표시할 수 있습니다. 아이콘 위에 마우스 커서를 놓으면 해당 이름을 볼 수 있습니다.
 
-![](../.gitbook/assets/wheel\_img.png)
+![](../.gitbook/assets/wheel_img.png)
 
-## Keyboard Shortcuts
+## 키보드 바로 가기
 
-Customize your FormIt [k**eyboard shortcuts**](../appendix/keyboard-shortcuts.md) in Edit > Preferences > Shortcuts.
+편집 &gt; 기본 설정 &gt; 바로 가기에서 FormIt [키**보드 바로 가기**](../appendix/keyboard-shortcuts.md)를 사용자화할 수 있습니다.
 
-![](<../.gitbook/assets/shortcuts\_img (1).png>)
+![](../.gitbook/assets/shortcuts_img.png)
+

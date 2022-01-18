@@ -1,137 +1,138 @@
-# 1.7 - Paint with Materials
+# 1.7 - 재료로 페인트
 
-As we saw in an **earlier exercise**, you can create your own materials, and then paint faces with those materials in FormIt. In this exercise, you will create and edit more materials as well as import materials from the Autodesk Material Library.
+**이전 연습**에서 본 것처럼 고유한 재료를 만든 다음 FormIt에서 해당 재료로 면을 페인트할 수 있습니다. 이 연습에서는 더 많은 재료를 작성 및 편집하고 Autodesk 재료 라이브러리에서 재료를 가져옵니다.
 
-_If you did not complete the last section, download and open the_ _**1.7 - Paint with Materials.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_마지막 섹션을 완료하지 않은 경우_ _**FormIt Primer 1부 데이터세트**에서_ _**1.7 - Paint with Materials.axm**_ _파일을 다운로드하고 엽니다._
 
-## **Create the Glass Walls**
+## **유리 벽 작성**
 
-1 - To view the plan containing the dimensions we are going to reference, go to the **Layer Palette** and turn on the **Plan Image** layer.
+1 - 참조할 치수가 포함된 평면도를 보려면 **레이어 팔레트**로 이동하여 **평면도 이미지** 레이어를 켭니다.
 
-2 - Select the **Rectangle Tool (R)**. We are going to create a rectangle directly on top of the existing floor group. Make sure you are not editing the Floor Group but drawing on top of the existing grouped object.
+2 - **직사각형 도구\(R\)**를 선택합니다. 기존 바닥 그룹 위에 직사각형을 직접 작성하겠습니다. 바닥 그룹을 편집하지 않고 기존의 그룹화된 객체 위에 그려야 합니다.
 
-![](<../../.gitbook/assets/0 (3).png>)
+![](../../.gitbook/assets/0%20%283%29.png)
 
-3 - To start the rectangle for the glass area:
+3 - 유리 영역에 대한 직사각형을 시작하려면 다음을 단계를 수행합니다.
 
-1. Click at the back corner of the existing floor and move the mouse along its shorter edge.
-2. Type **28’-8”** to define the first edge length, and click **OK**. This should be the same length as the existing short edge of the floor.
-3. To define the second edge, start moving the mouse along the existing floor’s longer edge. Type **55'-5 ½"** to set the length of the second edge, then click **OK**.
-4. Click **Esc** to exit the rectangle tool. Single-click inside the new rectangle to select the face and start dragging it up.
+1. 기존 바닥의 뒤쪽 구석을 클릭하고 더 짧은 모서리를 따라 마우스를 이동합니다.
+2. **28'-8"**를 입력하여 첫 번째 모서리 길이를 정의하고 **확인**을 클릭합니다. 이 길이는 바닥의 기존 짧은 모서리와 같아야 합니다.
+3. 두 번째 모서리를 정의하려면 기존 바닥의 더 긴 모서리를 따라 마우스를 이동하기 시작합니다. **55'-5 ½"**를 입력하여 두 번째 모서리의 길이를 설정한 다음 **확인**을 클릭합니다.
+4. **Esc** 키를 클릭하여 직사각형 도구를 종료합니다. 새 직사각형 내부를 한 번 클릭하여 면을 선택하고 위로 끌기 시작합니다.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](../../.gitbook/assets/1%20%283%29.png)
 
-4 - To define the height, move the mouse upwards along the **Z Axis**, press the **Tab** key, and enter **11'-2"**.
+4 - 높이를 정의하려면 마우스를 **Z축**을 따라 위로 이동하고 **Tab** 키를 누른 다음 **11'-2"**를 입력합니다.
 
-![](<../../.gitbook/assets/2 (4) (1).png>)
+![](../../.gitbook/assets/2%20%284%29.png)
 
-_**Note:**_ _Anytime you are using a tool for which you can enter a dimension, you can either press_ _**Tab**_ _or just start typing numbers!_
+_**주:**_ _치수를 입력할 수 있는 도구를 사용할 때마다_ _**Tab**_ _키를 누르거나 숫자 입력을 시작하면 됩니다._
 
-5 - Double-click and **Group (G)** the new geometry.
+5 - 새 형상을 두 번 클릭하여 **그룹화\(G\)**합니다.
 
-6 - Double-click the group to edit it. In the **Properties Palette** name the group **Glass Walls.**
+6 - 그룹을 두 번 클릭하여 편집합니다. **특성 팔레트**에서 그룹 이름을 **유리 벽**
 
-![](<../../.gitbook/assets/3 (3).png>)
+![](../../.gitbook/assets/3%20%283%29.png)
 
-7 - To define the glass wall’s thickness:
+7 - 유리 벽의 두께를 정의하려면 다음 단계를 수행합니다.
 
-1. Right-click on the top face and choose the **Offset Face Tool (OF).**
-2. Move your mouse cursor inward, and type in **4".**
-3. Click **Esc** twice to clear the tool, and the selection.
+1. 상단 면을 마우스 오른쪽 버튼으로 클릭하고 **면 간격띄우기 도구\(OF\)**
+2. 마우스 커서를 안쪽으로 이동하고 **4"**
+3. **Esc** 키를 두 번 클릭하여 도구와 선택 항목을 지웁니다.
 
-![](<../../.gitbook/assets/4 (17).png>)
+![](../../.gitbook/assets/4%20%2817%29.png)
 
-​_**Note:**_ _The default unit for imperial projects are feet, similar to Revit. If you enter a single number without a specified unit, like_ _**4**, you will get_ _**4 feet (4’)**_ _and not_ _**4 inches (4”)**._
+​_**주:**_ _영국식 프로젝트의 기본 단위는 피트이며 Revit과 유사합니다. **4**와 같이 지정된 단위 없이 단일 숫자를 입력하면_ _**4인치\(4”\)**가 아니라_ _**4피트\(4’\)**_ _가 됩니다._
 
-8 - To carve out the interior area, single-click the interior top face to select it, then click again to start the **drag face** operation. Push the face all the way down, until it disappears, and click in the space to finish the process.
+8 - 내부 영역을 조각하려면 내부 상단 면을 한 번 클릭하여 선택한 다음 다시 클릭하여 **면 끌기** 작업을 시작합니다. 면이 사라질 때까지 면을 끝까지 아래로 밀고, 공간을 클릭하여 프로세스를 마칩니다.
 
-![](<../../.gitbook/assets/5 (12).png>)
+![](../../.gitbook/assets/5%20%2812%29.png)
 
-_**Note:**_ _In FormIt, unlike other software, you cannot accidentally push the face you are trying to delete ‘too far’ such that a new negative extrusion is formed._
+_**주:**_ _FormIt에서는 다른 소프트웨어와 달리 삭제하려는 면을 실수로 '너무 멀리' 밀어서 새 음수 돌출이 형성되는 일이 생기지 않습니다._
 
-9 - End **Edit Group** mode by double-clicking off in space or pressing **Esc.**
+9 - 공간을 두 번 클릭하거나 **Esc** 키를 눌러 **그룹 편집**
 
-10 - Select the **Glass Walls** group with a single-click and put it on the **Main Building Floor** layer.
+10 - **유리 벽** 그룹을 한 번 클릭하여 선택하고 **주 건물 바닥** 레이어에 배치합니다.
 
-![](<../../.gitbook/assets/6 (13) (1).png>)
+![](../../.gitbook/assets/6%20%2813%29.png)
 
-## **Import a Material from the Autodesk Material Library**
+## **Autodesk 재료 라이브러리에서 재료 가져오기**
 
-1 - Edit the **Glass Walls** group again by double-clicking into it.
+1 - **유리 벽** 그룹을 두 번 클릭하여 다시 편집합니다.
 
-2 - To import a new material to the model:
+2 - 새 재료를 모델로 가져오려면 다음 작업을 수행합니다.
 
-1. Go to the **Materials Palette**.
-2. Choose **Material Sample** in the drop-down menu at the top of the palette to navigate through the **Autodesk Material Library.** ​
-3. Click on the **Glass+Glazing** folder to open it.
-4. Find the **Glass – Blue Tint** material and single-click on it to add that material to your **In Sketch** material library.
-5. Note that you should be back in the **In Sketch** library, which now includes the newly selected material.
+1. **재료 팔레트**로 이동합니다.
+2. 팔레트 맨 위에 있는 드롭다운 메뉴에서 **재료 샘플**을 선택하여 **Autodesk 재료 라이브러리**를 탐색합니다.​
+3. **유리+글레이징** 폴더를 클릭하여 엽니다.
+4. **유리 - 파란색 착색** 재료를 찾아 한 번 클릭하여 해당 재료를 **스케치에서** 재료 라이브러리에 추가합니다.
+5. 이제 새로 선택한 재료가 포함된 **스케치에서** 라이브러리로 돌아가야 합니다.
 
-![](<../../.gitbook/assets/7 (8) (1).png>)
+![](../../.gitbook/assets/7%20%288%29.png)
 
-![](<../../.gitbook/assets/8 (8).png>)
+![](../../.gitbook/assets/8%20%288%29.png)
 
-3 - After adding the material, you should automatically be in the **Paintbrush** tool. If not, simply single-click on the **Glass – Blue Tint** material again. To paint all the walls, double-click the geometry with the **Painbrush** tool. This will apply the selected material to the entire object. ![](<../../.gitbook/assets/9 (1).png>)​
+3 - 재료를 추가하면 **페인트 브러시** 도구가 자동으로 표시되어야 합니다. 그렇지 않은 경우 **유리 - 파란색 착색** 재료를 다시 한 번 클릭하기만 하면 됩니다. 모든 벽을 페인트하려면 **페인트 브러시** 도구를 사용하여 형상을 두 번 클릭합니다. 이렇게 하면 선택한 재료가 전체 객체에 적용됩니다. ![](../../.gitbook/assets/9%20%281%29.png)​
 
-4 - Click **Esc** to exit the **Paintbrush** tool. Click **Esc** again, or double-click off in space to exit the group.
+4 - **Esc** 키를 클릭하여 **페인트 브러시** 도구를 종료합니다. **Esc** 키를 다시 클릭하거나 공간을 두 번 클릭하여 그룹을 종료합니다.
 
-## **Quick Copy the Floor to Create the Roof**
+## **바닥을 빠르게 복사하여 지붕 작성**
 
-1 - To quickly create the roof based on the floor geometry:
+1 - 바닥 형상을 기반으로 지붕을 빠르게 작성하려면 다음 단계를 수행합니다.
 
-1. Select the **Floor** group with a single-click.
-2. Click one of the lower corners to start the **Move** tool.
-3. Start moving the floor up along the blue axis (**Z Axis**). Create a **quick copy** by tapping the **Ctrl** key. A "ghost" preview of the copy should appear. ​
-4. While moving along the blue axis (**Z Axis**), start typing **12' 2"** and a **Dimension Dialog** will appear. Click **OK** or press **Enter** to finalize the position.
+1. 클릭 한 번으로 **바닥** 그룹을 선택합니다.
+2. 하단 코너 중 하나를 클릭하여 **이동** 도구를 시작합니다.
+3. 파란색 축\(**Z축**\)을 따라 바닥을 위로 이동하기 시작합니다. **Ctrl** 키를 눌러 **빠른 복사**를 작성합니다. 복사본의 '가상' 미리보기가 나타나야 합니다. ​
+4. 파란색 축\(**Z축**\)을 따라 이동하는 동안 **12' 2"**를 입력하기 시작하면 **치수 대화상자**가 나타납니다. **확인**을 클릭하거나 **Enter** 키를 눌러 위치 지정을 마무리합니다.
 
-![](<../../.gitbook/assets/10 (1).png>)
+![](../../.gitbook/assets/10%20%281%29.png)
 
-![](<../../.gitbook/assets/11 (1).png>)
+![](../../.gitbook/assets/11%20%281%29.png)
 
-## **Edit the Roof**
+## **지붕 편집**
 
-1 - While the copied group is still selected, use the **Make Unique (MU)** command to disassociate this group from the floor group.
+1 - 복사된 그룹이 여전히 선택된 상태에서 **고유하게 설정\(MU\)** 명령을 사용하여 이 그룹을 바닥 그룹에서 연관 해제합니다.
 
-2 - Double-click the group to edit it. Re-name the group to **Roof** in the **Properties Palette**. Exit the group by double-clicking off in space.
+2 - 그룹을 두 번 클릭하여 편집합니다. **속성 팔레트**에서 그룹 이름을 **지붕**로 다시 바꿉니다. 공간을 두 번 클릭하여 그룹을 종료합니다.
 
-3 - In the **Layers Palette**, make a new **Layer** called **Roof** and add the **Roof** group to it. You can toggle the layer on and off to verify the correct elements are on the roof. Refer to **Chapter 6** for more information on how to work with **Layers**.
+3 - **레이어 팔레트**에서 **지붕**이라는 새 **레이어**를 만들고 여기에 **지붕** 그룹을 추가합니다. 레이어를 켜고 꺼서 지붕에 올바른 요소가 있는지 확인할 수 있습니다. **레이어**로 작업하는 방법에 대한 자세한 내용은 **6장**을 참조하십시오.
 
-4 - Navigate back to the **Materials Palette** and import the **Concrete - Broom Finish - Colorized 1** material from the **Concrete+Asphalt** folder in the **Material Samples** **(Production)** library. Note that by clicking on the material, the selected geometry will be automatically painted, and the new material will be added to the **In Sketch** material library.
+4 - 다시 **재료 팔레트**로 이동하여 **재료 샘플** **\(프로덕션\)** 라이브러리의 **콘크리트+아스팔트** 폴더에서 **콘크리트 - 브러쉬 마감 - 색상 1** 재료를 가져옵니다. 재료를 클릭하면 선택한 형상이 자동으로 페인트되고 새 재료가 **스케치에서** 재료 라이브러리에 추가됩니다.
 
 ![](../../.gitbook/assets/12.jpeg)
 
-_**Note:**_ _Painting a group outside of_ _**Group Edit Mode**_ _is a helpful technique that allows you to paint different instances of the same group with different materials._
+_**주**_ _:_ _**그룹 편집 모드**_ _가 아닌 상태의 그룹을 페인트하는 것은 동일한 그룹의 다른 인스턴스(instance)를 다른 재료로 페인트할 수 있는 유용한 기술입니다._
 
-## **Create the Lower Terrace**
+## **낮은 테라스 작성**
 
-1 - Based on the **Plan Image**, create the lower terrace as a **Rectangle (R)** that is **55' 3"** long and **22'-7 3/4"** wide, and extrude it by 1’. Position the new rectangle so that it is 8 5/8” away from the main building South edge (the depth of the columns we will create later).
+1 - **평면도 이미지**를 기반으로 길이 **55' 3"**, 폭 **22'-7 3/4"**인 **직사각형\(R\)**으로 아래쪽 테라스를 작성하고 1’까지 돌출시킵니다. 주 건물 남쪽 모서리\(나중에 작성할 기둥의 깊이\)에서 8 5/8" 떨어진 위치에 새 직사각형을 배치합니다.
 
-_**Notes**:_
+_**주:**_
 
-* _Refer to previous chapters to learn how to draw and extrude rectangles._
-* _You may need to toggle_ _**Snap to Grid (SG)**_ _on or off to click at_ the terrace's corner.
+* _직사각형을 그리고 돌출시키는 방법을 알아보려면 이전 장을 참조하십시오._
+* _테라스 코너를 클릭하려면_ _**그리드로 스냅\(SG\)**_ _켜기/끄기를_ 전환해야 할 수 있습니다.
 
-2 - To finalize the lower terrace:
+2 - 아래쪽 테라스를 마무리하려면 다음 단계를 수행합니다.
 
-1. **Group (G)** the geometry and name it **Lower Terrace Floor**.
-2. **Move** the group up **2'-2"** off the ground plane.
-3. Create a new **Layer** called **Lower Terrace** and add the group to it.
-4. Add the **Terrace Level Floor** to the group.
+1. 형상을 **그룹화\(G\)**하고 이름을 **낮은 테라스 바닥**으로 지정합니다.
+2. 지반 면 설정에서 **2'-2"** 위로 떨어지도록 그룹을 **이동**합니다.
+3. **낮은 테라스**라는 새 **레이어**를 작성하고 이 레이어에 그룹을 추가합니다.
+4. **테라스 레벨 바닥**을 그룹에 추가합니다.
 
-![](<../../.gitbook/assets/13 (1).png>)
+![](../../.gitbook/assets/13%20%281%29.png)
 
-_**Note:**_ _This image doesn’t represent the step-by-step process to create and assign the geometry to groups, levels, and layers. For more information on these processes, refer to previous chapters in this Primer._
+_**주:**_ _이 이미지는 형상을 작성하여 그룹, 레벨 및 레이어에 할당하는 단계별 프로세스를 나타내지 않습니다. 이러한 프로세스에 대한 자세한 내용은 이 Primer의 이전 장을 참조하십시오._
 
-3 - Import the material **Stone > Stone - Travertine**.
+3 - **석재 &gt; 석재 - 트래버틴** 재료를 가져옵니다.
 
-4 - In the **Materials Palette**, find the imported **Travertine** material and modify it:
+4 - **재료 팔레트**에서 가져온 **트래버틴** 재료를 찾아 수정합니다.
 
-1. Double-click the preview tile to open the **Material Editor** pop-up.
-2. Click the **Color** preview tile to open the **Color Editor** pop-up.
-3. Change the **Val** field to **190** to darken the tint of the material.
+1. 미리보기 타일을 두 번 클릭하여 **재료 편집기** 팝업을 엽니다.
+2. **색상** 미리보기 타일을 클릭하여 **색상 편집기** 팝업을 엽니다.
+3. **값** 필드를 **190**으로 변경하여 재료의 색조를 어둡게 합니다.
 
-![](<../../.gitbook/assets/14 (2).png>)
+![](../../.gitbook/assets/14%20%282%29.png)
 
-5 - **Paint** the **Floor** and **Lower Terrace Floor** groups with the modified **Travertine** material.
+5 - 수정한 **트래버틴** 재료로 **바닥** 및 **낮은 테라스 바닥** 재료를 **페인트**합니다.
 
 ![](../../.gitbook/assets/15.jpeg)
+

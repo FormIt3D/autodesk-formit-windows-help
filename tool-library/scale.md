@@ -1,12 +1,13 @@
-# Scale Object
+# 객체 축척
 
-You can use the **Scale tool** to adjust the size and orientation of objects.
+**축척 도구**를 사용하여 객체의 크기와 방향을 조정할 수 있습니다.
 
-1. Select an object you want to adjust.&#x20;
-2. Right-click to launch the **Context Menu**.&#x20;
-3. From the Context Menu, select the **Scale tool**.&#x20;
-4. Use the scroll wheel on your mouse to scale the geometry up or down.
+1. 조정할 객체를 선택합니다.
+2. 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는 메뉴**를 시작합니다.
+3. 상황에 맞는 메뉴에서 **축척 도구**를 선택합니다.
+4. 마우스의 스크롤 휠을 사용하여 형상의 축척을 늘리거나 줄입니다.
 
 ![](../.gitbook/assets/scale1.png)
 
 ![](../.gitbook/assets/scale2.png)
+

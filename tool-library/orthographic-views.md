@@ -1,30 +1,26 @@
-# Orthographic Views
+# 직교 뷰
 
-View your model in various orthographic views, including top, sides, and bottom.
+**모델을 평면도, 측면도, 저면도 등 다양한 직교 뷰로 볼 수 있습니다.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-You'll find orthographic views in the View menu, by clicking the Orthographic icon in the floating navigation toolbar, or by using the shortcut V O. Click the Top View icon in the floating navigation toolbar to access several view options.
+**부동 탐색 도구막대에서 평면도 아이콘을 클릭하면 직교 뷰를 찾을 수 있습니다.**
 
-![](../.gitbook/assets/floating-nav\_flyout-v2.png)
+![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Some helpful hints when working with orthographic views:**
+**직교 뷰로 작업할 때 유용한 몇 가지 힌트:**
 
-* When switching between orthographic views, FormIt will maintain the zoom level for consistency.
-* When switching elevation views (front/right/left/back), FormIt will maintain the ground height for consistency.
-* You can hold Shift while Panning in an orthographic view to lock the Pan movement to the horizontal or vertical axis.
-*   Orthographic view directions are based on the world axes. You can realign the axes, which will change the orientations of all the orthographic views:
+* 직교 뷰 간을 전환할 때 FormIt은 일관성을 위해 줌 레벨을 유지합니다.
+* 입면도(전면/오른쪽/왼쪽/후면)를 전환할 때 FormIt은 일관성을 위해 지면 높이를 유지합니다.
+* Shift 키를 누른 채 직교 뷰에서 초점이동하는 동안 수평 또는 수직 축으로의 초점이동을 잠글 수 있습니다.
+* 직교 뷰 방향은 표준 축을 기준으로 합니다. 축을 재정렬하면 모든 직교 뷰의 방향이 변경됩니다.
+   * 바로 가기 SZ를 사용하거나 공간을 마우스 오른쪽 버튼으로 클릭합니다(형상 위 제외).
+   * ![](../.gitbook/assets/set-axes\_context.PNG)
+   * 원점을 설정하고, 빨간색 축에 그립을 설정하여 유의미한 방향으로 정렬합니다.
+   * ![](../.gitbook/assets/set-axes.PNG)
 
-    * Use shortcut SZ, or right-click in space (not over any geometry):
+**직교 뷰는 다른 FormIt 기능과 함께 작동합니다.**
 
-    ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
-
-    * Set the origin, and set the grip on the red axes to align it with a meaningful direction
-
-    ![](../.gitbook/assets/set-axes.PNG)&#x20;
-
-**Orthographic views work in conjunction with other FormIt features:**
-
-* Save elevation views as Scenes so you can return to them later.
-* Control visibility of geometry that might get in the way of elevation views using Layers.
-* Add Section Planes to create section-elevations.
+* 나중에 다시 돌아갈 수 있도록 입면도를 장면으로 저장합니다.
+* 레이어를 사용하여 입면도를 방해할 수 있는 형상의 가시성을 제어합니다.
+* 단면 평면을 추가하여 단면 입면을 작성합니다.

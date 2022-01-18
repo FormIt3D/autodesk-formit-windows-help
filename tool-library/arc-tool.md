@@ -1,23 +1,24 @@
-# Arc
+# 호
 
-Use the Arc tool to create half circles or symmetrical arcs. There are two ways to create arcs.
+호 도구를 사용하여 반원 또는 대칭 호를 작성할 수 있습니다. 호를 작성하는 방법에는 다음 두 가지 방법이 있습니다.
 
-## Arc by Three Points
+## 세 점에 의한 호
 
-![](../.gitbook/assets/arc\_three\_pts.png)
+![](../.gitbook/assets/arc_three_pts.png)
 
-An arc is defined by three points and can be drawn on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
+호는 세 점으로 정의되며 X, Y 및 Z축에 그릴 수 있습니다. 첫 번째 점을 정의한 다음, 첫 번째 점에서 두 번째 점까지의 거리를 결정하고 마지막으로 세 번째 점을 선택하여 호의 높이를 지정합니다. 스냅할 수 있는 '반원' 점이 자동으로 제공됩니다. 이 점을 넘어가면 호 선이 처음 두 점을 지나 연장됩니다.
 
-You can see the length between the first point and the second point as you're determining the second points next location; to manually specify a length, simply enter a value and a dimension box will appear.
+다음 위치에서 두 번째 점을 결정할 때 첫 번째 점과 두 번째 점 사이의 길이를 확인할 수 있습니다. 길이를 수동으로 지정하려는 경우 값을 입력하기만 하면 치수 상자가 나타납니다.
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-After drawing the arc, you can make a face using the [Line tool](line-tool.md) to connect the first and second points.
+호를 그린 후 [선 도구](line-tool.md)를 사용하여 첫 번째 점과 두 번째 점을 연결할 수 있습니다.
 
-## Arc by Center
+## 중심에 의한 호
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Choose the mid point of the arc, then drag to choose the center, and drag to define the length of the arc. Simply start typing a value to enter a precise number of degrees for the arc.
+호의 중간 점을 선택한 다음 끌어 중심을 선택하고, 다시 끌어 호의 길이를 정의합니다. 값 입력을 시작하여 호의 정확한 각도를 입력하기만 하면 됩니다.
 
-![](../.gitbook/assets/arc\_circle\_demo.gif)
+![](../.gitbook/assets/arc_circle_demo.gif)
+

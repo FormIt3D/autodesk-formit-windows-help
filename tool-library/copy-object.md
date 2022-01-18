@@ -1,28 +1,29 @@
-# Copy Object
+# 객체 복사
 
-There are three ways to copy an object.
+다음 세 가지 방법으로 객체를 복사할 수 있습니다.
 
-**Copy Using the Context Menu**
+**상황에 맞는 메뉴를 사용하여 복사**
 
-1. Select the object by double-clicking it.
-2. Right-click the object.
-3. Select the [**Copy tool**](tilt-array-copy-and-paste.md) in the Context Menu.
-4. Right-click anywhere else in the scene and choose the **Paste button**.
+1. 객체를 두 번 클릭하여 선택합니다.
+2. 객체를 마우스 오른쪽 버튼으로 클릭합니다.
+3. 상황에 맞는 메뉴에서 [**복사 도구**](tilt-array-copy-and-paste.md)를 선택합니다.
+4. 장면의 아무 곳이나 마우스 오른쪽 버튼으로 클릭하고 **붙여넣기 버튼**을 선택합니다.
 
-Note: This also works with **CTRL + C** or **V**. Use Paste In Place (**CTRL+Shift+V**) to paste an object exactly where it was copied from.
+주: **Ctrl+C** 또는 **Ctrl+V**를 눌러 복사하고 붙여넣을 수도 있습니다. 위치에 붙여넣기\(**Ctrl+Shift+V**\)를 사용하여 복사한 객체를 정확한 위치에 붙여넣습니다.
 
-**Copy Using the CTRL Key**
+**Ctrl 키를 사용하여 복사**
 
-1. Select the object by clicking it (double-click to select a whole body or everything attached).
-2. Press and hold the **CTRL key** and start dragging the object, or start moving the object and then tap **CTRL**
-3. Instead of moving the object, you'll now be moving a copy of it.
-4. Note that Ctrl-copy does not currently work when Touch Mode is enabled.&#x20;
-   1. In Touch Mode, you'll need to use the copy/paste tools in the Context Menu (press and hold) or use Ctrl+C and Ctrl+V, then place the object down, and reposition it as needed.
+1. 객체를 클릭하여\(전체 본체 또는 부착된 모든 항목을 선택하려면 두 번 클릭\) 선택합니다.
+2. **Ctrl 키**를 누른 상태에서 객체를 끌기 시작하거나 객체를 이동하기 시작한 다음 **Ctrl** 키를 누릅니다.
+3. 이제 객체를 이동하는 대신 복사본을 이동합니다.
+4. 현재, 터치 모드가 사용으로 설정되어 있으면 Ctrl+복사가 작동하지 않습니다.
+   1. 터치 모드에서는 상황에 맞는 메뉴의 복사/붙여넣기 도구를 사용하거나\(길게 누르기\), Ctrl+C 및 Ctrl+V를 사용한 다음 객체를 배치하고 필요에 따라 위치를 조정해야 합니다.
 
-**Copy Using the Array Tool**
+**배열 도구를 사용하여 복사**
 
-1. Select the object by double-clicking it
-2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
-3. Select the number of copies you want to make
-4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .**  ![](<../.gitbook/assets/array\_properties (2).png>)
+1. 객체를 두 번 클릭하여 선택합니다.
+2. 객체를 **마우스 오른쪽 버튼으로 클릭**하고 [**배열 도구**](tilt-array-copy-and-paste.md)를 선택합니다.
+3. 인쇄할 사본 수를 선택합니다.
+4. 다음번 끌기로 두 객체 사이의 거리를 정의할지 아니면 배열의 총 길이를 정의할지를 선택합니다.
+5. **확인을 클릭합니다.**  ![](../.gitbook/assets/array_properties.png)
+

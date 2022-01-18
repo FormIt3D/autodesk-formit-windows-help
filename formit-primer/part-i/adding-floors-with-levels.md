@@ -1,35 +1,36 @@
-# 1.4 - Add Floors with Levels
+# 1.4 - 레벨이 있는 바닥 추가
 
-_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
+_레벨을 사용하면 개별 바닥 기준으로 매스를 슬라이스하고 건물 매스당 총 면적을 계산할 수 있습니다. 파일이 Revit으로 변환되면 FormIt 레벨 및 해당 사용자 지정 이름이 Revit 레벨로 변환됩니다._
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
+_마지막 섹션을 완료하지 않은 경우 **FormIt 입문서 1부 데이터세트**에서 **1.4 - Add Floors with Levels.axm** 파일을 다운로드하고 엽니다._
 
-## **Create, and Customize Levels**
+## **레벨 작성 및 사용자화**
 
-1 - To create levels:
+1 - 레벨을 작성하려면
 
-1. Go to the **Level Palette** in the **Palette Bar**.
-2. Click **+** (**Add Level**) four times to create four Levels.
-3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
-4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
+1. **팔레트 막대**에서 **레벨 팔레트**로 이동합니다.
+2. **+**\(**레벨 추가**\)를 네 번 클릭하여 네 개의 레벨을 작성합니다.
+3. 각 레벨의 현재 높이를 두 번 클릭하여 **0’-0", 2'-2", 4'-6"** 및 **17’-8"**로 수정합니다.
+4. 각 레벨의 현재 이름을 두 번 클릭하고 이름을 **지반, 테라스, 주 건물** 및 **지붕 상단**
 
-![](<../../.gitbook/assets/0 (16) (1).png>)
+![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
+_**주**:_ _**++**_ _아이콘을 클릭하여 지정된 거리와 일정한 거리를 두고 여러 레벨을 작성할 수 있습니다. 이것은 다층 건물에 유용합니다_.
 
-## **Apply Levels to Geometry**
+## **형상에 레벨 적용**
 
-_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
+_이전 단계에서는 레벨만 작성했습니다. 이제 이러한 레벨을 작성한 형상에 적용해 보겠습니다._
 
-1 - To apply levels to the exiting geometry:
+1 - 기존 형상에 레벨을 적용하려면
 
-1. Select the entire upper terrace mass by double-clicking it.
-2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
-3. Now the currently selected geometry has three levels applied to it (**Main Building, Terrace,** and **Ground**), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
-4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
+1. 전체 상단 테라스 매스를 두 번 클릭하여 선택합니다.
+2. **특성 팔레트**에서 **레벨 사용**을 클릭합니다. 이 단계에서는 현재 선택한 형상과 교차하는 모든 레벨이 미리 선택됩니다.
+3. 이제 현재 선택한 형상에 세 개의 레벨\(**주 건물, 테라스** 및 **지반**\)이 적용되었지만 이 연습에서는 **지반**만 적용하려고 합니다. **주 건물**과 **테라스**를 선택 취소합니다.
+4. 이 프로세스를 수행하면 **레벨별 면적** 필드에서 볼 수 있는 총 면적 계산에 대해 **지반**으로 교차된 면적만 고려됩니다.
 
-![](<../../.gitbook/assets/1 (4) (1).png>)
+![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+_**주**: 매스에 파란색 레벨 선이 표시되지 않는 경우_ _**레벨 표시**에_ _**DL**_ _을 입력합니다._
 
-![](<../../.gitbook/assets/2 (3) (1).png>)
+![](../../.gitbook/assets/2%20%283%29.png)
+

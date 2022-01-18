@@ -1,13 +1,12 @@
-# Groups Tree
+# 그룹 트리
 
-The **Groups Tree** palette provides a single place to manage all of the groups in the file. The tree view displays nested groups and the Status column shows which group is currently being edited and whether the group is from Dynamo or Revit. The Instance column displays instance IDs to help differentiate instances of the same group.
+**그룹 트리** 팔레트에서는 파일의 모든 그룹을 관리할 수 있는 단일 위치를 제공합니다. 트리 뷰에는 내포된 그룹이 표시되고, 상태 열에는 현재 편집 중인 그룹, 해당 그룹의 출처가 Dynamo인지 아니면 Revit인지가 표시됩니다.
 
-* **Select**: Each instance is listed individually. Select an instance in the tree and the instance(s) are selected in the 3D scene.
-* **Edit**: To edit a group, use the pen icon at the top of the palette or right-click and choose Edit.
-* **Rename**: To rename a group, double-click the name or right-click and choose Rename.
-* **Delete**: To delete a group, use the (**-**) icon at the top of the palette or right-click and choose Delete. Select multiple groups to delete them all at once.
-  * Tip: To select multiple groups one by one, use the Ctrl key. To select a range of groups, select a group, hold Shift, and select another group. This will add all groups in between to the selection.
-* **Ungroup**: Right-click a group and select Ungroup.
-* **Change Category**: To change a group's category, select the group and use the Category drop-down at the top of the palette.
+* **선택**: 각 인스턴스가 개별적으로 나열됩니다. 트리에서 인스턴스를 선택하면 3D 장면에서 인스턴스가 선택됩니다.
+* **편집**: 그룹을 편집하려면 팔레트 맨 위에 있는 펜 아이콘을 사용하거나 마우스 오른쪽 버튼을 클릭하고 편집을 선택합니다.
+* **이름 바꾸기**: 그룹 이름을 바꾸려면 이름을 두 번 클릭하거나 마우스 오른쪽 버튼을 클릭하고 이름 바꾸기를 선택합니다.
+* **삭제**: 그룹을 삭제하려면 팔레트 맨 위에 있는 \(**-**\) 아이콘을 사용하거나 마우스 오른쪽 버튼을 클릭하고 삭제를 선택합니다.
+* **카테고리 변경**: 그룹의 카테고리를 변경하려면 그룹을 선택하고 팔레트 맨 위에 있는 카테고리 드롭다운을 사용합니다.
 
-![](<../.gitbook/assets/groups tree.png>)
+![](../.gitbook/assets/groups.png)
+

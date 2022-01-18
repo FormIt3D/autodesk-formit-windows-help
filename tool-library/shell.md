@@ -1,3 +1,4 @@
-# Shell
+# 쉘
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+솔리드 객체에서 지정된 폭의 "쉘"을 작성할 수 있습니다. 쉘은 매스작업 모델에서 벽을 빠르게 작성하는 데 유용합니다.
+

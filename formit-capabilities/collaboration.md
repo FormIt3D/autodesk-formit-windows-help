@@ -1,7 +1,8 @@
-# Collaboration
+# 공동 작업
 
-FormIt allows multiple users (on any combination of Windows, iOS or Web clients) to collaboratively edit a FormIt model – while seeing all of their changes in real time. Work simultaneously with others on the same sketch or share your work later.
+FormIt을 사용하면 여러 사용자\(Windows, iOS 또는 웹 클라이언트의 모든 조합\)가 공동으로 FormIt 모델을 편집하면서 실시간으로 모든 변경 사항을 확인할 수 있습니다. 하나의 스케치에서 다른 사용자와 동시에 작업하거나 나중에 작업을 공유할 수 있습니다.
 
-**Note:** Collaboration is only available after you activate FormIt Pro. Clicking on the Collaboration icon will prompt you to log in with an Autodesk account entitled for FormIt Pro.
+**주:** 공동작업은 FormIt Pro를 활성화한 후에만 사용할 수 있습니다. 공동작업 아이콘을 클릭하면 FormIt Pro에 대한 권한이 있는 Autodesk 360 계정으로 로그인하라는 메시지가 표시됩니다.
 
-[Click to Learn how to Start a Collaboration Session](../tool-library/collaboration.md)
+[공동작업 세션을 시작하는 방법을 알아보려면 클릭하십시오.](../tool-library/collaboration.md)
+

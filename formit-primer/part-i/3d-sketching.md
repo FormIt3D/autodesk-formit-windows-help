@@ -1,68 +1,69 @@
-# 1.3 - 3D Sketch and Drag Face
+# 1.3 - 3D 스케치 및 면 끌기
 
-_We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at its core consists of drawing lines to create faces and then dragging those faces to create volumes._
+_이제 판스워스 하우스를 그릴 준비가 되었습니다. FormIt의 3D 모델링의 핵심은 선을 그려 면을 작성한 다음, 해당 면을 끌어 볼륨을 작성하는 것입니다._
 
-‌ _If you did not complete the last section, download and open the_ _**1.3 - 3D Sketch and Drag Face.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+ _마지막 섹션을 완료하지 않은 경우 _**FormIt Primer 1부 데이터세트**에서 __**1.3 - 3D Sketch and Drag Face.axm**__ 파일을 다운로드하고 엽니다_._
 
-## **Draw Faces with Lines**
+## **선으로 면 그리기**
 
-1 – To facilitate the modeling process, you can use the **Floating Navigation Toolbar** to switch between different views modes. For this exercise, we recommend using the **Perspective (VP)** and **3D View (V3).**
+1 - 모델링 프로세스를 용이하게 하기 위해 **부동 탐색 도구막대**를 사용하여 다양한 뷰 모드 간에 전환할 수 있습니다. 이 연습에서는 **투시\(VP\)** 및 **3D 뷰\(V3\)를 사용하는 것이 좋습니다.**
 
-![](<../../.gitbook/assets/0 (4).png>)
+![](../../.gitbook/assets/0%20%284%29.png)
 
-2 – Newly created geometry will automatically join or “stick to” any existing ungrouped geometry it touches. To avoid this, you will typically want to organize your geometry with groups. To create a group from the floor plan, select the rectangle by double-clicking it, then right-click to access the **Context Menu** and select **Group (G).**
+2 - 새로 작성된 형상은 접촉되는 그룹화되지 않은 기존 형상에 자동으로 결합되거나 "고정"됩니다. 이를 방지하기 위해 일반적으로 형상을 그룹으로 구성할 수 있습니다. 평면도에서 그룹을 작성하려면 직사각형을 두 번 클릭하여 선택한 다음, 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는 메뉴**에 액세스하고 **그룹\(G\)**
 
-![](<../../.gitbook/assets/1 (2).png>)
+![](../../.gitbook/assets/1%20%282%29.png)
 
-3 – When tracing the plan we don’t want the lines to snap to the grid, so click on **Settings** in the **Main Menu** and unchecking **Snap to Grid (SG).**
+3 - 평면을 추적할 때 선이 그리드로 스냅되지 않도록 하려면 **주 메뉴**에서 **설정**을 클릭하고 **그리드로 스냅\(SG\)을 선택 취소합니다.**
 
-![](<../../.gitbook/assets/2 (12).png>)
+![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 – To start drawing, click the **Create Sketch** (Pencil) icon in the **Standard Toolbar** and choose the **Line tool (L)**.
+4 - 그리기를 시작하려면 **표준 도구막대**에서 **스케치 작성**\(연필\) 아이콘을 클릭하고 **선 도구\(L\)**를 선택합니다.
 
-![](<../../.gitbook/assets/3 (17).png>)
+![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 - Let's start by creating a rectangle on the imported image. To create the first line:
+5 - 먼저 가져온 이미지에 직사각형을 작성해 보겠습니다. 첫 번째 선을 작성하려면 다음을 수행합니다.
 
-1. While in the **Line tool**, click near **the upper left corner** of the upper terrace in the imported sketch.
-2. Move your mouse along the red axis that appears.
-3. Click the **Tab** key to input the dimension: **77'-4 1\8".**
+1. **선 도구**를 사용하는 동안, 가져온 스케치에서 상단 테라스의 **왼쪽 상단 코너** 근처를 클릭합니다.
+2. 나타나는 빨간색 축을 따라 마우스를 이동합니다.
+3. **Tab** 키를 클릭하여 치수 **77'-4 1\8"**
 
-![](<../../.gitbook/assets/4 (16).png>)
+![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Note:** Anytime a temporary dimension appears while sketching, you can either press_ _**Tab** or just start typing a number_ _to open the_ _**Dimension Dialog**._
+_**주:** 스케치하는 동안 임시 치수가 나타날 때마다 __**Tab** 키를 누르거나 숫자를 입력하면 __**치수 대화상자**_를 열 수 있습니다.__
 
-6 – To create the second line, move your mouse down along the green axis and enter **28’-8**” for the upper terrace’s short edge.
+6 - 두 번째 선을 작성하려면 마우스를 녹색 축을 따라 아래로 이동하고 상단 테라스의 짧은 가장자리에 **28’-8**"를 입력합니다.
 
-7 - To define the rectangle’s third edge and finish:
+7 - 직사각형의 세 번째 모서리와 마감을 정의하려면 다음을 수행합니다.
 
-1. Move your mouse along the red axis and hold down the **Shift** key. The red axis line will thicken to indicate that the line is locked to this axis.
-2. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the endpoint.
-3. The third point will automatically be set, parallel to the red - axis defined by (A) - and the green axis - defined by (B).
-4. Finally, to finish enclosing the rectangle, release the **Shift** key and click back on the first point you drew. Press **Esc** twice to exit the sketch tool.
+1. **Shift** 키를 누른 상태로 빨간색 축을 따라 마우스를 이동합니다. 빨간색 축 선이 두껍게 표시되면서 선이 이 축에 잠겼음을 나타냅니다.
+2. **Shift 키**를 누른 상태에서 처음으로 그린 점으로 마우스를 이동합니다. 클릭하여 끝점을 적용합니다.
+3. 세 번째 점은 \(A\)로 정의된 빨간색 축과 \(B\)로 정의된 녹색 축에 평행하게 자동으로 설정됩니다.
+4. 마지막으로, 직사각형 둘러싸기를 완료하려면 **Shift** 키에서 손을 떼고 첫 번째로 그린 점을 다시 클릭합니다. **Esc** 키를 두 번 눌러 스케치 도구를 종료합니다.
 
-_**Note:**_ _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off the world axes, a purple axis line will allow you to stay 90 degrees relative to your off-axis line._
+_**주:**_ _빨간색 축과 녹색 축은 그리드에 평행하고 수직을 유지합니다. 표준 축에서 선을 그리는 경우 자주색 축 선을 사용하면 축에서 벗어난 선에 대해 90도를 유지할 수 있습니다._
 
-![](<../../.gitbook/assets/5 (2) (1).png>)
+![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Drag the Face to Create Volume**
+## **면을 끌어 볼륨 작성**
 
-1 - Single-click inside the outline you just drew to select the face. You are now automatically in the **Drag Face** tool.
+1 - 방금 그린 윤곽 내부를 한 번 클릭하여 면을 선택합니다. 그러면 자동으로 **면 끌기** 도구로 이동됩니다.
 
-2 - Single-click again to start the dragging. Move your mouse upwards (along the positive Z-axis) to extrude a volume in that direction. Start typing **12'-2"**, and a dimension box will appear with this value, then hit **Enter**.
+2 - 한 번 더 클릭하여 끌기를 시작합니다. 마우스를 위로 \(양의 Z축을 따라\) 이동하여 해당 방향으로 볼륨을 돌출시킵니다. **12'-2"**를 입력하기 시작하면 이 값이 입력된 치수 상자가 나타납니다. 그러면 **Enter** 키를 누릅니다.
 
-![](<../../.gitbook/assets/6 (3) (1).png>)
+![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Note:**_ _A_ _single-click_ _will select just a single face, whereas a_ _double-click_ _will select all (ungrouped) adjacent edges and faces._
+_**주:**_ ___한 번 클릭__하면 단일 면만 선택되지만 __두 번 클릭__하면 \(그룹화되지 않은\) 인접 모서리와 면이 모두 선택됩니다._
 
-## **3D Sketching with Arc, Spline, and Circle**
+## **호, 스플라인 및 원을 사용한 3D 스케치**
 
-_The following exercise is not critical to finishing the house. However, it will allow you to experiment with some of the other 3D Sketching tools available. Click_ _**here**_ _to learn more about 3D sketching with World Axes._
+_다음 연습은 집을 완성하는 데 중요하지 않습니다. 그러나 사용 가능한 다른 3D 스케치 도구 중 일부를 사용하여 실험해볼 수 있습니다. __**여기**__를 클릭하여 표준 축을 사용한 3D 스케치에 대해 자세히 알아보십시오._
 
-1 - Select the **Arc by three arc points (A)** tool. Click to define the start, and then the endpoint. The third click defines the arc's radius.
+1 - **3개의 호 점으로 호 생성\(A\)** 도구를 선택합니다. 클릭하여 시작점과 끝점을 차례로 정의합니다. 세 번째로 클릭하면 호의 반지름이 정의됩니다.
 
-2 - Select the **Spline (S)** tool. Click to define any number of points to draw a spline.
+2 - **스플라인\(S\)** 도구를 선택합니다. 클릭하여 스플라인을 그리기 위한 점의 수를 정의합니다.
 
-3 - Select the **Circle (C)** tool. Hover and click to define the circle's center point. Click and drag or enter a dimension to define the radius.
+3 - **원\(C\)** 도구를 선택합니다. 마우스 커서를 올려 놓은 후 클릭하여 원의 중심점을 정의합니다. 클릭하고 끌거나 치수를 입력하여 반지름을 정의합니다.
 
-![](<../../.gitbook/assets/7 (7).png>)
+![](../../.gitbook/assets/7%20%287%29.png)
+

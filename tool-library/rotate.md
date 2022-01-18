@@ -1,13 +1,14 @@
-# Rotate Object
+# 객체 회전
 
-You can change the orientation of objects using the Rotate tool in the Context Menu.
+상황에 맞는 메뉴의 회전 도구를 사용하여 객체의 방향을 변경할 수 있습니다.
 
-1. Select an element you want to rotate and right-click to launch the Context Menu.
-2. From the Context Menu, select the Rotate tool.&#x20;
-3. When the protractor graphic appears on your mouse, click to set the plane for rotation.
-4. Use the blue grips to specify the start point of the rotation, and reset the axis if necessary. Use the arrows or the editable dimension box to set the rotation angle.&#x20;
+1. 회전할 요소를 선택하고 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴를 시작합니다.
+2. 상황에 맞는 메뉴에서 회전 도구를 선택합니다.
+3. 분도기 그래픽이 마우스에 나타나면 회전할 평면을 클릭하여 설정합니다.
+4. 파란색 그립을 사용하여 회전의 시작점을 지정하고 필요한 경우 축을 재설정합니다. 화살표 또는 편집 가능한 치수 상자를 사용하여 회전 각도를 설정합니다.
 
-Note that you can alse use the **Q** keyboard shortcut to access the rotate tool after selecting an element.
+요소를 선택한 후 키보드 바로 가기 **Q**를 사용하여 회전 도구에 액세스할 수도 있습니다.
 
-![](../.gitbook/assets/rotate1.png)\
+![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)
+

@@ -1,21 +1,22 @@
-# Import and Export Data
+# 데이터 가져오기 및 내보내기
 
-## Importing Data
+## 데이터 가져오기
 
-The following file formats can be imported.
+다음 파일 형식을 가져올 수 있습니다.
 
-* **OBJ**: OBJ 3D mesh files are imported as a single FormIt Group. No materials are imported.
-* **DWG**: 2D and 3D DWG files are imported as a single FormIt Group. Object colors are supported.
-* **STL**:  STL 3D mesh files are imported as a single FormIt Group.
-* **SAT**: SAT solid model files are imported as a single FormIt Group.
-* **SKP**: SketchUp files are imported. Groups and Components are imported as FormIt Groups. Layers and materials are supported.&#x20;
+* **OBJ**: OBJ 3D 메쉬 파일을 단일 FormIt 그룹으로 가져옵니다. 재료는 가져오지 않습니다.
+* **DWG**: 2D 및 3D DWG 파일을 단일 FormIt 그룹으로 가져옵니다. 객체 색상이 지원됩니다.
+* **STL**: STL 3D 메쉬 파일을 단일 FormIt 그룹으로 가져옵니다.
+* **SAT**: SAT 솔리드 모델 파일을 단일 FormIt 그룹으로 가져옵니다.
+* **SKP**: SketchUp 파일을 가져옵니다. 그룹 및 구성요소는 FormIt 그룹으로 가져옵니다. 레이어 및 재료가 지원됩니다.
 
-[**Find out more about how to work with imported data**](../formit-primer/part-i/import-export-and-content-library.md)
+[**가져온 데이터로 작업하는 방법에 대해 자세히 알아보기**](../formit-primer/part-i/import-export-and-content-library.md)
 
-## Exporting Data
+## 데이터 내보내기
 
-FormIt can export the following file formats: AXM (FormIt file), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ (with a separate .MTL file), PNG images.
+FormIt은 AXM\(FormIt 파일\), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ\(단일 ZIP 파일의 재료 및 3D\), PNG 이미지 파일 형식을 내보낼 수 있습니다.
 
-When exporting individual files, you can choose to export **All Objects**, **Visible Only**, or **Selected Only**.
+개별 파일을 내보낼 때 **모든 객체**, **보이는 항목만** 또는 **선택사항만**을 내보내도록 선택할 수 있습니다.
 
-![](<../.gitbook/assets/export\_window (1).png>)
+![](../.gitbook/assets/export_window.png)
+

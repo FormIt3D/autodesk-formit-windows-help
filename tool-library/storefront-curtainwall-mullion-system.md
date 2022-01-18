@@ -1,79 +1,80 @@
-# Storefront/Curtainwall Mullion System
+# 점두/커튼월 멀리언 시스템
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Powered by Dynamo
+## Dynamo에서 제공
 
-The ability to quickly create storefront/curtainwall mullion systems in FormIt is powered by Dynamo. You can find the Storefront Curtainwall system in the Dynamo Samples directory in the Dynamo panel:
+FormIt에서 점두/커튼월 멀리언 시스템을 신속하게 작성하는 기능은 Dynamo에서 제공합니다. 아래와 같이 Dynamo 패널의 Dynamo Samples 디렉토리에서 Storefront Curtainwall 시스템을 찾을 수 있습니다.
 
-![](<../.gitbook/assets/storefront-curtainwall-button (1) (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Selecting "Glass" For Mullion System
+## 멀리언 시스템에 대해 "유리" 선택
 
-Starting in FormIt 2021.2, the Storefront Curtainwall system uses the new [SelectFromFormIt node](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), allowing you to select a piece of "glass" (a single face or an extruded solid) around which to generate a mullion system.
+FormIt 2021.2부터 점두 커튼월 시스템에서는 새 [SelectFromFormIt 노드](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)를 사용하여 멀리언 시스템을 생성할 "유리"\(단일 면 또는 돌출된 솔리드\) 조각을 선택할 수 있습니다.
 
-![A simple plane of "glass" with an opening for doors at the bottom.](../.gitbook/assets/storefron-system-1\_glass-only.png)
+![하단에 문의 개구부가 있는 &quot;유리&quot;의 단순 평면입니다.](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-When you click the Storefront Curtainwall thumbnail (notice the icon indicating that a selection is required), FormIt will prompt you to select the glass geometry to continue:
+점두 커튼월 썸네일\(선택이 필요함을 나타내는 아이콘\)을 클릭하면, 계속하려면 유리 형상을 선택하라는 메시지가 FormIt에 표시됩니다.
 
-![](<../.gitbook/assets/storefront-curtainwall-prompt (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-A few notes and caveats about how selecting glass works:
+유리 선택이 작동하는 방식에 대한 몇 가지 참고 사항 및 주의 사항:
 
-* Currently, only planar surfaces are supported. If you select a series of surfaces (for example, a "curved" surface comprised of smaller planar surfaces), the script will find the largest planar face and will use that.
-* If your glass is solid - i.e. a single face extruded very slightly to convey a bit of thickness - the script will find the biggest surface, so the resulting mullions will generate on one side of the glass solid.
-* You can sketch openings for doors, and remove the resulting surface from the glass boundary, and the resulting mullions will respect the door opening, leaving it blank for the addition of doors.
-* Due to Dynamo limitations, this script won't work if the glass geometry has openings in the middle.
+* 현재 평면형 표면만 지원됩니다. 일련의 표면\(예: 작은 평면형 표면으로 구성된 "곡선" 표면\)을 선택하는 경우 스크립트는 가장 큰 평면형 면을 찾아서 사용합니다.
+* 유리가 솔리드\(즉, 두께를 나타내기 위해 아주 약간 돌출된 단일 면\)인 경우 스크립트는 가장 큰 표면을 찾습니다. 따라서 결과 멀리언이 유리 솔리드의 한 쪽에서 생성됩니다.
+* 문의 개구부를 스케치하고 유리 경계에서 결과 표면을 제거할 수 있습니다. 그러면 결과 멀리언은 문 개구부를 고려해 문을 추가할 수 있도록 비어 있게 됩니다.
+* Dynamo 제한으로 인해 유리 형상의 가운데에 개구부가 있는 경우 이 스크립트는 작동하지 않습니다.
 
-## Tips and Tricks
+## 정보 및 소개
 
-When selecting geometry for a Dynamo graph in FormIt, certain organizational tricks can simplify the experience and allow for easy instancing of results:
+FormIt에서 Dynamo 그래프의 형상을 선택할 때 다음과 같은 특정 구성 방식을 통해 환경을 간소화하고 결과를 쉽게 인스턴스화할 수 있습니다.
 
-* Put the glass in a Group, and use the Group as the selection for the Storefront/Curtainwall script. That way, it's easier to edit the glass profile after the mullions have been generated, and if the glass is heavily modified between runs and the face IDs have changed, the Group ensures that the script will always find the glass - because it's using the Group ID, not the face ID.
-* If you're planning on copying and pasting the results of the mullion system to other places in your model, it's best to have the glass and the resulting mullions contained in a Group This will also prevent issues with the selection node not knowing which glass instance to use when just the resulting mullion Group is copied and pasted.
-  * Put your glass in a Group first. Double-click it to select the glass, and hit G or use the Group commands in the context menu or toolbar.&#x20;
-  * Select the resulting Group, and put it in another Group.
-  * Double-click to enter the first Group. This is the "container" for both the glass and the resulting mullions.
-  * Click the Storefront Curtainwall thumbnail, and use the glass Group as the selection.&#x20;
-  * After the script runs, you can exit the Group and copy/paste the container around as needed. You can edit any of the instances (adjusting the glass shape or parameters) without issue.
+* 유리를 그룹에 놓고 그룹을 점두/커튼월 스크립트에 대한 선택사항으로 사용합니다. 이렇게 하면 멀리언이 생성된 후 유리 프로파일을 보다 쉽게 편집할 수 있으며, 실행 간에 유리가 크게 수정되고 면 ID가 변경된 경우 그룹은 면 ID가 아닌 그룹 ID를 사용하므로 스크립트가 유리를 항상 찾게 됩니다.
+* 멀리언 시스템의 결과를 복사하여 모델의 다른 위치에 붙여넣으려고 하는 경우 유리와 결과 멀리언을 그룹에 포함하는 것이 가장 좋습니다. 그러면 결과 멀리언 그룹만 복사하여 붙여넣을 때 사용할 유리 인스턴스(instance)를 선택 노드가 알지 못하는 문제도 방지할 수 있습니다.
+   * 먼저 유리를 그룹에 놓습니다. 두 번 클릭하여 유리를 선택하고 G 키를 누르거나 상황에 맞는 메뉴 또는 도구막대에서 그룹 명령을 사용합니다.
+   * 결과 그룹을 선택하고 다른 그룹에 놓습니다.
+   * 두 번 클릭하여 첫 번째 그룹으로 들어갑니다. 이 그룹은 유리와 결과 멀리언 모두에 대한 "컨테이너"입니다.
+   * 점두 커튼월 썸네일을 클릭하고 유리 그룹을 선택사항으로 사용합니다.
+   * 스크립트가 실행되면 그룹을 종료하고 필요에 따라 컨테이너를 복사/붙여넣을 수 있습니다. 문제 없이 인스턴스(instance)를 편집\(유리 모양 또는 매개변수 조정\)할 수 있습니다.
 
-## Mullion System Options
+## 멀리언 시스템 옵션
 
-Once you select glass and run the script, you'll get a result in the FormIt canvas, in the form of a FormIt Group. This Group will be automatically selected, and the Properties panel will reveal the available options.
+유리를 선택하고 스크립트를 실행하면 FormIt 캔버스에 FormIt 그룹 형식으로 결과가 표시됩니다. 이 그룹은 자동으로 선택되며 특성 패널에 사용 가능한 옵션이 표시됩니다.
 
-![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run**: If you modify the shape of the glass and want to re-run the graph to update the mullion results, click this.&#x20;
-* **Edit Embedded Graph**: Edit the Dynamo script that's generating the geometry. This script is embedded in the FormIt file and is specific to this Group.
-* **Select Glass (Surface or Solid)**: Click this to update the selection to a different piece of glass around which to generate mullions.
+* **실행**: 유리의 모양을 수정하고 그래프를 다시 실행하여 멀리언 결과를 업데이트하려는 경우 이 옵션을 클릭합니다.
+* **포함된 그래프 편집**: 형상을 생성하는 Dynamo 스크립트를 편집합니다. 이 스크립트는 이 그룹에 고유한 스크립트로 FormIt 파일에 포함되어 있습니다.
+* **유리\(표면 또는 솔리드\) 선택**: 멀리언을 생성할 다른 유리 조각으로 선택사항을 업데이트하려면 이 옵션을 클릭합니다.
 
-The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the current FormIt units.
+스크립트는 첫 번째 실행에 기본값을 사용하므로 이러한 값을 사용자 고유의 사용 사례에 맞게 조정할 수 있습니다. 모든 값은 현재 FormIt 단위를 사용합니다.
 
-* **Mullion Width + Depth**: The width and depth of all mullion elements.
-* **Vertical Mullion Spacing**: The distance, on center, between each vertical mullion.
-* **Flip Vertical Mullion Layout**: The script starts the vertical mullion spacing from one side, chosen arbitrarily. If the result starts the mullion spacing on the wrong side for your use case, set this to True to flip the layout to start on the opposite site.
-* **Center Vertical mullion Layout**: Instead of starting the vertical mullion spacing calculation at one end of the glass, start the calculation in the middle, creating a symmetrical layout of vertical mullions.
-* **First Horizontal Mullion Spacing**: Sets the first horizontal mullion spacing from the bottom. Useful if you need a row of shorter glazing modules at the bottom, separate from the rest of the horizontal mullion spacing.
-* **Horizontal Mullion Spacing**: The typical horizontal mullion spacing, on center, starting after the first mullion as outlined above.&#x20;
-* **Flip Horizontal Mullion Layout**: If you want the horizontal mullion layout to start at the top instead of the bottom, set this to True.
-* **Center Horizontal Mullion Layout**: Instead of starting the horizontal mullion spacing calculation at the bottom or top of the glass, start the calculation in the middle, creating a symmetrical layout of horizontal mullions.
+* **멀리언 폭 + 깊이**: 모든 멀리언 요소의 폭 및 깊이입니다.
+* **수직 멀리언 간격**: 중심에서 각 수직 멀리언 사이의 거리입니다.
+* **수직 멀리언 배치 반전**: 스크립트는 임의로 선택된 한쪽에서 수직 멀리언 간격을 시작합니다. 결과에서 사용 사례에 대해 잘못된 쪽에서 멀리언 간격을 시작하는 경우, 이 값을 참으로 설정하여 배치가 반대쪽에서 시작되도록 반전합니다.
+* **수직 멀리언 가운데 배치**: 유리의 한쪽 끝에서 수직 멀리언 간격 계산을 시작하는 대신, 중간에서 계산을 시작하여 수직 멀리언의 대칭 배치를 작성합니다.
+* **첫 번째 수평 멀리언 간격**: 하단에서 첫 번째 수평 멀리언 간격을 설정합니다. 나머지 수평 멀리언 간격과는 별도로 하단에 더 짧은 유리 모듈 행이 필요한 경우에 유용합니다.
+* **수평 멀리언 간격**: 위에 설명된 첫 번째 멀리언 이후에 시작하는, 중심에서의 일반적인 수평 멀리언 간격입니다.
+* **수평 멀리언 배치 반전**: 수평 멀리언 배치를 하단이 아닌 상단에서 시작하려면 이 옵션을 참으로 설정합니다.
+* **수평 멀리언 가운데 배치**: 유리의 하단 또는 상단에서 수평 멀리언 간격 계산을 시작하는 대신, 중간에서 계산을 시작하여 수평 멀리언의 대칭 배치를 작성합니다.
 
-## Hidden Options
+## 숨겨져 있는 옵션
 
-Looking for more customization? Several advanced options are hidden from the FormIt properties panel, but are accessible by clicking "Edit Embedded Graph" to reveal the full graph contents in Dynamo:
+더 많은 사용자 지정 옵션을 찾고 있습니까? FormIt 특성 패널에 고급 옵션 여러 개가 숨겨져 있지만 "포함된 그래프 편집"을 클릭하여 Dynamo에서 전체 그래프 컨텐츠를 표시하면 액세스할 수 있습니다.
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Randomized Mullions
+### 임의 멀리언
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: Set this to True to space the vertical or horizontal mullions randomly
-* **Min/Max Mullion Spacing (if random)**: Adjust these values to set a range of minimum and maximum randomized spacing values
+* **수직 및 수평 멀리언 배치 임의 지정**: 수직 또는 수평 멀리언의 간격을 임의로 지정하려면 참으로 설정합니다.
+* **최소/최대 멀리언 간격\(임의 지정인 경우\)**: 임의 지정된 최소 및 최대 간격 값 범위를 설정하려면 이러한 값을 조정합니다.
 
-### Border Mullions
+### 경계 멀리언
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions:** By default, the mullion system will use the glass boundary, and offset it inward to create the border mullions. To offset outward, set this option to True. This will increase the overall size of the mullion system outside the glass boundary by the Mullion Width setting.
-* **Tolerance Between Selection and Border Mullions**: By default, the mullion system will generate exactly at the border of the glass, which could cause Z-fighting where the edge of the glass and the outer surfaces of the border mullions collide. In most cases, this won't be visible, but if your use case requires the edges of the system to be visible and you want to avoid Z-fighting, enable this option and adjust the tolerance value as necessary.
+* **경계 멀리언의 간격띄우기 방향 반전:** 기본적으로 멀리언 시스템은 유리 경계를 사용하고 안쪽으로 간격띄우기하여 경계 멀리언을 작성합니다. 바깥쪽으로 간격띄우기하려면 이 옵션을 참으로 설정합니다. 이렇게 하면 유리 경계 외부에 있는 멀리언 시스템의 전체 크기가 멀리언 폭 설정만큼 증가합니다.
+* **선택사항과 경계 멀리언 사이의 공차**: 기본적으로 멀리언 시스템은 유리의 경계에서 정확하게 생성되며, 이로 인해 유리 모서리와 경계 멀리언의 외부 표면이 충돌하는 Z-fighting이 유발될 수 있습니다. 대부분의 경우 이 설정은 표시되지 않지만 사용 사례에서 Z-fighting을 피하기 위해 시스템의 모서리를 표시해야 하는 경우 이 옵션을 사용하도록 설정하고 필요에 따라 공차 값을 조정합니다.
+

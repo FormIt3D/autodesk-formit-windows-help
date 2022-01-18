@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# 면: 경사 및 깎인면/부드러움
 
-## Working with Faces: Tilt and Facet/Smooth
+## 면 작업: 경사 및 깎인면/부드러움
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+모양을 스케치하거나 원형을 배치한 후 보다 복잡한 설계를 작성하려면 여러 상황별 도구를 사용하여 형상을 수정할 수 있습니다. 경사, 배열, 복사 및 붙여넣기가 이러한 작업에 포함됩니다.
 
-### Tilt Face
+### 경사 면
 
-To **tilt a face:**
+**면을 기울이려면**
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. 면을 선택하고 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴를 표시합니다.
+2. 상황에 맞는 메뉴에서 **경사** 아이콘을 선택합니다.
+3. 선을 그려 경사 축을 정의합니다.
+4. 세 번째 점을 클릭하여 경사 작업을 시작합니다.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### 깎인면/부드러운 면
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+면 위에 마우스 커서를 놓았는데 점선이 보이면, 면이 변형되기 때문에 더 작은 면으로 구성되어 있다는 것을 의미합니다. **점선을 모델 모서리로 변환하려면** 다음을 수행합니다.
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. 변경할 면 또는 객체를 선택하고 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴를 표시합니다.
+2. 상황에 맞는 메뉴에서 **깎인면의 부드러운 면** 도구를 선택합니다.
+3. 이전에 면이 부드러워진 곳에 모서리가 자동으로 추가됩니다.
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+이 명령은 반대로도 작동합니다. 깎인면에 해당하는 면을 선택하고 상황에 맞는 메뉴에서 **깎인면의 부드러운 면** 도구를 선택하여 모서리를 숨기고 면을 부드럽게 만들 수 있습니다.
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

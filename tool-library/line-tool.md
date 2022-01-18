@@ -1,19 +1,20 @@
-# Lines
+# 선
 
-Use lines to divide faces and construct geometry.
+선을 사용하여 면을 분할하고 형상을 구성할 수 있습니다.
 
-Keyboard: L
+키보드: L
 
-![](../.gitbook/assets/line\_toolbar.png)
+![](../.gitbook/assets/line_toolbar.png)
 
-You can draw lines on the X, Y, or Z axis and also on existing geometry. When you snap to an axis, a colored line extends beyond the line you are drawing indicating which the axis you are drawing on. You can see the length of the line as you draw, and you can manually enter a specfic length by pressing **tab** and enter a value.
+X, Y, Z축은 물론 기존 형상에도 선을 그릴 수 있습니다. 축에 스냅하면 색상 선이 그리는 선 너머로 연장되어 어떤 축을 그리고 있는지 나타냅니다. 그릴 때 선의 길이를 볼 수 있으며, **Tab** 키를 눌러 특정 길이를 수동으로 입력하고 값을 입력할 수 있습니다.
 
-Line colors by axis:
+축별 선 색상:
 
-To specify a length, simply type a dimension value, and an Edit Dimension dialog will appear. Hit OK or press Enter to accept the value.
+길이를 지정하려는 경우 치수 값을 입력하기만 하면 치수 편집 대화상자가 나타납니다. 확인을 누르거나 Enter 키를 눌러 값을 승인합니다.
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = 빨간색
+* Y = 녹색
+* Z = 파란색
 
 ![](../.gitbook/assets/lines.png)
+

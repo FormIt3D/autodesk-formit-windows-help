@@ -1,17 +1,18 @@
-# Orthographic Camera
+# 직각 카메라
 
-FormIt 2021 includes the addition of a new Orthographic Camera feature. You can find the Orthographic and Perspective buttons in the Navigation Menu:
+FormIt 2021에는 직교 카메라 기능이 새롭게 추가되었습니다. 탐색 메뉴에서 직교 및 투시 버튼을 찾을 수 있습니다.
 
-![Orthographic (bottom) and Perspective (top) camera view buttons ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![직교\(저면도\) 및 투시\(평면도\) 카메라 뷰 버튼 ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-This new option allows you to easily toggle between the Orthographic and Perspective camera views.
+이 새로운 옵션을 사용하면 직교 및 투시 카메라 뷰 간을 쉽게 전환할 수 있습니다.
 
-![A model can be toggled from Perspective Camera to Orthographic Camera mode.](<../.gitbook/assets/ortho-camera (1).gif>)
+![모델은 투시 카메라에서 직교 카메라 모드로 전환될 수 있습니다.](../.gitbook/assets/ortho-camera.gif)
 
-Once in Orthographic camera, any other camera tools will respect the current mode. For example, **Align Camera to Face** will align the Orthographic Camera to the face, resulting in an orthographic elevation view.
+직교 카메라에 있을 때 다른 모든 카메라 도구는 현재 모드를 반영합니다. 예를 들어, **면에 카메라 정렬**은 직교 카메라를 면에 정렬하여 직교 입면뷰를 생성합니다.
 
-If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position, making it easier to access those pre-set views.
+평면도 또는 정면도와 같이 사전 설정된 직교 뷰로 수동으로 이동하면 직교 카메라가 해당 위치로 스냅되어 사전 설정된 뷰에 더 쉽게 액세스할 수 있습니다.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Note:** If camera clipping occurs in Orthographic Camera mode, you can switch back to Perspective Mode, zoom out, and then try again.
+**주:** 카메라 자르기가 직교 카메라 모드에서 발생하는 경우 투시 모드로 다시 전환하고 줌 축소한 후 다시 시도할 수 있습니다.
+

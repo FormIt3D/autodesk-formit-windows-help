@@ -1,15 +1,16 @@
-# Spline
+# 스플라인
 
-The Spline tool allows you to create organic sketches in space or on other objects.
+스플라인 도구를 사용하면 공간이나 다른 객체에서 유기적 스케치를 작성할 수 있습니다.
 
 ![](../.gitbook/assets/spline.png)
 
-A spline is drawn from at least 3 interpolated points. The connected geometry is simplified creating a smooth and organic curve between the specified points. Like other drawing tools, splines can be drawn in 3D by snapping to 3D points while drawing.
+스플라인은 3개 이상의 보간된 점에서 그려집니다. 연결된 형상이 단순화되어 지정된 점 사이에 부드럽고 유기적인 곡선이 작성됩니다. 다른 그리기 도구와 마찬가지로, 그리는 동안 3D 점으로 스냅하여 스플라인을 3D로 그릴 수 있습니다.
 
-To specify a distance, start typing a dimension value, and hit OK or press Enter in the Edit Dimension dialog.
+거리를 지정하려면 치수 값 입력을 시작한 다음, 확인을 누르거나 치수 편집 대화상자에서 Enter 키를 누릅니다.
 
-Splines can also close on themselves creating a face.
+스플라인은 자체적으로 닫혀 면을 작성할 수도 있습니다.
 
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+

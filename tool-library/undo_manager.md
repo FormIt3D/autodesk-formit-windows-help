@@ -1,17 +1,18 @@
-# Undo Manager
+# 실행취소 관리자
 
-FormIt features a unique Undo/Redo system, which can be used in two different ways to either undo per-Group, or chronologically and globally:
+FormIt에는 고유한 실행취소/재실행 시스템이 있으며, 이 시스템은 그룹별로 또는 시간순 및 전역적으로 실행취소하는 두 가지 방법으로 사용할 수 있습니다.
 
-* Undo/Redo while editing a nested Group will only affect the changes inside that Group
-  * This means you can make a change in this Group, then make many changes in other Groups, and return to the original Group and have the option to Undo the last change made in this Group without affecting changes made more recently, elsewhere
-*   Undo/Redo from the Main Sketch (not while editing a Group) acts like traditional Undo/Redo systems: the last change made in **any** Group will be undone, based on chronological order.
+* 내포된 그룹을 편집하는 동안 수행하는 실행취소/재실행은 해당 그룹 내의 변경 사항에만 영향을 줍니다.
+   * 즉, 이 그룹에서 변경한 후 다른 그룹에서 여러 사항을 변경하고 원래 그룹으로 돌아가서 더 최근에 다른 그룹에서 변경한 사항에 영향을 주지 않으면서 이 그룹에서 마지막으로 변경한 사항을 실행취소하는 옵션을 사용할 수 있습니다.
+* 주 스케치의 실행취소/재실행\(그룹을 편집하는 동안이 아님\)은 기존의 실행취소/재실행 시스템처럼 작동합니다. 즉, **임의** 그룹에서 마지막으로 변경한 사항이 시간 순서에 따라 실행취소됩니다.
 
-    The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
+실행취소 관리자는 FormIt 모델의 모든 그룹 내에서 변경된 모든 사항(주 스케치에서 변경된 사항 포함)을 기록합니다. 이 기능은 모델의 그룹에서 실행 취소된 작업을 시각적으로 이해하는 데 유용합니다.
 
-![](<../.gitbook/assets/undo-manager (1).png>)
+![](../.gitbook/assets/undo-manager.png)
 
-The Undo Manager will indicate in **bold** the current state, as well as any operations before this state, and any operations that once existed but have since been undone.
+실행취소 관리자는 현재 상태뿐만 아니라 이 상태 이전의 모든 작업 및 이전에 존재했지만 이후에 실행취소된 모든 작업을 **굵게** 표시합니다.
 
-You can right-click a state and select "Roll To" to effectively Undo or Redo as necessary to return to that model state.
+상태를 마우스 오른쪽 버튼으로 클릭하고 "롤 대상"을 선택하여 필요에 따라 효과적으로 실행취소 또는 재실행을 수행하면 해당 모델 상태로 돌아갈 수 있습니다.
 
-Groups that have been explicitly deleted, or are no longer in existence due to an Undo or Redo, are shown as \*Inactive\*. These can be restored by Undoing or Redoing inside their parent Group until they come back into existence.
+명시적으로 삭제되었거나 실행취소 또는 재실행으로 인해 더 이상 존재하지 않는 그룹은 \*비활성\*으로 표시됩니다. 이러한 항목은 상위 그룹 내에서 실행취소 또는 재실행하여 이전 상태로 복원할 수 있습니다.
+

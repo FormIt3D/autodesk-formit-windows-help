@@ -1,29 +1,28 @@
-# World Axes
+# 표준 축
 
-The default coordinate system and grid can be modified by changing the world axis.
+기본 좌표계 및 그리드를 표준 축을 변경하여 수정할 수 있습니다.
 
-## Drawing and Modeling with Axes
+## 축을 사용한 도면 및 모델링
 
-When a blank sketch is opened in FormIt, the World Axes are displayed as three red, green and blue lines in the center of the screen. These three lines, define the three Cartesian directions that define the 3D world. The "X" direction is defined by the red line, the "Y" direction by the green line and the "Z" or "up" direction by the blue line.
+FormIt에서 빈 스케치를 열면 표준 축이 화면 가운데에 세 개의 선, 즉 빨간색, 초록색 및 파란색 선으로 표시됩니다. 이 세 개의 선은 3D 표준을 정의하는 세 가지 직교 방향을 정의합니다. "X" 방향은 빨간색 선으로 정의되고, "Y" 방향은 초록색 선으로 정의되고, "Z" 또는 "위쪽" 방향은 파란색 선으로 정의됩니다.
 
 ![](../.gitbook/assets/axis.png)
 
-To rotate the grid and redefine the origin point for the sketch, **right-click** on empty space in the scene and choose the **Set Axes (SZ)** icon from the context menu\
-![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
+그리드를 회전하고 스케치의 원점을 재정의하려면 장면의 빈 공간을 **마우스 오른쪽 버튼으로 클릭**하고 상황에 맞는 메뉴에서 **축 설정\(SZ\)** 아이콘을 선택합니다.  ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-The Set Axes widget appears. Click on the large grip in the center to pick up the widget. Click again to set the origin point. Now click the dot on the red axis to rotate the grid, or click the dot on the blue axes to pivot the grid plane vertically. Click off into space to confirm the change\
-![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
+그러면 축 설정 위젯이 나타납니다. 가운데에 있는 큰 그립을 클릭하여 위젯을 선택합니다. 원점을 설정하려면 다시 클릭합니다. 이제 빨간색 축에서 점을 클릭하여 그리드를 회전하거나 파란색 축에서 점을 클릭하여 그리드 평면을 수직으로 피벗합니다. 변경 사항을 확인하려면 공간을 클릭합니다.  ![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-To **reset** the origin and grid back to the default setting, right-click on empty space in the scene and choose to **Reset Axes (RZ)**
+원점과 그리드를 다시 기본 설정으로 **재설정**하려면 장면의 빈 공간을 마우스 오른쪽 버튼으로 클릭하고 **축 재설정\(RZ\)**을 선택합니다.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## World Axes and Local Axes
+## 표준 축 및 로컬 축
 
-The steps above explain how to control the **global coordinate system** of your sketch. When you start working with [**groups** ](groups.md)then you can control the **local coordinate system** of that group uniquely from the overall sketch. When you edit a group, you can edit the local coordinate system following the same steps as above - but these changes will only apply to the group
+위 단계에서는 스케치의 **전역 좌표계**를 제어하는 방법에 대해 설명합니다. [**그룹**](groups.md)으로 작업을 시작하면 전체 스케치에서 고유하게 해당 그룹의 **로컬 좌표계**를 제어할 수 있습니다. 그룹을 편집할 때 위와 같은 단계를 수행하여 로컬 좌표계를 편집할 수 있지만 이러한 변경 사항은 그룹에만 적용됩니다.
 
-## Interactions with Axes
+## 축과 상호 작용
 
-* The **red, green, and blue axes** display when you're in sketch tools to guide your 3D sketching
-* The **purple axis** displays a perpendicular and parallel axis relative to lines drawn at an angle
-* Hold down the **Shift key** while sketching or moving to **lock to the current axis**
+* 스케치 도구에서 3D 스케치를 안내하는 경우 **빨간색, 초록색 및 파란색 축**이 표시됩니다.
+* **자주색 축**은 곡선으로 그린 선을 기준으로 수직 및 평행 축을 표시합니다.
+* **Shift 키**를 누른 상태에서 스케치하거나 이동하여 **현재 축에 고정**합니다.
+

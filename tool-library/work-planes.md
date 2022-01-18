@@ -1,15 +1,16 @@
-# Work Planes
+# 작업 기준면
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+주 스케치의 표준 축 또는 그룹의 로컬 축을 변경하면 작업 기준면이 X축 및 Y축과 연관됩니다. **작업 기준면**은 스케치를 위한 기본 평면으로 사용되는 가상 2D 표면입니다. 이 작업 기준면은 무한대로 연장되며, 뒤에 있는 요소에 스냅하지 않고 스케치할 표면을 제공합니다.
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+지반 면을 편집하는 방법은 [비주얼 스타일](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## 작업 기준면 변경
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+[표준 축](world-axes.md)을 스케치의 다른 객체 평면으로 회전합니다. 그러면 활성 작업 기준면이 이 면과 일치하도록 정렬됩니다. 이제 기본 지반 면 대신 새 XY 평면을 기준으로 요소를 스케치, 배치 및 수정할 수 있습니다. 그리드 및 작업 기준면 뒤나 아래에서 궤도를 이동하여 그리드 및 작업 기준면 뒤의 요소에 스냅하고 추정할 수 있습니다.
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style > Environment > **Display Grid (DG).**
+그리드 선의 가시성을 켜거나 꺼서 작업 기준면 기반 스케치를 활용할 수 있습니다. 비주얼 스타일 &gt; 환경 &gt; **그리드 표시\(DG\)**
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings > **Snap to Grid (SG).**
+그릴 때 그리드로 스냅할지 여부도 제어할 수 있습니다. 이 설정은 설정 &gt; **그리드로 스냅\(SG\)**
 
 ![](../.gitbook/assets/work-plane.gif)
+

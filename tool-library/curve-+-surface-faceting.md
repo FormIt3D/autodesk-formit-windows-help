@@ -1,39 +1,39 @@
-# Curve + Surface Faceting
+# 곡선 + 표면 면분할
 
-FormIt is a polyhedral modeling system, so objects like circles, arcs, and splines are represented by a series of straight edges. Similarly, a curved surface like the wall of a cylinder, or a dome, is comprised of a series of planar faces with hidden border edges.
+FormIt은 다면체 모델링 시스템이므로 원, 호 및 스플라인과 같은 객체는 일련의 직선 모서리로 표현됩니다. 마찬가지로 원통의 벽 또는 돔과 같은 곡선 표면은 숨겨진 경계 모서리가 있는 일련의 평면형 면으로 구성됩니다.
 
-By default, FormIt uses 40 edges, or facets, to represent a circle, and 24 facets to represent a 3D, curved object like a cylinder. For more complex surfaces like a dome, a value of 24 sets the perimeter faceting count, and also impacts how densely faceted the rest of the shape is.
+기본적으로 FormIt은 원을 나타내는 데 40개의 모서리 또는 깎인면을 사용하고, 원통과 같은 3D 곡선 객체를 나타내는 데 24개의 깎인면을 사용합니다. 돔과 같은 보다 복잡한 표면의 경우 이 값을 24로 지정하면 둘레 면분할 수가 설정되고, 이 값은 모양의 나머지 부분이 얼마나 세밀하게 면 처리되는지에 영향을 미칩니다.
 
-In FormIt for Windows v18 and newer, the curve and surface faceting values are customizable:
+Windows 18 버전 이상용 FormIt에서는 곡선 및 표면 면분할 값을 사용자 지정할 수 있습니다.
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](../.gitbook/assets/faceting.png)
+![](<../.gitbook/assets/faceting (1).png>)
 
-**Curve Faceting Quality**
+**곡선 면분할 품질**
 
-Changing the Curve Faceting Quality will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle or a quarter-circle arc with 16 facets.
+곡선 면분할 품질을 변경하면 원형 모양을 배치할 때뿐만 아니라 FormIt에서 새 원과 호를 그릴 때 사용되는 깍인면 수에 영향을 줍니다. 예를 들어 이 값을 64로 설정하면 64면의 완전한 원 또는 16개의 깍인면이 있는 1/4 원호가 작성됩니다.
 
-This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry from Dynamo. You can set this value for new sketches, or just the current sketch.
+이 값은 Dynamo에서 형상을 적용할 때뿐만 아니라 SAT 파일에서 가져온 원과 호의 품질에도 영향을 줍니다. 새 스케치에 대해 이 값을 설정하거나 현재 스케치에 대해서만 이 값을 설정할 수 있습니다.
 
-For existing curves, you can also use the Rebuild Curve plugin to retroactively rebuild an **existing** arc or circle with a new faceting count:
+기존 곡선의 경우 곡선 재생성 플러그인을 사용하여 **기존** 호 또는 원을 새로운 면분할 개수로 소급해서 재생성할 수도 있습니다.
 
-![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
-![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
+![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
-**Surface Faceting Quality**
+**표면 면분할 품질**
 
-Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo.
+이 전역 설정을 변경하면 SAT 파일에서 가져오고 Dynamo에서 적용된 3D 곡선 표면의 품질에 영향을 줍니다.
 
-For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases. Once you've got a result that's high quality, you can [convert it into a Mesh](meshes.md) to improve performance.
+예를 들어 이 값을 64로 설정하고 Dynamo에서 구를 적용하면 구의 적도 주위에 64개의 면과 구의 극으로 이어지는 각 링에 64개의 면이 사용되며, 빠르게 늘어납니다. 경우에 따라 FormIt의 성능에 영향을 줄 수 있으므로 더 높은 값을 사용할 때는 주의해야 합니다. 높은 품질의 결과를 얻은 후에는 [메쉬로 변환](meshes.md)하여 성능을 향상할 수 있습니다.
 
-When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
+Dynamo로 작업할 때 면분할 품질을 수정하고, 매개변수 변경 없이 특성 패널에서 "그래프 실행"을 눌러 새로운 면분할 수를 활용할 수 있습니다.
 
-![](<../.gitbook/assets/faceting\_column (1).gif>)
+![](../.gitbook/assets/faceting\_column.gif)
 
-As with curves, you can set the surface faceting quality for new sketches, or for the current sketch only.
+곡선과 마찬가지로 새 스케치 또는 현재 스케치에 대해서만 표면 면분할 품질을 설정할 수 있습니다.
 
-Note that faceting values are currently limited to multiples of 4, so when entering numbers manually, FormIt will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+면분할 값은 현재 4의 배수로 제한되므로 수동으로 숫자를 입력하면 가장 가까운 배수로 반올림됩니다. 슬라이더와 화살표를 사용하여 허용되는 값을 순환할 수 있습니다.
 
-![](<../.gitbook/assets/units-+-precision (1).png>)
+![](../.gitbook/assets/units-+-precision.png)

@@ -1,53 +1,54 @@
-# 1.6 - Control Visibility with Layers
+# 1.6 - 레이어로 가시성 제어
 
-_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
+_AutoCAD 및 Photoshop과 마찬가지로 FormIt의 레이어를 사용하면 모델에서 객체의 가시성을 관리할 수 있습니다. 이 장에서는 향후 해석을 위해 건물 매스를 저장하고 숨길 레이어를 작성합니다._
 
-_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_마지막 섹션을 완료하지 않은 경우_ _**FormIt 입문서 1부 데이터세트**에서_ _**1.6 - Control Visibility with Layers.axm**_ _파일을 다운로드하고 엽니다._
 
-## **Create Layers**
+## **레이어 만들기**
 
-1 - To create the new layers:
+1 - 새 레이어를 작성하려면
 
-1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
-2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
+1. **레이어 팔레트**로 이동하고 **+** 기호를 세 번 클릭하여 세 개의 레이어를 작성합니다.
+2. 레이어 이름을 두 번 클릭하여 이름을 **매스작업**, **주 건물 바닥** 및 **평면 이미지**
 
-![](<../../.gitbook/assets/0 (20).png>)
+![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
+_**주:**_ _레이어 이름을 클릭하고 위 또는 아래로 끌어 레이어 순서를 변경할 수 있습니다._
 
-2 - To assign the **Massing - Main Building** group to the **Massing** layer:
+2 - **매스작업 - 주 건물** 그룹을 **매스작업** 레이어에 지정하려면
 
-1. In the canvas, select the **Massing - Main Building** group.
-2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
+1. 캔버스에서 **매스작업 - 주 건물** 그룹을 선택합니다.
+2. **레이어 팔레트**의 "**선택사항:"** 드롭다운 메뉴에서 **매스작업** 레이어를 선택합니다. 마찬가지로 **평면 이미지** 그룹을 **평면 이미지** 레이어에 지정합니다.
 
-![](<../../.gitbook/assets/1 (13) (1).png>)
+![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicate Group**
+## **그룹 복제**
 
-_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+_이제 건물 모델링 프로세스를 보다 자세히 살펴보겠습니다. 첫 번째 단계는 이미 가지고 있는 건물 매스를 기준으로 바닥 형상을 작성하는 것입니다._
 
-1 - Select the **Massing - Main Building** group again. Press **Ctrl + C (Copy)** to copy, and then **Ctrl + Shift + V (Paste in Place)** to paste the mass in the same place.
+1 - **매스작업 - 주 건물** 그룹을 다시 선택합니다. **Ctrl+C\(복사\)**를 눌러 복사한 다음, **Ctrl+Shift+V\(위치에 붙여넣기\)**를 눌러 동일한 위치에 매스를 붙여넣습니다.
 
-2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique (MU)** option.
+2 - 원래 그룹에서 새 그룹 형상의 연관을 해제하려면 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는 메뉴**에 액세스한 다음, **고유하게 설정\(MU\)** 옵션을 선택합니다.
 
-![](<../../.gitbook/assets/2 (18).png>)
+![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+_**주**: 새 그룹은 더 이상 원본과 연관되지 않습니다. 따라서 새 그룹을 변경해도 원본 그룹은 변경되지 않습니다._
 
-## **Create the Floor Geometry**
+## **바닥 형상 작성**
 
-1 - Reassign group’s layer:
+1 - 다음과 같이 그룹의 레이어를 재지정합니다.
 
-1. Single-click to select either of the **Massing – Main Building** groups.
-2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
-3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+1. 한 번 클릭하여 **매스작업 - 주 건물** 그룹 중에서 하나를 선택합니다.
+2. **레이어 팔레트**의 "**선택사항:"** 드롭다운을 사용하여 **주 건물 바닥** 레이어에 그룹을 배치합니다.
+3. **매스작업** 레이어를 선택 취소하여 해당 형상을 숨겨 실수로 편집되지 않도록 합니다.
 
-![](<../../.gitbook/assets/3 (18) (1).png>)
+![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+2 - 표시되는 **매스작업 - 주 건물** 그룹을 두 번 클릭하여 편집합니다. **특성 팔레트**에서 그룹 이름을 **바닥**으로 다시 바꿉니다.
 
-![](<../../.gitbook/assets/4 (12) (1).png>)
+![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+3 - 형상의 **상단 면**을 **한 번 클릭**하여 선택합니다. 다시 클릭하고 면을 아래로 끌기 시작합니다. 면을 아래로 끌 때 **11’-2"**를 입력합니다. 그러면 **치수 대화상자**가 나타납니다. 값을 입력한 후 **확인**을 클릭합니다. 그 결과로 생긴 바닥의 두께는 1'가 되어야 합니다. 공간을 두 번 클릭하여 그룹을 종료합니다.
 
-![](<../../.gitbook/assets/5 (10).png>)
+![](../../.gitbook/assets/5%20%2810%29.png)
+

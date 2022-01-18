@@ -1,66 +1,67 @@
-# 1.12 - Visual Styles
+# 1.12 - 비주얼 스타일
 
-_Modeling conceptual masses is just half of what FormIt has to offer. The other half are beautiful graphics that help to tell a story to a client, or team member. In this chapter, we will cover ways to set up your_ _**graphic visual styles**_ _and create animations._
+_개념 매스 모델링은 FormIt이 제공해야 하는 기능의 절반에 불과합니다. 나머지 절반은 고객 또는 팀 구성원에게 스토리를 전달하는 데 유용한 멋진 그래픽입니다. 이 장에서는_ _**그래픽 비주얼 스타일**_ _을 설정하고 애니메이션을 작성하는 방법을 알아봅니다._
 
-_If you did not complete the last section, download and open the_ _**1.12 – Visual Styles.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_마지막 섹션을 완료하지 않은 경우_ _**FormIt Primer 1부 데이터세트**에서_ _**1.12 - Visual Styles.axm**_ _파일을 다운로드하고 엽니다._
 
-## **Create an Animation**
+## **애니메이션 작성**
 
-_In these next steps, we will learn how to use_ _**Scenes**_ _to create an animation._
+_다음 단계에서는 __**장면**__을 사용하여 애니메이션을 작성하는 방법을 알아봅니다._
 
-1 – To create the first **Scene**:
+1 - 첫 번째 **장면**을 작성하려면 다음을 수행합니다.
 
-1. Turn on all the layers except **Terrain**, **Plan Image,** and **Massing**.
-2. Make sure the camera mode is set to **Perspective (VP)**, and position the camera so that it is looking at the entire house from slightly above, similar to the image below.
-3. Open the **Scenes Palette**.
-4. Click on the **+** icon to create a new scene from our current view.
-5. Rename it to **Aerial View 1**, and match the other **Scene Properties** to what is shown in the image below.
+1. **지형**, **평면 이미지** 및 **매스작업**을 제외한 모든 레이어를 켭니다.
+2. 카메라 모드가 **투시\(VP\)**로 설정되어 있는지 확인하고 아래 이미지와 유사하게 약간 위에서 집 전체를 바라보도록 카메라를 배치합니다.
+3. **장면 팔레트**를 엽니다.
+4. **+** 아이콘을 클릭하여 현재 뷰에서 새 장면을 작성합니다.
+5. 이름을 **공중 뷰 1**로 바꾸고 다른 **장면 특성**을 아래 이미지에 표시된 것과 일치시킵니다.
 
-![](<../../.gitbook/assets/0 (17) (1).png>)
+![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - To create the second **Scene** and then animate between them:
+2 - 두 번째 **장면**을 작성한 다음, 장면 간에 애니메이션 효과를 넣으려면 다음을 수행합니다.
 
-1. Adjust the camera to a new position so that you are looking at the house from a different angle. Create a new **Scene** named **Aerial View 2** using the same process we followed in the previous step.
-2. Click the **Play** button. After the set **Pause Time** of **2 Seconds**, the animation will start slowly moving back and forth between the two scenes. This will continue until you click the **Stop** button to stop the animation.
+1. 집을 다른 각도에서 보도록 카메라의 위치를 새로 조정합니다. 이전 단계에서 수행한 것과 동일한 프로세스를 사용하여 **공중 뷰 2**라는 새 **장면**을 작성합니다.
+2. **재생** 버튼을 클릭합니다. **일시 정지 시간**을 **2초**로 설정하면 애니메이션이 두 장면 사이에서 천천히 앞뒤로 이동하기 시작합니다. 이 동작은 **중지** 버튼을 클릭하여 애니메이션을 중지할 때까지 계속됩니다.
 
-![](<../../.gitbook/assets/1 (12) (1).png>)
+![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Note:**_ _You can adjust the_ _**Pause Time**,_ _**Transition Time**, and_ _**Camera Speed**_ _using the settings at the bottom of the_ _**Scene Properties**. Try adding some more scenes and playing with these settings to customize your animation._
+_**주**_ _:_ _**장면 특성**하단에 있는 설정을 사용하여_ _**일시 정지 시간**,_ _**변환 시간** 및_ _**카메라 속도**_ _를 조정할 수 있습니다. 장면을 더 추가하고 이러한 설정으로 재생하여 애니메이션을 사용자 지정해 보십시오._
 
-## **Customize the Visual Styles**
+## **비주얼 스타일 사용자 지정**
 
-_Now we are going to create another scene with some customized **Visual Styles** settings._
+_이제 사용자 지정된 일부 **비주얼 스타일** 설정을 사용하여 다른 장면을 작성해 보겠습니다._
 
-1 - First, open the **Visual Styles Palette**. Note there are four (4) tabs at the top, each containing different visual settings: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**. To learn more about each tab visit the **Visual Styles** chapter in the **Tool Library** section.
+1 - 먼저 **비주얼 스타일 팔레트**를 엽니다. 상단에 서로 다른 비주얼 설정이 포함된 4개의 탭이 있습니다. 각 탭은 **표면**, **모서리**, **환경** 및 **모델 진단**입니다. 각 탭에 대해 자세히 알아보려면 **도구 라이브러리** 섹션의 **비주얼 스타일** 장을 방문하십시오.
 
-2 – To customize some settings in the **Surface Tab**:
+2 - **표면 탭**에서 일부 설정을 사용자 지정하려면 다음을 수행합니다.
 
-1. Turn on **Shadows (DS)**.
-2. Turn on **Ambient Shadows (DA)**.
-3. Turn on **Monotone Surfaces (DM)**. This makes an abstract black and white image without any materials.
+1. **그림자\(DS\)**를 켭니다.
+2. **앰비언트 그림자\(DA\)**를 켭니다.
+3. **단조 표면\(DM\)**을 켭니다. 이렇게 하면 재료 없이 추상적 흑백 이미지가 만들어집니다.
 
-![](<../../.gitbook/assets/2 (20) (1).png>)
+![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – To customize some settings in the **Edge Tab**:
+3 – **모서리 탭**에서 일부 설정을 사용자 지정하려면 다음을 수행합니다.
 
-*
-  1. Adjust the sliders to lighten the **Edges** contrast to around **30%**.
-  2. Turn on the **Extend Edges (DX).**
-  3. Adjust the sliders to lighten the **Silhouettes** contrast to **30%**.
+* 
+   1. 슬라이더를 조정하여 **모서리** 대비를 **30%** 정도로 밝게 합니다.
+   2. **모서리 확장\(DX\)**
+   3. 슬라이더를 조정하여 **실루엣** 대비를 **30%** 정도로 밝게 합니다.
 
-![](<../../.gitbook/assets/3 (11) (1).png>)
+![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - To customize some settings in the **Environment Tab**:
+4 - **환경 탭**에서 일부 설정을 사용자 지정하려면 다음을 수행합니다.
 
-1. Turn off **Axes**.
-2. Turn off **Levels**, if on.
+1. **축**를 끕니다.
+2. **레벨**를 끕니다(켜져 있는 경우).
 
-![](<../../.gitbook/assets/4 (8) (2).png>)
+![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - Create a new scene called **Customized Scene** to save these settings. Now you can switch back and forth between the **Scenes** to reset the graphic settings.
+5 - **사용자 지정된 장면**이라는 새 장면을 작성하여 이러한 설정을 저장합니다. 이제 **장면** 간에 전환하여 그래픽 설정을 재설정할 수 있습니다.
 
-![](<../../.gitbook/assets/5 (6) (1).png>)
+![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Note**: If you uncheck the_ _**Camera**_ _property of the new scene, you can use it to only toggle on the visual settings we just created without move the camera position. Give it a try by going to one of your previous Aerial scenes, and then double-clicking on the_ _**Customized Scene**_ _and watching what happens!_
+_**주**: 새 장면의_ _**카메라**_ _특성을 선택 취소하면 카메라 위치를 이동하지 않고 방금 지정한 비주얼 설정만 전환하는 데 사용할 수 있습니다. 이전 공중 장면 중 하나로 이동한 다음 __**사용자 지정된 장면**__을 두 번 클릭하여 어떤 결과가 나타나는지 확인해 보십시오._
 
-_**Note:**_ _To Learn about_ _**Visual Styles Diagnostics**_ _and advanced applications for_ _**Scenes**, check out the_ _**Primer Part II**._
+_**주**_ _:_ _**비주얼 스타일 진단**_ _및_ _**장면**에 대한 고급 응용 사례를 확인하려면_ _**Primer II부**를 확인하십시오._
+

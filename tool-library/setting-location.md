@@ -1,108 +1,99 @@
-# Setting Location
+# 위치 설정
 
-Setting your your project's location in the world it is important for the accuracy of your model and downstream analyses, including:
+표준 좌표에서 프로젝트 위치를 설정하는 것은 다음을 비롯한 모델 및 다운스트림 해석의 정확성을 위해 중요합니다.
 
-* Location is used to import a satellite image which can be used to trace an existing site or building.
-* Location is used to import 3D terrain, which can be used to reference topological data for a site.
-* Location is used for accurate positioning of the sun in the sky, affecting the calculation of shadows.
-* Location is used for Solar Analysis and Energy Analysis to provide accurate analytical calculations.
+* 위치는 기존 대지나 건물을 추적하는 데 사용할 수 있는 위성 이미지를 가져오는 데 사용됩니다.
+* 위치는 3D 지형을 가져오는 데 사용되며, 이 지형은 대지에 대한 위상 데이터를 참조하는 데 사용될 수 있습니다.
+* 위치는 하늘에서 태양의 정확한 위치를 지정하는 데 사용되며 그림자 계산에 영향을 줍니다.
+* 위치는 정확한 해석 계산을 제공하기 위해 일조 해석 및 에너지 해석에 사용됩니다.
 
-You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services.
+위치 설정 대화상자 및 해당 서비스에 액세스하려면 Autodesk 계정으로 로그인해야 합니다.
 
-### Getting Started With Location
+### 위치 시작하기
 
-* Launch the **Set Location** dialog from the **Location** tool in the toolbar, or with the keyboard shortcut SL.
+* 도구막대의 **위치** 도구에서 또는 키보드 바로 가기 SL을 사용하여 **위치 설정** 대화상자를 시작합니다.
 
-![](<../.gitbook/assets/location-toolbar (1).png>)
+![](../.gitbook/assets/location-toolbar.png)
 
-* Begin by typing the location of your project into the search box in the upper left hand corner of the _Set Location_ window.&#x20;
+* 먼저 _위치 설정_ 창의 왼쪽 상단 코너에 있는 검색 상자에 프로젝트 위치를 입력합니다.
 
-![](<../.gitbook/assets/location-step-1 (1).png>)
+![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Select one of the auto-populating location options, or hit Enter to choose the first one
-* You'll zoom in to the location you searched for automatically
+* 자동 채우기 위치 옵션 중 하나를 선택하거나 Enter 키를 눌러 첫 번째 위치 옵션을 선택합니다.
+* 자동으로 검색한 위치로 확대합니다.
 
-### Set Location Only vs. Import Satellite Image and Terrain
+### 위치만 설정과 위성 이미지 및 지형 가져오기 비교
 
-Once you've searched for a location, you can choose one of two options:
+위치를 검색한 후, 다음 두 가지 옵션 중 하나를 선택할 수 있습니다.
 
-* **Set Location Only** will set the location in the file without importing satellite imagery.
-* **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure.
+* **위치만 설정**은 위성 이미지를 가져오지 않고 파일에서 위치를 설정합니다.
+* **위성 이미지 및 지형 가져오기**는 위치를 설정하고 구성할 수 있는 줌 레벨 및 범위를 사용하여 위성 이미지 및 지형도 가져옵니다.
 
-### Importing Satellite Imagery
+### 위성 이미지 가져오기
 
-* Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window.
-* A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery.
+* **위치 설정** 창의 오른쪽 상단에 있는 **위성 이미지 및 지형 가져오기**를 클릭합니다.
+* 위성 이미지의 미리보기가 이미지를 기준으로 FormIt 원점이 나타날 위치에 대한 표시와 함께 창 중앙에 나타납니다.
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Drag the satellite imagery within the square to adjust its position
-* Once the square area encapsulates the imagery you want, click **Finish Importing**
-* The image will be imported to scale, with true north facing up, centered at the FormIt canvas origin. You can change the transparency and Z-ordering of the imported image by double-clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md).&#x20;
+* 사각형 내에서 위성 이미지를 끌어 위치를 조정합니다.
+* 사각형 영역이 원하는 이미지를 캡슐화하면 **가져오기 완료**를 클릭합니다.
+* 이미지가 실제 북쪽이 위를 향하고 FormIt 캔버스 원점의 중심에 오도록 축척되어 가져오기됩니다. 가져온 이미지를 두 번 클릭하고 [**특성 팔레트**](../formit-introduction/tool-bars.md)로 이동하여 투명도 및 Z-순서를 변경할 수 있습니다.
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Updating Satellite Imagery
+### 위성 이미지 업데이트
 
-After importing satellite imagery the first time, you can use the Set Location window to adjust the zoom level or extents of the satellite imagery.
+위성 이미지를 처음 가져온 후 위치 설정 창을 사용하여 위성 이미지의 줌 레벨 또는 범위를 조정할 수 있습니다.
 
-* Start the **Set Location** window again by accessing it from the toolbar, as outlined above.
-* Click **Import Satellite Image and Terrain.**
-* You'll see the current satellite image zoom level and extents, as shown in the FormIt canvas
-* Simply adjust the position or zoom, and click **Finish Importing** as you did before
-* When the image is re-imported into the canvas, it will move to the correct location relative to the original image position (and may no longer be centered at the origin):
+* 위에 설명된 대로 도구막대에서 **위치 설정** 창에 액세스하여 위치 설정을 다시 시작합니다.
+* **위성 이미지 및 지형 가져오기**
+* FormIt 캔버스에 표시된 것처럼 현재 위성 이미지 줌 레벨 및 범위가 표시됩니다.
+* 위치 또는 줌을 조정하고 이전과 마찬가지로 **가져오기 완료**를 클릭하기만 하면 됩니다.
+* 이미지를 캔버스로 다시 가져오면 원래 이미지 위치를 기준으로 올바른 위치로 이동되며 더 이상 원점의 중심에 배치되지 않을 수 있습니다.
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importing Terrain
+### 지형 가져오기
 
-New in FormIt 2021.3, when you use the **Set Location** dialog to import satellite imagery, you'll also get terrain.
+FormIt 2021.3부터는 **위치 설정** 대화상자를 사용하여 위성 이미지를 가져오면 지형도 가져오기됩니다.
 
-![](../.gitbook/assets/terrain-button\_original.png)
+![](../.gitbook/assets/terrain-button_original.png)
 
-When terrain is imported, it's placed on a layer, which is off by default (in case you've started modeling, your model may be covered by the terrain).
+가져온 지형은 기본적으로 꺼져 있는 레이어에 배치됩니다. 모델링을 시작한 경우 모델은 지형에 의해 덮일 수 있습니다.
 
-When you're ready to view terrain, toggle the Terrain layer by checking the box:
+지형을 볼 준비가 되면 해당 확인란을 선택하여 지형 레이어를 전환합니다.
 
-![](<../.gitbook/assets/terrain-layer (1) (1).png>)
+![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
-![](../.gitbook/assets/terrain\_solid.png)
+![](../.gitbook/assets/terrain_solid.png)
 
-### Working with Terrain
+### 지형 작업
 
-Terrain will be placed in a FormIt Group. Double-click the Group to edit it.
+지형이 FormIt 그룹에 배치됩니다. 그룹을 두 번 클릭하여 편집합니다.
 
-Inside, you'll find two Meshes: One for the sides and bottom, and one for the top.
+내부에는 두 개의 메쉬가 있습니다. 하나는 측면과 하단용 메쉬이고, 다른 하나는 상단용 메쉬입니다.
 
-If you want to modify the terrain, you'll need to convert the Meshes to a single, solid object:
+지형을 수정하려면 다음과 같이 메쉬를 단일 솔리드 객체로 변환해야 합니다.
 
-* Select both Meshes
-* Right click, and choose the Meshes to Objects option, or use shortcut MO
+* 두 메쉬를 모두 선택합니다.
+* 마우스 오른쪽 버튼을 클릭하고 메쉬를 객체로 옵션을 선택하거나 바로 가기 MO를 사용합니다.
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-When converting both Meshes to an object at the same time, FormIt can combine them into a solid, manifold object, which can be used for solid operations like Boolean Cut.
+두 메쉬를 동시에 객체로 변환할 때 FormIt은 두 메쉬를 솔리드 매니폴드 객체로 결합할 수 있으며, 결합된 객체는 부울 절단과 같은 솔리드 작업에 사용할 수 있습니다.
 
-From here, you can use a combination of [Top View](orthographic-views.md) and [Orthographic Camera](orthographic-camera.md) to trace your site boundary on a horizontal plane, then extrude that plane into a volume that intersects the terrain. Using a transparent [material](materials.md) helps so you can see the terrain through your cutting solid:
+여기에서 [평면도](orthographic-views.md)와 [직교 카메라](orthographic-camera.md)를 조합해서 사용하여 수평 평면에서 대지 경계를 추적한 다음, 지형과 교차하는 볼륨으로 해당 평면을 돌출시킬 수 있습니다. 투명한 [재료](materials.md)를 사용하면 절단 솔리드를 관통해서 지형을 볼 수 있습니다.
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Use the Cut Geometry tool, and select the terrain as the "Solid to be cut into" and the cutting volume as the "Solid to be removed."
+형상 절단 도구를 사용하여 지형을 "절단할 솔리드"로 선택하고 절단 볼륨을 "제거할 솔리드"로 선택합니다.
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-The result will be the terrain with your cutting solid removed, exposing void where you can draw your new site and foundation.
+그러면 절단 솔리드가 제거된 지형이 생성되고, 새 대지 및 기초를 그릴 수 있는 빈 공간이 노출됩니다.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-You can use [layers](layers.md) to hide the cutting solid, or even make copies of the terrain with and without the cut, in case you need to reference the original terrain, or change the cut shape before executing the solid cut operation.
+원래 지형을 참조해야 하거나 솔리드 절단 작업을 실행하기 전에 절단 모양을 변경해야 하는 경우, [레이어](layers.md)를 사용하여 절단 솔리드를 숨기거나 절단이 있거나 없는 지형의 사본을 만들 수 있습니다.
 
-### Troubleshooting the Set Location Dialog
-
-Setting a location in FormIt requires an internet connection to download satellite and terrain data from Bing Maps.
-
-Additionally, because Set Location dialog is a FormIt plugin under the hood, it requires access to GitHub to function. If you're having issues with the Set Location dialog, check that you have access to [https://github.io](https://github.io):&#x20;
-
-* Go to your web browser.
-* Try navigating to [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)
-* If you don't see some data show up, your network or firewall may be blocking access to GitHub.

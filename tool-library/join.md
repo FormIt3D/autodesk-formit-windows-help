@@ -1,29 +1,32 @@
-# Boolean Join
+# 부울 결합
 
-You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
+결합 도구를 사용하여 객체 또는 그룹을 다른 객체 또는 그룹에 결합할 수 있습니다. 다음 두 가지 방법으로 결합 도구에 액세스할 수 있습니다.
 
-## Run the Join command first
+## 결합 명령 먼저 실행
 
-Keyboard: J G
+키보드: J G
 
-![](../.gitbook/assets/boolean\_join.png)
+![](../.gitbook/assets/boolean_join.png)
 
-Run the Join command and follow the mode instruction in the upper left of the screen
+결합 명령을 실행하고 화면 왼쪽 위에 있는 모드 지침을 따릅니다.
 
-Single-click to select an object to join into.
+한 번 클릭하여 결합할 객체를 선택합니다.
 
-![](<../.gitbook/assets/cut\_mode01 (1).png>)
+![](../.gitbook/assets/cut_mode01.png)
 
-Single-click to select an object or group to be joined.
+한 번 클릭하여 결합할 객체 또는 그룹을 선택합니다.
 
-![](<../.gitbook/assets/cut\_mode02 (1).png>)
+![](../.gitbook/assets/cut_mode02.png)
 
-Click the checkmark to finish the command.
+확인 표시를 클릭하여 명령을 완료합니다.
 
-## Select objects first
+## 객체 먼저 선택
 
-1. Double-click to select the object to be joined (single click for a group).
-2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
-3. Right click on any of the objects and choose the Join Tool in the Context Menu.
+1. 결합할 객체를 두 번 클릭하여 선택합니다\(그룹을 선택하려면 한 번 클릭\).
+2. **Ctrl 키**를 누른 상태에서 첫 번째 객체와 결합할 겹치는 객체를 두 번 클릭합니다.
+3. 객체를 마우스 오른쪽 버튼으로 클릭하고 상황에 맞는 메뉴에서 결합 도구를 선택합니다.
 
-![](<../.gitbook/assets/join tool.png>)
+![](../.gitbook/assets/join-tool.png)
+
+
+

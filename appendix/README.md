@@ -1,7 +1,7 @@
-# Appendix
+# 부록
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Appendix
+## 부록
 
-In this section, you can find additional resources for taking your FormIt game one step further. We've included keyboard shortcuts to make your FormIt process faster as well as the steps you can take to collaborate with others on one project.
+이 섹션에서는 FormIt을 보다 유용하게 활용하기 위한 추가 리소스를 찾을 수 있습니다. FormIt 프로세스를 더욱 빠르게 진행하기 위한 키보드 바로 가기와 한 프로젝트에서 다른 사용자와 공동작업을 수행할 수 있는 단계가 포함되어 있습니다.

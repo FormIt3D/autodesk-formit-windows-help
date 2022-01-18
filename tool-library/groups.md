@@ -1,57 +1,58 @@
-# Groups
+# 그룹
 
-One of the most basic yet important techniques in FormIt workflows involves grouping. Groups allow you to keep your geometry from sticking together and allow you to set up parent/child relationships between copied elements so that if you update one element, both elements update. Learn more about groups [here](../formit-primer/part-i/grouping-objects.md).
+FormIt 워크플로우에서 가장 기본적이면서 중요한 기술 중 하나는 그룹화입니다. 그룹을 사용하면 형상이 서로 부착되지 않도록 하고 복사된 요소 간에 상위/하위 관계를 설정하여 한 요소를 업데이트할 때 두 요소가 모두 업데이트되도록 할 수 있습니다. [여기](../formit-primer/part-i/grouping-objects.md)에서 그룹에 대해 자세히 알아보십시오.
 
-Groups can be created and edited in two ways: either from the context menu of a selected group, or from the main toolbar.
+그룹은 선택한 그룹의 상황에 맞는 메뉴 또는 주 도구막대에서 작성 및 편집할 수 있습니다.
 
-## Groups Interactions
+## 그룹 상호 작용
 
-To **create a group**, select the elements you'd like to group together — this can include edges, faces, solids, or other groups — and right-click. Choose the **Group (G)** tool from the context menu. Imported images and satellite images cannot be grouped.
+**그룹을 작성**하려면 함께 그룹화하려는 요소(모서리, 면, 솔리드 또는 기타 그룹이 포함될 수 있음)를 선택하고 마우스 오른쪽 버튼을 클릭합니다. 상황에 맞는 메뉴에서 **그룹\(G\)** 도구를 선택합니다. 가져온 이미지 및 위성 이미지는 그룹화할 수 없습니다.
 
-To **select a group**, single-click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
+**그룹을 선택**하려면 그룹을 한 번 클릭합니다. 그룹을 선택하면 파형선이 나타납니다. 이러한 선은 그룹의 전체 크기를 나타냅니다.
 
-To **edit a group**, double-click the group. This launches an edit mode where you can only view and snap to elements outside of the current group, but cannot select them. You can also hide the elements outside of the current group by using the **H** keyboard shortcut.
+**그룹을 편집**하려면 그룹을 두 번 클릭합니다. 그러면 편집 모드가 시작됩니다. 편집 모드에서는 요소는 선택할 수 없고 현재 그룹 외부의 요소만 보고 스냅할 수 있습니다. **H** 키보드 바로 가기를 사용하여 현재 그룹 외부의 요소를 숨길 수도 있습니다.
 
-You can create **groups within groups:** these are called **nested groups** and can be created within the group edit mode. To move up one level in nested groups, click anywhere outside of the groups.
+**그룹 내에 그룹**을 작성할 수 있습니다. 이러한 그룹을 **내포된 그룹**이라고 하며 내포된 그룹은 그룹 편집 모드 내에서 작성할 수 있습니다. 내포된 그룹에서 한 수준 위로 이동하려면 그룹 외부의 아무 곳이나 클릭합니다.
 
-To **exit group edit mode,** double-click anywhere outside of the group.
+**그룹 편집 모드를 종료**하려면 그룹 외부의 아무 곳이나 두 번 클릭합니다.
 
-You can **copy a group** to create a relationship between the original group and its copy: if you edit any copied groups, the same changes will affect all related groups.
+**그룹을 복사**하여 원래 그룹과 해당 복사본 간의 관계를 만들 수 있습니다. 복사된 그룹을 편집하는 경우 동일한 변경사항이 관련된 모든 그룹에 영향을 미칩니다.
 
-To **sever the relationship between copied groups**, select the group or groups you would like to make separate, right-click, and choose **Make Unique** from the context menu. You can also select Make Unique from the Groups toolbar.
+**복사된 그룹 간의 관계를 끊으려면** 분리하려는 그룹을 하나 이상 선택하고 마우스 오른쪽 버튼을 클릭한 다음, 상황에 맞는 메뉴에서 **고유하게 설정**을 선택합니다. 그룹 도구막대에서 고유하게 설정을 선택할 수도 있습니다.
 
-To **select all related groups**, hover over a group and press the Tab key. When all related groups become highlighted, click on the groups to select them. You can then perform an action on all groups at once.
+**모든 관련 그룹을 선택**하려면 그룹 위에 커서를 올려 놓고 Tab 키를 누릅니다. 모든 관련 그룹이 강조표시되면 그룹을 클릭하여 선택합니다. 그런 다음, 모든 그룹에 대해 한 번에 작업을 수행할 수 있습니다.
 
-The [**Groups Tree**](groups-tree.md) provides a single place to view and manage all of the groups in a project.
+[**그룹 트리**](groups-tree.md)는 한 곳에서 프로젝트의 모든 그룹을 보고 관리할 수 있도록 해줍니다.
 
-## Groups Context menu and Toolbar access
+## 그룹의 상황에 맞는 메뉴 및 도구막대 액세스
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Group Elements**
+**그룹 요소**
 
-To create a group from the Groups toolbar item, select one or more elements, select the **Create Group** icon, and then select the **Finish** icon. Alternatively, you can select **Create Group** from the Groups tool bar item, then select elements you would like to group and select the **Finish** icon.
+그룹 도구막대 항목에서 그룹을 작성하려면 하나 이상의 요소를 선택하고 **그룹 작성** 아이콘을 선택한 다음, **완료** 아이콘을 선택합니다. 또는 그룹 도구막대 항목에서 **그룹 작성**을 선택한 다음, 그룹화할 요소를 선택하고 **완료** 아이콘을 선택해도 됩니다.
 
-To **edit a group from the Groups toolbar item**, select the **Edit Group** icon and then click the group you want to edit. When you are done making edits, select the **Finish** icon. This tool allows you to choose the specific group you'd like to edit, even if it is deeply nested.
+**그룹 도구막대 항목에서 그룹을 편집**하려면 **그룹 편집** 아이콘을 선택한 다음, 편집할 그룹을 클릭합니다. 편집을 마쳤으면 **완료** 아이콘을 선택합니다. 이 도구를 사용하면 그룹이 깊게 내포되어 있더라도 편집할 특정 그룹을 선택할 수 있습니다.
 
-**To make a group unique from the toolbar,** select the **Make Unique** icon in the Groups toolbar item. Additionally, you can select **Make Unique** from the Groups toolbar item and then select the group you would like to make unique and click the **Finish** icon.
+**도구막대에서 그룹을 고유하게 만들려면** 그룹 도구막대 항목에서 **고유하게 설정** 아이콘을 선택합니다. 또는 그룹 도구막대 항목에서 **고유하게 설정**을 선택한 다음, 고유하게 만들려는 그룹을 선택하고 **완료** 아이콘을 클릭해도 됩니다.
 
-**To ungroup a group from the Groups toolbar item,** select the group you want to change and choose the **Ungroup** icon from the Groups toolbar menu.This ungroups your current selection, but does not ungroup any nested groups. Alternatively, you can select **Ungroup** from the toolbar, select the group you want to change, and then select the **Finish** icon.
+**그룹 도구막대 항목에서 그룹의 그룹화를 해제하려면** 변경할 그룹을 선택하고 그룹 도구막대 메뉴에서 **그룹 해제** 아이콘을 선택합니다. 이렇게 하면 현재 선택한 그룹은 해제되지만 내포된 그룹은 해제되지 않습니다. 또는 도구막대에서 **그룹 해제**를 선택하고 변경할 그룹을 선택한 다음, **완료** 아이콘을 선택해도 됩니다.
 
-**To ungroup all groups nested below your currently selected group,** select a group with nested groups and choose **Ungroup All Nested** from the Groups toolbar.
+**현재 선택한 그룹 아래에 내포된 모든 그룹을 해제하려면** 내포된 그룹이 있는 그룹을 선택하고 그룹 도구막대에서 **내포된 모든 그룹 해제**를 선택합니다.
 
-**To ungroup all groups in your model,** select the **Ungroup All** tool from the Groups toolbar.
+**모델에 있는 모든 그룹을 해제하려면** 그룹 도구막대에서 **모두 그룹 해제** 도구를 선택합니다.
 
-## Groups and Revit
+## 그룹 및 Revit
 
-If you're familiar with Revit **families**, then you are familiar with the concept of groups in FormIt. FormIt groups have features you can use to transfer them intelligently into Revit.
+Revit **패밀리**에 익숙한 사용자라면 FormIt의 그룹 개념을 잘 알고 있을 것입니다. FormIt 그룹에는 Revit으로 지능적으로 전송하는 데 사용할 수 있는 기능이 있습니다.
 
-**FormIt Group Categories**
+**FormIt 그룹 카테고리**
 
-You can specify the **categories** for groups in FormIt so that your FormIt groups become families of the same categories when you import them into Revit. You can assign categories to your FormIt groups by selecting a group, entering **Group Edit** mode, and using the **Properties** panel to choose categories. You can also assign categories in the **Groups Tree** panel.
+FormIt에서 그룹에 대한 **카테고리**를 지정하여 FormIt 그룹을 Revit으로 가져올 때 동일한 카테고리의 패밀리가 되도록 할 수 있습니다. 그룹을 선택하고 **그룹 편집** 모드를 시작한 다음, **특성** 패널을 사용하여 카테고리를 선택하면 FormIt 그룹에 카테고리를 지정할 수 있습니다. **그룹 트리** 패널에서도 카테고리를 지정할 수 있습니다.
 
-**FormIt Group Names**
+**FormIt 그룹 이름**
 
-You can also use the **Properties** panel to specify a name for your FormIt group. This can be helpful in navigating your own model, and when you import your model to Revit you can easily filter elementsusing the name of the group.
+**특성** 패널을 사용하여 FormIt 그룹의 이름을 지정할 수도 있습니다. 이 기능은 사용자 고유의 모델을 탐색하는 데 유용할 수 있으며, 모델을 Revit으로 가져올 때 그룹 이름을 사용하여 요소를 쉽게 필터링할 수 있습니다.
 
-Note that **nested groups in FormIt are not imported into Revit as nested groups**. This prevents deeply-nested Revit families.
+**FormIt의 내포된 그룹은 Revit에 내포된 그룹으로 가져오기되지 않습니다**. 따라서 Revit 패밀리가 깊게 내포되지 않습니다.
+

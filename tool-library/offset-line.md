@@ -1,53 +1,56 @@
-# Offset Line
+# 간격띄우기 선
 
-Draw parallel, or offset, lines using the Offset Line tool. This is useful to create 2D shapes that can later be extruded to look like 3D walls.
+간격띄우기 선 도구를 사용하여 평행선 또는 간격띄우기 선을 그립니다. 이 기능은 나중에 돌출되어 3D 벽처럼 보일 수 있는 2D 모양을 작성하는 데 유용합니다.
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool:
+**간격띄우기 선** 도구는 다음과 같이 [**선**](https://windows.help.formit.autodesk.com/tool-library/line-tool) 도구처럼 작동합니다.
 
-* Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes.&#x20;
-* A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool.
-* Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
+* 클릭하여 첫 번째 점을 설정한 다음, 커서를 이동하고 다음 점을 배치하여 기존 형상으로 스냅하거나 추정 축으로 스냅합니다.
+* 결과 모양의 미리보기가 표시됩니다. 두 번째 및 세 번째 점에 따라 나머지 점이 따를 평면이 결정되므로 결과는 평면이 됩니다.
+* 점을 계속 추가하고 **Esc** 키를 누르거나 두 번 클릭하여 도구를 완료합니다.
+* 자체 교차가 정리되고 병합되어 돌출 가능한 면 하나가 남게 됩니다.
 
-![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
+![두 개의 점을 배치하고 세 번째 점을 끈 후](../.gitbook/assets/walls1.png)
 
-The input line is drawn in red, and by default is placed in the center of the offset lines.
+입력 선은 빨간색으로 그려지고 기본적으로 간격띄우기 선의 중심에 배치됩니다.
 
-You can change the alignment of the offset lines and their thickness by hitting the **Tab** key. This will invoke the **Tool Options** dialog:
+**Tab** 키를 눌러 간격띄우기 선의 정렬과 해당 두께를 변경할 수 있습니다. 이렇게 하면 **도구 옵션** 대화상자가 호출됩니다.
 
-![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
+![간격띄우기 선 도구의 옵션](../.gitbook/assets/walls2.png)
 
-Change the **Alignment** to **Left** and the **Thickness** to 6", for example, and the offset lines will be drawn to the left of the input lines, 6 inches apart.
+예를 들어 **정렬**을 **왼쪽**으로, **두께**를 6"로 변경하면 간격띄우기 선이 입력 선의 왼쪽으로 6인치 떨어진 곳에 그려집니다.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Useful Tips
+## 유용한 팁
 
-You can draw a closed shape by snapping to the first point placed. The resulting corner will be cleaned up automatically:
+배치된 첫 번째 점으로 스냅하면 닫힌 모양을 그릴 수 있습니다. 결과 코너가 다음과 같이 자동으로 정리됩니다.
 
 ![](../.gitbook/assets/walls4.png)
 
-You can freely draw the input lines on top of each other. When the tool is finished the resulting intersections are cleaned up.
+입력 선을 서로의 위에 자유롭게 그릴 수 있습니다. 도구가 완료되면 결과 교차점이 정리됩니다.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Inherently, the Offset Line tool must generate geometry on a plane, so the first few points determine the plane that the remaining points will follow.
+기본적으로 간격띄우기 선 도구는 평면에 형상을 생성해야 하므로, 처음 몇 개의 점에 따라 나머지 점이 따를 평면이 결정됩니다.
 
-Start drawing on the side of a cube, for example, to use the plane of that face. After three non colinear points are placed the input plane is fixed for the remainder of the input. Note, that when drawing on a face the resulting shape is inserted into the face, splitting it into multiple faces. To prevent the insertion, the face you draw on must be part of a [Group](https://windows.help.formit.autodesk.com/tool-library/groups).
+정육면체의 측면에서 그리기를 시작합니다(예: 해당 면의 평면 사용). 동일선상에 있지 않은 세 점이 배치된 후에는 입력 평면이 나머지 입력을 위해 고정됩니다. 면에 그릴 때 결과 모양이 면에 삽입되어 여러 면으로 분할됩니다. 삽입을 방지하려면 그리는 면이 [그룹](https://windows.help.formit.autodesk.com/tool-library/groups)의 일부여야 합니다.
 
-![Drawing on a vertical face](../.gitbook/assets/walls7.png)
+![수직 면에 그리기](../.gitbook/assets/walls7.png)
 
-![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
+![도구가 종료되면 선이 삽입되고 분할 면을 추가로 조작할 수 있습니다.](../.gitbook/assets/walls8.png)
 
-You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image.
+간격띄우기 선 도구를 사용하여 평면 도면에서 추적할 수도 있습니다. 평면을 이미지로 가져옵니다.
 
-* Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).&#x20;
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
+* 평면의 축척이 적절하도록 이미지 크기를 조정합니다. 이 내용은 [여기](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane)에 자세히 설명되어 있습니다.
+* [직교 카메라](orthographic-camera.md)를 사용하여 직교 [평면도](orthographic-views.md)에서 추적할 수 있습니다.
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
+
+
+

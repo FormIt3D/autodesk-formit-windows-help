@@ -1,29 +1,30 @@
-# Faces: Extrude, Cut and Offset
+# 면: 돌출, 절단 및 간격띄우기
 
-Push or pull a face, imprint new shapes on existing ones, or create new offset edges.
+면을 밀거나 당기고, 기존 면에 새 모양을 각인하거나, 새 간격띄우기 모서리를 작성할 수 있습니다.
 
-## Extrude
+## 돌출
 
-To push or pull a face, select a face with a single click, then click and drag. The face will move back and forth, you can now move your mouse to snap and inference on other model elements. Click again to finish moving the face. Hold down the CTRL key to retain the original edges.
+면을 밀거나 당기려면 한 번 클릭하여 면을 선택한 다음, 클릭하여 끕니다. 면이 앞뒤로 이동하므로 마우스를 이동하여 다른 모델 요소에 스냅하고 추정할 수 있습니다. 다시 클릭하여 면 이동을 완료합니다. Ctrl 키를 길게 눌러 원래 모서리를 유지합니다.
 
-![](<../.gitbook/assets/extrude (1).png>)
+![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprint
+## 각인
 
-To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles, or circles onto existing faces. This action creates new faces that can be pushed or pulled independently of the original face.
+모양을 각인하려면 3D 스케치 도구를 사용하여 선, 호, 스플라인, 직사각형 또는 원을 기존 면에 그립니다. 그러면 원래 면과 독립적으로 밀거나 당길 수 있는 새 면이 작성됩니다.
 
-![](../.gitbook/assets/imprint1.png)\
+![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## 간격띄우기
 
-To offset the face of an object:
+객체의 면 간격을 띄우려면
 
-1. First select the face you would like to edit, then right-click to view the **Context** menu.&#x20;
-2. From the **Context** menu, click on the **Offset Face** tool.&#x20;
-3. Move your cursor over the selected face and adjust the lines that display until you reach your desired offset effect.
-4. Click anywhere to complete the offset. You can now independently push or pull the offset face.
+1. 먼저 편집하려는 면을 선택한 다음, 마우스 오른쪽 버튼을 클릭하여 **상황에 맞는** 메뉴를 표시합니다.
+2. **상황에 맞는** 메뉴에서 **면 간격띄우기** 도구를 클릭합니다.
+3. 마우스 커서를 선택한 면 위로 이동하고 원하는 간격띄우기 효과에 도달할 때까지 표시되는 선을 조정합니다.
+4. 아무 곳이나 클릭하여 간격띄우기를 완료합니다. 이제 독립적으로 간격띄우기 면을 밀거나 당길 수 있습니다.
 
-![](../.gitbook/assets/offset1.png)\
-![](../.gitbook/assets/offset2.png)\
+![](../.gitbook/assets/offset1.png)  
+![](../.gitbook/assets/offset2.png)  
 ![](../.gitbook/assets/offset3.png)
+

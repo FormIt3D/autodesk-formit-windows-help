@@ -1,97 +1,98 @@
-# 1.5 - Group Objects
+# 1.5 - 그룹 객체
 
-_Groups in FormIt function similarly to Families in Revit and Components in SketchUp. Grouping different objects prevent their geometry from joining. Copies of a group act as an instance of the original geometry, meaning that changes to one copy will affect all of them._
+_FormIt의 그룹은 Revit의 패밀리 및 SketchUp의 구성요소와 유사하게 작동합니다. 다른 객체를 그룹화하면 해당 형상이 결합되지 않습니다. 그룹 복사본은 원본 형상의 인스턴스(Instance) 역할을 하므로 하나의 복사본을 변경하면 모든 복사본이 영향을 받습니다._
 
-_If you did not complete the last section, download and open the_ _**1.5 - Group Objects.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_마지막 섹션을 완료하지 않은 경우_ _**FormIt Primer 1부 데이터세트**에서_ _**1.5 - Group Objects.axm**_ _파일을 다운로드하고 엽니다._
 
-## **Create a Group**
+## **그룹 작성**
 
-1 - Select the upper terrace mass by double-clicking it.
+1 - 상단 테라스 매스를 두 번 클릭하여 선택합니다.
 
-2 - Right-click and select **Group (G)**, or simply press ‘**G**’.
+2 - 마우스 오른쪽 버튼을 클릭하고 **그룹\(G\)**을 선택하거나 ‘**G**’ 키를 누릅니다.
 
-![](<../../.gitbook/assets/0 (1).jpeg>)
+![](../../.gitbook/assets/0%20%281%29.jpeg)
 
-3 - Notice that after creating a Group, you get automatically placed in the Move tool.
+3 - 그룹이 작성되면 이동 도구에 자동으로 배치됩니다.
 
-## **Move a Group**
+## **그룹 이동**
 
-1 - To assist in the modeling process, turn on **Grid Snapping (SG)**, if it was off.
+1 - 모델링 프로세스를 지원하려면 **그리드 스냅\(SG\)**을 켭니다(꺼져 있는 경우).
 
-![](<../../.gitbook/assets/1 (14).png>)
+![](../../.gitbook/assets/1%20%2814%29.png)
 
-2 - To start moving the selected object, while still in the **Move (M)** command, click once on any lower corner of the mass. Then move your cursor up, and you should see a blue (Z) axis line appear. This line will assist you in moving the object straight up.
+2 - 선택한 객체를 이동하기 시작하려면 **이동\(M\)** 명령 상태에서 매스의 하단 코너를 한 번 클릭합니다. 그런 다음, 커서를 위로 이동합니다. 그러면 파란색 \(Z\) 축 선이 나타납니다. 이 선은 객체를 위로 똑바로 이동하는 데 도움이 됩니다.
 
-3 - With the blue axis visible, type **4'-6"** and a dimension dialog will appear. After entering the dimension, click **OK** or press **Enter** on the keyboard. This will move the entire mass up off the ground plane along the **Z axis**.
+3 - 파란색 축이 표시된 상태에서 **4'-6"**를 입력하면 치수 대화상자가 나타납니다. 치수를 입력한 후 **확인**를 클릭하거나 키보드의 **Enter** 키를 누릅니다. 이렇게 하면 전체 매스가 **Z축**을 따라 지반 면에서 위로 이동합니다.
 
-_**Note:**_ _Similar to Revit, you can also type_ _**4’6**,_ _**4’6”,**_ _or_ _**4.5**, and the program will interpret the value as 4(feet) 6(inches) when using imperial units._
+_**주:**_ _Revit과 비슷하게, 영국식 단위를 사용할 때_ _**4’6**,_ _**4’6”**_ _또는_ _**4.5**를 입력하면 해당 값이 4\(피트\) 6\(인치\)로 해석됩니다._
 
-![](<../../.gitbook/assets/2 (2).png>)
+![](../../.gitbook/assets/2%20%282%29.png)
 
-## **Edit a Group**
+## **그룹 편집**
 
-1 - To enter the **Group Edit Mode**, double-click the mass.
+1 - **그룹 편집 모드**를 시작하려면 매스를 두 번 클릭합니다.
 
-1. In the **Properties Palette**, rename the Group **"Massing - Main Building"**.
-2. To save the changes and exit the **Group Edit Mode**, click on the **Finish Group Edit** checkmark icon in the upper left corner of the canvas, or double-click off in space.
+1. **특성 팔레트**에서 그룹의 이름을 **"매스작업 - 주 건물"**로 바꿉니다.
+2. 변경사항을 저장하고 **그룹 편집 모드**를 종료하려면 캔버스의 왼쪽 상단 코너에 있는 **그룹 편집 완료** 확인 표시 아이콘을 클릭하거나 공간을 두 번 클릭합니다.
 
-![](<../../.gitbook/assets/3 (12) (1).png>)
+![](../../.gitbook/assets/3%20%2812%29.png)
 
-_**Notes**:_
+_**주:**_
 
-* _To learn about the_ _**Category**_ _options, go to the_ _**Working with Revit**_ _chapter._‌
-* _Each Group has its own undo/redo history that is distinct from the overall project - you can click the_ _**Undo**_ _and_ _**Redo**_ _arrows in the_ _**Group Edit Wizard**_ _in the upper left corner of the canvas._
+* _**카테고리**_ _옵션에 대해 알아보려면_ _**Revit 작업**_ _장으로 이동하십시오._‌
+* _각 그룹에는 고유한 실행취소/재실행 내역이 있으며, 이러한 내역은 전체 프로젝트와 별개입니다. 캔버스의 왼쪽 상단 코너에 있는_ _**그룹 편집 마법사**_ _에서_ _**실행취소**_ _및_ _**재실행**_ _을 클릭할 수 있습니다._
 
-## **Apply Levels to a Group**
+## **그룹에 레벨 적용**
 
-_**Note:**_ _Grouping a geometry overrides previous settings you may have applied to the geometry. Because of that, you will require to re-apply the Levels from the previous exercise._
+_**주:**_ _형상을 그룹화하면 형상에 적용했을 수 있는 이전 설정이 재지정됩니다. 따라서 이전 연습의 레벨을 다시 적용해야 합니다._
 
-1 - To apply levels to a group:
+1 - 그룹에 레벨을 적용하려면 다음을 수행합니다.
 
-1. Single-click the **Massing** **- Main Building** group to select it.
-2. Go to the **Properties Palette** and check **Use Levels.**
-3. Keep only the **Main Building** level by unchecking all the others.
-4. The **Area by Level** field will display the currently selected object(s) gross area. The area of each **Level** is displayed in front of each **Level**’s name.
-5. If you do not see a blue level line crossing the object horizontally, turn on the level display by going to the **Settings menu > Visual Style > Display Levels (DL).**
+1. **매스작업** **- 주 건물** 그룹을 한 번 클릭하여 선택합니다.
+2. **특성 팔레트**로 이동하여 **레벨 사용**
+3. 다른 모든 항목의 선택을 취소하여 **주 건물** 레벨만 유지합니다.
+4. **레벨별 면적** 필드에는 현재 선택한 객체의 총 면적이 표시됩니다. 각 **레벨**의 면적은 각 **레벨**의 이름 앞에 표시됩니다.
+5. 객체를 수평으로 교차하는 파란색 레벨 선이 보이지 않는 경우 **설정 메뉴 &gt; 비주얼 스타일 &gt; 레벨 표시\(DL\)**
 
-_**Note**: If there is no area reported for the_ _**Main Building**_ _level, the geometry may not be intersecting the Level, which should be at 4’-6” height. Troubleshoot by repositioning the geometry or the_ _**Level**_ _height so they intersect._
+_**주**: _ _**주 건물**_ _레벨에 대해 보고된 면적이 없으면 형상은 높이가 4’-6”인 레벨을 교차하지 않을 수 있습니다. 교차하도록 형상 또는 __**레벨**_ _높이를 재배치하여 문제를 해결하십시오._
 
 ![](../../.gitbook/assets/levels-to-groups.png)
 
-2 - Deselect the Group by pressing **Esc** or single-clicking off in space. With no selected object, the **Properties Palette** will report the overall sketch’s gross area - rather than a specific object’s area.
+2 - **Esc** 키를 누르거나 공간을 한 번 클릭하여 그룹의 선택을 취소합니다. 객체를 선택하지 않으면 **특성 팔레트**에서 특정 객체의 면적이 아닌 전체 스케치의 총 면적이 보고됩니다.
 
-![](<../../.gitbook/assets/5 (15).png>)
+![](../../.gitbook/assets/5%20%2815%29.png)
 
-## **Manage Groups**
+## **그룹 관리**
 
-1 - To view and manage all groups in the sketch:
+1 - 스케치의 모든 그룹을 보고 관리하려면 다음을 수행합니다.
 
-1. Go to the **Group Tree Palette**. There you will see:
-   * **Terrain** group – group automatically created when the **satellite image was imported**.
-   * **Massing - Main Building** – the building mass geometry group we just created.
-   * **group 2** – unnamed group containing the floor plan image.
-2. To rename **group 2** through the Group Tree Palette, double-click on **group 2**, and then type **Plan Image**.
+1. **그룹 트리 팔레트**로 이동합니다. 여기에는 다음이 표시됩니다.
+   * **지형** 그룹 - **위성 이미지를 가져올 때** 자동으로 작성된 그룹입니다.
+   * **매스작업 - 주 건물** - 방금 작성한 건물 매스 형상 그룹입니다.
+   * **그룹 2** - 바닥 평면 이미지가 포함된 명명되지 않은 그룹입니다.
+2. 그룹 트리 팔레트를 통해 **그룹 2**의 이름을 바꾸려면 **그룹 2**를 두 번 클릭한 다음, **평면 이미지**를 입력합니다.
 
-![](<../../.gitbook/assets/6 (4).png>)
+![](../../.gitbook/assets/6%20%284%29.png)
 
-_**Notes:**_
+_**주:**_
 
-* _For a tidy model, we recommend keeping the group names descriptive._
-* _This is a handy way to manage and edit all groups in the model from one place._
+* _깔끔한 모델의 경우 그룹 이름을 설명형으로 유지하는 것이 좋습니다._
+* _이것은 모델의 모든 그룹을 한 곳에서 관리하고 편집할 수 있는 유용한 방법입니다._
 
-2 - With the **Plan Image** group still selected, navigate to the **Properties Palette**. Note that the group name was also updated in the **Group** field.
+2 - **평면 이미지** 그룹을 선택한 상태에서 **특성 팔레트**로 이동합니다. 그룹 이름이 **그룹** 필드에서도 업데이트되었습니다.
 
-![](<../../.gitbook/assets/7 (11).png>)
+![](../../.gitbook/assets/7.png)
 
-## **Hide Group Context**
+## **그룹 컨텍스트 숨기기**
 
-_This tool is a quick way to hide all geometry outside the group you are currently editing. It becomes very handy whenever you have a large and complex model and other geometries get in the way._
+_이 도구를 사용하면 현재 편집 중인 그룹 외부의 모든 형상을 빠르게 숨길 수 있습니다. 이 도구는 모델이 크고 복잡하여 다른 형상이 방해가 될 때 매우 편리합니다._
 
-1 - To isolate a group:
+1 - 그룹을 분리하려면 다음을 수행합니다.
 
-1. Double-click on its geometry to edit the group.
-2. Navigate to **Settings** in the **Main Menu** and check **Hide Group Context** or simply press **H** on your keyboard. Note how the **Plan Image** disappears.
-3. Finish editing the group. Note that the **Hide Group Context (H)** mode is only active while inside the **Group Edit Wizard**.
-4. To toggle this mode off again, simply press **H**. This option can be toggled at any time, inside or outside of a group.
+1. 해당 형상을 두 번 클릭하여 그룹을 편집합니다.
+2. **주 메뉴**에서 **설정**으로 이동하고 **그룹 컨텍스트 숨기기**를 선택하거나 키보드의 **H** 키를 누릅니다. **평면 이미지**가 어떻게 사라지는지 확인합니다.
+3. 그룹 편집을 완료합니다. **그룹 컨텍스트 숨기기\(H\)** 모드는 **그룹 편집 마법사** 내에서만 활성화됩니다.
+4. 이 모드를 다시 해제하려면 **H** 키를 누르기만 하면 됩니다. 이 옵션은 그룹 내부 또는 외부에서 언제든지 전환할 수 있습니다.
 
-![](<../../.gitbook/assets/8 (5).png>)
+![](../../.gitbook/assets/8%20%285%29.png)
+

@@ -1,21 +1,22 @@
-# Delete, Edit, Move
+# 삭제, 편집, 이동
 
-Remove an object, change its location, or modify its properties.
+객체를 제거하거나, 객체의 위치를 변경하거나, 객체의 특성을 수정할 수 있습니다.
 
-## Delete
+## 삭제
 
-First, make a geometry selection. Then, right-click to see the Context Menu where you can click on the **Delete Tool**. You can also press the delete key on your keyboard.
+먼저 형상을 선택합니다. 그런 다음, 마우스 오른쪽 버튼을 클릭하여 상황에 맞는 메뉴를 표시합니다. 여기에서 **삭제 도구**를 클릭하면 됩니다. 또는 키보드에서 delete 키를 눌러도 됩니다.
 
-![](<../.gitbook/assets/delete (1).png>)
+![](../.gitbook/assets/delete%20%281%29.png)
 
-## Edit
+## 편집
 
-When using many of the editing tools like Move, Array, Push-Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also simply start typing a numeric value to access the Edit Dimension dialog. Alternatively, you can hit Tab to bring up the Edit Dimension dialog, but Tab is no longer required with FormIt for Windows v17 and newer.
+면 이동, 배열, 밀기/당기기 및 간격띄우기와 같은 여러 편집 도구를 사용할 때 파란색 치수 상자가 표시됩니다. 작업을 마친 후 이 치수를 클릭하고 특정 값을 입력할 수 있습니다. 숫자 값을 입력하여 치수 편집 대화상자에 액세스할 수도 있습니다. 또는 Tab 키를 눌러 치수 편집 대화상자를 표시할 수 있지만 Windows용 FormIt 17 이상 버전에서는 더 이상 Tab 키가 필요하지 않습니다.
 
-![](<../.gitbook/assets/edit\_dimensions (1).png>)
+![](../.gitbook/assets/edit_dimensions.png)
 
-## Move Edges, Faces, or Objects
+## 모서리, 면 또는 객체 이동
 
-First select the edge, face, or object. The move tool is automatically activated. Hover to see snaps and inference points to specify where you want to start your move operation, click to start. Now hover your mouse to see snaps and inference points to the location you want to move the object. Click again to place the object.
+먼저 모서리, 면 또는 객체를 선택합니다. 이동 도구가 자동으로 활성화됩니다. 마우스 커서를 가져가 스냅 및 추정 점을 표시하여 이동 작업을 시작할 위치를 지정하고 클릭하여 시작합니다. 이제 마우스 커서를 가져가면 객체를 이동할 위치에 대한 스냅 및 추정 점이 표시됩니다. 다시 클릭하여 객체를 배치합니다.
 
-![](../.gitbook/assets/edit\_edge.png)
+![](../.gitbook/assets/edit_edge.png)
+

@@ -1,25 +1,28 @@
-# Sun + Shadows
+# 태양 + 그림자
 
-Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
+**태양 + 그림자** 도구를 사용하여 프로젝트에서 태양의 경로 효과를 연구할 수 있습니다.
 
-The first step for accurate shadow studies is to [**set your project location**](setting-location.md).
+정확한 그림자 연구를 위한 첫 번째 단계는 [**프로젝트 위치를 설정**](setting-location.md)하는 것입니다.
 
-Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+위치를 설정하고 필요에 따라 위성 이미지를 가져온 후, 건물 컨텍스트를 포함한 프로젝트와 지붕창 및 나무와 같은 음영 요소를 모델링합니다.
 
-## The Sun + Shadows Menu
+### 태양 + 그림자 메뉴
 
-Turn shadows on in the Sun + Shadows menu at the top of the application (you can also enable shadows, as well as adjust shadow intensity, in [**Visual Styles**](../formit-introduction/tool-bars.md)):
+응용프로그램 맨 위에 있는 태양 + 그림자 메뉴에서 그림자를 켭니다. [**비주얼 스타일**](../formit-introduction/tool-bars.md)에서도 그림자를 사용으로 설정하고 그림자 강도를 조정할 수 있습니다.
 
-![](../.gitbook/assets/sun-+-shadows.png)
+![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+여기에서 하루 중 시간과 연도 중 날짜를 조정할 수 있습니다. 기본 연도는 2000년으로 표시되어 있습니다. 기본 연도는 태양 음영 연구의 정확도에는 영향을 주지 않으므로 걱정하지 않아도 됩니다.
 
-## The Sun Editor
+### 태양 편집기
 
-You can also toggle the Sun Editor from the Sun + Shadows menu (or use shortcut DR), which provides a graphical display of the sun's location in space:
+태양 + 그림자 메뉴에서 또는 바로 가기 DR을 사용하여 태양 편집기를 전환하거나 태양 위치를 공간에 그래픽으로 표시할 수도 있습니다.
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
-* Grab the circular grip to move the sun along its path and effectively adjust the time of day.
-* Adjust the time of year from the Sun + Shadows menu. Doing so will adjust the angle and orientation of the graphical sun path based on the time of year.
+* 태양 편집기가 카메라와 함께 이동하므로, 연구 중인 설계와 관련된 적절한 위치에 위젯을 가져오기 위해 줌 레벨 및/또는 카메라 방향을 조정해야 할 수 있습니다.
+* 원형 그립을 잡아 경로를 따라 태양을 이동하고 효과적으로 하루 중 시간을 조정합니다.
+* 태양 + 그림자 메뉴에서 연중 시간을 조정합니다. 이렇게 하면 연중 시간을 기준으로 그래픽 태양 경로의 각도와 방향이 조정됩니다.
+
+
+

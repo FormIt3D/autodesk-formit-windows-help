@@ -1,98 +1,103 @@
-# Array Along Path
+# 경로를 따라 배열
 
-## Powered by Dynamo
+## Dynamo에서 제공
 
-In FormIt 2021 and newer, you can array objects along a path, and quickly customize the results in-place. Array Along Path is powered by Dynamo, which means the array is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+FormIt 2021 이상에서는 경로를 따라 객체를 배열하고 그 자리에서 결과를 신속하게 사용자 지정할 수 있습니다. 경로를 따라 배열은 Dynamo에서 제공합니다. 즉, 배열을 쉽게 구성하고 원하는 결과를 얻을 수 있으며 논리를 다시 실행하면 형상이 그 자리에서 업데이트됩니다.
 
-![](<../.gitbook/assets/array-along-path (1).gif>)
+![](../.gitbook/assets/array-along-path.gif)
 
-## Starting Array Along Path
+## 경로를 따라 배열 시작
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
-* Click the Array Along Path sample.
-* On the left side of the screen, you'll see a prompt to "Select object(s) to array."
-  * You can select any mix of FormIt objects for this step.
-  * Once you've got something selected, you can hit the "next" arrow on the left side of the screen, or just hit Enter.
-* Now you'll see a prompt to "Select path for array."
-  * Here, you should select only a series of contiguous edges, or a Group containing a series of contiguous edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter.&#x20;
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated Array in a FormIt Group, ready for modifying (see below).
+* Windows용 FormIt의 Dynamo 패널로 이동하여 현재 위치가 Dynamo Samples 디렉토리인지 확인합니다.
+* Array Along Path 샘플을 클릭합니다.
+* 화면 왼쪽에 "배열할 객체 선택" 메시지가 표시됩니다.
+   * 이 단계에서 FormIt 객체를 혼합하여 선택할 수 있습니다.
+   * 항목을 선택한 후에는 화면 왼쪽의 "다음" 화살표를 누르거나 Enter 키를 누릅니다.
+* 이제 "배열 경로를 선택하십시오."라는 메시지가 표시됩니다.
+   * 여기서는 일련의 연속 모서리만 선택하거나 일련의 연속 모서리가 포함된 그룹을 선택해야 합니다.
+   * 경로를 선택한 후 "완료" 버튼을 클릭하거나 Enter 키를 누릅니다.
+* Dynamo 패널에는 변경사항이 처리되고 있음이 표시됩니다. 완료되면 Dynamo에서 생성된 배열을 FormIt 그룹에 추가하여 수정할 수 있습니다\(아래 참고\).
 
-## Iterating In Place
+## 그 자리에서 반복
 
-After running Array Along Path, you'll see its results are set to default values, so you'll want to modify them to suit your needs.
+경로를 따라 배열을 실행하면 결과가 기본값으로 설정되므로 필요에 따라 수정할 수 있습니다.
 
-When Array Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Array Along Path instance.
+경로를 따라 배열이 실행되면 결과가 포함된 새 그룹이 작성되고 FormIt이 자동으로 그룹을 선택하고 경로를 따라 배열 인스턴스(instance)에 대해 사용 가능한 옵션을 표시합니다.
 
-You can always return to the Array Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+그룹을 선택하고 특성 패널로 전환하거나 특성을 자동으로 표시하는 그룹을 편집하여 언제든지 경로를 따라 배열 특성으로 돌아갈 수 있습니다.
 
-![](<../.gitbook/assets/array along path (1).png>)
+![](../.gitbook/assets/array-along-path-options.png)
 
-### Select Object(s) to Array <a href="#run" id="run"></a>
+### 배열할 객체 선택 <a id="run"></a>
 
-Click this to go back to the selection wizard to change which objects are being arrayed.
+이 옵션을 클릭하면 선택 마법사로 돌아가 배열할 객체를 변경할 수 있습니다.
 
-### Select Array Path
+### 배열 경로 선택
 
-Click this to go back to the selection wizard to change the path that is used to calculate the array.
+이 옵션을 클릭하면 선택 마법사로 돌아가 배열 계산에 사용되는 경로를 변경할 수 있습니다.
 
-### Array Type <a href="#run" id="run"></a>
+### 배열 유형 <a id="run"></a>
 
-This toggles the type of array to calculate: By Distance, or By Number.
+이 옵션으로 계산할 배열 유형인 거리별 또는 개수별을 전환할 수 있습니다.
 
-**When true**, the calculation will be "By Distance", so the number below refers to the distance between copies.
+**참인 경우** "거리별"로 계산되므로 아래 숫자는 복사본 간의 거리를 나타냅니다.
 
-**When false**, the calculation will by "By Number of Copies", so the number below this field refers to the number of copies to fit along the path.
+**거짓인 경우** "복사본 개수별"로 계산되므로 이 필드 아래의 숫자는 경로를 따라 맞출 복사본 수를 나타냅니다.
 
-### Include Original Selection In Results
+### 결과에 원래 선택 포함
 
-When **true**:
+**참**인 경우:
 
-* The object(s) selected will be counted as one of the new copies
-* The resulting Dynamo Group will include the original selection in its results, so the new copies will Z-fight with the original selection. You can put the original selection on a [Layer](layers.md), and turn it off to hide it.
+* 선택한 객체가 새 복사본 중 하나로 계산됩니다.
+* 결과로 생성된 Dynamo 그룹은 원래 선택을 결과에 포함하므로 새 복사본이 원래 선택에 대해 z-fighting됩니다. 원래 선택을 [레이어](layers.md)에 둔 후 해제하여 숨길 수 있습니다.
 
-When **false**:
+**거짓**인 경우:
 
-* The resulting array will **not** include the original selection, so you'll get the number of copies you specified **in addition to** the original selection, and the results won't Z-fight
+* 결과로 생성된 배열은 원래 선택을 포함하지 **않기** 때문에 원래 선택과 **함께** 지정한 복사본 수를 얻게 되며 결과가 z-fighting되지 않습니다.
 
-### Rotate Copies Along Path
+### 경로를 따라 복사본 회전
 
-When **true**, the copies are rotated to maintain the orientation of the original object relative to the path.
+**참**인 경우 복사본이 회전되어 경로를 기준으로 원래 객체의 방향이 유지됩니다.
 
-When **false**, the copies are not rotated, only moved.
+**거짓**인 경우 복사본이 회전되지 않고 이동되기만 합니다.
 
-### Use Relative Positioning Along Path
+### 경로를 따라 상대 위치 사용
 
-When **true**:
+**참**인 경우:
 
-* Each copy will maintain the distance between the path and the original object.
-* If the original object is **not** positioned at one of the path endpoints, the largest remaining segment of the path will be used for the array calculation.&#x20;
+* 각 복사본은 경로와 원래 객체 사이의 거리를 유지합니다.
+* 원래 객체가 경로 끝점 중 하나에 배치되지 **않은** 경우 경로의 가장 큰 나머지 세그먼트가 배열 계산에 사용됩니다.
 
-When **false**:
+**거짓**인 경우:
 
-* The entire length of the path will used to calculate the array, regardless of where the original object is relative to the path.&#x20;
-* This decouples the path's location relative to the object, and simply uses the entire path. Useful if the path and object are not near each other.
+* 경로의 전체 길이는 경로를 기준으로 원래 객체의 상대적인 위치에 관계없이 배열을 계산하는 데 사용됩니다.
+* 이렇게 하면 객체를 기준으로 경로의 위치가 분리되고 전체 경로가 사용됩니다. 경로와 객체가 서로 가까이 있지 않은 경우에 유용합니다.
 
-### Reverse Path Direction
+### 경로 방향 반전
 
-For closed paths only. When using Array Along Path with a closed path, the direction of the curve may unexpectedly flip the expected results of the array. Toggle this to **true** to reverse the array direction if the results are flipped.
+닫힌 경로에만 해당합니다. 닫힌 경로에서 경로를 따라 배열을 사용할 때 곡선의 방향이 예기치 않게 배열의 예상 결과를 반전할 수 있습니다. 결과가 반전되는 경우 이 옵션을 **참**으로 전환하여 배열 방향을 반전합니다.
 
-### Run <a href="#run" id="run"></a>
+### 실행 <a id="run"></a>
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+옵션을 편집했으면 "실행" 버튼을 클릭하여 기본 Dynamo 그래프를 실행하고 새 결과를 생성합니다. 매개변수가 변경되면 이 버튼이 파란색으로 바뀌므로 최종 형상에서 업데이트를 보려면 이 버튼을 클릭해야 합니다.‌
 
-### Edit Embedded Graph <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
+### 포함된 그래프 편집 <a id="edit-embedded-graph"></a>
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+이 옵션을 클릭하면 Dynamo 그래프 편집기 환경이 시작되므로 기본 Dynamo 그래프를 보고 편집하여 좀 더 신속하게 매개변수를 변경하고 라이브 업데이트를 확인하거나 논리를 검사/조정할 수 있습니다.
 
-## Selecting Geometry
 
-When selecting objects for Array Along Path, and other selection-based Dynamo graphs:
 
-* You can select any mix of FormIt objects - vertices, edges, faces, solids, Groups, and Meshes.&#x20;
-  * Note that depending on the step, some of these objects should not be selected.
-  * For example, when selecting the path, you should only select a contiguous series of edges, or a Group containing a contiguous series of edges. Anything else will cause the graph to fail.
-* You can double-click on an object to select everything attached.&#x20;
-* You can use the area selection window to grab a series of objects.
-* You can select objects already selected to deselect them.
-* At least one object is required to proceed with a selection-based step.
+## 형상 선택
+
+경로를 따라 배열을 위한 객체를 선택하거나 기타 선택 기반 Dynamo 그래프를 선택하는 경우:
+
+* 정점, 모서리, 면, 솔리드, 그룹 및 메쉬와 같은 FormIt 객체를 혼합하여 선택할 수 있습니다.
+   * 단계에 따라서는 이러한 객체 중 일부를 선택하지 않는 것이 좋습니다.
+   * 예를 들어 경로를 선택할 때는 연속된 일련의 모서리만 선택하거나 연속된 일련의 모서리가 포함된 그룹을 선택해야 합니다. 그 밖의 항목을 선택하면 그래프가 실패하게 됩니다.
+* 객체를 두 번 클릭하여 부착된 모든 항목을 선택할 수 있습니다.
+* 영역 선택 창을 사용하여 일련의 객체를 선택할 수 있습니다.
+* 이미 선택된 객체를 선택하여 선택 취소할 수 있습니다.
+* 선택 기반 단계를 진행하려면 하나 이상의 객체가 필요합니다.
+
+
+
