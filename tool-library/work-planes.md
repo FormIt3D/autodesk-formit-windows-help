@@ -1,15 +1,16 @@
-# Work Planes
+# Рабочие плоскости
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+При изменении глобальных осей на основном эскизе или локальных осей группы рабочая плоскость связывается с осями X и Y. **Рабочая плоскость** — это виртуальная 2D-поверхность, используемая в качестве плоскости по умолчанию для построения эскизов. Эта рабочая плоскость растягивается до бесконечности и обеспечивает поверхность для построения эскиза без привязки к элементам за ее пределами.
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+Сведения о способах редактирования нулевой плоскости см. в разделе [Визуальные стили.](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## Изменение рабочих плоскостей
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+Поверните [оси глобальной системы координат](world-axes.md) к плоскости другого объекта на эскизе. Это позволит выровнять активную рабочую плоскость по выбранной грани. Теперь можно создавать эскизы, размещать элементы и изменять элементы с использованием новой плоскости XY вместо нулевой плоскости по умолчанию. Можно выполнять вращение по орбите позади сетки и рабочих плоскостей или под ними, а также выполнять привязку и формирование элементов позади сетки.
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style > Environment > **Display Grid (DG).**
+Можно включать и отключать видимость линий сетки, чтобы использовать преимущества рисования эскиза с использованием рабочей плоскости. Этот параметр можно задать в разделе «Визуальный стиль» &gt; «Среда» &gt; **«Отображение сетки (D+G)».**
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings > **Snap to Grid (SG).**
+Можно также управлять привязкой к сетке при рисовании. Включить или отключить этот параметр можно в разделе «Параметры» > **«Привязка к сетке» (S+G).**
 
 ![](../.gitbook/assets/work-plane.gif)
+

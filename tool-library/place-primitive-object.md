@@ -1,6 +1,7 @@
-# Placing Primitives
+# Размещение примитивов
 
-1. In the [Action Toolbar](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md) click to open the **Primitives button** and [select](select-edge-face-or-object.md) the cube.   ![](<../.gitbook/assets/primitive-cube (1).png>)&#x20;
-2. Then drag and **click to place** the cube.  ![](<../.gitbook/assets/image-2- (1).png>)  &#x20;
-3. While dragging the cube it will be shown with default dimensions. You can change those dimensions **while dragging** by hitting the **Tab** key. This will bring up a **Tool Options** dialog where the dimensions can be edited. ![](<../.gitbook/assets/image (1).png>) &#x20;
-4. After entering new values and hitting **OK**, the cube will be displayed with the new dimensions.
+1. На [панели инструментов «Действия»](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md) нажмите кнопку **Примитивы** и [выберите](select-edge-face-or-object.md) куб. ![](../.gitbook/assets/primitive-cube.png)
+2. Затем перетащите куб и **разместите его** щелчком мыши. ![](../.gitbook/assets/image-2-%20%281%29.png)
+3. При перетаскивании куба отображаются его размеры по умолчанию. Эти размеры можно изменить **при перетаскивании**, нажав клавишу **TAB**. Откроется диалоговое окно **Параметры инструмента**, в котором можно редактировать размеры. ![](../.gitbook/assets/image%20%281%29.png)
+4. Введя новые значения, нажмите кнопку **ОК**, и куб отобразится с учетом новых размеров.
+

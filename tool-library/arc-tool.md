@@ -1,23 +1,24 @@
-# Arc
+# Дуга
 
-Use the Arc tool to create half circles or symmetrical arcs. There are two ways to create arcs.
+Используйте инструмент «Дуга» для создания половинных окружностей или симметричных дуг. Существует два способа создания дуг.
 
-## Arc by Three Points
+## Дуга по трем точкам
 
-![](../.gitbook/assets/arc\_three\_pts.png)
+![](../.gitbook/assets/arc_three_pts.png)
 
-An arc is defined by three points and can be drawn on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
+Дуга определяется с помощью трех точек, и ее можно построить по осям X, Y и Z. Определите первую точку, затем задайте расстояние от первой до второй точки и, наконец, укажите высоту дуги с помощью третьей точки. Автоматически отобразится точка «полукруга» для привязки, без которой линия дуги будет выходить за первые две точки.
 
-You can see the length between the first point and the second point as you're determining the second points next location; to manually specify a length, simply enter a value and a dimension box will appear.
+При определении положения второй точки отображается значение расстояния между первой и второй точками. Его можно задать вручную, введя значение на клавиатуре, и оно появится в окне ввода размера.
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-After drawing the arc, you can make a face using the [Line tool](line-tool.md) to connect the first and second points.
+После построения дуги можно создать грань, соединив первую и вторую точки с помощью [инструмента «Линия»](line-tool.md).
 
-## Arc by Center
+## Дуга по центру
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Choose the mid point of the arc, then drag to choose the center, and drag to define the length of the arc. Simply start typing a value to enter a precise number of degrees for the arc.
+Выберите среднюю точку дуги, затем перетащите, чтобы задать центр дуги, и снова перетащите, чтобы указать длину дуги. Чтобы указать точное количество градусов для дуги, просто начните вводить нужное значение.
 
-![](../.gitbook/assets/arc\_circle\_demo.gif)
+![](../.gitbook/assets/arc_circle_demo.gif)
+

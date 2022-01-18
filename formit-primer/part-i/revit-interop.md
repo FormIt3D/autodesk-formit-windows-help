@@ -1,69 +1,69 @@
-# 1.15 - Working With Revit
+# 1.15. Работа с Revit
 
-_One of FormIt's most exciting features is the ability to move your model from a flexible modeling environment like FormIt, to a powerful parametric environment like Revit. In this chapter, we will go through a few exercises that move various elements from FormIt to Revit, and from Revit to FormIt._
+_Одной из важнейших функций FormIt является возможность переноса модели из гибкой среды моделирования в мощную параметрическую среду, такую как Revit. В этом разделе мы рассмотрим несколько упражнений по переносу различных элементов из FormIt в Revit и обратно._
 
-_This chapter will make use of sample Revit families. If you have not already, you can download them from the **Farnsworth House Data Set.** If you did not follow the whole tutorial up until this point, you can also download and open the **1.15 – Working With Revit.axm** file from the **FormIt Primer Part 1 Datasets**._
+_В этом разделе будут использоваться примеры семейств Revit. Если вы этого еще не сделали, загрузите **набор данных для дома Фарнсуорт.**Если вы не работали с предыдущими разделами руководства, можно также загрузить и открыть файл **1.15 – Working With Revit.axm** из **наборов данных для части I руководства FormIt Primer**._
 
-_In these exercises, we will use Revit 2022, which has improved interoperability capabilities with FormIt. Previous versions of Revit will not have some or any of the features shown in this tutorial, and will have different UI._
+_В следующих упражнениях мы используем версию Revit 2022, обладающую улучшенными возможностями взаимодействия с FormIt. В предыдущих версиях Revit отсутствуют элементы, представленные в этом руководстве, а пользовательский интерфейс отличается от используемого._
 
-## From Revit to FormIt
+## Из Revit в FormIt
 
-### Convert Revit Families for Use in FormIt
+### Преобразование семейств Revit для использования в FormIt
 
-If you (or your firm) have a trove of Revit Families that you want to use in FormIt, then you will be interested in this section, which discusses how to batch export RFA files to FormIt.
+Если у вас \(или вашей компании\) имеется набор семейств Revit, которые вы хотели бы использовать в FormIt, то вам будет полезен данный раздел. В нем рассматривается пакетный экспорт файлов RFA в FormIt.
 
-_**Note:**_ _The steps below show the interface and the necessary steps when using Revit 2022, but the_ _**Convert RFA to FormIt**_ _tools has been available since Revit 2016._
+_**Примечание.**_ _Ниже представлен интерфейс и приведены необходимые действия по использованию Revit 2022, однако инструменты_ _**Преобразовать RFA в FormIt**_ _доступны начиная с версии Revit 2016._
 
-1 – Open a New Revit Project or Family. Then:
+1 – Откройте новый проект или семейство Revit. После этого:
 
-1. From the **Add-Ins** ribbon, find the **FormIt Converter** panel and click on the **Convert RFA to FormIt** button. The **Convert Revit Families Dialog** will pop-up.
-2. In the **Path to Revit Family File** field, browse to wherever you saved the following folder on your computer: **Farnsworth House Data Set > Supporting Files > Revit**.
-3. In the **Path to FormIt Content** field, browser to **Farnsworth House Data Set > Supporting Files > FormIt > Custom FormIt Content**. If you have not completed chapter **1.11 Import Models with Content Library**, you may need to create the **Custom FormIt Content** folder, or choose another destination.
-4. Click **OK** to start the conversion process.
+1. На ленте **Надстройки** найдите панель **Конвертер FormIt** и нажмите кнопку **Преобразовать RFA в FormIt**. Откроется диалоговое окно **Преобразование семейств Revit**.
+2. В поле **Путь к файлу семейства Revit** откройте следующий каталог: **Farnsworth House Data Set &gt; Supporting Files &gt; Revit**.
+3. В поле **Путь к содержимому FormIt** откройте каталог **Farnsworth House Data Set &gt; Supporting Files &gt; FormIt &gt; Custom FormIt Content**. Если вы не работали с разделом **1.11. Импорт моделей с библиотекой компонентов**, может потребоваться создать папку **Custom FormIt Content** или выбрать другой каталог.
+4. Чтобы начать процесс преобразования, нажмите **ОК**.
 
-![](<../../.gitbook/assets/0 (23).png>)
+![](../../.gitbook/assets/0%20%2823%29.png)
 
-_**Notes:**_
+_**Примечания.**_
 
-* _This process will take some time as Revit opens the_ _**RFA**_ _in the first path, then converts and saves it as an_ _**AXMF**_ _format for FormIt._
-* _In this exercise, we are only converting a single file, but you can use this process to batch-convert all_ _**RFAs**_ _in the selected folder (including any_ _**RFAs**_ _in nested folders)._
+* _Этот процесс займет некоторое время, так как в Revit открывается файл __**RFA**__ по первому пути, а затем преобразуется и сохраняется в формате_ _**AXMF**_ _для использования в FormIt._
+* _В этом упражнении выполняется преобразование только одного файла, но описанный процесс можно использовать для пакетного преобразования всех файлов_ _**RFA**_ _в выбранном каталоге \(включая любые_ _**файлы RFA**_ _во вложенных папках\)._
 
-2 - Once the process is completed, go back to FormIt. There you will see the new content appear in the **Content Library Palette**, inside the **FormIt >** **Custom FormIt Content** folder we previously linked. If you saved your converted **AXMF** file(s) to a different location, or did not complete chapter **1.11 Import Models with Content Library**, you may need to add that folder to your content library to see its contents. Refer to chapter 1.11 for instructions on how to add folders to your content library.
+2 - По завершении процесса перейдите в FormIt. Новое содержимое появится на **палитре библиотеки компонентов** в ранее привязанном каталоге**FormIt &gt;** **Custom FormIt Content**. Если преобразованный файл **AXMF** сохранен в другом каталоге или вы не работали с разделом **1.11. Импорт моделей с библиотекой компонентов**, может потребоваться добавить этот каталог в библиотеку компонентов, чтобы просмотреть ее содержимое. Инструкции по добавлению каталогов в библиотеку компонентов см. в разделе 1.11.
 
-![](<../../.gitbook/assets/1 (24).png>)‌
+![](../../.gitbook/assets/1%20%2824%29.png)‌
 
-**Note**: _Not all categories from Revit are supported for export. The 'free standing' or ‘level based’ families are supported, but the 'host based' families like doors and windows are not. Mass, Casework, Entourage, Furniture, Furniture System, Generic Model, Parking, Site, and Specialty Equipment are all supported. Any unsupported families in the selected fold will simply be skipped._
+**Примечание.** _Экспорт поддерживается не для всех категорий Revit. Поддерживаются «самостоятельные» семейства и семейства «с привязкой к уровню» и не поддерживаются семейства «с привязкой к основе», такие как двери и окна. Поддерживаются формообразующие элементы, шкафы, элементы благоустройства, мебель, комплекты мебели, типовые модели, парковки, площадки и специальное оборудование. Все неподдерживаемые семейства в выбранном каталоге будут пропущены._
 
-## From FormIt to Revit
+## Из FormIt в Revit
 
-_There are two different ways to bring geometry from FormIt to Revit. You can import an existing_ _**.axm**, into either a Revit project or Revit family file, which will behave similarly to an imported model or CAD file. Alternatively, you can launch FormIt from within Revit, and bring each FormIt group into Revit as an individual Generic Model element. The second method is covered in the **Part II** chapter_ _**2.8**_ _**Advanced Revit Workflows**._
+_Существует два способа переноса объектов геометрии из FormIt в Revit. Имеющийся файл_ _**AXM** можно импортировать в файл проекта Revit или семейства Revit, с которым можно работать так же, как и с импортированной моделью или файлом САПР. Кроме того, можно запустить FormIt, работая в Revit и перенести каждую группу FormIt в Revit как отдельный элемент типовой модели. Второй метод рассматривается в **части II** **2.8**_, раздел _**Расширенные рабочие процессы Revit**._
 
-### Importing the Farnsworth House to Revit
+### Импорт дома Фарнсуорт в Revit
 
-1 – To import an FormIt file (**.axm**) to Revit, start a new Revit project and open the default 3D view. Then:
+1 – Чтобы импортировать файл FormIt \(**AXM**\) в Revit создайте новый проект Revit и откройте 3D-вид по умолчанию. После этого:
 
-1. Go to the **Insert Tab**, and click on the **Import CAD** button. The **Import CAD Formats** window will open.
-2. Make sure the **Files of type** dropdown is set to **FormIt Files (\*.axm)**.
-3. Navigate to and select the Farnsworth **.axm** file you have been working on. If you have not been following along with the Primer Part I, you can also open **1.15 – Working With Revit.axm** file the **Farnsworth House Data Set > Chapter Files** folder.
-4. Make sure that **Import FormIt Levels** is checked.
-5. Once the settings are defined, click **Open**, and the FormIt geometry will be brought into Revit as a single element.
+1. Перейдите на **вкладку «Вставка»** и нажмите кнопку **Импортировать САПР**. Откроется окно **Импорт форматов САПР**.
+2. Убедитесь, что в раскрывающемся списке **Тип файлов** выбран параметр **Файлы FormIt \(\*.AXM\)**.
+3. Найдите и выберите файл Фарнсуорт расширения **AXM**, с которым вы работали. Если вы не работали с частью I руководства Primer, можно также открыть файл **1.15 – Working With Revit.axm** в каталоге **Farnsworth House Data Set &gt; Chapter Files**.
+4. Убедитесь, что установлен флажок **Импортировать уровни FormIt**.
+5. Задав параметры, нажмите кнопку **Открыть**, и объекты геометрии FormIt будут перенесены в Revit как единый элемент.
 
-![](<../../.gitbook/assets/2 (24) (1).png>)
+![](../../.gitbook/assets/2%20%2824%29.png)
 
-Importing a FormIt file using the import CAD button.
+Импорт файла FormIt с помощью кнопки «Импорт САПР».
 
-![](<../../.gitbook/assets/3 (21) (1).png>)\
-Imported .axm element. Note that the Levels from the FormIt model are also imported into Revit.
+![](../../.gitbook/assets/3%20%2821%29.png)  Импортированный элемент AXM. Обратите внимание, что уровни из модели FormIt также импортируются в Revit.
 
-_Similar to other CAD formats, the layers in the original file are imported to Revit. This feature allows you to define different visibility settings for each layer to easily manipulate the graphic appearance of your FormIt file in any Revit view._
+_Как и в других форматах САПР, слои исходного файла импортируются в Revit. Данная функция позволяет задавать различные параметры видимости для каждого слоя, позволяющие упростить управление графическим представлением файла FormIt на любом виде Revit._
 
-2 – To adjust the imported .axm file’s layer visibility:
+2 – Чтобы настроить видимость слоев импортированного файла AXM, выполните следующие действия.
 
-1. Go to the **Visibility/Graphic Overrides (VG or VV)** window, **Imported Categories** tab, expand your imported FormIt file, and uncheck the **Planting** layer to turn off the layer in the current view, and click **OK**.
-2. Change the **Visual Style** to **Realistic**, and you will see that all the FormIt materials have been imported into Revit.
+1. Перейдите в окно **Переопределения видимости/графики \(VG или VV\)**, откройте вкладку **Импортированные категории**, разверните импортированный файл FormIt и снимите флажок слоя **Озеленение**, чтобы отключить слой на текущем виде, и нажмите **ОК**.
+2. Измените значение параметра **Визуальный стиль** на **Реалистичный**, и вы увидите, что все материалы FormIt импортированы в Revit.
 
-![](<../../.gitbook/assets/4 (20) (1).png>)
+![](../../.gitbook/assets/4%20%2820%29.png)
 
-3 - In fact, the imported FormIt materials will now be available in this Revit project, tagged with the Class **FormIt**. Just open the **Material Browser** and search for “FormIt” and you will see them all. These can now be used in your Revit project just like any other material.
+3 - Импортированные материалы FormIt станут доступны в проекте Revit с пометкой класса **FormIt**. Просто откройте **Обозреватель материалов** и выполните поиск по запросу «FormIt». Отобразятся все материалы. Теперь их можно использовать в проекте Revit так же, как и любой другой материал.
 
-![](<../../.gitbook/assets/5 (19) (1).png>)
+![](../../.gitbook/assets/5%20%2819%29.png)
+

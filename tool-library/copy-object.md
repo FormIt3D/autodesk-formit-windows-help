@@ -1,28 +1,29 @@
-# Copy Object
+# Копирование объекта
 
-There are three ways to copy an object.
+Существует три способа скопировать объект.
 
-**Copy Using the Context Menu**
+**Копирование с помощью контекстного меню**
 
-1. Select the object by double-clicking it.
-2. Right-click the object.
-3. Select the [**Copy tool**](tilt-array-copy-and-paste.md) in the Context Menu.
-4. Right-click anywhere else in the scene and choose the **Paste button**.
+1. Двойным щелчком выберите объект.
+2. Щелкните объект правой кнопкой мыши.
+3. В контекстном меню выберите [**инструмент копирования**](tilt-array-copy-and-paste.md).
+4. Щелкните правой кнопкой мыши в любом месте сцены и нажмите **кнопку вставки**.
 
-Note: This also works with **CTRL + C** or **V**. Use Paste In Place (**CTRL+Shift+V**) to paste an object exactly where it was copied from.
+Примечание. Это также можно сделать с помощью комбинаций клавиш **CTRL+C** и **CTRL+V**. Используйте команду «Вставить по месту» (**CTRL+SHIFT+V**), чтобы вставить объект в то же место, откуда он был скопирован.
 
-**Copy Using the CTRL Key**
+**Копирование с помощью клавиши CTRL**
 
-1. Select the object by clicking it (double-click to select a whole body or everything attached).
-2. Press and hold the **CTRL key** and start dragging the object, or start moving the object and then tap **CTRL**
-3. Instead of moving the object, you'll now be moving a copy of it.
-4. Note that Ctrl-copy does not currently work when Touch Mode is enabled.&#x20;
-   1. In Touch Mode, you'll need to use the copy/paste tools in the Context Menu (press and hold) or use Ctrl+C and Ctrl+V, then place the object down, and reposition it as needed.
+1. Выберите объект, щелкнув его (щелкните дважды для выбора тела целиком или всех присоединенных объектов).
+2. Нажмите и удерживайте клавишу **CTRL** и начните перетаскивать объект либо начните перемещать объект, а затем нажмите клавишу **CTRL**.
+3. При этом будет перемещен не сам объект, а его копия.
+4. Обратите внимание, что в сенсорном режиме функция копирования с помощью клавиши CTRL в настоящее время не доступна.
+   1. В сенсорном режиме необходимо либо использовать инструменты копирования и вставки в контекстном меню (нажмите и удерживайте), либо использовать сочетания клавиш CTRL+C и CTRL+V, а затем вставить объект и изменить его положение.
 
-**Copy Using the Array Tool**
+**Копирование с помощью инструмента «Массив»**
 
-1. Select the object by double-clicking it
-2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
-3. Select the number of copies you want to make
-4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .**  ![](<../.gitbook/assets/array\_properties (2).png>)
+1. Двойным щелчком выберите объект.
+2. Щелкните объект **правой кнопкой мыши** и выберите [**инструмент массива**](tilt-array-copy-and-paste.md).
+3. Задайте необходимое количество копий.
+4. Выберите, что будет определено при следующем перетаскивании: расстояние между двумя объектами или общая длина массива.
+5. Нажмите **ОК.**  ![](../.gitbook/assets/array_properties.png)
+

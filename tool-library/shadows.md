@@ -1,25 +1,28 @@
-# Sun + Shadows
+# Солнце и тени
 
-Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
+Используйте инструмент **Солнце и тени** для изучения влияния солнечного света на объекты проекта.
 
-The first step for accurate shadow studies is to [**set your project location**](setting-location.md).
+Для точного анализа теней необходимо прежде всего [**задать местоположение проекта**](setting-location.md).
 
-Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+После задания местоположения и импорта спутникового изображения постройте модель проекта в контексте окружающей среды с элементами затенения, такими как решетки и деревья.
 
-## The Sun + Shadows Menu
+### Меню «Солнце и тени»
 
-Turn shadows on in the Sun + Shadows menu at the top of the application (you can also enable shadows, as well as adjust shadow intensity, in [**Visual Styles**](../formit-introduction/tool-bars.md)):
+Включите тени в меню «Солнце и тени» в верхней части приложения. Включить тени и настроить их интенсивность можно также в разделе [**Визуальные стили**](../formit-introduction/tool-bars.md).
 
-![](../.gitbook/assets/sun-+-shadows.png)
+![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+Здесь можно настроить время суток и день в году. По умолчанию установлен 2000 год. Это значение не влияет на точность расчета солнца и теней.
 
-## The Sun Editor
+### Редактор солнца
 
-You can also toggle the Sun Editor from the Sun + Shadows menu (or use shortcut DR), which provides a graphical display of the sun's location in space:
+Можно также перейти в редактор солнца в меню «Солнце и тени» (или используя горячие клавиши D+R). В нем можно настроить графическое отображение расположения солнца в пространстве.
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
-* Grab the circular grip to move the sun along its path and effectively adjust the time of day.
-* Adjust the time of year from the Sun + Shadows menu. Doing so will adjust the angle and orientation of the graphical sun path based on the time of year.
+* Редактор солнца перемещается вместе с камерой, поэтому может потребоваться изменить уровень масштабирования и/или ориентацию камеры, чтобы виджет оказался в нужном положении относительно проекта.
+* Перетащите круглую ручку для перемещения солнца по его траектории и изменения времени суток.
+* Скорректируйте время года в меню «Солнце и тени». При этом угол и ориентация траектории солнечного света корректируются в зависимости от времени года.
+
+
+

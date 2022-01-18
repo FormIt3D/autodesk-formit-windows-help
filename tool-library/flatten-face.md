@@ -1,15 +1,20 @@
-# Faces: Flatten
+# Грани: выравнивание
 
-Use the **Flatten Faces** tool to force two or more object faces into the same plane.
+Используйте инструмент **Выровнять грани** для принудительного размещения двух или нескольких граней объекта в одной плоскости.
 
-When two or more object faces are selected, you can select the **Flatten Faces** tool from the **Context** menu. You can also access **Flatten Faces** using the shortcut "**FL**."
+При выборе нескольких граней объекта в **контекстном меню** станет доступна команда **Выровнять грани**. Для выполнения команды **Выровнять грани** можно также воспользоваться горячими клавишами **F+L**.
 
-![](../.gitbook/assets/flatten\_faces.png)
+![](../.gitbook/assets/flatten_faces.png)
 
-**Flatten Faces** can be useful as a repair tool when a face that should be planar becomes unexpectedly faceted (with smooth edges between the facets), either when importing lower-fidelity data like [SketchUp models](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), or after accidentally moving a vertex or edge which causes a face to get faceted or triangulated.
+Команда **Выровнять грани** применяется в качестве инструмента исправления, когда необходимо сделать составную грань плоской (сгладить ребра между сегментами грани) при импорте данных низкой четкости, например [моделей SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), или после случайного перемещения вершины или ребра, в результате чего грань становится сегментирована или триангулирована.
 
-You can also use **Flatten Faces** as a design tool for aligning or extending shapes. To do this, first, select a guide surface, then select additional faces to flatten to the plane of the first surface.
+Кроме того, команду **Выровнять грани** можно использовать в качестве инструмента проектирования для выравнивания или удлинения форм. Для этого сначала выберите направляющую поверхность, а затем выберите дополнительные грани, которые будут выровнены относительно плоскости направляющей поверхности.
 
-Check out the video below to see the power and versatility of **Flatten Faces**:
+Посмотрите видеоролик ниже, чтобы узнать о широких возможностях функции **выравнивания граней**.
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
+
+
+
+
+

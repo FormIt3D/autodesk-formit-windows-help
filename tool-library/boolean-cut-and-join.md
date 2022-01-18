@@ -1,27 +1,28 @@
-# Boolean Cut
+# Логическое вырезание
 
-You can cut one object or group from another with the Cut Tool. There are two ways to access the Cut tool:
+Инструмент вырезания позволяет вырезать один объект (или группу) из другого объекта (или группы). Открыть инструмент можно одним из следующих способов.
 
-## Run the Cut command first
+## Первый способ: команда «Вырезать»
 
-Keyboard: C G
+Горячие клавиши: C+G
 
-![](../.gitbook/assets/cut\_tool.png)
+![](../.gitbook/assets/cut_tool.png)
 
-Run the Cut command and follow the mode instruction in the upper left of the screen
+Запустите команду «Вырезать» и следуйте инструкциям данного режима в левом верхнем углу экрана.
 
-Single-click to select an object to cut into:
+Однократным щелчком выберите объект, в котором нужно выполнить вырезание.
 
-![](../.gitbook/assets/boolean\_cut.png)
+![](../.gitbook/assets/boolean_cut.png)
 
-Single click to select an object(s) or group(s) to be removed:
+Однократным щелчком выберите объекты или группы, которые будут удалены.
 
-![](../.gitbook/assets/boolean\_cut2.png)
+![](../.gitbook/assets/boolean_cut2.png)
 
-Click the checkmark to finish the command. The object that was removed remains in the scene. You can delete it or use [Layers ](layers.md)to hide it.
+Щелкните галочку для выполнения команды. Удаленный объект остается в сцене. Его можно удалить или скрыть с помощью команды [Слои](layers.md).
 
-## Select objects first
+## Второй способ: выбор объектов
 
-1. Double-click to select the object to be cut into. (Single-click for a Group)
-2. Holding the **CTRL key** double click an overlapping object(s) to cut out.
-3. Right-click on the object that will be cut, and choose the [**Cut tool**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) in the Context Menu. ![](<../.gitbook/assets/cut tool.png>)
+1. Двойным щелчком выберите объект, в котором нужно выполнить вырезание. Чтобы выбрать группу, щелкните однократно.
+2. Удерживая клавишу **CTRL**, дважды щелкните пересекающиеся объекты для вырезания.
+3. Щелкните правой кнопкой мыши объект, который будет вырезан, и выберите [**инструмент вырезания**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) в контекстном меню. ![](../.gitbook/assets/booleancut.png)
+

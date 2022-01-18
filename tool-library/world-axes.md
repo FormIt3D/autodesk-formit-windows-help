@@ -1,29 +1,30 @@
-# World Axes
+# Оси глобальной системы координат
 
-The default coordinate system and grid can be modified by changing the world axis.
+Чтобы изменить систему координат и сетку по умолчанию, необходимо изменить ось глобальной системы координат.
 
-## Drawing and Modeling with Axes
+## Рисование и моделирование с помощью осей
 
-When a blank sketch is opened in FormIt, the World Axes are displayed as three red, green and blue lines in the center of the screen. These three lines, define the three Cartesian directions that define the 3D world. The "X" direction is defined by the red line, the "Y" direction by the green line and the "Z" or "up" direction by the blue line.
+При открытии пустого эскиза в FormIt оси глобальной системы координат отображаются в центре экрана в виде трех линий: красной, зеленой и синей. Эти три линии задают три направления в декартовой системе, определяющих 3D-систему координат. Направление «X» определяется красной линией, направление «Y» — зеленой, а направление «Z» или «вверх» — синей линией.
 
 ![](../.gitbook/assets/axis.png)
 
-To rotate the grid and redefine the origin point for the sketch, **right-click** on empty space in the scene and choose the **Set Axes (SZ)** icon from the context menu\
-![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
+Чтобы повернуть сетку и переопределить точку начала координат эскиза, **щелкните правой кнопкой мыши** в пустом пространстве сцены и выберите значок **Задать оси \(SZ\)** в контекстном меню  .
+![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-The Set Axes widget appears. Click on the large grip in the center to pick up the widget. Click again to set the origin point. Now click the dot on the red axis to rotate the grid, or click the dot on the blue axes to pivot the grid plane vertically. Click off into space to confirm the change\
-![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
+Появится виджет «Задать оси». Щелкните большую ручку в центре, чтобы захватить виджет. Щелкните еще раз, чтобы задать точку начала координат. Теперь щелкните точку на красной оси, чтобы повернуть сетку, или точку на синей оси, чтобы повернуть плоскость сетки по вертикали. Щелкните мышью в пустом пространстве, чтобы подтвердить изменения  .
+![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-To **reset** the origin and grid back to the default setting, right-click on empty space in the scene and choose to **Reset Axes (RZ)**
+Чтобы **восстановить** параметры точки начала координат и сетки по умолчанию, щелкните правой кнопкой мыши в пустом пространстве сцены и выберите **Сбросить оси \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## World Axes and Local Axes
+## Оси глобальной и локальной системы координат
 
-The steps above explain how to control the **global coordinate system** of your sketch. When you start working with [**groups** ](groups.md)then you can control the **local coordinate system** of that group uniquely from the overall sketch. When you edit a group, you can edit the local coordinate system following the same steps as above - but these changes will only apply to the group
+Действия выше предназначены для управления **глобальной системой координат** эскиза. При работе с [**группами** ](groups.md)можно управлять на эскизе исключительно **локальной системой координат** данной группы. При редактировании группы можно отредактировать локальную систему координат с помощью описанных выше действий, однако эти изменения будут применяться только к группе.
 
-## Interactions with Axes
+## Работа с осями
 
-* The **red, green, and blue axes** display when you're in sketch tools to guide your 3D sketching
-* The **purple axis** displays a perpendicular and parallel axis relative to lines drawn at an angle
-* Hold down the **Shift key** while sketching or moving to **lock to the current axis**
+* При работе с инструментами построения эскизов для управления 3D-эскизами отображаются **красная, зеленая и синяя оси**.
+* **Фиолетовая ось** отражает перпендикулярную и параллельную оси линий, проведенных под углом.
+* Удерживайте нажатой клавишу **SHIFT** при создании эскиза и перемещении для **привязки к текущей оси**.
+

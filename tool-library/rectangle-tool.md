@@ -1,23 +1,24 @@
-# Rectangle
+# Прямоугольник
 
-You can use the **Rectangle** tool in the **Create Sketch** toolbar menu to quickly draw a rectangular face. Extrude the face to create a rectangular volume.
+Инструмент **Прямоугольник** в меню панели инструментов **Создать эскиз** используется для быстрого создания прямоугольной грани. Затем такую грань можно выдавить для создания объемной прямоугольной фигуры.
 
-Keyboard shortcut: R
+Клавиша быстрого доступа: R
 
-Use the axes to ensure you're drawing in the correct direction:
+При построении используйте оси для определения правильного направления.
 
-You can draw rectangles on the X, Y, or Z-axis. As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
+Можно построить прямоугольник вдоль оси X, Y или Z. В процессе построения можно задать размер, начав вводить значение на клавиатуре, в результате чего отобразится диалоговое окно «Редактирование размера». Нажмите клавишу ENTER или кнопку «ОК», чтобы принять размер.
 
-To draw a rectangle, click to set the first point in your sketch.
+Для построения прямоугольника щелкните, чтобы задать первую точку эскиза.
 
-Line colors by axis:
+Цвета линий по осям
 
-* X = Red
-* Y = Green
-* Z = Blue
+* Ось X: красный
+* Ось Y: зеленый
+* Ось Z: синий
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-When you finish drawing the rectangle, it becomes a face that can be extruded to create a volume.
+По завершении построения прямоугольник будет преобразован в грань, которую можно выдавить для создания объемной фигуры.
+

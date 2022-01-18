@@ -1,13 +1,16 @@
-# Polygon
+# Многоугольник
 
-Use the Polygon tool to draw a regular n-sided polygon in space or on another object.
+Инструмент «Многоугольник» используется для построения правильного многоугольника с заданным количеством сторон в пространстве или на другом объекте.
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](../.gitbook/assets/image%20%289%29.png)
 
-Start the polygon and click to choose the center point. Specify the radius by drawing the second point, typing in a dimension, or hitting **Tab** to bring up **Tool Options**.
+Выберите «Многоугольник» и щелкните, чтобы задать центральную точку. Задайте радиус, указав вторую точку, введя размер или нажав клавишу **TAB**, чтобы вызвать окно **Параметры инструмента**.
 
-![](<../.gitbook/assets/image (7).png>)
+![](../.gitbook/assets/image%20%287%29.png)
 
-**Tool Options** allows you to change the number of sides and specify a particular radius.
+Окно **Параметры инструмента** позволяет изменить количество сторон и задать определенный радиус.
 
 ![](../.gitbook/assets/image.png)
+
+
+

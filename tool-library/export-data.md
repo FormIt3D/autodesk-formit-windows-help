@@ -1,21 +1,22 @@
-# Import and Export Data
+# Импорт и экспорт данных
 
-## Importing Data
+## Импорт данных
 
-The following file formats can be imported.
+Можно импортировать файлов следующих форматов.
 
-* **OBJ**: OBJ 3D mesh files are imported as a single FormIt Group. No materials are imported.
-* **DWG**: 2D and 3D DWG files are imported as a single FormIt Group. Object colors are supported.
-* **STL**:  STL 3D mesh files are imported as a single FormIt Group.
-* **SAT**: SAT solid model files are imported as a single FormIt Group.
-* **SKP**: SketchUp files are imported. Groups and Components are imported as FormIt Groups. Layers and materials are supported.&#x20;
+* **OBJ**: файлы 3D-сетей OBJ импортируются в виде единой группы FormIt. Материалы не импортируются.
+* **DWG**: 2D- и 3D-файлы DWG импортируются в виде единой группы FormIt. Цвета объектов поддерживаются.
+* **STL**: файлы 3D-сетей STL импортируются в виде единой группы FormIt.
+* **SAT**: файлы твердотельных моделей SAT импортируются в виде единой группы FormIt.
+* **SKP**: файлы SketchUp импортируются. Группы и компоненты импортируются в виде групп FormIt. Слои и материалы поддерживаются.
 
-[**Find out more about how to work with imported data**](../formit-primer/part-i/import-export-and-content-library.md)
+[**Подробнее о работе с импортированными данными**](../formit-primer/part-i/import-export-and-content-library.md)
 
-## Exporting Data
+## Экспорт данных
 
-FormIt can export the following file formats: AXM (FormIt file), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ (with a separate .MTL file), PNG images.
+FormIt позволяет экспортировать файлы следующих форматов: AXM (файл FormIt), DWG, SKP, FBX, SAT, STL, DAE, DXF, OBJ (материалы и 3D-компоненты в одном файле ZIP), изображения PNG.
 
-When exporting individual files, you can choose to export **All Objects**, **Visible Only**, or **Selected Only**.
+При экспорте отдельных файлов можно выбрать для экспорта **Все объекты**, **Только видимые** или **Только выбранные**.
 
-![](<../.gitbook/assets/export\_window (1).png>)
+![](../.gitbook/assets/export_window.png)
+

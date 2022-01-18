@@ -1,30 +1,26 @@
-# Orthographic Views
+# Ортогональные виды
 
-View your model in various orthographic views, including top, sides, and bottom.
+**Модель можно просматривать в различных ортогональных видах, включая вид сверху, вид сбоку и вид снизу.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-You'll find orthographic views in the View menu, by clicking the Orthographic icon in the floating navigation toolbar, or by using the shortcut V O. Click the Top View icon in the floating navigation toolbar to access several view options.
+**Ортогональные виды можно выбрать по щелчку значка в верхней части плавающей панели навигации.**
 
-![](../.gitbook/assets/floating-nav\_flyout-v2.png)
+![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Some helpful hints when working with orthographic views:**
+**Полезные советы по работе с ортогональными видами**
 
-* When switching between orthographic views, FormIt will maintain the zoom level for consistency.
-* When switching elevation views (front/right/left/back), FormIt will maintain the ground height for consistency.
-* You can hold Shift while Panning in an orthographic view to lock the Pan movement to the horizontal or vertical axis.
-*   Orthographic view directions are based on the world axes. You can realign the axes, which will change the orientations of all the orthographic views:
+* При переключении между ортогональными видами FormIt поддерживает уровень масштабирования для обеспечения согласованности.
+* При переключении между видами фасадов (спереди/справа/слева/сзади) в FormIt будет поддерживаться постоянная высота уровня земли для обеспечения согласованности.
+* При панорамировании в ортогональном виде можно удерживать нажатой клавишу SHIFT, чтобы заблокировать перемещение панорамирования по горизонтальной или вертикальной оси.
+* Направления ортогонального вида определяются осями глобальной системы координат. Можно перебазировать оси, что приведет к изменению ориентации всех ортогональных видов.
+   * Используйте комбинацию клавиш S + Z или щелкните правой кнопкой мыши в пустом пространстве.
+   * ![](../.gitbook/assets/set-axes\_context.PNG)
+   * Задайте начало координат и укажите ручку на красных осях, чтобы выполнить выравнивание по направлению.
+   * ![](../.gitbook/assets/set-axes.PNG)
 
-    * Use shortcut SZ, or right-click in space (not over any geometry):
+**В ортогональных видах поддерживаются другие функции FormIt.**
 
-    ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
-
-    * Set the origin, and set the grip on the red axes to align it with a meaningful direction
-
-    ![](../.gitbook/assets/set-axes.PNG)&#x20;
-
-**Orthographic views work in conjunction with other FormIt features:**
-
-* Save elevation views as Scenes so you can return to them later.
-* Control visibility of geometry that might get in the way of elevation views using Layers.
-* Add Section Planes to create section-elevations.
+* Можно сохранять виды фасадов в виде сцен, чтобы вернуться к ним позже.
+* Можно управлять видимостью геометрии, которая может помешать работе с видами фасадов, с помощью слоев.
+* Можно добавлять секущие плоскости для создания уровней-сечений.

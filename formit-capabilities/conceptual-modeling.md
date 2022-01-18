@@ -1,17 +1,22 @@
-# Conceptual Solid Modeling
+# Концептуальное моделирование твердых тел
 
-Quickly and easily create conceptual geometry to work through design options.
+Можно быстро и легко создавать концептуальную геометрию для работы с вариантами конструкции. 
 
-FormIt's solid modeling kernel enables incredible, time-saving workflows to make modeling easy and efficient.
+Ядро моделирования твердых тел FormIt поддерживает невероятно мощные рабочие процессы, позволяющие экономить время и делающие процесс моделирования простым и эффективным.
 
-**Learn why solid modeling is advantageous, and how to ensure your model is solid so it can be used in downstream applications, like Revit:**
+**Узнайте, какие преимущества дает моделирование твердых тел и как преобразовать модель в твердое тело, чтобы затем использовать его в других приложениях, таких Revit.**
 
 {% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
 
-**Once your model is solid, you can take advantage of solid extrusion techniques to quickly clean up geometry and maintain organized models:**
+**Преобразовав модель в твердое тело, можно использовать выдавливание для быстрой очистки геометрии и поддержания порядка в моделях.**
 
 {% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
 
-**Additionally, use Smart Selection tools to quickly select similar geometry and save clicks:**
+**Кроме того, можно использовать инструменты интеллектуального выбора объектов для быстрого выбора похожей геометрии и оптимизации работы.**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
+
+
+
+
+

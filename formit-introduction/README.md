@@ -1,9 +1,9 @@
-# FormIt Introduction
+# Основы FormIt
 
-![](../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Introduction to FormIt
+## Введение в FormIt
 
-Learn some of the basics about FormIt - what it can do, where you can get it, and how you can customize it.
+Ознакомьтесь с основными сведениями о том, для чего используется приложение FormIt, как его получить и настроить.
 
-If you're done with the initial setup and ready to learn how to use it, check out the [FormIt Primer](../formit-primer/).
+Если вы уже выполнили начальную настройку приложения и готовы приступить к обучению, откройте руководство [FormIt Primer](../formit-primer/).

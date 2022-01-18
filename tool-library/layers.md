@@ -1,27 +1,28 @@
-# Layers
+# Слои
 
-Use Layers to control the visibility of FormIt objects.
+Слои можно использовать для управления видимостью объектов FormIt.
 
-See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Просмотрите статью о работе со слоями в руководстве [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
-## Creating and Naming Layers
+## Создание и именование слоев
 
-In the Layers panel, you can create and name your Layers by clicking the "**+**" icon.
+На панели «Слои» можно создавать слои и присваивать им имена, щелкнув значок **+**.
 
-![](<../.gitbook/assets/layer-locking-image (1).jpg>)
+![](../.gitbook/assets/layer-locking-image.jpg)
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible but not selectable or editable.
+Дважды щелкните имя слоя, чтобы переименовать его, или переключите видимость объектов слоя, установив или сняв флажок слева. Используйте флажок справа, чтобы заблокировать или разблокировать слой. Заблокированный слой останется видимым, но его объекты нельзя будет выбрать и изменить.
 
-## Managing Objects on Layers
+## Управление объектами на слоях
 
-Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on.
+Выберите объекты в рабочей области, а затем с помощью раскрывающегося списка в верхней части панели «Слои» укажите слой, на который будут помещены выбранные объекты.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt does not have the concept of a "default" or "working layer." All new geometry will be created on "No Layer" and you'll need to reassign objects to Layers after they're generated.
+В FormIt отсутствуют понятия «слой по умолчанию» и «рабочий слой». Все новые геометрические объекты создаются без слоя, и их необходимо назначать слоям после создания.
 
-You can right-click a Layer and choose "Select All Objects On Layer" to select all the geometry currently assigned to this Layer.
+Щелкните слой правой кнопкой мыши и нажмите «Выбрать все объекты на слое», чтобы выбрать все геометрические объекты, назначенные слою.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-You can also reorder the Layers in the panel by dragging and dropping them to a new position. Note that this has no impact on geometry visibility - this is purely an organizational tool in the panel.
+Кроме того, можно изменить порядок слоев в панели, перетащив их выше или ниже. Обратите внимание, что это не влияет на видимость геометрии, а представляет лишь инструмент для упорядочивания на панели.
+

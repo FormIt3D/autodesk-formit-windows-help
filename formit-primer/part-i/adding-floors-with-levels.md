@@ -1,35 +1,36 @@
-# 1.4 - Add Floors with Levels
+# 1.4. Добавление перекрытий с уровнями
 
-_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
+_Уровни позволяют разрезать формообразующие элементы с использованием индивидуальных баз перекрытий и рассчитывать общую площадь формообразующего элемента здания. Уровни FormIt и их пользовательские имена станут уровнями Revit после преобразования файла в формат Revit._
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
+_Если вы не проходили предыдущий раздел, скачайте и откройте файл **1.4 — Add Floors with Levels.axm** из **наборов данных для части 1 руководства FormIt Primer**._
 
-## **Create, and Customize Levels**
+## **Создание и настройка уровней**
 
-1 - To create levels:
+1 - Чтобы создать уровни, выполните следующие действия.
 
-1. Go to the **Level Palette** in the **Palette Bar**.
-2. Click **+** (**Add Level**) four times to create four Levels.
-3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
-4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
+1. Откройте **палитру уровней** на **панели палитр**.
+2. Щелкните значок **+** (**Добавить уровень**) четыре раза, чтобы создать четыре уровня.
+3. Дважды щелкните каждый из уровней и измените их отметки на следующие: **0’-0", 2’-2", 4’-6"** и **17’-8"**.
+4. Дважды щелкните текущее имя каждого уровня и переименуйте их следующим образом: **«Земля», «Терраса», «Главное здание«** и **«Конек крыши».**
 
-![](<../../.gitbook/assets/0 (16) (1).png>)
+![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
+_**Примечание.** Чтобы создать несколько уровней на одинаковом заданном расстоянии друг от друга, щелкните значок_ _**++**_ _. Эту функцию удобно использовать при работе с многоэтажными зданиями_.
 
-## **Apply Levels to Geometry**
+## **Применение уровней к геометрии**
 
-_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
+_На предыдущих этапах мы только создали уровни. Теперь их можно применить к созданной геометрии._
 
-1 - To apply levels to the exiting geometry:
+1 - Чтобы применить уровни к существующей геометрии, выполните следующие действия.
 
-1. Select the entire upper terrace mass by double-clicking it.
-2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
-3. Now the currently selected geometry has three levels applied to it (**Main Building, Terrace,** and **Ground**), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
-4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
+1. Двойным щелчком выберите весь формообразующий элемент верхней террасы.
+2. На **палитре свойств** выберите **Использовать уровни**. На этом этапе будут предварительно выбраны все уровни, пересекающие выбранную геометрию.
+3. Теперь к выбранной геометрии применены три уровня: **«Главное здание», «Терраса»** и **«Земля»**. В данном упражнении необходимо применить только уровень **Земля**. Снимите флажки **Главное здание** и **Терраса**.
+4. Теперь только площадь пересечения с **землей** будет учитываться при расчете общей площади, что отражается в поле **Площадь по уровню**.
 
-![](<../../.gitbook/assets/1 (4) (1).png>)
+![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+_**Примечание.** Если синие линии уровня на формообразующем элементе не отображаются, используйте клавиши_ _**D+L**_, _чтобы_ _**показать уровни**._
 
-![](<../../.gitbook/assets/2 (3) (1).png>)
+![](../../.gitbook/assets/2%20%283%29.png)
+

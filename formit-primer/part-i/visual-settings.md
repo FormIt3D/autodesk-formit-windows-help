@@ -1,66 +1,67 @@
-# 1.12 - Visual Styles
+# 1.12. Визуальные стили
 
-_Modeling conceptual masses is just half of what FormIt has to offer. The other half are beautiful graphics that help to tell a story to a client, or team member. In this chapter, we will cover ways to set up your_ _**graphic visual styles**_ _and create animations._
+_Моделирование концептуальных форм — это едва ли половина возможностей, которые может предложить FormIt. Вторая половина — это красивые изображения, которые помогают представить проект клиенту или члену команды. В этом разделе мы рассмотрим способы настройки_ _**графических визуальных стилей**_ _и создания анимации._
 
-_If you did not complete the last section, download and open the_ _**1.12 – Visual Styles.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Если вы не работали с предыдущим разделом, загрузите и откройте файл_ _**1.12 – Visual Styles.axm**_ _из_ _**наборов данных для части I руководства FormIt Primer**._
 
-## **Create an Animation**
+## **Создание анимации**
 
-_In these next steps, we will learn how to use_ _**Scenes**_ _to create an animation._
+_В этом разделе вы научитесь использовать_ _**сцены**_ _для создания анимации._
 
-1 – To create the first **Scene**:
+1 – Чтобы создать **сцену**, выполните следующие действия.
 
-1. Turn on all the layers except **Terrain**, **Plan Image,** and **Massing**.
-2. Make sure the camera mode is set to **Perspective (VP)**, and position the camera so that it is looking at the entire house from slightly above, similar to the image below.
-3. Open the **Scenes Palette**.
-4. Click on the **+** icon to create a new scene from our current view.
-5. Rename it to **Aerial View 1**, and match the other **Scene Properties** to what is shown in the image below.
+1. Включите все слои, кроме слоев **Рельеф**, **Изображение плана** и **Формообразующие элементы**.
+2. Установите режим камеры **Перспективный \(VP\)** и расположите камеру так, чтобы она смотрела на весь дом чуть сверху, как показано на рисунке ниже.
+3. Откройте **палитру «Сцены»**.
+4. Щелкните значок **+**, чтобы создать новую сцену на основе текущего вида.
+5. Переименуйте ее в **Общий вид 1** и задайте другим **свойствам сцены** значения, представленные на изображении ниже.
 
-![](<../../.gitbook/assets/0 (17) (1).png>)
+![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - To create the second **Scene** and then animate between them:
+2 – Чтобы создать вторую **сцену**, а затем анимацию между двумя сценами, выполните следующие действия.
 
-1. Adjust the camera to a new position so that you are looking at the house from a different angle. Create a new **Scene** named **Aerial View 2** using the same process we followed in the previous step.
-2. Click the **Play** button. After the set **Pause Time** of **2 Seconds**, the animation will start slowly moving back and forth between the two scenes. This will continue until you click the **Stop** button to stop the animation.
+1. Установите камеру в новое положение, чтобы посмотреть на дом под другим углом. Создайте новую **сцену** с именем **Общий вид 2**, выполнив те же действия, что и на предыдущем шаге.
+2. Нажмите кнопку **Воспроизвести**. После установки в параметре **Время паузы** значения **2 секунды** анимация будет медленно перемещаться между двумя сценами. Это будет продолжаться до тех пор, пока вы не остановите анимацию, нажав кнопку **Стоп**.
 
-![](<../../.gitbook/assets/1 (12) (1).png>)
+![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Note:**_ _You can adjust the_ _**Pause Time**,_ _**Transition Time**, and_ _**Camera Speed**_ _using the settings at the bottom of the_ _**Scene Properties**. Try adding some more scenes and playing with these settings to customize your animation._
+_**Примечание.**_ _Можно настроить параметры_ _**Время паузы**,_ _**Время перехода** и_ _**Скорость камеры**_ _в нижней части_ _**свойств сцены**. Попробуйте добавить другие сцены и изменить параметры для настройки анимации._
 
-## **Customize the Visual Styles**
+## **Настройка визуальных стилей**
 
-_Now we are going to create another scene with some customized **Visual Styles** settings._
+_Теперь создадим еще одну сцену с адаптированными параметрами **визуальных стилей**._
 
-1 - First, open the **Visual Styles Palette**. Note there are four (4) tabs at the top, each containing different visual settings: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**. To learn more about each tab visit the **Visual Styles** chapter in the **Tool Library** section.
+1 - Сначала откройте **палитру «Визуальные стили»**. Обратите внимание, что в верхней части окна представлены 4 \(четыре\) вкладки, каждая из которых содержит различные параметры отображения: **Поверхности**, **Ребра**, **Среда** и **Диагностика модели**. Дополнительные сведения по каждой вкладке см. в разделе **Визуальные стили** пункт **Библиотека инструментов**.
 
-2 – To customize some settings in the **Surface Tab**:
+2 - Чтобы настроить параметры на вкладке **Поверхность**, выполните следующие действия.
 
-1. Turn on **Shadows (DS)**.
-2. Turn on **Ambient Shadows (DA)**.
-3. Turn on **Monotone Surfaces (DM)**. This makes an abstract black and white image without any materials.
+1. Включите параметр **Тени \(DS\)**.
+2. Включите параметр **Естественные тени \(DA\)**.
+3. Включите параметр **Монотонные поверхности \(DM\)**. Он позволяет создать изображение в черно-белых тонах без каких-либо материалов.
 
-![](<../../.gitbook/assets/2 (20) (1).png>)
+![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – To customize some settings in the **Edge Tab**:
+3 - Чтобы адаптировать некоторые параметры на вкладке **Ребро**, выполните следующие действия.
 
-*
-  1. Adjust the sliders to lighten the **Edges** contrast to around **30%**.
-  2. Turn on the **Extend Edges (DX).**
-  3. Adjust the sliders to lighten the **Silhouettes** contrast to **30%**.
+* 
+   1. Передвиньте ползунки так, чтобы установить для контрастности **ребер** значение примерно **30 %**.
+   2. Включите параметр **Удлинить ребра \(DX\).**
+   3. Передвиньте ползунки так, чтобы установить для контрастности **силуэтов** значение примерно **30 %**.
 
-![](<../../.gitbook/assets/3 (11) (1).png>)
+![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - To customize some settings in the **Environment Tab**:
+4 - Чтобы настроить параметры на **вкладке «Среда»**, выполните следующие действия.
 
-1. Turn off **Axes**.
-2. Turn off **Levels**, if on.
+1. Отключите параметр **Оси**.
+2. Отключите параметр **Уровни**, если он включен.
 
-![](<../../.gitbook/assets/4 (8) (2).png>)
+![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - Create a new scene called **Customized Scene** to save these settings. Now you can switch back and forth between the **Scenes** to reset the graphic settings.
+5 - Создайте новую сцену с именем **Настроенная сцена**, чтобы сохранить эти параметры. Теперь можно переключаться между **сценами** для сброса параметров графики.
 
-![](<../../.gitbook/assets/5 (6) (1).png>)
+![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Note**: If you uncheck the_ _**Camera**_ _property of the new scene, you can use it to only toggle on the visual settings we just created without move the camera position. Give it a try by going to one of your previous Aerial scenes, and then double-clicking on the_ _**Customized Scene**_ _and watching what happens!_
+_**Примечание**. Если снять флажок напротив свойства_ _**Камера**_ _новой сцены, ее можно использовать только для переключения заданных параметров отображения без перемещения камеры. Попробуйте это сделать. Для этого откройте одну из предыдущих сцен общего вида, а затем дважды щелкните_ _**настроенную сцену**_ _и посмотрите, что произойдет._
 
-_**Note:**_ _To Learn about_ _**Visual Styles Diagnostics**_ _and advanced applications for_ _**Scenes**, check out the_ _**Primer Part II**._
+_**Примечание.**_ _Дополнительные сведения о_ _**диагностике визуальных стилей**_ _и дополнительных вариантах применения_ _**сцен** см. в_ _**части II руководства Primer**._
+

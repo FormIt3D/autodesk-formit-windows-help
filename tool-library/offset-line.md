@@ -1,53 +1,56 @@
-# Offset Line
+# Линия со смещением
 
-Draw parallel, or offset, lines using the Offset Line tool. This is useful to create 2D shapes that can later be extruded to look like 3D walls.
+Рисование параллельных или смещенных прямых с помощью инструмента «Линия со смещением». Используется при создании 2D-форм, которые впоследствии можно выдавить для создания 3D-стен.
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool:
+Инструмент **Линия со смещением** работает аналогично инструменту [**Линия**](https://windows.help.formit.autodesk.com/tool-library/line-tool).
 
-* Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes.&#x20;
-* A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool.
-* Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
+* Щелкните, чтобы задать первую точку, а затем переместите курсор и разместите последующие точки, выполняя привязку к существующей геометрии или к вспомогательным осям.
+* Отобразится предварительный вид созданной формы. Вторая и третья точки определяют плоскость для всех последующих точек, поэтому в результате получится 2D-форма.
+* Продолжайте добавлять точки, а затем нажмите клавишу **ESC** или дважды щелкните мышью, чтобы завершить работу с инструментом.
+* Все самопересечения будут очищены и объединены. Останется одна грань, которую можно выдавить.
 
-![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
+![Две точки размещены на плоскости, а третья точка следует за курсором](../.gitbook/assets/walls1.png)
 
-The input line is drawn in red, and by default is placed in the center of the offset lines.
+Базовая линия выделяется красным цветом и по умолчанию размещается посередине между смещенных линий.
 
-You can change the alignment of the offset lines and their thickness by hitting the **Tab** key. This will invoke the **Tool Options** dialog:
+Чтобы изменить выравнивание линий со смещением и их толщину, нажмите клавишу **TAB**. Откроется диалоговое окно **Параметры инструмента**:
 
-![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
+![Параметры инструмента «Линия со смещением»](../.gitbook/assets/walls2.png)
 
-Change the **Alignment** to **Left** and the **Thickness** to 6", for example, and the offset lines will be drawn to the left of the input lines, 6 inches apart.
+Измените, например, значение параметра **Выравнивание** на **По левому краю**, а значение параметра **Толщина** на 6", и смещенные линии будут проведены слева от базовой линии на расстоянии 6 дюймов.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Useful Tips
+## Полезные советы
 
-You can draw a closed shape by snapping to the first point placed. The resulting corner will be cleaned up automatically:
+Замкнутую форму можно нарисовать путем привязки к первой размещенной точке. Созданный угол будет очищен автоматически:
 
 ![](../.gitbook/assets/walls4.png)
 
-You can freely draw the input lines on top of each other. When the tool is finished the resulting intersections are cleaned up.
+Базовые линии могут пересекаться. По завершении работы с инструментом имеющиеся пересечения будут очищены.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Inherently, the Offset Line tool must generate geometry on a plane, so the first few points determine the plane that the remaining points will follow.
+По сути, инструмент «Линия со смещением» создает геометрическую форму на плоскости, поэтому первые несколько точек определяют плоскость, на которой будут располагаться оставшиеся точки.
 
-Start drawing on the side of a cube, for example, to use the plane of that face. After three non colinear points are placed the input plane is fixed for the remainder of the input. Note, that when drawing on a face the resulting shape is inserted into the face, splitting it into multiple faces. To prevent the insertion, the face you draw on must be part of a [Group](https://windows.help.formit.autodesk.com/tool-library/groups).
+Начинайте рисовать, например, на грани куба, чтобы использовать плоскость этой грани. После размещения трех неколлинеарных точек базовая плоскость фиксируется для всех остальных точек и линий. Обратите внимание, что при рисовании на грани полученная форма будет размещена на самой грани, разделяя ее на несколько граней. Во избежание этого грань, вдоль которой выполняется размещение точек, должна входить в состав [группы](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![Drawing on a vertical face](../.gitbook/assets/walls7.png)
+![Рисование на вертикальной грани](../.gitbook/assets/walls7.png)
 
-![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
+![По завершении работы с инструментом прямые размещаются в пространстве, и можно продолжить работу с разделенными гранями](../.gitbook/assets/walls8.png)
 
-You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image.
+Инструмент «Линия со смещением» можно также использовать для трассировки на основе чертежа плана. Импортируйте план как изображение.
 
-* Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).&#x20;
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
+* Измените размер изображения так, чтобы у плана был правильный масштаб. [Подробнее о том, как это сделать](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
+* [Ортогональную проекцию](orthographic-camera.md) можно использовать для трассировки в ортогональном [виде сверху](orthographic-views.md).
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
+
+
+

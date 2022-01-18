@@ -1,68 +1,69 @@
-# 1.3 - 3D Sketch and Drag Face
+# 1.3. 3D-эскиз и перетаскивание грани
 
-_We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at its core consists of drawing lines to create faces and then dragging those faces to create volumes._
+_Приступим к созданию чертежа дома Фарнсуорт. 3D-моделирование в FormIt основывается на рисовании линий для создания граней и последующего перетаскивания этих граней для создания объемов._
 
-‌ _If you did not complete the last section, download and open the_ _**1.3 - 3D Sketch and Drag Face.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+‌ _Если вы не работали с предыдущим разделом, загрузите и откройте файл_ _**1.3 - 3D Sketch and Drag Face.axm**_ _из_ _**наборов данных для части 1 руководства FormIt Primer**._
 
-## **Draw Faces with Lines**
+## **Построение граней с помощью линий**
 
-1 – To facilitate the modeling process, you can use the **Floating Navigation Toolbar** to switch between different views modes. For this exercise, we recommend using the **Perspective (VP)** and **3D View (V3).**
+1 – Чтобы упростить процесс моделирования, можно использовать **плавающую панель навигации** для переключения между различными видами. Для выполнения этого упражнения рекомендуется использовать **перспективный вид \(VP\)** и **3D-вид \(V3\).**
 
-![](<../../.gitbook/assets/0 (4).png>)
+![](../../.gitbook/assets/0%20%284%29.png)
 
-2 – Newly created geometry will automatically join or “stick to” any existing ungrouped geometry it touches. To avoid this, you will typically want to organize your geometry with groups. To create a group from the floor plan, select the rectangle by double-clicking it, then right-click to access the **Context Menu** and select **Group (G).**
+2 – Вновь созданная геометрия автоматически соединяется с любой существующей разгруппированной геометрией, с которой соприкасается, или «привязывается» к ней. Во избежание этого геометрию обычно объединяют в группы. Чтобы создать группу на основе плана этажа, дважды щелкните прямоугольник, а затем нажмите правую кнопку мыши для вызова **контекстного меню** и выберите **Группа \(G\).**
 
-![](<../../.gitbook/assets/1 (2).png>)
+![](../../.gitbook/assets/1%20%282%29.png)
 
-3 – When tracing the plan we don’t want the lines to snap to the grid, so click on **Settings** in the **Main Menu** and unchecking **Snap to Grid (SG).**
+3 – При трассировке плана линии не должны привязываться к сетке, поэтому выберите **Параметры** в **главном меню** и снимите флажок **Привязка к сетке \(SG\).**
 
-![](<../../.gitbook/assets/2 (12).png>)
+![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 – To start drawing, click the **Create Sketch** (Pencil) icon in the **Standard Toolbar** and choose the **Line tool (L)**.
+4 – Чтобы начать рисование, щелкните значок **Создать эскиз** \(карандаш\) на **панели «Стандартная»** и выберите **инструмент «Линия» \(L\)**.
 
-![](<../../.gitbook/assets/3 (17).png>)
+![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 - Let's start by creating a rectangle on the imported image. To create the first line:
+5 – Для начала на импортированном изображении создадим прямоугольник. Чтобы создать первую линию, выполните следующие действия.
 
-1. While in the **Line tool**, click near **the upper left corner** of the upper terrace in the imported sketch.
-2. Move your mouse along the red axis that appears.
-3. Click the **Tab** key to input the dimension: **77'-4 1\8".**
+1. Выбрав **инструмент «Линия»**, в импортированном эскизе щелкните рядом с **верхним левым углом** верхней террасы.
+2. Появится красная ось. Переместите курсор вдоль нее.
+3. Нажмите клавишу **TAB**, чтобы ввести размер: **77'-4 1\8“ (77 футов 4 и 1/8 дюйма).**
 
-![](<../../.gitbook/assets/4 (16).png>)
+![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Note:** Anytime a temporary dimension appears while sketching, you can either press_ _**Tab** or just start typing a number_ _to open the_ _**Dimension Dialog**._
+_**Примечание.** Всякий раз когда в процессе построения эскиза появляется временный размер, можно нажать клавишу_ _**TAB** или просто начать вводить число,_ _чтобы открыть_ _**диалоговое окно «Размер»**._
 
-6 – To create the second line, move your mouse down along the green axis and enter **28’-8**” for the upper terrace’s short edge.
+6 – Для создания второй линии переместите курсор вниз вдоль зеленой оси и введите размер **28’-8**” (28 футов 8 дюймов) для короткой кромки верхней террасы.
 
-7 - To define the rectangle’s third edge and finish:
+7 – Чтобы задать третью кромку прямоугольника и завершить работу, выполните следующие действия.
 
-1. Move your mouse along the red axis and hold down the **Shift** key. The red axis line will thicken to indicate that the line is locked to this axis.
-2. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the endpoint.
-3. The third point will automatically be set, parallel to the red - axis defined by (A) - and the green axis - defined by (B).
-4. Finally, to finish enclosing the rectangle, release the **Shift** key and click back on the first point you drew. Press **Esc** twice to exit the sketch tool.
+1. Переместите курсор вдоль красной оси, удерживая нажатой клавишу **SHIFT**. Линия красной оси станет толще. Это говорит о том, что линия идет вдоль этой оси.
+2. Удерживая нажатой клавишу **SHIFT**, переместите курсор к первой нарисованной точке. Щелкните, чтобы зафиксировать конечную точку.
+3. Третья точка будет автоматически задана параллельно красной \(A\) и зеленой осям \(B\).
+4. Наконец, чтобы замкнуть прямоугольник, отпустите клавишу **SHIFT** и щелкните первую нарисованную точку. Для завершения работы с инструментом «Эскиз» дважды нажмите клавишу **ESC**.
 
-_**Note:**_ _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off the world axes, a purple axis line will allow you to stay 90 degrees relative to your off-axis line._
+_**Примечание.**_ _Красная и зеленая оси позволяют проводить линии параллельно и перпендикулярно сетке. При построении линии вне осей глобальной системы координат фиолетовая ось позволяет проводить линию под углом 90 градусов._
 
-![](<../../.gitbook/assets/5 (2) (1).png>)
+![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Drag the Face to Create Volume**
+## **Перетаскивание грани для создания объема**
 
-1 - Single-click inside the outline you just drew to select the face. You are now automatically in the **Drag Face** tool.
+1. Щелкните внутри только что созданного контура, чтобы выбрать грань. Автоматически будет выбран инструмент **Перетаскивание грани**.
 
-2 - Single-click again to start the dragging. Move your mouse upwards (along the positive Z-axis) to extrude a volume in that direction. Start typing **12'-2"**, and a dimension box will appear with this value, then hit **Enter**.
+2. Щелкните еще раз, чтобы начать перетаскивание. Переместите курсор вверх \(вдоль положительного направления оси Z\), чтобы выдавить объем в этом направлении. Введите **12'-2"** (12 футов 2 дюйма). Отобразится поле размера с этим значением. После этого нажмите клавишу **ENTER**.
 
-![](<../../.gitbook/assets/6 (3) (1).png>)
+![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Note:**_ _A_ _single-click_ _will select just a single face, whereas a_ _double-click_ _will select all (ungrouped) adjacent edges and faces._
+_**Примечание.**_ _По_ _одному щелчку мыши_ _будет выбрана только одна грань, а_ _по двойному_ _— все \(несгруппированные\) смежные ребра и грани._
 
-## **3D Sketching with Arc, Spline, and Circle**
+## **Построение 3D-эскизов с дугами, сплайнами и окружностями**
 
-_The following exercise is not critical to finishing the house. However, it will allow you to experiment with some of the other 3D Sketching tools available. Click_ _**here**_ _to learn more about 3D sketching with World Axes._
+_Следующее упражнение не является обязательным для создания дома. Однако оно позволит поработать с некоторыми другими доступными инструментами для построения 3D-эскизов. **Ознакомиться с дополнительной информацией**_ _о построении 3D-эскизов с помощью осей глобальной системы координат._
 
-1 - Select the **Arc by three arc points (A)** tool. Click to define the start, and then the endpoint. The third click defines the arc's radius.
+1. Выберите инструмент **Дуга по трем точкам \(A\)**. Щелчком мыши выберите начальную и конечную точки. Третьим щелчком задается радиус дуги.
 
-2 - Select the **Spline (S)** tool. Click to define any number of points to draw a spline.
+2. Выберите инструмент **Сплайн \(S\)**. Щелчком мыши задайте точки для построения сплайна в произвольном количестве.
 
-3 - Select the **Circle (C)** tool. Hover and click to define the circle's center point. Click and drag or enter a dimension to define the radius.
+3. Выберите инструмент **Окружность \(C\)**. Наведите курсор и щелчком мыши задайте центральную точку окружности. Чтобы задать радиус, щелкните и перетаскивайте или введите размер с помощью клавиатуры.
 
-![](<../../.gitbook/assets/7 (7).png>)
+![](../../.gitbook/assets/7%20%287%29.png)
+

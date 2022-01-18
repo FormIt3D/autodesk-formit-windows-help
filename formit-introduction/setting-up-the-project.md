@@ -1,41 +1,41 @@
-# Setting Up the Project
+# Настройка проекта
 
-## Starting Off
+## Запуск
 
-When you start FormIt, you'll be in a 3D environment. Take some time to learn how to [navigate around the 3D space](navigating-the-scene.md), then start building a project ([here's how](../formit-primer/)), use the File menu to open an existing FormIt project, or import a variety of other file types.
+При запуске FormIt открывается 3D-среда. Уделите некоторое время тому, чтобы освоиться с [перемещением в 3D-пространстве](navigating-the-scene.md), а затем создайте проект \([как это сделать](../formit-primer/)\). В меню «Файл» откройте существующий проект FormIt, или импортируйте файлы поддерживаемого типа.
 
-FormIt allows opening, saving, and exporting to files both locally and on Autodesk Docs. [Using Autodesk Docs in FormIt](https://formit.autodesk.com/page/formit-autodesk-docs/) is a great way to share models in the cloud.
+FormIt позволяет открывать, сохранять и экспортировать файлы как локально, так и в BIM 360 Docs. [BIM 360 Docs в FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) позволяет предоставить общий доступ к моделям в облаке.
 
-In addition to using the File menu, you can open any importable 3D model in FormIt by dragging and dropping the file into the canvas. To import a file into the current sketch, hold Ctrl while dragging and dropping.
+Что касается сохранения, FormIt [автоматически сохраняет результаты работы](../tool-library/autosave.md) при внесении изменений в модель. Рекомендуется регулярно сохранять работу, т. к. это позволяет очищать файл резервной копии и экономить пространство на диске.
 
-FormIt will [AutoSave your work](../tool-library/autosave.md) once you start making changes to the model. Saving often is still recommended because it will clean up the backup file and save space.
+## Параметры приложения
 
-## App Settings
+* Единицы:
 
-*   Units:
+   ![](../.gitbook/assets/formit_units.png)
 
-    ![](../.gitbook/assets/formit\_units.png)
+   * Значение параметра учитывается для всех единиц измерения во всех инструментах и импортированных объектах геометрии, например Dynamo, и в файлах без единиц измерения, например STL.
 
-    * Setting this will affect the units in all tools and imported geometry, like Dynamo and unitless file types like STL.
-* Snap to Grid:
-  * Forces tools with placement points to snap to the grid intersection points. Note that you can turn the grid off in [Visual Styles](../formit-primer/part-i/visual-settings.md); if the grid is off, snapping to it will be disabled as well.
-* Display Editable Dimensions:
-  * Choose whether to keep the dimension boxes visible (we recommend keeping this on if you want to draw with accuracy).
-* Hide Context/Show Edited Group Only:
-  * This affects whether editing a Group will show its surroundings or not. You can easily change this setting using the shortcut (H). Toggling H while modeling in and out of Groups allows you to view Groups both in isolation and in context as needed.
-* Preselection Highlight:
-  * By default, FormIt will "preselect" objects when you hover over them. This is useful to ensure the object you want to select is the object you get, but can be distracting when presenting a design. Use this option or the shortcut to quickly toggle back and forth between showing and hiding preselection highlight as necessary. Note that this option needs to be enabled to use features like [Smart Selection](https://www.youtube.com/watch?v=akLeB1FADt4).&#x20;
+* Привязка к сетке.
+   * Принудительная привязка инструментов с точками размещения к точкам пересечения сетки. Обратите внимание, что в [визуальных стилях](../formit-primer/part-i/visual-settings.md) можно отключить сетку. Если сетка отключена, привязка к ней также будет отключена.
+* Показать редактируемые размеры.
+   * Укажите, следует ли отображать поля размеров \(рекомендуется установить этот флажок для обеспечения точности рисования\).
+* Скрыть контекст/показать только отредактированные группы.
+   * Параметр управляет отображением соседних объектов группы при ее редактировании. Его можно легко изменить нажатием на клавишу \(H\). Нажатием на клавишу H при моделировании в группах и вне групп можно просматривать группы как в контексте, так и без него.
+* Предварительное выделение.
+   * По умолчанию FormIt предварительно выделяет объекты при наведении на них курсора. Это удобно, когда необходимо выбирать объекты в процессе проектирования, однако может создавать неудобства при представлении проекта. Используйте этот параметр или сочетание клавиш для быстрого переключения между отображением и скрытием предварительно выбранных элементов. Обратите внимание, что необходимо включить данный параметр для использования таких функций, как [Умный выбор](https://www.youtube.com/watch?v=akLeB1FADt4).
 
-## Touch Mode
+## Сенсорный режим
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-If your computer has a touchscreen, use Touch Mode to easily navigate your model and create geometry. If you're using FormIt for iOS too, this will feel familiar.
+Если у компьютера сенсорный экран, используйте сенсорный режим для упрощения навигации по модели и создания объектов геометрии. Если вы используете FormIt для iOS, он вам знаком.
 
-When Touch Mode is on, FormIt's interaction becomes more like FormIt on iPad, calibrating navigation and modification tools to work with a touch interface. Because of this, using FormIt with a mouse and keyboard while Touch Mode is on is not recommended.
+Когда включен сенсорный режим, взаимодействие с FormIt становится больше похоже на работу с FormIt на iPad: навигация и работа над изменениями введется с использованием сенсорного интерфейса. Поэтому не рекомендуется использовать FormIt с мышью и клавиатурой при включенном сенсорном режиме.
 
-When Touch Mode is on, you'll see it highlighted in the toolbar, as well as a "Touch Mode" banner in the lower-left corner of the screen.
+Если сенсорный режим включен, на панели инструментов появится соответствующее сообщение, а в левом нижнем углу экрана появится баннер «Сенсорный режим».
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 
 ![](../.gitbook/assets/20190618-touch-mode-banner.png)
+

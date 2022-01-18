@@ -1,40 +1,41 @@
-# Non-Uniform Scale
+# Непропорциональное масштабирование
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**Непропорциональное масштабирование используется для растягивания объектов по 1, 2 или 3 осям.**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+Выберите несколько ребер, граней, твердых тел, сетей или групп и запустите команду «Непропорциональное масштабирование» с помощью горячих клавиш **N+U** или контекстного меню.
 
-![](../.gitbook/assets/nu-scale\_context-menu.PNG)
+![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.**
+**После выбора команды отобразится ряд ручек, которые можно использовать для непропорционального масштабирования объекта по 1, 2 или 3 осям одновременно.**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+Для ясности будут прорисовываться только ручки, направленные на камеру. Если требуется отрегулировать ручку с другой стороны, выполните вращение вокруг объекта по орбите.
 
-![](../.gitbook/assets/nu-scale\_grips-1.PNG)
+![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+После выбора ручки отобразится ряд редактируемых текстовых полей, в которых можно настроить масштаб в процентах или единицах измерения длины.
 
-![](../.gitbook/assets/nu-scale\_grips-2.PNG)
+![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**После появления полей с размерами можно выполнить следующие действия.**
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Начните вводить число, чтобы автоматически изменить процентное значение и задать коэффициент масштабирования.
+   * При вводе отрицательного числа направление масштабирования будет изменено на противоположное.
+* Можно также щелкнуть, чтобы задать временное расположение ручки, а затем щелкнуть поле с размером для масштабирования по расстоянию.
+* Щелкните в свободном пространстве или нажмите ESC для завершения операции непропорционального масштабирования.
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**При масштабировании с использованием одной из угловых ручек будут учитываться пропорции для смежных размеров**.
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Начните вводить число для изменения значения в процентах.
+* Можно также щелкнуть, чтобы задать временное расположение ручки, а затем выбрать одно из двух полей с размером для масштабирования по расстоянию.
+* Щелкните в свободном пространстве или нажмите ESC для завершения операции непропорционального масштабирования.
 
-![](../.gitbook/assets/nu-scale\_grips-3.PNG)
+![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**Аналогичным образом при масштабировании с помощью одной из угловых ручек будут учитываться пропорции всей формы для единообразного масштабирования.**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Начните вводить число для изменения значения в процентах.
+* Можно также щелкнуть, чтобы задать временное расположение ручки, а затем выбрать одно из трех полей с размером для масштабирования по расстоянию.
+* Щелкните в свободном пространстве или нажмите ESC для завершения операции непропорционального масштабирования.
 
-![](../.gitbook/assets/nu-scale\_grips-4.PNG)
+![](../.gitbook/assets/nu-scale_grips-4.PNG)
+

@@ -1,13 +1,14 @@
-# Measure
+# Измерения
 
-The **Measure** tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+Инструмент **Измерить** находится на [панели инструментов](../formit-introduction/tool-bars.md).
 
-You can use the **Measure** tool to measure existing geometry in a model. You can also use the **Measure** tool to assign dimensions to geometry.
+Инструмент **Измерить** используется для измерения существующей геометрии в модели. Инструмент **Измерить** также используется для назначения размеров геометрии.
 
-1. Select the **Measure** tool.
-2. Select two points to measure the distance between them.
-3. Select a face or edge you want to adjust, click the displayed value and add a new value in the dialog box that displays.
+1. Выберите инструмент **Измерить**.
+2. Выберите две точки для измерения расстояния между ними.
+3. Выберите грань или ребро, положение которых требуется скорректировать, щелкните отображаемое значение и добавьте новое значение в появившемся диалоговом окне.
 
-![](<../.gitbook/assets/measure (1).png>)\
-![](<../.gitbook/assets/measure2 (1).png>)\
+![](../.gitbook/assets/measure%20%281%29.png)  
+![](../.gitbook/assets/measure2.png)  
 ![](../.gitbook/assets/measure3.png)
+

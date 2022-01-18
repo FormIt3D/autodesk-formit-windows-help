@@ -1,15 +1,16 @@
-# Spline
+# Сплайн
 
-The Spline tool allows you to create organic sketches in space or on other objects.
+Инструмент «Сплайн» позволяет создавать органические эскизы в пространстве или на поверхности объектов.
 
 ![](../.gitbook/assets/spline.png)
 
-A spline is drawn from at least 3 interpolated points. The connected geometry is simplified creating a smooth and organic curve between the specified points. Like other drawing tools, splines can be drawn in 3D by snapping to 3D points while drawing.
+Для сплайна необходимо не менее 3 интерполированных точек. Связанная геометрия упрощается за счет создания плавной органической кривой между указанными точками. Как и другие инструменты рисования, сплайны можно создавать в 3D путем привязки к 3D-точкам в процессе рисования.
 
-To specify a distance, start typing a dimension value, and hit OK or press Enter in the Edit Dimension dialog.
+Чтобы задать расстояние, введите значение размера и нажмите кнопку «ОК» или клавишу ENTER в диалоговом окне «Редактирование размера».
 
-Splines can also close on themselves creating a face.
+Сплайн также можно замкнуть для создания грани.
 
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+

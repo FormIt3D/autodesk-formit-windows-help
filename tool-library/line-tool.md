@@ -1,19 +1,20 @@
-# Lines
+# Oтрезки
 
-Use lines to divide faces and construct geometry.
+Используйте линии для разделения граней и построения геометрии.
 
-Keyboard: L
+Горячие клавиши: L
 
-![](../.gitbook/assets/line\_toolbar.png)
+![](../.gitbook/assets/line_toolbar.png)
 
-You can draw lines on the X, Y, or Z axis and also on existing geometry. When you snap to an axis, a colored line extends beyond the line you are drawing indicating which the axis you are drawing on. You can see the length of the line as you draw, and you can manually enter a specfic length by pressing **tab** and enter a value.
+Линии можно рисовать на осях X, Y и Z и на существующей геометрии. При привязке к оси за пределами рисуемой линии отображается цветная линия, обозначающая ось, вдоль которой выполняется построение. Длина линии отображается в процессе рисования. Можно ввести нужную длину вручную, нажав клавишу **TAB**.
 
-Line colors by axis:
+Цвета линий по осям
 
-To specify a length, simply type a dimension value, and an Edit Dimension dialog will appear. Hit OK or press Enter to accept the value.
+Чтобы задать длину, просто начните вводить значение. Откроется диалоговое окно «Редактирование размера». Нажмите кнопку «ОК» или клавишу ENTER, чтобы задать значение.
 
-* X = Red
-* Y = Green
-* Z = Blue
+* Ось X: красный
+* Ось Y: зеленый
+* Ось Z: синий
 
 ![](../.gitbook/assets/lines.png)
+

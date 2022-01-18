@@ -1,61 +1,61 @@
-# Snaps and Inferences
+# Привязки и вспомогательные элементы
 
-To make sketching and modeling easier, use snaps and inference points to accurately create, place, and edit geometry. You can use whatever axis you choose as the axis on which to draw or execute another action, such as extruding a surface.
+Для упрощения создания эскизов и процесса моделирования используйте привязки и вспомогательные точки, позволяющие с точностью создавать, размещать и редактировать объекты геометрии. В качестве оси для построения или выполнения другой операции, например, выдавливания поверхности, можно использовать любую выбранную ось.
 
-**Note:** _See_ [_Keyboard Shortcuts_](../appendix/keyboard-shortcuts.md) _for information about how to speed up your use of the software's tools._
+**Примечание.** _Сведения о том, как ускорить работу с доступными инструментами, см. в разделе_ [_Горячие клавиши_](../appendix/keyboard-shortcuts.md) _._
 
-## Snapping
+## Привязка
 
-There are several snaps that can aid you while you are sketching and modeling. Snapping to objects is automatically enabled, and you can snap to:
+Существует несколько привязок, упрощающих создание эскизов и моделирование. Привязка к объектам включается автоматически. Можно выполнить привязку к следующим объектам.
 
-|                                                                                                                                                                            |                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| Vertices                                                                                                                                                                   | ![](<../.gitbook/assets/inf3 (3).png>) |
-| Edges. When hovering over the edge, small red dots will be drawn at the ends and at the mid point.                                                                         | ![](../.gitbook/assets/inf4.png)       |
-| Edge mid points                                                                                                                                                            | ![](../.gitbook/assets/inf5.png)       |
-| The plane of a face. When hovering over the face a small red dot will be drawn at the face centroid. This will make it easy to find that point, if you want to snap to it. | ![](../.gitbook/assets/inf6.png)       |
-| Face centroids                                                                                                                                                             | ![](../.gitbook/assets/inf7.png)       |
-| The work plane, if you don't snap to anything else.                                                                                                                        | ![](../.gitbook/assets/inf8.png)       |
-| Circle or arc centers                                                                                                                                                      | ![](../.gitbook/assets/inf9.png)       |
-| Mesh vertices                                                                                                                                                              | ![](../.gitbook/assets/inf2.png)       |
-| The plane of a mesh facet.                                                                                                                                                 | ![](../.gitbook/assets/inf1.png)       |
+|                                                                                                                                                                            |                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Вершины | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Ребра. При наведении курсора на ребро на его концах и в средней точке появляются небольшие красные точки. | ![](../.gitbook/assets/inf4.png) |
+| Средние точки ребра | ![](../.gitbook/assets/inf5.png) |
+| Плоскость грани. При наведении курсора на грань в центре грани появляется небольшая красная точка. Это упростит поиск точки, если потребуется выполнить привязку к ней. | ![](../.gitbook/assets/inf6.png) |
+| Центр грани | ![](../.gitbook/assets/inf7.png) |
+| Рабочая плоскость, если не выполняется привязка к каким-либо другим объектам. | ![](../.gitbook/assets/inf8.png) |
+| Центр окружности или дуги | ![](../.gitbook/assets/inf9.png) |
+| Вершина сети | ![](../.gitbook/assets/inf2.png) |
+| Плоскость грани сети. | ![](../.gitbook/assets/inf1.png) |
 
-To snap to the grid, you must enable the **Snap to Grid (SG)** toggle from the Settings menu.
+Для привязки к сетке необходимо включить переключатель **Привязка к сетке (SG)** в меню «Параметры».
 
-## Inference Axes and Points
+## Вспомогательные оси и точки
 
-Automatic selection of inference points is always enabled and will help you constrain the movement of geometry. Inference axes are generated by tools automatically or when you hover the mouse over edges or points. Inference axes are always drawn on the screen with dashes so that you know where they are and are easy to snap to.
+Автоматический выбор вспомогательных точек всегда включен и позволяет ограничить перемещение объектов геометрии. Вспомогательные оси создаются автоматически при использовании инструментов и при наведении курсора на ребра или точки. Вспомогательные оси всегда отображаются на экране штриховыми линиями, чтобы пользователь знал их расположение и имел возможность выполнить привязку к ним.
 
-**Axis:** You can move geometry along the X, Y, or Z axis. The X-axis inference is red, the Y-axis is green, and the Z-axis is blue.
+**Ось:** можно перемещать объекты геометрии вдоль осей X, Y или Z. У вспомогательной оси X цвет красный, у оси Y — зеленый, а у оси Z — синий.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Axis Locking:** You can lock movement along the X, Y, or Z axis. Hold down the Shift key while on an axis inference, then move your mouse to snap and inference to other elements.
+**Привязка к оси:** позволяет выполнять перемещение вдоль выбранной оси X, Y или Z. Удерживая нажатой клавишу SHIFT, наведите курсор на ось для привязки к другим элементам и создания опоры для них.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Parallel:** You can sketch or move geometry parallel to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a parallel reference.
+**Параллельно:** можно создавать эскизы или перемещать объекты геометрии параллельно существующим элементам. Перпендикулярные вспомогательные элементы выделены фиолетовым цветом. Необходимо навести курсор на прямую, которую требуется использовать в качестве параллельной.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Perpendicular:** You can also draw or move geometry perpendicular to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a perpendicular reference.
+**Перпендикулярно:** можно также нарисовать или переместить объект геометрии перпендикулярно существующим элементам. Перпендикулярные вспомогательные элементы выделены фиолетовым цветом. Необходимо навести курсор на прямую, которую требуется использовать в качестве перпендикулярной.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Extending from a point:** You can also use inferences to extend from a point reference. Hover the mouse over a point you want to use as a reference until the tooltip appears, then use the inference axis that extends from the point.
+**Удаление от точки:** можно также использовать вспомогательные элементы для удаления от опорной точки. Наведите курсор на точку, которую требуется использовать в качестве опорной, чтобы появилась подсказка, а затем используйте вспомогательную ось от этой точки.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Circle Center**: If you want to snap to the center of an arc or circle, hover over the arc or circle. This will show a small red dot at the center. It will stay visible for about 5 seconds after you move away from the arc or circle. Now move the cursor over the red dot to snap to the center.
+**Центр окружности**: если требуется выполнить привязку к центру дуги или окружности, наведите курсор на дугу или окружность. В центре появится маленькая красная точка. Она будет отображаться в течение 5 секунд после того, как вы уберете курсор с дуги или окружности. Теперь наведите курсор на красную точку, чтобы выполнить привязку к центру.
 
 ![](../.gitbook/assets/inf17.png)
 
-**True arc and spline midpoints**: When you hover over a circle, arc or spline you will be able to snap to the true midpoint. It and the end points will be shown by a small red dot. When inferencing on an arc you will also snap to the vertices of the straight edges that represent the arc.
+**Истинные средние точки дуги и сплайна**: при наведении курсора на окружность, дугу или сплайн можно выполнить привязку к истинной средней точке. Эта точка и конечные точки будут выделены красным цветом. При формировании на дуге выполняется также привязка к вершинам прямых ребер, составляющих дугу.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Clearing inferences**: It is possible that drawing will generate a larger number of inferences, which may be in the way of placing points that are not supposed to snap to those inferences. If you press he **Shift + Spacebar** keys, all inferences will be cleared, except for those at the last placed point.
+**Очистка вспомогательных элементов**: чертеж может содержать слишком большое количество вспомогательных элементов, что может помешать размещению точек, которые не должны быть привязаны к ним. При одновременном нажатии клавиш **SHIFT и пробел** будут удалены все вспомогательные элементы, кроме тех, которые были сделаны в последней размещенной точке.
 
-![Before clearing inferences](../.gitbook/assets/inf19.png)
+![До удаления вспомогательных элементов](../.gitbook/assets/inf19.png)
 
-![After clearing inferences](../.gitbook/assets/inf20.png)
+![После удаления вспомогательных элементов](../.gitbook/assets/inf20.png)

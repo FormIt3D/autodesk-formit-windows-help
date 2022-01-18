@@ -1,17 +1,20 @@
-# Collaboration
+# Совместная работа
 
-FormIt allows multiple users to collaboratively edit a FormIt model on any combination of Windows, iPadOS, or Web clients, all while seeing their changes in real-time!
+FormIt позволяет нескольким пользователям совместно редактировать модель FormIt в любом из клиентов (Windows, iPadOS, веб-браузер), отслеживая изменения в реальном времени.
 
-With a FormIt Pro subscription, you have access to the Real-time Collaboration feature which allows you to:
+Подписка на FormIt Pro обеспечивает доступ к функции совместной работы в режиме реального времени, которая позволяет выполнять следующие операции.
 
-* Start a collaboration session and invite colleagues.
-* Join a collaboration from the FormIt Windows, Web, or iPadOS apps.
-* Collaborate with colleagues to explore designs in a shared sandbox environment.
-* Follow another collaborator's camera to see the model from their viewpoint.
-* Let a client follow your camera as you guide them through your design.
-* Chat with collaborators in the session.
+* Запускать сеанс совместной работы и приглашать в него коллег.
+* Присоединяться к сеансу совместной работы через приложения FormIt для Windows, iPadOS и веб-браузер.
+* Вести совместную работу с коллегами для изучения проектов в общей безопасной среде.
+* Следовать за камерой другого участника, чтобы увидеть модель с его точки обзора.
+* Предоставить клиенту обзор со своей камеры для презентации проекта.
+* Общаться в чате с другими участниками проекта.
 
-## Start a Collaboration Session
+## Запуск сеанса совместной работы
 
-1. From the Collaboration drop-down, choose "Start sharing session." ![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
-2. Email a link to collaborators. This link prompts recipients to log into their Autodesk accounts to immediately start collaborating.  ![](<../.gitbook/assets/collaborate (1).png>)
+1. В раскрывающемся списке «Совместная работа» выберите «Начать сеанс общего доступа». ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. Отправьте коллегам ссылку по электронной почте. При переходе по этой ссылке получателю будет предложение войти в учетную запись на портале Autodesk Account, чтобы начать совместную работу. ![](../.gitbook/assets/collaborate.png)
+
+
+

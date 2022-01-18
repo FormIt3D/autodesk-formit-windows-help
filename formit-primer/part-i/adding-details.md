@@ -1,128 +1,129 @@
-# 1.9 - Adding Details
+# 1.9. Добавление элементов
 
-_FormIt is a great massing tool - as well as a great modeling tool. We will start to add detail to the Farnsworth House in the form of doors and mullions for the glass box. We will then cover some additional tools, and practice the process of adding new geometry, layers, materials, and group management._
+_FormIt — превосходный инструмент для работы с формообразующими элементами и моделирования. Сначала добавим элементы в Дом Фарнсуорт в виде дверей и импостов для стеклянного корпуса. Затем рассмотрим дополнительные инструменты и научимся добавлять геометрию, слои, материалы, а также управлять группами._
 
-_If you did not complete the last section, download and open the_ _**1.9 - Adding Details.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Если вы не прошли последний раздел, скачайте и откройте файл_ _**1.9 — Adding Details.axm**_ _из_ _**наборов данных для части I руководства FormIt Primer**._
 
-## **Create Window Frames**
+## **Создание оконных рам**
 
-_We are going to create a 2" metal frame and mullions around the glass box. Note that these mullions will intentionally overlap with the glass box._
+_Создайте 2-дюймовый металлический каркас и импосты по периметру стеклянного корпуса. Обратите внимание, что импосты намеренно перекрывают стеклянный корпус._
 
-1 - Create a new layer called **Glass Walls** and move the **Glass Wall** group to it.
+1 - Создайте слой **Glass Walls** и переместите в него группу **Glass Wall**.
 
-2 - To facilitate visualization, turn off the **Roof** layer so we can see the entire glass box.
+2 - Для упрощения визуализации отключите слой **Roof**, чтобы видеть весь стеклянный корпус.
 
-3 - To start creating the first window frame:
+3 - Для создания первой оконной рамы выполните следующие действия.
 
-1. At the building’s western side, use the **Rectangle Tool (R)** to draw a new surface directly over the exterior glass face. Make sure to create the surface outside the **Glass Walls** group.
-2. Select and drag the newly created face **2"** towards the interior. Press **Esc** to clear the selection. The final result should look like the image below.
-3. Single-click the face you just created. Right-click to access the **Context Menu** to use the **Offset Face tool (OF).**
+1. На западной стороне здания с помощью инструмента **Прямоугольник \(R\)** нарисуйте новую поверхность непосредственно на наружной стеклянной грани. Поверхность необходимо создать вне группы **Glass Walls**.
+2. Выберите и перетащите вновь созданную грань размером **2 дюйма** в направлении внутрь. Нажмите **ESC** для отмены выбора. Окончательный результат должен выглядеть так, как показано на изображении ниже.
+3. Щелкните только что созданную грань. Щелкните правой кнопкой мыши и в **контекстном меню** выберите инструмент **Сместить грань \(OF\)**
 
-_**Note:**_ _If you have trouble selecting the new face, press the_ _**Space Bar**_ _key to alternate between different selectable objects, or temporarily turn off the_ _**Glass Walls**_ _layer._
+_**Примечание.**_ _Если не удается выбрать новую грань, нажмите_ _**пробел**_ _для переключения между различными доступными для выбора объектами или временно отключите слой_ _**Glass Walls**_ _._
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - To set the offset dimension, move your mouse toward the inside of the face, and enter **2"** to create a new smaller rectangle.
+4 - Чтобы задать расстояние смещения, переместите указатель мыши в направлении внутрь грани и введите значение **2 дюйма**, чтобы создать прямоугольник меньшего размера.
 
-![](<../../.gitbook/assets/1 (9).png>)
+![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - Single-click to select the interior rectangle you just created. Click again and drag the face towards the building’s interior until it disappears. Click once more to finish removing the center volume from the frame geometry.
+5 - Щелкните один раз, чтобы выбрать только что созданный внутренний прямоугольник. Щелкните еще раз и перетащите грань в направлении внутрь здания, пока она не исчезнет. Щелкните еще раз, чтобы завершить удаление центрального объема из геометрии рамы.
 
-![](<../../.gitbook/assets/2 (21).png>)
+![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - Double-click to select the geometry we just created and **Group (G)** it. Name the group **Mullion Frame – EW**.​
+6 - Дважды щелкните, чтобы выбрать только что созданную геометрию, и **сгруппируйте \(G\)** ее. Присвойте группе имя **Mullion Frame — EW**.​
 
-7 - Create a Layer named **Mullion** and place the new group on it.
+7 - Создайте слой **Mullion** и разместите в нем новую группу.
 
-8 - To set the frame’s material:
+8 - Чтобы задать материал рамы, выполните следующие действия.
 
-1. Inside the **Materials Palette**, duplicate the **Metal – Brushed – Colorized** material by right-clicking on it and selecting **Duplicate Material**.
-2. Double-click the new material’s preview tile to edit it.
-3. Rename it to **Metal – Brushed – Gray**.
-4. Modify the material’s color by clicking on the **Color** tile in the **Maps** section, and darken the grey by changing the **Val:** to **150**.
+1. На **палитре материалов** скопируйте материал **Metal — Brushed — Colorized**, щелкнув его правой кнопкой мыши и выбрав **Копировать материал**.
+2. Дважды щелкните миниатюру предварительного просмотра нового материала, чтобы отредактировать его.
+3. Измените имя материала на **Metal — Brushed — Gray**.
+4. Измените цвет материала, щелкнув миниатюру **Цвет** в разделе **Карты**, и сделайте серый цвет более темным, изменив **значение** на **150**.
 
-![](<../../.gitbook/assets/3 (4).png>)
+![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - Click **OK** to save these changes to the new material, and then paint the **Mullion Frame – EW** group with it. Afterward, the group's **Properties Palette** should match what is shown in the below image:
+9 - Нажмите кнопку **ОК**, чтобы сохранить изменения в новом материале, а затем окрасьте им группу **Mullion Frame — EW**. После этого **палитра свойств** группы должна выглядеть так, как показано на изображении.
 
-![](<../../.gitbook/assets/4 (2).jpeg>)
+![](../../.gitbook/assets/4.jpeg)
 
-10 - Create a new instance of the frame on the eastern side by using any of the following tools: **Quick copy**, **Array,** or **Mirror**.
+10 - Создайте экземпляр рамы на восточной стороне с помощью любого из следующих инструментов: **Быстрое копирование**, **Массив** или **Отразить**.
 
-11 -Repeat the steps above for the North and South sides of the glass box. Name the new group **Mullion Frame – NS**. Don’t forget to paint them and place them on the **Mullion** layer!
+11 - Повторите описанные выше действия с северной и южной сторонами стеклянного корпуса. Присвойте новой группе имя **Mullion Frame — NS**. Не забудьте закрасить группу и разместить в слое **Mullion**.
 
-![](<../../.gitbook/assets/5 (16) (1).png>)
+![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Note:**_ _The mullion frames overlap each other at the corners. This is intentional. The above result shows the resulting mullion frame geometry with the_ _**Glass Wall**_ _and_ _**Column**_ _layers turned off._
+_**Примечание.**_ _Рамы с импостами перекрывают друг на друга на углах. Это сделано намеренно. На изображении выше можно видеть геометрию рамы с импостами. Слои_ _**Glass Wall**_ _и_ _**Column**_ _отключены._
 
-**Create Mullions**
+**Создание импостов**
 
-1 - In plane with the exterior glass face on the building’s South or North side, draw a **2” x 10’-10” Rectangle (R)** spanning from between the bottom and top of the mullion frame. Do not worry about the exact position of the rectangle along the frame, we will move it into place in the following steps.
+1. В плоскости с наружной стеклянной гранью на южной или северной стороне здания нарисуйте с помощью команды **Прямоугольник \(R\)** прямоугольник размером 2 дюйма на 10 футов 10 дюймов, проходящий от нижней до верхней части рамы с импостами. Точное положение прямоугольника вдоль рамы пока не имеет значения, он будет перемещен на место при выполнении следующих шагов.
 
-![](<../../.gitbook/assets/6 (11).png>)
+![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - Extrude the rectangle back **2”**, and then **Group (G)** it and name the group **Mullion – Vertical**. Place the group on the **Mullion** layer and paint it with the **Metal – Brushed – Grey** material.
+2. Выдавите прямоугольник в направлении назад на **2 дюйма**, а затем **сгруппируйте его \(G\)** и присвойте группе имя **Mullion — Vertical**. Разместите группу в слое **Mullion** и окрасьте ее с помощью материала **Metal — Brushed — Grey**.
 
-**Locating the Mullions**
+**Размещение импостов**
 
-_Now we will set the location for the first mullion so that its centered on the_ _**Mid-Point**_ _of a column._
+_Теперь задайте местоположение первого импоста таким образом, чтобы он располагался по центру в_ _**средней точке**_ _колонны._
 
-1 - To see the columns again, turn on the **Column** layer, if it was off. While you are in the **Layers Palette**, you can also turn off the **Lower Terrace** and **Plan Image** layers to make the next steps easier.
+1 - Чтобы снова отобразить колонны, включите слой **Column**, если он был отключен. На **палитре слоев** также можно отключить слои **Lower Terrace** и **Plan Image**, чтобы упростить выполнение следующих шагов.
 
-2 - To move the mullion to its new location:
+2 - Для перемещения импоста в новое местоположение выполните следующие действия.
 
-1. Single-click to select the vertical mullion group you just created. **Zoom (Z)** in and click on the **Mid-Point** of the mullion’s bottom exterior edge, symbolized by a red triangle**.**
-2. Start moving the geometry horizontally towards a column. Press **Shift** to lock the movement in the red axis (**X Axis**). Note that once the movement is locked the red axis gets thicker.
-3. Zoom out until you can see the base of the column. While still holding **Shift**, click on the **Mid-Point** at the base of the column's outer face. The mullion will continue to only move along the red axis (**X Axis**), but will align to the **Mid-Point** you just clicked on.
+1. Щелкните один раз, чтобы выбрать только что созданную группу вертикальных импостов. Увеличьте масштаб с помощью команды **Масштабировать \(Z\)** и щелкните **среднюю точку** нижней наружной кромки импоста, обозначенную красным треугольником.**
+2. Начните перемещать геометрию по горизонтали к колонне. Нажмите клавишу **SHIFT**, чтобы заблокировать перемещение по красной оси \(**X**\). Обратите внимание, что после блокировки перемещения красная ось становится толще.
+3. Уменьшите изображение так, чтобы было видно основание колонны. Удерживая нажатой клавишу **SHIFT**, щелкните **среднюю точку** в основании внешней грани колонны. Импост будет перемещаться только вдоль красной оси \(**X**\), но выравниваться по только что нажатой **средней точке**.
 
-![](<../../.gitbook/assets/7 (1) (1).jpeg>)
+![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Note:**_ _The mullion is now directly behind the column. Turn off the_ _**Column**_ _layer or_ _**Orbit (O)**_ _to visualize the mullion._
+_**Примечание.**_ _Теперь импост расположен непосредственно за колонной. Отключите слой_ _**Column**_ _или выполните команду_ _**Орбита \(O\)**_ _для визуализации импоста._
 
-3 - Press **Esc** to clear the **Move** tool.
+3 - Нажмите клавишу **ESC**, чтобы очистить инструмент **Переместить**.
 
-4 - Use the **Array (AR)** or **Quick Copy** tool to create four (4) more vertical mullions along the same side, spaced **11’** apart. To learn how to use the **Array Tool**, refer to previous chapters.
+4 - С помощью инструмента **Массив \(AR\)** или **Быстрое копирование** создайте 4 \(четыре\) более вертикальных импоста вдоль той же стороны с интервалом **11 футов**. Подробные сведения об использовании **инструмента «Массив»** приведены в предыдущих главах.
 
-5 - Use the Tab key to select all the **Vertical** Mullion groups, and copy them to the opposite side of the building, so that both the **North** and **South** frames have identical mullion layouts, as shown in the next image:
+5 - С помощью клавиши TAB выберите все группы **вертикальных** импостов и скопируйте их на противоположную сторону здания, чтобы **северная** и **южная** рамы имели одинаковые компоновки импостов, как показано на следующем изображении.
 
-![](<../../.gitbook/assets/8 (6).png>)
+![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Create the Door Mullions**
+## **Создание импостов дверей**
 
-1 - **Orbit (O)** the perspective view until you are looking at the center of the West mullion frame.
+1. С помощью команды **Орбита \(O\)** поверните вид в перспективе, чтобы можно было видеть центр западной рамы с импостами.
 
-2 - Similar to creating mullion frames, draw a **3’-6”** wide door panel with a **2”x 2”** frame. Make it a **Group (G)** with the properties: Group Name: **Curtain Wall Door**; layer: **Mullion**; material: **Metal – Brushed – Grey**.
+2. Так же как и при создании рам с импостами, нарисуйте широкую дверную панель размером **3 фута 6 дюймов** с рамой **2 на 2 дюйма**. **Сгруппируйте \(G\)** ее, указав следующие свойства. Имя группы: **Curtain Wall Door**; слой: **Mullion**; материал: **Metal — Brushed — Grey**.
 
-3 - Copy this group to create the second door frame, and move them so that they are centered in the **Mullion Frame – EW** group, as shown below.
+3. Скопируйте группу для создания второй дверной рамы и расположите по центру в группе **Mullion Frame — EW**, как показано на изображении ниже.
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Create Roof Cornice with Sweep**
+## **Создание карниза крыши со сдвигом**
 
-_We will now create the cornice of the Farnsworth House using one of FormIt’s advanced modeling tools -_ _**Sweep**. To learn about other advanced modeling, check out the_ **2.2 -** _**Advanced Modeling** chapter_ _in the_ _**FormIt Primer - Part II**._
+_Теперь создайте карниз для дома Фарнсворт с помощью одного из передовых инструментов моделирования FormIt —_ _**Сдвиг**. Подробнее о других расширенных возможностях моделирования можно узнать, прочитав главу_ **2.2.** _**Дополнительные возможности моделирования** в_ _**части II руководства FormIt Primer**._
 
-_The first step into creating a_ _**Sweep**_ _is to draw a profile perpendicular to the sweep “extrusion”. To do that, we will use the roof geometry as a guide._
+_Первым шагом в создании_ _**сдвига**_ _является построение профиля, перпендикулярного «выдавливанию» сдвига. В качестве ориентира используйте геометрию крыши._
 
-1 - Turn on the **Roof** layer and zoom in to one of its corners.
+1 - Включите слой **Roof** и увеличьте масштаб одного из углов.
 
-2 - Using one of the roof’s vertical sides as a reference, draw two adjacent rectangles. The first will be **6”** high by **4 5/8**” wide, and the second is **2”x 2”**. Delete the line dividing the two rectangles to create a single face. The result should look as below.
+2 - Используя в качестве опорного элемента одну из вертикальных сторон крыши, нарисуйте два смежных прямоугольника. Первый будет иметь высоту **6 дюймов** и ширину **4 5/8** дюйма, второй — размеры **2 на 2 дюйма**. Удалите линию, разделяющую два прямоугольника, чтобы создать одну грань. Результат должен выглядеть так, как показано ниже.
 
-![](<../../.gitbook/assets/10 (1).jpeg>)
+![](../../.gitbook/assets/10.jpeg)
 
-3 - To create the sweep:
+3 - Чтобы создать сдвиг, выполните следующие действия.
 
-1. With no selected geometry, click on the **Advanced Modeling Tools** button in the **Standard Toolbar**, and select **Sweep (SW)**.
-2. The **Sweep Selection Wizard** will start and prompt you to **Select a face (or edges) for sweep profile**. Select the profile face we just created.
-3. Once the profile is selected, you will be prompted to **Select a face (or edge) for sweep path, then click finish**. Select the top face of the roof. FormIt will automatically use the boundaries of the selected face as the sweep’s path, and the sweep will be created around the entire roof.
+1. Если геометрия не выбрана, нажмите кнопку **Дополнительные инструменты моделирования** на **панели инструментов «Стандартная»** и выберите **Сдвиг \(SW\)**.
+2. Откроется **мастер выбора сдвига**, и появится запрос **Выберите грань \(или ребра\) для профиля сдвига**. Выберите только что созданную грань профиля.
+3. После выбора профиля появится запрос **Выберите грань \(или ребра\) для траектории сдвига, а затем нажмите кнопку «Завершить»**. Выберите верхнюю грань крыши. FormIt автоматически использует контуры выбранной грани в качестве траектории сдвига, а сам сдвиг будет создан вокруг всей крыши.
 
-_**Note:**_ _If you are having trouble selecting either of the faces,_ _**Orbit (O)**_ _around to view the face a little better and try again. As an alternate option, select all the edges of the roof instead of the roof’s top face to complete the sweep._
+_**Примечание.**_ _Если не удается выбрать одну из граней, поверните грань с помощью инструмента_ _**Орбита \(O\)**_ _, чтобы видеть ее немного лучше, и повторите попытку. Также для выполнения сдвига можно выбрать все кромки крыши, а не ее верхнюю грань._
 
-![](<../../.gitbook/assets/11 (2).png>)
+![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - Keep your model organized by creating a **Roof - Cornice** group, adding it to the **Roof** layer, and assigning the **Metal – Brushed – Colorized** material to it.
+4 - Для упорядочения данных модели создайте группу **Roof — Cornice**, добавьте ее в слой **Roof** и назначьте ей материал **Metal — Brushed — Colorized**.
 
-![](<../../.gitbook/assets/12 (1).png>)
+![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - To finish up, turn on the **Column** layer, and you will see that the newly created sweep intersects with the tops of the columns. Resolve this by editing any one of the **Column Tall** groups, and dragging the top face down until it aligns with the bottom of the cornice.
+5 - В завершении включите слой **Column**. Вновь созданный выступающий профиль пересекается с верхушкой колонн. Устраните эту проблему, отредактировав любую из групп **Column Tall** и перетащив верхнюю грань вниз до ее выравнивания по нижней границе карниза.
 
-![](<../../.gitbook/assets/13 (5).png>)
+![](../../.gitbook/assets/13%20%285%29.png)
+

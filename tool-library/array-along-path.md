@@ -1,98 +1,103 @@
 # Array Along Path
 
-## Powered by Dynamo
+## Технологии Dynamo
 
-In FormIt 2021 and newer, you can array objects along a path, and quickly customize the results in-place. Array Along Path is powered by Dynamo, which means the array is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+В FormIt 2021 и более поздних версиях можно создавать объекты массива по траектории и быстро настраивать результаты. Для команды «Array Along Path» (массив по траектории) применяются технологии Dynamo. Это означает, что массив легко настроить для получения требуемых результатов, а повторный запуск логики приводит к обновлению доступной геометрии.
 
-![](<../.gitbook/assets/array-along-path (1).gif>)
+![](../.gitbook/assets/array-along-path.gif)
 
-## Starting Array Along Path
+## Создание массива по траектории
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
-* Click the Array Along Path sample.
-* On the left side of the screen, you'll see a prompt to "Select object(s) to array."
-  * You can select any mix of FormIt objects for this step.
-  * Once you've got something selected, you can hit the "next" arrow on the left side of the screen, or just hit Enter.
-* Now you'll see a prompt to "Select path for array."
-  * Here, you should select only a series of contiguous edges, or a Group containing a series of contiguous edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter.&#x20;
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated Array in a FormIt Group, ready for modifying (see below).
+* Перейдите на панель Dynamo в FormIt для Windows и откройте каталог примеров Dynamo.
+* Щелкните пример «Array Along Path».
+* В левой части экрана отобразится запрос «Select object\(s\) to array» (выберите объекты для создания массива).
+   * На этом этапе можно выбрать любые объекты FormIt.
+   * Выбрав нужный объект, нажмите стрелку «Next» (далее) в левой части экрана или просто клавишу ENTER.
+* Отобразится запрос «Select path for array» (выберите траекторию размещения массива).
+   * Здесь следует выбирать только ряд смежных кромок или группу, содержащую ряд смежных кромок.
+   * Выбрав траекторию, нажмите кнопку «Finish» (готово) или клавишу ENTER.
+* На панели Dynamo появится информация об обработке изменений. По завершении обработки в группе FormIt появится созданный в Dynamo массив, который можно изменять \(см. ниже\).
 
-## Iterating In Place
+## Итерация на месте
 
-After running Array Along Path, you'll see its results are set to default values, so you'll want to modify them to suit your needs.
+Результаты выполнения команды «Array Along Path» имеют значения по умолчанию. Их можно изменить по необходимости.
 
-When Array Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Array Along Path instance.
+При выполнении команды «Array Along Path» создается новая группа с результатами. В FormIt будет автоматически выбрана эта группа, и отобразятся доступные параметры данного экземпляра массива по траектории.
 
-You can always return to the Array Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+Можно в любой момент вернуться к свойствам массива по траектории. Для этого следует выбрать группу и открыть панель свойств либо начать редактировать группу, и тогда свойства отобразятся автоматически.
 
-![](<../.gitbook/assets/array along path (1).png>)
+![](../.gitbook/assets/array-along-path-options.png)
 
-### Select Object(s) to Array <a href="#run" id="run"></a>
+### Select Object\(s\) to Array <a id="run"></a>
 
-Click this to go back to the selection wizard to change which objects are being arrayed.
+Нажмите эту кнопку, чтобы вернуться в мастер выбора и изменить объекты, которые необходимо добавить в массив.
 
 ### Select Array Path
 
-Click this to go back to the selection wizard to change the path that is used to calculate the array.
+Нажмите эту кнопку, чтобы вернуться в мастер выбора и изменить траекторию, используемую для расчета массива.
 
-### Array Type <a href="#run" id="run"></a>
+### Array Type <a id="run"></a>
 
-This toggles the type of array to calculate: By Distance, or By Number.
+Изменяет тип массива для расчета: By Distance (по расстоянию) или By Number (по количеству).
 
-**When true**, the calculation will be "By Distance", so the number below refers to the distance between copies.
+**Если значение «True»**, расчет выполняется по расстоянию, поэтому указанное ниже число будет означать расстояние между копиями.
 
-**When false**, the calculation will by "By Number of Copies", so the number below this field refers to the number of copies to fit along the path.
+**Если значение «False»**, расчет выполняется по количеству копий («By Number of Copies»), поэтому число под этим полем будет означать количество копий, которое необходимо вписать в траекторию.
 
 ### Include Original Selection In Results
 
-When **true**:
+Если значение **True**:
 
-* The object(s) selected will be counted as one of the new copies
-* The resulting Dynamo Group will include the original selection in its results, so the new copies will Z-fight with the original selection. You can put the original selection on a [Layer](layers.md), and turn it off to hide it.
+* Выбранные объекты будут считаться одной из новых копий.
+* В результате полученная группа Dynamo будет содержать исходный набор, поэтому между новыми копиями и исходным набором объектов будут возникать Z-конфликты. Можно поместить исходный набор объектов на [слой](layers.md) и скрыть, отключив его.
 
-When **false**:
+Если значение **False**:
 
-* The resulting array will **not** include the original selection, so you'll get the number of copies you specified **in addition to** the original selection, and the results won't Z-fight
+* В полученный массив **не будет включен** исходный набор объектов, поэтому в результате вы получите указанное количество копий **в дополнение** к исходному набору при отсутствии Z-конфликтов.
 
 ### Rotate Copies Along Path
 
-When **true**, the copies are rotated to maintain the orientation of the original object relative to the path.
+Если значение **True**, копии поворачиваются с сохранением ориентации исходного объекта относительно траектории.
 
-When **false**, the copies are not rotated, only moved.
+Если значение **False**, копии не поворачиваются, а только перемещаются.
 
 ### Use Relative Positioning Along Path
 
-When **true**:
+Если значение **True**:
 
-* Each copy will maintain the distance between the path and the original object.
-* If the original object is **not** positioned at one of the path endpoints, the largest remaining segment of the path will be used for the array calculation.&#x20;
+* каждая копия сохраняет расстояние между траекторией и исходным объектом.
+* Если исходный объект **не расположен** в одной из конечных точек траектории, то для расчета массива используется наибольший оставшийся сегмент траектории.
 
-When **false**:
+Если значение **False**:
 
-* The entire length of the path will used to calculate the array, regardless of where the original object is relative to the path.&#x20;
-* This decouples the path's location relative to the object, and simply uses the entire path. Useful if the path and object are not near each other.
+* для расчета массива используется вся длина траектории независимо от расположения исходного объекта относительно траектории.
+* Это позволяет отделить местоположение траектории относительно объекта и просто использовать всю траекторию. Данный параметр используется, если траектория и объект расположены далеко друг от друга.
 
 ### Reverse Path Direction
 
-For closed paths only. When using Array Along Path with a closed path, the direction of the curve may unexpectedly flip the expected results of the array. Toggle this to **true** to reverse the array direction if the results are flipped.
+Только для замкнутых траекторий. При использовании команды «Array Along Path» с замкнутой траекторией направление кривой может неожиданно зеркально отобразить предполагаемые результаты массива. Установите значение **True**, чтобы изменить направление массива в случае зеркального отображения результатов.
 
-### Run <a href="#run" id="run"></a>
+### Run <a id="run"></a>
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+Завершив редактирование параметров, нажмите кнопку «Run», чтобы запустить основной график Dynamo и создать новые результаты. После изменения параметров эта кнопка выделяется синим цветом. Это свидетельствует о том, что ее необходимо нажать для просмотра обновлений в итоговой геометрии.‌
 
-### Edit Embedded Graph <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
+### Edit Embedded Graph <a id="edit-embedded-graph"></a>
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+По нажатию этой кнопки открывается среда редактора графика Dynamo, в которой можно просматривать и редактировать основные графики Dynamo для быстрого изменения параметров и просмотра обновлений в режиме реального времени, а также для проверки и корректировки логики.
 
-## Selecting Geometry
 
-When selecting objects for Array Along Path, and other selection-based Dynamo graphs:
 
-* You can select any mix of FormIt objects - vertices, edges, faces, solids, Groups, and Meshes.&#x20;
-  * Note that depending on the step, some of these objects should not be selected.
-  * For example, when selecting the path, you should only select a contiguous series of edges, or a Group containing a contiguous series of edges. Anything else will cause the graph to fail.
-* You can double-click on an object to select everything attached.&#x20;
-* You can use the area selection window to grab a series of objects.
-* You can select objects already selected to deselect them.
-* At least one object is required to proceed with a selection-based step.
+## Выбор геометрии
+
+При выборе объектов для массива по траектории и других графиков Dynamo по выбранным объектам выполните следующие действия.
+
+* Можно выбрать любой набор объектов FormIt: вершины, кромки, грани, тела, группы и сети.
+   * Обратите внимание, что в зависимости от этапа не следует выбирать некоторые из этих объектов.
+   * Например, при выборе траектории можно выбрать только ряд смежных кромок или группу, содержащую ряд смежных кромок. При выборе любых других объектов возникнет ошибка графика.
+* Дважды щелкните объект, чтобы выбрать все присоединенные элементы.
+* Окно выбора области можно использовать для захвата нескольких объектов.
+* Можно нажать на уже выбранные объекты, чтобы отменить их выбор.
+* Для выполнения действия с выбранными элементами требуется выбрать хотя бы один объект.
+
+
+

@@ -1,39 +1,40 @@
-# 1.13 - Section Planes
+# 1.13. Секущие плоскости
 
-_In this chapter you will learn how to use_ _**Section Planes**_ _to cut your model, revealing interior spaces and structural elements. FormIt supports multiple_ _**Section Planes**_ _at once for a Section Box-like effect._
+_В этой главе вы узнаете, как использовать_ _**секущие плоскости**_ _для разрезания модели и просмотра внутреннего пространства и элементов конструкции. FormIt поддерживает одновременное использование нескольких_ _**секущих плоскостей**_ _для создания эффекта «Секущая рамка»._
 
-_If you did not complete the previous chapter, download and open the_ _**1. 13 - Section Planes.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Если вы не проходили предыдущий раздел, скачайте и откройте файл_ _**1. 13 — Section Planes.axm**_ _из_ _**набора данных для части 1 руководства FormIt Primer**._
 
-1 - To create a new Section Plane:
+1 - Чтобы создать секущую плоскость, выполните следующие действия.
 
-1. Click on the **Section Plane (SP)** button from the **Standard Toolbar**.
-2. Hover over the model to identify a plane to use as reference. Note the arrows at the corners of the **Section Plane** indicating the direction of the section cut. Press the **Tab** key to alternate between different planes, if needed.
-3. Click to place the **Section Plane** anywhere on the southern glass wall of the main building. The plane will scale to the size of your model and remain selected.
+1. Нажмите кнопку **Секущая плоскость (S+P)** на **стандартной панели инструментов**.
+2. Наведите курсор на модель, чтобы определить плоскость, которая будет использоваться в качестве опорной. Обратите внимание на стрелки в углах **секущей плоскости**, указывающие направление разреза. При необходимости нажмите клавишу **TAB** для переключения между плоскостями.
+3. Щелкните, чтобы разместить **секущую плоскость** в любом месте южной стеклянной стены главного здания. Плоскость будет вписана в размер модели и выделена как выбранная.
 
-![Section plane preview when hovering over the glass wall.](<../../.gitbook/assets/0 (6).png>)
+![При наведении курсора на стеклянную стену отображается секущая плоскость.](../../.gitbook/assets/0%20%286%29.png)
 
-![Scaled section plane after being placed.](<../../.gitbook/assets/1 (19) (1).png>)
+![Масштабированная секущая плоскость после размещения.](../../.gitbook/assets/1%20%2819%29.png)
 
-2 - With the section plane still select, click to start moving it backwards until it is cutting through part of the main building, similar to the image below. This works similarly to moving any model element, except that the section plane can only move along an axis perpendicular to the direction it is facing. Once you are happy with the position, press **Esc** to clear the selection.
+2 - Выберите секущую плоскость, щелкните и начните перемещение вглубь для рассечения части главного здания, как показано на рисунке ниже. Процесс похож на перемещение любого другого элемента модели, за исключением того, что секущая плоскость может перемещаться только вдоль оси, перпендикулярной ее плоскости. После выбора нужного положения нажмите клавишу **ESC**, чтобы отменить выбор.
 
-![](<../../.gitbook/assets/2 (11) (1).png>)
+![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Note:**_ _You can add up to 6 section cuts to your model at once._
+_**Примечание.**_ _Одновременно в модель можно добавить до 6 разрезов сечения._
 
-3 - Open the **Layers** **Palette**. Note that two (2) new layers have been generated - **Section Indicators** and **Section Cut 1**.
+3 - Откройте **палитру** **слоев**. Обратите внимание, что были созданы два (2) новых слоя: **Индикаторы сечения** и **Сечение 1**.
 
-1. Toggle the **Section Cut 1** layer off and back on. This controls whether the section cuts the model or not.
-2. Now toggle the **Section Indicator** layer off. This hides the section plane and its arrow indicators, but does not affect whether the actual section cut is active or not.
+1. Отключите и снова включите слой **Сечение 1**. Этот параметр определяет применение сечения к модели.
+2. Теперь отключите слой **Индикаторы сечения**. Этот параметр скрывает секущую плоскость и стрелки-индикаторы, но не затрагивает применения сечения.
 
-![](<../../.gitbook/assets/3 (6) (1).png>)
+![](../../.gitbook/assets/3%20%286%29.png)
 
-4 - In the **Surface Tab** of the **Visual Styles** **Palette**:
+4 - На **вкладке «Поверхность»** палитры **Визуальные стили**** **выполните следующие действия.
 
-1. Check the box next to **Poche Color** to turn it on. This effect will color any solids cut by the section plane with a specified color. Black is the default color, but you can simply click on the color preview to change it.
-2. Turn of **Shadows (DS)**.
+1. Установите флажок **Цвет условного материала-отделки**, чтобы включить этот параметр. Он позволяет окрашивать твердые тела, рассеченные секущей плоскостью, заданным цветом. По умолчанию используется черный цвет, но его можно изменить, щелкнув изображение предварительного просмотра цвета.
+2. Отключите параметр **Тени (D+S)**.
 
 ![](../../.gitbook/assets/poche.png)
 
-5 - To finalize your section, go to the **Scenes Palette** and create a new Scene called **Section**, saving the current **Camera** position, **Layers** visibility, and **Visual Styles** settings.
+5 - Для завершения работы с сечением перейдите на **палитру «Сцены»** и создайте новую сцену с именем **Сечение**. Это позволит сохранить текущее положение **камеры**, **слои** видимость и **визуальные стили**.
 
-![](<../../.gitbook/assets/5 (7).png>)
+![](../../.gitbook/assets/5%20%287%29.png)
+

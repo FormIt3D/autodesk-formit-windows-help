@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# Грани: наклон и дробление/сглаживание
 
-## Working with Faces: Tilt and Facet/Smooth
+## Работа с гранями: наклон и дробление/сглаживание
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+Для создания более сложных проектов после построения формы или размещения примитива можно использовать несколько контекстных инструментов для работы с геометрией. К этим инструментам относятся «Наклон», «Массив», а также «Копировать» и «Вставить».
 
-### Tilt Face
+### Наклон грани
 
-To **tilt a face:**
+Чтобы **наклонить грань**, выполните следующие действия.
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. Выберите грань и щелкните правой кнопкой мыши, чтобы открыть контекстное меню.
+2. В контекстном меню выберите значок **Наклон**.
+3. Определите ось наклона, нарисовав линию.
+4. Щелкните третью точку, чтобы начать операцию наклона.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### Дробление/сглаживание граней
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+Если при наведении курсора на грань отображаются пунктирные линии, это означает, что грань состоит из небольших сегментов, которые появились вследствие деформации. Чтобы **преобразовать пунктирные линии в ребра модели**, выполните следующие действия.
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. Выберите грань или объект, который требуется изменить, и щелкните правой кнопкой мыши, чтобы открыть контекстное меню.
+2. В контекстном меню выберите инструмент **Дробить/сгладить грани**.
+3. Ребра будут автоматически добавлены в те места, где грань раньше была сглаженной.
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+Эта команда работает и в обратном направлении. Для этого выберите несколько смежных граней, затем в контекстном меню выберите инструмент **Дробить/сгладить грани**, чтобы скрыть ребра и получить сглаженные грани.
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

@@ -1,154 +1,155 @@
-# 1.11 - Import Models with Content Library
+# 1.11. Импорт моделей с использованием библиотеки компонентов
 
-_In this chapter, we will import existing SketchUp models, as well as use the FormIt Content Library to place OOTB families that have been converted from Revit. Note that when opening SKP files with FormIt, they come with intact Materials, Groups and Components, Layers (Tags), and Scenes. Some clean-up may be needed to keep your projects tidy and organized._
+_В этой главе рассматривается импорт существующих моделей SketchUp, а также размещение готовых семейств, преобразованных из формата Revit, с помощью библиотеки компонентов FormIt. Обратите внимание, что при открытии файлов SKP с помощью FormIt материалы, группы, компоненты, слои \(марки\) и сцены сохраняются в неизменном виде. Для упорядочения проектов может потребоваться очистка._
 
-_For this chapter we will be using files from the_ **Farnsworth House Data Set > Supporting Files** folder. If you have not already, be sure to download the required folders, or entire data set, from the _**FormIt Primer Part 1 Datasets**._
+_В этой главе используются файлы из папки_ **Farnsworth House Data Set > Supporting Files**. Скачайте требуемые папки из _**наборов данных для части I руководства FormIt Primer**. \(Можно скачать весь набор данных.\)_
 
-## **Import and Edit SKP files**
+## **Импорт и редактирование файлов SKP**
 
-_First, we will go through the process of adding a piece of downloaded content to your own personal content library_. Note that in this exercise we will be only using SKP files. To learn more about how to open/import other file formats, refer to [**this blog post about Formit 2021.2 features**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) and to **this chapter about** **Expanded Import and Export File Formats**.
+_Сначала рассмотрим процесс добавления части скачанных компонентов в личную библиотеку компонентов пользователя_. Обратите внимание, что в этом упражнении используются только файлы SKP. Дополнительные сведения об открытии и импорте файлов других форматов см. в [**публикации блога о возможностях Formit 2021.2**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) и **в главе** **Дополнительные форматы импорта и экспорта файлов**.
 
-1 - Make sure to **Save (Ctrl + S)** any open work, then start a new FormIt sketch. To do this, you can either:
+1 - Сохраните все открытые проекты с помощью команды **Сохранить \(CTRL + S\)** и создайте новый эскиз FormIt. Это можно сделать двумя способами.
 
-1. Open another session on FormIt in a new window by right-clicking on the FormIt Icon in the **Windows Taskbar** and clicking on the **FormIt** icon. This will open a new FormIt window, allowing you to run two FormIt sessions side-by-side.
-2. OR, after saving, start a **New Sketch (Ctrl + N)** from the **File** dropdown in the **Main Menu** bar.
+1. Откройте еще один сеанс FormIt в новом окне, щелкнув правой кнопкой мыши значок FormIt на **панели задач Windows** и выбрав значок **FormIt**. Откроется новое окно FormIt, что позволит работать в двух сеансах FormIt параллельно.
+2. Сохраните проекты и выберите команду **Создать эскиз \(CTRL + N\)** в раскрывающемся меню **Файл** в **строке главного меню**.
 
-![](<../../.gitbook/assets/0 (19).png>)
+![](../../.gitbook/assets/0%20%2819%29.png)
 
-2 - Create a new folder called **Custom FormIt Content** inside the **Farnsworth House Data Set > Supporting Files > FormIt** folder in the _**Farnsworth House Data Set**._
+2 - Создайте папку с именем **Custom FormIt Content** в папке **Farnsworth House Data Set > Supporting Files > FormIt** в _**наборе данных Farnsworth House**._
 
-3 - **Save (Ctrl + S)** your new sketch in that folder. We recommend naming it: **Ottoman – Barcelona\_Mies.axm**
+3 - **Сохраните \(CTRL + S\)** новый эскиз в этой папке. Рекомендуется назвать ее **Ottoman — Barcelona\_Mies.axm**.
 
-4 - In the new empty FormIt file:
+4 - В новом пустом файле FormIt выполните следующие действия.
 
-1. **Import a Local File (Ctrl + I)** by selecting **Import > Locally…** from the **File** dropdown in the **Main Menu** bar.
-2. Choose: **Ottoman – Barcelona\_Mies.skp** from the **Farnsworth House Data Set > Supporting Files > SketchUp** and click **Open**.
+1. **Импортируйте локальный файл \(CTRL + I\)**, выбрав **Импорт > Локально...** в раскрывающемся списке **Файл** в строке **главного меню**.
+2. Выберите файл **Ottoman — Barcelona\_Mies.skp** в папке **Farnsworth House Data Set > Supporting Files > SketchUp** и нажмите **Открыть**.
 
-_**Note:**_ _If you do not see the_ _**Ottoman – Barcelona\_Mise.skp file**, make sure the file format dropdown in the bottom right is set to_ _**All Supported Formats**._
+_**Примечание.**_ _Если файл_ _**Ottoman — Barcelona\_Mise.skp** не отображается, убедитесь, что в раскрывающемся списке формата файлов в нижнем правом углу выбран вариант_ _**Все поддерживаемые форматы**._
 
-![](<../../.gitbook/assets/1 (7).png>)
+![](../../.gitbook/assets/1%20%287%29.png)
 
-5 - Rename the imported group **Ottoman - Barcelona\_Mies**.
+5 - Переименуйте импортированную группу **Ottoman — Barcelona\_Mies**.
 
-6 - When we eventually import this model into our Farnsworth House file, it will be placed by using this file’s **Origin** point. To control l placement point, we want to move the **Ottoman - Barcelona\_Mies** group so one if its corners is located at the **Origin**. To do this:
+6 - При импорте этой модели в файл Farnsworth House она будет размещена с учетом точки **начала координат** этого файла. Чтобы установить первую точку размещения, необходимо переместить группу **Ottoman — Barcelona\_Mies** так, чтобы ее углы располагались в **начале координат**. Для этого выполните следующие действия.
 
-1. Ensure **Snap to Grid (SG)** is on. Draw a reference **Line (L)** starting at the **Origin** (There the X, Y, and Z axes intersect). Click anywhere to place the second point.
-2. Select the ottoman group and start the move command by single-clicking on the lower left corner of its leg, as shown. _To learn more about how to move objects, refer to previous chapters._
-3. Move the group to the **Origin**, by snapping to the start point of the reference line we just drew.
-4. Delete the reference line.
+1. Убедитесь, что включен параметр **Привязать к сетке \(SG\)**. С помощью команды **Линия \(L\)** нарисуйте вспомогательную линию от **начала координат** \(там, где пересекаются оси X, Y и Z\). Щелкните в любом месте, чтобы разместить вторую точку.
+2. Выберите группу банкетки и запустите команду перемещения, щелкнув один раз в нижнем левом углу ее ножки, как показано на изображении. _Дополнительные сведения о перемещении объектов см. в предыдущих главах._
+3. Переместите группу в **начало координат**, выполнив привязку к начальной точке только что нарисованной опорной линии.
+4. Удалите опорную линию.
 
-![](<../../.gitbook/assets/2 (17) (1).png>)
+![](../../.gitbook/assets/2%20%2817%29.png)
 
-7 - We recommend deleting any unwanted layers that were imported with the SKP file, as any layers this model has will eventually be imported into our Farnsworth House model. To do that, go to the **Layers Palette**, select **Layer 0**, and click the **-** button. This will delete the layer while keeping its geometry.
+7 - Рекомендуется удалить все ненужные слои, которые были импортированы вместе с файлом SKP, так как в противном случае все слои этой модели будут импортированы в модель дома Фарнсуорт. Для этого перейдите на **палитру слоев**, выберите **Слой 0** и нажмите кнопку **–**. Это приведет к удалению слоя с сохранением его геометрии.
 
-![](<../../.gitbook/assets/3 (16) (1).png>)
+![](../../.gitbook/assets/3%20%2816%29.png)
 
-_**Note:**_ _Whenever you delete a layer, any geometry or groups that were on that layer are assigned to have_ _**No Layer**, which is the default value for any object that has not yet been assigned to a layer._
+_**Примечание.**_ _При удалении слоя геометрии или группе, которые находились в этом слое, назначается статус_ _**Без слоя**. Это значение по умолчанию указано для любого объекта, которому еще не был назначен слой._
 
-## **Create Content Thumbnail**
+## **Создание миниатюры содержимого**
 
-_This next step will setup a scene to be used as the_ _**Content**_ _thumbnail, which will be displayed in the_ _**Content Library Palette**._
+_При выполнении следующего шага будет настроена сцена, которая будет использоваться в качестве миниатюры_ _**компонентов**_ _, отображаемой на_ _**палитре библиотеки компонентов**._
 
-1 - To define the view settings for the thumbnail scene:
+1 - Чтобы задать параметры вида для сцены миниатюры, выполните следующие действия.
 
-1. In the **Environment** tab of the **Visual Style Palette**, uncheck all the checkboxes and set the **Lower/ Background** color to white.
-2. Make sure your view mode is set to **Perspective** **(VP)**.
-3. Use the **View Navigation Tools** to zoom in pick a camera location that represents the object well, similar to the below image.
+1. На вкладке **Среда** **палитры «Визуальные стили»** снимите все флажки и установите белый цвет для параметра **Нижний/задний план**.
+2. Убедитесь, что выбран режим просмотра **Перспективный** **\(VP\)**.
+3. Используйте **инструменты навигации по виду** для увеличения изображения и выбора местоположения камеры, обеспечивающего хорошую видимость объекта, как показано на изображение ниже.
 
-![](<../../.gitbook/assets/4 (13) (1).png>)
+![](../../.gitbook/assets/4%20%2813%29.png)
 
-2 - To save the settings you just set, create a scene:
+2 - Чтобы сохранить заданные параметры, создайте сцену.
 
-1. Go to the **Scene Palette**.
-2. Click on the **+** button. This will create a new scene based on your current settings.
-3. Rename it **Thumbnail** and make sure that at least the first four (4) checkboxes are checked; **Camera**, **Layers**, **Sun and Shadows**, and **Visual Styles**. The rest of the scene settings are not really relevant for creating the thumbnail image.
-4. Use the **Update Scene** button any time you want to refresh your **Scene** to match the current camera view and visual settings.
+1. Перейдите на **палитру «Сцены»**.
+2. Нажмите кнопку **+**. Будет создана сцена на основе текущих параметров.
+3. Переименуйте ее в **Thumbnail** и убедитесь, что установлены по крайней мере первые 4 \(четыре\) флажка: **Камера**, **Слои**, **Солнце и тени** и **Визуальные стили**. Остальные параметры сцены не требуются для создания миниатюры.
+4. С помощью кнопки **Обновить сцену** можно в любой момент обновить **сцену** в соответствии с текущим видом камеры и параметрами отображения.
 
-![](<../../.gitbook/assets/5 (11) (1).png>)
+![](../../.gitbook/assets/5%20%2811%29.png)
 
-3 - **Save (Ctrl + S)** the completed ottoman model again. Note that the **Content Thumbnail** is created from the current view when the model was last saved, so make sure you are in the **Thumbnail Scene** before you save.
+3 - Выберите **Сохранить \(CTRL + S\)**, чтобы еще раз сохранить модель банкетки. Обратите внимание, что **миниатюра компонента** создается на основе вида, который является текущим в момент последнего сохранения модели, поэтому перед сохранением убедитесь, что вы находитесь в **сцене миниатюры**.
 
-_If you wish, you can compare your file against ours by opening the_ _**Ottoman - Barcelona\_Mies.axm**_ _file saved at_ _**Farnsworth House Data Set > Supporting Files > FormIt > Furniture**_ _in the_ _**Farnsworth House Data Set**.‌_
+_При желании можно сравнить ваш файл с образцом, открыв файл_ _**Ottoman — Barcelona\_Mies.axm**_ _, сохраненный в папке_ _**Farnsworth House Data Set > Supporting Files > FormIt > Furniture**_ _в_ _**наборе данных Farnsworth House**.‌_
 
-_You can follow the same steps above with the bench and chair SKP files located in the same folder as the ottoman._
+_Описанные выше действия можно выполнить с файлами SKP скамьи и стульев, которые находятся в той же папке, что и файл банкетки._
 
-_**Tip:**_ _To expedite the process we recommend using the_ _**Ottoman - Barcelona\_Mies.axm**_ _file you just created as a template. While modeling you may want to turn on the_ _**Grid**_ _and the_ _**Axes**_ _again from the_ _**Visual Styles Palette**. By adjusting only the camera position of your_ _**Thumbnail Scene**_ _for each piece of furniture, it will ensure that the_ _**Content Thumbnails**_ _remain consistent for all of your content models._
+_**Совет.**_ _Для ускорения процесса рекомендуется использовать файл_ _**Ottoman — Barcelona\_Mies.axm**_ _, который был создан в качестве шаблона. В процессе моделирования может потребоваться снова включить_ _**сетку**_ _и_ _**оси**_ _на_ _**палитре «Визуальные стили»**. Регулируя только положение камеры_ _**сцены миниатюры**_ _для каждого элемента мебели, можно обеспечить единообразие_ _**миниатюр компонентов**_ _во всех моделях компонентов._
 
-## **Link a Content Library**
+## **Привязка библиотеки компонентов**
 
-_Now back to our Farnsworth House project. We will learn how to link the **FormIt** folder in the **Farnsworth House Data Set**, to easily access all of its files - including the_ **Custom FormIt Content** _we just created - from within our project._
+_Вернитесь к проекту дома Фарнсуорт. Попробуйте присоединить папку **FormIt** в **наборе данных Farnsworth House** для легкого доступа ко всем ее файлам, включая только что созданные_ **пользовательские компоненты FormIt**, _из проекта._
 
-1 - After switching back to, or re-opening, the Farnsworth House model. _If you did not complete the last chapter, download and open the_ _**1.11 - Import Models with Content Library.axm**_ _file from the_ _**Farnsworth House Data Set**._
+1 - Вернитесь в модель дома Фарнсуорт или откройте ее снова. _Если вы не прошли предыдущую главу, скачайте и откройте файл_ _**1.11 — Import Models with Content Library.axm**_ _из_ _**набора данных Farnsworth House**._
 
-1. Open the **Content Library Palette** and click the **Link Content Library Directory** icon. The **Preferences** window will pop-up with the **Content Library** tab open.
-2. Click the **+** icon to **Add a new Content Library location**. A third window will pop-up for you to navigate your computer’s directory and select a folder.
-3. In the _**Farnsworth House Data Set**, navigate through the folders:_ _**Supporting Files > FormIt**. There you will find the_ folders containing the **.axm** files we created earlier in this chapter. Double-click the **FormIt** folder to select it.
-4. Click **Select Folder** and that folder’s path will show up in the **Library Locations – Local** Panel.
-5. Back in the **Preferences** window, click **OK**, and the linked folder will be added to the **Content Library**.
-6. To access this new library, open the drop-down menu at the top for the **Content Library Palette** and select **FormIt**.
-7. Note that the folder structure and all the **.axm** files in the linked folder will show up in the **Content Library Palette**. Double click any sub-folders to access the files in it.&#x20;
+1. Откройте **палитру Библиотеки компонентов** и щелкните значок **Привязать каталог Библиотеки компонентов**. Откроется окно **Настройки** с открытой вкладкой **Библиотека компонентов**.
+2. Нажмите кнопку **+**, чтобы **добавить новое расположение Библиотеки компонентов**. Откроется третье окно для выбора папки на компьютере.
+3. В _**наборе данных Farnsworth House** перейдите к папке_ _**Supporting Files > FormIt**. В ней находятся папки_ с файлами **AXM**, созданные ранее в этой главе. Дважды щелкните папку **FormIt**, чтобы выбрать ее.
+4. Нажмите кнопку **Выбрать папку**, и путь к этой папке отобразится на панели **Расположения библиотек — локально**.
+5. Вернувшись в окно **Настройки**, нажмите кнопку **ОК**, и привязанная папка будет добавлена в **Библиотеку компонентов**.
+6. Для доступа к новой библиотеке откройте раскрывающееся меню в верхней части **палитры Библиотеки компонентов** и выберите **FormIt**.
+7. Обратите внимание, что структура папок и все файлы **AXM** в привязанной папке отображаются на **палитре Библиотеки компонентов**. Дважды щелкните любую вложенную папку для доступа к находящейся в ней файлам.
 
 ![](../../.gitbook/assets/link-library-content.png)
 
-**Note:** If you have access to **Autodesk Docs** (previously know as Autodesk 360), you can also access files you may have stored there through the **Content Library** drop-down menu.
+**Примечание.** При наличии доступа к службе **Autodesk Docs** \(ранее известной как Autodesk 360\) получить файлы, которые в ней хранятся, также можно с помощью раскрывающегося меню **Библиотека компонентов**.
 
-## **Place Content from the Library**
+## **Вставка компонентов из библиотеки**
 
-_‌Now we will place the content items we created inside in the Farnsworth model._
+_‌Разместите созданные компоненты в модели Farnsworth._
 
-1 - So that we can see inside the house to place the furniture, turn off the **Roof** layer and **Orbit (O)** the perspective view until you can see the entire Main Building Floor.
+1 - Чтобы видеть внутреннюю часть дома для размещения мебели, отключите слой **Roof** и с помощью инструмента **Орбита \(O\)** поверните вид в перспективе таким образом, чтобы отображался весь пол главного здания.
 
-2 - Back in the **Content Library Palette**, ensure the dropdown is still set to the **FormIt**. Before placing any of the furniture we just made, we need to place the ‘core’ of the house:
+2 - Вернитесь на **палитру Библиотеки компонентов** и убедитесь, что в раскрывающемся списке по-прежнему выбран пункт **FormIt**. Перед тем как разместить созданную мебель, нужно добавить основой блок дома.
 
-1. Click on the folder named **Other** to open it, and then click on the **Farnsworth House – Core** thumbnail to select it.
-2. Hover the mouse over the **Main Building Floor,** to click on the **Centroid** of the floor to place the **Core**.
-3. To go back UP to the FormIt folder, use the **Navigate Up** button.
+1. Щелкните папку **Other**, чтобы открыть ее, и выберите миниатюру **Farnsworth House — Core**.
+2. Наведите указатель на **пол главного здания** и щелкните **центр тяжести** пола для размещения **основного блока**.
+3. Для возврата к папке FormIt нажмите кнопку **Перейти вверх**.
 
-![](<../../.gitbook/assets/7 (2).jpeg>)
+![](../../.gitbook/assets/7%20%282%29.jpeg)
 
-3 - Set the camera to an **Orthographic (VO)** **Top View (VT)** and turn of the **Main Building Floor** to see the **Plan Image**. Refer to previous chapters to learn more about the **Views** and **Layers** settings.
+3 - Установите камеру в режим **Ортогональный \(VO\)**, **Вид сверху \(VT\)** и поверните **пол главного здания**, чтобы видеть **изображение плана**. Дополнительные сведения о функциях **Виды** и **Слои** см. в предыдущих главах.
 
-4 - Select the **Farnsworth House - Core** and move it until it closely aligns with the Plan Image.
+4 - Выберите **Farnsworth House — Core** и переместите элемент, максимально выровняв его относительно изображения плана.
 
-![](<../../.gitbook/assets/8 (1).png>)
+![](../../.gitbook/assets/8%20%281%29.png)
 
-_**Note:**_ _While moving the_ _**Core**, be careful not to change its elevation. You can either use the_ _**Shift**_ _key to restrict the movement to always be along one of the axes, or ensure that the start and end reference points of your_ _**Move (M)**_ _command are both at the same height by clicking only on the_ _**Plan Image**, not the_ _**Core**_ _itself. Refer to previous chapters to learn more about the_ _**Move (M)**_ _Tool.‌_
+_**Примечание.**_ _При перемещении_ _**основного блока** не меняйте его отметку. Можно использовать клавишу_ _**SHIFT**_ _, чтобы привязать движение к одной из осей, или расположить начальную и конечную опорные точки команды_ _**Переместить \(M\)**_ _на одной высоте, щелкнув только_ _**изображение плана**, а не сам_ _**основной блок**_ _. Дополнительные сведения об инструменте_ _**Переместить \(M\)**_ _см. в предыдущих главах.‌_
 
-## **Place Furniture from the Library**
+## **Вставка мебели из библиотеки**
 
-1 - Using a similar process, you can now place the furniture you created earlier in this chapter from the **Custom FormIt Content** folder. If you did not convert all three (3) of the SKP files, you can use the premade versions inside the **Furniture** folder instead.
+1. Аналогичным образом можно вставить мебель, созданную ранее в этой главе, из папки **Custom FormIt Content**. Если не удалось преобразовать все 3 \(три\) файла SKP, можно использовать готовые версии в папке **Furniture**.
 
-_**Notes:**_
+_**Примечания.**_
 
-* _Turn the_ _**Main Building Floor**_ _layer back on, so you can place furniture directly on the_ _**Main Building Floor**’s surface._
-* _While placing a new object, use the_ _**Tab**_ _key to alternate between placement planes._
-* _While placing a new object, use the_ _**Space Bar**_ _key to rotate it by 90 intervals before placing._
+* _Включите слой_ _**Main Building Floor**_ _, чтобы разместить мебель непосредственно на поверхности_ _**пола главного здания**._
+* _При размещении нового объекта используйте клавишу_ _**TAB**_ _для переключения между плоскостями размещения._
+* _Перед размещением нового объекта его можно повернуть на 90 градусов с помощью клавиши_ _**Пробел**_ _._
 
-![](<../../.gitbook/assets/9 (3).png>)
+![](../../.gitbook/assets/9%20%283%29.png)
 
-2 - Similarly, explore the **Content Library Samples** to place OOTB Content. Note that multiple of these have several different sizes to choose from, similar to Family Types in Revit.
+2. Аналогичным образом, чтобы разместить готовые компоненты, воспользуйтесь **образцами из Библиотеки компонентов**. Обратите внимание, что, как и в случае с типоразмерами в семействе в Revit, для многих из них можно выбрать различные размеры.
 
-![](<../../.gitbook/assets/10 (6).png>)
+![](../../.gitbook/assets/10%20%286%29.png)
 
-## **Using the Scale Tool**
+## **Использование инструмента масштабирования**
 
-1 - Using the techniques, you just learned, place one instance of the **tree\_pine** component from the **Farnsworth House Data Set > FormIt > Planting** folder.
+1 - Используя приемы, о которых вы только что узнали, разместите один экземпляр компонента **tree\_pine** из папки **Farnsworth House Data Set > FormIt > Planting**.
 
-1. Once placed, select the group and rename it to **Tree**. Right-click to access the **Context Menu** and choose **Non-Uniform Scale (NU)**.
-2. Click on one of the **Non-Uniform Scale Buttons** to resize and change the proportions of the **Tree** group as desired.
+1. После размещения выберите группу и переименуйте ее в **Tree**. Щелкните правой кнопкой мыши для вызова **контекстного меню** и выберите **Непропорциональное масштабирование \(NU\)**.
+2. Нажмите одну из **кнопок непропорционального масштабирования**, чтобы изменить размер и пропорции группы **Tree**.
 
-![](<../../.gitbook/assets/11 (3).png>)
+![](../../.gitbook/assets/11%20%283%29.png)
 
-![](<../../.gitbook/assets/12 (2).png>)
+![](../../.gitbook/assets/12%20%282%29.png)
 
-_**Note:**_ _Similarly, the_ _**Scale (SC)**_ _tool can be used to re-scale an entire model or group uniformly._
+_**Примечание.**_ _Аналогичным образом, для масштабирования всей модели или группы целиком можно использовать инструмент_ _**Масштаб \(SC\)**_ _._
 
-2 - Copy this group and place multiple trees around the house, using the **Scale Tools** to create a variety of sizes and proportions.
+2 - Скопируйте эту группу и разместите несколько деревьев вокруг дома, используя **инструменты масштабирования** для настройки различных размеров и пропорций.
 
-![](<../../.gitbook/assets/13 (6).png>)
+![](../../.gitbook/assets/13%20%286%29.png)
 
-_**Note:**_ _Even though the trees are all instances of the same group, we were able to_ _**Scale**_ _them to different sizes. Using the_ _**Scale (SC)**_ _and_ _**Non-Uniform Scale (NU)**_ _outside of group edit mode allows you to modify individual instances of the same group. If we were to edit one of the_ _**Tree**_ _groups and modify its geometry or material, all group instances would still be updated, but also each would keep their current customized scale. Give it a try!_
+_**Примечание.**_ _Несмотря на то, что все деревья являются экземплярами одной группы, можно_ _**масштабировать**_ _их, чтобы получить различные размеры. Используя инструменты_ _**Масштаб \(SC\)**_ _и_ _**Непропорциональное масштабирование \(NU\)**_ _не в режиме редактирования группы, можно изменять отдельные экземпляры одной и той же группы. Если отредактировать одну из групп_ _**Tree**_ _, изменив ее геометрию или материал, все экземпляры группы будут обновлены, но сохранят свой текущий масштаб. Попробуйте!_
 
-### **Keep Model Tidy**
+### **Упорядочение данных модели**
 
-_Remember to always sort added content onto layers. In this example, we recommend placing the core and all furniture on the_ _**Main Building Floor**_ _layer and the trees on a new layer named_ _**Planting**._
+_Не забывайте рассортировывать добавляемые компоненты по слоям. В этом примере рекомендуется разместить основной блок и всю мебель в слое_ _**Non-Uniform Scale**_ _, а деревья — на новом слое_ _**Planting**._
+

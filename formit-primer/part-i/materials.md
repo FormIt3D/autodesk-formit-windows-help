@@ -1,137 +1,138 @@
-# 1.7 - Paint with Materials
+# 1.7. Окрашивание с помощью материалов
 
-As we saw in an **earlier exercise**, you can create your own materials, and then paint faces with those materials in FormIt. In this exercise, you will create and edit more materials as well as import materials from the Autodesk Material Library.
+Как было показано в **предыдущем упражнении**, можно создавать собственные материалы, а затем с их помощью окрашивать грани в FormIt. В этом упражнении выполняется создание и редактирование других материалов, а также импорт материалов из библиотеки материалов Autodesk.
 
-_If you did not complete the last section, download and open the_ _**1.7 - Paint with Materials.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Если вы не прошли последний раздел, скачайте и откройте файл_ _**1.7 — Paint with Materials.axm**_ _из_ _**наборов данных для части I руководства FormIt Primer**._
 
-## **Create the Glass Walls**
+## **Создание стеклянных стен**
 
-1 - To view the plan containing the dimensions we are going to reference, go to the **Layer Palette** and turn on the **Plan Image** layer.
+1 - Для просмотра плана, содержащего размеры, на которые мы будем ссылаться, перейдите на **палитру «Слой»** и включите слой **Plan Image**.
 
-2 - Select the **Rectangle Tool (R)**. We are going to create a rectangle directly on top of the existing floor group. Make sure you are not editing the Floor Group but drawing on top of the existing grouped object.
+2 - Выберите **инструмент «Прямоугольник» \(R\)**. Создайте прямоугольник поверх имеющейся группы перекрытий. Убедитесь, что вы не редактируете группу перекрытий, а рисуете прямоугольник поверх сгруппированного объекта.
 
-![](<../../.gitbook/assets/0 (3).png>)
+![](../../.gitbook/assets/0%20%283%29.png)
 
-3 - To start the rectangle for the glass area:
+3 - Начните создавать прямоугольник для остекленной области.
 
-1. Click at the back corner of the existing floor and move the mouse along its shorter edge.
-2. Type **28’-8”** to define the first edge length, and click **OK**. This should be the same length as the existing short edge of the floor.
-3. To define the second edge, start moving the mouse along the existing floor’s longer edge. Type **55'-5 ½"** to set the length of the second edge, then click **OK**.
-4. Click **Esc** to exit the rectangle tool. Single-click inside the new rectangle to select the face and start dragging it up.
+1. Щелкните задний угол существующего перекрытия и переместите указатель мыши вдоль короткого ребра.
+2. Введите значение **28 футов 8 дюймов**, чтобы задать длину первого ребра, и нажмите кнопку **ОК**. Длина этого ребра должна быть равна длине существующего короткого ребра перекрытия.
+3. Для создания второго ребра начните перемещать указатель мыши вдоль более длинного ребра существующего перекрытия. Введите значение **55 футов 5 ½ дюйма**, чтобы задать длину второго ребра, а затем нажмите кнопку **ОК**.
+4. Нажмите клавишу **ESC**, чтобы выйти из инструмента «Прямоугольник». Щелкните внутри нового прямоугольника, чтобы выбрать грань, и начните перетаскивание вверх.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](../../.gitbook/assets/1%20%283%29.png)
 
-4 - To define the height, move the mouse upwards along the **Z Axis**, press the **Tab** key, and enter **11'-2"**.
+4 - Чтобы задать высоту, переместите указатель мыши вверх по **оси Z**, нажмите клавишу **TAB** и введите значение **11 футов 2 дюйма**.
 
-![](<../../.gitbook/assets/2 (4) (1).png>)
+![](../../.gitbook/assets/2%20%284%29.png)
 
-_**Note:**_ _Anytime you are using a tool for which you can enter a dimension, you can either press_ _**Tab**_ _or just start typing numbers!_
+_**Примечание.**_ _При использовании инструмента, поддерживающего ввод размера, можно нажать клавишу_ _**TAB**_ _или просто начать ввод чисел._
 
-5 - Double-click and **Group (G)** the new geometry.
+5 - Дважды щелкните и **сгруппируйте \(G\)** новую геометрию.
 
-6 - Double-click the group to edit it. In the **Properties Palette** name the group **Glass Walls.**
+6 - Дважды щелкните группу, чтобы изменить ее. На **палитре свойств** присвойте группе имя **Glass Walls**
 
-![](<../../.gitbook/assets/3 (3).png>)
+![](../../.gitbook/assets/3%20%283%29.png)
 
-7 - To define the glass wall’s thickness:
+7 - Чтобы задать толщину стеклянной стены, выполните следующие действия.
 
-1. Right-click on the top face and choose the **Offset Face Tool (OF).**
-2. Move your mouse cursor inward, and type in **4".**
-3. Click **Esc** twice to clear the tool, and the selection.
+1. Щелкните правой кнопкой мыши верхнюю грань и выберите **инструмент «Сместить грань» \(OF\)**
+2. Переместите указатель мыши внутрь и введите значение **4 дюйма**
+3. Чтобы очистить инструмент и отменить выбор, дважды нажмите **ESC**.
 
-![](<../../.gitbook/assets/4 (17).png>)
+![](../../.gitbook/assets/4%20%2817%29.png)
 
-​_**Note:**_ _The default unit for imperial projects are feet, similar to Revit. If you enter a single number without a specified unit, like_ _**4**, you will get_ _**4 feet (4’)**_ _and not_ _**4 inches (4”)**._
+​_**Примечание.**_ _По умолчанию в проектах с британскими единицами измерения используются футы, как в Revit. Если ввести число без единицы измерения, например_ _**4**, то оно будет означать_ _**4 фута \(4'\)**_, _а не_ _**4 дюйма \(4"\)**._
 
-8 - To carve out the interior area, single-click the interior top face to select it, then click again to start the **drag face** operation. Push the face all the way down, until it disappears, and click in the space to finish the process.
+8 - Чтобы вырезать внутреннюю область, щелкните внутреннюю верхнюю грань, чтобы выбрать ее, а затем щелкните еще раз, чтобы начать операцию **перетаскивания грани**. Опускайте грань до тех пор, пока она не исчезнет, и щелкните в пространстве, чтобы завершить процесс.
 
-![](<../../.gitbook/assets/5 (12).png>)
+![](../../.gitbook/assets/5%20%2812%29.png)
 
-_**Note:**_ _In FormIt, unlike other software, you cannot accidentally push the face you are trying to delete ‘too far’ such that a new negative extrusion is formed._
+_**Примечание.**_ _В FormIt, в отличие от других программ, невозможно случайно опустить удаляемую грань слишком далеко, сформировав новое отрицательное выдавливание._
 
-9 - End **Edit Group** mode by double-clicking off in space or pressing **Esc.**
+9 - Выйдите из режима **Редактировать группу**, дважды щелкнув мышью в пустом пространстве или нажав клавишу **ESC**
 
-10 - Select the **Glass Walls** group with a single-click and put it on the **Main Building Floor** layer.
+10 - Выберите группу **Glass Walls** одним щелчком мыши и поместите ее в слой **Main Building Floor**.
 
-![](<../../.gitbook/assets/6 (13) (1).png>)
+![](../../.gitbook/assets/6%20%2813%29.png)
 
-## **Import a Material from the Autodesk Material Library**
+## **Импорт материала из Библиотеки материалов Autodesk**
 
-1 - Edit the **Glass Walls** group again by double-clicking into it.
+1 - Отредактируйте группу **Glass Walls** еще раз, дважды щелкнув ее мышью.
 
-2 - To import a new material to the model:
+2 - Чтобы импортировать новый материал в модель, выполните следующие действия.
 
-1. Go to the **Materials Palette**.
-2. Choose **Material Sample** in the drop-down menu at the top of the palette to navigate through the **Autodesk Material Library.** ​
-3. Click on the **Glass+Glazing** folder to open it.
-4. Find the **Glass – Blue Tint** material and single-click on it to add that material to your **In Sketch** material library.
-5. Note that you should be back in the **In Sketch** library, which now includes the newly selected material.
+1. Перейдите на **палитру материалов**.
+2. В раскрывающемся меню в верхней части палитры выберите **Образцы материалов**, чтобы перейти к **Библиотеке материалов Autodesk**. ​
+3. Щелкните папку **Glass+Glazing**, чтобы открыть ее.
+4. Найдите материал **Glass — Blue Tint** и щелкните его один раз, чтобы добавить в библиотеку материалов **В эскизе**.
+5. Обратите внимание, что вы должны вернуться обратно в библиотеку **В эскизе**, в которой теперь содержится выбранный материал.
 
-![](<../../.gitbook/assets/7 (8) (1).png>)
+![](../../.gitbook/assets/7%20%288%29.png)
 
-![](<../../.gitbook/assets/8 (8).png>)
+![](../../.gitbook/assets/8%20%288%29.png)
 
-3 - After adding the material, you should automatically be in the **Paintbrush** tool. If not, simply single-click on the **Glass – Blue Tint** material again. To paint all the walls, double-click the geometry with the **Painbrush** tool. This will apply the selected material to the entire object. ![](<../../.gitbook/assets/9 (1).png>)​
+3 - После добавления материала должен автоматически активироваться инструмент **Кисть**. Если этого не произошло, еще раз щелкните материал **Glass — Blue Tint**. Для окраски всех стен дважды щелкните геометрию с помощью инструмента **Кисть**. Выбранный материал будет применен ко всему объекту. ![](../../.gitbook/assets/9%20%281%29.png)​
 
-4 - Click **Esc** to exit the **Paintbrush** tool. Click **Esc** again, or double-click off in space to exit the group.
+4 - Нажмите **ESC** для завершения работы с инструментом **Кисть**. Нажмите **ESC** еще раз или дважды щелкните в пространстве для выхода из группы.
 
-## **Quick Copy the Floor to Create the Roof**
+## **Быстрое копирование пола для создания крыши**
 
-1 - To quickly create the roof based on the floor geometry:
+1 - Чтобы создать крышу на основе геометрии пола, выполните следующие действия.
 
-1. Select the **Floor** group with a single-click.
-2. Click one of the lower corners to start the **Move** tool.
-3. Start moving the floor up along the blue axis (**Z Axis**). Create a **quick copy** by tapping the **Ctrl** key. A "ghost" preview of the copy should appear. ​
-4. While moving along the blue axis (**Z Axis**), start typing **12' 2"** and a **Dimension Dialog** will appear. Click **OK** or press **Enter** to finalize the position.
+1. Выберите группу **Floor** одним щелчком мыши.
+2. Щелкните один из нижних углов, чтобы запустить инструмент **Переместить**.
+3. Начните перемещать пол вверх по синей оси \(**Z**\). Создайте **быструю копию**, нажав клавишу **CTRL**. Должно появиться предварительное «фантомное» изображение копии.​ 
+4. При перемещении вдоль синей оси \(**Z**\) начните вводить значение **12 футов 2 дюйма**. Откроется **диалоговое окно «Размер»**. Нажмите **ОК** или клавишу **ENTER**, чтобы завершить размещение.
 
-![](<../../.gitbook/assets/10 (1).png>)
+![](../../.gitbook/assets/10%20%281%29.png)
 
-![](<../../.gitbook/assets/11 (1).png>)
+![](../../.gitbook/assets/11%20%281%29.png)
 
-## **Edit the Roof**
+## **Редактирование крыши**
 
-1 - While the copied group is still selected, use the **Make Unique (MU)** command to disassociate this group from the floor group.
+1. Пока скопированная группа все еще выбрана, используйте команду **Сделать уникальной \(MU\)**, чтобы разорвать связь этой группы с группой пола.
 
-2 - Double-click the group to edit it. Re-name the group to **Roof** in the **Properties Palette**. Exit the group by double-clicking off in space.
+2. Дважды щелкните группу, чтобы отредактировать ее. Присвойте группе имя **Roof** на **палитре свойств**. Выйдите из группы, дважды щелкнув мышью в свободном пространстве.
 
-3 - In the **Layers Palette**, make a new **Layer** called **Roof** and add the **Roof** group to it. You can toggle the layer on and off to verify the correct elements are on the roof. Refer to **Chapter 6** for more information on how to work with **Layers**.
+3. На **палитре слоев** создайте **слой** **Roof** и добавьте в него группу **Roof**. Можно включить и отключить слой, чтобы убедиться в том, что на крыше находятся нужные элементы. Дополнительные сведения о работе со **слоями** см. в главе **6**.
 
-4 - Navigate back to the **Materials Palette** and import the **Concrete - Broom Finish - Colorized 1** material from the **Concrete+Asphalt** folder in the **Material Samples** **(Production)** library. Note that by clicking on the material, the selected geometry will be automatically painted, and the new material will be added to the **In Sketch** material library.
+4. Вернитесь на **палитру «Материалы»** и импортируйте материал **Concrete — Broom Finish — Colorized 1** из папки **Concrete+Asphalt** в библиотеке **Material Samples** **\(Production\)**. Обратите внимание, что при нажатии материала выбранная геометрия автоматически окрашивается, а новый материал добавляется в библиотеку материалов **В эскизе**.
 
 ![](../../.gitbook/assets/12.jpeg)
 
-_**Note:**_ _Painting a group outside of_ _**Group Edit Mode**_ _is a helpful technique that allows you to paint different instances of the same group with different materials._
+_**Примечание.**_ _Окрашивание группы не в_ _**режиме редактирования группы**_ _— полезный прием, который позволяет окрашивать различные экземпляры одной и той же группы с помощью различных материалов._
 
-## **Create the Lower Terrace**
+## **Создание нижней террасы**
 
-1 - Based on the **Plan Image**, create the lower terrace as a **Rectangle (R)** that is **55' 3"** long and **22'-7 3/4"** wide, and extrude it by 1’. Position the new rectangle so that it is 8 5/8” away from the main building South edge (the depth of the columns we will create later).
+1 - На основе **изображения плана** создайте нижнюю террасу в виде **прямоугольника \(R\)** длиной **55 футов 3 дюйма** и шириной **22 фута 7 3/4 дюйма** и выдавите его на 1 фут. Расположите новый прямоугольник так, чтобы он находился на расстоянии 8 5/8 дюйма от южного края главного здания \(глубина колонн, которые будут созданы позже\).
 
-_**Notes**:_
+_**Примечания.**_
 
-* _Refer to previous chapters to learn how to draw and extrude rectangles._
-* _You may need to toggle_ _**Snap to Grid (SG)**_ _on or off to click at_ the terrace's corner.
+* _Процесс создания и выдавливания прямоугольников описан в предыдущих главах._
+* _Возможно, потребуется включить или отключить параметр_ _**Привязать к сетке \(SG\)**_ _, чтобы щелкнуть_ угол террасы.
 
-2 - To finalize the lower terrace:
+2 - Чтобы завершить создание нижней террасы, выполните следующие действия.
 
-1. **Group (G)** the geometry and name it **Lower Terrace Floor**.
-2. **Move** the group up **2'-2"** off the ground plane.
-3. Create a new **Layer** called **Lower Terrace** and add the group to it.
-4. Add the **Terrace Level Floor** to the group.
+1. **Сгруппируйте \(G\)** геометрию и присвойте ей имя **Lower Terrace Floor**.
+2. **Переместите** группу вверх на **2 фута 2 дюйма** относительно нулевой плоскости.
+3. Создайте **слой** **Lower Terrace** и добавьте в него данную группу.
+4. Добавьте в группу **пол на уровне террасы**.
 
-![](<../../.gitbook/assets/13 (1).png>)
+![](../../.gitbook/assets/13%20%281%29.png)
 
-_**Note:**_ _This image doesn’t represent the step-by-step process to create and assign the geometry to groups, levels, and layers. For more information on these processes, refer to previous chapters in this Primer._
+_**Примечание.**_ _На этом изображении не показан пошаговый процесс создания и назначения геометрии группам, уровням и слоям. Дополнительные сведения об этих процессах см. в предыдущих главах этого руководства._
 
-3 - Import the material **Stone > Stone - Travertine**.
+3 - Импортируйте материал **Stone > Stone —Travertine**.
 
-4 - In the **Materials Palette**, find the imported **Travertine** material and modify it:
+4 - На **палитре «Материалы»** найдите импортированный материал **Travertine** и измените его.
 
-1. Double-click the preview tile to open the **Material Editor** pop-up.
-2. Click the **Color** preview tile to open the **Color Editor** pop-up.
-3. Change the **Val** field to **190** to darken the tint of the material.
+1. Дважды щелкните миниатюру предварительного просмотра, чтобы открыть всплывающее окно **Редактор материалов**.
+2. Щелкните миниатюру **Цвет**, чтобы открыть всплывающее окно **Редактор цветов**.
+3. Измените **значение** на **190**, чтобы затемнить оттенок материала.
 
-![](<../../.gitbook/assets/14 (2).png>)
+![](../../.gitbook/assets/14%20%282%29.png)
 
-5 - **Paint** the **Floor** and **Lower Terrace Floor** groups with the modified **Travertine** material.
+5 - **Окрасьте** группы **Floor** и **Lower Terrace Floor** с помощью измененного материала **Travertine**.
 
 ![](../../.gitbook/assets/15.jpeg)
+

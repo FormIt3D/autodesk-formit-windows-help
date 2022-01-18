@@ -1,5 +1,6 @@
-# Section Planes
+# Секущие плоскости
 
-Use **Section Planes** to cut into your FormIt model, revealing interior spaces and structural elements.
+Используйте **секущие плоскости** для разрезания модели Formit и отображения внутреннего пространства и элементов конструкции.
 
-Learn about Section Planes in the [FormIt Primer](../formit-primer/part-i/section\_planes.md).
+Подробнее о секущих плоскостях можно узнать в [руководстве FormIt Primer](../formit-primer/part-i/section_planes.md).
+

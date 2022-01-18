@@ -1,29 +1,32 @@
-# Boolean Join
+# Логическое соединение
 
-You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
+С помощью инструмента «Соединить» можно присоединить один объект или группу объектов к другому объекту или группе. Открыть инструмент соединения можно одним из следующих способов.
 
-## Run the Join command first
+## Первый способ: команда «Соединить»
 
-Keyboard: J G
+Горячие клавиши: J+G
 
-![](../.gitbook/assets/boolean\_join.png)
+![](../.gitbook/assets/boolean_join.png)
 
-Run the Join command and follow the mode instruction in the upper left of the screen
+Запустите команду «Соединить» и следуйте инструкциям данного режима в левом верхнем углу экрана.
 
-Single-click to select an object to join into.
+Однократным щелчком выберите объект, к которому нужно присоединить что-либо.
 
-![](<../.gitbook/assets/cut\_mode01 (1).png>)
+![](../.gitbook/assets/cut_mode01.png)
 
-Single-click to select an object or group to be joined.
+Щелчком мыши выберите объект или группу для присоединения.
 
-![](<../.gitbook/assets/cut\_mode02 (1).png>)
+![](../.gitbook/assets/cut_mode02.png)
 
-Click the checkmark to finish the command.
+Щелкните галочку для выполнения команды.
 
-## Select objects first
+## Второй способ: выбор объектов
 
-1. Double-click to select the object to be joined (single click for a group).
-2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
-3. Right click on any of the objects and choose the Join Tool in the Context Menu.
+1. Двойным щелчком выберите объект для присоединения (щелкните один раз для выбора группы).
+2. Удерживая клавишу **CTRL**, дважды щелкните объект пересечения, которые требуется присоединить к первому объекту.
+3. Щелкните правой кнопкой мыши любой из объектов и выберите инструмент соединения в контекстном меню.
 
-![](<../.gitbook/assets/join tool.png>)
+![](../.gitbook/assets/join-tool.png)
+
+
+

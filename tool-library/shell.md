@@ -1,3 +1,4 @@
-# Shell
+# Оболочка
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+Из твердотельного объекта можно создать «оболочку» заданной ширины. Оболочки используются для быстрого создания стен из модели формообразующего элемента.
+

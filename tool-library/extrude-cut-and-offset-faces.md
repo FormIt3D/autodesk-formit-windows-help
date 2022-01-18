@@ -1,29 +1,30 @@
-# Faces: Extrude, Cut and Offset
+# Грани: выдавливание, вырезание и смещение
 
-Push or pull a face, imprint new shapes on existing ones, or create new offset edges.
+Можно выдавливать и вытягивать грани, наносить новые формы на существующие, а также создавать новые смещенные ребра.
 
-## Extrude
+## Вытягивание
 
-To push or pull a face, select a face with a single click, then click and drag. The face will move back and forth, you can now move your mouse to snap and inference on other model elements. Click again to finish moving the face. Hold down the CTRL key to retain the original edges.
+Для выдавливания или вытягивания грани сначала выберите грань щелчком мыши, а затем щелкните и перетащите ее. Грань можно перемещать как внутрь, так и наружу. С помощью мыши задайте точки привязки и вспомогательные точки на других элементах модели. Щелкните еще раз, чтобы завершить перемещение грани. Удерживайте нажатой клавишу CTRL, чтобы сохранить исходные ребра.
 
-![](<../.gitbook/assets/extrude (1).png>)
+![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprint
+## Клеймение
 
-To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles, or circles onto existing faces. This action creates new faces that can be pushed or pulled independently of the original face.
+При клеймении форм используйте инструмент «3D-эскиз» для построения линий, дуг, сплайнов, прямоугольников и окружностей на существующих гранях. Он позволяет создавать новые грани, которые можно выдавливать и вытягивать независимо от исходной грани.
 
-![](../.gitbook/assets/imprint1.png)\
+![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## Смещение
 
-To offset the face of an object:
+Для смещения грани объекта выполните следующие действия.
 
-1. First select the face you would like to edit, then right-click to view the **Context** menu.&#x20;
-2. From the **Context** menu, click on the **Offset Face** tool.&#x20;
-3. Move your cursor over the selected face and adjust the lines that display until you reach your desired offset effect.
-4. Click anywhere to complete the offset. You can now independently push or pull the offset face.
+1. Сначала выберите грань, которую требуется отредактировать, а затем щелкните правой кнопкой мыши, чтобы открыть **контекстное меню**.
+2. В **контекстном меню** выберите инструмент **Сместить грань**.
+3. Наведите курсор на выбранную грань и скорректируйте отображаемые линии для получения нужного эффекта смещения.
+4. Щелчком мыши завершите смещение. Теперь можно выдавливать и вытягивать смещенную грань независимо от исходной.
 
-![](../.gitbook/assets/offset1.png)\
-![](../.gitbook/assets/offset2.png)\
+![](../.gitbook/assets/offset1.png)  
+![](../.gitbook/assets/offset2.png)  
 ![](../.gitbook/assets/offset3.png)
+

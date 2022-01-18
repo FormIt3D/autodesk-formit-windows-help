@@ -1,97 +1,98 @@
-# 1.5 - Group Objects
+# 1.5. Группирование объектов
 
-_Groups in FormIt function similarly to Families in Revit and Components in SketchUp. Grouping different objects prevent their geometry from joining. Copies of a group act as an instance of the original geometry, meaning that changes to one copy will affect all of them._
+_Группы в FormIt используются аналогично семействам в Revit и компонентам в SketchUp. Группирование объектов препятствует объединению их геометрии. Копии группы выступают в роли экземпляра исходной геометрии, то есть изменения одной копии влияют на все остальные копии._
 
-_If you did not complete the last section, download and open the_ _**1.5 - Group Objects.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Если вы не работали с предыдущим разделом, загрузите и откройте файл_ _**1.5 - Group Objects.axm**_ _из_ _**наборов данных части I руководства FormIt Primer**._
 
-## **Create a Group**
+## **Создание группы**
 
-1 - Select the upper terrace mass by double-clicking it.
+1. Двойным щелчком мыши выберите формообразующий элемент верхней террасы.
 
-2 - Right-click and select **Group (G)**, or simply press ‘**G**’.
+2. Нажмите правую кнопку мыши и выберите **Группа \(G\)** или просто нажмите клавишу **G**.
 
-![](<../../.gitbook/assets/0 (1).jpeg>)
+![](../../.gitbook/assets/0%20%281%29.jpeg)
 
-3 - Notice that after creating a Group, you get automatically placed in the Move tool.
+3. Обратите внимание, что после создания группы, автоматически откроется инструмент «Переместить».
 
-## **Move a Group**
+## **Перемещение группы**
 
-1 - To assist in the modeling process, turn on **Grid Snapping (SG)**, if it was off.
+1. Чтобы упростить процесс моделирования, включите параметр **Привязка к сетке \(SG\)**, если он отключен.
 
-![](<../../.gitbook/assets/1 (14).png>)
+![](../../.gitbook/assets/1%20%2814%29.png)
 
-2 - To start moving the selected object, while still in the **Move (M)** command, click once on any lower corner of the mass. Then move your cursor up, and you should see a blue (Z) axis line appear. This line will assist you in moving the object straight up.
+2. Чтобы начать перемещение выбранного объекта, не выходя из команды **Переместить \(M\)**, щелкните в любом нижнем углу формообразующего элемента. Затем переместите курсор вверх. Появится линия оси синего цвета \(Z\). Эта линия поможет переместить объект строго вертикально.
 
-3 - With the blue axis visible, type **4'-6"** and a dimension dialog will appear. After entering the dimension, click **OK** or press **Enter** on the keyboard. This will move the entire mass up off the ground plane along the **Z axis**.
+3. Когда появится синяя ось, введите **4'-6"** (4 фута 6 дюймов), и откроется диалоговое окно «Размер». По завершении нажмите **ОК** или клавишу **ENTER** на клавиатуре. Весь формообразующий элемент будет перемещен вверх относительно нулевой плоскости вдоль **оси Z**.
 
-_**Note:**_ _Similar to Revit, you can also type_ _**4’6**,_ _**4’6”,**_ _or_ _**4.5**, and the program will interpret the value as 4(feet) 6(inches) when using imperial units._
+_**Примечание.**_ _Так же как и в Revit, можно ввести_ _**4’6’**,_ _**4’6”,**_ _или_ _**4.5**. Программа автоматически распознает введенные значения как 4\(фута\) 6\(дюймов\) при использовании британских единиц измерения._
 
-![](<../../.gitbook/assets/2 (2).png>)
+![](../../.gitbook/assets/2%20%282%29.png)
 
-## **Edit a Group**
+## **Редактирование группы**
 
-1 - To enter the **Group Edit Mode**, double-click the mass.
+1 - Дважды щелкните формообразующий элемент, чтобы войти в **режим редактирования группы**.
 
-1. In the **Properties Palette**, rename the Group **"Massing - Main Building"**.
-2. To save the changes and exit the **Group Edit Mode**, click on the **Finish Group Edit** checkmark icon in the upper left corner of the canvas, or double-click off in space.
+1. На **палитре свойств** переименуйте группу **«Формообразующий элемент — Основное здание»**.
+2. Чтобы сохранить изменения и выйти из **режима редактирования группы**, щелкните значок галочки **Завершить редактирование группы** в верхнем углу активного окна слева или дважды щелкните в свободном пространстве.
 
-![](<../../.gitbook/assets/3 (12) (1).png>)
+![](../../.gitbook/assets/3%20%2812%29.png)
 
-_**Notes**:_
+_**Примечания**._
 
-* _To learn about the_ _**Category**_ _options, go to the_ _**Working with Revit**_ _chapter._‌
-* _Each Group has its own undo/redo history that is distinct from the overall project - you can click the_ _**Undo**_ _and_ _**Redo**_ _arrows in the_ _**Group Edit Wizard**_ _in the upper left corner of the canvas._
+* _Дополнительные сведения о параметрах_ _**категории**_ _см. в разделе_ _**Работа с Revit**_ _._‌
+* _У каждой группы своя история действий, которые можно отменить и повторить, отличная от истории действий по проекту в целом. Можно нажимать стрелки_ _ **Отменить**_ _и_ _**Повторить**_ _в_ _**мастере редактирования группы**_ _в левом верхнем углу активного окна._
 
-## **Apply Levels to a Group**
+## **Применение уровней к группе**
 
-_**Note:**_ _Grouping a geometry overrides previous settings you may have applied to the geometry. Because of that, you will require to re-apply the Levels from the previous exercise._
+_**Примечание.**_ _При группировании геометрии происходит переопределение предыдущих параметров, которые применялись к геометрии. В связи с этим необходимо повторно применить уровни из предыдущего упражнения._
 
-1 - To apply levels to a group:
+1 - Чтобы применить уровни к группе, выполните следующие действия.
 
-1. Single-click the **Massing** **- Main Building** group to select it.
-2. Go to the **Properties Palette** and check **Use Levels.**
-3. Keep only the **Main Building** level by unchecking all the others.
-4. The **Area by Level** field will display the currently selected object(s) gross area. The area of each **Level** is displayed in front of each **Level**’s name.
-5. If you do not see a blue level line crossing the object horizontally, turn on the level display by going to the **Settings menu > Visual Style > Display Levels (DL).**
+1. Щелчком мыши выберите группу **Формообразующие элементы** **— Основное здание**.
+2. Перейдите на **палитру свойств** и установите флажок **Использовать уровни.**
+3. Снимите все флажки, кроме уровня **Основное здание**.
+4. В поле **Площадь по уровню** будет отображаться общая площадь выбранных в настоящий момент объектов. Площадь каждого **уровня** отображается перед именем соответствующего **уровня**.
+5. Если синяя линия уровня, пересекающая объект по горизонтали, не отображается, включите отображение уровня, в **меню «Параметры» &gt; «Визуальный стиль» &gt; «Отображение уровней» \(DL\).**
 
-_**Note**: If there is no area reported for the_ _**Main Building**_ _level, the geometry may not be intersecting the Level, which should be at 4’-6” height. Troubleshoot by repositioning the geometry or the_ _**Level**_ _height so they intersect._
+_**Примечание**. Если на уровне __ **Основное здание**_ _площадь отсутствует, возможно, геометрия не пересекает уровень на высоте 4 фута 6 дюймов. В таком случае измените положение геометрии или высоту_ _**уровня**_ _так, чтобы они пересекались._
 
 ![](../../.gitbook/assets/levels-to-groups.png)
 
-2 - Deselect the Group by pressing **Esc** or single-clicking off in space. With no selected object, the **Properties Palette** will report the overall sketch’s gross area - rather than a specific object’s area.
+2 - Отмените выбор группы, нажав клавишу **ESC** или щелкнув мышью в пустом пространстве. Если не выбрано ни одного объекта, на **палитре свойств** будет отображаться общая площадь эскиза, а не площадь конкретного объекта.
 
-![](<../../.gitbook/assets/5 (15).png>)
+![](../../.gitbook/assets/5%20%2815%29.png)
 
-## **Manage Groups**
+## **Управление группами**
 
-1 - To view and manage all groups in the sketch:
+1 - Для просмотра всех групп в эскизе и управления ими выполните следующие действия.
 
-1. Go to the **Group Tree Palette**. There you will see:
-   * **Terrain** group – group automatically created when the **satellite image was imported**.
-   * **Massing - Main Building** – the building mass geometry group we just created.
-   * **group 2** – unnamed group containing the floor plan image.
-2. To rename **group 2** through the Group Tree Palette, double-click on **group 2**, and then type **Plan Image**.
+1. Перейдите к **палитре дерева групп**. Там вы увидите следующее:
+   * группа **рельефа** — создается автоматически при импорте **спутникового снимка**;
+   * **Формообразующий элемент — Основное здание** — только что созданная группа геометрии формообразующих элементов здания;
+   * **группа 2** — безымянная группа, содержащую изображение плана этажа.
+2. Чтобы переименовать **группу 2** с помощью палитры дерева групп, дважды щелкните **группу 2** и введите **Изображение плана**.
 
-![](<../../.gitbook/assets/6 (4).png>)
+![](../../.gitbook/assets/6%20%284%29.png)
 
-_**Notes:**_
+_**Примечания.**_
 
-* _For a tidy model, we recommend keeping the group names descriptive._
-* _This is a handy way to manage and edit all groups in the model from one place._
+* _Для создания упорядоченной модели рекомендуется давать группам содержательные имена._
+* _Это удобный способ централизованного управления всеми группами в модели и их редактирования._
 
-2 - With the **Plan Image** group still selected, navigate to the **Properties Palette**. Note that the group name was also updated in the **Group** field.
+2 - Не снимая выделение с группы **Изображение плана**, откройте **палитру свойств**. Обратите внимание, что имя группы в поле **Группа** также обновилось.
 
-![](<../../.gitbook/assets/7 (11).png>)
+![](../../.gitbook/assets/7.png)
 
-## **Hide Group Context**
+## **Скрыть контекст группы**
 
-_This tool is a quick way to hide all geometry outside the group you are currently editing. It becomes very handy whenever you have a large and complex model and other geometries get in the way._
+_Позволяет быстро скрыть всю геометрию, не входящую в редактируемую в данный момент группу. Используется при работе с большой и сложной моделью, когда другие геометрические объекты создают помехи._
 
-1 - To isolate a group:
+1 - Чтобы изолировать группу, выполните следующие действия.
 
-1. Double-click on its geometry to edit the group.
-2. Navigate to **Settings** in the **Main Menu** and check **Hide Group Context** or simply press **H** on your keyboard. Note how the **Plan Image** disappears.
-3. Finish editing the group. Note that the **Hide Group Context (H)** mode is only active while inside the **Group Edit Wizard**.
-4. To toggle this mode off again, simply press **H**. This option can be toggled at any time, inside or outside of a group.
+1. Дважды щелкните геометрию для редактирования группы.
+2. Откройте раздел **Параметры** в **главном меню** и установите флажок **Скрыть контекст группы** или просто нажмите клавишу **H** на клавиатуре. Обратите внимание, что **изображение плана** исчезло.
+3. Завершите редактирование группы. Обратите внимание, что режим **Скрыть контекст группы \(H\)** активен, только когда открыт **Мастер редактирования группы**.
+4. Чтобы отключить этот режим, просто нажмите клавишу **H**. Этот параметр можно включить и отключить в любой момент как внутри, так и вне группы.
 
-![](<../../.gitbook/assets/8 (5).png>)
+![](../../.gitbook/assets/8%20%285%29.png)
+

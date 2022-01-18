@@ -1,14 +1,15 @@
-# Mirror
+# Отразить 
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+Используйте инструмент «Отразить» для создания зеркальной копии объекта.
 
-To mirror an object:
+Чтобы симметрично отобразить элемент выполните следующие действия.
 
-1. Double-click to select a single object, or single-click to select a group.&#x20;
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**.&#x20;
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. Щелкните дважды, чтобы выбрать отдельный объект, или щелкните один раз, чтобы выбрать группу.
+2. Щелкните правой кнопкой мыши и выберите инструмент «Отразить» в контекстном меню или используйте горячие клавиши **MI**.
+3. Появляется плоскость, отображающая ось, относительно которой будет отражен объект. Для настройки оси отражения плоскость можно перемещать и вращать.
+4. По завершении корректировки плоскости зеркально отраженного объекта щелкните в пространстве за пределами выбранных объектов.
 
 ![](../.gitbook/assets/mirror.png)
 
 ![](../.gitbook/assets/mirror2.png)
+

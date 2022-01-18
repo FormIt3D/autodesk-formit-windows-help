@@ -1,93 +1,94 @@
-# Visual Styles
+# Визуальные стили
 
-Customize the visual appearance of your model, including overall lighting, edge styles, and environmental effects. The Visual Styles panel can be found by clicking the sunglasses icon in the palette bar:
+Настраивайте визуальное представление модели, включая общее освещение, стили ребер и эффекты окружающей среды. Чтобы открыть панель «Визуальные стили» , щелкните значок солнцезащитных очков на панели палитр:
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Visual Styles [can be set per-Scene](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), so you can save your favorite style settings and apply them to other Scenes.
+Визуальные стили[ можно задавать для каждой сцены по отдельности](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), сохранять параметры любимого стиля и применять их к другим сценам.
 
-## Surfaces
+## Поверхности
 
-Manage the way surfaces are displayed and shaded.
+Управление отображением и тонированием поверхностей.
 
-![](<../.gitbook/assets/visual\_styles (1).png>)
+![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness as defined in the material's color or texture. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
+**Естественная яркость**: определяет общую яркость всех материалов сцены. При значении 100 материалы, на которые падает свет, будут отображаться с максимальной яркостью цвета или текстуры материала. При значении более 100 материалы будут чрезмерно контрастными, однако это может быть полезно для моделей SketchUp, которые в FormIt выглядят темными. По умолчанию используется значение 100.
 
-**Ambient Contrast** controls how much darker faces in shade appear, when compared to faces exposed to direct sunlight. A value of 0 means that lighting has no effect (all materials will appear at their full brightness regardless of orientation), whereas higher values will make faces in shade appear increasingly darker. The default value is 25.
+**Контрастность рассеянного света**: определяет степень затемнения граней в тени по сравнению с гранями, находящимися под прямыми солнечными лучами. Значение 0 означает, что освещение не оказывает никакого влияния \(все материалы отображаются с максимальной яркостью независимо от ориентации\), тогда как при более высоких значениях грани в тени становятся темнее. Значение по умолчанию равно 25.
 
-Toggle **Shadows** to see how your design would be [shaded at the current time of day](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Переключите параметр **Тени**, чтобы посмотреть, как будет [тонироваться проект в текущее время суток](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-**Shadow Intensity** controls how dark shadows draw on the ground plane and other faces. A value of 0 will make shadows effectively invisible, and a value of 100 will make shadows black. The default value is 20.
+**Интенсивность теней**: определяет отображение темных теней на нулевой плоскости и других гранях. Значение 0 делает тени практически невидимыми, а значение 100 — черными. Значение по умолчанию равно 20.
 
-**Ambient Shadows** add a touch of shading to corners to add realism to your FormIt model.
+**Естественные тени**: слегка тонирует углы, чтобы придать реалистичность модели FormIt.
 
-**Monotone Surfaces** disables the color and texture of all materials, and makes the surrounding environment white. Useful for shadow or shading studies.
+**Монотонные поверхности**: отключает цвет и текстуру всех материалов и делают окружающую среду белой. Этот режим полезен для расчета теней и тонирования.
 
-The Surface Colors section defines default colors for faces when no material is applied.
+В разделе «Цвета поверхности» задаются цвета по умолчанию для граней, к которым не применен материал.
 
-**Faces** is the default color of all front-facing FormIt faces (or both sides, if Back Faces is unchecked) when no material is applied.
+**Грани**: цвет всех лицевых граней FormIt по умолчанию \(или цвет граней с обеих сторон, если снят флажок «Задние грани»\), к которым не применен материал.
 
-**Back Faces** is used to display different materials on either side of a single face, for SketchUp models that are imported into FormIt and require this. This option is unchecked by default, but is checked when SketchUp models are opened or imported. In non-SketchUp geometry, the specified Back Face color will shown on the back sides of faces.
+**Задние грани**: используется для отображения различных материалов с обеих сторон одной грани для моделей SketchUp, импортированных в FormIt, в которых это необходимо. По умолчанию этот флажок снят, однако при открытии и импорте моделей SketchUp он устанавливается. В объектах геометрии, не относящихся к SketchUp, указанный цвет задней грани отображается на обратных сторонах граней.
 
-Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
+Используйте инструкции разделов «Эффекты разреза сечения» и «Эффекты условного материала-отделки сечения» для управления цветами по умолчанию граней, прямых и эффекта условного материала-отделки при использовании инструмента [Секущая плоскость](section-planes.md).
 
-### Edges
+## Нулевые плоскости
 
-Manage the display style of all edges in the model.
+Если в режиме редактирования группы отключена нулевая плоскость, синяя сетка рабочей плоскости также отключается.
 
-![](../.gitbook/assets/edges.png)
+Цвет рабочей плоскости также можно настроить на панели «Визуальные стили».
 
-**Contrast** affects how visible all edges are. A value of 0 would make the edges effectively invisible. The default value is 60.
+![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-**Color** affects the color of all edges in the model. The default is black.
+## Ребра
 
-**Thick Edges** make all edges thicker, including Silhouette Edges.
+Управление стилем отображения всех ребер модели.
 
-**Sketchy Edges** adds a sketchy effect to all edges, to simulate a hand-drawn effect.
+![](../.gitbook/assets/edges.PNG)
 
-**Hidden Edges** displays edges otherwise occluded by surfaces.
+**Контрастность**: позволяет настроить видимость всех ребер. Значение 0 делает ребра фактически невидимыми. Значение по умолчанию равно 60. 
 
-**Extended Edges** adds an extension to some edges, to simulate a hand-drawn effect.
+**Цвет**: влияет на цвет всех ребер модели. По умолчанию используется черный цвет.
 
-## Environment
+**Широкие ребра**: делает шире все ребра, включая ребра силуэта.
 
-Toggle display of environmental effects and helper objects.
+**Эскизные ребра**: добавляет ко всем ребрам эффект эскиза для имитации эффекта рисования от руки.
 
-![](../.gitbook/assets/visual-styles1.PNG)
+**Скрыть ребра**: отображает ребра, которые могут быть перекрыты поверхностями.
 
-**Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
+**Удлинить ребра**: удлиняет некоторые ребра для создания эффекта рисования от руки.
 
-**Axes** controls the display of the XYZ axes that shows up at the world origin, or at the Group origin if editing a Group.
+## Среда
 
-**Levels** controls the display of [**Levels**](levels-and-area.md) set in the Levels Panel.
+Включение/отключение отображения эффектов среды и вспомогательных объектов.
 
-**Fog** controls the display of fog that is drawn to make the transition between the ground plane and the sky appear seamless. Turning off Fog will result in a hard horizon line where the ground plane (if enabled) meets the sky.
+![](../.gitbook/assets/environment.PNG)
 
-**North Arrow** controls the display of a small graphical widget that indicates the direction of project north (as determined by location and satellite imagery).
+**Сетка**: управляет отображением сетки на нулевой плоскости, а также сетки, отображаемой при редактировании группы. Если сетка отключена, параметр «Привязка к сетке» также отключается.
 
-Environmental colors like sky, background, and ground plane can also be customized.
+**Оси**: позволяет настраивать отображение осей XYZ в начале координат глобальной системы координат или в начале координат группы при редактировании группы.
 
-The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors.
+**Уровни**: позволяет настраивать отображение [**уровней**](levels-and-area.md) ****, заданных на панели «Уровни».
 
-If the **Sky** option is unchecked, only the **Lower / Background** color will be visible.
+**Туман**: позволяет настраивать отображение тумана, который создается для того, чтобы скрыть переход от нулевой плоскости к небу. Если параметр «Туман» отключен появляется четкая линия горизонта там, где нулевая плоскость \(если она включена\) соприкасается с небом.
 
-Control **ground plane** transparency by using the slider.
+**Направление на север**: позволяет настроить отображение небольшого графического элемента, который указывает направление условного севера \(в зависимости от местоположения и спутниковых снимков\).
 
-When the ground plane is toggled off in Group Edit Mode, the blue work plane grid is now toggled off, also.&#x20;
+Можно также настроить цвета среды, например, неба, фона и нулевой плоскости.
 
-The color of the **work plane** can also be customized from the Visual Styles panel.&#x20;
+Небо состоит из градиента цветов **Нижний/Фоновый**, **Средний** и **Верхний**.
 
-![](<../.gitbook/assets/Visual styles - ground plane transparency.png>)
+Если флажок **Небо** снят, отображаются только цвета **Нижний/Фоновый**.
 
-## Diagnostics
+## Диагностика
 
-Toggle the display of diagnostic tools.
+Включение/отключение отображения инструментов диагностики.
 
-![](../.gitbook/assets/diagnostics.png)
+![](../.gitbook/assets/diagnostics.PNG)
 
-**Watertight Issues** highlights in red all edges that are not part of a watertight solid object.
+**Проблемы с непроницаемостью**: красным цветом выделяются все ребра, не являющиеся частью непроницаемого твердотельного объекта.
 
-**Back Faces** highlights in red all faces that are facing the wrong way (all solid objects should have the back faces facing towards the inside of the solid shape).
+**Задние грани**: красным цветом выделяются все грани, обращенные не в ту сторону \(задние грани всех твердотельных объектов должны быть обращены внутрь твердотельной формы\).
 
-[Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[Дополнительные сведения об использовании диагностики «Непроницаемость» и «Задние грани» для выявления и устранения проблем с твердотельными моделями](https://formit.autodesk.com/blog/post/repairing-solid-models).
+

@@ -1,89 +1,90 @@
-# Meshes
+# Сети
 
-Starting in v17.0, FormIt offers a new type of geometry: Meshes.
+Начиная с версии 17.0 в FormIt появился новый тип геометрии — сети.
 
-Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance.
+Сети — это облегченные представления стандартных объектов FormIt, которые отлично подходят для повышения производительности элементов геометрии с большим количеством многоугольников, например мебели или 3D-антуража, такого как люди, деревья, автомобили и вывески. Сети также отлично подходят для представления сложных элементов геометрии DWG, которые в обычном виде могут снизить производительность FormIt.
 
-Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
+Объекты можно преобразовывать в сети, а сети — обратно в объекты без потери данных. Некоторые файлы автоматически импортируются в качестве сетей, например OBJ, STL и DWG. Дополнительные сведения о преобразовании типов и других преимуществах и ограничениях сетей приведены ниже.
 
-## Converting Objects to Meshes
+### Преобразование объектов в сети
 
-Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
+Любое сочетание вершин, ребер, граней и твердых тел можно преобразовать в сети.
 
-Simply select Objects, and either use shortcut OM (Objects to Meshes) or right-click and select Objects to Meshes in the Context Menu:
+Для этого выберите «Объекты», а затем используйте сочетание клавиш OM \(Объекты в сети\) или нажмите правую кнопку мыши и выберите команду «Объекты в сети» в контекстном меню.
 
-![](../.gitbook/assets/context-menu\_object-to-mesh.PNG)
+![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Once the Objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+После преобразования объектов в сети в верхней части экрана появится сообщение с подтверждением.
 
-![](../.gitbook/assets/success\_object-to-mesh.PNG)
+![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**When converting Objects to Meshes:**
+**Учтите следующие особенности при преобразовании объектов в сети:**
 
-* Edges that were smoothed on the Objects will remain smoothed in the resulting Meshes.
-* Material orientations on the Objects will remain unchanged in the resulting Meshes.
-* A Mesh is created for every material applied. For example, if you convert a single cube painted 6 different colors, you'll get 6 different Meshes.
-  * Converting back to an Object will re-seal the individual meshes back into a solid body.
-* Selecting a solid body will convert and replace the entire body with a Mesh, but selecting individual edges or vertices owned by a solid will create a new Mesh on top of the existing geometry, without affecting the original body.
-* Converting a set of edges or vertices will create a single Linemesh (a mesh made of edges) or a single Pointmesh (a mesh made of points), which means you won't be able to select individual edges or vertices once they've been combined into a single Mesh. Convert them back to Objects if you want to adjust the position of a single element.
+* ребра, сглаженные на объектах, остаются сглаженными в полученных сетях.
+* ориентации материалов на объектах не меняются в полученных сетях.
+* сеть создается для каждого примененного материала. Например, при преобразовании одного куба, выкрашенного в 6 разных цветов, получается 6 различных сетей.
+   * при обратном преобразовании в объект отдельные сети снова объединяются в твердое тело.
+* при выборе твердого тела выполняется преобразование и замена всего тела сетью. Однако при выборе отдельных ребер или вершин тела будет создана новая сеть поверх существующей геометрии, не затрагивая исходное тело.
+* в результате преобразования набора ребер или вершин создается единая сеть линий \(сети из ребер\) или единая сеть точек \(сети из точек\), в которых после преобразования нельзя выбирать отдельные ребра или вершины. Чтобы скорректировать положение отдельного элемента, преобразуйте их обратно в объекты.
 
-**Converting Grouped geometry to Meshes:**
+**Преобразование сгруппированных объектов геометрии в сети.**
 
-* Meshes become even more powerful when you can convert an entire Group and all of its nested Groups into Meshes.
-* Groups and their nested contents can be converted to Groups by using a plugin:
-  * Look for the Plugin Manager icon on the right side of the application:
-    * ![](../.gitbook/assets/plugin-manager\_icon.PNG)&#x20;
-  * Find the "Mesh + Unmesh All" plugin, and click the checkbox to install it:
-    * ![](../.gitbook/assets/plugin-manager\_mesh-unmesh-all.png)&#x20;
-  * The Mesh + Unmesh All plugin will load. Simply select a Group containing Objects you want to convert to Meshes, and click Mesh All.
-    * ![](../.gitbook/assets/mesh-unmesh-all-plugin.png)&#x20;
-  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation:
+* Сети работают более эффективно, когда выполняется преобразование в сеть всей группы и всех вложенных групп.
+* Группы и вложенное в них содержимое можно преобразовывать в сети с помощью подключаемого модуля.
+   * Найдите значок диспетчера подключаемых модулей в правой части приложения:
+      * ![](../.gitbook/assets/plugin-manager_icon.PNG)
+   * Найдите подключаемый модуль «Mesh + Unmesh All» (преобразовать все объекты в сети/сети в объекты) и установите флажок для установки модуля.
+      * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
+   * Загрузится выбранный подключаемый модуль. Теперь выберите группу объектов, которую необходимо преобразовать в сети, и нажмите «Mesh All» (преобразовать все в сети).
+      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
+   * При преобразовании вложенных объектов или сетей с помощью этого подключаемого модуля в верхней части экрана отображается информационное сообщение с указанием количества преобразованных групп и экземпляров групп:
 
-![](../.gitbook/assets/success\_mesh-all.png)
+![](../.gitbook/assets/success_mesh-all.PNG)
 
-## Interacting With Meshes
+### Работа с сетями
 
-**Because of their lightweight nature, Meshes have certain limitations and behaviors:**
+**В силу своей простоты сети имеют определенные ограничения и особенности.**
 
-* You won't be able to edit the individual faces, edges, or vertices of a Mesh.
-  * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces (see above).
-* Snapping to Meshes is limited to the faces and vertices of Meshes. For performance, snapping and inferencing will not work with edges of Meshes.
-  * However, DWG files converted to Meshes (a different type of mesh known as a Linemesh) will retain the ability to snap to and inference to Mesh edges.
-* Meshes cannot have Levels applied to them.
-* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not.&#x20;
-  * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
-* Meshes cannot be used in advanced modeling operations, like Solid Join/Cut, 3D Shell, 3D Offset, Fillet, Loft, Sweep, or Cover.
+* Нельзя редактировать отдельные грани, ребра и вершины сети.
+   * Однако можно перекрашивать сети и перемещать отдельные сети, созданные в результате применения к граням различных материалов \(см. выше\).
+* Привязка к сетям ограничивается гранями и вершинами сетей. В целях повышения производительности нельзя выполнить привязку и создавать зависимости с ребрами сетей.
+   * Однако файлы DWG, преобразованные в сети \(другой тип сети, известный как сеть линий\), сохраняют возможность привязки к ребрам сетей и создания зависимостей от них.
+* К сетям не применятся уровни.
+* При работе с сетями не возникает предупреждений о проблемах с непроницаемостью или задними гранями. Чтобы проверить, являются ли сети непроницаемыми, преобразуйте их обратно в объекты.
+   * Объекты, которые до преобразования в сеть были непроницаемыми, при обратном преобразовании в объект остаются таковыми.
+* Сети нельзя использовать в расширенных операциях моделирования, таких как «Соединение/разрезы тел», «3D-оболочка», «3D-смещение», «Сопряжение», «По сечениям», «Сдвиг» или «Покрытие».
 
-Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
+В остальных случаях сети отображаются и работают так же, как любой другой объект FormIt: их можно размещать в группах, назначать слоям, визуализировать в сценах, использовать для расчета и т. д.
 
-**You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:**
+**Вы поймете, что работаете с сетью, когда в подсказке отображается сообщение «На сети» или на панели свойств указано «Свойства сети»:**
 
-![](../.gitbook/assets/snap\_on-mesh.png)
+![](../.gitbook/assets/snap_on-mesh.PNG)
 
-![](../.gitbook/assets/properties-panel\_mesh.png)
+![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Some file types are automatically imported as Meshes to improve performance:**
+**Некоторые типы файлов автоматически импортируются в качестве сетей для повышения производительности.**
 
-* STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
-* DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
+* Файлы STL и OBJ, в которых могут быть плотные объекты геометрии, например облака точек из других приложений, автоматически импортируются как сети.
+* Файлы DWG, в которых могут содержаться миллионы мелких сегментов кромок на высококачественных кривых, автоматически импортируются как сети.
 
-## Converting Meshes Back to Objects
+### Обратное преобразование сетей в объекты
 
-Simply select Meshes, and either use shortcut MO (Meshes to Objects) or right-click and select Meshes to Objects in the Context Menu:
+Сначала выберите «Сети», а затем используйте сочетание клавиш MO \(Сети в объекты\) или щелкните правой кнопкой мыши и выберите команду «Сети в объекты» в контекстном меню:
 
-![](../.gitbook/assets/context-menu\_mesh-to-object.PNG)
+![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+После преобразования объектов в сети в верхней части экрана появится сообщение с подтверждением:
 
-![](../.gitbook/assets/success\_mesh-to-object.PNG)
+![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**When converting Meshes back to Objects:**
+**При обратном преобразовании сетей в объекты учтите следующие особенности.**
 
-* Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
-* Converting a series of edges (for example from a DWG file) or a series of vertices (for example from a pointcloud) to a Mesh and back will automatically put the unmeshed Objects into a Group.
-  * This prevents the new edges or vertices from merging with other geometry which could have adverse effects and impact performance.
-  * Simply can Ungroup the resulting Group to release the edges and/or vertices.
+* Все объекты, которые до преобразования в сеть были телами или непроницаемыми, при обратном преобразовании в объект снова объединяются в непроницаемое тело.
+* При преобразовании набора ребер \(например, из файла DWG\) или набора вершин \(например, из облака точек\) в сеть и обратно объекты автоматически объединяются в группу.
+   * Это необходимо во избежание объединения новых ребер или вершин с другими объектами геометрии, что может отрицательно сказаться на производительности.
+   * Чтобы разделить ребра и (или) вершины, просто расформируйте полученную группу.
 
-**Converting Grouped Meshes back to Objects:**
+**Обратное преобразование сгруппированных сетей в объекты.**
 
-* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects.
+* См. выше инструкции по использованию подключаемого модуля «Mesh + Unmesh All» (преобразовать все объекты в сети/сети в объекты) для обратного преобразования групп и вложенных в них сетей в объекты.
+

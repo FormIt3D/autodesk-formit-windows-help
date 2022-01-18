@@ -1,17 +1,18 @@
-# Orthographic Camera
+# Ортогональная проекция
 
-FormIt 2021 includes the addition of a new Orthographic Camera feature. You can find the Orthographic and Perspective buttons in the Navigation Menu:
+В FormIt 2021 добавлена новая функция ортогональной камеры. В меню навигации доступны кнопки ортогонального вида и вида в перспективе.
 
-![Orthographic (bottom) and Perspective (top) camera view buttons ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Кнопки ортогонального вида (внизу) и вида в перспективе (вверху)](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-This new option allows you to easily toggle between the Orthographic and Perspective camera views.
+Новый параметр позволяет легко переключаться между ортогональным и перспективным видами камеры.
 
-![A model can be toggled from Perspective Camera to Orthographic Camera mode.](<../.gitbook/assets/ortho-camera (1).gif>)
+![Модель можно переключить с перспективной на ортогональную проекцию.](../.gitbook/assets/ortho-camera.gif)
 
-Once in Orthographic camera, any other camera tools will respect the current mode. For example, **Align Camera to Face** will align the Orthographic Camera to the face, resulting in an orthographic elevation view.
+При работе с ортогональной камерой во всех остальных инструментах камеры будет учитываться текущий режим. Например, команда **Выровнять камеру по грани** позволит выровнять ортогональную камеру по грани, в результате чего будет создан ортогональный вид фасада.
 
-If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position, making it easier to access those pre-set views.
+При ручном переходе к предварительно заданному ортогональному виду (например, виду сверху или виду спереди) ортогональная камера будет привязана к выбранному положению, что упрощает доступ к предварительно заданным видам.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Note:** If camera clipping occurs in Orthographic Camera mode, you can switch back to Perspective Mode, zoom out, and then try again.
+**Примечание.** Если подрезка вида выполняется в ортогональном режиме камеры, можно переключиться в перспективный режим, уменьшить масштаб и повторить попытку.
+

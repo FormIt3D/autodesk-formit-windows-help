@@ -1,46 +1,47 @@
-# Plug-Ins
+# Подключаемые модули
 
-Use the Plugin Manager to install useful plugins from the FormIt Team, or learn how to [**build your own FormIt plugins**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
+Используйте диспетчер подключаемых модулей для установки полезных подключаемых модулей с портала FormIt Team или посмотрите инструкции о том, как [**создать собственные подключаемые модули FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
 
-## The FormIt Plugin Manager
+#### Диспетчер подключаемых модулей FormIt
 
-The FormIt Plugin Manager works as a hub for discovering and managing Formit plugins.
+Диспетчер подключаемых модулей FormIt служит для поиска подключаемых модулей FormIt и управления ими.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+Он загружается автоматически при запуске FormIt, если у FormIt есть доступ к Интернету.
 
-You can access the Plug-In Manager by clicking its tab icon on the right side of the application window:
+Чтобы открыть диспетчер подключаемых модулей, щелкните значок вкладки в правой части окна приложения:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-## The Plugin Manager categorizes different types of plugins:
+#### В диспетчере подключаемых модулей представлены следующие типы подключаемых модулей.
 
-* **Installed plugins**
-* **Recommended plugins**
-  * Plugins that the FormIt team recommends to expand FormIt's core functionality and unlock new workflows.
-  * Community-developed plugins will appear here after being approved by the FormIt team. More details to come on this in the future.
-* **Public plugins**
-  * Plugins built by the community, but which have not been reviewed or approved by the FormIt team.
+* **Установленные подключаемые модули**
+* **Рекомендуемые подключаемые модули**
+   * Подключаемые модули, которые специалисты FormIt рекомендуют использовать для расширения базовых функций FormIt и получения доступа к новым рабочим процессам.
+   * В этой категории отображаются разработанные сообществом подключаемые модули после проверки командой разработчиков FormIt. Информация будет дополнена позднее.
+* **Общедоступные подключаемые модули**
+   * Подключаемые модули, созданные сообществом, но не утвержденные командой разработчиков FormIt.
 
-## The Plugin Manager is designed using a series of expandable and collapsible interfaces, which makes managing plugins and their repositories easy:
+#### Диспетчер подключаемых модулей разработан на основе расширяемых и сворачиваемых интерфейсов, что упрощает управление подключаемыми модулями и их хранилищами.
 
-* **Managing Plugins:**
-  * Click on a plugin name to see its description.
-  * Toggle the switch to install or uninstall it.
-    * The plugin will manifest as a toolbar at the top of the application, a panel on the right side, or a dialog in the middle, depending on the plugin type.
-* If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom and hit (+):
+* **Управление подключаемыми модулями.**
+   * Щелкните имя подключаемого модуля, чтобы посмотреть его описание.
+   * Сдвиньте переключатель, чтобы установить его или отменить установку.
+      * В зависимости от типа подключаемый модуль будет отображаться как панель инструментов в верхней части приложения, панель справа или диалоговое окно по центру.
+* Чтобы использовать [самостоятельно разработанный подключаемый модуль](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), добавьте его закрытый URL-адрес в поле внизу и нажмите \(+\):
 
-![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
+![Диспетчер подключаемых модулей FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-## How Plugins Work
+#### Работа подключаемых модулей
 
-* Plugins are web-based and available in FormIt for Windows and FormIt for Web.
-* Plugins are comprised of a series of files and folders hosted on GitHub, or on a local server when building your own.
-* External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
-  * External plugins will not load if no internet connection is detected when FormIt starts.
-  * Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.
-  * External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change.
-* Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
-* The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins.
-  * If you need to reset your Plugin Manager to its defaults, delete the following registry key:
-    * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
-    * Note this will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+* Подключаемые модули работают через Интернет и доступны в FormIt для Windows и FormIt для веб-браузера.
+* Подключаемый модуль состоит из серии файлов и папок, размещенных на GitHub или на локальном сервере (если это созданный вами модуль).
+* Для загрузки внешнего подключаемого модуля \(т. е., не размещенного на локальном сервере\) требуется подключение к Интернету, что подразумевает следующее:
+   * внешние подключаемые модули не загружаются, если при запуске FormIt не обнаружено подключение к Интернету.
+   * после загрузки некоторые внешние подключаемые модули могут продолжить работу в автономном режиме в течение текущего сеанса, а другие прекращают работу при сбое подключения вплоть до его восстановления.
+   * при каждом запуске внешние подключаемые модули загружают на сервер последнюю версию кода, поэтому их функциональность обновляется по мере внесения изменений их автором.
+* Подключаемые модули загружаются асинхронно, поэтому порядок подключаемых модулей в интерфейсе FormIt может меняться с каждым новым сеансом.
+* Для хранения установленных хранилищ и плагинов диспетчера подключаемых модулей используются разделы реестра Windows.
+   * Если требуется восстановить настройки диспетчера подключаемых модулей по умолчанию, удалите следующий раздел реестра:
+      * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
+      * Обратите внимание, что при этом будут удалены все добавленные пользователем хранилища и подключаемые модули, а в диспетчере подключаемых модулей будут отображаться только встроенные хранилища и подключаемые модули.
+

@@ -1,11 +1,9 @@
-# FormIt Capabilities
+# Возможности FormIt
 
-![](../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## FormIt Capabilities
+## Возможности FormIt
 
-Create conceptual building designs with a powerful built-in solid modeling system, incredible visualization options, and a native Dynamo integration, all while initiating a BIM workflow.
+Создавайте концептуальные проекты зданий с помощью мощной встроенной системы моделирования твердых тел, невероятных возможностей визуализации и встроенной интеграции Dynamo с параллельным ведением рабочего процесса BIM.
 
-Use Autodesk® FormIt® to capture building design concepts when ideas occur. Take advantage of accurate and easy solid modeling, organize your ideas in Groups and Layers, and get real-world site information, such as satellite images, to correctly orient and analyze your designs with shadows, Solar Analysis, and Energy Analysis. Move your preliminary designs to centralized data storage for access and refinement in Autodesk® Revit® software or other software.
-
-![](../.gitbook/assets/formit-capabilities.png)
+Используйте Autodesk® FormIt® для фиксации проектного замысла. Воспользуйтесь преимуществами простого и точного моделирования тел, организуйте идеи в группы и слои и получите доступ к реальной информации о стройплощадке, например к снимкам со спутника, для правильной ориентации и анализа проектов с данными затенения, расчетами инсоляции и энергопотребления. Сохраняйте предварительные проекты в централизованном хранилище данных, чтобы затем открывать и редактировать их в Autodesk® Revit® и других программных продуктах.

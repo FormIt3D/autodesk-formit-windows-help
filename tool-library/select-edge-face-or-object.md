@@ -1,34 +1,35 @@
-# Selection
+# Выбор
 
-## Direct Selection
+## Непосредственный выбор
 
-To **select a vertex, edge, or face**, hover over the object, then single-click to select it.
+Чтобы **выбрать вершину, ребро или грань**, наведите курсор на объект, а затем щелкните его один раз, чтобы выбрать.
 
-![](../.gitbook/assets/direct\_selection1.png)
+![](../.gitbook/assets/direct_selection1.png)
 
-To **select an entire object**, or an object and anything attached to it, double click the object.
+Чтобы **выбрать весь объект целиком** или выбрать объект со всеми прикрепленными к нему элементами, дважды щелкните объект.
 
-![](../.gitbook/assets/direct\_selection2.png)
+![](../.gitbook/assets/direct_selection2.png)
 
-You can also hold Ctrl or Shift, and add or remove elements from the current selection.
+Можно также добавлять и удалять элементы из текущего набора, удерживая нажатой клавишу CTRL или SHIFT.
 
-## Selection Filtering
+## Фильтрация выбора
 
-For area or lasso selection (see below), you can filter the selection based on type.
+При выборе области и выборе в режиме «Лассо» (см. ниже) можно отфильтровать выбранные объекты по типу.
 
-This is especially useful when you've got a mix of geometry types in close proximity, and you want to use area or lasso selection to cast a wide net, but retrieve only a certain type of geometry, while excluding others.
+Это особенно удобно, если имеется несколько типов геометрии в непосредственной близости друг от друга, и вы используете выбор области или инструмент «Лассо» для выбора множества объектов, но хотите выбрать только определенный тип геометрии, исключив другие.
 
-![](<../.gitbook/assets/selection-filter (1).png>)
+![](../.gitbook/assets/selection-filter.png)
 
-## Area/Window Selection
+## Выбор области и выбор рамкой
 
-To **select multiple pieces of geometry simultaneously**, use the window selection tool. Make sure you have nothing selected, then click and drag your mouse from left to right, or from right to left, to capture multiple pieces.
+Чтобы **выбрать несколько геометрических объектов одновременно**, используйте инструмент выбора рамкой. Удостоверьтесь, что не выбрано никаких объектов, а затем щелкните и перетащите мышь слева направо или справа налево, чтобы выбрать несколько элементов.
 
-![](../.gitbook/assets/direct\_selection3.png)
+![](../.gitbook/assets/direct_selection3.png)
 
-## Lasso Selection
+## Режим выбора «Лассо»
 
-For **more precise control** when selecting multiple pieces of geometry simultaneously, use the lasso tool. You can select it from the context menu after right-clicking over the empty canvas. Then draw a boundary around your desired selection area.
+Для **более точного выбора** при одновременном выборе нескольких геометрических объектов используйте инструмент «Лассо». Его можно активировать в контекстном меню, щелкнув правой кнопкой мыши пустую рабочую область. Просто нарисуйте границу вокруг нужной области выбора.
 
-![](../.gitbook/assets/lasso1.png)\
+![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)
+

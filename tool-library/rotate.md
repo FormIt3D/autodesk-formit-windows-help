@@ -1,13 +1,14 @@
-# Rotate Object
+# Поворот объекта
 
-You can change the orientation of objects using the Rotate tool in the Context Menu.
+Изменить угол поворота объектов можно с помощью инструмента «Поворот» в контекстном меню.
 
-1. Select an element you want to rotate and right-click to launch the Context Menu.
-2. From the Context Menu, select the Rotate tool.&#x20;
-3. When the protractor graphic appears on your mouse, click to set the plane for rotation.
-4. Use the blue grips to specify the start point of the rotation, and reset the axis if necessary. Use the arrows or the editable dimension box to set the rotation angle.&#x20;
+1. Выберите элемент, который требуется повернуть, и щелкните правой кнопкой мыши, чтобы открыть контекстное меню.
+2. В контекстном меню выберите инструмент «Поворот».
+3. Когда отобразятся элементы управления поворотом, щелкните, чтобы задать плоскость поворота.
+4. С помощью синих ручек задайте начальную точку поворота и при необходимости перенастройте ось. Угол поворота задается с помощью стрелок или путем изменения значения поля.
 
-Note that you can alse use the **Q** keyboard shortcut to access the rotate tool after selecting an element.
+Обратите внимание, что для доступа к инструменту поворота после выбора элемента можно также использовать клавишу **Q**.
 
-![](../.gitbook/assets/rotate1.png)\
+![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)
+

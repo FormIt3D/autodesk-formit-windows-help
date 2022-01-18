@@ -1,53 +1,54 @@
-# 1.6 - Control Visibility with Layers
+# 1.6. Управление видимостью с помощью слоев
 
-_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
+_Слои в FormIt, подобно слоям в AutoCAD и Photoshop, позволяют управлять видимостью объектов модели. В этой главе мы создадим слой, чтобы сохранить и скрыть формообразующий элемент здания для последующего анализа._
 
-_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Если вы не проходили предыдущий раздел, скачайте и откройте файл_ _**1.6 — Control Visibility with Layers.axm**_ _из_ _**наборов данных для части 1 руководства FormIt Primer**._
 
-## **Create Layers**
+## **Создание слоев**
 
-1 - To create the new layers:
+1 - Чтобы создать новый слой, выполните следующие действия.
 
-1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
-2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
+1. Перейдите на **палитру слоев** и трижды щелкните значок **+**, чтобы создать три слоя.
+2. Дважды щелкните имена слоев, чтобы переименовать их следующим образом: **Формообразующий элемент**, **Перекрытие главного здания** и **Изображение плана.**
 
-![](<../../.gitbook/assets/0 (20).png>)
+![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
+_**Примечание.**_ _Чтобы изменить порядок слоев, щелкните имя слоя и перетащите его вверх или вниз._
 
-2 - To assign the **Massing - Main Building** group to the **Massing** layer:
+2 - Чтобы назначить группу **Формообразующий элемент — главное здание** слою **Формообразующий элемент**, выполните следующие действия.
 
-1. In the canvas, select the **Massing - Main Building** group.
-2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
+1. В рабочей области выберите группу **Формообразующий элемент — главное здание**.
+2. На **палитре слоев** выберите слой **Формообразующий элемент** в раскрывающемся меню **Выбор вкл.:**. Аналогичным образом назначьте группу **Изображение плана** слою **Изображение плана**.
 
-![](<../../.gitbook/assets/1 (13) (1).png>)
+![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicate Group**
+## **Копирование группы**
 
-_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+_Теперь перейдем к более детальному моделированию здания. На первом этапе необходимо создать геометрию перекрытия на основе уже имеющегося формообразующего элемента здания._
 
-1 - Select the **Massing - Main Building** group again. Press **Ctrl + C (Copy)** to copy, and then **Ctrl + Shift + V (Paste in Place)** to paste the mass in the same place.
+1. Снова выберите группу **Формообразующий элемент — главное здание**. Нажмите **CTRL+C** (Копировать), чтобы скопировать, а затем **CTRL+SHIFT+V** (Вставить по месту), чтобы вставить формообразующий элемент в то же место.
 
-2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique (MU)** option.
+2. Чтобы открепить новую группу геометрии от исходной группы, щелкните правой кнопкой мыши и в **контекстном меню** выберите **Сделать уникальной** (M+U).
 
-![](<../../.gitbook/assets/2 (18).png>)
+![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+_**Примечание.** Новая группа больше не связана с исходной. Изменения в новой группе не будут отражены в исходной группе._
 
-## **Create the Floor Geometry**
+## **Создание геометрии перекрытия**
 
-1 - Reassign group’s layer:
+1 - Чтобы переназначить слой группы, выполните следующие действия.
 
-1. Single-click to select either of the **Massing – Main Building** groups.
-2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
-3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+1. Щелкните одну из групп **Формообразующий элемент — главное здание**.
+2. Поместите группу на слой **Перекрытие главного здания** с помощью раскрывающегося списка **Выбор вкл.:** на **палитре слоев**.
+3. Снимите флажок напротив слоя **Формообразующий элемент**, чтобы скрыть его геометрию и предотвратить его случайное редактирование.
 
-![](<../../.gitbook/assets/3 (18) (1).png>)
+![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+2 - Дважды щелкните видимую группу **Формообразующий элемент — главное здание**, чтобы отредактировать ее. Переименуйте группу в **Перекрытие** на **палитре свойств**.
 
-![](<../../.gitbook/assets/4 (12) (1).png>)
+![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+3 - **Двойным щелчком** выберите **верхнюю грань** геометрии. Щелкните еще раз и начните перетаскивать грань вниз. При перетаскивании грани вниз введите **11’-2"**, чтобы открыть **диалоговое окно размеров**. Введя указанное значение, нажмите **ОК**. Полученное перекрытие должно быть толщиной 1 фут (0,3 м). Дважды щелкните в пустом пространстве, чтобы выйти из группы.
 
-![](<../../.gitbook/assets/5 (10).png>)
+![](../../.gitbook/assets/5%20%2810%29.png)
+

@@ -1,39 +1,39 @@
-# Curve + Surface Faceting
+# Фасетизация кривых и поверхностей
 
-FormIt is a polyhedral modeling system, so objects like circles, arcs, and splines are represented by a series of straight edges. Similarly, a curved surface like the wall of a cylinder, or a dome, is comprised of a series of planar faces with hidden border edges.
+FormIt — это система полиэдрического моделирования, поэтому такие объекты, как окружности, дуги и сплайны, представляются в виде набора прямых ребер. Аналогичным образом криволинейная поверхность, например стенка цилиндра или купол, состоит из набора плоских граней со скрытыми ребрами границ.
 
-By default, FormIt uses 40 edges, or facets, to represent a circle, and 24 facets to represent a 3D, curved object like a cylinder. For more complex surfaces like a dome, a value of 24 sets the perimeter faceting count, and also impacts how densely faceted the rest of the shape is.
+По умолчанию в FormIt для представления окружности используется 40 ребер или граней, а для представления криволинейного 3D-объекта, например цилиндра, — 24 грани. В случае более сложных поверхностей, таких как купол, значение 24 определяет количество граней по периметру, а также влияет на плотность фасетизации остальной формы.
 
-In FormIt for Windows v18 and newer, the curve and surface faceting values are customizable:
+В FormIt 18 для Windows и более поздних версиях можно настраивать значения фасетизации кривых и поверхностей.
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](../.gitbook/assets/faceting.png)
+![](<../.gitbook/assets/faceting (1).png>)
 
-**Curve Faceting Quality**
+**Качество фасетизации кривой**
 
-Changing the Curve Faceting Quality will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle or a quarter-circle arc with 16 facets.
+Изменение качества фасетизации кривой влияет на количество граней, используемых при построении в FormIt новых окружностей и дуг, а также при размещении форм примитивов. Например, если для параметра задано значение 64, создается 64-сторонняя полная окружность или арка в четверть окружности с 16 гранями.
 
-This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry from Dynamo. You can set this value for new sketches, or just the current sketch.
+Кроме того, это значение влияет на качество окружностей и дуг, импортированных из файлов SAT, а также на качество запекания геометрии Dynamo. Это значение можно задать для новых эскизов или только для текущего эскиза.
 
-For existing curves, you can also use the Rebuild Curve plugin to retroactively rebuild an **existing** arc or circle with a new faceting count:
+Для существующих кривых также можно использовать подключаемый модуль «Rebuild Curve» (перестроить кривую), чтобы позднее перестроить **существующую** дугу или окружность с использованием нового количества граней:
 
-![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
-![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
+![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
-**Surface Faceting Quality**
+**Качество фасетизации поверхности**
 
-Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo.
+Изменение этого глобального параметра влияет на качество криволинейных 3D-поверхностей, импортированных из файлов SAT и запекаемых Dynamo.
 
-For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases. Once you've got a result that's high quality, you can [convert it into a Mesh](meshes.md) to improve performance.
+Например, если задать значение 64, а затем применить к сфере запекание Dynamo, по экватору сферы будет использоваться 64 грани плюс 64 грани в каждом из колец, идущих к полюсам сферы. Итоговое количество граней увеличивается очень быстро. Более высокие значения следует использовать осторожно, так как это может повлиять на производительность FormIt. Получив высококачественный результат, его можно [преобразовать в сеть](meshes.md) для повышения производительности.
 
-When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
+При работе с Dynamo можно изменить качество фасетизации и нажать кнопку «Run Graph» (запустить график) на панели свойств, не изменяя параметры, чтобы воспользоваться преимуществами нового количества граней.
 
-![](<../.gitbook/assets/faceting\_column (1).gif>)
+![](../.gitbook/assets/faceting\_column.gif)
 
-As with curves, you can set the surface faceting quality for new sketches, or for the current sketch only.
+Как и в случае с кривыми, можно задать качество фасетизации поверхности для новых эскизов или только для текущего эскиза.
 
-Note that faceting values are currently limited to multiples of 4, so when entering numbers manually, FormIt will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+Обратите внимание, что в настоящее время используются только значения фасетизации, кратные 4, поэтому при вводе чисел вручную FormIt округлит их до ближайшего кратного. Для циклического перебора приемлемых значений можно использовать ползунки и стрелки.
 
-![](<../.gitbook/assets/units-+-precision (1).png>)
+![](../.gitbook/assets/units-+-precision.png)

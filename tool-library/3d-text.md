@@ -1,49 +1,49 @@
 # 3D Text
 
-## Powered by Dynamo
+## Технологии Dynamo
 
-In FormIt 2021 and newer, you can generate and modify 3D Text objects, which are powered by Dynamo. Dynamo enables editing the font, size, and other properties of the text in-place, without having to re-generate and re-position the text when edits are needed.
+В FormIt 2021 и более поздних версиях можно создавать и изменять текстовые 3D-объекты, используя технологии Dynamo. Dynamo позволяет редактировать шрифт, размер и другие свойства доступного текста без необходимости повторного создания и изменения положения текста.
 
-![](<../.gitbook/assets/3d-text (1).gif>)
+![](../.gitbook/assets/3d-text.gif)
 
-## Placing 3D Text
+## Размещение 3D-текста
 
 ![](../.gitbook/assets/3d-text-placement.gif)
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
-* Click the 3D Text sample.
-* Move your cursor to the canvas, and you'll see the 3D Text appear on your cursor.
-  * Before placing, you can hover over geometry to orient the 3D Text differently - for example, on a vertical surface to get the text to align itself vertically. You can also hit Tab to cycle between orientations.
-* Click to place the 3D Text, which will be generated inside a FormIt Group.
-* After placing, the Properties panel will show up to reveal the available options for 3D Text.
+* Перейдите на панель Dynamo в FormIt для Windows и откройте каталог примеров Dynamo.
+* Щелкните образец 3D-текста.
+* Переместите курсор в активное окно, и на курсоре отобразится 3D-текст.
+   * Перед размещением текста можно навести курсор на геометрию и изменить ориентацию 3D-текста, например, выровнять текст по вертикали вдоль вертикальной поверхности. Для циклического перебора вариантов ориентации можно также нажать клавишу TAB.
+* Щелкните, чтобы разместить 3D-текст, который будет создан внутри группы FormIt.
+* После размещения отобразится панель свойств, содержащая доступные параметры 3D-текста.
 
-## Iterating In Place
+## Итерация на месте
 
-The beauty of using Dynamo to generate 3D Text is that editing it is easy, and keeps the text in its current position, for quick iteration.
+Преимущество использования Dynamo для создания 3D-текста заключается в простоте редактирования текста и сохранении его текущего положения для быстрой итерации.
 
-3D Text options are available in the Properties panel when the 3D Text Group is selected, or when editing the Group.
+Параметры 3D-текста доступны на панели свойства, если выбрана группа 3D-текста или выполняется редактирование группы.
 
-After placing the 3D Text initially, the Properties panel will be displayed automatically. You can also select the Group and switch to Properties yourself, or double-click the Group to automatically switch to the Properties panel.
+Панель свойств отображается автоматически при размещении 3D-текста. Можно также выбрать группу и перейти к свойствам самостоятельно или же дважды щелкнуть группу для автоматического перехода на панель свойств.
 
-![](<../.gitbook/assets/3d-text-options (1).png>)
+![](../.gitbook/assets/3d-text-options.png)
 
 ### Text
 
-Enter the text you'd like the 3D Text geometry to display. This field also previews the selected font and justification. Hit Enter/Return for multiple lines.
+Введите текст для отображения в геометрии 3D-текста. В этом поле также выполняется предварительный просмотр выбранного шрифта и выравнивания. Нажмите клавишу ENTER/RETURN для добавления строки.
 
 ### Font
 
-Select the font for the 3D Text. This list will display the fonts available on the machine, and selecting a new font will update the Text field.
+Выбор шрифта 3D-текста. В этом списке отображаются доступные на компьютере шрифты, а при выборе нового шрифта автоматически обновляется поле «Text».
 
-Note that some fonts have more complex geometry, and may take more time to generate using Dynamo.
+Обратите внимание, что некоторые шрифты имеют более сложную геометрию и для их создания с помощью Dynamo может потребоваться больше времени.
 
 ### Justification
 
-This will move the text to align relative to the Group's Local Coordinate System origin.
+Позволяет выравнивать текст относительно начала локальной системы координат группы.
 
-* Left will ensure the text starts at the Group's origin, and expands to the right.
-* Center will ensure the text is always centered about the Group's origin.
-* Right will ensure the text ends at the Group's origin.
+* «Left»: текст начинается в начале группы и продолжается вправо.
+* «Center»: текст всегда располагается по центру относительно начала группы.
+* «Right»: текст всегда заканчивается в начале группы.
 
 ![](../.gitbook/assets/3d-text-justification-combined.png)
 
@@ -51,66 +51,71 @@ This will move the text to align relative to the Group's Local Coordinate System
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-The height of the text, in the current FormIt units.
+Высота текста в текущих единицах измерения FormIt.
 
 ### Extrusion Depth
 
-The amount of 3D extrusion of the text, in the current FormIt units. 3D Text is designed to be solid, so this value can't be zero, but you can get it very close to 0 so it's less obvious that it's extruded.
+Величина 3D-элемента выдавливания текста в текущих единицах измерения FormIt. 3D-текст отображается как тело, поэтому данное значение не может быть равным нулю, однако можно задать его максимально близким к нулю, чтобы сделать выдавливание менее очевидным.
 
 ### Tracking
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-Tracking is useful to adjust the default spacing between letters from a particular font. Uses the current FormIt units, and can be positive or negative. For example, in Feet, 0.25 will add 3" of spacing between each letter. Conversely, -0.25 will make all the letters 3" closer.
+Межсимвольный интервал используется для настройки интервала по умолчанию между буквами определенного шрифта. При этом используются текущие единицы измерения FormIt. Значение может быть положительным или отрицательным. Например, значение 0.25 (фута) добавляет между буквами интервал в 3 дюйма. И наоборот, -0.25 уплотняет расположение букв на 3 дюйма.
 
 ### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-If you have multiple lines in the Text field, this value controls how much space is between each line of text. Uses the current FormIt units.
+Если в поле «Text» содержится несколько строк, это значение определяет расстояние между строками текста. При этом используются текущие единицы измерения FormIt.
 
 ### Invert Text
 
 ![](../.gitbook/assets/3d-text-inverted.png)
 
-When True, this option will create a solid around the text, and will remove the text from it, giving the result of "inverted" text - as if the text was cut out of a material.
+Если задано значение «True», этот параметр создает вокруг текста сплошное тело и удаляет из него текст. В результате получается инвертированный текст, как если бы буквы были вырезаны в материале.
 
 ### Inverted Text Border
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Only applies when Invert Text is true. Specifies the amount of border around the text to use for the solid from which the text is removed. Uses the current FormIt units.
+Применяется, только если для параметра «Invert Text» задано значение «True». Задает величину рамки вокруг текста, используемой для сплошного тела, из которого вырезается текст. При этом используются текущие единицы измерения FormIt.
 
 ### Curve Faceting Quality
 
-Curves from fonts are converted to line segments using 3D Text, so this value controls how fine the curves are faceted.
+Кривые из шрифтов преобразуются в сегменты линий с помощью 3D-текста, и данное значение определяет качество фасетизации кривых.
 
-Lower numbers will result in more coarse faceting (longer segments) and higher numbers will result in finer faceting (shorter segments). This value overrides FormIt's Curve and Surface faceting settings in Preferences.
+Чем меньше число, тем крупнее фасетизация \(более длинные сегменты\). Чем больше число, тем мельче фасетизация \(более короткие сегменты\). Это значение переопределяет параметры фасетизации кривых и поверхностей FormIt, заданные в разделе «Настройки».
 
 ### Run
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know that "Run" needs to be clicked to see the updates in the final geometry.‌
+Завершив редактирование параметров, нажмите кнопку «Run», чтобы запустить основной график Dynamo и создать новые результаты. После изменения параметров эта кнопка выделяется синим цветом. Это свидетельствует о том, что ее необходимо нажать для просмотра обновлений в итоговой геометрии.‌
 
 ### Edit Embedded Graph
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to quickly change parameters and see live updates, or to inspect/adjust the logic. This isn't required but can be useful for troubleshooting or for faster editing. See below for more.
+По нажатию этой кнопки открывается среда редактора графиков Dynamo, в которой можно просматривать и редактировать основные графики Dynamo для быстрого изменения параметров и просмотра обновлений в реальном времени, а также для проверки и корректировки логики. Это необязательно, но полезно для устранения неполадок или более быстрого редактирования. Подробные сведения см. ниже.
 
-## Iterate Faster in Dynamo
+## Более быстрая итерация в Dynamo
 
-If you're iterating on 3D Text options, it might be faster to launch the Dynamo graph editor, which will allow you to adjust parameters and see the changes in real-time. This also allows you to inspect the logic behind the graph, in case there are issues.
+Чтобы ускорить итерацию параметров 3D-текста, можно запустить редактор графиков Dynamo, позволяющий настраивать параметры и просматривать изменения в режиме реального времени. Он также позволяет проверить логику графика на случай возникновения проблем.
 
 ![](../.gitbook/assets/3d-text-edit-embedded.png)
 
-You can click the "Edit Embedded Graph" button in the Properties panel, to start the Dynamo graph editor.
+Чтобы запустить редактор графиков Dynamo, нажмите кнопку «Edit Embedded Graph» на панели свойств.
 
-![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
+![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
 
-## Troubleshooting
+## Устранение неполадок
 
-3D Text uses Dynamo behind the scenes, and Dynamo uses a modeling kernel called ASM to generate its geometry, which is passed back to FormIt.
+Для 3D-текста используется Dynamo, а в Dynamo для создания геометрии, передаваемой обратно в FormIt, используется ядро моделирования ASM.
 
-Some fonts may create "self-intersecting curves", or other problematic geometry, which cause errors in ASM.
+В некоторых шрифтах могут присутствовать «самопересекающиеся кривые» или другие проблемные геометрические объекты, которые приводят к ошибкам ASM.
 
-If you get an error when trying to run 3D Text, or if letters disappear, it's worth clicking "Edit Embedded Graph" to see what's going wrong with the graph, and where the failure might be happening.
+Если при попытке запустить 3D-текст возникает ошибка или буквы исчезают, для просмотра ошибок графика и определения проблемного места можно нажать кнопку «Edit Embedded Graph».
 
-Some fonts also have known issues that prevent them from being turned into proper geometry. Bahnschrift is one example of this. If you run into another font that's problematic, [let us know on the forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142). We'll do what we can to fix issues with specific fonts.
+В некоторых шрифтах также имеются известные проблемы, которые не позволяют превращать их в правильные геометрические объекты. Это, например, шрифт Bahnschrift. Если вы обнаружите другой шрифт, вызывающий проблемы, [сообщите нам об этом на форуме](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ru). Мы сделаем все возможное, чтобы устранить проблемы с конкретными шрифтами.
+
+
+
+
+

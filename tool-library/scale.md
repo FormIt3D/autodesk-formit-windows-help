@@ -1,12 +1,13 @@
-# Scale Object
+# Масштабирование объекта
 
-You can use the **Scale tool** to adjust the size and orientation of objects.
+Для корректировки размера и ориентации объектов можно использовать **инструмент «Масштаб»**.
 
-1. Select an object you want to adjust.&#x20;
-2. Right-click to launch the **Context Menu**.&#x20;
-3. From the Context Menu, select the **Scale tool**.&#x20;
-4. Use the scroll wheel on your mouse to scale the geometry up or down.
+1. Выберите объект, который необходимо скорректировать.
+2. Щелкните правой кнопкой мыши, чтобы открыть **контекстное меню**.
+3. В контекстном меню выберите **инструмент «Масштаб»**.
+4. Используйте колесико прокрутки мыши для увеличения или уменьшения размера геометрии.
 
 ![](../.gitbook/assets/scale1.png)
 
 ![](../.gitbook/assets/scale2.png)
+
