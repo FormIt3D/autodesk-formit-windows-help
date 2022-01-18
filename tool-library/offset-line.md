@@ -1,53 +1,56 @@
-# Offset Line
+# Linea di offset
 
-Draw parallel, or offset, lines using the Offset Line tool. This is useful to create 2D shapes that can later be extruded to look like 3D walls.
+È possibile disegnare linee parallele, o di offset, utilizzando lo strumento Linea di offset. Questa opzione è utile per creare forme 2D che possono essere successivamente estruse per assomigliare a muri 3D.
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool:
+Lo strumento **Linea di offset** funziona come lo strumento [**Linea** ](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
-* Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes.&#x20;
-* A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool.
-* Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
+* Fare clic per impostare il primo punto, quindi spostare il cursore e posizionare i punti successivi, eseguendo lo snap alla geometria esistente o agli assi di deduzione.
+* Viene mostrata un'anteprima della forma risultante. Il secondo e il terzo punto determinano il piano per il resto dei punti da seguire, pertanto il risultato è piano.
+* Continuare ad aggiungere punti e premere **ESC** oppure fare doppio clic per terminare lo strumento.
+* Eventuali autointersezioni verranno corrette e unite, lasciando un'unica superficie estrudibile.
 
-![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
+![Dopo aver posizionato 2 punti e aver trascinato il terzo punto](../.gitbook/assets/walls1.png)
 
-The input line is drawn in red, and by default is placed in the center of the offset lines.
+La linea di input viene disegnata in rosso e, per default, viene posizionata al centro delle linee di offset.
 
-You can change the alignment of the offset lines and their thickness by hitting the **Tab** key. This will invoke the **Tool Options** dialog:
+È possibile modificare l'allineamento delle linee di offset e il relativo spessore premendo il tasto **TAB**. Verrà aperta la finestra di dialogo **Opzioni strumento**:
 
-![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
+![Opzioni per lo strumento Linea di offset](../.gitbook/assets/walls2.png)
 
-Change the **Alignment** to **Left** and the **Thickness** to 6", for example, and the offset lines will be drawn to the left of the input lines, 6 inches apart.
+Modificare **Allineamento** in **Sinistra** e **Spessore** in 6", ad esempio, e le linee di offset verranno disegnate a sinistra delle linee di input, a 6 pollici di distanza.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Useful Tips
+## Suggerimenti utili
 
-You can draw a closed shape by snapping to the first point placed. The resulting corner will be cleaned up automatically:
+È possibile disegnare una forma chiusa eseguendo lo snap al primo punto posizionato. L'angolo risultante verrà corretto automaticamente:
 
 ![](../.gitbook/assets/walls4.png)
 
-You can freely draw the input lines on top of each other. When the tool is finished the resulting intersections are cleaned up.
+È possibile disegnare liberamente le linee di input l'una sopra l'altra. Al termine dello strumento, le intersezioni risultanti vengono corrette.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Inherently, the Offset Line tool must generate geometry on a plane, so the first few points determine the plane that the remaining points will follow.
+Di per sé, lo strumento Linea di offset deve generare la geometria su un piano, in modo che i primi punti determinino il piano che seguiranno i punti rimanenti.
 
-Start drawing on the side of a cube, for example, to use the plane of that face. After three non colinear points are placed the input plane is fixed for the remainder of the input. Note, that when drawing on a face the resulting shape is inserted into the face, splitting it into multiple faces. To prevent the insertion, the face you draw on must be part of a [Group](https://windows.help.formit.autodesk.com/tool-library/groups).
+Iniziare a disegnare sul lato di un cubo, ad esempio, per utilizzare il piano di tale superficie. Dopo aver posizionato tre punti non collineari, il piano di input è fisso per il resto dell'input. Notare che quando si disegna su una superficie, la forma risultante viene inserita nella superficie, dividendola in più superfici. Per evitare l'inserimento, la superficie disegnata deve far parte di un [gruppo](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![Drawing on a vertical face](../.gitbook/assets/walls7.png)
+![Disegno su una superficie verticale](../.gitbook/assets/walls7.png)
 
-![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
+![Una volta chiuso lo strumento, le linee vengono inserite e le superfici di divisione possono essere ulteriormente modificate](../.gitbook/assets/walls8.png).
 
-You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image.
+È inoltre possibile utilizzare lo strumento Linea di offset per eseguire il tracciamento da un disegno di pianta. Importare la pianta come immagine.
 
-* Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).&#x20;
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
+* Ridimensionare l'immagine in modo che la pianta abbia la scala corretta. Questa procedura è descritta in maggior dettaglio [qui](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
+* È possibile utilizzare la vista della [cinepresa Ortogonale](orthographic-camera.md) per eseguire il tracciamento in una [vista dall'alto](orthographic-views.md) ortogonale.
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
+
+
+

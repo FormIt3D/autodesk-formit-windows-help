@@ -1,7 +1,10 @@
-# Properties
+# Proprietà
 
-The **Properties Palette** displays information and data relevant to a selected object in the Formit Workplane.
+Nella **tavolozza Proprietà** vengono visualizzate le informazioni e i dati relativi ad un oggetto selezionato nel piano di lavoro di FormIt.
 
-Using the Properties Palette, you can edit the group of an object, assign an object to a layer, and change the material of an object.
+Utilizzando la tavolozza Proprietà, è possibile modificare il gruppo di un oggetto, assegnare un oggetto ad un layer e modificare il materiale di un oggetto.
 
-![](../.gitbook/assets/properties\_palette.png)
+![](../.gitbook/assets/properties_palette.png)
+
+
+

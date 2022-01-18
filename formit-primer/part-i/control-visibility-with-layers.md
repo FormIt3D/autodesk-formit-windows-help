@@ -1,53 +1,54 @@
-# 1.6 - Control Visibility with Layers
+# 1.6 - Controllo della visibilità con i layer
 
-_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
+_Analogamente ad AutoCAD e Photoshop, i layer in FormIt consentono di gestire la visibilità degli oggetti nel modello. In questo capitolo, creeremo un layer per salvare e nascondere la massa dell'edificio per un'analisi futura._
 
-_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.6 - Control Visibility with Layers.axm**_ _dai_ _set di dati della Parte I della Guida introduttiva di FormIt**.**_
 
-## **Create Layers**
+## **Creazione di layer**
 
-1 - To create the new layers:
+1 - Per creare i nuovi layer:
 
-1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
-2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
+1. Accedere alla **tavolozza Layer** e fare clic sul segno **+** tre volte per creare tre layer.
+2. Fare doppio clic sui nomi dei layer per rinominarli **Massing**, **Main Building Floor** e **Plan Image.**
 
-![](<../../.gitbook/assets/0 (20).png>)
+![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
+_**Nota**_ _È possibile fare clic sul nome di un layer e trascinarlo verso l'alto o verso il basso per riordinare i layer._
 
-2 - To assign the **Massing - Main Building** group to the **Massing** layer:
+2 - Per assegnare il gruppo **Massing - Main Building** al layer **Massing**:
 
-1. In the canvas, select the **Massing - Main Building** group.
-2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
+1. Nell'area di disegno, selezionare il gruppo **Massing - Main Building**.
+2. Nella **tavolozza Layer**, scegliere il layer **Massing** dal menu a discesa **Selezione su:**. Analogamente, assegnare il gruppo **Plan Image** al layer **Plan Image**.
 
-![](<../../.gitbook/assets/1 (13) (1).png>)
+![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicate Group**
+## **Duplicazione del gruppo**
 
-_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+_Ora inizieremo il processo di modellazione dell'edificio in modo più dettagliato. Il primo passaggio consiste nel creare la geometria del pavimento in base alla volumetria dell'edificio già presente._
 
-1 - Select the **Massing - Main Building** group again. Press **Ctrl + C (Copy)** to copy, and then **Ctrl + Shift + V (Paste in Place)** to paste the mass in the same place.
+1 - Selezionare nuovamente il gruppo **Massing - Main Building**. Premere **CTRL+C \(Copia\)** per copiare, quindi **CTRL+MAIUSC+V \(Incolla nella stessa posizione\)** per incollare la massa nella stessa posizione.
 
-2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique (MU)** option.
+2 - Per dissociare la geometria del nuovo gruppo dal gruppo originale: fare clic con il pulsante destro del mouse per accedere al **menu contestuale** e scegliere l'opzione **Rendi univoco \(MU\)**.
 
-![](<../../.gitbook/assets/2 (18).png>)
+![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+_**Nota** Il nuovo gruppo non è più associato all'originale. Le modifiche apportate al nuovo gruppo non altereranno il gruppo originale._
 
-## **Create the Floor Geometry**
+## **Creazione della geometria del pavimento**
 
-1 - Reassign group’s layer:
+1 - Riassegnare il layer del gruppo:
 
-1. Single-click to select either of the **Massing – Main Building** groups.
-2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
-3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+1. Fare un singolo clic per selezionare uno dei gruppi **Massing – Main Building**.
+2. Posizionare il gruppo sul layer **Main Building Floor** utilizzando l'elenco a discesa **Selezione su:** nella **tavolozza Layer**.
+3. Deselezionare il layer **Massing** per nasconderne la geometria e proteggerla da eventuali modifiche accidentali.
 
-![](<../../.gitbook/assets/3 (18) (1).png>)
+![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+2 - Fare doppio clic sul gruppo **Massing – Main Building** visibile per modificarlo. Rinominare il gruppo **Floor** nella **tavolozza Proprietà**.
 
-![](<../../.gitbook/assets/4 (12) (1).png>)
+![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+3 - **Fare un singolo clic** sulla **superficie superiore** della geometria per selezionarla. Fare nuovamente clic e iniziare a trascinare la superficie verso il basso. Mentre si trascina la superficie verso il basso, digitare **11'-2"**. Verrà visualizzata la **finestra di dialogo Quota**. Fare clic su **OK** dopo aver immesso il valore. Il pavimento risultante dovrebbe essere spesso 1'. Fare doppio clic nello spazio per uscire dal gruppo.
 
-![](<../../.gitbook/assets/5 (10).png>)
+![](../../.gitbook/assets/5%20%2810%29.png)
+

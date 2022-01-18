@@ -1,66 +1,67 @@
-# 1.12 - Visual Styles
+# 1.12 - Stili di visualizzazione
 
-_Modeling conceptual masses is just half of what FormIt has to offer. The other half are beautiful graphics that help to tell a story to a client, or team member. In this chapter, we will cover ways to set up your_ _**graphic visual styles**_ _and create animations._
+_La modellazione delle masse concettuali è solo la metà di quello che FormIt ha da offrire. L'altra metà è rappresentata da una splendida grafica che aiuta a raccontare una storia ad un cliente o ad un membro del team. In questo capitolo, descriveremo le modalità di impostazione degli_ _**stili di visualizzazione grafica**_ _e di creazione delle animazioni._
 
-_If you did not complete the last section, download and open the_ _**1.12 – Visual Styles.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.12 - Visual Styles.axm**_ _dai_ _**set di dati della Parte 1 della Guida introduttiva di FormIt**._
 
-## **Create an Animation**
+## **Creazione di un'animazione**
 
-_In these next steps, we will learn how to use_ _**Scenes**_ _to create an animation._
+_Nei prossimi passaggi, impareremo come utilizzare le_ _**scene**_ _per creare un'animazione._
 
-1 – To create the first **Scene**:
+1 - Per creare la prima **scena**:
 
-1. Turn on all the layers except **Terrain**, **Plan Image,** and **Massing**.
-2. Make sure the camera mode is set to **Perspective (VP)**, and position the camera so that it is looking at the entire house from slightly above, similar to the image below.
-3. Open the **Scenes Palette**.
-4. Click on the **+** icon to create a new scene from our current view.
-5. Rename it to **Aerial View 1**, and match the other **Scene Properties** to what is shown in the image below.
+1. Attivare tutti i layer ad eccezione di **Terrain**, **Plan Image** e **Massing**.
+2. Assicurarsi che la modalità della cinepresa sia impostata su **Prospettiva \(VP\)** e posizionare la cinepresa in modo che guardi l'intera casa da un punto leggermente superiore, analogamente all'immagine riportata di seguito.
+3. Aprire la **tavolozza Scene**.
+4. Fare clic sull'icona **+** per creare una nuova scena dalla vista corrente.
+5. Rinominarla **Aerial View 1** e far corrispondere le altre **proprietà della scena** a quelle mostrate nell'immagine riportata di seguito.
 
-![](<../../.gitbook/assets/0 (17) (1).png>)
+![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - To create the second **Scene** and then animate between them:
+2 - Per creare la seconda **scena** e quindi animarla tra di esse:
 
-1. Adjust the camera to a new position so that you are looking at the house from a different angle. Create a new **Scene** named **Aerial View 2** using the same process we followed in the previous step.
-2. Click the **Play** button. After the set **Pause Time** of **2 Seconds**, the animation will start slowly moving back and forth between the two scenes. This will continue until you click the **Stop** button to stop the animation.
+1. Regolare la cinepresa su una nuova posizione in modo da osservare la casa da un'angolazione diversa. Creare una nuova **scena** denominata **Aerial View 2** utilizzando la stessa procedura seguita nel passaggio precedente.
+2. Fare clic sul pulsante di **riproduzione**. Dopo aver impostato **Tempo di pausa** su **2 secondi**, l'animazione inizierà lentamente a spostarsi avanti e indietro tra le due scene. Questa operazione continuerà fino a quando non si farà clic sul pulsante di **interruzione** per interrompere l'animazione.
 
-![](<../../.gitbook/assets/1 (12) (1).png>)
+![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Note:**_ _You can adjust the_ _**Pause Time**,_ _**Transition Time**, and_ _**Camera Speed**_ _using the settings at the bottom of the_ _**Scene Properties**. Try adding some more scenes and playing with these settings to customize your animation._
+_**Nota**_ _È possibile regolare_ _**Tempo di pausa**,_ _**Tempo di transizione** e_ _**Velocità cinepresa**_ _utilizzando le impostazioni nella parte inferiore di_ _**Proprietà scena**. Provare ad aggiungere altre scene e a riprodurle con queste impostazioni per personalizzare l'animazione._
 
-## **Customize the Visual Styles**
+## **Personalizzazione degli stili di visualizzazione**
 
-_Now we are going to create another scene with some customized **Visual Styles** settings._
+_Ora creeremo un'altra scena con alcune impostazioni di **Stili visualizzazione** personalizzate._
 
-1 - First, open the **Visual Styles Palette**. Note there are four (4) tabs at the top, each containing different visual settings: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**. To learn more about each tab visit the **Visual Styles** chapter in the **Tool Library** section.
+1 - Aprire innanzitutto la **tavolozza Stili visualizzazione**. Notare che nella parte superiore sono presenti quattro \(4\) schede, ciascuna contenente impostazioni di visualizzazione diverse: **Superfici**, **Bordi**, **Ambiente** e **Diagnostica modello**. Per ulteriori informazioni su ciascuna scheda, vedere il capitolo **Stili di visualizzazione** nella sezione **Libreria degli strumenti**.
 
-2 – To customize some settings in the **Surface Tab**:
+2 – Per personalizzare alcune impostazioni nella **scheda Superficie**:
 
-1. Turn on **Shadows (DS)**.
-2. Turn on **Ambient Shadows (DA)**.
-3. Turn on **Monotone Surfaces (DM)**. This makes an abstract black and white image without any materials.
+1. Attivare **Ombre \(DS\)**.
+2. Attivare **Ombre ambiente \(DA\)**.
+3. Attivare **Superfici monocromatiche \(DM\)**. In questo modo si ottiene un'immagine astratta in bianco e nero senza materiali.
 
-![](<../../.gitbook/assets/2 (20) (1).png>)
+![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – To customize some settings in the **Edge Tab**:
+3 – Per personalizzare alcune impostazioni nella **scheda Bordi**:
 
-*
-  1. Adjust the sliders to lighten the **Edges** contrast to around **30%**.
-  2. Turn on the **Extend Edges (DX).**
-  3. Adjust the sliders to lighten the **Silhouettes** contrast to **30%**.
+* 
+   1. Regolare i dispositivi di scorrimento per schiarire il contrasto di **Bordi** a circa **30%**.
+   2. Attivare **Bordi estesi \(DX\).**
+   3. Regolare i dispositivi di scorrimento per schiarire il contrasto di **Silhouette** su **30%**.
 
-![](<../../.gitbook/assets/3 (11) (1).png>)
+![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - To customize some settings in the **Environment Tab**:
+4 - Per personalizzare alcune impostazioni nella **scheda Ambiente**:
 
-1. Turn off **Axes**.
-2. Turn off **Levels**, if on.
+1. Disattivare **Assi**.
+2. Disattivare **Livelli**, se attivata.
 
-![](<../../.gitbook/assets/4 (8) (2).png>)
+![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - Create a new scene called **Customized Scene** to save these settings. Now you can switch back and forth between the **Scenes** to reset the graphic settings.
+5 - Creare una nuova scena denominata **Customized Scene** per salvare queste impostazioni. Ora è possibile passare da una **scena** all'altra per reimpostare le impostazioni grafiche.
 
-![](<../../.gitbook/assets/5 (6) (1).png>)
+![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Note**: If you uncheck the_ _**Camera**_ _property of the new scene, you can use it to only toggle on the visual settings we just created without move the camera position. Give it a try by going to one of your previous Aerial scenes, and then double-clicking on the_ _**Customized Scene**_ _and watching what happens!_
+_**Nota** Deselezionando la proprietà_ _Cinepresa****_ _della nuova scena, è possibile utilizzarla per attivare solo le impostazioni di visualizzazione appena create senza spostare la posizione della cinepresa. Provare utilizzando una delle precedenti scene denominate Aerial, quindi fare doppio clic su_ _**Customized Scene**_ _e osservare cosa succede._
 
-_**Note:**_ _To Learn about_ _**Visual Styles Diagnostics**_ _and advanced applications for_ _**Scenes**, check out the_ _**Primer Part II**._
+_**Nota**_ _Per ulteriori informazioni su_ _**diagnostica degli stili di visualizzazione**_ _e applicazioni avanzate per_ _**Scene**, consultare la_ _**Parte II della Guida introduttiva**._
+

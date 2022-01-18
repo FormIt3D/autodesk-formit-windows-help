@@ -1,28 +1,28 @@
-# 1.10 - Computational Groups with Dynamo
+# 1.10 - Gruppi di calcolo con Dynamo
 
-_In this chapter, we will leverage the computational power of_ [_**Dynamo**_](http://dynamobim.org) _to place and modify flexible groups that are tied to OOTB Dynamo Graphs Samples._
+_In questo capitolo, utilizzeremo la potenza di elaborazione di_ [_**Dynamo**_](http://dynamobim.org/) _per posizionare e modificare i gruppi flessibili associati agli esempi di grafici di Dynamo predefiniti._
 
-_If you did not complete the last section, download and open the_ _**1.10 – Computational Groups with Dynamo.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.10 - Computational Groups with Dynamo.axm**_ _dal_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
 
-_You can_ [_**learn more here**_](http://formit.autodesk.com/page/formit-dynamo) _about how FormIt and Dynamo work together for computational design workflows._
+_È possibile_ [_**ottenere ulteriori informazioni qui**_](http://formit.autodesk.com/page/formit-dynamo) _sul modo in cui FormIt e Dynamo collaborano per i workflow di progettazione computazionale._
 
-## **Create Lower Terrace Stairs**
+## **Creazione di scale della terrazza inferiore**
 
-1 - Make sure the **Lower Terrace, Main Building Floor**, and **Plan Image** layers are turned on, since that is where we are going to add the stairs.
+1 - Assicurarsi che i layer **Lower Terrace, Main Building Floor** e **Plan Image** siano attivati, poiché è qui che aggiungeremo le scale.
 
-2 - To place a stair group tied to one of the OOTB Dynamo Samples:
+2 - Per posizionare un gruppo scale collegato ad uno degli esempi di Dynamo predefiniti:
 
-1. Open the **Dynamo Palette** in the Palette Bar. You should see a few built-in Dynamo objects in the **Dynamo Samples** directory
-2. Single-click the **Stairs** Dynamo sample to bring it to the model space. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.
-3. Move your cursor over the canvas, and once the stair is loaded, a ghosted preview of the stair geometry will now be moving alongside your mouse. Move your cursor over the canvas, near the terrace, and click to place the stair. Press **Esc** to clear the selection. Note that after placing the stairs the **Properties Palette** will automatically open.
+1. Aprire la **tavolozza di Dynamo** sulla barra delle tavolozze. Dovrebbero essere visualizzati alcuni oggetti di Dynamo incorporati nella directory **Dynamo Samples**.
+2. Fare clic sull'esempio di Dynamo **Stairs** per portarlo nello spazio modello. In FormIt si eseguirà in background il grafico, da cui verrà generata la geometria della scala.
+3. Spostare il cursore nell'area di disegno e, una volta caricata la scala, un'anteprima semitrasparente della geometria della scala si sposterà ora insieme al mouse. Spostare il cursore nell'area di disegno, vicino alla terrazza, quindi fare clic per posizionare la scala. Premere **ESC** per annullare la selezione. Notare che dopo il posizionamento delle scale, la **tavolozza Proprietà** si aprirà automaticamente.
 
-![](<../../.gitbook/assets/0 (15) (1).png>)
+![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**Note:**_ [_**You can also link local directories**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _containing Dynamo graphs, and run your own local Dynamo graphs just like these samples._
+_**Nota**_ [_**È inoltre possibile collegare le directory locali**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _contenenti i grafici di Dynamo ed eseguire i grafici di Dynamo locali come questi esempi._
 
-3 - To update the stairs dimensions:
+3 - Per aggiornare le quote delle scale:
 
-1. With the stair group selected, modify the inputs available under the Dynamo **INPUTS** section at the bottom of the **Properties Palette** to match as shown below. Most groups created via Dynamo Scrips will have a Dynamo section included in their properties when selected.
+1. Con il gruppo scale selezionato, modificare gli input disponibili nella sezione **INPUTS** di Dynamo nella parte inferiore della **tavolozza Proprietà** in modo che corrispondano come mostrato di seguito. La maggior parte dei gruppi creati tramite gli script di Dynamo includerà una sezione di Dynamo nelle relative proprietà quando selezionate.
    * Add Top Landing = False
    * Add Middle Landing = False
    * Add Bottom Landing = False
@@ -32,32 +32,32 @@ _**Note:**_ [_**You can also link local directories**_](https://formit.autodesk.
    * Tread Length = 1.25
    * Tread Overlap = 0.25
    * Tread Thickness = 0.25
-   * Height Between Middle Landings = (not relevant since no middle landing is being created)
-   * Middle Landing Length = (not relevant since no middle landing is being created)
-   * Top/Bottom Landing Length = (not relevant since no landing is being created)
-2. Click on the **Run** button to re-run the Dynamo script using the updated input values.
-3. Move the group as needed to place the stair in the correct location accordingly to the **Plan Image**. Take care not to change the elevation of the stair group at all as you move it. Refer to previous chapters to learn more about tricks and techniques when moving model elements.
+   * Height Between Middle Landings = \(non pertinente poiché non viene creato alcun pianerottolo centrale\)
+   * Middle Landing Length = \(non pertinente poiché non viene creato alcun pianerottolo centrale\)
+   * Top/Bottom Landing Length = \(non pertinente poiché non viene creato alcun pianerottolo\)
+2. Fare clic sul pulsante **Esegui** per rieseguire lo script di Dynamo utilizzando i valori di input aggiornati.
+3. Spostare il gruppo in base alle esigenze per posizionare la scala nella posizione corretta, in base a **Plan Image**. Prestare attenzione a non modificare il prospetto del gruppo scale mentre lo si sposta. Consultare i capitoli precedenti per ulteriori informazioni sui trucchi e sulle tecniche per lo spostamento degli elementi del modello.
 
-![](<../../.gitbook/assets/1 (11).png>)
+![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**‌Note:**_ _The_ _**Floor-to-Floor Height**_ _input is an approximation of the stair’s total height. The_ _**Riser Height**_ _is the parameter that actually defines the height of the stairs. In this example we set the_ _**Floor-to-Floor Height**_ _as 2.6’ but the final stair height is 3.0’ (0.6’ (**Riser Height**) x 5 (number of risers)). Since the span between the ground and the terrace top of floor is 3’-2”, the remaining 2” is contained in the upper riser._
+_**Nota**_ _L'input_ _**Floor-to-Floor Height**_ _è un'approssimazione dell'altezza totale della scala._ _**Riser Height**_ _è il parametro che definisce effettivamente l'altezza delle scale. In questo esempio impostiamo_ _**Floor-to-Floor Height**_ _su 2.6' ma l'altezza finale della scala è 3.0' \(0.6' \(**Riser Height**\) x 5 \(numero di alzate\)\). Poiché lo spazio tra il terreno e la parte superiore della terrazza del pavimento è di 3'-2", il valore rimanente 2" è contenuto nell'alzata superiore._
 
-## **Create Main Building Stairs**
+## **Creazione di scale dell'edificio principale**
 
-_In the previous steps we created a stair with no landings. Now we will create a stair that uses an upper landing that aligns with the_ _**Main Building Floor**._
+_Nei passaggi precedenti abbiamo creato una scala senza pianerottoli. Ora creeremo una scala che utilizza un pianerottolo superiore allineato con_ _**Main Building Floor**._
 
-1 - Start by making a copy of the stairs we just made:
+1 - Iniziare creando una copia delle scale appena create:
 
-1. Select the existing stair and then click anywhere on the **Plan Image** to start a move command. This will cause FormIt to use the elevation of the **Plan Image** as the starting reference height for place our new copy. Press **Ctrl** to make a **quick copy**.
-2. Move the cursor over closer to the main building above the terrace. Note that now the terrace’s top face is the new reference plane. Click to place the group.
+1. Selezionare la scala esistente, quindi fare clic in un punto qualsiasi di **Plan Image** per avviare un comando di spostamento. In questo modo in FormIt verrà utilizzato il prospetto di **Plan Image** come altezza di riferimento iniziale per il posizionamento della nuova copia. Premere **CTRL** per eseguire una **copia rapida**.
+2. Spostare il cursore più vicino all'edificio principale sopra la terrazza. Notare che ora la superficie superiore della terrazza è il nuovo piano di riferimento. Fare clic per posizionare il gruppo.
 
-![](<../../.gitbook/assets/2 (9) (1).png>)
+![](../../.gitbook/assets/2%20%289%29.png)
 
-_**Note:**_ _Since the_ _**Plan Image**_ _is at the_ _**Ground Level**_ _plane, the_ _**Move Tool**_ _will use that plane as a reference for its start point. Note the_ _**On Face**_ _tooltip in the above image, indicating that the Plan Image face is selected as the starting reference, and the top face of the_ _**Lower Terrace Floor**_ _is selected as the ending reference._
+_**Nota**_ _Poiché_ _**Plan Image**_ _si trova sul piano_ _**Ground Level**_ _, lo_ _**strumento Sposta**_ _utilizzerà quel piano come riferimento per il punto iniziale. Notare la descrizione comando_ _**Sulla superficie**_ _nell'immagine precedente, ad indicare che la superficie Plan Image è selezionata come riferimento iniziale e la superficie superiore di_ _**Lower Terrace Floor**_ _è selezionata come riferimento finale._
 
-2 - Use the **Make Unique (MU)** tool so that when we change this stair’s Dynamo inputs it will not affect the lower stair. Reposition the group as needed so that it is close to its final location – we will fine tune this later. You can toggle the **Lower Terrace** layer visibility to see the plan below to help position it, but again be careful not to change the new stair’s elevation as you move it.
+2 - Utilizzare lo strumento **Rendi univoco \(MU\)** in modo che quando modifichiamo gli input di Dynamo di questa scala, la scala inferiore non verrà influenzata. Riposizionare il gruppo in base alle esigenze in modo che si trovi vicino alla posizione finale. Perfezioneremo questo elemento in un secondo momento. È possibile attivare o disattivare la visibilità del layer **Lower Terrace** per visualizzare la pianta sottostante in modo da posizionarla, ma è necessario fare nuovamente attenzione a non modificare il prospetto della nuova scala mentre la si sposta.
 
-3 - In the **Properties Palette** update the **Dynamo Inputs** as shown below and run the script once more.
+3 - Nella **tavolozza Proprietà** aggiornare la sezione **Inputs di Dynamo** come mostrato di seguito ed eseguire nuovamente lo script.
 
 * Add Top Landing = True
 * Floor-to-Floor Height = 2.333
@@ -65,10 +65,11 @@ _**Note:**_ _Since the_ _**Plan Image**_ _is at the_ _**Ground Level**_ _plane, 
 * Tread Length = 1.5
 * Top/Bottom Landing Length = 2.5
 
-![](<../../.gitbook/assets/3 (1).jpeg>)
+![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**Note:**_ _If you set_ _**Add Bottom Landing**_ _to_ _**true**_ _and re-run the script, the bottom landing’s top face should align with the_ _**Lower Terrace Floor**’s top face. This is happening because – differently from the previous stairs - we adjusted the_ _**Riser Height**_ _to match the_ _**Floor-to-Floor Height**_ _to the true height we want (2’-4” or 2.333’)._
+_**Nota**_ _Se si imposta_ _**Add Bottom Landing**_ _su_ _**True**_ _e si riesegue lo script, la superficie superiore del pianerottolo inferiore deve essere allineata alla superficie superiore di_ _**Lower Terrace Floor**. Ciò accade perché, diversamente dalle scale precedenti, è stata regolata l'opzione_ _**Riser Height**_ _in modo che_ _**Floor-to-Floor Height**_ _corrisponda all'altezza reale desiderata \(2'-4" o 2.333"\)._
 
-2 - Reposition the group again to its final position. The top landing should be flush with the **Main Building Floor**.
+2 - Riposizionare il gruppo nella posizione finale. Il pianerottolo superiore deve essere allineato con **Main Building Floor**.
 
-3 - To finalize the stairs, add the **Stone - Travertine** material to it to match the floors. To learn more about how to apply materials, see previous chapters.
+3 - Per finalizzare le scale, aggiungere il materiale **Stone - Travertine** per uniformarle ai pavimenti. Per ulteriori informazioni sull'applicazione dei materiali, vedere i capitoli precedenti.
+

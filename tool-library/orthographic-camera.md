@@ -1,17 +1,18 @@
-# Orthographic Camera
+# Cinepresa Ortogonale
 
-FormIt 2021 includes the addition of a new Orthographic Camera feature. You can find the Orthographic and Perspective buttons in the Navigation Menu:
+FormIt 2021 include l'aggiunta della nuova funzionalità della cinepresa Ortogonale. I pulsanti Ortogonale e Prospettica sono disponibili nel menu di navigazione:
 
-![Orthographic (bottom) and Perspective (top) camera view buttons ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Pulsanti della vista della cinepresa Ortogonale \(inferiore\) e Prospettica \(superiore\)](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-This new option allows you to easily toggle between the Orthographic and Perspective camera views.
+Questa nuova opzione consente di passare facilmente dalla vista della cinepresa Ortogonale a quella Prospettica e viceversa.
 
-![A model can be toggled from Perspective Camera to Orthographic Camera mode.](<../.gitbook/assets/ortho-camera (1).gif>)
+![È possibile passare dalla modalità della cinepresa Prospettica a Ortogonale e viceversa per un modello.](../.gitbook/assets/ortho-camera.gif)
 
-Once in Orthographic camera, any other camera tools will respect the current mode. For example, **Align Camera to Face** will align the Orthographic Camera to the face, resulting in an orthographic elevation view.
+Nella vista della cinepresa Ortogonale, eventuali altri strumenti della cinepresa rispetteranno la modalità corrente. Ad esempio, **Allinea cinepresa alla superficie** allinea la cinepresa Ortogonale alla superficie, producendo una vista di prospetto ortogonale.
 
-If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position, making it easier to access those pre-set views.
+Se si passa manualmente ad una vista Ortogonale preimpostata, ad esempio Vista dall'alto o Vista anteriore, la vista della cinepresa Ortogonale eseguirà lo snap a quella posizione, semplificando l'accesso a tali viste preimpostate.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Note:** If camera clipping occurs in Orthographic Camera mode, you can switch back to Perspective Mode, zoom out, and then try again.
+**Nota:** Se il ritaglio della cinepresa viene eseguito nella modalità della cinepresa Ortogonale, è possibile tornare alla modalità Prospettiva, eseguire lo zoom indietro e riprovare.
+

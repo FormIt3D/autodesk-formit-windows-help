@@ -1,40 +1,41 @@
-# Non-Uniform Scale
+# Scala non uniforme
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**Utilizzare Scala non uniforme per stirare gli oggetti in 1, 2 o 3 quote.**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+Selezionare una combinazione qualsiasi di bordi, superfici, solidi, mesh o gruppi e accedere a Scala non uniforme utilizzando il tasto di scelta rapida **NU** o dall'opzione del menu contestuale:
 
-![](../.gitbook/assets/nu-scale\_context-menu.PNG)
+![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.**
+**Una volta attivata l'opzione, verrà visualizzata una serie di grip che possono essere utilizzati per mettere in scala l'oggetto in modo non uniforme su 1, 2 o 3 assi contemporaneamente.**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+Per maggiore chiarezza, verranno disegnati solo i grip rivolti verso la cinepresa. Eseguire l'orbita attorno all'oggetto se è necessario regolare un grip sull'altro lato.
 
-![](../.gitbook/assets/nu-scale\_grips-1.PNG)
+![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+Quando si fa clic su un grip, verrà visualizzata una serie di caselle di testo modificabili in cui è possibile regolare la scala in base alla percentuale o alla distanza:
 
-![](../.gitbook/assets/nu-scale\_grips-2.PNG)
+![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**Una volta visualizzate le caselle di quota, è possibile:**
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Iniziare a digitare un numero per modificare automaticamente la casella della percentuale e specificare un fattore di scala.
+   * Se si immette un numero negativo, la direzione della scala verrà invertita.
+* In alternativa, fare clic per impostare temporaneamente la posizione del grip, quindi fare clic sulla casella contenente la quota per la messa in scala in base alla distanza.
+* Fare clic nello spazio o premere ESC per terminare l'operazione Scala non uniforme.
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**La messa in scala in corrispondenza di uno dei grip dei bordi degli angoli rispetta le proporzioni delle quote adiacenti:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Iniziare a digitare un numero per modificare il valore della percentuale.
+* In alternativa, fare clic per impostare temporaneamente la posizione del grip, quindi fare clic su una delle due caselle di quota per la messa in scala in base alla distanza.
+* Fare clic nello spazio o premere ESC per terminare l'operazione Scala non uniforme.
 
-![](../.gitbook/assets/nu-scale\_grips-3.PNG)
+![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**Analogamente, la messa in scala in corrispondenza di uno dei grip degli angoli rispetta le proporzioni dell'intera forma e verrà eseguita correttamente la messa in scala uniforme:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Iniziare a digitare un numero per modificare il valore della percentuale.
+* In alternativa, fare clic per impostare temporaneamente la posizione del grip, quindi fare clic su una delle tre caselle di quota per la messa in scala in base alla distanza.
+* Fare clic nello spazio o premere ESC per terminare l'operazione Scala non uniforme.
 
-![](../.gitbook/assets/nu-scale\_grips-4.PNG)
+![](../.gitbook/assets/nu-scale_grips-4.PNG)
+

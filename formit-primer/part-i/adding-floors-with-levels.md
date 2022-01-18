@@ -1,35 +1,36 @@
-# 1.4 - Add Floors with Levels
+# 1.4 - Aggiunta di pavimenti con livelli
 
-_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
+_I livelli consentono di tagliare le masse con singoli riferimenti del pavimento e calcolare l'area lorda per massa dell'edificio. I livelli di FormIt e i relativi nomi personalizzati verranno convertiti in livelli di Revit quando il file viene convertito in Revit._
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file **1.4 - Add Floors with Levels.axm** dai **set di dati della Parte I della Guida introduttiva di FormIt**._
 
-## **Create, and Customize Levels**
+## **Creazione e personalizzazione di livelli**
 
-1 - To create levels:
+1 - Per creare livelli:
 
-1. Go to the **Level Palette** in the **Palette Bar**.
-2. Click **+** (**Add Level**) four times to create four Levels.
-3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
-4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
+1. Accedere alla **tavolozza Livelli** sulla **barra delle tavolozze**.
+2. Fare clic su **+** \(**Aggiungi livello**\) quattro volte per creare quattro livelli.
+3. Fare doppio clic sulla quota altimetrica corrente di ciascun livello per modificarla in **0'-0", 2'-2", 4'-6"** e **17'-8"**.
+4. Fare doppio clic sul nome corrente di ciascun livello e rinominarlo **Ground, Terrace, Main Building,** e **Top of Roof.**
 
-![](<../../.gitbook/assets/0 (16) (1).png>)
+![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
+_**Nota** È possibile fare clic sull'icona_ _**++**_ _per creare più livelli, con una distanza specificata e uniforme tra loro. Questa opzione è utile per gli edifici a più piani_.
 
-## **Apply Levels to Geometry**
+## **Applicazione di livelli alla geometria**
 
-_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
+_Nei passaggi precedenti, abbiamo creato solo i livelli. Ora possiamo applicare tali livelli alla geometria che abbiamo creato._
 
-1 - To apply levels to the exiting geometry:
+1 - Per applicare i livelli alla geometria esistente:
 
-1. Select the entire upper terrace mass by double-clicking it.
-2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
-3. Now the currently selected geometry has three levels applied to it (**Main Building, Terrace,** and **Ground**), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
-4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
+1. Selezionare l'intera massa della terrazza superiore facendovi doppio clic.
+2. Nella **tavolozza Proprietà**, fare clic su **Usa livelli**. Con questo passaggio si preselezionano tutti i livelli che attualmente intersecano la geometria selezionata.
+3. Ora alla geometria attualmente selezionata sono applicati tre livelli \(**Main Building, Terrace** e **Ground**\), ma per questo esercizio desideriamo applicare solo **Ground**. Deselezionare **Main Building** e **Terrace**.
+4. Questa procedura garantisce che solo l'area intersecata da **Ground** venga considerata per il calcolo dell'area lorda, che può essere visualizzato nel campo **Area per livello**.
 
-![](<../../.gitbook/assets/1 (4) (1).png>)
+![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+_**Nota** Se non sono visualizzate linee di livello blu nella massa, digitare_ _**DL**_ _per_ _**Visualizza livelli**._
 
-![](<../../.gitbook/assets/2 (3) (1).png>)
+![](../../.gitbook/assets/2%20%283%29.png)
+

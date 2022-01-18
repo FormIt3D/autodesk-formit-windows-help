@@ -1,25 +1,28 @@
-# Sun + Shadows
+# Sole + Ombre
 
-Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
+Utilizzare lo strumento **Sole + Ombre** per studiare gli effetti del percorso del sole sui progetti.
 
-The first step for accurate shadow studies is to [**set your project location**](setting-location.md).
+Il primo passaggio per studi accurati sulle ombre consiste nell'[**impostare la posizione del progetto**](setting-location.md).
 
-Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+Dopo aver impostato la posizione e, se lo si desidera, importato un'immagine satellitare, modellare il progetto, incluso il contesto dell'edificio ed elementi ombreggianti come griglie di ventilazione e alberi.
 
-## The Sun + Shadows Menu
+### Menu Sole + Ombre
 
-Turn shadows on in the Sun + Shadows menu at the top of the application (you can also enable shadows, as well as adjust shadow intensity, in [**Visual Styles**](../formit-introduction/tool-bars.md)):
+Attivare le ombre nel menu Sole + Ombre nella parte superiore dell'applicazione \(è inoltre possibile attivare le ombre, nonché regolare l'intensità delle ombre, in [**Stili visualizzazione**](../formit-introduction/tool-bars.md)\):
 
-![](../.gitbook/assets/sun-+-shadows.png)
+![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+Da qui, è possibile regolare l'ora del giorno e il giorno dell'anno. L'anno di default è 2000. Non preoccuparsi perché questo non influisce sulla precisione dello studio sull'ombreggiatura del sole.
 
-## The Sun Editor
+### Editor sole
 
-You can also toggle the Sun Editor from the Sun + Shadows menu (or use shortcut DR), which provides a graphical display of the sun's location in space:
+È inoltre possibile attivare e disattivare l'Editor sole dal menu Sole + Ombre \(o utilizzare il tasto di scelta rapida DR\), che fornisce una visualizzazione grafica della posizione del sole nello spazio:
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
-* Grab the circular grip to move the sun along its path and effectively adjust the time of day.
-* Adjust the time of year from the Sun + Shadows menu. Doing so will adjust the angle and orientation of the graphical sun path based on the time of year.
+* L'Editor sole si sposta con la cinepresa, pertanto potrebbe essere necessario regolare il livello di zoom e/o l'orientamento della cinepresa per collocare il widget in una posizione che sia appropriata rispetto al progetto che si sta studiando.
+* Afferrare il grip circolare per spostare il sole lungo il percorso e regolare correttamente l'ora del giorno.
+* Regolare l'ora dell'anno dal menu Sole + Ombre. In questo modo, l'angolo e l'orientamento del percorso del sole grafico verranno regolati in base al periodo dell'anno.
+
+
+

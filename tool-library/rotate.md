@@ -1,13 +1,14 @@
-# Rotate Object
+# Rotazione di oggetti
 
-You can change the orientation of objects using the Rotate tool in the Context Menu.
+È possibile modificare l'orientamento di oggetti utilizzando lo strumento Ruota nel menu contestuale.
 
-1. Select an element you want to rotate and right-click to launch the Context Menu.
-2. From the Context Menu, select the Rotate tool.&#x20;
-3. When the protractor graphic appears on your mouse, click to set the plane for rotation.
-4. Use the blue grips to specify the start point of the rotation, and reset the axis if necessary. Use the arrows or the editable dimension box to set the rotation angle.&#x20;
+1. Selezionare un elemento da ruotare e fare clic con il pulsante destro del mouse per aprire il menu contestuale.
+2. Dal menu contestuale, selezionare lo strumento Ruota.
+3. Quando l'elemento grafico del goniometro viene visualizzato sul mouse, fare clic per impostare il piano per la rotazione.
+4. Utilizzare i grip blu per specificare il punto iniziale della rotazione e, se necessario, reimpostare l'asse. Utilizzare le frecce o il riquadro di quota modificabile per impostare l'angolo di rotazione.
 
-Note that you can alse use the **Q** keyboard shortcut to access the rotate tool after selecting an element.
+Tenere presente che è anche possibile utilizzare il tasto di scelta rapida **Q** per accedere allo strumento Ruota dopo aver selezionato un elemento.
 
-![](../.gitbook/assets/rotate1.png)\
+![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)
+

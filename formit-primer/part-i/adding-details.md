@@ -1,128 +1,129 @@
-# 1.9 - Adding Details
+# 1.9 - Aggiunta di dettagli
 
-_FormIt is a great massing tool - as well as a great modeling tool. We will start to add detail to the Farnsworth House in the form of doors and mullions for the glass box. We will then cover some additional tools, and practice the process of adding new geometry, layers, materials, and group management._
+_FormIt è un ottimo strumento per le volumetrie, oltre a essere un eccellente strumento di modellazione. Cominceremo ad aggiungere dettagli a Casa Farnsworth sotto forma di porte e montanti per il parallelepipedo in vetro. Successivamente, tratteremo alcuni strumenti aggiuntivi ed eseguiremo la procedura di aggiunta di nuova geometria, layer, materiali e gestione di gruppi._
 
-_If you did not complete the last section, download and open the_ _**1.9 - Adding Details.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.9 - Add Details.axm**_ _dai_ _**set di dati della Parte I della Guida introduttiva di FormIt**._
 
-## **Create Window Frames**
+## **Creazione di telai di finestre**
 
-_We are going to create a 2" metal frame and mullions around the glass box. Note that these mullions will intentionally overlap with the glass box._
+_Creeremo un telaio in metallo da 2" e montanti attorno al parallelepipedo in vetro. Questi montanti si sovrappongono intenzionalmente con il parallelepipedo in vetro._
 
-1 - Create a new layer called **Glass Walls** and move the **Glass Wall** group to it.
+1 - Creare un nuovo layer denominato **Glass Walls** e spostarvi il gruppo **Glass Wall**.
 
-2 - To facilitate visualization, turn off the **Roof** layer so we can see the entire glass box.
+2 - Per facilitare la visualizzazione, disattivare il layer **Roof** in modo da poter visualizzare l'intero parallelepipedo in vetro.
 
-3 - To start creating the first window frame:
+3 - Per iniziare a creare il primo telaio della finestra:
 
-1. At the building’s western side, use the **Rectangle Tool (R)** to draw a new surface directly over the exterior glass face. Make sure to create the surface outside the **Glass Walls** group.
-2. Select and drag the newly created face **2"** towards the interior. Press **Esc** to clear the selection. The final result should look like the image below.
-3. Single-click the face you just created. Right-click to access the **Context Menu** to use the **Offset Face tool (OF).**
+1. Sul lato occidentale dell'edificio, utilizzare lo **strumento Rettangolo \(R\)** per disegnare una nuova superficie direttamente sulla superficie esterna in vetro. Assicurarsi di creare la superficie all'esterno del gruppo **Glass Walls**.
+2. Selezionare e trascinare la superficie appena creata **2"** verso l'interno. Premere **ESC** per annullare la selezione. Il risultato finale dovrebbe essere simile a quello mostrato nell'immagine riportata di seguito.
+3. Fare clic una sola volta sulla superficie appena creata. Fare clic con il pulsante destro del mouse per accedere al **menu contestuale** e utilizzare lo **strumento Offset superficie \(OF\).**
 
-_**Note:**_ _If you have trouble selecting the new face, press the_ _**Space Bar**_ _key to alternate between different selectable objects, or temporarily turn off the_ _**Glass Walls**_ _layer._
+_**Nota**_ _In caso di problemi nella selezione della nuova superficie, premere il tasto_ _**BARRA SPAZIATRICE**_ _per alternare oggetti selezionabili diversi o disattivare temporaneamente il layer_ _**Glass Walls**_ _._
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - To set the offset dimension, move your mouse toward the inside of the face, and enter **2"** to create a new smaller rectangle.
+4 - Per impostare la quota di offset, spostare il mouse all'interno della superficie e immettere **2"** per creare un nuovo rettangolo più piccolo.
 
-![](<../../.gitbook/assets/1 (9).png>)
+![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - Single-click to select the interior rectangle you just created. Click again and drag the face towards the building’s interior until it disappears. Click once more to finish removing the center volume from the frame geometry.
+5 - Fare clic una sola volta per selezionare il rettangolo interno appena creato. Fare nuovamente clic e trascinare la superficie all'interno dell'edificio fino a quando non scompare. Fare clic ancora una volta per terminare la rimozione del volume centrale dalla geometria del telaio.
 
-![](<../../.gitbook/assets/2 (21).png>)
+![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - Double-click to select the geometry we just created and **Group (G)** it. Name the group **Mullion Frame – EW**.​
+6 - Fare doppio clic per selezionare la geometria appena creata e scegliere **Gruppo \(G\)**. Denominare il gruppo **Mullion Frame – EW**​.
 
-7 - Create a Layer named **Mullion** and place the new group on it.
+7 - Creare un layer denominato **Mullion** e inserirvi il nuovo gruppo.
 
-8 - To set the frame’s material:
+8 - Per impostare il materiale del telaio:
 
-1. Inside the **Materials Palette**, duplicate the **Metal – Brushed – Colorized** material by right-clicking on it and selecting **Duplicate Material**.
-2. Double-click the new material’s preview tile to edit it.
-3. Rename it to **Metal – Brushed – Gray**.
-4. Modify the material’s color by clicking on the **Color** tile in the **Maps** section, and darken the grey by changing the **Val:** to **150**.
+1. Nella **tavolozza Materiali**, duplicare il materiale **Metal – Brushed – Colorized** facendovi clic con il pulsante destro del mouse e selezionando **Duplica materiale**.
+2. Fare doppio clic sul riquadro di anteprima del nuovo materiale per modificarlo.
+3. Rinominarlo **Metal – Brushed – Gray**.
+4. Modificare il colore del materiale facendo clic sul riquadro **Colore** nella sezione **Mappe** e scurire il grigio modificando **Val:** in **150**.
 
-![](<../../.gitbook/assets/3 (4).png>)
+![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - Click **OK** to save these changes to the new material, and then paint the **Mullion Frame – EW** group with it. Afterward, the group's **Properties Palette** should match what is shown in the below image:
+9 - Fare clic su **OK** per salvare le modifiche apportate al nuovo materiale, quindi dipingere il gruppo **Mullion Frame – EW**. Successivamente, la **tavolozza Proprietà** del gruppo dovrebbe corrispondere a quella mostrata nell'immagine riportata di seguito:
 
-![](<../../.gitbook/assets/4 (2).jpeg>)
+![](../../.gitbook/assets/4.jpeg)
 
-10 - Create a new instance of the frame on the eastern side by using any of the following tools: **Quick copy**, **Array,** or **Mirror**.
+10 - Creare una nuova istanza del telaio sul lato orientale utilizzando uno qualsiasi dei seguenti strumenti: **Copia rapida**, **Matrice** o **Copia speculare**.
 
-11 -Repeat the steps above for the North and South sides of the glass box. Name the new group **Mullion Frame – NS**. Don’t forget to paint them and place them on the **Mullion** layer!
+11 - Ripetere i passaggi precedenti per i lati nord e sud del parallelepipedo in vetro. Demoninare il nuovo gruppo **Mullion Frame – NS**. Non dimenticare di dipingerli e di posizionarli sul layer **Mullion**.
 
-![](<../../.gitbook/assets/5 (16) (1).png>)
+![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Note:**_ _The mullion frames overlap each other at the corners. This is intentional. The above result shows the resulting mullion frame geometry with the_ _**Glass Wall**_ _and_ _**Column**_ _layers turned off._
+_**Nota**_ _I telai a montanti si sovrappongono in corrispondenza degli angoli. Questo è intenzionale. Il risultato riportato sopra mostra la geometria risultante del telaio a montanti con i layer_ _**Glass Wall**_ _e_ _**Column**_ _disattivati._
 
-**Create Mullions**
+**Creazione di montanti**
 
-1 - In plane with the exterior glass face on the building’s South or North side, draw a **2” x 10’-10” Rectangle (R)** spanning from between the bottom and top of the mullion frame. Do not worry about the exact position of the rectangle along the frame, we will move it into place in the following steps.
+1 - In piano con la superficie esterna in vetro sul lato sud o nord dell'edificio, disegnare un **Rettangolo \(R\) da 2" x 10"-10"** che si estende dalla parte inferiore alla parte superiore del telaio a montanti. Non importa la posizione esatta del rettangolo lungo il telaio; lo sposteremo in posizione nei seguenti passaggi.
 
-![](<../../.gitbook/assets/6 (11).png>)
+![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - Extrude the rectangle back **2”**, and then **Group (G)** it and name the group **Mullion – Vertical**. Place the group on the **Mullion** layer and paint it with the **Metal – Brushed – Grey** material.
+2 - Estrudere il rettangolo indietro di **2"**, quindi scegliere **Gruppo \(G\)o** e denominare il gruppo **Mullion – Vertical**. Posizionare il gruppo sul layer **Mullion** e dipingerlo con il materiale **Metal – Brushed – Grey**.
 
-**Locating the Mullions**
+**Individuazione dei montanti**
 
-_Now we will set the location for the first mullion so that its centered on the_ _**Mid-Point**_ _of a column._
+_Ora imposteremo la posizione per il primo montante in modo che sia centrato sul_ _**punto medio**_ _di un pilastro._
 
-1 - To see the columns again, turn on the **Column** layer, if it was off. While you are in the **Layers Palette**, you can also turn off the **Lower Terrace** and **Plan Image** layers to make the next steps easier.
+1 - Per visualizzare nuovamente i pilastri, attivare il layer **Column**, se è stato disattivato. Nella **tavolozza Layer**, è inoltre possibile disattivare i layer **Lower Terrace** e **Plan Image** per semplificare i passaggi successivi.
 
-2 - To move the mullion to its new location:
+2 - Per spostare il montante nella nuova posizione:
 
-1. Single-click to select the vertical mullion group you just created. **Zoom (Z)** in and click on the **Mid-Point** of the mullion’s bottom exterior edge, symbolized by a red triangle**.**
-2. Start moving the geometry horizontally towards a column. Press **Shift** to lock the movement in the red axis (**X Axis**). Note that once the movement is locked the red axis gets thicker.
-3. Zoom out until you can see the base of the column. While still holding **Shift**, click on the **Mid-Point** at the base of the column's outer face. The mullion will continue to only move along the red axis (**X Axis**), but will align to the **Mid-Point** you just clicked on.
+1. Fare clic una sola volta per selezionare il gruppo di montanti verticali appena creato. Eseguire **Zoom \(Z\)** avanti e fare clic sul **punto medio** del bordo esterno inferiore del montante, simboleggiato da un triangolo rosso**.**
+2. Iniziare a spostare la geometria orizzontalmente verso un pilastro. Premere **MAIUSC** per bloccare il movimento nell'asse rosso \(**Asse X**\). Notare che una volta bloccato il movimento, l'asse rosso diventa più spesso.
+3. Eseguire lo zoom indietro fino a visualizzare la base del pilastro. Tenendo premuto **MAIUSC**, fare clic sul **punto medio** alla base della superficie esterna del pilastro. Il montante continuerà a spostarsi solo lungo l'asse rosso \(**Asse X**\), ma si allineerà al **Punto medio** su cui si è appena fatto clic.
 
-![](<../../.gitbook/assets/7 (1) (1).jpeg>)
+![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Note:**_ _The mullion is now directly behind the column. Turn off the_ _**Column**_ _layer or_ _**Orbit (O)**_ _to visualize the mullion._
+_**Nota**_ _Il montante ora si trova direttamente dietro il pilastro. Disattivare il layer_ _**Column**_ _o eseguire_ _**Orbita \(O\)**_ _per visualizzare il montante._
 
-3 - Press **Esc** to clear the **Move** tool.
+3 - Premere **ESC** per deselezionare lo strumento **Sposta**.
 
-4 - Use the **Array (AR)** or **Quick Copy** tool to create four (4) more vertical mullions along the same side, spaced **11’** apart. To learn how to use the **Array Tool**, refer to previous chapters.
+4 - Utilizzare lo strumento **Matrice \(AR\)** o **Copia rapida** per creare quattro \(4\) montanti verticali sullo stesso lato, distanziati tra loro di **11'**. Per ulteriori informazioni sull'utilizzo dello **strumento Matrice**, consultare i capitoli precedenti.
 
-5 - Use the Tab key to select all the **Vertical** Mullion groups, and copy them to the opposite side of the building, so that both the **North** and **South** frames have identical mullion layouts, as shown in the next image:
+5 - Utilizzare il tasto TAB per selezionare tutti i gruppi di montanti **verticali** e copiarli sul lato opposto dell'edificio, in modo che sia i telai a **nord** che quelli a **sud** abbiano gli stessi layout di montanti, come mostrato nell'immagine seguente:
 
-![](<../../.gitbook/assets/8 (6).png>)
+![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Create the Door Mullions**
+## **Creazione dei montanti delle porte**
 
-1 - **Orbit (O)** the perspective view until you are looking at the center of the West mullion frame.
+1 - Eseguire **Orbita \(O\)** per la vista prospettica fino a quando non si osserva il centro del telaio a montanti ovest.
 
-2 - Similar to creating mullion frames, draw a **3’-6”** wide door panel with a **2”x 2”** frame. Make it a **Group (G)** with the properties: Group Name: **Curtain Wall Door**; layer: **Mullion**; material: **Metal – Brushed – Grey**.
+2 - Analogamente alla creazione di telai a montanti, disegnare un pannello di porta largo **3'-6"** con un telaio di **2"x 2"**. Impostarlo come **Gruppo \(G\)** con le proprietà: nome del gruppo: **Curtain Wall Door**; layer: **Mullion**; materiale: **Metal – Brushed – Grey**.
 
-3 - Copy this group to create the second door frame, and move them so that they are centered in the **Mullion Frame – EW** group, as shown below.
+3 - Copiare questo gruppo per creare il secondo telaio della porta e spostarlo in modo che sia centrato nel gruppo **Mullion Frame – EW**, come mostrato di seguito.
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Create Roof Cornice with Sweep**
+## **Creazione di un cornicione del tetto con estrusione su percorso**
 
-_We will now create the cornice of the Farnsworth House using one of FormIt’s advanced modeling tools -_ _**Sweep**. To learn about other advanced modeling, check out the_ **2.2 -** _**Advanced Modeling** chapter_ _in the_ _**FormIt Primer - Part II**._
+_Ora creeremo il cornicione di Casa Farnsworth con uno degli strumenti di modellazione avanzati di FormIt,_ _**Estrusione su percorso**. Per ulteriori informazioni sulla modellazione avanzata, consultare il capitolo_ **2.2 -** _**Modellazione avanzata**_ _nella_ _**Guida introduttiva di FormIt - Parte II**._
 
-_The first step into creating a_ _**Sweep**_ _is to draw a profile perpendicular to the sweep “extrusion”. To do that, we will use the roof geometry as a guide._
+_Il primo passaggio per la creazione di un'_ _**estrusione su percorso**_ _consiste nel disegnare un profilo perpendicolare all'estrusione stessa. A tale scopo, utilizzeremo la geometria del tetto come guida._
 
-1 - Turn on the **Roof** layer and zoom in to one of its corners.
+1 - Attivare il layer **Roof** ed eseguire lo zoom avanti di uno dei relativi angoli.
 
-2 - Using one of the roof’s vertical sides as a reference, draw two adjacent rectangles. The first will be **6”** high by **4 5/8**” wide, and the second is **2”x 2”**. Delete the line dividing the two rectangles to create a single face. The result should look as below.
+2 - Utilizzando come riferimento uno dei lati verticali del tetto, disegnare due rettangoli adiacenti. Il primo sarà **6"** di altezza e per **4 5/8**" di larghezza e il secondo sarà **2"x 2"**. Eliminare la linea che divide i due rettangoli per creare una singola superficie. Il risultato dovrebbe essere simile al seguente.
 
-![](<../../.gitbook/assets/10 (1).jpeg>)
+![](../../.gitbook/assets/10.jpeg)
 
-3 - To create the sweep:
+3 - Per creare l'estrusione su percorso:
 
-1. With no selected geometry, click on the **Advanced Modeling Tools** button in the **Standard Toolbar**, and select **Sweep (SW)**.
-2. The **Sweep Selection Wizard** will start and prompt you to **Select a face (or edges) for sweep profile**. Select the profile face we just created.
-3. Once the profile is selected, you will be prompted to **Select a face (or edge) for sweep path, then click finish**. Select the top face of the roof. FormIt will automatically use the boundaries of the selected face as the sweep’s path, and the sweep will be created around the entire roof.
+1. Senza geometria selezionata, fare clic sul pulsante **Strumenti di modellazione avanzati** sulla **barra degli strumenti Standard** e selezionare **Estrusione su percorso \(SW\)**.
+2. Verrà avviata la **procedura guidata di selezione dell'estrusione su percorso** e verrà richiesto di **selezionare una superficie \(o i bordi\) per il profilo di estrusione su percorso**. Selezionare la superficie del profilo appena creata.
+3. Una volta selezionato il profilo, verrà richiesto di **selezionare una superficie \(o un bordo\) per la traiettoria di estrusione su percorso, quindi fare clic su Fine**. Selezionare la superficie superiore del tetto. FormIt utilizzerà automaticamente i contorni della superficie selezionata come traiettoria dell'estrusione su percorso e l'estrusione stessa verrà creata attorno all'intero tetto.
 
-_**Note:**_ _If you are having trouble selecting either of the faces,_ _**Orbit (O)**_ _around to view the face a little better and try again. As an alternate option, select all the edges of the roof instead of the roof’s top face to complete the sweep._
+_**Nota**_ _Se si verificano problemi nella selezione di una delle due superfici,_ eseguire _**Orbita \(O\)**_ _per visualizzare la superficie in modo leggermente migliore e riprovare. Come opzione alternativa, selezionare tutti i bordi del tetto anziché la superficie superiore del tetto per completare l'estrusione su percorso._
 
-![](<../../.gitbook/assets/11 (2).png>)
+![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - Keep your model organized by creating a **Roof - Cornice** group, adding it to the **Roof** layer, and assigning the **Metal – Brushed – Colorized** material to it.
+4 - Tenere ordinato il modello creando un gruppo **Roof - Cornice**, aggiungendolo al layer **Roof** e assegnandogli il materiale **Metal – Brushed – Colorized**.
 
-![](<../../.gitbook/assets/12 (1).png>)
+![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - To finish up, turn on the **Column** layer, and you will see that the newly created sweep intersects with the tops of the columns. Resolve this by editing any one of the **Column Tall** groups, and dragging the top face down until it aligns with the bottom of the cornice.
+5 - Per completare, attivare il layer **Column** e notare che l'estrusione su percorso appena creata interseca la parte superiore dei pilastri. Per risolvere questo problema, modificare uno qualsiasi dei gruppi **Column Tall** e trascinare la superficie superiore verso il basso fino ad allinearla alla parte inferiore del cornicione.
 
-![](<../../.gitbook/assets/13 (5).png>)
+![](../../.gitbook/assets/13%20%285%29.png)
+

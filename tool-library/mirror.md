@@ -1,14 +1,15 @@
-# Mirror
+# Copia speculare
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+Utilizzare lo strumento Copia speculare per creare un duplicato speculare di un oggetto.
 
-To mirror an object:
+Per creare la copia speculare di un oggetto:
 
-1. Double-click to select a single object, or single-click to select a group.&#x20;
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**.&#x20;
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. Fare doppio clic per selezionare un singolo oggetto o fare un singolo clic per selezionare un gruppo.
+2. Fare clic con il pulsante destro del mouse e scegliere lo strumento Copia speculare dal menu contestuale o digitare il tasto di scelta rapida **MI**.
+3. Viene visualizzato un piano che mostra l'asse su cui verrà creata la copia speculare dell'oggetto. Il piano può essere spostato o ruotato per personalizzare l'asse della copia speculare.
+4. Dopo aver regolato il piano dell'oggetto speculare, fare clic in un punto qualsiasi al di fuori della selezione.
 
 ![](../.gitbook/assets/mirror.png)
 
 ![](../.gitbook/assets/mirror2.png)
+

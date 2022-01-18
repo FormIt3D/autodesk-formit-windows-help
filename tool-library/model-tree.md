@@ -1,15 +1,16 @@
-# Model Tree
+# Struttura modello
 
-The Model Tree provides a way to view the topological hierarchy of your FormIt model.
+Struttura modello consente di visualizzare la gerarchia topologica del modello di FormIt.
 
-Enable the Model Tree by going to the Window menu, and checking the box next to Model Tree.
+Attivare Struttura modello accedendo al menu Finestra e selezionando la casella accanto a Struttura modello.
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-Inside the Model Tree, each Group is identified as a History, since each Group has its own command history, or Undo/Redo stack.
+All'interno della Struttura modello, ogni gruppo viene identificato come Cronologia, poiché ogni gruppo dispone di una cronologia dei comandi specifica o di un gruppo Annulla/Ripeti.
 
-Within each History, you'll see a list of nested Groups, instances, or geometric objects like bodies.
+In ogni voce Cronologia, verrà visualizzato un elenco di gruppi, istanze o oggetti geometrici nidificati, ad esempio corpi.
 
-You can also view non-geometric attributes (string attributes) attached to FormIt objects using the Model Tree. [You can place string attributes on Groups created by the SendToFormIt node using Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+È inoltre possibile visualizzare gli attributi non geometrici \(attributi di stringa\) associati agli oggetti di FormIt utilizzando la Struttura modello. [ È possibile posizionare gli attributi di stringa sui gruppi creati dal nodo SendToFormIt utilizzando Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
+

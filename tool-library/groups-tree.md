@@ -1,13 +1,12 @@
-# Groups Tree
+# Struttura gruppi
 
-The **Groups Tree** palette provides a single place to manage all of the groups in the file. The tree view displays nested groups and the Status column shows which group is currently being edited and whether the group is from Dynamo or Revit. The Instance column displays instance IDs to help differentiate instances of the same group.
+La tavolozza **Struttura gruppi** consente di gestire tutti i gruppi del file in un'unica posizione. Nella vista struttura vengono visualizzati i gruppi nidificati e nella colonna Stato viene mostrato il gruppo attualmente in corso di modifica, specificando se il gruppo proviene da Dynamo o Revit.
 
-* **Select**: Each instance is listed individually. Select an instance in the tree and the instance(s) are selected in the 3D scene.
-* **Edit**: To edit a group, use the pen icon at the top of the palette or right-click and choose Edit.
-* **Rename**: To rename a group, double-click the name or right-click and choose Rename.
-* **Delete**: To delete a group, use the (**-**) icon at the top of the palette or right-click and choose Delete. Select multiple groups to delete them all at once.
-  * Tip: To select multiple groups one by one, use the Ctrl key. To select a range of groups, select a group, hold Shift, and select another group. This will add all groups in between to the selection.
-* **Ungroup**: Right-click a group and select Ungroup.
-* **Change Category**: To change a group's category, select the group and use the Category drop-down at the top of the palette.
+* **Selezione**: ogni istanza viene elencata singolarmente. Selezionare un'istanza nella struttura così una o più istanze verranno selezionate nella scena 3D.
+* **Modifica**: per modificare un gruppo, utilizzare l'icona a forma di matita nella parte superiore della tavolozza oppure fare clic con il pulsante destro del mouse e scegliere Modifica.
+* **Ridenominazione**: per rinominare un gruppo, fare doppio clic sul nome o fare clic con il pulsante destro del mouse e scegliere Rinomina.
+* **Eliminazione**: per eliminare un gruppo, utilizzare l'icona \(**-**\) nella parte superiore della tavolozza oppure fare clic con il pulsante destro del mouse e scegliere Elimina.
+* **Modifica della categoria**: per modificare la categoria di un gruppo, selezionare il gruppo e utilizzare l'elenco a discesa Categoria nella parte superiore della tavolozza.
 
-![](<../.gitbook/assets/groups tree.png>)
+![](../.gitbook/assets/groups.png)
+

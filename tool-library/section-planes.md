@@ -1,5 +1,6 @@
-# Section Planes
+# Piani di sezione
 
-Use **Section Planes** to cut into your FormIt model, revealing interior spaces and structural elements.
+Utilizzare **Piani di sezione** per tagliare il modello di FormIt, mostrando vani interni ed elementi strutturali.
 
-Learn about Section Planes in the [FormIt Primer](../formit-primer/part-i/section\_planes.md).
+Sono fornite informazioni sui piani di sezione nella [Guida introduttiva di FormIt](../formit-primer/part-i/section_planes.md).
+

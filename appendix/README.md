@@ -1,7 +1,7 @@
-# Appendix
+# Appendice
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Appendix
+## Appendice
 
-In this section, you can find additional resources for taking your FormIt game one step further. We've included keyboard shortcuts to make your FormIt process faster as well as the steps you can take to collaborate with others on one project.
+In questa sezione, è possibile trovare risorse aggiuntive per approfondire ulteriormente le conoscenze su FormIt. Abbiamo incluso i tasti di scelta rapida per velocizzare le operazioni di FormIt, nonché i passaggi che è possibile eseguire per collaborare con altri utenti ad un progetto.

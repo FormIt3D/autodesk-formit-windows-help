@@ -1,15 +1,20 @@
-# Faces: Flatten
+# Superfici: Livella superfici
 
-Use the **Flatten Faces** tool to force two or more object faces into the same plane.
+Utilizzare lo strumento **Livella superfici** per forzare due o più superfici dell'oggetto nello stesso piano.
 
-When two or more object faces are selected, you can select the **Flatten Faces** tool from the **Context** menu. You can also access **Flatten Faces** using the shortcut "**FL**."
+Quando sono selezionate due o più superfici dell'oggetto, è possibile selezionare lo strumento **Livella superfici** dal menu **contestuale**. È inoltre possibile accedere ad **Livella superfici** utilizzando il tasto di scelta rapida **FL**.
 
-![](../.gitbook/assets/flatten\_faces.png)
+![](../.gitbook/assets/flatten_faces.png)
 
-**Flatten Faces** can be useful as a repair tool when a face that should be planar becomes unexpectedly faceted (with smooth edges between the facets), either when importing lower-fidelity data like [SketchUp models](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), or after accidentally moving a vertex or edge which causes a face to get faceted or triangulated.
+**Livella superfici** può essere utile come strumento di correzione quando una superficie che deve essere piana diventa sfaccettata inaspettatamente \(con bordi levigati tra le sfaccettature\), sia durante l'importazione di dati di fedeltà inferiore, ad esempio i [modelli di SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), o dopo lo spostamento accidentale di un vertice o di un bordo che causa la sfaccettatura o la triangolazione di una superficie.
 
-You can also use **Flatten Faces** as a design tool for aligning or extending shapes. To do this, first, select a guide surface, then select additional faces to flatten to the plane of the first surface.
+È inoltre possibile utilizzare **Livella superfici** come strumento di progettazione per l'allineamento o l'estensione di forme. A tale scopo, selezionare innanzitutto una superficie guida, quindi selezionare altre superfici da appiattire al piano della prima superficie.
 
-Check out the video below to see the power and versatility of **Flatten Faces**:
+Guardare il seguente video per scoprire la potenza e la versatilità di **Livella superfici**:
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
+
+
+
+
+

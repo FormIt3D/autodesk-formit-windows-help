@@ -1,29 +1,32 @@
-# Boolean Join
+# Unione booleana
 
-You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
+È possibile unire un oggetto o un gruppo ad un altro con lo strumento Unisci. Esistono due modi per accedere allo strumento Unisci:
 
-## Run the Join command first
+## Eseguire prima il comando Unisci
 
-Keyboard: J G
+Tastiera: J G
 
-![](../.gitbook/assets/boolean\_join.png)
+![](../.gitbook/assets/boolean_join.png)
 
-Run the Join command and follow the mode instruction in the upper left of the screen
+Eseguire il comando Unisci e seguire le istruzioni della modalità nella parte superiore sinistra della schermata.
 
-Single-click to select an object to join into.
+Fare un singolo clic per selezionare un oggetto in cui eseguire l'unione.
 
-![](<../.gitbook/assets/cut\_mode01 (1).png>)
+![](../.gitbook/assets/cut_mode01.png)
 
-Single-click to select an object or group to be joined.
+Fare un singolo clic per selezionare un oggetto o un gruppo da unire.
 
-![](<../.gitbook/assets/cut\_mode02 (1).png>)
+![](../.gitbook/assets/cut_mode02.png)
 
-Click the checkmark to finish the command.
+Fare clic sul segno di spunta per terminare il comando.
 
-## Select objects first
+## Selezionare prima gli oggetti
 
-1. Double-click to select the object to be joined (single click for a group).
-2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
-3. Right click on any of the objects and choose the Join Tool in the Context Menu.
+1. Fare doppio clic per selezionare l'oggetto da unire \(fare un singolo clic per un gruppo\).
+2. Tenendo premuto il tasto **CTRL**, fare doppio clic su un oggetto sovrapposto che si desidera unire al primo oggetto.
+3. Fare clic con il pulsante destro del mouse su uno qualsiasi degli oggetti e scegliere lo strumento Unisci nel menu contestuale.
 
-![](<../.gitbook/assets/join tool.png>)
+![](../.gitbook/assets/join-tool.png)
+
+
+

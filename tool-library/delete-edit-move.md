@@ -1,21 +1,22 @@
-# Delete, Edit, Move
+# Elimina, Modifica, Sposta
 
-Remove an object, change its location, or modify its properties.
+È possibile rimuovere un oggetto, cambiarne la posizione o modificarne le proprietà.
 
-## Delete
+## Elimina
 
-First, make a geometry selection. Then, right-click to see the Context Menu where you can click on the **Delete Tool**. You can also press the delete key on your keyboard.
+Innanzitutto, effettuare una selezione della geometria. Quindi, fare clic con il pulsante destro del mouse per visualizzare il menu contestuale dove è possibile fare clic sullo **strumento Elimina**. È inoltre possibile premere il tasto ESC sulla tastiera.
 
-![](<../.gitbook/assets/delete (1).png>)
+![](../.gitbook/assets/delete%20%281%29.png)
 
-## Edit
+## Modifica
 
-When using many of the editing tools like Move, Array, Push-Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also simply start typing a numeric value to access the Edit Dimension dialog. Alternatively, you can hit Tab to bring up the Edit Dimension dialog, but Tab is no longer required with FormIt for Windows v17 and newer.
+Quando si utilizzano molti degli strumenti di modifica, come spostamento, matrice, spinta-trazione della superficie e offset, viene visualizzata una casella di quota blu. È possibile fare clic su questa quota dopo aver completato l'operazione e immettere un valore specifico. È inoltre possibile iniziare semplicemente digitando un valore numerico per accedere alla finestra di dialogo Modifica quota. In alternativa, è possibile premere TAB per visualizzare la finestra di dialogo Modifica quota, ma non è più necessario utilizzare TAB con FormIt per Windows v17 e versioni successive.
 
-![](<../.gitbook/assets/edit\_dimensions (1).png>)
+![](../.gitbook/assets/edit_dimensions.png)
 
-## Move Edges, Faces, or Objects
+## Spostamento di bordi, superfici o oggetti
 
-First select the edge, face, or object. The move tool is automatically activated. Hover to see snaps and inference points to specify where you want to start your move operation, click to start. Now hover your mouse to see snaps and inference points to the location you want to move the object. Click again to place the object.
+Innanzitutto selezionare il bordo, la superficie o l'oggetto. Lo strumento di spostamento viene attivato automaticamente. Posizionare il cursore del mouse per visualizzare gli snap e i punti di deduzione per specificare dove si desidera avviare l'operazione di spostamento, quindi fare clic per iniziare. Ora posizionare il cursore del mouse per visualizzare gli snap e i punti di deduzione nella posizione in cui si desidera spostare l'oggetto. Fare di nuovo clic per posizionare l'oggetto.
 
-![](../.gitbook/assets/edit\_edge.png)
+![](../.gitbook/assets/edit_edge.png)
+

@@ -1,28 +1,29 @@
-# Copy Object
+# Copia di oggetti
 
-There are three ways to copy an object.
+Sono disponibili tre metodi per copiare un oggetto.
 
-**Copy Using the Context Menu**
+**Copia con il menu contestuale:**
 
-1. Select the object by double-clicking it.
-2. Right-click the object.
-3. Select the [**Copy tool**](tilt-array-copy-and-paste.md) in the Context Menu.
-4. Right-click anywhere else in the scene and choose the **Paste button**.
+1. Selezionare l'oggetto facendovi doppio clic.
+2. Fare clic con il pulsante destro del mouse sull'oggetto.
+3. Selezionare lo [**strumento Copia**](tilt-array-copy-and-paste.md) nel menu contestuale.
+4. Fare clic con il pulsante destro del mouse in un punto qualsiasi della scena e scegliere il **pulsante Incolla**.
 
-Note: This also works with **CTRL + C** or **V**. Use Paste In Place (**CTRL+Shift+V**) to paste an object exactly where it was copied from.
+Nota Questa operazione funziona anche con **CTRL+C** o **V**. Utilizzare Incolla nella stessa posizione \(**CTRL+MAIUSC+V**\) per incollare un oggetto esattamente nel punto in cui è stato copiato.
 
-**Copy Using the CTRL Key**
+**Copia con il tasto CTRL**
 
-1. Select the object by clicking it (double-click to select a whole body or everything attached).
-2. Press and hold the **CTRL key** and start dragging the object, or start moving the object and then tap **CTRL**
-3. Instead of moving the object, you'll now be moving a copy of it.
-4. Note that Ctrl-copy does not currently work when Touch Mode is enabled.&#x20;
-   1. In Touch Mode, you'll need to use the copy/paste tools in the Context Menu (press and hold) or use Ctrl+C and Ctrl+V, then place the object down, and reposition it as needed.
+1. Selezionare l'oggetto facendovi clic \(fare doppio clic per selezionare un intero corpo o ogni elemento associato\).
+2. Tenere premuto il **tasto CTRL** e iniziare a trascinare l'oggetto oppure iniziare a spostare l'oggetto, quindi toccare **CTRL**.
+3. Anziché spostare l'oggetto, ora si sposterà una copia.
+4. Tenere presente che la copia con CTRL non funziona quando è attivata Modalità tocco.
+   1. In Modalità tocco, è necessario utilizzare gli strumenti Copia/Incolla nel menu contestuale \(tenere premuto\) o utilizzare CTRL+C e CTRL+V, quindi collocare l'oggetto e riposizionarlo in base alle esigenze.
 
-**Copy Using the Array Tool**
+**Copia con lo strumento Matrice**
 
-1. Select the object by double-clicking it
-2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
-3. Select the number of copies you want to make
-4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .**  ![](<../.gitbook/assets/array\_properties (2).png>)
+1. Selezionare l'oggetto facendovi doppio clic.
+2. **Fare clic con il pulsante destro del mouse** sull'oggetto e selezionare lo [**strumento Matrice**](tilt-array-copy-and-paste.md).
+3. Selezionare il numero di copie che si desidera creare.
+4. Scegliere se il trascinamento successivo definirà la distanza tra due oggetti o la lunghezza totale della matrice.
+5. Fare clic su **OK.**  ![](../.gitbook/assets/array_properties.png)
+

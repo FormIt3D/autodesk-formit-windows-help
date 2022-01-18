@@ -1,7 +1,8 @@
-# Align Camera With Face
+# Allinea cinepresa alla superficie
 
-Quickly align the camera to look directly at any face.
+È possibile allineare rapidamente la cinepresa per osservare direttamente qualsiasi superficie.
 
-Select a single face, then right-click to access the Context Menu. Look for Align Camera with Face at the top of the menu, or use shortcut AF:
+Selezionare una singola superficie, quindi fare clic con il pulsante destro del mouse per accedere al menu contestuale. Cercare Allinea cinepresa alla superficie nella parte superiore del menu o utilizzare il tasto di scelta rapida AF:
 
 ![](../.gitbook/assets/alignwithface.gif)
+

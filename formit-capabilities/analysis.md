@@ -1,26 +1,27 @@
-# Solar + Energy Analysis
+# Analisi solare + Analisi energetica
 
-Start a BIM workflow by evaluating the performance of elements from the beginning of the design process.
+Avviare un workflow BIM valutando le prestazioni degli elementi dall'inizio del processo di progettazione.
 
-## Solar Analysis
+## Analisi solare
 
-With a **FormIt Pro** subscription through the [AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview), you can visualize the sun's impact on your building:
+Con un abbonamento a **FormIt Pro** tramite [AEC Collection](https://www.autodesk.it/collections/architecture-engineering-construction/overview), ****è possibile visualizzare l'impatto del sole sull'edificio:
 
-* Specify relevant faces to be analyzed for solar impact
-* Visualize results in seconds within the app canvas
-* Hover your mouse over an input point to see specific calculated values of solar impact
-* Choose to view results as a monthly glazing study, or as a yearly solar panel feasibility study
+* Specificare le superfici pertinenti da analizzare per l'impatto solare
+* Visualizzare i risultati in pochi secondi all'interno dell'area di disegno dell'app
+* Posizionare il cursore del mouse su un punto di input per visualizzare i valori calcolati specifici dell'impatto solare
+* Scegliere di visualizzare i risultati come studio mensile sulle vetrate o come studio di fattibilità annuale sui pannelli solari
 
-Learn more about [Solar Analysis](../tool-library/solar-analysis.md) in FormIt Pro.
+Sono fornite ulteriori informazioni su [Analisi solare](../tool-library/solar-analysis.md) in FormIt Pro.
 
-## Energy Analysis with Insight
+## Analisi energetica con Insight
 
-With a **FormIt Pro** subscription through the [AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview), you have access to Energy Analysis with **Insight:**
+Con un abbonamento a **FormIt Pro** tramite [AEC Collection](https://www.autodesk.it/collections/architecture-engineering-construction/overview), è possibile accedere ad Analisi energetica con **Insight:**
 
-* Analyze early-stage design models with Green Building Studio's analysis engine
-* Connect to a dashboard view of the analysis results to compare options for your design
-* Adjust the Energy Analysis factor widgets, such as Window to Wall Ratio, Building Orientation, and others
-* Summarize your building's energy impact with a single number calculated as a bottom-line cost per area
-* Save your Energy Analysis results for future review with clients and other stakeholders
+* Analizzare i modelli di progettazione nelle fasi iniziali con il motore di analisi di Green Building Studio
+* Connettersi ad una vista della dashboard dei risultati dell'analisi per confrontare le opzioni per il progetto
+* Regolare i widget del fattore di Analisi energetica, ad esempio rapporto finestra-muro, orientamento dell'edificio e altri
+* Riepilogare l'impatto energetico dell'edificio con un singolo numero calcolato come costo per area finale
+* Salvare i risultati di Analisi energetica per una revisione futura con clienti e altri soggetti coinvolti
 
-Learn about [Energy Analysis](https://formit.autodesk.com/page/formit-insight) in FormIt Pro.
+Sono fornite ulteriori informazioni su [Analisi energetica](https://formit.autodesk.com/page/formit-insight) in FormIt Pro.
+

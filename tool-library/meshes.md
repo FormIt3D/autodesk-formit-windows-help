@@ -1,89 +1,90 @@
-# Meshes
+# Mesh
 
-Starting in v17.0, FormIt offers a new type of geometry: Meshes.
+A partire dalla versione v17.0, FormIt offre un nuovo tipo di geometria: mesh.
 
-Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance.
+Le mesh sono rappresentazioni leggere degli oggetti di FormIt standard e sono ideali per migliorare le prestazioni della geometria con elevato numero di poligoni, come arredo o contesto 3D, ad esempio persone, alberi, automobili e segnaletica. Le mesh sono particolarmente utili anche per la geometria DWG complessa che altrimenti potrebbe influire sulle prestazioni di FormIt.
 
-Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
+Gli oggetti possono essere convertiti in mesh e le mesh possono essere riconvertite in oggetti senza perdere eventuali dati. Alcuni tipi di file vengono importati automaticamente come mesh, ad esempio OBJ, STL e DWG. Sono fornite di seguito ulteriori informazioni sulla conversione tra i vari tipi, nonché su altri vantaggi e limitazioni delle mesh.
 
-## Converting Objects to Meshes
+### Conversione di oggetti in mesh
 
-Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
+Qualsiasi combinazione di vertici, bordi, superfici o corpi solidi può essere convertita in mesh.
 
-Simply select Objects, and either use shortcut OM (Objects to Meshes) or right-click and select Objects to Meshes in the Context Menu:
+È sufficiente selezionare Oggetti e utilizzare il collegamento OM \(Oggetti in mesh\) o fare clic con il pulsante destro del mouse e selezionare Oggetti in mesh nel menu contestuale:
 
-![](../.gitbook/assets/context-menu\_object-to-mesh.PNG)
+![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Once the Objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Una volta convertiti gli oggetti in mesh, nella parte superiore della schermata viene visualizzato un messaggio di conferma:
 
-![](../.gitbook/assets/success\_object-to-mesh.PNG)
+![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**When converting Objects to Meshes:**
+**Durante la conversione di oggetti in mesh:**
 
-* Edges that were smoothed on the Objects will remain smoothed in the resulting Meshes.
-* Material orientations on the Objects will remain unchanged in the resulting Meshes.
-* A Mesh is created for every material applied. For example, if you convert a single cube painted 6 different colors, you'll get 6 different Meshes.
-  * Converting back to an Object will re-seal the individual meshes back into a solid body.
-* Selecting a solid body will convert and replace the entire body with a Mesh, but selecting individual edges or vertices owned by a solid will create a new Mesh on top of the existing geometry, without affecting the original body.
-* Converting a set of edges or vertices will create a single Linemesh (a mesh made of edges) or a single Pointmesh (a mesh made of points), which means you won't be able to select individual edges or vertices once they've been combined into a single Mesh. Convert them back to Objects if you want to adjust the position of a single element.
+* I bordi che sono stati levigati negli oggetti rimarranno tali nelle mesh risultanti.
+* Gli orientamenti dei materiali negli oggetti rimarranno invariati nelle mesh risultanti.
+* Viene creata una mesh per ogni materiale applicato. Ad esempio, se si converte un singolo cubo dipinto con 6 colori diversi, si otterranno 6 mesh diverse.
+   * Con la riconversione in un oggetto si riaggiungeranno le singole mesh in un corpo solido.
+* La selezione di un corpo solido convertirà e sostituirà l'intero corpo con una mesh, ma la selezione di singoli bordi o vertici appartenenti ad un solido creerà una nuova mesh sulla geometria esistente, senza influire sul corpo originale.
+* La conversione di un gruppo di bordi o vertici creerà una singola mesh di linee \(una mesh composta da bordi\) o una singola mesh di punti \(una mesh composta da punti\), il che significa che non sarà possibile selezionare singoli bordi o vertici una volta che sono stati combinati in una singola mesh. Riconvertire le mesh in oggetti se si desidera regolare la posizione di un singolo elemento.
 
-**Converting Grouped geometry to Meshes:**
+**Conversione della geometria raggruppata in mesh:**
 
-* Meshes become even more powerful when you can convert an entire Group and all of its nested Groups into Meshes.
-* Groups and their nested contents can be converted to Groups by using a plugin:
-  * Look for the Plugin Manager icon on the right side of the application:
-    * ![](../.gitbook/assets/plugin-manager\_icon.PNG)&#x20;
-  * Find the "Mesh + Unmesh All" plugin, and click the checkbox to install it:
-    * ![](../.gitbook/assets/plugin-manager\_mesh-unmesh-all.png)&#x20;
-  * The Mesh + Unmesh All plugin will load. Simply select a Group containing Objects you want to convert to Meshes, and click Mesh All.
-    * ![](../.gitbook/assets/mesh-unmesh-all-plugin.png)&#x20;
-  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation:
+* Le mesh diventano ancora più potenti quando è possibile convertire un intero gruppo e tutti i relativi gruppi nidificati in mesh.
+* I gruppi e i relativi contenuti nidificati possono essere convertiti in gruppi utilizzando un plug-in:
+   * Cercare l'icona Gestione plugin sul lato destro dell'applicazione:
+      * ![](../.gitbook/assets/plugin-manager_icon.PNG)
+   * Individuare il plug-in Mesh + Unmesh All e fare clic sulla casella di controllo per installarlo:
+      * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
+   * Verrà caricato il plug-in Mesh + Unmesh All. È sufficiente selezionare un gruppo contenente oggetti da convertire in mesh e fare clic su Mesh All.
+      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
+   * Quando si convertono mesh o oggetti nidificati con questo plug-in, verrà visualizzato un messaggio di aggiornamento nella parte superiore della schermata che indica il numero di gruppi e istanze di gruppi interessati dall'operazione:
 
-![](../.gitbook/assets/success\_mesh-all.png)
+![](../.gitbook/assets/success_mesh-all.PNG)
 
-## Interacting With Meshes
+### Interazione con le mesh
 
-**Because of their lightweight nature, Meshes have certain limitations and behaviors:**
+**A causa della loro natura leggera, le mesh presentano alcune limitazioni e comportamenti:**
 
-* You won't be able to edit the individual faces, edges, or vertices of a Mesh.
-  * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces (see above).
-* Snapping to Meshes is limited to the faces and vertices of Meshes. For performance, snapping and inferencing will not work with edges of Meshes.
-  * However, DWG files converted to Meshes (a different type of mesh known as a Linemesh) will retain the ability to snap to and inference to Mesh edges.
-* Meshes cannot have Levels applied to them.
-* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not.&#x20;
-  * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
-* Meshes cannot be used in advanced modeling operations, like Solid Join/Cut, 3D Shell, 3D Offset, Fillet, Loft, Sweep, or Cover.
+* Non sarà possibile modificare le singole superfici, i singoli bordi o vertici di una mesh.
+   * Tuttavia, è possibile ridipingere le mesh e spostare le singole mesh create in seguito all'applicazione di materiali diversi alle superfici \(vedere sopra\).
+* Lo snap alle mesh è limitato alle superfici e ai vertici delle mesh. Per motivi di prestazioni, le operazioni di snap e deduzione non funzioneranno con i bordi delle mesh.
+   * Tuttavia, i file DWG convertiti in mesh \(un tipo diverso di mesh noto come mesh di linee\) manterranno la possibilità di eseguire lo snap e la deduzione ai bordi delle mesh.
+* Non è possibile applicare livelli alle mesh.
+* Le mesh non riportano problemi delle superfici a tenuta ermetica o delle superfici posteriori. Riconvertirle in oggetti per verificare se sono a tenuta ermetica o meno.
+   * Gli oggetti che erano a tenuta ermetica prima della conversione in mesh rimarranno tali quando vengono riconvertiti in un oggetto.
+* Le mesh non possono essere utilizzate nelle operazioni di modellazione avanzata, quali unione/taglio di solidi, involucro 3D, offset 3D, raccordo, loft, estrusione su percorso o copertura.
 
-Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
+In caso contrario, le mesh verranno visualizzate e si comporteranno come qualsiasi altro oggetto di FormIt: possono essere posizionate in gruppi, assegnate ai layer, visualizzate nelle scene, utilizzate per l'analisi e così via.
 
-**You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:**
+**L'eventuale interazione con una mesh è indicata dalla descrizione comando che mostra Sulla mesh o dal pannello Proprietà che riporta una mesh:**
 
-![](../.gitbook/assets/snap\_on-mesh.png)
+![](../.gitbook/assets/snap_on-mesh.PNG)
 
-![](../.gitbook/assets/properties-panel\_mesh.png)
+![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Some file types are automatically imported as Meshes to improve performance:**
+**Alcuni tipi di file vengono importati automaticamente come mesh per migliorare le prestazioni:**
 
-* STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
-* DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
+* I file STL e OBJ, che possono contenere geometria densa, ad esempio nuvole di punti di altre applicazioni, vengono importati automaticamente come mesh.
+* I file DWG, che possono contenere milioni di piccoli segmenti di bordi su curve di alta qualità, vengono importati automaticamente come mesh.
 
-## Converting Meshes Back to Objects
+### Riconversione di mesh in oggetti
 
-Simply select Meshes, and either use shortcut MO (Meshes to Objects) or right-click and select Meshes to Objects in the Context Menu:
+È sufficiente selezionare Mesh e utilizzare il tasto di scelta rapida MO \(Mesh in oggetti\) oppure fare clic con il pulsante destro del mouse e selezionare Mesh in oggetti nel menu contestuale:
 
-![](../.gitbook/assets/context-menu\_mesh-to-object.PNG)
+![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Una volta convertiti gli oggetti in mesh, nella parte superiore della schermata viene visualizzato un messaggio di conferma:
 
-![](../.gitbook/assets/success\_mesh-to-object.PNG)
+![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**When converting Meshes back to Objects:**
+**Durante la riconversione di mesh in oggetti:**
 
-* Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
-* Converting a series of edges (for example from a DWG file) or a series of vertices (for example from a pointcloud) to a Mesh and back will automatically put the unmeshed Objects into a Group.
-  * This prevents the new edges or vertices from merging with other geometry which could have adverse effects and impact performance.
-  * Simply can Ungroup the resulting Group to release the edges and/or vertices.
+* Eventuali oggetti che erano in precedenza solidi/a tenuta ermetica prima della conversione in mesh verranno riuniti in un solido a tenuta ermetica durante la riconversione in un oggetto.
+* La conversione di una serie di bordi \(ad esempio da un file DWG\) o di una serie di vertici \(ad esempio da una nuvola di punti\) in una mesh e viceversa consente di inserire automaticamente gli oggetti senza mesh in un gruppo.
+   * In questo modo si evita che i nuovi bordi o vertici si uniscano con altra geometria, il che potrebbe avere effetti negativi e influire sulle prestazioni.
+   * È sufficiente scomporre il gruppo risultante per rilasciare i bordi e/o i vertici.
 
-**Converting Grouped Meshes back to Objects:**
+**Riconversione di mesh raggruppate in oggetti:**
 
-* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects.
+* Vedere le istruzioni riportate sopra per utilizzare il plug-in Mesh + Unmesh All per riconvertire i gruppi e le relative mesh nidificate in oggetti.
+

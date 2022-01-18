@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# Superfici: Inclina superficie e Sfaccetta superfici lisce
 
-## Working with Faces: Tilt and Facet/Smooth
+## Utilizzo di superfici: Inclina superficie e Sfaccetta superfici lisce
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+Per creare progetti più complessi dopo aver disegnato una forma o aver posizionato una primitiva, è possibile utilizzare diversi strumenti contestuali per modificare la geometria. Queste operazioni includono Inclina superficie, Matrice e Copia e Incolla.
 
-### Tilt Face
+### Inclina superficie
 
-To **tilt a face:**
+Per **inclinare una superficie:**
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. Selezionare una superficie e fare clic con il pulsante destro del mouse per visualizzare il menu contestuale.
+2. Scegliere l'icona **Inclina superficie** dal menu contestuale.
+3. Definire l'asse di inclinazione disegnando una linea.
+4. Fare clic su un terzo punto per avviare l'operazione di inclinazione.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### Sfaccetta superfici lisce
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+Se si posiziona il cursore del mouse su una superficie e si notano linee tratteggiate, questo significa che la superficie è costituita da superfici più piccole a causa della deformazione della superficie stessa. Per **trasformare le linee tratteggiate in bordi del modello:**
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. Selezionare la superficie o l'oggetto da modificare e fare clic con il pulsante destro del mouse per visualizzare il menu contestuale.
+2. Dal menu contestuale, scegliere lo strumento **Sfaccetta superfici lisce**.
+3. I bordi vengono aggiunti automaticamente dove la superficie era precedentemente liscia.
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+Questo comando funziona anche in modo opposto: è possibile selezionare le superfici sfaccettate e selezionare lo strumento **Sfaccetta superfici lisce** dal menu contestuale per nascondere i bordi e rendere lisce le superfici.
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

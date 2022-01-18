@@ -1,3 +1,4 @@
-# Shell
+# Involucro
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+Da un oggetto solido, è possibile creare un "involucro" di una larghezza specificata. Gli involucri sono utili per creare rapidamente muri da un modello di volumetrie:
+

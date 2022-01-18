@@ -1,39 +1,39 @@
-# Curve + Surface Faceting
+# Sfaccettatura di curve e superfici
 
-FormIt is a polyhedral modeling system, so objects like circles, arcs, and splines are represented by a series of straight edges. Similarly, a curved surface like the wall of a cylinder, or a dome, is comprised of a series of planar faces with hidden border edges.
+FormIt è un sistema di modellazione poliedrica, pertanto oggetti quali cerchi, archi e spline sono rappresentati da una serie di bordi diritti. Analogamente, una superficie curva come il muro di un cilindro, o una cupola, è costituita da una serie di superfici piane con bordi nascosti.
 
-By default, FormIt uses 40 edges, or facets, to represent a circle, and 24 facets to represent a 3D, curved object like a cylinder. For more complex surfaces like a dome, a value of 24 sets the perimeter faceting count, and also impacts how densely faceted the rest of the shape is.
+Per default, FormIt utilizza 40 bordi, o sfaccettature, per rappresentare un cerchio e 24 sfaccettature per rappresentare un oggetto curvo 3D, come un cilindro. Per superfici più complesse, ad esempio una cupola, un valore pari a 24 imposta il conteggio delle sfaccettature del perimetro e influisce anche sulla densità di sfaccettatura del resto della forma.
 
-In FormIt for Windows v18 and newer, the curve and surface faceting values are customizable:
+In FormIt per Windows v18 e versioni successive, i valori di sfaccettatura della curva e della superficie sono personalizzabili:
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](../.gitbook/assets/faceting.png)
+![](<../.gitbook/assets/faceting (1).png>)
 
 **Curve Faceting Quality**
 
-Changing the Curve Faceting Quality will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle or a quarter-circle arc with 16 facets.
+La modifica di Curve Faceting Quality influirà sul numero di sfaccettature utilizzate per il disegno di nuovi cerchi e archi in FormIt, nonché sul posizionamento di forme primitive. Ad esempio, se si imposta questa opzione su 64, si creerebbe un cerchio completo a 64 lati o un arco a quarto di cerchio con 16 sfaccettature.
 
-This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry from Dynamo. You can set this value for new sketches, or just the current sketch.
+Questo valore influirà anche sulla qualità dei cerchi e degli archi importati dai file SAT e quando si esegue il baking della geometria da Dynamo. È possibile impostare questo valore per i nuovi disegni o solo per il disegno corrente.
 
-For existing curves, you can also use the Rebuild Curve plugin to retroactively rebuild an **existing** arc or circle with a new faceting count:
+Per le curve esistenti, è anche possibile utilizzare il plug-in Rebuild Curve per ricreare in modo retroattivo un arco o un cerchio **esistente** con un nuovo numero di sfaccettature:
 
-![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
-![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
+![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
 **Surface Faceting Quality**
 
-Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo.
+La modifica di questa impostazione globale influirà sulla qualità delle superfici curve 3D importate da file SAT e quando si esegue il baking da Dynamo.
 
-For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases. Once you've got a result that's high quality, you can [convert it into a Mesh](meshes.md) to improve performance.
+Ad esempio, impostando questa opzione su 64, quindi eseguendo il baking di una sfera da Dynamo verranno utilizzate 64 superfici attorno all'equatore della sfera, più 64 sfaccettature in ciascuno degli anelli che vanno ai poli della sfera, che si aggiungono rapidamente. Utilizzare valori più elevati con cautela, poiché in alcuni casi possono influire sulle prestazioni di FormIt. Una volta ottenuto un risultato di alta qualità, è possibile [convertirlo in una mesh](meshes.md) per migliorare le prestazioni.
 
-When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
+Quando si utilizza Dynamo, è possibile modificare la qualità delle sfaccettature e fare clic su Run Graph nel pannello Proprietà senza modificare i parametri, per sfruttare i nuovi conteggi di sfaccettature:
 
-![](<../.gitbook/assets/faceting\_column (1).gif>)
+![](../.gitbook/assets/faceting\_column.gif)
 
-As with curves, you can set the surface faceting quality for new sketches, or for the current sketch only.
+Come per le curve, è possibile impostare la qualità delle sfaccettature delle superfici per i nuovi disegni o solo per il disegno corrente.
 
-Note that faceting values are currently limited to multiples of 4, so when entering numbers manually, FormIt will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+Tenere presente che i valori di sfaccettatura sono attualmente limitati a multipli di 4, pertanto quando si immettono numeri manualmente, in FormIt vengono arrotondati al multiplo più vicino. È possibile utilizzare i dispositivi di scorrimento e le frecce per scorrere i valori accettati.
 
-![](<../.gitbook/assets/units-+-precision (1).png>)
+![](../.gitbook/assets/units-+-precision.png)
