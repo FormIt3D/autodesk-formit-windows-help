@@ -1,14 +1,15 @@
-# Mirror
+# Mise en miroir
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+Utilisez l’outil Miroir pour créer une réplique exacte d’un objet.
 
-To mirror an object:
+Pour mettre en miroir un objet :
 
-1. Double-click to select a single object, or single-click to select a group.&#x20;
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**.&#x20;
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. Double-cliquez pour sélectionner un seul objet ou cliquez une fois pour sélectionner un groupe.
+2. Cliquez avec le bouton droit de la souris, puis choisissez l’outil Miroir dans le menu contextuel ou tapez le raccourci clavier **MI**.
+3. Un plan s’affiche et indique l’axe sur lequel l’objet sera mis en miroir. Le plan peut être déplacé ou pivoté pour personnaliser l’axe de la symétrie.
+4. Lorsque vous avez terminé d’ajuster le plan de l’objet mis en miroir, cliquez n’importe où en dehors de la sélection.
 
 ![](../.gitbook/assets/mirror.png)
 
 ![](../.gitbook/assets/mirror2.png)
+

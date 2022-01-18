@@ -1,13 +1,14 @@
-# Measure
+# Mesurer
 
-The **Measure** tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+L’outil **Mesurer** se trouve dans la [barre d’outils](../formit-introduction/tool-bars.md).
 
-You can use the **Measure** tool to measure existing geometry in a model. You can also use the **Measure** tool to assign dimensions to geometry.
+Vous pouvez utiliser l’outil **Mesurer** pour mesurer la géométrie existante dans un modèle. Vous pouvez également utiliser l’outil **Mesurer** pour affecter des cotes à la géométrie.
 
-1. Select the **Measure** tool.
-2. Select two points to measure the distance between them.
-3. Select a face or edge you want to adjust, click the displayed value and add a new value in the dialog box that displays.
+1. Sélectionnez l’outil **Mesurer**.
+2. Sélectionnez deux points pour mesurer la distance qui les sépare.
+3. Sélectionnez une face ou une arête à ajuster, cliquez sur la valeur affichée et ajoutez une nouvelle valeur dans la boîte de dialogue qui s’affiche.
 
-![](<../.gitbook/assets/measure (1).png>)\
-![](<../.gitbook/assets/measure2 (1).png>)\
+![](../.gitbook/assets/measure%20%281%29.png)  
+![](../.gitbook/assets/measure2.png)  
 ![](../.gitbook/assets/measure3.png)
+

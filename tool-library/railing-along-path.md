@@ -1,80 +1,81 @@
 # Railing Along Path
 
-## Powered By Dynamo
+## Optimisé par Dynamo
 
-In FormIt 2021 and newer, you can generate a railing along a path, and quickly customize the results in-place. Railing Along Path is powered by Dynamo, which means the resulting railing is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+FormIt 2021 et les versions ultérieures permettent de générer un garde-corps le long d’une trajectoire et de personnaliser rapidement les résultats en place. L’exemple Railing Along Path est optimisée par Dynamo, ce qui signifie que le garde-corps obtenu est facilement configurable afin d’obtenir les résultats souhaités, et la réexécution de la logique permet de mettre à jour la géométrie en place.
 
-![](<../.gitbook/assets/railing-along-path (1).gif>)
+![](../.gitbook/assets/railing-along-path.gif)
 
-## Starting Railing Along Path
+## Lancement de Railing Along Path
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the Railing Along Path sample
-* On the left side of the screen, you'll see a prompt to "Select path for railing"
-  * You should select only a series of contiguous edges, or a Group containing only a series of edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter/Return.
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated railing in a FormIt Group, ready for modifying (see below).
+* Accédez au groupe de fonctions Dynamo dans FormIt pour Windows et vérifiez que vous vous trouvez dans le répertoire Dynamo Samples.
+* Cliquez sur l’exemple Railing Along Path.
+* Dans la partie gauche de l’écran, une fenêtre s’affiche et vous invite à sélectionner la trajectoire du garde-corps.
+   * Vous devez sélectionner uniquement une série d’arêtes contiguës ou un groupe contenant uniquement une série d’arêtes.
+   * Une fois la trajectoire sélectionnée, cliquez sur le bouton « finish » ou appuyez sur Entrée/Retour.
+* Le groupe de fonctions Dynamo indique que les modifications sont en cours de traitement. Lorsque vous avez terminé, vous disposez d’un garde-corps généré par Dynamo dans un groupe FormIt, prêt à être modifié \(reportez-vous à la section ci-dessous\).
 
-## Iterating In Place
+## Itération en place
 
-After running Railing Along Path, you'll notice its results are set to default values. Maybe these work for you, but you can heavily customize the railing to suit your needs.
+Après l’exécution de l’exemple Railing Along Path, les résultats sont définis sur les valeurs par défaut. Si ces valeurs ne vous conviennent pas, vous pouvez personnaliser le garde-corps en fonction de vos besoins.
 
-When Railing Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Railing Along Path instance.
+Lors de l’exécution de l’exemple Railing Along Path, un groupe contenant les résultats est créé. FormIt sélectionne alors automatiquement le groupe et affiche les options disponibles pour cette occurrence Railing Along Path.
 
-You can always return to the Railing Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+Pour revenir aux propriétés Railing Along Path, sélectionnez le groupe et basculez vers le groupe de fonctions Properties, ou modifiez le groupe qui affiche automatiquement les propriétés.
 
-![](<../.gitbook/assets/railing-along-path-options (1).png>)
+![](../.gitbook/assets/railing-along-path-options.png)
 
 ### Railing Height
 
-The overall height of the railing. Uses the current FormIt units.
+Hauteur globale du garde-corps. Ce paramètre utilise les unités FormIt actives.
 
 ### Post Spacing
 
-The spacing between main vertical posts. Uses the current FormIt units.
+Espacement entre les poteaux verticaux principaux. Ce paramètre utilise les unités FormIt actives.
 
 ### Add Posts at Path Vertices
 
-When **true**, posts will be added at each vertex of the selected path, and the calculation for the next post positioning resets at that point.
+Lorsque la valeur est définie sur **True**, les poteaux sont ajoutés à chaque sommet de la trajectoire sélectionnée et le calcul du positionnement du poteau suivant est réinitialisé à ce point.
 
-For example, if you selected a series of 3 edges, a post will appear at each of the two inner points. This is useful if the vertices indicate a change of direction (like going up stairs or turning corners) where a post would naturally occur.
+Par exemple, si vous avez sélectionné une série de trois arêtes, un poteau s’affiche au niveau de chacun des deux points internes. Ce paramètre est utile si les sommets indiquent un changement de direction \(par exemple, montée d’escaliers ou virages\) où un poteau serait naturellement présent.
 
-When **false**, posts will only be added along the path starting from one end, and measuring the distance along the path, ignoring vertices along the way. This is useful if you've selected an arc, spline, or circle, where the vertices are not important, and you want the post spacing to ignore them.
+Lorsque la valeur est définie sur **False**, les poteaux sont uniquement ajoutés le long de la trajectoire à partir d’une extrémité. La distance est mesurée le long de la trajectoire et les sommets sont ignorés. Ce paramètre est utile si vous avez sélectionné un arc, une spline ou un cercle, où les sommets ne sont pas importants et que vous souhaitez que l’espacement des poteaux les ignore.
 
 ### Reverse Path Direction
 
-When calculating the positioning of the posts, the direction of the chosen path will determine which end of the path will start the post spacing measurement.
+Lors du calcul du positionnement des poteaux, la direction de la trajectoire choisie détermine l’extrémité de la trajectoire qui démarre la mesure de l’espacement des poteaux.
 
-In cases where the post spacing results in leftover space on an undesirable end of the path, you can change this value to **true** to flip the curve, and start the post spacing measurement at the opposite end.
+Si l’espacement des poteaux génère de l’espace sur une extrémité indésirable de la trajectoire, vous pouvez remplacer cette valeur par **True** pour inverser la courbe et commencer la mesure de l’espacement des poteaux à l’extrémité opposée.
 
 ### Post Width + Depth
 
-The size (in plan) of the rectangular vertical post profiles. Uses the current FormIt units.
+Taille \(en plan\) des profils de poteaux verticaux rectangulaires. Ce paramètre utilise les unités FormIt actives.
 
 ### Handrail Width + Height
 
-The size (in section) of the rectangular handrail profile. Uses the current FormIt units.
+Taille \(en section\) du profil rectangulaire des mains courantes. Ce paramètre utilise les unités FormIt actives.
 
 ### Baluster Orientation
 
-When true, balusters will be oriented horizontally, like cables. When false, the balusters will be oriented vertically, for a more traditional aesthetic.
+Lorsque ce paramètre est activé, les barreaux sont orientés horizontalement, comme les câbles. Si la valeur est définie sur False, les barreaux sont orientés verticalement, pour une esthétique plus traditionnelle.
 
 ### Baluster width + Depth
 
-The size of the baluster's rectangular profile. Uses the current FormIt units.
+Taille du profil rectangulaire du barreau. Ce paramètre utilise les unités FormIt actives.
 
 ### Baluster Spacing
 
-The amount of space between each baluster. Uses the current FormIt units.
+Quantité d’espace entre chaque barreau. Ce paramètre utilise les unités FormIt actives.
 
 ### Bottom Rail Start Height
 
-The distance between the bottom of the railing, and the bottom rail that supports the balusters. Uses the current FormIt units.
+Distance entre le bas du garde-corps et la traverse inférieure qui soutient les barreaux. Ce paramètre utilise les unités FormIt actives.
 
 ### Run
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+Après avoir modifié les options, cliquez sur le bouton « Run » pour exécuter le graphique Dynamo sous-jacent et générer de nouveaux résultats. Ce bouton devient bleu lorsque les paramètres ont été modifiés. Vous devez donc cliquer dessus pour afficher les mises à jour dans la géométrie finale.‌
 
 ### Edit Embedded Graph
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+Cliquez sur ce bouton pour lancer l’environnement de l’éditeur graphique Dynamo. Celui-ci vous permet d’afficher et de modifier le graphique Dynamo sous-jacent afin de modifier plus rapidement les paramètres et d’afficher les mises à jour en direct, ou d’inspecter/ajuster la logique.
+

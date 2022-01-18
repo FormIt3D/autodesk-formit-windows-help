@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# Faces : inclinaison et facette/lissage
 
-## Working with Faces: Tilt and Facet/Smooth
+## Utilisation des faces : inclinaison et facette/lissage
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+Pour créer des conceptions plus complexes après avoir esquissé une forme ou placé une primitive, vous pouvez utiliser plusieurs outils contextuels pour modifier votre géométrie. Ces opérations incluent Inclinaison, Réseau et Copier-coller.
 
-### Tilt Face
+### Incliner la face
 
-To **tilt a face:**
+Pour **incliner une face**, procédez comme suit :
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. Sélectionnez une face et cliquez avec le bouton droit de la souris pour afficher le menu contextuel.
+2. Choisissez l’icône **Inclinaison** dans le menu contextuel.
+3. Pour définir l’axe d’inclinaison, dessinez une ligne.
+4. Cliquez sur un troisième point pour commencer l’opération d’inclinaison.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### Faces de facette/faces lisses
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+Si vous placez le curseur sur une face et observez des lignes en pointillé, cela signifie que la face est constituée de faces plus petites en raison de la déformation de la face. Pour **transformer les lignes en pointillés en arêtes de modèle**, procédez comme suit :
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. Sélectionnez la face ou l’objet à modifier, puis cliquez avec le bouton droit de la souris pour afficher le menu contextuel.
+2. Dans le menu contextuel, choisissez l’outil **Faces lisses de facette**.
+3. Les arêtes sont automatiquement ajoutées à l’endroit où la face était précédemment lisse.
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+Cette commande fonctionne aussi de la manière opposée : vous pouvez sélectionner les faces de facette et sélectionner l’outil **Faces lisses de facette** dans le menu contextuel pour masquer les arêtes et lisser les faces.
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

@@ -1,3 +1,4 @@
-# Shell
+# Coque
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+À partir d’un objet solide, vous pouvez créer une « coque » d’une largeur spécifiée. Les coques sont utiles pour créer rapidement des murs à partir d’un modèle de volume :
+

@@ -1,79 +1,80 @@
-# Storefront/Curtainwall Mullion System
+# Système de meneaux de vitrine/mur-rideau
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
-## Powered by Dynamo
+## Optimisé par Dynamo
 
-The ability to quickly create storefront/curtainwall mullion systems in FormIt is powered by Dynamo. You can find the Storefront Curtainwall system in the Dynamo Samples directory in the Dynamo panel:
+Dynamo permet de créer rapidement des systèmes de meneaux de vitrine/mur-rideau dans FormIt. Le système Storefront Curtainwall se trouve dans le répertoire Dynamo Samples du groupe de fonctions Dynamo :
 
-![](<../.gitbook/assets/storefront-curtainwall-button (1) (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Selecting "Glass" For Mullion System
+## Sélection du vitrage pour le système de meneaux
 
-Starting in FormIt 2021.2, the Storefront Curtainwall system uses the new [SelectFromFormIt node](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), allowing you to select a piece of "glass" (a single face or an extruded solid) around which to generate a mullion system.
+À partir de FormIt 2021.2, le système Storefront Curtainwall utilise le nouveau [nœud SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), qui vous permet de sélectionner un élément de « vitrage » \(une seule face ou un solide extrudé\) autour duquel vous pouvez générer un système de meneaux.
 
-![A simple plane of "glass" with an opening for doors at the bottom.](../.gitbook/assets/storefron-system-1\_glass-only.png)
+![Plan simple d’une « vitre » avec une ouverture pour les portes en bas.](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-When you click the Storefront Curtainwall thumbnail (notice the icon indicating that a selection is required), FormIt will prompt you to select the glass geometry to continue:
+Lorsque vous cliquez sur la miniature Storefront Curtainwall \(notez l’icône indiquant qu’une sélection est requise\), FormIt vous invite à sélectionner la géométrie de vitre pour continuer :
 
-![](<../.gitbook/assets/storefront-curtainwall-prompt (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-A few notes and caveats about how selecting glass works:
+Tenez compte des remarques et mises en garde suivantes concernant le fonctionnement de la sélection du vitrage :
 
-* Currently, only planar surfaces are supported. If you select a series of surfaces (for example, a "curved" surface comprised of smaller planar surfaces), the script will find the largest planar face and will use that.
-* If your glass is solid - i.e. a single face extruded very slightly to convey a bit of thickness - the script will find the biggest surface, so the resulting mullions will generate on one side of the glass solid.
-* You can sketch openings for doors, and remove the resulting surface from the glass boundary, and the resulting mullions will respect the door opening, leaving it blank for the addition of doors.
-* Due to Dynamo limitations, this script won't work if the glass geometry has openings in the middle.
+* Actuellement, seules les surfaces planes sont prises en charge. Si vous sélectionnez une série de surfaces \(par exemple, une surface « incurvée » composée de surfaces planes plus petites\), le script recherche la face plane la plus grande et l’utilise.
+* Si votre vitre est opaque, c’est-à-dire qu’une seule face est très légèrement extrudée afin d’apporter une légère épaisseur, le script recherche la plus grande surface afin de générer les meneaux obtenus sur un côté du solide en verre. 
+* Vous pouvez esquisser des ouvertures de portes et supprimer la surface obtenue du contour du vitrage. Les meneaux obtenus respectent l’ouverture, laissant ainsi un espace vide pour l’ajout de portes.
+* En raison des limitations de Dynamo, ce script ne fonctionne pas si la géométrie du vitrage comporte des ouvertures au milieu.
 
-## Tips and Tricks
+## Trucs et astuces
 
-When selecting geometry for a Dynamo graph in FormIt, certain organizational tricks can simplify the experience and allow for easy instancing of results:
+Lorsque vous sélectionnez la géométrie d’un graphique Dynamo dans FormIt, certaines astuces d’organisation simplifient l’expérience et l’instanciation des résultats :
 
-* Put the glass in a Group, and use the Group as the selection for the Storefront/Curtainwall script. That way, it's easier to edit the glass profile after the mullions have been generated, and if the glass is heavily modified between runs and the face IDs have changed, the Group ensures that the script will always find the glass - because it's using the Group ID, not the face ID.
-* If you're planning on copying and pasting the results of the mullion system to other places in your model, it's best to have the glass and the resulting mullions contained in a Group This will also prevent issues with the selection node not knowing which glass instance to use when just the resulting mullion Group is copied and pasted.
-  * Put your glass in a Group first. Double-click it to select the glass, and hit G or use the Group commands in the context menu or toolbar.&#x20;
-  * Select the resulting Group, and put it in another Group.
-  * Double-click to enter the first Group. This is the "container" for both the glass and the resulting mullions.
-  * Click the Storefront Curtainwall thumbnail, and use the glass Group as the selection.&#x20;
-  * After the script runs, you can exit the Group and copy/paste the container around as needed. You can edit any of the instances (adjusting the glass shape or parameters) without issue.
+* Placez la vitre dans un groupe et utilisez le groupe comme sélection pour le script Storefront/Curtainwall. Cette méthode permet de modifier le profil de la vitre plus facilement après la génération des meneaux. Si la vitre est fortement modifiée entre les exécutions et que les ID de face ont changé, le groupe s’assure que le script identifie toujours la vitre, car il utilise l’ID de groupe et non l’ID de face.
+* Si vous prévoyez de copier les résultats du système de meneaux et de les coller à d’autres emplacements de votre modèle, il est préférable que la vitre et les meneaux obtenus soient contenus dans un groupe. Cela permet également d’éviter les problèmes avec le nœud de sélection qui ne sait pas quelle occurrence de vitre utiliser lorsque seul le groupe de meneaux obtenu est copié et collé.
+   * Tout d’abord, mettez votre vitre dans un groupe. Double-cliquez dessus pour sélectionner la vitre, puis appuyez sur la touche G ou utilisez les commandes de groupe du menu contextuel ou de la barre d’outils.
+   * Sélectionnez le groupe obtenu et placez-le dans un autre groupe.
+   * Double-cliquez pour ouvrir le premier groupe. Il s’agit du « conteneur » de la vitre et des meneaux obtenus.
+   * Cliquez sur la miniature Storefront Curtainwall et utilisez le groupe de vitres comme sélection.
+   * Une fois le script exécuté, vous pouvez quitter le groupe et copier/coller le conteneur selon vos besoins. Vous pouvez modifier toutes les instances \(en ajustant la forme ou les paramètres de la vitre\) sans problème.
 
-## Mullion System Options
+## Options du système de meneaux
 
-Once you select glass and run the script, you'll get a result in the FormIt canvas, in the form of a FormIt Group. This Group will be automatically selected, and the Properties panel will reveal the available options.
+Une fois que vous avez sélectionné la vitre et exécuté le script, vous obtenez un résultat dans la zone de dessin FormIt, sous la forme d’un groupe FormIt. Ce groupe est automatiquement sélectionné et le groupe de fonctions Properties affiche les options disponibles.
 
-![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run**: If you modify the shape of the glass and want to re-run the graph to update the mullion results, click this.&#x20;
-* **Edit Embedded Graph**: Edit the Dynamo script that's generating the geometry. This script is embedded in the FormIt file and is specific to this Group.
-* **Select Glass (Surface or Solid)**: Click this to update the selection to a different piece of glass around which to generate mullions.
+* **Run** : si vous modifiez la forme de la vitre et souhaitez réexécuter le graphique pour mettre à jour les résultats du meneau, cliquez sur ce bouton.
+* **Edit Embedded Graph** : modifiez le script Dynamo qui génère la géométrie. Ce script est incorporé dans le fichier FormIt et est spécifique de ce groupe.
+* **Select Glass \(Surface or Solid\)** : cliquez sur ce bouton pour mettre à jour la sélection vers un autre élément de vitrage autour duquel générer les meneaux.
 
-The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the current FormIt units.
+Le script utilise les valeurs par défaut pour sa première exécution. Vous devez donc les ajuster en fonction de votre cas d’utilisation unique. Toutes les valeurs utilisent les unités FormIt actives.
 
-* **Mullion Width + Depth**: The width and depth of all mullion elements.
-* **Vertical Mullion Spacing**: The distance, on center, between each vertical mullion.
-* **Flip Vertical Mullion Layout**: The script starts the vertical mullion spacing from one side, chosen arbitrarily. If the result starts the mullion spacing on the wrong side for your use case, set this to True to flip the layout to start on the opposite site.
-* **Center Vertical mullion Layout**: Instead of starting the vertical mullion spacing calculation at one end of the glass, start the calculation in the middle, creating a symmetrical layout of vertical mullions.
-* **First Horizontal Mullion Spacing**: Sets the first horizontal mullion spacing from the bottom. Useful if you need a row of shorter glazing modules at the bottom, separate from the rest of the horizontal mullion spacing.
-* **Horizontal Mullion Spacing**: The typical horizontal mullion spacing, on center, starting after the first mullion as outlined above.&#x20;
-* **Flip Horizontal Mullion Layout**: If you want the horizontal mullion layout to start at the top instead of the bottom, set this to True.
-* **Center Horizontal Mullion Layout**: Instead of starting the horizontal mullion spacing calculation at the bottom or top of the glass, start the calculation in the middle, creating a symmetrical layout of horizontal mullions.
+* **Mullion Width + Depth** : largeur et profondeur de tous les éléments de meneau.
+* **Vertical Mullion Spacing** : distance, au centre, entre chaque meneau vertical.
+* **Flip Vertical Mullion Layout** : le script commence l’espacement des meneaux verticaux à partir d’un côté, choisi de manière arbitraire. Si le résultat indique que l’espacement des meneaux est défini sur le mauvais côté pour votre cas d’utilisation, définissez cette option sur True pour que la présentation commence sur le site opposé.
+* **Center Vertical mullion Layout** : au lieu de commencer le calcul de l’espacement des meneaux verticaux à une extrémité de la vitre, lancez le calcul au milieu, afin de créer une disposition symétrique des meneaux verticaux.
+* **First Horizontal Mullion Spacing** : définit l’espacement du premier meneau horizontal en partant du bas. Cette option est utile si vous avez besoin d’une rangée de modules de vitrage plus courts en bas, séparés du reste de l’espacement des meneaux horizontaux.
+* **Horizontal Mullion Spacing** : espacement type des meneaux horizontaux, au centre, commençant après le premier meneau comme indiqué ci-dessus.
+* **Flip Horizontal Mullion Layout** : si vous souhaitez que la disposition des meneaux horizontaux commence en haut et non en bas, définissez cette option sur True.
+* **Center Horizontal Mullion Layout** : au lieu de lancer le calcul de l’espacement des meneaux horizontaux en bas ou en haut de la vitre, lancez le calcul au milieu, afin de créer une disposition symétrique des meneaux horizontaux.
 
-## Hidden Options
+## Options masquées
 
-Looking for more customization? Several advanced options are hidden from the FormIt properties panel, but are accessible by clicking "Edit Embedded Graph" to reveal the full graph contents in Dynamo:
+Vous recherchez d’autres options de personnalisation ? Plusieurs options avancées sont masquées dans le groupe de fonctions Propriétés de FormIt. Pour y accéder, il suffit de cliquer sur « Edit Embedded Graph » afin d’afficher l’intégralité du contenu du graphique dans Dynamo :
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Randomized Mullions
+### Meneaux aléatoires
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: Set this to True to space the vertical or horizontal mullions randomly
-* **Min/Max Mullion Spacing (if random)**: Adjust these values to set a range of minimum and maximum randomized spacing values
+* **Randomize Vertical and Horizontal Mullion Layout** : définissez cette option sur True pour espacer les meneaux verticaux ou horizontaux de façon aléatoire.
+* **Min/Max Mullion Spacing \(if random\)** : ajustez ces valeurs pour définir une plage de valeurs d’espacement aléatoire minimum et maximum.
 
-### Border Mullions
+### Meneaux extérieurs
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions:** By default, the mullion system will use the glass boundary, and offset it inward to create the border mullions. To offset outward, set this option to True. This will increase the overall size of the mullion system outside the glass boundary by the Mullion Width setting.
-* **Tolerance Between Selection and Border Mullions**: By default, the mullion system will generate exactly at the border of the glass, which could cause Z-fighting where the edge of the glass and the outer surfaces of the border mullions collide. In most cases, this won't be visible, but if your use case requires the edges of the system to be visible and you want to avoid Z-fighting, enable this option and adjust the tolerance value as necessary.
+* **Flip Offset Direction of Border Mullions :** par défaut, le système de meneaux utilise le contour du vitrage et le décale vers l’intérieur afin de créer les meneaux extérieurs. Pour effectuer un décalage vers l’extérieur, définissez cette option sur True. Cette opération augmente la taille globale du système de meneaux en dehors du contour du vitrage en fonction du paramètre Largeur du meneau.
+* **Tolerance Between Selection and Border Mullions** : par défaut, le système de meneaux est généré exactement au niveau du contour du vitrage, ce qui peut entraîner du Z fighting à l’endroit où le cadre de la vitre et les surfaces externes des meneaux extérieurs se rejoignent. Dans la plupart des cas, ceci n’est pas visible, mais si votre cas d’utilisation requiert que les arêtes du système soient visibles et que vous souhaitez éviter le Z fighting, activez cette option et ajustez la valeur de tolérance si nécessaire.
+

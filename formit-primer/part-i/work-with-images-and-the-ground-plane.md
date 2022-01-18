@@ -1,92 +1,93 @@
-# 1.2 - Project Set Up with Images and Grid
+# 1.2 – Configuration d’un projet avec des images et une grille
 
-_You can import PNG or JPG images onto the ground plane of the model by selecting File > Import from the Navigation Bar. However, to gain more control over the scale and position of an imported image, we can create a custom material and apply it to a rectangle that we have drawn ourselves._
+_Pour importer des images PNG ou JPG sur le plan du sol du modèle, sélectionnez Fichier > Importer dans la barre de navigation. Toutefois, pour mieux contrôler l’échelle et la position d’une image importée, vous pouvez créer un matériau personnalisé et l’appliquer à un rectangle que vous avez dessiné vous-même._
 
-_If you did not complete the last section, download and open the_ _**1.2 - Project Set Up with Images and Grid.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.2 – Project Set Up with Images and Grid.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
 
-## **Calculate Image Size**
+## **Calcul de la taille de l’image**
 
-The provided **plan.png** is an image of a plan printed on a 24” x 26” Sheet (ARCH D) which is 3600 pixels wide by 2400 pixels high. By knowing the drawing scale (¼"=1'-0") and the image dimensions you can calculate that 1’ = 25 pixels, which means that the image should be 144'x96' when imported into FormIt at full scale.
+Le fichier **plan.png** fourni est l’image d’un plan imprimé sur une feuille de 24” x 26” \(ARCH D\) dont la résolution est de 3 600 pixels de large sur 2 400 pixels de haut. Grâce à l’échelle du dessin \(¼ po = 1 pi-0 po\) et les dimensions de l’image, vous pouvez calculer que 1’ = 25 pixels, ce qui signifie que l’image doit être de 144’ x 96’ lorsqu’elle est importée dans FormIt à pleine échelle.
 
-![](<../../.gitbook/assets/0 (1) (2).png>)
+![](../../.gitbook/assets/0%20%281%29.png)
 
-## **Import an Image to scale**
+## **Importation d’une image à l’échelle**
 
-1 – Click the **Top View** icon from the **Floating Navigation Bar** to see the scene from above.
+1 – Cliquez sur l’icône **Vue de dessus** dans la **barre de navigation flottante** pour visualiser la scène du dessus.
 
-![](<../../.gitbook/assets/1 (1).png>)
+![](../../.gitbook/assets/1%20%281%29.png)
 
-2 - Choose the **Rectangle Tool (R)** from the 3D Sketch toolbar.
+2 – Choisissez l’**outil Rectangle \(R\)** dans la barre d’outils Esquisse 3D.
 
-![](<../../.gitbook/assets/2 (1).png>)
+![](../../.gitbook/assets/2%20%281%29.png)
 
-3 – To create a rectangle that is exactly **144’** x **96’**, click anywhere in the workspace to define the starting point, then move the mouse to preview and define the first side length. Start typing a dimension value to access a dialog where you can input the exact dimension. Click **OK** or press the **Enter** key to commit the dimension. Repeat the process to set the second side’s length and finish the rectangle.
+3 – Pour créer un rectangle ayant les dimensions exactes de **144’** x **96’**, cliquez n’importe où dans l’espace de travail pour définir le point de départ, puis déplacez la souris pour afficher un aperçu et définir la première longueur de côté. Commencez à saisir une valeur de cote pour accéder à une boîte de dialogue dans laquelle vous pouvez entrer la cote exacte. Cliquez sur **OK** ou appuyez sur la touche **Entrée** pour valider la cote. Répétez la procédure pour définir la longueur du deuxième côté et terminer le rectangle.
 
-![ Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+![Saisissez la longueur du premier côté du rectangle.](../../.gitbook/assets/3%20%281%29.png)
 
-![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+![Saisissez la longueur du deuxième côté du rectangle.](../../.gitbook/assets/4%20%281%29.png)
 
-![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+![Terminez le rectangle.](../../.gitbook/assets/5%20%281%29.png)
 
-4 - To create the new “Floor Plan” material:
+4 – Pour créer le matériau « Plan d’étage » procédez comme suit :
 
-1. Open the **Material Palette**.
-2. Click the **+** icon to create a new material.
-3. Name the new material “**Floor Plan”.**
-4. Under **MAPS** click on the **Texture** preview tile and browse to **plan.png** in the **Farnsworth House Data Set >  Supporting Files > Images** folder. Then click **Open**.
-5. Under **PROPERTIES**, change the image’s scale by entering **144'** in the **Horizontal Scale** field and **96'** in the **Vertical Scale** field. Note that unlocking horizontal and vertical scale (**chain link** icon) may be required to insert values that change the image proportions.
-6. Check **Transparency** and set it at around half. This will help align the imported floor plan image to the satellite image.
-7. Click **OK** to finish the material.
+1. Ouvrez la **palette Matériaux**.
+2. Cliquez sur l’icône **+** pour créer un matériau.
+3. Nommez le nouveau matériau « **Plan d’étage ».**
+4. Sous **CARTES**, cliquez sur la mosaïque d’aperçu **Texture** et accédez au fichier **plan.png** dans le dossier **Jeu de données Maison Farnsworth > Fichiers de support > Images**. Ensuite, cliquez sur **Ouvrir**.
+5. Sous **PROPRIÉTÉS**, modifiez l’échelle de l’image en saisissant **144’** dans le champ **Échelle horizontale** et **96’** dans le champ **Échelle verticale**. Il se peut que vous deviez déverrouiller les échelles horizontale et verticale \(icône de **maillons de chaîne**\) afin d’insérer des valeurs qui modifient les proportions de l’image.
+6. Cochez la case **Transparence** et définissez le curseur au milieu de la plage environ. Cela permet d’aligner l’image du plan d’étage importée sur l’image satellite.
+7. Cliquez sur **OK** pour terminer le matériau.
 
 ![](../../.gitbook/assets/create-1.png)
 
-5 - To paint the rectangle:
+5 – Pour peindre le rectangle, procédez comme suit :
 
-1. In the **Material Palette**, single-click on the **Floor Plan material** tile to paint with this material.
-2. Click on the rectangle you sketched to paint it. Press **Esc** to exit the paintbrush tool.
+1. Dans la **palette Matériaux**, cliquez sur la mosaïque du matériau **Floor Plan** (Plan d’étage) pour peindre avec ce matériau.
+2. Cliquez sur le rectangle que vous avez dessiné pour le peindre. Appuyez sur **Échap** pour quitter l’outil Pinceau.
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 - If the material appears inverted or backward, you may need to reverse the face. You can do so by right-clicking with the mouse to access the **Context Menu** and selecting the Reverse Face (FF) button.
+6 – Si le matériau apparaît à l’envers ou inversé, vous devrez peut-être inverser la face. Pour ce faire, cliquez avec le bouton droit de la souris pour accéder au **menu contextuel**, puis choisissez le bouton Inverser la face \(FF\).
 
 ![](../../.gitbook/assets/8.png)
 
-## **Align the Imported Image to the Satellite Image**
+## **Alignement de l’image importée sur l’image satellite**
 
-1 – To move the image, first select the rectangle by double-clicking on it. Then click-and-drag the rectangle and move it until it overlaps the building in the Satellite image. We will come back to aligning it perfectly later, just try to get it close for now.
+1 – Pour déplacer l’image, double-cliquez d’abord sur le rectangle pour le sélectionner. Ensuite, cliquez sur le rectangle et faites-le glisser jusqu’à ce qu’il chevauche le bâtiment dans l’image satellite. Pour le moment, essayez d’aligner le rectangle le mieux possible. Nous ajusterons l’alignement ultérieurement.
 
 ![](../../.gitbook/assets/9.png)
 
-2 - To rotate the rectangle to align with the Satellite image:
+2 – Pour faire pivoter le rectangle afin de l’aligner sur l’image Satellite, procédez comme suit :
 
-1. Right-click on the rectangle to bring up the context menu. Choose **Rotate (Q).**
-2. The **Rotate Widget** appears in the middle of the rectangle. Select the widget by clicking once on the orange grip in the middle. Move the widget to the bottom left corner of the rectangle. It will snap to the corner. Click to place it.
-3. Type **9**, and the dimension box will appear. Click **OK** to rotate the rectangle counterclockwise by 9 degrees.
+1. Cliquez avec le bouton droit de la souris sur le rectangle pour afficher le menu contextuel. Choisissez l’outil **Rotation \(Q\).**
+2. Le **widget Rotation** s’affiche au milieu du rectangle. Pour sélectionner le widget, cliquez une fois sur la poignée orange au milieu. Déplacez le widget vers le coin inférieur gauche du rectangle. Il s’accroche au coin. Cliquez pour le placer.
+3. Tapez **9**. La zone de cote s’affiche. Cliquez sur **OK** pour faire pivoter le rectangle de 9 degrés dans le sens anti-horaire.
 
 ![](../../.gitbook/assets/10.png)
 
 ![](../../.gitbook/assets/11.png)
 
-## **Align the Grid to the Satellite Image**
+## **Alignement de la grille sur l’image satellite**
 
-1 - Now, we will align the grid with the Satellite image and the floor plan. Right-click anywhere on the **ground plane** and choose **Set Axes (SZ)**.
+1 – Nous allons maintenant aligner la grille sur l’image satellite et le plan d’étage. Cliquez avec le bouton droit de la souris n’importe où sur le **plan du sol**, puis choisissez **Définir les axes \(SZ\)**.
 
 ![](../../.gitbook/assets/12.png)
 
-2 – The **Set Axis** widget will appear. Move the axis to the bottom left corner of the rectangle, where it should snap. Click to place it.
+2 – Le widget **Définir l’axe** s’affiche. Déplacez l’axe vers le coin inférieur gauche du rectangle, où il doit s’accrocher. Cliquez pour le placer.
 
 ![](../../.gitbook/assets/13.png)
 
-3 - Click on the grip at the end of the red axis. Move the grip to the bottom right corner of the rectangle so that the red axis aligns with the bottom edge of the plane. Click off in space to commit this change.
+3 – Cliquez sur la poignée située à l’extrémité de l’axe rouge. Déplacez la poignée vers le coin inférieur droit du rectangle de sorte que l’axe rouge soit aligné avec le bord inférieur du plan. Cliquez en dehors de l’espace pour valider cette modification.
 
 ![](../../.gitbook/assets/14.png)
 
-4 - To align the view with the new grid, click the Top View icon from the Navigation Bar to reset the scene.
+4 – Pour aligner la vue sur la nouvelle grille, cliquez sur l’icône Vue de dessus dans la barre de navigation pour réinitialiser la scène.
 
 ![](../../.gitbook/assets/15.png)
 
-5 - To ensure the building in both images overlap, select the plan to move it once more until it overlaps the Satellite image correctly.
+5 – Pour vous assurer que les deux images du bâtiment se superposent, sélectionnez le plan pour le déplacer une fois de plus jusqu’à ce qu’il chevauche correctement l’image satellite.
 
 ![](../../.gitbook/assets/16.png)
 
-6 - The satellite image, the rectangle, and the grid are now aligned, which will simplify 3D sketching.
+6 – L’image satellite, le rectangle et la grille sont désormais alignés, ce qui simplifie l’esquisse 3D.
+

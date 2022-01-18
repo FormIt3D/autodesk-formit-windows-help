@@ -1,29 +1,30 @@
-# Faces: Extrude, Cut and Offset
+# Faces : extrusion, coupe et décalage
 
-Push or pull a face, imprint new shapes on existing ones, or create new offset edges.
+Poussez ou tirez une face, imprimez de nouvelles formes sur des formes existantes ou créez des arêtes décalées.
 
-## Extrude
+## Extrusion
 
-To push or pull a face, select a face with a single click, then click and drag. The face will move back and forth, you can now move your mouse to snap and inference on other model elements. Click again to finish moving the face. Hold down the CTRL key to retain the original edges.
+Pour déplacer une face, cliquez dessus une fois pour la sélectionner, puis cliquez et faites glisser le curseur. La face se déplace d’avant en arrière. Vous pouvez désormais déplacer la souris pour accrocher et déduire d’autres éléments du modèle. Cliquez à nouveau pour terminer le déplacement de la face. Maintenez la touche Ctrl enfoncée pour conserver les arêtes d’origine.
 
-![](<../.gitbook/assets/extrude (1).png>)
+![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprint
+## Graver
 
-To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles, or circles onto existing faces. This action creates new faces that can be pushed or pulled independently of the original face.
+Pour graver des formes, utilisez un outil d’esquisse 3D pour tracer des lignes, des arcs, des splines, des rectangles ou des cercles sur des faces existantes. Cette action crée de nouvelles faces qui peuvent être déplacées indépendamment de la face d’origine.
 
-![](../.gitbook/assets/imprint1.png)\
+![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## Décalage
 
-To offset the face of an object:
+Pour décaler la face d’un objet, procédez comme suit :
 
-1. First select the face you would like to edit, then right-click to view the **Context** menu.&#x20;
-2. From the **Context** menu, click on the **Offset Face** tool.&#x20;
-3. Move your cursor over the selected face and adjust the lines that display until you reach your desired offset effect.
-4. Click anywhere to complete the offset. You can now independently push or pull the offset face.
+1. Tout d’abord, sélectionnez la face que vous souhaitez modifier, puis cliquez avec le bouton droit de la souris pour afficher le menu **contextuel**.
+2. Dans le menu **contextuel**, cliquez sur l’outil **Décaler la face**.
+3. Déplacez le curseur sur la face sélectionnée et ajustez les lignes qui s’affichent jusqu’à ce que vous atteigniez l’effet de décalage souhaité.
+4. Cliquez n’importe où pour terminer le décalage. Vous pouvez maintenant déplacer indépendamment la face décalée.
 
-![](../.gitbook/assets/offset1.png)\
-![](../.gitbook/assets/offset2.png)\
+![](../.gitbook/assets/offset1.png)  
+![](../.gitbook/assets/offset2.png)  
 ![](../.gitbook/assets/offset3.png)
+

@@ -1,17 +1,22 @@
-# Conceptual Solid Modeling
+# Modélisation de solides conceptuels
 
-Quickly and easily create conceptual geometry to work through design options.
+Créez rapidement et facilement des géométries conceptuelles pour travailler sur différentes variantes.
 
-FormIt's solid modeling kernel enables incredible, time-saving workflows to make modeling easy and efficient.
+Le noyau de modélisation de FormIt permet d’obtenir des workflows incroyables et rapides afin de rendre la modélisation simple et efficace.
 
-**Learn why solid modeling is advantageous, and how to ensure your model is solid so it can be used in downstream applications, like Revit:**
+**Découvrez les avantages de la modélisation de solides et comment vous assurer que votre modèle est un solide afin de pouvoir l’utiliser dans des applications en aval, telles que Revit :**
 
 {% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
 
-**Once your model is solid, you can take advantage of solid extrusion techniques to quickly clean up geometry and maintain organized models:**
+**Une fois le modèle solide, vous pouvez utiliser les techniques d’extrusion de solide afin de nettoyer rapidement la géométrie et de conserver des modèles organisés :**
 
 {% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
 
-**Additionally, use Smart Selection tools to quickly select similar geometry and save clicks:**
+**En outre, utilisez les outils de sélection intelligente pour sélectionner rapidement une géométrie similaire et gagner du temps :**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
+
+
+
+
+

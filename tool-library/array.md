@@ -1,15 +1,16 @@
-# Array
+# Réseau
 
-You can create both linear and radial arrays in FormIt. To **array edges, faces, or entire objects**, click on the Array icon from the Context Menu. Next, choose Linear or Radial, specify the other parameters, and click the object to start an array. Click again to place the arrayed elements.
+Vous pouvez créer des réseaux linéaires et radiaux dans FormIt. Pour **mettre en réseau des arêtes, des faces ou des objets entiers**, cliquez sur l’icône Réseau dans le menu contextuel. Ensuite, choisissez Linéaire ou Radial, spécifiez les autres paramètres, puis cliquez sur l’objet pour créer un réseau. Cliquez à nouveau pour positionner les éléments mis en réseau.
 
-## Linear
+## Valeur linéaire
 
-![](../.gitbook/assets/array.png)\
-![](../.gitbook/assets/array\_linear2.png)\
-![](../.gitbook/assets/linear\_array\_3.png)
+![](../.gitbook/assets/array.png)  
+![](../.gitbook/assets/array_linear2.png)  
+![](../.gitbook/assets/linear_array_3.png)
 
 ## Radial
 
-![](<../.gitbook/assets/array\_radial1 (1).png>)\
-![](../.gitbook/assets/radial\_array2.png)\
-![](../.gitbook/assets/radial\_array3.png)
+![](../.gitbook/assets/array_radial1.png)  
+![](../.gitbook/assets/radial_array2.png)  
+![](../.gitbook/assets/radial_array3.png)
+

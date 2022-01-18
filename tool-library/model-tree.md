@@ -1,15 +1,16 @@
-# Model Tree
+# Arborescence du modèle
 
-The Model Tree provides a way to view the topological hierarchy of your FormIt model.
+L’arborescence du modèle permet d’afficher la hiérarchie topologique de votre modèle FormIt.
 
-Enable the Model Tree by going to the Window menu, and checking the box next to Model Tree.
+Pour activer l’arborescence du modèle, accédez au menu Fenêtre et cochez la case située en regard de l’arborescence du modèle.
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-Inside the Model Tree, each Group is identified as a History, since each Group has its own command history, or Undo/Redo stack.
+Dans l’arborescence du modèle, chaque groupe est identifié comme étant un historique, car chaque groupe possède son propre historique de commandes ou une pile Annuler/Rétablir.
 
-Within each History, you'll see a list of nested Groups, instances, or geometric objects like bodies.
+Dans chaque historique, vous verrez une liste de groupes imbriqués, d’instances ou d’objets géométriques tels que des corps.
 
-You can also view non-geometric attributes (string attributes) attached to FormIt objects using the Model Tree. [You can place string attributes on Groups created by the SendToFormIt node using Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+Vous pouvez également afficher les attributs non géométriques \(attributs de chaîne\) associés aux objets FormIt à l’aide de l’arborescence du modèle. [Vous pouvez placer des attributs de chaîne sur des groupes créés par le nœud SendToFormIt à l’aide de Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
+

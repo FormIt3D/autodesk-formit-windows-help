@@ -1,39 +1,39 @@
-# Curve + Surface Faceting
+# Création de facettes de courbe et de surface
 
-FormIt is a polyhedral modeling system, so objects like circles, arcs, and splines are represented by a series of straight edges. Similarly, a curved surface like the wall of a cylinder, or a dome, is comprised of a series of planar faces with hidden border edges.
+FormIt est un système de modélisation polyédrique. Les objets tels que les cercles, les arcs et les splines sont donc représentés par une série d’arêtes droites. De même, une surface incurvée, comme la paroi d’un cylindre ou d’un dôme, est constituée d’une série de faces planes avec des arêtes de bordure masquées.
 
-By default, FormIt uses 40 edges, or facets, to represent a circle, and 24 facets to represent a 3D, curved object like a cylinder. For more complex surfaces like a dome, a value of 24 sets the perimeter faceting count, and also impacts how densely faceted the rest of the shape is.
+Par défaut, FormIt utilise 40 arêtes, ou facettes, pour représenter un cercle et 24 facettes pour représenter un objet 3D incurvé comme un cylindre. Pour les surfaces plus complexes comme un dôme, une valeur de 24 définit le nombre de facettes du périmètre et a également un impact sur la densité des facettes du reste de la forme.
 
-In FormIt for Windows v18 and newer, the curve and surface faceting values are customizable:
+Dans FormIt pour Windows v18 et versions ultérieures, les valeurs de création de facettes de courbe et de surface sont personnalisables :
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](../.gitbook/assets/faceting.png)
+![](<../.gitbook/assets/faceting (1).png>)
 
 **Curve Faceting Quality**
 
-Changing the Curve Faceting Quality will affect how many facets are used when drawing new circles and arcs in FormIt, as well as when placing primitive shapes. For example, setting this to 64 would create a 64-sided full circle or a quarter-circle arc with 16 facets.
+La modification de la qualité de création de facettes de courbe a une incidence sur le nombre de facettes utilisées lors du dessin de nouveaux cercles et arcs dans FormIt, ainsi que lors du placement de formes primitives. Par exemple, si vous définissez cette option sur 64, vous créez un cercle complet de 64 côtés ou un arc d’un quart de cercle avec 16 facettes.
 
-This value will also affect the quality of circles and arcs imported from SAT files, as well as when baking geometry from Dynamo. You can set this value for new sketches, or just the current sketch.
+Cette valeur affecte également la qualité des cercles et des arcs importés à partir de fichiers SAT, ainsi que lors de l’ancrage de la géométrie à partir de Dynamo. Vous pouvez définir cette valeur pour les nouvelles esquisses ou uniquement pour l’esquisse actuelle.
 
-For existing curves, you can also use the Rebuild Curve plugin to retroactively rebuild an **existing** arc or circle with a new faceting count:
+Pour les courbes existantes, vous pouvez également utiliser le plug-in Rebuild Curve pour reconstruire rétroactivement un arc ou un cercle **existant** avec un nouveau nombre de facettes :
 
-![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
 
-![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
+![](../.gitbook/assets/faceting\_rebuild-curve.gif)
 
-**Surface Faceting Quality**
+**Qualité de création de facettes de surface**
 
-Changing this global setting will affect the quality of 3D curved surfaces imported from SAT files and when baked from Dynamo.
+La modification de ce paramètre global affecte la qualité des surfaces incurvées 3D importées à partir de fichiers SAT et lorsqu’elles sont ancrées à partir de Dynamo.
 
-For example, setting this to 64 then baking a sphere from Dynamo will use 64 faces around the equator of the sphere, plus 64 facets in each of the rings going to the poles of the sphere, which adds up quickly! Use higher values with caution, as it can affect the performance of FormIt in some cases. Once you've got a result that's high quality, you can [convert it into a Mesh](meshes.md) to improve performance.
+Par exemple, si vous définissez cette option sur 64, l’ancrage d’une sphère à partir de Dynamo utilise 64 faces autour de l’équateur de la sphère, plus 64 facettes dans chacun des anneaux allant vers les pôles de la sphère, ce qui peut rapidement faire beaucoup. Utilisez des valeurs plus élevées avec précaution, car cela peut avoir une incidence sur les performances de FormIt dans certains cas. Une fois que vous obtenez un résultat de haute qualité, vous pouvez [le convertir en maillage](meshes.md) pour améliorer les performances.
 
-When working with Dynamo, you can modify the faceting quality, and hit "Run Graph" in the Properties Panel without changing any parameters, to take advantage of new faceting counts:
+Lorsque vous utilisez Dynamo, vous pouvez modifier la qualité de la création de facettes et cliquer sur « Exécuter le graphique » dans le groupe de fonctions Propriétés sans modifier les paramètres, afin d’utiliser d’autres nombres pour la création de facettes :
 
-![](<../.gitbook/assets/faceting\_column (1).gif>)
+![](../.gitbook/assets/faceting\_column.gif)
 
-As with curves, you can set the surface faceting quality for new sketches, or for the current sketch only.
+Comme avec les courbes, vous pouvez définir la qualité de la création de facettes de surface pour les nouvelles esquisses ou pour l’esquisse actuelle uniquement.
 
-Note that faceting values are currently limited to multiples of 4, so when entering numbers manually, FormIt will round to the nearest multiple. You can use the sliders and arrows to cycle through accepted values.
+Notez que les valeurs de la création de facettes sont actuellement limitées à des multiples de 4. Par conséquent, lorsque vous saisissez des nombres manuellement, FormIt arrondit au multiple le plus proche. Vous pouvez utiliser les curseurs et les flèches pour parcourir les valeurs acceptées.
 
-![](<../.gitbook/assets/units-+-precision (1).png>)
+![](../.gitbook/assets/units-+-precision.png)

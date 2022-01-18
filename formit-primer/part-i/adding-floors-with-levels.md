@@ -1,35 +1,36 @@
-# 1.4 - Add Floors with Levels
+# 1.4 – Ajout de sols avec des niveaux
 
-_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
+_Les niveaux vous permettent de sectionner des volumes avec des références de sol individuelles et de calculer l’aire brute par volume du bâtiment. Les niveaux FormIt et leurs noms personnalisés sont convertis en niveaux Revit lorsque le fichier est converti dans Revit._
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier **1.4 - Add Floors with Levels.axm** à partir du dossier **Jeux de données Partie I FormIt Primer**._
 
-## **Create, and Customize Levels**
+## **Création et personnalisation de niveaux**
 
-1 - To create levels:
+1 – Pour créer des niveaux, procédez comme suit :
 
-1. Go to the **Level Palette** in the **Palette Bar**.
-2. Click **+** (**Add Level**) four times to create four Levels.
-3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
-4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
+1. Accédez à la **palette Niveaux** dans la **barre des palettes**.
+2. Cliquez sur **+** \(**Ajouter un niveau**\) quatre fois pour créer quatre niveaux.
+3. Double-cliquez sur l’élévation actuelle de chaque niveau pour les modifier comme suit : **0’-0", 2’-2", 4’-6"** et **17’-8"**.
+4. Double-cliquez sur le nom actuel de chaque niveau et renommez-les : **Sol, Terrasse, Bâtiment principal** et **Haut du toit.**
 
-![](<../../.gitbook/assets/0 (16) (1).png>)
+![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
+_**Remarque** : vous pouvez cliquer sur l’icône_ _**++**_ _pour créer plusieurs niveaux, séparés par une distance spécifiée et uniforme. Cette option est pratique pour les bâtiments de plusieurs étages_.
 
-## **Apply Levels to Geometry**
+## **Application de niveaux à la géométrie**
 
-_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
+_Dans les étapes précédentes, nous avons uniquement créé des niveaux. Vous pouvez à présent appliquer ces niveaux à la géométrie que vous avez créée._
 
-1 - To apply levels to the exiting geometry:
+1 – Pour appliquer les niveaux à la géométrie existante, procédez comme suit :
 
-1. Select the entire upper terrace mass by double-clicking it.
-2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
-3. Now the currently selected geometry has three levels applied to it (**Main Building, Terrace,** and **Ground**), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
-4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
+1. Double-cliquez sur le volume supérieur de la terrasse pour le sélectionner.
+2. Dans la **palette Propriétés**, cliquez sur **Utiliser les niveaux**. Cette étape permet de présélectionner tous les niveaux qui coupent actuellement la géométrie sélectionnée.
+3. Trois niveaux sont maintenant appliqués à la géométrie sélectionnée \(**Bâtiment principal, Terrasse** et **Sol**\), mais dans le cadre de cet exercice, nous allons uniquement appliquer l’option **Sol**. Désactivez les cases **Bâtiment principal** et **Terrasse**.
+4. Cette procédure permet de s’assurer que seule la surface coupée par le **sol** est prise en compte pour le calcul de l’aire brute, qui peut être visualisée dans le champ **Aire par niveau**.
 
-![](<../../.gitbook/assets/1 (4) (1).png>)
+![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+_**Remarque** : si aucune ligne de niveau bleue ne s’affiche sur le volume, tapez_ _**DL**_ _pour utiliser l’outil_ _**Afficher les niveaux**._
 
-![](<../../.gitbook/assets/2 (3) (1).png>)
+![](../../.gitbook/assets/2%20%283%29.png)
+

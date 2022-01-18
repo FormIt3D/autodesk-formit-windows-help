@@ -1,25 +1,28 @@
-# Sun + Shadows
+# Soleil + Ombres
 
-Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
+Utilisez l’outil **Soleil + Ombres** pour étudier les effets de la trajectoire du soleil sur vos projets.
 
-The first step for accurate shadow studies is to [**set your project location**](setting-location.md).
+La première étape pour effectuer des études d’ombres précises consiste à [**définir l’emplacement du projet**](setting-location.md).
 
-Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+Une fois que vous avez défini votre emplacement et éventuellement importé une image satellite, modélisez votre projet, y compris le contexte du bâtiment, et les éléments d’ombrage tels que les persiennes et les arbres.
 
-## The Sun + Shadows Menu
+### Menu Soleil + Ombres
 
-Turn shadows on in the Sun + Shadows menu at the top of the application (you can also enable shadows, as well as adjust shadow intensity, in [**Visual Styles**](../formit-introduction/tool-bars.md)):
+Activez les ombres dans le menu Soleil + Ombres situé dans la partie supérieure de l’application \(vous pouvez également activer les ombres et ajuster leur intensité dans [**Styles visuels**](../formit-introduction/tool-bars.md)\) :
 
-![](../.gitbook/assets/sun-+-shadows.png)
+![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+Vous pouvez ensuite ajuster l’heure et le jour de l’année. L’année par défaut est 2000. Ne vous inquiétez pas, cela n’affecte pas la précision de l’étude d’ombrage du soleil.
 
-## The Sun Editor
+### Éditeur d’ensoleillement
 
-You can also toggle the Sun Editor from the Sun + Shadows menu (or use shortcut DR), which provides a graphical display of the sun's location in space:
+Vous pouvez également activer ou désactiver l’éditeur d’ensoleillement à partir du menu Soleil + Ombres \(ou utiliser le raccourci DR\), qui fournit un affichage graphique de l’emplacement du soleil dans l’espace :
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
-* Grab the circular grip to move the sun along its path and effectively adjust the time of day.
-* Adjust the time of year from the Sun + Shadows menu. Doing so will adjust the angle and orientation of the graphical sun path based on the time of year.
+* L’éditeur d’ensoleillement se déplace avec la caméra. Vous devrez peut-être ajuster le niveau de zoom et/ou l’orientation de la caméra pour placer le widget dans une position qui vous semble pertinente par rapport à la conception que vous étudiez.
+* Utilisez la poignée circulaire pour déplacer le soleil le long de sa trajectoire et ajuster efficacement l’heure.
+* Ajustez la période de l’année à partir du menu Soleil + Ombres. Cette opération permet d’ajuster l’angle et l’orientation de la trajectoire du soleil graphique en fonction de la période de l’année.
+
+
+

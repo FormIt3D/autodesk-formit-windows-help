@@ -1,51 +1,54 @@
-# AutoSave
+# Enregistrement automatique
 
-Starting with v17.3, FormIt for Windows includes AutoSave, which makes a backup copy of your FormIt model while you work. This backup file can be used to recover data if FormIt closes with unsaved changes.
+À partir de la version v17.3, FormIt pour Windows inclut la fonction Enregistrement automatique, permettant de créer une copie de sauvegarde de votre modèle FormIt pendant que vous travaillez. Ce fichier de sauvegarde peut être utilisé pour récupérer des données si FormIt se ferme avec des modifications non enregistrées.
 
-## Toggling AutoSave
+### Activation/désactivation de la fonction Enregistrement automatique
 
-Find configuration options for AutoSave in Edit > Preferences > AutoSave.
+Recherchez les options de configuration de la fonction Enregistrement automatique dans Modifier > Préférences > Enregistrement automatique.
 
-![](<../.gitbook/assets/20190613-autosave (1).png>)
+![](../.gitbook/assets/20190613-autosave.png)
 
-AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box.
+La fonction Enregistrement automatique est activée par défaut. Pour la désactiver complètement, il vous suffit de décocher la case.
 
-Set the interval (in minutes) at which AutoSave will make a backup copy by entering a value in the "AutoSave interval" number box.
+Pour définir l’intervalle \(en minutes\) auquel l’enregistrement automatique effectuera une copie de sauvegarde, saisissez une valeur dans la case numérique « Intervalle d’enregistrement automatique ».
 
-Note that these preferences are application-level, and will not change when opening different files.
+Notez que ces préférences sont définies au niveau de l’application et ne changent pas lors de l’ouverture de différents fichiers.
 
-## How AutoSave Works
+### Fonctionnement de la fonction Enregistrement automatique
 
-When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
+Lorsque la fonction Enregistrement automatique est activée, elle détermine si le fichier FormIt actif contient des modifications non enregistrées. Si des modifications ne sont pas enregistrées, l’enregistrement automatique crée une copie de sauvegarde du fichier à l’intervalle spécifié.
 
-Backup files are stored next to the original file, and have an extension of `.axmb`.
+Les fichiers de sauvegarde sont stockés à côté du fichier d’origine et portent l’extension `.axmb`.
 
-For example, if your original FormIt file is stored at `C:/Users/<user>/FormIt/MyProject.axm`, the backup file can be found at `C:/Users/<user>/FormIt/MyProject.axmb`.
+Par exemple, si votre fichier FormIt d’origine est stocké dans `C:/Users/<user>/FormIt/MyProject.axm`, le fichier de sauvegarde se trouve dans `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-If you start a new FormIt session without opening an existing file, unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start adding unsaved changes next to the new location, as noted above.
+Si vous démarrez une nouvelle session FormIt sans ouvrir de fichier existant, les modifications non enregistrées sont disponibles à l’adresse `C:/Users/<user>/Documents/Untitled.axmb`. Une fois le nouveau modèle enregistré dans un autre emplacement, la sauvegarde commence à ajouter des modifications non enregistrées à côté du nouvel emplacement, comme indiqué ci-dessus.
 
-When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
+Lorsque vous enregistrez les modifications apportées au fichier d’origine, l’enregistrement automatique supprime automatiquement le fichier de sauvegarde, car la sauvegarde est désormais plus ancienne que le fichier d’origine. Toutefois, si vous apportez des modifications ultérieures au fichier enregistré, l’option d’enregistrement automatique vous invite à recommencer la sauvegarde à l’intervalle spécifié.
 
-If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
+Si votre fichier de travail comporte des modifications non enregistrées et que vous décidez de fermer FormIt et d’ignorer les modifications, la sauvegarde d’enregistrement automatique sera supprimée. Toutefois, si FormIt doit se fermer (soit par un arrêt de l’ordinateur, soit par un blocage de l’application), le fichier de sauvegarde d’enregistrement automatique est conservé et peut être utilisé ultérieurement pour récupérer des données.
 
-## Working With AutoSave Enabled
+### Utilisation de la fonction Enregistrement automatique
 
-FormIt minimizes the potential performance impact of AutoSave by executing the backup in a separate process. With small- to medium-sized files, you shouldn't notice when AutoSave backs up. With very large files (\~400MB and above), you might notice just a momentary pause while FormIt copies the entire model and starts backing up in a separate process.
+FormIt minimise l’impact potentiel de l’enregistrement automatique sur les performances en exécutant la sauvegarde dans un processus distinct. Dans le cas de fichiers de petite et de moyenne taille, vous ne devriez pas remarquer quand la fonction Enregistrement automatique effectue une sauvegarde. Dans le cas de fichiers très volumineux \(400 Mo environ et plus\), vous pouvez remarquer une pause momentanée pendant que FormIt copie le modèle entier et commence la sauvegarde dans un processus distinct.
 
-If you're wondering if AutoSave is currently backing up, you can watch the status bar the bottom left of the application for a brief "AutoSaving..." message:
+Si vous souhaitez savoir si un enregistrement automatique est en cours, consultez la barre d’état située dans la partie inférieure gauche de l’application pour vérifier si le message d’enregistrement automatique suivant est affiché :
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-If your status bar is disabled, you can enable it at Window > Status Bar or via the shortcut HS.
+Si votre barre d’état est désactivée, activez-la dans Windows > Barre d’état ou via le raccourci HS.
 
-## Recovering Data with AutoSave
+### Récupération de données avec la fonction Enregistrement automatique
 
-When opening a FormIt file with a backup available, FormIt will alert you that the backup file exists. As mentioned above, this could be simply due to you closing FormIt without electing to save changes to this project last time it was edited, or due to FormIt unexpectedly closing.
+Lorsque vous ouvrez un fichier FormIt pour lequel une sauvegarde est disponible, FormIt vous avertit que le fichier de sauvegarde existe. Comme indiqué ci-dessus, cela peut être dû à la fermeture de FormIt sans que vous ayez choisi d’enregistrer les modifications apportées à ce projet lors de sa dernière modification ou à la fermeture inattendue de FormIt.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Clicking the "Open it?" hyperlink will load the `.axmb` backup file.
+Cliquez sur l’hyperlien « Ouvrir ? » pour charger le fichier de sauvegarde `.axmb`.
 
-Similarly, you can use File > Open, and manually select the `.axmb` file from the file explorer to open a backup.
+De même, vous pouvez utiliser Fichier > Ouvrir et sélectionner manuellement le fichier `.axmb` dans l’explorateur de fichiers pour ouvrir une sauvegarde.
 
-Once the backup file is open, the next time you save, FormIt will require you to pick a different FormIt file (`.axm`) to overwrite. You cannot overwrite FormIt backup files (`.axmb`).
+Une fois le fichier de sauvegarde ouvert, la prochaine fois que vous l’enregistrerez, FormIt vous demandera de choisir un autre fichier FormIt \(`.axm`\) à remplacer. Vous ne pouvez pas remplacer les fichiers de sauvegarde FormIt \(`.axmb`\).
+
+
+

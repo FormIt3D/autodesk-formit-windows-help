@@ -1,17 +1,18 @@
-# Orthographic Camera
+# Caméra orthographique 
 
-FormIt 2021 includes the addition of a new Orthographic Camera feature. You can find the Orthographic and Perspective buttons in the Navigation Menu:
+FormIt 2021 inclut l’ajout d’une nouvelle fonction de caméra orthogonale. Les boutons Orthogonale et Perspective sont disponibles dans le menu de navigation :
 
-![Orthographic (bottom) and Perspective (top) camera view buttons ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Boutons de vue de caméra Orthogonale \(bas\) et Perspective \(haut\) ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-This new option allows you to easily toggle between the Orthographic and Perspective camera views.
+Cette nouvelle option vous permet de basculer facilement entre les vues de caméra Orthogonale et Perspective.
 
-![A model can be toggled from Perspective Camera to Orthographic Camera mode.](<../.gitbook/assets/ortho-camera (1).gif>)
+![Un modèle peut passer du mode Caméra en perspective au mode Caméra orthogonale.](../.gitbook/assets/ortho-camera.gif)
 
-Once in Orthographic camera, any other camera tools will respect the current mode. For example, **Align Camera to Face** will align the Orthographic Camera to the face, resulting in an orthographic elevation view.
+Une fois dans la caméra orthogonale, tous les autres outils de caméra respectent le mode actif. Par exemple, l’option **Aligner caméra avec face** permet d’aligner la caméra orthogonale sur la face, ce qui génère une vue d’élévation orthogonale.
 
-If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position, making it easier to access those pre-set views.
+Si vous accédez manuellement à une vue orthogonale prédéfinie, telle que Vue de dessus ou Vue de face, la caméra orthogonale s’accroche à cette position, facilitant ainsi l’accès à ces vues prédéfinies.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Note:** If camera clipping occurs in Orthographic Camera mode, you can switch back to Perspective Mode, zoom out, and then try again.
+**Remarque :** si la délimitation de la caméra se produit en mode Caméra orthogonale, vous pouvez revenir en mode Perspective, effectuer un zoom arrière, puis réessayer.
+

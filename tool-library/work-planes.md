@@ -1,15 +1,16 @@
-# Work Planes
+# Plans de construction
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+Lorsque vous modifiez les axes universels dans l’esquisse principale ou les axes locaux d’un groupe, un plan de construction est associé aux axes X et Y. Un **plan de construction** est une surface virtuelle 2D utilisée comme plan par défaut pour l’esquisse. Ce plan de construction s’étire à l’infini et fournit une surface permettant de dessiner une esquisse sans s’accrocher aux éléments situés derrière.
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+Pour savoir comment modifier le plan du sol, reportez-vous à la rubrique [Styles visuels.](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## Modification des plans de construction
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+Faites pivoter les [axes universels](world-axes.md) sur le plan d’un autre objet de l’esquisse. Le plan de construction actif s’aligne sur cette face. Vous pouvez désormais esquisser, placer et modifier des éléments par rapport au nouveau plan XY, plutôt que par rapport au plan du sol par défaut. Vous pouvez appliquer une orbite derrière ou sous la grille et les plans de construction pour accrocher et déduire les éléments situés derrière.
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style > Environment > **Display Grid (DG).**
+Vous pouvez activer ou désactiver la visibilité de la ligne de quadrillage pour utiliser l’esquisse basée sur le plan de construction. Vous pouvez contrôler ce paramètre dans Style visuel > Environnement >**Afficher la grille \(DG\).**
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings > **Snap to Grid (SG).**
+Vous pouvez également déterminer si vous effectuez un accrochage à la grille lors du dessin. Activez et désactivez ce paramètre dans Paramètres >**Accrocher à la grille \(SG\).**
 
 ![](../.gitbook/assets/work-plane.gif)
+

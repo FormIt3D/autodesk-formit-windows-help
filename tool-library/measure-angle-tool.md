@@ -1,21 +1,26 @@
-# Measure Angle
+# Mesurer l’angle
 
-The Measure Angle tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+L’outil Mesurer l’angle se trouve dans la [barre d’outils](../formit-introduction/tool-bars.md).
 
-The Measure Angle tool is used to measure angles between vertices, edges, faces, and volumes. You can also use the Measure Angle tool to drive dimensions of geometry.
+L’outil Mesurer l’angle permet de mesurer des angles entre des sommets, des arêtes, des faces et des volumes. Vous pouvez également utiliser l’outil Mesurer l’angle pour définir les cotes de la géométrie.
 
-*   From the **Measure** toolbar menu, select the **Measure Angle** tool or use the keyboard shortcut **M A** and select a starting point.
+* Dans le menu de la barre d’outils **Mesurer**, sélectionnez l’outil **Mesurer l’angle** ou utilisez le raccourci clavier **M A** et sélectionnez un point de départ.
 
-    ![](../.gitbook/assets/measure-angle.png)
-*   Click and drag the handle to the starting vertex.
+   ![](../.gitbook/assets/measure-angle.png)
 
-    ![](../.gitbook/assets/measure-angle2.png)
-*   Use the arrows to measure the angle between one point to another.
+* Cliquez et faites glisser la poignée vers le sommet de départ.
 
-    ![](../.gitbook/assets/measure-angle4.png)
-*   To change the geometry, click on an edge or face and enter a new angle value by clicking on the displayed angle.
+   ![](../.gitbook/assets/measure-angle2.png)
 
-    ![](<../.gitbook/assets/measure-angle3 (1).png>)
-*   Your changes or measurements display:
+* Utilisez les flèches pour mesurer l’angle entre deux points.
 
-    ![](../.gitbook/assets/measure-angle5.png)
+   ![](../.gitbook/assets/measure-angle4.png)
+
+* Pour modifier la géométrie, cliquez sur une arête ou une face et cliquez sur l’angle affiché pour saisir une nouvelle valeur d’angle.
+
+   ![](../.gitbook/assets/measure-angle3.png)
+
+* Vos modifications ou mesures s’affichent :
+
+   ![](../.gitbook/assets/measure-angle5.png)
+

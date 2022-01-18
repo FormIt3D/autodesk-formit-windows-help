@@ -1,27 +1,28 @@
-# Layers
+# Calques
 
-Use Layers to control the visibility of FormIt objects.
+Utilisez les calques pour contrôler la visibilité des objets FormIt.
 
-See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Pour découvrir le fonctionnement des calques, suivez le guide [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
 
-## Creating and Naming Layers
+## Création et nommage des calques
 
-In the Layers panel, you can create and name your Layers by clicking the "**+**" icon.
+Dans le groupe de fonctions Calques, cliquez sur l’icône « **+** » pour créer et nommer vos calques.
 
-![](<../.gitbook/assets/layer-locking-image (1).jpg>)
+![](../.gitbook/assets/layer-locking-image.jpg)
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible but not selectable or editable.
+Pour renommer le calque, double-cliquez sur son nom. Pour activer ou désactiver la visibilité de ses objets, cochez ou décochez la case de gauche. Utilisez la case à cocher de droite pour verrouiller et déverrouiller des calques. Un calque verrouillé reste visible, mais ne peut pas être sélectionné ni modifié.
 
-## Managing Objects on Layers
+## Gestion des objets sur les calques
 
-Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on.
+Sélectionnez des objets dans la zone de dessin, puis utilisez la liste déroulante située dans la partie supérieure du groupe de fonctions Calques pour indiquer sur quel calque les objets sélectionnés doivent être placés.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt does not have the concept of a "default" or "working layer." All new geometry will be created on "No Layer" and you'll need to reassign objects to Layers after they're generated.
+FormIt n’inclut pas de calque par défaut ou de travail. Toutes les nouvelles géométries créées sont définies sur « Sans calque », et vous devez réaffecter les objets aux calques après leur génération.
 
-You can right-click a Layer and choose "Select All Objects On Layer" to select all the geometry currently assigned to this Layer.
+Vous pouvez cliquer avec le bouton droit de la souris sur un calque et choisir « Sélectionner tous les objets du calque » pour sélectionner toute la géométrie actuellement affectée à ce calque.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-You can also reorder the Layers in the panel by dragging and dropping them to a new position. Note that this has no impact on geometry visibility - this is purely an organizational tool in the panel.
+Vous pouvez également réorganiser les calques dans le groupe de fonctions. Pour ce faire, faites-les glisser et déposez-les à un nouvel emplacement. Notez que cela n’a aucun impact sur la visibilité de la géométrie. Il s’agit d’un outil purement organisationnel dans le groupe de fonctions.
+

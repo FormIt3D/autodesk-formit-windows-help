@@ -1,53 +1,54 @@
-# 1.6 - Control Visibility with Layers
+# 1.6 – Contrôle de la visibilité avec les calques
 
-_Much like AutoCAD and Photoshop, Layers in FormIt allow you to manage the visibility of objects in your model. In this chapter, we are going to create a layer to save and hide the building mass for future analysis._
+_Comme dans AutoCAD et Photoshop, les calques dans FormIt vous permettent de gérer la visibilité des objets dans votre modèle. Dans ce chapitre, nous allons créer un calque pour enregistrer et masquer le volume du bâtiment en vue d’une analyse ultérieure._
 
-_If you did not complete the last section, download and open the_ _**1.6 - Control Visibility with Layers.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier __**1.6 - Control Visibility with Layers.axm**__ à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
 
-## **Create Layers**
+## **Créer des calques**
 
-1 - To create the new layers:
+1 – Pour créer de nouveaux calques, procédez comme suit :
 
-1. Go to the **Layers Palette** and click the **+** sign three times to create three layers.
-2. Double-click the layer names to rename them **Massing**, **Main Building Floor**, and **Plan Image.**
+1. Accédez à la **palette Calques** et cliquez trois fois sur le signe **+** pour créer trois calques.
+2. Double-cliquez sur les noms des calques pour les renommer **Volume**, **Sol du bâtiment principal** et **Image du plan.**
 
-![](<../../.gitbook/assets/0 (20).png>)
+![](../../.gitbook/assets/0%20%2820%29.png)
 
-_**Note:**_ _You can click on a layer name and drag it up or down to re-order the layers._
+_**Remarque :**_ _vous pouvez cliquer sur un nom de calque et le faire glisser vers le haut ou vers le bas pour réorganiser les calques._
 
-2 - To assign the **Massing - Main Building** group to the **Massing** layer:
+2 – Pour affecter le groupe **Volume – Bâtiment principal** au calque **Volume** :
 
-1. In the canvas, select the **Massing - Main Building** group.
-2. In the **Layers Palette** choose the **Massing** layer from the “**Selection On:”** drop-down menu. Similarly, assign the **Plan Image** group to the **Plan Image** layer.
+1. Dans la zone de dessin, sélectionnez le groupe **Volume – Bâtiment principal**.
+2. Dans la **palette des calques**, choisissez le calque **Volume** dans le menu déroulant « **Sélection activée :** ». De même, affectez le groupe **Image du plan** au calque **Image du plan**.
 
-![](<../../.gitbook/assets/1 (13) (1).png>)
+![](../../.gitbook/assets/1%20%2813%29.png)
 
-## **Duplicate Group**
+## **Dupliquer le groupe**
 
-_We will now start the process of modeling the building in more detail. The first step is to create the floor geometry based on the building massing we already have._
+_Nous allons maintenant commencer à modéliser le bâtiment plus en détail. La première étape consiste à créer la géométrie du sol en fonction du volume du bâtiment que nous avons déjà._
 
-1 - Select the **Massing - Main Building** group again. Press **Ctrl + C (Copy)** to copy, and then **Ctrl + Shift + V (Paste in Place)** to paste the mass in the same place.
+1 – Sélectionnez à nouveau le groupe **Volume – Bâtiment principal**. Appuyez sur **Ctrl + C \(Copier\)** pour copier, puis sur **Ctrl + Maj + V \(Coller sur place\)** pour coller le volume au même endroit.
 
-2 - To dissociate the new group geometry from the original group: right-click to access the **Context Menu**, and choose the **Make Unique (MU)** option.
+2 – Pour dissocier la nouvelle géométrie de groupe du groupe d’origine : cliquez avec le bouton droit de la souris pour accéder au **menu contextuel**, puis choisissez l’option **Rendre unique \(MU\)**.
 
-![](<../../.gitbook/assets/2 (18).png>)
+![](../../.gitbook/assets/2%20%2818%29.png)
 
-_**Note**: The new group is no longer associated with the original. Changes to the new group will not alter the original group._
+_**Remarque** : le nouveau groupe n’est plus associé à l’original. Les modifications apportées au nouveau groupe ne modifieront pas le groupe d’origine._
 
-## **Create the Floor Geometry**
+## **Création de la géométrie du sol**
 
-1 - Reassign group’s layer:
+1 – Réaffectez le calque du groupe comme suit :
 
-1. Single-click to select either of the **Massing – Main Building** groups.
-2. Put the group on the **Main Building Floor** layer using the “**Selection On:”** drop-down in the **Layers Palette**.
-3. Uncheck the **Massing** layer to hide its geometry and keep it safe from any accidental edits.
+1. Cliquez une fois pour sélectionner l’un des groupes **Volume – Bâtiment principal**.
+2. Placez le groupe sur le calque **Sol du bâtiment principal** à l’aide de la liste déroulante « **Sélection activée :** » de la **palette des calques**.
+3. Désactivez le calque **Volume** pour masquer sa géométrie et la protéger contre les modifications accidentelles.
 
-![](<../../.gitbook/assets/3 (18) (1).png>)
+![](../../.gitbook/assets/3%20%2818%29.png)
 
-2 - Double-click the visible **Massing – Main Building** group to edit it. Re-name the group **Floor** in the **Properties Palette**.
+2 – Double-cliquez sur le groupe visible **Volume – Bâtiment principal** pour le modifier. Renommez le groupe **Sol** dans la **palette Propriétés**.
 
-![](<../../.gitbook/assets/4 (12) (1).png>)
+![](../../.gitbook/assets/4%20%2812%29.png)
 
-3 - **Single-click** the geometry’s **top face** to select it. Click again and start dragging the face down. As you drag the face down, type **11’-2”**, and the **Dimension Dialog** will appear. Click on **OK** after entering the value. The resulting floor should be 1' thick. Double-click off in space to exit the group.
+3 – **Cliquez une fois** sur la **face supérieure** de la géométrie pour la sélectionner. Cliquez à nouveau et commencez à faire glisser la face vers le bas. Lorsque vous faites glisser la face vers le bas, tapez **11’-2"**. La **boîte de dialogue Cotation** s’affiche. Cliquez sur **OK** après avoir entré la valeur. Le sol obtenu doit avoir une épaisseur de 1’. Double-cliquez dans l’espace pour quitter le groupe.
 
-![](<../../.gitbook/assets/5 (10).png>)
+![](../../.gitbook/assets/5%20%2810%29.png)
+

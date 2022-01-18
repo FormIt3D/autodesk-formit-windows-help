@@ -1,108 +1,99 @@
-# Setting Location
+# Définition de l’emplacement
 
-Setting your your project's location in the world it is important for the accuracy of your model and downstream analyses, including:
+La définition de l’emplacement de votre projet dans le monde est importante pour la précision de votre modèle et des analyses en aval, notamment pour les raisons suivantes :
 
-* Location is used to import a satellite image which can be used to trace an existing site or building.
-* Location is used to import 3D terrain, which can be used to reference topological data for a site.
-* Location is used for accurate positioning of the sun in the sky, affecting the calculation of shadows.
-* Location is used for Solar Analysis and Energy Analysis to provide accurate analytical calculations.
+* L’emplacement est utilisé pour importer une image satellite utilisée pour tracer un site ou un bâtiment existant.
+* L’emplacement est utilisé pour importer un terrain 3D, qui peut servir à référencer les données topologiques d’un site.
+* L’emplacement est utilisé pour positionner avec précision le soleil dans le ciel, ce qui a une incidence sur le calcul des ombres.
+* L’emplacement est utilisé pour l’analyse d’ensoleillement et l’analyse d’énergie afin de fournir des calculs analytiques précis.
 
-You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services.
+Vous devez être connecté à votre compte Autodesk Account pour accéder à la boîte de dialogue Définir l’emplacement et à ses services.
 
-### Getting Started With Location
+### Mise en route avec l’emplacement
 
-* Launch the **Set Location** dialog from the **Location** tool in the toolbar, or with the keyboard shortcut SL.
+* Lancez la boîte de dialogue **Définir l’emplacement** à partir de l’outil **Emplacement** de la barre d’outils ou à l’aide du raccourci clavier SL.
 
-![](<../.gitbook/assets/location-toolbar (1).png>)
+![](../.gitbook/assets/location-toolbar.png)
 
-* Begin by typing the location of your project into the search box in the upper left hand corner of the _Set Location_ window.&#x20;
+* Tout d’abord, saisissez l’emplacement de votre projet dans la zone de recherche située dans le coin supérieur gauche de la fenêtre _Définir l’emplacement_.
 
-![](<../.gitbook/assets/location-step-1 (1).png>)
+![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Select one of the auto-populating location options, or hit Enter to choose the first one
-* You'll zoom in to the location you searched for automatically
+* Sélectionnez l’une des options d’emplacement proposées automatiquement ou appuyez sur la touche Entrée pour choisir la première option.
+* Un zoom avant est effectué automatiquement sur l’emplacement que vous avez recherché.
 
-### Set Location Only vs. Import Satellite Image and Terrain
+### Définir l’emplacement uniquement et Importer une image satellite et un terrain
 
-Once you've searched for a location, you can choose one of two options:
+Une fois que vous avez recherché un emplacement, choisissez l’une des deux options suivantes :
 
-* **Set Location Only** will set the location in the file without importing satellite imagery.
-* **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure.
+* L’option **Définir l’emplacement uniquement** permet de définir l’emplacement dans le fichier sans importer d’image satellite.
+* L’option **Importer une image satellite et un terrain** permet de définir l’emplacement, ainsi que l’image satellite et le terrain à l’aide d’un niveau de zoom et d’étendues que vous pouvez configurer.
 
-### Importing Satellite Imagery
+### Importation d’une image satellite
 
-* Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window.
-* A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery.
+* Cliquez sur **Importer une image satellite et un terrain** dans la partie supérieure droite de la fenêtre **Définir l’emplacement**.
+* Un aperçu de l’image satellite s’affiche au centre de la fenêtre, avec une indication de l’emplacement de l’origine FormIt par rapport à l’image.
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Drag the satellite imagery within the square to adjust its position
-* Once the square area encapsulates the imagery you want, click **Finish Importing**
-* The image will be imported to scale, with true north facing up, centered at the FormIt canvas origin. You can change the transparency and Z-ordering of the imported image by double-clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md).&#x20;
+* Faites glisser l’image satellite dans le carré pour ajuster sa position.
+* Une fois que la surface carrée contient l’image souhaitée, cliquez sur **Terminer l’importation**.
+* L’image est importée à l’échelle, avec le nord géographique orienté vers le haut, centrée sur l’origine de la zone de dessin FormIt. Pour modifier la transparence et l’ordre Z de l’image importée, double-cliquez dessus et accédez à la [**palette Propriétés**](../formit-introduction/tool-bars.md).
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Updating Satellite Imagery
+### Mise à jour de l’image satellite
 
-After importing satellite imagery the first time, you can use the Set Location window to adjust the zoom level or extents of the satellite imagery.
+Après avoir importé la première image satellite, utilisez la fenêtre Définir l’emplacement pour ajuster le niveau de zoom ou l’étendue de l’image satellite.
 
-* Start the **Set Location** window again by accessing it from the toolbar, as outlined above.
-* Click **Import Satellite Image and Terrain.**
-* You'll see the current satellite image zoom level and extents, as shown in the FormIt canvas
-* Simply adjust the position or zoom, and click **Finish Importing** as you did before
-* When the image is re-imported into the canvas, it will move to the correct location relative to the original image position (and may no longer be centered at the origin):
+* Accédez·à nouveau la fenêtre **Définir l’emplacement** à partir de la barre d’outils, comme indiqué ci-dessus.
+* Cliquez sur **Importer une image satellite et un terrain.**
+* Le niveau de zoom et l’étendue de l’image satellite actifs s’affichent, comme indiqué dans la zone de dessin FormIt.
+* Il vous suffit d’ajuster la position ou le zoom, puis de cliquer sur **Terminer l’importation** comme vous l’avez fait auparavant.
+* Lorsque l’image est réimportée dans la zone de dessin, elle est placée à l’emplacement correct par rapport à la position de l’image d’origine \(et ne peut plus être centrée sur l’origine\) :
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importing Terrain
+### Importation d’un terrain
 
-New in FormIt 2021.3, when you use the **Set Location** dialog to import satellite imagery, you'll also get terrain.
+Dans FormIt 2021.3, lorsque vous utilisez la boîte de dialogue **Définir l’emplacement** pour importer une image satellite, vous obtenez également le terrain.
 
-![](../.gitbook/assets/terrain-button\_original.png)
+![](../.gitbook/assets/terrain-button_original.png)
 
-When terrain is imported, it's placed on a layer, which is off by default (in case you've started modeling, your model may be covered by the terrain).
+Lorsque le terrain est importé, il est placé sur un calque, qui est désactivé par défaut \(si vous avez commencé la modélisation, votre modèle est peut être recouvert par le terrain\).
 
-When you're ready to view terrain, toggle the Terrain layer by checking the box:
+Lorsque vous êtes prêt à afficher le terrain, activez le calque Terrain en cochant la case correspondante :
 
-![](<../.gitbook/assets/terrain-layer (1) (1).png>)
+![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
-![](../.gitbook/assets/terrain\_solid.png)
+![](../.gitbook/assets/terrain_solid.png)
 
-### Working with Terrain
+### Utilisation du terrain
 
-Terrain will be placed in a FormIt Group. Double-click the Group to edit it.
+Le terrain est placé dans un groupe FormIt. Double-cliquez sur le groupe pour le modifier.
 
-Inside, you'll find two Meshes: One for the sides and bottom, and one for the top.
+Vous y trouverez deux maillages : un pour les côtés et le bas, et un pour le haut.
 
-If you want to modify the terrain, you'll need to convert the Meshes to a single, solid object:
+Si vous souhaitez modifier le terrain, vous devez convertir les maillages en un seul objet solide :
 
-* Select both Meshes
-* Right click, and choose the Meshes to Objects option, or use shortcut MO
+* Sélectionner les deux maillages
+* Cliquez avec le bouton droit de la souris, puis choisissez l’option Maillages en objets ou utilisez le raccourci MO.
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-When converting both Meshes to an object at the same time, FormIt can combine them into a solid, manifold object, which can be used for solid operations like Boolean Cut.
+Lors de la conversion des deux maillages en un objet simultanément, FormIt peut les combiner en un objet solide et multiple, qui peut être utilisé pour des opérations de solide telles que la coupe booléenne.
 
-From here, you can use a combination of [Top View](orthographic-views.md) and [Orthographic Camera](orthographic-camera.md) to trace your site boundary on a horizontal plane, then extrude that plane into a volume that intersects the terrain. Using a transparent [material](materials.md) helps so you can see the terrain through your cutting solid:
+À partir de là, vous pouvez utiliser une combinaison de [Vue de dessus](orthographic-views.md) et de [Caméra orthogonale](orthographic-camera.md) pour tracer la limite de votre site sur un plan horizontal, puis extruder ce plan dans un volume qui croise le terrain. L’utilisation d’un [matériau](materials.md) transparent vous permet de visualiser le terrain à travers le solide de découpe :
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Use the Cut Geometry tool, and select the terrain as the "Solid to be cut into" and the cutting volume as the "Solid to be removed."
+Utilisez l’outil Couper la géométrie et sélectionnez le terrain comme « solide à couper » et le volume de découpe comme « solide à supprimer ».
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-The result will be the terrain with your cutting solid removed, exposing void where you can draw your new site and foundation.
+Le solide de découpe est supprimé du terrain, exposant ainsi un espace vide où vous pouvez dessiner le nouveau site et les nouvelles fondations.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-You can use [layers](layers.md) to hide the cutting solid, or even make copies of the terrain with and without the cut, in case you need to reference the original terrain, or change the cut shape before executing the solid cut operation.
+Vous pouvez utiliser des [calques](layers.md) pour masquer le solide de découpe, ou même faire des copies du terrain avec et sans la découpe, au cas où vous auriez besoin de référencer le terrain d’origine, ou de changer la forme de découpe avant d’exécuter l’opération de découpe de solide.
 
-### Troubleshooting the Set Location Dialog
-
-Setting a location in FormIt requires an internet connection to download satellite and terrain data from Bing Maps.
-
-Additionally, because Set Location dialog is a FormIt plugin under the hood, it requires access to GitHub to function. If you're having issues with the Set Location dialog, check that you have access to [https://github.io](https://github.io):&#x20;
-
-* Go to your web browser.
-* Try navigating to [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)
-* If you don't see some data show up, your network or firewall may be blocking access to GitHub.

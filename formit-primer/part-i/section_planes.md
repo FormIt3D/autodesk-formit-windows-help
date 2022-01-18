@@ -1,39 +1,40 @@
-# 1.13 - Section Planes
+# 1.13 – Plans de coupe
 
-_In this chapter you will learn how to use_ _**Section Planes**_ _to cut your model, revealing interior spaces and structural elements. FormIt supports multiple_ _**Section Planes**_ _at once for a Section Box-like effect._
+_Dans ce chapitre, vous allez apprendre à utiliser les_ _**plans de coupe**_ _permettant de couper votre modèle afin de révéler les espaces intérieurs et les éléments structurels. FormIt prend en charge plusieurs_ _**plans de coupe**_ _à la fois pour obtenir un effet similaire à une zone de coupe._
 
-_If you did not complete the previous chapter, download and open the_ _**1. 13 - Section Planes.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Si vous n’avez pas terminé le chapitre précédent, téléchargez et ouvrez le fichier_ _**1. 13 - Section Planes.axm**_ _du dossier_ _**Jeux de données Partie I FormIt Primer**._
 
-1 - To create a new Section Plane:
+1 – Pour créer un plan de coupe, procédez comme suit :
 
-1. Click on the **Section Plane (SP)** button from the **Standard Toolbar**.
-2. Hover over the model to identify a plane to use as reference. Note the arrows at the corners of the **Section Plane** indicating the direction of the section cut. Press the **Tab** key to alternate between different planes, if needed.
-3. Click to place the **Section Plane** anywhere on the southern glass wall of the main building. The plane will scale to the size of your model and remain selected.
+1. Cliquez sur le bouton **Plan de coupe \(SP\)** dans la **barre d’outils standard**.
+2. Placez le curseur sur le modèle pour identifier un plan à utiliser comme référence. Remarquez les flèches situées dans les coins du **plan de coupe** qui indiquent la direction de la coupe. Appuyez sur la touche **Tab** pour alterner entre les différents plans, si nécessaire.
+3. Cliquez pour placer le **plan de coupe** n’importe où sur le mur en verre sud du bâtiment principal. Le plan est mis à l’échelle en fonction de la taille de votre modèle et reste sélectionné.
 
-![Section plane preview when hovering over the glass wall.](<../../.gitbook/assets/0 (6).png>)
+![Aperçu du plan de coupe lorsque vous passez le curseur sur le mur en verre.](../../.gitbook/assets/0%20%286%29.png)
 
-![Scaled section plane after being placed.](<../../.gitbook/assets/1 (19) (1).png>)
+![Plan de coupe mis à l’échelle après placement.](../../.gitbook/assets/1%20%2819%29.png)
 
-2 - With the section plane still select, click to start moving it backwards until it is cutting through part of the main building, similar to the image below. This works similarly to moving any model element, except that the section plane can only move along an axis perpendicular to the direction it is facing. Once you are happy with the position, press **Esc** to clear the selection.
+2 – Le plan de coupe étant toujours sélectionné, cliquez pour le déplacer vers l’arrière jusqu’à ce qu’il coupe une partie du bâtiment principal, comme dans l’image ci-dessous. Cette opération est similaire au déplacement d’un élément du modèle, à la différence que le plan de coupe peut se déplacer uniquement le long d’un axe perpendiculaire à la direction dans laquelle il est orienté. Une fois que vous êtes satisfait de la position, appuyez sur la touche **Échap** pour annuler la sélection.
 
-![](<../../.gitbook/assets/2 (11) (1).png>)
+![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Note:**_ _You can add up to 6 section cuts to your model at once._
+_**Remarque :**_ _vous pouvez ajouter jusqu’à 6 coupes de section à votre modèle en une seule fois._
 
-3 - Open the **Layers** **Palette**. Note that two (2) new layers have been generated - **Section Indicators** and **Section Cut 1**.
+3 – Ouvrez la **palette** **Calques**. Notez que deux \(2\) nouveaux calques ont été générés : **Indicateurs de coupe** et **Coupe 1**.
 
-1. Toggle the **Section Cut 1** layer off and back on. This controls whether the section cuts the model or not.
-2. Now toggle the **Section Indicator** layer off. This hides the section plane and its arrow indicators, but does not affect whether the actual section cut is active or not.
+1. Activez ou désactivez le calque **Coupe 1**. Cela permet de contrôler si la section coupe le modèle ou non.
+2. Désactivez à présent le calque **Indicateurs de coupe**. Cela permet de masquer le plan de coupe et ses indicateurs de flèche, mais n’a pas d’incidence sur le fait que la coupe réelle est active ou non.
 
-![](<../../.gitbook/assets/3 (6) (1).png>)
+![](../../.gitbook/assets/3%20%286%29.png)
 
-4 - In the **Surface Tab** of the **Visual Styles** **Palette**:
+4 – Dans l’**onglet Surface** de la **palette** **Styles visuels**, procédez comme suit :
 
-1. Check the box next to **Poche Color** to turn it on. This effect will color any solids cut by the section plane with a specified color. Black is the default color, but you can simply click on the color preview to change it.
-2. Turn of **Shadows (DS)**.
+1. Cochez la case située en regard de l’option **Couleur de la zone de coupe** pour l’activer. Cet effet colorie les solides coupés par le plan de coupe avec une couleur spécifiée. Le noir est la couleur par défaut, mais vous pouvez simplement cliquer sur l’aperçu de la couleur pour la modifier.
+2. Désactivez la case **Ombres \(DS\)**.
 
 ![](../../.gitbook/assets/poche.png)
 
-5 - To finalize your section, go to the **Scenes Palette** and create a new Scene called **Section**, saving the current **Camera** position, **Layers** visibility, and **Visual Styles** settings.
+5 – Pour finaliser votre coupe, accédez à la **palette Scènes** et créez une scène appelée **Coupe**, en enregistrant la position de la **caméra**, la visibilité des **couches** et les paramètres **Styles visuels** actifs.
 
-![](<../../.gitbook/assets/5 (7).png>)
+![](../../.gitbook/assets/5%20%287%29.png)
+

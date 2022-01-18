@@ -1,15 +1,20 @@
-# Faces: Flatten
+# Faces : aplanir
 
-Use the **Flatten Faces** tool to force two or more object faces into the same plane.
+Utilisez l’outil **Aplanir les faces** pour forcer plusieurs faces d’objet dans le même plan.
 
-When two or more object faces are selected, you can select the **Flatten Faces** tool from the **Context** menu. You can also access **Flatten Faces** using the shortcut "**FL**."
+Lorsque plusieurs faces d’objet sont sélectionnées, vous pouvez sélectionner l’outil **Aplanir les faces** dans le menu **contextuel**. Vous pouvez également accéder à l’option **Aplanir les faces** à l’aide du raccourci « **FL** ».
 
-![](../.gitbook/assets/flatten\_faces.png)
+![](../.gitbook/assets/flatten_faces.png)
 
-**Flatten Faces** can be useful as a repair tool when a face that should be planar becomes unexpectedly faceted (with smooth edges between the facets), either when importing lower-fidelity data like [SketchUp models](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), or after accidentally moving a vertex or edge which causes a face to get faceted or triangulated.
+L’outil **Aplanir les faces** peut être utile en tant qu’outil de réparation lorsqu’une face qui doit être plane présente des facettes \(avec des arêtes lisses entre les facettes\) de manière inattendue, soit lors de l’importation de données de qualité inférieure telles que les [modèles SketchUp](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), soit après avoir déplacé par inadvertance un sommet ou une arête entraînant la création de facettes ou de triangulations sur une face.
 
-You can also use **Flatten Faces** as a design tool for aligning or extending shapes. To do this, first, select a guide surface, then select additional faces to flatten to the plane of the first surface.
+Vous pouvez également utiliser l’outil **Aplanir les faces** pour aligner ou prolonger des formes. Pour ce faire, sélectionnez d’abord une surface de guidage, puis sélectionnez d’autres faces à aplanir dans le plan de la première surface.
 
-Check out the video below to see the power and versatility of **Flatten Faces**:
+Regardez la vidéo ci-dessous pour découvrir la puissance et la polyvalence de l’outil **Aplanir les faces** :
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
+
+
+
+
+

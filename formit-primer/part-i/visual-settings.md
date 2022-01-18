@@ -1,66 +1,67 @@
-# 1.12 - Visual Styles
+# 1.12 – Styles visuels
 
-_Modeling conceptual masses is just half of what FormIt has to offer. The other half are beautiful graphics that help to tell a story to a client, or team member. In this chapter, we will cover ways to set up your_ _**graphic visual styles**_ _and create animations._
+_La modélisation de volumes conceptuels représente seulement la moitié des fonctionnalités de FormIt. L’autre moitié sont de superbes graphiques qui aident à raconter une histoire à un client ou à un membre d’équipe. Dans ce chapitre, nous allons aborder les méthodes permettant de configurer vos_ _**styles visuels graphiques**_ _et de créer des animations._
 
-_If you did not complete the last section, download and open the_ _**1.12 – Visual Styles.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.12 – Visual Styles.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer **._
 
-## **Create an Animation**
+## **Création d’une animation**
 
-_In these next steps, we will learn how to use_ _**Scenes**_ _to create an animation._
+_Dans les étapes suivantes, nous allons apprendre à utiliser les_ _**scènes**_ _pour créer une animation._
 
-1 – To create the first **Scene**:
+1 – Pour créer la première **scène**, procédez comme suit :
 
-1. Turn on all the layers except **Terrain**, **Plan Image,** and **Massing**.
-2. Make sure the camera mode is set to **Perspective (VP)**, and position the camera so that it is looking at the entire house from slightly above, similar to the image below.
-3. Open the **Scenes Palette**.
-4. Click on the **+** icon to create a new scene from our current view.
-5. Rename it to **Aerial View 1**, and match the other **Scene Properties** to what is shown in the image below.
+1. Activez tous les calques, à l’exception de **Terrain**, **Image du plan** et **Volume**.
+2. Assurez-vous que le mode de caméra est défini sur **Perspective \(VP\)** et positionnez la caméra légèrement au-dessus de la maison de façon à la visualiser dans son ensemble, comme dans l’image ci-dessous.
+3. Ouvrez la **palette Scènes**.
+4. Cliquez sur l’icône **+** pour créer une scène à partir de la vue active.
+5. Renommez-la **Aerial View 1** et faites correspondre les autres **propriétés de la scène** à celles indiquées dans l’image ci-dessous.
 
-![](<../../.gitbook/assets/0 (17) (1).png>)
+![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - To create the second **Scene** and then animate between them:
+2 – Pour créer la deuxième **scène**, puis une animation entre elles, procédez comme suit :
 
-1. Adjust the camera to a new position so that you are looking at the house from a different angle. Create a new **Scene** named **Aerial View 2** using the same process we followed in the previous step.
-2. Click the **Play** button. After the set **Pause Time** of **2 Seconds**, the animation will start slowly moving back and forth between the two scenes. This will continue until you click the **Stop** button to stop the animation.
+1. Ajustez la caméra afin de visualiser la maison sous un autre angle. Créez une **scène** nommée **Aerial View 2** à l’aide de la procédure suivie à l’étape précédente.
+2. Cliquer sur le bouton **Play**. Après la définition du **temps de pause** sur **2 secondes**, l’animation démarre lentement, en se déplaçant d’avant en arrière entre les deux scènes. Cette opération se poursuit jusqu’à ce que vous cliquiez sur le bouton **Arrêter** pour arrêter l’animation.
 
-![](<../../.gitbook/assets/1 (12) (1).png>)
+![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Note:**_ _You can adjust the_ _**Pause Time**,_ _**Transition Time**, and_ _**Camera Speed**_ _using the settings at the bottom of the_ _**Scene Properties**. Try adding some more scenes and playing with these settings to customize your animation._
+_**Remarque :**_ _vous pouvez ajuster le_ _**temps de pause**, le_ _**temps de transition** et le_ _**temps de caméra**_ _à l’aide des paramètres situés dans la partie inférieure des_ _**propriétés de la scène.**. Essayez d’ajouter d’autres scènes et d’ajuster ces paramètres pour personnaliser votre animation._
 
-## **Customize the Visual Styles**
+## **Personnalisation des styles visuels**
 
-_Now we are going to create another scene with some customized **Visual Styles** settings._
+_Nous allons maintenant créer une autre scène avec des paramètres personnalisés de **styles visuels**._
 
-1 - First, open the **Visual Styles Palette**. Note there are four (4) tabs at the top, each containing different visual settings: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**. To learn more about each tab visit the **Visual Styles** chapter in the **Tool Library** section.
+1ؘ – Tout d’abord, ouvrez la **palette Styles visuels**. Notez qu’il existe quatre \(4\) onglets dans la partie supérieure, chacun contenant des paramètres visuels différents : **Surfaces**, **Arêtes**, **Environnement** et **Diagnostics du modèle**. Pour en savoir plus sur chaque onglet, consultez le chapitre **Styles visuels** de la section **Bibliothèque d’outils**.
 
-2 – To customize some settings in the **Surface Tab**:
+2 – Pour personnaliser certains paramètres dans l’**onglet Surface**, procédez comme suit :
 
-1. Turn on **Shadows (DS)**.
-2. Turn on **Ambient Shadows (DA)**.
-3. Turn on **Monotone Surfaces (DM)**. This makes an abstract black and white image without any materials.
+1. Activez l’option **Ombres \(DS\)**.
+2. Activez l’option **Ombres ambiantes \(DA\)**.
+3. Activez l’option **Surfaces monotones \(DM\)**. Cette opération crée une image abstraite en noir et blanc sans aucun matériau.
 
-![](<../../.gitbook/assets/2 (20) (1).png>)
+![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – To customize some settings in the **Edge Tab**:
+3 – Pour personnaliser certains paramètres dans l’**onglet Arête**, procédez comme suit :
 
-*
-  1. Adjust the sliders to lighten the **Edges** contrast to around **30%**.
-  2. Turn on the **Extend Edges (DX).**
-  3. Adjust the sliders to lighten the **Silhouettes** contrast to **30%**.
+* 
+   1. Réglez les curseurs afin d’éclaircir le contraste des **arêtes** à environ **30 %**.
+   2. Activez l’option **Prolonger les arêtes \(DX\).**
+   3. Réglez les curseurs afin d’éclaircir le contraste des **silhouettes** à **30 %**.
 
-![](<../../.gitbook/assets/3 (11) (1).png>)
+![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - To customize some settings in the **Environment Tab**:
+4 – Pour personnaliser certains paramètres dans l’**onglet Environnement**, procédez comme suit :
 
-1. Turn off **Axes**.
-2. Turn off **Levels**, if on.
+1. Désactivez l’option **Axes**.
+2. Si l’option **Niveaux** est activée, désactivez-la.
 
-![](<../../.gitbook/assets/4 (8) (2).png>)
+![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - Create a new scene called **Customized Scene** to save these settings. Now you can switch back and forth between the **Scenes** to reset the graphic settings.
+5 – Créez une scène nommée **Scène personnalisée** pour enregistrer ces paramètres. Vous pouvez maintenant basculer entre les **scènes** pour réinitialiser les paramètres graphiques.
 
-![](<../../.gitbook/assets/5 (6) (1).png>)
+![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Note**: If you uncheck the_ _**Camera**_ _property of the new scene, you can use it to only toggle on the visual settings we just created without move the camera position. Give it a try by going to one of your previous Aerial scenes, and then double-clicking on the_ _**Customized Scene**_ _and watching what happens!_
+_**Remarque** : si vous désactivez la propriété_ _**Caméra**_ _de la nouvelle scène, vous pouvez l’utiliser uniquement pour activer les paramètres visuels que nous venons de créer sans déplacer la position de la caméra. Pour essayer, accédez à l’une de vos scènes aériennes précédentes, puis double-cliquez sur la_ _**scène personnalisée**_ _et observez ce qu’il se passe._
 
-_**Note:**_ _To Learn about_ _**Visual Styles Diagnostics**_ _and advanced applications for_ _**Scenes**, check out the_ _**Primer Part II**._
+_**Remarque :**_ _pour en savoir plus sur les_ _**diagnostics de styles visuels**_ _et les applications avancées pour les_ _**scènes**, consultez la_ _partie II du guide**.**_
+

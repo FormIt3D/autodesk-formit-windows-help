@@ -1,146 +1,146 @@
-# 1.8 - Create Columns with Array
+# 1.8 – Création de poteaux avec un réseau
 
-_In this exercise, we will sketch a detailed element - an I-beam column. Then we will use the Array tool to quickly create multiple equally-spaced copies._
+_Dans cet exercice, nous allons esquisser un élément détaillé, un poteau en I. Nous utiliserons ensuite l’outil Réseau pour créer rapidement plusieurs copies espacées de façon régulière._
 
-_If you did not complete the last section, download and open the_ _**1.8 – Create Columns with Array.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.8 – Create Columns with Array.axm**_ _à partir du dossier_ _**FormIt Primer Part 1 Datasets** (Jeux de données de la partie I du guide FormIt Primer)._
 
-## **Sketch the Column Profile**
+## **Esquisse du profil de poteau**
 
-1 - To facilitate the drafting process:
+1 – Pour faciliter le processus de dessin, procédez comme suit :
 
-1. Go to the **Top View (VT)**.
-2. Switch the view mode to **Orthographic (VO)**.
-3. Turn off the **Main Building** **Floor** and **Roof** layers. This step will prevent the new geometry from snaping to the existing geometry on those layers.
-4. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
-5. Turn off the **Snap to Grid (SG)** feature (if you have it on). This will help with drawing the detail lines.
+1. Accédez à la vue **Vue de dessus \(VT\)**.
+2. Définissez le mode d’affichage **Orthogonale \(VO\)**.
+3. Désactivez les calques **Main Building** **Floor** (Sol du bâtiment principal) et **Roof** (Toit). Cette étape empêche la nouvelle géométrie de s’accrocher à la géométrie existante sur ces calques.
+4. Effectuez un zoom sur le coin supérieur gauche de l’image du **plan d’étage importé** afin de visualiser le poteau en détail.
+5. Désactivez la fonction **Accrocher à la grille \(SG\)** \(si vous l’avez activée\). Cela vous aidera à dessiner les lignes de détail.
 
-![](<../../.gitbook/assets/0 (13) (1).png>)
+![](../../.gitbook/assets/0%20%2813%29.png)
 
-_To draw the column, we will first draw one half, then mirror it to quickly create the other symmetrical half._
+_Pour dessiner le poteau, nous allons d’abord dessiner une moitié, puis lui appliquer une symétrie afin de créer rapidement l’autre moitié._
 
-2 - To create the first half of the I-beam, use the **Line tool (L)** to make the following sketch using the specified dimensions. Don’t worry about the exact position of the column on the plan image just yet.
+2 – Pour créer la première moitié de la poutre en I, utilisez l’outil **Ligne \(L\)** pour créer l’esquisse suivante à l’aide des cotes spécifiées. Ne vous inquiétez pas de la position exacte du poteau sur l’image du plan.
 
-![](<../../.gitbook/assets/1 (18).png>)
+![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - To mirror the shape you have just drawn:
+3 – Pour appliquer une symétrie à la forme que vous venez de dessiner, procédez comme suit :
 
-1. Double-click to select all the faces and edges of the drawn geometry.
-2. Right-click and select the **Mirror Tool (MI)**.
-3. Click on the center orange grip of the **Mirror Widget** and place it at the geometry’s bottom left corner.
-4. Use the bottom arrow from the double-sided arrow button in the Widget to rotate the mirroring-axis -90 degrees (clockwise).
-5. Single-click off in space, or press **Esc** to finish the mirroring process. The result should look like an I-beam profile with a line down the middle. Press **Esc** again to clear the selection.
+1. Double-cliquez pour sélectionner toutes les faces et arêtes de la géométrie dessinée.
+2. Cliquez avec le bouton droit de la souris et choisissez l’outil **Symétrie \(MI\)**.
+3. Cliquez sur la poignée orange centrale du **widget de symétrie** et placez-la dans le coin inférieur gauche de la géométrie.
+4. Utilisez la flèche du bas du bouton à double flèche dans le widget afin de faire pivoter l’axe de symétrie de -90 degrés \(sens horaire\).
+5. Cliquez une fois dans l’espace ou appuyez sur la touche **Échap** pour terminer le processus de symétrie. Le résultat doit ressembler à un profil de poutre en I avec une ligne au milieu. Appuyez de nouveau sur la touche **Échap** afin d’effacer la sélection.
 
-![](<../../.gitbook/assets/2 (5).png>)
+![](../../.gitbook/assets/2%20%285%29.png)
 
-![](<../../.gitbook/assets/3 (7).png>)
+![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Note**: The final geometry location and orientation is previewed with the ghosted blue shape while you are adjusting the mirror widget. You can use this preview as a reference to mirror the geometry to the intended location._
+_**Remarque** : lorsque vous ajustez le widget de symétrie, l’emplacement et l’orientation de la géométrie finale sont affichés avec la forme bleue fantôme. Vous pouvez utiliser cet aperçu comme référence pour mettre en miroir la géométrie à l’emplacement souhaité._
 
-4 - To join both sides into a single geometry, remove the line dividing them by clicking on it to select it and then pressing **Delete**. Now the two surfaces are joined into a single surface.
+4 – Pour joindre les deux côtés en une seule géométrie, cliquez sur la ligne de séparation pour la sélectionner, puis appuyez sur la touche **Suppr** pour la supprimer. Les deux surfaces sont maintenant jointes en une seule surface.
 
-5 - To move the geometry to its final location:
+5 – Pour déplacer la géométrie à son emplacement final, procédez comme suit :
 
-1. If off, turn on the **Plan Image** and **Roof** layers, to use them as a guide.
-2. Double-click the column profile to select its face and all of its lines. Start moving the selection along the green axis (**Y Axis**). Hold **Shift** and move the profile until it aligns with the Roof, then click to place it.
-3. Similar to the previous step, move the geometry once again, this time locking it to the red axis (**X Axis**).
-4. Click to place it on top of the I-Beam drawn in the **Plan Image**. Getting it close is fine, like in the following image, the horizontal position does not need to be perfect.
+1. Si les calques **Plan Image** (Image du plan) et **Roof** (Toit) sont désactivés, activez-les pour les utiliser comme guide.
+2. Double-cliquez sur le profil du poteau pour sélectionner sa face et toutes ses lignes. Commencez à déplacer la sélection le long de l’axe vert \(**axe Y**\). Maintenez la touche **Maj** enfoncée et déplacez le profil jusqu’à ce qu’il soit aligné avec le toit, puis cliquez pour le placer.
+3. Comme à l’étape précédente, déplacez à nouveau la géométrie, mais cette fois, verrouillez-la sur l’axe rouge \(**axe X**\).
+4. Cliquez pour la placer sur la poutre en I dessinée dans le calque **Plan Image** (Image du plan). Il est possible de l’approcher, comme dans l’image suivante. La position horizontale n’a pas besoin d’être parfaite.
 
-_**Note:**_ _The_ _**Shift**_ _key will lock the geometry to move along only one axis, in this case, the green (**Y Axis**). This will ensure the column profile does not accidentally move up and align to the top of the roof plane._
+_**Remarque :**_ _la touche_ _**Maj**_ _permet de verrouiller le déplacement de la géométrie le long d’un seul axe, dans ce cas, l’axe vert \(**axe Y**\). Cela permet de s’assurer que le profil du poteau ne se déplace pas accidentellement vers le haut et ne s’aligne pas sur le haut du plan du toit._
 
-![](<../../.gitbook/assets/4 (9) (1).png>)
+![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Extrude and Array the Column**
+## **Extrusion et mise en réseau du poteau**
 
-1 - To facilitate the next drafting process, switch the view mode back to **Perspective (VP)** and **Orbit (O)** to position the camera as to visualize the I-Beam profile from the northwest. Use the north arrow at the bottom left corner to help you position the view.
+1 – Pour faciliter le processus de dessin suivant, revenez au mode de vue **Perspective \(VP\)** et utilisez l’outil **Orbite \(O\)** pour positionner la caméra de manière à visualiser le profil de poutre en I du nord-ouest. Utilisez la flèche nord située dans le coin inférieur gauche pour vous aider à positionner la vue.
 
-![](<../../.gitbook/assets/5 (1).jpeg>)
+![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Note:**_ _To learn how to navigate around the sketch, we recommend checking out the_ _**Navigate the Scene**_ _chapter._
+_**Remarque :**_ _pour savoir comment naviguer dans l’esquisse, nous vous recommandons de consulter le chapitre_ _**Naviguer dans la scène**_ _._
 
-2- Select the column profile face and extrude the face up to **17’-8”**.
+2 – Sélectionnez la face du profil du poteau et extrudez la face jusqu’à **17 pi-8 po**.
 
-_**Note:**_ _If while moving the column profile, it aligned itself to the roof, extrude the face down by_ _**17’-8”**_\
-_instead of up._
+_**Remarque :**_ _si, lors du déplacement du profil du poteau, il s’est aligné sur le toit, extrudez la face vers le bas de_ _**17 pi-8 po**   au lieu de la déplacer vers le haut._
 
-3 - Zoom out and turn the **Roof** layer on (if off). The top of the column should line up with the top of the roof.
+3 – Effectuez un zoom arrière et activez le calque **Roof** (Toit) \(si désactivé\). Le haut du poteau doit s’aligner sur le haut du toit.
 
-![](<../../.gitbook/assets/6 (9) (1).png>)
+![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - To keep the model organized and tidy, select the column geometry again and do the following:
+4 – Pour que le modèle reste organisé et ordonné, sélectionnez à nouveau la géométrie du poteau et effectuez les opérations suivantes :
 
-1. **Group (G)** and name it **Column Tall**.
-2. Create a new **Layer** called **Column** and add the group to it.
-3. Import the material **Metal - Brushed - Colorized** and paint the group with it.
+1. Utilisez l’outil **Grouper \(G\)**pour créer un groupe et nommez-le **Column Tall** (Grand poteau).
+2. Créez un **calque** appelé **Column** (Poteau) et ajoutez-y le groupe.
+3. Importez le matériau **Metal – Brushed – Colorized** (Métal – Brossé – Coloré) et peignez le groupe avec.
 
-![](<../../.gitbook/assets/7 (4) (1).png>)
+![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Note:**_ _See previous chapters for more information on_ _**Groups**,_ _**Layers**, and_ _**Materials**._
+_**Remarque :**_ _reportez-vous aux chapitres précédents pour plus d’informations sur les_ _**groupes**, les_ _**calques** et les_ _matériaux**.**_
 
-4 - Click **Esc** to clear the paintbrush tool.
+4 – Cliquez sur **Échap** pour désactiver l’outil Pinceau.
 
-## **Array the Columns**
+## **Mise en réseau des poteaux**
 
-1 - Go to the **Top View (VT)** and switch the camera mode to **Orthographic (VO)** again.
+1 – Accédez à la vue **Vue de dessus \(VT\)** et définissez de nouveau le mode caméra sur **Orthogonale \(VO\)**.
 
-2 - Turn off the **Roof** layer.
+2 – Désactivez le calque **Roof** (Toit).
 
-3 - To start the array process:
+3 – Pour démarrer le processus de mise en réseau, procédez comme suit :
 
-1. Single-click to select the column group. Right-click to bring the **Context Menu** and choose **Array (AR)**.
-2. In the **Array Properties** dialog, use the following settings:
-   * **Length Between Copies**
-   * **Linear** (default)
-   * **Group each solid then array** (default)
-   * **Number of Copies: 3**
-   * Press **OK** to close the dialog.
+1. Cliquez une fois sur le groupe de poteaux pour le sélectionner. Cliquez avec le bouton droit de la souris pour afficher le **menu contextuel** et choisissez **Réseau \(AR\)**.
+2. Dans la boîte de dialogue **Propriétés de réseau**, utilisez les paramètres suivants :
+   * **Longueur entre les copies**
+   * **Linéaire** \(modèle par défaut\)
+   * **Grouper chaque solide puis créer un réseau** \(modèle par défaut\)
+   * **Nombre de copies : 3**
+   * Appuyez sur **OK** pour fermer la boîte de dialogue.
 
-![](<../../.gitbook/assets/8 (3) (1).png>)
+![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - To place the new elements:
+4 – Pour placer les nouveaux éléments, procédez comme suit :
 
-1. Single-click on the column to start the **Array**. Move the cursor along the red axis (**X axis**).
-2. Set dimension to **22'**. You now have **four** columns **22'** apart.
-3. **Esc** to clear your selection.
+1. Cliquez une fois sur le poteau pour démarrer le **réseau**. Déplacez le curseur le long de l’axe rouge \(**axe X**\).
+2. Définissez la cote sur **22 pi**. Vous disposez à présent de **quatre** poteaux séparés de **22 pi**.
+3. Appuyez sur la touche **Échap** pour effacer la sélection.
 
-![](<../../.gitbook/assets/9 (6) (1).png>)
+![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - To select all the **Tall Column** groups at once, hover your mouse over one of them and press the **Tab** key once. Notice that all 4 column’s bounding boxes have been highlighted. Single-click on the column your mouse is hovering over and they will all be selected. This is a quick way to select all instances of the same group at once.
+5 – Pour sélectionner tous les groupes **Tall Column** (Grand poteau) à la fois, placez le curseur de la souris sur l’un d’eux et appuyez une fois sur la touche **Tab**. Notez que les zones de contour des 4 poteaux ont été mises en surbrillance. Cliquez une fois sur le poteau sur lequel est placé le curseur de la souris pour tous les sélectionner. Cette méthode permet de sélectionner rapidement toutes les occurrences du même groupe à la fois.
 
-6 - Perform another **Array (AR)** to create the columns at the other side of the building. This time make 1 copy along the green axis across the building. Set dimension to **29'- 4 5/8”.**
+6 – Générez un autre **réseau \(AR\)** pour créer les poteaux de l’autre côté du bâtiment. Cette fois, créez une copie le long de l’axe vert sur le bâtiment. Définissez la cote sur **29 pi-4 5/8 po.**
 
-_**Note:**_ _29’ 4 5/8” = 8 5/8” (column depth) + 28’-8” (main building width)._
+_**Remarque :**_ _29 pi 4 5/8 po = 8 5/8 po \(profondeur de poteau\) + 28 pi-8 po \(largeur du bâtiment principal\)._
 
-7 - To visualize the whole building, go to the **3D View (V3)** and set it to **Perspective (VP)**. If off, turn on the **Main Building Floor**, **Roof**, **Lower Terrace**, and **Column** layers.
+7 – Pour visualiser l’ensemble du bâtiment, accédez à la vue **Vue 3D \(V3\)** et définissez-la sur **Perspective \(VP\)**. Si les calques **Main Building Floor** (Sol du bâtiment principal), **Roof** (Toit), **Lower Terrace** (Terrasse inférieure) et **Column** (Poteau) sont désactivés, activez-les.
 
-![](<../../.gitbook/assets/10 (7) (1).png>)
+![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Create the Terrace Columns**
+## **Création des poteaux de la terrasse**
 
-_Now we will duplicate the main building columns to create similar, but shorter, versions for the terrace._
+_Nous allons maintenant dupliquer les poteaux du bâtiment principal pour créer des versions similaires, mais plus courtes, pour la terrasse._
 
-1 - To facilitate drafting, we recommend going back to an **Orthogonal (OV)** and **Top View (VT)** setting.
+1 – Pour faciliter le dessin, nous vous recommandons de revenir aux paramètres **Orthogonale \(OV\)** et **Vue de dessus \(VT\)**.
 
-2 - To create the new columns:
+2 – Pour créer les nouveaux poteaux, procédez comme suit :
 
-1. Hold **Ctrl** or **Shift**, click on the 3 columns closest to the **Lower Terrace Floor** to select them.
-2. Single-click on any one of the columns to start moving all 3 selected columns at once. Press the **Ctrl** key once to create a **quick copy**. A ghost preview of the copy will appear.
-3. Move the copies down along the green axis (**Y Axis**) by **23’-4 3/8**”. Press **Esc**.
-4. Without deselecting, move the copied columns along the red axis (**X Axis**) by **22’** to place them in their final position.
-5. Again, with the 3 new columns still selected, right-click one of the copied columns and select **Make Unique (MU)**. These columns are now associated with each other, but unique from the originals.
+1. Maintenez la touche **Ctrl** ou **Maj** enfoncée et cliquez sur les 3 poteaux les plus proches de la géométrie **Lower Terrace Floor** pour les sélectionner.
+2. Cliquez une fois sur l’un des poteaux pour déplacer simultanément les trois poteaux sélectionnés. Appuyez une fois sur la touche **Ctrl** pour créer une **copie rapide**. Un aperçu fantôme de la copie s’affiche.
+3. Déplacez les copies vers le bas le long de l’axe vert \(**axe Y**\) de **23 pi-4 3/8 po**. Appuyez sur la touche **Echap**.
+4. Sans désélectionner, déplacez les poteaux copiés le long de l’axe rouge \(**axe X**\) de **22 pi** pour les placer dans leur position finale.
+5. De nouveau, avec les 3 nouveaux poteaux toujours sélectionnés, cliquez avec le bouton droit de la souris sur l’un des poteaux copiés et choisissez **Rendre unique \(MU\)**. Ces poteaux sont maintenant associés les uns aux autres, mais uniques par rapport aux originaux.
 
-_**Note:**_ _Holding_ _**Shift**_ _or_ _**Ctrl**_ _allows you to select multiple elements at once, or remove elements from your current selection._
+_**Remarque :**_ _maintenez la touche_ _**Maj**_ _ou_ _**Ctrl**_ _enfoncée pour sélectionner plusieurs éléments à la fois ou supprimer des éléments de votre sélection actuelle._
 
-![](<../../.gitbook/assets/11 (7) (1).png>)
+![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - Modify the new column group:
+3 – Modifiez le nouveau groupe de poteaux comme suit :
 
-1. Double-click to edit one of the new groups and rename it **Column Short.**
-2. Adjust the height of the new column to align to the top of the **Lower Terrace** **Floor** (3’-2”). To do that, select and drag the column’s face down along the blue axis (**Z axis**) and hold **Shift**. Hover the cursor anywhere on the top face of the **Lower Terrace Floor** and the column’s height will automatically align to the Lower Terrace. Once the height is set, click to finish.
+1. Double-cliquez pour modifier l’un des nouveaux groupes et le renommer **Column Short (Petit poteau).**
+2. Ajustez la hauteur du nouveau poteau pour l’aligner sur le haut de **Lower Terrace** **Floor** (Sol de la terrasse inférieure) \(3 pi-2 po\). Pour ce faire, sélectionnez et faites glisser la face du poteau vers le bas le long de l’axe bleu \(**axe Z**\) et maintenez la touche **Maj** enfoncée. Placez le curseur n’importe où sur la face supérieure de **Lower Terrace Floor** (Sol de la terrasse inférieure) et la hauteur du poteau s’aligne automatiquement sur le calque Lower Terrace (Terrasse inférieure). Une fois la hauteur définie, cliquez pour terminer.
 
-![](<../../.gitbook/assets/12 (4).png>)
+![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Note:**_ _You can check the height of the short columns by using the_ _**Measure (ME)**_ _tool. Alternatively, you can select one of the column’s vertical edge and see its length in the_ _**Properties Palette**._
+_**Remarque :**_ _vous pouvez vérifier la hauteur des poteaux courts à l’aide de l’outil __**Mesurer \(ME\)**__. Vous pouvez également sélectionner l’une des arêtes verticales du poteau et afficher sa longueur dans la_ _**palette Propriétés**._
 
-4- Using the techniques you just learned, copy the furthest short column to the opposite side of the **Lower Terrace Floor** to create the last remaining column.
+4 – À l’aide des techniques que vous venez d’apprendre, copiez le poteau court le plus éloigné sur le côté opposé de **Lower Terrace Floor** (Sol de la terrasse inférieure) afin de créer le dernier poteau restant.
 
-![](<../../.gitbook/assets/13 (4).png>)
+![](../../.gitbook/assets/13%20%284%29.png)
+

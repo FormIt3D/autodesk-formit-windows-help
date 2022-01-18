@@ -1,30 +1,26 @@
-# Orthographic Views
+# Vues orthogonales
 
-View your model in various orthographic views, including top, sides, and bottom.
+**Affichez votre modèle dans différentes vues orthogonales, notamment vue de dessus, vue latérale et vue de dessus.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-You'll find orthographic views in the View menu, by clicking the Orthographic icon in the floating navigation toolbar, or by using the shortcut V O. Click the Top View icon in the floating navigation toolbar to access several view options.
+**Pour accéder aux vues orthogonales, cliquez sur l’icône du haut dans la barre d’outils de navigation flottante :**
 
-![](../.gitbook/assets/floating-nav\_flyout-v2.png)
+![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Some helpful hints when working with orthographic views:**
+**Voici quelques conseils pratiques pour travailler avec des vues orthogonales :**
 
-* When switching between orthographic views, FormIt will maintain the zoom level for consistency.
-* When switching elevation views (front/right/left/back), FormIt will maintain the ground height for consistency.
-* You can hold Shift while Panning in an orthographic view to lock the Pan movement to the horizontal or vertical axis.
-*   Orthographic view directions are based on the world axes. You can realign the axes, which will change the orientations of all the orthographic views:
+* Lorsque vous basculez entre les vues orthogonales, FormIt conserve le niveau de zoom pour plus de cohérence.
+* Lorsque vous basculez entre les vues d’élévation (avant/droite/gauche/arrière), FormIt conserve la hauteur du sol pour des raisons de cohérence.
+* Vous pouvez maintenir la touche Maj enfoncée pendant que vous effectuez un panoramique dans une vue orthogonale pour verrouiller le mouvement panoramique sur l’axe horizontal ou vertical.
+* Les directions de vue orthogonale sont basées sur les axes universels. Vous pouvez réaligner les axes, ce qui modifie l’orientation de toutes les vues orthogonales :
+   * Utilisez le raccourci SZ ou cliquez avec le bouton droit de la souris dans l’espace (pas sur une géométrie) :
+   * ![](../.gitbook/assets/set-axes\_context.PNG)
+   * Définissez l’origine et la poignée sur les axes rouges pour l’aligner dans une direction significative.
+   * ![](../.gitbook/assets/set-axes.PNG)
 
-    * Use shortcut SZ, or right-click in space (not over any geometry):
+**Les vues orthogonales fonctionnent conjointement avec d’autres fonctions FormIt :**
 
-    ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
-
-    * Set the origin, and set the grip on the red axes to align it with a meaningful direction
-
-    ![](../.gitbook/assets/set-axes.PNG)&#x20;
-
-**Orthographic views work in conjunction with other FormIt features:**
-
-* Save elevation views as Scenes so you can return to them later.
-* Control visibility of geometry that might get in the way of elevation views using Layers.
-* Add Section Planes to create section-elevations.
+* Enregistrez les vues d’élévation en tant que scènes pour pouvoir y revenir ultérieurement.
+* Contrôlez la visibilité de la géométrie qui peut gêner les vues d’élévation à l’aide des calques.
+* Ajoutez des plans de coupe pour créer des élévations de coupe.

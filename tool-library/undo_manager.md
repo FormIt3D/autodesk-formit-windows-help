@@ -1,17 +1,18 @@
-# Undo Manager
+# Gestionnaire d’annulation
 
-FormIt features a unique Undo/Redo system, which can be used in two different ways to either undo per-Group, or chronologically and globally:
+FormIt intègre un système Annuler/Rétablir unique, qui peut être utilisé de deux manières différentes pour annuler une action par groupe ou de manière chronologique et globale :
 
-* Undo/Redo while editing a nested Group will only affect the changes inside that Group
-  * This means you can make a change in this Group, then make many changes in other Groups, and return to the original Group and have the option to Undo the last change made in this Group without affecting changes made more recently, elsewhere
-*   Undo/Redo from the Main Sketch (not while editing a Group) acts like traditional Undo/Redo systems: the last change made in **any** Group will be undone, based on chronological order.
+* L’option Annuler/Rétablir lors de la modification d’un groupe imbriqué affecte uniquement les modifications apportées à l’intérieur de ce groupe
+   * Cela signifie que vous pouvez effectuer une modification dans ce groupe, puis effectuer de nombreuses modifications dans d’autres groupes, et revenir au groupe d’origine et avoir la possibilité d’annuler la dernière modification effectuée dans ce groupe sans affecter les modifications effectuées plus récemment dans un autre groupe.
+* L’option Annuler/Rétablir de l’esquisse principale \(pas lors de la modification d’un groupe\) fonctionne comme les systèmes Annuler/Rétablir classiques : la dernière modification effectuée dans **n’importe quel** groupe est annulée, selon l’ordre chronologique.
 
-    The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
+Le gestionnaire d’annulation enregistre chaque modification apportée à l’intérieur de chaque groupe dans votre modèle FormIt, y compris les modifications apportées à l’esquisse principale. Cette option est utile pour identifier visuellement les opérations annulées dans un groupe du modèle.
 
-![](<../.gitbook/assets/undo-manager (1).png>)
+![](../.gitbook/assets/undo-manager.png)
 
-The Undo Manager will indicate in **bold** the current state, as well as any operations before this state, and any operations that once existed but have since been undone.
+Le gestionnaire d’annulation indique en **gras** l’état actuel, ainsi que les opérations antérieures à cet état et les opérations qui existaient auparavant, mais qui ont été annulées depuis.
 
-You can right-click a state and select "Roll To" to effectively Undo or Redo as necessary to return to that model state.
+Vous pouvez cliquer avec le bouton droit de la souris sur un état et choisir « Faire tourner vers » pour annuler ou rétablir l’opération de manière à revenir à l’état du modèle.
 
-Groups that have been explicitly deleted, or are no longer in existence due to an Undo or Redo, are shown as \*Inactive\*. These can be restored by Undoing or Redoing inside their parent Group until they come back into existence.
+Les groupes qui ont été explicitement supprimés ou qui n’existent plus en raison d’une action Annuler ou Rétablir sont affichés comme \*Inactifs\*. Pour restaurer ces derniers, annulez ou rétablissez-les dans leur groupe parent jusqu’à ce qu’ils soient de nouveau disponibles.
+

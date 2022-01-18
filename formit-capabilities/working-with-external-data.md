@@ -1,11 +1,12 @@
-# Working with Data Formats
+# Utilisation des formats de données
 
-Import a variety of image file formats and 3D file formats to add detail to your sketch.
+Importez divers formats de fichier image et de fichier 3D pour ajouter des détails à votre esquisse.
 
-The following file formats can be imported:
+Les formats de fichiers suivants peuvent être importés :
 
-* Windows:  OBJ, DWG, STL, SAT, SKP&#x20;
-* Web: OBJ, STL
-* iOS: OBJ, STL, SAT
+* Windows : OBJ, DWG, STL, SAT, SKP
+* Web : OBJ, STL
+* iOS : OBJ, STL, SAT
 
-See [Importing Models](../formit-primer/part-i/import-export-and-content-library.md) for more on importing data and working with the Content Library.
+Reportez-vous à la rubrique [Importation de modèles](../formit-primer/part-i/import-export-and-content-library.md) pour plus d’informations sur l’importation de données et l’utilisation de la bibliothèque de contenu.
+

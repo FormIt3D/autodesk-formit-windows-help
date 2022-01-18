@@ -1,34 +1,35 @@
-# Selection
+# Sélection
 
-## Direct Selection
+## Sélection directe
 
-To **select a vertex, edge, or face**, hover over the object, then single-click to select it.
+Pour **sélectionner un sommet, une arête ou une face**, placez le curseur sur l’objet, puis cliquez dessus pour le sélectionner.
 
-![](../.gitbook/assets/direct\_selection1.png)
+![](../.gitbook/assets/direct_selection1.png)
 
-To **select an entire object**, or an object and anything attached to it, double click the object.
+Pour **sélectionner un objet entier** ou un objet et tout élément qui lui est attaché, double-cliquez sur l’objet.
 
-![](../.gitbook/assets/direct\_selection2.png)
+![](../.gitbook/assets/direct_selection2.png)
 
-You can also hold Ctrl or Shift, and add or remove elements from the current selection.
+Vous pouvez également maintenir la touche Ctrl ou Maj enfoncée et ajouter ou supprimer des éléments de la sélection actuelle.
 
-## Selection Filtering
+## Filtrage de la sélection
 
-For area or lasso selection (see below), you can filter the selection based on type.
+Pour la sélection par zone ou lasso \(consultez les sections ci-dessous\), vous pouvez filtrer la sélection en fonction du type.
 
-This is especially useful when you've got a mix of geometry types in close proximity, and you want to use area or lasso selection to cast a wide net, but retrieve only a certain type of geometry, while excluding others.
+Cette fonction est particulièrement utile lorsque vous disposez d’un mélange de types de géométrie à proximité et que vous souhaitez utiliser la sélection de zones ou lasso pour projeter un réseau étendu, mais récupérer uniquement un certain type de géométrie, en excluant les autres.
 
-![](<../.gitbook/assets/selection-filter (1).png>)
+![](../.gitbook/assets/selection-filter.png)
 
-## Area/Window Selection
+## Sélection de zones/fenêtres
 
-To **select multiple pieces of geometry simultaneously**, use the window selection tool. Make sure you have nothing selected, then click and drag your mouse from left to right, or from right to left, to capture multiple pieces.
+Pour **sélectionner plusieurs éléments de géométrie simultanément**, utilisez l’outil de sélection de fenêtres. Assurez-vous qu’aucun élément n’est sélectionné, puis cliquez et faites glisser le curseur de gauche à droite ou de droite à gauche pour capturer plusieurs éléments.
 
-![](../.gitbook/assets/direct\_selection3.png)
+![](../.gitbook/assets/direct_selection3.png)
 
-## Lasso Selection
+## Sélection lasso
 
-For **more precise control** when selecting multiple pieces of geometry simultaneously, use the lasso tool. You can select it from the context menu after right-clicking over the empty canvas. Then draw a boundary around your desired selection area.
+Pour un **contrôle plus précis** lors de la sélection simultanée de plusieurs éléments de géométrie, utilisez l’outil Lasso. Vous pouvez le sélectionner dans le menu contextuel après avoir cliqué avec le bouton droit de la souris sur la zone de dessin vide. Ensuite, dessinez un contour autour de la zone de sélection souhaitée.
 
-![](../.gitbook/assets/lasso1.png)\
+![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)
+

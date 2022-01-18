@@ -1,53 +1,56 @@
-# Offset Line
+# Droite décalée
 
-Draw parallel, or offset, lines using the Offset Line tool. This is useful to create 2D shapes that can later be extruded to look like 3D walls.
+Dessinez des lignes parallèles ou de décalage à l’aide de l’outil Décaler la ligne. Cet outil permet de créer des formes 2D qui peuvent ensuite être extrudées pour ressembler à des murs 3D.
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool:
+L’outil **Décaler la ligne** fonctionne comme l’outil [**Ligne**](https://windows.help.formit.autodesk.com/tool-library/line-tool) :
 
-* Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes.&#x20;
-* A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool.
-* Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
+* Cliquez pour définir le premier point, puis déplacez le curseur et placez les points suivants, en les accrochant à la géométrie existante ou aux axes de déduction.
+* Un aperçu de la forme obtenue est affiché. Les deuxième et troisième points déterminent le plan pour le reste des points à suivre, de sorte que le résultat soit planaire.
+* Continuez d’ajouter des points, puis appuyez sur la touche **Échap** ou double-cliquez pour terminer l’outil.
+* Toutes les auto-intersections seront nettoyées et fusionnées afin d’obtenir une face extrudable.
 
-![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
+![Après avoir placé 2 points et fait glisser le troisième point](../.gitbook/assets/walls1.png)
 
-The input line is drawn in red, and by default is placed in the center of the offset lines.
+La ligne d’entrée est dessinée en rouge et est placée par défaut au centre des lignes de décalage.
 
-You can change the alignment of the offset lines and their thickness by hitting the **Tab** key. This will invoke the **Tool Options** dialog:
+Pour modifier l’alignement des lignes de décalage et leur épaisseur, appuyez sur la touche **Tab**. La boite de dialogue **Options d’outil** s’affiche également :
 
-![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
+![Options de l’outil Décaler la ligne](../.gitbook/assets/walls2.png)
 
-Change the **Alignment** to **Left** and the **Thickness** to 6", for example, and the offset lines will be drawn to the left of the input lines, 6 inches apart.
+Par exemple, définissez l’option **Alignement** sur **Gauche** et l’option **Épaisseur** sur 6” : les lignes de décalage sont dessinées à gauche des lignes d’entrée, à 6 pouces les unes des autres.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Useful Tips
+## Conseils utiles
 
-You can draw a closed shape by snapping to the first point placed. The resulting corner will be cleaned up automatically:
+Vous pouvez dessiner une forme fermée en l’accrochant au premier point placé. Le coin obtenu est nettoyé automatiquement :
 
 ![](../.gitbook/assets/walls4.png)
 
-You can freely draw the input lines on top of each other. When the tool is finished the resulting intersections are cleaned up.
+Vous pouvez dessiner librement les lignes d’entrée les unes sur les autres. Lorsque l’outil est terminé, les intersections obtenues sont nettoyées.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Inherently, the Offset Line tool must generate geometry on a plane, so the first few points determine the plane that the remaining points will follow.
+Par nature, l’outil Décaler la ligne doit générer une géométrie sur un plan, de sorte que les premiers points déterminent le plan sur lequel les autres points suivront.
 
-Start drawing on the side of a cube, for example, to use the plane of that face. After three non colinear points are placed the input plane is fixed for the remainder of the input. Note, that when drawing on a face the resulting shape is inserted into the face, splitting it into multiple faces. To prevent the insertion, the face you draw on must be part of a [Group](https://windows.help.formit.autodesk.com/tool-library/groups).
+Tout d’abord, dessinez sur le côté d’un cube, par exemple, pour utiliser le plan de cette face. Une fois que trois points non colinéaires sont placés, le plan d’entrée est fixe pour le reste de l’entrée. Notez que lorsque vous dessinez sur une face, la forme obtenue est insérée dans la face, ce qui la divise en plusieurs faces. Pour empêcher l’insertion, la face sur laquelle vous dessinez doit faire partie d’un [groupe](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![Drawing on a vertical face](../.gitbook/assets/walls7.png)
+![Dessin sur une face verticale](../.gitbook/assets/walls7.png)
 
-![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
+![Une fois l’outil terminé, les lignes sont insérées et les faces scindées peuvent être manipulées davantage](../.gitbook/assets/walls8.png)
 
-You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image.
+Vous pouvez également utiliser l’outil Décaler la ligne pour tracer à partir d’un dessin en plan. Importez le plan en tant qu’image.
 
-* Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).&#x20;
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
+* Redimensionnez l’image de sorte que le plan soit à l’échelle appropriée. Pour en savoir plus, [cliquez ici](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
+* Vous pouvez utiliser la [caméra orthogonale](orthographic-camera.md) pour effectuer un tracé dans une [vue de dessus](orthographic-views.md) orthogonale.
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
+
+
+

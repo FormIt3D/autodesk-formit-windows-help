@@ -1,21 +1,22 @@
-# Delete, Edit, Move
+# Supprimer, Modifier, Déplacer
 
-Remove an object, change its location, or modify its properties.
+Supprimez un objet, modifiez son emplacement ou ses propriétés.
 
-## Delete
+## Supprimer
 
-First, make a geometry selection. Then, right-click to see the Context Menu where you can click on the **Delete Tool**. You can also press the delete key on your keyboard.
+Tout d’abord, sélectionnez une géométrie.  Ensuite, cliquez avec le bouton droit de la souris pour afficher le menu contextuel dans lequel vous pouvez cliquer sur l’**outil Supprimer**. Vous pouvez également appuyer sur la touche Suppr de votre clavier.
 
-![](<../.gitbook/assets/delete (1).png>)
+![](../.gitbook/assets/delete%20%281%29.png)
 
-## Edit
+## Modifier
 
-When using many of the editing tools like Move, Array, Push-Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also simply start typing a numeric value to access the Edit Dimension dialog. Alternatively, you can hit Tab to bring up the Edit Dimension dialog, but Tab is no longer required with FormIt for Windows v17 and newer.
+Lorsque vous utilisez de nombreux outils d’édition tels que Déplacer, Réseau, Face Pousser-Tirer et Décalage, une boîte de dialogue de cote bleue s’affiche. Vous pouvez cliquer sur cette cote une fois l’opération terminée et entrer une valeur spécifique. Vous pouvez également saisir une valeur numérique pour accéder à la boîte de dialogue Modifier la cote. Vous pouvez également appuyer sur la touche Tab pour afficher la boîte de dialogue Modifier la cote, mais la touche de tabulation n’est plus requise dans FormIt pour Windows 17 et versions ultérieures.
 
-![](<../.gitbook/assets/edit\_dimensions (1).png>)
+![](../.gitbook/assets/edit_dimensions.png)
 
-## Move Edges, Faces, or Objects
+## Déplacement d’arêtes, de faces ou d’objets
 
-First select the edge, face, or object. The move tool is automatically activated. Hover to see snaps and inference points to specify where you want to start your move operation, click to start. Now hover your mouse to see snaps and inference points to the location you want to move the object. Click again to place the object.
+Tout d’abord, sélectionnez l’arête, la face ou l’objet. L’outil de déplacement est automatiquement activé. Placez le curseur sur la zone de dessin pour afficher les accrochages et les points de déduction permettant de spécifier l’emplacement où vous souhaitez commencer l’opération de déplacement, puis cliquez pour commencer. Déplacez maintenant le curseur de la souris pour afficher les accrochages et les points de déduction à l’emplacement où vous souhaitez déplacer l’objet. Cliquez à nouveau pour positionner l’objet.
 
-![](../.gitbook/assets/edit\_edge.png)
+![](../.gitbook/assets/edit_edge.png)
+

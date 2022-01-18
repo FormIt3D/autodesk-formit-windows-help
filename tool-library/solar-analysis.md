@@ -1,3 +1,4 @@
-# Solar Analysis
+# Analyse d’ensoleillement
 
-FormIt Pro users can study the **solar and energy impact** of designs using the **Solar Analysis** feature. Learn more about Solar Analysis and how to use it [here](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis).
+Les utilisateurs de FormIt Pro peuvent étudier l’**impact solaire et énergétique** des conceptions à l’aide de la fonction **Analyse d’ensoleillement**. Pour en savoir plus sur l’analyse d’ensoleillement et son utilisation, [cliquez ici](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis).
+
