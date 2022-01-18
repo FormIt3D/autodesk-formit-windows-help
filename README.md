@@ -10,4 +10,3 @@ Oprogramowanie do modelowania architektonicznego FormIt® umożliwia architektom
 
 * Korzystanie z programu FormIt dla systemu Windows wymaga subskrypcji **FormIt Pro**, która jest częścią [kolekcji Autodesk z zakresu architektury, inżynierii i budownictwa (AEC)](https://www.autodesk.pl/collections/architecture-engineering-construction/overview).
 * Można również pobrać program [FormIt dla systemu Windows](https://formit.autodesk.com/page/download) i rozpocząć korzystanie z 30-dniowej bezpłatnej wersji próbnej programu FormIt Pro.
-
