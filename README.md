@@ -10,4 +10,3 @@ Pomocí aplikace FormIt® pro architektonické modelování mohou architekti ski
 
 * Spuštění aplikace FormIt pro systém Windows vyžaduje předplatné aplikace **FormIt Pro**, která je součástí [sady Autodesk AEC Collection](https://www.autodesk.cz/collections/architecture-engineering-construction/overview).
 * Můžete si také stáhnout aplikaci [FormIt pro systém Windows](https://formit.autodesk.com/page/download) a spustit 30denní bezplatnou zkušební verzi aplikace FormIt Pro.
-
