@@ -1,7 +1,8 @@
-# Align Camera With Face
+# Zarovnání kamery s plochou
 
-Quickly align the camera to look directly at any face.
+Kameru můžete rychle zarovnat tak, aby se dívala přímo na libovolnou plochu.
 
-Select a single face, then right-click to access the Context Menu. Look for Align Camera with Face at the top of the menu, or use shortcut AF:
+Vyberte jednu plochu a poté kliknutím pravým tlačítkem zobrazte místní nabídku. V horní části nabídky vyhledejte položku Zarovnat kameru s plochou nebo použijte klávesovou zkratku AF:
 
 ![](../.gitbook/assets/alignwithface.gif)
+

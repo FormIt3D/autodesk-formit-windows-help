@@ -1,146 +1,146 @@
-# 1.8 - Create Columns with Array
+# 1.8 – Vytvoření sloupů nástrojem Pole
 
-_In this exercise, we will sketch a detailed element - an I-beam column. Then we will use the Array tool to quickly create multiple equally-spaced copies._
+_V tomto cvičení načrtneme prvek detailu – sloup nosníku ve tvaru I. Poté pomocí nástroje Pole rychle vytvoříme několik rovnoměrně rozmístěných kopií._
 
-_If you did not complete the last section, download and open the_ _**1.8 – Create Columns with Array.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.8 – Create Columns with Array.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **Sketch the Column Profile**
+## **Načrtnutí profilu sloupu**
 
-1 - To facilitate the drafting process:
+1 – Postup usnadnění procesu kreslení:
 
-1. Go to the **Top View (VT)**.
-2. Switch the view mode to **Orthographic (VO)**.
-3. Turn off the **Main Building** **Floor** and **Roof** layers. This step will prevent the new geometry from snaping to the existing geometry on those layers.
-4. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
-5. Turn off the **Snap to Grid (SG)** feature (if you have it on). This will help with drawing the detail lines.
+1. Přejděte do **horního pohledu \(VT\)**.
+2. Přepněte režim pohledu na možnost **Ortografické \(VO\)**.
+3. Vypněte hladiny **Podlaží** **hlavní budovy** a **Střecha**. Tento krok zabrání přichycení nové geometrie ke stávající geometrii v těchto hladinách.
+4. Přibližte si levý horní roh **importovaného obrázku půdorysu**, abyste si mohli podrobně prohlédnout sloup.
+5. Vypněte funkci **Přichytit k osnově \(SG\)** \(pokud je zapnutá\). Pomůže vám to při kreslení čar detailu.
 
-![](<../../.gitbook/assets/0 (13) (1).png>)
+![](../../.gitbook/assets/0%20%2813%29.png)
 
-_To draw the column, we will first draw one half, then mirror it to quickly create the other symmetrical half._
+_Při kreslení sloupu nejprve nakreslíme jednu polovinu a poté ji zrcadlově otočíme, abychom rychle vytvořili druhou symetrickou polovinu._
 
-2 - To create the first half of the I-beam, use the **Line tool (L)** to make the following sketch using the specified dimensions. Don’t worry about the exact position of the column on the plan image just yet.
+2 – K vytvoření první poloviny I-nosníku použijte nástroj **Čára (L)** a nakreslete následující náčrt se zadanými kótami. Zatím si nedělejte starosti s přesnou polohou sloupu na půdorysném obrázku.
 
-![](<../../.gitbook/assets/1 (18).png>)
+![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - To mirror the shape you have just drawn:
+3 – Zrcadlení tvaru, který jste právě nakreslili, proveďte takto:
 
-1. Double-click to select all the faces and edges of the drawn geometry.
-2. Right-click and select the **Mirror Tool (MI)**.
-3. Click on the center orange grip of the **Mirror Widget** and place it at the geometry’s bottom left corner.
-4. Use the bottom arrow from the double-sided arrow button in the Widget to rotate the mirroring-axis -90 degrees (clockwise).
-5. Single-click off in space, or press **Esc** to finish the mirroring process. The result should look like an I-beam profile with a line down the middle. Press **Esc** again to clear the selection.
+1. Dvojitým kliknutím vyberte všechny plochy a hrany nakreslené geometrie.
+2. Klikněte pravým tlačítkem a vyberte **nástroj Zrcadlit \(MI\)**.
+3. Klikněte na středový oranžový úchyt **pomůcky Zrcadlit** a umístěte jej do levého dolního rohu geometrie.
+4. Pomocí šipky dolů na oboustranném tlačítku šipky v pomůcce otočte osu zrcadlení o -90 stupňů \(ve směru hodinových ručiček\).
+5. Kliknutím na volné místo nebo stisknutím klávesy **Esc** dokončete proces zrcadlení. Výsledek by měl vypadat jako profil I-nosníku s čarou uprostřed. Dalším stisknutím klávesy **Esc** zrušte výběr.
 
-![](<../../.gitbook/assets/2 (5).png>)
+![](../../.gitbook/assets/2%20%285%29.png)
 
-![](<../../.gitbook/assets/3 (7).png>)
+![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Note**: The final geometry location and orientation is previewed with the ghosted blue shape while you are adjusting the mirror widget. You can use this preview as a reference to mirror the geometry to the intended location._
+_**Poznámka:** Při úpravě pomůcky zrcadlení se zobrazí náhled umístění a orientace konečné geometrie jako stínovaný modrý tvar. Tento náhled můžete použít jako referenci k zrcadlení geometrie do požadovaného umístění._
 
-4 - To join both sides into a single geometry, remove the line dividing them by clicking on it to select it and then pressing **Delete**. Now the two surfaces are joined into a single surface.
+4 – Spojte obě strany do jediné geometrie: odstraňte čáru, která je rozděluje, tak že na ni kliknete a poté stisknete klávesu **Delete**. Nyní jsou tyto dva povrchy spojeny do jednoho povrchu.
 
-5 - To move the geometry to its final location:
+5 – Přesuňte geometrii do jejího konečného umístění:
 
-1. If off, turn on the **Plan Image** and **Roof** layers, to use them as a guide.
-2. Double-click the column profile to select its face and all of its lines. Start moving the selection along the green axis (**Y Axis**). Hold **Shift** and move the profile until it aligns with the Roof, then click to place it.
-3. Similar to the previous step, move the geometry once again, this time locking it to the red axis (**X Axis**).
-4. Click to place it on top of the I-Beam drawn in the **Plan Image**. Getting it close is fine, like in the following image, the horizontal position does not need to be perfect.
+1. Pokud jsou vypnuty, zapněte hladiny **Obrázek půdorysu** a **Střecha**, aby je bylo možné použít jako vodítko.
+2. Dvojitým kliknutím na profil sloupu vyberte jeho plochu a všechny jeho čáry. Začněte výběr přesouvat podél zelené osy \(**osa Y**\). Podržte klávesu **Shift** a přesuňte profil tak, aby byl zarovnán se střechou. Poté jej kliknutím umístěte.
+3. Podobně jako v předchozím kroku znovu přesuňte geometrii a tentokrát ji uzamkněte k červené ose \(**osa X**\).
+4. Kliknutím profil umístěte na horní část I-nosníku nakresleného v hladině **Obrázek půdorysu** \(horizontální poloha nemusí být dokonalá\).
 
-_**Note:**_ _The_ _**Shift**_ _key will lock the geometry to move along only one axis, in this case, the green (**Y Axis**). This will ensure the column profile does not accidentally move up and align to the top of the roof plane._
+_**Poznámka:**_ _Klávesa_ _**Shift**_ _uzamkne geometrii, aby se pohybovala pouze podél jedné osy, v tomto případě zelené \(**osa Y**\). Tím se zajistí, že se profil sloupu náhodně neposune nahoru a nezarovná se k horní části roviny střechy._
 
-![](<../../.gitbook/assets/4 (9) (1).png>)
+![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Extrude and Array the Column**
+## **Vysunutí a uspořádání sloupu**
 
-1 - To facilitate the next drafting process, switch the view mode back to **Perspective (VP)** and **Orbit (O)** to position the camera as to visualize the I-Beam profile from the northwest. Use the north arrow at the bottom left corner to help you position the view.
+1 – Abyste si usnadnili další proces kreslení, přepněte režim pohledu zpět na **Perspektivní \(VP\)** a pomocí nástroje **Orbit \(O\)** umístěte kameru tak, aby zobrazovala profil I-nosníku od severozápadu. Šipka severu v levém dolním rohu vám pomůže s umístěním pohledu.
 
-![](<../../.gitbook/assets/5 (1).jpeg>)
+![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Note:**_ _To learn how to navigate around the sketch, we recommend checking out the_ _**Navigate the Scene**_ _chapter._
+_**Poznámka:**_ _Informace o tom, jak se pohybovat v náčrtu, získáte v kapitole_ _**Navigace ve scéně**_ _._
 
-2- Select the column profile face and extrude the face up to **17’-8”**.
+2 – Vyberte plochu profilu sloupu a vysuňte ji nahoru do vzdálenosti **17’-8"**.
 
-_**Note:**_ _If while moving the column profile, it aligned itself to the roof, extrude the face down by_ _**17’-8”**_\
-_instead of up._
+_**Poznámka:**_ _Pokud se při přesouvání profil sloupu zarovnal ke střeše, vysuňte plochu dolů o_ _**17’-8"**  , nikoli nahoru._
 
-3 - Zoom out and turn the **Roof** layer on (if off). The top of the column should line up with the top of the roof.
+3 – Oddalte pohled a zapněte hladinu **Střecha** \(pokud je vypnutá\). Vrchol sloupu by měl být zarovnán s horní částí střechy.
 
-![](<../../.gitbook/assets/6 (9) (1).png>)
+![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - To keep the model organized and tidy, select the column geometry again and do the following:
+4 – Aby byl model uspořádaný a přehledný, vyberte znovu geometrii sloupů a proveďte následující kroky:
 
-1. **Group (G)** and name it **Column Tall**.
-2. Create a new **Layer** called **Column** and add the group to it.
-3. Import the material **Metal - Brushed - Colorized** and paint the group with it.
+1. Vytvořte **skupinu \(G\)** a pojmenujte ji **Vysoký sloup**.
+2. Vytvořte novou **hladinu** s názvem **Sloup** a přidejte do ní vytvořenou skupinu.
+3. Importujte materiál **Kov – kartáčovaný – zbarvený** a pomalujte jím skupinu.
 
-![](<../../.gitbook/assets/7 (4) (1).png>)
+![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Note:**_ _See previous chapters for more information on_ _**Groups**,_ _**Layers**, and_ _**Materials**._
+_**Poznámka:**_ _Další informace o_ _**skupinách**,_ _**hladinách** a_ _**materiálech** získáte v předchozích kapitolách._
 
-4 - Click **Esc** to clear the paintbrush tool.
+4 – Stisknutím klávesy **Esc** ukončete nástroj Štětec.
 
-## **Array the Columns**
+## **Vytvoření pole sloupů**
 
-1 - Go to the **Top View (VT)** and switch the camera mode to **Orthographic (VO)** again.
+1 – Přejděte do **horního pohled \(VT\)** a znovu přepněte režim kamery na možnost **Ortografické \(VO\)**.
 
-2 - Turn off the **Roof** layer.
+2 – Vypněte hladinu **Střecha**.
 
-3 - To start the array process:
+3 – Zahajte proces tvorby pole:
 
-1. Single-click to select the column group. Right-click to bring the **Context Menu** and choose **Array (AR)**.
-2. In the **Array Properties** dialog, use the following settings:
-   * **Length Between Copies**
-   * **Linear** (default)
-   * **Group each solid then array** (default)
-   * **Number of Copies: 3**
-   * Press **OK** to close the dialog.
+1. Kliknutím vyberte skupinu sloupů. Kliknutím pravým tlačítkem myši zobrazte **místní nabídku** a vyberte položku **Pole \(AR\)**.
+2. V dialogu **Vlastnosti pole** použijte následující nastavení:
+   * **Délka mezi kopiemi**
+   * **Lineární** \(výchozí\)
+   * **Seskupit každé těleso a poté vytvořit pole** \(výchozí\)
+   * **Počet kopií: 3**
+   * Kliknutím na tlačítko **OK** zavřete dialog.
 
-![](<../../.gitbook/assets/8 (3) (1).png>)
+![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - To place the new elements:
+4 – Umístěte nové prvky:
 
-1. Single-click on the column to start the **Array**. Move the cursor along the red axis (**X axis**).
-2. Set dimension to **22'**. You now have **four** columns **22'** apart.
-3. **Esc** to clear your selection.
+1. Kliknutím na sloup spusťte nástroj **Pole**. Přesuňte kurzor podél červené osy \(**osa X**\).
+2. Nastavte kótu na **22'**. Nyní máte **čtyři** sloupy vzdálené od sebe **22'**.
+3. Stisknutím klávesy **Esc** zrušte výběr.
 
-![](<../../.gitbook/assets/9 (6) (1).png>)
+![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - To select all the **Tall Column** groups at once, hover your mouse over one of them and press the **Tab** key once. Notice that all 4 column’s bounding boxes have been highlighted. Single-click on the column your mouse is hovering over and they will all be selected. This is a quick way to select all instances of the same group at once.
+5 – Chcete-li vybrat všechny skupiny **Vysoký sloup** najednou, přesuňte ukazatel myši nad jednu z nich a stiskněte klávesu **Tab**. Všimněte si, že byly zvýrazněny ohraničující kvádry všech 4 sloupů. Kliknutím na sloup, nad kterým je umístěn ukazatel myši, nyní vyberete všechny sloupy. Tímto způsobem můžete rychle vybrat všechny instance stejné skupiny najednou.
 
-6 - Perform another **Array (AR)** to create the columns at the other side of the building. This time make 1 copy along the green axis across the building. Set dimension to **29'- 4 5/8”.**
+6 – Pomocí dalšího **pole \(AR\)** vytvořte sloupy na druhé straně budovy. Tentokrát vytvořte jednu kopii podél zelené osy napříč budovou. Nastavte kótu na hodnotu **29'-4 5/8"**
 
-_**Note:**_ _29’ 4 5/8” = 8 5/8” (column depth) + 28’-8” (main building width)._
+_**Poznámka:**_ _29’ 4 5/8" = 8 5/8" \(hloubka sloupů\) + 28’-8" \(šířka hlavní budovy\)._
 
-7 - To visualize the whole building, go to the **3D View (V3)** and set it to **Perspective (VP)**. If off, turn on the **Main Building Floor**, **Roof**, **Lower Terrace**, and **Column** layers.
+7 – Chcete-li vizualizovat celou budovu, přejděte do **3D pohledu \(V3\)** a nastavte možnost **Perspektivní \(VP\)**. Pokud jsou vypnuty, zapněte hladiny **Podlaží hlavní budovy**, **Střecha**, **Dolní terasa** a **Sloup**.
 
-![](<../../.gitbook/assets/10 (7) (1).png>)
+![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Create the Terrace Columns**
+## **Vytvoření sloupů terasy**
 
-_Now we will duplicate the main building columns to create similar, but shorter, versions for the terrace._
+_Nyní zkopírujeme sloupy hlavní budovy a vytvoříme podobné, ale kratší, verze pro terasu._
 
-1 - To facilitate drafting, we recommend going back to an **Orthogonal (OV)** and **Top View (VT)** setting.
+1 – Kvůli usnadnění kreslení doporučujeme vrátit se k nastavení **Ortografické \(OV\)** a **Horní pohled \(VT\)**.
 
-2 - To create the new columns:
+2 – Vytvořte nové sloupy:
 
-1. Hold **Ctrl** or **Shift**, click on the 3 columns closest to the **Lower Terrace Floor** to select them.
-2. Single-click on any one of the columns to start moving all 3 selected columns at once. Press the **Ctrl** key once to create a **quick copy**. A ghost preview of the copy will appear.
-3. Move the copies down along the green axis (**Y Axis**) by **23’-4 3/8**”. Press **Esc**.
-4. Without deselecting, move the copied columns along the red axis (**X Axis**) by **22’** to place them in their final position.
-5. Again, with the 3 new columns still selected, right-click one of the copied columns and select **Make Unique (MU)**. These columns are now associated with each other, but unique from the originals.
+1. Podržte klávesu **Ctrl** nebo **Shift** a kliknutím vyberte 3 sloupy, které jsou nejblíže **podlaží dolní terasy**.
+2. Kliknutím na kterýkoli ze sloupů začněte přesouvat všechny 3 vybrané sloupy najednou. Chcete-li vytvořit **rychlou kopii**, stiskněte jednou klávesu **Ctrl**. Zobrazí se obrys kopie.
+3. Posuňte kopie dolů podél zelené osy \(**osa Y**\) o **23’-4 3/8"**. Stiskněte klávesu **Esc**.
+4. Aniž byste zrušili výběr, přesuňte zkopírované sloupy podél červené osy \(**osa X**\) o **22’** a umístěte je do konečné polohy.
+5. Se stále vybranými 3 novými sloupy klikněte pravým tlačítkem myši na jeden z kopírovaných sloupů a vyberte možnost **Vytvořit jedinečné \(MU\)**. Tyto sloupy jsou nyní navzájem propojeny, ale jsou jedinečné oproti originálům.
 
-_**Note:**_ _Holding_ _**Shift**_ _or_ _**Ctrl**_ _allows you to select multiple elements at once, or remove elements from your current selection._
+_**Poznámka:**_ _Podržením klávesy_ _**Shift**_ _nebo_ _**Ctrl**_ _můžete vybrat více prvků najednou nebo odebrat prvky z aktuálního výběru._
 
-![](<../../.gitbook/assets/11 (7) (1).png>)
+![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - Modify the new column group:
+3 – Upravte novou skupinu sloupů:
 
-1. Double-click to edit one of the new groups and rename it **Column Short.**
-2. Adjust the height of the new column to align to the top of the **Lower Terrace** **Floor** (3’-2”). To do that, select and drag the column’s face down along the blue axis (**Z axis**) and hold **Shift**. Hover the cursor anywhere on the top face of the **Lower Terrace Floor** and the column’s height will automatically align to the Lower Terrace. Once the height is set, click to finish.
+1. Dvojitým kliknutím upravte jednu z nových skupin a přejmenujte ji na **Krátký sloup**
+2. Upravte výšku nového sloupu tak, aby byl zarovnán s horní částí **podlaží** **dolní terasy** \(3’-2"\). To provedete tak, že vyberete a přetáhnete plochu sloupu dolů podél modré osy \(**osa Z**\) a podržíte klávesu **Shift**. Umístěte ukazatel myši na libovolné místo na horní ploše **podlaží dolní terasy** a výška sloupu se automaticky zarovná k dolní terase. Jakmile je výška nastavena, kliknutím ukončete akci.
 
-![](<../../.gitbook/assets/12 (4).png>)
+![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Note:**_ _You can check the height of the short columns by using the_ _**Measure (ME)**_ _tool. Alternatively, you can select one of the column’s vertical edge and see its length in the_ _**Properties Palette**._
+_**Poznámka:**_ _Výšku krátkých sloupů můžete zkontrolovat pomocí nástroje_ _**Měřit \(ME\)**_ _. Případně můžete vybrat jednu ze svislých hran sloupu a zobrazit jeho délku na_ _**paletě Vlastnosti**._
 
-4- Using the techniques you just learned, copy the furthest short column to the opposite side of the **Lower Terrace Floor** to create the last remaining column.
+4 – Pomocí technik, které jste se právě naučili, vytvořte poslední zbývající sloup zkopírováním nejkratšího sloupu na opačnou stranu **podlaží dolní terasy**.
 
-![](<../../.gitbook/assets/13 (4).png>)
+![](../../.gitbook/assets/13%20%284%29.png)
+

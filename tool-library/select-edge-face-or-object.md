@@ -1,34 +1,35 @@
-# Selection
+# Výběr
 
-## Direct Selection
+## Přímý výběr
 
-To **select a vertex, edge, or face**, hover over the object, then single-click to select it.
+Chcete-li **vybrat vrchol, hranu nebo plochu**, přesuňte ukazatel myši nad objekt a kliknutím jej vyberte.
 
-![](../.gitbook/assets/direct\_selection1.png)
+![](../.gitbook/assets/direct_selection1.png)
 
-To **select an entire object**, or an object and anything attached to it, double click the object.
+Pokud chcete **vybrat celý objekt** nebo objekt a vše, co je k němu připojeno, dvakrát klikněte na objekt.
 
-![](../.gitbook/assets/direct\_selection2.png)
+![](../.gitbook/assets/direct_selection2.png)
 
-You can also hold Ctrl or Shift, and add or remove elements from the current selection.
+Můžete také podržet klávesu Ctrl nebo Shift a přidat prvky do aktuálního výběru nebo je z něj odebrat.
 
-## Selection Filtering
+## Filtrování výběru
 
-For area or lasso selection (see below), you can filter the selection based on type.
+U výběru plochy nebo nepravidelného výběru \(viz níže\) můžete filtrovat výběr podle typu.
 
-This is especially useful when you've got a mix of geometry types in close proximity, and you want to use area or lasso selection to cast a wide net, but retrieve only a certain type of geometry, while excluding others.
+To je užitečné zejména v případě, kdy máte v těsné blízkosti různé typy geometrií a chcete pomocí výběru plochy nebo nepravidelného výběru obsáhnout širokou síť, ale přitom získat pouze určitý typ geometrie a ostatní vyloučit.
 
-![](<../.gitbook/assets/selection-filter (1).png>)
+![](../.gitbook/assets/selection-filter.png)
 
-## Area/Window Selection
+## Výběr plochy/okna
 
-To **select multiple pieces of geometry simultaneously**, use the window selection tool. Make sure you have nothing selected, then click and drag your mouse from left to right, or from right to left, to capture multiple pieces.
+Chcete-li **vybrat více částí geometrie současně**, použijte nástroj Výběr okna. Ujistěte se, že nemáte nic vybraného, a poté kliknutím a tažením myši zleva doprava nebo zprava doleva vyberte více částí.
 
-![](../.gitbook/assets/direct\_selection3.png)
+![](../.gitbook/assets/direct_selection3.png)
 
-## Lasso Selection
+## Nepravidelný výběr
 
-For **more precise control** when selecting multiple pieces of geometry simultaneously, use the lasso tool. You can select it from the context menu after right-clicking over the empty canvas. Then draw a boundary around your desired selection area.
+Chcete-li mít **přesnější kontrolu** při výběru více částí geometrie současně, použijte nástroj Nepravidelný výběr. Můžete jej vybrat v místní nabídce po kliknutí pravým tlačítkem myši na prázdnou kreslicí plochu. Poté nakreslete hranici kolem požadované oblasti výběru.
 
-![](../.gitbook/assets/lasso1.png)\
+![](../.gitbook/assets/lasso1.png)  
 ![](../.gitbook/assets/lasso2.png)
+

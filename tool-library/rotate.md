@@ -1,13 +1,14 @@
-# Rotate Object
+# Otočení objektu
 
-You can change the orientation of objects using the Rotate tool in the Context Menu.
+Pomocí nástroje Otočit, který je dostupný v místní nabídce, můžete měnit orientaci objektů.
 
-1. Select an element you want to rotate and right-click to launch the Context Menu.
-2. From the Context Menu, select the Rotate tool.&#x20;
-3. When the protractor graphic appears on your mouse, click to set the plane for rotation.
-4. Use the blue grips to specify the start point of the rotation, and reset the axis if necessary. Use the arrows or the editable dimension box to set the rotation angle.&#x20;
+1. Vyberte prvek, který chcete otočit, a kliknutím pravým tlačítkem myši zobrazte místní nabídku.
+2. V místní nabídce vyberte nástroj Otočit.
+3. Když se na kurzoru objeví grafika úhloměru, kliknutím nastavte rovinu pro otáčení.
+4. Pomocí modrých uzlů určete počáteční bod otáčení a v případě potřeby obnovte osu. Úhel otočení nastavíte pomocí šipek nebo upravitelného pole kóty.
 
-Note that you can alse use the **Q** keyboard shortcut to access the rotate tool after selecting an element.
+Po výběru prvku můžete nástroj Otočit spustit také pomocí klávesové zkratky **Q**.
 
-![](../.gitbook/assets/rotate1.png)\
+![](../.gitbook/assets/rotate1.png)  
 ![](../.gitbook/assets/rotate2.png)
+

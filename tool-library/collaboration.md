@@ -1,17 +1,20 @@
-# Collaboration
+# Spolupráce
 
-FormIt allows multiple users to collaboratively edit a FormIt model on any combination of Windows, iPadOS, or Web clients, all while seeing their changes in real-time!
+Aplikace FormIt umožňuje více uživatelům provádět společné úpravy modelu aplikace FormIt v libovolné kombinaci klientů pro systém Windows, iPadOS nebo web, přičemž všechny změny se zobrazují v reálném čase.
 
-With a FormIt Pro subscription, you have access to the Real-time Collaboration feature which allows you to:
+S předplatným aplikace FormIt Pro získáte přístup k funkci spolupráce v reálném čase, která vám umožní:
 
-* Start a collaboration session and invite colleagues.
-* Join a collaboration from the FormIt Windows, Web, or iPadOS apps.
-* Collaborate with colleagues to explore designs in a shared sandbox environment.
-* Follow another collaborator's camera to see the model from their viewpoint.
-* Let a client follow your camera as you guide them through your design.
-* Chat with collaborators in the session.
+* Zahájit relaci spolupráce a pozvat kolegy.
+* Připojit se ke spolupráci z aplikací FormIt pro Windows, web nebo iPadOS.
+* Spolupracovat s kolegy a zkoumat návrhy ve sdíleném prostředí sandboxu.
+* Sledovat kameru jiného spolupracovníka a prohlédnout si model z jeho pohledu.
+* Nechat klienta sledovat vaši kameru během prezentace návrhu.
+* Chatovat se spolupracovníky během relace.
 
-## Start a Collaboration Session
+## Zahájení relace spolupráce
 
-1. From the Collaboration drop-down, choose "Start sharing session." ![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
-2. Email a link to collaborators. This link prompts recipients to log into their Autodesk accounts to immediately start collaborating.  ![](<../.gitbook/assets/collaborate (1).png>)
+1. V rozevíracím seznamu Spolupráce vyberte možnost Spustit relaci sdílení. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
+2. Odešlete spolupracovníkům e-mailem odkaz. Tento odkaz vyzve příjemce, aby se přihlásili ke svým účtům Autodesk a ihned začali spolupracovat. ![](../.gitbook/assets/collaborate.png)
+
+
+

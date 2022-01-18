@@ -1,5 +1,6 @@
-# Presentation Graphics
+# Prezentační grafika
 
-Enjoy a suite of [Visual Styles](../tool-library/visual-styles.md) options to customize FormIt's graphics and create eye-popping presentations.
+Využijte sadu možností [vizuálních stylů](../tool-library/visual-styles.md), které vám umožní přizpůsobit si grafiku aplikace FormIt a vytvářet poutavé prezentace.
 
 ![](../.gitbook/assets/screen1.jpg)
+

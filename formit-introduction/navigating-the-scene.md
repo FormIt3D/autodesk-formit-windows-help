@@ -1,29 +1,30 @@
-# Navigating the Scene
+# Navigace ve scéně
 
-Use your mouse or touchscreen to easily navigate in and around your FormIt models:
+Pomocí myši nebo dotykové obrazovky se můžete snadno pohybovat v modelech aplikace FormIt a v jejich okolí:
 
-* **Orbit** by right-clicking and dragging the mouse or swiping across the screen for touch-enabled devices. This will use your cursor point in 3D space about which to orbit the camera.
-  * You can also hold the Shift key to Pan.
-* **Zoom** in and out by scrolling the mouse wheel up and down, or pinching for touch-enabled devices. This will use a point in 3D space at which to zoom to, and will slow down the zoom as you approach a surface or another object.
-  * You can also hold Ctrl to zoom at a constant rate, not affected by proximity to objects.
-* **Pan** by middle-clicking and dragging the mouse, or dragging two fingers for touch-enabled devices.
+* **Otáčejte** pohledem tak, že kliknete pravým tlačítkem myši a přetáhnete ukazatel myši nebo táhněte prstem přes obrazovku na zařízeních s dotykovým ovládáním. Tím ve 3D prostoru použijete bod kurzoru, kolem kterého se bude otáčet kamera.
+   * Můžete také podržet klávesu Shift a posunout pohled.
+* **Přibližujte a oddalujte** pohled otáčením kolečka myši nahoru a dolů nebo stažením či roztažením prstů na zařízeních s dotykovým ovládáním. V tomto případě se použije bod ve 3D prostoru, ke kterému se má pohled přiblížit, přičemž přiblížení se zpomalí, jakmile se přiblížíte k povrchu nebo jinému objektu.
+   * Můžete také podržet klávesu Ctrl, pokud chcete pohled přibližovat a oddalovat konstantní rychlostí, která není ovlivněna blízkostí objektů.
+* **Posouvejte** pohled kliknutím prostředním tlačítkem myši a jejím tažením nebo přetažením dvou prstů na zařízeních s dotykovým ovládáním. 
 
-You can also use the floating navigation toolbar on the right side of the canvas to go into specific view modes. Shortcuts are noted in parentheses.
+K přechodu do konkrétních režimů pohledu můžete použít také plovoucí panel nástrojů navigace v pravé části kreslicí plochy. V závorkách jsou uvedeny klávesové zkratky.
 
-![](../.gitbook/assets/20190618-ortho-views.png) **Orthographic views**: Click to reveal a flyout menu of available [orthographic views](../tool-library/orthographic-views.md).
+![](../.gitbook/assets/20190618-ortho-views.png)**Ortografické pohledy**: Kliknutím zobrazíte rozevírací nabídku [ortografických pohledů](../tool-library/orthographic-views.md).
 
-![](../.gitbook/assets/20190618-3d-view.png) **Default 3D View (ZD):** Launches the default 3D view.
+![](../.gitbook/assets/20190618-3d-view.png)**Výchozí 3D pohled \(ZD\):** Spustí výchozí 3D pohled.
 
-![](../.gitbook/assets/jet-pack.png) **Walkthrough (FT):** “Jetpack” mode allows you to walk through the scene using your keyboard. Use WASD to move forward/backward/left/right, and use Q/E to move up/down. Use the spacebar key to "fly."
+![](../.gitbook/assets/jet-pack.png)**Procházka \(FT\):** Tento režim umožňuje procházet scénou pomocí klávesnice. Pomocí kláves WASD se můžete pohybovat vpřed, vzad, doleva nebo doprava a pomocí kláves Q/E se můžete pohybovat nahoru nebo dolů. Mezerníkem můžete zobrazit průlet scénou.
 
-![](../.gitbook/assets/orbit-tool.png) **Orbit (O):** When enabled, left-click and drag the mouse to orbit around the model. You can also do this at any time by right-click and dragging.
+![](../.gitbook/assets/orbit-tool.png)**Orbit \(O\):** Pokud je tato možnost povolena, klikněte levým tlačítkem myši a tažením otáčejte pohled kolem modelu. To lze kdykoli provést také kliknutím pravým tlačítkem myši a tažením.
 
-![](../.gitbook/assets/swivel.PNG) **Swivel (SV):** Use the Swivel tool from the Navigation toolbar to look around the scene from a fixed point.
+![](../.gitbook/assets/swivel.PNG)**Natočit \(SV\):** Nástroj Natočit z panelu nástrojů navigace použijte, pokud se chcete rozhlédnout po scéně z pevného bodu.
 
-![](../.gitbook/assets/panning.png) **Pan (P):** Click and drag the middle mouse button, or use the Pan (hand) tool from the Navigation toolbar to pan across the scene.
+![](../.gitbook/assets/panning.png)**Posun pohledu \(P\):** Chcete-li posouvat pohled po scéně, klikněte a přetáhněte prostřední tlačítko myši nebo použijte nástroj Posun pohledu \(ručička\) z panelu nástrojů Navigace.
 
-![](../.gitbook/assets/zoom.png) **Zoom (Z):** Scroll the mouse wheel, or select the Zoom tool from the Navigation toolbar and click and drag the left mouse button to zoom.
+![](../.gitbook/assets/zoom.png)**Přiblížit \(Z\):** Chcete-li přiblížit pohled, otočte kolečkem myši nebo vyberte nástroj Přiblížit na panelu nástrojů Navigace a kliknutím a přetažením levého tlačítka myši proveďte přiblížení.
 
-![](../.gitbook/assets/zoom\_all.png) **Zoom All (ZE or ZA):** Zoom to fit the entire model into the current view
+![](../.gitbook/assets/zoom_all.png)**Přiblížit vše \(ZE nebo ZA\):** Přiblíží pohled tak, aby se do aktuálního pohledu vešel celý model.
 
-![](../.gitbook/assets/zoom\_selection.png) **Zoom Selection (ZS):** Zoom to fit all of the currently selected objects into the current view.
+![](../.gitbook/assets/zoom_selection.png)**Přiblížit na výběr \(ZS\):** Přiblíží pohled tak, aby se do aktuálního pohledu vešly všechny aktuálně vybrané objekty.
+

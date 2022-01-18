@@ -1,35 +1,36 @@
-# 1.4 - Add Floors with Levels
+# 1.4 – Přidání podlaží
 
-_Levels allow you to slice masses with individual floor datums and calculate gross area per building mass. FormIt Levels and their custom names will translate to Revit Levels when the file gets converted to Revit._
+_Podlaží umožňují „odříznout“ objemy pomocí jednotlivých základen podlaží a vypočítat hrubou plochu na objem budovy. Při převodu souboru do aplikace Revit budou podlaží aplikace FormIt a jejich uživatelské názvy převedeny na úrovně aplikace Revit._
 
-_If you did not complete the last section, download and open the **1.4 - Add Floors with Levels.axm axm** file from the **FormIt Primer Part 1 Datasets**._
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor **1.4 – Add Floors with Levels.axm** z **datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **Create, and Customize Levels**
+## **Vytváření a přizpůsobení podlaží**
 
-1 - To create levels:
+1 – Vytvoření podlaží:
 
-1. Go to the **Level Palette** in the **Palette Bar**.
-2. Click **+** (**Add Level**) four times to create four Levels.
-3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
-4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
+1. Na **panelu palet** přejděte na **paletu Podlaží**.
+2. Čtyřikrát klikněte na tlačítko **+** \(**Přidat podlaží**\), čímž vytvoříte čtyři podlaží.
+3. Dvakrát klikněte na aktuální výšku jednotlivých podlaží a zadejte následující hodnoty: **0’-0", 2'-2", 4’-6"** a **17’-8"**.
+4. Dvakrát klikněte na aktuální název jednotlivých podlaží a přejmenujte je na: **Přízemí, Terasa, Hlavní budova** a **Vrchol střechy**
 
-![](<../../.gitbook/assets/0 (16) (1).png>)
+![](../../.gitbook/assets/0%20%2816%29.png)
 
-_**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
+_**Poznámka**: Kliknutím na ikonu_ _**++**_ _můžete vytvořit více podlaží se zadanou a jednotnou vzdáleností od sebe. To je užitečné u vícepodlažních budov_.
 
-## **Apply Levels to Geometry**
+## **Použít podlaží na geometrii**
 
-_In the previous steps, we only created levels. Now we are ready to apply those levels to the geometry we have created._
+_V předchozích krocích jsme pouze vytvořili podlaží. Nyní jsme připraveni použít tato podlaží na geometrii, kterou jsme vytvořili._
 
-1 - To apply levels to the exiting geometry:
+1 – Použití podlaží na existující geometrii:
 
-1. Select the entire upper terrace mass by double-clicking it.
-2. In the **Properties Palette**, click **Use Levels**. This step will pre-select all levels that currently intersect the selected geometry.
-3. Now the currently selected geometry has three levels applied to it (**Main Building, Terrace,** and **Ground**), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
-4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
+1. Dvojitým kliknutím vyberte celý objem horní terasy.
+2. Na **paletě Vlastnosti** zaškrtněte políčko **Použít podlaží**. Tímto krokem vyberete všechna podlaží, která aktuálně protínají vybranou geometrii.
+3. Nyní jsou u aktuálně vybrané geometrie použita tři podlaží \(**Hlavní budova, Terasa** a **Přízemí**\), ale v tomto cvičení chceme použít pouze možnost **Přízemí**. Zrušte zaškrtnutí políček **Hlavní budova** a **Terasa**.
+4. Tento postup zajišťuje, že při výpočtu hrubé plochy se bere v úvahu pouze plocha, kterou protíná **Přízemí**. Tato plocha je zobrazena v poli **Plocha podle podlaží**.
 
-![](<../../.gitbook/assets/1 (4) (1).png>)
+![](../../.gitbook/assets/1%20%284%29.png)
 
-_**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
+_**Poznámka**: Pokud na objemu nejsou zobrazeny modré čáry podlaží, zadejte_ _**DL**_ _, čímž aktivujete příkaz_ _**Zobrazit podlaží**._
 
-![](<../../.gitbook/assets/2 (3) (1).png>)
+![](../../.gitbook/assets/2%20%283%29.png)
+

@@ -1,13 +1,16 @@
 # Polygon
 
-Use the Polygon tool to draw a regular n-sided polygon in space or on another object.
+Pomocí nástroje Polygon můžete nakreslit běžný pravidelný mnohoúhelník v prostoru nebo na jiném objektu.
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](../.gitbook/assets/image%20%289%29.png)
 
-Start the polygon and click to choose the center point. Specify the radius by drawing the second point, typing in a dimension, or hitting **Tab** to bring up **Tool Options**.
+Spusťte nástroj Polygon a kliknutím vyberte středový bod. Nakreslením druhého bodu určete poloměr. Zadáním kóty nebo stisknutím klávesy **Tab** zobrazíte dialog **Možnosti nástroje**.
 
-![](<../.gitbook/assets/image (7).png>)
+![](../.gitbook/assets/image%20%287%29.png)
 
-**Tool Options** allows you to change the number of sides and specify a particular radius.
+V dialogu **Možnosti nástroje** můžete změnit počet stran a zadat konkrétní poloměr.
 
 ![](../.gitbook/assets/image.png)
+
+
+

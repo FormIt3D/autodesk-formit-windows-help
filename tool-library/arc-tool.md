@@ -1,23 +1,24 @@
-# Arc
+# Oblouk
 
-Use the Arc tool to create half circles or symmetrical arcs. There are two ways to create arcs.
+Pomocí nástroje Oblouk můžete vytvářet poloviční kružnice nebo symetrické oblouky. Oblouky lze vytvářet dvěma způsoby.
 
-## Arc by Three Points
+## Oblouk pomocí tří bodů
 
-![](../.gitbook/assets/arc\_three\_pts.png)
+![](../.gitbook/assets/arc_three_pts.png)
 
-An arc is defined by three points and can be drawn on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
+Oblouk je definován třemi body a lze jej nakreslit na osách X, Y a Z. Definujte první bod, poté určete vzdálenost od prvního bodu ke druhému a nakonec zadáním třetího bodu definujte výšku oblouku. Automaticky se zobrazí bod „poloviční kružnice“, ke kterému se můžete přichytit. Za tímto bodem se čára oblouku protáhne za první dva body.
 
-You can see the length between the first point and the second point as you're determining the second points next location; to manually specify a length, simply enter a value and a dimension box will appear.
+Při určování umístění druhého bodu se zobrazuje vzdálenost mezi prvním a druhým bodem. Chcete-li vzdálenost zadat ručně, stačí zadat hodnotu a zobrazí se pole kóty. 
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-After drawing the arc, you can make a face using the [Line tool](line-tool.md) to connect the first and second points.
+Po nakreslení oblouku můžete vytvořit plochu pomocí [nástroje Čára](line-tool.md), který spojí první a druhý bod.
 
-## Arc by Center
+## Oblouk pomocí středu
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Choose the mid point of the arc, then drag to choose the center, and drag to define the length of the arc. Simply start typing a value to enter a precise number of degrees for the arc.
+Vyberte středový bod oblouku, poté tažením vyberte střed a tažením definujte délku oblouku. Chcete-li definovat přesný počet stupňů oblouku, jednoduše zadejte požadovanou hodnotu.
 
-![](../.gitbook/assets/arc\_circle\_demo.gif)
+![](../.gitbook/assets/arc_circle_demo.gif)
+

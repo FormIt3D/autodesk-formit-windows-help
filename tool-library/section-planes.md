@@ -1,5 +1,6 @@
-# Section Planes
+# Roviny řezu
 
-Use **Section Planes** to cut into your FormIt model, revealing interior spaces and structural elements.
+Pomocí **rovin řezu** můžete provést řez do modelu aplikace FormIt a odhalit vnitřní prostory a konstrukční prvky.
 
-Learn about Section Planes in the [FormIt Primer](../formit-primer/part-i/section\_planes.md).
+Přečtěte si informace o rovinách řezů v [Příručce k aplikaci FormIt](../formit-primer/part-i/section_planes.md).
+

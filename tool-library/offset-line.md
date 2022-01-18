@@ -1,53 +1,56 @@
-# Offset Line
+# Nástroj Odsadit čáru
 
-Draw parallel, or offset, lines using the Offset Line tool. This is useful to create 2D shapes that can later be extruded to look like 3D walls.
+Pomocí nástroje Odsadit čáru můžete kreslit rovnoběžné neboli odsazené čáry. To je užitečné při vytváření 2D tvarů, které lze později vysunout tak, aby vypadaly jako 3D stěny.
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool:
+Nástroj **Odsadit čáru** funguje podobně jako nástroj [**Čára**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
-* Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes.&#x20;
-* A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool.
-* Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
+* Kliknutím nastavte první bod a poté přesuňte kurzor a umístěte následující body, přičemž se čára přichytí k existující geometrii nebo odvozeným osám.
+* Zobrazí se náhled výsledného tvaru. Druhý a třetí bod určují rovinu, kterou budou ostatní body sledovat, takže výsledek je rovinný.
+* Pokračujte v přidávání bodů. Až budete hotovi, ukončete nástroj kliknutím na tlačítko **Esc** nebo dvojitým kliknutím.
+* Všechny průsečíky budou začištěny a sloučeny, takže zůstane jedna vysunutelná plocha.
 
-![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
+![Po umístění 2 bodů a tažení 3. bodu](../.gitbook/assets/walls1.png)
 
-The input line is drawn in red, and by default is placed in the center of the offset lines.
+Vstupní čára je nakreslena červeně a ve výchozím nastavení je umístěna ve středu odsazených čar.
 
-You can change the alignment of the offset lines and their thickness by hitting the **Tab** key. This will invoke the **Tool Options** dialog:
+Zarovnání odsazených čar a jejich tloušťku můžete změnit stisknutím klávesy **Tab**. Tím vyvoláte dialog **Možnosti nástroje**:
 
-![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
+![Možnosti nástroje Odsadit čáru](../.gitbook/assets/walls2.png)
 
-Change the **Alignment** to **Left** and the **Thickness** to 6", for example, and the offset lines will be drawn to the left of the input lines, 6 inches apart.
+Pokud například změníte hodnotu položky **Zarovnání** na **Vlevo** a pro položku **Tloušťka** zadáte hodnotu 6", budou odsazené čáry nakresleny vlevo od vstupních čar, 6 palců od sebe.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Useful Tips
+## Užitečné tipy
 
-You can draw a closed shape by snapping to the first point placed. The resulting corner will be cleaned up automatically:
+Uzavřený tvar nakreslíte přichycením k prvnímu umístěnému bodu. Výsledný roh bude automaticky začištěn:
 
 ![](../.gitbook/assets/walls4.png)
 
-You can freely draw the input lines on top of each other. When the tool is finished the resulting intersections are cleaned up.
+Vstupní čáry můžete libovolně kreslit přes sebe. Po ukončení nástroje se výsledné průsečíky začistí.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Inherently, the Offset Line tool must generate geometry on a plane, so the first few points determine the plane that the remaining points will follow.
+Nástroj Odsadit čáru musí ze své podstaty vytvořit geometrii v rovině, takže prvních několik bodů určuje rovinu, kterou budou sledovat ostatní body.
 
-Start drawing on the side of a cube, for example, to use the plane of that face. After three non colinear points are placed the input plane is fixed for the remainder of the input. Note, that when drawing on a face the resulting shape is inserted into the face, splitting it into multiple faces. To prevent the insertion, the face you draw on must be part of a [Group](https://windows.help.formit.autodesk.com/tool-library/groups).
+Začněte například kreslit na stěnu krychle, abyste použili rovinu této plochy. Po umístění tří nekolineárních bodů je vstupní rovina pevná pro zbytek bodů. Všimněte si, že při kreslení na plochu je výsledný tvar vložen do plochy, kterou rozdělí na více ploch. Aby se zabránilo vložení, musí být plocha, na které kreslíte, součástí [skupiny](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![Drawing on a vertical face](../.gitbook/assets/walls7.png)
+![Kreslení na vertikální ploše](../.gitbook/assets/walls7.png)
 
-![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
+![Po ukončení nástroje se vloží čáry a s rozdělenými plochami lze dále manipulovat](../.gitbook/assets/walls8.png).
 
-You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image.
+Nástroj Odsadit čáru můžete použít také k trasování z půdorysného výkresu. Importujte půdorys jako obrázek.
 
-* Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).&#x20;
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
+* Změňte velikost obrázku tak, aby půdorys měl správné měřítko. Podrobný postup je popsán [zde](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
+* Pomocí [ortografické kamery](orthographic-camera.md) můžete trasovat v ortografickém [horním pohledu](orthographic-views.md).
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
+
+
+

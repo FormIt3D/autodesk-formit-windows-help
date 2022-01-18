@@ -1,66 +1,67 @@
-# 1.12 - Visual Styles
+# 1.12 – Vizuální styly
 
-_Modeling conceptual masses is just half of what FormIt has to offer. The other half are beautiful graphics that help to tell a story to a client, or team member. In this chapter, we will cover ways to set up your_ _**graphic visual styles**_ _and create animations._
+_Modelování koncepčních objemů je jen polovinou toho, co aplikace FormIt nabízí. Druhá polovina je krásná grafika, která usnadňuje komunikaci s klienty nebo členy týmu. V této kapitole se budeme zabývat způsoby nastavení_ _**grafických vizuálních stylů**_ _a vytváření animací._
 
-_If you did not complete the last section, download and open the_ _**1.12 – Visual Styles.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.12 – Visual Styles.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **Create an Animation**
+## **Tvorba animace**
 
-_In these next steps, we will learn how to use_ _**Scenes**_ _to create an animation._
+_V následujících krocích se naučíme používat_ _**scény**_ _k vytvoření animace._
 
-1 – To create the first **Scene**:
+1 – Vytvoření první **scény**:
 
-1. Turn on all the layers except **Terrain**, **Plan Image,** and **Massing**.
-2. Make sure the camera mode is set to **Perspective (VP)**, and position the camera so that it is looking at the entire house from slightly above, similar to the image below.
-3. Open the **Scenes Palette**.
-4. Click on the **+** icon to create a new scene from our current view.
-5. Rename it to **Aerial View 1**, and match the other **Scene Properties** to what is shown in the image below.
+1. Zapněte všechny hladiny kromě **terénu**, **obrázku půdorysu** a **objemů**.
+2. Ujistěte se, že je režim kamery nastaven na možnost **Perspektivní \(VP\)**, a umístěte kameru tak, aby se dívala na celý dům mírně shora, podobně jako na obrázku níže.
+3. Otevřete **paletu Scény**.
+4. Kliknutím na ikonu **+** vytvořte novou scénu z aktuálního pohledu.
+5. Přejmenujte ji na **Letecký pohled 1** a ostatní **vlastnosti scény** nastavte způsobem zobrazeným na obrázku níže.
 
-![](<../../.gitbook/assets/0 (17) (1).png>)
+![](../../.gitbook/assets/0%20%2817%29.png)
 
-2 - To create the second **Scene** and then animate between them:
+2 – Vytvoření druhé **scény** a následné animace mezi nimi:
 
-1. Adjust the camera to a new position so that you are looking at the house from a different angle. Create a new **Scene** named **Aerial View 2** using the same process we followed in the previous step.
-2. Click the **Play** button. After the set **Pause Time** of **2 Seconds**, the animation will start slowly moving back and forth between the two scenes. This will continue until you click the **Stop** button to stop the animation.
+1. Nastavte kameru do nové polohy, abyste se na dům dívali z jiného úhlu. Vytvořte novou **scénu** s názvem **Letecký pohled 2** stejným postupem jako v předchozím kroku.
+2. Klikněte na tlačítko **Přehrát**. Po uplynutí **doby pozastavení** nastavené na **2 sekundy** se animace začne pomalu přesouvat mezi dvěma scénami tam a zpět. Přehrávání bude pokračovat, dokud animaci nezastavíte kliknutím na tlačítko **Zastavit**.
 
-![](<../../.gitbook/assets/1 (12) (1).png>)
+![](../../.gitbook/assets/1%20%2812%29.png)
 
-_**Note:**_ _You can adjust the_ _**Pause Time**,_ _**Transition Time**, and_ _**Camera Speed**_ _using the settings at the bottom of the_ _**Scene Properties**. Try adding some more scenes and playing with these settings to customize your animation._
+_**Poznámka:**_ _Pomocí nastavení v dolní části okna_ _**Vlastnosti scény** můžete upravit_ _**dobu pozastavení**,_ _**dobu přechodu**_ _a_ _**rychlost kamery**. Zkuste přidat další scény a pohrát si s těmito nastaveními, abyste si animaci přizpůsobili._
 
-## **Customize the Visual Styles**
+## **Přizpůsobení vizuálních stylů**
 
-_Now we are going to create another scene with some customized **Visual Styles** settings._
+_Nyní vytvoříme další scénu s několika přizpůsobenými nastaveními **vizuálních stylů**._
 
-1 - First, open the **Visual Styles Palette**. Note there are four (4) tabs at the top, each containing different visual settings: **Surfaces**, **Edges**, **Environment**, and **Model Diagnostics**. To learn more about each tab visit the **Visual Styles** chapter in the **Tool Library** section.
+1 – Nejprve otevřete **paletu Vizuální styly**. V horní části jsou čtyři \(4\) karty, z nichž každá obsahuje různá vizuální nastavení: **Povrchy**, **Hrany**, **Prostředí** a **Diagnostika modelu**. Další informace o jednotlivých kartách naleznete v kapitole **Vizuální styly** v části **Knihovna nástrojů**.
 
-2 – To customize some settings in the **Surface Tab**:
+2 – Přizpůsobte si některá nastavení na kartě **Povrchy**:
 
-1. Turn on **Shadows (DS)**.
-2. Turn on **Ambient Shadows (DA)**.
-3. Turn on **Monotone Surfaces (DM)**. This makes an abstract black and white image without any materials.
+1. Zapněte možnost **Stíny \(DS\)**.
+2. Zapněte možnost **Okolní stíny \(DA\)**.
+3. Zapněte možnost **Monotonní povrchy \(DM\)**. Tím se vytvoří abstraktní černobílý obraz bez jakýchkoli materiálů.
 
-![](<../../.gitbook/assets/2 (20) (1).png>)
+![](../../.gitbook/assets/2%20%2820%29.png)
 
-3 – To customize some settings in the **Edge Tab**:
+3 – Přizpůsobte si některá nastavení na kartě **Hrany**:
 
-*
-  1. Adjust the sliders to lighten the **Edges** contrast to around **30%**.
-  2. Turn on the **Extend Edges (DX).**
-  3. Adjust the sliders to lighten the **Silhouettes** contrast to **30%**.
+* 
+   1. Zesvětlete **hrany** tím, že pomocí posuvníku nastavíte kontrast přibližně na hodnotu **30%**.
+   2. Zapněte možnost **Prodloužit hrany \(DX\).**
+   3. Zesvětlete **siluety** tím, že pomocí posuvníku nastavíte kontrast přibližně na hodnotu **30%**.
 
-![](<../../.gitbook/assets/3 (11) (1).png>)
+![](../../.gitbook/assets/3%20%2811%29.png)
 
-4 - To customize some settings in the **Environment Tab**:
+4 – Přizpůsobte si některá nastavení na kartě **Prostředí**:
 
-1. Turn off **Axes**.
-2. Turn off **Levels**, if on.
+1. Vypněte možnost **Osy**.
+2. Pokud je zapnuta, vypněte možnost **Podlaží**.
 
-![](<../../.gitbook/assets/4 (8) (2).png>)
+![](../../.gitbook/assets/4%20%288%29.png)
 
-5 - Create a new scene called **Customized Scene** to save these settings. Now you can switch back and forth between the **Scenes** to reset the graphic settings.
+5 – Vytvořte novou scénu s názvem **Přizpůsobená scéna** a uložte tato nastavení. Nyní můžete přepínat mezi **scénami** tam a zpět a obnovit tak nastavení grafiky.
 
-![](<../../.gitbook/assets/5 (6) (1).png>)
+![](../../.gitbook/assets/5%20%286%29.png)
 
-_**Note**: If you uncheck the_ _**Camera**_ _property of the new scene, you can use it to only toggle on the visual settings we just created without move the camera position. Give it a try by going to one of your previous Aerial scenes, and then double-clicking on the_ _**Customized Scene**_ _and watching what happens!_
+_**Poznámka:** Pokud u nové scény zrušíte zaškrtnutí vlastnosti_ _**Kamera**_ _, můžete pomocí ní pouze přepnout na vizuální nastavení, které jsme právě vytvořili, bez přesunutí polohy kamery. Vyzkoušejte to tak, že přejdete do jedné z předchozích leteckých scén a dvakrát kliknete na_ _**přizpůsobenou scénu**_ _. Sledujte, co se stane!_
 
-_**Note:**_ _To Learn about_ _**Visual Styles Diagnostics**_ _and advanced applications for_ _**Scenes**, check out the_ _**Primer Part II**._
+_**Poznámka:**_ _Informace o_ _**diagnostice vizuálních stylů**_ _a pokročilých možnostech použití_ _**scén** získáte v_ _**části II této příručky**._
+

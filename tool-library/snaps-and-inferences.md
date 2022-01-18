@@ -1,61 +1,61 @@
-# Snaps and Inferences
+# Uchopení a odvození
 
-To make sketching and modeling easier, use snaps and inference points to accurately create, place, and edit geometry. You can use whatever axis you choose as the axis on which to draw or execute another action, such as extruding a surface.
+Chcete-li si usnadnit kreslení a modelování, používejte k přesnému vytvoření, umístění a úpravě geometrie body uchopení a odvození. Jakoukoli zvolenou osu můžete použít jako osu pro kreslení nebo provedení jiné akce, například vysunutí povrchu.
 
-**Note:** _See_ [_Keyboard Shortcuts_](../appendix/keyboard-shortcuts.md) _for information about how to speed up your use of the software's tools._
+**Poznámka:** _Informace o tom, jak urychlit používání nástrojů softwaru, najdete v části_ [_Klávesové zkratky_](../appendix/keyboard-shortcuts.md)_._
 
-## Snapping
+## Uchopení
 
-There are several snaps that can aid you while you are sketching and modeling. Snapping to objects is automatically enabled, and you can snap to:
+Při vytváření náčrtů a modelování vám může pomoci několik uchopení. Přichytání k objektům je automaticky povoleno a přichytit se můžete k následujícím prvkům:
 
-|                                                                                                                                                                            |                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| Vertices                                                                                                                                                                   | ![](<../.gitbook/assets/inf3 (3).png>) |
-| Edges. When hovering over the edge, small red dots will be drawn at the ends and at the mid point.                                                                         | ![](../.gitbook/assets/inf4.png)       |
-| Edge mid points                                                                                                                                                            | ![](../.gitbook/assets/inf5.png)       |
-| The plane of a face. When hovering over the face a small red dot will be drawn at the face centroid. This will make it easy to find that point, if you want to snap to it. | ![](../.gitbook/assets/inf6.png)       |
-| Face centroids                                                                                                                                                             | ![](../.gitbook/assets/inf7.png)       |
-| The work plane, if you don't snap to anything else.                                                                                                                        | ![](../.gitbook/assets/inf8.png)       |
-| Circle or arc centers                                                                                                                                                      | ![](../.gitbook/assets/inf9.png)       |
-| Mesh vertices                                                                                                                                                              | ![](../.gitbook/assets/inf2.png)       |
-| The plane of a mesh facet.                                                                                                                                                 | ![](../.gitbook/assets/inf1.png)       |
+|                                                                                                                                                                            |                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Vrcholy | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Hrany. Při umístění kurzoru nad hranu se na koncích a ve středovém bodu zabrazí malé červené tečky. | ![](../.gitbook/assets/inf4.png) |
+| Středové body hrany | ![](../.gitbook/assets/inf5.png) |
+| Rovina plochy. Při umístění kurzoru nad plochu se v těžišti plochy zobrazí malý červený bod. To vám usnadní nalezení bodu, pokud k němu chcete provést přichycení. | ![](../.gitbook/assets/inf6.png) |
+| Těžiště ploch | ![](../.gitbook/assets/inf7.png) |
+| Pracovní rovina, pokud neprovedete přichycení k jinému prvku. | ![](../.gitbook/assets/inf8.png) |
+| Středy kružnic nebo oblouků | ![](../.gitbook/assets/inf9.png) |
+| Vrcholy sítě | ![](../.gitbook/assets/inf2.png) |
+| Rovina plošky sítě. | ![](../.gitbook/assets/inf1.png) |
 
-To snap to the grid, you must enable the **Snap to Grid (SG)** toggle from the Settings menu.
+Chcete-li provést přichycení k osnově, je nutné v nabídce Nastavení povolit možnost **Přichytit k osnově (SG)**.
 
-## Inference Axes and Points
+## Osy a body odvození
 
-Automatic selection of inference points is always enabled and will help you constrain the movement of geometry. Inference axes are generated by tools automatically or when you hover the mouse over edges or points. Inference axes are always drawn on the screen with dashes so that you know where they are and are easy to snap to.
+Automatický výběr bodů odvození je vždy povolen a pomůže vám omezit pohyb geometrie. Osy odvození se generují automaticky pomocí nástrojů nebo při umístění ukazatele myši nad hrany nebo body. Osy odvození jsou na obrazovce vždy nakresleny čárkovaně, abyste věděli, kde jsou, a mohli k nim snadno provést přichycení.
 
-**Axis:** You can move geometry along the X, Y, or Z axis. The X-axis inference is red, the Y-axis is green, and the Z-axis is blue.
+**Osa:** Geometrii lze posunovat podél osy X, Y nebo Z. Osa X je červená, osa Y je zelená a osa Z je modrá.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Axis Locking:** You can lock movement along the X, Y, or Z axis. Hold down the Shift key while on an axis inference, then move your mouse to snap and inference to other elements.
+**Uzamknutí osy:** Pohyb můžete uzamknout podél osy X, Y nebo Z. Když jste na ose odvození, podržte klávesu Shift a poté pohybem myši proveďte přichycení a odvození k jiným prvkům.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Parallel:** You can sketch or move geometry parallel to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a parallel reference.
+**Rovnoběžné:** Geometrii můžete nakreslit nebo přesunout rovnoběžně s existujícími prvky. Kolmá odvození jsou fialová. Je třeba umístit kurzor na čáru, kterou chcete použít jako rovnoběžnou referenci.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Perpendicular:** You can also draw or move geometry perpendicular to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a perpendicular reference.
+**Kolmé:** Můžete také nakreslit nebo přesunout geometrii kolmo k existujícím prvkům. Kolmá odvození jsou fialová. Je třeba umístit kurzor na čáru, kterou chcete použít jako kolmou referenci.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Extending from a point:** You can also use inferences to extend from a point reference. Hover the mouse over a point you want to use as a reference until the tooltip appears, then use the inference axis that extends from the point.
+**Prodloužení z bodu:** Pomocí odvození můžete také provést prodloužení z referenčního bodu. Přesuňte ukazatel myši nad bod, který chcete použít jako referenci, dokud se nezobrazí popisek nástroje, a poté použijte osu odvození, která vede z tohoto bodu.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Circle Center**: If you want to snap to the center of an arc or circle, hover over the arc or circle. This will show a small red dot at the center. It will stay visible for about 5 seconds after you move away from the arc or circle. Now move the cursor over the red dot to snap to the center.
+**Střed kružnice:** Chcete-li provést přichycení ke středu oblouku nebo kružnice, přesuňte ukazatel myši nad oblouk nebo kružnici. Uprostřed se zobrazí malá červená tečka, která zůstane viditelná po dobu asi 5 sekund poté, co kurzor z oblouku nebo kružnice přesunete pryč. Nyní přesuňte kurzor nad tuto červenou tečku a proveďte přichycení ke středu.
 
 ![](../.gitbook/assets/inf17.png)
 
-**True arc and spline midpoints**: When you hover over a circle, arc or spline you will be able to snap to the true midpoint. It and the end points will be shown by a small red dot. When inferencing on an arc you will also snap to the vertices of the straight edges that represent the arc.
+**Skutečné středové body oblouků a spline:** Při umístění kurzoru nad kružnici, oblouk nebo spline se budete moci přichytit ke skutečnému středovému bodu. Tento bod a koncové body budou zobrazeny malou červenou tečkou. Při odvozování na oblouk se také přichytíte k vrcholům přímých hran, které představují oblouk.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Clearing inferences**: It is possible that drawing will generate a larger number of inferences, which may be in the way of placing points that are not supposed to snap to those inferences. If you press he **Shift + Spacebar** keys, all inferences will be cleared, except for those at the last placed point.
+**Odstranění odvození:** Je možné, že kreslení vygeneruje větší počet odvození, což může vadit v umístění bodů, které se nemají k těmto odvozením přichytit. Pokud stisknete klávesy **Shift+mezerník**, budou všechna odvození smazána, kromě těch, které se nacházejí v posledním umístěném bodě.
 
-![Before clearing inferences](../.gitbook/assets/inf19.png)
+![Před vymazáním odvození](../.gitbook/assets/inf19.png)
 
-![After clearing inferences](../.gitbook/assets/inf20.png)
+![Po vymazání odvození](../.gitbook/assets/inf20.png)

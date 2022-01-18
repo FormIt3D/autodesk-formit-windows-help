@@ -1,29 +1,32 @@
-# Boolean Join
+# Booleovské spojení
 
-You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
+Pomocí nástroje Spojit můžete spojit jeden objekt nebo skupinu s jiným objektem či skupinou. Nástroj Spojit lze spustit dvěma způsoby:
 
-## Run the Join command first
+## Jako první je spuštěn příkaz Spojit
 
-Keyboard: J G
+Klávesnice: J G
 
-![](../.gitbook/assets/boolean\_join.png)
+![](../.gitbook/assets/boolean_join.png)
 
-Run the Join command and follow the mode instruction in the upper left of the screen
+Spusťte příkaz Spojit a postupujte podle pokynů v levé horní části obrazovky.
 
-Single-click to select an object to join into.
+Kliknutím vyberte objekt, k němuž chcete spojení provést.
 
-![](<../.gitbook/assets/cut\_mode01 (1).png>)
+![](../.gitbook/assets/cut_mode01.png)
 
-Single-click to select an object or group to be joined.
+Kliknutím vyberte objekt nebo skupinu, která má být spojena.
 
-![](<../.gitbook/assets/cut\_mode02 (1).png>)
+![](../.gitbook/assets/cut_mode02.png)
 
-Click the checkmark to finish the command.
+Kliknutím na značku zaškrtnutí dokončete příkaz. 
 
-## Select objects first
+## Jako první jsou vybrány objekty
 
-1. Double-click to select the object to be joined (single click for a group).
-2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
-3. Right click on any of the objects and choose the Join Tool in the Context Menu.
+1. Dvojitým kliknutím vyberte objekt, který chcete spojit \(kliknutím vyberete skupinu\).
+2. Podržte klávesu **Ctrl** a dvakrát klikněte na překrývající se objekt, který chcete spojit s prvním objektem.
+3. Klikněte pravým tlačítkem myši na kterýkoli z objektů a v místní nabídce vyberte nástroj Spojit.
 
-![](<../.gitbook/assets/join tool.png>)
+![](../.gitbook/assets/join-tool.png)
+
+
+

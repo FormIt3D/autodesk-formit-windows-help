@@ -1,80 +1,81 @@
-# Railing Along Path
+# Skript Railing Along Path
 
-## Powered By Dynamo
+## Používá technologii aplikace Dynamo
 
-In FormIt 2021 and newer, you can generate a railing along a path, and quickly customize the results in-place. Railing Along Path is powered by Dynamo, which means the resulting railing is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+V aplikaci FormIt 2021 a novějších verzích můžete vygenerovat zábradlí podél trajektorie a rychle přizpůsobovat výsledky na místě. Skript Railing Along Path používá technologii aplikace Dynamo, což znamená, že výsledné zábradlí lze snadno konfigurovat tak, abyste dosáhli požadovaných výsledků, a novým spuštěním logiky dojde k aktualizaci geometrie na místě.
 
-![](<../.gitbook/assets/railing-along-path (1).gif>)
+![](../.gitbook/assets/railing-along-path.gif)
 
-## Starting Railing Along Path
+## Spuštění skriptu Railing Along Path
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory
-* Click the Railing Along Path sample
-* On the left side of the screen, you'll see a prompt to "Select path for railing"
-  * You should select only a series of contiguous edges, or a Group containing only a series of edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter/Return.
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated railing in a FormIt Group, ready for modifying (see below).
+* V aplikaci FormIt pro systém Windows přejděte na panel aplikace Dynamo a ujistěte se, že se nacházíte v adresáři Dynamo Samples.
+* Klikněte na ukázku Railing Along Path.
+* Na levé straně obrazovky se zobrazí výzva k výběru trajektorie pro zábradlí.
+   * Měli byste vybrat pouze řadu přilehlých hran nebo skupinu obsahující pouze řadu přilehlých hran.
+   * Po výběru trajektorie klikněte na tlačítko „Dokončit“ nebo stiskněte klávesu Enter/Return.
+* Na panelu Dynamo se zobrazí zpráva o zpracování změn. Po dokončení této operace budete mít ve skupině aplikace FormIt zábradlí vytvořené aplikací Dynamo, které bude připraveno k úpravám \(viz níže\).
 
-## Iterating In Place
+## Iterace na místě
 
-After running Railing Along Path, you'll notice its results are set to default values. Maybe these work for you, but you can heavily customize the railing to suit your needs.
+Po spuštění skriptu Railing Along Path uvidíte, že jeho výsledky jsou nastaveny na výchozí hodnoty. Možná vám vyhovují, ale zábradlí si můžete výrazně přizpůsobit svým potřebám.
 
-When Railing Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Railing Along Path instance.
+Při spuštění skriptu Railing Along Path se vytvoří nová skupina obsahující výsledky a aplikace FormIt automaticky vybere skupinu a zobrazí dostupné možnosti pro danou instanci skriptu Railing Along Path.
 
-You can always return to the Railing Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+K vlastnostem skriptu Railing Along Path se můžete kdykoli vrátit výběrem skupiny a přepnutím na panel vlastností nebo úpravou skupiny, která automaticky zobrazí vlastnosti.
 
-![](<../.gitbook/assets/railing-along-path-options (1).png>)
+![](../.gitbook/assets/railing-along-path-options.png)
 
 ### Railing Height
 
-The overall height of the railing. Uses the current FormIt units.
+Celková výška zábradlí. Použijí se aktuální jednotky aplikace FormIt.
 
 ### Post Spacing
 
-The spacing between main vertical posts. Uses the current FormIt units.
+Rozteč mezi hlavními vertikálními sloupky. Použijí se aktuální jednotky aplikace FormIt.
 
 ### Add Posts at Path Vertices
 
-When **true**, posts will be added at each vertex of the selected path, and the calculation for the next post positioning resets at that point.
+Pokud je nastavena hodnota **True**, budou sloupky přidány v každé vrcholu vybrané trajektorie a výpočet pro umístění dalšího sloupku se v tomto bodě obnoví.
 
-For example, if you selected a series of 3 edges, a post will appear at each of the two inner points. This is useful if the vertices indicate a change of direction (like going up stairs or turning corners) where a post would naturally occur.
+Jestliže jste například vybrali řadu 3 hran, bude se sloupek zobrazovat v každém ze dvou vnitřních bodů. To je užitečné, pokud vrcholy označují změnu směru \(například chůze do schodů nebo zatáčka\), kde by se přirozeně vyskytoval sloupek.
 
-When **false**, posts will only be added along the path starting from one end, and measuring the distance along the path, ignoring vertices along the way. This is useful if you've selected an arc, spline, or circle, where the vertices are not important, and you want the post spacing to ignore them.
+Pokud je nastavena hodnota **False**, sloupky se přidají pouze podél trajektorie počínaje od jednoho konce a budou měřit vzdálenost podél trajektorie, přičemž budou ignorovat vrcholy podél trajektorie. To je užitečné, pokud jste vybrali oblouk, spline nebo kružnici, kde vrcholy nejsou důležité a chcete, aby je rozteč sloupků ignorovala.
 
 ### Reverse Path Direction
 
-When calculating the positioning of the posts, the direction of the chosen path will determine which end of the path will start the post spacing measurement.
+Při výpočtu umístění sloupků bude směr vybrané trajektorie určovat, na kterém konci trajektorie začne měření rozteče sloupků.
 
-In cases where the post spacing results in leftover space on an undesirable end of the path, you can change this value to **true** to flip the curve, and start the post spacing measurement at the opposite end.
+V případech, kdy rozteč sloupků vytváří zbývající prostor na nežádoucím konci trajektorie, můžete tuto hodnotu změnit na hodnotu **True**, čímž se křivka převrátí a měření rozteče sloupků začne na opačném konci.
 
 ### Post Width + Depth
 
-The size (in plan) of the rectangular vertical post profiles. Uses the current FormIt units.
+Velikost \(v půdorysu\) obdélníkových svislých profilů sloupků. Použijí se aktuální jednotky aplikace FormIt.
 
 ### Handrail Width + Height
 
-The size (in section) of the rectangular handrail profile. Uses the current FormIt units.
+Velikost \(v řezu\) obdélníkového profilu madla zábradlí. Použijí se aktuální jednotky aplikace FormIt.
 
 ### Baluster Orientation
 
-When true, balusters will be oriented horizontally, like cables. When false, the balusters will be oriented vertically, for a more traditional aesthetic.
+Pokud je hodnota True, příčle budou orientovány horizontálně, podobně jako kabely. Pokud je hodnota False, příčle budou orientovány vertikálně, aby bylo dosaženo tradičnějšího estetického dojmu.
 
-### Baluster width + Depth
+### Baluster Width + Depth
 
-The size of the baluster's rectangular profile. Uses the current FormIt units.
+Velikost obdélníkového profilu příčle. Použijí se aktuální jednotky aplikace FormIt.
 
 ### Baluster Spacing
 
-The amount of space between each baluster. Uses the current FormIt units.
+Velikost mezery mezi jednotlivými příčlemi. Použijí se aktuální jednotky aplikace FormIt.
 
 ### Bottom Rail Start Height
 
-The distance between the bottom of the railing, and the bottom rail that supports the balusters. Uses the current FormIt units.
+Vzdálenost mezi dolní částí zábradlí a dolní lištou, která podpírá příčle. Použijí se aktuální jednotky aplikace FormIt.
 
 ### Run
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+Po úpravě možností kliknutím na tlačítko Run spusťte základní graf aplikace Dynamo a vygenerujte nové výsledky. Toto tlačítko se po změně parametrů zbarví modře, abyste věděli, že je třeba na tlačítko kliknout, aby se aktualizace zobrazily ve výsledné geometrii.‌
 
 ### Edit Embedded Graph
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+Kliknutím na toto tlačítko spustíte prostředí editoru grafu aplikace Dynamo, ve kterém můžete prohlížet a upravovat základní graf Dynamo a rychle měnit parametry a zobrazovat živé aktualizace nebo kontrolovat či upravovat logiku.
+

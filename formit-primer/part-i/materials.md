@@ -1,137 +1,138 @@
-# 1.7 - Paint with Materials
+# 1.7 – Malování s materiály
 
-As we saw in an **earlier exercise**, you can create your own materials, and then paint faces with those materials in FormIt. In this exercise, you will create and edit more materials as well as import materials from the Autodesk Material Library.
+Jak jsme viděli v **dřívějším cvičení**, můžete si vytvořit vlastní materiály a poté s jejich pomocí pomalovat plochy v aplikaci FormIt. V tomto cvičení vytvoříte a upravíte další materiály a také importujete materiály z knihovny materiálů Autodesk.
 
-_If you did not complete the last section, download and open the_ _**1.7 - Paint with Materials.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.7 – Paint with Materials.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **Create the Glass Walls**
+## **Vytvoření skleněných stěn**
 
-1 - To view the plan containing the dimensions we are going to reference, go to the **Layer Palette** and turn on the **Plan Image** layer.
+1 – Zobrazte půdorys obsahující kóty, na které budeme odkazovat: přejděte na **paletu Hladina** a zapněte hladinu **Obrázek půdorysu**.
 
-2 - Select the **Rectangle Tool (R)**. We are going to create a rectangle directly on top of the existing floor group. Make sure you are not editing the Floor Group but drawing on top of the existing grouped object.
+2 – Vyberte **nástroj Obdélník \(R\)**. Obdélník vytvoříme přímo nad existující skupinou podlaží. Ujistěte se, že neupravujete skupinu podlaží, ale kreslíte nad existující seskupený objekt.
 
-![](<../../.gitbook/assets/0 (3).png>)
+![](../../.gitbook/assets/0%20%283%29.png)
 
-3 - To start the rectangle for the glass area:
+3 – Vytvořte obdélník pro skleněnou plochu:
 
-1. Click at the back corner of the existing floor and move the mouse along its shorter edge.
-2. Type **28’-8”** to define the first edge length, and click **OK**. This should be the same length as the existing short edge of the floor.
-3. To define the second edge, start moving the mouse along the existing floor’s longer edge. Type **55'-5 ½"** to set the length of the second edge, then click **OK**.
-4. Click **Esc** to exit the rectangle tool. Single-click inside the new rectangle to select the face and start dragging it up.
+1. Klikněte na zadní roh existujícího podlaží a přesuňte myš podél jeho kratší hrany.
+2. Zadáním hodnoty **28’-8"** definujte délku první hrany a klikněte na tlačítko **OK**. Tato hrana by měla být stejně dlouhá jako existující krátká hrana podlaží.
+3. Definujte druhou hranu tak, že začnete pohybovat myší podél delší hrany existujícího podlaží. Zadáním hodnoty **55'-5 ½"** nastavte délku druhé hrany a klikněte na tlačítko **OK**.
+4. Stisknutím klávesy **Esc** ukončete nástroj Obdélník. Jedním kliknutím uvnitř nového obdélníku vyberte plochu a začněte ji táhnout nahoru.
 
-![](<../../.gitbook/assets/1 (3) (1).png>)
+![](../../.gitbook/assets/1%20%283%29.png)
 
-4 - To define the height, move the mouse upwards along the **Z Axis**, press the **Tab** key, and enter **11'-2"**.
+4 – Definujte výšku: posuňte ukazatel myši nahoru podél **osy Z**, stiskněte klávesu **Tab** a zadejte hodnotu **11'-2"**.
 
-![](<../../.gitbook/assets/2 (4) (1).png>)
+![](../../.gitbook/assets/2%20%284%29.png)
 
-_**Note:**_ _Anytime you are using a tool for which you can enter a dimension, you can either press_ _**Tab**_ _or just start typing numbers!_
+_**Poznámka:**_ _Kdykoli používáte nástroj, u kterého můžete zadat kótu, můžete buď stisknout klávesu_ _**Tab**_ _, nebo jednoduše začít psát čísla._
 
-5 - Double-click and **Group (G)** the new geometry.
+5 – Dvakrát klikněte na novou geometrii a vyberte možnost **Skupina \(G\)**.
 
-6 - Double-click the group to edit it. In the **Properties Palette** name the group **Glass Walls.**
+6 – Dvakrát klikněte na skupinu, kterou chcete upravit. Na **paletě Vlastnosti** pojmenujte skupinu **Skleněné stěny**
 
-![](<../../.gitbook/assets/3 (3).png>)
+![](../../.gitbook/assets/3%20%283%29.png)
 
-7 - To define the glass wall’s thickness:
+7 – Definujte tloušťku skleněné stěny:
 
-1. Right-click on the top face and choose the **Offset Face Tool (OF).**
-2. Move your mouse cursor inward, and type in **4".**
-3. Click **Esc** twice to clear the tool, and the selection.
+1. Klikněte pravým tlačítkem na horní plochu a vyberte nástroj **Odsadit plochu \(OF\)**
+2. Přesuňte kurzor myši dovnitř a zadejte hodnotu **4"**
+3. Dvojitým stisknutím klávesy **Esc** ukončete nástroj a zrušte výběr.
 
-![](<../../.gitbook/assets/4 (17).png>)
+![](../../.gitbook/assets/4%20%2817%29.png)
 
-​_**Note:**_ _The default unit for imperial projects are feet, similar to Revit. If you enter a single number without a specified unit, like_ _**4**, you will get_ _**4 feet (4’)**_ _and not_ _**4 inches (4”)**._
+​_**Poznámka:**_ _Výchozí jednotkou pro projekty s britskými měrnými jednotkami jsou stopy, podobně jako v aplikaci Revit. Pokud zadáte samotné číslo bez jednotky, například_ _**4**, budou použity_ _**4 stopy \(4’\)**__, nikoli_ _**4 palce \(4"\)**._
 
-8 - To carve out the interior area, single-click the interior top face to select it, then click again to start the **drag face** operation. Push the face all the way down, until it disappears, and click in the space to finish the process.
+8 – Vyřízněte vnitřní oblast tak, že jednou kliknete na vnitřní horní plochu, abyste ji vybrali, a dalším kliknutím zahajte **přetažení plochy**. Zatlačte plochu zcela dolů, dokud nezmizí, a kliknutím do prostoru dokončete akci.
 
-![](<../../.gitbook/assets/5 (12).png>)
+![](../../.gitbook/assets/5%20%2812%29.png)
 
-_**Note:**_ _In FormIt, unlike other software, you cannot accidentally push the face you are trying to delete ‘too far’ such that a new negative extrusion is formed._
+_**Poznámka:**_ _Na rozdíl od jiného softwaru nemůžete v aplikaci FormIt nechtěně zatlačit plochu, kterou se pokoušíte odstranit, tak daleko, až by se vytvořilo nové záporné vysunutí._
 
-9 - End **Edit Group** mode by double-clicking off in space or pressing **Esc.**
+9 – Dvojitým kliknutím na volné místo nebo stisknutím klávesy **Esc** ukončete režim **Upravit skupinu**
 
-10 - Select the **Glass Walls** group with a single-click and put it on the **Main Building Floor** layer.
+10 – Kliknutím vyberte skupinu **Skleněné stěny** a umístěte ji na hladinu **Podlaží hlavní budovy**.
 
-![](<../../.gitbook/assets/6 (13) (1).png>)
+![](../../.gitbook/assets/6%20%2813%29.png)
 
-## **Import a Material from the Autodesk Material Library**
+## **Import materiálu z knihovny materiálů Autodesk**
 
-1 - Edit the **Glass Walls** group again by double-clicking into it.
+1 –·Znovu dvakrát klikněte na skupinu **Skleněné stěny**, abyste ji mohli upravit.
 
-2 - To import a new material to the model:
+2 – Importujte do modelu nový materiál:
 
-1. Go to the **Materials Palette**.
-2. Choose **Material Sample** in the drop-down menu at the top of the palette to navigate through the **Autodesk Material Library.** ​
-3. Click on the **Glass+Glazing** folder to open it.
-4. Find the **Glass – Blue Tint** material and single-click on it to add that material to your **In Sketch** material library.
-5. Note that you should be back in the **In Sketch** library, which now includes the newly selected material.
+1. Přejděte na **paletu Materiály**.
+2. Výběrem položky **Ukázky materiálu** v rozevírací nabídce v horní části palety přejděte do **knihovny materiálů Autodesk**.
+3. Klikněte na složku **Sklo+Zasklení**, abyste ji otevřeli.
+4. Vyhledejte materiál **Sklo – modrý odstín** a jednou na něj klikněte, abyste jej přidali do knihovny materiálů **V náčrtu**.
+5. Všimněte si, že byste měli být zpět v knihovně **V náčrtu**, která nyní obsahuje nově vybraný materiál.
 
-![](<../../.gitbook/assets/7 (8) (1).png>)
+![](../../.gitbook/assets/7%20%288%29.png)
 
-![](<../../.gitbook/assets/8 (8).png>)
+![](../../.gitbook/assets/8%20%288%29.png)
 
-3 - After adding the material, you should automatically be in the **Paintbrush** tool. If not, simply single-click on the **Glass – Blue Tint** material again. To paint all the walls, double-click the geometry with the **Painbrush** tool. This will apply the selected material to the entire object. ![](<../../.gitbook/assets/9 (1).png>)​
+3 – Po přidání materiálu by se měl automaticky aktivovat nástroj **Štětec**. Pokud tomu tak není, stačí znovu kliknout na materiál **Sklo – modrý odstín**. Chcete-li pomalovat všechny stěny, dvakrát klikněte na geometrii nástrojem **Štětec**. Tím se vybraný materiál použije na celý objekt. ![](../../.gitbook/assets/9%20%281%29.png)​
 
-4 - Click **Esc** to exit the **Paintbrush** tool. Click **Esc** again, or double-click off in space to exit the group.
+4 – Stisknutím klávesy **Esc** ukončete nástroj **Štětec**. Dalším stisknutím klávesy **Esc** nebo dvojitým kliknutím na volné místo ukončete skupinu.
 
-## **Quick Copy the Floor to Create the Roof**
+## **Rychlé zkopírování podlaží za účelem vytvoření střechy**
 
-1 - To quickly create the roof based on the floor geometry:
+1 – Chcete-li rychle vytvořit střechu na základě geometrie podlaží, postupujte takto:
 
-1. Select the **Floor** group with a single-click.
-2. Click one of the lower corners to start the **Move** tool.
-3. Start moving the floor up along the blue axis (**Z Axis**). Create a **quick copy** by tapping the **Ctrl** key. A "ghost" preview of the copy should appear. ​
-4. While moving along the blue axis (**Z Axis**), start typing **12' 2"** and a **Dimension Dialog** will appear. Click **OK** or press **Enter** to finalize the position.
+1. Jedním kliknutím vyberte skupinu **Podlaží**.
+2. Kliknutím na jeden z dolních rohů spusťte nástroj **Přesunout**.
+3. Začněte přesouvat podlaží nahoru podél modré osy \(**osa Z**\). Stisknutím klávesy **Ctrl** vytvořte **rychlou kopii**. Měl by se zobrazit obrys kopie. ​
+4. Při pohybu podél modré osy \(**osa Z**\) začněte psát hodnotu **12' 2"**. Zobrazí se dialog **Kóta**. Kliknutím na tlačítko **OK** nebo stisknutím klávesy **Enter** dokončete umístění.
 
-![](<../../.gitbook/assets/10 (1).png>)
+![](../../.gitbook/assets/10%20%281%29.png)
 
-![](<../../.gitbook/assets/11 (1).png>)
+![](../../.gitbook/assets/11%20%281%29.png)
 
-## **Edit the Roof**
+## **Úprava střechy**
 
-1 - While the copied group is still selected, use the **Make Unique (MU)** command to disassociate this group from the floor group.
+1 – Se stále vybranou zkopírovanou skupinou použijte příkaz **Vytvořit jedinečné \(MU\)**, čímž zrušíte přidružení této skupiny ke skupině podlaží.
 
-2 - Double-click the group to edit it. Re-name the group to **Roof** in the **Properties Palette**. Exit the group by double-clicking off in space.
+2 – Dvakrát klikněte na skupinu, abyste ji mohli upravit. Na **paletě Vlastnosti** přejmenujte skupinu na **Střecha**. Skupinu ukončete dvojitým kliknutím na volné místo.
 
-3 - In the **Layers Palette**, make a new **Layer** called **Roof** and add the **Roof** group to it. You can toggle the layer on and off to verify the correct elements are on the roof. Refer to **Chapter 6** for more information on how to work with **Layers**.
+3 – Na **paletě Hladiny** vytvořte novou **hladinu** s názvem **Střecha** a přidejte do ní skupinu **Střecha**. Zapnutím a vypnutím hladiny můžete ověřit, zda jsou na střeše správné prvky. Další informace o práci s **hladinami** naleznete v **kapitole 6**.
 
-4 - Navigate back to the **Materials Palette** and import the **Concrete - Broom Finish - Colorized 1** material from the **Concrete+Asphalt** folder in the **Material Samples** **(Production)** library. Note that by clicking on the material, the selected geometry will be automatically painted, and the new material will be added to the **In Sketch** material library.
+4 – Přejděte zpět na **paletu Materiály** a importujte materiál **Beton – povrchová úprava metlou – zbarvený 1** ze složky **Beton+asfalt** v knihovně **Ukázky materiálů** **\(produkce\)**. Všimněte si, že po kliknutí na materiál bude vybraná geometrie automaticky pomalována a nový materiál bude přidán do knihovny materiálů **V náčrtu**.
 
 ![](../../.gitbook/assets/12.jpeg)
 
-_**Note:**_ _Painting a group outside of_ _**Group Edit Mode**_ _is a helpful technique that allows you to paint different instances of the same group with different materials._
+_**Poznámka:**_ _Malování skupiny mimo režim_ _**úprav skupiny**_ _je užitečná technika, která umožňuje malovat různé instance stejné skupiny různými materiály._
 
-## **Create the Lower Terrace**
+## **Vytvoření dolní terasy**
 
-1 - Based on the **Plan Image**, create the lower terrace as a **Rectangle (R)** that is **55' 3"** long and **22'-7 3/4"** wide, and extrude it by 1’. Position the new rectangle so that it is 8 5/8” away from the main building South edge (the depth of the columns we will create later).
+1 – V hladině **Obrázek půdorysu** vytvořte dolní terasu jako **obdélník \(R\)** dlouhý **55' 3"** a široký **22'-7 3/4"** a vysuňte jej o 1’. Umístěte nový obdélník tak, aby byl 8 5/8" daleko od hlavní budovy na jižní straně \(hloubka sloupů, které vytvoříme později\).
 
-_**Notes**:_
+_**Poznámky**:_
 
-* _Refer to previous chapters to learn how to draw and extrude rectangles._
-* _You may need to toggle_ _**Snap to Grid (SG)**_ _on or off to click at_ the terrace's corner.
+* _Informace o kreslení a vysunutí obdélníků naleznete v předchozích kapitolách._
+* _Chcete-li kliknout na roh terasy, bude možná nutné zapnout nebo vypnout možnost_ _**Přichytit k osnově**___.
 
-2 - To finalize the lower terrace:
+2 – Dokončení dolní terasy:
 
-1. **Group (G)** the geometry and name it **Lower Terrace Floor**.
-2. **Move** the group up **2'-2"** off the ground plane.
-3. Create a new **Layer** called **Lower Terrace** and add the group to it.
-4. Add the **Terrace Level Floor** to the group.
+1. **Seskupte \(G\)** geometrii a pojmenujte ji **Podlaží dolní terasy**.
+2. **Posuňte** vytvořenou skupinu **2'-2"** nad základní rovinu.
+3. Vytvořte novou **hladinu** s názvem **Dolní terasa** a přidejte do ní skupinu.
+4. Přidejte do této skupiny **podlaží terasy**.
 
-![](<../../.gitbook/assets/13 (1).png>)
+![](../../.gitbook/assets/13%20%281%29.png)
 
-_**Note:**_ _This image doesn’t represent the step-by-step process to create and assign the geometry to groups, levels, and layers. For more information on these processes, refer to previous chapters in this Primer._
+_**Poznámka:**_ _Tento obrázek nepředstavuje podrobný postup vytváření a přiřazování geometrie ke skupinám, podlažím a hladinám. Další informace o těchto postupech naleznete v předchozích kapitolách této příručky._
 
-3 - Import the material **Stone > Stone - Travertine**.
+3 – Importujte materiál **Kámen &gt; Kámen – travertin**.
 
-4 - In the **Materials Palette**, find the imported **Travertine** material and modify it:
+4 – Na **paletě Materiály** vyhledejte importovaný materiál **Travertin** a upravte jej:
 
-1. Double-click the preview tile to open the **Material Editor** pop-up.
-2. Click the **Color** preview tile to open the **Color Editor** pop-up.
-3. Change the **Val** field to **190** to darken the tint of the material.
+1. Dvojitým kliknutím na dlaždici náhledu otevřete okno **Editor materiálů**.
+2. Kliknutím na náhled **barvy** zobrazte okno **Editor barev**.
+3. Do pole **Hodnota** zadejte **190**, aby se ztmavil odstín materiálu.
 
-![](<../../.gitbook/assets/14 (2).png>)
+![](../../.gitbook/assets/14%20%282%29.png)
 
-5 - **Paint** the **Floor** and **Lower Terrace Floor** groups with the modified **Travertine** material.
+5 – **Vymalujte** skupiny **Podlaží** a **Podlaží dolní terasy** upraveným materiálem **Travertin**.
 
 ![](../../.gitbook/assets/15.jpeg)
+

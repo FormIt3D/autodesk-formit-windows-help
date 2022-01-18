@@ -1,51 +1,54 @@
-# AutoSave
+# Automatické ukládání
 
-Starting with v17.3, FormIt for Windows includes AutoSave, which makes a backup copy of your FormIt model while you work. This backup file can be used to recover data if FormIt closes with unsaved changes.
+Počínaje verzí 17.3 zahrnuje aplikace FormIt pro systém Windows funkci automatického ukládání, která během práce vytváří záložní kopii modelu aplikace FormIt. Tento záložní soubor lze použít k obnovení dat, pokud se aplikace FormIt ukončí s neuloženými změnami.
 
-## Toggling AutoSave
+### Přepínání automatického ukládání
 
-Find configuration options for AutoSave in Edit > Preferences > AutoSave.
+Možnosti konfigurace funkce Automatické ukládání najdete v nabídce Úpravy &gt; Předvolby &gt; Automatické ukládání.
 
-![](<../.gitbook/assets/20190613-autosave (1).png>)
+![](../.gitbook/assets/20190613-autosave.png)
 
-AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box.
+Automatické ukládání je ve výchozím nastavení povoleno, ale lze jej zcela zakázat pouhým zrušením zaškrtnutí políčka.
 
-Set the interval (in minutes) at which AutoSave will make a backup copy by entering a value in the "AutoSave interval" number box.
+Zadáním hodnoty do pole Interval automatického ukládání nastavte interval \(v minutách\), ve kterém bude funkce automatického ukládání vytvářet záložní kopii.
 
-Note that these preferences are application-level, and will not change when opening different files.
+Tyto předvolby jsou na úrovni aplikace a při otevírání různých souborů se nezmění.
 
-## How AutoSave Works
+### Jak funguje automatické ukládání
 
-When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
+Když je funkce automatického ukládání zapnuta, zjišťuje, zda aktuální soubor aplikace FormIt obsahuje neuložené změny. Pokud existují neuložené změny, funkce automatického ukládání vytvoří v zadaném intervalu záložní kopii souboru.
 
-Backup files are stored next to the original file, and have an extension of `.axmb`.
+Záložní soubory jsou ukládány vedle původního souboru a mají příponu `.axmb`.
 
-For example, if your original FormIt file is stored at `C:/Users/<user>/FormIt/MyProject.axm`, the backup file can be found at `C:/Users/<user>/FormIt/MyProject.axmb`.
+Pokud je například původní soubor aplikace FormIt uložen v umístění `C:/Users/<user>/FormIt/MyProject.axm`, naleznete záložní soubor v umístění `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-If you start a new FormIt session without opening an existing file, unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start adding unsaved changes next to the new location, as noted above.
+Jestliže zahájíte novou relaci aplikace FormIt bez otevření existujícího souboru, neuložené změny lze najít v umístění `C:/Users/<user>/Documents/Untitled.axmb`. Jakmile nový model uložíte do jiného umístění, začnou se při zálohování přidávat neuložené změny vedle nového umístění, jak je uvedeno výše.
 
-When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
+Když uložíte změny do původního souboru, funkce automatického ukládání automaticky odstraní záložní soubor, protože záloha je nyní starší než původní soubor. Pokud však v uloženém souboru provedete následné změny, automatické ukládání znovu zahájí zálohování v zadaném intervalu.
 
-If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
+Jestliže pracovní soubor obsahuje neuložené změny a vy se rozhodnete zavřít aplikaci FormIt a zrušit změny, bude záloha automatického ukládání odstraněna. Pokud však dojde k nucenému ukončení aplikace FormIt, ať už v důsledku vypnutí počítače nebo chybového ukončení aplikace, soubor automatického ukládání zůstane zachován a lze jej později použít k obnovení dat.
 
-## Working With AutoSave Enabled
+### Práce s povoleným automatickým ukládáním
 
-FormIt minimizes the potential performance impact of AutoSave by executing the backup in a separate process. With small- to medium-sized files, you shouldn't notice when AutoSave backs up. With very large files (\~400MB and above), you might notice just a momentary pause while FormIt copies the entire model and starts backing up in a separate process.
+Aplikace FormIt minimalizuje potenciální dopad automatického ukládání na výkon tím, že zálohování provádí v samostatném procesu. U malých až středně velkých souborů byste si probíhajícího automatického zálohování neměli všimnout. U velmi velkých souborů \(400 MB a více\) můžete zaznamenat pouze chvilkové pozastavení, zatímco aplikace FormIt zkopíruje celý model a zahájí zálohování v samostatném procesu.
 
-If you're wondering if AutoSave is currently backing up, you can watch the status bar the bottom left of the application for a brief "AutoSaving..." message:
+Pokud vás zajímá, zda funkce automatického ukládání aktuálně provádí zálohování, můžete sledovat stavový řádek v levé dolní části aplikace, kde se zobrazí krátká zpráva „Automatické ukládání…“:
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-If your status bar is disabled, you can enable it at Window > Status Bar or via the shortcut HS.
+Pokud je stavový řádek zakázán, můžete jej povolit v nabídce Okno &gt; Stavový řádek nebo pomocí klávesové zkratky HS.
 
-## Recovering Data with AutoSave
+### Obnovení dat pomocí funkce automatického ukládání
 
-When opening a FormIt file with a backup available, FormIt will alert you that the backup file exists. As mentioned above, this could be simply due to you closing FormIt without electing to save changes to this project last time it was edited, or due to FormIt unexpectedly closing.
+Při otevírání souboru aplikace FormIt s dostupnou zálohou vás aplikace FormIt upozorní, že existuje záložní soubor. Jak bylo uvedeno výše, mohl být záložní soubor vytvořen proto, že jste aplikaci FormIt zavřeli, aniž byste se rozhodli uložit změny v daném projektu při jeho poslední úpravě, nebo v důsledku neočekávaného ukončení aplikace FormIt.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Clicking the "Open it?" hyperlink will load the `.axmb` backup file.
+Kliknutím na hypertextový odkaz „Otevřít?“ načtete záložní soubor `.axmb`.
 
-Similarly, you can use File > Open, and manually select the `.axmb` file from the file explorer to open a backup.
+Můžete také kliknout na nabídku Soubor &gt; Otevřít a ručním výběrem souboru `.axmb` v průzkumníku souborů otevřít zálohu.
 
-Once the backup file is open, the next time you save, FormIt will require you to pick a different FormIt file (`.axm`) to overwrite. You cannot overwrite FormIt backup files (`.axmb`).
+Po otevření záložního souboru vás aplikace FormIt při příštím uložení vyzve, abyste vybrali jiný soubor aplikace FormIt \(`.axm`\), který chcete přepsat. Záložní soubory aplikace FormIt \(`.axmb`\) nelze přepisovat.
+
+
+

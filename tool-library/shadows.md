@@ -1,25 +1,28 @@
-# Sun + Shadows
+# Slunce a stíny
 
-Use the **Sun + Shadows** tool to study the effects of the sun's path on your projects.
+Pomocí nástroje **Slunce a stíny** můžete studovat vliv dráhy slunce na své projekty.
 
-The first step for accurate shadow studies is to [**set your project location**](setting-location.md).
+Prvním krokem pro přesné studie stínů je [**nastavení umístění projektu**](setting-location.md).
 
-Once you've set your location and optionally imported a satellite image, model your project including building context, and shading elements like louvers and trees.
+Po nastavení umístění a volitelném importu satelitního snímku vymodelujte projekt včetně kontextu budov a stínících prvků, jako jsou žaluzie a stromy.
 
-## The Sun + Shadows Menu
+### Nabídka Slunce a stíny
 
-Turn shadows on in the Sun + Shadows menu at the top of the application (you can also enable shadows, as well as adjust shadow intensity, in [**Visual Styles**](../formit-introduction/tool-bars.md)):
+Zapněte stíny v nabídce Slunce a stíny v horní části aplikace \(povolit stíny a upravit jejich intenzitu můžete také ve [**vizuálních stylech**](../formit-introduction/tool-bars.md)\):
 
-![](../.gitbook/assets/sun-+-shadows.png)
+![](../.gitbook/assets/sun-+-shadows.PNG)
 
-From here, you can adjust the time of day and day of the year. The default year is shown as 2000 - don't worry, this doesn't affect the accuracy of the sun shading study.
+Zde můžete upravit denní čas a den v roce. Jako výchozí je zobrazen rok 2000. Nebojte se, na přesnost studie zastínění to nemá vliv.
 
-## The Sun Editor
+### Editor slunce
 
-You can also toggle the Sun Editor from the Sun + Shadows menu (or use shortcut DR), which provides a graphical display of the sun's location in space:
+V nabídce Slunce a stíny můžete také zapnout nebo vypnout Editor slunce \(nebo použijte klávesovou zkratku DR\), který poskytuje grafické zobrazení polohy slunce v prostoru:
 
 ![](../.gitbook/assets/sun-editor.PNG)
 
-* The Sun Editor will move with the camera, so you may have to adjust your zoom level and/or camera orientation to get the widget in a position that makes sense relative to the design you're studying.
-* Grab the circular grip to move the sun along its path and effectively adjust the time of day.
-* Adjust the time of year from the Sun + Shadows menu. Doing so will adjust the angle and orientation of the graphical sun path based on the time of year.
+* Editor slunce se bude pohybovat s kamerou, takže možná bude nutné upravit úroveň přiblížení nebo orientaci kamery, aby se tato pomůcka dostala do polohy, která je vzhledem ke zkoumanému návrhu smysluplná.
+* Uchopte kruhový uzel a posuňte slunce podél jeho trajektorie a efektivně upravte denní čas.
+* Upravte roční období pomocí nabídky Slunce a stíny. Tím se upraví úhel a orientace grafické dráhy slunce podle ročního období.
+
+
+

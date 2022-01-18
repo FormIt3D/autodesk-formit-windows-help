@@ -1,40 +1,41 @@
-# Non-Uniform Scale
+# Nejednotná změna měřítka
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**Pomocí nejednotné změny měřítka můžete protáhnout objekty v 1, 2 nebo 3 rozměrech.**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+Vyberte libovolnou kombinaci hran, ploch, těles, sítí nebo skupin a použijte možnost Nejednotná změna měřítka pomocí klávesové zkratky **NU** nebo z místní nabídky:
 
-![](../.gitbook/assets/nu-scale\_context-menu.PNG)
+![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.**
+**Jakmile je tato možnost aktivní, zobrazí se řada uzlů, které lze použít k současnému nastavení nejednotného měřítka objektu v 1, 2 nebo 3 osách.**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+Kvůli přehlednosti budou vykresleny pouze uzly směřující ke kameře. Pokud potřebujete upravit uzel na druhé straně, otočte pohled kolem objektu.
 
-![](../.gitbook/assets/nu-scale\_grips-1.PNG)
+![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+Po kliknutí na uzel se zobrazí řada upravitelných textových polí, ve kterých můžete nastavit měřítko podle procent nebo vzdálenosti:
 
-![](../.gitbook/assets/nu-scale\_grips-2.PNG)
+![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**Jakmile jsou pole kót viditelná, můžete provést následující akce:**
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Začněte zadávat číslo, čímž automaticky upravíte pole s procenty a zadáte faktor měřítka.
+   * Zadáním záporného čísla se obrátí směr měřítka.
+* Případně kliknutím dočasně nastavte umístění uzlu a poté klikněte na pole obsahující kótu, u níž se má měřítko měnit podle vzdálenosti.
+* Kliknutím na volné místo nebo stisknutím klávesy Esc dokončete operaci nejednotné změny měřítka.
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**Při změně měřítka v některém z uzlů rohových hran bude brán ohled na poměr stran sousedních kót:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Začněte psát číslo, abyste mohli upravit procentuální hodnotu.
+* Případně kliknutím dočasně nastavte umístění uzlu a poté kliknutím na jedno ze dvou polí kót nastavte měřítko podle vzdálenosti.
+* Kliknutím na volné místo nebo stisknutím klávesy Esc dokončete operaci nejednotné změny měřítka.
 
-![](../.gitbook/assets/nu-scale\_grips-3.PNG)
+![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**Podobně platí, že při změně měřítka v některém z rohových uzlů bude dodržen poměr stran celého tvaru a změna měřítka bude rovnoměrná:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Začněte psát číslo, abyste mohli upravit procentuální hodnotu.
+* Případně kliknutím dočasně nastavte umístění uzlu a poté kliknutím na jedno ze tří polí kót nastavte měřítko podle vzdálenosti.
+* Kliknutím na volné místo nebo stisknutím klávesy Esc dokončete operaci nejednotné změny měřítka.
 
-![](../.gitbook/assets/nu-scale\_grips-4.PNG)
+![](../.gitbook/assets/nu-scale_grips-4.PNG)
+

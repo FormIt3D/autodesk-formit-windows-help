@@ -1,30 +1,26 @@
-# Orthographic Views
+# Ortografické pohledy
 
-View your model in various orthographic views, including top, sides, and bottom.
+**Model můžete zobrazit v různých ortografických pohledech, včetně horního, bočního a dolního pohledu.**
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-You'll find orthographic views in the View menu, by clicking the Orthographic icon in the floating navigation toolbar, or by using the shortcut V O. Click the Top View icon in the floating navigation toolbar to access several view options.
+**K ortografickým pohledům získáte přístup kliknutím na horní ikonu na plovoucím panelu nástrojů navigace:**
 
-![](../.gitbook/assets/floating-nav\_flyout-v2.png)
+![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
 
-**Some helpful hints when working with orthographic views:**
+**Užitečné tipy pro práci s ortografickými pohledy:**
 
-* When switching between orthographic views, FormIt will maintain the zoom level for consistency.
-* When switching elevation views (front/right/left/back), FormIt will maintain the ground height for consistency.
-* You can hold Shift while Panning in an orthographic view to lock the Pan movement to the horizontal or vertical axis.
-*   Orthographic view directions are based on the world axes. You can realign the axes, which will change the orientations of all the orthographic views:
+* Při přepínání mezi ortografickými pohledy aplikace FormIt zachová kvůli konzistenci úroveň přiblížení.
+* Při přepínání bokorysných pohledů (přední/pravý/levý/zadní) aplikace FormIt zachová kvůli konzistenci výšku terénu.
+* Při posouvání v ortografickém pohledu můžete podržením klávesy Shift uzamknout pohyb k horizontální nebo vertikální ose.
+* Ortografické směry pohledu jsou založeny na globálních osách. Zarovnání os můžete změnit, čímž se změní orientace všech ortografických pohledů:
+   * Použijte zkratku SZ nebo klikněte pravým tlačítkem myši do volného místa (vyhněte se jakékoli geometrii):
+   * ![](../.gitbook/assets/set-axes\_context.PNG)
+   * Nastavte počátek a poté nastavte uzel na červené ose tak, aby byla zarovnána do smysluplného směru.
+   * ![](../.gitbook/assets/set-axes.PNG)
 
-    * Use shortcut SZ, or right-click in space (not over any geometry):
+**Ortografické pohledy fungují ve spojení s dalšími funkcemi aplikace FormIt:**
 
-    ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
-
-    * Set the origin, and set the grip on the red axes to align it with a meaningful direction
-
-    ![](../.gitbook/assets/set-axes.PNG)&#x20;
-
-**Orthographic views work in conjunction with other FormIt features:**
-
-* Save elevation views as Scenes so you can return to them later.
-* Control visibility of geometry that might get in the way of elevation views using Layers.
-* Add Section Planes to create section-elevations.
+* Bokorysné pohledy uložte jako scény, abyste se k nim později mohli vrátit.
+* Pomocí hladin můžete řídit viditelnost geometrie, která by mohla překážet v bokorysných pohledech.
+* Přidáním rovin řezu vytvořte pohledy řezu.

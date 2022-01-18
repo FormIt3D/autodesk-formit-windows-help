@@ -1,154 +1,155 @@
-# 1.11 - Import Models with Content Library
+# 1.11 – Import modelů pomocí knihovny obsahu
 
-_In this chapter, we will import existing SketchUp models, as well as use the FormIt Content Library to place OOTB families that have been converted from Revit. Note that when opening SKP files with FormIt, they come with intact Materials, Groups and Components, Layers (Tags), and Scenes. Some clean-up may be needed to keep your projects tidy and organized._
+_V této kapitole naimportujete existující modely aplikace SketchUp a pomocí knihovny obsahu aplikace FormIt umístíte rodiny, které byly převedeny z aplikace Revit. Všimněte si, že soubory SKP otevírané v aplikaci FormIt obsahují nedotčené materiály, skupiny, komponenty, hladiny a scény. Aby byly vaše projekty přehledné a uspořádané, může být nutné provést určité vyčištění._
 
-_For this chapter we will be using files from the_ **Farnsworth House Data Set > Supporting Files** folder. If you have not already, be sure to download the required folders, or entire data set, from the _**FormIt Primer Part 1 Datasets**._
+_V této kapitole budeme používat soubory ze složky_ **Datová sada Farnsworth House &GT; Podpůrné soubory**. Pokud jste tak dosud neučinili, stáhněte si požadované složky nebo celou datovou sadu z _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **Import and Edit SKP files**
+## **Import a úprava souborů SKP**
 
-_First, we will go through the process of adding a piece of downloaded content to your own personal content library_. Note that in this exercise we will be only using SKP files. To learn more about how to open/import other file formats, refer to [**this blog post about Formit 2021.2 features**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) and to **this chapter about** **Expanded Import and Export File Formats**.
+_Nejprve si projdeme postup přidání části staženého obsahu do vaší vlastní osobní knihovny obsahu_. V tomto cvičení budeme používat pouze soubory SKP. Další informace o otevírání a importu jiných formátů souborů naleznete v [**tomto blogovém příspěvku o funkcích aplikace FormIt 2021.2**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) a v **této kapitole pojednávající o** **pokročilém importu a exportu formátu souborů**.
 
-1 - Make sure to **Save (Ctrl + S)** any open work, then start a new FormIt sketch. To do this, you can either:
+1 – Nezapomeňte **uložit (Ctrl+S)** jakoukoli otevřenou práci a poté vytvořte nový náčrt FormIt. Postupujte následovně:
 
-1. Open another session on FormIt in a new window by right-clicking on the FormIt Icon in the **Windows Taskbar** and clicking on the **FormIt** icon. This will open a new FormIt window, allowing you to run two FormIt sessions side-by-side.
-2. OR, after saving, start a **New Sketch (Ctrl + N)** from the **File** dropdown in the **Main Menu** bar.
+1. Otevřete další relaci aplikace FormIt v novém okně tak, že kliknete pravým tlačítkem myši na ikonu aplikace FormIt na **hlavním panelu systému Windows** a pak kliknete na ikonu aplikace **FormIt**. Tím se otevře nové okno aplikace FormIt, ve kterém můžete souběžně spouštět dvě relace aplikace FormIt.
+2. Případně můžete po uložení práce kliknout na příkaz **Nový náčrt \(Ctrl+N\)** v rozevíracím seznamu **Soubor** na panelu **Hlavní nabídka**.
 
-![](<../../.gitbook/assets/0 (19).png>)
+![](../../.gitbook/assets/0%20%2819%29.png)
 
-2 - Create a new folder called **Custom FormIt Content** inside the **Farnsworth House Data Set > Supporting Files > FormIt** folder in the _**Farnsworth House Data Set**._
+2 – Ve složce **Datová sada Farnsworth House &gt; Podpůrné soubory &gt; FormIt** v **datové sadě Farnsworth House** vytvořte novou složku s názvem _**Vlastní obsah FormIt**._
 
-3 - **Save (Ctrl + S)** your new sketch in that folder. We recommend naming it: **Ottoman – Barcelona\_Mies.axm**
+3 – **Uložte \(Ctrl+S\)** nový náčrt do této složky. Doporučujeme jej pojmenovat: **Ottoman – Barcelona\_Mies.axm**
 
-4 - In the new empty FormIt file:
+4 – V novém prázdném souboru aplikace FormIt:
 
-1. **Import a Local File (Ctrl + I)** by selecting **Import > Locally…** from the **File** dropdown in the **Main Menu** bar.
-2. Choose: **Ottoman – Barcelona\_Mies.skp** from the **Farnsworth House Data Set > Supporting Files > SketchUp** and click **Open**.
+1. **Importujte místní soubor \(Ctrl+I\)** výběrem možnosti **Importovat &gt; Místně…** v rozevíracím seznamu **Soubor** na panelu **Hlavní nabídka**.
+2. Ve složce **Datová sada Farnsworth House &gt; Podpůrné soubory &gt; SketchUp** vyberte soubor **Ottoman – Barcelona\_Mies.skp** a klikněte na tlačítko **Otevřít**.
 
-_**Note:**_ _If you do not see the_ _**Ottoman – Barcelona\_Mise.skp file**, make sure the file format dropdown in the bottom right is set to_ _**All Supported Formats**._
+_**Poznámka:**_ _Pokud nevidíte soubor_ _**Ottoman – Barcelona\_Mise.skp**, zkontrolujte, zda je v rozevíracím seznamu formátu souborů v pravém dolním rohu nastavena možnost_ _**Všechny podporované formáty**._
 
-![](<../../.gitbook/assets/1 (7).png>)
+![](../../.gitbook/assets/1%20%287%29.png)
 
-5 - Rename the imported group **Ottoman - Barcelona\_Mies**.
+5 – Přejmenujte importovanou skupinu na **Ottoman – Barcelona\_Mies**.
 
-6 - When we eventually import this model into our Farnsworth House file, it will be placed by using this file’s **Origin** point. To control l placement point, we want to move the **Ottoman - Barcelona\_Mies** group so one if its corners is located at the **Origin**. To do this:
+6 – Když tento model nakonec naimportujete do souboru Farnsworth House, bude umístěn pomocí bodu **počátku** tohoto souboru. Chcete-li řídit bod umístění, je třeba přesunout skupinu **Ottoman - Barcelona\_Mies** tak, aby se jeden z jejích rohů nacházel v bodu **počátku**. Postupujte následovně:
 
-1. Ensure **Snap to Grid (SG)** is on. Draw a reference **Line (L)** starting at the **Origin** (There the X, Y, and Z axes intersect). Click anywhere to place the second point.
-2. Select the ottoman group and start the move command by single-clicking on the lower left corner of its leg, as shown. _To learn more about how to move objects, refer to previous chapters._
-3. Move the group to the **Origin**, by snapping to the start point of the reference line we just drew.
-4. Delete the reference line.
+1. Ujistěte se, že je zapnuta možnost **Přichytit k osnově \(SG\)**. Nakreslete referenční **čáru \(L\)** začínající v bodu **počátku** \(zde se protínají osy X, Y a Z). Kliknutím na libovolné místo umístěte druhý bod.
+2. Vyberte skupinu sedačky a spusťte příkaz pro přesun kliknutím na levý dolní roh nohy, jak je znázorněno níže. _Další informace o přesouvání objektů naleznete v předchozích kapitolách._
+3. Přesuňte skupinu do bodu **počátku** přichycením k počátečnímu bodu referenční čáry, kterou jste právě nakreslili.
+4. Odstraňte referenční čáru.
 
-![](<../../.gitbook/assets/2 (17) (1).png>)
+![](../../.gitbook/assets/2%20%2817%29.png)
 
-7 - We recommend deleting any unwanted layers that were imported with the SKP file, as any layers this model has will eventually be imported into our Farnsworth House model. To do that, go to the **Layers Palette**, select **Layer 0**, and click the **-** button. This will delete the layer while keeping its geometry.
+7 – Doporučujeme odstranit všechny nežádoucí hladiny, které byly importovány se souborem SKP, protože všechny hladiny tohoto modelu budou nakonec importovány do našeho modelu domu Farnsworth House. Provedete to tak, že přejdete na **paletu Hladiny**, vyberete položku **Hladina 0** a kliknete na tlačítko **-**. Tím dojde k odstranění hladiny při zachování její geometrie.
 
-![](<../../.gitbook/assets/3 (16) (1).png>)
+![](../../.gitbook/assets/3%20%2816%29.png)
 
-_**Note:**_ _Whenever you delete a layer, any geometry or groups that were on that layer are assigned to have_ _**No Layer**, which is the default value for any object that has not yet been assigned to a layer._
+_**Poznámka:**_ _Kdykoli odstraníte hladinu, všechny geometrie nebo skupiny, které byly v této hladině, budou přiřazeny k hodnotě_ _**Žádná hladina**, což je výchozí hodnota pro všechny objekty, které dosud nebyly přiřazeny k nějaké hladině._
 
-## **Create Content Thumbnail**
+## **Vytvoření miniatury obsahu**
 
-_This next step will setup a scene to be used as the_ _**Content**_ _thumbnail, which will be displayed in the_ _**Content Library Palette**._
+_V tomto kroku nastavíte scénu, která bude použita jako miniatura_ _**obsahu**_ _, a která se zobrazí na paletě_ _**Knihovna obsahu**._
 
-1 - To define the view settings for the thumbnail scene:
+1 – Definujte nastavení zobrazení pro scénu miniatury:
 
-1. In the **Environment** tab of the **Visual Style Palette**, uncheck all the checkboxes and set the **Lower/ Background** color to white.
-2. Make sure your view mode is set to **Perspective** **(VP)**.
-3. Use the **View Navigation Tools** to zoom in pick a camera location that represents the object well, similar to the below image.
+1. Na kartě **Prostředí** na **paletě Vizuální styl** zrušte zaškrtnutí všech políček a nastavte barvu **Dolní/Pozadí** na bílou.
+2. Ujistěte se, že je režim pohledu nastaven na možnost **Perspektivní** **\(VP\)**.
+3. Pomocí **nástrojů navigace v pohledech** přibližte pohled a vyberte umístění kamery, které dobře zobrazuje objekt, podobně jako na obrázku níže.
 
-![](<../../.gitbook/assets/4 (13) (1).png>)
+![](../../.gitbook/assets/4%20%2813%29.png)
 
-2 - To save the settings you just set, create a scene:
+2 – Chcete-li uložit nastavení, které jste právě nastavili, vytvořte scénu:
 
-1. Go to the **Scene Palette**.
-2. Click on the **+** button. This will create a new scene based on your current settings.
-3. Rename it **Thumbnail** and make sure that at least the first four (4) checkboxes are checked; **Camera**, **Layers**, **Sun and Shadows**, and **Visual Styles**. The rest of the scene settings are not really relevant for creating the thumbnail image.
-4. Use the **Update Scene** button any time you want to refresh your **Scene** to match the current camera view and visual settings.
+1. Přejděte na **paletu scén**.
+2. Klikněte na tlačítko **+**. Tím se vytvoří nová scéna na základě aktuálních nastavení.
+3. Přejmenujte ji na **Miniatura** a zkontrolujte, že jsou zaškrtnuta alespoň první čtyři políčka: **Kamera**, **Hladiny**, **Slunce a stíny** a **Vizuální styly**. Ostatní nastavení scény nejsou pro vytvoření miniatury obrázku důležitá.
+4. Tlačítkem **Aktualizovat scénu** můžete kdykoli aktualizovat **scénu**, aby odpovídala aktuálnímu pohledu kamery a vizuálnímu nastavení.
 
-![](<../../.gitbook/assets/5 (11) (1).png>)
+![](../../.gitbook/assets/5%20%2811%29.png)
 
-3 - **Save (Ctrl + S)** the completed ottoman model again. Note that the **Content Thumbnail** is created from the current view when the model was last saved, so make sure you are in the **Thumbnail Scene** before you save.
+3 – Znovu **uložte \(Ctrl+S\)** dokončený model sedačky. Všimněte si, že **miniatura obsahu** je vytvořena z aktuálního pohledu při posledním uložení modelu, proto se před uložením ujistěte, že se nacházíte ve **scéně Miniatura**.
 
-_If you wish, you can compare your file against ours by opening the_ _**Ottoman - Barcelona\_Mies.axm**_ _file saved at_ _**Farnsworth House Data Set > Supporting Files > FormIt > Furniture**_ _in the_ _**Farnsworth House Data Set**.‌_
+_Pokud si přejete, můžete svůj soubor porovnat s naším, a to tak, že otevřete soubor_ _**Ottoman - Barcelona\_Mies.axm**_ _uložený ve složce_ _**Datová sada Farnsworth House &GT; Podpůrné soubory &gt; FormIt &gt; Nábytek**_ _v_ _**datové sadě Farnsworth House**.‌_
 
-_You can follow the same steps above with the bench and chair SKP files located in the same folder as the ottoman._
+_Stejným postupem jako výše můžete postupovat u souborů SKP lavice a židle umístěných ve stejné složce jako sedačka._
 
-_**Tip:**_ _To expedite the process we recommend using the_ _**Ottoman - Barcelona\_Mies.axm**_ _file you just created as a template. While modeling you may want to turn on the_ _**Grid**_ _and the_ _**Axes**_ _again from the_ _**Visual Styles Palette**. By adjusting only the camera position of your_ _**Thumbnail Scene**_ _for each piece of furniture, it will ensure that the_ _**Content Thumbnails**_ _remain consistent for all of your content models._
+_**Tip:**_ _Pro urychlení postupu doporučujeme použít právě vytvořený soubor_ _**Ottoman - Barcelona\_Mies.axm**_ _jako šablonu. Při modelování můžete zapnout_ _**rastr**_ _a_ _**osy**_ _z_ _**palety Vizuální styly**. Tím, že pro každý kus nábytku upravíte pouze polohu kamery_ _**scény Miniatura**_ _, zajistíte, že_ _**miniatury obsahu**_ _budou konzistentní pro všechny modely obsahu._
 
-## **Link a Content Library**
+## **Připojení knihovny obsahu**
 
-_Now back to our Farnsworth House project. We will learn how to link the **FormIt** folder in the **Farnsworth House Data Set**, to easily access all of its files - including the_ **Custom FormIt Content** _we just created - from within our project._
+_Nyní se vraťme k projektu domu Farnsworth House. Naučíme se, jak propojit složku **FormIt** v **datové sadě Farnsworth House**, abychom měli z našeho projektu snadný přístup ke všem jejím souborům – včetně_ **vlastního obsahu FormIt**_, který jsme právě vytvořili._
 
-1 - After switching back to, or re-opening, the Farnsworth House model. _If you did not complete the last chapter, download and open the_ _**1.11 - Import Models with Content Library.axm**_ _file from the_ _**Farnsworth House Data Set**._
+1 – Po přepnutí zpět na model domu Farnsworth House nebo novém otevření modelu domu: _Pokud jste nedokončili poslední kapitolu, stáhněte a otevřete soubor_ _**1.11 – Import Models with Content Library.axm**_ _z_ _**datové sady Farnsworth House**._
 
-1. Open the **Content Library Palette** and click the **Link Content Library Directory** icon. The **Preferences** window will pop-up with the **Content Library** tab open.
-2. Click the **+** icon to **Add a new Content Library location**. A third window will pop-up for you to navigate your computer’s directory and select a folder.
-3. In the _**Farnsworth House Data Set**, navigate through the folders:_ _**Supporting Files > FormIt**. There you will find the_ folders containing the **.axm** files we created earlier in this chapter. Double-click the **FormIt** folder to select it.
-4. Click **Select Folder** and that folder’s path will show up in the **Library Locations – Local** Panel.
-5. Back in the **Preferences** window, click **OK**, and the linked folder will be added to the **Content Library**.
-6. To access this new library, open the drop-down menu at the top for the **Content Library Palette** and select **FormIt**.
-7. Note that the folder structure and all the **.axm** files in the linked folder will show up in the **Content Library Palette**. Double click any sub-folders to access the files in it.&#x20;
+1. Otevřete **paletu Knihovna obsahu** a klikněte na ikonu **Připojit adresář knihovny obsahu**. Zobrazí se okno **Předvolby** s otevřenou kartou **Knihovna obsahu**.
+2. Kliknutím na ikonu **+** **přidejte nové umístění knihovny obsahu**. Zobrazí se třetí okno, ve kterém můžete procházet počítač a vybrat požadovanou složku.
+3. V _**datové sadě Farnsworth House** přejděte do následujících složek:_ _**Podpůrné soubory &GT; FormIt**. Zde naleznete složky_ obsahující soubory **.axm**, které jsme vytvořili dříve v této kapitole. Dvojitým kliknutím vyberte složku **FormIt**.
+4. Klikněte na tlačítko **Vybrat složku** a cesta k této složce se zobrazí na panelu **Umístění knihovny – místní**.
+5. V okně **Předvolby** klikněte na tlačítko **OK** a připojená složka bude přidána do **knihovny obsahu**.
+6. Chcete-li získat přístup k této nové knihovně, otevřete rozevírací nabídku v horní části **palety Knihovna obsahu** a vyberte možnost **FormIt**.
+7. Struktura složek a všechny soubory **.axm** v připojené složce se zobrazí na **paletě Knihovna obsahu**. Dvojitým kliknutím na jakoukoli podsložku získáte přístup k souborům v ní. 
 
 ![](../../.gitbook/assets/link-library-content.png)
 
-**Note:** If you have access to **Autodesk Docs** (previously know as Autodesk 360), you can also access files you may have stored there through the **Content Library** drop-down menu.
+**Poznámka:** Pokud máte přístup ke službě **Autodesk Docs** \(dříve známé jako Autodesk 360\), můžete prostřednictvím rozevírací nabídky **Knihovna obsahu** přistupovat také k souborům, které jste si uložili v této službě.
 
-## **Place Content from the Library**
+## **Umístění obsahu z knihovny**
 
-_‌Now we will place the content items we created inside in the Farnsworth model._
+_‌Nyní umístíme položky obsahu, které jsme vytvořili, do modelu domu Farnsworth House._
 
-1 - So that we can see inside the house to place the furniture, turn off the **Roof** layer and **Orbit (O)** the perspective view until you can see the entire Main Building Floor.
+1 – Abychom viděli dovnitř domu a mohli umístit nábytek, vypněte hladinu **Střecha** a nástrojem **Orbit \(O\)** otáčejte perspektivní pohled, dokud se nezobrazí celé podlaží hlavní budovy.
 
-2 - Back in the **Content Library Palette**, ensure the dropdown is still set to the **FormIt**. Before placing any of the furniture we just made, we need to place the ‘core’ of the house:
+2 – Na **paletě Knihovna obsahu** zkontrolujte, zda je rozevírací seznam stále nastaven na možnost **FormIt**. Před umístěním nábytku, který jsme právě vyrobili, musíme umístit „jádro“ domu:
 
-1. Click on the folder named **Other** to open it, and then click on the **Farnsworth House – Core** thumbnail to select it.
-2. Hover the mouse over the **Main Building Floor,** to click on the **Centroid** of the floor to place the **Core**.
-3. To go back UP to the FormIt folder, use the **Navigate Up** button.
+1. Kliknutím na složku s názvem **Další** ji otevřete a poté klikněte na miniaturu **Farnsworth House – jádro**, abyste ji vybrali.
+2. Přesuňte ukazatel myši nad **podlaží hlavní budovy** a kliknutím na **těžiště** podlaží umístěte **jádro**.
+3. Pro návrat zpět do složky FormIt klikněte na tlačítko **Přejít nahoru**.
 
-![](<../../.gitbook/assets/7 (2).jpeg>)
+![](../../.gitbook/assets/7%20%282%29.jpeg)
 
-3 - Set the camera to an **Orthographic (VO)** **Top View (VT)** and turn of the **Main Building Floor** to see the **Plan Image**. Refer to previous chapters to learn more about the **Views** and **Layers** settings.
+3 – Nastavte kameru na možnost **Ortografické \(VO\)**, **Horní pohled \(VT\)** a poté kliknutím na **podlaží hlavní budovy** zobrazte **obrázek půdorysu**. Další informace o nastavení **pohledů** a **hladin** naleznete v předchozích kapitolách.
 
-4 - Select the **Farnsworth House - Core** and move it until it closely aligns with the Plan Image.
+4 – Vyberte objekt **Farnsworth House – jádro** a přesuňte jej tak, aby byl co nejvíce zarovnán s obrázkem půdorysu.
 
-![](<../../.gitbook/assets/8 (1).png>)
+![](../../.gitbook/assets/8%20%281%29.png)
 
-_**Note:**_ _While moving the_ _**Core**, be careful not to change its elevation. You can either use the_ _**Shift**_ _key to restrict the movement to always be along one of the axes, or ensure that the start and end reference points of your_ _**Move (M)**_ _command are both at the same height by clicking only on the_ _**Plan Image**, not the_ _**Core**_ _itself. Refer to previous chapters to learn more about the_ _**Move (M)**_ _Tool.‌_
+_**Poznámka:**_ _Při přesouvání_ _**jádra** neměňte jeho výšku. Buď můžete pomocí klávesy_ _**Shift**_ _omezit pohyb vždy podél jedné z os, nebo můžete zajistit, aby počáteční i koncový referenční bod příkazu_ _**Přesunout \(M\)**_ _byly ve stejné výšce, a to kliknutím pouze na_ _**obrázek plánu**, nikoli na samotné_ _**jádro**__. Další informace o nástroji_ _**Přesunout \(M\)**_ _naleznete v předchozích kapitolách.‌_
 
-## **Place Furniture from the Library**
+## **Umístění nábytku z knihovny**
 
-1 - Using a similar process, you can now place the furniture you created earlier in this chapter from the **Custom FormIt Content** folder. If you did not convert all three (3) of the SKP files, you can use the premade versions inside the **Furniture** folder instead.
+1 – Pomocí podobného postupu nyní můžete umístit nábytek, který jste vytvořili dříve v této kapitole, ze složky **Vlastní obsah FormIt**. Pokud jste nepřevedli všechny tři \(3\) soubory SKP, můžete místo nich použít předpřipravené verze ve složce **Nábytek**.
 
-_**Notes:**_
+_**Poznámky:**_
 
-* _Turn the_ _**Main Building Floor**_ _layer back on, so you can place furniture directly on the_ _**Main Building Floor**’s surface._
-* _While placing a new object, use the_ _**Tab**_ _key to alternate between placement planes._
-* _While placing a new object, use the_ _**Space Bar**_ _key to rotate it by 90 intervals before placing._
+* _Znovu zapněte hladinu_ _**Podlaží hlavní budovy**__, abyste mohli umístit nábytek přímo na povrch_ _**podlaží hlavní budovy**._
+* _Při umísťování nového objektu můžete pomocí klávesy_ _**Tab**_ _přepínat mezi rovinami umístění._
+* _Při umísťování nového objektu jej před umístěním můžete pomocí_ _**mezerníku**_ _otáčet v 90°°intervalech._
 
-![](<../../.gitbook/assets/9 (3).png>)
+![](../../.gitbook/assets/9%20%283%29.png)
 
-2 - Similarly, explore the **Content Library Samples** to place OOTB Content. Note that multiple of these have several different sizes to choose from, similar to Family Types in Revit.
+2 – Podobně můžete prozkoumat **ukázky knihovny obsahu** a umístit obsah dodávaný s aplikací FormIt. Všimněte si, že řada objektů má na výběr několik různých velikostí, podobně jako je tomu u typů rodin v aplikaci Revit.
 
-![](<../../.gitbook/assets/10 (6).png>)
+![](../../.gitbook/assets/10%20%286%29.png)
 
-## **Using the Scale Tool**
+## **Použití nástroje Měřítko**
 
-1 - Using the techniques, you just learned, place one instance of the **tree\_pine** component from the **Farnsworth House Data Set > FormIt > Planting** folder.
+1 – Pomocí technik, které jste se právě naučili, umístěte jednu instanci komponenty **tree\_pine** ze složky **Datová sada Farnsworth House &gt; FormIt &gt; Výsadba**.
 
-1. Once placed, select the group and rename it to **Tree**. Right-click to access the **Context Menu** and choose **Non-Uniform Scale (NU)**.
-2. Click on one of the **Non-Uniform Scale Buttons** to resize and change the proportions of the **Tree** group as desired.
+1. Po umístění vyberte skupinu a přejmenujte ji na **Strom**. Kliknutím pravým tlačítkem myši zobrazte **místní nabídku** a vyberte položku **Nejednotná změna měřítka \(NU\)**.
+2. Kliknutím na některé z tlačítek nástroje **Nejednotná změna měřítka** změňte velikost a proporce skupiny **Strom** podle potřeby.
 
-![](<../../.gitbook/assets/11 (3).png>)
+![](../../.gitbook/assets/11%20%283%29.png)
 
-![](<../../.gitbook/assets/12 (2).png>)
+![](../../.gitbook/assets/12%20%282%29.png)
 
-_**Note:**_ _Similarly, the_ _**Scale (SC)**_ _tool can be used to re-scale an entire model or group uniformly._
+_**Poznámka:**_ _Podobně lze pomocí nástroje_ _**Měřítko (SC)**_ _jednotně změnit měřítko celého modelu nebo skupiny._
 
-2 - Copy this group and place multiple trees around the house, using the **Scale Tools** to create a variety of sizes and proportions.
+2 – Tuto skupinu zkopírujte a umístěte kolem domu více stromů, přičemž pomocí **nástrojů Měřítko** vytvořte různé velikosti a proporce.
 
-![](<../../.gitbook/assets/13 (6).png>)
+![](../../.gitbook/assets/13%20%286%29.png)
 
-_**Note:**_ _Even though the trees are all instances of the same group, we were able to_ _**Scale**_ _them to different sizes. Using the_ _**Scale (SC)**_ _and_ _**Non-Uniform Scale (NU)**_ _outside of group edit mode allows you to modify individual instances of the same group. If we were to edit one of the_ _**Tree**_ _groups and modify its geometry or material, all group instances would still be updated, but also each would keep their current customized scale. Give it a try!_
+_**Poznámka:**_ _Přestože jsou všechny stromy instancemi stejné skupiny, mohli jsme je_ _**škálovat**_ _na různé velikosti. Pomocí nástrojů_ _**Měřítko \(SC\)**_ _a_ _**Nejednotná změna měřítka \(NU\)**_ _mimo režim úprav skupin můžete upravit jednotlivé instance stejné skupiny. Pokud bychom upravili některou ze skupin_ _**Strom**_ _a upravili její geometrii nebo materiál, všechny instance skupin by byly stále aktualizovány, ale každá z nich by si zachovala své aktuální přizpůsobené měřítko. Vyzkoušejte to!_
 
-### **Keep Model Tidy**
+### **Udržujte model v uspořádaný**
 
-_Remember to always sort added content onto layers. In this example, we recommend placing the core and all furniture on the_ _**Main Building Floor**_ _layer and the trees on a new layer named_ _**Planting**._
+_Nezapomeňte přidaný obsah vždy roztřídit do hladin. V tomto příkladu doporučujeme umístit jádro a veškerý nábytek do hladiny_ _**Podlaží hlavní budovy**_ _a stromy do nové hladiny s názvem_ _**Výsadba**._
+

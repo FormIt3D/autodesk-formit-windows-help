@@ -1,21 +1,26 @@
-# Measure Angle
+# Odměřit úhel
 
-The Measure Angle tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+Nástroj Odměřit úhel se nachází na [panelu nástrojů](../formit-introduction/tool-bars.md).
 
-The Measure Angle tool is used to measure angles between vertices, edges, faces, and volumes. You can also use the Measure Angle tool to drive dimensions of geometry.
+Nástroj Odměřit úhel slouží k měření úhlů mezi vrcholy, hranami, plochami a objemy. Můžete jej použít také k řízení kót geometrie.
 
-*   From the **Measure** toolbar menu, select the **Measure Angle** tool or use the keyboard shortcut **M A** and select a starting point.
+* Na panelu nástrojů **Odměřit** vyberte nástroj **Odměřit úhel** nebo použijte klávesovou zkratku **M A** a vyberte počáteční bod.
 
-    ![](../.gitbook/assets/measure-angle.png)
-*   Click and drag the handle to the starting vertex.
+   ![](../.gitbook/assets/measure-angle.png)
 
-    ![](../.gitbook/assets/measure-angle2.png)
-*   Use the arrows to measure the angle between one point to another.
+* Klikněte a přetáhněte úchop k počátečnímu vrcholu.
 
-    ![](../.gitbook/assets/measure-angle4.png)
-*   To change the geometry, click on an edge or face and enter a new angle value by clicking on the displayed angle.
+   ![](../.gitbook/assets/measure-angle2.png)
 
-    ![](<../.gitbook/assets/measure-angle3 (1).png>)
-*   Your changes or measurements display:
+* Pomocí šipek změřte úhel mezi dvěma body.
 
-    ![](../.gitbook/assets/measure-angle5.png)
+   ![](../.gitbook/assets/measure-angle4.png)
+
+* Chcete-li změnit geometrii, klikněte na hranu nebo plochu a po kliknutí na zobrazený úhel zadejte novou hodnotu úhlu.
+
+   ![](../.gitbook/assets/measure-angle3.png)
+
+* Zobrazí se provedené změny nebo měření:
+
+   ![](../.gitbook/assets/measure-angle5.png)
+

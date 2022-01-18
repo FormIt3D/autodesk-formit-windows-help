@@ -1,17 +1,18 @@
-# Orthographic Camera
+# Ortografická kamera
 
-FormIt 2021 includes the addition of a new Orthographic Camera feature. You can find the Orthographic and Perspective buttons in the Navigation Menu:
+Aplikace FormIt 2021 obsahuje novou funkci Ortografická kamera. V navigační nabídce naleznete tlačítka ortografického a perspektivního pohledu:
 
-![Orthographic (bottom) and Perspective (top) camera view buttons ](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Tlačítka ortografického pohledu \(dolní\) a perspektivního pohledu \(horní\) kamery](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
 
-This new option allows you to easily toggle between the Orthographic and Perspective camera views.
+Díky této nové možnosti můžete snadno přepínat mezi ortografickým a perspektivním pohledem kamery.
 
-![A model can be toggled from Perspective Camera to Orthographic Camera mode.](<../.gitbook/assets/ortho-camera (1).gif>)
+![Model lze přepnout z režimu perspektivní kamery do režimu ortografické kamery.](../.gitbook/assets/ortho-camera.gif)
 
-Once in Orthographic camera, any other camera tools will respect the current mode. For example, **Align Camera to Face** will align the Orthographic Camera to the face, resulting in an orthographic elevation view.
+V režimu ortografické kamery budou všechny ostatní nástroje kamery respektovat aktuální režim. Například možnost **Zarovnat kameru s plochou** zarovná ortografickou kameru s plochou, čímž vznikne ortografický bokorysný pohled.
 
-If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position, making it easier to access those pre-set views.
+Pokud ručně přejdete k přednastavenému ortografickému pohledu, například hornímu pohledu nebo přednímu pohledu, ortografická kamera se k této poloze přichytí, což usnadní používání těchto přednastavených pohledů.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
 
-**Note:** If camera clipping occurs in Orthographic Camera mode, you can switch back to Perspective Mode, zoom out, and then try again.
+**Poznámka:** Pokud v režimu ortografické kamery dojde k oříznutí kamery, můžete přepnout zpět do režimu perspektivního pohledu, oddálit pohled a poté akci opakovat.
+

@@ -1,15 +1,16 @@
-# Work Planes
+# Pracovní roviny
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+Když změníte globální osy v hlavním náčrtu nebo místní osy skupiny, přiřadí se k osám X a Y pracovní rovina. **Pracovní rovina** je virtuální dvourozměrná plocha, která se používá jako výchozí rovina pro tvorbu náčrtů. Tato pracovní rovina se rozprostírá do nekonečna a poskytuje povrch, na který lze vytvořit náčrt, aniž by došlo k přichycení k prvkům za ní.
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+Informace o možnostech úprav základní roviny naleznete v části [Vizuální styly](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## Změna pracovních rovin
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+Otočte [globální osy](world-axes.md) do roviny jiného objektu v náčrtu. Tím zarovnáte aktivní pracovní rovinu tak, aby odpovídala této ploše. Nyní můžete vytvořit náčrt, umisťovat prvky a upravovat prvky vzhledem k nové rovině XY, nikoli k výchozí základní rovině. Můžete otáčet pohled za nebo pod osnovou a pracovními rovinami a přichytávat a odvozovat prvky za pracovní rovinou.
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style > Environment > **Display Grid (DG).**
+Můžete zapnout nebo vypnout viditelnost čáry osnovy, abyste mohli vytvářet náčrty založené na pracovní rovině. Chcete-li řídit toto nastavení, přejděte na Vizuální styl &gt; Prostředí &gt; **Zobrazit osnovu \(DG\)**
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings > **Snap to Grid (SG).**
+Můžete také řídit, zda se při kreslení přichytíte k osnově. Toto nastavení můžete zapnout nebo vypnout v Nastavení > **Přichytit k osnově \(SG\).**
 
 ![](../.gitbook/assets/work-plane.gif)
+

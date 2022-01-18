@@ -1,57 +1,58 @@
-# Groups
+# Skupiny
 
-One of the most basic yet important techniques in FormIt workflows involves grouping. Groups allow you to keep your geometry from sticking together and allow you to set up parent/child relationships between copied elements so that if you update one element, both elements update. Learn more about groups [here](../formit-primer/part-i/grouping-objects.md).
+Jedna z nejzákladnějších, ale nejdůležitějších technik pracovních postupů aplikace FormIt zahrnuje seskupování. Skupiny zabraňují spojení geometrie a umožňují nastavit vztahy nadřazenosti/podřazenosti mezi kopírovanými prvky tak, aby se při aktualizaci jednoho prvku aktualizovaly oba prvky. Další informace o skupinách naleznete [zde](../formit-primer/part-i/grouping-objects.md).
 
-Groups can be created and edited in two ways: either from the context menu of a selected group, or from the main toolbar.
+Skupiny lze vytvářet a upravovat dvěma způsoby: buď z místní nabídky vybrané skupiny, nebo z hlavního panelu nástrojů.
 
-## Groups Interactions
+## Interakce se skupinami
 
-To **create a group**, select the elements you'd like to group together — this can include edges, faces, solids, or other groups — and right-click. Choose the **Group (G)** tool from the context menu. Imported images and satellite images cannot be grouped.
+Chcete-li **vytvořit skupinu**, vyberte prvky, které chcete seskupit, například hrany, plochy, tělesa nebo jiné skupiny, a klikněte pravým tlačítkem myši. V místní nabídce vyberte nástroj **Skupina \(G\)**. Importované obrázky a satelitní snímky nelze seskupit.
 
-To **select a group**, single-click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
+Chcete-li **vybrat skupinu**, jednou na ni klikněte. Všimněte si přerušovaných čar, které se zobrazí při výběru skupiny. Tyto čáry označují celkovou velikost skupiny.
 
-To **edit a group**, double-click the group. This launches an edit mode where you can only view and snap to elements outside of the current group, but cannot select them. You can also hide the elements outside of the current group by using the **H** keyboard shortcut.
+Chcete-li **upravit skupinu**, dvakrát na ni klikněte. Spustí se režim úprav, ve kterém lze pouze zobrazit a přichytit prvky mimo aktuální skupinu, ale nelze je vybrat. Prvky mimo aktuální skupinu lze také skrýt klávesovou zkratkou **H**.
 
-You can create **groups within groups:** these are called **nested groups** and can be created within the group edit mode. To move up one level in nested groups, click anywhere outside of the groups.
+Můžete vytvořit **skupiny v rámci skupin**: tyto skupiny se nazývají **vnořené skupiny** a lze je vytvořit v režimu úprav skupiny. Chcete-li se ve vnořených skupinách přesunout o jednu úroveň výše, klikněte kamkoli mimo skupiny.
 
-To **exit group edit mode,** double-click anywhere outside of the group.
+Jestliže chcete **ukončit režim úprav skupiny**, dvakrát klikněte kamkoli mimo skupinu.
 
-You can **copy a group** to create a relationship between the original group and its copy: if you edit any copied groups, the same changes will affect all related groups.
+Můžete **kopírovat skupinu** a vytvořit tak vztah mezi původní skupinou a její kopií. Pokud upravíte jakékoli zkopírované skupiny, stejné změny se projeví ve všech souvisejících skupinách.
 
-To **sever the relationship between copied groups**, select the group or groups you would like to make separate, right-click, and choose **Make Unique** from the context menu. You can also select Make Unique from the Groups toolbar.
+Chcete-li **přerušit vztah mezi zkopírovanými skupinami**, vyberte skupinu nebo skupiny, které chcete oddělit, klikněte pravým tlačítkem myši a v místní nabídce vyberte položku **Vytvořit jedinečné**. Možnost Vytvořit jedinečné můžete také vybrat na panelu nástrojů Skupiny.
 
-To **select all related groups**, hover over a group and press the Tab key. When all related groups become highlighted, click on the groups to select them. You can then perform an action on all groups at once.
+Chcete-li **vybrat všechny související skupiny**, přesuňte ukazatel myši na skupinu a stiskněte klávesu Tab. Až se zvýrazní všechny související skupiny, kliknutím na tyto skupiny je vyberte. Poté můžete provést požadovanou akci pro všechny skupiny najednou.
 
-The [**Groups Tree**](groups-tree.md) provides a single place to view and manage all of the groups in a project.
+[**Strom skupin**](groups-tree.md) umožňuje zobrazit a spravovat všechny skupiny v projektu na jediném místě.
 
-## Groups Context menu and Toolbar access
+## Místní nabídka skupin a přístup k panelu nástrojů
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Group Elements**
+**Prvky skupiny**
 
-To create a group from the Groups toolbar item, select one or more elements, select the **Create Group** icon, and then select the **Finish** icon. Alternatively, you can select **Create Group** from the Groups tool bar item, then select elements you would like to group and select the **Finish** icon.
+Chcete-li vytvořit skupinu pomocí panelu nástrojů Skupiny, vyberte jeden nebo více prvků, klikněte na ikonu **Vytvořit skupinu** a poté vyberte ikonu **Dokončit**. Případně můžete vybrat možnost **Vytvořit skupinu** na panelu nástrojů Skupiny, poté vybrat prvky, které chcete seskupit, a kliknout na ikonu **Dokončit**.
 
-To **edit a group from the Groups toolbar item**, select the **Edit Group** icon and then click the group you want to edit. When you are done making edits, select the **Finish** icon. This tool allows you to choose the specific group you'd like to edit, even if it is deeply nested.
+Pokud chcete **upravit skupinu pomocí panelu nástrojů Skupiny**, vyberte ikonu **Upravit skupinu** a poté klikněte na skupinu, kterou chcete upravit. Po dokončení úprav klikněte na ikonu **Dokončit**. Tento nástroj umožňuje vybrat k úpravám konkrétní skupinu, i když je hluboce vnořená.
 
-**To make a group unique from the toolbar,** select the **Make Unique** icon in the Groups toolbar item. Additionally, you can select **Make Unique** from the Groups toolbar item and then select the group you would like to make unique and click the **Finish** icon.
+**Chcete-li skupinu nastavit jako jedinečnou pomocí panelu nástrojů**, vyberte na panelu nástrojů Skupiny ikonu **Vytvořit jedinečné**. Můžete také na panelu nástrojů Skupiny vybrat možnost **Vytvořit jedinečné**, poté vybrat skupinu, kterou chcete nastavit jako jedinečnou, a kliknout na ikonu **Dokončit**.
 
-**To ungroup a group from the Groups toolbar item,** select the group you want to change and choose the **Ungroup** icon from the Groups toolbar menu.This ungroups your current selection, but does not ungroup any nested groups. Alternatively, you can select **Ungroup** from the toolbar, select the group you want to change, and then select the **Finish** icon.
+**Chcete-li zrušit seskupení skupiny pomocí panelu nástrojů Skupiny**, vyberte skupinu, kterou chcete změnit, a v nabídce panelu nástrojů Skupiny vyberte ikonu **Zrušit seskupení**. Tím zrušíte seskupení aktuálního výběru, ale nezrušíte seskupení vnořených skupin. Případně můžete na panelu nástrojů vybrat možnost **Zrušit seskupení**, vybrat skupinu, kterou chcete změnit, a poté vybrat ikonu **Dokončit**.
 
-**To ungroup all groups nested below your currently selected group,** select a group with nested groups and choose **Ungroup All Nested** from the Groups toolbar.
+**Chcete-li zrušit seskupení všech skupin vnořených pod aktuálně vybranou skupinou**, vyberte skupinu s vnořenými skupinami a na panelu nástrojů Skupiny vyberte možnost **Zrušit seskupení všech vnořených**.
 
-**To ungroup all groups in your model,** select the **Ungroup All** tool from the Groups toolbar.
+**Chcete-li zrušit seskupení všech skupin v modelu**, vyberte na panelu nástrojů Skupiny možnost **Zrušit seskupení všeho**.
 
-## Groups and Revit
+## Skupiny a aplikace Revit
 
-If you're familiar with Revit **families**, then you are familiar with the concept of groups in FormIt. FormIt groups have features you can use to transfer them intelligently into Revit.
+Pokud jste obeznámeni s **rodinami** aplikace Revit, jste obeznámeni s koncepcí skupin v aplikaci FormIt. Skupiny aplikace FormIt mají funkce, které lze použít k jejich inteligentnímu přenosu do aplikace Revit.
 
-**FormIt Group Categories**
+**Kategorie skupin aplikace FormIt**
 
-You can specify the **categories** for groups in FormIt so that your FormIt groups become families of the same categories when you import them into Revit. You can assign categories to your FormIt groups by selecting a group, entering **Group Edit** mode, and using the **Properties** panel to choose categories. You can also assign categories in the **Groups Tree** panel.
+V aplikaci FormIt můžete zadat **kategorie** skupin tak, aby se z vašich skupin aplikace FormIt při importu do aplikace Revit staly rodiny stejných kategorií. Ke skupinám aplikace FormIt můžete přiřadit kategorie tak, že vyberete skupinu, přejdete do režimu **úprav skupiny** a pomocí panelu **Vlastnosti** vyberete požadované kategorie. Kategorie můžete také přiřadit na panelu **Strom skupin**.
 
-**FormIt Group Names**
+**Názvy skupin aplikace FormIt**
 
-You can also use the **Properties** panel to specify a name for your FormIt group. This can be helpful in navigating your own model, and when you import your model to Revit you can easily filter elementsusing the name of the group.
+K zadání názvu skupiny aplikace FormIt můžete použít také panel **Vlastnosti**. To může být užitečné při navigaci ve vlastním modelu a při importu modelu do aplikace Revit můžete prvky snadno filtrovat pomocí názvu skupiny.
 
-Note that **nested groups in FormIt are not imported into Revit as nested groups**. This prevents deeply-nested Revit families.
+Všimněte si, že **vnořené skupiny v aplikaci FormIt nejsou importovány do aplikace Revit jako vnořené skupiny**. Tím se zabrání hluboce vnořeným rodinám aplikace Revit.
+

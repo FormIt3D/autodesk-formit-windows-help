@@ -1,27 +1,28 @@
-# Boolean Cut
+# Booleovský řez
 
-You can cut one object or group from another with the Cut Tool. There are two ways to access the Cut tool:
+Pomocí nástroje Oříznout můžete oddělit jeden objekt nebo skupinu z jiného objektu nebo skupiny. Nástroj Oříznout lze použít dvěma způsoby:
 
-## Run the Cut command first
+## Jako první je spuštěn příkaz Oříznout
 
-Keyboard: C G
+Klávesnice: C G
 
-![](../.gitbook/assets/cut\_tool.png)
+![](../.gitbook/assets/cut_tool.png)
 
-Run the Cut command and follow the mode instruction in the upper left of the screen
+Spusťte příkaz Oříznout a postupujte podle pokynů v levé horní části obrazovky.
 
-Single-click to select an object to cut into:
+Kliknutím vyberte objekt, který chcete oříznout:
 
-![](../.gitbook/assets/boolean\_cut.png)
+![](../.gitbook/assets/boolean_cut.png)
 
-Single click to select an object(s) or group(s) to be removed:
+Kliknutím vyberte objekty nebo skupiny, které chcete odebrat:
 
-![](../.gitbook/assets/boolean\_cut2.png)
+![](../.gitbook/assets/boolean_cut2.png)
 
-Click the checkmark to finish the command. The object that was removed remains in the scene. You can delete it or use [Layers ](layers.md)to hide it.
+Kliknutím na značku zaškrtnutí dokončete příkaz. Odebraný objekt zůstane ve scéně. Můžete jej odstranit nebo skrýt pomocí možnosti [Hladiny](layers.md).
 
-## Select objects first
+## Jako první jsou vybrány objekty
 
-1. Double-click to select the object to be cut into. (Single-click for a Group)
-2. Holding the **CTRL key** double click an overlapping object(s) to cut out.
-3. Right-click on the object that will be cut, and choose the [**Cut tool**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) in the Context Menu. ![](<../.gitbook/assets/cut tool.png>)
+1. Dvojitým kliknutím vyberte objekt, který chcete oříznout. \(Jedním kliknutím vyberete skupinu.\)
+2. Podržte klávesu **Ctrl** a dvakrát klikněte na překrývající se objekty, které chcete oříznout.
+3. Klikněte pravým tlačítkem na objekt, který chcete oříznout, a v místní nabídce vyberte [**nástroj Oříznout**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md). ![](../.gitbook/assets/booleancut.png)
+

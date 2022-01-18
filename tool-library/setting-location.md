@@ -1,108 +1,99 @@
-# Setting Location
+# Umístění nastavení
 
-Setting your your project's location in the world it is important for the accuracy of your model and downstream analyses, including:
+Nastavení umístění projektu na světě je důležité pro přesnost modelu a následných analýz:
 
-* Location is used to import a satellite image which can be used to trace an existing site or building.
-* Location is used to import 3D terrain, which can be used to reference topological data for a site.
-* Location is used for accurate positioning of the sun in the sky, affecting the calculation of shadows.
-* Location is used for Solar Analysis and Energy Analysis to provide accurate analytical calculations.
+* Umístění slouží k importu satelitního snímku, který lze použít k trasování existujícího pozemku nebo budovy.
+* Umístění slouží k importu 3D terénu, který lze použít k odkazování na topologická data pozemku.
+* Umístění slouží k přesnému určení polohy slunce na obloze, což ovlivňuje výpočet stínů.
+* Umístění slouží k zajištění přesných analytických výpočtů při provádění analýzy slunečního záření a energetické analýzy.
 
-You'll need to be signed in with your Autodesk account to access the Set Location dialog and its services.
+Pro přístup k dialogu Nastavit umístění a jeho službám musíte být přihlášeni pomocí účtu Autodesk.
 
-### Getting Started With Location
+### Začínáme s umístěním
 
-* Launch the **Set Location** dialog from the **Location** tool in the toolbar, or with the keyboard shortcut SL.
+* Otevřete dialog **Nastavit umístění** pomocí nástroje **Umístění** na panelu nástrojů nebo pomocí klávesové zkratky SL.
 
-![](<../.gitbook/assets/location-toolbar (1).png>)
+![](../.gitbook/assets/location-toolbar.png)
 
-* Begin by typing the location of your project into the search box in the upper left hand corner of the _Set Location_ window.&#x20;
+* Začněte zadávat umístění projektu do vyhledávacího pole v levém horním rohu okna _Nastavit umístění_.
 
-![](<../.gitbook/assets/location-step-1 (1).png>)
+![](../.gitbook/assets/location-step-1%20%281%29.png)
 
-* Select one of the auto-populating location options, or hit Enter to choose the first one
-* You'll zoom in to the location you searched for automatically
+* Vyberte jednu z automaticky vyplňovaných možností umístění nebo stisknutím klávesy Enter vyberte první možnost.
+* Vyhledané umístění se automaticky přiblíží.
 
-### Set Location Only vs. Import Satellite Image and Terrain
+### Nastavení pouze umístění vs. import satelitního obrázku a terénu
 
-Once you've searched for a location, you can choose one of two options:
+Po vyhledání umístění si můžete vybrat jednu ze dvou možností:
 
-* **Set Location Only** will set the location in the file without importing satellite imagery.
-* **Import Satellite Image and Terrain** will set the location, and will also import satellite imagery and terrain using a zoom level and extents you can configure.
+* **Nastavit pouze umístění**: Nastaví umístění v souboru bez importu satelitního snímku.
+* **Importovat satelitní snímek a terén**: Nastaví umístění a také importuje satelitní snímek a terén s použitím úrovně přiblížení a rozsahu, které lze konfigurovat.
 
-### Importing Satellite Imagery
+### Import satelitních snímků
 
-* Click **Import Satellite Image and Terrain** at the top right of the **Set Location** window.
-* A preview of the satellite imagery will appear in the center of the window, along with an indication of where the FormIt origin will appear, relative to the imagery.
+* V pravé horní části okna **Nastavit umístění** klikněte na možnost **Importovat satelitní snímek a terén**.
+* Ve středu okna se zobrazí náhled satelitního snímku a údaj o tom, kde se vzhledem ke snímku zobrazí počáteční bod aplikace FormIt.
 
 ![](../.gitbook/assets/location-step-2.png)
 
-* Drag the satellite imagery within the square to adjust its position
-* Once the square area encapsulates the imagery you want, click **Finish Importing**
-* The image will be imported to scale, with true north facing up, centered at the FormIt canvas origin. You can change the transparency and Z-ordering of the imported image by double-clicking it and going to the [**Properties Palette**](../formit-introduction/tool-bars.md).&#x20;
+* Přetažením satelitního snímku v rámci čtverce upravte jeho polohu.
+* Jakmile čtvercová oblast obsahuje požadovaný snímek, klikněte na tlačítko **Dokončit import**.
+* Snímek bude importován ve správném měřítku se skutečným severem směrem nahoru a bude vystředěn na počátek kreslicí plochy aplikace FormIt. Průhlednost a pořadí vykreslování importovaného snímku můžete změnit tak, že na něj dvakrát kliknete a přejdete do [**palety Vlastnosti**](../formit-introduction/tool-bars.md).
 
 ![](../.gitbook/assets/location-step-3.png)
 
-### Updating Satellite Imagery
+### Aktualizace satelitního snímku
 
-After importing satellite imagery the first time, you can use the Set Location window to adjust the zoom level or extents of the satellite imagery.
+Po prvním importu satelitního snímku můžete v okně Nastavit umístění upravit úroveň přiblížení nebo rozsah satelitního snímku.
 
-* Start the **Set Location** window again by accessing it from the toolbar, as outlined above.
-* Click **Import Satellite Image and Terrain.**
-* You'll see the current satellite image zoom level and extents, as shown in the FormIt canvas
-* Simply adjust the position or zoom, and click **Finish Importing** as you did before
-* When the image is re-imported into the canvas, it will move to the correct location relative to the original image position (and may no longer be centered at the origin):
+* Znovu otevřete okno **Nastavit umístění** z panelu nástrojů, jak je popsáno výše.
+* Klikněte na tlačítko **Importovat satelitní snímek a terén**
+* Zobrazí se aktuální úroveň přiblížení a rozsah satelitního snímku, jak je znázorněno na kreslicí ploše aplikace FormIt.
+* Nyní stačí upravit polohu nebo přiblížení a kliknout na tlačítko **Dokončit import**, stejně jako předtím.
+* Po novém importu snímku na kreslicí plochu se snímek přesune do správného umístění vzhledem k původní poloze obrázku \(již nemusí být vystředěn v počátku\):
 
 ![](../.gitbook/assets/location-step-4.png)
 
-### Importing Terrain
+### Import terénu
 
-New in FormIt 2021.3, when you use the **Set Location** dialog to import satellite imagery, you'll also get terrain.
+Nově se v aplikaci FormIt 2021.3 při importu satelitních snímků pomocí dialogu **Nastavit umístění** importuje také terén.
 
-![](../.gitbook/assets/terrain-button\_original.png)
+![](../.gitbook/assets/terrain-button_original.png)
 
-When terrain is imported, it's placed on a layer, which is off by default (in case you've started modeling, your model may be covered by the terrain).
+Terén je při importu umístěn na hladině, která je ve výchozím nastavení vypnutá \(v případě, že jste začali modelovat, by model mohl být zakrytý terénem\).
 
-When you're ready to view terrain, toggle the Terrain layer by checking the box:
+Když budete připraveni zobrazit terén, zapněte hladinu Terén zaškrtnutím políčka:
 
-![](<../.gitbook/assets/terrain-layer (1) (1).png>)
+![](../.gitbook/assets/terrain-layer%20%281%29.png)
 
-![](../.gitbook/assets/terrain\_solid.png)
+![](../.gitbook/assets/terrain_solid.png)
 
-### Working with Terrain
+### Práce s terénem
 
-Terrain will be placed in a FormIt Group. Double-click the Group to edit it.
+Terén bude umístěn do skupiny aplikace FormIt. Dvakrát klikněte na skupinu, abyste ji mohli upravit.
 
-Inside, you'll find two Meshes: One for the sides and bottom, and one for the top.
+Uvnitř najdete dvě sítě: jednu pro strany a dolní část a jednu pro horní část.
 
-If you want to modify the terrain, you'll need to convert the Meshes to a single, solid object:
+Pokud chcete upravit terén, je nutné převést sítě na jeden objekt tělesa:
 
-* Select both Meshes
-* Right click, and choose the Meshes to Objects option, or use shortcut MO
+* Vyberte obě sítě.
+* Klikněte pravým tlačítkem a vyberte možnost Sítě na objekty nebo použijte klávesovou zkratku MO.
 
 ![](../.gitbook/assets/terrain-mesh-context.png)
 
-When converting both Meshes to an object at the same time, FormIt can combine them into a solid, manifold object, which can be used for solid operations like Boolean Cut.
+Při současném převodu obou sítí na objekt je aplikace FormIt může zkombinovat do tělesa, rozloženého objektu, který lze použít k operacím s tělesy, jako je booleovský řez.
 
-From here, you can use a combination of [Top View](orthographic-views.md) and [Orthographic Camera](orthographic-camera.md) to trace your site boundary on a horizontal plane, then extrude that plane into a volume that intersects the terrain. Using a transparent [material](materials.md) helps so you can see the terrain through your cutting solid:
+Zde můžete pomocí kombinace možností [Horní pohled](orthographic-views.md) a [Ortografická kamera](orthographic-camera.md) trasovat hranice pozemku v horizontální rovině a poté tuto rovinu vysunout do objemu, který protíná terén. Použití průhledného [materiálu](materials.md) pomáhá zobrazit terén skrz ořezávané těleso:
 
 ![](../.gitbook/assets/terrain-cutter-before.png)
 
-Use the Cut Geometry tool, and select the terrain as the "Solid to be cut into" and the cutting volume as the "Solid to be removed."
+Použijte nástroj Oříznout geometrii a vyberte terén jako „těleso, do kterého má být proveden řez“, a objem řezání jako „těleso, které má být odebráno“.
 
 ![](../.gitbook/assets/terrain-cut-menu.png)
 
-The result will be the terrain with your cutting solid removed, exposing void where you can draw your new site and foundation.
+Výsledkem bude terén s odebraným tělesem a prázdným místem, kam můžete nakreslit nový pozemek a základy.
 
 ![](../.gitbook/assets/terrain-cutter-after.png)
 
-You can use [layers](layers.md) to hide the cutting solid, or even make copies of the terrain with and without the cut, in case you need to reference the original terrain, or change the cut shape before executing the solid cut operation.
+Pomocí [hladin](layers.md) můžete těleso oříznutí skrýt nebo dokonce vytvořit kopie terénu s řezem a bez něj pro případ, že byste potřebovali odkazovat na původní terén nebo změnit tvar řezu před provedením operace řezu objemovým tělesem.
 
-### Troubleshooting the Set Location Dialog
-
-Setting a location in FormIt requires an internet connection to download satellite and terrain data from Bing Maps.
-
-Additionally, because Set Location dialog is a FormIt plugin under the hood, it requires access to GitHub to function. If you're having issues with the Set Location dialog, check that you have access to [https://github.io](https://github.io):&#x20;
-
-* Go to your web browser.
-* Try navigating to [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)
-* If you don't see some data show up, your network or firewall may be blocking access to GitHub.

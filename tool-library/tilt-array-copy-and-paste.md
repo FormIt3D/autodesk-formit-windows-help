@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# Plochy: Náklon a Ploška/Hladká
 
-## Working with Faces: Tilt and Facet/Smooth
+## Práce s plochami: Náklon a Ploška/Hladká
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+Chcete-li vytvořit složitější návrhy po načrtnutí tvaru nebo umístění základního tělesa, můžete upravit geometrii pomocí několika kontextových nástrojů. Mezi tyto operace patří Náklon, Pole a Kopírovat a vložit.
 
-### Tilt Face
+### Náklon plochy
 
-To **tilt a face:**
+Chcete-li **naklonit plochu**, postupujte následovně:
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. Vyberte plochu a kliknutím pravým tlačítkem myši zobrazte místní nabídku.
+2. V místní nabídce vyberte ikonu **Náklon**.
+3. Definujte osu náklonu nakreslením čáry.
+4. Kliknutím na třetí bod spusťte operaci náklonu.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### Oploškování hladkých ploch
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+Pokud umístíte kurzor na plochu a všimnete si tečkovaných čar, znamená to, že plocha je tvořena menšími plochami, protože je deformovaná. **Převedení tečkovaných čar na hrany modelu:**
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. Vyberte plochu nebo objekt, který chcete změnit, a kliknutím pravým tlačítkem zobrazte místní nabídku.
+2. V místní nabídce vyberte nástroj **Oploškovat hladké plochy**.
+3. Hrany se automaticky přidají tam, kde byla dříve hladká plocha.
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+Tento příkaz funguje i opačným způsobem: můžete vybrat plochy, které jsou složené z plošek, a výběrem nástroje **Oploškovat hladké plochy** v místní nabídce skrýt hrany a nastavit plochy tak, aby vypadaly hladce.
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

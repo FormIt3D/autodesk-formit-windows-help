@@ -1,21 +1,22 @@
-# Delete, Edit, Move
+# Odstranění, úpravy, přesunutí
 
-Remove an object, change its location, or modify its properties.
+Odstraňte objekt, změňte jeho umístění nebo upravte jeho vlastnosti.
 
-## Delete
+## Odstranění
 
-First, make a geometry selection. Then, right-click to see the Context Menu where you can click on the **Delete Tool**. You can also press the delete key on your keyboard.
+Nejprve vytvořte výběr geometrie. Poté kliknutím pravým tlačítkem myši zobrazte místní nabídku a klikněte na **nástroj Odstranit**. Můžete také stisknout klávesu Delete na klávesnici.
 
-![](<../.gitbook/assets/delete (1).png>)
+![](../.gitbook/assets/delete%20%281%29.png)
 
-## Edit
+## Úpravy
 
-When using many of the editing tools like Move, Array, Push-Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also simply start typing a numeric value to access the Edit Dimension dialog. Alternatively, you can hit Tab to bring up the Edit Dimension dialog, but Tab is no longer required with FormIt for Windows v17 and newer.
+Při použití mnoha nástrojů pro úpravy, jako jsou například Přesunout, Pole, Zatlačit/Vytáhnout plochu a Odsazení, se zobrazí modrý rámeček kóty. Po dokončení operace můžete na tuto kótu kliknout a zadat konkrétní hodnotu. Můžete také jednoduše začít psát číselnou hodnotu, čímž zobrazíte dialog Upravit kótu. Případně můžete dialog Upravit kótu vyvolat stisknutím klávesy Tab, ale v aplikaci FormIt pro Windows verze 17 a novějších verzích již není klávesa Tab vyžadována.
 
-![](<../.gitbook/assets/edit\_dimensions (1).png>)
+![](../.gitbook/assets/edit_dimensions.png)
 
-## Move Edges, Faces, or Objects
+## Posunutí hran, ploch nebo objektů
 
-First select the edge, face, or object. The move tool is automatically activated. Hover to see snaps and inference points to specify where you want to start your move operation, click to start. Now hover your mouse to see snaps and inference points to the location you want to move the object. Click again to place the object.
+Nejprve vyberte hranu, plochu nebo objekt. Nástroj Přesunout se automaticky aktivuje. Přesunutím kurzoru zobrazte body uchopení a odvození, pomocí nichž určete, kde chcete zahájit operaci přesunutí, a kliknutím ji spusťte. Nyní přesunutím kurzoru myši zobrazte body uchopení a odvození v umístění, do kterého chcete objekt přesunout. Dalším kliknutím objekt umístěte.
 
-![](../.gitbook/assets/edit\_edge.png)
+![](../.gitbook/assets/edit_edge.png)
+

@@ -1,3 +1,4 @@
-# Shell
+# Skořepina
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+Z objektu tělesa můžete vytvořit „skořepinu“ zadané šířky. Skořepiny jsou užitečné pro rychlé vytváření stěn z objemového modelu:
+

@@ -1,12 +1,13 @@
-# Scale Object
+# Měřítko objektu
 
-You can use the **Scale tool** to adjust the size and orientation of objects.
+Pomocí **nástroje Měřítko** můžete upravit velikost a orientaci objektů.
 
-1. Select an object you want to adjust.&#x20;
-2. Right-click to launch the **Context Menu**.&#x20;
-3. From the Context Menu, select the **Scale tool**.&#x20;
-4. Use the scroll wheel on your mouse to scale the geometry up or down.
+1. Vyberte objekt, který chcete upravit.
+2. Kliknutím pravým tlačítkem myši zobrazte **místní nabídku**.
+3. V místní nabídce vyberte **nástroj Měřítko**.
+4. Pomocí kolečka myši můžete změnit měřítko geometrie nahoru nebo dolů.
 
 ![](../.gitbook/assets/scale1.png)
 
 ![](../.gitbook/assets/scale2.png)
+

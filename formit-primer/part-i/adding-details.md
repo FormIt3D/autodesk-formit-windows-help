@@ -1,128 +1,129 @@
-# 1.9 - Adding Details
+# 1.9 – Přidání detailů
 
-_FormIt is a great massing tool - as well as a great modeling tool. We will start to add detail to the Farnsworth House in the form of doors and mullions for the glass box. We will then cover some additional tools, and practice the process of adding new geometry, layers, materials, and group management._
+_FormIt je skvělý objemový nástroj a také skvělý nástroj pro modelování. Do domu Farnsworth House začneme přidávat detaily v podobě dveří a příčlí pro obvodové zasklení. Poté se zaměříme na některé další nástroje a procvičíme si přidávání nové geometrie, hladin, materiálů a správu skupin._
 
-_If you did not complete the last section, download and open the_ _**1.9 - Adding Details.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.9 – Adding Details.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
-## **Create Window Frames**
+## **Vytvoření okenních rámů**
 
-_We are going to create a 2" metal frame and mullions around the glass box. Note that these mullions will intentionally overlap with the glass box._
+_Kolem skleněné kóje vytvoříme 2" kovový rám a příčle. Všimněte si, že tyto příčle se záměrně překrývají se skleněnou kójí._
 
-1 - Create a new layer called **Glass Walls** and move the **Glass Wall** group to it.
+1 – Vytvořte novou hladinu s názvem **Skleněné stěny** a přesuňte do ní skupinu **Skleněná stěna**.
 
-2 - To facilitate visualization, turn off the **Roof** layer so we can see the entire glass box.
+2 – Kvůli usnadnění vizualizace vypněte hladinu **Střecha**, abychom viděli celou skleněnou kóji.
 
-3 - To start creating the first window frame:
+3 – Začněte vytvářet první okenní rám:
 
-1. At the building’s western side, use the **Rectangle Tool (R)** to draw a new surface directly over the exterior glass face. Make sure to create the surface outside the **Glass Walls** group.
-2. Select and drag the newly created face **2"** towards the interior. Press **Esc** to clear the selection. The final result should look like the image below.
-3. Single-click the face you just created. Right-click to access the **Context Menu** to use the **Offset Face tool (OF).**
+1. Na západní straně budovy nakreslete pomocí nástroje **Obdélník \(R\)** novou plochu přímo nad vnější skleněnou plochou. Ujistěte se, že jste plochu vytvořili mimo skupinu **Skleněné stěny**.
+2. Vyberte nově vytvořenou plochu a přetáhněte ji o **2"** směrem dovnitř. Stisknutím klávesy **Esc** výběr zrušte. Konečný výsledek by měl vypadat jako na obrázku níže.
+3. Klikněte na plochu, kterou jste právě vytvořili. Kliknutím pravým tlačítkem myši zobrazte **místní nabídku**, ve které zvolte nástroj **Odsadit plochu \(OF\).**
 
-_**Note:**_ _If you have trouble selecting the new face, press the_ _**Space Bar**_ _key to alternate between different selectable objects, or temporarily turn off the_ _**Glass Walls**_ _layer._
+_**Poznámka:**_ _Pokud máte potíže s výběrem nové plochy, můžete stisknutím_ _**mezerníku**_ _střídavě vybírat různé objekty nebo dočasně vypněte hladinu_ _**Skleněné stěny**_ _._
 
 ![](../../.gitbook/assets/0.jpeg)
 
-4 - To set the offset dimension, move your mouse toward the inside of the face, and enter **2"** to create a new smaller rectangle.
+4 – Nastavte kótu odsazení tak, že přesunete ukazatel myši směrem dovnitř plochy a zadáním hodnoty **2"** vytvořte nový menší obdélník.
 
-![](<../../.gitbook/assets/1 (9).png>)
+![](../../.gitbook/assets/1%20%289%29.png)
 
-5 - Single-click to select the interior rectangle you just created. Click again and drag the face towards the building’s interior until it disappears. Click once more to finish removing the center volume from the frame geometry.
+5 – Kliknutím vyberte vnitřní obdélník, který jste právě vytvořili. Znovu klikněte a přetáhněte plochu směrem dovnitř budovy, dokud nezmizí. Dalším kliknutím dokončete odstranění středového objemu z geometrie rámu.
 
-![](<../../.gitbook/assets/2 (21).png>)
+![](../../.gitbook/assets/2%20%2821%29.png)
 
-6 - Double-click to select the geometry we just created and **Group (G)** it. Name the group **Mullion Frame – EW**.​
+6 – Dvojitým kliknutím vyberte právě vytvořenou geometrii a vytvořte pro ni **skupinu \(G\)**. Pojmenujte tuto skupinu **Rám příčle – VZ**.​
 
-7 - Create a Layer named **Mullion** and place the new group on it.
+7 – Vytvořte hladinu s názvem **Příčel** a umístěte do ní novou skupinu.
 
-8 - To set the frame’s material:
+8 – Nastavte materiál rámu:
 
-1. Inside the **Materials Palette**, duplicate the **Metal – Brushed – Colorized** material by right-clicking on it and selecting **Duplicate Material**.
-2. Double-click the new material’s preview tile to edit it.
-3. Rename it to **Metal – Brushed – Gray**.
-4. Modify the material’s color by clicking on the **Color** tile in the **Maps** section, and darken the grey by changing the **Val:** to **150**.
+1. Na **paletě Materiály** duplikujte materiál **Kov – kartáčovaný – zbarvený** tak, že na něj kliknete pravým tlačítkem a vyberete možnost **Duplikovat materiál**.
+2. Dvakrát klikněte na náhled nového materiálu, který chcete upravit.
+3. Přejmenujte jej na **Kov – kartáčovaný – šedý**.
+4. Upravte barvu materiálu kliknutím na dlaždici **Barva** v části **Mapy** a ztmavte šedou barvu tak, že položku **Val:** nastavíte na hodnotu **150**.
 
-![](<../../.gitbook/assets/3 (4).png>)
+![](../../.gitbook/assets/3%20%284%29.png)
 
-9 - Click **OK** to save these changes to the new material, and then paint the **Mullion Frame – EW** group with it. Afterward, the group's **Properties Palette** should match what is shown in the below image:
+9 – Kliknutím na tlačítko **OK** uložte změny do nového materiálu a poté jím pomalujte skupinu **Rám příčle – VZ**. Poté by **paleta Vlastnosti** skupiny měla odpovídat tomu, co je znázorněno na následujícím obrázku:
 
-![](<../../.gitbook/assets/4 (2).jpeg>)
+![](../../.gitbook/assets/4.jpeg)
 
-10 - Create a new instance of the frame on the eastern side by using any of the following tools: **Quick copy**, **Array,** or **Mirror**.
+10 – Vytvořte novou instanci rámu na východní straně pomocí některého z následujících nástrojů: **Rychlé kopírování**, **Pole** nebo **Zrcadlit**.
 
-11 -Repeat the steps above for the North and South sides of the glass box. Name the new group **Mullion Frame – NS**. Don’t forget to paint them and place them on the **Mullion** layer!
+11 – Opakujte výše uvedené kroky pro severní a jižní stranu skleněné kóje. Novou skupinu pojmenujte **Rám příčle – SJ**. Nezapomeňte plochy pomalovat a umístit do hladiny **Příčel**.
 
-![](<../../.gitbook/assets/5 (16) (1).png>)
+![](../../.gitbook/assets/5%20%2816%29.png)
 
-_**Note:**_ _The mullion frames overlap each other at the corners. This is intentional. The above result shows the resulting mullion frame geometry with the_ _**Glass Wall**_ _and_ _**Column**_ _layers turned off._
+_**Poznámka:**_ _Rámy příčlí se v rozích navzájem překrývají, což je záměrné. Výše uvedený výsledek zobrazuje výslednou geometrii rámů příčlí s vypnutými hladinami_ _**Skleněná stěna**_ _a_ _**Sloup**_ _._
 
-**Create Mullions**
+**Vytvoření příčlí**
 
-1 - In plane with the exterior glass face on the building’s South or North side, draw a **2” x 10’-10” Rectangle (R)** spanning from between the bottom and top of the mullion frame. Do not worry about the exact position of the rectangle along the frame, we will move it into place in the following steps.
+1 – V rovině s vnější skleněnou plochou na jižní nebo severní straně budovy nakreslete **obdélník \(R\) o rozměrech 2" x 10’-10"**, který se nachází mezi spodní a horní částí rámu příčle. Nedělejte si starosti s přesnou polohou obdélníku podél rámu, v následujících krocích jej přesuneme na místo.
 
-![](<../../.gitbook/assets/6 (11).png>)
+![](../../.gitbook/assets/6%20%2811%29.png)
 
-2 - Extrude the rectangle back **2”**, and then **Group (G)** it and name the group **Mullion – Vertical**. Place the group on the **Mullion** layer and paint it with the **Metal – Brushed – Grey** material.
+2 – Vysuňte obdélník zpět o **2"**, poté z něj vytvořte **skupinu \(G\)** a pojmenujte ji **Příčel – vertikální**. Umístěte skupinu do hladiny **Příčel** a pomalujte ji materiálem **Kov – kartáčovaný – šedý**.
 
-**Locating the Mullions**
+**Umístění příčlí**
 
-_Now we will set the location for the first mullion so that its centered on the_ _**Mid-Point**_ _of a column._
+_Nyní nastavíme umístění první příčle tak, aby byla vystředěna na_ _**střed**_ _sloupu._
 
-1 - To see the columns again, turn on the **Column** layer, if it was off. While you are in the **Layers Palette**, you can also turn off the **Lower Terrace** and **Plan Image** layers to make the next steps easier.
+1 – Zobrazte znovu sloupy zapnutím hladiny **Sloup** \(pokud byla vypnutá\). Na **paletě Hladiny** můžete také vypnout hladiny **Dolní terasa** a **Obrázek půdorysu**, aby byly další kroky jednodušší.
 
-2 - To move the mullion to its new location:
+2 – Přesunutí příčle do nového umístění:
 
-1. Single-click to select the vertical mullion group you just created. **Zoom (Z)** in and click on the **Mid-Point** of the mullion’s bottom exterior edge, symbolized by a red triangle**.**
-2. Start moving the geometry horizontally towards a column. Press **Shift** to lock the movement in the red axis (**X Axis**). Note that once the movement is locked the red axis gets thicker.
-3. Zoom out until you can see the base of the column. While still holding **Shift**, click on the **Mid-Point** at the base of the column's outer face. The mullion will continue to only move along the red axis (**X Axis**), but will align to the **Mid-Point** you just clicked on.
+1. Kliknutím vyberte skupinu vertikálních příčlí, kterou jste právě vytvořili. **Přibližte \(Z\)** pohled a klikněte na **střed** dolní vnější hrany příčle, znázorněnou červeným trojúhelníkem**.**
+2. Začněte přesouvat geometrii horizontálně směrem ke sloupu. Stisknutím klávesy **Shift** uzamkněte pohyb v červené ose \(**osa X**\). Všimněte si, že jakmile je pohyb uzamknut, červená osa se zvýrazní.
+3. Oddalujte pohled, dokud se nezobrazí základna sloupu. Se stisknutou klávesou **Shift** klikněte na **střed** základny vnější plochy sloupu. Příčel se bude nadále pohybovat pouze podél červené osy (**osa X**\), ale bude zarovnána ke **středu**, na který jste právě kliknuli.
 
-![](<../../.gitbook/assets/7 (1) (1).jpeg>)
+![](../../.gitbook/assets/7%20%281%29.jpeg)
 
-_**Note:**_ _The mullion is now directly behind the column. Turn off the_ _**Column**_ _layer or_ _**Orbit (O)**_ _to visualize the mullion._
+_**Poznámka:**_ _Příčel je nyní přímo za sloupem. Vypněte hladinu_ _**Sloup**_ _nebo_ pomocí nástroje _**Orbit \(O\)**_ _otáčejte pohled, abyste zobrazili příčel._
 
-3 - Press **Esc** to clear the **Move** tool.
+3 – Stisknutím klávesy **Esc** zrušte výběr nástroje **Přesunout**.
 
-4 - Use the **Array (AR)** or **Quick Copy** tool to create four (4) more vertical mullions along the same side, spaced **11’** apart. To learn how to use the **Array Tool**, refer to previous chapters.
+4 – Pomocí nástroje **Pole \(AR\)** nebo **Rychlé kopírování** vytvořte další čtyři \(4\) vertikální příčle podél stejné strany rozmístěné **11’** od sebe. Informace o používání **nástroje Pole** naleznete v předchozích kapitolách.
 
-5 - Use the Tab key to select all the **Vertical** Mullion groups, and copy them to the opposite side of the building, so that both the **North** and **South** frames have identical mullion layouts, as shown in the next image:
+5 – Pomocí klávesy Tab vyberte všechny skupiny **vertikálních** příčlí a zkopírujte je na opačnou stranu budovy tak, aby **severní** i **jižní** rám měly stejná rozvržení příčlí, jak je znázorněno na následujícím obrázku:
 
-![](<../../.gitbook/assets/8 (6).png>)
+![](../../.gitbook/assets/8%20%286%29.png)
 
-## **Create the Door Mullions**
+## **Vytvoření dveřních příčlí**
 
-1 - **Orbit (O)** the perspective view until you are looking at the center of the West mullion frame.
+1 – Nástrojem **Orbit \(O\)** otáčejte perspektivní pohled, dokud se nebudete dívat na střed západního rámu příčle.
 
-2 - Similar to creating mullion frames, draw a **3’-6”** wide door panel with a **2”x 2”** frame. Make it a **Group (G)** with the properties: Group Name: **Curtain Wall Door**; layer: **Mullion**; material: **Metal – Brushed – Grey**.
+2 – Podobně jako při vytváření rámů příčlí nakreslete **3’-6"** široký dveřní panel s rámem **2" x 2"**. Vytvořte z něj **skupinu \(G\)** s těmito vlastnostmi: Název skupiny: **Dveře obvodového pláště**; hladina: **Příčel**; materiál: **Kov – kartáčovaný – šedý**.
 
-3 - Copy this group to create the second door frame, and move them so that they are centered in the **Mullion Frame – EW** group, as shown below.
+3 – Zkopírováním této skupiny vytvořte druhý rám dveří a přesuňte oba rámy tak, aby byly vystředěny ve skupině **Rám příčle – VZ**, jak je znázorněno níže.
 
 ![](../../.gitbook/assets/9.jpeg)
 
-## **Create Roof Cornice with Sweep**
+## **Vytvoření střešní římsy tažením**
 
-_We will now create the cornice of the Farnsworth House using one of FormIt’s advanced modeling tools -_ _**Sweep**. To learn about other advanced modeling, check out the_ **2.2 -** _**Advanced Modeling** chapter_ _in the_ _**FormIt Primer - Part II**._
+_Nyní vytvoříme římsu domu Farnsworth House pomocí jednoho z pokročilých modelovacích nástrojů aplikace FormIt –_ _**Tažení**. Další informace o pokročilém modelování naleznete v kapitole_ **2.2 –** _**Pokročilé nástroje modelování** _v _příručce_ _**Základy aplikace FormIt, Část II**._
 
-_The first step into creating a_ _**Sweep**_ _is to draw a profile perpendicular to the sweep “extrusion”. To do that, we will use the roof geometry as a guide._
+_Prvním krokem k vytvoření_ _**tažení**_ _je nakreslení profilu kolmého k „vysunutí“ tažení. K tomu použijeme jako vodítko geometrii střechy._
 
-1 - Turn on the **Roof** layer and zoom in to one of its corners.
+1 – Zapněte hladinu **Střecha** a přibližte jeden z rohů.
 
-2 - Using one of the roof’s vertical sides as a reference, draw two adjacent rectangles. The first will be **6”** high by **4 5/8**” wide, and the second is **2”x 2”**. Delete the line dividing the two rectangles to create a single face. The result should look as below.
+2 – Použijte jako referenci jednu z vertikálních stran střechy a nakreslete dva sousedící obdélníky. První je **6"** vysoký a **4 5/8"** široký a druhý má rozměry **2" x 2"**. Odstraněním čáry, která rozděluje dva obdélníky, vytvořte jednu plochu. Výsledek by měl vypadat, jak je zobrazeno níže.
 
-![](<../../.gitbook/assets/10 (1).jpeg>)
+![](../../.gitbook/assets/10.jpeg)
 
-3 - To create the sweep:
+3 – Vytvořte tažení:
 
-1. With no selected geometry, click on the **Advanced Modeling Tools** button in the **Standard Toolbar**, and select **Sweep (SW)**.
-2. The **Sweep Selection Wizard** will start and prompt you to **Select a face (or edges) for sweep profile**. Select the profile face we just created.
-3. Once the profile is selected, you will be prompted to **Select a face (or edge) for sweep path, then click finish**. Select the top face of the roof. FormIt will automatically use the boundaries of the selected face as the sweep’s path, and the sweep will be created around the entire roof.
+1. Bez vybrané geometrie klikněte na **panelu nástrojů Standard** na tlačítko **Pokročilé nástroje modelování** a vyberte možnost **Tažení \(SW\)**.
+2. Spustí se **Průvodce výběrem tažení** a zobrazí se výzva **Vyberte plochu \(nebo hrany\) pro profil tažení**. Vyberte plochu profilu, kterou jste právě vytvořili.
+3. Po výběru profilu se zobrazí výzva **Vyberte plochu \(nebo hrany\) pro trajektorii tažení a poté klikněte na tlačítko Dokončit**. Vyberte horní plochu střechy. Aplikace FormIt automaticky použije hranice vybrané plochy jako trajektorii tažení a kolem celé střechy bude vytvořeno tažení.
 
-_**Note:**_ _If you are having trouble selecting either of the faces,_ _**Orbit (O)**_ _around to view the face a little better and try again. As an alternate option, select all the edges of the roof instead of the roof’s top face to complete the sweep._
+_**Poznámka:**_ _Pokud máte potíže s výběrem některé z ploch, zobrazte si pomocí nástroje_ _**Orbit \(O\)**_ _plochu trochu lépe a zkuste to znovu. Případně můžete tažení dokončit výběrem všech okrajů střechy místo horní plochy střechy._
 
-![](<../../.gitbook/assets/11 (2).png>)
+![](../../.gitbook/assets/11%20%282%29.png)
 
-4 - Keep your model organized by creating a **Roof - Cornice** group, adding it to the **Roof** layer, and assigning the **Metal – Brushed – Colorized** material to it.
+4 – Nyní si model uspořádejte: vytvořte skupinu **Střecha – římsa**, přidejte ji do hladiny **Střecha** a přiřaďte k ní materiál **Kov – kartáčovaný – zbarvený**.
 
-![](<../../.gitbook/assets/12 (1).png>)
+![](../../.gitbook/assets/12%20%281%29.png)
 
-5 - To finish up, turn on the **Column** layer, and you will see that the newly created sweep intersects with the tops of the columns. Resolve this by editing any one of the **Column Tall** groups, and dragging the top face down until it aligns with the bottom of the cornice.
+5 – Na závěr zapněte hladinu **Sloup**. Jak vidíte, nově vytvořené tažení protíná horní části sloupů. Tento problém vyřešíte tak, že upravíte některou ze skupin **Vysoký sloup** a přetáhnete horní plochu dolů, dokud nebude zarovnána s dolní částí římsy.
 
-![](<../../.gitbook/assets/13 (5).png>)
+![](../../.gitbook/assets/13%20%285%29.png)
+

@@ -1,19 +1,20 @@
-# Lines
+# Čáry
 
-Use lines to divide faces and construct geometry.
+Pomocí čar můžete rozdělit plochy a vytvořit geometrii.
 
-Keyboard: L
+Klávesnice: L
 
-![](../.gitbook/assets/line\_toolbar.png)
+![](../.gitbook/assets/line_toolbar.png)
 
-You can draw lines on the X, Y, or Z axis and also on existing geometry. When you snap to an axis, a colored line extends beyond the line you are drawing indicating which the axis you are drawing on. You can see the length of the line as you draw, and you can manually enter a specfic length by pressing **tab** and enter a value.
+Čáry můžete kreslit na ose X, Y nebo Z a také na existující geometrii. Při přichycení k ose se za kreslenou čáru prodlouží barevná čára označující osu, na kterou kreslíte. Během kreslení vidíte délku čáry, přičemž stisknutím klávesy **Tab** a zadáním hodnoty můžete ručně zadat konkrétní délku.
 
-Line colors by axis:
+Barvy čar podle osy:
 
-To specify a length, simply type a dimension value, and an Edit Dimension dialog will appear. Hit OK or press Enter to accept the value.
+Chcete-li zadat délku, stačí zadat hodnotu kóty a zobrazí se dialog Upravit kótu. Kliknutím na tlačítko OK nebo stisknutím klávesy Enter hodnotu potvrďte.
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = červená
+* Y = zelená
+* Z = modrá
 
 ![](../.gitbook/assets/lines.png)
+

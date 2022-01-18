@@ -1,15 +1,16 @@
-# Model Tree
+# Strom modelu
 
-The Model Tree provides a way to view the topological hierarchy of your FormIt model.
+Strom modelu umožňuje zobrazit topologickou hierarchii modelu aplikace FormIt.
 
-Enable the Model Tree by going to the Window menu, and checking the box next to Model Tree.
+Strom modelu povolíte v nabídce Okno zaškrtnutím políčka vedle položky Strom modelu.
 
 ![](../.gitbook/assets/model-tree-menu.png)
 
-Inside the Model Tree, each Group is identified as a History, since each Group has its own command history, or Undo/Redo stack.
+Ve stromu modelu je každá skupina označena jako Historie, protože každá skupina má vlastní historii příkazů nebo zásobník akcí Zpět/Znovu.
 
-Within each History, you'll see a list of nested Groups, instances, or geometric objects like bodies.
+V rámci každé historie se zobrazí seznam vnořených skupin, instancí nebo geometrických objektů, jako jsou tělesa.
 
-You can also view non-geometric attributes (string attributes) attached to FormIt objects using the Model Tree. [You can place string attributes on Groups created by the SendToFormIt node using Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+Pomocí stromu modelu můžete také zobrazit negeometrické atributy \(atributy řetězce\) připojené k objektům aplikace FormIt. [Atributy řetězce lze umístit do skupin vytvořených uzlem SendToFormIt pomocí aplikace Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
+

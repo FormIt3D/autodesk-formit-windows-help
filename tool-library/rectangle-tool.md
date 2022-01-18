@@ -1,23 +1,24 @@
-# Rectangle
+# Obdélník
 
-You can use the **Rectangle** tool in the **Create Sketch** toolbar menu to quickly draw a rectangular face. Extrude the face to create a rectangular volume.
+Pomocí nástroje **Obdélník**, který je dostupný v nabídce panelu nástrojů **Vytvořit náčrt**, můžete rychle nakreslit obdélníkovou plochu. Vysunutím plochy pak vytvoříte pravoúhlý objem.
 
-Keyboard shortcut: R
+Klávesová zkratka: R
 
-Use the axes to ensure you're drawing in the correct direction:
+Pomocí os se ujistěte, že kreslíte ve správném směru:
 
-You can draw rectangles on the X, Y, or Z-axis. As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
+Obdélníky můžete kreslit na ose X, Y nebo Z. Při kreslení můžete určit kótu zadáním hodnoty, čímž se zobrazí dialog Upravit kótu. Stisknutím klávesy Enter nebo kliknutím na tlačítko OK potvrďte kótu.
 
-To draw a rectangle, click to set the first point in your sketch.
+Chcete-li nakreslit obdélník, kliknutím nastavte první bod v náčrtu.
 
-Line colors by axis:
+Barvy čar podle osy:
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = červená
+* Y = zelená
+* Z = modrá
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-When you finish drawing the rectangle, it becomes a face that can be extruded to create a volume.
+Po dokončení kreslení obdélníku se z něj stane plocha, kterou lze vysunout a vytvořit tak objem.
+

@@ -1,46 +1,47 @@
-# Plug-Ins
+# Moduly plug-in
 
-Use the Plugin Manager to install useful plugins from the FormIt Team, or learn how to [**build your own FormIt plugins**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
+Pomocí nástroje Plugin Manager nainstalujte užitečné moduly ze služby FormIt Team, nebo se naučte, jak[**vytvářet vlastní moduly plug-in aplikace FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
 
-## The FormIt Plugin Manager
+#### Nástroj Plugin Manager aplikace FormIt
 
-The FormIt Plugin Manager works as a hub for discovering and managing Formit plugins.
+Nástroj Plugin Manager aplikace FormIt funguje jako centrum pro vyhledání a správu modulů plug-in pro aplikaci FormIt.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+Nástroj Plugin Manager je načten automaticky při spuštění aplikace FormIt, pokud má aplikace FormIt přístup k internetu.
 
-You can access the Plug-In Manager by clicking its tab icon on the right side of the application window:
+Nástroj Plugin Manager můžete otevřít kliknutím na jeho ikonu v pravé části okna aplikace:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-## The Plugin Manager categorizes different types of plugins:
+#### Nástroj Plugin Manager kategorizuje různé typy modulů plug-in:
 
-* **Installed plugins**
-* **Recommended plugins**
-  * Plugins that the FormIt team recommends to expand FormIt's core functionality and unlock new workflows.
-  * Community-developed plugins will appear here after being approved by the FormIt team. More details to come on this in the future.
-* **Public plugins**
-  * Plugins built by the community, but which have not been reviewed or approved by the FormIt team.
+* **Nainstalované moduly plug-in**
+* **Doporučené moduly plug-in**
+   * Moduly plug-in doporučované týmem aplikace FormIt. Tyto moduly rozšiřují základní funkce aplikace FormIt a odemykají nové pracovní postupy.
+   * Moduly plug-in vyvinuté komunitou se zde objeví po schválení týmem aplikace FormIt. Podrobnější informace budou k dispozici v budoucnu.
+* **Veřejné moduly plug-in**
+   * Moduly plug-in vytvořené komunitou, které však nebyly přezkoumány ani schváleny týmem aplikace FormIt.
 
-## The Plugin Manager is designed using a series of expandable and collapsible interfaces, which makes managing plugins and their repositories easy:
+#### Nástroj Plugin Manager se skládá z řady rozbalitelných a sbalitelných rozhraní, což usnadňuje správu modulů plug-in a jejich úložišť:
 
-* **Managing Plugins:**
-  * Click on a plugin name to see its description.
-  * Toggle the switch to install or uninstall it.
-    * The plugin will manifest as a toolbar at the top of the application, a panel on the right side, or a dialog in the middle, depending on the plugin type.
-* If you're [developing your own plugin](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), you can add its private URL into the field at the bottom and hit (+):
+* **Správa modulů plug-in:**
+   * Kliknutím na název modulu plug-in zobrazíte jeho popis.
+   * Přepnutím přepínače modul nainstalujete nebo odinstalujete.
+      * V závislosti na typu modulu plug-in se modul zobrazí jako panel nástrojů v horní části aplikace, panel na pravé straně nebo jako dialog uprostřed aplikace.
+* Pokud [vyvíjíte vlastní modul plug-in](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), můžete přidat jeho soukromou adresu URL do pole v dolní části a kliknout na tlačítko \(+\):
 
-![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
+![Nástroj Plugin Manager aplikace FormIt ](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-## How Plugins Work
+#### Jak moduly plug-in fungují
 
-* Plugins are web-based and available in FormIt for Windows and FormIt for Web.
-* Plugins are comprised of a series of files and folders hosted on GitHub, or on a local server when building your own.
-* External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
-  * External plugins will not load if no internet connection is detected when FormIt starts.
-  * Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.
-  * External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change.
-* Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
-* The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins.
-  * If you need to reset your Plugin Manager to its defaults, delete the following registry key:
-    * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
-    * Note this will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+* Moduly plug-in jsou webové a jsou k dispozici v aplikaci FormIt pro systém Windows a FormIt pro web.
+* Moduly plug-in se skládají z řady souborů a složek, které jsou uloženy na GitHubu (nebo na místním serveru, pokud si vytváříte vlastní).
+* Externí moduly plug-in \(moduly plug-in, které nejsou hostovány místně\) vyžadují k počátečnímu načtení připojení k internetu, což znamená:
+   * Externí moduly plug-in nebudou načteny, pokud při spuštění aplikace FormIt není zjištěno připojení k internetu.
+   * Po načtení mohou některé externí moduly plug-in pro danou relaci pokračovat v práci v režimu offline, ale jiné se mohou přerušit, dokud nebude obnoveno připojení.
+   * Externí moduly plug-in načítají nejnovější kód ze serveru při každém spuštění, takže jejich funkce se aktualizují vždy, když autor publikuje změnu.
+* Moduly plug-in se načítají asynchronně, což znamená, že pořadí modulů plug-in v rozhraní aplikace FormIt se může v každé nové relaci měnit.
+* Nástroj Plugin Manager používá v systému Windows k ukládání nainstalovaných úložišť a modulů plug-in klíče registru.
+   * Pokud potřebujete obnovit výchozí nastavení nástroje Plugin Manager, odstraňte následující klíč registru:
+      * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
+      * Upozorňujeme, že tímto způsobem odinstalujete všechny úložiště a moduly plug-in přidané uživatelem a obnovíte nástroj Plugin Manager tak, aby obsahoval pouze integrovaná úložiště a moduly plug-in.
+

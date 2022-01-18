@@ -1,45 +1,48 @@
-# Levels and Area
+# Podlaží a plocha
 
-After creating geometry in FormIt, you can apply Levels to indicate where floor elevations are, and to generate area calculations.
+Po vytvoření geometrie v aplikaci FormIt můžete použít podlaží k určení výšky podlaží a k výpočtům ploch.
 
-Take a look at the [FormIt Primer ](../formit-primer/part-i/adding-floors-with-levels.md)to see Levels in action.
+Prostudujte si [příručku k aplikaci FormIt ](../formit-primer/part-i/adding-floors-with-levels.md)a zjistěte, jak podlaží fungují.
 
-## Creating and Configuring Levels
+## Tvorba a konfigurace podlaží
 
-You'll find the Levels panel on the right side of FormIt for Windows:
+Panel Podlaží se nachází na pravé straně aplikace FormIt pro systém Windows:
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-### Create and Delete Levels
+#### Tvorba a odstraňování podlaží
 
-* Create a new Level by clicking the "+" button.
-* Create a series of Levels by clicking the "++" button.
-  * This will allow specifying how many Levels to create, and the vertical distance between them.
-* Select one or more Levels and click "-" to delete them.
+* Kliknutím na tlačítko „+“ vytvoříte nové podlaží.
+* Kliknutím na tlačítko „++“ vytvoříte řadu podlaží.
+   * Můžete určit, kolik podlaží se má vytvořit, a zadat svislou vzdálenost mezi nimi.
+* Chcete-li odstranit jedno nebo více podlaží, vyberte je a kliknutím na tlačítko „-“ je odstraňte.
 
-### Rename, Set Elevations, and Renumber Levels
+#### Přejmenování, nastavení výšek a přečíslování podlaží
 
-* Rename a Level by double-clicking on the name, or by right-clicking and choosing "Edit Name".
-* Adjust a Level's elevation by double-clicking on the number, or by right-clicking and choosing "Edit Elevation".
-* Click the Refresh icon at the top to renumber Levels.
-  * This is useful if you've added or removed levels, and the default naming scheme is out of sync (i.e. Level 1, Level 2, Level 5).
-  * This button will ignore any Levels with custom names, but will renumber any Levels with the name following the "Level 1" syntax.
+* Chcete-li přejmenovat některé podlaží, dvakrát klikněte na jeho název nebo klikněte pravým tlačítkem myši a vyberte položku Upravit název.
+* Výšku podlaží můžete upravit dvojitým kliknutím na číslo nebo kliknutím pravým tlačítkem myši a výběrem položky Upravit výšku.
+* Chcete-li podlaží přečíslovat, klikněte na ikonu Obnovit v horní části.
+   * To je užitečné, pokud jste přidali nebo odstranili podlaží a výchozí schéma pojmenování není synchronizované \(tj. Podlaží 1, Podlaží 2, Podlaží 5\).
+   * Toto tlačítko bude ignorovat všechna podlaží s vlastními názvy, ale přečísluje všechna podlaží s názvem, který se řídí syntaxí „Podlaží 1“.
 
-## Applying Levels
+## Použití podlaží
 
-To apply Levels to an object, you'll need to select the object and head over to the Properties panel.
+Chcete-li použít podlaží na objekt, je nutné vybrat objekt a přejít na panel Vlastnosti.
 
-Note that to apply Levels to an object, the object must be solid, with no back face or watertight issues. [Learn how to check your model for watertight and back face issues](https://formit.autodesk.com/blog/post/repairing-solid-models).
+Aby bylo možné použít podlaží na objekt, musí být objekt těleso, které nemá problémy se zadními plochami nebo vodotěsností. [Zjistěte, jak zkontrolovat, zda v modelu nejsou problémy s vodotěsností a zadními plochami](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-With a solid object selected in the canvas (in this example, a simple building shell), the Properties panel will show a "Use Levels" checkbox.
+Pokud je na kreslicí ploše vybrán objekt tělesa \(v tomto příkladu jednoduchá skořepina budovy\), na panelu Vlastnosti se zobrazí zaškrtávací políčko Použít podlaží.
 
-* If the FormIt sketch already has Levels defined (see above), then checking this box will use all Levels that would intersect this shape (ignoring any that would be too high or too low).
-* If the FormIt sketch does not have Levels already, checking this box will create enough default Levels.(12' floor-to-floor height) to intersect the entire shape, and will automatically apply those Levels to this object.
+* Jestliže již náčrt aplikace FormIt obsahuje definovaná podlaží \(viz výše\), zaškrtnutím tohoto políčka se použijí všechna podlaží, která by protínala tento tvar \(přitom budou ignorována všechna podlaží, která by byla příliš vysoko nebo příliš nízko\).
+* Pokud náčrt aplikace FormIt ještě podlaží neobsahuje, zaškrtnutím tohoto políčka se vytvoří dostatek výchozích podlaží \(s výškou 12' mezi podlažími\) protínající celý tvar a tato podlaží se automaticky použijí na tento objekt.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Levels + Revit
+## Podlaží a aplikace Revit
 
-When Levels are applied to FormIt geometry, those Levels will be sent to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit).
+Pokud jsou u geometrie aplikace FormIt použita podlaží, budou tato podlaží odeslána do aplikace Revit pomocí [doplňku aplikace FormIt](https://formit.autodesk.com/page/formit-revit).
 
-In Revit, you can use the FormIt levels to create Mass floors, Floor by Face, and floor plans associated with the FormIt Levels.
+V aplikaci Revit můžete pomocí podlaží aplikace FormIt vytvářet podlaží objemu, podlaží na ploše a půdorysy podlaží přidružené k podlažím aplikace FormIt.
+
+
+

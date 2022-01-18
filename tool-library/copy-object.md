@@ -1,28 +1,29 @@
-# Copy Object
+# Kopírování objektu
 
-There are three ways to copy an object.
+Objekt lze kopírovat třemi způsoby.
 
-**Copy Using the Context Menu**
+**Kopírování pomocí místní nabídky**
 
-1. Select the object by double-clicking it.
-2. Right-click the object.
-3. Select the [**Copy tool**](tilt-array-copy-and-paste.md) in the Context Menu.
-4. Right-click anywhere else in the scene and choose the **Paste button**.
+1. Dvojitým kliknutím vyberte požadovaný objekt.
+2. Klikněte pravým tlačítkem na objekt.
+3. V místní nabídce vyberte [**nástroj Kopírovat**](tilt-array-copy-and-paste.md).
+4. Klikněte pravým tlačítkem myši na libovolné místo ve scéně a vyberte příkaz **Vložit**.
 
-Note: This also works with **CTRL + C** or **V**. Use Paste In Place (**CTRL+Shift+V**) to paste an object exactly where it was copied from.
+Poznámka: Tento způsob funguje také s klávesovými zkratkami **Ctrl+C** a **Ctrl+V**. Pomocí příkazu Vložit na místo \(**Ctrl+Shift+V**\) vložíte objekt přesně na místo, odkud byl zkopírován.
 
-**Copy Using the CTRL Key**
+**Kopírování pomocí klávesy Ctrl**
 
-1. Select the object by clicking it (double-click to select a whole body or everything attached).
-2. Press and hold the **CTRL key** and start dragging the object, or start moving the object and then tap **CTRL**
-3. Instead of moving the object, you'll now be moving a copy of it.
-4. Note that Ctrl-copy does not currently work when Touch Mode is enabled.&#x20;
-   1. In Touch Mode, you'll need to use the copy/paste tools in the Context Menu (press and hold) or use Ctrl+C and Ctrl+V, then place the object down, and reposition it as needed.
+1. Vyberte požadovaný objekt tak, že na něj kliknete \(dvojitým kliknutím vyberte celé těleso nebo vše k němu připojené\).
+2. Stiskněte a podržte klávesu **Ctrl** a začněte táhnout objekt, nebo začněte přesouvat objekt a potom stiskněte klávesu **Ctrl**.
+3. Místo objektu nyní přesouváte jeho kopii.
+4. Všimněte si, že při zapnutém režimu dotykového ovládání kopírování s klávesou Ctrl nefunguje.
+   1. V režimu dotykového ovládání musíte použít nástroje pro kopírování/vkládání v místní nabídce \(stiskněte a podržte\) nebo použijte kombinaci kláves Ctrl+C a Ctrl+V, poté objekt umístěte dolů a přemístěte jej podle potřeby.
 
-**Copy Using the Array Tool**
+**Kopírování pomocí nástroje Pole**
 
-1. Select the object by double-clicking it
-2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
-3. Select the number of copies you want to make
-4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .**  ![](<../.gitbook/assets/array\_properties (2).png>)
+1. Dvojitým kliknutím vyberte požadovaný objekt.
+2. **Klikněte pravým tlačítkem** na objekt a vyberte [**nástroj Pole**](tilt-array-copy-and-paste.md).
+3. Zadejte požadovaný počet kopií.
+4. Zvolte, zda další tažení bude určovat vzdálenost mezi dvěma objekty, nebo celkovou délku pole.
+5. Klikněte na tlačítko **OK.**  ![](../.gitbook/assets/array_properties.png)
+

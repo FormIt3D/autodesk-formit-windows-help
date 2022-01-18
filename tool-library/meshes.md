@@ -1,89 +1,90 @@
-# Meshes
+# Sítě
 
-Starting in v17.0, FormIt offers a new type of geometry: Meshes.
+Počínaje verzí 17.0 nabízí aplikace FormIt nový typ geometrie: sítě.
 
-Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance.
+Sítě jsou zjednodušené reprezentace standardních objektů aplikace FormIt a umožňují výrazně zlepšit výkon geometrie s vysokým počtem polygonů, jako je nábytek, nebo 3D stafáž, jako jsou lidé, stromy, automobily a značení. Sítě jsou také vhodné pro složitou geometrii DWG, která by jinak mohla ovlivnit výkon aplikace FormIt.
 
-Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
+Objekty lze převést na sítě a sítě lze převést zpět na objekty bez ztráty dat. Některé typy souborů jsou automaticky importovány jako sítě, například OBJ, STL a DWG. Další informace o převodu mezi typy a dalších výhodách a omezeních sítí naleznete níže.
 
-## Converting Objects to Meshes
+### Převod objektů na sítě
 
-Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
+Na sítě lze převést libovolnou kombinaci vrcholů, hran, ploch nebo těles.
 
-Simply select Objects, and either use shortcut OM (Objects to Meshes) or right-click and select Objects to Meshes in the Context Menu:
+Jednoduše vyberte objekty a buď použijte klávesovou zkratku OM \(Objekty na sítě\), nebo klikněte pravým tlačítkem a v místní nabídce vyberte položku Objekty na sítě:
 
-![](../.gitbook/assets/context-menu\_object-to-mesh.PNG)
+![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Once the Objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Po převodu objektů na sítě se v horní části obrazovky zobrazí potvrzovací zpráva:
 
-![](../.gitbook/assets/success\_object-to-mesh.PNG)
+![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**When converting Objects to Meshes:**
+**Při převodu objektů na sítě platí:**
 
-* Edges that were smoothed on the Objects will remain smoothed in the resulting Meshes.
-* Material orientations on the Objects will remain unchanged in the resulting Meshes.
-* A Mesh is created for every material applied. For example, if you convert a single cube painted 6 different colors, you'll get 6 different Meshes.
-  * Converting back to an Object will re-seal the individual meshes back into a solid body.
-* Selecting a solid body will convert and replace the entire body with a Mesh, but selecting individual edges or vertices owned by a solid will create a new Mesh on top of the existing geometry, without affecting the original body.
-* Converting a set of edges or vertices will create a single Linemesh (a mesh made of edges) or a single Pointmesh (a mesh made of points), which means you won't be able to select individual edges or vertices once they've been combined into a single Mesh. Convert them back to Objects if you want to adjust the position of a single element.
+* Hrany, které byly vyhlazeny na objektech, zůstanou vyhlazené i ve výsledných sítích.
+* Orientace materiálů na objektech zůstanou ve výsledných sítích nezměněny.
+* Síť je vytvořena pro každý použitý materiál. Pokud například převedete jednu krychli vybarvenou 6 různými barvami, získáte 6 různých sítí.
+   * Převodem zpět na objekt jednotlivé sítě uzavřete zpět do tělesa.
+* Výběrem tělesa převedete a nahradíte celé těleso sítí, ale výběrem jednotlivých hran nebo vrcholů, které jsou vlastněny tělesem, vytvoříte novou síť nad existující geometrií, aniž byste ovlivnili původní těleso.
+* Převodem sady hran nebo vrcholů se vytvoří jedna síť čar \(síť tvořená hranami\) nebo jedna bodová síť \(síť tvořená body\), což znamená, že nebudete moci vybrat jednotlivé hrany nebo vrcholy, jakmile budou sloučeny do jediné sítě. Pokud chcete upravit polohu jednoho prvku, převeďte je zpět na objekty.
 
-**Converting Grouped geometry to Meshes:**
+**Převod seskupené geometrie na sítě:**
 
-* Meshes become even more powerful when you can convert an entire Group and all of its nested Groups into Meshes.
-* Groups and their nested contents can be converted to Groups by using a plugin:
-  * Look for the Plugin Manager icon on the right side of the application:
-    * ![](../.gitbook/assets/plugin-manager\_icon.PNG)&#x20;
-  * Find the "Mesh + Unmesh All" plugin, and click the checkbox to install it:
-    * ![](../.gitbook/assets/plugin-manager\_mesh-unmesh-all.png)&#x20;
-  * The Mesh + Unmesh All plugin will load. Simply select a Group containing Objects you want to convert to Meshes, and click Mesh All.
-    * ![](../.gitbook/assets/mesh-unmesh-all-plugin.png)&#x20;
-  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation:
+* Sítě jsou ještě výkonnější, pokud můžete převést celou skupinu a všechny její vnořené skupiny na sítě.
+* Skupiny a jejich vnořené prvky lze převést na sítě pomocí modulu plug-in:
+   * V pravé části aplikace vyhledejte ikonu nástroje Plugin Manager:
+      * ![](../.gitbook/assets/plugin-manager_icon.PNG)
+   * Vyhledejte modul plug-in Mesh + Unmesh All a zaškrtnutím políčka jej nainstalujte:
+      * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
+   * Modul plug-in Mesh + Unmesh All se načte. Jednoduše vyberte skupinu obsahující objekty, které chcete převést na sítě, a klikněte na tlačítko Mesh All.
+      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
+   * Při převodu vnořených objektů nebo sítí pomocí tohoto modulu plug-in se v horní části obrazovky zobrazí zpráva s informací, kolik skupin a instancí skupin bylo touto operací ovlivněno:
 
-![](../.gitbook/assets/success\_mesh-all.png)
+![](../.gitbook/assets/success_mesh-all.PNG)
 
-## Interacting With Meshes
+### Interakce se sítěmi
 
-**Because of their lightweight nature, Meshes have certain limitations and behaviors:**
+**Vzhledem k jejich zjednodušené povaze mají sítě určitá omezení a chování:**
 
-* You won't be able to edit the individual faces, edges, or vertices of a Mesh.
-  * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces (see above).
-* Snapping to Meshes is limited to the faces and vertices of Meshes. For performance, snapping and inferencing will not work with edges of Meshes.
-  * However, DWG files converted to Meshes (a different type of mesh known as a Linemesh) will retain the ability to snap to and inference to Mesh edges.
-* Meshes cannot have Levels applied to them.
-* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not.&#x20;
-  * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
-* Meshes cannot be used in advanced modeling operations, like Solid Join/Cut, 3D Shell, 3D Offset, Fillet, Loft, Sweep, or Cover.
+* Nebudete moci upravovat jednotlivé plochy, hrany ani vrcholy sítě.
+   * Můžete však přebarvit sítě a přesouvat jednotlivé sítě vytvořené v důsledku použití různých materiálů na plochy \(viz výše\).
+* Přichycení k sítím je omezeno na plochy a vrcholy sítí. Kvůli výkonu nebude přichytávání a odvozování fungovat s hranami sítí.
+   * Soubory DWG převedené na sítě \(jiný typ sítě známý jako síť čar\) si však možnost přichytávání a odvozování s hranami sítí zachovají.
+* U sítí nelze použít podlaží.
+* Sítě nebudou hlásit problémy s vodotěsností ani se zadními plochami. Chcete-li zjistit, zda jsou vodotěsné, nebo ne, převeďte je zpět na objekty.
+   * Objekty, které byly vodotěsné před převodem na síť, zůstanou vodotěsné i po převodu zpět na objekt.
+* Sítě nelze použít v pokročilých operacích modelování, jako je připojení/oříznutí tělesa, 3D skořepina, 3D odsazení, zaoblení, šablonování, tažení nebo pokrytí.
 
-Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
+Jinak se sítě zobrazují a chovají jako každý jiný objekt aplikace FormIt: lze je umístit ve skupinách, přiřadit k hladinám, vizualizovat ve scénách, používat pro analýzu atd.
 
-**You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:**
+**Interakci se sítí poznáte podle toho, že popisek nástroje zobrazí zprávu „On Mesh“ nebo že panel vlastností zobrazí informace o síti.**
 
-![](../.gitbook/assets/snap\_on-mesh.png)
+![](../.gitbook/assets/snap_on-mesh.PNG)
 
-![](../.gitbook/assets/properties-panel\_mesh.png)
+![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Some file types are automatically imported as Meshes to improve performance:**
+**Některé typy souborů jsou automaticky importovány jako sítě, aby se zvýšil výkon:**
 
-* STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
-* DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
+* Soubory STL a OBJ, které mohou obsahovat hustou geometrii, například mračna bodů z jiných aplikací, se automaticky importují jako sítě.
+* Soubory DWG, které mohou obsahovat miliony malých segmentů hran na vysoce kvalitních křivkách, se automaticky importují jako sítě.
 
-## Converting Meshes Back to Objects
+### Převod sítí zpět na objekty
 
-Simply select Meshes, and either use shortcut MO (Meshes to Objects) or right-click and select Meshes to Objects in the Context Menu:
+Jednoduše vyberte sítě a buď použijte klávesovou zkratku MO \(Sítě na objekty\), nebo klikněte pravým tlačítkem a v místní nabídce vyberte položku Sítě na objekty:
 
-![](../.gitbook/assets/context-menu\_mesh-to-object.PNG)
+![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Po převedení sítí na objekty se v horní části obrazovky zobrazí potvrzovací zpráva:
 
-![](../.gitbook/assets/success\_mesh-to-object.PNG)
+![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**When converting Meshes back to Objects:**
+**Při převodu sítí zpět na objekty platí:**
 
-* Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
-* Converting a series of edges (for example from a DWG file) or a series of vertices (for example from a pointcloud) to a Mesh and back will automatically put the unmeshed Objects into a Group.
-  * This prevents the new edges or vertices from merging with other geometry which could have adverse effects and impact performance.
-  * Simply can Ungroup the resulting Group to release the edges and/or vertices.
+* Všechny objekty, které byly před převodem na síť plné nebo vodotěsné, budou při převodu zpět na objekt znovu spojeny do vodotěsného tělesa.
+* Převedením řady hran \(například ze souboru DWG\) nebo řady vrcholů \(například z mračna bodů\) na síť a zpět se objekty převedené ze sítě automaticky umístí do skupiny.
+   * Tím se zabrání sloučení nových hran nebo vrcholů s jinou geometrií, což by mohlo mít nepříznivé účinky a dopad na výkon.
+   * Pokud chcete hrany nebo vrcholy uvolnit, můžete jednoduše zrušit seskupení výsledné skupiny.
 
-**Converting Grouped Meshes back to Objects:**
+**Převod seskupených sítí zpět na objekty:**
 
-* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects.
+* K převodu skupin a jejich vnořených sítí zpět na objekty použijte modul plug-in Mesh + Unmesh All a výše uvedené pokyny.
+

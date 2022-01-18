@@ -1,93 +1,94 @@
-# Visual Styles
+# Vizuální styly
 
-Customize the visual appearance of your model, including overall lighting, edge styles, and environmental effects. The Visual Styles panel can be found by clicking the sunglasses icon in the palette bar:
+Přizpůsobte si vizuální vzhled modelu, včetně celkového osvětlení, stylů hran a efektů prostředí. Panel Vizuální styly zobrazíte kliknutím na ikonu slunečních brýlí na panelu palet:
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Visual Styles [can be set per-Scene](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), so you can save your favorite style settings and apply them to other Scenes.
+Vizuální styly [lze nastavit pro jednotlivé scény](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), takže si můžete uložit oblíbená nastavení stylů a použít je pro další scény.
 
-## Surfaces
+## Povrchy
 
-Manage the way surfaces are displayed and shaded.
+Spravujte způsob zobrazení a stínování povrchů.
 
-![](<../.gitbook/assets/visual\_styles (1).png>)
+![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness as defined in the material's color or texture. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
+**Okolní jas** řídí celkový jas všech materiálů ve scéně. Hodnota 100 znamená, že materiály vystavené světlu se zobrazí v plném jasu definovaném v barvě nebo textuře materiálu. Při nastavení hodnot větších než 100 budou materiály přeexponované, ale toto nastavení může být užitečné u modelů aplikace SketchUp, které v aplikaci FormIt stále vypadají tmavě. Výchozí hodnota je 100.
 
-**Ambient Contrast** controls how much darker faces in shade appear, when compared to faces exposed to direct sunlight. A value of 0 means that lighting has no effect (all materials will appear at their full brightness regardless of orientation), whereas higher values will make faces in shade appear increasingly darker. The default value is 25.
+**Okolní kontrast** určuje, o kolik tmavší se zobrazí plochy ve stínu ve srovnání s plochami vystavenými přímému slunečnímu světlu. Hodnota 0 znamená, že osvětlení nemá žádný vliv \(všechny materiály se zobrazí v plném jasu bez ohledu na orientaci\), zatímco vyšší hodnoty způsobí, že se plochy ve stínu budou jevit jako tmavší. Výchozí hodnota je 25.
 
-Toggle **Shadows** to see how your design would be [shaded at the current time of day](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Přepnutím možnosti **Stíny** zjistíte, jak by byl váš návrh [zastíněn v aktuální denní době](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-**Shadow Intensity** controls how dark shadows draw on the ground plane and other faces. A value of 0 will make shadows effectively invisible, and a value of 100 will make shadows black. The default value is 20.
+**Intenzita stínu** určuje, jak moc tmavé stíny se vykreslí na základní rovině a dalších plochách. Při hodnotě 0 budou stíny neviditelné a při hodnotě 100 budou stíny černé. Výchozí hodnota je 20.
 
-**Ambient Shadows** add a touch of shading to corners to add realism to your FormIt model.
+**Okolní stíny** přidají stínování do rohů, díky čemuž budou modely aplikace FormIt působit realističtěji.
 
-**Monotone Surfaces** disables the color and texture of all materials, and makes the surrounding environment white. Useful for shadow or shading studies.
+Možnost **Monotónní povrchy** vypne barvu a texturu všech materiálů a okolní prostředí změní na bílé. Tato možnost je užitečná pro studie stínů nebo stínování.
 
-The Surface Colors section defines default colors for faces when no material is applied.
+Část Barvy povrchu definuje výchozí barvy ploch, pokud není použit žádný materiál.
 
-**Faces** is the default color of all front-facing FormIt faces (or both sides, if Back Faces is unchecked) when no material is applied.
+Možnost **Plochy** určuje výchozí barvu všech čelních ploch modelů aplikace FormIt \(nebo obou stran, jestliže není zaškrtnuto políčko Zadní plochy\), pokud není použit žádný materiál.
 
-**Back Faces** is used to display different materials on either side of a single face, for SketchUp models that are imported into FormIt and require this. This option is unchecked by default, but is checked when SketchUp models are opened or imported. In non-SketchUp geometry, the specified Back Face color will shown on the back sides of faces.
+Možnost **Zadní plochy** slouží k zobrazení různých materiálů na obou stranách jedné plochy u modelů aplikace SketchUp importovaných do aplikace FormIt, které to vyžadují. Tato možnost není ve výchozím nastavení zaškrtnuta, ale při otevření nebo importu modelů SketchUp je zaškrtnuta. V geometrii jiné než SketchUp se na zadních stranách ploch zobrazí zadaná barva zadní plochy.
 
-Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
+V částech Efekty řezu a Efekty šrafování řezu můžete spravovat výchozí barvy ploch, čar a efektu šrafování při použití nástroje [Rovina řezu](section-planes.md).
 
-### Edges
+## Základní roviny
 
-Manage the display style of all edges in the model.
+Když je v režimu úprav skupiny vypnuta základní rovina, je nyní vypnuta také modrá osnova pracovní roviny.
 
-![](../.gitbook/assets/edges.png)
+Barvu pracovní roviny si také můžete přizpůsobit na panelu Vizuální styly.
 
-**Contrast** affects how visible all edges are. A value of 0 would make the edges effectively invisible. The default value is 60.
+![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-**Color** affects the color of all edges in the model. The default is black.
+## Hrany
 
-**Thick Edges** make all edges thicker, including Silhouette Edges.
+Spravujte styl zobrazení všech hran v modelu.
 
-**Sketchy Edges** adds a sketchy effect to all edges, to simulate a hand-drawn effect.
+![](../.gitbook/assets/edges.PNG)
 
-**Hidden Edges** displays edges otherwise occluded by surfaces.
+**Kontrast** ovlivňuje viditelnost všech hran. Při hodnotě 0 budou hrany neviditelné. Výchozí hodnota je 60.
 
-**Extended Edges** adds an extension to some edges, to simulate a hand-drawn effect.
+**Barva** ovlivňuje barvu všech hran v modelu. Výchozí barva je černá.
 
-## Environment
+Možnost **Tlusté hrany** nastaví všechny hrany silnější, včetně hran siluet.
 
-Toggle display of environmental effects and helper objects.
+Možnost **Načrtnuté hrany** přidá ke všem hranám efekt náčrtu, který navozuje dojem ručního kreslení.
 
-![](../.gitbook/assets/visual-styles1.PNG)
+Možnost **Skryté hrany** zobrazí hrany, které jsou jinak zakryty povrchy.
 
-**Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
+Možnost **Prodloužené hrany** přidá k některým hranám prodloužení, které navozuje dojem ručního kreslení.
 
-**Axes** controls the display of the XYZ axes that shows up at the world origin, or at the Group origin if editing a Group.
+## Prostředí
 
-**Levels** controls the display of [**Levels**](levels-and-area.md) set in the Levels Panel.
+V této části můžete přepínat zobrazení efektů prostředí a pomocných objektů.
 
-**Fog** controls the display of fog that is drawn to make the transition between the ground plane and the sky appear seamless. Turning off Fog will result in a hard horizon line where the ground plane (if enabled) meets the sky.
+![](../.gitbook/assets/environment.PNG)
 
-**North Arrow** controls the display of a small graphical widget that indicates the direction of project north (as determined by location and satellite imagery).
+**Osnova** řídí zobrazení osnovy na základní rovině a také osnovy zobrazené při úpravách skupiny. Pokud je osnova zakázána, bude zakázána také možnost Přichytit k osnově.
 
-Environmental colors like sky, background, and ground plane can also be customized.
+**Osy** řídí zobrazení os XYZ, které se zobrazí v počátku světa nebo v počátku skupiny, pokud upravujete skupinu.
 
-The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors.
+Možnost **Podlaží** řídí zobrazení [**podlaží** ](levels-and-area.md)****na panelu Podlaží.
 
-If the **Sky** option is unchecked, only the **Lower / Background** color will be visible.
+**Mlha** ovládá zobrazení mlhy, která je vykreslena tak, aby přechod mezi základní rovinou a oblohou vypadal plynule. Vypnutím mlhy se vytvoří tvrdá linie horizontu v místě, kde se základní rovina \(pokud je povolena\) setkává s oblohou.
 
-Control **ground plane** transparency by using the slider.
+Možnost **Směrová růžice** řídí zobrazení malé grafické pomůcky, která označuje směr severu projektu \(podle umístění a satelitního snímku\).
 
-When the ground plane is toggled off in Group Edit Mode, the blue work plane grid is now toggled off, also.&#x20;
+Přizpůsobit lze také barvy prostředí, jako je obloha, pozadí a základní rovina. 
 
-The color of the **work plane** can also be customized from the Visual Styles panel.&#x20;
+Obloha se skládá z gradientu barev **Dolní/Pozadí**, **Střední** a **Horní**.
 
-![](<../.gitbook/assets/Visual styles - ground plane transparency.png>)
+Pokud možnost **Obloha** není zaškrtnuta, bude viditelná pouze barva **Dolní/Pozadí**.
 
-## Diagnostics
+## Diagnostika
 
-Toggle the display of diagnostic tools.
+Zde můžete přepínat zobrazení diagnostických nástrojů.
 
-![](../.gitbook/assets/diagnostics.png)
+![](../.gitbook/assets/diagnostics.PNG)
 
-**Watertight Issues** highlights in red all edges that are not part of a watertight solid object.
+Možnost **Problémy s vodotěsností** zvýrazní červeně všechny hrany, které nejsou součástí vodotěsného objektu tělesa.
 
-**Back Faces** highlights in red all faces that are facing the wrong way (all solid objects should have the back faces facing towards the inside of the solid shape).
+**Zadní plochy** zvýrazní červeně všechny plochy, které směřují nesprávným směrem \(všechny objekty těles by měly mít zadní plochy obrácené směrem dovnitř tvaru tělesa\).
 
-[Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[Přečtěte si další informace o použití diagnostických nástrojů Problémy s vodotěsností a Zadní plochy k identifikaci a opravě problémů s modely těles](https://formit.autodesk.com/blog/post/repairing-solid-models).
+
