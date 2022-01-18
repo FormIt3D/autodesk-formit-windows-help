@@ -1,19 +1,19 @@
-# FormIt Primer
+# FormIt-Einführung
 
 ![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## Content
+## Inhalt
 
-[**Part I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) covers a single workflow tutorial that goes over the basic tools while modeling the famous Farnsworth House step-by-step to help you start modeling today.
+\*\*\*\*[**Teil I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*beinhaltet ein einzelnes Arbeitsablauf-Lernprogramm, in dem die grundlegenden Werkzeuge vorgestellt werden, während das berühmte Farnsworth House Schritt für Schritt modelliert wird, damit Sie noch heute mit dem Modellieren beginnen können.
 
 ![](<../.gitbook/assets/farnsworth-house (1).png>)
 
-[**Part II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) covers some more advanced tools using a pre-modeled fictional architectural project to explore advanced modeling features, analytical tools, and computational tools to help you take FormIt to the next level.
+\*\*\*\* [**Teil II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) behandelt einige erweiterte Werkzeuge, für die ein vormodelliertes, fiktives Architekturprojekt verwendet wird, sodass Sie erweiterte Modellierungsfunktionen, analytische Werkzeuge und Berechnungswerkzeuge ausprobieren können, damit Sie FormIt auf der nächsten Ebene nutzen können.
 
-![](<../.gitbook/assets/screen1 (1).jpg>)
+![](../.gitbook/assets/screen1.jpg)
 
-## Credits
+## Danksagungen
 
-This 2021 Edition of the FormIt Primer is a redesign and expansion upon the first Primer, developed in partnership with [EvolveLAB](https://www.evolvelab.io).
+Diese Version 2021 der FormIt-Einführung ist eine Neugestaltung und Erweiterung der ersten Einführung und wurde in Zusammenarbeit mit [EvolveLAB](https://www.evolvelab.io) entwickelt.
 
 [![](<../.gitbook/assets/evolvelab\_logo\_\_horizontal (1).png>)](https://www.evolvelab.io)

@@ -1,13 +1,16 @@
 # Polygon
 
-Use the Polygon tool to draw a regular n-sided polygon in space or on another object.
+Verwenden Sie das Werkzeug Polygon, um ein normales n-seitiges Polygon im Raum oder auf einem anderen Objekt zu zeichnen.
 
-![](<../.gitbook/assets/image (9) (1).png>)
+![](../.gitbook/assets/image%20%289%29.png)
 
-Start the polygon and click to choose the center point. Specify the radius by drawing the second point, typing in a dimension, or hitting **Tab** to bring up **Tool Options**.
+Starten Sie das Polygon, und klicken Sie, um den Mittelpunkt zu wählen. Legen Sie den Radius fest, indem Sie den zweiten Punkt zeichnen, eine Bemaßung eingeben oder die **TABULATORTASTE** drücken, um die **Werkzeugoptionen** aufzurufen.
 
-![](<../.gitbook/assets/image (7).png>)
+![](../.gitbook/assets/image%20%287%29.png)
 
-**Tool Options** allows you to change the number of sides and specify a particular radius.
+Die Option **Werkzeugoptionen** ermöglicht es Ihnen, die Anzahl der Seiten zu ändern und einen bestimmten Radius festzulegen.
 
 ![](../.gitbook/assets/image.png)
+
+
+

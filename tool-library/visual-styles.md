@@ -1,93 +1,94 @@
-# Visual Styles
+# Bildstile
 
-Customize the visual appearance of your model, including overall lighting, edge styles, and environmental effects. The Visual Styles panel can be found by clicking the sunglasses icon in the palette bar:
+Passen Sie die visuelle Darstellung Ihres Modells an, einschließlich der allgemeinen Beleuchtung, Kantenstile und Umgebungseffekte. Die Gruppe Visuelle Stile können Sie aufrufen, indem Sie auf das Sonnenbrillensymbol in der Palettenleiste klicken:
 
 ![](../.gitbook/assets/20200307-visual-styles-icon.png)
 
-Visual Styles [can be set per-Scene](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), so you can save your favorite style settings and apply them to other Scenes.
+Visuelle Stile [können pro Szene festgelegt werden](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/visual-settings), sodass Sie Ihre bevorzugten Stileinstellungen speichern und auf andere Szenen anwenden können.
 
-## Surfaces
+## Flächen
 
-Manage the way surfaces are displayed and shaded.
+Verwalten Sie, wie Flächen angezeigt und schattiert werden.
 
-![](<../.gitbook/assets/visual\_styles (1).png>)
+![](../.gitbook/assets/visual_styles%20%281%29.png)
 
-**Ambient Brightness** controls the overall brightness of all materials in the scene. A value of 100 means materials exposed to light will display at their full brightness as defined in the material's color or texture. Values over 100 will over-expose materials, but may be useful for SketchUp models that still look dark in FormIt. The default value is 100.
+Die Option **Umgebungshelligkeit** steuert die Gesamthelligkeit aller Materialien in der Szene. Ein Wert von 100 bedeutet, dass den Lichtstrahlen ausgesetzte Materialien mit ihrer vollen Helligkeit angezeigt werden, wie in der Farbe oder Textur des Materials definiert. Bei Werten über 100 würden die Materialien überbelichtet, könnten aber für SketchUp-Modelle nützlich sein, die in FormIt immer noch dunkel aussehen. Der Vorgabewert ist 100.
 
-**Ambient Contrast** controls how much darker faces in shade appear, when compared to faces exposed to direct sunlight. A value of 0 means that lighting has no effect (all materials will appear at their full brightness regardless of orientation), whereas higher values will make faces in shade appear increasingly darker. The default value is 25.
+Die Option **Umgebungskontrast** steuert, wie viel dunkler Flächen im Schatten im Vergleich zu Flächen, die direktem Sonnenlicht ausgesetzt sind, angezeigt werden. Der Wert 0 bedeutet, dass die Beleuchtung keine Auswirkung hat \(alle Materialien werden unabhängig von der Ausrichtung mit voller Helligkeit angezeigt\), während bei höheren Werten Flächen im Schatten immer dunkler erscheinen. Der Standardwert ist 25.
 
-Toggle **Shadows** to see how your design would be [shaded at the current time of day](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Aktivieren Sie die Option **Schatten**, um zu sehen, wie Ihr Entwurf [zur aktuellen Tageszeit beschattet wird](https://windows.help.formit.autodesk.com/tool-library/shadows).
 
-**Shadow Intensity** controls how dark shadows draw on the ground plane and other faces. A value of 0 will make shadows effectively invisible, and a value of 100 will make shadows black. The default value is 20.
+Die Option **Schattenintensität** steuert, wie dunkel Schatten auf der Grundplatte und anderen Flächen gezeichnet werden. Bei einem Wert von 0 werden Schatten effektiv unsichtbar, und bei einem Wert von 100 werden Schatten schwarz. Der Vorgabewert ist 20.
 
-**Ambient Shadows** add a touch of shading to corners to add realism to your FormIt model.
+Mit **Umgebungsschatten** werden Ecken Schattierungen hinzugefügt, um das FormIt-Modell realistischer zu gestalten.
 
-**Monotone Surfaces** disables the color and texture of all materials, and makes the surrounding environment white. Useful for shadow or shading studies.
+Die Option **Monotone Oberflächen** deaktiviert die Farbe und Textur aller Materialien und macht die Umgebung weiß. Dies ist für Schatten- oder Schattierungsstudien hilfreich.
 
-The Surface Colors section defines default colors for faces when no material is applied.
+Im Abschnitt Oberflächenfarben werden Vorgabefarben für Flächen definiert, wenn kein Material angewendet wird.
 
-**Faces** is the default color of all front-facing FormIt faces (or both sides, if Back Faces is unchecked) when no material is applied.
+**Flächen** ist die Vorgabefarbe aller nach vorne weisenden FormIt-Flächen \(oder beider Seiten, wenn Rückseiten deaktiviert ist\), wenn kein Material angewendet wird.
 
-**Back Faces** is used to display different materials on either side of a single face, for SketchUp models that are imported into FormIt and require this. This option is unchecked by default, but is checked when SketchUp models are opened or imported. In non-SketchUp geometry, the specified Back Face color will shown on the back sides of faces.
+**Rückseiten** wird verwendet, um verschiedene Materialien auf beiden Seiten einer einzelnen Fläche für SketchUp-Modelle anzuzeigen, die in FormIt importiert werden und dies erfordern. Diese Option ist vorgabemäßig deaktiviert, wird aber aktiviert, wenn SketchUp-Modelle geöffnet oder importiert werden. In Nicht-SketchUp-Geometrie wird die angegebene Farbe für die Rückseite an den Rückseiten von Flächen angezeigt.
 
-Use the Section Cut Effects and Section Poche Effects sections to manage the default colors of faces, lines and the poché effect when the[ Section Plane](section-planes.md) tool is used.
+Verwenden Sie die Optionen Schnitt – Schnitteffekte und Schnitt – Schnittmaterialeffekte, um die Vorgabefarben von Flächen, Linien und den Schnittmaterialeffekt zu verwalten, wenn das Werkzeug [Schnittebene](section-planes.md) verwendet wird.
 
-### Edges
+## Grundplatten
 
-Manage the display style of all edges in the model.
+Wenn die Grundplatte im Gruppenbearbeitungsmodus deaktiviert ist, ist das blaue Arbeitsebenenraster jetzt ebenfalls deaktiviert.
 
-![](../.gitbook/assets/edges.png)
+Die Farbe der Arbeitsebene kann auch über die Gruppe Visuelle Stile angepasst werden.
 
-**Contrast** affects how visible all edges are. A value of 0 would make the edges effectively invisible. The default value is 60.
+![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
 
-**Color** affects the color of all edges in the model. The default is black.
+## Kanten
 
-**Thick Edges** make all edges thicker, including Silhouette Edges.
+Verwalten Sie den Anzeigestil aller Kanten im Modell.
 
-**Sketchy Edges** adds a sketchy effect to all edges, to simulate a hand-drawn effect.
+![](../.gitbook/assets/edges.PNG)
 
-**Hidden Edges** displays edges otherwise occluded by surfaces.
+Der **Kontrast** wirkt sich auf die Sichtbarkeit aller Kanten aus. Bei einem Wert von 0 werden die Kanten praktisch unsichtbar. Der Vorgabewert lautet 60.
 
-**Extended Edges** adds an extension to some edges, to simulate a hand-drawn effect.
+**Farbe** wirkt sich auf die Farbe aller Kanten im Modell aus. Die Vorgabe ist Schwarz.
 
-## Environment
+**Dicke Kanten** macht alle Kanten dicker, einschließlich Silhouettenkanten.
 
-Toggle display of environmental effects and helper objects.
+Mit **Skizzenartige Kanten** wird allen Kanten ein skizzenartiger Effekt hinzugefügt, um den Effekt einer Handzeichnung zu simulieren.
 
-![](../.gitbook/assets/visual-styles1.PNG)
+**Verdeckte Kanten** zeigt Kanten an, die ansonsten von Flächen verdeckt sind.
 
-**Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
+**Erweiterte Kanten** fügt einigen Kanten eine Verlängerung hinzu, um den Effekt einer Handzeichnung zu simulieren.
 
-**Axes** controls the display of the XYZ axes that shows up at the world origin, or at the Group origin if editing a Group.
+## Umgebung
 
-**Levels** controls the display of [**Levels**](levels-and-area.md) set in the Levels Panel.
+Blenden Sie Umgebungseffekte und Hilfsobjekte ein und aus.
 
-**Fog** controls the display of fog that is drawn to make the transition between the ground plane and the sky appear seamless. Turning off Fog will result in a hard horizon line where the ground plane (if enabled) meets the sky.
+![](../.gitbook/assets/environment.PNG)
 
-**North Arrow** controls the display of a small graphical widget that indicates the direction of project north (as determined by location and satellite imagery).
+**Raster** steuert die Anzeige des Rasters auf der Grundplatte sowie das Raster, das beim Bearbeiten einer Gruppe angezeigt wird. Die Option Rasterfang wird deaktiviert, wenn das Raster deaktiviert ist.
 
-Environmental colors like sky, background, and ground plane can also be customized.
+Die Option **Achsen** steuert die Anzeige der XYZ-Achsen, die beim Weltursprung oder beim Gruppenursprung angezeigt werden, wenn eine Gruppe bearbeitet wird.
 
-The sky is comprised of a gradient of **Lower / Background**, **Middle**, and **Upper** colors.
+Die Option **Ebenen** steuert die Anzeige der [**Ebenen**](levels-and-area.md)****, die in der Gruppe Ebenen festgelegt wurden.
 
-If the **Sky** option is unchecked, only the **Lower / Background** color will be visible.
+**Nebel** steuert die Anzeige von Nebel, der gezeichnet wird, damit der Übergang zwischen der Grundplatte und dem Himmel nahtlos aussieht. Wenn Sie Nebel deaktivieren, erhalten Sie eine scharfe Horizontlinie, an der die Grundplatte \(falls aktiviert\) an den Himmel grenzt.
 
-Control **ground plane** transparency by using the slider.
+**Nordpfeil** steuert die Anzeige eines kleinen grafischen Widgets, das die Richtung des Projektnordens angibt \(wie durch Standort und Satellitenbilder festgelegt\).
 
-When the ground plane is toggled off in Group Edit Mode, the blue work plane grid is now toggled off, also.&#x20;
+Umgebungsfarben wie Himmel, Hintergrund und Grundplatte können ebenfalls angepasst werden.
 
-The color of the **work plane** can also be customized from the Visual Styles panel.&#x20;
+Der Himmel besteht aus einem Verlauf der Farben für **Unten/Hintergrund**, **Mitte** und **Oben**.
 
-![](<../.gitbook/assets/Visual styles - ground plane transparency.png>)
+Wenn die Option **Himmel** deaktiviert ist, ist nur die Farbe **Unten/Hintergrund** sichtbar.
 
-## Diagnostics
+## Diagnose
 
-Toggle the display of diagnostic tools.
+Blenden Sie Diagnosewerkzeuge ein und aus.
 
-![](../.gitbook/assets/diagnostics.png)
+![](../.gitbook/assets/diagnostics.PNG)
 
-**Watertight Issues** highlights in red all edges that are not part of a watertight solid object.
+Die Option **Dichtheitsprobleme** hebt alle Kanten, die nicht Teil eines wasserdichten Volumenkörperobjekts sind, rot hervor.
 
-**Back Faces** highlights in red all faces that are facing the wrong way (all solid objects should have the back faces facing towards the inside of the solid shape).
+Die Option **Rückseiten** hebt alle Flächen, die in die falsche Richtung zeigen, rot hervor \(die Rückseiten aller Volumenkörperobjekte sollten zur Innenseite der Volumenkörperform weisen\).
 
-[Learn more about using Watertight and Back Faces diagnostics to identify and fix issues with solid models](https://formit.autodesk.com/blog/post/repairing-solid-models).
+[Erfahren Sie mehr über die Verwendung der Dichtheits- und Rückseitendiagnose zum Identifizieren und Beheben von Problemen mit Volumenkörpermodellen](https://formit.autodesk.com/blog/post/repairing-solid-models).
+

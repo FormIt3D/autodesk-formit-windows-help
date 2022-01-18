@@ -1,11 +1,9 @@
-# FormIt Capabilities
+# Funktionen in FormIt
 
-![](../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78.png)
+![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
 
-## FormIt Capabilities
+## Funktionen in FormIt
 
-Create conceptual building designs with a powerful built-in solid modeling system, incredible visualization options, and a native Dynamo integration, all while initiating a BIM workflow.
+Erstellen Sie konzeptuelle Gebäudeentwürfe mit einem leistungsstarken integrierten Volumenkörper-Modellierungssystem, beeindruckenden Visualisierungsoptionen und nativer Dynamo-Integration, während Sie gleichzeitig einen BIM-Arbeitsablauf initiieren.
 
-Use Autodesk® FormIt® to capture building design concepts when ideas occur. Take advantage of accurate and easy solid modeling, organize your ideas in Groups and Layers, and get real-world site information, such as satellite images, to correctly orient and analyze your designs with shadows, Solar Analysis, and Energy Analysis. Move your preliminary designs to centralized data storage for access and refinement in Autodesk® Revit® software or other software.
-
-![](../.gitbook/assets/formit-capabilities.png)
+Verwenden Sie Autodesk® FormIt®, um Ihre Ideen sofort in Konzepten für Gebäudeentwürfe festzuhalten. Die präzise und einfache Volumenkörper-Modellierung unterstützt Sie bei der Organisation Ihrer Ideen in Gruppen und Layern. Mithilfe von realen Standortdaten, z. B. Satellitenbildern, können Sie Ihre Entwürfe mit Schatten, Solar- und Energieanalysen richtig ausrichten und analysieren. Übertragen Sie Ihre Vorentwürfe in zentrale Datenspeicher, um mit Autodesk® Revit®-Software oder anderen Anwendungen auf sie zuzugreifen und sie weiterzuentwickeln.

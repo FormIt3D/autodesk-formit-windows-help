@@ -1,7 +1,10 @@
-# Properties
+# Eigenschaften
 
-The **Properties Palette** displays information and data relevant to a selected object in the Formit Workplane.
+Die **Eigenschaftenpalette** zeigt Informationen und Daten an, die für ein ausgewähltes Objekt in der Formit-Arbeitsebene relevant sind.
 
-Using the Properties Palette, you can edit the group of an object, assign an object to a layer, and change the material of an object.
+Mit der Eigenschaftenpalette können Sie die Gruppe eines Objekts bearbeiten, einem Layer ein Objekt zuweisen und das Material eines Objekts ändern.
 
-![](../.gitbook/assets/properties\_palette.png)
+![](../.gitbook/assets/properties_palette.png)
+
+
+

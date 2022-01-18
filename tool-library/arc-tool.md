@@ -1,23 +1,24 @@
-# Arc
+# Bogen
 
-Use the Arc tool to create half circles or symmetrical arcs. There are two ways to create arcs.
+Mithilfe des Werkzeugs Bogen können Sie Halbkreise oder symmetrische Bogen erstellen. Bogen können mit zwei Methoden erstellt werden:
 
-## Arc by Three Points
+## Bogen durch drei Punkte
 
-![](../.gitbook/assets/arc\_three\_pts.png)
+![](../.gitbook/assets/arc_three_pts.png)
 
-An arc is defined by three points and can be drawn on the X, Y, and Z axes. Define your first point then determine a distance from the first to the second point and finally a third point for the height of the arc. You will automatically be provided a 'half-circle' point which you can snap to; beyond this, the arc line will extend past the first two points.
+Ein Bogen wird durch drei Punkte definiert und kann auf der X-, Y- oder Z-Achse gezeichnet werden. Definieren Sie den ersten Punkt, legen Sie dann die Entfernung vom ersten zum zweiten Punkt fest und definieren Sie schließlich einen dritten Punkt für die Höhe des Bogens. Ein Punkt, der den Halbkreis markiert, wird automatisch angezeigt und kann als Fangpunkt verwendet werden. Jenseits davon wird die Bogenlinie über die ersten beiden Punkte hinaus verlängert.
 
-You can see the length between the first point and the second point as you're determining the second points next location; to manually specify a length, simply enter a value and a dimension box will appear.
+Während Sie die Position des zweiten Punkts bestimmen, wird die Entfernung zwischen dem ersten und zweiten Punkt angezeigt. Zur manuellen Angabe der Entfernung geben Sie einfach einen Wert ein. Daraufhin wird ein Bemaßungsfeld angezeigt.
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
-After drawing the arc, you can make a face using the [Line tool](line-tool.md) to connect the first and second points.
+Nachdem Sie den Bogen gezeichnet haben, können Sie mithilfe des [Werkzeugs Linie](line-tool.md) eine Fläche erstellen, um den ersten und den zweiten Punkt zu verbinden.
 
-## Arc by Center
+## Bogen durch Mittelpunkt
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+![](../.gitbook/assets/arc-by-center%20%281%29.png)
 
-Choose the mid point of the arc, then drag to choose the center, and drag to define the length of the arc. Simply start typing a value to enter a precise number of degrees for the arc.
+Wählen Sie den Mittelpunkt des Bogens, ziehen Sie dann den Cursor, um die Mitte zu wählen, und ziehen Sie ihn erneut, um die Länge des Bogens zu definieren. Geben Sie einfach einen Wert ein, um eine genaue Gradzahl für den Bogen einzugeben.
 
-![](../.gitbook/assets/arc\_circle\_demo.gif)
+![](../.gitbook/assets/arc_circle_demo.gif)
+

@@ -1,15 +1,16 @@
-# Work Planes
+# Arbeitsebenen
 
-When you change the world axes in the main sketch, or the local axes of a group, a work plane is associated with the X and Y axes. A **work plane** is a virtual 2-dimensional surface used as the default plane for sketching. This work plane will stretch out to infinity and provide a surface to sketch on without snapping to elements behind it.
+Wenn Sie in der Hauptskizze die Weltachsen oder in einer Gruppe die lokalen Achsen ändern, wird den X- und Y-Achsen eine Arbeitsebene zugeordnet. Eine **Arbeitsebene** ist eine zweidimensionale virtuelle Fläche, die als Vorgabeebene beim Skizzieren dient. Diese Arbeitsebene ist unendlich und dient als Oberfläche, auf der Sie ohne Objektfang an dahinter liegenden Elementen skizzieren können.
 
-To learn how you can edit the Ground Plane, see [Visual Styles.](../formit-primer/part-i/visual-settings.md)
+Informationen zum Bearbeiten der Grundplatte finden Sie unter [Visuelle Stile](../formit-primer/part-i/visual-settings.md)
 
-## Changing Work Planes
+## Ändern von Arbeitsebenen 
 
-Rotate the [World Axes](world-axes.md) to the plane of another object in the sketch. This will align the active work plane to correspond to this face. You can now sketch, place elements, and modify elements relative to the new XY plane, rather than the default ground plane. You can orbit behind or under the grid and work planes to snap and inference to elements behind it.
+Sie können die [Weltachsen](world-axes.md) drehen, sodass sie mit der Ebene eines anderen Objekts in der Skizze übereinstimmen. Die aktive Arbeitsebene wird dadurch an der betreffenden Fläche ausgerichtet. Jetzt können Sie relativ zur neuen XY-Ebene anstatt zur vorgegebenen Grundplatte skizzieren, Elemente platzieren und Elemente ändern. Sie können auch hinter oder unterhalb des Rasters und der Arbeitsebenen mithilfe der Orbitfunktion Elemente als Fang- und Ableitungsreferenzen nutzen.
 
-You can toggle the grid line's visibility on and off to benefit from work plane based sketching. You can control this setting in Visual Style > Environment > **Display Grid (DG).**
+Sie können die Sichtbarkeit der Rasterlinie aktivieren bzw. deaktivieren, um das arbeitsebenenbasierte Skizzieren zu nutzen. Sie können diese Einstellung unter Visuelle Stile > Umgebung > **Anzeige: Raster \(DG\).**
 
-You can also control whether you snap to the grid when drawing. Toggle this setting on and off in Settings > **Snap to Grid (SG).**
+Sie können auch beim Zeichnen steuern, ob Sie das Raster fangen möchten. Aktivieren bzw. deaktivieren Sie diese Einstellung unter Einstellungen > **Rasterfang \(SG\)**
 
 ![](../.gitbook/assets/work-plane.gif)
+

@@ -1,11 +1,12 @@
-# Working with Data Formats
+# Arbeiten mit Datenformaten
 
-Import a variety of image file formats and 3D file formats to add detail to your sketch.
+Importieren Sie eine Vielzahl von Bilddateiformaten und 3D-Dateiformaten, um Ihrer Skizze Details hinzuzufügen.
 
-The following file formats can be imported:
+Die folgenden Dateiformate können importiert werden:
 
-* Windows:  OBJ, DWG, STL, SAT, SKP&#x20;
+* Windows: OBJ, DWG, STL, SAT, SKP
 * Web: OBJ, STL
 * iOS: OBJ, STL, SAT
 
-See [Importing Models](../formit-primer/part-i/import-export-and-content-library.md) for more on importing data and working with the Content Library.
+Weitere Informationen zum Importieren von Daten und zum Arbeiten mit der Inhaltsbibliothek finden Sie unter [Importieren von Modellen](../formit-primer/part-i/import-export-and-content-library.md).
+

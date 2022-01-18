@@ -1,74 +1,75 @@
-# 1.10 - Computational Groups with Dynamo
+# 1.10 – Durch Computational Design erstellte Gruppen aus Dynamo
 
-_In this chapter, we will leverage the computational power of_ [_**Dynamo**_](http://dynamobim.org) _to place and modify flexible groups that are tied to OOTB Dynamo Graphs Samples._
+_In diesem Kapitel nutzen Sie die Rechenleistung von_ [_**Dynamo**_](http://dynamobim.org/), _um flexible Gruppen zu platzieren und zu ändern, die mit OOTB-Dynamo-Diagrammbeispielen verknüpft sind._
 
-_If you did not complete the last section, download and open the_ _**1.10 – Computational Groups with Dynamo.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.10 – Computational Groups with Dynamo.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-_You can_ [_**learn more here**_](http://formit.autodesk.com/page/formit-dynamo) _about how FormIt and Dynamo work together for computational design workflows._
+[_**Hier**_](http://formit.autodesk.com/page/formit-dynamo) _erfahren Sie mehr darüber, wie FormIt und Dynamo bei Computational Design-Arbeitsabläufen zusammenwirken._
 
-## **Create Lower Terrace Stairs**
+## **Erstellen von Treppen für die untere Terrasse**
 
-1 - Make sure the **Lower Terrace, Main Building Floor**, and **Plan Image** layers are turned on, since that is where we are going to add the stairs.
+1 – Stellen Sie sicher, dass die Layer **Lower Terrace, Main Building Floor** und **Plan Image** aktiviert sind, da Sie an dieser Stelle die Treppen hinzufügen werden.
 
-2 - To place a stair group tied to one of the OOTB Dynamo Samples:
+2 – So platzieren Sie eine Treppengruppe, die mit einem der OOTB-Dynamo-Beispiele verknüpft ist
 
-1. Open the **Dynamo Palette** in the Palette Bar. You should see a few built-in Dynamo objects in the **Dynamo Samples** directory
-2. Single-click the **Stairs** Dynamo sample to bring it to the model space. FormIt will run the graph behind-the-scenes and generate the stair geometry from this graph.
-3. Move your cursor over the canvas, and once the stair is loaded, a ghosted preview of the stair geometry will now be moving alongside your mouse. Move your cursor over the canvas, near the terrace, and click to place the stair. Press **Esc** to clear the selection. Note that after placing the stairs the **Properties Palette** will automatically open.
+1. Öffnen Sie die **Dynamo Palette** (Dynamo-Palette) in der Palettenleiste. Im Verzeichnis **Dynamo Samples** (Dynamo-Beispiele) sollten einige integrierte Dynamo-Objekte angezeigt werden.
+2. Klicken Sie auf das Dynamo-Beispiel für **Stairs** (Treppen), um es in den Modellbereich zu holen. FormIt führt das Diagramm im Hintergrund aus und generiert die Treppengeometrie aus diesem Diagramm.
+3. Bewegen Sie den Cursor über den Ansichtsbereich. Nachdem die Treppe geladen wurde, wird eine Ghost-Vorschau der Treppengeometrie mit der Maus verknüpft. Bewegen Sie den Cursor über den Ansichtsbereich in die Nähe der Terrasse, und klicken Sie, um die Treppe zu platzieren. Drücken Sie **ESC**, um die Auswahl aufzuheben. Beachten Sie, dass nach dem Platzieren der Treppe automatisch die **Properties Palette** (Eigenschaften-Palette) geöffnet wird.
 
-![](<../../.gitbook/assets/0 (15) (1).png>)
+![](../../.gitbook/assets/0%20%2815%29.png)
 
-_**Note:**_ [_**You can also link local directories**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _containing Dynamo graphs, and run your own local Dynamo graphs just like these samples._
+_**Anmerkung:**_ [_**Sie können auch lokale Verzeichnisse**_](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) _mit Dynamo-Diagrammen verknüpfen und Ihre eigenen lokalen Dynamo-Diagramme wie in diesen Beispielen ausführen._
 
-3 - To update the stairs dimensions:
+3 – So aktualisieren Sie die Treppenbemaßungen
 
-1. With the stair group selected, modify the inputs available under the Dynamo **INPUTS** section at the bottom of the **Properties Palette** to match as shown below. Most groups created via Dynamo Scrips will have a Dynamo section included in their properties when selected.
-   * Add Top Landing = False
-   * Add Middle Landing = False
-   * Add Bottom Landing = False
-   * Floor-to-Floor Height = 2.6
-   * Stair Width = 12
-   * Riser Height = 0.6
-   * Tread Length = 1.25
-   * Tread Overlap = 0.25
-   * Tread Thickness = 0.25
-   * Height Between Middle Landings = (not relevant since no middle landing is being created)
-   * Middle Landing Length = (not relevant since no middle landing is being created)
-   * Top/Bottom Landing Length = (not relevant since no landing is being created)
-2. Click on the **Run** button to re-run the Dynamo script using the updated input values.
-3. Move the group as needed to place the stair in the correct location accordingly to the **Plan Image**. Take care not to change the elevation of the stair group at all as you move it. Refer to previous chapters to learn more about tricks and techniques when moving model elements.
+1. Ändern Sie bei ausgewählter Treppengruppe die Eingaben im Abschnitt **INPUTS** (Eingaben) von Dynamo unten in der **Properties Palette** (Eigenschaften-Palette) entsprechend, wie im Folgenden dargestellt. Die meisten über Dynamo-Skripte erstellten Gruppen verfügen über einen Dynamo-Abschnitt in den Eigenschaften, wenn sie ausgewählt werden.
+   * Add Top Landing (Oberes Podest hinzufügen) = False
+   * Add Middle Landing (Mittleres Podest hinzufügen) = False
+   * Add Bottom Landing (Unteres Podest hinzufügen) = False
+   * Floor-to-Floor Height (Geschosshöhe) = 2.6
+   * Stair Width (Treppenbreite) = 12
+   * Riser Height (Steigung) = 0.6
+   * Tread Length (Auftrittslänge) = 1.25
+   * Tread Overlap (Stufe Überstand) = 0.25
+   * Tread Thickness (Auftrittshöhe) = 0.25
+   * Height Between Middle Landings (Höhe zwischen mittleren Podesten) = \(nicht relevant, da kein mittleres Podest erstellt wird\)
+   * Middle Landing Length (Länge des mittleren Podests) = \(nicht relevant, da kein mittleres Podest erstellt wird\)
+   * Top/Bottom Landing Length (Länge des oberen/unteren Podests) = \(nicht relevant, da kein Podest erstellt wird\)
+2. Klicken Sie auf die Schaltfläche **Run** (Ausführen), um das Dynamo-Skript mit den aktualisierten Eingabewerten erneut auszuführen.
+3. Verschieben Sie die Gruppe nach Bedarf, um die Treppe entsprechend dem Layer **Plan Image** an der richtigen Position zu platzieren. Achten Sie darauf, die Höhe der Treppengruppe beim Verschieben nicht zu ändern. In den vorherigen Kapiteln finden Sie weitere Tricks und Techniken zum Verschieben von Modellelementen.
 
-![](<../../.gitbook/assets/1 (11).png>)
+![](../../.gitbook/assets/1%20%2811%29.png)
 
-_**‌Note:**_ _The_ _**Floor-to-Floor Height**_ _input is an approximation of the stair’s total height. The_ _**Riser Height**_ _is the parameter that actually defines the height of the stairs. In this example we set the_ _**Floor-to-Floor Height**_ _as 2.6’ but the final stair height is 3.0’ (0.6’ (**Riser Height**) x 5 (number of risers)). Since the span between the ground and the terrace top of floor is 3’-2”, the remaining 2” is contained in the upper riser._
+_**‌Anmerkung:**_ _Die Eingabe für_ _**Floor-to-Floor Height**_ _(Geschosshöhe) ist eine Annäherung an die Gesamthöhe der Treppe._ _**Riser Height**_ _(Steigung) ist der Parameter, der die Höhe der Treppe definiert. In diesem Beispiel wurde_ _**Floor-to-Floor Height**_ _(Geschosshöhe) auf 2.6' festgelegt, die endgültige Treppenhöhe beträgt jedoch 3.0' \(0.6' \(**Riser Height (Steigung)**\) x 5 \(Anzahl Stufen\)\). Da die Spanne zwischen Boden und Oberkante der Terrasse 3'-2" beträgt, sind die verbleibenden 2" in der oberen Steigung enthalten._
 
-## **Create Main Building Stairs**
+## **Erstellen der Hauptgebäudetreppen**
 
-_In the previous steps we created a stair with no landings. Now we will create a stair that uses an upper landing that aligns with the_ _**Main Building Floor**._
+_In den vorherigen Schritten haben Sie eine Treppe ohne Podeste erstellt. Als Nächstes erstellen Sie eine Treppe, bei der ein oberes Podest verwendet wird, das am Layer_ _**Main Building Floor** ausgerichtet ist._
 
-1 - Start by making a copy of the stairs we just made:
+1 – Erstellen Sie zunächst eine Kopie der Treppe, die Sie gerade erstellt haben:
 
-1. Select the existing stair and then click anywhere on the **Plan Image** to start a move command. This will cause FormIt to use the elevation of the **Plan Image** as the starting reference height for place our new copy. Press **Ctrl** to make a **quick copy**.
-2. Move the cursor over closer to the main building above the terrace. Note that now the terrace’s top face is the new reference plane. Click to place the group.
+1. Wählen Sie die vorhandene Treppe aus, und klicken Sie dann auf eine beliebige Stelle im Layer **Plan Image**, um den Befehl Move zu starten. Dadurch wird in FormIt die Höhe von **Plan Image** als Startreferenzhöhe für die Platzierung der neuen Kopie verwendet. Drücken Sie die **STRG-Taste**, um eine **schnelle Kopie** zu erstellen.
+2. Bewegen Sie den Cursor näher zum Hauptgebäude über der Terrasse. Beachten Sie, dass die obere Fläche der Terrasse jetzt die neue Referenzebene ist. Klicken Sie, um die Gruppe zu platzieren.
 
-![](<../../.gitbook/assets/2 (9) (1).png>)
+![](../../.gitbook/assets/2%20%289%29.png)
 
-_**Note:**_ _Since the_ _**Plan Image**_ _is at the_ _**Ground Level**_ _plane, the_ _**Move Tool**_ _will use that plane as a reference for its start point. Note the_ _**On Face**_ _tooltip in the above image, indicating that the Plan Image face is selected as the starting reference, and the top face of the_ _**Lower Terrace Floor**_ _is selected as the ending reference._
+_**Anmerkung:**_ _Da sich das_ _**Plan Image**_ _auf der Ebene_ _**Ground Level**_ _(Erdgeschoss) befindet, wird diese Ebene vom_ _**Werkzeug Move**_ _(Verschieben) als Referenz für den Startpunkt verwendet. Beachten Sie die QuickInfo_ _**On Face**_ _(Auf Fläche) in der Abbildung oben, die angibt, dass die Fläche von Plan Image als Startreferenz und die obere Fläche von_ _**Lower Terrace Floor**_ _(Unterer Terrassenboden) als Endreferenz ausgewählt ist._
 
-2 - Use the **Make Unique (MU)** tool so that when we change this stair’s Dynamo inputs it will not affect the lower stair. Reposition the group as needed so that it is close to its final location – we will fine tune this later. You can toggle the **Lower Terrace** layer visibility to see the plan below to help position it, but again be careful not to change the new stair’s elevation as you move it.
+2 – Verwenden Sie das Werkzeug **Make Unique \(MU\)** (Als eindeutig definieren), damit sich Änderungen an den Dynamo-Eingaben dieser Treppe nicht auf die untere Treppe auswirken. Positionieren Sie die Gruppe nach Bedarf neu, sodass sie sich nahe an der endgültigen Position befindet. Diese wird später genauer festgelegt. Sie können die Sichtbarkeit des Layers **Lower Terrace** umschalten, um den Plan darunter zu Hilfszwecken bei der Positionierung anzuzeigen. Achten Sie jedoch darauf, die Höhe der neuen Treppe beim Verschieben nicht zu ändern.
 
-3 - In the **Properties Palette** update the **Dynamo Inputs** as shown below and run the script once more.
+3 – Aktualisieren Sie in der **Properties Palette** (Eigenschaften-Palette) die **Dynamo Inputs** (Dynamo-Eingaben) wie unten dargestellt, und führen Sie das Skript erneut aus.
 
-* Add Top Landing = True
-* Floor-to-Floor Height = 2.333
-* Riser Height = 0.466
-* Tread Length = 1.5
-* Top/Bottom Landing Length = 2.5
+* Add Top Landing (Oberes Podest hinzufügen) = True
+* Floor-to-Floor Height (Geschosshöhe) = 2.333
+* Riser Height (Steigung) = 0.466
+* Tread Length (Auftrittslänge) = 1.5
+* Top/Bottom Landing Length (Länge des oberen/unteren Podests) = 2.5
 
-![](<../../.gitbook/assets/3 (1).jpeg>)
+![](../../.gitbook/assets/3%20%281%29.jpeg)
 
-_**Note:**_ _If you set_ _**Add Bottom Landing**_ _to_ _**true**_ _and re-run the script, the bottom landing’s top face should align with the_ _**Lower Terrace Floor**’s top face. This is happening because – differently from the previous stairs - we adjusted the_ _**Riser Height**_ _to match the_ _**Floor-to-Floor Height**_ _to the true height we want (2’-4” or 2.333’)._
+_**Anmerkung:**_ _Wenn Sie_ _**Add Bottom Landing**_ _(Unteres Podest hinzufügen) auf_ _**True**_ _einstellen und das Skript erneut ausführen, sollte die obere Fläche des unteren Podests an der oberen Fläche von_ _**Lower Terrace Floor** (Unterer Terrassenboden) ausgerichtet sein. Dies geschieht, weil Sie – anders als bei den vorherigen Treppen–_ _**Riser Height**_ _(Steigung) so angepasst haben, dass sie mit der_ _**Floor-to-Floor Height**_ _(Geschosshöhe) entsprechend der gewünschten echten Höhe \(2'-4" oder 2.333'\)übereinstimmt._
 
-2 - Reposition the group again to its final position. The top landing should be flush with the **Main Building Floor**.
+2 – Positionieren Sie die Gruppe erneut an der endgültigen Position. Das obere Podest muss bündig mit dem Layer **Main Building Floor** abschließen.
 
-3 - To finalize the stairs, add the **Stone - Travertine** material to it to match the floors. To learn more about how to apply materials, see previous chapters.
+3 – Um die Treppe fertig zu stellen, fügen Sie das Material **Stone – Travertine** (Stein – Travertin) hinzu, um es an die Geschosse anzupassen. Weitere Informationen zum Anwenden von Materialien finden Sie in den vorherigen Kapiteln.
+

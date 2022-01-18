@@ -1,40 +1,41 @@
-# Non-Uniform Scale
+# Ungleichmäßig skalieren
 
-**Use Non-Uniform Scale to stretch objects in 1, 2, or 3 dimensions.**
+**Verwenden Sie Ungleichmäßig skalieren, um Objekte in 1, 2 oder 3 Bemaßungen zu strecken.**
 
-Select any combination of Edges, Faces, Solids, Meshes, or Groups, and access Non-Uniform Scale using the keyboard shortcut **NU** or from the Context Menu option:
+Wählen Sie eine beliebige Kombination von Kanten, Flächen, Volumenkörpern, Netzen oder Gruppen aus, und greifen Sie über den Tastaturkurzbefehl **NU** oder über die Option im Kontextmenü auf Ungleichmäßig skalieren zu:
 
-![](../.gitbook/assets/nu-scale\_context-menu.PNG)
+![](../.gitbook/assets/nu-scale_context-menu.PNG)
 
-**Once active, you'll see a series of grips that can be used to non-uniformly scale the object in 1, 2, or 3 axes simultaneously.**
+**Nach der Aktivierung sehen Sie eine Reihe von Griffen, mit denen Sie das Objekt ungleichmäßig in 1, 2 oder 3 Achsen gleichzeitig skalieren können.**
 
-For clarity, only the grips facing the camera will be drawn. Orbit around the object if you need to adjust a grip on the other side.
+Zur besseren Übersichtlichkeit werden nur die Griffe gezeichnet, die der Kamera zugewandt sind. Umkreisen Sie das Objekt, wenn Sie einen Griff auf der anderen Seite anpassen müssen.
 
-![](../.gitbook/assets/nu-scale\_grips-1.PNG)
+![](../.gitbook/assets/nu-scale_grips-1.PNG)
 
-Once you click a grip, you'll see a series of editable text boxes where you can adjust the scale by percentage or distance:
+Wenn Sie auf einen Griff klicken, sehen Sie eine Reihe von bearbeitbaren Textfeldern, in denen Sie die Skalierung nach Prozent oder Abstand anpassen können:
 
-![](../.gitbook/assets/nu-scale\_grips-2.PNG)
+![](../.gitbook/assets/nu-scale_grips-2.PNG)
 
-**Once the dimension boxes are visible, you can:**
+**Sobald die Bemaßungsfelder sichtbar sind, können Sie Folgendes tun:**
 
-* Start typing a number to automatically edit the percentage box and specify a scale factor.
-  * Entering a negative number will reverse the direction of the scale.
-* Or click to temporarily set the grip location, then click the box containing the dimension to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Eingeben einer Zahl, um das Prozentfeld automatisch zu bearbeiten und einen Skalierungsfaktor anzugeben
+   * Durch Eingabe einer negativen Zahl wird die Skalierungsrichtung umgekehrt.
+* Klicken, um die Griffposition vorübergehend festzulegen, und anschließendes Klicken auf das Feld mit der nach Abstand zu skalierenden Bemaßung
+* Beenden der Operation Ungleichmäßig skalieren durch Klicken in den Raum oder Drücken der ESC-Taste
 
-**Scaling at one of the corner edge grips will respect the aspect ratio of the adjacent dimensions:**
+**Beim Skalieren an einem der Eckkantengriffe wird das Seitenverhältnis der angrenzenden Bemaßungen berücksichtigt:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the two dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Geben Sie eine Zahl ein, um den Prozentwert zu bearbeiten.
+* Oder klicken Sie, um die Griffposition vorübergehend festzulegen, und klicken Sie dann auf eines der beiden Bemaßungsfelder, um die Skalierung nach Abstand durchzuführen.
+* Beenden der Operation Ungleichmäßig skalieren durch Klicken in den Raum oder Drücken der ESC-Taste
 
-![](../.gitbook/assets/nu-scale\_grips-3.PNG)
+![](../.gitbook/assets/nu-scale_grips-3.PNG)
 
-**Similarly, scaling at one of the corner grips will respect the aspect ratio of the entire shape, and effectively uniformly scale:**
+**Entsprechend wird beim Skalieren an einem der Eckgriffe das Seitenverhältnis der gesamten Form berücksichtigt, und die Skalierung erfolgt gleichmäßig und effektiv:**
 
-* Start typing a number to edit the percentage value.
-* Or click to temporarily set the grip location, then click one of the three dimension boxes to scale by distance.
-* Click off into space or hit ESC to finish the Non-Uniform Scale operation.
+* Geben Sie eine Zahl ein, um den Prozentwert zu bearbeiten.
+* Oder klicken Sie, um die Griffposition vorübergehend festzulegen, und klicken Sie dann auf eines der drei Bemaßungsfelder, um die Skalierung nach Abstand durchzuführen.
+* Beenden der Operation Ungleichmäßig skalieren durch Klicken in den Raum oder Drücken der ESC-Taste
 
-![](../.gitbook/assets/nu-scale\_grips-4.PNG)
+![](../.gitbook/assets/nu-scale_grips-4.PNG)
+

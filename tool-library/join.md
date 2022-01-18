@@ -1,29 +1,32 @@
-# Boolean Join
+# Boolesche Operationen: Verbinden
 
-You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
+Mit dem Werkzeug Verbinden können Sie ein Objekt oder eine Gruppe mit anderen Objekten oder Gruppen verbinden. Es gibt zwei Möglichkeiten zum Aufrufen des Werkzeugs Verbinden:
 
-## Run the Join command first
+## Zuerst den Befehl Verbinden ausführen
 
-Keyboard: J G
+Tastatur: J G
 
-![](../.gitbook/assets/boolean\_join.png)
+![](../.gitbook/assets/boolean_join.png)
 
-Run the Join command and follow the mode instruction in the upper left of the screen
+Führen Sie den Befehl Verbinden aus, und folgen Sie den Anweisungen für den Modus oben links auf dem Bildschirm.
 
-Single-click to select an object to join into.
+Klicken Sie, um ein Objekt auszuwählen, das verbunden werden soll.
 
-![](<../.gitbook/assets/cut\_mode01 (1).png>)
+![](../.gitbook/assets/cut_mode01.png)
 
-Single-click to select an object or group to be joined.
+Klicken Sie, um ein Objekt oder eine Gruppe zum Verbinden auszuwählen.
 
-![](<../.gitbook/assets/cut\_mode02 (1).png>)
+![](../.gitbook/assets/cut_mode02.png)
 
-Click the checkmark to finish the command.
+Klicken Sie auf das Häkchen, um den Befehl zu beenden. 
 
-## Select objects first
+## Zuerst die Objekte auswählen
 
-1. Double-click to select the object to be joined (single click for a group).
-2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
-3. Right click on any of the objects and choose the Join Tool in the Context Menu.
+1. Doppelklicken Sie, um das Objekt auszuwählen, das verbunden werden soll \(einfacher Klick für eine Gruppe\).
+2. Halten Sie die **STRG-Taste** gedrückt, und doppelklicken Sie auf ein überlappendes Objekt, das Sie mit dem ersten Objekt verbinden möchten.
+3. Klicken Sie mit der rechten Maustaste auf eines der Objekte, und wählen Sie im Kontextmenü das Werkzeug Verbinden.
 
-![](<../.gitbook/assets/join tool.png>)
+![](../.gitbook/assets/join-tool.png)
+
+
+

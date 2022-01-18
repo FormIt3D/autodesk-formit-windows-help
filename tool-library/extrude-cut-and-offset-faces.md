@@ -1,29 +1,30 @@
-# Faces: Extrude, Cut and Offset
+# Flächen: Extrudieren, Ausschneiden und Versetzen
 
-Push or pull a face, imprint new shapes on existing ones, or create new offset edges.
+Es ist möglich, Flächen zu schieben oder zu ziehen, neue Formen auf bestehenden anzubringen oder neue Versatzkanten zu erstellen.
 
-## Extrude
+## Extrusion
 
-To push or pull a face, select a face with a single click, then click and drag. The face will move back and forth, you can now move your mouse to snap and inference on other model elements. Click again to finish moving the face. Hold down the CTRL key to retain the original edges.
+Um eine Fläche zu schieben oder zu ziehen, wählen Sie sie durch einfaches Klicken aus und ziehen sie bei gedrückter Maustaste. Die Fläche wird vorwärts und rückwärts verschoben und Sie können mithilfe der Maus andere Modellelemente als Referenzen für Objektfang und Ableitungen nutzen. Klicken Sie erneut, um die Verschiebung der Fläche zu beenden. Halten Sie die Strg-Taste gedrückt, wenn die Originalkanten erhalten bleiben sollen.
 
-![](<../.gitbook/assets/extrude (1).png>)
+![](../.gitbook/assets/extrude%20%281%29.png)
 
-## Imprint
+## Einprägen
 
-To imprint shapes, use a 3D Sketch tool to draw lines, arcs, splines, rectangles, or circles onto existing faces. This action creates new faces that can be pushed or pulled independently of the original face.
+Um Formen aufzuprägen, zeichnen Sie mithilfe eines 3D-Skizzierwerkzeugs Linien, Bogen, Splines, Rechtecke oder Kreise auf bestehende Flächen. Durch diese Aktion erstellen Sie neue Flächen, die Sie unabhängig von der Originalfläche schieben oder ziehen können.
 
-![](../.gitbook/assets/imprint1.png)\
+![](../.gitbook/assets/imprint1.png)  
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## Versatz
 
-To offset the face of an object:
+So versetzen Sie die Fläche eines Objekts
 
-1. First select the face you would like to edit, then right-click to view the **Context** menu.&#x20;
-2. From the **Context** menu, click on the **Offset Face** tool.&#x20;
-3. Move your cursor over the selected face and adjust the lines that display until you reach your desired offset effect.
-4. Click anywhere to complete the offset. You can now independently push or pull the offset face.
+1. Wählen Sie zunächst die Fläche aus, die Sie bearbeiten möchten, und klicken Sie dann mit der rechten Maustaste, um das **Kontextmenü** anzuzeigen.
+2. Klicken Sie im **Kontextmenü** auf das Werkzeug **Fläche versetzen**.
+3. Bewegen Sie den Cursor über die ausgewählte Fläche, und passen Sie die angezeigten Linien an, bis Sie den gewünschten Versatzeffekt erreicht haben.
+4. Klicken Sie auf eine beliebige Stelle, um den Versatz abzuschließen. Sie können die versetzte Fläche nun unabhängig schieben oder ziehen.
 
-![](../.gitbook/assets/offset1.png)\
-![](../.gitbook/assets/offset2.png)\
+![](../.gitbook/assets/offset1.png)  
+![](../.gitbook/assets/offset2.png)  
 ![](../.gitbook/assets/offset3.png)
+

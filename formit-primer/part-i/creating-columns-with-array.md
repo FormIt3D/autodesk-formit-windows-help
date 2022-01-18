@@ -1,146 +1,146 @@
-# 1.8 - Create Columns with Array
+# 1.8 – Erstellen von Stützen mit Reihe
 
-_In this exercise, we will sketch a detailed element - an I-beam column. Then we will use the Array tool to quickly create multiple equally-spaced copies._
+_In dieser Übung skizzieren Sie ein detailliertes Element, eine I-Träger-Stütze. Anschließend erstellen Sie mit dem Werkzeug Reihe schnell mehrere Kopien mit gleichem Abstand._
 
-_If you did not complete the last section, download and open the_ _**1.8 – Create Columns with Array.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.8 – Create Columns with Array.axm**_ _aus_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-## **Sketch the Column Profile**
+## **Skizzieren des Stützenprofils**
 
-1 - To facilitate the drafting process:
+1 – So vereinfachen Sie den Entwurfsprozess
 
-1. Go to the **Top View (VT)**.
-2. Switch the view mode to **Orthographic (VO)**.
-3. Turn off the **Main Building** **Floor** and **Roof** layers. This step will prevent the new geometry from snaping to the existing geometry on those layers.
-4. Zoom into the upper left corner of the **imported floor plan** image so you can view the column in detail.
-5. Turn off the **Snap to Grid (SG)** feature (if you have it on). This will help with drawing the detail lines.
+1. Wechseln Sie zur **Draufsicht \(VT\)**.
+2. Ändern Sie den Ansichtsmodus in **Orthogonal \(VO\)**.
+3. Deaktivieren Sie die Layer **Main Building**, **Floor** und **Roof**. Dadurch wird verhindert, dass die neue Geometrie auf den vorhandenen Geometrien dieser Layer gefangen wird.
+4. Vergrößern Sie die obere linke Ecke des Bilds des **importierten Grundrisses**, sodass Sie die Stütze im Detail sehen können.
+5. Deaktivieren Sie die Funktion **Rasterfang \(SG\)** \(sofern aktiviert\). Dies hilft beim Zeichnen der Detaillinien.
 
-![](<../../.gitbook/assets/0 (13) (1).png>)
+![](../../.gitbook/assets/0%20%2813%29.png)
 
-_To draw the column, we will first draw one half, then mirror it to quickly create the other symmetrical half._
+_Um die Stütze zu zeichnen, zeichnen Sie zunächst eine Hälfte und spiegeln diese dann, um schnell die andere symmetrische Hälfte zu erstellen._
 
-2 - To create the first half of the I-beam, use the **Line tool (L)** to make the following sketch using the specified dimensions. Don’t worry about the exact position of the column on the plan image just yet.
+2 – Zum Erstellen der ersten Hälfte des I-Trägers verwenden Sie das **Werkzeug Linie \(L\)**, um die folgende Skizze mit den angegebenen Bemaßungen zu erstellen. Sie müssen sich noch keine Gedanken über die genaue Position der Stütze auf dem Planbild machen.
 
-![](<../../.gitbook/assets/1 (18).png>)
+![](../../.gitbook/assets/1%20%2818%29.png)
 
-3 - To mirror the shape you have just drawn:
+3 – So spiegeln Sie die gerade gezeichnete Form
 
-1. Double-click to select all the faces and edges of the drawn geometry.
-2. Right-click and select the **Mirror Tool (MI)**.
-3. Click on the center orange grip of the **Mirror Widget** and place it at the geometry’s bottom left corner.
-4. Use the bottom arrow from the double-sided arrow button in the Widget to rotate the mirroring-axis -90 degrees (clockwise).
-5. Single-click off in space, or press **Esc** to finish the mirroring process. The result should look like an I-beam profile with a line down the middle. Press **Esc** again to clear the selection.
+1. Doppelklicken Sie, um alle Flächen und Kanten der gezeichneten Geometrie auszuwählen.
+2. Klicken Sie mit der rechten Maustaste, und wählen Sie das **Werkzeug Spiegeln \(MI\)** aus.
+3. Klicken Sie auf den orangefarbenen Griff in der Mitte des **Spiegeln-Widgets**, und platzieren Sie es in der unteren linken Ecke der Geometrie.
+4. Verwenden Sie den unteren Pfeil der doppelseitigen Pfeil-Schaltfläche im Widget, um die Spiegelachse um -90 Grad \(im Uhrzeigersinn\) zu drehen.
+5. Klicken Sie auf eine beliebige Stelle, oder drücken Sie **ESC**, um den Spiegelvorgang abzuschließen. Das Ergebnis sollte wie ein I-Träger-Profil mit einer Linie in der Mitte aussehen. Drücken Sie erneut **ESC**, um die Auswahl aufzuheben.
 
-![](<../../.gitbook/assets/2 (5).png>)
+![](../../.gitbook/assets/2%20%285%29.png)
 
-![](<../../.gitbook/assets/3 (7).png>)
+![](../../.gitbook/assets/3%20%287%29.png)
 
-_**Note**: The final geometry location and orientation is previewed with the ghosted blue shape while you are adjusting the mirror widget. You can use this preview as a reference to mirror the geometry to the intended location._
+_**Anmerkung**: Während Sie das Spiegeln-Widget anpassen, wird in der Vorschau die endgültige Position und Ausrichtung der Geometrie mit der blauen Geisterform angezeigt. Sie können diese Vorschau als Referenz verwenden, um die Geometrie an der gewünschten Position zu spiegeln._
 
-4 - To join both sides into a single geometry, remove the line dividing them by clicking on it to select it and then pressing **Delete**. Now the two surfaces are joined into a single surface.
+4 – Um beide Seiten zu einer einzigen Geometrie zu verbinden, entfernen Sie die sie trennende Linie, indem Sie zum Auswählen darauf klicken und dann **ENTF** drücken. Jetzt sind die beiden Flächen in einer einzigen Fläche verbunden.
 
-5 - To move the geometry to its final location:
+5 – So verschieben Sie die Geometrie an ihre endgültige Position
 
-1. If off, turn on the **Plan Image** and **Roof** layers, to use them as a guide.
-2. Double-click the column profile to select its face and all of its lines. Start moving the selection along the green axis (**Y Axis**). Hold **Shift** and move the profile until it aligns with the Roof, then click to place it.
-3. Similar to the previous step, move the geometry once again, this time locking it to the red axis (**X Axis**).
-4. Click to place it on top of the I-Beam drawn in the **Plan Image**. Getting it close is fine, like in the following image, the horizontal position does not need to be perfect.
+1. Wenn diese Option deaktiviert ist, aktivieren Sie die Layer **Plan Image** und **Roof**, um sie als Hilfsmittel zu verwenden.
+2. Doppelklicken Sie auf das Stützenprofil, um seine Fläche und alle Linien auszuwählen. Verschieben Sie die Auswahl entlang der grünen Achse \(**Y-Achse**\). Halten Sie die **UMSCHALTTASTE** gedrückt, und verschieben Sie das Profil, bis es am Dach ausgerichtet ist. Klicken Sie dann, um es zu platzieren.
+3. Verschieben Sie die Geometrie ähnlich wie im vorherigen Schritt erneut, und beschränken Sie sie diesmal auf die rote Achse \(**X-Achse**\).
+4. Klicken Sie, um sie auf dem I-Träger zu platzieren, der in **Plan Image** gezeichnet wurde. Es reicht, wenn die Platzierung ungefähr stimmt. Wie Sie im folgenden Bild sehen, muss die horizontale Position nicht perfekt sein.
 
-_**Note:**_ _The_ _**Shift**_ _key will lock the geometry to move along only one axis, in this case, the green (**Y Axis**). This will ensure the column profile does not accidentally move up and align to the top of the roof plane._
+_**Anmerkung:**_ _Die_ _**UMSCHALTTASTE**_ _beschränkt die Bewegung der Geometrie auf nur eine Achse, in diesem Fall die grüne \(**Y-Achse**\). Dadurch wird sichergestellt, dass das Stützenprofil nicht versehentlich nach oben verschoben und an der Oberseite der Dachebene ausgerichtet wird._
 
-![](<../../.gitbook/assets/4 (9) (1).png>)
+![](../../.gitbook/assets/4%20%289%29.png)
 
-## **Extrude and Array the Column**
+## **Extrudieren und Anordnen der Stütze**
 
-1 - To facilitate the next drafting process, switch the view mode back to **Perspective (VP)** and **Orbit (O)** to position the camera as to visualize the I-Beam profile from the northwest. Use the north arrow at the bottom left corner to help you position the view.
+1 – Um den nächsten Zeichenprozess zu erleichtern, ändern Sie den Ansichtsmodus wieder in **Perspektivisch \(VP\)** und **umkreisen \(O\)** die Ansicht, um die Kamera so zu positionieren, dass das I-Träger-Profil aus Nordwest visualisiert wird. Verwenden Sie den Nordpfeil unten links, um die Ansicht zu positionieren.
 
-![](<../../.gitbook/assets/5 (1).jpeg>)
+![](../../.gitbook/assets/5%20%281%29.jpeg)
 
-_**Note:**_ _To learn how to navigate around the sketch, we recommend checking out the_ _**Navigate the Scene**_ _chapter._
+_**Anmerkung:**_ _Um zu erfahren, wie Sie in der Skizze navigieren, empfehlen wir, das Kapitel_ _**Navigieren in der Szene**_ _zu lesen._
 
-2- Select the column profile face and extrude the face up to **17’-8”**.
+2 – Wählen Sie die Fläche des Stützenprofils aus, und extrudieren Sie die Fläche auf **17'-8"**.
 
-_**Note:**_ _If while moving the column profile, it aligned itself to the roof, extrude the face down by_ _**17’-8”**_\
-_instead of up._
+_**Anmerkung:**_ _Wenn das Stützenprofil beim Verschieben am Dach ausgerichtet wird, extrudieren Sie die Fläche um_ _**17'-8"**   nach unten anstatt nach oben._
 
-3 - Zoom out and turn the **Roof** layer on (if off). The top of the column should line up with the top of the roof.
+3 – Verkleinern Sie die Ansicht, und aktivieren Sie den Layer **Roof** \(falls deaktiviert\). Die Oberkante der Stütze sollte an der Oberkante des Dachs ausgerichtet sein.
 
-![](<../../.gitbook/assets/6 (9) (1).png>)
+![](../../.gitbook/assets/6%20%289%29.png)
 
-4 - To keep the model organized and tidy, select the column geometry again and do the following:
+4 – Um das Modell übersichtlich und ordentlich zu halten, wählen Sie die Stützengeometrie erneut aus und führen die folgenden Schritte durch:
 
-1. **Group (G)** and name it **Column Tall**.
-2. Create a new **Layer** called **Column** and add the group to it.
-3. Import the material **Metal - Brushed - Colorized** and paint the group with it.
+1. **Gruppieren \(G\)** Sie die Geometrie, und nennen Sie sie **Column Tall**.
+2. Erstellen Sie einen neuen **Layer** mit der Bezeichnung **Column**, und fügen Sie die Gruppe hinzu.
+3. Importieren Sie das Material **Metal – Brushed – Colorized**, und versehen Sie die Gruppe damit.
 
-![](<../../.gitbook/assets/7 (4) (1).png>)
+![](../../.gitbook/assets/7%20%284%29.png)
 
-_**Note:**_ _See previous chapters for more information on_ _**Groups**,_ _**Layers**, and_ _**Materials**._
+_**Anmerkung:**_ _Weitere Informationen zu_ _**Gruppen**,_ _**Layern** und_ _**Materialien** finden Sie in den vorherigen Kapiteln._
 
-4 - Click **Esc** to clear the paintbrush tool.
+4 – Klicken Sie auf **ESC**, um das Pinselwerkzeug zu löschen.
 
-## **Array the Columns**
+## **Stützen in Reihe anordnen**
 
-1 - Go to the **Top View (VT)** and switch the camera mode to **Orthographic (VO)** again.
+1 – Wechseln Sie in die **Draufsicht \(VT\)**, und ändern Sie den Kameramodus wieder in **Orthogonal \(VO\)**.
 
-2 - Turn off the **Roof** layer.
+2 – Deaktivieren Sie den Layer **Roof**.
 
-3 - To start the array process:
+3 – So starten Sie den Reihenprozess
 
-1. Single-click to select the column group. Right-click to bring the **Context Menu** and choose **Array (AR)**.
-2. In the **Array Properties** dialog, use the following settings:
-   * **Length Between Copies**
-   * **Linear** (default)
-   * **Group each solid then array** (default)
-   * **Number of Copies: 3**
-   * Press **OK** to close the dialog.
+1. Klicken Sie, um die Stützengruppe auszuwählen. Klicken Sie mit der rechten Maustaste, um das **Kontextmenü** aufzurufen, und wählen Sie **Reihe \(AR\)**.
+2. Verwenden Sie im Dialogfeld **Reiheneigenschaften**￼ die folgenden Einstellungen:
+   * **Länge zwischen Kopien**
+   * **Linear** \(Vorgabe\)
+   * **Gruppieren: jeder Volumenkörper, dann Reihe** \(Vorgabe\)
+   * **Anzahl der Kopien: 3**
+   * Klicken Sie auf **OK**, um das Dialogfeld zu schließen.
 
-![](<../../.gitbook/assets/8 (3) (1).png>)
+![](../../.gitbook/assets/8%20%283%29.png)
 
-4 - To place the new elements:
+4 – So platzieren Sie die neuen Elemente
 
-1. Single-click on the column to start the **Array**. Move the cursor along the red axis (**X axis**).
-2. Set dimension to **22'**. You now have **four** columns **22'** apart.
-3. **Esc** to clear your selection.
+1. Klicken Sie auf die Stütze, um die **Reihe** zu starten. Bewegen Sie den Cursor entlang der roten Achse \(**X-Achse**\).
+2. Legen Sie die Bemaßung auf **22'** fest. Sie haben nun **vier** Stützen mit einem Abstand von **22'**.
+3. Drücken Sie **ESC**, um die Auswahl aufzuheben.
 
-![](<../../.gitbook/assets/9 (6) (1).png>)
+![](../../.gitbook/assets/9%20%286%29.png)
 
-5 - To select all the **Tall Column** groups at once, hover your mouse over one of them and press the **Tab** key once. Notice that all 4 column’s bounding boxes have been highlighted. Single-click on the column your mouse is hovering over and they will all be selected. This is a quick way to select all instances of the same group at once.
+5 – Um alle Gruppen unter **Tall Column** gleichzeitig auszuwählen, bewegen Sie den Mauszeiger über eine von ihnen und drücken einmal die **TABULATORTASTE**. Beachten Sie, dass alle Begrenzungsrahmen der vier Stützen markiert wurden. Klicken Sie auf die Stütze, über die Sie den Mauszeiger halten. Alle Stützen werden ausgewählt. Dies ist eine schnelle Methode, um alle Exemplare derselben Gruppe gleichzeitig auszuwählen.
 
-6 - Perform another **Array (AR)** to create the columns at the other side of the building. This time make 1 copy along the green axis across the building. Set dimension to **29'- 4 5/8”.**
+6 – Führen Sie eine weitere **Reihe \(AR\)** aus, um die Stützen auf der anderen Seite des Gebäudes zu erstellen. Erstellen Sie dieses Mal eine Kopie entlang der grünen Achse im gesamten Gebäude. Legen Sie die Bemaßung auf **29'-4 5/8" fest.**
 
-_**Note:**_ _29’ 4 5/8” = 8 5/8” (column depth) + 28’-8” (main building width)._
+_**Anmerkung:**_ _29' 4 5/8" = 8 5/8" \(Stützentiefe\) + 28'-8" \(Hauptgebäudebreite\)_
 
-7 - To visualize the whole building, go to the **3D View (V3)** and set it to **Perspective (VP)**. If off, turn on the **Main Building Floor**, **Roof**, **Lower Terrace**, and **Column** layers.
+7 – Um das gesamte Gebäude zu visualisieren, wechseln Sie zur **3D-Ansicht \(V3\)** und legen **Perspektivisch \(VP\)** fest. Wenn diese Option deaktiviert ist, aktivieren Sie die Layer **Main Building Floor**, **Roof**, **Lower Terrace** und **Column**.
 
-![](<../../.gitbook/assets/10 (7) (1).png>)
+![](../../.gitbook/assets/10%20%287%29.png)
 
-## **Create the Terrace Columns**
+## **Erstellen der Terrassenstützen**
 
-_Now we will duplicate the main building columns to create similar, but shorter, versions for the terrace._
+_Jetzt duplizieren Sie die Hauptgebäudestützen, um ähnliche, aber kürzere Versionen für die Terrasse zu erstellen._
 
-1 - To facilitate drafting, we recommend going back to an **Orthogonal (OV)** and **Top View (VT)** setting.
+1 – Um das Zeichnen zu erleichtern, empfehlen wir, zu den Einstellungen **Orthogonal \(OV\)** und **Draufsicht \(VT\)** zurückzukehren.
 
-2 - To create the new columns:
+2 – So erstellen Sie die neuen Stützen
 
-1. Hold **Ctrl** or **Shift**, click on the 3 columns closest to the **Lower Terrace Floor** to select them.
-2. Single-click on any one of the columns to start moving all 3 selected columns at once. Press the **Ctrl** key once to create a **quick copy**. A ghost preview of the copy will appear.
-3. Move the copies down along the green axis (**Y Axis**) by **23’-4 3/8**”. Press **Esc**.
-4. Without deselecting, move the copied columns along the red axis (**X Axis**) by **22’** to place them in their final position.
-5. Again, with the 3 new columns still selected, right-click one of the copied columns and select **Make Unique (MU)**. These columns are now associated with each other, but unique from the originals.
+1. Halten Sie die **STRG**- oder **UMSCHALTTASTE** gedrückt, und klicken Sie auf die drei Stützen, die sich am nächsten zum **unteren Terrassenboden** befinden, um sie auszuwählen.
+2. Klicken Sie auf eine der Stützen, um alle drei ausgewählten Stützen gleichzeitig zu verschieben. Drücken Sie die **STRG-Taste**, um eine **schnelle Kopie** zu erstellen. Eine Geistervorschau der Kopie wird angezeigt.
+3. Verschieben Sie die Kopien entlang der grünen Achse \(**Y-Achse**\) um **23'-4 3/8"** nach unten. Drücken Sie die **ESC**-Taste.
+4. Verschieben Sie die kopierten Stützen ohne Abwahl um **22'** entlang der roten Achse \(**X-Achse**\), um sie an ihrer endgültigen Position zu platzieren.
+5. Klicken Sie mit der rechten Maustaste auf eine der kopierten Stützen, während die drei neuen Stützen weiterhin ausgewählt sind, und wählen Sie **Als eindeutig definieren \(MU\)** aus. Diese Stützen sind jetzt miteinander verknüpft, unterscheiden sich jedoch eindeutig von den Originalen.
 
-_**Note:**_ _Holding_ _**Shift**_ _or_ _**Ctrl**_ _allows you to select multiple elements at once, or remove elements from your current selection._
+_**Anmerkung:**_ _Halten Sie die_ _**UMSCHALTTASTE**_ _oder_ _**STRG-Taste**_ _gedrückt, wenn Sie mehrere Elemente gleichzeitig auswählen oder Elemente aus der aktuellen Auswahl entfernen möchten._
 
-![](<../../.gitbook/assets/11 (7) (1).png>)
+![](../../.gitbook/assets/11%20%287%29.png)
 
-3 - Modify the new column group:
+3 – Ändern Sie die neue Stützengruppe:
 
-1. Double-click to edit one of the new groups and rename it **Column Short.**
-2. Adjust the height of the new column to align to the top of the **Lower Terrace** **Floor** (3’-2”). To do that, select and drag the column’s face down along the blue axis (**Z axis**) and hold **Shift**. Hover the cursor anywhere on the top face of the **Lower Terrace Floor** and the column’s height will automatically align to the Lower Terrace. Once the height is set, click to finish.
+1. Doppelklicken Sie, um eine der neuen Gruppen zu bearbeiten, und benennen Sie sie in **Column Short**
+2. Passen Sie die Höhe der neuen Stütze so an, dass sie an der Oberseite des **unteren** **Terrassenbodens** ausgerichtet ist \(3'-2"\). Dazu wählen Sie die Stützenfläche aus, ziehen sie entlang der blauen Achse \(**Z-Achse**\) nach unten und halten die **UMSCHALTTASTE** gedrückt. Wenn Sie den Mauszeiger an eine beliebige Stelle auf der oberen Fläche des **unteren Terrassenbodens** setzen, wird die Höhe der Stütze automatisch an der unteren Terrasse ausgerichtet. Klicken Sie nach dem Festlegen der Höhe, um den Vorgang abzuschließen.
 
-![](<../../.gitbook/assets/12 (4).png>)
+![](../../.gitbook/assets/12%20%284%29.png)
 
-_**Note:**_ _You can check the height of the short columns by using the_ _**Measure (ME)**_ _tool. Alternatively, you can select one of the column’s vertical edge and see its length in the_ _**Properties Palette**._
+_**Anmerkung:**_ _Sie können die Höhe der kurzen Stützen mit dem Werkzeug_ _**Messen \(ME\)**_ _überprüfen. Alternativ können Sie eine der vertikalen Kanten der Stütze auswählen und ihre Länge in der_ _**Eigenschaftenpalette** anzeigen._
 
-4- Using the techniques you just learned, copy the furthest short column to the opposite side of the **Lower Terrace Floor** to create the last remaining column.
+4 – Kopieren Sie mithilfe der gerade erlernten Techniken die am weitesten entfernte kurze Stütze auf die gegenüberliegende Seite des **unteren Terrassenbodens**, um die letzte verbleibende Stütze zu erstellen.
 
-![](<../../.gitbook/assets/13 (4).png>)
+![](../../.gitbook/assets/13%20%284%29.png)
+

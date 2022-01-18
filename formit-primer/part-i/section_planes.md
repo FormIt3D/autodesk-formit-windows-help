@@ -1,39 +1,40 @@
-# 1.13 - Section Planes
+# 1.13 – Schnittebenen
 
-_In this chapter you will learn how to use_ _**Section Planes**_ _to cut your model, revealing interior spaces and structural elements. FormIt supports multiple_ _**Section Planes**_ _at once for a Section Box-like effect._
+_In diesem Kapitel lernen Sie, wie Sie mithilfe von_ _**Schnittebenen**_ _Ihr Modell schneiden, sodass Innenräume und Tragwerkselemente sichtbar werden. FormIt unterstützt mehrere_ _**Schnittebenen**_ _gleichzeitig, um einen Schnittbereich-ähnlichen Effekt zu erzielen._
 
-_If you did not complete the previous chapter, download and open the_ _**1. 13 - Section Planes.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+_Wenn Sie das vorherige Kapitel nicht bearbeitet haben, laden Sie die Datei_ _**1.  13 – Section Planes.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-1 - To create a new Section Plane:
+1 – So erstellen Sie eine neue Schnittebene
 
-1. Click on the **Section Plane (SP)** button from the **Standard Toolbar**.
-2. Hover over the model to identify a plane to use as reference. Note the arrows at the corners of the **Section Plane** indicating the direction of the section cut. Press the **Tab** key to alternate between different planes, if needed.
-3. Click to place the **Section Plane** anywhere on the southern glass wall of the main building. The plane will scale to the size of your model and remain selected.
+1. Klicken Sie auf die Schaltfläche **Schnittebene \(SP\)** im **Standard-Werkzeugkasten**.
+2. Bewegen Sie den Cursor über das Modell, um eine Ebene festzulegen, die als Referenz verwendet werden soll. Beachten Sie die Pfeile an den Ecken der **Schnittebene**, die die Schnittrichtung angeben. Drücken Sie die **TABULATORTASTE**, um ggf. zwischen verschiedenen Ebenen zu wechseln.
+3. Klicken Sie, um die **Schnittebene** an einer beliebigen Stelle auf der südlichen Glaswand des Hauptgebäudes zu platzieren. Die Ebene wird auf die Größe des Modells skaliert und bleibt ausgewählt.
 
-![Section plane preview when hovering over the glass wall.](<../../.gitbook/assets/0 (6).png>)
+![Schnittebenenvorschau, wenn Sie den Mauszeiger über die Glaswand bewegen](../../.gitbook/assets/0%20%286%29.png)
 
-![Scaled section plane after being placed.](<../../.gitbook/assets/1 (19) (1).png>)
+![Skalierte Schnittebene nach der Platzierung](../../.gitbook/assets/1%20%2819%29.png)
 
-2 - With the section plane still select, click to start moving it backwards until it is cutting through part of the main building, similar to the image below. This works similarly to moving any model element, except that the section plane can only move along an axis perpendicular to the direction it is facing. Once you are happy with the position, press **Esc** to clear the selection.
+2 – Klicken Sie bei ausgewählter Schnittebene, um sie nach hinten zu verschieben, bis sie einen Teil des Hauptgebäudes durchschneidet, ähnlich wie in der folgenden Abbildung. Dies funktioniert ähnlich wie das Verschieben eines beliebigen Modellelements, mit der Ausnahme, dass die Schnittebene nur entlang einer Achse verschoben werden kann, die lotrecht zu der Richtung verläuft, in die sie zeigt. Wenn Sie mit der Position zufrieden sind, drücken Sie **ESC**, um die Auswahl aufzuheben.
 
-![](<../../.gitbook/assets/2 (11) (1).png>)
+![](../../.gitbook/assets/2%20%2811%29.png)
 
-_**Note:**_ _You can add up to 6 section cuts to your model at once._
+_**Anmerkung:**_ _Sie können Ihrem Modell bis zu sechs Schnitte gleichzeitig hinzufügen._
 
-3 - Open the **Layers** **Palette**. Note that two (2) new layers have been generated - **Section Indicators** and **Section Cut 1**.
+3 – Öffnen Sie die **Layer**-**Palette**. Beachten Sie, dass zwei \(2\) neue Layer erstellt wurden – **Section Indicators** und **Section Cut 1**.
 
-1. Toggle the **Section Cut 1** layer off and back on. This controls whether the section cuts the model or not.
-2. Now toggle the **Section Indicator** layer off. This hides the section plane and its arrow indicators, but does not affect whether the actual section cut is active or not.
+1. Schalten Sie den Layer **Section Cut 1** aus und wieder ein. Damit wird gesteuert, ob der Schnitt das Modell schneidet oder nicht.
+2. Deaktivieren Sie nun den Layer **Section Indicators**. Dadurch werden die Schnittebene und die Pfeilindikatoren ausgeblendet. Dies hat jedoch keine Auswirkungen darauf, ob der tatsächliche Schnitt aktiv ist oder nicht.
 
-![](<../../.gitbook/assets/3 (6) (1).png>)
+![](../../.gitbook/assets/3%20%286%29.png)
 
-4 - In the **Surface Tab** of the **Visual Styles** **Palette**:
+4 – Gehen Sie auf der **Registerkarte Fläche** der **Palette** **Visuelle Stile** folgendermaßen vor:
 
-1. Check the box next to **Poche Color** to turn it on. This effect will color any solids cut by the section plane with a specified color. Black is the default color, but you can simply click on the color preview to change it.
-2. Turn of **Shadows (DS)**.
+1. Aktivieren Sie das Kontrollkästchen neben **Schnittmaterialfarbe**, um die Option zu aktivieren. Bei diesem Effekt werden alle durch die Schnittebene geschnittenen Volumenkörper mit einer bestimmten Farbe eingefärbt. Schwarz ist die Vorgabefarbe. Sie können jedoch einfach auf die Farbvorschau klicken, um die Farbe zu ändern.
+2. Deaktivieren Sie **Schatten \(DS\)**.
 
 ![](../../.gitbook/assets/poche.png)
 
-5 - To finalize your section, go to the **Scenes Palette** and create a new Scene called **Section**, saving the current **Camera** position, **Layers** visibility, and **Visual Styles** settings.
+5 – Um den Schnitt abzuschließen, wechseln Sie zur **Szenenpalette**, erstellen eine neue Szene mit dem Namen **Section** und speichern die aktuelle **Kameraposition**, die Sichtbarkeit der **Layer** und die Einstellungen für **Visuelle Stile**.
 
-![](<../../.gitbook/assets/5 (7).png>)
+![](../../.gitbook/assets/5%20%287%29.png)
+

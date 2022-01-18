@@ -1,27 +1,28 @@
-# Layers
+# Layer
 
-Use Layers to control the visibility of FormIt objects.
+Verwenden Sie Layer zur Steuerung der Sichtbarkeit von FormIt-Objekten.
 
-See Layers in action by following the [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Sehen Sie sich Layer in Aktion an, indem Sie die [FormIt-Einführung](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers) durcharbeiten.
 
-## Creating and Naming Layers
+## Erstellen und Benennen von Layern
 
-In the Layers panel, you can create and name your Layers by clicking the "**+**" icon.
+In der Gruppe Layer können Sie Ihre Layer erstellen und benennen, indem Sie auf das Symbol **+** klicken.
 
-![](<../.gitbook/assets/layer-locking-image (1).jpg>)
+![](../.gitbook/assets/layer-locking-image.jpg)
 
-You can double-click the name to rename the Layer, or toggle the visibility of its objects by checking and unchecking the left box. Use the right checkbox to lock and unlock layers. A Locked layer will still be visible but not selectable or editable.
+Sie können auf den Namen doppelklicken, um den Layer umzubenennen, oder die Sichtbarkeit der Objekte umschalten, indem Sie das linke Kontrollkästchen aktivieren bzw. deaktivieren. Verwenden Sie das rechte Kontrollkästchen, um Layer zu sperren und freizugeben. Ein gesperrter Layer ist weiterhin sichtbar, kann jedoch nicht ausgewählt oder bearbeitet werden.
 
-## Managing Objects on Layers
+## Verwalten von Objekten auf Layern
 
-Select objects in the canvas, then use the drop-down at the top of the Layers panel to indicate which Layer the selected objects should be placed on.
+Wählen Sie Objekte im Ansichtsbereich aus, und verwenden Sie dann die Dropdown-Liste oben in der Gruppe Layer, um anzugeben, auf welchem Layer die ausgewählten Objekte platziert werden sollen.
 
 ![](../.gitbook/assets/20191216-layers-panel-2.png)
 
-FormIt does not have the concept of a "default" or "working layer." All new geometry will be created on "No Layer" and you'll need to reassign objects to Layers after they're generated.
+FormIt arbeitet generell ohne vorgabemäßige oder Arbeitslayer. Die gesamte neue Geometrie wird mit Kein Layer erstellt, und Sie müssen Objekte nach der Erstellung den Layern neu zuweisen.
 
-You can right-click a Layer and choose "Select All Objects On Layer" to select all the geometry currently assigned to this Layer.
+Sie können mit der rechten Maustaste auf einen Layer klicken und Alles auf Layern auswählen wählen, um die gesamte Geometrie auszuwählen, die diesem Layer derzeit zugewiesen ist.
 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
-You can also reorder the Layers in the panel by dragging and dropping them to a new position. Note that this has no impact on geometry visibility - this is purely an organizational tool in the panel.
+Sie können die Reihenfolge der Layer in der Gruppe auch ändern, indem Sie sie an eine neue Position ziehen. Beachten Sie, dass dies keine Auswirkungen auf die Sichtbarkeit der Geometrie hat. Dies ist ein rein organisatorisches Werkzeug in der Gruppe.
+

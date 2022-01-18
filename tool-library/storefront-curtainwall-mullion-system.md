@@ -1,79 +1,80 @@
-# Storefront/Curtainwall Mullion System
+# Storefront/Curtainwall Mullion System (Ladenfront-/Fassadenpfosten-System)
 
 ![](../.gitbook/assets/dynamo-storefront-system-options.gif)
 
 ## Powered by Dynamo
 
-The ability to quickly create storefront/curtainwall mullion systems in FormIt is powered by Dynamo. You can find the Storefront Curtainwall system in the Dynamo Samples directory in the Dynamo panel:
+Die Möglichkeit, in FormIt schnell Ladenfront-/Fassadenpfosten-Systeme erstellen zu können, wird von Dynamo unterstützt. Sie finden das Ladenfront-/Fassadensystem im Dynamo-Beispielverzeichnis (Dynamo Samples) in der Gruppe Dynamo:
 
-![](<../.gitbook/assets/storefront-curtainwall-button (1) (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
 
-## Selecting "Glass" For Mullion System
+## Auswählen von Glas für das Pfostensystem
 
-Starting in FormIt 2021.2, the Storefront Curtainwall system uses the new [SelectFromFormIt node](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), allowing you to select a piece of "glass" (a single face or an extruded solid) around which to generate a mullion system.
+Ab FormIt 2021.2 verwendet das Ladenfront-/Fassadensystem den neuen [SelectFromFormIt-Block](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), mit dem Sie einen Glaskörper \(eine einzelne Fläche oder einen extrudierten Volumenkörper\) auswählen können, um den ein Pfostensystem erstellt werden soll.
 
-![A simple plane of "glass" with an opening for doors at the bottom.](../.gitbook/assets/storefron-system-1\_glass-only.png)
+![Einfache Ebene aus Glas mit einer Öffnung für Türen unten](../.gitbook/assets/storefron-system-1_glass-only.png)
 
-When you click the Storefront Curtainwall thumbnail (notice the icon indicating that a selection is required), FormIt will prompt you to select the glass geometry to continue:
+Wenn Sie auf die Miniaturansicht Storefront Curtainwall (Ladenfront/Fassade) klicken \(beachten Sie das Symbol, das angibt, dass eine Auswahl erforderlich ist\), fordert FormIt Sie auf, die Glasgeometrie auszuwählen, um fortzufahren:
 
-![](<../.gitbook/assets/storefront-curtainwall-prompt (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-prompt.png)
 
-A few notes and caveats about how selecting glass works:
+Einige Hinweise und Warnungen zur Funktionsweise der Glasauswahl:
 
-* Currently, only planar surfaces are supported. If you select a series of surfaces (for example, a "curved" surface comprised of smaller planar surfaces), the script will find the largest planar face and will use that.
-* If your glass is solid - i.e. a single face extruded very slightly to convey a bit of thickness - the script will find the biggest surface, so the resulting mullions will generate on one side of the glass solid.
-* You can sketch openings for doors, and remove the resulting surface from the glass boundary, and the resulting mullions will respect the door opening, leaving it blank for the addition of doors.
-* Due to Dynamo limitations, this script won't work if the glass geometry has openings in the middle.
+* Derzeit werden nur planare Flächen unterstützt. Wenn Sie eine Reihe von Flächen auswählen \(z. B. eine gekrümmte Fläche, die aus kleineren planaren Flächen besteht\), sucht das Skript die größte planare Fläche und verwendet diese.
+* Wenn die Verglasung ein Volumenkörper ist, d. h., wenn eine einzelne Fläche sehr leicht extrudiert wurde, um eine gewisse Dicke zu erhalten, findet das Skript die größte Fläche, sodass die resultierenden Pfosten auf einer Seite des Glasvolumenkörpers generiert werden.
+* Sie können Öffnungen für Türen skizzieren und die resultierende Fläche aus der Glasumgrenzung entfernen. Die resultierenden Pfosten berücksichtigen die Türöffnung, sodass diese leer bleibt, damit die Tür hinzugefügt werden kann.
+* Aufgrund von Einschränkungen in Dynamo funktioniert dieses Skript nicht, wenn die Glasgeometrie Öffnungen in der Mitte aufweist.
 
-## Tips and Tricks
+## Tipps und Tricks
 
-When selecting geometry for a Dynamo graph in FormIt, certain organizational tricks can simplify the experience and allow for easy instancing of results:
+Bei der Auswahl von Geometrie für ein Dynamo-Diagramm in FormIt können bestimmte organisatorische Tricks die Arbeit vereinfachen und eine einfache Instanziierung der Ergebnisse ermöglichen:
 
-* Put the glass in a Group, and use the Group as the selection for the Storefront/Curtainwall script. That way, it's easier to edit the glass profile after the mullions have been generated, and if the glass is heavily modified between runs and the face IDs have changed, the Group ensures that the script will always find the glass - because it's using the Group ID, not the face ID.
-* If you're planning on copying and pasting the results of the mullion system to other places in your model, it's best to have the glass and the resulting mullions contained in a Group This will also prevent issues with the selection node not knowing which glass instance to use when just the resulting mullion Group is copied and pasted.
-  * Put your glass in a Group first. Double-click it to select the glass, and hit G or use the Group commands in the context menu or toolbar.&#x20;
-  * Select the resulting Group, and put it in another Group.
-  * Double-click to enter the first Group. This is the "container" for both the glass and the resulting mullions.
-  * Click the Storefront Curtainwall thumbnail, and use the glass Group as the selection.&#x20;
-  * After the script runs, you can exit the Group and copy/paste the container around as needed. You can edit any of the instances (adjusting the glass shape or parameters) without issue.
+* Fügen Sie die Verglasung zu einer Gruppe hinzu, und verwenden Sie die Gruppe als Auswahl für das Skript Storefront/Curtainwall (Ladenfront-/Fassade). Auf diese Weise ist es einfacher, das Glasprofil zu bearbeiten, nachdem die Pfosten generiert wurden. Wenn die Verglasung zwischen den Ausführungen umfassend geändert wird und andere Flächen-IDs gelten, stellt die Gruppe sicher, dass das Skript die Verglasung immer findet, da es die Gruppen-ID und nicht die Flächen-ID verwendet.
+* Wenn Sie planen, die Ergebnisse des Pfostensystems zu kopieren und an anderen Stellen im Modell einzufügen, sollten die Verglasung und die resultierenden Pfosten in einer Gruppe enthalten sein. Dadurch wird auch verhindert, dass der Auswahlblock nicht weiß, welches Glasexemplar verwendet werden soll, wenn nur die resultierende Pfostengruppe kopiert und eingefügt wird.
+   * Fassen Sie die Verglasung zuerst in einer Group (Gruppe) zusammen. Doppelklicken Sie darauf, um die Verglasung auszuwählen, und drücken Sie G, oder verwenden Sie die Gruppenbefehle im Kontextmenü oder im Werkzeugkasten.
+   * Wählen Sie die resultierende Gruppe aus, und fügen Sie sie zu einer anderen Gruppe hinzu.
+   * Doppelklicken Sie, um die erste Gruppe aufzurufen. Diese ist der Container für die Verglasung und die resultierenden Pfosten.
+   * Klicken Sie auf die Miniaturansicht Storefront Curtainwall (Ladenfront/Fassade), und verwenden Sie die Glasgruppe als Auswahl.
+   * Nachdem das Skript ausgeführt wurde, können Sie die Gruppe beenden und den Container nach Bedarf kopieren und einfügen. Sie können jedes der Exemplare problemlos bearbeiten \(Anpassen der Glasform oder der Parameter\).
 
-## Mullion System Options
+## Optionen des Pfostensystems
 
-Once you select glass and run the script, you'll get a result in the FormIt canvas, in the form of a FormIt Group. This Group will be automatically selected, and the Properties panel will reveal the available options.
+Wenn Sie die Verglasung auswählen und das Skript ausführen, erhalten Sie ein Ergebnis in Form einer FormIt-Gruppe im FormIt-Ansichtsbereich. Diese Gruppe wird automatisch ausgewählt, und die verfügbaren Optionen werden in der Gruppe Properties (Eigenschaften) angezeigt.
 
-![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-parameters.png)
 
-* **Run**: If you modify the shape of the glass and want to re-run the graph to update the mullion results, click this.&#x20;
-* **Edit Embedded Graph**: Edit the Dynamo script that's generating the geometry. This script is embedded in the FormIt file and is specific to this Group.
-* **Select Glass (Surface or Solid)**: Click this to update the selection to a different piece of glass around which to generate mullions.
+* **Run (Ausführen)**: Wenn Sie die Form der Verglasung ändern und das Diagramm erneut ausführen möchten, um die Pfostergebnisse zu aktualisieren, klicken Sie auf diese Schaltfläche.
+* **Edit Embedded Graph (Eingebettetes Diagramm bearbeiten)**: Bearbeiten Sie das Dynamo-Skript, mit dem die Geometrie erstellt wird. Dieses Skript ist in die FormIt-Datei eingebettet und ist spezifisch für diese Gruppe.
+* **Select Glass \(Surface or Solid\) (Glas auswählen \(Fläche oder Volumenkörper\))**: Klicken Sie auf diese Option, um einen anderen Glaskörper auszuwählen, um den Pfosten erstellt werden sollen.
 
-The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the current FormIt units.
+Das Skript verwendet für die erste Ausführung Vorgabewerte. Sie sollten diese daher für Ihren speziellen Anwendungsfall anpassen. Für alle Werte werden die aktuellen FormIt-Einheiten verwendet.
 
-* **Mullion Width + Depth**: The width and depth of all mullion elements.
-* **Vertical Mullion Spacing**: The distance, on center, between each vertical mullion.
-* **Flip Vertical Mullion Layout**: The script starts the vertical mullion spacing from one side, chosen arbitrarily. If the result starts the mullion spacing on the wrong side for your use case, set this to True to flip the layout to start on the opposite site.
-* **Center Vertical mullion Layout**: Instead of starting the vertical mullion spacing calculation at one end of the glass, start the calculation in the middle, creating a symmetrical layout of vertical mullions.
-* **First Horizontal Mullion Spacing**: Sets the first horizontal mullion spacing from the bottom. Useful if you need a row of shorter glazing modules at the bottom, separate from the rest of the horizontal mullion spacing.
-* **Horizontal Mullion Spacing**: The typical horizontal mullion spacing, on center, starting after the first mullion as outlined above.&#x20;
-* **Flip Horizontal Mullion Layout**: If you want the horizontal mullion layout to start at the top instead of the bottom, set this to True.
-* **Center Horizontal Mullion Layout**: Instead of starting the horizontal mullion spacing calculation at the bottom or top of the glass, start the calculation in the middle, creating a symmetrical layout of horizontal mullions.
+* **Mullion Width + Depth (Pfostenbreite und -tiefe)**: Die Breite und Tiefe aller Pfostenelemente.
+* **Vertical Mullion Spacing (Abstand vertikaler Pfosten)**: Der Abstand (in der Mitte) zwischen den einzelnen vertikalen Pfosten.
+* **Flip Vertical Mullion Layout (Layout vertikaler Pfosten umkehren)**: Das Skript beginnt den vertikalen Pfostenabstand von einer Seite, die beliebig ausgewählt werden kann. Wenn der Pfostenabstand auf der falschen Seite für Ihren Anwendungsfall beginnt, setzen Sie diesen Wert auf True, um das Layout so umzukehren, dass es auf der gegenüberliegenden Seite beginnt.
+* **Center Vertical mullion Layout (Layout vertikaler Pfosten zentrieren)**: Anstatt die Berechnung des vertikalen Pfostenabstands an einem Ende der Verglasung zu starten, wird hier die Berechnung in der Mitte gestartet und ein symmetrisches Layout vertikaler Pfosten erstellt.
+* **First Horizontal Mullion Spacing (Abstand erster horizontaler Pfosten)**: Legt den Abstand des ersten horizontalen Pfostens von unten fest. Diese Option ist nützlich, wenn Sie eine Reihe kürzerer Verglasungsmodule unten benötigen, getrennt vom Rest des Abstands horizontaler Pfosten.
+* **Horizontal Mullion Spacing (Abstand horizontaler Pfosten)**: Der typische horizontale Pfostenabstand in der Mitte, beginnend nach dem ersten Pfosten, wie oben beschrieben.
+* **Flip Horizontal Mullion Layout (Layout horizontaler Pfosten umkehren)**: Wenn das Layout der horizontalen Pfosten nicht unten, sondern oben beginnen soll, setzen Sie diese Option auf True.
+* **Center Horizontal Mullion Layout (Layout horizontaler Pfosten zentrieren)**: Anstatt die Berechnung des horizontalen Pfostenabstands an der Unter- oder Oberseite der Verglasung zu starten, wird hier die Berechnung in der Mitte gestartet und ein symmetrisches Layout horizontaler Pfosten erstellt.
 
-## Hidden Options
+## Verdeckte Optionen
 
-Looking for more customization? Several advanced options are hidden from the FormIt properties panel, but are accessible by clicking "Edit Embedded Graph" to reveal the full graph contents in Dynamo:
+Sie möchten weitere Anpassungen vornehmen? Mehrere erweiterte Optionen werden aus der Gruppe der FormIt-Eigenschaften ausgeblendet, können jedoch durch Klicken auf Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) aufgerufen werden, um den vollständigen Inhalt des Diagramms in Dynamo anzuzeigen:
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
-### Randomized Mullions
+### Zufällige Pfosten
 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
-* **Randomize Vertical and Horizontal Mullion Layout**: Set this to True to space the vertical or horizontal mullions randomly
-* **Min/Max Mullion Spacing (if random)**: Adjust these values to set a range of minimum and maximum randomized spacing values
+* **Randomize Vertical and Horizontal Mullion Layout (Layout vertikaler und horizontaler Pfosten zufällig anordnen)**: Setzen Sie diese Option auf True, um die vertikalen oder horizontalen Pfosten zufällig anzuordnen.
+* **Min/Max Mullion Spacing \(if random\) (Min./Max. Pfostenabstand \(falls zufällig\))**: Passen Sie diese Werte an, um einen Bereich von minimalen und maximalen zufälligen Abstandswerten festzulegen.
 
-### Border Mullions
+### Randpfosten
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **Flip Offset Direction of Border Mullions:** By default, the mullion system will use the glass boundary, and offset it inward to create the border mullions. To offset outward, set this option to True. This will increase the overall size of the mullion system outside the glass boundary by the Mullion Width setting.
-* **Tolerance Between Selection and Border Mullions**: By default, the mullion system will generate exactly at the border of the glass, which could cause Z-fighting where the edge of the glass and the outer surfaces of the border mullions collide. In most cases, this won't be visible, but if your use case requires the edges of the system to be visible and you want to avoid Z-fighting, enable this option and adjust the tolerance value as necessary.
+* **Flip Offset Direction of Border Mullions (Versatzrichtung von Randpfosten umkehren)**: Vorgabemäßig verwendet das Pfostensystem die Glasumgrenzung und versetzt sie nach innen, um die Randpfosten zu erstellen. Um sie nach außen zu versetzen, setzen Sie diese Option auf True. Dadurch wird die Gesamtgröße des Pfostensystems außerhalb der Glasumgrenzung um den Wert für Pfostenbreite erhöht.
+* **Tolerance Between Selection and Border Mullions (Toleranz zwischen Auswahl und Randpfosten)**: Vorgabemäßig generiert das Pfostensystem Elemente genau an der Glasgrenze, was zu Z-Fighting an den Stellen führen kann, an denen die Glaskante und die äußeren Flächen der Randpfosten kollidieren. In den meisten Fällen ist dies nicht sichtbar. Wenn es für Ihren Fall jedoch erforderlich ist, dass die Kanten des Systems sichtbar sind und Sie Z-Fighting vermeiden möchten, aktivieren Sie diese Option und passen den Toleranzwert nach Bedarf an.
+

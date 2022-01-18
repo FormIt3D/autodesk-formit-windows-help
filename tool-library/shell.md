@@ -1,3 +1,4 @@
 # Shell
 
-From a solid object, you can create a "shell" of a specified width. Shells are useful for quickly creating walls from a massing model:
+Aus einem Volumenkörperobjekt können Sie eine Hülle mit einer bestimmten Breite erstellen. Hüllen sind nützlich, um schnell Wände aus einem Körpermodell zu erstellen:
+

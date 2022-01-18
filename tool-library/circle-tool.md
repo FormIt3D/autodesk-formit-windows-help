@@ -1,13 +1,14 @@
-# Circle
+# Kreis
 
-Use the Circle tool to draw a circle in space or on another object.
+Mit dem Werkzeug Kreis können Sie einen Kreis im Raum oder auf einem anderen Objekt zeichnen.
 
-Keyboard: C
+Tastatur: C
 
-![](../.gitbook/assets/circle\_toolbar.png)
+![](../.gitbook/assets/circle_toolbar.png)
 
-To draw a circle, first, choose the center point and then specify the circle radius. Next, the circle automatically becomes a face.
+Um einen Kreis zu zeichnen, wählen Sie zunächst den Mittelpunkt aus und geben dann den Radius des Kreises an. Als Nächstes wird der Kreis automatisch zu einer Fläche.
 
 ![](../.gitbook/assets/circle1.png)
 
 ![](../.gitbook/assets/circle2.png)
+

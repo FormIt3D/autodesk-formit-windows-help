@@ -1,45 +1,48 @@
-# Levels and Area
+# Ebenen und Fläche
 
-After creating geometry in FormIt, you can apply Levels to indicate where floor elevations are, and to generate area calculations.
+Nachdem Sie in FormIt Geometrie erstellt haben, können Sie Ebenen anwenden, um anzugeben, wo sich Geschossansichten befinden, und um Flächenberechnungen zu erstellen.
 
-Take a look at the [FormIt Primer ](../formit-primer/part-i/adding-floors-with-levels.md)to see Levels in action.
+Sehen Sie sich die [FormIt-Einführung](../formit-primer/part-i/adding-floors-with-levels.md) an, um zu erfahren, wie Ebenen in der Praxis funktionieren.
 
-## Creating and Configuring Levels
+## Erstellen und Konfigurieren von Ebenen
 
-You'll find the Levels panel on the right side of FormIt for Windows:
+Die Gruppe Ebenen befindet sich rechts in FormIt for Windows:
 
 ![](../.gitbook/assets/20191217-levels-panel-1.png)
 
-### Create and Delete Levels
+#### Erstellen und Löschen von Ebenen
 
-* Create a new Level by clicking the "+" button.
-* Create a series of Levels by clicking the "++" button.
-  * This will allow specifying how many Levels to create, and the vertical distance between them.
-* Select one or more Levels and click "-" to delete them.
+* Erstellen Sie eine neue Ebene, indem Sie auf die Schaltfläche + klicken.
+* Erstellen Sie eine Reihe von Ebenen, indem Sie auf die Schaltfläche ++ klicken.
+   * Auf diese Weise können Sie festlegen, wie viele Ebenen erstellt werden sollen, und den vertikalen Abstand zwischen ihnen festlegen.
+* Wählen Sie eine oder mehrere Ebenen aus, und klicken Sie auf -, um sie zu löschen.
 
-### Rename, Set Elevations, and Renumber Levels
+#### Umbenennen, Festlegen von Höhen und Neunummerieren von Ebenen
 
-* Rename a Level by double-clicking on the name, or by right-clicking and choosing "Edit Name".
-* Adjust a Level's elevation by double-clicking on the number, or by right-clicking and choosing "Edit Elevation".
-* Click the Refresh icon at the top to renumber Levels.
-  * This is useful if you've added or removed levels, and the default naming scheme is out of sync (i.e. Level 1, Level 2, Level 5).
-  * This button will ignore any Levels with custom names, but will renumber any Levels with the name following the "Level 1" syntax.
+* Benennen Sie eine Ebene um, indem Sie auf den Namen doppelklicken oder indem Sie mit der rechten Maustaste klicken und Namen bearbeiten wählen.
+* Passen Sie die Höhe einer Ebene an, indem Sie auf die Zahl doppelklicken oder indem Sie mit der rechten Maustaste klicken und Höhe bearbeiten wählen.
+* Klicken Sie oben auf das Symbol Aktualisieren, um die Ebenen neu zu nummerieren.
+   * Dies ist hilfreich, wenn Sie Ebenen hinzugefügt oder entfernt haben und das vorgegebene Benennungsschema nicht synchron ist \(z. B. Ebene 1, Ebene 2, Ebene 5\).
+   * Mit dieser Schaltfläche werden alle Ebenen mit benutzerdefinierten Namen ignoriert, alle Ebenen mit einem Namen entsprechend der Syntax Ebene 1 werden jedoch neu nummeriert.
 
-## Applying Levels
+## Anwenden von Ebenen
 
-To apply Levels to an object, you'll need to select the object and head over to the Properties panel.
+Um Ebenen auf ein Objekt anzuwenden, müssen Sie das Objekt auswählen und direkt zur Gruppe Eigenschaften wechseln.
 
-Note that to apply Levels to an object, the object must be solid, with no back face or watertight issues. [Learn how to check your model for watertight and back face issues](https://formit.autodesk.com/blog/post/repairing-solid-models).
+Beachten Sie, dass zum Anwenden von Ebenen auf ein Objekt das Objekt ein Volumenkörper ohne Rückseite oder Dichtheitsprobleme sein muss. [Erfahren Sie, wie Sie Ihr Modell auf Dichtheit und Probleme mit der Rückseite überprüfen](https://formit.autodesk.com/blog/post/repairing-solid-models).
 
-With a solid object selected in the canvas (in this example, a simple building shell), the Properties panel will show a "Use Levels" checkbox.
+Wenn im Ansichtsbereich ein Volumenkörperobjekt ausgewählt ist \(in diesem Beispiel eine einfache Gebäudehülle\), wird in der Gruppe Eigenschaften das Kontrollkästchen Ebenen verwenden angezeigt.
 
-* If the FormIt sketch already has Levels defined (see above), then checking this box will use all Levels that would intersect this shape (ignoring any that would be too high or too low).
-* If the FormIt sketch does not have Levels already, checking this box will create enough default Levels.(12' floor-to-floor height) to intersect the entire shape, and will automatically apply those Levels to this object.
+* Wenn in der FormIt-Skizze bereits Ebenen definiert sind \(siehe oben\), werden durch Aktivieren dieses Kontrollkästchens alle Ebenen verwendet, die diese Form schneiden würden \(wobei alle Ebenen ignoriert werden, die zu hoch oder zu niedrig wären\).
+* Wenn die FormIt-Skizze noch keine Ebenen enthält, werden durch Aktivieren dieses Kontrollkästchens genügend Vorgabeebenen erstellt\(Geschosshöhe 12'\), um die gesamte Form zu schneiden, und diese Ebenen werden automatisch auf dieses Objekt angewendet.
 
 ![](../.gitbook/assets/20191217-properties-panel.png)
 
-## Levels + Revit
+## Ebenen und Revit
 
-When Levels are applied to FormIt geometry, those Levels will be sent to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit).
+Wenn Ebenen auf FormIt-Geometrie angewendet werden, werden diese Ebenen mithilfe des [FormIt-Zusatzmoduls](https://formit.autodesk.com/page/formit-revit) an Revit gesendet.
 
-In Revit, you can use the FormIt levels to create Mass floors, Floor by Face, and floor plans associated with the FormIt Levels.
+In Revit können Sie mithilfe der FormIt-Ebenen mit diesen verknüpfte Körpergeschosse, Geschossdecken über Fläche und Grundrisse erstellen.
+
+
+

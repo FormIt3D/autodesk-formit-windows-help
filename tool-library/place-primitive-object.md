@@ -1,6 +1,7 @@
-# Placing Primitives
+# Platzieren von Grundkörpern
 
-1. In the [Action Toolbar](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md) click to open the **Primitives button** and [select](select-edge-face-or-object.md) the cube.   ![](<../.gitbook/assets/primitive-cube (1).png>)&#x20;
-2. Then drag and **click to place** the cube.  ![](<../.gitbook/assets/image-2- (1).png>)  &#x20;
-3. While dragging the cube it will be shown with default dimensions. You can change those dimensions **while dragging** by hitting the **Tab** key. This will bring up a **Tool Options** dialog where the dimensions can be edited. ![](<../.gitbook/assets/image (1).png>) &#x20;
-4. After entering new values and hitting **OK**, the cube will be displayed with the new dimensions.
+1. Klicken Sie im [Werkzeugkasten Aktion](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md) auf die **Schaltfläche Grundkörper**, um diese zu öffnen, und [wählen](select-edge-face-or-object.md) Sie den Würfel aus.   ![](../.gitbook/assets/primitive-cube.png)
+2. Ziehen Sie den Würfel dann an die gewünschte Stelle und **klicken Sie zum Platzieren**.  ![](../.gitbook/assets/image-2-%20%281%29.png)
+3. Beim Ziehen des Würfels werden die Vorgabebemaßungen angezeigt. Sie können diese Bemaßungen **beim Ziehen** ändern, indem Sie die **TABULATORTASTE** drücken. Dadurch wird ein Dialogfeld mit **Werkzeugoptionen** geöffnet, in dem die Bemaßungen bearbeitet werden können. ![](../.gitbook/assets/image%20%281%29.png)
+4. Nachdem Sie neue Werte eingegeben und auf **OK** geklickt haben, wird der Würfel mit den neuen Bemaßungen angezeigt.
+

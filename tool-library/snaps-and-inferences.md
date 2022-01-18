@@ -1,61 +1,61 @@
-# Snaps and Inferences
+# Objektfang und Ableitungen
 
-To make sketching and modeling easier, use snaps and inference points to accurately create, place, and edit geometry. You can use whatever axis you choose as the axis on which to draw or execute another action, such as extruding a surface.
+Objektfang und Ableitungspunkte ermöglichen eine präzise Erstellung, Platzierung und Bearbeitung von Geometrie und erleichtern dadurch das Skizzieren und Modellieren. Sie können die Achse wählen, entlang derer Sie zeichnen oder eine andere Funktion ausführen möchten, etwa das Extrudieren einer Oberfläche.
 
-**Note:** _See_ [_Keyboard Shortcuts_](../appendix/keyboard-shortcuts.md) _for information about how to speed up your use of the software's tools._
+**Anmerkung:** _Unter_ [_Tastaturkurzbefehle_](../appendix/keyboard-shortcuts.md) _finden Sie Informationen dazu, wie Sie noch schneller mit den Werkzeugen der Software arbeiten können._
 
-## Snapping
+## Objektfang
 
-There are several snaps that can aid you while you are sketching and modeling. Snapping to objects is automatically enabled, and you can snap to:
+Beim Skizzieren und Modellieren stehen mehrere Objektfangfunktionen zur Verfügung. Der Objektfang für Objekte ist automatisch aktiviert. Die folgenden Fangreferenzen sind verfügbar:
 
-|                                                                                                                                                                            |                                        |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| Vertices                                                                                                                                                                   | ![](<../.gitbook/assets/inf3 (3).png>) |
-| Edges. When hovering over the edge, small red dots will be drawn at the ends and at the mid point.                                                                         | ![](../.gitbook/assets/inf4.png)       |
-| Edge mid points                                                                                                                                                            | ![](../.gitbook/assets/inf5.png)       |
-| The plane of a face. When hovering over the face a small red dot will be drawn at the face centroid. This will make it easy to find that point, if you want to snap to it. | ![](../.gitbook/assets/inf6.png)       |
-| Face centroids                                                                                                                                                             | ![](../.gitbook/assets/inf7.png)       |
-| The work plane, if you don't snap to anything else.                                                                                                                        | ![](../.gitbook/assets/inf8.png)       |
-| Circle or arc centers                                                                                                                                                      | ![](../.gitbook/assets/inf9.png)       |
-| Mesh vertices                                                                                                                                                              | ![](../.gitbook/assets/inf2.png)       |
-| The plane of a mesh facet.                                                                                                                                                 | ![](../.gitbook/assets/inf1.png)       |
+|                                                                                                                                                                            |                                            |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Knoten | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+| Kanten Wenn Sie den Mauszeiger über die Kante bewegen, werden kleine        rote Punkte an den Enden und am Mittelpunkt gezeichnet. | ![](../.gitbook/assets/inf4.png) |
+| Kantenmittelpunkte | ![](../.gitbook/assets/inf5.png) |
+| Die Ebene einer Fläche. Wenn Sie den Mauszeiger über die Fläche bewegen, wird ein        kleiner roter Punkt am Flächenschwerpunkt gezeichnet. Dadurch können Sie den Punkt leicht finden,        wenn Sie diesen fangen möchten. | ![](../.gitbook/assets/inf6.png) |
+| Flächenschwerpunkte | ![](../.gitbook/assets/inf7.png) |
+| Die Arbeitsebene, wenn Sie kein anderes Element fangen. | ![](../.gitbook/assets/inf8.png) |
+| Kreis- oder Bogenmittelpunkte | ![](../.gitbook/assets/inf9.png) |
+| Netzscheitelpunkte | ![](../.gitbook/assets/inf2.png) |
+| Die Ebene einer Netzfacette. | ![](../.gitbook/assets/inf1.png) |
 
-To snap to the grid, you must enable the **Snap to Grid (SG)** toggle from the Settings menu.
+Um den Objektfang am Raster zu verwenden, müssen Sie die Option **Rasterfang (SG)** aus dem Menü Einstellungen aktivieren.
 
-## Inference Axes and Points
+## Ableitungsachsen und -punkte
 
-Automatic selection of inference points is always enabled and will help you constrain the movement of geometry. Inference axes are generated by tools automatically or when you hover the mouse over edges or points. Inference axes are always drawn on the screen with dashes so that you know where they are and are easy to snap to.
+Die automatische Auswahl für Ableitungspunkte ist immer aktiviert und unterstützt Sie dabei, die Bewegungsmöglichkeiten für Geometrie einzuschränken. Ableitungsachsen werden automatisch durch Werkzeuge generiert oder wenn Sie den Mauszeiger über Kanten oder Punkte bewegen. Ableitungsachsen werden immer mit Strichen auf dem Bildschirm gezeichnet, damit Sie wissen, wo sie sich befinden, und damit sie einfach gefangen werden können.
 
-**Axis:** You can move geometry along the X, Y, or Z axis. The X-axis inference is red, the Y-axis is green, and the Z-axis is blue.
+**Achse:** Sie können Geometrie entlang der X-, Y- oder Z-Achse verschieben. Die Ableitung für die X-Achse ist rot, für die Y-Achse grün und für die Z-Achse blau.
 
 ![](../.gitbook/assets/inf10.png)
 
-**Axis Locking:** You can lock movement along the X, Y, or Z axis. Hold down the Shift key while on an axis inference, then move your mouse to snap and inference to other elements.
+**Achse sperren:** Sie können die Bewegung entlang der X-, Y- oder Z-Achse sperren. Halten Sie die Umschalttaste gedrückt, während Sie eine Achsenableitung verwenden, und bewegen Sie die Maus, um den Objektfang und die Ableitung mit anderen Elementen als Referenzen zu verwenden.
 
 ![](../.gitbook/assets/inf13.png)
 
-**Parallel:** You can sketch or move geometry parallel to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a parallel reference.
+**Parallel:** Sie können Geometrie parallel zu bestehenden Elementen skizzieren oder verschieben. Lotrechte Ableitungen sind violett. Sie müssen den Cursor auf die Linie setzen, die Sie als parallele Referenz verwenden möchten.
 
 ![](../.gitbook/assets/inf14.png)
 
-**Perpendicular:** You can also draw or move geometry perpendicular to existing elements. Perpendicular inferences are purple. You need to hover your cursor over a line you want to use as a perpendicular reference.
+**Lotrecht:** Es ist auch möglich, Geometrie lotrecht zu bestehenden Elementen zu zeichnen oder zu verschieben. Lotrechte Ableitungen sind violett. Sie müssen den Cursor auf die Linie setzen, die Sie als lotrechte Referenz verwenden möchten.
 
 ![](../.gitbook/assets/inf15.png)
 
-**Extending from a point:** You can also use inferences to extend from a point reference. Hover the mouse over a point you want to use as a reference until the tooltip appears, then use the inference axis that extends from the point.
+**Von einem Punkt ausgehend:** Sie können auch von einer Punktreferenz ausgehende Ableitungen verwenden. Setzen Sie den Cursor auf den Punkt, den Sie als Referenz verwenden möchten, bis die QuickInfo angezeigt wird, und verwenden Sie die von diesem Punkt ausgehende Ableitungsachse.
 
 ![](../.gitbook/assets/inf16.png)
 
-**Circle Center**: If you want to snap to the center of an arc or circle, hover over the arc or circle. This will show a small red dot at the center. It will stay visible for about 5 seconds after you move away from the arc or circle. Now move the cursor over the red dot to snap to the center.
+**Kreismittelpunkt**: Wenn Sie den Mittelpunkt eines Bogens oder Kreises fangen möchten, bewegen Sie den Mauszeiger über den Bogen oder Kreis. Es wird ein kleiner roter Punkt in der Mitte angezeigt. Er bleibt noch etwa 5 Sekunden sichtbar, wenn Sie den Mauszeiger vom Bogen oder Kreis weg bewegen. Bewegen Sie den Cursor nun über den roten Punkt, um den Mittelpunkt zu fangen.
 
 ![](../.gitbook/assets/inf17.png)
 
-**True arc and spline midpoints**: When you hover over a circle, arc or spline you will be able to snap to the true midpoint. It and the end points will be shown by a small red dot. When inferencing on an arc you will also snap to the vertices of the straight edges that represent the arc.
+**Tatsächliche Bogen- und Spline-Mittelpunkte**: Wenn Sie den Mauszeiger über einen Kreis, Bogen oder Spline bewegen, können Sie den tatsächlichen Mittelpunkt fangen. Dieser und die Endpunkte werden durch einen kleinen roten Punkt dargestellt. Wenn Sie einen Bogen ableiten, werden auch die Scheitelpunkte der geraden Kanten, die den Bogen darstellen, gefangen.
 
 ![](../.gitbook/assets/inf18.png)
 
-**Clearing inferences**: It is possible that drawing will generate a larger number of inferences, which may be in the way of placing points that are not supposed to snap to those inferences. If you press he **Shift + Spacebar** keys, all inferences will be cleared, except for those at the last placed point.
+**Löschen von Ableitungen**: Es ist möglich, dass in Zeichnungen eine größere Anzahl von Ableitungen generiert wird. Dies könnte beim Platzieren von Punkten, die diese Ableitungen nicht fangen sollen, stören. Wenn Sie die **UMSCHALTTASTE+LEERTASTE** drücken, werden alle Ableitungen gelöscht, mit Ausnahme derjenigen am zuletzt platzierten Punkt.
 
-![Before clearing inferences](../.gitbook/assets/inf19.png)
+![Vor dem Löschen von Ableitungen](../.gitbook/assets/inf19.png)
 
-![After clearing inferences](../.gitbook/assets/inf20.png)
+![Nach dem Löschen von Ableitungen](../.gitbook/assets/inf20.png)

@@ -1,21 +1,22 @@
-# Delete, Edit, Move
+# Löschen, Bearbeiten, Verschieben
 
-Remove an object, change its location, or modify its properties.
+Sie können Objekte entfernen, neu positionieren oder ihre Eigenschaften ändern.
 
-## Delete
+## Löschen
 
-First, make a geometry selection. Then, right-click to see the Context Menu where you can click on the **Delete Tool**. You can also press the delete key on your keyboard.
+Wählen Sie zunächst Geometrie aus. Öffnen Sie dann durch Rechtsklicken das Kontextmenü und klicken Sie dort auf das **Werkzeug Löschen**. Alternativ können Sie die Entf-Taste auf der Tastatur drücken.
 
-![](<../.gitbook/assets/delete (1).png>)
+![](../.gitbook/assets/delete%20%281%29.png)
 
-## Edit
+## Bearbeiten
 
-When using many of the editing tools like Move, Array, Push-Pull Face, and Offset, you will see a blue dimension box. You can click this dimension after you finish your operation, and input a specific value. You can also simply start typing a numeric value to access the Edit Dimension dialog. Alternatively, you can hit Tab to bring up the Edit Dimension dialog, but Tab is no longer required with FormIt for Windows v17 and newer.
+Bei vielen der Bearbeitungswerkzeuge, etwa Verschieben, Reihe, Fläche schieben/ziehen und Versetzen, wird ein blauer Rahmen für die Bemaßung angezeigt. Nachdem Sie Ihren Vorgang abgeschlossen haben, können Sie auf diese Bemaßung klicken und einen bestimmten Wert eingeben. Sie können auch einfach einen numerischen Wert eingeben, um das Dialogfeld Bemaßung bearbeiten zu öffnen. Alternativ können Sie die TABULATORTASTE drücken, um das Dialogfeld Bemaßung bearbeiten aufzurufen. In FormIt for Windows v17 und höher ist die TABULATORTASTE jedoch nicht mehr erforderlich.
 
-![](<../.gitbook/assets/edit\_dimensions (1).png>)
+![](../.gitbook/assets/edit_dimensions.png)
 
-## Move Edges, Faces, or Objects
+## Kanten, Flächen oder Objekte verschieben
 
-First select the edge, face, or object. The move tool is automatically activated. Hover to see snaps and inference points to specify where you want to start your move operation, click to start. Now hover your mouse to see snaps and inference points to the location you want to move the object. Click again to place the object.
+Wählen Sie zuerst die Kante, die Fläche oder das Objekt aus. Das Werkzeug Verschieben wird automatisch aktiviert. Setzen Sie den Cursor an die gewünschte Stelle, um Fang- und Ableitungspunkte für den Anfangspunkt der Verschiebung einzublenden, und klicken Sie, um zu beginnen. Setzen Sie jetzt den Cursor an die benötigte Stelle für die Anzeige von Fang- und Ableitungspunkten für die Zielposition der Verschiebung. Klicken Sie erneut, um das Objekt zu platzieren.
 
-![](../.gitbook/assets/edit\_edge.png)
+![](../.gitbook/assets/edit_edge.png)
+

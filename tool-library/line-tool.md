@@ -1,19 +1,20 @@
-# Lines
+# Linien
 
-Use lines to divide faces and construct geometry.
+Mithilfe von Linien können Sie Flächen teilen und Geometrie konstruieren.
 
-Keyboard: L
+Tastatur: L
 
-![](../.gitbook/assets/line\_toolbar.png)
+![](../.gitbook/assets/line_toolbar.png)
 
-You can draw lines on the X, Y, or Z axis and also on existing geometry. When you snap to an axis, a colored line extends beyond the line you are drawing indicating which the axis you are drawing on. You can see the length of the line as you draw, and you can manually enter a specfic length by pressing **tab** and enter a value.
+Sie können Linien auf der X-, Y- oder Z-Achse und auch auf vorhandener Geometrie zeichnen. Wenn Sie eine Achse fangen, wird eine farbige Linie über die gezeichnete Linie hinaus erstellt, die angibt, auf welcher Achse Sie zeichnen. Sie können die Länge der Linie beim Zeichnen sehen, und Sie können manuell eine bestimmte Länge eingeben, indem Sie die **TABULATORTASTE** drücken und einen Wert eingeben.
 
-Line colors by axis:
+Linienfarben nach Achse:
 
-To specify a length, simply type a dimension value, and an Edit Dimension dialog will appear. Hit OK or press Enter to accept the value.
+Um eine Länge anzugeben, geben Sie einfach einen Bemaßungswert ein. Daraufhin wird das Dialogfeld Bemaßung bearbeiten angezeigt. Klicken Sie auf OK, oder drücken Sie die EINGABETASTE, um den Wert zu übernehmen.
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = Rot
+* Y = Grün
+* Z = Blau
 
 ![](../.gitbook/assets/lines.png)
+

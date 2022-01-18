@@ -1,53 +1,56 @@
-# Offset Line
+# Versatz-Linie
 
-Draw parallel, or offset, lines using the Offset Line tool. This is useful to create 2D shapes that can later be extruded to look like 3D walls.
+Zeichnen Sie parallele oder versetzte Linien mit dem Werkzeug Versatzlinie. Dies ist nützlich, um 2D-Formen zu erstellen, die später extrudiert werden können, sodass sie 3D-Wänden ähneln.
 
-![](<../.gitbook/assets/image (3).png>)
+![](../.gitbook/assets/image%20%283%29.png)
 
-The **Offset Line** tool works like the [**Line** ](https://windows.help.formit.autodesk.com/tool-library/line-tool)tool:
+Das Werkzeug **Versatzlinie** funktioniert wie das Werkzeug [**Linie** ](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
-* Click to set the first point and then move your cursor and place the subsequent points, snapping to existing geometry or to inference axes.&#x20;
-* A preview of the resulting shape is shown. The second and third points determine the plane for the rest of the points to follow, so the result is planar.
-* Continue adding points, and **Escape** or double click to finish the tool.
-* Any self-intersections will be cleaned up and merged, leaving you with one extrudable face.
+* Klicken Sie, um den ersten Punkt festzulegen, und bewegen Sie dann den Cursor, um die nachfolgenden Punkte zu platzieren. Dabei werden vorhandene Geometrie oder Ableitungsachsen gefangen.
+* Eine Vorschau der resultierenden Form wird angezeigt. Der zweite und dritte Punkt bestimmen die Ebene, der die restlichen Punkte folgen sollen, sodass das Ergebnis planar ist.
+* Fügen Sie weitere Punkte hinzu, und drücken Sie **ESC**, oder doppelklicken Sie, um das Werkzeug zu beenden.
+* Alle Selbstüberschneidungen werden bereinigt und zusammengeführt, sodass Sie eine extrudierbare Fläche erhalten.
 
-![After placing 2 points and dragging the 3rd point](../.gitbook/assets/walls1.png)
+![Nach dem Platzieren von zwei Punkten und Ziehen des dritten Punkts](../.gitbook/assets/walls1.png)
 
-The input line is drawn in red, and by default is placed in the center of the offset lines.
+Die Eingabezeile wird rot angezeigt und vorgabemäßig in der Mitte der Versatzlinien platziert.
 
-You can change the alignment of the offset lines and their thickness by hitting the **Tab** key. This will invoke the **Tool Options** dialog:
+Sie können die Ausrichtung der Versatzlinien und deren Stärke ändern, indem Sie die **TABULATORTASTE** drücken. Dadurch wird das Dialogfeld **Werkzeugoptionen** aufgerufen:
 
-![Options for the Offset Line tool](../.gitbook/assets/walls2.png)
+![Optionen für das Werkzeug Versatzlinie](../.gitbook/assets/walls2.png)
 
-Change the **Alignment** to **Left** and the **Thickness** to 6", for example, and the offset lines will be drawn to the left of the input lines, 6 inches apart.
+Ändern Sie die **Ausrichtung** beispielsweise in **Links** und die **Stärke** in 6", und die Versatzlinien werden links neben den Eingabelinien gezeichnet, 6 Zoll voneinander entfernt.
 
 ![](../.gitbook/assets/walls3.png)
 
-## Useful Tips
+## Nützliche Tipps
 
-You can draw a closed shape by snapping to the first point placed. The resulting corner will be cleaned up automatically:
+Sie können eine geschlossene Form zeichnen, indem Sie den ersten platzierten Punkt fangen. Die resultierende Ecke wird automatisch bereinigt:
 
 ![](../.gitbook/assets/walls4.png)
 
-You can freely draw the input lines on top of each other. When the tool is finished the resulting intersections are cleaned up.
+Sie können die Eingabelinien beliebig übereinander zeichnen. Wenn das Werkzeug fertig ist, werden die resultierenden Schnittpunkte bereinigt.
 
 ![](../.gitbook/assets/walls5.png)
 
 ![](../.gitbook/assets/walls6.png)
 
-Inherently, the Offset Line tool must generate geometry on a plane, so the first few points determine the plane that the remaining points will follow.
+Grundsätzlich muss mit dem Werkzeug Versatzlinie Geometrie auf einer Ebene generiert werden, sodass die ersten Punkte die Ebene bestimmen, der die übrigen Punkte folgen.
 
-Start drawing on the side of a cube, for example, to use the plane of that face. After three non colinear points are placed the input plane is fixed for the remainder of the input. Note, that when drawing on a face the resulting shape is inserted into the face, splitting it into multiple faces. To prevent the insertion, the face you draw on must be part of a [Group](https://windows.help.formit.autodesk.com/tool-library/groups).
+Beginnen Sie beispielsweise mit dem Zeichnen auf der Seite eines Würfels, um die Ebene dieser Fläche zu verwenden. Nachdem drei nicht kollineare Punkte platziert wurden, wird die Eingabeebene für den Rest der Eingabe fixiert. Beachten Sie, dass beim Zeichnen auf einer Fläche die resultierende Form in die Fläche eingefügt und in mehrere Flächen aufgeteilt wird. Um das Einfügen zu verhindern, muss die Fläche, auf der Sie zeichnen, Teil einer [Gruppe](https://windows.help.formit.autodesk.com/tool-library/groups) sein.
 
-![Drawing on a vertical face](../.gitbook/assets/walls7.png)
+![Zeichnen auf einer vertikalen Fläche](../.gitbook/assets/walls7.png)
 
-![After the tool is ended, the lines are inserted and the split faces can be further manipulated](../.gitbook/assets/walls8.png)
+![Nach Beenden des Werkzeugs werden die Linien eingefügt, und die getrennten Flächen können weiter bearbeitet werden.](../.gitbook/assets/walls8.png)
 
-You can also use the Offset Line tool to trace from a plan drawing. Import the plan as an image.
+Sie können auch das Werkzeug Versatzlinie verwenden, um eine Draufsicht nachzuzeichnen. Importieren Sie den Plan als Bild.
 
-* Resize the image so that the plan has the proper scale. This is described in more detail [here](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).&#x20;
-* You can use the [Orthographic Camera](orthographic-camera.md) to trace in an orthographic [top view](orthographic-views.md).
+* Ändern Sie die Größe des Bilds, sodass der Plan den richtigen Maßstab aufweist. Dies wird [hier](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane) genauer beschrieben.
+* Sie können die [orthogonale Kamera](orthographic-camera.md) zum Nachzeichnen in orthogonalen [Draufsichten](orthographic-views.md) verwenden.
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
+
+
+

@@ -1,17 +1,22 @@
-# Conceptual Solid Modeling
+# Konzeptionelle Volumenkörper-Modellierung
 
-Quickly and easily create conceptual geometry to work through design options.
+Schnelle und einfache Erstellung von Geometrie zum Experimentieren mit Entwurfsoptionen.
 
-FormIt's solid modeling kernel enables incredible, time-saving workflows to make modeling easy and efficient.
+Der FormIt-Kernel für die Volumenkörper-Modellierung ermöglicht unglaubliche, zeitsparende Arbeitsabläufe, um die Modellierung einfach und effizient zu gestalten.
 
-**Learn why solid modeling is advantageous, and how to ensure your model is solid so it can be used in downstream applications, like Revit:**
+**Erfahren Sie, warum die Volumenkörper-Modellierung von Vorteil ist und wie Sie sicherstellen können, dass Ihr Modell ein Volumenkörper ist, sodass es in nachgelagerten Anwendungen wie Revit verwendet werden kann:**
 
 {% embed url="https://www.youtube.com/watch?v=XFL-b1DgZiQ" %}
 
-**Once your model is solid, you can take advantage of solid extrusion techniques to quickly clean up geometry and maintain organized models:**
+**Sobald Ihr Modell ein Volumenkörper ist, können Sie die Techniken der Volumenkörper-Extrusion nutzen, um Geometrie schnell zu bereinigen und organisierte Modelle beizubehalten:**
 
 {% embed url="https://www.youtube.com/watch?v=80H8lFlFQ8o" %}
 
-**Additionally, use Smart Selection tools to quickly select similar geometry and save clicks:**
+**Verwenden Sie die Werkzeuge für die intelligente Auswahl, um ähnliche Geometrie schnell und mit weniger Klicks auszuwählen:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
+
+
+
+
+

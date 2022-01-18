@@ -1,15 +1,20 @@
-# Faces: Flatten
+# Flächen: Abflachen
 
-Use the **Flatten Faces** tool to force two or more object faces into the same plane.
+Verwenden Sie das Werkzeug **Flächen abflachen**, um zwei oder mehr Objektflächen in dieselbe Ebene zu zwingen.
 
-When two or more object faces are selected, you can select the **Flatten Faces** tool from the **Context** menu. You can also access **Flatten Faces** using the shortcut "**FL**."
+Wenn zwei oder mehr Objektflächen ausgewählt sind, können Sie das Werkzeug **Flächen abflachen** aus dem **Kontextmenü** auswählen. Sie können auf **Flächen abflachen** auch über den Kurzbefehl **FL** zugreifen.
 
-![](../.gitbook/assets/flatten\_faces.png)
+![](../.gitbook/assets/flatten_faces.png)
 
-**Flatten Faces** can be useful as a repair tool when a face that should be planar becomes unexpectedly faceted (with smooth edges between the facets), either when importing lower-fidelity data like [SketchUp models](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten), or after accidentally moving a vertex or edge which causes a face to get faceted or triangulated.
+**Flächen abflachen** kann als Reparaturwerkzeug nützlich sein, wenn eine Fläche, die planar sein sollte, unerwartet facettiert wird \(mit glatten Kanten zwischen den Facetten\); entweder beim Importieren von Daten mit niedriger Wiedergabetreue wie [SketchUp-Modellen](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten) oder wenn versehentlich ein Scheitelpunkt oder eine Kante verschoben wird, wodurch eine Fläche facettiert oder trianguliert wird.
 
-You can also use **Flatten Faces** as a design tool for aligning or extending shapes. To do this, first, select a guide surface, then select additional faces to flatten to the plane of the first surface.
+Sie können auch **Flächen abflachen** als Entwurfswerkzeug zum Ausrichten oder Verlängern von Formen verwenden. Wählen Sie dazu zunächst eine Hilfsfläche aus, und wählen Sie dann weitere Flächen aus, die auf die Ebene der ersten Fläche abgeflacht werden sollen.
 
-Check out the video below to see the power and versatility of **Flatten Faces**:
+Im folgenden Video wird die Leistung und Vielseitigkeit von **Flächen abflachen** erläutert:
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
+
+
+
+
+

@@ -1,13 +1,14 @@
-# Measure
+# Messen
 
-The **Measure** tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+Das Werkzeug **Messen** befindet sich im [Werkzeugkasten](../formit-introduction/tool-bars.md).
 
-You can use the **Measure** tool to measure existing geometry in a model. You can also use the **Measure** tool to assign dimensions to geometry.
+Sie können das Werkzeug **Messen** verwenden, um vorhandene Geometrie in einem Modell zu messen. Sie können auch das Werkzeug **Messen** verwenden, um der Geometrie Bemaßungen zuzuweisen.
 
-1. Select the **Measure** tool.
-2. Select two points to measure the distance between them.
-3. Select a face or edge you want to adjust, click the displayed value and add a new value in the dialog box that displays.
+1. Wählen Sie das Werkzeug **Messen** aus.
+2. Wählen Sie zwei Punkte zum Messen des Abstands zwischen ihnen aus.
+3. Wählen Sie eine Fläche oder Kante aus, die Sie anpassen möchten, klicken Sie auf den angezeigten Wert, und fügen Sie im angezeigten Dialogfeld einen neuen Wert hinzu.
 
-![](<../.gitbook/assets/measure (1).png>)\
-![](<../.gitbook/assets/measure2 (1).png>)\
+![](../.gitbook/assets/measure%20%281%29.png)  
+![](../.gitbook/assets/measure2.png)  
 ![](../.gitbook/assets/measure3.png)
+

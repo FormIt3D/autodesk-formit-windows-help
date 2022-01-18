@@ -1,5 +1,6 @@
-# Section Planes
+# Schnittflächen
 
-Use **Section Planes** to cut into your FormIt model, revealing interior spaces and structural elements.
+Verwenden Sie **Schnittebenen**, um in Ihr FormIt-Modell zu schneiden und so Innenräume und tragende Elemente freizulegen.
 
-Learn about Section Planes in the [FormIt Primer](../formit-primer/part-i/section\_planes.md).
+Informationen zu Schnittebenen finden Sie in der [FormIt-Einführung](../formit-primer/part-i/section_planes.md).
+

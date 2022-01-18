@@ -1,21 +1,26 @@
-# Measure Angle
+# Winkel messen
 
-The Measure Angle tool is located on the [Tool Bar](../formit-introduction/tool-bars.md).
+Das Werkzeug Winkel messen befindet sich im [Werkzeugkasten](../formit-introduction/tool-bars.md).
 
-The Measure Angle tool is used to measure angles between vertices, edges, faces, and volumes. You can also use the Measure Angle tool to drive dimensions of geometry.
+Das Werkzeug Winkel messen wird zum Messen von Winkeln zwischen Scheitelpunkten, Kanten, Flächen und Volumina verwendet. Mithilfe des Werkzeugs Winkel messen können Sie außerdem Bemaßungen für Geometrie steuern.
 
-*   From the **Measure** toolbar menu, select the **Measure Angle** tool or use the keyboard shortcut **M A** and select a starting point.
+* Wählen Sie im Werkzeugkastenmenü **Messen** das Werkzeug **Winkel messen** aus, oder verwenden Sie den Tastaturkurzbefehl **M A**, und wählen Sie einen Startpunkt aus.
 
-    ![](../.gitbook/assets/measure-angle.png)
-*   Click and drag the handle to the starting vertex.
+   ![](../.gitbook/assets/measure-angle.png)
 
-    ![](../.gitbook/assets/measure-angle2.png)
-*   Use the arrows to measure the angle between one point to another.
+* Klicken Sie auf den Griff, und ziehen Sie ihn zum Anfangsscheitelpunkt.
 
-    ![](../.gitbook/assets/measure-angle4.png)
-*   To change the geometry, click on an edge or face and enter a new angle value by clicking on the displayed angle.
+   ![](../.gitbook/assets/measure-angle2.png)
 
-    ![](<../.gitbook/assets/measure-angle3 (1).png>)
-*   Your changes or measurements display:
+* Verwenden Sie die Pfeile zum Messen des Winkels zwischen zwei Punkten.
 
-    ![](../.gitbook/assets/measure-angle5.png)
+   ![](../.gitbook/assets/measure-angle4.png)
+
+* Um die Geometrie zu ändern, klicken Sie auf eine Kante oder Fläche und geben einen neuen Winkelwert ein, indem Sie auf den angezeigten Winkel klicken.
+
+   ![](../.gitbook/assets/measure-angle3.png)
+
+* Ihre Änderungen oder Messungen werden angezeigt:
+
+   ![](../.gitbook/assets/measure-angle5.png)
+

@@ -1,41 +1,41 @@
-# Setting Up the Project
+# Einrichten des Projekts
 
-## Starting Off
+## Start
 
-When you start FormIt, you'll be in a 3D environment. Take some time to learn how to [navigate around the 3D space](navigating-the-scene.md), then start building a project ([here's how](../formit-primer/)), use the File menu to open an existing FormIt project, or import a variety of other file types.
+Wenn Sie FormIt starten, befinden Sie sich in einer 3D-Umgebung. Nehmen Sie sich etwas Zeit, um zu lernen, wie Sie [im 3D-Raum navigieren](navigating-the-scene.md). Beginnen Sie dann mit dem Erstellen eines Projekts \([hier erfahren Sie, wie das geht](../formit-primer/)\), verwenden Sie das Menü Datei, um ein vorhandenes FormIt-Projekt zu öffnen, oder importieren Sie eine Reihe anderer Dateitypen.
 
-FormIt allows opening, saving, and exporting to files both locally and on Autodesk Docs. [Using Autodesk Docs in FormIt](https://formit.autodesk.com/page/formit-autodesk-docs/) is a great way to share models in the cloud.
+FormIt ermöglicht das Öffnen, Speichern und Exportieren von Dateien sowohl lokal als auch in BIM 360 Docs. [Die Verwendung von BIM 360 Docs in FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) ist eine hervorragende Möglichkeit für die gemeinsame Nutzung von Modellen in der Cloud.
 
-In addition to using the File menu, you can open any importable 3D model in FormIt by dragging and dropping the file into the canvas. To import a file into the current sketch, hold Ctrl while dragging and dropping.
+Apropos Speichern: FormIt [speichert Ihre Arbeit automatisch](../tool-library/autosave.md), sobald Sie Änderungen am Modell vornehmen. Es wird weiterhin empfohlen, häufig zu speichern, da dadurch die Sicherungsdatei bereinigt und Speicherplatz gespart wird.
 
-FormIt will [AutoSave your work](../tool-library/autosave.md) once you start making changes to the model. Saving often is still recommended because it will clean up the backup file and save space.
+## App-Einstellungen
 
-## App Settings
+* Einheiten:
 
-*   Units:
+   ![](../.gitbook/assets/formit_units.png)
 
-    ![](../.gitbook/assets/formit\_units.png)
+   * Diese Einstellung wirkt sich auf die Einheiten in allen Werkzeugen und in importierter Geometrie aus, z. B. Dynamo und Dateitypen ohne Einheiten wie STL.
 
-    * Setting this will affect the units in all tools and imported geometry, like Dynamo and unitless file types like STL.
-* Snap to Grid:
-  * Forces tools with placement points to snap to the grid intersection points. Note that you can turn the grid off in [Visual Styles](../formit-primer/part-i/visual-settings.md); if the grid is off, snapping to it will be disabled as well.
-* Display Editable Dimensions:
-  * Choose whether to keep the dimension boxes visible (we recommend keeping this on if you want to draw with accuracy).
-* Hide Context/Show Edited Group Only:
-  * This affects whether editing a Group will show its surroundings or not. You can easily change this setting using the shortcut (H). Toggling H while modeling in and out of Groups allows you to view Groups both in isolation and in context as needed.
-* Preselection Highlight:
-  * By default, FormIt will "preselect" objects when you hover over them. This is useful to ensure the object you want to select is the object you get, but can be distracting when presenting a design. Use this option or the shortcut to quickly toggle back and forth between showing and hiding preselection highlight as necessary. Note that this option needs to be enabled to use features like [Smart Selection](https://www.youtube.com/watch?v=akLeB1FADt4).&#x20;
+* Rasterfang:
+   * Erzwingt, dass Werkzeuge mit Platzierungspunkten an Rasterschnittpunkten gefangen werden. Beachten Sie, dass Sie das Raster unter [Visuelle Stile](../formit-primer/part-i/visual-settings.md) deaktivieren können. Wenn das Raster deaktiviert ist, wird auch der Objektfang deaktiviert.
+* Bearbeitbare Bemaßungen anzeigen:
+   * Wählen Sie, ob die Bemaßungsfelder sichtbar bleiben sollen \(es wird empfohlen, diese Option aktiviert zu lassen, wenn Sie mit großer Genauigkeit zeichnen möchten\).
+* Kontext ausblenden/Nur bearbeitete Gruppe anzeigen:
+   * Dies wirkt sich darauf aus, ob beim Bearbeiten einer Gruppe die Umgebung angezeigt wird oder nicht. Sie können diese Einstellung einfach über den Kurzbefehl \(H\) ändern. Wenn Sie beim Modellieren in und außerhalb von Gruppen den Befehl H umschalten, können Sie Gruppen nach Bedarf isoliert und im Kontext anzeigen.
+* Vorauswahl-Hervorhebung:
+   * Vorgabemäßig werden Objekte von FormIt vorausgewählt, wenn Sie den Cursor darüber bewegen. Dies ist nützlich, um sicherzustellen, dass Sie wirklich das Objekt auswählen, das Sie auswählen möchten. Es kann jedoch bei der Präsentation eines Entwurfs störend wirken. Verwenden Sie diese Option oder den Tastaturbefehl, um bei Bedarf schnell zwischen dem Ein- und Ausblenden der Vorauswahl-Hervorhebung zu wechseln. Beachten Sie, dass diese Option aktiviert werden muss, um Funktionen wie die [intelligente Auswahl](https://www.youtube.com/watch?v=akLeB1FADt4) verwenden zu können.
 
-## Touch Mode
+## Berührungsmodus
 
 ![](../.gitbook/assets/20190619-touch-mode-off.png)
 
-If your computer has a touchscreen, use Touch Mode to easily navigate your model and create geometry. If you're using FormIt for iOS too, this will feel familiar.
+Wenn Ihr Computer über einen Touchscreen verfügt, verwenden Sie den Berührungsmodus, um einfach im Modell zu navigieren und Geometrie zu erstellen. Wenn Sie FormIt auch für iOS verwenden, wird Ihnen dies bekannt vorkommen.
 
-When Touch Mode is on, FormIt's interaction becomes more like FormIt on iPad, calibrating navigation and modification tools to work with a touch interface. Because of this, using FormIt with a mouse and keyboard while Touch Mode is on is not recommended.
+Wenn der Berührungsmodus aktiviert ist, ähnelt die Interaktion von FormIt der von FormIt auf dem iPad, da die Navigations- und Bearbeitungswerkzeuge so kalibriert werden, dass sie mit einer Touch-Benutzeroberfläche verwendet werden können. Aus diesem Grund wird bei aktiviertem Berührungsmodus die Verwendung von FormIt mit der Maus und Tastatur nicht empfohlen.
 
-When Touch Mode is on, you'll see it highlighted in the toolbar, as well as a "Touch Mode" banner in the lower-left corner of the screen.
+Wenn der Berührungsmodus aktiviert ist, wird dieser im Werkzeugkasten hervorgehoben, und in der linken unteren Ecke des Bildschirms wird ein Berührungsmodus-Banner angezeigt.
 
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 
 ![](../.gitbook/assets/20190618-touch-mode-banner.png)
+

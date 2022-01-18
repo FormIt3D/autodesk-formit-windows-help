@@ -1,13 +1,12 @@
-# Groups Tree
+# Gruppenstruktur
 
-The **Groups Tree** palette provides a single place to manage all of the groups in the file. The tree view displays nested groups and the Status column shows which group is currently being edited and whether the group is from Dynamo or Revit. The Instance column displays instance IDs to help differentiate instances of the same group.
+Die Palette **Gruppenstruktur** ist ein zentraler Ort zum Verwalten aller Gruppen in der Datei. In der Strukturansicht werden verschachtelte Gruppen angezeigt, und in der Statusspalte wird dargestellt, welche Gruppe derzeit bearbeitet wird und ob die Gruppe aus Dynamo oder Revit stammt.
 
-* **Select**: Each instance is listed individually. Select an instance in the tree and the instance(s) are selected in the 3D scene.
-* **Edit**: To edit a group, use the pen icon at the top of the palette or right-click and choose Edit.
-* **Rename**: To rename a group, double-click the name or right-click and choose Rename.
-* **Delete**: To delete a group, use the (**-**) icon at the top of the palette or right-click and choose Delete. Select multiple groups to delete them all at once.
-  * Tip: To select multiple groups one by one, use the Ctrl key. To select a range of groups, select a group, hold Shift, and select another group. This will add all groups in between to the selection.
-* **Ungroup**: Right-click a group and select Ungroup.
-* **Change Category**: To change a group's category, select the group and use the Category drop-down at the top of the palette.
+* **Auswählen**: Jedes Exemplar wird einzeln aufgeführt. Wählen Sie eine Instanz in der Struktur aus, und die Instanz\(en\) wird/werden in der 3D-Szene ausgewählt.
+* **Bearbeiten**: Um eine Gruppe zu bearbeiten, verwenden Sie das Stiftsymbol oben in der Palette oder klicken mit der rechten Maustaste und wählen Bearbeiten.
+* **Umbenennen**: Doppelklicken Sie zum Umbenennen einer Gruppe auf den Namen, oder klicken Sie mit der rechten Maustaste, und wählen Sie Umbenennen.
+* **Löschen**: Um eine Gruppe zu löschen, verwenden Sie das Symbol \(**-**\) oben in der Palette oder klicken mit der rechten Maustaste und wählen Löschen.
+* **Kategorie ändern**: Um die Kategorie einer Gruppe zu ändern, wählen Sie die Gruppe aus und verwenden die Dropdown-Liste Kategorie oben in der Palette.
 
-![](<../.gitbook/assets/groups tree.png>)
+![](../.gitbook/assets/groups.png)
+

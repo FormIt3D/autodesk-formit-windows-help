@@ -1,68 +1,69 @@
-# 1.3 - 3D Sketch and Drag Face
+# 1.3 – 3D-Skizze und Ziehen von Flächen
 
-_We are ready to start drawing the Farnsworth house! 3D modeling in FormIt at its core consists of drawing lines to create faces and then dragging those faces to create volumes._
+_Jetzt können Sie mit dem Zeichnen des Farnsworth-Hauses beginnen. Die 3D-Modellierung in FormIt besteht im Wesentlichen aus dem Zeichnen von Linien, um Flächen zu erstellen, und dem anschließenden Ziehen dieser Flächen, um Volumen zu generieren._
 
-‌ _If you did not complete the last section, download and open the_ _**1.3 - 3D Sketch and Drag Face.axm**_ _file from the_ _**FormIt Primer Part 1 Datasets**._
+‌ _Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.3 – 3D Sketch and Drag Face.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-## **Draw Faces with Lines**
+## **Zeichnen von Flächen mit Linien**
 
-1 – To facilitate the modeling process, you can use the **Floating Navigation Toolbar** to switch between different views modes. For this exercise, we recommend using the **Perspective (VP)** and **3D View (V3).**
+1 – Um den Modellierungsprozess zu erleichtern, können Sie mit der **verschiebbaren Navigationsleiste** zwischen verschiedenen Ansichtsmodi wechseln. Für diese Übung wird die Verwendung der **Perspektivansicht \(VP\)** und **3D-Ansicht \(V3\)**
 
-![](<../../.gitbook/assets/0 (4).png>)
+![](../../.gitbook/assets/0%20%284%29.png)
 
-2 – Newly created geometry will automatically join or “stick to” any existing ungrouped geometry it touches. To avoid this, you will typically want to organize your geometry with groups. To create a group from the floor plan, select the rectangle by double-clicking it, then right-click to access the **Context Menu** and select **Group (G).**
+2 – Neu erstellte Geometrie wird automatisch mit vorhandener, nicht gruppierter Geometrie, die von dieser berührt wird, verbunden bzw. daran fixiert. Um dies zu vermeiden, sollten Sie Ihre Geometrie normalerweise in Gruppen organisieren. Um eine Gruppe aus dem Grundriss zu erstellen, wählen Sie das Rechteck durch Doppelklicken aus, klicken dann mit der rechten Maustaste, um das **Kontextmenü** aufzurufen, und wählen **Gruppe \(G\)**
 
-![](<../../.gitbook/assets/1 (2).png>)
+![](../../.gitbook/assets/1%20%282%29.png)
 
-3 – When tracing the plan we don’t want the lines to snap to the grid, so click on **Settings** in the **Main Menu** and unchecking **Snap to Grid (SG).**
+3 – Beim Nachzeichnen des Plans sollen die Linien nicht am Raster gefangen werden. Klicken Sie deshalb im **Hauptmenü** auf **Einstellungen**, und deaktivieren Sie **Rasterfang \(SG\)**
 
-![](<../../.gitbook/assets/2 (12).png>)
+![](../../.gitbook/assets/2%20%2812%29.png)
 
-4 – To start drawing, click the **Create Sketch** (Pencil) icon in the **Standard Toolbar** and choose the **Line tool (L)**.
+4 – Um mit dem Zeichnen zu beginnen, klicken Sie auf das Symbol **Skizze erstellen** \(Bleistift\) im **Standard-Werkzeugkasten** und wählen das **Werkzeug Linie \(L\)**.
 
-![](<../../.gitbook/assets/3 (17).png>)
+![](../../.gitbook/assets/3%20%2817%29.png)
 
-5 - Let's start by creating a rectangle on the imported image. To create the first line:
+5 – Erstellen Sie zunächst ein Rechteck auf dem importierten Bild. So erstellen Sie die erste Linie
 
-1. While in the **Line tool**, click near **the upper left corner** of the upper terrace in the imported sketch.
-2. Move your mouse along the red axis that appears.
-3. Click the **Tab** key to input the dimension: **77'-4 1\8".**
+1. Klicken Sie im **Werkzeug Linie** in die Nähe der **oberen linken Ecke** der oberen Terrasse in der importierten Skizze.
+2. Bewegen Sie den Cursor entlang der roten Achse, die angezeigt wird.
+3. Drücken Sie die **TABULATORTASTE**, um die Bemaßung **77'-4 1\8" einzugeben.**
 
-![](<../../.gitbook/assets/4 (16).png>)
+![](../../.gitbook/assets/4%20%2816%29.png)
 
-_**Note:** Anytime a temporary dimension appears while sketching, you can either press_ _**Tab** or just start typing a number_ _to open the_ _**Dimension Dialog**._
+_**Anmerkung:** Wenn beim Skizzieren eine temporäre Bemaßung angezeigt wird, können Sie entweder die_ _**TABULATORTASTE** drücken oder einfach eine Zahl eingeben_, _um das_ _**Dialogfeld Bemaßung** zu öffnen._
 
-6 – To create the second line, move your mouse down along the green axis and enter **28’-8**” for the upper terrace’s short edge.
+6 – Um die zweite Linie zu erstellen, bewegen Sie die Maus entlang der grünen Achse nach unten, und geben Sie **28'-8"** für die kurze Kante der oberen Terrasse ein.
 
-7 - To define the rectangle’s third edge and finish:
+7 – So definieren Sie die dritte Kante des Rechtecks und beenden den Vorgang
 
-1. Move your mouse along the red axis and hold down the **Shift** key. The red axis line will thicken to indicate that the line is locked to this axis.
-2. While the **Shift key** is pressed - move your mouse to the first point you drew. Click to commit the endpoint.
-3. The third point will automatically be set, parallel to the red - axis defined by (A) - and the green axis - defined by (B).
-4. Finally, to finish enclosing the rectangle, release the **Shift** key and click back on the first point you drew. Press **Esc** twice to exit the sketch tool.
+1. Bewegen Sie den Cursor entlang der roten Achse, und halten Sie die **UMSCHALTTASTE** gedrückt. Die rote Achsenlinie wird verdickt, um anzuzeigen, dass die Linie auf dieser Achse gesperrt ist.
+2. Halten Sie die **UMSCHALTTASTE** gedrückt, und bewegen Sie die Maus zum ersten gezeichneten Punkt. Klicken Sie, um den Endpunkt zu bestätigen.
+3. Der dritte Punkt wird automatisch festgelegt, parallel zur roten Achse, die durch \(A\) definiert ist, und zur grünen Achse, die durch \(B\) definiert ist.
+4. Um das Umschließen des Rechtecks abzuschließen, lassen Sie die **UMSCHALTTASTE** los, und klicken Sie wieder auf den ersten gezeichneten Punkt. Drücken Sie zweimal **ESC**, um das Skizzierwerkzeug zu beenden.
 
-_**Note:**_ _The red and green axes keep you parallel and perpendicular to the grid. When you draw a line off the world axes, a purple axis line will allow you to stay 90 degrees relative to your off-axis line._
+_**Anmerkung:**_ _Mit der roten und grünen Achse bleibt die Ausrichtung stets parallel und lotrecht zum Raster. Wenn Sie eine Linie außerhalb der Weltachsen zeichnen, können Sie mithilfe einer violetten Achsenlinie 90 Grad relativ zu Ihrer achsenverschobenen Linie bleiben._
 
-![](<../../.gitbook/assets/5 (2) (1).png>)
+![](../../.gitbook/assets/5%20%282%29.png)
 
-## **Drag the Face to Create Volume**
+## **Ziehen der Fläche zum Erstellen von Volumen**
 
-1 - Single-click inside the outline you just drew to select the face. You are now automatically in the **Drag Face** tool.
+1 – Klicken Sie einmal in die Kontur, die Sie gerade gezeichnet haben, um die Fläche auszuwählen. Sie befinden sich nun automatisch im Werkzeug **Flächen ziehen**.
 
-2 - Single-click again to start the dragging. Move your mouse upwards (along the positive Z-axis) to extrude a volume in that direction. Start typing **12'-2"**, and a dimension box will appear with this value, then hit **Enter**.
+2 – Klicken Sie erneut, um mit dem Ziehen zu beginnen. Bewegen Sie die Maus nach oben \(entlang der positiven Z-Achse\), um ein Volumen in diese Richtung zu extrudieren. Geben Sie **12'-2"** ein. Daraufhin wird ein Bemaßungsfeld mit diesem Wert angezeigt. Drücken Sie dann die **EINGABETASTE**.
 
-![](<../../.gitbook/assets/6 (3) (1).png>)
+![](../../.gitbook/assets/6%20%283%29.png)
 
-_**Note:**_ _A_ _single-click_ _will select just a single face, whereas a_ _double-click_ _will select all (ungrouped) adjacent edges and faces._
+_**Anmerkung:**_ _Durch_ _einen einfachen Klick_ _wird nur eine einzelne Fläche ausgewählt, während durch einen_ _Doppelklick_ _alle \(nicht gruppierten\) angrenzenden Kanten und Flächen ausgewählt werden._
 
-## **3D Sketching with Arc, Spline, and Circle**
+## **Skizzieren in 3D mit Bogen, Spline und Kreis**
 
-_The following exercise is not critical to finishing the house. However, it will allow you to experiment with some of the other 3D Sketching tools available. Click_ _**here**_ _to learn more about 3D sketching with World Axes._
+_Die folgende Übung ist nicht unbedingt erforderlich, um das Haus fertigzustellen. Sie haben hier jedoch die Möglichkeit, mit einigen der übrigen verfügbaren Werkzeuge zum Skizzieren in 3D zu experimentieren. Klicken Sie_ _**hier**_, _um mehr zum Skizzieren in 3D mit Weltachsen zu erfahren._
 
-1 - Select the **Arc by three arc points (A)** tool. Click to define the start, and then the endpoint. The third click defines the arc's radius.
+1 – Wählen Sie das Werkzeug **Bogen durch drei Bogenpunkte \(A\)** aus. Klicken Sie, um den Start- und dann den Endpunkt zu definieren. Mit dem dritten Klick definieren Sie den Radius des Bogens.
 
-2 - Select the **Spline (S)** tool. Click to define any number of points to draw a spline.
+2 – Wählen Sie das Werkzeug **Spline \(S\)**. Definieren Sie durch Klicken auf die gewünschten Stellen beliebig viele Punkte, um einen Spline zu zeichnen.
 
-3 - Select the **Circle (C)** tool. Hover and click to define the circle's center point. Click and drag or enter a dimension to define the radius.
+3 – Wählen Sie das Werkzeug **Kreis \(C\)** aus. Setzen Sie den Cursor auf die gewünschte Stelle, und klicken Sie, um den Mittelpunkt des Kreises zu definieren. Klicken und ziehen Sie, oder geben Sie eine Bemaßung ein, um den Radius zu definieren.
 
-![](<../../.gitbook/assets/7 (7).png>)
+![](../../.gitbook/assets/7%20%287%29.png)
+

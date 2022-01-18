@@ -1,98 +1,103 @@
-# Array Along Path
+# Array Along Path (Reihe entlang Pfad)
 
 ## Powered by Dynamo
 
-In FormIt 2021 and newer, you can array objects along a path, and quickly customize the results in-place. Array Along Path is powered by Dynamo, which means the array is easily configurable to get the results you want, and re-running the logic will update the geometry in-place.
+In FormIt 2021 und höher können Sie Objekte entlang eines Pfads anordnen und die Ergebnisse sofort und direkt anpassen. Array Along Path (Reihe entlang Pfad) wird von Dynamo unterstützt, d. h., die Reihe kann einfach konfiguriert werden, um die gewünschten Ergebnisse zu erzielen. Durch erneutes Ausführen der Logik wird die Geometrie direkt aktualisiert.
 
-![](<../.gitbook/assets/array-along-path (1).gif>)
+![](../.gitbook/assets/array-along-path.gif)
 
-## Starting Array Along Path
+## Starten von Array Along Path (Reihe entlang Pfad)
 
-* Go to the Dynamo panel in FormIt for Windows, and ensure you're in the Dynamo Samples directory.
-* Click the Array Along Path sample.
-* On the left side of the screen, you'll see a prompt to "Select object(s) to array."
-  * You can select any mix of FormIt objects for this step.
-  * Once you've got something selected, you can hit the "next" arrow on the left side of the screen, or just hit Enter.
-* Now you'll see a prompt to "Select path for array."
-  * Here, you should select only a series of contiguous edges, or a Group containing a series of contiguous edges.
-  * Once you've got the path selected, click the "finish" button, or hit Enter.&#x20;
-* The Dynamo panel will indicate it's processing the changes. When it's done, you'll have a Dynamo-generated Array in a FormIt Group, ready for modifying (see below).
+* Wechseln Sie zur Gruppe Dynamo in FormIt for Windows, und stellen Sie sicher, dass Sie sich im Verzeichnis Dynamo Samples (Dynamo-Beispiele) befinden.
+* Klicken Sie auf das Beispiel für Array Along Path (Reihe entlang Pfad).
+* Auf der linken Seite des Bildschirms wird eine Eingabeaufforderung zum Auswählen der anzuordnenden Objekte angezeigt.
+   * Sie können für diesen Schritt eine beliebige Kombination von FormIt-Objekten auswählen.
+   * Wenn Sie eine Auswahl getroffen haben, können Sie auf den Weiter-Pfeil links auf dem Bildschirm klicken oder einfach die EINGABETASTE drücken.
+* Nun wird eine Eingabeaufforderung zum Auswählen des Pfads für die Reihe angezeigt.
+   * Hier sollten Sie nur eine Reihe von fortlaufenden Kanten oder eine Gruppe, die eine Reihe von fortlaufenden Kanten enthält, auswählen.
+   * Wenn Sie den Pfad ausgewählt haben, klicken Sie auf die Schaltfläche Finish (Fertig stellen), oder drücken Sie die EINGABETASTE.
+* In der Gruppe Dynamo wird angezeigt, dass die Änderungen verarbeitet werden. Wenn Sie fertig sind, wird eine in Dynamo generierte Reihe in einer FormIt-Gruppe angezeigt, die Sie bearbeiten können \(siehe unten\).
 
-## Iterating In Place
+## Erstellen von Iterationen an Ort und Stelle
 
-After running Array Along Path, you'll see its results are set to default values, so you'll want to modify them to suit your needs.
+Nach dem Ausführen von Array Along Path (Reihe entlang Pfad) werden die Ergebnisse auf Vorgabewerte eingestellt. Sie sollten sie daher an Ihre Anforderungen anpassen.
 
-When Array Along Path runs, it creates a new Group containing the results, and FormIt will automatically select the Group and show the available options for that Array Along Path instance.
+Wenn Array Along Path (Reihe entlang Pfad) ausgeführt wird, wird eine neue Gruppe mit den Ergebnissen erstellt. FormIt wählt dann automatisch die Gruppe aus und zeigt die verfügbaren Optionen für dieses Exemplar von Array Along Path (Reihe entlang Pfad) an.
 
-You can always return to the Array Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
+Sie können jederzeit zu den Eigenschaften für Array Along Path (Reihe entlang Pfad) zurückkehren, indem Sie die Gruppe auswählen und zur Gruppe Properties (Eigenschaften) wechseln oder die Gruppe bearbeiten, sodass automatisch Eigenschaften angezeigt werden.
 
-![](<../.gitbook/assets/array along path (1).png>)
+![](../.gitbook/assets/array-along-path-options.png)
 
-### Select Object(s) to Array <a href="#run" id="run"></a>
+### Select Object\(s\) to Array (Objekte für Reihe auswählen) <a id="run"></a>
 
-Click this to go back to the selection wizard to change which objects are being arrayed.
+Klicken Sie auf diese Schaltfläche, um zum Auswahlassistenten zurückzukehren und die anzuordnenden Objekte zu ändern.
 
-### Select Array Path
+### Select Array Path (Pfad für Reihe auswählen)
 
-Click this to go back to the selection wizard to change the path that is used to calculate the array.
+Klicken Sie auf diese Schaltfläche, um zum Auswahlassistenten zurückzukehren und den Pfad zu ändern, der zum Berechnen der Reihe verwendet wird.
 
-### Array Type <a href="#run" id="run"></a>
+### Array Type (Reihentyp) <a id="run"></a>
 
-This toggles the type of array to calculate: By Distance, or By Number.
+Hiermit wird der zu berechnende Reihentyp umgeschaltet: By Distance (Nach Abstand) oder By Number (Nach Nummer).
 
-**When true**, the calculation will be "By Distance", so the number below refers to the distance between copies.
+**Wenn True eingestellt ist**, wird die Berechnung By Distance (Nach Abstand) durchgeführt, sodass sich die Zahl unten auf den Abstand zwischen Kopien bezieht.
 
-**When false**, the calculation will by "By Number of Copies", so the number below this field refers to the number of copies to fit along the path.
+**Wenn False eingestellt ist**, wird die Berechnung By Number of Copies (Nach Anzahl der Kopien) durchgeführt, sodass sich die Zahl unter diesem Feld auf die Anzahl der Kopien bezieht, die entlang des Pfads eingepasst werden sollen.
 
-### Include Original Selection In Results
+### Include Original Selection In Results (Ursprüngliche Auswahl in Ergebnisse einschließen)
 
-When **true**:
+Wenn **True**:
 
-* The object(s) selected will be counted as one of the new copies
-* The resulting Dynamo Group will include the original selection in its results, so the new copies will Z-fight with the original selection. You can put the original selection on a [Layer](layers.md), and turn it off to hide it.
+* Die ausgewählten Objekte werden als eine der neuen Kopien gezählt.
+* Die resultierende Dynamo-Gruppe nimmt die ursprüngliche Auswahl in die Ergebnisse auf, sodass für die neuen Kopien ein Z-Fighting-Effekt mit der ursprünglichen Auswahl auftritt. Sie können die ursprüngliche Auswahl auf einem [Layer](layers.md) platzieren und diesen deaktivieren, um ihn auszublenden.
 
-When **false**:
+Wenn **False**:
 
-* The resulting array will **not** include the original selection, so you'll get the number of copies you specified **in addition to** the original selection, and the results won't Z-fight
+* Die resultierende Reihe enthält die ursprüngliche Auswahl **nicht**, sodass Sie **zusätzlich** zur ursprünglichen Auswahl die angegebene Anzahl der Kopien erhalten. Bei den Ergebnissen findet kein Z-Fighting statt.
 
-### Rotate Copies Along Path
+### Rotate Copies Along Path (Kopien entlang Pfad drehen)
 
-When **true**, the copies are rotated to maintain the orientation of the original object relative to the path.
+Wenn **True** eingestellt ist, werden die Kopien gedreht, um die Ausrichtung des ursprünglichen Objekts relativ zum Pfad beizubehalten.
 
-When **false**, the copies are not rotated, only moved.
+Wenn **False** eingestellt ist, werden die Kopien nicht gedreht, sondern nur verschoben.
 
-### Use Relative Positioning Along Path
+### Use Relative Positioning Along Path (Relative Positionierung entlang Pfad verwenden)
 
-When **true**:
+Wenn **True**:
 
-* Each copy will maintain the distance between the path and the original object.
-* If the original object is **not** positioned at one of the path endpoints, the largest remaining segment of the path will be used for the array calculation.&#x20;
+* Bei jeder Kopie wird der Abstand zwischen dem Pfad und dem ursprünglichen Objekt beibehalten.
+* Wenn das ursprüngliche Objekt **nicht** an einem der Endpunkte des Pfads positioniert ist, wird das größte verbleibende Segment des Pfads für die Reihenberechnung verwendet.
 
-When **false**:
+Wenn **False**:
 
-* The entire length of the path will used to calculate the array, regardless of where the original object is relative to the path.&#x20;
-* This decouples the path's location relative to the object, and simply uses the entire path. Useful if the path and object are not near each other.
+* Die gesamte Länge des Pfads wird zur Berechnung der Reihe verwendet, unabhängig davon, wo sich das ursprüngliche Objekt relativ zum Pfad befindet.
+* Dadurch wird die Position des Pfads relativ zum Objekt entkoppelt, und es wird einfach der gesamte Pfad verwendet. Dies ist nützlich, wenn der Pfad und das Objekt nicht nahe beieinander liegen.
 
-### Reverse Path Direction
+### Reverse Path Direction (Pfadrichtung umkehren)
 
-For closed paths only. When using Array Along Path with a closed path, the direction of the curve may unexpectedly flip the expected results of the array. Toggle this to **true** to reverse the array direction if the results are flipped.
+Nur für geschlossene Pfade. Wenn Sie Array Along Path (Reihe entlang Pfad) mit einem geschlossenen Pfad verwenden, werden die erwarteten Ergebnisse der Reihe möglicherweise durch die Richtung der Kurve unerwartet umgekehrt. Setzen Sie diesen Wert auf **True**, um auch die Reihenrichtung umzukehren, wenn die Ergebnisse umgekehrt werden.
 
-### Run <a href="#run" id="run"></a>
+### Run (Ausführen) <a id="run"></a>
 
-After editing the options, click the "Run" button to run the underlying Dynamo graph, and generate new results. This button will turn blue when parameters have changed, so you know it needs to be clicked to see the updates in the final geometry.‌
+Klicken Sie nach dem Bearbeiten der Optionen auf die Schaltfläche Run (Ausführen), um das zugrunde liegende Dynamo-Diagramm auszuführen und neue Ergebnisse zu generieren. Diese Schaltfläche wird blau, wenn Parameter geändert wurden. So erkennen Sie, dass Sie darauf klicken müssen, um die Aktualisierungen in der endgültigen Geometrie zu sehen.‌
 
-### Edit Embedded Graph <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
+### Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) <a id="edit-embedded-graph"></a>
 
-Clicking this will launch the Dynamo graph editor environment, so you can view and edit the underlying Dynamo graph to more quickly change parameters and see live updates, or to inspect/adjust the logic.
+Wenn Sie auf diese Schaltfläche klicken, wird die Dynamo-Diagramm-Editor-Umgebung geöffnet, in der Sie das zugrunde liegende Dynamo-Diagramm anzeigen und bearbeiten können, um Parameter schneller zu ändern, Live-Aktualisierungen anzuzeigen oder die Logik zu prüfen bzw. anzupassen.
 
-## Selecting Geometry
 
-When selecting objects for Array Along Path, and other selection-based Dynamo graphs:
 
-* You can select any mix of FormIt objects - vertices, edges, faces, solids, Groups, and Meshes.&#x20;
-  * Note that depending on the step, some of these objects should not be selected.
-  * For example, when selecting the path, you should only select a contiguous series of edges, or a Group containing a contiguous series of edges. Anything else will cause the graph to fail.
-* You can double-click on an object to select everything attached.&#x20;
-* You can use the area selection window to grab a series of objects.
-* You can select objects already selected to deselect them.
-* At least one object is required to proceed with a selection-based step.
+## Auswählen von Geometrie
+
+Bei der Auswahl von Objekten für Array Along Path (Reihe entlang Pfad) und andere auswahlbasierte Dynamo-Diagramme gilt Folgendes:
+
+* Sie können eine beliebige Kombination von FormIt-Objekten auswählen: Scheitelpunkte, Kanten, Flächen, Volumenkörper, Gruppen oder Netze.
+   * Beachten Sie, dass je nach Schritt einige dieser Objekte nicht ausgewählt werden sollten.
+   * Wenn Sie beispielsweise den Pfad auswählen, sollten Sie nur eine fortlaufende Reihe von Kanten oder eine Gruppe mit einer fortlaufenden Reihe von Kanten auswählen. Andernfalls schlägt das Diagramm fehl.
+* Sie können auf ein Objekt doppelklicken, um alle zugeordneten Objekte auszuwählen.
+* Sie können das Fenster für die Bereichsauswahl verwenden, um eine Reihe von Objekten zu erfassen.
+* Sie können bereits ausgewählte Objekte auswählen, um deren Auswahl aufzuheben.
+* Mindestens ein Objekt ist erforderlich, um mit einem auswahlbasierten Schritt fortzufahren.
+
+
+

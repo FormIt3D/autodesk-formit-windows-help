@@ -1,57 +1,58 @@
-# Groups
+# Gruppen
 
-One of the most basic yet important techniques in FormIt workflows involves grouping. Groups allow you to keep your geometry from sticking together and allow you to set up parent/child relationships between copied elements so that if you update one element, both elements update. Learn more about groups [here](../formit-primer/part-i/grouping-objects.md).
+Eine der grundlegendsten und dennoch wichtigsten Techniken bei FormIt-Arbeitsabläufen ist die Gruppierung. Mit Gruppen können Sie verhindern, dass Geometrie zusammenklebt, und Sie können Beziehungen zwischen über- und untergeordneten Elementen für kopierte Elemente erstellen, sodass beim Aktualisieren eines Elements beide Elemente aktualisiert werden. [Hier](../formit-primer/part-i/grouping-objects.md) erfahren Sie mehr über Gruppen.
 
-Groups can be created and edited in two ways: either from the context menu of a selected group, or from the main toolbar.
+Gruppen können auf zwei Arten erstellt und bearbeitet werden: Entweder über das Kontextmenü einer ausgewählten Gruppe oder über den Hauptwerkzeugkasten.
 
-## Groups Interactions
+## Gruppeninteraktionen
 
-To **create a group**, select the elements you'd like to group together — this can include edges, faces, solids, or other groups — and right-click. Choose the **Group (G)** tool from the context menu. Imported images and satellite images cannot be grouped.
+Um eine **Gruppe zu erstellen**, wählen Sie die Elemente aus, die Sie gruppieren möchten – dies kann Kanten, Flächen, Volumenkörper oder andere Gruppen umfassen – und klicken Sie mit der rechten Maustaste. Wählen Sie das Werkzeug **Gruppe \(G\)** aus dem Kontextmenü. Importierte Bilder und Satellitenbilder können nicht gruppiert werden.
 
-To **select a group**, single-click the group. Note the dashed lines that appear when selecting a group — these lines indicate the group's total size.
+Um eine **Gruppe auszuwählen**, klicken Sie auf diese. Beachten Sie die gestrichelten Linien, die angezeigt werden, wenn Sie eine Gruppe auswählen. Diese Linien geben die Gesamtgröße der Gruppe an.
 
-To **edit a group**, double-click the group. This launches an edit mode where you can only view and snap to elements outside of the current group, but cannot select them. You can also hide the elements outside of the current group by using the **H** keyboard shortcut.
+Um eine **Gruppe zu bearbeiten**, doppelklicken Sie auf diese. Dadurch wird ein Bearbeitungsmodus gestartet, in dem Sie nur Elemente außerhalb der aktuellen Gruppe anzeigen und fangen, jedoch keine Elemente auswählen können. Sie können auch die Elemente außerhalb der aktuellen Gruppe mithilfe des Tastaturkurzbefehls **H** ausblenden.
 
-You can create **groups within groups:** these are called **nested groups** and can be created within the group edit mode. To move up one level in nested groups, click anywhere outside of the groups.
+Sie können **Gruppen innerhalb von Gruppen** erstellen. Diese werden als **verschachtelte Gruppen** bezeichnet und können im Gruppenbearbeitungsmodus erstellt werden. Um in verschachtelten Gruppen eine Ebene nach oben zu gelangen, klicken Sie auf eine beliebige Stelle außerhalb der Gruppen.
 
-To **exit group edit mode,** double-click anywhere outside of the group.
+Um den **Gruppenbearbeitungsmodus zu beenden**, doppelklicken Sie auf eine beliebige Stelle außerhalb der Gruppe.
 
-You can **copy a group** to create a relationship between the original group and its copy: if you edit any copied groups, the same changes will affect all related groups.
+Sie können eine **Gruppe kopieren**, um eine Beziehung zwischen der ursprünglichen Gruppe und ihrer Kopie zu erstellen: Wenn Sie kopierte Gruppen bearbeiten, wirken sich diese Änderungen auf alle zugehörigen Gruppen aus.
 
-To **sever the relationship between copied groups**, select the group or groups you would like to make separate, right-click, and choose **Make Unique** from the context menu. You can also select Make Unique from the Groups toolbar.
+Um **die Beziehung zwischen kopierten Gruppen aufzuheben**, wählen Sie die Gruppe(n) aus, die Sie trennen möchten, klicken mit der rechten Maustaste und wählen **Als eindeutig definieren** aus dem Kontextmenü. Sie können auch im Werkzeugkasten Gruppen die Option Als eindeutig definieren auswählen.
 
-To **select all related groups**, hover over a group and press the Tab key. When all related groups become highlighted, click on the groups to select them. You can then perform an action on all groups at once.
+Um **alle zugehörigen Gruppen auszuwählen**, bewegen Sie den Mauszeiger über eine Gruppe und drücken die TABULATORTASTE. Wenn alle zugehörigen Gruppen markiert sind, klicken Sie auf die Gruppen, um sie auszuwählen. Sie können dann eine Aktion für alle Gruppen gleichzeitig durchführen.
 
-The [**Groups Tree**](groups-tree.md) provides a single place to view and manage all of the groups in a project.
+Die [**Gruppenstruktur**](groups-tree.md) bietet eine zentrale Stelle zum Anzeigen und Verwalten aller Gruppen in einem Projekt.
 
-## Groups Context menu and Toolbar access
+## Zugriff auf Kontextmenü und Werkzeugkasten für Gruppen
 
 ## ![](../.gitbook/assets/grouptoolbar.png)
 
-**Group Elements**
+**Gruppieren von Elementen**
 
-To create a group from the Groups toolbar item, select one or more elements, select the **Create Group** icon, and then select the **Finish** icon. Alternatively, you can select **Create Group** from the Groups tool bar item, then select elements you would like to group and select the **Finish** icon.
+Um eine Gruppe aus dem Werkzeugkastenelement Gruppen zu erstellen, wählen Sie eines oder mehrere Elemente aus, klicken auf das Symbol **Gruppe erstellen** und dann auf das Symbol **Fertig stellen**. Alternativ können Sie **Gruppe erstellen** aus dem Werkzeugkastenelement Gruppen auswählen, die Elemente auswählen, die Sie gruppieren möchten, und dann auf das Symbol **Fertig stellen** klicken.
 
-To **edit a group from the Groups toolbar item**, select the **Edit Group** icon and then click the group you want to edit. When you are done making edits, select the **Finish** icon. This tool allows you to choose the specific group you'd like to edit, even if it is deeply nested.
+Um **eine Gruppe über das Werkzeugkastenelement Gruppen zu bearbeiten**, wählen Sie das Symbol **Gruppe bearbeiten** aus und klicken dann auf die Gruppe, die Sie bearbeiten möchten. Wenn Sie alle Änderungen vorgenommen haben, klicken Sie auf das Symbol **Fertig stellen**. Mit diesem Werkzeug können Sie die spezifische Gruppe auswählen, die Sie bearbeiten möchten, auch wenn sie tief verschachtelt ist.
 
-**To make a group unique from the toolbar,** select the **Make Unique** icon in the Groups toolbar item. Additionally, you can select **Make Unique** from the Groups toolbar item and then select the group you would like to make unique and click the **Finish** icon.
+**Um eine Gruppe über den Werkzeugkasten eindeutig zu definieren**, wählen Sie das Symbol **Als eindeutig definieren** im Werkzeugkastenelement Gruppen aus. Darüber hinaus können Sie im Werkzeugkastenelement Gruppen die Option **Als eindeutig definieren** auswählen, dann die Gruppe auswählen, die Sie eindeutig definieren möchten, und auf das Symbol **Fertig stellen** klicken.
 
-**To ungroup a group from the Groups toolbar item,** select the group you want to change and choose the **Ungroup** icon from the Groups toolbar menu.This ungroups your current selection, but does not ungroup any nested groups. Alternatively, you can select **Ungroup** from the toolbar, select the group you want to change, and then select the **Finish** icon.
+**Um die Gruppierung einer Gruppe im Werkzeugkastenelement Gruppen aufzuheben**, wählen Sie die Gruppe aus, die Sie ändern möchten, und klicken Sie im Werkzeugkastenmenü Gruppen auf das Symbol **Gruppierung aufheben**. Dadurch wird die Gruppierung der aktuellen Auswahl aufgehoben, die Gruppierung verschachtelter Gruppen wird jedoch beibehalten. Alternativ können Sie **Gruppierung aufheben** aus dem Werkzeugkasten auswählen, die zu ändernde Gruppe auswählen und dann das Symbol **Fertig stellen** auswählen.
 
-**To ungroup all groups nested below your currently selected group,** select a group with nested groups and choose **Ungroup All Nested** from the Groups toolbar.
+**Um die Gruppierung aller Gruppen, die unterhalb der aktuell ausgewählten Gruppe verschachtelt sind, aufzuheben**, wählen Sie eine Gruppe mit verschachtelten Gruppen und dann **Gruppierung aller Verschachtelten aufheben** aus dem Werkzeugkasten Gruppen aus.
 
-**To ungroup all groups in your model,** select the **Ungroup All** tool from the Groups toolbar.
+**Um die Gruppierung aller Gruppen in Ihrem Modell aufzuheben**, wählen Sie das Werkzeug **Gruppierung für alle aufheben** im Werkzeugkasten Gruppen aus.
 
-## Groups and Revit
+## Gruppen und Revit
 
-If you're familiar with Revit **families**, then you are familiar with the concept of groups in FormIt. FormIt groups have features you can use to transfer them intelligently into Revit.
+Wenn Sie mit Revit-**Familien** vertraut sind, kennen Sie das Konzept von Gruppen in FormIt. FormIt-Gruppen verfügen über Funktionen, mit denen Sie sie intelligent in Revit übertragen können.
 
-**FormIt Group Categories**
+**FormIt-Gruppenkategorien**
 
-You can specify the **categories** for groups in FormIt so that your FormIt groups become families of the same categories when you import them into Revit. You can assign categories to your FormIt groups by selecting a group, entering **Group Edit** mode, and using the **Properties** panel to choose categories. You can also assign categories in the **Groups Tree** panel.
+Sie können die **Kategorien** für Gruppen in FormIt so festlegen, dass Ihre FormIt-Gruppen beim Importieren in Revit zu Familien derselben Kategorien werden. Sie können Ihren FormIt-Gruppen Kategorien zuweisen, indem Sie eine Gruppe auswählen, den **Gruppenbearbeitungsmodus** aufrufen und im Fenster **Eigenschaften** Kategorien auswählen. Sie können Kategorien auch in der Gruppe **Gruppenstruktur** zuweisen.
 
-**FormIt Group Names**
+**FormIt-Gruppennamen**
 
-You can also use the **Properties** panel to specify a name for your FormIt group. This can be helpful in navigating your own model, and when you import your model to Revit you can easily filter elementsusing the name of the group.
+Sie können auch die Gruppe **Eigenschaften** verwenden, um einen Namen für Ihre FormIt-Gruppe anzugeben. Dies kann beim Navigieren in Ihrem eigenen Modell hilfreich sein. Wenn Sie Ihr Modell in Revit importieren, können Sie Elemente mithilfe des Namens der Gruppe leicht filtern.
 
-Note that **nested groups in FormIt are not imported into Revit as nested groups**. This prevents deeply-nested Revit families.
+Beachten Sie, dass **verschachtelte Gruppen in FormIt nicht als verschachtelte Gruppen in Revit importiert werden**. Dadurch werden stark verschachtelte Revit-Familien verhindert.
+

@@ -1,14 +1,15 @@
-# Mirror
+# Spiegeln
 
-Use the Mirror tool to create a mirrored duplicate of an object.
+Mit dem Werkzeug Spiegeln können Sie ein gespiegeltes Duplikat eines Objekts erstellen.
 
-To mirror an object:
+So spiegeln Sie ein Objekt
 
-1. Double-click to select a single object, or single-click to select a group.&#x20;
-2. Right-click and choose the Mirror tool from the context menu, or type the keyboard shortcut, **MI**.&#x20;
-3. A plane displays and shows the axis the object will be mirrored on. The plane can be moved or rotated to customize the axis of the mirror.
-4. When you are done adjusting the plane of your mirrored object, click anywhere outside of the selection.
+1. Doppelklicken Sie, um ein einzelnes Objekt auszuwählen, oder klicken Sie einmal, um eine Gruppe auszuwählen.
+2. Klicken Sie mit der rechten Maustaste, und wählen Sie das Werkzeug Spiegeln aus dem Kontextmenü, oder geben Sie den Tastaturkurzbefehl **MI** ein.
+3. Die daraufhin eingeblendete Ebene zeigt die Achse, an der das Objekt gespiegelt wird. Die Ebene kann verschoben oder gedreht werden, um die Spiegelachse anzupassen.
+4. Wenn Sie die Ebene des gespiegelten Objekts angepasst haben, klicken Sie auf eine beliebige Stelle außerhalb der Auswahl.
 
 ![](../.gitbook/assets/mirror.png)
 
 ![](../.gitbook/assets/mirror2.png)
+

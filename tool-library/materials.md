@@ -1,157 +1,157 @@
-# Materials
+# Materialien
 
-Make your FormIt models pop with Materials that support reflection, gloss, and bump maps.
+Versehen Sie Ihre FormIt-Modelle mit Materialien, die Reflexions-, Glanz- und Relief-Maps unterstützen.
 
-## The Materials Panel
+## Gruppe Materialien
 
-![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
+![](<../.gitbook/assets/materials-sample-category (2).png>)
 
-In the materials panel, you can choose from a wide variety of Material Samples, navigate between linked Material libraries, and, as of FormIt 2021, access and use the Material contents of other FormIt (.AXM) files.
+In der Gruppe Materialien können Sie aus einer Vielzahl von Materialmustern wählen, zwischen verknüpften Materialbibliotheken navigieren und ab FormIt 2021 auf die Materialinhalte anderer FormIt-Dateien (.AXM) zugreifen und diese verwenden.
 
-### Material Library Sources
+### Materialbibliotheksquellen
 
-In FormIt 2021 and newer, the Materials panel has a drop-down interface to choose from available Material Library sources: In-Sketch, Material Samples, and [linked libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+In FormIt 2021 und höher verfügt die Gruppe Materialien über eine Dropdown-Benutzeroberfläche, in der Sie aus den verfügbaren Materialbibliotheksquellen wählen können: In Skizze, Materialmuster und [verknüpfte Bibliotheken](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
-#### In Sketch
+#### In Skizze
 
-Shows the Materials saved to the current FormIt sketch.
+Zeigt die Materialien an, die in der aktuellen FormIt-Skizze gespeichert sind.
 
-#### Material Samples
+#### Materialmuster
 
-Shows a list of available sample Materials. These offerings are stored on a cloud-based server, so please note:
+Zeigt eine Liste der verfügbaren Mustermaterialien an. Diese Angebote werden auf einem Cloud-basierten Server gespeichert. Beachten Sie daher Folgendes:
 
-* An internet connection is required when accessing Material Samples categories for the first time.
-* When accessing a category for the first time, it will be downloaded and then cached on your computer, so that future sessions won't require a download.&#x20;
-* The FormIt team may occasionally update the offerings in Material Samples. When that happens, FormIt will automatically delete and re-download the categories to get the latest.&#x20;
+* Eine Internetverbindung ist erforderlich, wenn Sie zum ersten Mal auf die Kategorien für Materialmuster zugreifen.
+* Wenn Sie eine Kategorie zum ersten Mal aufrufen, wird sie heruntergeladen und dann auf Ihrem Computer zwischengespeichert, sodass für zukünftige Sitzungen kein Herunterladen mehr erforderlich ist.
+* Das FormIt-Team kann gelegentlich die Angebote in den Materialmustern aktualisieren. In diesem Fall werden die Kategorien von FormIt automatisch gelöscht und erneut heruntergeladen, um die neueste Version zu erhalten.
 
 ![](../.gitbook/assets/materials-samples\_original.png)
 
-**Linked Libraries**
+**Verknüpfte Bibliotheken**
 
-Other directories and locations will appear after [linking Material libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+Nach dem [Verknüpfen von Materialbibliotheken](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) werden andere Verzeichnisse und Speicherorte angezeigt.
 
-### Create, Delete, and Eyedropper
+### Erstellen, Löschen und Pipette
 
-![](../.gitbook/assets/materials\_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss settings.
+![](../.gitbook/assets/materials\_add.PNG) **Erstellen Sie ein neues Material**, indem Sie die Einstellungen für Farbe, Textur, Relief-Map, Ausschnitt-Map, Transparenz und Reflexion/Glanz festlegen.
 
-![](<../.gitbook/assets/materials\_delete (1).PNG>) **Delete** selected Material(s).
+![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Löschen** Sie die ausgewählten Materialien.
 
-![](../.gitbook/assets/materials\_eyedropper.PNG) **Eyedropper** a Material painted in the scene, and immediately start painting with it.
+Verwenden Sie ![](../.gitbook/assets/materials\_eyedropper.PNG) **Pipette** für ein Material, das in der Szene vorhanden ist, und nutzen Sie es sofort zum Auftragen.
 
-* Click the Eyedropper tool, then click a face painted with a Material
-* The material that's found on the face will be highlighted in the panel, and the Paintbrush tool will become active with that Material loaded.
+* Klicken Sie auf das Werkzeug Pipette und dann auf eine mit einem Material versehene Fläche.
+* Das Material auf der Fläche wird in der Gruppe hervorgehoben, das Pinselwerkzeug wird aktiviert, und das Material wird geladen.
 
-### Refresh, Link Libraries, and Purge Unused
+### Aktualisieren, Bibliotheken verknüpfen und Nicht verwendete bereinigen
 
-![](../.gitbook/assets/materials-link.png) **Link Material libraries** from local directories. Directories containing JPG, PNG, or AXM (FormIt) files will display content. See [Linking Material Libraries](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) for more information.
+\*\*\*\*![](../.gitbook/assets/materials-link.png) **Verknüpfen Sie Materialbibliotheken** aus lokalen Verzeichnissen. In Verzeichnissen mit JPG-, PNG- oder AXM-Dateien (FormIt) werden Inhalte angezeigt. Weitere Informationen finden Sie unter [Verknüpfen von Materialbibliotheken](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
 
-![](../.gitbook/assets/materials-refresh.png)**Refresh** the current directory. Only enabled when viewing a locally-linked directory (not In Sketch or Material Samples).
+![](../.gitbook/assets/materials-refresh.png)**Aktualisieren** Sie das aktuelle Verzeichnis. Nur aktiviert, wenn ein lokal verknüpftes Verzeichnis angezeigt wird (nicht In Skizze oder Materialmuster).
 
-![](../.gitbook/assets/materials-purge.png) **Purged unused** Materials from the current FormIt sketch.
+![](../.gitbook/assets/materials-purge.png) **Bereinigen Sie nicht verwendete** Materialien aus der aktuellen FormIt-Skizze.
 
-Unused Materials can accumulate naturally through the process of iteration, but they can add significantly to the file size if they use high-quality textures.
+Nicht verwendete Materialien können sich naturgemäß aufgrund von Iterationen ansammeln. Durch sie wird allerdings unter Umständen die Dateigröße erheblich erhöht, wenn sie qualitativ hochwertige Texturen umfassen.
 
-Unused Materials appear with a grey-colored name in the In Sketch list.
+Nicht verwendete Materialien werden in der Liste In Skizze grau angezeigt.
 
-Click the Purge Unused tool to delete all unused Materials. You'll see a prompt first, so you can cancel if you have second thoughts. This button is only enabled in the In Sketch list.
+Klicken Sie auf das Werkzeug Nicht verwendete bereinigen, um alle nicht verwendeten Materialien zu löschen. Sie werden noch einmal zur Bestätigung aufgefordert. Wenn Sie sich umentschieden haben, können Sie den Vorgang also noch abbrechen. Diese Schaltfläche ist nur in der Liste In Skizze aktiviert.
 
-### Linking Material Libraries
+### Verknüpfen von Materialbibliotheken
 
-FormIt 2021 and newer offers the ability to link the Materials panel to local directories (libraries) containing Material content, including folders of JPGs, PNGs, and/or FormIt files:
+FormIt 2021 und höher bietet die Möglichkeit, die Gruppe Materialien mit lokalen Verzeichnissen (Bibliotheken) zu verknüpfen, in denen sich Materialinhalte befinden, einschließlich Ordnern mit JPG-, PNG- und/oder FormIt-Dateien:
 
 ![](../.gitbook/assets/materials-axms.png)
 
-![View individual Materials from a FormIt file, or JPG/PNG files in a directory. ](../.gitbook/assets/materials-axm-content.png)
+![Zeigen Sie einzelne Materialien aus einer FormIt-Datei oder JPG-/PNG-Dateien in einem Verzeichnis an.](../.gitbook/assets/materials-axm-content.png)
 
-* **JPG/PNG files** will display as Materials, which can be painted directly into the current FormIt sketch.
-  * Clicking on a thumbnail converts the image file to a FormIt Material on the fly, and copies it to the current sketch.&#x20;
-  * FormIt will return you to the "In Sketch" directory to see the Material you've just copied to the sketch.
-* **FormIt files (\*.axm)** will display as folders with a FormIt icon.&#x20;
-  * Clicking on the FormIt file folders will display all FormIt Materials saved to that file.
-  * Note that FormIt must load part of the file to get the Material contents, so larger files may take longer to display Materials in the panel.
+* **JPG-/PNG-Dateien** werden als Materialien angezeigt, die direkt in die aktuelle FormIt-Skizze integriert werden können.
+   * Wenn Sie auf eine Miniaturansicht klicken, wird die Bilddatei sofort in ein FormIt-Material konvertiert und in die aktuelle Skizze kopiert.
+   * FormIt wechselt zurück zum Verzeichnis In Skizze, in dem das Material angezeigt wird, das Sie gerade in die Skizze kopiert haben.
+* **FormIt-Dateien (\*.axm)** werden als Ordner mit einem FormIt-Symbol angezeigt.
+   * Wenn Sie auf die FormIt-Dateiordner klicken, werden alle in dieser Datei gespeicherten FormIt-Materialien angezeigt.
+   * Beachten Sie, dass FormIt einen Teil der Datei laden muss, um den Materialinhalt abzurufen. Bei größeren Dateien kann es daher länger dauern, Materialien in der Gruppe anzuzeigen.
 
-### Material Interactions
+### Materialinteraktionen
 
-**Paint a Material** by single-clicking clicking the thumbnail. You'll be placed into the Paintbrush tool, where you can now hover over geometry in the FormIt canvas and click faces or Groups to paint them.
+**Tragen Sie ein Material auf**, indem Sie auf die Miniaturansicht klicken. Das Pinselwerkzeug wird geöffnet, in dem Sie dann den Mauszeiger über die Geometrie im FormIt-Ansichtsbereich bewegen und auf Flächen oder Gruppen klicken können, um sie mit einem Material zu versehen.
 
-Once you're in the Paintbrush tool:
+Wenn Sie das Pinselwerkzeug aufgerufen haben:
 
-* Paint faces and Groups by single-clicking.
-  * When painting Groups, the Material will cascade into the nested geometry and will cover any surface or Group painted with the Default Material.
-* Paint entire solids by double-clicking a face to select everything attached.
+* Versehen Sie Flächen und Gruppen durch einfaches Klicken mit einem Material.
+   * Wenn Sie Gruppen mit einem Material versehen, wird das Material auf die verschachtelte Geometrie kaskadiert, und alle Flächen oder Gruppen, die mit dem Vorgabematerial versehen wurden, werden bedeckt.
+* Versehen Sie ganze Volumenkörper mit einem Material, indem Sie auf eine Fläche doppelklicken, um alle zugeordneten Objekte auszuwählen.
 
-You can also select faces and Groups first, then single-click a Material thumbnail to paint the selection with that Material.
+Sie können auch zuerst Flächen und Gruppen auswählen und dann auf die Miniaturansicht eines Materials klicken, um die Auswahl mit diesem Material zu versehen.
 
-**Edit a Material** by double-clicking on the thumbnail, which will bring up the Material Editor (see below).
+**Bearbeiten Sie ein Material**, indem Sie auf die Miniaturansicht doppelklicken. Dadurch wird der Material-Editor geöffnet (siehe unten).
 
-**Rename a Material** by double-clicking the name.
+**Benennen Sie ein Material um**, indem Sie darauf doppelklicken.
 
-**Identify a Material** painted on geometry by selecting it, and looking for the highlight and icon indicating what Material(s) are painted on the selected geometry.
+**Identifizieren Sie ein Material**, das auf Geometrie aufgetragen wurde, indem Sie es auswählen und nach der Hervorhebung und dem Symbol suchen, die angeben, welche Materialien auf die ausgewählte Geometrie aufgetragen wurden.
 
 ![](../.gitbook/assets/material\_selected.png)
 
-**The Default Material** can be used to effectively "clear" a face or a Group of any Materials. Any geometry not painted with a Material is implicitly painted with the Default Material.
+Das **Vorgabematerial** kann verwendet werden, um eine Fläche oder eine Gruppe mit beliebigen Materialien effektiv zu löschen. Geometrien, auf die kein Material aufgetragen wird, werden implizit mit dem Vorgabematerial versehen.
 
-### List Management
+### Listenverwaltung
 
-Adjust the size of the thumbnails by adjusting the width of the column (click and drag the vertical line to the right of "Material").
+Passen Sie die Größe der Miniaturansichten an, indem Sie die Breite der Spalte anpassen (klicken Sie auf die vertikale Linie, und ziehen Sie sie nach rechts neben Material).
 
-Filter for specific Materials by typing in the "Filter..." bar.
+Filtern Sie nach bestimmten Materialien, indem Sie in der Filterleiste einen Begriff eingeben.
 
-Materials with names that display in a grey font indicate that those Materials that are not used in the current sketch.
+Materialien mit Namen, die in grauer Schrift angezeigt werden, weisen auf Materialien hin, die nicht in der aktuellen Skizze verwendet werden.
 
-## Create and Edit Materials
+## Erstellen und Bearbeiten von Materialien
 
 ![](<../.gitbook/assets/materials-editor (1).png>)
 
-When you create or edit a Material, you'll see the Material Editor dialog, where you can customize:
+Wenn Sie ein Material erstellen oder bearbeiten, wird das Dialogfeld Material-Editor angezeigt, in dem Sie Folgendes anpassen können:
 
-* **Color**
-* **Image Maps**
-  * Click the thumbnail to choose a new map.
-  * Click the Save icon to save the map for editing in another application.
-  * Click the Delete icon to delete the map from this material.
-    * **Texture from an image file**
-      * JPG or PNG
-    * **Bump map from an image file**
-      * JPG recommended
-      * Great for adding depth effects to Materials.
-      * You can use freeware like ShaderMap to generate bump maps given a texture.
-    * **Cutout map from an image file**
-      * PNG
-      * Great for Materials that have selective transparency, like chain-link fences or perforated panels.
+* **Farbe**
+* **Bild-Maps**
+   * Klicken Sie auf die Miniaturansicht, um eine neue Map auszuwählen.
+   * Klicken Sie auf das Symbol Speichern, um die Map zur Bearbeitung in einer anderen Anwendung zu speichern.
+   * Klicken Sie auf das Symbol Löschen, um die Map aus diesem Material zu löschen.
+      * **Textur aus einer Bilddatei**
+         * JPG oder PNG
+      * **Relief-Map aus einer Bilddatei**
+         * JPG wird empfohlen
+         * Diese Option eignet sich hervorragend zum Hinzufügen von Tiefeneffekten zu Materialien.
+         * Sie können Freeware wie ShaderMap verwenden, um Relief-Maps für eine bestimmte Textur zu generieren.
+      * **Ausschnitt-Map aus einer Bilddatei**
+         * PNG
+         * Diese Option eignet sich hervorragend für Materialien mit selektiver Transparenz, wie Maschendrahtzäune oder perforierte Elemente.
 * **Name**
-* **Horizontal and Vertical Scale**
-  * When enabled, the Lock Aspect button will ensure the horizontal and vertical scale respect the texture's aspect ratio.&#x20;
-  * Stretch a Material by adjusting horizontal scale independently from vertical scale.
-  * You can override the horizontal and vertical scale per-face using the Adjust Material Placement tool (see below).
-* **Transparency**, **Reflection**, and **Gloss**
+* **Horizontaler und Vertikaler Maßstab**
+   * Wenn diese Option aktiviert ist, stellt die Schaltfläche Seitenverhältnis sperren sicher, dass der horizontale und vertikale Maßstab das Seitenverhältnis der Textur berücksichtigen.
+   * Strecken Sie ein Material, indem Sie den horizontalen Maßstab unabhängig vom vertikalen Maßstab anpassen.
+   * Sie können den horizontalen und vertikalen Maßstab pro Fläche mit dem Werkzeug Materialplatzierung anpassen überschreiben (siehe unten).
+* **Transparenz**, **Reflexion** und **Glanz**
 
-## Adjusting Material Placement
+## Anpassen der Materialplatzierung
 
-When painting a Material on a face, FormIt takes a best guess as to the best orientation:
+Beim Auftragen eines Materials auf eine Fläche wird in FormIt eine Einschätzung der optimalen Ausrichtung vorgenommen:
 
-* Vertical faces will orient with the texture's top oriented along the Z-axis.
-* Horizontal faces will orient the texture lengthwise along the longest side of the face.
+* Vertikale Flächen werden so ausgerichtet, dass die Oberseite der Textur entlang der Z-Achse ausgerichtet ist.
+* Bei horizontalen Flächen wird die Textur längs entlang der längsten Seite der Fläche ausgerichtet.
 
-Use the **Adjust Material Placement** tool to override the default Material placement, as well as the Material's scale on specific faces:
+Verwenden Sie das Werkzeug **Materialplatzierung anpassen**, um die vorgegebene Materialplatzierung sowie die Materialskalierung auf bestimmten Flächen zu überschreiben:
 
-* Select a face or faces painted with a Material
-  * If the face is inheriting its Material from its parent Group, you'll need to paint the face directly first.
-* Access the Adjust Material Placement tool through the shortcut MP or from the right-click context menu:
+* Wählen Sie eine oder mehrere Flächen aus, die mit einem Material versehen sind.
+   * Wenn die Fläche das Material aus der übergeordneten Gruppe übernimmt, müssen Sie die Fläche zuerst direkt mit dem Material versehen.
+* Sie können das Werkzeug Materialplatzierung anpassen über den Tastaturkurzbefehl MP oder über das Kontextmenü aufrufen:
 
-![](../.gitbook/assets/adjust-material-placement.png)
+![](../.gitbook/assets/adjust-material-placement.PNG)
 
-Use the on-screen controls to interactively move, rotate and scale the material textures directly on the face:
+Verwenden Sie die Steuerelemente auf dem Bildschirm, um die Materialtexturen direkt auf der Fläche interaktiv zu verschieben, zu drehen und zu skalieren:
 
 ![](../.gitbook/assets/materialplacement.gif)
 
 ![](../.gitbook/assets/adjust-material-placement.gif)
 
-To reset any of the changes to the material placement, simply paint the face again with the original material, from the Materials panel.
+Um Änderungen an der Materialplatzierung zurückzusetzen, tragen Sie in der Gruppe Materialien das ursprüngliche Material einfach erneut auf die Fläche auf.
 
-## Material Translation to Revit
+## Materialübertragung nach Revit
 
-Materials will transfer to Revit when using the [FormIt Add-In](https://formit.autodesk.com/page/formit-revit) for Revit 2018 or later.
+Materialien werden nach Revit übertragen, wenn Sie das [FormIt-Zusatzmodul](https://formit.autodesk.com/page/formit-revit) für Revit 2018 oder höher verwenden.

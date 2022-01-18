@@ -1,17 +1,18 @@
-# Undo Manager
+# Rückgängig-Manager
 
-FormIt features a unique Undo/Redo system, which can be used in two different ways to either undo per-Group, or chronologically and globally:
+FormIt bietet ein einzigartiges Rückgängig-/Wiederherstellen-System, das auf zwei verschiedene Arten verwendet werden kann, um Vorgänge entweder gruppenweise oder chronologisch und global rückgängig zu machen:
 
-* Undo/Redo while editing a nested Group will only affect the changes inside that Group
-  * This means you can make a change in this Group, then make many changes in other Groups, and return to the original Group and have the option to Undo the last change made in this Group without affecting changes made more recently, elsewhere
-*   Undo/Redo from the Main Sketch (not while editing a Group) acts like traditional Undo/Redo systems: the last change made in **any** Group will be undone, based on chronological order.
+* Die Optionen Rückgängig/Wiederherstellen beim Bearbeiten einer verschachtelten Gruppe wirken sich nur auf die Änderungen innerhalb dieser Gruppe aus.
+   * Das bedeutet, Sie können diese Gruppe ändern, dann zahlreiche Änderungen in anderen Gruppen vornehmen, zur ursprünglichen Gruppe zurückkehren und die letzte Änderung in dieser Gruppe rückgängig machen, ohne dass die zuletzt vorgenommenen Änderungen an anderer Stelle davon betroffen sind.
+* Die Optionen Rückgängig/Wiederherstellen in der Hauptskizze \(nicht während der Bearbeitung einer Gruppe\) verhalten sich wie herkömmliche Systeme zum Rückgängigmachen/Wiederherstellen: Die letzte Änderung in **jeder beliebigen** Gruppe wird in chronologischer Reihenfolge rückgängig gemacht.
 
-    The Undo Manager records every change inside every Group in your FormIt model, including changes made in the Main Sketch. This is useful for visually understanding which operations have been undone in any Group in the model.
+Der Rückgängig-Manager zeichnet alle Änderungen in jeder Gruppe Ihres FormIt-Modells auf, einschließlich der Änderungen in der Hauptskizze. Dies ist nützlich, um visuell darzustellen, welche Operationen in einer Gruppe im Modell rückgängig gemacht wurden.
 
-![](<../.gitbook/assets/undo-manager (1).png>)
+![](../.gitbook/assets/undo-manager.png)
 
-The Undo Manager will indicate in **bold** the current state, as well as any operations before this state, and any operations that once existed but have since been undone.
+Der Rückgängig-Manager zeigt den aktuellen Status in **Fettdruck** an, ebenso wie alle Operationen vor diesem Status und alle Operationen, die einmal vorhanden waren, jedoch rückgängig gemacht wurden.
 
-You can right-click a state and select "Roll To" to effectively Undo or Redo as necessary to return to that model state.
+Sie können mit der rechten Maustaste auf einen Status klicken und Drehung zu auswählen, um effektiv alle Operationen rückgängig zu machen oder wiederherzustellen, bis Sie zu diesem Modellstatus zurückgekehrt sind.
 
-Groups that have been explicitly deleted, or are no longer in existence due to an Undo or Redo, are shown as \*Inactive\*. These can be restored by Undoing or Redoing inside their parent Group until they come back into existence.
+Gruppen, die explizit gelöscht wurden oder aufgrund eines Rückgängig- oder Wiederherstellen-Vorgangs nicht mehr vorhanden sind, werden als \*Inaktiv\* angezeigt. Diese können durch Rückgängigmachen oder Wiederherstellen innerhalb der übergeordneten Gruppe wiederhergestellt werden, bis sie wieder existieren.
+

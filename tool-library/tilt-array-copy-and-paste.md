@@ -1,31 +1,34 @@
-# Faces: Tilt and Facet/Smooth
+# Flächen: Neigen und Facettieren/Glatt
 
-## Working with Faces: Tilt and Facet/Smooth
+## Arbeiten mit Flächen: Neigen und Facettieren/Glatt
 
-To create more complex designs after sketching a shape or placing a primitive, you can use several contextual tools to modify your geometry. These operations include Tilt, Array, and Copy and Paste.
+Um komplexere Entwürfe zu erstellen, nachdem Sie eine Form skizziert oder einen Grundkörper eingefügt haben, können Sie die Geometrie mithilfe einer Reihe kontextabhängiger Werkzeuge bearbeiten. Zu diesen Operationen zählen Neigen, Reihe sowie Kopieren und Einfügen
 
-### Tilt Face
+### Fläche neigen
 
-To **tilt a face:**
+So **neigen Sie eine Fläche**
 
-1. Select a face and right-click to see the context menu.&#x20;
-2. Choose the **Tilt** icon from the context menu.
-3. Define the tilt axis by drawing a line.&#x20;
-4. Click a third point to start the tilt operation.
+1. Wählen Sie eine Fläche aus, und klicken Sie mit der rechten Maustaste, um das Kontextmenü anzuzeigen.
+2. Wählen Sie dann das Symbol **Neigen** aus dem Kontextmenü.
+3. Definieren Sie die Neigungsachse, indem Sie eine Linie zeichnen.
+4. Klicken Sie auf einen dritten Punkt, um den Neigungsvorgang zu starten.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\
-![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt_face.png)  
+![](../.gitbook/assets/tilt2.png)  
 ![](../.gitbook/assets/tilt3.png)
 
-### Facet / Smooth Faces
+### Glatte Flächen facettieren
 
-If you hover over a face and notice dotted lines, this means the face is made up of smaller faces due to the face being warped. To **turn the dotted lines into model edges:**
+Wenn Sie den Cursor auf eine Fläche setzen und dabei gepunktete Linien angezeigt werden, bedeutet dies, dass die Fläche sich aus kleineren Flächen zusammensetzt, da sie gekrümmt ist. So **wandeln Sie die gepunkteten Linien in Modellkanten um**
 
-1. Select the face or object that you want to change and right-click to see the context menu.&#x20;
-2. From the context menu, choose the **Facet Smooth Faces** tool.&#x20;
-3. Edges are automatically added where the face was previously smooth.&#x20;
+1. Wählen Sie die Fläche oder das Objekt aus, die bzw. das Sie ändern möchten, und klicken Sie mit der rechten Maustaste, um das Kontextmenü anzuzeigen.
+2. Wählen Sie im Kontextmenü das Werkzeug **Glatte Flächen facettieren**.
+3. Kanten werden automatisch an der Stelle hinzugefügt, an der die Fläche zuvor glatt war.
 
-This command works in the opposite way, also: you can select faces that are faceted and select the **Facet Smooth Faces** tool from the context menu to hide the edges and make the faces appear smooth.
+Dieser Befehl funktioniert auch umgekehrt: Sie können facettierte Flächen auswählen und das Werkzeug **Glatte Flächen facettieren** aus dem Kontextmenü auswählen, um die Kanten auszublenden und die Flächen glatt erscheinen zu lassen.
 
-![](../.gitbook/assets/smooth\_face.png)\
-![](../.gitbook/assets/smoothed\_face.png)
+![](../.gitbook/assets/smooth_face.png)  
+![](../.gitbook/assets/smoothed_face.png)
+
+## 
+

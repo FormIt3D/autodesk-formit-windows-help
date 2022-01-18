@@ -1,29 +1,30 @@
-# World Axes
+# Weltachsen
 
-The default coordinate system and grid can be modified by changing the world axis.
+Das vorgegebene Koordinatensystem und sein Raster können durch Ändern der Weltachse bearbeitet werden.
 
-## Drawing and Modeling with Axes
+## Zeichnen und Modellieren mit Achsen
 
-When a blank sketch is opened in FormIt, the World Axes are displayed as three red, green and blue lines in the center of the screen. These three lines, define the three Cartesian directions that define the 3D world. The "X" direction is defined by the red line, the "Y" direction by the green line and the "Z" or "up" direction by the blue line.
+Beim Öffnen einer leeren Skizze in FormIt werden die Weltachsen in Form dreier Linien (rot, grün, blau) in der Mitte des Bildschirms angezeigt. Diese drei Linien markieren die drei kartesischen Richtungen, die die 3D-Welt definieren. Die X-Richtung wird durch die rote, die Y-Richtung durch die grüne und die Z-Richtung (nach oben) durch die blaue Linie definiert.
 
 ![](../.gitbook/assets/axis.png)
 
-To rotate the grid and redefine the origin point for the sketch, **right-click** on empty space in the scene and choose the **Set Axes (SZ)** icon from the context menu\
-![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
+Um das Raster zu drehen und den Ursprungspunkt für die Skizze neu zu definieren, **klicken Sie mit der rechten Maustaste** auf eine leere Stelle in der Szene und wählen das Symbol **Achsen festlegen \(SZ\)** aus dem Kontextmenü.  
+![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
 
-The Set Axes widget appears. Click on the large grip in the center to pick up the widget. Click again to set the origin point. Now click the dot on the red axis to rotate the grid, or click the dot on the blue axes to pivot the grid plane vertically. Click off into space to confirm the change\
-![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
+Das Widget Achsen festlegen wird angezeigt. Klicken Sie auf den großen Griff in der Mitte, um das Widget aufzurufen. Klicken Sie erneut, um den Ursprungspunkt festzulegen. Klicken Sie nun auf den Punkt auf der roten Achse, um das Raster zu drehen, oder klicken Sie auf den Punkt auf den blauen Achsen, um die Rasterebene vertikal zu schwenken. Klicken Sie in den Raum, um die Änderung zu bestätigen.  
+![](../.gitbook/assets/2021-01-14_12-30-10.gif)
 
-To **reset** the origin and grid back to the default setting, right-click on empty space in the scene and choose to **Reset Axes (RZ)**
+Um den Ursprung und das Raster auf die Vorgabeeinstellungen **zurückzusetzen**, klicken Sie mit der rechten Maustaste auf eine leere Stelle in der Szene und wählen **Achsen zurücksetzen \(RZ\)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
-## World Axes and Local Axes
+## Weltachsen und lokale Achsen
 
-The steps above explain how to control the **global coordinate system** of your sketch. When you start working with [**groups** ](groups.md)then you can control the **local coordinate system** of that group uniquely from the overall sketch. When you edit a group, you can edit the local coordinate system following the same steps as above - but these changes will only apply to the group
+Die oben beschriebenen Schritte erläutern, wie Sie das **globale Koordinatensystem** Ihrer Skizze steuern. Wenn Sie mit der Arbeit mit [**Gruppen** ](groups.md)beginnen, können Sie das **lokale Koordinatensystem** dieser Gruppe direkt über die Gesamtskizze steuern. Wenn Sie eine Gruppe bearbeiten, können Sie das lokale Koordinatensystem bearbeiten, indem Sie die gleichen Schritte wie oben ausführen. Diese Änderungen werden jedoch nur auf diese Gruppe angewendet.
 
-## Interactions with Axes
+## Interaktionen mit Achsen
 
-* The **red, green, and blue axes** display when you're in sketch tools to guide your 3D sketching
-* The **purple axis** displays a perpendicular and parallel axis relative to lines drawn at an angle
-* Hold down the **Shift key** while sketching or moving to **lock to the current axis**
+* Die **roten, grünen und blauen Achsen** werden als Orientierung für das 3D-Skizzieren angezeigt, wenn Sie sich in den Skizzierwerkzeugen befinden.
+* Die **violette Achse** zeigt eine lotrechte und parallele Achse relativ zu Linien an, die in einem Winkel gezeichnet wurden.
+* Halten Sie beim Skizzieren oder Verschieben die **UMSCHALTTASTE** gedrückt, um Operationen auf die **aktuelle Achse zu beschränken**.
+

@@ -1,51 +1,54 @@
-# AutoSave
+# Automatisch speichern
 
-Starting with v17.3, FormIt for Windows includes AutoSave, which makes a backup copy of your FormIt model while you work. This backup file can be used to recover data if FormIt closes with unsaved changes.
+Ab Version 17.3 umfasst FormIt for Windows die Funktion Automatisch speichern, wodurch eine Sicherungskopie des FormIt-Modells erstellt wird, während Sie arbeiten. Diese Sicherungsdatei kann verwendet werden, um Daten wiederherzustellen, wenn FormIt mit nicht gespeicherten Änderungen geschlossen wird.
 
-## Toggling AutoSave
+### Aktivieren und Deaktivieren von Automatisch speichern
 
-Find configuration options for AutoSave in Edit > Preferences > AutoSave.
+Suchen Sie die Konfigurationsoptionen für Automatisch speichern unter Bearbeiten &gt; Voreinstellungen &gt; Automatisch speichern.
 
-![](<../.gitbook/assets/20190613-autosave (1).png>)
+![](../.gitbook/assets/20190613-autosave.png)
 
-AutoSave is enabled by default, but can be disabled entirely by simply unchecking the box.
+Automatisch speichern ist vorgabemäßig aktiviert, kann jedoch durch Deaktivieren des Kontrollkästchens vollständig deaktiviert werden.
 
-Set the interval (in minutes) at which AutoSave will make a backup copy by entering a value in the "AutoSave interval" number box.
+Legen Sie das Intervall \(in Minuten\) fest, in dem mit Automatisch speichern eine Sicherungskopie erstellt wird, indem Sie einen Wert in das Zahlenfeld Intervall für automatisches Speichern (Minuten) eingeben.
 
-Note that these preferences are application-level, and will not change when opening different files.
+Beachten Sie, dass diese Voreinstellungen auf Anwendungsebene festgelegt sind und nicht geändert werden, wenn Sie verschiedene Dateien öffnen.
 
-## How AutoSave Works
+### Funktionsweise von Automatisch speichern
 
-When AutoSave is enabled, it determines whether the current FormIt file has unsaved changes. If there are unsaved changes, Autosave creates a backup copy of the file at the specified interval.
+Wenn die Option Automatisch speichern aktiviert ist, wird abgefragt, ob die aktuelle FormIt-Datei nicht gespeicherte Änderungen enthält. Wenn Änderungen noch nicht gespeichert wurden, wird mit Automatisch speichern im angegebenen Intervall eine Sicherungskopie der Datei erstellt.
 
-Backup files are stored next to the original file, and have an extension of `.axmb`.
+Sicherungsdateien werden neben der ursprünglichen Datei gespeichert und haben die Erweiterung `.axmb`.
 
-For example, if your original FormIt file is stored at `C:/Users/<user>/FormIt/MyProject.axm`, the backup file can be found at `C:/Users/<user>/FormIt/MyProject.axmb`.
+Wenn Ihre ursprüngliche FormIt-Datei beispielsweise unter `C:/Users/<user>/FormIt/MyProject.axm` gespeichert ist, befindet sich die Sicherungsdatei unter `C:/Users/<user>/FormIt/MyProject.axmb`.
 
-If you start a new FormIt session without opening an existing file, unsaved changes can be found at `C:/Users/<user>/Documents/Untitled.axmb`. Once you save the new model to a different location, the backup will start adding unsaved changes next to the new location, as noted above.
+Wenn Sie eine neue FormIt-Sitzung starten, ohne eine vorhandene Datei zu öffnen, können Sie nicht gespeicherte Änderungen unter `C:/Users/<user>/Documents/Untitled.axmb` finden. Wenn Sie das neue Modell an einem anderen Speicherort gespeichert haben, werden bei der Sicherung nicht gespeicherte Änderungen neben dem neuen Speicherort, wie oben beschrieben, hinzugefügt.
 
-When you save changes to the original file, AutoSave automatically deletes the backup file since the backup is now older than the original file. However, making subsequent changes to the saved file will prompt AutoSave to again start backing up at the specified interval.
+Wenn Sie Änderungen an der ursprünglichen Datei speichern, wird die Sicherungsdatei von der Funktion Automatisch speichern automatisch gelöscht, da die Sicherungsdatei nun älter als die ursprüngliche Datei ist. Wenn Sie anschließend Änderungen an der gespeicherten Datei vornehmen, wird Automatisch speichern jedoch erneut aktiviert, und es wird erneut eine Sicherung wird im angegebenen Intervall erstellt.
 
-If your working file has unsaved changes and you choose to close FormIt and discard the changes, the AutoSave backup will be deleted. However, if FormIt is forced to close — either through a computer shutdown or an application crash — the AutoSave backup file will remain, and can be used later to recover data.
+Wenn Ihre Arbeitsdatei nicht gespeicherte Änderungen enthält und Sie FormIt schließen und die Änderungen verwerfen, wird die automatische Sicherungskopie gelöscht. Wenn FormIt jedoch geschlossen werden muss – entweder durch das Herunterfahren des Computers oder einen Anwendungsabsturz – bleibt die automatische Sicherungskopie erhalten und kann später zur Wiederherstellung von Daten verwendet werden.
 
-## Working With AutoSave Enabled
+### Arbeiten mit aktivierter Funktion Automatisch speichern
 
-FormIt minimizes the potential performance impact of AutoSave by executing the backup in a separate process. With small- to medium-sized files, you shouldn't notice when AutoSave backs up. With very large files (\~400MB and above), you might notice just a momentary pause while FormIt copies the entire model and starts backing up in a separate process.
+FormIt minimiert die potenziellen Auswirkungen von Automatisch speichern auf die Leistung, indem die Sicherung in einem separaten Prozess ausgeführt wird. Bei kleinen bis mittelgroßen Dateien sollten Sie den Vorgang der automatischen Sicherung nicht bemerken. Bei sehr großen Dateien \(~400 MB und mehr\) bemerken Sie möglicherweise nur eine kurze Unterbrechung, während FormIt das gesamte Modell kopiert und in einem separaten Prozess mit der Sicherung beginnt.
 
-If you're wondering if AutoSave is currently backing up, you can watch the status bar the bottom left of the application for a brief "AutoSaving..." message:
+Wenn Sie sich fragen, ob die Funktion Automatisch speichern derzeit eine Sicherungskopie erstellt, können Sie in der Statusleiste unten links in der Anwendung nach einer kurzen Meldung zum automatischen Speichern suchen:
 
 ![](../.gitbook/assets/20190613-autosave-status-bar.png)
 
-If your status bar is disabled, you can enable it at Window > Status Bar or via the shortcut HS.
+Wenn die Statusleiste deaktiviert ist, können Sie sie unter Fenster &gt; Statusleiste oder über den Kurzbefehl HS aktivieren.
 
-## Recovering Data with AutoSave
+### Wiederherstellen von Daten mit Automatisch speichern
 
-When opening a FormIt file with a backup available, FormIt will alert you that the backup file exists. As mentioned above, this could be simply due to you closing FormIt without electing to save changes to this project last time it was edited, or due to FormIt unexpectedly closing.
+Wenn Sie eine FormIt-Datei mit einer verfügbaren Sicherungskopie öffnen, werden Sie von FormIt darauf hingewiesen, dass die Sicherungsdatei vorhanden ist. Wie bereits erwähnt, kann dies einfach daran liegen, dass Sie FormIt geschlossen haben, ohne die Änderungen an diesem Projekt nach der letzten Bearbeitung zu speichern, oder daran, dass FormIt unerwartet geschlossen wurde.
 
 ![](../.gitbook/assets/20190613-autosave-notification.png)
 
-Clicking the "Open it?" hyperlink will load the `.axmb` backup file.
+Wenn Sie auf den Hyperlink Öffnen? klicken, wird die `.axmb`-Sicherungsdatei geladen.
 
-Similarly, you can use File > Open, and manually select the `.axmb` file from the file explorer to open a backup.
+Auf ähnliche Weise können Sie auch Datei &gt; Öffnen verwenden und die `.axmb`-Datei manuell im Datei-Explorer auswählen, um eine Sicherungskopie zu öffnen.
 
-Once the backup file is open, the next time you save, FormIt will require you to pick a different FormIt file (`.axm`) to overwrite. You cannot overwrite FormIt backup files (`.axmb`).
+Wenn die Sicherungsdatei geöffnet ist, müssen Sie beim nächsten Speichern in FormIt eine andere FormIt-Datei \(`.axm`\) zum Überschreiben auswählen. Sie können keine FormIt-Sicherungsdateien \(`.axmb`\) überschreiben.
+
+
+

@@ -1,89 +1,90 @@
-# Meshes
+# Netze
 
-Starting in v17.0, FormIt offers a new type of geometry: Meshes.
+Ab Version 17.0 bietet FormIt einen neuen Geometrietyp: Netze.
 
-Meshes are lightweight representations of standard FormIt Objects, and are great for improving the performance of high-polygon geometry like furniture or 3D entourage like people, trees, cars, and signage. Meshes are also great for complex DWG geometry that might otherwise affect FormIt's performance.
+Netze sind vereinfachte Darstellungen von FormIt-Standardobjekten und eignen sich hervorragend zur Verbesserung der Leistung von Geometrie mit vielen Polygonen wie Möbeln oder 3D-Umgebungsobjekten wie Menschen, Bäumen, Autos und Beschilderung. Netze eignen sich auch hervorragend für komplexe DWG-Geometrie, die sich andernfalls auf die Leistung von FormIt auswirken könnte.
 
-Objects can be converted to Meshes, and Meshes can be converted back to Objects without losing any data. Some file types are automatically imported as Meshes, like OBJ, STL, and DWG. Learn more about converting between types, and other benefits and limitations of Meshes below.
+Objekte können in Netze konvertiert werden, und Netze können ohne Datenverlust in Objekte zurückkonvertiert werden. Einige Dateitypen werden automatisch als Netze importiert, z. B. OBJ, STL und DWG. Weitere Informationen zum Konvertieren von Typen und anderen Vorteilen und Einschränkungen von Netzen finden Sie weiter unten.
 
-## Converting Objects to Meshes
+### Konvertieren von Objekten in Netze
 
-Any combination of vertices, edges, faces, or solid bodies can be converted to Meshes.
+Jede Kombination von Scheitelpunkten, Kanten, Flächen oder Volumenkörpern kann in Netze konvertiert werden.
 
-Simply select Objects, and either use shortcut OM (Objects to Meshes) or right-click and select Objects to Meshes in the Context Menu:
+Wählen Sie einfach Objekte aus, und verwenden Sie entweder den Kurzbefehl OM \(Objekte in Netze\) (Objects to Meshes), oder klicken Sie mit der rechten Maustaste, und wählen Sie im Kontextmenü die Option Objects to Meshes (Objekte in Netze) aus:
 
-![](../.gitbook/assets/context-menu\_object-to-mesh.PNG)
+![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
 
-Once the Objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Nachdem die Objekte in Netze konvertiert wurden, wird oben im Bildschirm eine Bestätigungsmeldung angezeigt:
 
-![](../.gitbook/assets/success\_object-to-mesh.PNG)
+![](../.gitbook/assets/success_object-to-mesh.PNG)
 
-**When converting Objects to Meshes:**
+**Beim Konvertieren von Objekten in Netze geschieht Folgendes:**
 
-* Edges that were smoothed on the Objects will remain smoothed in the resulting Meshes.
-* Material orientations on the Objects will remain unchanged in the resulting Meshes.
-* A Mesh is created for every material applied. For example, if you convert a single cube painted 6 different colors, you'll get 6 different Meshes.
-  * Converting back to an Object will re-seal the individual meshes back into a solid body.
-* Selecting a solid body will convert and replace the entire body with a Mesh, but selecting individual edges or vertices owned by a solid will create a new Mesh on top of the existing geometry, without affecting the original body.
-* Converting a set of edges or vertices will create a single Linemesh (a mesh made of edges) or a single Pointmesh (a mesh made of points), which means you won't be able to select individual edges or vertices once they've been combined into a single Mesh. Convert them back to Objects if you want to adjust the position of a single element.
+* Kanten, die auf den Objekten geglättet wurden, bleiben in den resultierenden Netzen geglättet.
+* Die Materialausrichtungen auf den Objekten bleiben in den resultierenden Netzen unverändert.
+* Für jedes angewendete Material wird ein Netz erstellt. Wenn Sie beispielsweise einen einzelnen Würfel mit 6 verschiedenen Farben konvertieren, erhalten Sie 6 verschiedene Netze.
+   * Durch die Rückkonvertierung in ein Objekt werden die einzelnen Netze wieder zu einem Volumenkörper vereinigt.
+* Durch Auswahl eines Volumenkörpers wird der gesamte Körper konvertiert und durch ein Netz ersetzt. Durch Auswahl einzelner Kanten oder Scheitelpunkte, die zu einem Volumenkörper gehören, wird jedoch ein neues Netz über der vorhandenen Geometrie erstellt, ohne dass sich dies auf den ursprünglichen Körper auswirkt.
+* Durch die Konvertierung eines Kanten- oder Scheitelpunktsatzes wird ein einzelnes LineMesh \(ein Netz aus Kanten\) oder ein einzelnes Punktnetz \(ein Netz aus Punkten\) erstellt. Dies bedeutet, dass Sie einzelne Kanten oder Scheitelpunkte nicht auswählen können, sobald sie zu einem einzelnen Netz kombiniert wurden. Konvertieren Sie sie wieder in Objekte, wenn Sie die Position eines einzelnen Elements anpassen möchten.
 
-**Converting Grouped geometry to Meshes:**
+**Konvertieren von gruppierter Geometrie in Netze:**
 
-* Meshes become even more powerful when you can convert an entire Group and all of its nested Groups into Meshes.
-* Groups and their nested contents can be converted to Groups by using a plugin:
-  * Look for the Plugin Manager icon on the right side of the application:
-    * ![](../.gitbook/assets/plugin-manager\_icon.PNG)&#x20;
-  * Find the "Mesh + Unmesh All" plugin, and click the checkbox to install it:
-    * ![](../.gitbook/assets/plugin-manager\_mesh-unmesh-all.png)&#x20;
-  * The Mesh + Unmesh All plugin will load. Simply select a Group containing Objects you want to convert to Meshes, and click Mesh All.
-    * ![](../.gitbook/assets/mesh-unmesh-all-plugin.png)&#x20;
-  * When converting nested Objects or Meshes with this Plugin, you'll see an update message at the top of the screen telling you how many Groups and instances of Groups were affected by the operation:
+* Netze werden noch leistungsfähiger, wenn Sie eine komplette Gruppe und alle darin verschachtelten Gruppen in Netze konvertieren können.
+* Gruppen und deren verschachtelte Inhalte können mithilfe eines Plugins in Gruppen konvertiert werden:
+   * Suchen Sie nach dem Plugin Manager-Symbol auf der rechten Seite der Anwendung:
+      * ![](../.gitbook/assets/plugin-manager_icon.PNG)
+   * Suchen Sie das Plugin Mesh + Unmesh All, und klicken Sie auf das Kontrollkästchen, um es zu installieren:
+      * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
+   * Das Plugin Mesh + Unmesh All wird geladen. Wählen Sie einfach eine Gruppe mit Objekten aus, die Sie in Netze konvertieren möchten, und klicken Sie auf Mesh All (Alle vernetzen).
+      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
+   * Beim Konvertieren verschachtelter Objekte oder Netze mit diesem Plugin wird oben im Bildschirm eine Aktualisierungsmeldung angezeigt, die Ihnen mitteilt, wie viele Gruppen und Exemplare von Gruppen von dem Vorgang betroffen sind:
 
-![](../.gitbook/assets/success\_mesh-all.png)
+![](../.gitbook/assets/success_mesh-all.PNG)
 
-## Interacting With Meshes
+### Interaktion mit Netzen
 
-**Because of their lightweight nature, Meshes have certain limitations and behaviors:**
+**Aufgrund ihrer Einfachheit weisen Netze bestimmte Einschränkungen und Verhaltensweisen auf:**
 
-* You won't be able to edit the individual faces, edges, or vertices of a Mesh.
-  * However, you can repaint Meshes and move individual Meshes created as a result of different materials applied to faces (see above).
-* Snapping to Meshes is limited to the faces and vertices of Meshes. For performance, snapping and inferencing will not work with edges of Meshes.
-  * However, DWG files converted to Meshes (a different type of mesh known as a Linemesh) will retain the ability to snap to and inference to Mesh edges.
-* Meshes cannot have Levels applied to them.
-* Meshes will not report watertight or backface issues. Convert them back to Objects to see whether they are watertight or not.&#x20;
-  * Objects that were watertight before conversion to a Mesh will remain watertight when converted back to an Object.
-* Meshes cannot be used in advanced modeling operations, like Solid Join/Cut, 3D Shell, 3D Offset, Fillet, Loft, Sweep, or Cover.
+* Sie können die einzelnen Flächen, Kanten oder Scheitelpunkte eines Netzes nicht bearbeiten.
+   * Sie können jedoch Netze neu mit Material versehen und einzelne Netze verschieben, die als Ergebnis der Anwendung verschiedener Materialien auf Flächen erstellt wurden \(siehe oben\).
+* Der Objektfang an Netzen ist auf die Flächen und Scheitelpunkte von Netzen beschränkt. Um die Leistung zu verbessern, funktionieren Objektfang und Ableitung bei Kanten von Netzen nicht.
+   * Bei in Netze konvertierten DWG-Dateien \(ein anderer Netztyp, der als LineMesh bezeichnet wird\) können jedoch weiterhin Netzkanten gefangen und abgeleitet werden.
+* Auf Netze können keine Ebenen angewendet werden.
+* Bei Netzen werden keine Probleme mit der Dichtheit oder Rückseiten gemeldet. Konvertieren Sie sie wieder in Objekte, um zu sehen, ob sie wasserdicht sind oder nicht.
+   * Objekte, die vor der Konvertierung in ein Netz wasserdicht waren, bleiben bei der Rückkonvertierung in ein Objekt weiterhin wasserdicht.
+* Netze können nicht in erweiterten Modellierungsoperationen wie Volumenkörperverbindung/-schnitt, 3D-Hülle, 3D-Versatz, Abrundung, Erhebung, Sweep oder Abdeckung verwendet werden.
 
-Otherwise, Meshes will display and behave like any other FormIt Object: placed in Groups, assigned to Layers, visualized in Scenes, used for Analysis, etc.
+Andernfalls werden Netze angezeigt und verhalten sich wie alle anderen FormIt-Objekte: in Gruppen platziert, Layern zugewiesen, in Szenen visualisiert, für die Analyse verwendet usw.
 
-**You'll know you're interacting with a Mesh if the tooltip reports "On Mesh" or if the Properties Panel reports a Mesh:**
+**Dass Sie mit einem Netz interagieren, können Sie daran erkennen, dass in der QuickInfo On Mesh (Auf Netz angezeigt) oder in der Gruppe Properties (Eigenschaften) von Netzen gesprochen wird:**
 
-![](../.gitbook/assets/snap\_on-mesh.png)
+![](../.gitbook/assets/snap_on-mesh.PNG)
 
-![](../.gitbook/assets/properties-panel\_mesh.png)
+![](../.gitbook/assets/properties-panel_mesh.PNG)
 
-**Some file types are automatically imported as Meshes to improve performance:**
+**Einige Dateitypen werden zur Verbesserung der Leistung automatisch als Netze importiert:**
 
-* STL and OBJ files, which could contain dense geometry like pointclouds from other applications, are automatically imported as Meshes.
-* DWG files, which could contain millions of small edge segments on high-quality curves, are automatically imported as Meshes.
+* STL- und OBJ-Dateien, die dichte Geometrie wie Punktwolken aus anderen Anwendungen enthalten können, werden automatisch als Netze importiert.
+* DWG-Dateien, die Millionen von kleinen Kantensegmenten auf hochwertigen Kurven enthalten können, werden automatisch als Netze importiert.
 
-## Converting Meshes Back to Objects
+### Zurückkonvertieren von Netzen in Objekte
 
-Simply select Meshes, and either use shortcut MO (Meshes to Objects) or right-click and select Meshes to Objects in the Context Menu:
+Wählen Sie einfach Meshes (Netze) aus, und verwenden Sie entweder den Kurzbefehl MO \(Netze in Objekte\) )Meshes to Objects), oder klicken Sie mit der rechten Maustaste, und wählen Sie im Kontextmenü die Option Meshed to Objects (Netze in Objekte) aus:
 
-![](../.gitbook/assets/context-menu\_mesh-to-object.PNG)
+![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
 
-Once the objects have been converted to Meshes, you'll see a confirmation message at the top of the screen:
+Nachdem die Objekte in Netze konvertiert wurden, wird oben im Bildschirm eine Bestätigungsmeldung angezeigt:
 
-![](../.gitbook/assets/success\_mesh-to-object.PNG)
+![](../.gitbook/assets/success_mesh-to-object.PNG)
 
-**When converting Meshes back to Objects:**
+**Beim Zurückkonvertieren von Netzen in Objekte:**
 
-* Any Objects that were previously solid/watertight before converting to a Mesh will be rejoined into a watertight solid when converting back to an Object.
-* Converting a series of edges (for example from a DWG file) or a series of vertices (for example from a pointcloud) to a Mesh and back will automatically put the unmeshed Objects into a Group.
-  * This prevents the new edges or vertices from merging with other geometry which could have adverse effects and impact performance.
-  * Simply can Ungroup the resulting Group to release the edges and/or vertices.
+* Alle Objekte, die vor der Konvertierung in ein Netz ein wasserdichter Volumenkörper waren, werden beim Konvertieren in ein Objekt wieder zu einem wasserdichten Volumenkörper verbunden.
+* Beim Konvertieren einer Reihe von Kanten \(z. B. aus einer DWG-Datei\) oder einer Reihe von Scheitelpunkten \(z. B. aus einer Punktwolke\) in ein Netz und umgekehrt werden die nicht vernetzten Objekte automatisch in einer Gruppe platziert.
+   * Dadurch wird verhindert, dass die neuen Kanten oder Scheitelpunkte mit anderer Geometrie zusammengeführt werden, was sich nachteilig auf die Leistung auswirken könnte.
+   * Sie können die Gruppierung der resultierenden Gruppe einfach aufheben, um die Kanten und/oder Scheitelpunkte freizugeben.
 
-**Converting Grouped Meshes back to Objects:**
+**Zurückkonvertieren von gruppierten Netzen in Objekte:**
 
-* See the instructions above to use the Mesh + Unmesh All plugin to convert Groups and their nested Meshes back into Objects.
+* Befolgen Sie die oben stehenden Anweisungen, um das Plugin Mesh + Unmesh All zu verwenden und so Gruppen und deren verschachtelte Netze wieder in Objekte zu konvertieren.
+

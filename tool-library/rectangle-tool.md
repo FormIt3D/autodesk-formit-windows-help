@@ -1,23 +1,24 @@
-# Rectangle
+# Rechteck
 
-You can use the **Rectangle** tool in the **Create Sketch** toolbar menu to quickly draw a rectangular face. Extrude the face to create a rectangular volume.
+Sie können das Werkzeug **Rechteck** im Werkzeugkastenmenü **Skizze erstellen** verwenden, um schnell eine rechteckige Fläche zu zeichnen. Extrudieren Sie die Fläche, um ein rechteckiges Volumen zu erstellen.
 
-Keyboard shortcut: R
+Tastaturkurzbefehl: R
 
-Use the axes to ensure you're drawing in the correct direction:
+Verwenden Sie die Achsen, um sicherzustellen, dass Sie in die richtige Richtung zeichnen:
 
-You can draw rectangles on the X, Y, or Z-axis. As you draw, you can specify a dimension by simply typing in a value, which will bring up the Edit Dimension dialog. Hit Enter or press OK to accept the dimension.
+Sie können Rechtecke auf der X-, Y- oder Z-Achse zeichnen. Beim Zeichnen können Sie eine Bemaßung angeben, indem Sie einfach einen Wert eingeben. Daraufhin wird das Dialogfeld Bemaßung bearbeiten geöffnet. Drücken Sie die EINGABETASTE, oder klicken Sie auf OK, um die Bemaßung zu übernehmen.
 
-To draw a rectangle, click to set the first point in your sketch.
+Zum Zeichnen eines Rechtecks klicken Sie, um den ersten Punkt in der Skizze festzulegen.
 
-Line colors by axis:
+Linienfarben nach Achse:
 
-* X = Red
-* Y = Green
-* Z = Blue
+* X = Rot
+* Y = Grün
+* Z = Blau
 
 ![](../.gitbook/assets/rectangle1.png)
 
 ![](../.gitbook/assets/rectangle2.png)
 
-When you finish drawing the rectangle, it becomes a face that can be extruded to create a volume.
+Wenn Sie das Rechteck fertig gezeichnet haben, wird es zu einer Fläche, die extrudiert werden kann, um ein Volumen zu erstellen.
+
