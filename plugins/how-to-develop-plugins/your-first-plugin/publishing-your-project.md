@@ -4,7 +4,7 @@
 
 When you’re ready to share your plugin with others, use the Publish![](<../../../.gitbook/assets/image (66).png>)button to publish your project.
 
-![](https://formit3d.github.io/PluginPlayground/images/save4.png)
+![](<../../../.gitbook/assets/publish a plugin.png>)
 
 ###
 
@@ -18,7 +18,7 @@ In the top menu, click Settings > Pages. Under Source, click the None button and
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
-### Deploying Your Plugin in FormIt&#x20;
+### Deploying Your Plugin in FormIt
 
 To use a plugin hosted on GitHub, copy the plugin page link, go to the Plugin Manager and scroll to the bottom, and paste the link in the field under Add Your Private or Local Plugin. Then click the Add ![](<../../../.gitbook/assets/image (58).png>) button.
 
