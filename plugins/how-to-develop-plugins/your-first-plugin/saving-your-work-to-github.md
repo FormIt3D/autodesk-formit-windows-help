@@ -20,12 +20,12 @@ In a few moments, the newly created project will appear in your projects list. S
 
 When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
 
-
+![](<../../../.gitbook/assets/save a plugin.png>)
 
 ### View Your Project in GitHub
 
 You can also find and edit your files directly in GitHub by using the GitHub button.
 
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###
