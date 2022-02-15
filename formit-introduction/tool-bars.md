@@ -16,8 +16,8 @@
 
 ![](../.gitbook/assets/geometry_icons%20%281%29.png)
 
-1. \*\*\*\*[**选择**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object)****和区域选择过滤器
-2. [**测量**](../tool-library/measure-tool.md)距离和[**测量角度**](../tool-library/measure-angle-tool.md)****工具
+1. \*\*\*\*[**选择**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object)和区域选择过滤器
+2. [**测量**](../tool-library/measure-tool.md)距离和[**测量角度**](../tool-library/measure-angle-tool.md)工具
 3. [**剖切平面**](../tool-library/section-planes.md)
 4. [**三维草图绘制工具**](../formit-primer/part-i/3d-sketching.md)
 5. [**基本体**](../tool-library/place-primitive-object.md)工具栏
@@ -28,11 +28,11 @@
 
 ![](../.gitbook/assets/settings_icons.png)
 
-1. **“设置”**菜单，用于 UI 和应用程序设置。
+1. **“设置”** 菜单，用于 UI 和应用程序设置。
 2. **触摸模式**，用于在触摸屏设备上启用交互。
 3. [**协作**](../tool-library/collaboration.md)，用于管理与多个用户的协作任务。
 4. **Autodesk Account 登录。**
-5. **“信息”**菜单，用于显示帮助和链接。
+5. **“信息”** 菜单，用于显示帮助和链接。
 
 ### 设计
 
@@ -44,7 +44,7 @@
 
 ## 工具箱
 
-![](../.gitbook/assets/properties%20%281%29.png) [**特性**](https://windows.help.formit.autodesk.com/tool-library/properties)\*\*\*\*
+![](../.gitbook/assets/properties%20%281%29.png) [**特性**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png)[ 图层****](../tool-library/layers.md)
 
@@ -62,7 +62,7 @@
 
 ![](../.gitbook/assets/undo.png) [**撤消管理器**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin_img.png) [**插件**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)\*\*\*\*
+![](../.gitbook/assets/plugin_img.png) [**插件**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
 
 ## 上下文菜单
 
