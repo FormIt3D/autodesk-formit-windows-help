@@ -4,7 +4,7 @@ In order to test and build plugins in the FormIt desktop app, you'll need FormIt
 
 ### **Display Script Editor and Script Output**
 
-In the top menu of FormIt, go to **Window** in the top menu and check the **Script Editor** and **Script Output** boxes.
+In the top menu of FormIt, go to **Window** in the top **** menu and check the **Script Editor** and **Script Output** boxes.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
@@ -26,9 +26,9 @@ The Script Editor stores written code inside a scratch.js file in the directory 
 
 At the top are two buttons:
 
-**Run** ![](<../../../.gitbook/assets/image (8).png>): Executes all code written in the window.
+**Run** ![](<../../../.gitbook/assets/image (8).png>): **** Executes all code written in the window.
 
-**Run Selection** ![](<../../../.gitbook/assets/image (52).png>): Executes only the selected/highlighted lines of code.
+**Run Selection** ![](<../../../.gitbook/assets/image (52).png>):  ****  Executes only the selected/highlighted lines of code.
 
 ### **Script Output**
 

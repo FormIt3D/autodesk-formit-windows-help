@@ -4,13 +4,12 @@ While developing a plugin you may need to quickly reload your latest code update
 
 ## Web Reloading
 
-💡 **** To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`&#x20;
+💡 To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
 ## Windows Reloading
 
-💡 **** To reload your plugin in FormIt windows right-click on the plugin's HTML and click on `Hard Reload` &#x20;
+💡 To reload your plugin in FormIt windows right-click on the plugin's HTML and click on `Hard Reload`
 
 ![](../../../.gitbook/assets/d18.png)
-
