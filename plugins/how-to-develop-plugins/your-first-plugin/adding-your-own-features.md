@@ -73,4 +73,4 @@ When you’re ready to see the results, click the Play button ![](<../../../.git
 
 ### FormIt plugins API
 
-For complete documentation on the FormIt plugins API, see the [useful links](../../useful-links.md) section.
+For complete documentation on the FormIt plugins API, see the [useful links](../useful-links.md) section.
