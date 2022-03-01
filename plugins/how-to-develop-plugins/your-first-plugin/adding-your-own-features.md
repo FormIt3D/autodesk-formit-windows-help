@@ -6,7 +6,7 @@ When you click Edit in the Plugin Playground sample plugin, you will see the HTM
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-### Adding a Function to Create a Cylinder&#x20;
+### Adding a Function to Create a Cylinder
 
 Let's add a feature to this plugin to create a cylinder.
 
@@ -73,4 +73,4 @@ When you’re ready to see the results, click the Play button ![](<../../../.git
 
 ### FormIt plugins API
 
-For complete documentation on the FormIt plugins API, see the [useful links](../useful-links.md) section.
+For complete documentation on the FormIt plugins API, see the [useful links](../../useful-links.md) section.

@@ -138,7 +138,7 @@
       * [Testing a Combined HTML Panel and Toolbar Plugin](plugins/how-to-develop-plugins/additional-development-options/testing-a-combined-html-panel-and-toolbar-plugin.md)
       * [Creating an Add-In](plugins/how-to-develop-plugins/additional-development-options/creating-an-add-in.md)
       * [Invoking Plugins and API from Dynamo](plugins/how-to-develop-plugins/additional-development-options/invoking-plugins-and-api-from-dynamo.md)
-    * [FormIt APIs](plugins/how-to-develop-plugins/useful-links.md)
+  * [FormIt APIs](plugins/useful-links.md)
   * [Examples](plugins/example-1/README.md)
     * [Generate String Lights](plugins/example-1/generate-string-lights.md)
     * [Manage Cameras Plugin](plugins/example-1/manage-cameras-plugin.md)
