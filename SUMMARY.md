@@ -5,7 +5,6 @@
 * [FormIt Capabilities](formit-capabilities/README.md)
   * [Multiple Clients](formit-capabilities/multiple-clients.md)
   * [Conceptual Solid Modeling](formit-capabilities/conceptual-modeling.md)
-  * [FormIt + Dynamo for Computational Design](https://formit.autodesk.com/page/formit-dynamo)
   * [FormIt + Dynamo](formit-capabilities/formit-+-dynamo.md)
   * [FormIt + Revit for Documentation](https://formit.autodesk.com/page/formit-revit)
   * [Solar + Energy Analysis](formit-capabilities/analysis.md)
