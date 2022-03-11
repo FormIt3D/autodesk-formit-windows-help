@@ -13,6 +13,7 @@
   * [Collaboration](formit-capabilities/collaboration.md)
   * [Presentation Graphics](formit-capabilities/presentation-graphics.md)
   * [FormIt + JavaScript for Plugins](https://windows.help.formit.autodesk.com/plugins)
+  * [FormIt + Autodesk Docs](formit-capabilities/formit-+-autodesk-docs.md)
   * [FormIt + Autodesk Docs for Cloud Storage](https://formit.autodesk.com/page/formit-autodesk-docs)
 * [FormIt Introduction](formit-introduction/README.md)
   * [Frequently Asked Questions](formit-introduction/faq.md)
