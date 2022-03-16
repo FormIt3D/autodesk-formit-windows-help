@@ -47,7 +47,7 @@ Once you select glass and run the script, you'll get a result in the FormIt canv
 * **Edit Embedded Graph**: Edit the Dynamo script that's generating the geometry. This script is embedded in the FormIt file and is specific to this Group.
 * **Select Glass (Surface or Solid)**: Click this to update the selection to a different piece of glass around which to generate mullions.
 
-The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the units set by the FormItLengthString node.
+The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the units set by the [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)node.
 
 * **Mullion Width + Depth**: The width and depth of all mullion elements.
 * **Vertical Mullion Spacing**: The distance, on center, between each vertical mullion.
