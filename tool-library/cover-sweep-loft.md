@@ -11,7 +11,7 @@ Enclose open edges, make geometry changes along a path of edges, and connect mul
 
     1.  Click **Finish**
 
-        ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1).png>)![](../.gitbook/assets/cover-finish.PNG)
+        ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2).png>)![](../.gitbook/assets/cover-finish.PNG)
 
 ## To sweep geometry along a path
 
@@ -37,6 +37,6 @@ Enclose open edges, make geometry changes along a path of edges, and connect mul
 3.  Select the face or edges you want to loft on the second object. Repeat this step for additional objects.
 
     ![](../.gitbook/assets/loft2.png)
-4.  Click the **Finish** icon. ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2).png>)
+4.  Click the **Finish** icon. ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2) (1).png>)
 
     ![](../.gitbook/assets/loft3.png)

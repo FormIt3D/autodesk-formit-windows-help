@@ -51,23 +51,23 @@ This will move the text to align relative to the Group's Local Coordinate System
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-The height of the text. The unit is based on the FormItLengthString node, and any unit can be used.
+The height of the text. The unit is based on the [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)node, and any unit can be used.
 
 ### Extrusion Depth
 
-The amount of 3D extrusion of the text, in the unit set by the FormItLengthString node. 3D Text is designed to be solid, so this value can't be zero, but you can get it very close to 0 so it's less obvious that it's extruded.
+The amount of 3D extrusion of the text, in the unit set by the [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)node. 3D Text is designed to be solid, so this value can't be zero, but you can get it very close to 0 so it's less obvious that it's extruded.
 
 ### Tracking
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-Tracking is useful to adjust the default spacing between letters from a particular font. It uses the unit set by the FormItLengthString node, and can be positive or negative. For example, in Feet, 0.25 will add 3" of spacing between each letter. Conversely, -0.25 will make all the letters 3" closer.
+Tracking is useful to adjust the default spacing between letters from a particular font. It uses the unit set by the [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)node, and can be positive or negative. For example, in Feet, 0.25 will add 3" of spacing between each letter. Conversely, -0.25 will make all the letters 3" closer.
 
 ### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-If you have multiple lines in the Text field, this value controls how much space is between each line of text. It uses the unit set by the FormItLengthString node.
+If you have multiple lines in the Text field, this value controls how much space is between each line of text. It uses the unit set by the [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)node.
 
 ### Invert Text
 
@@ -79,7 +79,7 @@ When True, this option will create a solid around the text, and will remove the 
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Only applies when Invert Text is true. Specifies the amount of border around the text to use for the solid from which the text is removed. It uses the unit set by the FormItLengthString node.
+Only applies when Invert Text is true. Specifies the amount of border around the text to use for the solid from which the text is removed. It uses the unit set by the [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)node.
 
 ### Curve Faceting Quality
 
