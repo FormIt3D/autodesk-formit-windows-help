@@ -26,7 +26,7 @@ When Array Along Path runs, it creates a new Group containing the results, and F
 
 You can always return to the Array Along Path properties by selecting the Group and switching to the Properties panel, or by editing the Group which will automatically show Properties.
 
-![](<../.gitbook/assets/array along path.png>)
+![](<../.gitbook/assets/array along path (2).png>)
 
 ### Select Object(s) to Array <a href="#run" id="run"></a>
 

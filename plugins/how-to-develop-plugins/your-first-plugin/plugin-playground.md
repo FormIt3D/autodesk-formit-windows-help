@@ -22,4 +22,4 @@ You can think of the Plugin Playground as a plugin that makes plugins. This is b
 
 Once it's installed, you can access the Plugin Playground through the ![](<../../../.gitbook/assets/image (25).png>) icon in the right menu.
 
-![](<../../../.gitbook/assets/image (53).png>)
+![](<../../../.gitbook/assets/image (53) (1).png>)
