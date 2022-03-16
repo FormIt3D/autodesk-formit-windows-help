@@ -7,4 +7,4 @@ For the tinkerers and developers out there, FormIt is a great tool for developin
 * For information on developing other types of plugins, check out the [Additional Development Options](additional-development-options/) section.
 * Refer to the [FormIt APIs](useful-links.md) page for documentation links.
 
-![](../../.gitbook/assets/g5.gif)
+![](<../../.gitbook/assets/gif formit 1200 x 800.gif>)

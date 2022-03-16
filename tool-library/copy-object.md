@@ -16,7 +16,7 @@ Note: This also works with **CTRL + C** or **V**. Use Paste In Place (**CTRL+Shi
 1. Select the object by clicking it (double-click to select a whole body or everything attached).
 2. Press and hold the **CTRL key** and start dragging the object, or start moving the object and then tap **CTRL**
 3. Instead of moving the object, you'll now be moving a copy of it.
-4. Note that Ctrl-copy does not currently work when Touch Mode is enabled.&#x20;
+4. Note that Ctrl-copy does not currently work when Touch Mode is enabled.
    1. In Touch Mode, you'll need to use the copy/paste tools in the Context Menu (press and hold) or use Ctrl+C and Ctrl+V, then place the object down, and reposition it as needed.
 
 **Copy Using the Array Tool**
@@ -25,4 +25,4 @@ Note: This also works with **CTRL + C** or **V**. Use Paste In Place (**CTRL+Shi
 2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
 3. Select the number of copies you want to make
 4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .**  ![](<../.gitbook/assets/array\_properties (2).png>)
+5. Click **OK .** ![](<../.gitbook/assets/array\_properties (1).png>)

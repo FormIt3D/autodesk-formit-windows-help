@@ -16,6 +16,6 @@ You can choose to include or exclude objects to send to Revit in the Layers pale
 
 The first time you do this, you’ll be prompted to save the sketch. This creates a link between FormIt and Revit, and you’ll be able to send subsequent edits to Revit by either resaving the file or using the Send to Revit button.
 
-![](<../.gitbook/assets/formit revit.jpg>)
+![](../.gitbook/assets/revit-formit.jpg)
 
 Here is a [video demonstration](https://youtu.be/yFTMI3V-v1Y).

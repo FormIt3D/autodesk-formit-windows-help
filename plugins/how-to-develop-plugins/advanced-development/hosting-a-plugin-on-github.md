@@ -4,13 +4,13 @@ Have you built a useful plugin that you want to share? Host your repository on G
 
 ### Host Your Plugin Project
 
-This process is similar to an earlier chapter where we discuss how to [publish your plugin](../your-first-plugin/publishing-your-project.md) created in the Plugin Playground. &#x20;
+This process is similar to an earlier chapter where we discuss how to [publish your plugin](../your-first-plugin/publishing-your-project.md) created in the Plugin Playground.
 
 Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlugins
 
 In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
 
-![](<../../../.gitbook/assets/image (74).png>)
+![](<../../../.gitbook/assets/image (30).png>)
 
 ### Continue to Update Your Plugin Project Locally
 
@@ -33,9 +33,5 @@ Add a plugin description, add formit-plugin to the Topics field, and save change
 ![](<../../../.gitbook/assets/image (54).png>)
 
 Once saved, your plugin project will be added to the [community plugins](https://github.com/topics/formit-plugin) list.
-
-
-
-
 
 ###

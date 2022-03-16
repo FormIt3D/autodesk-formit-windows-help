@@ -54,7 +54,7 @@ Manage the display style of all edges in the model.
 
 Toggle display of environmental effects and helper objects.
 
-![](../.gitbook/assets/visual-styles1.PNG)
+![](../.gitbook/assets/environment.PNG)
 
 **Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
 
@@ -74,9 +74,9 @@ If the **Sky** option is unchecked, only the **Lower / Background** color will b
 
 Control **ground plane** transparency by using the slider.
 
-When the ground plane is toggled off in Group Edit Mode, the blue work plane grid is now toggled off, also.&#x20;
+When the ground plane is toggled off in Group Edit Mode, the blue work plane grid is now toggled off, also.
 
-The color of the **work plane** can also be customized from the Visual Styles panel.&#x20;
+The color of the **work plane** can also be customized from the Visual Styles panel.
 
 ![](<../.gitbook/assets/Visual styles - ground plane transparency.png>)
 
