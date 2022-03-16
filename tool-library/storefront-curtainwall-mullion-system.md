@@ -16,7 +16,7 @@ Starting in FormIt 2021.2, the Storefront Curtainwall system uses the new [Selec
 
 When you click the Storefront Curtainwall thumbnail (notice the icon indicating that a selection is required), FormIt will prompt you to select the glass geometry to continue:
 
-![](<../.gitbook/assets/storefront-curtainwall-prompt (1).png>)
+![](<../.gitbook/assets/storefront-curtainwall-prompt (2).png>)
 
 A few notes and caveats about how selecting glass works:
 
