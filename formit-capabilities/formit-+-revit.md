@@ -37,7 +37,7 @@ If you're working in both early stage and detailed design, you can quickly itera
 * Design and model in FormIt and send your design back to the same Revit project while in the same session.
 * Reference a FormIt model in Revit using the _Import CAD_ tool and continue with visualization and detailing in Revit.
 
-![](<../.gitbook/assets/formit revit.jpg>)
+![](../.gitbook/assets/revit-formit.jpg)
 
 ### **3D Sketch and Send to Revit for Design Iteration** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 

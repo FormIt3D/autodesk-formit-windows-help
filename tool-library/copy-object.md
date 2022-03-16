@@ -25,4 +25,4 @@ Note: This also works with **CTRL + C** or **V**. Use Paste In Place (**CTRL+Shi
 2. **Right-click** the object and select the [**Array tool**](tilt-array-copy-and-paste.md)
 3. Select the number of copies you want to make
 4. Choose whether the next drag will define the distance between two objects or the total length of the array.
-5. Click **OK .** ![](<../.gitbook/assets/array\_properties (1).png>)
+5. Click **OK .** ![](<../.gitbook/assets/array\_properties (2).png>)

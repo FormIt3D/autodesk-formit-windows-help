@@ -26,4 +26,4 @@ Click the checkmark to finish the command.
 2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.
 3. Right click on any of the objects and choose the Join Tool in the Context Menu.
 
-![](<../.gitbook/assets/join-tool (1).png>)
+![](<../.gitbook/assets/join tool.png>)

@@ -8,7 +8,7 @@ _If you did not complete the last section, download and open the_ _**1.2 - Proje
 
 The provided **plan.png** is an image of a plan printed on a 24” x 26” Sheet (ARCH D) which is 3600 pixels wide by 2400 pixels high. By knowing the drawing scale (¼"=1'-0") and the image dimensions you can calculate that 1’ = 25 pixels, which means that the image should be 144'x96' when imported into FormIt at full scale.
 
-![](<../../.gitbook/assets/0 (1) (1).png>)
+![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **Import an Image to scale**
 

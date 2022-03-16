@@ -13,7 +13,7 @@ _If you did not complete the last section, download and open the **1.4 - Add Flo
 3. Double-click each level’s current elevation to modify them to: **0’-0", 2'-2", 4’-6"** and **17’-8"**.
 4. Double-click each level’s current name and rename them: **Ground, Terrace, Main Building,** and **Top of Roof.**
 
-![](<../../.gitbook/assets/0 (16).png>)
+![](<../../.gitbook/assets/0 (16) (1).png>)
 
 _**Note**: You can click the_ _**++**_ _icon to create multiple levels, with a specified and uniform distance apart. This is handy for multi-story buildings_.
 
@@ -28,8 +28,8 @@ _In the previous steps, we only created levels. Now we are ready to apply those 
 3. Now the currently selected geometry has three levels applied to it (**Main Building, Terrace,** and **Ground**), but for this exercise, we only want to apply **Ground**. Uncheck **Main Building** and **Terrace**.
 4. This process ensures that only the area intersected by **Ground** is considered for the gross area calculation, which can be seen in the **Area by Level** field.
 
-![](<../../.gitbook/assets/1 (4).png>)
+![](<../../.gitbook/assets/1 (4) (1).png>)
 
 _**Note**: If you do not see blue level lines on your mass, type_ _**DL**_ _to_ _**Display Levels**._
 
-![](<../../.gitbook/assets/2 (3).png>)
+![](<../../.gitbook/assets/2 (3) (1).png>)

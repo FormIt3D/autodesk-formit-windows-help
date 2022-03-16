@@ -54,7 +54,7 @@ Manage the display style of all edges in the model.
 
 Toggle display of environmental effects and helper objects.
 
-![](../.gitbook/assets/environment.PNG)
+![](../.gitbook/assets/visual-styles1.PNG)
 
 **Grid** controls the display of the grid on the ground plane, as well as the grid shown when editing a Group. The "Snap to Grid" option will be disabled when the Grid is disabled.
 

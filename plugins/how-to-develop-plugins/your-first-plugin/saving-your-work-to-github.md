@@ -18,7 +18,7 @@ In a few moments, the newly created project will appear in your projects list. S
 
 ### Save Your Work
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (60).png>)to save the changes to your GitHub account.
+When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
 
 ![](<../../../.gitbook/assets/save a plugin.png>)
 

@@ -22,7 +22,7 @@ In the Command Prompt, enter the following to install npm's _http-server_ global
 
 * `npm install http-server -g`
 
-![](<../../../.gitbook/assets/image (83).png>)
+![](<../../../.gitbook/assets/image (47).png>)
 
 ### Start the Local Server
 
@@ -47,7 +47,7 @@ To develop for FormIt Web, simply run the following command instead:
 
 * `http-server --cors`
 
-![](<../../../.gitbook/assets/image (20).png>)
+![](<../../../.gitbook/assets/image (10).png>)
 
 ### Verify Your Server
 

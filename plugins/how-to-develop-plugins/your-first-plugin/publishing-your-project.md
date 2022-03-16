@@ -16,7 +16,7 @@ Go to your new [GitHub ](https://github.com)plugins repo, for example, [https://
 
 In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
 
-![](<../../../.gitbook/assets/image (74).png>)
+![](<../../../.gitbook/assets/image (30).png>)
 
 ### Deploying Your Plugin in FormIt
 

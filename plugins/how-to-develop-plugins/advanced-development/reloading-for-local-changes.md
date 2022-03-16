@@ -6,7 +6,7 @@ While developing a plugin you may need to quickly reload your latest code update
 
 💡 To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`
 
-![](../../../.gitbook/assets/d11.png)
+![](<../../../.gitbook/assets/d11 (1).png>)
 
 ## Windows Reloading
 

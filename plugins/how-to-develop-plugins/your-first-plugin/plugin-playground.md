@@ -18,7 +18,7 @@ Here are some of the benefits of developing in the Plugin Playground:
 
 You can think of the Plugin Playground as a plugin that makes plugins. This is because you install it as you would install any other plugin. Open the Plugin Manager, and you will find the Plugin Playground under the Recommended list. Use the toggle to install the Plugin Playground.
 
-![](<../../../.gitbook/assets/01-install playgground formit (1).gif>)
+![](<../../../.gitbook/assets/01-install playgground formit.gif>)
 
 Once it's installed, you can access the Plugin Playground through the ![](<../../../.gitbook/assets/image (25).png>) icon in the right menu.
 

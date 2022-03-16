@@ -6,7 +6,7 @@
 
 The ability to quickly create storefront/curtainwall mullion systems in FormIt is powered by Dynamo. You can find the Storefront Curtainwall system in the Dynamo Samples directory in the Dynamo panel:
 
-![](<../.gitbook/assets/storefront-curtainwall-button (1) (1).png>)
+![](../.gitbook/assets/storefront-curtainwall-button.png)
 
 ## Selecting "Glass" For Mullion System
 
@@ -31,10 +31,10 @@ When selecting geometry for a Dynamo graph in FormIt, certain organizational tri
 
 * Put the glass in a Group, and use the Group as the selection for the Storefront/Curtainwall script. That way, it's easier to edit the glass profile after the mullions have been generated, and if the glass is heavily modified between runs and the face IDs have changed, the Group ensures that the script will always find the glass - because it's using the Group ID, not the face ID.
 * If you're planning on copying and pasting the results of the mullion system to other places in your model, it's best to have the glass and the resulting mullions contained in a Group This will also prevent issues with the selection node not knowing which glass instance to use when just the resulting mullion Group is copied and pasted.
-  * Put your glass in a Group first. Double-click it to select the glass, and hit G or use the Group commands in the context menu or toolbar.&#x20;
+  * Put your glass in a Group first. Double-click it to select the glass, and hit G or use the Group commands in the context menu or toolbar.
   * Select the resulting Group, and put it in another Group.
   * Double-click to enter the first Group. This is the "container" for both the glass and the resulting mullions.
-  * Click the Storefront Curtainwall thumbnail, and use the glass Group as the selection.&#x20;
+  * Click the Storefront Curtainwall thumbnail, and use the glass Group as the selection.
   * After the script runs, you can exit the Group and copy/paste the container around as needed. You can edit any of the instances (adjusting the glass shape or parameters) without issue.
 
 ## Mullion System Options
@@ -43,18 +43,18 @@ Once you select glass and run the script, you'll get a result in the FormIt canv
 
 ![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
 
-* **Run**: If you modify the shape of the glass and want to re-run the graph to update the mullion results, click this.&#x20;
+* **Run**: If you modify the shape of the glass and want to re-run the graph to update the mullion results, click this.
 * **Edit Embedded Graph**: Edit the Dynamo script that's generating the geometry. This script is embedded in the FormIt file and is specific to this Group.
 * **Select Glass (Surface or Solid)**: Click this to update the selection to a different piece of glass around which to generate mullions.
 
-The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the current FormIt units.
+The script will use default values for its first run, so you'll want to adjust these for your unique use case. All values will use the units set by the FormItLengthString node.
 
 * **Mullion Width + Depth**: The width and depth of all mullion elements.
 * **Vertical Mullion Spacing**: The distance, on center, between each vertical mullion.
 * **Flip Vertical Mullion Layout**: The script starts the vertical mullion spacing from one side, chosen arbitrarily. If the result starts the mullion spacing on the wrong side for your use case, set this to True to flip the layout to start on the opposite site.
 * **Center Vertical mullion Layout**: Instead of starting the vertical mullion spacing calculation at one end of the glass, start the calculation in the middle, creating a symmetrical layout of vertical mullions.
 * **First Horizontal Mullion Spacing**: Sets the first horizontal mullion spacing from the bottom. Useful if you need a row of shorter glazing modules at the bottom, separate from the rest of the horizontal mullion spacing.
-* **Horizontal Mullion Spacing**: The typical horizontal mullion spacing, on center, starting after the first mullion as outlined above.&#x20;
+* **Horizontal Mullion Spacing**: The typical horizontal mullion spacing, on center, starting after the first mullion as outlined above.
 * **Flip Horizontal Mullion Layout**: If you want the horizontal mullion layout to start at the top instead of the bottom, set this to True.
 * **Center Horizontal Mullion Layout**: Instead of starting the horizontal mullion spacing calculation at the bottom or top of the glass, start the calculation in the middle, creating a symmetrical layout of horizontal mullions.
 

@@ -10,4 +10,4 @@ The language change will take effect once you restart FormIt.
 
 Additionally, when you launch FormIt from Revit via the 3D Sketch button, the FormIt interface will match the language from Revit, so you can enjoy a consistent experience across applications.
 
-![](<../.gitbook/assets/revit-formit-language-matching (1).png>)
+![](../.gitbook/assets/revit-formit-language-matching.png)
