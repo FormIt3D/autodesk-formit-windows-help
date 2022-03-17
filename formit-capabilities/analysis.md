@@ -6,7 +6,7 @@ description: >-
 
 # Solar + Energy Analysis
 
-![](<../.gitbook/assets/Insight hero image crop.jpg>)
+![](<../.gitbook/assets/20220317 Solar Analysis.png>)
 
 ## Energy Analysis in FormIt
 
