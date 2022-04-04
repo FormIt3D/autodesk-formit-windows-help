@@ -1,6 +1,6 @@
 # Tool Library
 
-![](<../.gitbook/assets/formit intro hero image (4).png>)
+![](<../.gitbook/assets/formit intro hero image (6).png>)
 
 ## Tool Library
 
