@@ -2,7 +2,7 @@
 
 ## FormIt for Windows Documentation
 
-![](<.gitbook/assets/formit intro hero image (2).png>)
+![](<.gitbook/assets/formit intro hero image (2) (1).png>)
 
 ## Learn about the power of FormIt for Windows
 
