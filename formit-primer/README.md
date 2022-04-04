@@ -1,6 +1,6 @@
 # FormIt Primer
 
-![](<../.gitbook/assets/formit intro hero image (2).png>)
+![](<../.gitbook/assets/formit intro hero image (3).png>)
 
 ## Content
 
