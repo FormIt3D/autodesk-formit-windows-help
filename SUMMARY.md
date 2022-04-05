@@ -85,7 +85,7 @@
   * [Non-Uniform Scale](tool-library/non-uniform-scale.md)
   * [Offset Line](tool-library/offset-line.md)
   * [Orthographic Views](tool-library/orthographic-views.md)
-  * [Orthographic Camera](tool-library/orthographic-camera.md)
+  * [Orthographic and Perspective Camera](tool-library/orthographic-camera.md)
   * [Placing Primitives](tool-library/place-primitive-object.md)
   * [Plug-Ins](tool-library/plug-ins.md)
   * [Polygon](tool-library/polygon.md)
