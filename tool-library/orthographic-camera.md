@@ -26,7 +26,7 @@ FormIt 2023 includes multiple orthographic and perspective camera options. You c
 
 The camera modes are all full working modes, with access to navigation and drawing tools in any mode you prefer. The menu allows you to easily toggle between the different cameras.&#x20;
 
-![A model can be toggled from Perspective Camera to Orthographic Camera mode.](<../.gitbook/assets/ortho-camera (1).gif>)
+![Toggling the three different camera modes: 3-point perspective, 2-point perspective, and orthographic.](../.gitbook/assets/perspective-gif.gif)
 
 Once you've selected a camera, any other camera tools will respect the current mode. For example, **Align Camera to Face** will align the Orthographic Camera to the face, resulting in an orthographic elevation view.
 
