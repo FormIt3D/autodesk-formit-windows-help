@@ -96,18 +96,6 @@ FormIt supports three types of Dynamo graphs:
   * You can continue using FormIt while Dynamo is running.&#x20;
 * Note that all geometry inside each SendToFormIt Group will be deleted and replaced when the Dynamo graph runs.
 
-### Control Faceting of Curves and Surfaces
-
-You can control the faceting of curves and surfaces attached to SendToFormIt nodes by using the FormItGroupOptions nodes SetCurveFacetingCount and SetSurfaceFacetingCount.
-
-![](../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png)
-
-These nodes will override the global curve and surface faceting settings, which are defined under Edit > Preferences > Units + Accuracy.
-
-This is very useful if your Dynamo graph needs to generate curved objects using specific faceting values, alleviating the need to change the global setting for each Dynamo graph run in the current session.
-
-![](../.gitbook/assets/dynamo-formitgroupoptions-faceting.gif)
-
 ### Send FormIt Levels to Excel
 
 In FormIt 2023 and newer, you can use Dynamo to send FormIt levels to Excel:&#x20;
@@ -179,7 +167,15 @@ Source Graphs are displayed in the Dynamo panel after [linking local directories
 
 * Starting with FormIt v18.0, the quality of curves and surfaces imported from Dynamo is now customizable.
 * After adjusting the faceting quality in Edit -> Preferences, you can now click "Run Graph" in the Properties panel without making any parameter changes, to re-generate the Dynamo geometry with the new faceting settings.
-* [Learn more about curve and surface faceting settings in FormIt.](https://windows.help.formit.autodesk.com/tool-library/curve-+-surface-faceting)
+*   Starting in FormIt 2023, you can control the faceting of curves and surfaces attached to SendToFormIt nodes by using the FormItGroupOptions nodes SetCurveFacetingCount and SetSurfaceFacetingCount.
+
+    ![](../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png)
+* These nodes will override the global curve and surface faceting settings, which are defined under Edit -> Preferences -> Units + Accuracy.
+* This is very useful if your Dynamo graph needs to generate curved objects using specific faceting values, alleviating the need to change the global setting for each Dynamo graph run in the current session.
+
+![](../.gitbook/assets/dynamo-formitgroupoptions-faceting.gif)
+
+[Learn more about curve and surface faceting settings in FormIt.](https://windows.help.formit.autodesk.com/tool-library/curve-+-surface-faceting)
 
 ## Using FormIt Groups with Dynamo
 
