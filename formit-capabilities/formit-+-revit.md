@@ -10,14 +10,23 @@ FormIt for Windows connects directly to Revit for seamless communication between
 
 ## What's New With FormIt + Revit <a href="#revit-what-s-new" id="revit-what-s-new"></a>
 
+### **All New for 2023** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
+
+* Link a FormIt model (AXM format) to Revit by using the _**Link CAD**_ button in Revit's Insert tab.
+* Select a linked FormIt element in Revit and use the new _**Edit in FormIt**_ button to launch it in FormIt for immediate editing.
+* Use the new _**Send to Revit column**_ in the Layers palette to control which layers are sent to Revit when the FormIt sketch is linked in Revit.&#x20;
+* Preview geometry that will be sent to Revit with the new _**Preview Send to Revit Selections**_ mode, available at the bottom of the Layers panel and next to the Send to Revit button.
+* Using Send to Revit saves the FormIt file, if it's not saved already, and links the model to Revit. As you make changes, either resave the model or click the Send to Revit button again to push the changes to Revit.
+* Silhouette edges are now drawn for FormIt objects in Revit.
+
 ### **FormIt 2022.1 Improvements** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
 
-* Launch FormIt from Revit with the 3D Sketch button and include all or selected Revit level data in the FormIt Levels palette.
+Launch FormIt from Revit with the 3D Sketch button and include all or selected Revit level data in the FormIt Levels palette.
 
 ### **All New for 2022** <a href="#all-new-for-2022" id="all-new-for-2022"></a>
 
 * Launch FormIt directly from Revit with the new _**3D Sketch**_ button on Revit's Massing & Site tab.
-* Design in FormIt and send your sketch back to Revit using the _**Send To Revit**_ button in FormIt when launched from the _3D Sketch_ button.
+* Design in FormIt and send your sketch back to Revit using the _**Send to Revit**_ button in FormIt when launched from the _3D Sketch_ button.
 * Import a FormIt model into Revit using the _**Import CAD**_ button in Revit’s Insert tab (more reliable and up to **30x faster** than the former _Import FormIt to RVT_ button).
 * No need to download a separate Add-In for FormIt capabilities.
 
@@ -35,23 +44,29 @@ If you're working in both early stage and detailed design, you can quickly itera
 
 * Push contextual geometry from Revit to FormIt with one click.
 * Design and model in FormIt and send your design back to the same Revit project while in the same session.
-* Reference a FormIt model in Revit using the _Import CAD_ tool and continue with visualization and detailing in Revit.
+* Reference a FormIt model in Revit using the _Link CAD_ tool and continue with visualization and detailing in Revit.
+* Use _Edit in FormIt_ to launch a FormIt link from Revit.
 
-![](../.gitbook/assets/revit-formit.jpg)
+![](<../.gitbook/assets/revit to formit.png>)
 
-### **3D Sketch and Send to Revit for Design Iteration** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
+### **3D Sketch, Edit in FormIt, and Send to Revit for Design Iteration** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 
 #### **Suggested Workflows**
 
 * Define an interior portion of the Revit model using a Section Box, then click the _**3D Sketch**_ button to open FormIt and explore interior layouts or bespoke design features. Send the new design to Revit with one click.
 * Start with an urban context already modeled in Revit and click the _**3D Sketch**_ button to bring the surrounding context into FormIt as snappable references. Send the new design to Revit with one click.
 * Open an existing Revit building model and use the _**3D Sketch**_ button to launch FormIt. Model a few designs for a new addition, putting each design on a different FormIt Layer.
-* Select the elements you want from your designs and send each design to Revit using the _**Send to Revit**_ button. In Revit, you can explore these designs as separate design options.
+* Select a FormIt object in Revit and launch the model in FormIt by using the _**Edit in FormIt**_ button.
+
+![](../.gitbook/assets/edit-in-formit.png)
+
+* Use the _**Revit Preview mode**_ to preview the geometry that will be sent to Revit to make sure you are sharing the right design to be used for detailed development.
+* Select the elements you want from your designs and send each design to Revit using the _**Send to Revit**_ button or saving the linked model.&#x20;
 
 #### **Using the Tools**
 
-* The _**3D Sketch**_ button + _**Send to Revit**_ workflow is available to subscribers of the Autodesk Architecture, Engineering, & Construction (AEC) Collection and to customers with specific types of access. It is not available through Revit LT. [Learn more about the AEC Collection here.](https://www.autodesk.com/collections/architecture-engineering-construction/overview)
-* When you launch Revit 2022.0 or a later version, there is a new button on the Massing & Site tab called \***3D Sketch**.\*The button is available from 3D views only; it will appear disabled in 2D views in Revit.
+* The _**3D Sketch**_ button, _**Edit in FormIt**_ button, and _**Send to Revit**_ workflow is available to subscribers of the Autodesk Architecture, Engineering, & Construction (AEC) Collection and to customers with specific types of access. It is not available through Revit LT. [Learn more about the AEC Collection here.](https://www.autodesk.com/collections/architecture-engineering-construction/overview)
+* When you launch Revit 2022.0 or a later version, there is a new button on the Massing & Site tab called **3D Sketch**. The button is available from 3D views only; it will appear disabled in 2D views in Revit.
 * Ensure that you are signed in to Revit with your Autodesk credentials. Launching the _**3D Sketch**_ button may prompt you to sign into your Autodesk account again. This is to check that you have the correct entitlements.
 * If FormIt 2022.0 or a later version is not installed (or there is a pre-2022.0 FormIt version installed), FormIt will not launch and you will be prompted to download the correct version of FormIt.
 * Click on the _**3D Sketch**_ button to launch FormIt. Choose to bring all visible objects or just selected objects into FormIt. Choosing to bring only selected objects is helpful if the Revit model is large and the design will reference only a portion of the Revit model. Additionally, use a Section Box in Revit to isolate an interior area of the Revit model to bring into FormIt.
@@ -62,20 +77,25 @@ If you're working in both early stage and detailed design, you can quickly itera
 * When FormIt launches, the included Revit geometry will display on its own layer in FormIt. The layer is called “Revit Context” and is locked by default.
 * Model in FormIt by adding forms or applying materials, content, and more.
 * Apply levels to FormIt objects from the Levels palette.
-* Transfer the FormIt geometry into Revit using the _**Send to Revit**_ button on FormIt’s ribbon.
-  * Choose to include all visible FormIt geometry (with the exception of any geometry on the Revit Context layer) or include only selected objects.
-  * Choosing Selected only is helpful if you want to send only a portion of the new design into Revit.
+* Use the _**Send to Revit column**_ in the Layers palette to include or exclude geometry to be sent to Revit.
+* With the _**Revit Preview Mode**_, you can optionally preview the geometry to be sent to Revit. Activate the Revit Preview Mode by using checkbox at the bottom of the Layers palette or next to the Send to Revit button.
 
-![](../.gitbook/assets/send-to-revit.png)
+![Revit Preview Mode](../.gitbook/assets/revit-preview-mode.png)
 
-![](../.gitbook/assets/send-to-revit-objects.png)
+* Transfer the FormIt geometry into Revit using the _**Send to Revit**_ button on FormIt’s toolbar.
+  * This will prompt you to save the file, which links the model to Revit.
+    * **Note:** We recommend saving the file locally, as saving to Autodesk Docs will break the connection between FormIt and Revit. Instead, use [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/ENU/) to share models to the cloud.
+  * Once the link has been created, any time you want to transfer changes to Revit, you can resave the model or click the Send to Revit button.
+
+![](<../.gitbook/assets/send-to-revit (2).png>)
 
 * FormIt levels, layers, and materials will transfer to Revit along with the geometry.
-  * You can view the FormIt materials in Revit's Materials dialog box by filtering the list by “FormIt.”\
-    You can find FormIt layers in a Revit view through the import tab of Visibility Graphics. This is a great way to show different FormIt design options in Revit.
+  * You can view the FormIt materials in Revit's Materials dialog box by filtering the list by “FormIt.”
+  * You can find FormIt layers in a Revit view through the import tab of Visibility Graphics. This is a great way to show different FormIt design options in Revit.
+* When you launch Revit 2023.0 or a later version and select a FormIt object, you can use the _**Edit in FormIt**_ button to launch the model in FormIt.
 * See the FormIt Primer for a [FormIt-Revit workflow tutorial.](../formit-primer/part-ii/2.8-advanced-revit-workflows.md)
 
-### **Importing FormIt Models: Design Collaboration between FormIt and Revit** <a href="#importing-formit-models-design-collaboration-between-formit-and-revit" id="importing-formit-models-design-collaboration-between-formit-and-revit"></a>
+### **Importing and Linking FormIt Models: Design Collaboration between FormIt and Revit** <a href="#importing-formit-models-design-collaboration-between-formit-and-revit" id="importing-formit-models-design-collaboration-between-formit-and-revit"></a>
 
 #### **Suggested Workflows**
 
@@ -83,12 +103,15 @@ If you're working in both early stage and detailed design, you can quickly itera
 * Import the FormIt model directly into a Revit Design Option to further explore and compare designs. Since FormIt layers come into Revit through the import workflow, the Revit user can control which FormIt layers are visible in which Revit Design Option.
 * Import the FormIt model into a Mass-category family (then load it into a Revit project) to take advantage of Levels, Mass Floors, and By Face tools and apply Revit system families to FormIt geometry.
 
-![](../.gitbook/assets/revit-workflows.png)
+![Import CAD in Revit](<../.gitbook/assets/revit-workflows (2).png>)
+
+* Link an existing FormIt model into Revit to send changes back and forth, update geometries and material appearance during reload, and use FormIt layers to control geometry visibility.
+
+![Link CAD in Revit](../.gitbook/assets/revit-linking.png)
 
 #### **Using the Tools**
 
-* Specify a FormIt file to import into the current Revit project. Open Revit’s _**Import CAD**_ tool. Choose .AXM from the list of available\
-  file types. Browse to an .AXM file and click _Open_.
+* Specify a FormIt file to import into the current Revit project. Open Revit’s _**Import CAD**_ tool. Choose .AXM from the list of available file types. Browse to an .AXM file and click _Open_.
 * FormIt materials transfer to Revit and display in Revit’s materials dialog box. Filter the list for FormIt materials.
   * Materials that were scaled or rotated in FormIt retain the correct scale and rotation in Revit.
 * Levels from FormIt transfer to Revit.
@@ -102,7 +125,7 @@ If you're working in both early stage and detailed design, you can quickly itera
   * This requires the FormIt geometry to be imported into a Mass Family or Generic Model family first, then loaded into the project environment.
 * FormIt geometry comes in as one import instance.
   * To import a FormIt model as separate imports, isolate parts of the model in FormIt, and import each part as a separate .AXM file.
-* Learn more in [Revit's documentation.](https://help.autodesk.com/view/RVT/2022/ENU/?guid=GUID-A5F4B6C1-94CD-4433-A4E2-6B39B4BA8E6D)
+* Learn more in [Revit's documentation.](https://help.autodesk.com/view/RVT/2023/ENU/?guid=GUID-A5F4B6C1-94CD-4433-A4E2-6B39B4BA8E6D)
 
 #### **Working with Revit Levels and FormIt Imports**
 
