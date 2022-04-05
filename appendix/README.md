@@ -1,6 +1,6 @@
 # Appendix
 
-![](<../.gitbook/assets/formit intro hero image (3).png>)
+![](<../.gitbook/assets/formit intro hero image.png>)
 
 ## Appendix
 

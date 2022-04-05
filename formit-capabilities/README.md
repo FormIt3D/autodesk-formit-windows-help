@@ -1,6 +1,6 @@
 # FormIt Capabilities
 
-![](<../.gitbook/assets/formit intro hero image (2).png>)
+![](<../.gitbook/assets/formit intro hero image.png>)
 
 ## FormIt Capabilities
 
