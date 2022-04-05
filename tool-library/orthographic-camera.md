@@ -4,20 +4,32 @@ FormIt 2023 includes multiple orthographic and perspective camera options. You c
 
 ![3-point perspective (top), 2-point perspective (middle), and orthographic (bottom) camera view buttons](../.gitbook/assets/camera-2point-floating-nav-blurred.png)
 
-This menu allows you to easily toggle between the different cameras.&#x20;
+### 3-Point Perspective
+
+* This is the default perspective camera. At certain camera angles, vertical lines will appear to converge near the top of the camera.
+* The camera position set in this mode will define the clipping plane for the orthographic camera.
+* Ctrl + zoom in this mode will allow zooming at a constant rate, without slowing down as the camera approaches objects.
+
+### 2-Point Perspective
+
+* This camera is similar to 3-point perspective, but it ensures that vertical lines stay vertical.
+* At certain camera angles, geometry may appear distorted to keep vertical lines vertical at all times.
+* The camera position set in this mode will define the clipping plane for the orthographic camera.
+* Ctrl + zoom in this mode will allow zooming at a constant rate, without slowing down as the camera approaches objects.
+
+### Orthographic
+
+* An orthographic projection mode useful for diagrams, 3D detail drawings, and other non-perspective graphics.
+* The camera position set in either of the two perspective modes defines the clipping plane for the orthographic camera. If you see your scene getting clipped unexpectedly, switch to a perspective mode, and zoom out, then switch back to orthographic mode.
+
+### Using the Modes
+
+The camera modes are all full working modes, with access to navigation and drawing tools in any mode you prefer. The menu allows you to easily toggle between the different cameras.&#x20;
 
 ![A model can be toggled from Perspective Camera to Orthographic Camera mode.](<../.gitbook/assets/ortho-camera (1).gif>)
-
-Added in FormIt 2023, the 2-point perspective camera is useful for keeping vertical lines vertical, for example, when taking a screenshot of your model.
-
-![](../.gitbook/assets/camera-2point-example.png)
-
-The camera modes are all full working modes, with access to navigation and drawing tools in any mode you prefer.
 
 Once you've selected a camera, any other camera tools will respect the current mode. For example, **Align Camera to Face** will align the Orthographic Camera to the face, resulting in an orthographic elevation view.
 
 If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position, making it easier to access those pre-set views.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
-
-**Note:** If camera clipping occurs in Orthographic Camera mode, you can switch back to Perspective Mode, zoom out, and then try again.
