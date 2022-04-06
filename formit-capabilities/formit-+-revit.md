@@ -60,12 +60,17 @@ If you're working in both early stage and detailed design, you can quickly itera
 
 ![](../.gitbook/assets/edit-in-formit.png)
 
+![Using Edit in FormIt after selecting a FormIt object](../.gitbook/assets/revit-edit-in-formit-workflow.gif)
+
 * Use the _**Revit Preview mode**_ to preview the geometry that will be sent to Revit to make sure you are sharing the right design to be used for detailed development.
 * Select the elements you want from your designs and send each design to Revit using the _**Send to Revit**_ button or saving the linked model.&#x20;
 
 #### **Using the Tools**
 
 * The _**3D Sketch**_ button, _**Edit in FormIt**_ button, and _**Send to Revit**_ workflow is available to subscribers of the Autodesk Architecture, Engineering, & Construction (AEC) Collection and to customers with specific types of access. It is not available through Revit LT. [Learn more about the AEC Collection here.](https://www.autodesk.com/collections/architecture-engineering-construction/overview)
+
+![Launch a new instance with 3D sketch, and save and create a Revit link with Send to FormIt](../.gitbook/assets/revit-3d-sketch-send-to-revit.png)
+
 * When you launch Revit 2022.0 or a later version, there is a new button on the Massing & Site tab called **3D Sketch**. The button is available from 3D views only; it will appear disabled in 2D views in Revit.
 * Ensure that you are signed in to Revit with your Autodesk credentials. Launching the _**3D Sketch**_ button may prompt you to sign into your Autodesk account again. This is to check that you have the correct entitlements.
 * If FormIt 2022.0 or a later version is not installed (or there is a pre-2022.0 FormIt version installed), FormIt will not launch and you will be prompted to download the correct version of FormIt.
@@ -78,6 +83,9 @@ If you're working in both early stage and detailed design, you can quickly itera
 * Model in FormIt by adding forms or applying materials, content, and more.
 * Apply levels to FormIt objects from the Levels palette.
 * Use the _**Send to Revit column**_ in the Layers palette to include or exclude geometry to be sent to Revit.
+
+![Send to Revit column in the Layers palette](../.gitbook/assets/revit-send-to-formit-layers-column.png)
+
 * With the _**Revit Preview Mode**_, you can optionally preview the geometry to be sent to Revit. Activate the Revit Preview Mode by using checkbox at the bottom of the Layers palette or next to the Send to Revit button.
 
 ![Revit Preview Mode](../.gitbook/assets/revit-preview-mode.png)
