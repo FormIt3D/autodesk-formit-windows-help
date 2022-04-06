@@ -114,6 +114,8 @@ You'll see the Dynamo inputs appear in the Dynamo palette, and you'll see Excel 
 
 As you make changes to the model, you can click the graph thumbnail again, or the _Run_ button, to update the spreadsheet with the level data from the latest version of the FormIt sketch.
 
+![](../.gitbook/assets/dynamo-send-levels-to-excel.gif)
+
 ### Launch a New Dynamo Window
 
 ![](../.gitbook/assets/dynamo\_launchwindow.gif)
