@@ -163,10 +163,6 @@ Source Graphs are displayed in the Dynamo panel after [linking local directories
 
 ### **Control Curve + Surface Faceting**
 
-![](../.gitbook/assets/dynamo\_controlcurve.gif)
-
-* Starting with FormIt v18.0, the quality of curves and surfaces imported from Dynamo is now customizable.
-* After adjusting the faceting quality in Edit -> Preferences, you can now click "Run Graph" in the Properties panel without making any parameter changes, to re-generate the Dynamo geometry with the new faceting settings.
 *   Starting in FormIt 2023, you can control the faceting of curves and surfaces attached to SendToFormIt nodes by using the FormItGroupOptions nodes SetCurveFacetingCount and SetSurfaceFacetingCount.
 
     ![](../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png)
@@ -174,6 +170,11 @@ Source Graphs are displayed in the Dynamo panel after [linking local directories
 * This is very useful if your Dynamo graph needs to generate curved objects using specific faceting values, alleviating the need to change the global setting for each Dynamo graph run in the current session.
 
 ![](../.gitbook/assets/dynamo-formitgroupoptions-faceting.gif)
+
+* Starting with FormIt v18.0, the quality of curves and surfaces imported from Dynamo is now customizable.
+* After adjusting the faceting quality in Edit -> Preferences, you can now click "Run Graph" in the Properties panel without making any parameter changes, to re-generate the Dynamo geometry with the new faceting settings.
+
+![](../.gitbook/assets/dynamo\_controlcurve.gif)
 
 [Learn more about curve and surface faceting settings in FormIt.](https://windows.help.formit.autodesk.com/tool-library/curve-+-surface-faceting)
 
