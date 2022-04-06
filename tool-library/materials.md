@@ -1,6 +1,6 @@
 # Materials
 
-Make your FormIt models pop with Materials that support reflection, gloss, and bump maps.
+Make your FormIt models pop with Materials that support reflection, gloss, and bump or normal maps.
 
 ## The Materials Panel
 
@@ -23,8 +23,8 @@ Shows the Materials saved to the current FormIt sketch.
 Shows a list of available sample Materials. These offerings are stored on a cloud-based server, so please note:
 
 * An internet connection is required when accessing Material Samples categories for the first time.
-* When accessing a category for the first time, it will be downloaded and then cached on your computer, so that future sessions won't require a download.&#x20;
-* The FormIt team may occasionally update the offerings in Material Samples. When that happens, FormIt will automatically delete and re-download the categories to get the latest.&#x20;
+* When accessing a category for the first time, it will be downloaded and then cached on your computer, so that future sessions won't require a download.
+* The FormIt team may occasionally update the offerings in Material Samples. When that happens, FormIt will automatically delete and re-download the categories to get the latest.
 
 ![](../.gitbook/assets/materials-samples\_original.png)
 
@@ -34,7 +34,7 @@ Other directories and locations will appear after [linking Material libraries](h
 
 ### Create, Delete, and Eyedropper
 
-![](../.gitbook/assets/materials\_add.PNG) **Create a new Material** by defining its color, texture, bump map, cutout map, transparency, and reflection/gloss settings.
+![](../.gitbook/assets/materials\_add.PNG) **Create a new Material** by defining its color, texture, bump or normal map, cutout map, transparency, and reflection/gloss settings.
 
 ![](<../.gitbook/assets/materials\_delete (1).PNG>) **Delete** selected Material(s).
 
@@ -63,12 +63,12 @@ FormIt 2021 and newer offers the ability to link the Materials panel to local di
 
 ![](../.gitbook/assets/materials-axms.png)
 
-![View individual Materials from a FormIt file, or JPG/PNG files in a directory. ](../.gitbook/assets/materials-axm-content.png)
+![View individual Materials from a FormIt file, or JPG/PNG files in a directory.](../.gitbook/assets/materials-axm-content.png)
 
 * **JPG/PNG files** will display as Materials, which can be painted directly into the current FormIt sketch.
-  * Clicking on a thumbnail converts the image file to a FormIt Material on the fly, and copies it to the current sketch.&#x20;
+  * Clicking on a thumbnail converts the image file to a FormIt Material on the fly, and copies it to the current sketch.
   * FormIt will return you to the "In Sketch" directory to see the Material you've just copied to the sketch.
-* **FormIt files (\*.axm)** will display as folders with a FormIt icon.&#x20;
+* **FormIt files (\*.axm)** will display as folders with a FormIt icon.
   * Clicking on the FormIt file folders will display all FormIt Materials saved to that file.
   * Note that FormIt must load part of the file to get the Material contents, so larger files may take longer to display Materials in the panel.
 
@@ -115,16 +115,16 @@ When you create or edit a Material, you'll see the Material Editor dialog, where
   * Click the Delete icon to delete the map from this material.
     * **Texture from an image file**
       * JPG or PNG
-    * **Bump map from an image file**
+    * **Bump or normal map from an image file**
       * JPG recommended
       * Great for adding depth effects to Materials.
-      * You can use freeware like ShaderMap to generate bump maps given a texture.
+      * You can use freeware like ShaderMap to generate bump/normal maps given a texture.
     * **Cutout map from an image file**
       * PNG
       * Great for Materials that have selective transparency, like chain-link fences or perforated panels.
 * **Name**
 * **Horizontal and Vertical Scale**
-  * When enabled, the Lock Aspect button will ensure the horizontal and vertical scale respect the texture's aspect ratio.&#x20;
+  * When enabled, the Lock Aspect button will ensure the horizontal and vertical scale respect the texture's aspect ratio.
   * Stretch a Material by adjusting horizontal scale independently from vertical scale.
   * You can override the horizontal and vertical scale per-face using the Adjust Material Placement tool (see below).
 * **Transparency**, **Reflection**, and **Gloss**
