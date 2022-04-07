@@ -8,8 +8,6 @@ description: Computational Design in FormIt
 
 FormIt for Windows has Dynamo built-in for incredible computational design workflows.
 
-[Download FormIt for Windows](https://formit.autodesk.com/page/download)
-
 ## What's New With FormIt + Dynamo
 
 ### **Dynamo Visual Refresh, Data Graphs, and FormItGroupOptions Improvement**

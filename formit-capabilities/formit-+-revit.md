@@ -6,8 +6,6 @@
 
 FormIt for Windows connects directly to Revit for seamless communication between early concept and detailed design.
 
-[Download FormIt for Windows](https://formit.autodesk.com/page/download)
-
 ## What's New With FormIt + Revit <a href="#revit-what-s-new" id="revit-what-s-new"></a>
 
 ### **All New for 2023** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>

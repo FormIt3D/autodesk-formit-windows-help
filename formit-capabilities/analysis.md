@@ -12,7 +12,7 @@ description: >-
 
 Analyze your building model for energy efficiency early in the design process.
 
-[View Your Insights Projects](https://gbs.autodesk.com/OneEnergy/Insight)
+[View Your Insight Projects](https://gbs.autodesk.com/OneEnergy/Insight)
 
 ## Energy Analysis with Insight
 
