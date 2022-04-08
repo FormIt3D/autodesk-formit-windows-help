@@ -8,13 +8,12 @@ FormIt for Windows connects directly to Revit for seamless communication between
 
 ## What's New With FormIt + Revit <a href="#revit-what-s-new" id="revit-what-s-new"></a>
 
-### **All New for 2023** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
+### The Power of Linking for 2023 <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
 
 * Link a FormIt model (AXM format) to Revit by using the _**Link CAD**_ button in Revit's Insert tab.
 * Select a linked FormIt element in Revit and use the new _**Edit in FormIt**_ button to launch it in FormIt for immediate editing.
 * Use the new _**Send to Revit column**_ in the Layers palette to control which layers are sent to Revit when the FormIt sketch is linked in Revit.&#x20;
 * Preview geometry that will be sent to Revit with the new _**Preview Send to Revit Selections**_ mode, available at the bottom of the Layers panel and next to the Send to Revit button.
-* Using Send to Revit saves the FormIt file, if it's not saved already, and links the model to Revit. As you make changes, either resave the model or click the Send to Revit button again to push the changes to Revit.
 * Silhouette edges are now drawn for FormIt objects in Revit.
 
 ### **FormIt 2022.1 Improvements** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>

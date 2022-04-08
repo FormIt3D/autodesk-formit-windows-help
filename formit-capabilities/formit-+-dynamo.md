@@ -10,9 +10,9 @@ FormIt for Windows has Dynamo built-in for incredible computational design workf
 
 ## What's New With FormIt + Dynamo
 
-### **Data Graphs, Send Levels to Excel, and Faceting Control**
+### **Dynamo Visual Refresh, Data Graphs, and FormItGroupOptions Improvement**
 
-[FormIt 2023](https://formit.autodesk.com/blog/post/introducing-formit-2023/) enables running Dynamo graphs[ without a SendToFormIt node](formit-+-dynamo.md#graph-types), adds the ability to [send FormIt levels to Excel](formit-+-dynamo.md#send-formit-levels-to-excel), and adds control of [curve and surface faceting via new FormItGroupOptions nodes](../tool-library/curve-+-surface-faceting.md).
+FormIt 2023 adds Dynamo 2.13, featuring a modernized dark gray theme and a host of other improvements, the ability to run Dynamo graphs without a SendToFormIt node (known as data graphs), the ability to set curve and surface faceting counts via FormItGroupOptions, and more.
 
 ### **Dimension Inputs and Early JS API Access**
 
@@ -61,13 +61,13 @@ Author and edit graphs in Dynamo, or flex parameters in FormIt without ever seei
 
 FormIt supports three types of Dynamo graphs:
 
-* Data graph: Data graphs have no _SendToFormIt_ nodes and are used to surface or pass data through FormIt. For example, you can use data graphs to send data to Excel or calculate non-geometric data and display it in a Watch Node.
-* Geometry graph: These graphs produce geometry immediately and need to be placed into the canvas to see their parameters. After clicking the thumbnail, the geometry will appear on the cursor for placement into the 3D scene. This graph requires at least one _SendToFormIt_ node to be present and receiving geometry at the end of the graph.
-* Selection graph: These graphs require FormIt selections before running. You'll see a prompt in the upper-left corner of FormIt to indicate what needs to be selected. After providing the selection, the graph will run and generate geometry relative to the selection. This graph requires at least one _SendToFormIt_ node to be present and receiving geometry at the end of the graph.
+* Data graph: Data graphs have no _SendToFormIt_ nodes and are used to surface or pass data through FormIt. For example, you can use data graphs to send data to Excel, produce text, pull information about levels, etc.
+* Geometry graph: These graphs produce geometry immediately and must be placed into the canvas to see their parameters. After clicking the thumbnail, the geometry will appear on the cursor for placement into the 3D scene. This graph requires at least one _SendToFormIt_ node to be present and receiving geometry at the end of the graph.
+* Selection graph: These graphs require FormIt selections before running. You'll see a prompt in the upper-left corner to indicate what needs to be selected. After clicking the check icon, the graph will run and generate geometry relative to the selected geometry. This graph requires at least one _SendToFormIt_ node to be present and receiving geometry at the end of the graph.
 
 ![](../.gitbook/assets/dynamo-graph-types.png)
 
-### **Geometry Graph: Place Dynamo Group into FormIt**
+### **Send Dynamo Geometry to FormIt**
 
 ![](../.gitbook/assets/dynamo\_stairsgif.gif)
 
@@ -80,7 +80,7 @@ FormIt supports three types of Dynamo graphs:
 * A copy of the original Dynamo file is now embedded into the FormIt Group and is independent of the source graph.
 * Upon placement, the Properties panel will automatically toggle to reveal the available parameters.
 
-### **Geometry Graph: Modify Parameters**
+### **Modify Parameters**
 
 ![](../.gitbook/assets/dynamo\_stairsgif2\_modifyparameters.gif)
 
@@ -94,7 +94,7 @@ FormIt supports three types of Dynamo graphs:
   * You can continue using FormIt while Dynamo is running.&#x20;
 * Note that all geometry inside each SendToFormIt Group will be deleted and replaced when the Dynamo graph runs.
 
-### Data Graph: Send FormIt Levels to Excel
+### Send FormIt Levels to Excel
 
 In FormIt 2023 and newer, you can use Dynamo to send FormIt levels to Excel:&#x20;
 
@@ -171,8 +171,8 @@ Source Graphs are displayed in the Dynamo panel after [linking local directories
 
 ![](../.gitbook/assets/dynamo-formitgroupoptions-faceting.gif)
 
-* You can also globally set faceting settings in Edit -> Preferences -> Units + Precision
-* After adjusting the faceting quality in Preferences, rerun the graph to use the new global faceting settings.
+* Starting with FormIt v18.0, the quality of curves and surfaces imported from Dynamo is now customizable.
+* After adjusting the faceting quality in Edit -> Preferences, you can now click "Run Graph" in the Properties panel without making any parameter changes, to re-generate the Dynamo geometry with the new faceting settings.
 
 ![](../.gitbook/assets/dynamo\_controlcurve.gif)
 
