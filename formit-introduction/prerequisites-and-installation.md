@@ -6,6 +6,8 @@
 * Use your Autodesk account to sign in, or [create a free Autodesk account here](https://accounts.autodesk.com).
 * The FormIt Add-In for Revit is included with Revit 2017 and newer. You can also download and manually install the add-in [from our website](https://formit.autodesk.com/page/formit-revit).
 
+Application-level settings for FormIt are located at Computer\HKEY\_CURRENT\_USER\SOFTWARE\Autodesk\FormIt 360\\
+
 ## Recommended System Configuration
 
 | Requirement                    | Details                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
