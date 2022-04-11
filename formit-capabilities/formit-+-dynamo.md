@@ -375,7 +375,7 @@ FormIt 2022.1 and newer offers the ability to customize how individual Dynamo ge
 
 _FormItGeometryOptions_ nodes can be used upstream from the _SendToFormIt_ node:
 
-![](../.gitbook/assets/dynamo\_formitgeometryoptions.png)
+![](<../.gitbook/assets/dynamo\_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
