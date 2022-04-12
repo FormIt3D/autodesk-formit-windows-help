@@ -16,6 +16,9 @@ FormIt 2023 includes multiple orthographic and perspective camera options. You c
 * At certain camera angles, geometry may appear distorted to keep vertical lines vertical at all times.
 * The camera position set in this mode will define the clipping plane for the orthographic camera.
 * Ctrl + zoom in this mode will allow zooming at a constant rate, without slowing down as the camera approaches objects.
+* 2-point perspective is also a working mode, so you'll notice vertical lines remain vertical even as the camera changes - this can distort the scene at certain camera angles
+
+![](../.gitbook/assets/camera-2point-working-mode.gif)
 
 ### Orthographic
 
