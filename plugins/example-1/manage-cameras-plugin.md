@@ -1,43 +1,43 @@
-# Manage Cameras Plugin
+# 管理相机插件
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_在本章中，我们将对 FormIt 附带的几个插件进行举例介绍，以对_ _**“Encode Campus Sample Model.axm”**进行一些改进。如果您尚未下载，可以从_ [_FormIt Primer Part II 数据集_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)下载文件
 
-Throughout the primer, we have been using scenes as valuable tools to navigate and control visibility throughout the model. This plugin allows us to see and edit the elevation of our current camera, export cameras for each scene as 3D objects, and copy these scenes between models.
+在整个入门手册中，我们一直使用场景作为有价值的工具来导航和控制整个模型的可见性。 此插件允许我们查看和编辑当前相机的标高、将每个场景的相机输出为三维对象，以及在模型之间复制这些场景。
 
-1 - First, we will adjust the **Eye Level – Long Alley** scene so that its camera is actually at eye level:
+1 - 首先，我们将调整**“视点标高 - 长巷”**场景，使其相机实际处于视点标高：
 
-1. If not already there, go back to the **Eye Level – Long Alley** scene by double-clicking on it inside the **Scenes Palette**.
-2. Open the **Manage Cameras Palette** by clicking on the camera with a gear icon.
-3. Change the **Height Above Ground** to **5’-8”**.
+1. 如果还没有调整，请通过在**“场景选项板”**中双击**“视点标高 - 长巷”**场景，以返回该场景。
+2. 通过单击带有齿轮图标的相机，打开**“管理相机选项板”**。
+3. 将**“离地高度”**更改为**“5’-8””**。
 
 ![](<../../.gitbook/assets/6 (6) (1).png>)
 
-_**Note:**_ _If your model has levels, this plugin will also show the height above the nearest level below the_ _**Main Camera**._
+_**注意：**_ _如果模型有标高，此插件还会显示_ _**“主相机”**下最近标高上方的高度。_
 
-2 - Then:
+2 - 然后：
 
-1. Go back to the **Scenes Palette**.
-2. Make sure the **Eye Level – Long Alley** scene is still selected (otherwise single-click to select it).
-3. Click on the **Update Scene** button to save the new camera height to this scene.
+1. 返回**“场景选项板”**。
+2. 确保**“视点标高 - 长巷”**场景仍处于选中状态（否则，单击以选择它）。
+3. 单击**“更新场景”**按钮，以将新相机高度保存到此场景。
 
 ![](<../../.gitbook/assets/7 (1) (1).png>)
 
-_**Note:**_ _You can also adjust the angle and position of a scene’s camera by toggling the_ _**Edit Scene Cameras**_ _button at the top of the_ _**Scenes Palette**_ _(between the update and play buttons)._
+_**注意：**__还可以通过切换__**“场景选项板”**__顶部的__**“编辑场景相机”**__按钮（在“更新”和“播放”按钮之间），来调整场景相机的角度和位置。_
 
-3 - Next let’s export our scenes to a new model. First we have to create camera objects for all scenes using the **Manage Cameras** plugin:
+3 - 接下来，将场景输出到新模型。首先，我们需要使用**“管理相机”**插件为所有场景创建相机对象：
 
-1. Open the **Manage Cameras Palette** again.
-2. Make sure the **Copy Cameras to Clipboard** option is checked.
-3. Click on the **Export Scenes to Cameras** button. This may take a few seconds.
-4. If your entire canvas went white, it is because your **Main Camera** was aligned with one of the scene cameras. **Zoom (Z)** out until you can see the 3 main buildings and the newly created camera objects. Note that the camera objects are automatically placed into one large group named **Cameras**. Inside that group, each individual camera is placed in its own group with the same name as the scenes it was created from.
+1. 再次打开**“管理相机选项板”**。
+2. 确保**“将相机复制到剪贴板”**选项已选中。
+3. 单击**“将场景输出到相机”**按钮。这可能需要几秒钟。
+4. 如果整个画布变成白色，那是因为**“主相机”**与其中一个场景相机对齐。**“缩小(Z)”**，直到可以看到 3 个主要建筑物和新创建的相机对象。请注意，相机对象将自动放置到名为**“相机”**的一个较大分组中。在该组内，每个单独的相机都放置在其自己的组中，其名称与创建该相机时所使用的场景名称相同。
 
 ![](<../../.gitbook/assets/8 (7) (1).png>)
 
-4 – Let’s copy these scenes to a new model. Since the camera data was saved to the clipboard, there is not much we have to do:
+4 - 将这些场景复制到新模型。由于相机数据已保存到剪贴板，因此我们无需执行太多操作：
 
-1. **Save** **(Ctrl + S)** your current model, and the close it.
-2. Start a new empty sketch by selecting **New Sketch (Ctrl + N)** from the **File** dropdown in the **Main Menu** bar.
-3. Open the **Manage Cameras** plugin, if its not already open, and make sure the **Look for Cameras on Clipboard** option is checked.
-4. Click on the **Import Scenes from Cameras** button near the bottom of the plugin, and the scenes from our other model will be imported. To check, open the **Scenes Palette** and/or turn on the **Camera** layer. You will see that all the scenes and 3D camera objects have been imported into this model.
+1. **“保存****(Ctrl + S)”**当前模型，然后将其关闭。
+2. 通过在**“主菜单”**栏的**“文件”**下拉列表中**选择“新建草图(Ctrl + N)”**，开始一个新的空草图。
+3. 打开**“管理相机”**插件（如果尚未打开），并确保**“在剪贴板上查找相机”**选项处于选中状态。
+4. 单击插件底部附近的**“从相机输入场景”**按钮，将输入来自其他模型的场景。要进行检查，请打开**“场景选项板”**和/或启用**“相机”**图层。您将看到所有场景和三维相机对象均已输入到此模型中。
 
 ![](<../../.gitbook/assets/9 (7) (1).png>)
