@@ -43,7 +43,7 @@ Use the Dynamo panel to launch Dynamo, place Dynamo Groups, and edit Dynamo grap
 ### **Adding and Managing Local Dynamo Directories**
 
 * The Dynamo panel works just like the [Content Library](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/import-export-and-content-library), allowing you to link and manage local directories containing Dynamo files.
-* Click the "Link Directory" button in the Dynamo panel, and then click (+) again in the Preferences dialog to select a directory to link to FormIt: ![](../.gitbook/assets/dynamo\_selectdirectory.png)
+* Click the "Link Directory" button in the Dynamo panel, and then click (+) again in the Preferences dialog to select a directory to link to FormIt: <img src="../.gitbook/assets/dynamo_selectdirectory.png" alt="" data-size="line">
 * Switch between linked directories using the drop-down:
 
 ![](../.gitbook/assets/dynamo\_dropdown.png)
@@ -165,7 +165,7 @@ Source Graphs are displayed in the Dynamo panel after [linking local directories
 
 *   Starting in FormIt 2023, you can control the faceting of curves and surfaces attached to SendToFormIt nodes by using the FormItGroupOptions nodes SetCurveFacetingCount and SetSurfaceFacetingCount.
 
-    ![](../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png)
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * These nodes will override the global curve and surface faceting settings, which are defined under Edit -> Preferences -> Units + Accuracy.
 * This is very useful if your Dynamo graph needs to generate curved objects using specific faceting values, alleviating the need to change the global setting for each Dynamo graph run in the current session.
 
@@ -405,7 +405,7 @@ For function names and parameters, take a look at our JavaScript documentation, 
 
 Conversely, the **CallPluginJS** node allows you to invoke custom functions from a loaded plugin, or a script snippet that's been executed from the Script Editor window.
 
-![](../.gitbook/assets/dynamo\_callpluginjs.png)
+![](<../.gitbook/assets/dynamo\_callpluginjs (1).png>)
 
 ## Important Notes
 

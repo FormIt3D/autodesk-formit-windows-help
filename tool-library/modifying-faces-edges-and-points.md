@@ -10,7 +10,7 @@ Things get really interesting when you start to push and pull the objects you ha
 4. After you click, you can snap to other objects to align this face.
 5.  As with move, you can click the **temporary dimension** or simply start typing a value to define the amount of movement.
 
-    ![](../.gitbook/assets/modify.png)
+    <img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 You can also delete a face by using the **Delete** key, or by right-clicking and invoking Delete from the context menu.
 
@@ -28,6 +28,6 @@ You can also delete a face by using **Right click > X button**.
 ## Modifying Points
 
 1. Single-click one of the corners of one of the cubes.
-2. Similar to an edge, you drag the point along one of the axes to redefine the shape. [NextNon-Uniform Scale](https://app.gitbook.com/s/-LUD0SaYwlwiIwTSyXLn/tool-library/non-uniform-scale)
+2. Similar to an edge, you drag the point along one of the axes to redefine the shape. [NextNon-Uniform Scale](broken-reference)
 
 ![](<../.gitbook/assets/modify3 (1).png>)
