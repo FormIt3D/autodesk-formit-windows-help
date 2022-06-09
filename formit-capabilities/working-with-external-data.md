@@ -4,9 +4,8 @@
 
 Можно импортировать файлы следующих форматов.
 
-* Windows: OBJ, DWG, STL, SAT, SKP
+* Windows: OBJ, DWG, STL, SAT, SKP&#x20;
 * Веб-приложение: OBJ, STL
 * iOS: OBJ, STL, SAT
 
 Дополнительные сведения об импорте данных и работе с библиотекой компонентов см. в разделе [Импорт моделей](../formit-primer/part-i/import-export-and-content-library.md).
-

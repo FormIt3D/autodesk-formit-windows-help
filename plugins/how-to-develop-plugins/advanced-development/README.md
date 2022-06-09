@@ -1,6 +1,6 @@
-# Advanced Development
+# Расширенная разработка
 
-In the previous section, we covered the basics of plugin development by[ building a simple plugin](../your-first-plugin/) in the Plugin Playground. This section will review some more advanced modes of development using an external IDE.
+В предыдущем разделе мы рассмотрели основы разработки подключаемых модулей путем [создания простого подключаемого модуля ](../your-first-plugin/) в Plugin Playground. В этом разделе рассматриваются более сложные способы разработки с помощью внешней среды IDE.
 
 ![](../../../.gitbook/assets/c22.PNG)
 

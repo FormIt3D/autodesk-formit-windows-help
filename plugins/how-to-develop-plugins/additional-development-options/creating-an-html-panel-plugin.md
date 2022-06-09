@@ -1,8 +1,8 @@
-# Creating an HTML Panel Plugin
+# Создание подключаемого модуля панели HTML
 
 ![](<../../../.gitbook/assets/PANEL BASED PLUGIN.gif>)
 
-A panel-based plugin that displays an HTML page has a _manifest.json_ file with the following structure:
+Подключаемый модуль панели HTML, отображающий HTML-страницу, имеет файл _manifest.json_ со следующей структурой.
 
 ```
 {
@@ -17,12 +17,12 @@ A panel-based plugin that displays an HTML page has a _manifest.json_ file with 
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a panel-based plugin includes these special JSON properties:
+В дополнение к [стандартным свойствам JSON](../advanced-development/general-plugin-setup-in-the-manifest.md) подключаемый модуль панели HTML содержит следующие специальные свойства JSON.
 
-* "Panel" tells FormIt that this plugin is a panel, and links to the location of the HTML file that should be loaded in the panel.
-* The HTML file will need links in the header to the appropriate JavaScript files, as well as to a CSS file for styling.
-* The HTML file will render in the FormIt panel as it would in a browser.
-* You can see examples of rich HTML interfaces in our [FormIt3D organization](https://github.com/FormIt3D/).
-* "PanelIcon" defines an icon for this plugin to appear in the tab on the right side of the application. If undefined, FormIt creates an automatic icon using the initials from the name of the plugin.
+* Panel сообщает FormIt, что этот подключаемый модуль является панелью, и указывает на местоположение файла HTML, который должен быть загружен на панель.
+* Для файла HTML в заголовке требуются ссылки на соответствующие файлы JavaScript, а также на файл CSS для определения стиля.
+* Файл HTML будет визуализирован на панели FormIt в таком же виде, как это могло быть сделано в браузере.
+* Примеры полнофункциональных интерфейсов HTML можно найти на странице [организации FormIt3D](https://github.com/FormIt3D/).
+* PanelIcon определяет значок для этого подключаемого модуля, который будет отображаться на вкладке в правой части приложения. Если ничего не определено, FormIt создает автоматический значок, использующий заглавные буквы из имени подключаемого модуля.
 
-Once your HTML, CSS, and JavaScript files are set up, you can begin testing your HTML panel plugin by [loading it or installing it](../advanced-development/setting-up-formit-for-development.md#load-vs.-install).
+После настройки файлов HTML, CSS и JavaScript можно начать тестирование подключаемого модуля панели HTML посредством [его загрузки или установки](../advanced-development/setting-up-formit-for-development.md#load-vs.-install).

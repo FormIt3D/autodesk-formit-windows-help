@@ -1,10 +1,10 @@
-# Creating a Toolbar-Based Plugin
+# Создание подключаемого модуля панели инструментов
 
 ![](<../../../.gitbook/assets/Toolbar based plugin.gif>)
 
-### Structure of a Toolbar-Based Plugin manifest.json
+### Структура файла manifest.json подключаемого модуля панели инструментов
 
-A toolbar-based plugin has a _manifest.json_ file with the following structure:
+Подключаемый модуль панели инструментов содержит файл _manifest.json_ со следующей структурой.
 
 ```
 {
@@ -18,13 +18,13 @@ A toolbar-based plugin has a _manifest.json_ file with the following structure:
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a toolbar-based plugin includes this special JSON property:
+В дополнение к [стандартным свойствам JSON](../advanced-development/general-plugin-setup-in-the-manifest.md) подключаемый модуль панели инструментов содержит следующее специальное свойство JSON.
 
-* "ToolbarURL" tells FormIt that this plugin is a toolbar and links to the location of another JSON file that describes the toolbar's functionality.
+* ToolbarURL сообщает FormIt, что этот подключаемый модуль представляет собой панель инструментов и содержит ссылку на другой файл JSON, где описываются функциональные возможности панели инструментов.
 
-### Configure Toolbar Format with JSON
+### Настройка формата панели инструментов с помощью JSON
 
-After creating a manifest file like the one described above, you'll need to create the toolbar.json file, which defines the toolbar buttons, their names, text, icons, and the onClick function assigned to each button. The toolbar's JSON file will have the following format:
+После создания файла манифеста, аналогичного файлу, описанному выше, необходимо создать файл toolbar.json, который определяет кнопки панели инструментов, их имена, текст, значки и функцию onClick, назначенную каждой кнопке. Файл JSON панели инструментов будет иметь следующий формат.
 
 ```
 {
@@ -52,15 +52,15 @@ After creating a manifest file like the one described above, you'll need to crea
 }               
 ```
 
-The toolbar.json file includes these JSON properties:
+Файл toolbar.json содержит следующие свойства JSON.
 
-* "name" represents the name of the overall toolbar, and is used internally to associate all the buttons to the single toolbar menu.
-* "buttons" represents individual buttons added inside of the toolbar. A toolbar can have any number of buttons.
-* "name" defines the button's internal name, which is used to associate the button to the toolbar as well as to the button's onClick function.
-* "command" defines the function of the button, which can come in one of two forms: a JavaScript function (which can be defined in a script contained in the manifest.json "Scripts" field), or a FormIt command, for example, "Draw: Circle". You can obtain a list of FormIt commands by running the Messages plugin.
-* "iconText" sets the tooltip and description text in the button. If an icon URL is not provided, the text will create an auto-generated icon of formatted text.
-* "iconURL" can be set to define a custom icon for the button.
+* Свойство name представляет собой имя всей панели инструментов и используется для внутреннего связывания всех кнопок с единым меню панели инструментов.
+* Свойство buttons — это отдельные кнопки, добавленные на панель инструментов. Панель инструментов может иметь любое количество кнопок.
+* Свойство name определяет внутреннее имя кнопки, которое используется для связи кнопки с панелью инструментов, а также с функцией onClick кнопки.
+* Свойство command определяет функцию кнопки, которая может быть реализована в одной из следующих форм: как функция JavaScript (которая может быть определена в сценарии, содержащемся в поле Scripts файла manifest.json) или как команда FormIt, например Draw: Circle. Для получения списка команд FormIt можно запустить подключаемый модуль Messages.
+* Свойство iconText определяет текст подсказки и описания для кнопки. Если URL-адрес значка не указан, введенный текст создаст автоматически формируемый значок с отформатированным текстом.
+* Свойство iconURL можно задать для определения пользовательского значка кнопки.
 
-After the buttons have all been defined in the toolbar.json file, the plugin is ready to go.&#x20;
+Когда все кнопки будут определены в файле toolbar.json, подключаемый модуль будет готов к работе.&#x20;
 
-If there are any additional JavaScript functions you would like to define, add them to the same folder as the manifest.json file. Be sure to add the file reference to the "Scripts" field of the manifest file as well so that FormIt can find the files.
+Если требуется определить какие-то другие функции JavaScript, добавьте их в ту же папку, где находится файл manifest.json. Обязательно добавьте ссылку на файл в поле Scripts файла манифеста, чтобы программа FormIt могла найти файлы.

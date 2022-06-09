@@ -1,15 +1,15 @@
-# Using an IDE
+# Использование среды IDE
 
-Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+Процесс разработки подключаемых модулей с помощью [Plugin Playground](../your-first-plugin/plugin-playground.md) прост и удобен. Однако может потребоваться разработка подключаемых модулей с помощью внешней интегрированной среды разработки (IDE). Ниже указаны некоторые преимущества использования среды IDE.&#x20;
 
-* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
-* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server.
+* Вы можете использовать свою любимую среду IDE, которая помогает исправлять ошибки синтаксиса, предоставляет расширения и т. д.
+* Вы можете совместно с коллегами разрабатывать подключаемый модуль FormIt с помощью хранилища GitHub.
+* Вы можете разрабатывать личные подключаемые модули и размещать их на локальном сервере.
 
-### Install an IDE
+### Установка IDE
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
+Бесплатная среда IDE, которую удобно использовать для разработки подключаемых модулей FormIt, называется [Visual Studio Code](https://code.visualstudio.com/Download). Перейдите по ссылке, чтобы скачать установочный файл и выполнить установку.
 
-We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
+В этой демонстрации мы будем использовать Visual Studio Code, но вы можете использовать свой любимый редактор кода. Убедитесь, что среда IDE содержит терминал для запуска локального сервера.
 
 ![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

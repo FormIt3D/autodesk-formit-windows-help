@@ -1,109 +1,109 @@
-# Setting Up FormIt for Development
+# Настройка FormIt для разработки
 
-In order to test and build plugins in the FormIt desktop app, you'll need FormIt for Windows v17.0 or later.
+Для тестирования и разработки подключаемых модулей в приложении FormIt Desktop требуется приложение FormIt для Windows 17.0 или более поздней версии.
 
-### **Display Script Editor and Script Output**
+### **Отображение редактора сценариев и вывода сценария**
 
-In the top menu of FormIt, go to **Window** in the top **** menu and check the **Script Editor** and **Script Output** boxes.
+В верхнем меню FormIt перейдите в раздел **Окно** и установите флажки **Редактор сценариев** и **Вывод сценария**.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
-The Script Editor and Script Output panels will appear at the bottom of the FormIt window.
+В нижней части окна FormIt появятся панели «Редактор сценариев» и «Вывод сценария».
 
-Switch between the Script Editor and Script Output by using the buttons at the bottom.
+Для переключения между редактором сценариев и выводом сценария используйте кнопки в нижней части окна.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditorDefaultState.PNG)
 
-You can also arrange both panels side by side. Click the button next to the "x" in the upper right corner to detach one of the panels, then drag and drop the panels next to each other:
+Обе панели также можно расположить рядом друг с другом. Нажмите кнопку рядом с символом «x» в правом верхнем углу, чтобы отсоединить одну из панелей, а затем перетащите панели и расположите их рядом друг с другом.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditor+ScriptOutputConfiguration.gif)
 
-### **Script Editor**
+### **Редактор сценариев**
 
-The Script Editor provides a simple development environment where you can write and test code.
+Редактор сценариев предоставляет простую среду разработки, в которой можно создавать и тестировать код.
 
-The Script Editor stores written code inside a scratch.js file in the directory where the FormIt.exe file is located.
+Редактор сценариев хранит записанный код в файле scratch.js в каталоге, где находится файл FormIt.exe.
 
-At the top are two buttons:
+В верхней части имеются две кнопки.
 
-**Run** ![](<../../../.gitbook/assets/image (8).png>): **** Executes all code written in the window.
+**Выполнить** ![](<../../../.gitbook/assets/image (8).png>): позволяет выполнить весь код, написанный в окне.
 
-**Run Selection** ![](<../../../.gitbook/assets/image (52).png>):  ****  Executes only the selected/highlighted lines of code.
+**Выполнить выбранное** ![](<../../../.gitbook/assets/image (52).png>): позволяет выполнить только выбранные или выделенные строки кода.
 
-### **Script Output**
+### **Вывод сценария**
 
-The Script Output window displays any messages printed to the console from plugins.
+В окне «Вывод сценария» отображаются все сообщения, выводимые на консоль из подключаемых модулей.
 
-You can clear the output by running `console.clear();` in the Script Editor.
+Чтобы сбросить выводимую информацию, запустите `console.clear();` в редакторе сценариев.
 
-## Working with Sample Plugins
+## Работа с примерами подключаемых модулей
 
-After [cloning a repository](cloning-a-sample-plugin.md) and [setting up a web server](hosting-a-plugin-on-a-local-server.md), you can now get your local plugins to show up in FormIt.
+После [клонирования хранилища](cloning-a-sample-plugin.md) и [настройки веб-сервера](hosting-a-plugin-on-a-local-server.md) можно настроить отображение локальных подключаемых модулей в FormIt.
 
-You can load or install any of the plugins, but for the purposes of this exercise, you'll install both a panel-based and a toolbar-based plugin. We'll assume your npm http-server is running on port 8080 hosting both example repositories.
+Можно загрузить или установить любой из подключаемых модулей, но для целей данного упражнения необходимо установить подключаемые модули панели HTML и панели инструментов. Предположим, что ваш сервер http-сервер npm работает через порт 8080 и размещает оба примера хранилища.
 
-### **Load vs. Install**
+### **Сравнение загрузки и установки**
 
-`FormIt.LoadPlugin();` loads the plugin only for the current session. The plugin will be unloaded automatically when the app is closed and restarted.
+`FormIt.LoadPlugin();` загружает подключаемый модуль только для текущего сеанса. Подключаемый модуль будет выгружен автоматически при закрытии и перезапуске приложения.
 
-This is a great option for temporarily manifesting a plugin for testing in the current session only.
+Это очень удобно для временного отображения подключаемого модуля для тестирования только в текущем сеансе.
 
-`FormIt.InstallPlugin();` makes the plugin persist using a registry key. This is great for plugins you'll use frequently from session to session.
+`FormIt.InstallPlugin();` позволяет сохранить подключаемый модуль на постоянной основе с помощью ключа реестра. Это очень удобно для подключаемых модулей, которые будут часто использоваться в разных сеансах.
 
-On Windows, the following registry keys are used to persist plugins:
+В Windows для сохранения подключаемых модулей на постоянной основе используются следующие ключи реестра.
 
-* Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Подключаемые модули: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
 
-Use `FormIt.UninstallPlugin();` to uninstall.
+Для удаления используйте `FormIt.UninstallPlugin();`.
 
-In the following examples, unless otherwise noted, feel free to use either _Install_ or _Load,_ depending on whether you want the results of the exercise to be persistent or not.
+В следующих примерах, если не указано иное, можно использовать команду _Установить_ или _Загрузить_ в зависимости от того, требуется сохранить результаты упражнения или нет.
 
-### **Toolbar Plugin Sample: Flip Along**
+### **Пример подключаемого модуля панели инструментов: Flip Along**
 
-In the Script Editor, run the following:
+В редакторе сценариев выполните следующие действия.
 
-If running a local server:
+При работе с локальным сервером:
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+При загрузке из [хранилища FormIt GitHub](https://github.com/FormIt3D/) (требуется подключение к интернету):
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
-You should see the Flip Along toolbar appear at the top of the application window:
+В верхней части окна приложения должна отображаться панель инструментов Flip Along.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FlipAlongToolbar.PNG)
 
-### **HTML Panel Plugin Sample: Properties Plus**
+### **Пример подключаемого модуля панели HTML: Properties Plus**
 
-In the Script Editor, run the following:
+В редакторе сценариев выполните следующие действия.
 
-If running a local server:
+При работе с локальным сервером:
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+При загрузке из [хранилища FormIt GitHub](https://github.com/FormIt3D/) (требуется подключение к интернету):
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
-You should see the Properties Plus panel appear on the right side of the application window:
+В правой части окна приложения должна отображаться панель Properties Plus.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PropertiesPlusPanel.png)
 
-### **Modal and Modeless Dialog Plugin Sample**
+### **Пример подключаемого модуля для модального и немодального диалогового окна**
 
-Dialog plugins are unique: They can only be loaded, not installed.
+Подключаемые модули диалоговых окон являются уникальными. Их можно только загрузить, но не установить.
 
-In the Script Editor, run the following:
+В редакторе сценариев выполните следующие действия.
 
-If running a local server:
+При работе с локальным сервером:
 
-* Modal: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
-* Modeless: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
+* Модальный: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
+* Немодальный: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+При загрузке из [хранилища FormIt GitHub](https://github.com/FormIt3D/) (требуется подключение к интернету):
 
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
+* Модальный: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
+* Модальный: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-You should see the Hello Block! panel from the HTML panel example appear on screen as either a modal or modeless dialog.
+Вы должны увидеть на экране панель Hello Block! из примера панели HTML в форме модального или немодального диалогового окна.

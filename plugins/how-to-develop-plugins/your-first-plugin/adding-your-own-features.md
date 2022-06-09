@@ -1,18 +1,18 @@
-# Adding Your Own Features
+# Добавление собственных функций
 
-### Inside the HTML, JavaScript, and CSS Panels
+### Внутри панелей HTML, JavaScript и CSS
 
-When you click Edit in the Plugin Playground sample plugin, you will see the HTML, JavaScript (JS), and CSS panels. The HTML panel (left) enables you to modify the user interface of your plugin. The JS panel (middle) enables you to write functions that can communicate to FormIt using the FormIt JS Plugin API. Finally, the CSS panel (right) will determine the style of your HTML.
+При нажатии кнопки «Изменить» в примере подключаемого модуля Plugin Playground отображаются панели HTML, JavaScript (JS) и CSS. Панель HTML (слева) позволяет изменять пользовательский интерфейс подключаемого модуля. Панель JS (в середине) позволяет записывать функции, которые могут взаимодействовать с FormIt посредством API подключаемого модуля FormIt JS. Наконец, панель CSS (справа) определяет стиль HTML.
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-### Adding a Function to Create a Cylinder&#x20;
+### Добавление функции для создания цилиндра
 
-Let's add a feature to this plugin to create a cylinder.
+Чтобы создать цилиндр, добавим функцию в этот подключаемый модуль.
 
-First, let's configure the input field and UI button in the HTML panel. Copy the following code and paste it after line 23 and before _\<!-- Do not remove below scripts unless you know what you're doing- - >_
+Сначала необходимо настроить поле ввода и кнопку пользовательского интерфейса на панели HTML. Скопируйте следующий код и вставьте его после строки 23 и перед разделом _\<!-- Не удаляйте приведенные ниже сценарии, если не уверены в своих действиях -- > _
 
-This will add some basic UI elements to our plugin.
+Это позволит добавить некоторые базовые элементы пользовательского интерфейса в наш подключаемый модуль.
 
 ```
 <p>Cylinder: Create a cylinder at the origin.</p>
@@ -20,22 +20,22 @@ This will add some basic UI elements to our plugin.
     <input id="Radius" type=number value=2 />
     <label>Radius</label>
 </div>
-        
+
 <div>
     <input id="CHeight" type=number value =0.5 />
     <label>Height</label>
 </div>
-        
+
 
 <input id="CreateCylinderBtn" type=button value="Create Cylinder" />
-        
+
 ```
 
 ![](<../../../.gitbook/assets/image (86).png>)
 
-Next, let's add two functions in our JS panel. Copy the following code and paste it at the end of the file (after line 16).
+Теперь добавим две функции на панели JS. Скопируйте следующий код и вставьте его в конец файла (после строки 16).
 
-This will create a cylinder in our FormIt workspace.
+Это приведет к созданию цилиндра в рабочем пространстве FormIt.
 
 ```
 // Create cylinder
@@ -65,12 +65,12 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ![](<../../../.gitbook/assets/image (82).png>)
 
-### Running and previewing
+### Запуск и предварительный просмотр
 
-When you’re ready to see the results, click the Play button ![](<../../../.gitbook/assets/image (81).png>) again and you will see your updates to the plugin in the same panel.
+Когда вы будете готовы посмотреть результаты, снова нажмите кнопку воспроизведения ![ ] (<../../../.gitbook/assets/image (81).png>). На той же панели будут отображаться обновления подключаемого модуля.
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
-### FormIt plugins API
+### API подключаемых модулей FormIt
 
-For complete documentation on the FormIt plugins API, see the [useful links](../useful-links.md) section.
+Полную документацию по API для подключаемых модулей FormIt см. в разделе [полезных ссылок](../useful-links.md).

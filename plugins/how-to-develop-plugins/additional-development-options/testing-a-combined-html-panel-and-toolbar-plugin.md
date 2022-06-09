@@ -1,51 +1,51 @@
-# Testing a Combined HTML Panel and Toolbar Plugin
+# Тестирование комбинированного подключаемого модуля панели HTML и панели инструментов
 
-You can test your in-progress plugins easily using the built-in [Script Editor ](../advanced-development/setting-up-formit-for-development.md)in FormIt for Windows
+Для тестирования подключаемых модулей можно использовать встроенный [редактор сценариев](../advanced-development/setting-up-formit-for-development.md) в FormIt для Windows.
 
-We recommend using `FormIt.LoadPlugin("URL");` when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted).&#x20;
+При тестировании рекомендуется использовать `FormIt.LoadPlugin("URL");`. Этот код временно загружает подключаемые модули для данного сеанса (они исчезнут при перезапуске FormIt).&#x20;
 
-Once testing is complete, you can persist the plugin between sessions using `FormIt.InstallPlugin("URL");`.
+По завершении тестирования подключаемый модуль можно сохранить на постоянной основе между сеансами с помощью кода `FormIt.InstallPlugin("URL");`.
 
-**FormIt for Windows v17 and newer**
+**FormIt для Windows 17 и более поздних версий**
 
 ****
 
-### **Toolbar Plugins**
+### **Подключаемые модули панели инструментов**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+Загрузите подключаемый модуль в FormIt, чтобы просмотреть последний пользовательский интерфейс и протестировать новые функции.
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then load the plugin again using the command above.
+Внесите некоторые изменения, а затем снова загрузите подключаемый модуль с помощью команды, указанной выше.
 
-You can load many instances of the same plugin in the current session as you test, each with its own UI.
+В ходе текущего сеанса можно загрузить несколько экземпляров одного подключаемого модуля, каждый из которых имеет собственный пользовательский интерфейс.
 
-Be sure to use the latest UI instance to ensure you're testing your most recent changes.
+Убедитесь, что для тестирования последних изменений используется последняя версия пользовательского интерфейса.
 
 
 
-### **HTML Panel Plugins**
+### **Подключаемые модули панели HTML**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+Загрузите подключаемый модуль в FormIt, чтобы просмотреть последний пользовательский интерфейс и протестировать новые функции.
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then simply right-click the panel and select "Hard Reload" to reload the panel with the latest HTML, CSS, and scripts.
+Внесите изменения, затем щелкните правой кнопкой мыши панель и выберите «Жесткая перезагрузка», чтобы перезагрузить панель с последними версиями HTML, CSS и сценариев.
 
 ****
 
-### **Preview your plugin with Plugin Manager**
+### **Предварительный просмотр подключаемого модуля с помощью Диспетчера подключаемых модулей**
 
-Once your plugin is loaed, refer an [earlier chapter](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) for this guide.
+После загрузки подключаемого модуля ознакомьтесь с [предыдущей главой](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) данного руководства.
 
 ****
 
-### **Force clearing web cache for .JSON files**
+### **Принудительная очистка веб-кэша для файлов JSON**
 
-If you modify the title or description inside the manifest.json file for a plugin or repo, you may need to force clear the cache in FormIt for Windows to see those changes take effect the next time you reload the Plugin Manager.
+Если изменить заголовок или описание в файле manifest.json для подключаемого модуля или хранилища, может потребоваться принудительная очистка кэша в FormIt для Windows, чтобы эти изменения вступили в силу при следующей перезагрузке Диспетчера подключаемых модулей.
 
-FormIt for Windows stores its web cache here, you will need to enable hidden items in Windows Explorer to see the AppData folder.
+FormIt для Windows хранит здесь свой веб-кэш, поэтому для отображения папки AppData необходимо включить отображение скрытых элементов в проводнике Windows.
 
 * C:\Users\user\AppData\Local\Autodesk\FormIt 360\QtWebEngine\Default
 
-To delete the web cache, simply delete the "Default" folder above, then reload the Plugin Manager to see the updated titles and descriptions.
+Чтобы удалить веб-кэш, просто удалите папку Default, указанную выше, а затем перезагрузите Диспетчер подключаемых модулей, чтобы увидеть обновленные заголовки и описания.

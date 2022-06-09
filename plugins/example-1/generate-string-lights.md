@@ -1,34 +1,34 @@
-# Generate String Lights
+# Создание гирлянд
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_В этой главе мы рассмотрим примеры использования некоторых подключаемых модулей FormIt, позволяющих внести ряд улучшений в файл_ _**Encode Campus Sample Model.axm**. Если вы еще не скачали файл, его можно найти в _[_наборе данных FormIt Primer, часть II_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
 
-_This neat plugin lets you quickly add hanging lights to your model based on a line or curve._
+_Этот подключаемый модуль позволяет быстро добавить подвесные источники света в модель вдоль линии или кривой._
 
-1 - Before adding any new lights, let's check out the intended result using a premade scene in the model.
+1 - Перед добавлением новых источников света проверьте, каким должен быть результат, с помощью готовой сцены в модели.
 
-1. To jump to the scene containing existing string lights, open the **Scenes Palette** and double click on the scene named **Eye Level – Short Alley**.
-2. Notice the string lights that came with this model – that is what we are going to recreate, but somewhere else.
-3. In the **Layer Palette**, turn on the **Helper Geometry** layer so you can see the original lines used to generate these string lights.
+1. Для перехода к сцене с готовыми гирляндами откройте **палитру «Сцены»** и дважды щелкните сцену **Eye Level — Short Alley**.
+2. Обратите внимание на гирлянды, которые уже есть в модели. Мы собираемся воссоздать их, но в другом месте.
+3. На **палитре «Слой»** включите слой **Helper Geometry**, чтобы можно было видеть исходные линии, использованные для создания этих гирлянд.
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - Now let’s navigate to the other alley and add some lights. In the **Scenes Palette** open the **Eye Level – Long Alley** scene. Notice that this alley does not yet have any string lights.
+2 - Перейдите к другой аллее и добавьте несколько источников света. На **палитре «Сцены»** откройте сцену **Eye Level — Long Alley**. Обратите внимание, что на этой аллее еще нет ни одной гирлянды.
 
-3 - To create a new string of lights:
+3 - Чтобы создать последовательность источников света, выполните следующие действия.
 
-1. Open the newly installed **Generate String Lights Palette** by clicking on the string light icon. By default, the icons for new plugins appear at the bottom.
-2. Change the **Number of Fixtures** option to **10**.
-3. Double-click on one of the helper lines to edit the pre-created **String Lights – Long Alley** group. Then single-click on one of the pre-drawn helper lines to select it.
-4. Click the **Generate String Lights** button inside the plugin’s palette, and a new string of lights should appear! Note that each string of lights is created as its own unique group.
+1. Откройте установленную ранее **палитру Generate String Lights**, щелкнув соответствующий значок. По умолчанию значки новых подключаемых модулей отображаются внизу.
+2. Измените значение параметра **Number of Fixtures** на **10**.
+3. Дважды щелкните одну из вспомогательных линий, чтобы отредактировать созданную ранее группу **String Lights — Long Alley**. Щелкните одну из предварительно созданных вспомогательных линий, чтобы выбрать ее.
+4. Нажмите кнопку **Generate String Lights** на палитре подключаемого модуля, после чего должна появиться новая гирлянда. Обратите внимание, что каждая последовательность источников света создается как отдельная уникальная группа.
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
-_**Note:**_ _It is OK that some of the lines are going through the “Groove Coffee” sign, because the string light plugin creates a catenary curve that will sag realistically below the sign._
+_**Примечание.**_ _Не обращайте внимания на то, что некоторые линии проходят сквозь знак Groove Coffee, так как подключаемый модуль Generate String Lights создает кривую провеса с реалистичным изгибом под знаком._
 
-4 - Try creating some more string lights by using the other pre-made helper line and/or creating some of your own helper lines. Play around with the plugin’s settings to get different results.
+4 - Попробуйте создать другие гирлянды, используя другую готовую вспомогательную линию и/или создав несколько собственных вспомогательных линий. Попробуйте изменить настройки подключаемого модуля, чтобы получить другие результаты.
 
-5 - To help keep the model organized, when finished we recommend grouping all the helper lines and placing that group on the **Helper Geometry** layer, as well as assigning all string light groups to the **Context – Exterior Lighting** layer. This will prevent the helper lines from showing up in any of the ‘Eye Level’ scenes where we do not want to see them. When finished, the results should look something like the next screenshot.
+5 - Чтобы упорядочить данные модели, рекомендуется в конце сгруппировать все вспомогательные линии и разместить данную группу в слое **Helper Geometry**, а также назначить все группы гирлянд слою **Context — Exterior Lighting**. Это позволит избежать отображения вспомогательных линий в сценах Eye Level, где это не требуется. После завершения результаты должны выглядеть примерно так, как показано на следующем снимке экрана.
 
 ![](<../../.gitbook/assets/5 (3) (1).png>)
 
-_**Note:**_ _Unlike geometry created from a Dynamo script, which can be updated and regenerated through the_ _**Properties Palette**, objects created by a plugin are (for the most part) just regular FormIt geometry. Once created, they can only be edited using FormIt’s built in modeling tools._
+_**Примечание.**_ _В отличие от геометрии, созданной с помощью сценария Dynamo, которую можно обновить и регенерировать с помощью_ _**палитры свойств**, объекты, созданные посредством подключаемого модуля, в большинстве случаев представляют собой обычную геометрию FormIt. После создания их можно редактировать только с помощью встроенных инструментов моделирования FormIt._

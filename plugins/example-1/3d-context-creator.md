@@ -1,48 +1,48 @@
-# 3D Context Creator
+# 3D Context Creator
 
 ![](../../.gitbook/assets/contextcreator1.gif)
 
-## What is it?
+## Что это такое?
 
-3D Context Creator is a very easy-to-use plugin that will help you quickly generate 3d context inside FormIt. This plugin can help you:
+3D Context Creator — это очень простой в использовании подключаемый модуль, который позволяет быстро создавать 3D-контекст в FormIt. Этот подключаемый модуль может помочь выполнять следующие задачи.
 
-* Visualize your project site with its surrounding context
-* Make informed decisions especially in the early stage of the design process.
-* Is free for all users of FormIt to download.&#x20;
+* Визуализация площадки проекта с учетом контекста окружающих объектов.
+* Принятие обоснованных решений, особенно на ранних этапах проектирования.
+* Его могут бесплатно скачать все пользователи FormIt.&#x20;
 
-This plugin retrieves data from [Open Street Map](https://www.openstreetmap.org/about) to help transform it into FormIt geometries. The source code for this plugin is available on [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+Этот подключаемый модуль получает данные из [Open Street Map](https://www.openstreetmap.org/about) и помогает преобразовать их в геометрию FormIt. Исходный код для этого подключаемого модуля доступен на веб-сайте [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
 
-## How to use it
+## Порядок использования
 
-To install it, simply turn on the plugin’s toggle, as you would with any other plugin.
+Для установки подключаемого модуля просто включите его, как и любой другой подключаемый модуль.
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
-Once toggled on, the plugin should appear on the right side of the app and be ready to use.
+После включения подключаемый модуль должен отображаться в правой части приложения и быть готов к использованию.
 
 ![](../../.gitbook/assets/formitUI.PNG)
 
-Before using the plugin, begin by setting your site location from the main FormIt toolbar.
+Перед использованием подключаемого модуля необходимо задать местоположение площадки на главной панели инструментов FormIt.
 
 ![](<../../.gitbook/assets/image (76).png>)
 
-Search for your site location, and then click Import Satellite Image and Terrain.
+Найдите местоположение площадки, а затем нажмите кнопку «Импортировать спутниковый снимок и рельеф».
 
 ![](<../../.gitbook/assets/image (77).png>)
 
-Once the satellite image has been successfully imported into your FormIt project, navigate to the 3D Context Creator plugin.
+После успешного импорта спутникового снимка в проект FormIt перейдите в подключаемый модуль 3D Context Creator.
 
-Adjust the square radius slider to expand the distance (in meters) of the context from the location point.
+С помощью регулятора радиуса увеличьте расстояние (в метрах) контекста от точки местоположения.
 
 ![](../../.gitbook/assets/contextcreator7.png)
 
-Click on the Create button. And that is it!
+Нажмите кнопку «Создать». Вот и все!
 
-Once you are happy with the settings, click the Create button. Depending on the size and complexity of the given radius, it may take a few moments to process the building forms.
+После завершения настройки нажмите кнопку «Создать». В зависимости от размера и сложности данного радиуса, обработка форм здания может занять некоторое время.
 
-## **Some examples**
+## **Рассмотрим несколько примеров**
 
-Try to guess what iconic cities are represented in the following contexts:
+Попробуйте угадать, какие знаменитые города представлены в следующих контекстах.
 
 ![](<../../.gitbook/assets/image (2).png>)
 

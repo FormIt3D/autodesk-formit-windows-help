@@ -4,11 +4,10 @@
 
 Горячие клавиши: C
 
-![](../.gitbook/assets/circle_toolbar.png)
+![](../.gitbook/assets/circle\_toolbar.png)
 
 Для построения окружности сначала выберите центральную точку, а затем укажите радиус окружности. После этого окружность автоматически будет преобразована в грань.
 
 ![](../.gitbook/assets/circle1.png)
 
 ![](../.gitbook/assets/circle2.png)
-

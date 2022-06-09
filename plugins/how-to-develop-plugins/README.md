@@ -1,12 +1,10 @@
-# How to Develop Plugins
+# Разработка подключаемых модулей
 
-For the tinkerers and developers out there, FormIt is a great tool for developing plugins. There are two modes of development you can choose from, depending on your development skills and the complexity of the project you wish to execute.&#x20;
+FormIt является отличным инструментом для создания подключаемых модулей как для опытных, так и для начинающих разработчиков. Существует два способа разработки, которые можно выбрать в зависимости от навыков разработки и сложности проекта, который вы хотите выполнить.&#x20;
 
-* We recommend that you start with the [Your First Plugin](your-first-plugin/) section. It guides you through creating a simple plugin using the Plugin Playground.&#x20;
-* If you want to develop a more complex project, we recommend following the [Advanced Development](advanced-development/) section.
-* For information on developing other types of plugins, check out the [Additional Development Options](additional-development-options/) section.
-* The [Useful Links](useful-links.md) section provides links to FormIt API websites.
+* Рекомендуем вам начать с раздела [Первый подключаемый модуль](your-first-plugin/). В нем рассмотрена процедура создания простого подключаемого модуля с помощью Plugin Playground.
+* Если вы хотите разработать более сложный проект, рекомендуем использовать раздел [Расширенная разработка](advanced-development/).
+* Информацию о разработке других типов подключаемых модулей см. в разделе [Дополнительные возможности разработки](additional-development-options/).
+* Ссылки на документацию см. на странице [API FormIt](useful-links.md).
 
 ![](../../.gitbook/assets/g5.gif)
-
-&#x20;

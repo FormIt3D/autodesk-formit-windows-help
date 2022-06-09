@@ -1,10 +1,10 @@
-# Previewing a Plugin in the Plugin Manager
+# Предварительный просмотр подключаемого модуля в Диспетчере подключаемых модулей
 
-To preview a plugin in the Plugin Manager before it's pushed to GitHub, paste the localhost URL into the field at the bottom of the Plugin Manager and click Add ![](<../../../.gitbook/assets/image (44).png>):
+Для предварительного просмотра подключаемого модуля в Диспетчере подключаемых модулей перед его передачей в GitHub вставьте URL-адрес локального узла в поле в нижней части Диспетчера подключаемых модулей и нажмите кнопку «Добавить» ![] (<../../../.gitbook/assets/image (44).png>).
 
 ![](<../../../.gitbook/assets/image (16).png>)
 
-Then look for your plugin in the Installed section at the top:
+Затем найдите подключаемый модуль в списке установленных в верхней части страницы.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerInstalledList.png)
 

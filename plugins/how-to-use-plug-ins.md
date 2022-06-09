@@ -1,69 +1,69 @@
-# How to Use Plugins
+# Использование подключаемых модулей
 
 ![](<../.gitbook/assets/g3 (1).gif>)
 
-## Plugin Manager
+## Диспетчер подключаемых модулей
 
-The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
+Диспетчер подключаемых модулей FormIt — это универсальное средство обнаружения подключаемых модулей и управления ими.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+Он загружается автоматически при запуске FormIt, если у FormIt есть доступ к Интернету.
 
-Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) on the right side of the app:
+Для доступа к нему щелкните значок вкладки ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) в правой части приложения.
 
 ![](../.gitbook/assets/c1.PNG)
 
-## Plugin Categories
+## Категории подключаемых модулей
 
-The Plugin Manager organizes plugins into categories to help you find the plugins you're most interested in.
+Диспетчер подключаемых модулей распределяет подключаемые модули по категориям, чтобы было легче искать нужные подключаемые модули.
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed Plugins:** Plugins already installed by the user.&#x20;
+**Установленные подключаемые модули**: подключаемые модули, уже установленные пользователем.&#x20;
 
-**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team.\
-GitHub tag:  _formit-plugin-recommended_
+**Рекомендуемые подключаемые модули**: подключаемые модули, которые команда FormIt рекомендует использовать для расширения базовых функций FormIt и доступа к новым рабочим процессам. В этой категории отображаются подключаемые модули, разработанные сообществом и проверенные командой FormIt.\
+Тег GitHub: _formit-plugin-recommended_
 
-**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team. \
-GitHub tag:  _formit-plugin_
+**Общедоступные подключаемые модули**: подключаемые модули, созданные сообществом. Подключаемые модули этой категории не были проверены или утверждены командой FormIt. \
+Тег GitHub: _formit-plugin_
 
-**For Developers Plugins**: Plugins built by the community to enable the creation of new FormIt plugins. \
-GitHub tag:  _formit-plugin-developers_
+**Для подключаемых модулей разработчиков**: подключаемые модули, разработанные сообществом для создания новых подключаемых модулей FormIt. \
+Тег GitHub: _formit-plugin-developers_
 
-## Add Your Private or Local Plugin
+## Добавление частного или локального подключаемого модуля
 
-If you're [developing your own plugin](how-to-develop-plugins/), you can add its private URL into the field at the bottom of the panel and click (+):
+Если вы [разрабатываете собственный подключаемый модуль](how-to-develop-plugins/), можно добавить его закрытый URL-адрес в поле в нижней части панели и нажать (+).
 
 ![](../.gitbook/assets/d4.PNG)
 
-For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+Дополнительные сведения о добавлении частного или локального подключаемого модуля см. в разделе [«Предварительный просмотр подключаемого модуля в Диспетчере подключаемых модулей». ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
-## Resetting the Plugin Manager
+## Сброс Диспетчера подключаемых модулей
 
-The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins. If you need to reset your Plugin Manager to its defaults, delete the following registry key:
+Для хранения установленных хранилищ и подключаемых модулей Диспетчер подключаемых модулей использует разделы реестра Windows. Если требуется восстановить настройки Диспетчера подключаемых модулей по умолчанию, удалите следующий раздел реестра.
 
 `Computer\HKEY_CURRENT_USER\Software\Autodesk\FormIt 360\Plugins`
 
-⚠️ Note: This will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+⚠️ Обратите внимание, что при этом будут удалены все добавленные пользователем хранилища и подключаемые модули, а в Диспетчере подключаемых модулей будут отображаться только встроенные хранилища и подключаемые модули.
 
-## Installing Plugins
+## Установка подключаемых модулей
 
-The [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
+[Диспетчер подключаемых модулей](how-to-use-plug-ins.md#plugin-manager) содержит несколько подключаемых модулей, распределенных по разным категориям. Каждый подключаемый модуль имеет имя, описание, ссылку GitHub и переключатель установки.&#x20;
 
 ![](../.gitbook/assets/d5.PNG)
 
-To install a plugin, simply turn on the toggle next to the plugin's name.&#x20;
+Чтобы установить подключаемый модуль, просто включите переключатель рядом с именем этого модуля.&#x20;
 
 ![](../.gitbook/assets/d6.png)
 
-The icon of the selected plugin will appear in the right panel. Click it to display the plugin's UI.
+Значок выбранного подключаемого модуля появится на панели справа. Щелкните его, чтобы отобразить пользовательский интерфейс подключаемого модуля.
 
 ![](../.gitbook/assets/d7.PNG)
 
-## Using Plugins
+## Использование подключаемых модулей
 
-Each plugin has a unique UI defined by its developer. A plugin usually has a set of instructions on how to use it, a set of parameters (text boxes, sliders, checkboxes, etc.), and one or more buttons to execute it.
+Каждый подключаемый модуль имеет уникальный пользовательский интерфейс, определенный его разработчиком. Обычно подключаемый модуль имеет набор инструкций по его использованию, набор параметров (текстовые поля, регуляторы, флажки и т. д.) и одну или несколько кнопок для его выполнения.
 
-As an example, we'll use one of the simpler examples in the Plugin Manager: Fillet 2D Corners. We first load the plugin from the Recommended section of the Plugin Manager. Then, following the instructions provided by the developer, we set the fillet radius, select a group of faces to fillet, and click the Fillet Corners button.
+В качестве примера рассмотрим один из простых примеров в диспетчере подключаемых модулей: Fillet 2D Corners. Сначала загружаем подключаемый модуль из раздела рекомендуемых модулей Диспетчера подключаемых модулей. Затем в соответствии с инструкциями разработчика задаем радиус кривизны, выбираем группу граней для скругления и нажимаем кнопку Fillet Corners (Скруглить углы).
 
 ![](../.gitbook/assets/g4.gif)
 

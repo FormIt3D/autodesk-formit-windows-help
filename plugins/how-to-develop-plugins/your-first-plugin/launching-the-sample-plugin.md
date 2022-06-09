@@ -1,21 +1,19 @@
-# Launching the Sample Plugin
+# Запуск примера подключаемого модуля
 
-### Running the Sample Plugin
+### Запуск примера подключаемого модуля
 
-A sample plugin comes loaded with the Plugin Playground. Click the Play button to run a plugin.
+Пример подключаемого модуля загружается вместе с Plugin Playground. Чтобы запустить подключаемый модуль, нажмите кнопку воспроизведения.
 
-![Step 1](https://formit3d.github.io/PluginPlayground/images/step1.png)
+![Step 1](<../../../.gitbook/assets/run a plugin.png>)
 
+Отобразится подключаемый модуль с 3 числовыми входными данными и кнопкой «Создать блок». Протестируйте подключаемый модуль. При этом будет создан куб на основе заданных входных значений.
 
+### Просмотр и редактирование кода
 
-This will display a plugin with 3 numerical inputs and a Create Block button. Go ahead and test the plugin, which will create a cube based on the provided input values.
+Чтобы увидеть код этого подключаемого модуля, нажмите кнопку «Редактировать».
 
-### Viewing and Editing Code
+![Step2](<../../../.gitbook/assets/edit a plugin.png>)
 
-If you want to see the code behind this plugin, click the Edit button.
-
-![Step2](https://formit3d.github.io/PluginPlayground/images/step2.png)
-
-This will launch a dialog containing all the main pieces of a FormIt plugin: HTML, JavaScript, and CSS.
+Откроется диалоговое окно, содержащее все основные компоненты подключаемого модуля FormIt: HTML, JavaScript и CSS.
 
 ![](<../../../.gitbook/assets/02-view and edit playground code.gif>)

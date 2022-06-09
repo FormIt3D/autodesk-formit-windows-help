@@ -4,7 +4,4 @@
 
 С помощью палитры свойств можно редактировать группу объекта, назначать объект слою и изменять материал объекта.
 
-![](../.gitbook/assets/properties_palette.png)
-
-
-
+![](../.gitbook/assets/properties\_palette.png)

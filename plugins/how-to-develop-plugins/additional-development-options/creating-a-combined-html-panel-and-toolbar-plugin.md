@@ -1,6 +1,6 @@
-# Creating a Combined HTML Panel and Toolbar Plugin
+# Создание комбинированного подключаемого модуля панели HTML и панели инструментов
 
-With a single _manifest.json_, you can initialize both a toolbar and an HTML panel, offering a variety of UI types and tools, all loaded from the same directory.
+С помощью одного файла _manifest.json_ можно инициализировать панель инструментов и панель HTML, предоставляющие различные типы пользовательских интерфейсов и инструменты, которые загружаются из одного каталога.
 
 ```
     {
@@ -22,5 +22,5 @@ With a single _manifest.json_, you can initialize both a toolbar and an HTML pan
         "Panel": "panel.html", <-- Panel entry point
         "PanelIcon": "block.png" <-- Icon for your panel button
     }
-        
+
 ```

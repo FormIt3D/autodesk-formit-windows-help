@@ -1,28 +1,28 @@
-# Debugging
+# Отладка
 
-Debugging a FormIt plugin requires different procedures depending on the engine you are debugging. (For more information on engines check the [previous section](client-side-vs-web-side-engines.md))
+Для отладки подключаемого модуля FormIt требуются различные процедуры в зависимости от типа отлаживаемого модуля. (Дополнительные сведения о модулях см. в [предыдущем разделе](client-side-vs-web-side-engines.md).)
 
-### **Client-Side (FormIt) Debugging**
+### **Отладка клиентского модуля (FormIt)**
 
-To debug in FormIt-side code, which applies to both toolbar- and panel-based plugins, you can add a line in the code to pop the desktop application's built-in JS debugger:
+Для отладки кода на стороне FormIt, который применяется к подключаемым модулям панели инструментов и панели HTML, можно добавить строку в код, чтобы вызывать встроенный в приложение для ПК отладчик JS.
 
 `debugger`
 
 ![](../../../.gitbook/assets/debugger.gif)
 
-### **Web-Side (HTML) Debugging**
+### **Отладка веб-модуля (HTML)**
 
-Panel-based FormIt plugins offer HTML-based UI debugging, since the panels are fundamentally HTML websites with styling and scripts.
+Подключаемые модули панели HTML FormIt обеспечивают отладку пользовательского интерфейса на основе HTML, поскольку панели, по сути, являются веб-сайтами HTML со стилем и сценариями.
 
-To debug HTML-side code for plugins built into a panel, including scripts and styling:
+Для отладки кода на стороне HTML для встроенных в панель подключаемых модулей, включая сценарии и стили, выполните следующее.
 
-* **FormIt for Windows 2021.1 and newer**
-  * Right-click on the plugin HTML page and click "Debug" to display the application's built-in HTML debugger.
+* **FormIt для Windows 2021.1 и более поздних версий**
+   * Щелкните правой кнопкой мыши страницу HTML подключаемого модуля и выберите Debug (Отладка), чтобы отобразить встроенный отладчик HTML приложения.
 
 ![](../../../.gitbook/assets/debugpanelplugin.gif)
 
-* **FormIt for Web**
-  * Use shortcut F12, or Ctrl + Shift+ I, to pull up the browser's HTML debugger.
+* **FormIt для веб-браузера**
+   * Для вызова отладчика HTML браузера используйте клавишу F12 или сочетание клавиш CTRL+SHIFT+I.
 
 ![](../../../.gitbook/assets/debugonweb.gif)
 

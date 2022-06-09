@@ -1,8 +1,6 @@
-# Useful Links
+# API FormIt
 
-## FormIt API
-
-To access FormIt's API documentation use the following links:
+Для доступа к документации по API FormIt используйте следующие ссылки.
 
 * [FormIt Core JS API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html)
 * [FormIt Modeling Kernel (WSM) JS API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html)

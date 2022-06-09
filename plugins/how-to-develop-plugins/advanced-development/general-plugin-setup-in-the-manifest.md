@@ -1,12 +1,12 @@
-# General Plugin Setup in the Manifest
+# Общая настройка подключаемого модуля в файле манифеста
 
-FormIt plugins are composed of a key core component called a _manifest.json_ file.&#x20;
+Подключаемые модули FormIt состоят из базового компонента, называемого файлом _manifest.json_.&#x20;
 
-The manifest file is a [JSON object](http://www.json.org) that tells the FormIt infrastructure what files to fetch and what kind of plugin to create.
+Файл манифеста — это [объект JSON](https://www.json.org/json-ru.html), который сообщает инфраструктуре FormIt, какие файлы нужно извлечь и какой тип подключаемого модуля следует создать.
 
-### Manifest.json Structure and Properties
+### Структура и свойства файла manifest.json
 
-A manifest.json file has the following structure. It has additional properties depending on whether it's a [toolbar-based](../additional-development-options/creating-a-toolbar-based-plugin.md) or an [HTML panel-based plugin](../additional-development-options/creating-an-html-panel-plugin.md).
+Файл manifest.json имеет следующую структуру. Он также имеет дополнительные свойства в зависимости от того, является ли он подключаемым модулем [панели инструментов](../additional-development-options/creating-a-toolbar-based-plugin.md) или [панели HTML](../additional-development-options/creating-an-html-panel-plugin.md).
 
 ```
 {
@@ -22,17 +22,17 @@ A manifest.json file has the following structure. It has additional properties d
 }               
 ```
 
-A typical plugin includes these JSON properties:
+Типичный подключаемый модуль содержит следующие свойства JSON.
 
-* "PluginName" represents the name of the plugin for internal and most display purposes, including for the [Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
-* "PluginType" represents the type of the plugin, letting users know in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) description what to look for when they install the plugin.
-* "PluginDescription" is displayed in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) to communicate the plugin's capabilities.
-* "Scripts" lists the required external scripts associated with the plugin that will be loaded into the FormIt application and can be executed when plugin functionality is invoked.
+* PluginName представляет имя подключаемого модуля для внутренних целей и большинства задач отображения, включая [Диспетчер подключаемых модулей.](../../how-to-use-plug-ins.md#plugin-manager)
+* PluginType представляет тип подключаемого модуля. Благодаря этому свойству пользователи, просматривающие описание в [Диспетчере подключаемых модулей](../../how-to-use-plug-ins.md#plugin-manager), могут узнать, на что следует обратить внимание при установке подключаемого модуля.
+* PluginDescription отображается в [Диспетчере подключаемых модулей](../../how-to-use-plug-ins.md#plugin-manager) и содержит сведения о возможностях подключаемого модуля.
+* Scripts перечисляет необходимые внешние сценарии, связанные с подключаемым модулем, которые будут загружаться в приложение FormIt и могут выполняться при вызове функций подключаемого модуля.
 
 ![](<../../../.gitbook/assets/image (5).png>)
 
-Start your plugin development by creating a manifest.json file in your plugin folder. Next, you'll need to decide whether you are making a toolbar-based or panel-based plugin.
+Чтобы начать разработку подключаемого модуля, создайте файл manifest.json в папке подключаемого модуля. Далее необходимо решить, какой из подключаемых модулей вы создаете: модуль панели инструментов или модуль панели HTML.
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
-**Note:** The use of PLUGINLOCATION throughout the manifest.json file above is essential and is case sensitive. FormIt will replace PLUGINLOCATION with the server location for the plugin.
+**Примечание.** Параметр PLUGINLOCATION в файле manifest.json имеет важное значение и чувствителен к регистру. FormIt заменяет PLUGINLOCATION на местоположение сервера для подключаемого модуля.

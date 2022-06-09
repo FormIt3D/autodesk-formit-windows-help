@@ -1,31 +1,31 @@
-# Publishing Your Project
+# Публикация проекта
 
-### Publishing from the Plugin Playground
+### Публикация из Plugin Playground
 
-When you’re ready to share your plugin with others, use the Publish![](<../../../.gitbook/assets/image (66).png>)button to publish your project.
+Если вы готовы поделиться своим подключаемым модулем с другими пользователями, используйте кнопку «Публикация» ![] (<../../../.gitbook/assets/image (66).png>) для публикации проекта.
 
-![](https://formit3d.github.io/PluginPlayground/images/save4.png)
+![](<../../../.gitbook/assets/publish a plugin.png>)
 
 ###
 
-### Hosting Your Plugin on GitHub
+### Размещение подключаемого модуля на GitHub
 
-Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+Активируйте страницы GitHub в своем хранилище, чтобы FormIt мог загружать и отображать ваши подключаемые модули, размещенные на GitHub.
 
-Go to your new [GitHub ](https://github.com)plugins repo, for example, [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn)
+Перейдите в новое хранилище подключаемых модулей [GitHub](https://github.com), например [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn).
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+В верхнем меню выберите Settings > Pages («Параметры» > «Страницы»). В разделе Source (Источник) нажмите кнопку None (Нет) и выберите основную ветвь. Нажмите Save (Сохранить).
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
-### Deploying Your Plugin in FormIt&#x20;
+### Развертывание подключаемого модуля в FormIt
 
-To use a plugin hosted on GitHub, copy the plugin page link, go to the Plugin Manager and scroll to the bottom, and paste the link in the field under Add Your Private or Local Plugin. Then click the Add ![](<../../../.gitbook/assets/image (58).png>) button.
+Чтобы использовать подключаемый модуль, размещенный на GitHub, скопируйте ссылку на страницу подключаемого модуля, перейдите в Диспетчер подключаемых модулей и прокрутите список вниз, а затем вставьте ссылку в поле в разделе «Добавить личный или локальный подключаемый модуль». Затем нажмите кнопку «Добавить» ![] (<../../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (80).png>)
 
 ![](<../../../.gitbook/assets/image (85).png>)
 
-Once the plugin is installed, it will be added to the bottom of your toolbar, ready to use.
+После установки подключаемого модуля он будет добавлен в нижнюю часть панели инструментов и готов к использованию.
 
 ![](<../../../.gitbook/assets/image (38).png>)

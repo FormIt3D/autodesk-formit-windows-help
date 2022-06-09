@@ -1,63 +1,62 @@
-# Hosting a Plugin on a Local Server
+# Размещение подключаемого модуля на локальном сервере
 
-Before you can preview a cloned plugin in FormIt, you need to host it on a local server.
+Перед просмотром клонированного подключаемого модуля в FormIt его необходимо разместить на локальном сервере.
 
-### **View the Terminal in IDE**
+### **Просмотр терминала в IDE**
 
-You have the option of starting the server inside Visual Studio Code, instead of a separate terminal window. **** Before opening a terminal, make sure the right folder is opened in Visual Studio Code.
+Сервер можно запустить в Visual Studio Code, а не в отдельном окне терминала. \*\*\*\* Перед открытием терминала убедитесь, что в Visual Studio Code открыта нужная папка.
 
-View > Terminal (or shortcut Ctrl + \`)
+«Вид» > «Терминал» (или сочетание клавиш CTRL + \`)
 
 ![](<../../../.gitbook/assets/image (11).png>)
 
-### Set Up an HTTP Server
+### Настройка сервера HTTP
 
-An HTTP server that works well is npm's [http-server](https://www.npmjs.com/package/http-server).
+Хорошо работающим сервером HTTP является [http-server](https://www.npmjs.com/package/http-server) от npm.
 
-First, you will need to download and install [NodeJS](https://nodejs.org/en/), if it's not already installed.
+Сначала скачайте и установите среду выполнения [NodeJS](https://nodejs.org/ru/), если она еще не установлена.
 
-If you encounter errors in the following steps, try restarting your computer to complete the NodeJS installation.
+Если при выполнении следующих действий возникают ошибки, попробуйте перезагрузить компьютер, чтобы завершить установку NodeJS.
 
-In the Command Prompt, enter the following to install npm's _http-server_ globally (a one-time setup).
+В командной строке введите следующее для глобальной установки сервера _http-server_ от npm (единовременная установка).
 
 * `npm install http-server -g`
 
 ![](<../../../.gitbook/assets/image (47).png>)
 
-### Start the Local Server
+### Запуск локального сервера
 
-Once the setup is complete, run the following command in the terminal to start your npm http-server:
+После завершения установки выполните следующую команду на терминале, чтобы запустить сервер HTTP от npm.
 
 * `http-server`
 
 ![](<../../../.gitbook/assets/image (84).png>)
 
-Tip 1: In case of any issues with running the http-server (installed globally or locally), it may be helpful to run it directly via npx:
+Совет 1. В случае возникновения проблем с запуском сервера HTTP (глобально или локально) его можно запустить непосредственно через npx.
 
 * `npx http-server`
 
-Tip 2: For Windows 10/11 users, if you encounter an error when running a script on your new machine, this may be due to the settings being disabled. To fix this:
+Совет 2. Пользователи Windows 10 и 11 могут сталкиваться с ошибкой при запуске сценария на новом компьютере из-за отключенных параметров. Чтобы исправить проблему, выполните следующие действия.
 
-* Launch PowerShell script as an administrator&#x20;
-* Enter: `Set-ExecutionPolicy RemoteSigned`&#x20;
+* Запустите сценарий PowerShell от имени администратора.
+* Введите: `Set-ExecutionPolicy RemoteSigned`
 
-### Develop for FormIt Web
+### Разработка для FormIt Web
 
-To develop for FormIt Web, simply run the following command instead:
+Чтобы выполнить разработку для FormIt Web, просто выполните следующую команду.
 
 * `http-server --cors`
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-### Verify Your Server
+### Проверка сервера
 
-You can verify your server by navigating to the following address in your web browser:&#x20;
+Для проверки сервера можно перейти по указанному ниже адресу в веб-браузере.
 
 * http://localhost:8080
 
-You should see your project folder files in the browser window.
+Файлы папки проекта должны отображаться в окне браузера.
 
-\*\*If you use a different web server than npm, the default address/port might be different.
+\*\*Если используется веб-сервер, отличный от npm, адрес/порт по умолчанию может быть другим.
 
 ![](<../../../.gitbook/assets/image (41).png>)
-

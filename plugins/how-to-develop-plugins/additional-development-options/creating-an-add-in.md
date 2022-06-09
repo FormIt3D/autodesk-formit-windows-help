@@ -1,14 +1,14 @@
-# Creating an Add-In
+# Создание надстройки
 
-An Add-In is a plugin that also loads DLLs that expose new JavaScript APIs.&#x20;
+Надстройка — это подключаемый модуль, который также загружает библиотеки DLL, предоставляющие новые API-интерфейсы JavaScript.&#x20;
 
 
 
-### Download FormIt API
+### Загрузка API FormIt
 
-To build DLLs that support FormIt, the FormIt API is needed. The FormIt API can be downloaded from the [Autdesk Developers Network](https://www.autodesk.com/developer-network/overview). A login is needed to access the download.&#x20;
+Для создания файлов DLL, поддерживающих FormIt, требуется API FormIt. API FormIt можно скачать с веб-сайта [Autodesk Developers Network](https://www.autodesk.com/developer-network/overview). Для доступа к разделу загрузок необходимо войти в систему.&#x20;
 
-Once logged in, the FormIt API is available under SOFTWARE.
+После входа в систему интерфейс API FormIt будет доступен в разделе «ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ».
 
 &#x20;
 
@@ -16,9 +16,9 @@ Once logged in, the FormIt API is available under SOFTWARE.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FormItAPIMenuItem.jpg)
 
-An Add-In has access to the [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) and [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+Надстройка имеет доступ к [API FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) и [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
 
-An add-in has the following structure:
+Надстройка имеет следующую структуру.
 
 ```
             // FormIt looks for REGISTERAPIMETHODS to load new JS APIs
@@ -35,10 +35,10 @@ An add-in has the following structure:
                 ...
                 ...
             }
-        
+
 ```
 
-To get the arguements into C++ variables use SCRIPTCONVERTER-
+Чтобы получить аргументы в переменные C++, используйте SCRIPTCONVERTER-
 
 ```
             // Create a JS API with 2 argument
@@ -51,10 +51,10 @@ To get the arguements into C++ variables use SCRIPTCONVERTER-
                 SCRIPTCONVERTER(int, arg2);
                 return JSON_UNDEFINED;
             }
-        
+
 ```
 
-Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to convert your C++ variable to json
+Может быть возвращен либо JSON\_UNDEFINED, либо любой объект JSON. Для преобразования переменной C++ в JSON используйте to\_json
 
 ```
             // Create a JS API with 2 argument
@@ -69,16 +69,16 @@ Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to conve
                 std::string myValue = "Test";
                 return to_json(myValue);
             }
-        
+
 ```
 
-Once the DLL is defining all the needed JS APIs, the plugin must tell FormIt what DLLs need loaded. This is done in the [manifest](https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8).
+Когда DLL определит все необходимые API-интерфейсы JS, подключаемый модуль должен сообщить FormIt, какие файлы DLL должны быть загружены. Это выполняется в файле [manifest](https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8).
 
 ```
         "DLLs" : ["PLUGINLOCATION/MyClass.dll", "PLUGINLOCATION/HelloDLL.dll"]
-        
+
 ```
 
-[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) is a working example that explains how to make an Add-In.
+[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) — это рабочий пример, в котором описывается процедура создания надстройки.
 
-[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) is a working example that explains how to make an Add-In with the [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) — это рабочий пример, в котором описывается процедура создания надстройки с помощью [API-интерфейса ядра моделирования FormIt на базе C++](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).

@@ -1,27 +1,27 @@
-# Client-Side vs Web-Side Engines
+# Сравнение клиентских и веб-модулей
 
-FormIt plugins utilize two distinct JavaScript engines:&#x20;
+В подключаемых модулях FormIt используются два разных модуля JavaScript.&#x20;
 
-* The panel displaying the HTML (Web-Side)
-* The Client-side (FormIt) makes calls to FormIt and its geometry kernel.&#x20;
+* Панель, на которой отображается HTML (веб-модуль).
+* Клиентский модуль (FormIt) отправляет вызовы в FormIt и его ядро геометрии.&#x20;
 
-These two JavaScript engines work in distinct processes.
+Два этих модуля JavaScript работают в разных процессах.
 
-## **Client-Side (FormIt) vs Web-Side (HTML)**
+## **Сравнение клиентских (FormIt) и веб-модулей (HTML)**
 
-FormIt runs multiple JavaScript engines simultaneously:
+FormIt одновременно запускает несколько модулей JavaScript.
 
-* The FormIt application has its own JavaScript engine
-* Each plugin Toolbar has its own JavaScript engine.
-* Each plugin Panel has its own JavaScript engine (Chromium)
+* В приложении FormIt имеется собственный модуль JavaScript.
+* Каждая панель инструментов для подключаемого модуля содержит собственный модуль JavaScript.
+* Каждая панель подключаемого модуля имеет собственный модуль JavaScript (Chromium).
 
-Plugins can specify where the JavaScript is loaded:
+Подключаемые модули позволяют указывать место загрузки JavaScript.
 
 ![](../../../.gitbook/assets/d14.png)
 
-### Client-Side (FormIt)
+### Клиентский модуль (FormIt)
 
-Specified using [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8)
+Указывается с помощью файла [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8)
 
 ```
     "Scripts": [
@@ -31,18 +31,18 @@ Specified using [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins
 
 ```
 
-### Web-side (HTML)
+### Веб-модуль (HTML)
 
-Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7)
+Указывается с помощью файла [index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7)
 
-* Web-side scripts are loaded from the web page.
-* Web-side scripts can call into the Client-Side (FormIt) JavaScript using multiple async calls.
+* Сценарии для веб-модуля загружаются с веб-страницы.
+* Сценарии для веб-модуля могут вызывать JavaScript клиентского модуля (FormIt) путем нескольких асинхронных вызовов.
 
-## Three methods to call Client-side (FormIt) commands from a Web-based plugin:
+## Ниже приведены три метода вызова команд клиентского модуля (FormIt) из подключаемого веб-модуля.
 
-### Method 1: FormItInterface.CallMethod
+### Метод 1. FormItInterface.CallMethod
 
-`CallMethod` takes a function name and the arguments that will run on the FormIt Side.  The passed-in function will be called with the result of the function call.
+`CallMethod` получает имя функции и аргументы, которые будут выполняться в модуле FormIt. Переданная функция будет вызвана, результатом чего будет вызов функции.
 
 ```
     var args = {
@@ -56,23 +56,23 @@ Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/bl
     });
 ```
 
-**Pros:**&#x20;
+**Преимущества**&#x20;
 
-➕ No`await` needed.&#x20;
+➕  `await` не требуется.&#x20;
 
-**Cons:**&#x20;
+**Недостатки**&#x20;
 
-➖ A callback is needed to get the result and is called “who knows when”.&#x20;
+➖ Чтобы получить результат, требуется обратный вызов. Он называется «кто знает, когда».&#x20;
 
-➖ Scripts are defined in two different places.&#x20;
+➖ Определение сценариев выполняется в двух разных местах.&#x20;
 
-➖ Requires plugin logic to be split into two different files.
+➖ Логика подключаемого модуля должна быть разделена на два разных файла.
 
-### **Method 2: FormIt.CallJS**&#x20;
+### **Метод 2. FormIt.CallJS**&#x20
 
-**\*Available in FormIt 2022.1 and newer only**
+**\*Доступно только в FormIt 2022.1 и более поздних версиях**
 
-CallJS takes the JavaScript function to be called on the FormIt Side and the arguments.json object.
+CallJS использует функцию JavaScript, вызываемую на стороне FormIt, и объект arguments.json.
 
 ```
 var args =
@@ -85,45 +85,45 @@ var result = await FormIt.CallJS("CreateBlock", args);
 
 ```
 
-**Pros:**&#x20;
+**Преимущества**&#x20;
 
-➕ The result is available when needed
+➕ Результат доступен, когда он необходим.
 
-**Cons:**&#x20;
+**Недостатки**&#x20;
 
-➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.
+➖ **** Необходимо специально выделять все асинхронные вызовы с помощью операторов ожидания. Если о них забыть, возникают серьезные проблемы.
 
-➖ **** Potentially slower due to `await`
+➖ **** Может потребоваться больше времени из-за `await`.
 
-### **Method 3 (async/await)**
+### **Метод 3 (асинхронный/ожидание)**
 
 ```
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-With an async call, the Web Side calls the FormIt Side. This call starts in one process, sent to another process, then the result is passed back to the starting process. This is why await is needed.&#x20;
+При асинхронном вызове веб-модуль вызывает модуль FormIt. Этот вызов начинается в одном процессе и передается в другой процесс, а затем результат передается назад в начальный процесс. Вот почему требуется оператор ожидания.&#x20;
 
-Only built-in FormIt APIs can be called by default.
+По умолчанию можно вызывать только встроенные API-интерфейсы FormIt.
 
-**Pros:**&#x20;
+**Преимущества**&#x20;
 
-➕ The result is available when needed.&#x20;
+➕ Результат доступен, когда он необходим.&#x20;
 
-➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
+➕ Позволяет объединить весь код в один файл JS, запускаемый из веб-модуля. В файле manifest.json сценарии не определяются.
 
-**Cons:**&#x20;
+**Недостатки**&#x20;
 
-➖ **** Have to decorate all the async calls with `await`, forgetting to do so will mess things up.&#x20;
+➖ **** Необходимо специально выделять все асинхронные вызовы с помощью `await`. Если о них забыть, возникают серьезные проблемы.&#x20;
 
-➖ **** Potentially slower due to `await.`
+➖ **** Может потребоваться больше времени из-за `await.`.
 
-### Method 4 (RegisterAsyncAPI)&#x20;
+### Метод 4 (RegisterAsyncAPI)&#x20;
 
-**\*Available in FormIt 2023.0 and newer only**&#x20;
+**\*Доступно только в FormIt 2023.0 и более поздних версиях**&#x20;
 
-To call a user defined function on the FormIt Side, the function needs to be registered. For example:&#x20;
+Чтобы вызвать пользовательскую функцию на стороне FormIt, эту функцию необходимо зарегистрировать. Пример&#x20;
 
-**Client-Side (FormIt)**
+**Клиентский модуль (FormIt)**
 
 ```
 FormIt.RegisterAsyncAPI("HelloBlockAsync", "CreateBlock", "l, w, h");
@@ -134,24 +134,24 @@ HelloBlockAsync.CreateBlock = function(args)
 }
 ```
 
-**Web-Side (HTML)**
+**Веб-модуль (HTML)**
 
 ```
 var result = await HelloBlockAsync.CreateBlock(l, w, h);
 ```
 
-See [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0)  for an example.
+См. пример в разделе [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0).
 
-**Pros:**&#x20;
+**Преимущества**&#x20;
 
-➕ The result is available when needed.&#x20;
+➕ Результат доступен, когда он необходим.&#x20;
 
-➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
+➕ Позволяет объединить весь код в один файл JS, запускаемый из веб-модуля. В файле manifest.json сценарии не определяются.
 
-**Cons:**&#x20;
+**Недостатки**&#x20;
 
-➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.&#x20;
+➖ **** Необходимо специально выделять все асинхронные вызовы с помощью операторов ожидания. Если о них забыть, возникают серьезные проблемы.&#x20;
 
-➖ **** Potentially slower due to `await.`
+➖ **** Может потребоваться больше времени из-за `await.`.
 
 ##

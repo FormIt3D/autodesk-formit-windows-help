@@ -1,42 +1,42 @@
-# Properties Plus Plugin
+# Подключаемый модуль Properties Plus
 
-_This plugin is a more featured version of the standard_ _**Properties Palette**. If you select multiple groups and/or types of geometry, this plugin will provide you with a breakdown of what has been selected, as well as allow for the bulk renaming of groups and group instances._
+_Этот подключаемый модуль представляет собой расширенную версию стандартной_ _**палитры свойств**. Если выбрано несколько групп и/или типов геометрии, этот подключаемый модуль предоставляет детализацию выбранных элементов, а также позволяет выполнять групповое переименование групп и экземпляров групп._
 
-1 **-** First we will look at the properties of a door group from our main model. Re-open **Encode Campus Sample Model.axm** and go back to the **Eye Level – Long Alley** scene. To start utilizing the **Properties Plus** plugin:
+1 **-** Сначала изучите свойства группы дверей в главной модели. Еще раз откройте файл **Encode Campus Sample Model.axm** и вернитесь к сцене **Eye Level — Long Alley**. Для начала работы с подключаемым модулем **Properties Plus** выполните следующие действия.
 
-1. Open the **Properties Plus Palette** by clicking on the property with a ‘plus’ symbol icon.
-2. Make sure that **Update on Selection Change** is checked.
-3. Select one of the double glass door groups, named **Door**, on the right side of the alley.
-4. Under the **Selection Count** area, **Total Objects** tells us that we have one (**1**) object selected.
-5. Just below that we can find more information on what types of objects have been selected. In this case, there is one (**1**) group selected, but that group has four (**4**) instances somewhere in the model.
+1. Откройте **палитру Properties Plus**, щелкнув свойство со значком «плюс».
+2. Убедитесь, что установлен флажок **Update on Selection Change**.
+3. Выберите одну из групп дверей с двойным остеклением под названием **Door** с правой стороны аллеи.
+4. В области **Selection Count** в поле **Total Objects** указано, что выбран 1 (**один**) объект.
+5. Ниже можно найти дополнительную информацию о типах выбранных объектов. В данном случае выбрана 1 (**одна**) группа, а 4 (**четыре**) экземпляра из этой группы находятся где-то в модели.
 
 ![](<../../.gitbook/assets/10 (2) (1).png>)
 
-_**Note:**_ _Checking the number of instances of the selected group can be very handy to prevent accidentally changing multiple elements when you actually only wanted to change the selected element, but forgot to make it unique first._
+_**Примечание.**_ _Проверка количества экземпляров выбранной группы позволяет предотвратить случайное изменение нескольких элементов, если требовалось изменить только выбранный элемент, но вы забыли сделать его уникальным._
 
-2 - This plugin allows us to edit a group or group instance’s name without having to go into group edit mode, and rename multiple instances at once. As we learned previously, every group has a name, but every instance of that group can also have a unique ‘instance’ name. Since there will most likely be many types of doors in this model, we want to give this group, and some of its instances, more specific names.
+2 - Этот подключаемый модуль позволяет редактировать имя группы или экземпляра группы без перехода в режим редактирования группы и переименовывать несколько экземпляров одновременно. Как вы уже знаете, у каждой группы есть имя, но каждый экземпляр этой группы может иметь собственное уникальное имя. Поскольку в модели, скорее всего, будет много типов дверей, необходимо присвоить этой группе и некоторым ее экземплярам более конкретные имена.
 
-1. With the first glass **Door** group still selected, add another **Door** group to your current selection by holding **Shift** or **Ctrl** and single-clicking on the other double glass **Door** group near the first.
-2. Notice that now, the **Properties Plus Palette** has updated its **Selection Count** to show that there are two (**2**) instances selected, but still only one (**1**) unique **Family** (AKA group) selected. (Even though this plugin is using the term **Family**, which should be familiar to Revit users, in this context it means the same thing as a FormIt group.)
-3. Under the **Group Family** area, update the **Name** field to be **Doors – Double Glass Storefront**. This will update the name group’s name for all instances, no matter where they are or whether they are currently selected or not, without having to double-click and edit the group.
-4. Since these two instances are both doors into the Groove Coffee area, lets rename just these two instances by entering **Groove Coffee Door** into the **Name** field under the **Multiple Group Instances** area.
+1. Не отменяя выбор первой группы остекленных **дверей**, добавьте к ним еще одну группу **дверей**, нажав и удерживая клавишу **SHIFT** или **CTRL** и один раз щелкнув другую группу **дверей** с двойным остеклением, расположенную рядом с первой.
+2. Обратите внимание, что на **палитре Properties Plus** было обновлено значение параметра **Selection Count**: теперь выбрано 2 (**два**) экземпляра, но только 1 (**одно**) уникальное **семейство** (группа). (Хотя в этом подключаемом модуле используется термин **семейство**, который должен быть знаком пользователям Revit, в данном контексте он означает то же самое, что и группа FormIt.)
+3. В области **Group Family** измените значение в поле **Name** на **Doors — Double Glass Storefront**. После этого имя группы будет обновлено для всех экземпляров независимо от их местонахождения и от того, выбраны ли они в данный момент \(не нужно дважды щелкать мышью и редактировать группу\).
+4. Так как оба экземпляра представляют собой двери в области кофейни Groove Coffee, переименуйте их, введя **Дверь Groove Coffee** в поле **Name** в области **Multiple Group Instances**.
 
-**Note:** In the standard **Properties Palette**, there is no way to rename multiple instances of a group at once. This can be extremely handy when you want to rename tens or hundreds of instances with the same name at once.
+**Примечание.** На стандартной **палитре свойств** невозможно переименовать несколько экземпляров группы одновременно. Это может быть очень удобно, если требуется переименовать несколько десятков или сотен экземпляров с одинаковым именем.
 
 ![](<../../.gitbook/assets/11 (6) (1).png>)
 
-_**Note:**_ _If you mouse leaves the palette, you will no longer be able to edit the selected textbox. This is true for all palettes, so make sure to keep your cursor within the palette boundary while editing anything inside of a palette._
+_**Примечание.**_ _Если указатель выходит за границы палитры, редактирование выбранного текстового поля становится невозможным. Это касается всех палитр, поэтому при редактировании любых объектов внутри палитры следует удерживать указатель в границах палитры._
 
-3 - Now if you select a Groove Coffee glass door or a different glass door and look at their properties in the regular **Properties Palette**, you will see that the name of the **Group** has been updated for every instance, but only the Groove Coffee doors have their instance **Name** property updated from its default value.
+3 - Если теперь выбрать стеклянную дверь Groove Coffee или другую стеклянную дверь и просмотреть их свойства на обычной **палитре свойств**, можно увидеть, что имя в поле **Группа** обновлено для каждого экземпляра. При этом значение по умолчанию свойства **Имя** экземпляра было обновлено только для дверей Groove Coffee.
 
 ![](<../../.gitbook/assets/12 (3) (1).png>)
 
-4 - Finally, let’s look at how this plugin sorts different types of elements:
+4 - Наконец, посмотрите, как с помощью этого подключаемого модуля можно сортировать различные типы элементов.
 
-1. Quickly draw a **Line (L)**, **Rectangle (R)**, and **Cube (Alt + B)** anywhere you would like in the model. These will be temporary, so their precise location is not important.
-2. Re-open the **Properties Plus Palette** if it was closed, and then press **Crtl + A** to select all visible elements in the model.
-3. Look in the **Selection Count** area, and notice that the selected elements are separated into **Edges** (lines), **Faces**, **Bodies**, (3D shapes made of faces and edges, like the cube)**,** **Groups**, and more.
+1. Нарисуйте **линию (L)**, **прямоугольник (R)** и **куб (ALT+B)** в любом месте модели. Так как это временные фигуры, их точное расположение не имеет значения.
+2. Откройте **палитру Properties Plus**, если она была закрыта, и нажмите клавиши **CRTL + A**, чтобы выбрать все видимые элементы модели.
+3. Обратите внимание, что в области **Selection Count** элементы разделены на категории **Edges** (линии), **Faces**, **Bodies** (3D-формы, состоящие из граней и ребер, такие как куб)**,** **Groups** и т. п.
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
-_**Note:**_ _This plugin also detects_ _**Vertices**, which can be created using another plugin called_ _**Generate Vertex**. If you would like to experiment, install the_ _**Generate Vertex Plugin**_ _and repeat the steps above._
+_**Примечание.**_ _Этот подключаемый модуль также определяет_ _**вершины**, которые можно создать с помощью подключаемого модуля_ _**Generate Vertex**. Для эксперимента можно установить_ _**подключаемый модуль Generate Vertex**_ _и повторить шаги, описанные выше._

@@ -1,22 +1,22 @@
-# Versioning
+# Управление версиями
 
-As you develop and update your plugin, at some point, you may need to version the code.
+В процессе разработки и обновления подключаемого модуля может потребоваться присвоить коду номер версии.
 
-For example, FormIt's APIs may change between releases, and while you may want the new version of your plugin to use new FormIt or WSM APIs, you'd also like to keep the plugin working in older clients.
+Например, API-интерфейсы FormIt могут меняться от версии к версии. И хотя вы можете предпочитать, чтобы новая версия подключаемого модуля использовала новые API-интерфейсы FormIt или WSM, вам также может понадобиться, чтобы подключаемый модуль работал и в более старых клиентах.
 
-Starting with FormIt **v18.0**, you can implement versioning for your plugin in 3 simple steps:
+Начиная с версии FormIt **v18.0**, управление версиями подключаемого модуля можно реализовать за 3 простые действия.
 
-* Add a _versions.json_ file to the root of your plugin directory
-* Specify each compatible FormIt version, and the directory containing those plugin files, in _versions.json_
-* Use the FormIt internal version number, or "Build Number", found in FormIt under Info > About.
+* Добавьте файл _versions.json_ в корневую папку подключаемого модуля.
+* Укажите каждую совместимую версию FormIt и каталог, содержащий файлы подключаемых модулей, в файле _versions.json_.
+* Используйте внутренний номер версии FormIt или «номер сборки», который можно найти в разделе «Информация» > «О программе» FormIt.
 
 
 
-### How to organize versioning for your plugin
+### Организация управления версиями для подключаемого модуля
 
-Organize your plugin files and directories to match _versions.json_
+Упорядочьте каталоги и файлы подключаемых модулей в соответствии с файлом _versions.json_.
 
-Your _versions.json_ should look like this:
+Файл _versions.json_ должен выглядеть следующим образом.
 
 ```
         [
@@ -35,10 +35,10 @@ Your _versions.json_ should look like this:
                 "path":"v19_0"
             }
         ]
-        
+
 ```
 
-The above paths _v18\_0_ and _v19\_0_ must be valid subpaths from the root of your directory/repository.
+Указанные выше пути _v18\_0_ и _v19\_0_ должны быть допустимыми вложенными путями из корневого каталога/хранилища.
 
 ![](../../../.gitbook/assets/i1.png)
 
@@ -46,22 +46,22 @@ The above paths _v18\_0_ and _v19\_0_ must be valid subpaths from the root of yo
 
 ![](../../../.gitbook/assets/i3.png)
 
-A great way to handle this is to move your plugin code into subdirectories. Using the above _versions.json_, a directory structure would look like this:
+Для этого рекомендуем перенести код подключаемого модуля во вложенные папки. При использовании указанного выше файла _versions.json_ структура каталогов будет выглядеть следующим образом.
 
-* **versions.json** (file)
-*   **v18\_0** (directory)
+* **versions.json** (файл)
+* **v18\_0** (каталог)
 
-    * **manifest.json** (file)
-    * **plugin.html** (file)
-    * **plugin.js** (file)
+   * **manifest.json** (файл)
+   * **plugin.html** (файл)
+   * **plugin.js** (файл)
 
 
-* **v19\_0** (directory)
-  * **manifest.json** (file)
-  * **plugin.html** (file)
-  * **plugin.js** (file)
+* **v19\_0** (каталог)
+   * **manifest.json** (файл)
+   * **plugin.html** (файл)
+   * **plugin.js** (файл)
 
-Optional properties on version are "exactVersion" and "lastVersion". "exactVersion" indicates the version has to match FormIt's version exactly. "lastVersion" indicates the last version allowed to run in FormIt.\
+Дополнительными свойствами версии являются exactVersion и lastVersion. Свойство exactVersion указывает, что версия должна точно соответствовать версии FormIt. Свойство lastVersion указывает последнюю версию, разрешенную для выполнения в FormIt. \
 
 
 ```
@@ -85,10 +85,10 @@ Optional properties on version are "exactVersion" and "lastVersion". "exactVersi
  ]
 ```
 
-It's also possible to use git branches/tags/commits for your paths.
+Для путей также можно использовать ветви/теги/фиксации GIT.
 
-If you're working with a pre-release or beta build of FormIt, and would like to test changes to a plugin that only works with the pre-release version:
+Если вы работаете с предварительной или бета-сборкой FormIt и хотите проверить изменения в подключаемом модуле, который работает только с предварительной версией, выполните следующие действия.
 
-* Follow the steps above, except using the filename _versions\_prerelease.json_
-* If you commit _versions\_prerelease_ to your repo, you'll want to remove it when that pre-release version of FormIt is released
-  * Otherwise, future pre-release FormIt versions will be loading the plugin from a location that could be stale or intended for an older version
+* Выполните описанные выше действия, за исключением использования файла _versions\_prerelease.json_.
+* Если вы зафиксировали файл _versions\_prerelease_ в хранилище, его необходимо удалить после выпуска этой предварительной версии FormIt.
+   * В противном случае последующие предварительные версии FormIt будут загружать подключаемый модуль из папки, которая может быть устаревшей или предназначенной для более ранней версии.

@@ -1,16 +1,15 @@
-# Reloading for Local Changes
+# Повторная загрузка для локальных изменений
 
-While developing a plugin you may need to quickly reload your latest code updates without reloading the whole app. This can be achieved in both web and windows versions of FormIt without reloading the whole app.
+При разработке подключаемого модуля может потребоваться быстрое обновление кода без перезагрузки всего приложения. Это можно сделать в веб-версии FormIt и в версии для Windows без перезагрузки всего приложения.
 
-## Web Reloading
+## Перезагрузка веб-версии
 
-💡 **** To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`&#x20;
+?? Чтобы перезагрузить подключаемый модуль в версии FormIt для браузера, щелкните правой кнопкой мыши код HTML подключаемого модуля и нажмите `Reload Frame`.
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
-## Windows Reloading
+## Перезагрузка версии для Windows
 
-💡 **** To reload your plugin in FormIt windows right-click on the plugin's HTML and click on `Hard Reload` &#x20;
+?? Чтобы перезагрузить подключаемый модуль в версии FormIt для ОС Windows, щелкните правой кнопкой мыши код HTML подключаемого модуля и нажмите `Hard Reload`.
 
 ![](../../../.gitbook/assets/d18.png)
-

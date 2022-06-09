@@ -1,21 +1,21 @@
-# FormIt Plugin Community
+# Сообщество пользователей подключаемых модулей FormIt
 
 ![](../../.gitbook/assets/C21.PNG)
 
-## Looking for Plugins?
+## Ищете подключаемые модули?
 
-If you are looking for some ideas to develop your FormIt plugin, check out some of these examples:
+Если вам нужны идеи по разработке подключаемого модуля FormIt, ознакомьтесь с приведенными ниже примерами.
 
-* [Community plugins](https://github.com/topics/formit-plugin): Plugins developed by FormIt users and developers.
-* [Plugins recommended by FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): Plugins developed by the community and recommended by FormIt team.
-* [Plugins from FormIt](https://github.com/FormIt3D): Official Plugins developed by FormIt team.
+* [Подключаемые модули от сообщества](https://github.com/topics/formit-plugin): подключаемые модули, созданные пользователями и разработчиками FormIt.
+* [Подключаемые модули, рекомендуемые командой FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): подключаемые модули, разработанные сообществом и рекомендуемые специалистами FormIt.
+* [Подключаемые модули от команды FormIt](https://github.com/FormIt3D): официальные подключаемые модули, разработанные специалистами FormIt.
 
-## Want FormIt to feature your plugin?
+## Хотите, чтобы команда FormIt признала ваш подключаемый модуль?
 
-If you have developed a plugin that would be useful for other FormIt users, we would love to hear more about it, so please let us know, we will review it and consider adding it **formit-plugin-recommended** list or feature it as [examples](./) in our primer.&#x20;
+Если вы разработали подключаемый модуль, который может быть полезен другим пользователей FormIt, мы хотели бы узнать о нем побольше. Расскажите нам о своем модуле. Мы проверим его и рассмотрим возможность его добавления в список **formit-plugin-recommended** или использования в качестве [примера](./) в нашем руководстве.&#x20;
 
 
 
-### Help from FormIt and the community
+### Помощь специалистов FormIt и сообщества
 
-Having issues building or running plugins? [Reach out to us!](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
+Возникли проблемы при разработке или запуске подключаемых модулей? [Обратитесь к специалистам!](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ru)

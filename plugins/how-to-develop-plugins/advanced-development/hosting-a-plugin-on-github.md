@@ -1,41 +1,37 @@
-# Hosting a Plugin on GitHub
+# Размещение подключаемого модуля в GitHub
 
-Have you built a useful plugin that you want to share? Host your repository on GitHub so that others can install your plugin from the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager)!
+Создали полезный подключаемый модуль и хотите им поделиться? Разместите свое хранилище на GitHub, чтобы другие пользователи могли установить ваш подключаемый модуль с помощью [Диспетчера подключаемых модулей](../../how-to-use-plug-ins.md#plugin-manager).
 
-### Host Your Plugin Project
+### Размещение проекта подключаемого модуля
 
-This process is similar to an earlier chapter where we discuss how to [publish your plugin](../your-first-plugin/publishing-your-project.md) created in the Plugin Playground. &#x20;
+Этот процесс аналогичен процессу, представленному в одной из предыдущих глав, где рассматривается [публикация подключаемого модуля](../your-first-plugin/publishing-your-project.md), созданного в Plugin Playground.
 
-Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlugins
+Перейдите в новое хранилище подключаемых модулей GitHub, например по адресу https://github.com/Joe/JoesPlugins
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+В верхнем меню выберите Settings > Pages («Параметры» > «Страницы»). В разделе Source (Источник) нажмите кнопку None (Нет) и выберите основную ветвь. Нажмите Save (Сохранить).
 
 ![](<../../../.gitbook/assets/image (74).png>)
 
-### Continue to Update Your Plugin Project Locally
+### Последующее обновление проекта подключаемого модуля на локальном компьютере
 
-At this point, you can continue adding, modifying, and testing plugins locally, and when you're ready to publish, use GitHub Desktop or another Git client to push your changes to your GitHub repo. Anyone consuming your repo and plugins will always get the latest code when they start FormIt.
+На этом этапе добавление, изменение и тестирование подключаемых модулей можно продолжить на локальном компьютере, а для публикации использовать GitHub Desktop или другой клиент Git, чтобы отправить изменения в хранилище GitHub. Любой пользователь, работающий с вашим хранилищем и подключаемыми модулями, всегда будет получать актуальный код при запуске FormIt.
 
-### Publish Your Project
+### Публикация проекта
 
-For projects created in an IDE instead of [Plugin Playground](../your-first-plugin/plugin-playground.md), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
+Для проектов, созданных в IDE, а не в [Plugin Playground](../your-first-plugin/plugin-playground.md), можно опубликовать подключаемый модуль, добавив раздел **FormIt-plugin** в хранилище подключаемого модуля.
 
-This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
+Это позволяет найти ваш подключаемый модуль в списке [подключаемых модулей сообщества](../../example-1/formit-plugin-community.md).
 
-View your repo on GitHub by visiting your project link, for example, https://github.com/Joe/JoesPlugin
+Для просмотра своего хранилища на GitHub используйте ссылку проекта, например https://github.com/Joe/JoesPlugin.
 
-Click on Settings in the top right corner.
+Нажмите кнопку Settings (Параметры) в правом верхнем углу.
 
 ![](<../../../.gitbook/assets/image (39).png>)
 
-Add a plugin description, add formit-plugin to the Topics field, and save changes.
+Добавьте описание подключаемого модуля, добавьте в поле «Разделы» значение formit-plugin и сохраните изменения.
 
 ![](<../../../.gitbook/assets/image (54).png>)
 
-Once saved, your plugin project will be added to the [community plugins](https://github.com/topics/formit-plugin) list.
-
-
-
-
+После сохранения проект вашего подключаемого модуля будет добавлен в список [подключаемых модулей сообщества](https://github.com/topics/formit-plugin).
 
 ###

@@ -13,4 +13,3 @@
 С помощью дерева модели также можно просматривать негеометрические (строковые) атрибуты, прикрепленные к объектам FormIt. [Строковые атрибуты можно применять к группам, созданных узлом SendToFormIt с помощью Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
-

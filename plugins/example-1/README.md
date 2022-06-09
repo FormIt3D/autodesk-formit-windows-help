@@ -1,12 +1,12 @@
-# Examples
+# Примеры
 
-In this section you will find sample plugin implementations to follow along:
+В этом разделе содержатся примеры реализации подключаемых модулей.
 
-* [Generate string lights](generate-string-lights.md)
-* [Manage Cameras Plugin](manage-cameras-plugin.md)
-* [Properties Plus Plugin](properties-plus-plugin.md)
-* [3D Context Generator](3d-context-creator.md)
+* [Создание гирлянд](generate-string-lights.md)
+* [Подключаемый модуль Manage Cameras](manage-cameras-plugin.md)
+* [Подключаемый модуль Properties Plus](properties-plus-plugin.md)
+* [Генератор 3D-контекста](3d-context-creator.md)
 
-We also recommend that you check the [FormIt Plugin Community](formit-plugin-community.md) section, where you can find plugin examples from other developers as well as guidelines on how to submit and showcase your plugins for the wider FormIt community. &#x20;
+Также рекомендуем ознакомиться с разделом [Сообщество пользователей подключаемых модулей FormIt](formit-plugin-community.md), где приведены примеры подключаемых модулей других разработчиков, а также рекомендации по отправке и демонстрации подключаемых модулей для более широкого сообщества FormIt.
 
 ![](<../../.gitbook/assets/g6 (2).gif>)

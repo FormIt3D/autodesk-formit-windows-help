@@ -1,31 +1,31 @@
-# Saving Your Work to GitHub
+# Сохранение результатов работы в GitHub
 
-As you work on your plugin, you’ll want to save your progress. To make this possible, we have integrated GitHub directly into the Plugin Playground.
+В процессе работы над подключаемым модулем вам понадобится сохранить текущие результаты. Для этого мы интегрировали GitHub непосредственно в Plugin Playground.
 
-### Adding a New Plugin Project to Your GitHub Account
+### Добавление нового проекта подключаемого модуля в учетную запись GitHub
 
-Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
+Нажмите кнопку, чтобы войти в GitHub и разрешить для FormIt доступ к хранилищам (проектам).
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (58).png>) button.
+Чтобы создать проект, введите его имя и нажмите кнопку ![] (<../../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-In a few moments, the newly created project will appear in your projects list. Select the project from the drop-down to load it.
+Через некоторое время новый созданный проект появится в списке проектов. Выберите проект в раскрывающемся списке, чтобы загрузить его.
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
-### Save Your Work
+### Сохранение результатов работы
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
+При внесении изменений в подключаемый модуль нажмите кнопку «Сохранить» ![ ](<../../../.gitbook/assets/image (40).png>), чтобы сохранить изменения в учетной записи GitHub.
 
+![](<../../../.gitbook/assets/save a plugin.png>)
 
+### Просмотр проекта в GitHub
 
-### View Your Project in GitHub
+Кроме того, можно найти и отредактировать файлы непосредственно в GitHub, нажав кнопку GitHub.
 
-You can also find and edit your files directly in GitHub by using the GitHub button.
-
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###

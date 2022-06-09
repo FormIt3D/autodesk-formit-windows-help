@@ -1,12 +1,12 @@
-# Additional Development Options
+# Дополнительные возможности разработки
 
-As an advanced developer, you also have some additional development options you may want to try:
+Опытные разработчики также могут воспользоваться рядом дополнительных возможностей разработки.
 
-* [Creating an HTML Panel Plugin](creating-an-html-panel-plugin.md)
-* [Creating a Combined HTML Panel and Toolbar Plugin](creating-a-combined-html-panel-and-toolbar-plugin.md)
-* [Creating a Toolbar based Plugin](creating-a-toolbar-based-plugin.md)
-* [Testing a Combined HTML Panel and Toolbar Plugin](testing-a-combined-html-panel-and-toolbar-plugin.md)
-* [Creating an Add-In](creating-an-add-in.md)
-* [Invoking Plugins and API from Dynamo](invoking-plugins-and-api-from-dynamo.md)
+* [Создание подключаемого модуля панели HTML](creating-an-html-panel-plugin.md)
+* [Создание комбинированного подключаемого модуля панели HTML и панели инструментов](creating-a-combined-html-panel-and-toolbar-plugin.md)
+* [Создание подключаемого модуля панели инструментов](creating-a-toolbar-based-plugin.md)
+* [Тестирование комбинированного подключаемого модуля панели HTML и панели инструментов](testing-a-combined-html-panel-and-toolbar-plugin.md)
+* [Создание надстройки](creating-an-add-in.md)
+* [Вызов подключаемых модулей и API из Dynamo](invoking-plugins-and-api-from-dynamo.md)
 
 ![](../../../.gitbook/assets/c23.PNG)
