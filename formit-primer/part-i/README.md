@@ -2,23 +2,20 @@
 
 ## Mies van der Rohe のファンズワース邸をモデリングする
 
-Primer パート 1 では、FormIt の基本的なツールとワークフローについて説明し、歴史的なモダニズム建築の邸宅をわずか 2 時間で作成します。ここで説明するツール、ツールバー、パレット、プロセスの詳細な説明については、「**FormIt の概要**」および「**ツール ライブラリ**」のセクションを参照してください。
-
-
+Primer パート 1 では、FormIt の基本的なツールとワークフローについて説明し、歴史的なモダニズム建築の邸宅をわずか 2 時間で作成します。ここで説明するツール、ツールバー、パレット、プロセスの詳細な説明については、「**FormIt の概要** 」および「**ツール ライブラリ** 」のセクションを参照してください。
 
 ![The Farnsworth House](../../.gitbook/assets/49e004f3-d500-4890-9188-e8a87c1e396a-2.png)
 
 ### 前提条件
 
-パート 1 を開始する前に、「FormIt の概要」セクションの「[**前提条件とインストール**](../../formit-introduction/prerequisites-and-installation.md)」の指示に従って、FormIt for Windows をダウンロードしてインストールします。
+パート 1 を開始する前に、「FormIt の概要」セクションの「[**前提条件とインストール**](../../formit-introduction/prerequisites-and-installation.md) 」の指示に従って、FormIt for Windows をダウンロードしてインストールします。
 
 次のリンクにあるデータ セットもダウンロードする必要があります。データ セットは、パート 1 を通して使用するファイルのコレクションです。
 
-_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app) _でほとんどのチュートリアルを完了できます。FormIt のバージョンとライセンスの詳細については、_ ****[_**FormIt の Web サイト**_](https://formit.autodesk.com)_\*\*\*\*_を参照してください。
+_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app)_**でほとんどのチュートリアルを完了できます。** FormIt のバージョンとライセンスの詳細については、_ [_FormIt の Web サイト_](https://formit.autodesk.com) を参照してください。
 
 ### データ セット
 
-パート 1 では、取り組みやすいようにモデリングを複数の章に分割しています。順を追ってファンズワース邸を作成していきます。特定の章のみを完了する場合は、選択した章までの作業を終えたデータを下のデータ セットから取得できます。データ セットには、**各章のファイル**の他に、すべての演習を完了するために必要な**サポート ファイル**も含まれています。
+パート 1 では、取り組みやすいようにモデリングを複数の章に分割しています。順を追ってファンズワース邸を作成していきます。特定の章のみを完了する場合は、選択した章までの作業を終えたデータを下のデータ セットから取得できます。データ セットには、**各章のファイル** の他に、すべての演習を完了するために必要な**サポート ファイル** も含まれています。
 
-* \*\*\*\*[**FormIt Primer Data Set Part I**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)\*\*\*\*
-
+* [**FormIt Primer Data Set Part I**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+1+Datasets.zip)

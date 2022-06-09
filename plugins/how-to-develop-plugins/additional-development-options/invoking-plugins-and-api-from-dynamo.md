@@ -1,19 +1,19 @@
-# Invoking Plugins and API from Dynamo
+# Dynamo からプラグインと API を呼び出す
 
-## **Connecting Plugins With Dynamo**
+## **Dynamo を使用してプラグインを接続する**
 
-FormIt 2022.1 and newer offers access to JavaScript APIs and custom functions from Dynamo via two new nodes:
+FormIt 2022.1 以降では、2 つの新しいノードを介して Dynamo から JavaScript API およびカスタム関数にアクセスできるようになりました。
 
-### **CallJSAPI** <a href="#calljsapi" id="calljsapi"></a>
+### **CallJSAPI**<a href="#calljsapi" id="calljsapi"></a>
 
-The **CallJSAPI** node allows you to invoke FormIt JavaScript APIs directly from Dynamo.
+**CallJSAPI** ノードを使用すると、Dynamo から FormIt JavaScript API を直接呼び出すことができます。
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallJSAPI-GetTotalGrossArea.png)
 
-For function names and parameters, take a look at our JavaScript documentation, which is divided into two parts: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) and [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (modeling kernel).
+関数名とパラメータについては、JavaScript に関するドキュメントを参照してください。このドキュメントは、[FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) と [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (モデリング カーネル)の 2 つに分かれています。
 
-### **CallPluginJS** <a href="#callpluginjs" id="callpluginjs"></a>
+### **CallPluginJS**<a href="#callpluginjs" id="callpluginjs"></a>
 
-Conversely, the **CallPluginJS** node allows you to invoke custom functions from a loaded plugin, or a script snippet that's been executed from the Script Editor window.
+一方、**CallPluginJS** ノードを使用すると、ロード済みのプラグインからカスタム関数を呼び出したり、スクリプト エディタ ウィンドウから実行されたスクリプトのスニペットを呼び出すことができます。
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallPluginJS.png)

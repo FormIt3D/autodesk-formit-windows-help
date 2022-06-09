@@ -2,47 +2,47 @@
 
 ![](../../.gitbook/assets/contextcreator1.gif)
 
-## What is it?
+## 3D Context Creator とは?
 
-3D Context Creator is a very easy-to-use plugin that will help you quickly generate 3d context inside FormIt. This plugin can help you:
+3D Context Creator は、FormIt 内で 3D のコンテキストをすばやく生成するのに役立つ、非常に使いやすいプラグインです。このプラグインでは次のことが可能です。
 
-* Visualize your project site with its surrounding context
-* Make informed decisions especially in the early stage of the design process.
-* Is free for all users of FormIt to download.&#x20;
+* 周囲のコンテキストに合わせてプロジェクトの敷地を可視化する。
+* 特に設計プロセスの初期段階で、情報に基づいて意思決定する。
+* FormIt のすべてのユーザが無償でダウンロードできる。&#x20;
 
-This plugin retrieves data from [Open Street Map](https://www.openstreetmap.org/about) to help transform it into FormIt geometries. The source code for this plugin is available on [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+このプラグインでは、[Open Street Map](https://www.openstreetmap.org/about) からデータを取得して、FormIt ジオメトリに変換できます。このプラグインのソース コードは、[Github](https://github.com/matterlab-co/FormIt-Context-Plugin) で取得できます。&#x20;
 
-## How to use it
+## 使用方法
 
-To install it, simply turn on the plugin’s toggle, as you would with any other plugin.
+プラグインをインストールするには、他のプラグインと同様に、プラグインのスイッチをオンにします。
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
-Once toggled on, the plugin should appear on the right side of the app and be ready to use.
+スイッチをオンにすると、プラグインがアプリケーションの右側に表示され、使用できるようになります。
 
 ![](../../.gitbook/assets/formitUI.PNG)
 
-Before using the plugin, begin by setting your site location from the main FormIt toolbar.
+プラグインを使用する前に、まず FormIt のメインのツールバーから敷地の場所を設定します。
 
 ![](<../../.gitbook/assets/image (76).png>)
 
-Search for your site location, and then click Import Satellite Image and Terrain.
+敷地の場所を検索し、[衛星画像と地形を読み込む]をクリックします。
 
 ![](<../../.gitbook/assets/image (77).png>)
 
-Once the satellite image has been successfully imported into your FormIt project, navigate to the 3D Context Creator plugin.
+衛星画像が FormIt プロジェクトに正常に読み込まれたら、3D Context Creator プラグインにナビゲートします。
 
-Adjust the square radius slider to expand the distance (in meters) of the context from the location point.
+正方形の半径をスライダで調整して、場所点からのコンテキストの距離(メートル単位)を拡張します。
 
 ![](../../.gitbook/assets/contextcreator7.png)
 
-Click on the Create button. And that is it!
+[Create]ボタンをクリックします。これで完了です。
 
-Once you are happy with the settings, click the Create button. Depending on the size and complexity of the given radius, it may take a few moments to process the building forms.
+設定に問題がなければ、[Create]ボタンをクリックします。指定した半径のサイズと複雑さによっては、建物の形成の処理に少し時間がかかることがあります。
 
-## **Some examples**
+## **例**
 
-Try to guess what iconic cities are represented in the following contexts:
+次のコンテキストで表現される象徴的な都市を推測してみてください。
 
 ![](<../../.gitbook/assets/image (2).png>)
 

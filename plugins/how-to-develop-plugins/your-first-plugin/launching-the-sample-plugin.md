@@ -1,21 +1,19 @@
-# Launching the Sample Plugin
+# サンプル プラグインを起動する
 
-### Running the Sample Plugin
+### サンプル プラグインを実行する
 
-A sample plugin comes loaded with the Plugin Playground. Click the Play button to run a plugin.
+サンプル プラグインは Plugin Playground と一緒にロードされています。[Play]ボタンをクリックしてプラグインを実行します。
 
-![Step 1](https://formit3d.github.io/PluginPlayground/images/step1.png)
+![Step 1](<../../../.gitbook/assets/run a plugin.png>)
 
+3 つの数値入力と[Create Block]ボタンのあるプラグインが表示されます。そのままプラグインをテストすると、指定された入力値に基づいて立方体が作成されます。
 
+### コードを表示および編集する
 
-This will display a plugin with 3 numerical inputs and a Create Block button. Go ahead and test the plugin, which will create a cube based on the provided input values.
+このプラグインを動かすコードを確認する場合は、[Edit]ボタンをクリックします。
 
-### Viewing and Editing Code
+![Step2](<../../../.gitbook/assets/edit a plugin.png>)
 
-If you want to see the code behind this plugin, click the Edit button.
-
-![Step2](https://formit3d.github.io/PluginPlayground/images/step2.png)
-
-This will launch a dialog containing all the main pieces of a FormIt plugin: HTML, JavaScript, and CSS.
+HTML、JavaScript、CSS など、FormIt プラグインの主要部分をすべて含むダイアログが起動します。
 
 ![](<../../../.gitbook/assets/02-view and edit playground code.gif>)

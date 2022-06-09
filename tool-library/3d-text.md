@@ -4,7 +4,7 @@
 
 FormIt 2021 以降では、Dynamo が提供する 3D テキスト オブジェクトを生成および修正できます。編集が必要な場合、Dynamo を使用すると、テキストのフォント、サイズ、その他のプロパティをその場で編集できます。テキストを再生成して位置を変更する必要はありません。
 
-![](../.gitbook/assets/3d-text.gif)
+![](<../.gitbook/assets/3d-text (1).gif>)
 
 ## 3D テキストを配置する
 
@@ -25,7 +25,7 @@ Dynamo を使用して 3D テキストを生成する方法のメリットは、
 
 3D テキストを最初に配置すると、[プロパティ]パレットが自動的に表示されます。グループを選択して手動で[プロパティ]パレットに切り替えることも、またグループをダブルクリックして自動的に[プロパティ]パレットに切り替えることもできます。
 
-![](../.gitbook/assets/3d-text-options.png)
+![](<../.gitbook/assets/3d-text-options (2).png>)
 
 ### Text
 
@@ -51,23 +51,23 @@ Dynamo を使用して 3D テキストを生成する方法のメリットは、
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-現在の FormIt 単位でのテキストの高さ。
+文字の高さ。単位は [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) ノードに基づいており、任意の単位を使用できます。
 
 ### Extrusion Depth
 
-現在の FormIt 単位でのテキストの 3D 押し出しの深さ。3D テキストはソリッドであるため、この値をゼロにすることはできません。ただし、ゼロに非常に近い値を設定すると、押し出しは目立たなくなります。
+[FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) ノードで設定された単位によるテキストの 3D 押し出しの量です。3D テキストはソリッドであるため、この値をゼロにすることはできません。ただし、ゼロに非常に近い値を設定すると、押し出しは目立たなくなります。
 
 ### Tracking
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-トラッキングは、特定のフォントの文字間に存在する既定の間隔を調整する場合に便利です。現在の FormIt 単位を使用します。正または負の値を指定できます。たとえば、フィート単位での 0.25 は各文字間に 3" の間隔を追加します。逆に、-0.25 と指定すると、各文字が 3" 近くなります。
+トラッキングは、特定のフォントの文字間に存在する既定の間隔を調整する場合に便利です。[FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) ノードで設定された単位を使用し、正または負の値を指定できます。たとえば、フィート単位での 0.25 は各文字間に 3" の間隔を追加します。逆に、-0.25 と指定すると、各文字が 3" 近くなります。
 
 ### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-テキスト フィールドに複数の行がある場合、この値は各行間の間隔をコントロールします。現在の FormIt 単位を使用します。
+テキスト フィールドに複数の行がある場合、この値は各行間の間隔をコントロールします。[FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) ノードで設定された単位を使用します。
 
 ### Invert Text
 
@@ -79,13 +79,13 @@ True の場合、このオプションは文字の周囲を塗り潰し、そこ
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-[Invert Text]が True の場合にのみ適用されます。テキストを削除するソリッドに使用する、テキスト周辺の境界の幅を指定します。現在の FormIt 単位を使用します。
+[Invert Text]が True の場合にのみ適用されます。テキストを削除するソリッドに使用する、テキスト周辺の境界の幅を指定します。[FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) ノードで設定された単位を使用します。
 
 ### Curve Faceting Quality
 
 フォントのカーブは 3D テキストを使用してライン セグメントに変換されるため、この値は曲線の切り子面品質をコントロールします。
 
-小さい数値を指定すると切り子面が粗くなり(長いセグメント)、大きい数値を指定すると切り子面が細かくなります(短いセグメント)。この値は、[基本設定]の FormIt の曲線およびサーフェスの切り子面設定よりも優先されます。
+小さい数値を指定すると切り子面は粗く(セグメントは長く)なり、大きい数値を指定すると切り子面は細かく(セグメントは短く)なります。この値は、[基本設定]の FormIt の曲線およびサーフェスの切り子面設定よりも優先されます。
 
 ### Run
 
@@ -103,7 +103,7 @@ True の場合、このオプションは文字の周囲を塗り潰し、そこ
 
 [プロパティ]パレットの[Edit Embedded Graph]ボタンをクリックすると、Dynamo グラフ エディタを起動できます。
 
-![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
+![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
 
 ## トラブルシューティング
 
@@ -111,11 +111,6 @@ True の場合、このオプションは文字の周囲を塗り潰し、そこ
 
 一部のフォントでは、「自己交差カーブ」や、ASM でエラーを引き起こす問題のあるジオメトリが作成されることがあります。
 
-[3D Text]を実行しようとしたときにエラーが発生した場合、または文字が消えた場合は、[Edit Embedded Graph]をクリックしてグラフの問題とエラーが発生している可能性のある場所を確認してください。
+[3D Text]を実行しようとしたときにエラーが発生した場合、または文字が消えた場合は、[埋め込まれたグラフを編集]をクリックしてグラフの問題とエラーが発生している可能性のある場所を確認してください。
 
 フォントの中には、適切なジオメトリに変換できない既知の問題を持つものもあります。Bahnschrift はその一例です。問題のある別のフォントが見つかった場合は、[フォーラムでお知らせください](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ja)。特定のフォントに関する問題を修正するために、オートデスクは最善を尽くします。
-
-
-
-
-

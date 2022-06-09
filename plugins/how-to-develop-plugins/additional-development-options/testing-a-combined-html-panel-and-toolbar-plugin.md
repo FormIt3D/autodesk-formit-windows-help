@@ -1,51 +1,51 @@
-# Testing a Combined HTML Panel and Toolbar Plugin
+# HTML パネルとツールバーを組み合わせたプラグインをテストする
 
-You can test your in-progress plugins easily using the built-in [Script Editor ](../advanced-development/setting-up-formit-for-development.md)in FormIt for Windows
+FormIt for Windows の組み込みの[スクリプト エディタ](../advanced-development/setting-up-formit-for-development.md)を使用して、進行中のプラグインを簡単にテストできます。
 
-We recommend using `FormIt.LoadPlugin("URL");` when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted).&#x20;
+テスト時には `FormIt.LoadPlugin("URL");` を使用することをお勧めします。これにより、このセッションのために一時的にプラグインがロードされます(FormIt を再起動するとプラグインはロード解除されます)。&#x20;
 
-Once testing is complete, you can persist the plugin between sessions using `FormIt.InstallPlugin("URL");`.
+テストが完了した後に `FormIt.InstallPlugin("URL");` を使用すると、他のセッションでもプラグインを保持できます。
 
-**FormIt for Windows v17 and newer**
+**FormIt for Windows v17 以降**
 
 ****
 
-### **Toolbar Plugins**
+### **ツールバーのプラグイン**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+プラグインを FormIt にロードし、最新の UI を表示して最新の機能をテストします。
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then load the plugin again using the command above.
+変更を加えてから、上記のコマンドを使用してプラグインを再びロードします。
 
-You can load many instances of the same plugin in the current session as you test, each with its own UI.
+テスト時に、同じプラグインの多数のインスタンスが現在のセッションにロードされる可能性があります。インスタンスごとに独自の UI があります。
 
-Be sure to use the latest UI instance to ensure you're testing your most recent changes.
+最新の UI インスタンスを使用して、最新の変更をテストするようにしてください。
 
 
 
-### **HTML Panel Plugins**
+### **HTML パネルのプラグイン**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+プラグインを FormIt にロードし、最新の UI を表示して最新の機能をテストします。
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then simply right-click the panel and select "Hard Reload" to reload the panel with the latest HTML, CSS, and scripts.
+変更を加えてから、パネルを右クリックして[ハード再ロード]を選択すると、パネルが最新の HTML、CSS、スクリプトとともに再ロードされます。
 
 ****
 
-### **Preview your plugin with Plugin Manager**
+### **Plugin Manager を使用してプラグインをプレビューする**
 
-Once your plugin is loaed, refer an [earlier chapter](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) for this guide.
+プラグインをロードしたら、このガイドの[前の章](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md)を参照してください。
 
 ****
 
-### **Force clearing web cache for .JSON files**
+### **.JSON ファイルの Web キャッシュを強制的にクリアする**
 
-If you modify the title or description inside the manifest.json file for a plugin or repo, you may need to force clear the cache in FormIt for Windows to see those changes take effect the next time you reload the Plugin Manager.
+プラグインまたはリポジトリの manifest.json ファイル内のタイトルや説明を変更した場合は、FormIt for Windows でキャッシュを強制的にクリアし、次回 Plugin Manager を再ロードするときにこれらの変更が反映されるようにする必要があります。
 
-FormIt for Windows stores its web cache here, you will need to enable hidden items in Windows Explorer to see the AppData folder.
+FormIt for Windows では、Web キャッシュが下記の場所に保存されます。AppData フォルダを表示するには、Windows エクスプローラで隠れた項目を表示するように設定する必要があります。
 
 * C:\Users\user\AppData\Local\Autodesk\FormIt 360\QtWebEngine\Default
 
-To delete the web cache, simply delete the "Default" folder above, then reload the Plugin Manager to see the updated titles and descriptions.
+Web キャッシュを削除するには、上記の「Default」フォルダを削除します。その後 Plugin Manager を再ロードすると、更新されたタイトルと説明が表示されます。

@@ -1,39 +1,39 @@
-# Introduction to Plugins
+# プラグインの概要
 
 ![](../.gitbook/assets/gg4.gif)
 
-Plugins are custom software additions that expand FormIt's core functionality. Plugins can enhance, empower, and simplify your 3D modeling workflows in FormIt.&#x20;
+プラグインによって、FormIt の主要機能を拡張するカスタム ソフトウェアが追加されます。プラグインを使用すると、FormIt の 3D モデリング ワークフローを拡張、強化、簡略化することができます。&#x20;
 
-Plugins can be used to generate objects, make modifications to existing objects, or extract information about an object. Plugins can also use rich web interfaces to display data and provide controls and inputs directly in the application.&#x20;
+プラグインを使用して、オブジェクトの生成、既存のオブジェクトの修正、オブジェクトに関する情報の抽出を行うことができます。プラグインは、さまざまな Web インタフェースを使用し、アプリケーションに直接データを表示してコントロールと入力を行うこともできます。&#x20;
 
-## Accessing Plugins
+## プラグインにアクセスする
 
-Plugins are available in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) in the desktop and web versions of FormIt, as long as you are connected to the internet. Plugins are composed of a series of files and folders hosted on GitHub, or on a local server when building your own.&#x20;
+プラグインは、インターネットに接続している限り、FormIt のデスクトップ バージョンおよび Web バージョンの [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) で使用できます。プラグインは一連のファイルとフォルダで構成され、GitHub、またはユーザ独自で構築した場合はローカル サーバにホストされています。&#x20;
 
 ![](../.gitbook/assets/c17.PNG)
 
-### Plugins Require Internet Access
+### プラグインにはインターネット接続が必要
 
-External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
+ローカルにホストされていない外部のプラグインを最初にロードする際には、インターネット接続が必要です。次の点に注意してください。
 
-* External plugins will not load if no internet connection is detected when FormIt starts. Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.&#x20;
-* External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change. Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
+* FormIt の起動時にインターネット接続が検出されない場合、外部プラグインはロードされません。 ロードした後、一部の外部プラグインはそのセッションの間はオフライン モードで作業を続行できますが、接続が回復するまで中断するプラグインもあります。&#x20;
+* 外部プラグインは実行のたびにサーバ上の最新のコードをロードするため、作成者が変更をプッシュするたびに機能が更新されます。 プラグインは非同期的にロードされます。つまり、FormIt インタフェースのプラグインの順序は、セッションごとに変更される場合があります。
 
-## Open Source
+## オープン ソース
 
-Plugins are open-source, allowing you to use the plugins in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) free of charge, publish and share your plugins easily, and find other plugins on GitHub to understand how they're built.&#x20;
+プラグインはオープンソースであるため、[Plugin Manager](how-to-use-plug-ins.md#plugin-manager) でプラグインを無料で使用し、プラグインを簡単にパブリッシュおよび共有し、GitHub で他のプラグインを検索してビルド方法を把握することができます。&#x20;
 
-If you are a developer and want more information on how to publish your plugins, see [Hosting a Plugin on GitHub](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
+開発者としてプラグインのパブリッシュ方法の詳細を確認する場合は、「[GitHub にプラグインをホストする](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md)」を参照してください。&#x20;
 
-If you want to make a plugin for private use, you can develop and host it using a local service. For more information, see [Using an IDE. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
+個人で使用するためにプラグインを作成する場合は、ローカル サービスを使用してプラグインを開発およびホストできます。詳細は、「[IDE を使用する](how-to-develop-plugins/advanced-development/using-an-ide.md)
 
 ![](../.gitbook/assets/c18.PNG)
 
 
 
-## Contact Us
+## お問い合わせ
 
-If you need any help with FormIt plugins, drop us a line on the [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
+FormIt プラグインに関するサポートが必要な場合は、[FormIt フォーラム](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ja)にお問い合わせください。
 
 ![](../.gitbook/assets/c19.PNG)
 

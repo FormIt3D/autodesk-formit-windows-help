@@ -6,23 +6,22 @@
 
 キーボード ショートカット: [C]、[G]
 
-![](../.gitbook/assets/cut_tool.png)
+![](../.gitbook/assets/cut\_tool.png)
 
 [切り取り]コマンドを実行し、画面の左上に表示されるモードの指示に従います。
 
 切り取られる側のオブジェクトをシングルクリックで選択します。
 
-![](../.gitbook/assets/boolean_cut.png)
+![](../.gitbook/assets/boolean\_cut.png)
 
 切り取るオブジェクトまたはグループをシングルクリックで選択します。
 
-![](../.gitbook/assets/boolean_cut2.png)
+![](../.gitbook/assets/boolean\_cut2.png)
 
 チェックマークをクリックしてコマンドを終了します。削除されたオブジェクトはシーンに残ります。このオブジェクトを削除したり、[レイヤ](layers.md)を使用して非表示にすることができます。
 
 ## 最初にオブジェクトを選択する場合
 
-1. 切り取られる側のオブジェクトをダブルクリックで選択します。\(グループの場合はシングルクリック\)
-2. **[Ctrl]キー**を押しながら、切り取る側の重なっているオブジェクトをダブルクリックします。
-3. 切り取られる側のオブジェクトを右クリックし、コンテキスト メニューで[**[切り取り]ツール**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)を選択します。![](../.gitbook/assets/booleancut.png)
-
+1. 切り取られる側のオブジェクトをダブルクリックで選択します。(グループの場合はシングルクリック)
+2. 切り取る側の重なっているオブジェクトを、**[Ctrl]キー** を押しながらダブル クリックします。
+3. 切り取られる側のオブジェクトを右クリックし、コンテキスト メニューで[**[切り取り]ツール**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) を選択します。![](<../.gitbook/assets/cut tool.png>)

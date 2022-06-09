@@ -1,6 +1,6 @@
-# Advanced Development
+# 高度な開発
 
-In the previous section, we covered the basics of plugin development by[ building a simple plugin](../your-first-plugin/) in the Plugin Playground. This section will review some more advanced modes of development using an external IDE.
+前のセクションでは、Plugin Playground で[簡単なプラグインをビルド](../your-first-plugin/)して、プラグイン開発の基本について説明しました。このセクションでは、外部 IDE を使用する高度なモードの開発について説明します。
 
 ![](../../../.gitbook/assets/c22.PNG)
 

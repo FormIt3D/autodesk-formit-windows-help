@@ -1,25 +1,25 @@
 # Plugin Playground
 
-## What is the Plugin Playground?
+## Plugin Playground とは
 
-The Plugin Playground is an out-of-the-box feature that lets you quickly develop and test plugins in FormIt. It's a great concept-modeling environment where you can make your 3D ideas reality in no time. You don't need any additional software, so there's no need to leave the FormIt app. It comes with a sample plugin, so you don't need to set up your plugin from scratch. Simply test your code and save your project to your GitHub account, all in the Playground panel.&#x20;
+Plugin Playground は、FormIt でプラグインをすばやく開発およびテストする機能であり、すぐに使用できます。これは、3D のアイデアをすぐに実現できる優れたコンセプトモデリング環境です。追加のソフトウェアは不要なため、FormIt アプリケーションから離れて作業を行う必要はありません。サンプル プラグインが付属しているため、プラグインを最初から設定する必要はありません。コードをテストし、プロジェクトを GitHub アカウントに保存するだけです。このすべての作業を[Playground]パネルで行います。
 
-Here are some of the benefits of developing in the Plugin Playground:
+Plugin Playground での開発には次のような利点があります。
 
-* No additional installation required
-* Develop, test, and run plugins within the FormIt desktop or web app
-* Fast and easy file setup with sample code included
-* Save your project to your own GitHub account
-* Use the recording feature
+* 追加のインストールが不要
+* FormIt のデスクトップまたは Web アプリケーション内でプラグインを開発、テスト、実行する
+* ファイル設定が高速かつ簡単で、サンプル コードが含まれている
+* プロジェクトを独自の GitHub アカウントに保存する
+* 記録機能を使用する
 
 ![](<../../../.gitbook/assets/14 (3) (1).png>)
 
-## Installing the Plugin Playground
+## Plugin Playground をインストールする
 
-You can think of the Plugin Playground as a plugin that makes plugins. This is because you install it as you would install any other plugin. Open the Plugin Manager, and you will find the Plugin Playground under the Recommended list. Use the toggle to install the Plugin Playground.
+Plugin Playground は、プラグインを作成するプラグインと考えることができます。他のプラグインと同じようにインストールするからです。Plugin Manager を開き、[Recommended]セクションのリストで Plugin Playground を探します。切り替えスイッチを使用して、Plugin Playground をインストールします。
 
 ![](<../../../.gitbook/assets/01-install playgground formit.gif>)
 
-Once it's installed, you can access the Plugin Playground through the ![](<../../../.gitbook/assets/image (25).png>) icon in the right menu.
+インストールが完了したら、右側のメニューにある ![](<../../../.gitbook/assets/image (25).png>) アイコンで Plugin Playground にアクセスできます。
 
-![](<../../../.gitbook/assets/image (79).png>)
+![](<../../../.gitbook/assets/image (53) (1) (1) (1).png>)

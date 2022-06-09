@@ -1,63 +1,62 @@
-# Hosting a Plugin on a Local Server
+# ローカル サーバにプラグインをホストする
 
-Before you can preview a cloned plugin in FormIt, you need to host it on a local server.
+クローンとして作成したプラグインを FormIt でプレビューする前に、ローカル サーバにホストする必要があります。
 
-### **View the Terminal in IDE**
+### **IDE でターミナルを表示する**
 
-You have the option of starting the server inside Visual Studio Code, instead of a separate terminal window. **** Before opening a terminal, make sure the right folder is opened in Visual Studio Code.
+別のターミナル ウィンドウではなく、Visual Studio Code 内でサーバを起動することができます。\*\*\*\* ターミナルを開く前に、Visual Studio Code で適切なフォルダが開いていることを確認します。
 
-View > Terminal (or shortcut Ctrl + \`)
+[表示] > [ターミナル] (またはショートカット[Ctrl]+[\`])
 
 ![](<../../../.gitbook/assets/image (11).png>)
 
-### Set Up an HTTP Server
+### HTTP サーバを設定する
 
-An HTTP server that works well is npm's [http-server](https://www.npmjs.com/package/http-server).
+正常に動作する HTTP サーバは、npm の [http-server](https://www.npmjs.com/package/http-server) です。
 
-First, you will need to download and install [NodeJS](https://nodejs.org/en/), if it's not already installed.
+まず、[NodeJS](https://nodejs.org/ja/) がまだインストールされていない場合は、ダウンロードしてインストールする必要があります。
 
-If you encounter errors in the following steps, try restarting your computer to complete the NodeJS installation.
+次の手順でエラーが発生した場合は、コンピュータを再起動して NodeJS のインストールを完了してください。
 
-In the Command Prompt, enter the following to install npm's _http-server_ globally (a one-time setup).
+コマンド プロンプトで、次のように入力して npm の _http-server_ をグローバルにインストールします(1 回限りの設定)。
 
 * `npm install http-server -g`
 
 ![](<../../../.gitbook/assets/image (47).png>)
 
-### Start the Local Server
+### ローカル サーバを起動する
 
-Once the setup is complete, run the following command in the terminal to start your npm http-server:
+設定が完了したら、ターミナルで次のコマンドを実行して npm の http-server を起動します。
 
 * `http-server`
 
 ![](<../../../.gitbook/assets/image (84).png>)
 
-Tip 1: In case of any issues with running the http-server (installed globally or locally), it may be helpful to run it directly via npx:
+ヒント 1: http-server を実行する際に問題が発生した場合は、インストールがグローバルでもローカルでも、npx を使用して直接実行するとうまくいく場合があります。
 
 * `npx http-server`
 
-Tip 2: For Windows 10/11 users, if you encounter an error when running a script on your new machine, this may be due to the settings being disabled. To fix this:
+ヒント 2: Windows 10/11 ユーザが新しいコンピュータでスクリプトを実行するときにエラーが発生した場合は、設定が無効になっていることが原因である可能性があります。そのためには、次のようにします。
 
-* Launch PowerShell script as an administrator&#x20;
-* Enter: `Set-ExecutionPolicy RemoteSigned`&#x20;
+* PowerShell スクリプトを管理者として起動します。
+* 次のように入力します: `Set-ExecutionPolicy RemoteSigned`
 
-### Develop for FormIt Web
+### FormIt Web 用の開発
 
-To develop for FormIt Web, simply run the following command instead:
+FormIt Web 用に開発するには、代わりに次のコマンドを実行します。
 
 * `http-server --cors`
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-### Verify Your Server
+### サーバを確認する
 
-You can verify your server by navigating to the following address in your web browser:&#x20;
+Web ブラウザで次のアドレスにナビゲートすると、サーバを確認できます。
 
 * http://localhost:8080
 
-You should see your project folder files in the browser window.
+ブラウザのウィンドウにプロジェクト フォルダのファイルが表示されます。
 
-\*\*If you use a different web server than npm, the default address/port might be different.
+\*\*npm 以外の Web サーバを使用している場合は、既定のアドレス/ポートが異なる可能性があります。
 
 ![](<../../../.gitbook/assets/image (41).png>)
-

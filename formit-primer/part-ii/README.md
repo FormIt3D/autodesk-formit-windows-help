@@ -8,7 +8,7 @@ FormIt を初めて使用する場合は、**パート 1** から始めること
 
 特定のツール、ツールバー、パレット、プロセスの詳細な説明については、「**FormIt の概要**」および「**ツール ライブラリ**」のセクションを参照してください。
 
-![](../../.gitbook/assets/screen1.jpg)
+![](<../../.gitbook/assets/screen1 (1).jpg>)
 
 ### 前提条件
 
@@ -16,7 +16,7 @@ FormIt を初めて使用する場合は、**パート 1** から始めること
 
 ほとんどの章で、次のリンクにあるデータ セットもダウンロードして利用する必要があります。
 
-_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app) _でほとんどのチュートリアルを完了できます。FormIt のバージョンとライセンスの詳細については、_ ****[_**FormIt の Web サイト**_](https://formit.autodesk.com)_\*\*\*\*_を参照してください。
+_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app)_**でほとんどのチュートリアルを完了できます。** FormIt のバージョンとライセンスの詳細については、_ [_FormIt の Web サイト_](https://formit.autodesk.com)_ を参照してください。_
 
 ### データ セット
 
@@ -24,5 +24,4 @@ _FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用�
 
 この建物のすべてのファサード要素は、Dynamo スクリプトによってコントロールされ、建物の基礎にあるパスでファサード形状を定義します。
 
-* \*\*\*\*[**FormIt Primer Data Sets Part II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
-
+* [**FormIt Primer Data Sets Part II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)

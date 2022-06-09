@@ -1,18 +1,18 @@
-# Adding Your Own Features
+# 独自の機能を追加する
 
-### Inside the HTML, JavaScript, and CSS Panels
+### HTML、JavaScript、CSS パネル内
 
-When you click Edit in the Plugin Playground sample plugin, you will see the HTML, JavaScript (JS), and CSS panels. The HTML panel (left) enables you to modify the user interface of your plugin. The JS panel (middle) enables you to write functions that can communicate to FormIt using the FormIt JS Plugin API. Finally, the CSS panel (right) will determine the style of your HTML.
+Plugin Playground のサンプル プラグインで[Edit]をクリックすると、HTML、JavaScript (JS)、および CSS のパネルが表示されます。HTML パネル(左)では、プラグインのユーザ インタフェースを修正できます。JS パネル(中央)では、JavaScript による FormIt プラグインの API を使用して FormIt に意図を伝える関数を作成できます。最後に、CSS パネル(右)で HTML のスタイルを決定します。
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-### Adding a Function to Create a Cylinder&#x20;
+### 円柱を作成するための関数を追加する
 
-Let's add a feature to this plugin to create a cylinder.
+このプラグインに、円柱を作成する機能を追加します。
 
-First, let's configure the input field and UI button in the HTML panel. Copy the following code and paste it after line 23 and before _\<!-- Do not remove below scripts unless you know what you're doing- - >_
+まず、HTML パネルで入力フィールドと UI ボタンを構成します。次のコードをコピーして、23 行目と _\<!-- Do not remove below scripts unless you know what you're doing- - >_ の間に貼り付けます。
 
-This will add some basic UI elements to our plugin.
+これにより、プラグインに基本的な UI 要素が追加されます。
 
 ```
 <p>Cylinder: Create a cylinder at the origin.</p>
@@ -20,22 +20,22 @@ This will add some basic UI elements to our plugin.
     <input id="Radius" type=number value=2 />
     <label>Radius</label>
 </div>
-        
+
 <div>
     <input id="CHeight" type=number value =0.5 />
     <label>Height</label>
 </div>
-        
+
 
 <input id="CreateCylinderBtn" type=button value="Create Cylinder" />
-        
+
 ```
 
 ![](<../../../.gitbook/assets/image (86).png>)
 
-Next, let's add two functions in our JS panel. Copy the following code and paste it at the end of the file (after line 16).
+次に、JS パネルで 2 つの関数を追加します。次のコードをコピーして、ファイルの最後(16 行目の後)に貼り付けます。
 
-This will create a cylinder in our FormIt workspace.
+これにより、FormIt のワークスペースに円柱が作成されます。
 
 ```
 // Create cylinder
@@ -65,12 +65,12 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ![](<../../../.gitbook/assets/image (82).png>)
 
-### Running and previewing
+### 実行してプレビューする
 
-When you’re ready to see the results, click the Play button ![](<../../../.gitbook/assets/image (81).png>) again and you will see your updates to the plugin in the same panel.
+結果を確認する準備ができたら、[Play]ボタン ![](<../../../.gitbook/assets/image (81).png>) を再度クリックして、同じパネルでプラグインが更新されることを確認します。
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
-### FormIt plugins API
+### FormIt プラグインの API
 
-For complete documentation on the FormIt plugins API, see the [useful links](../useful-links.md) section.
+FormIt プラグインの API に関する詳細なドキュメントについては、「[便利なリンク](../useful-links.md)」セクションを参照してください。

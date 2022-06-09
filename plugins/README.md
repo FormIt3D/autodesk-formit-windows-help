@@ -1,15 +1,13 @@
-# Plugins
+# プラグイン
 
 ![](../.gitbook/assets/gg1.gif)
 
-Plugins can improve your Autodesk FormIt® experience by expanding your modeling toolset. You can address specific design needs that are not included in FormIt's tool library.&#x20;
+プラグインを使用すると、モデリング ツールセットの機能を拡張して、Autodesk FormIt® の操作性を改善できます。FormIt のツール ライブラリに含まれていない特定の設計ニーズに対応できます。
 
-The plugins section of this primer includes four chapters:
+この手引の「プラグイン」セクションには、次の章があります。
 
-1. [Introduction to Plugins](introduction.md): Basic information you need to know about plugins.
-2. [How to Use Plugins](how-to-use-plug-ins.md): If you are a FormIt user and want to give plugins a try, this section will guide you through the process of installing and using plugins.
-3. [How to Develop Plugins:](how-to-develop-plugins/) If you are a developer and want to go the extra mile, this section will guide you through the steps needed to develop a FormIt Plugin.
-4. [Examples:](example-1/) If you want to try out existing plugins, this section contains descriptions of some of the available plugins.&#x20;
-
-
-
+1. [プラグインの概要](introduction.md): プラグインについて知っておく必要がある基本情報です。
+2. [プラグインの使用方法](how-to-use-plug-ins.md): FormIt ユーザ向けに、プラグインをインストールして使用するプロセスを解説しています。
+3. [プラグインの開発方法](how-to-develop-plugins/): スキル アップを目指す開発者向けに、FormIt プラグインの開発に必要な手順を解説しています。
+4. [FormIt API](how-to-develop-plugins/useful-links.md): FormIt の API ドキュメントへのリンクが用意されています。
+5. [例](example-1/): 既存のプラグインと、その解説へのリンクが用意されています。既存のプラグインを試す際にご利用ください。

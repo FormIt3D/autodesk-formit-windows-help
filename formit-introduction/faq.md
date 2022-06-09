@@ -29,7 +29,7 @@ FormIt には次のような特徴があります。
    * 書き出す
       * AXM、FBX、OBJ、STL、SAT、DAE、DXF
 
-FormIt は、[iOS](https://itunes.apple.com/jp/app/autodesk-formit-360/id575282599?mt=8) および[ご使用のブラウザ](https://app.formit.autodesk.com/)で無償で使用できます。**FormIt Pro** のサブスクリプションは、[FormIt for Windows](https://formit.autodesk.com/page/download) を使用する場合に必要です。これは、FormIt の最も強力で機能が豊富なバージョンです。**FormIt Pro** のサブスクリプションでは、日照解析やエネルギー解析などの機能を、iOS や Web 上で行うこともできます。**FormIt Pro** は、[Autodesk AEC Collection](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview) に含まれています。
+FormIt は、[iOS](https://itunes.apple.com/jp/app/autodesk-formit-360/id575282599?mt=8) および[ご使用のブラウザ](https://app.formit.autodesk.com)で無償でご利用いただけます。**FormIt Pro** のサブスクリプションは、[FormIt for Windows](https://formit.autodesk.com/page/download) を使用する場合に必要です。これは、FormIt の最も強力で機能が豊富なバージョンです。**FormIt Pro** のサブスクリプションでは、日照解析やエネルギー解析などの機能を、iOS や Web 上で行うこともできます。**FormIt Pro** は、[Autodesk AEC Collection](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview) に含まれています。
 
 **FormIt for Android はどうなったのでしょうか?**
 
@@ -49,11 +49,11 @@ iOS バージョンは、Apple App Store から無料でダウンロードでき
 
 **FormIt の学習方法を教えてください**
 
-[FormIt Primer チュートリアル](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html)から始めることをお勧めします。
+[FormIt Primer チュートリアル](../formit-primer/)から始めることをお勧めします。
 
 FormIt Primer には、現代的な家屋全体を作成する初心者向けのセクションから、Revit と Dynamo も利用する高度な内容のセクションまで用意されています。
 
-また、FormIt Friday ウェビナー シリーズには 20 を超えるビデオもあり、[YouTube チャンネル](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH)からご視聴いただけます。
+また、FormIt Friday ウェビナー シリーズには 20 を超えるビデオもあり、[YouTube チャンネル](https://www.youtube.com/channel/UCdZJr6Bo4pwBu3lQqcxlDsw)からご視聴いただけます。
 
 ## Revit と連携する
 
@@ -75,7 +75,7 @@ FormIt コンバータは、[直接形状の API](https://knowledge.autodesk.com
 
 **Revit からデータを FormIt に戻すことはできますか?**
 
-はい。データを FormIt に再度読み込むには、Revit ファイルのすべてまたは可能な場合は一部を SAT ファイル形式に書き出します。__通常、Revit データのすべてを FormIt に送信する必要はありません。代わりに、SAT に保存する前に、床と壁といった最小データ)のみを含むようにフィルタしたビューを Revit で作成します。
+はい。データを FormIt に再度読み込むには、Revit ファイルのすべてまたは可能な場合は一部を SAT ファイル形式に書き出します。__通常、Revit データのすべてを FormIt に送信する必要はありません。代わりに、SAT に保存する前に、床と壁といった最小データのみを含むようにフィルタしたビューを Revit で作成します。
 
 ## 他のアプリケーションと連携する
 
@@ -101,7 +101,7 @@ FormIt の公式の名前が決まる前、社内で使われていたコード�
 
 **FormIt の SketchUp との違いは何ですか?**
 
-* [**Revit との相互運用性**](../tool-library/revit.md)が向上
+* [**Revit との相互運用性**](../tool-library/revit.md)__が向上
 * 計算設計のための[**Dynamo との統合**](../tool-library/dynamo.md)
 * [**日照解析**](../tool-library/solar-analysis.md)および Autodesk Insight による[**エネルギー解析**](../tool-library/energy-analysis.md)のネイティブ ツール
 * 高度なモデリング操作を可能にする、より堅牢なソリッド モデリング カーネル
@@ -113,7 +113,7 @@ FormIt の公式の名前が決まる前、社内で使われていたコード�
 
 **SketchUp のキーボード ショートカットを使用できますか?**
 
-はい。FormIt for Windows には、完全に編集可能なキーボード マップがあります。多くの一般的な SketchUp のショートカットは既定で存在しますが、[編集] &gt; [基本設定]メニューで編集できます。
+はい。FormIt for Windows には、完全に編集可能なキーボード マップがあります。多くの一般的な SketchUp のショートカットは既定で存在しますが、[編集] > [基本設定]メニューで編集できます。
 
 **DWG ファイルを使用できますか?**
 
@@ -128,9 +128,8 @@ FormIt の公式の名前が決まる前、社内で使われていたコード�
 **ログインできない場合はどうすればよいですか?**
 
 * この[フォーラムの投稿\(英語\)](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=ja)には、一般的なログインの問題が記載されています
-* 切り替え可能なグラフィックス プロセッサ(GPU)を搭載した PC を使用する場合は、FormIt が常により高性能な GPU を使用するようにすることが重要です。[AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) および [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1) の場合の手順はこちらをご覧ください(英語)
+* ご使用の PC に切り替え可能なグラフィックス プロセッサ(GPU)を搭載されている場合は、FormIt が常により高性能な GPU を使用できるようにすることが重要です。[AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) および [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1) の場合の手順はこちらをご覧ください(英語)
 
 **Insight のエネルギー解析が失敗した場合はどうすればよいですか?**
 
 Insight のエネルギー解析でエラーが報告された場合や、結果が返されない場合は、[Insight のエネルギー解析のページ(英語)](https://formit.autodesk.com/page/formit-insight)で、一般的なトラブルシューティングのヒントを参照してください。
-

@@ -6,17 +6,17 @@
 
 Dynamo を搭載した FormIt では、ショー ウィンドウやカーテン ウォールのマリオン システムを簡単に作成できます。Storefront Curtainwall システムは、[Dynamo]パレットの Dynamo Samples フォルダにあります。
 
-![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
+![](../.gitbook/assets/storefront-curtainwall-button.png)
 
 ## マリオン システムの「ガラス」を選択する
 
-FormIt 2021.2 から、Storefront Curtainwall システムでは新しい [SelectFromFormIt ノード](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)が使用され、マリオン システムを生成するための「ガラス」\(単一の面または押し出しソリッド\)を選択できるようになりました。
+FormIt 2021.2 から、Storefront Curtainwall システムでは新しい [SelectFromFormIt ノード](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)が使用され、マリオン システムを生成するための「ガラス」(単一の面または押し出しソリッド)を選択できるようになりました。
 
-![A simple plane of &quot;glass&quot; with an opening for doors at the bottom.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![A simple plane of "glass" with an opening for doors at the bottom.](../.gitbook/assets/storefron-system-1\_glass-only.png)
 
-Storefront Curtainwall サムネイル\(選択が必要であることを示すアイコン\)をクリックすると、ガラス ジオメトリの選択を求めるプロンプトが表示されます。
+Storefront Curtainwall サムネイル(選択が必要であることを示すアイコン)をクリックすると、ガラス ジオメトリの選択を求めるプロンプトが表示されます。
 
-![](../.gitbook/assets/storefront-curtainwall-prompt.png)
+![](<../.gitbook/assets/storefront-curtainwall-prompt (2).png>)
 
 ガラスの選択について、いくつか注意事項があります。
 
@@ -41,13 +41,13 @@ FormIt で Dynamo グラフのジオメトリを選択する場合、次のよ�
 
 ガラスを選択してスクリプトを実行すると、FormIt キャンバスに FormIt グループの形式で結果が表示されます。このグループは自動的に選択され、使用可能なオプションが[プロパティ]パレットに表示されます。
 
-![](../.gitbook/assets/storefront-curtainwall-parameters.png)
+![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
 
 * **Run**: ガラスの形状を修正し、グラフを再実行してマリオンの結果を更新する場合は、このボタンをクリックします。
 * **Edit Embedded Graph**: ジオメトリを生成する Dynamo スクリプトを編集します。このスクリプトは FormIt ファイルに埋め込まれ、このグループに固有のものです。
-* **Select Glass \(Surface or Solid\)**: これをクリックすると、選択内容が別のガラスに更新され、その周囲にマリオンが生成されます。
+* **Select Glass (Surface or Solid)**: これをクリックすると、選択内容が別のガラスに更新され、その周囲にマリオンが生成されます。
 
-スクリプトは最初に実行した既定値を使用するため、独自の使用事例に合わせて調整します。すべての値は、現在の FormIt 単位を使用します。
+スクリプトは最初に実行した既定値を使用するため、独自の使用事例に合わせて調整します。すべての値は、[FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) ノードで設定された単位を使用します。
 
 * **Mullion Width / Mullion Depth**: すべてのマリオン要素の幅と奥行き。
 * **Vertical Mullion Spacing**: 各垂直マリオン間の中心距離。
@@ -60,7 +60,7 @@ FormIt で Dynamo グラフのジオメトリを選択する場合、次のよ�
 
 ## 非表示のオプション
 
-さらにカスタマイズが必要ですか? FormIt の[プロパティ]パレットでは、いくつかの高度なオプションが非表示になっていますが、[Edit Embedded Graph]をクリックすると、Dynamo でグラフの内容をすべて表示できます。
+さらにカスタマイズが必要ですか? FormIt の[プロパティ]パレットでは、いくつかの高度なオプションが非表示になっていますが、[埋め込まれたグラフを編集]をクリックすると、Dynamo でグラフの内容をすべて表示できます。
 
 ![](../.gitbook/assets/dynamo-edit-embedded-graph.png)
 
@@ -69,7 +69,7 @@ FormIt で Dynamo グラフのジオメトリを選択する場合、次のよ�
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
 * **Randomize Vertical/Horizontal Mullion Layout**: 垂直マリオンまたは水平マリオンをランダムに配置するには、この値を True に設定します。
-* **Min/Max Mullion Spacing \(if random\)**: ランダムな最小および最大の間隔値の範囲を設定します。
+* **Min/Max Mullion Spacing (if random)**: ランダムな最小および最大の間隔値の範囲を設定します。
 
 ### 境界マリオン
 
@@ -77,4 +77,3 @@ FormIt で Dynamo グラフのジオメトリを選択する場合、次のよ�
 
 * **Flip Offset Direction of Border Mullions**: 既定では、マリオン システムはガラスの境界を使用し、それを内側にオフセットして境界マリオンを作成します。外側にオフセットするには、このオプションを True に設定します。これにより、[Mullion Width]の設定によるガラス境界の外側のマリオン システム全体のサイズが大きくなります。
 * **Tolerance Between Selection and Border Mullions**: 既定では、マリオン システムはガラスの境界に正確に生成されます。この場合、ガラスのエッジと境界マリオンの外側サーフェスが衝突する Z 競合が発生する可能性があります。ほとんどの場合、これは表示されませんが、使用事例でシステムのエッジを表示する必要があり、Z 競合を回避する場合はこのオプションを有効にして、必要に応じて許容値を調整します。
-

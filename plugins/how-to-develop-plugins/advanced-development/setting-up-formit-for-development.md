@@ -1,109 +1,109 @@
-# Setting Up FormIt for Development
+# 開発のために FormIt を設定する
 
-In order to test and build plugins in the FormIt desktop app, you'll need FormIt for Windows v17.0 or later.
+FormIt デスクトップ アプリケーションでプラグインをテストおよびビルドするには、FormIt for Windows v17.0 以降が必要です。
 
-### **Display Script Editor and Script Output**
+### **スクリプト エディタとスクリプトの出力を表示する**
 
-In the top menu of FormIt, go to **Window** in the top **** menu and check the **Script Editor** and **Script Output** boxes.
+FormIt の上部メニューの**[ウィンドウ]**に移動し、**[スクリプト エディタ]**ボックスと**[スクリプトの出力]**ボックスをオンにします。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
-The Script Editor and Script Output panels will appear at the bottom of the FormIt window.
+[スクリプト エディタ]パネルと[スクリプトの出力]パネルが FormIt ウィンドウの下部に表示されます。
 
-Switch between the Script Editor and Script Output by using the buttons at the bottom.
+下部にあるボタンを使用して、[スクリプト エディタ]と[スクリプトの出力]を切り替えます。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditorDefaultState.PNG)
 
-You can also arrange both panels side by side. Click the button next to the "x" in the upper right corner to detach one of the panels, then drag and drop the panels next to each other:
+両方のパネルを並べて配置することもできます。右上隅にある「x」の横のボタンをクリックして、いずれかのパネルをアタッチ解除し、パネルをドラッグして横に並ぶように移動します。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditor+ScriptOutputConfiguration.gif)
 
-### **Script Editor**
+### **スクリプト エディタ**
 
-The Script Editor provides a simple development environment where you can write and test code.
+スクリプト エディタは、コードを記述およびテストできる簡単な開発環境を提供します。
 
-The Script Editor stores written code inside a scratch.js file in the directory where the FormIt.exe file is located.
+スクリプト エディタに書き込まれたコードは、FormIt.exe ファイルと同じフォルダ内の scratch.js ファイルに格納されます。
 
-At the top are two buttons:
+上部には 2 つのボタンがあります。
 
-**Run** ![](<../../../.gitbook/assets/image (8).png>): **** Executes all code written in the window.
+**実行** ![](<../../../.gitbook/assets/image (8).png>): ウィンドウに書き込まれているすべてのコードを実行します。
 
-**Run Selection** ![](<../../../.gitbook/assets/image (52).png>):  ****  Executes only the selected/highlighted lines of code.
+**選択項目を実行** ![](<../../../.gitbook/assets/image (52).png>): 選択してハイライト表示されたコード行のみを実行します。
 
-### **Script Output**
+### **スクリプトの出力**
 
-The Script Output window displays any messages printed to the console from plugins.
+[スクリプトの出力]ウィンドウには、プラグインからコンソールに出力されたメッセージが表示されます。
 
-You can clear the output by running `console.clear();` in the Script Editor.
+[スクリプト エディタ]で `console.clear();` を実行すると、出力をクリアできます。
 
-## Working with Sample Plugins
+## サンプル プラグインを使用する
 
-After [cloning a repository](cloning-a-sample-plugin.md) and [setting up a web server](hosting-a-plugin-on-a-local-server.md), you can now get your local plugins to show up in FormIt.
+[リポジトリのクローンを作成](cloning-a-sample-plugin.md)し、[Web サーバを設定](hosting-a-plugin-on-a-local-server.md)したため、ローカル プラグインを FormIt に表示できる状態になっています。
 
-You can load or install any of the plugins, but for the purposes of this exercise, you'll install both a panel-based and a toolbar-based plugin. We'll assume your npm http-server is running on port 8080 hosting both example repositories.
+プラグインはすべてロードまたはインストールが可能ですが、この演習では、パネルベースのプラグインとツールバーベースのプラグインの両方をインストールします。npm の http-server がポート 8080 で実行中で、例として使用する両方のリポジトリをホストしていることを前提としています。
 
-### **Load vs. Install**
+### **ロードとインストールの違い**
 
-`FormIt.LoadPlugin();` loads the plugin only for the current session. The plugin will be unloaded automatically when the app is closed and restarted.
+`FormIt.LoadPlugin();` でプラグインをロードすると、現在のセッションのみで使用できます。プラグインは、アプリケーションを閉じて再起動すると、自動的にロード解除されます。
 
-This is a great option for temporarily manifesting a plugin for testing in the current session only.
+これは、現在のセッションのみでテストするためにプラグインを一時的に表示する場合に便利なオプションです。
 
-`FormIt.InstallPlugin();` makes the plugin persist using a registry key. This is great for plugins you'll use frequently from session to session.
+`FormIt.InstallPlugin();` では、レジストリ キーを使用してプラグインが保持されます。これは、さまざまなセッションで頻繁に使用するプラグインに適しています。
 
-On Windows, the following registry keys are used to persist plugins:
+Windows では、プラグインを保持するために次のレジストリ キーが使用されます。
 
-* Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* プラグイン: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
 
-Use `FormIt.UninstallPlugin();` to uninstall.
+`FormIt.UninstallPlugin();` を使用してアンインストールします。
 
-In the following examples, unless otherwise noted, feel free to use either _Install_ or _Load,_ depending on whether you want the results of the exercise to be persistent or not.
+次の例では、特に指定がない限り、演習で作成したプラグインを保持するかどうかによって、__インストールと__ロードのどちらを使用してもかまいません。
 
-### **Toolbar Plugin Sample: Flip Along**
+### **ツールバー プラグインのサンプル: Flip Along**
 
-In the Script Editor, run the following:
+スクリプト エディタで、次を実行します。
 
-If running a local server:
+ローカル サーバを実行する場合
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+[FormIt の GitHub にあるリポジトリ](https://github.com/FormIt3D/)からロードする場合(インターネット接続が必要)
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
-You should see the Flip Along toolbar appear at the top of the application window:
+アプリケーション ウィンドウの上部に、[Flip Along]ツールバーが表示されます。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FlipAlongToolbar.PNG)
 
-### **HTML Panel Plugin Sample: Properties Plus**
+### **HTML パネル プラグインのサンプル: Properties Plus**
 
-In the Script Editor, run the following:
+スクリプト エディタで、次を実行します。
 
-If running a local server:
+ローカル サーバを実行する場合
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+[FormIt の GitHub にあるリポジトリ](https://github.com/FormIt3D/)からロードする場合(インターネット接続が必要)
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
-You should see the Properties Plus panel appear on the right side of the application window:
+アプリケーション ウィンドウの右側に[Properties Plus]パネルが表示されます。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PropertiesPlusPanel.png)
 
-### **Modal and Modeless Dialog Plugin Sample**
+### **モーダル ダイアログおよびモードレス ダイアログのプラグインのサンプル**
 
-Dialog plugins are unique: They can only be loaded, not installed.
+ダイアログのプラグインは他のものとは異なり、ロードのみが可能で、インストールはできません。
 
-In the Script Editor, run the following:
+スクリプト エディタで、次を実行します。
 
-If running a local server:
+ローカル サーバを実行する場合
 
-* Modal: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
-* Modeless: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
+* モーダル: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
+* モードレス: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+[FormIt の GitHub にあるリポジトリ](https://github.com/FormIt3D/)からロードする場合(インターネット接続が必要)
 
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
+* モーダル: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
+* モードレス: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-You should see the Hello Block! panel from the HTML panel example appear on screen as either a modal or modeless dialog.
+HTML パネルの例の[Hello Block!]パネルが、モーダル ダイアログまたはモードレス ダイアログとして画面上に表示されます。

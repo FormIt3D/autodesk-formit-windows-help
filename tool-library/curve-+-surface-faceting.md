@@ -8,7 +8,7 @@ FormIt for Windows v18 以降では、曲面とサーフェスの切り子面の
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](<../.gitbook/assets/faceting (1).png>)
+![](../.gitbook/assets/faceting.png)
 
 **Curve Faceting Quality**
 
@@ -16,11 +16,11 @@ FormIt for Windows v18 以降では、曲面とサーフェスの切り子面の
 
 この値は、SAT ファイルから読み込んだ円や円弧の品質や、Dynamo からジオメトリをベイク処理する際の品質にも影響します。この値は、新しいスケッチまたは現在のスケッチに対して設定できます。
 
-既存の曲面の場合は、Rebuild Curve プラグインを使用して、新しい切り子面の数を持つ**既存**の円弧または円を遡及的に再構築することもできます。
+既存の曲面の場合は、Rebuild Curve プラグインを使用して、新しい切り子面の数を持つ**既存** の円弧または円を遡及的に再構築することもできます。
 
-![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
+![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-![](../.gitbook/assets/faceting\_rebuild-curve.gif)
+![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
 
 **Surface Faceting Quality**
 
@@ -30,10 +30,10 @@ FormIt for Windows v18 以降では、曲面とサーフェスの切り子面の
 
 Dynamo を使用して作業している場合は、切り子面品質を修正して[プロパティ]パレットのグラフの実行ボタンをクリックするだけで、パラメータを変更しなくても新しい切り子面の数を利用できます。
 
-![](../.gitbook/assets/faceting\_column.gif)
+![](<../.gitbook/assets/faceting\_column (1).gif>)
 
 曲面の場合と同様に、新しいスケッチまたは現在のスケッチに対してのみ、サーフェスの切り子面品質を設定できます。
 
 切り子面の値は現在のところ 4 の倍数に制限されているため、手動で数値を入力すると、最も近い倍数に丸められます。スライダと矢印を使用して、使用できる値を切り替えることができます。
 
-![](../.gitbook/assets/units-+-precision.png)
+![](<../.gitbook/assets/units-+-precision (1).png>)

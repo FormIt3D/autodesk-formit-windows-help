@@ -1,12 +1,5 @@
 # Revit
 
-FormIt は Revit と連動するように設計されています。基本的な機能の詳細については、FormIt Primer の[**こちらのチュートリアル**]()を参照してください。
+![](<../.gitbook/assets/image (53).png>)
 
-## Revit のデータを使用する
-
-Revit から FormIt にジオメトリを送信できます。これは、モデルをすばやく解析してジオメトリを Revit に戻す場合などに便利です。ビデオによるデモンストレーションをご覧ください。
-
-## Revit コンテンツを作成する
-
-FormIt を使用してコンテンツを作成し、Revit ファミリで使用できます。ビデオによるデモンストレーションをご覧ください。
-
+[「FormIt の機能」セクションの「FormIt + Revit」を参照してください。](../formit-capabilities/formit-+-revit.md)

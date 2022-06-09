@@ -2,13 +2,13 @@
 
 レイヤを使用して FormIt オブジェクトの表示をコントロールします。
 
-レイヤを使用した表示のコントロールについて詳しくは、[FormIt Primer](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers) のこちらのドキュメントを参照してください。
+レイヤを使用した表示のコントロールについて詳しくは、[FormIt Primer](../formit-primer/part-i/control-visibility-with-layers.md) を参照してください。
 
 ## レイヤを作成して名前を付ける
 
-レイヤを作成して名前を付けるには、[レイヤ]パネルで**[+]**アイコンをクリックします。
+レイヤを作成して名前を付けるには、[レイヤ]パネルで**[+]** アイコンをクリックします。
 
-![](../.gitbook/assets/layer-locking-image.jpg)
+![](<../.gitbook/assets/layer-locking-image (1).jpg>)
 
 名前をダブルクリックしてレイヤの名前を変更したり、左側のチェックボックスを使用してそのレイヤのオブジェクトの表示/非表示を切り替えることができます。右側のチェックボックスは、レイヤのロック/ロック解除に使用します。ロックされたレイヤは表示されたままですが、選択や編集はできません。
 
@@ -25,4 +25,3 @@ FormIt には、「既定レイヤ」や「作業レイヤ」という概念が�
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
 パネル内のレイヤをドラッグして新しい位置に動かすと、レイヤの順序を変更できます。ただし、この操作はジオメトリの表示には影響しません。パネル内が整理されるだけです。
-

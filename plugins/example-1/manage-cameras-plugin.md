@@ -1,43 +1,43 @@
-# Manage Cameras Plugin
+# Manage Cameras プラグイン
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_この章では、FormIt に付属のプラグインをいくつか紹介して、_ _**Encode Campus Sample Model.axm** に改善を加えます。まだダウンロードしていない場合は、_[_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip) からファイルをダウンロードできます。
 
-Throughout the primer, we have been using scenes as valuable tools to navigate and control visibility throughout the model. This plugin allows us to see and edit the elevation of our current camera, export cameras for each scene as 3D objects, and copy these scenes between models.
+FormIt Primer では全般的に、モデル全体の表示をナビゲートおよびコントロールするための便利なツールとしてシーンを使用しています。 このプラグインを使用すると、現在のカメラの高さを表示および編集したり、各シーンのカメラを 3D オブジェクトとして書き出したり、これらのシーンをモデル間でコピーできます。
 
-1 - First, we will adjust the **Eye Level – Long Alley** scene so that its camera is actually at eye level:
+1 - 最初に、カメラが実際に視点レベルになるように、シーン **Eye Level - Long Alley** を調整します。
 
-1. If not already there, go back to the **Eye Level – Long Alley** scene by double-clicking on it inside the **Scenes Palette**.
-2. Open the **Manage Cameras Palette** by clicking on the camera with a gear icon.
-3. Change the **Height Above Ground** to **5’-8”**.
+1. このシーンが表示されていない場合は、**[シーン] パレット**内でシーン **Eye Level - Long Alley** をダブルクリックして戻ります。
+2. 歯車付きカメラのアイコンをクリックして、**Manage Cameras** パレットを開きます。
+3. **[Height Above Ground]** を **5'-8"** に変更します。
 
 ![](<../../.gitbook/assets/6 (6) (1).png>)
 
-_**Note:**_ _If your model has levels, this plugin will also show the height above the nearest level below the_ _**Main Camera**._
+_**注:**_ _モデルにレベルがある場合、このプラグインでは_ _**Main Camera** より下の最も近いレベルからの高さも表示されます。_
 
-2 - Then:
+2 - 次のように操作します。
 
-1. Go back to the **Scenes Palette**.
-2. Make sure the **Eye Level – Long Alley** scene is still selected (otherwise single-click to select it).
-3. Click on the **Update Scene** button to save the new camera height to this scene.
+1. **[シーン]パレット** に戻ります。
+2. シーン **Eye Level – Long Alley** が選択されたままになっていることを確認します(選択されていない場合は、シングルクリックで選択します)。
+3. **[シーンを更新]** ボタンをクリックして、このシーンに新しいカメラの高さを保存します。
 
 ![](<../../.gitbook/assets/7 (1) (1).png>)
 
-_**Note:**_ _You can also adjust the angle and position of a scene’s camera by toggling the_ _**Edit Scene Cameras**_ _button at the top of the_ _**Scenes Palette**_ _(between the update and play buttons)._
+_**注:**_ _シーンのカメラの角度と位置を調整する場合は、_ _**[シーン カメラを編集]**_ _ボタン(_ _**[シーン]パレット**_ _上部の更新ボタンと再生ボタンの間にあるボタン)に切り替えます。_
 
-3 - Next let’s export our scenes to a new model. First we have to create camera objects for all scenes using the **Manage Cameras** plugin:
+3 - 次に、シーンを新しいモデルに書き出します。まず、**Manage Cameras** プラグインを使用してすべてのシーンのカメラ オブジェクトを作成します。
 
-1. Open the **Manage Cameras Palette** again.
-2. Make sure the **Copy Cameras to Clipboard** option is checked.
-3. Click on the **Export Scenes to Cameras** button. This may take a few seconds.
-4. If your entire canvas went white, it is because your **Main Camera** was aligned with one of the scene cameras. **Zoom (Z)** out until you can see the 3 main buildings and the newly created camera objects. Note that the camera objects are automatically placed into one large group named **Cameras**. Inside that group, each individual camera is placed in its own group with the same name as the scenes it was created from.
+1. **[Manage Cameras]パレット** を再度開きます。
+2. **[Copy Cameras to Clipboard]** オプションがオンになっていることを確認します。
+3. **[Export Scenes to Cameras]** ボタンをクリックします。これは数秒かかる場合があります。
+4. キャンバス全体が白くなった場合は、**Main Camera** がシーンのカメラの 1 つに位置合わせされています。**[ズーム(Z)]** で縮小して、3 つの主要な建物と新しく作成されたカメラ オブジェクトが表示されるようにします。カメラ オブジェクトは自動的に **Cameras** という名前の 1 つの大きなグループに配置されます。このグループ内では、個々のカメラは作成元のシーンと同じ名前の独自のグループに配置されます。
 
 ![](<../../.gitbook/assets/8 (7) (1).png>)
 
-4 – Let’s copy these scenes to a new model. Since the camera data was saved to the clipboard, there is not much we have to do:
+4 - これらのシーンを新しいモデルにコピーします。カメラ データがクリップボードに保存されたため、後は次のように操作するのみです。
 
-1. **Save** **(Ctrl + S)** your current model, and the close it.
-2. Start a new empty sketch by selecting **New Sketch (Ctrl + N)** from the **File** dropdown in the **Main Menu** bar.
-3. Open the **Manage Cameras** plugin, if its not already open, and make sure the **Look for Cameras on Clipboard** option is checked.
-4. Click on the **Import Scenes from Cameras** button near the bottom of the plugin, and the scenes from our other model will be imported. To check, open the **Scenes Palette** and/or turn on the **Camera** layer. You will see that all the scenes and 3D camera objects have been imported into this model.
+1. 現在のモデルを**保存** **([Ctrl] + [S])** して閉じます。
+2. **メイン メニュー** バーの**[ファイル]** ドロップダウンから**[新しいスケッチ([Ctrl]+[N])]** を選択して、新しい空のスケッチを開始します。
+3. **Manage Cameras** プラグインが開いていない場合は開き、**[Look for Cameras on Clipboard]** オプションがオンになっていることを確認します。
+4. プラグインの下部近くの**[Import Scenes from Cameras]** ボタンをクリックすると、他のモデルのシーンが読み込まれます。確認するには、**[シーン]パレット** を開くか、レイヤ **Camera** をオンにします。シーンと 3D カメラ オブジェクトがすべてこのモデルに読み込まれたことがわかります。
 
 ![](<../../.gitbook/assets/9 (7) (1).png>)

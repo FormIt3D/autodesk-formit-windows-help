@@ -1,41 +1,37 @@
-# Hosting a Plugin on GitHub
+# GitHub にプラグインをホストする
 
-Have you built a useful plugin that you want to share? Host your repository on GitHub so that others can install your plugin from the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager)!
+便利なプラグインをビルドし、共有を希望する場合は、GitHub にリポジトリをホストして、他のユーザが [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) からプラグインをインストールできるようにすることができます。
 
-### Host Your Plugin Project
+### プラグイン プロジェクトをホストする
 
-This process is similar to an earlier chapter where we discuss how to [publish your plugin](../your-first-plugin/publishing-your-project.md) created in the Plugin Playground. &#x20;
+このプロセスは、前の章で説明した、Plugin Playground で作成した[プラグインをパブリッシュする](../your-first-plugin/publishing-your-project.md)方法と似ています。
 
-Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlugins
+GitHub の新しいプラグインのリポジトリ(例: https://github.com/Joe/JoesPlugins)に移動します
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+上部のメニューで、[Settings] > [Pages]をクリックします。[Source]の下にある[None]ボタンをクリックし、[main branch]を選択します。[Save]をクリックします。
 
 ![](<../../../.gitbook/assets/image (74).png>)
 
-### Continue to Update Your Plugin Project Locally
+### ローカルでプラグイン プロジェクトの更新を続ける
 
-At this point, you can continue adding, modifying, and testing plugins locally, and when you're ready to publish, use GitHub Desktop or another Git client to push your changes to your GitHub repo. Anyone consuming your repo and plugins will always get the latest code when they start FormIt.
+この時点では、ローカルでプラグインの追加、変更、およびテストを続けることができます。パブリッシュの準備が整ったら、GitHub Desktop または別の Git クライアントを使用して GitHub リポジトリに変更をプッシュします。リポジトリとプラグインを使用するユーザは、FormIt の起動時に、常に最新のコードを取得します。
 
-### Publish Your Project
+### プロジェクトをパブリッシュする
 
-For projects created in an IDE instead of [Plugin Playground](../your-first-plugin/plugin-playground.md), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
+[Plugin Playground](../your-first-plugin/plugin-playground.md) ではなく、IDE で作成されたプロジェクトの場合は、プラグインのリポジトリに **FormIt-plugin** トピックを追加することで、プラグインをパブリッシュできます。
 
-This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
+これにより、[コミュニティのプラグイン](../../example-1/formit-plugin-community.md)のリストでプラグインを見つけてもらうことができます。
 
-View your repo on GitHub by visiting your project link, for example, https://github.com/Joe/JoesPlugin
+プロジェクトのリンク(例: https://github.com/Joe/JoesPlugin)にアクセスして、GitHub 上でリポジトリを表示します。
 
-Click on Settings in the top right corner.
+右上隅にある[Settings]をクリックします。
 
 ![](<../../../.gitbook/assets/image (39).png>)
 
-Add a plugin description, add formit-plugin to the Topics field, and save changes.
+プラグインの説明を追加し、[Topics]フィールドに formit-plugin を追加して、変更を保存します。
 
 ![](<../../../.gitbook/assets/image (54).png>)
 
-Once saved, your plugin project will be added to the [community plugins](https://github.com/topics/formit-plugin) list.
-
-
-
-
+保存すると、プラグイン プロジェクトが[コミュニティのプラグイン](https://github.com/topics/formit-plugin)のリストに追加されます。
 
 ###

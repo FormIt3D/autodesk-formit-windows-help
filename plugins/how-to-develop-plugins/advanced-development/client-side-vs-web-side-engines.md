@@ -1,27 +1,27 @@
-# Client-Side vs Web-Side Engines
+# クライアント側エンジンと Web 側エンジン
 
-FormIt plugins utilize two distinct JavaScript engines:&#x20;
+FormIt プラグインは、2 つの異なる JavaScript エンジンを使用します。&#x20;
 
-* The panel displaying the HTML (Web-Side)
-* The Client-side (FormIt) makes calls to FormIt and its geometry kernel.&#x20;
+* HTML を表示するパネル(Web 側)
+* クライアント側のパネル(FormIt)。FormIt とそのジオメトリ カーネルを呼び出します&#x20;
 
-These two JavaScript engines work in distinct processes.
+これら 2 つの JavaScript エンジンは、異なるプロセスで動作します。
 
-## **Client-Side (FormIt) vs Web-Side (HTML)**
+## **クライアント側(FormIt)と Web 側(HTML)**
 
-FormIt runs multiple JavaScript engines simultaneously:
+FormIt は複数の JavaScript エンジンを同時に実行します。
 
-* The FormIt application has its own JavaScript engine
-* Each plugin Toolbar has its own JavaScript engine.
-* Each plugin Panel has its own JavaScript engine (Chromium)
+* FormIt アプリケーションには独自の JavaScript エンジンがあります
+* 各プラグイン ツールバーには独自の JavaScript エンジンがあります
+* 各プラグイン パネルには独自の JavaScript エンジンがあります(Chromium)
 
-Plugins can specify where the JavaScript is loaded:
+プラグインでは、JavaScript がロードされる場所を指定できます。
 
 ![](../../../.gitbook/assets/d14.png)
 
-### Client-Side (FormIt)
+### クライアント側(FormIt)
 
-Specified using [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8)
+[manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8) を使用して指定されます
 
 ```
     "Scripts": [
@@ -31,18 +31,18 @@ Specified using [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins
 
 ```
 
-### Web-side (HTML)
+### Web 側(HTML)
 
-Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7)
+[index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7) を使用して指定されます
 
-* Web-side scripts are loaded from the web page.
-* Web-side scripts can call into the Client-Side (FormIt) JavaScript using multiple async calls.
+* Web 側スクリプトは、Web ページからロードされます。
+* Web 側スクリプトは、複数の非同期の呼び出しを使用してクライアント側(FormIt)の JavaScript を呼び出すことができます。
 
-## Three methods to call Client-side (FormIt) commands from a Web-based plugin:
+## Web ベースのプラグインからクライアント側(FormIt)のコマンドを呼び出す 3 つのメソッド
 
-### Method 1: FormItInterface.CallMethod
+### メソッド 1: FormItInterface.CallMethod
 
-`CallMethod` takes a function name and the arguments that will run on the FormIt Side.  The passed-in function will be called with the result of the function call.
+`CallMethod` は、FormIt 側で実行される関数名とその引数を取得します。このメソッドを渡された関数は、関数呼び出しの結果とともに呼び出されます。
 
 ```
     var args = {
@@ -56,23 +56,23 @@ Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/bl
     });
 ```
 
-**Pros:**&#x20;
+**長所:**&#x20;
 
-➕ No`await` needed.&#x20;
+➕ `await` が不要です。&#x20;
 
-**Cons:**&#x20;
+**短所:**&#x20;
 
-➖ A callback is needed to get the result and is called “who knows when”.&#x20;
+➖ 結果を取得するにはコールバックが必要ですが、そのタイミングを決めることができません。&#x20;
 
-➖ Scripts are defined in two different places.&#x20;
+➖ スクリプトは 2 つの異なる場所で定義されます。&#x20;
 
-➖ Requires plugin logic to be split into two different files.
+➖ プラグイン ロジックを 2 つの異なるファイルに分割する必要があります。
 
-### **Method 2: FormIt.CallJS**&#x20;
+### **メソッド 2: FormIt.CallJS**&#x20;
 
-**\*Available in FormIt 2022.1 and newer only**
+**\* FormIt 2022.1 以降でのみ使用可能です**
 
-CallJS takes the JavaScript function to be called on the FormIt Side and the arguments.json object.
+CallJS は、FormIt 側で呼び出される JavaScript 関数、および arguments.json オブジェクトを取得します。
 
 ```
 var args =
@@ -85,45 +85,45 @@ var result = await FormIt.CallJS("CreateBlock", args);
 
 ```
 
-**Pros:**&#x20;
+**長所:**&#x20;
 
-➕ The result is available when needed
+➕ 必要なときに結果を利用できます。
 
-**Cons:**&#x20;
+**短所:**&#x20;
 
-➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.
+➖ **** 非同期の呼び出しをすべて await で修飾する必要があります。これを忘れると正しく機能しません。
 
-➖ **** Potentially slower due to `await`
+➖ **** `await` が原因で動作が遅くなる可能性があります。
 
-### **Method 3 (async/await)**
+### **メソッド 3 (async/await)**
 
 ```
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-With an async call, the Web Side calls the FormIt Side. This call starts in one process, sent to another process, then the result is passed back to the starting process. This is why await is needed.&#x20;
+非同期の呼び出しで、Web 側が FormIt 側を呼び出します。この呼び出しは、あるプロセスで開始して別のプロセスに送られ、その結果が開始プロセスに戻されます。そのため、await が必要です。&#x20;
 
-Only built-in FormIt APIs can be called by default.
+既定では、組み込みの FormIt API のみを呼び出すことができます。
 
-**Pros:**&#x20;
+**長所:**&#x20;
 
-➕ The result is available when needed.&#x20;
+➕ 必要なときに結果を利用できます。&#x20;
 
-➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
+➕ manifest.json にスクリプトが定義されていなくても、すべてのコードを結合して、Web 側から実行される 1 つの JS ファイルにすることができます。
 
-**Cons:**&#x20;
+**短所:**&#x20;
 
-➖ **** Have to decorate all the async calls with `await`, forgetting to do so will mess things up.&#x20;
+➖ **** 非同期の呼び出しをすべて `await` で修飾する必要があります。これを忘れると正しく機能しません。&#x20;
 
-➖ **** Potentially slower due to `await.`
+➖ **** `await.` が原因で動作が遅くなる可能性があります。
 
-### Method 4 (RegisterAsyncAPI)&#x20;
+### メソッド 4 (RegisterAsyncAPI)&#x20;
 
-**\*Available in FormIt 2023.0 and newer only**&#x20;
+**\* FormIt 2023.0 以降でのみ使用可能です**&#x20;
 
-To call a user defined function on the FormIt Side, the function needs to be registered. For example:&#x20;
+FormIt 側でユーザ定義関数を呼び出すには、関数を登録する必要があります。例:&#x20;
 
-**Client-Side (FormIt)**
+**クライアント側(FormIt)**
 
 ```
 FormIt.RegisterAsyncAPI("HelloBlockAsync", "CreateBlock", "l, w, h");
@@ -134,24 +134,24 @@ HelloBlockAsync.CreateBlock = function(args)
 }
 ```
 
-**Web-Side (HTML)**
+**Web 側(HTML)**
 
 ```
 var result = await HelloBlockAsync.CreateBlock(l, w, h);
 ```
 
-See [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0)  for an example.
+例については、「[HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0)」を参照してください。
 
-**Pros:**&#x20;
+**長所:**&#x20;
 
-➕ The result is available when needed.&#x20;
+➕ 必要なときに結果を利用できます。&#x20;
 
-➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
+➕ manifest.json にスクリプトが定義されていなくても、すべてのコードを結合して、Web 側から実行される 1 つの JS ファイルにすることができます。
 
-**Cons:**&#x20;
+**短所:**&#x20;
 
-➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.&#x20;
+➖ **** 非同期の呼び出しをすべて await で修飾する必要があります。これを忘れると正しく機能しません。&#x20;
 
-➖ **** Potentially slower due to `await.`
+➖ **** `await.` が原因で動作が遅くなる可能性があります。
 
 ##

@@ -1,6 +1,6 @@
-# Creating a Combined HTML Panel and Toolbar Plugin
+# HTML パネルとツールバーを組み合わせたプラグインを作成する
 
-With a single _manifest.json_, you can initialize both a toolbar and an HTML panel, offering a variety of UI types and tools, all loaded from the same directory.
+1 つの _manifest.json_ でツールバーと HTML パネルの両方を初期化して、さまざまな UI タイプや UI ツールを設定できます。すべて同じフォルダからロードされます。
 
 ```
     {
@@ -22,5 +22,5 @@ With a single _manifest.json_, you can initialize both a toolbar and an HTML pan
         "Panel": "panel.html", <-- Panel entry point
         "PanelIcon": "block.png" <-- Icon for your panel button
     }
-        
+
 ```

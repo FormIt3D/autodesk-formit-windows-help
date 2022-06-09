@@ -1,36 +1,36 @@
-# Cloning a Sample Plugin
+# サンプル プラグインのクローンを作成する
 
-### Clone an Existing FormIt Plugin Repo
+### 既存の FormIt プラグイン リポジトリのクローンを作成する
 
-You can clone various plugin repos from the FormIt team. These plugins demonstrate different UI types and some advanced functionality that can be achieved with plugins.
+FormIt チームが作成したさまざまなプラグイン リポジトリのクローンを作成できます。これらのプラグインを確認すると、プラグインで実現可能なさまざまな UI タイプと高度な機能がわかります。
 
-Each plugin is stored in its own repo. You can find them here: [FormIt3D Organization Repos](https://github.com/FormIt3D)
+各プラグインは、独自のリポジトリに保存されています。FormIt3D Organization のリポジトリは[こちら](https://github.com/FormIt3D)から検索できます。
 
 ### GitHub Desktop
 
-[GitHub Desktop](https://desktop.github.com) provides an easy-to-use interface for cloning repos, seeing changes to files, and pushing/pulling changes between your local computer and online repos. Some of the features GitHub desktop provides are:
+[GitHub Desktop](https://desktop.github.com) では、リポジトリのクローン作成、ファイルへの変更の確認、ローカル コンピュータのリポジトリとオンライン リポジトリ間の変更のプッシュとプルを行うための、使いやすいインタフェースが提供されます。GitHub Desktop には次のような機能があります。
 
-* Create a new repo to host your plugin on GitHub.
-* Use GitHub Desktop to clone your new (empty) GitHub repository to your local machine.
-* Develop your plugin by adding new files to the repo folder locally.
-* Use GitHub Desktop to push your plugin files and directories to your repository.
-* Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+* 新しいリポジトリを作成して GitHub にプラグインをホストする。
+* GitHub Desktop を使用して、新しい(空の) GitHub リポジトリのクローンをローカル コンピュータに作成する。
+* ローカルでリポジトリ フォルダに新しいファイルを追加して、プラグインを開発する。
+* GitHub Desktop を使用して、プラグインのファイルとフォルダをリポジトリにプッシュする。
+* リポジトリで GitHub Pages を有効にし、GitHub にホストされているプラグインを FormIt でロードして表示できるようにする。
 
-### Clone a Sample Plugin Repo with GitHub Desktop
+### GitHub Desktop を使用してサンプル プラグイン リポジトリのクローンを作成する
 
-In GitHub, choose a plugin project you wish to clone or modify. Click the **Code** button, and copy the address from the dropdown.
+GitHub で、クローン作成または変更するプラグイン プロジェクトを選択します。**[Code]** ボタンをクリックし、ドロップダウンからアドレスをコピーします。
 
 ![](<../../../.gitbook/assets/image (78).png>)
 
-Open your GitHub desktop app, click **Current Repository**, and then select **Clone Repository**.
+GitHub Desktop アプリケーションを開き、**[Current Repository]** をクリックして、**[Clone Repository]** を選択します。
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
-Select the **URL** tab, paste the copied link into first field, and choose a local folder path on your computer to save these files. Click **Clone**.
+**URL** タブを選択し、コピーしたリンクを最初のフィールドに貼り付け、これらのファイルを保存するコンピュータ上のローカル フォルダ パスを選択します。**[Clone]** をクリックします。
 
 ![](<../../../.gitbook/assets/image (46).png>)
 
-### Open Your Project in Visual Studio Code
+### Visual Studio Code でプロジェクトを開く
 
-Launch Visual Studio Code. Go to **File** > **Open Folder** and select the folder that contains your plugin files and folders, for example, C:\Users\Documents\GenerateStringLights\v22\_0
+Visual Studio Code を起動します。**[File]** > **[Open Folder]** に移動し、プラグインのファイルとフォルダを含むフォルダ(C:\Users\Documents\GenerateStringLights\v22\_0 など)を選択します。
 

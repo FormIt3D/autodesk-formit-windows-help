@@ -1,34 +1,34 @@
-# Generate String Lights
+# ストリング ライトを生成する
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_この章では、FormIt に付属のプラグインをいくつか紹介して、_ _**Encode Campus Sample Model.axm** に改善を加えます。まだダウンロードしていない場合は、_[_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip) からファイルをダウンロードできます。
 
-_This neat plugin lets you quickly add hanging lights to your model based on a line or curve._
+_この優れたプラグインを使用すると、線分または曲線に基づいてモデルにストリング ライトをすばやく追加できます。_
 
-1 - Before adding any new lights, let's check out the intended result using a premade scene in the model.
+1 - 新しい照明を追加する前に、モデル内の作成済みのシーンを使用して、意図した結果を確認します。
 
-1. To jump to the scene containing existing string lights, open the **Scenes Palette** and double click on the scene named **Eye Level – Short Alley**.
-2. Notice the string lights that came with this model – that is what we are going to recreate, but somewhere else.
-3. In the **Layer Palette**, turn on the **Helper Geometry** layer so you can see the original lines used to generate these string lights.
+1. 既にストリング ライトを含んだシーンにジャンプするには、**[シーン]パレット** を開き、**Eye Level - Short Alley** という名前のシーンをダブルクリックします。
+2. このモデルのストリング ライトに注目してください。これが今から作成する照明ですが、こことは別の場所に配置します。
+3. **[レイヤ]パレット** でレイヤ **Helper Geometry** をオンにすると、これらのストリング ライトの生成に使用された元の線分を確認できます。
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - Now let’s navigate to the other alley and add some lights. In the **Scenes Palette** open the **Eye Level – Long Alley** scene. Notice that this alley does not yet have any string lights.
+2 - 別の路地にナビゲートして、照明を追加します。**[シーン]パレット** でシーン **Eye Level - Long Alley** を開きます。この路地にはまだストリング ライトがありません。
 
-3 - To create a new string of lights:
+3 - 照明用の新しいストリングを作成します。
 
-1. Open the newly installed **Generate String Lights Palette** by clicking on the string light icon. By default, the icons for new plugins appear at the bottom.
-2. Change the **Number of Fixtures** option to **10**.
-3. Double-click on one of the helper lines to edit the pre-created **String Lights – Long Alley** group. Then single-click on one of the pre-drawn helper lines to select it.
-4. Click the **Generate String Lights** button inside the plugin’s palette, and a new string of lights should appear! Note that each string of lights is created as its own unique group.
+1. ストリング ライトのアイコンをクリックして、新しくインストールした **Generate String Lights** のパレットを開きます。既定では、新しいプラグインのアイコンは下の方に表示されています。
+2. **[Number of Fixtures]** オプションを **10** に変更します。
+3. ヘルパー線分のいずれかをダブルクリックして、作成済みのグループ **String Lights – Long Alley** を編集します。次に、描画済みのヘルパー線分のいずれかをシングルクリックして選択します。
+4. プラグインのパレット内の**[Generate String Lights]** ボタンをクリックすると、新しい照明用のストリングが表示されます。照明の各ストリングは、独自の一意のグループとして作成されます。
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
-_**Note:**_ _It is OK that some of the lines are going through the “Groove Coffee” sign, because the string light plugin creates a catenary curve that will sag realistically below the sign._
+_**注:**_ _一部の線分が「Groove Coffee」の看板を通り抜けても構いません。ストリング ライトのプラグインでは、看板の下にリアルに垂れ下がるカテナリー曲線が作成されるためです。_
 
-4 - Try creating some more string lights by using the other pre-made helper line and/or creating some of your own helper lines. Play around with the plugin’s settings to get different results.
+4 - 他の既成のヘルパー線分を使用して、さらにストリング ライトを作成したり、独自のヘルパー線分を作成してみてください。プラグインの設定を変えると、異なる結果が得られます。
 
-5 - To help keep the model organized, when finished we recommend grouping all the helper lines and placing that group on the **Helper Geometry** layer, as well as assigning all string light groups to the **Context – Exterior Lighting** layer. This will prevent the helper lines from showing up in any of the ‘Eye Level’ scenes where we do not want to see them. When finished, the results should look something like the next screenshot.
+5 - モデルを整理された状態に保つため、完了したときに、すべてのヘルパー線分をグループ化してレイヤ **Helper Geometry** に置き、ストリング ライトのすべてのグループをレイヤ **Context - Exterior Lighting** に割り当てることをお勧めします。これで、ヘルパー線分が不要なすべての「Eye Level」シーンで非表示にすることができます。完了すると、次のような結果になります。
 
 ![](<../../.gitbook/assets/5 (3) (1).png>)
 
-_**Note:**_ _Unlike geometry created from a Dynamo script, which can be updated and regenerated through the_ _**Properties Palette**, objects created by a plugin are (for the most part) just regular FormIt geometry. Once created, they can only be edited using FormIt’s built in modeling tools._
+_**注:**_ _Dynamo スクリプトで作成されたジオメトリは_ _**[プロパティ]パレット** を使用して更新および再生成できますが、プラグインで作成されたオブジェクトはほとんどの場合、FormIt の通常のジオメトリです。そのため、作成後に編集する場合は、FormIt の組み込みモデリング ツールを使用する必要があります。_

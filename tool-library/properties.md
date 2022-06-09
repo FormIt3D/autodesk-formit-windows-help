@@ -4,7 +4,4 @@
 
 [プロパティ]パレットを使用すると、オブジェクトのグループの編集、オブジェクトのレイヤへの割り当て、オブジェクトのマテリアルの変更を行うことができます。
 
-![](../.gitbook/assets/properties_palette.png)
-
-
-
+![](../.gitbook/assets/properties\_palette.png)

@@ -10,7 +10,6 @@
 
 各履歴内に、ボディなどのネストされたグループ、インスタンス、ジオメトリ オブジェクトのリストが表示されます。
 
-モデル ツリーを使用して、FormIt オブジェクトにアタッチされているジオメトリ以外のアトリビュート\(文字列アトリビュート\)を表示することもできます。[Dynamo を使用して、SendToFormIt ノードによって作成されたグループに文字列アトリビュートを配置できます](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)。
+モデル ツリーを使用して、FormIt オブジェクトにアタッチされているジオメトリ以外のアトリビュート(文字列アトリビュート)を表示することもできます。[Dynamo を使用して、SendToFormIt ノードによって作成されたグループに文字列アトリビュートを配置できます](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)。
 
 ![](../.gitbook/assets/model-tree-attribute.png)
-

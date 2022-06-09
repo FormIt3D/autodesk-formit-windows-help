@@ -1,21 +1,21 @@
-# FormIt Plugin Community
+# FormIt プラグインのコミュニティ
 
 ![](../../.gitbook/assets/C21.PNG)
 
-## Looking for Plugins?
+## プラグインを探す方法
 
-If you are looking for some ideas to develop your FormIt plugin, check out some of these examples:
+FormIt プラグインを開発するためのアイデアを探している場合は、次の例を確認してください。
 
-* [Community plugins](https://github.com/topics/formit-plugin): Plugins developed by FormIt users and developers.
-* [Plugins recommended by FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): Plugins developed by the community and recommended by FormIt team.
-* [Plugins from FormIt](https://github.com/FormIt3D): Official Plugins developed by FormIt team.
+* [コミュニティのプラグイン](https://github.com/topics/formit-plugin): FormIt ユーザおよび開発者が開発したプラグイン。
+* [FormIt が推奨するプラグイン](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): コミュニティによって開発され、FormIt チームが推奨するプラグイン。
+* [FormIt のプラグイン](https://github.com/FormIt3D): FormIt チームが開発した公式プラグイン。
 
-## Want FormIt to feature your plugin?
+## 開発したプラグインを紹介してください
 
-If you have developed a plugin that would be useful for other FormIt users, we would love to hear more about it, so please let us know, we will review it and consider adding it **formit-plugin-recommended** list or feature it as [examples](./) in our primer.&#x20;
+他の FormIt ユーザに役立つプラグインを開発した場合は、その詳細についてぜひお聞かせください。確認の上、**formit-plugin-recommended** リストへの追加を検討するか、この手引で[例](./)として掲載します。&#x20;
 
 
 
-### Help from FormIt and the community
+### FormIt とコミュニティによるヘルプ
 
-Having issues building or running plugins? [Reach out to us!](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
+プラグインの作成や実行で問題が発生した場合は、[こちら](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ja)までご連絡ください。

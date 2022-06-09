@@ -1,8 +1,8 @@
 # プラグイン
 
-Plugin Manager を使用して、FormIt チームから便利なプラグインをインストールするか、[**独自の FormIt プラグインを構築する**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**方法を学びます。**
+Plugin Manager を使用して、FormIt チームから便利なプラグインをインストールするか、[**独自の FormIt プラグインを構築する**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)** **
 
-#### FormIt Plugin Manager
+## FormIt Plugin Manager
 
 FormIt Plugin Manager は、Formit のプラグインを見つけたり管理を行うためのハブとして機能します。
 
@@ -12,16 +12,16 @@ Plugin Manager にアクセスするには、アプリケーション ウィン�
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-#### Plugin Manager は、各種プラグインをさまざまなタイプに分類しています。
+## Plugin Manager は、各種プラグインをさまざまなタイプに分類しています。
 
-* **インストール済みのプラグイン**
-* **推奨プラグイン**
+* **Installed (インストール済み)プラグイン**
+* **Recommended (推奨)プラグイン**
    * FormIt の主要機能を拡張し、新しいワークフローを実現するために FormIt チームが推奨するプラグイン。
    * コミュニティで開発されたプラグインは、FormIt チームによって承認された後に、ここに表示されます。今後、ここに詳細が記載されます。
-* **パブリック プラグイン**
+* **Public (パブリック)プラグイン**
    * コミュニティによってビルドされたものの、FormIt チームがまだ確認や承認を行っていないプラグイン。
 
-#### Plugin Manager は、展開/折りたたみ可能なインタフェースを使用して設計されているため、プラグインとそのリポジトリの管理が簡単にできます。
+## Plugin Manager は、展開/折りたたみ可能なインタフェースを使用して設計されているため、プラグインとそのリポジトリの管理が簡単にできます。
 
 * **プラグインを管理する:**
    * プラグイン名をクリックすると、その説明が表示されます。
@@ -31,7 +31,7 @@ Plugin Manager にアクセスするには、アプリケーション ウィン�
 
 ![The FormIt Plugin Manager](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-#### プラグインの仕組み
+## プラグインの仕組み
 
 * プラグインは Web ベースで、FormIt for Windows と FormIt for Web で利用できます。
 * プラグインは一連のファイルとフォルダで構成され、GitHub、またはユーザ独自で構築した場合はローカル サーバにホストされています。
@@ -44,4 +44,3 @@ Plugin Manager にアクセスするには、アプリケーション ウィン�
    * Plugin Manager を既定にリセットする必要がある場合は、次のレジストリ キーを削除します。
       * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
       * これにより、ユーザが追加したすべてのリポジトリとプラグインがアンインストールされ、Plugin Manager がリセットされて内蔵リポジトリとプラグインのみが含まれるようになります。
-

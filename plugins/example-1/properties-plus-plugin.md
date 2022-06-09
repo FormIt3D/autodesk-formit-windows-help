@@ -1,42 +1,42 @@
-# Properties Plus Plugin
+# Properties Plus プラグイン
 
-_This plugin is a more featured version of the standard_ _**Properties Palette**. If you select multiple groups and/or types of geometry, this plugin will provide you with a breakdown of what has been selected, as well as allow for the bulk renaming of groups and group instances._
+_このプラグインは、標準の_ _**[プロパティ]パレット** の機能が強化されたものです。複数のグループやジオメトリのタイプを選択すると、このプラグインによって選択した内容の詳細情報が表示され、グループやグループ インスタンスの名前を一括で変更できます。_
 
-1 **-** First we will look at the properties of a door group from our main model. Re-open **Encode Campus Sample Model.axm** and go back to the **Eye Level – Long Alley** scene. To start utilizing the **Properties Plus** plugin:
+1 **-** まず、メイン モデルのドア グループのプロパティを確認します。**Encode Campus Sample Model.axm** を再度開いて、シーン **Eye Level - Long Alley** に戻ります。**Properties Plus** プラグインの使用を開始するには、次のように操作します。
 
-1. Open the **Properties Plus Palette** by clicking on the property with a ‘plus’ symbol icon.
-2. Make sure that **Update on Selection Change** is checked.
-3. Select one of the double glass door groups, named **Door**, on the right side of the alley.
-4. Under the **Selection Count** area, **Total Objects** tells us that we have one (**1**) object selected.
-5. Just below that we can find more information on what types of objects have been selected. In this case, there is one (**1**) group selected, but that group has four (**4**) instances somewhere in the model.
+1. プラス記号が付いたアイコンをクリックして、**[Properties Plus]パレット** を開きます。
+2. **[Update on Selection Change]** がオンになっていることを確認します。
+3. 路地の右側にある、「**Door**」 という名前の両開きガラス ドアのグループを選択します。
+4. **[Selection Count]** セクションの**[Total Objects]** は、**1** つのオブジェクトが選択されていることを示しています。
+5. この下に、選択されているオブジェクトのタイプに関する詳細が表示されます。この例では、**1** つのグループが選択されていますが、そのグループにはモデル内のどこかに **4** つのインスタンスがあります。
 
 ![](<../../.gitbook/assets/10 (2) (1).png>)
 
-_**Note:**_ _Checking the number of instances of the selected group can be very handy to prevent accidentally changing multiple elements when you actually only wanted to change the selected element, but forgot to make it unique first._
+_**注:**_ _選択したグループのインスタンス数を確認すると、たとえば実際に変更するのは選択した要素のみであるのに、最初に一意にしておくのを忘れたために複数の要素を誤って変更してしまうというトラブルを防ぐことができて、非常に便利です。_
 
-2 - This plugin allows us to edit a group or group instance’s name without having to go into group edit mode, and rename multiple instances at once. As we learned previously, every group has a name, but every instance of that group can also have a unique ‘instance’ name. Since there will most likely be many types of doors in this model, we want to give this group, and some of its instances, more specific names.
+2 - このプラグインを使用すると、グループ編集モードに切り替えずにグループまたはグループ インスタンスの名前を編集できます。また、複数のインスタンスの名前を一度に変更することもできます。前に学習したように、すべてのグループに名前がありますが、そのグループのすべてのインスタンスに一意のインスタンス名を付けることもできます。このモデルには多くのタイプのドアが含まれている可能性が高いため、このグループと、そのインスタンスの一部に、より具体的な名前を付けます。
 
-1. With the first glass **Door** group still selected, add another **Door** group to your current selection by holding **Shift** or **Ctrl** and single-clicking on the other double glass **Door** group near the first.
-2. Notice that now, the **Properties Plus Palette** has updated its **Selection Count** to show that there are two (**2**) instances selected, but still only one (**1**) unique **Family** (AKA group) selected. (Even though this plugin is using the term **Family**, which should be familiar to Revit users, in this context it means the same thing as a FormIt group.)
-3. Under the **Group Family** area, update the **Name** field to be **Doors – Double Glass Storefront**. This will update the name group’s name for all instances, no matter where they are or whether they are currently selected or not, without having to double-click and edit the group.
-4. Since these two instances are both doors into the Groove Coffee area, lets rename just these two instances by entering **Groove Coffee Door** into the **Name** field under the **Multiple Group Instances** area.
+1. 最初のガラスのグループ **Door** を選択したままの状態で、現在の選択に別の **Door** グループを追加するには、**[Shift]** または**[Ctrl]** を押しながら最初のグループの近くにある別の両開きガラスのグループ **Door** をクリックします。
+2. **[Properties Plus]パレット** の**[Selection Count]** が更新され、選択されているインスタンスは **2** つであるが、選択されている一意の **ファミリ** (つまりグループ)は **1** つのみであることが示されます(このプラグインでは、Revit ユーザに馴染みのある「**ファミリ** 」という用語が使用されていますが、ここでは FormIt のグループのことです)。
+3. **[Group Family]** セクションで、**[Name]** フィールドを「**Doors - Double Glass Storefront** 」に更新します。これにより、すべてのインスタンスのグループの名前が、配置されている場所や現在選択されているかどうかに関係なく更新され、グループをダブルクリックして編集する必要がなくなります。
+4. これらの 2 つのインスタンスは両方とも Groove Coffee の建物に入るドアであるため、**[Multiple Group Instances]** セクションの**[Name]** フィールドに「**Groove Coffee Door** 」と入力して、これらの 2 つのインスタンスのみの名前を変更します。
 
-**Note:** In the standard **Properties Palette**, there is no way to rename multiple instances of a group at once. This can be extremely handy when you want to rename tens or hundreds of instances with the same name at once.
+**注:** 標準の**[プロパティ]パレット** では、1 つのグループの複数のインスタンスの名前を一度に変更することはできません。このプラグインは、名前が同じ数十または数百のインスタンスの名前を一度に変更する場合に非常に便利です。
 
 ![](<../../.gitbook/assets/11 (6) (1).png>)
 
-_**Note:**_ _If you mouse leaves the palette, you will no longer be able to edit the selected textbox. This is true for all palettes, so make sure to keep your cursor within the palette boundary while editing anything inside of a palette._
+_**注:**_ _マウスをパレットから離すと、選択したテキストボックスを編集できなくなります。これは、すべてのパレットに当てはまります。そのため、パレット内で編集する際は、カーソルをパレットの内側に置いておいてください。_
 
-3 - Now if you select a Groove Coffee glass door or a different glass door and look at their properties in the regular **Properties Palette**, you will see that the name of the **Group** has been updated for every instance, but only the Groove Coffee doors have their instance **Name** property updated from its default value.
+3 - Groove Coffee のガラス ドアまたは別のガラス ドアを選択し、標準の**[プロパティ]パレット** でそのプロパティを確認すると、**グループ** の名前はすべてのインスタンスで更新されていますが、Groove Coffee のドアだけはインスタンスの**名前** が既定値から更新されています。
 
 ![](<../../.gitbook/assets/12 (3) (1).png>)
 
-4 - Finally, let’s look at how this plugin sorts different types of elements:
+4 - 最後に、このプラグインによるさまざまなタイプの要素の並べ替えを確認します。
 
-1. Quickly draw a **Line (L)**, **Rectangle (R)**, and **Cube (Alt + B)** anywhere you would like in the model. These will be temporary, so their precise location is not important.
-2. Re-open the **Properties Plus Palette** if it was closed, and then press **Crtl + A** to select all visible elements in the model.
-3. Look in the **Selection Count** area, and notice that the selected elements are separated into **Edges** (lines), **Faces**, **Bodies**, (3D shapes made of faces and edges, like the cube)**,** **Groups**, and more.
+1. モデル内の任意の場所に、**線分(L)** 、**長方形(R)** 、**立方体([Alt]+[B])** を簡単に描画します。これらは一時的に使用するため、正確に配置する必要はありません。
+2. **[Properties Plus]パレット** が閉じている場合は再度開き、**[Ctrl]+[A]** を押してモデル内の表示されているすべての要素を選択します。
+3. **[Selection Count]** セクションでは、選択した要素が **Edges** (線分)、**Faces** 、**Bodies** (面とエッジから構成される立方体などの 3D シェイプ)、**** **Groups** などに分類されています。
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
-_**Note:**_ _This plugin also detects_ _**Vertices**, which can be created using another plugin called_ _**Generate Vertex**. If you would like to experiment, install the_ _**Generate Vertex Plugin**_ _and repeat the steps above._
+_**注:**_ _このプラグインによって_ _**頂点**も検出されます。これは、_ _**Generate Vertex** という別のプラグインを使用して作成できます。試す場合は、_ _**Generate Vertex プラグイン**_ _をインストールし、上記の手順を繰り返します。_

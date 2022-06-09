@@ -1,69 +1,69 @@
-# How to Use Plugins
+# プラグインの使用方法
 
 ![](<../.gitbook/assets/g3 (1).gif>)
 
 ## Plugin Manager
 
-The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
+FormIt Plugin Manager では、1 つの場所でプラグインの検索と管理を行うことができます。
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+FormIt がインターネットにアクセスできる限り、Plugin Manager は FormIt の起動時に自動的にロードされます。
 
-Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) on the right side of the app:
+アプリケーションの右側にあるプラグのアイコン ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) をクリックしてアクセスします。
 
 ![](../.gitbook/assets/c1.PNG)
 
-## Plugin Categories
+## プラグインのカテゴリ
 
-The Plugin Manager organizes plugins into categories to help you find the plugins you're most interested in.
+Plugin Manager では、プラグインがカテゴリ別に分類されているため、関心の高いプラグインを簡単に見つけることができます。
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed Plugins:** Plugins already installed by the user.&#x20;
+**Installed** プラグイン: ユーザによって既にインストールされているプラグイン。&#x20;
 
-**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team.\
-GitHub tag:  _formit-plugin-recommended_
+**Recommended** プラグイン: FormIt の主要機能を拡張し、新しいワークフローを実現するために FormIt チームが推奨するプラグイン。コミュニティで開発されたプラグインは、FormIt チームによって承認された後に、ここに表示されます。\
+GitHub のタグ: _formit-plugin-recommended_
 
-**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team. \
-GitHub tag:  _formit-plugin_
+**Public**プラグイン: コミュニティによってビルドされたプラグイン。このカテゴリのプラグインは、FormIt チームによる確認や承認がまだ行われていません。\
+GitHub のタグ: _formit-plugin_
 
-**For Developers Plugins**: Plugins built by the community to enable the creation of new FormIt plugins. \
-GitHub tag:  _formit-plugin-developers_
+**For Developers** プラグイン: 新しい FormIt プラグインを作成できるように、コミュニティによってビルドされたプラグイン。\
+GitHub のタグ: _formit-plugin-developers_
 
-## Add Your Private or Local Plugin
+## プライベート プラグイン(ローカル プラグイン)を追加する
 
-If you're [developing your own plugin](how-to-develop-plugins/), you can add its private URL into the field at the bottom of the panel and click (+):
+[独自のプラグインを開発する](how-to-develop-plugins/)場合は、パネル下部のフィールドにプライベート URL を入力して、[+]ボタンをクリックします。
 
 ![](../.gitbook/assets/d4.PNG)
 
-For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+プライベート プラグイン(ローカル プラグイン)の追加に関する詳細については、「[Plugin Manager でプラグインをプレビューする](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
-## Resetting the Plugin Manager
+## Plugin Manager をリセットする
 
-The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins. If you need to reset your Plugin Manager to its defaults, delete the following registry key:
+Plugin Manager は、インストールされたリポジトリとプラグインを保存するために、Windows のレジストリ キーを使用します。 Plugin Manager を既定にリセットする必要がある場合は、次のレジストリ キーを削除します。
 
 `Computer\HKEY_CURRENT_USER\Software\Autodesk\FormIt 360\Plugins`
 
-⚠️ Note: This will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+⚠️ 注: これにより、ユーザが追加したすべてのリポジトリとプラグインがアンインストールされ、Plugin Manager がリセットされて内蔵リポジトリとプラグインのみが含まれるようになります。
 
-## Installing Plugins
+## プラグインをインストールする
 
-The [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
+[Plugin Manager](how-to-use-plug-ins.md#plugin-manager) には多数のプラグインが含まれ、さまざまなカテゴリに分類されています。各プラグインには、名前、説明、GitHub リンク、およびインストールの切り替えスイッチがあります。&#x20;
 
 ![](../.gitbook/assets/d5.PNG)
 
-To install a plugin, simply turn on the toggle next to the plugin's name.&#x20;
+プラグインをインストールするには、プラグイン名の横の切り替えスイッチをオンにします。&#x20;
 
 ![](../.gitbook/assets/d6.png)
 
-The icon of the selected plugin will appear in the right panel. Click it to display the plugin's UI.
+選択したプラグインのアイコンが右側のパネルに表示されます。プラグインの UI を表示するには、このアイコンをクリックします。
 
 ![](../.gitbook/assets/d7.PNG)
 
-## Using Plugins
+## プラグインを使用する
 
-Each plugin has a unique UI defined by its developer. A plugin usually has a set of instructions on how to use it, a set of parameters (text boxes, sliders, checkboxes, etc.), and one or more buttons to execute it.
+各プラグインには、その開発者が定義した固有の UI があります。プラグインには、通常、使用方法に関する一連の指示、一連のパラメータ(テキスト ボックス、スライダ、チェックボックスなど)、およびプラグインを実行するための 1 つまたは複数のボタンがあります。
 
-As an example, we'll use one of the simpler examples in the Plugin Manager: Fillet 2D Corners. We first load the plugin from the Recommended section of the Plugin Manager. Then, following the instructions provided by the developer, we set the fillet radius, select a group of faces to fillet, and click the Fillet Corners button.
+たとえば、Plugin Manager でシンプルな例として「Fillet 2D Corners」を使用します。最初に、Plugin Manager の Recommended セクションからこのプラグインをロードします。次に、開発者の指示に従ってフィレット半径を設定し、フィレットする面のグループを選択して Fillet Corners ボタンをクリックします。
 
 ![](../.gitbook/assets/g4.gif)
 

@@ -1,12 +1,12 @@
-# Additional Development Options
+# その他の開発オプション
 
-As an advanced developer, you also have some additional development options you may want to try:
+熟練の開発者として、次のような追加の開発オプションを使用することもできます。
 
-* [Creating an HTML Panel Plugin](creating-an-html-panel-plugin.md)
-* [Creating a Combined HTML Panel and Toolbar Plugin](creating-a-combined-html-panel-and-toolbar-plugin.md)
-* [Creating a Toolbar based Plugin](creating-a-toolbar-based-plugin.md)
-* [Testing a Combined HTML Panel and Toolbar Plugin](testing-a-combined-html-panel-and-toolbar-plugin.md)
-* [Creating an Add-In](creating-an-add-in.md)
-* [Invoking Plugins and API from Dynamo](invoking-plugins-and-api-from-dynamo.md)
+* [HTML パネルのプラグインを作成する](creating-an-html-panel-plugin.md)
+* [HTML パネルとツールバーを組み合わせたプラグインを作成する](creating-a-combined-html-panel-and-toolbar-plugin.md)
+* [ツールバーベースのプラグインを作成する](creating-a-toolbar-based-plugin.md)
+* [HTML パネルとツールバーを組み合わせたプラグインをテストする](testing-a-combined-html-panel-and-toolbar-plugin.md)
+* [アドインを作成する](creating-an-add-in.md)
+* [Dynamo からプラグインと API を呼び出す](invoking-plugins-and-api-from-dynamo.md)
 
 ![](../../../.gitbook/assets/c23.PNG)

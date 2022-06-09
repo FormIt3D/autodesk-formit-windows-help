@@ -1,12 +1,12 @@
-# Examples
+# 例
 
-In this section you will find sample plugin implementations to follow along:
+このセクションでは、次の順でサンプル プラグインの実装について説明します。
 
-* [Generate string lights](generate-string-lights.md)
-* [Manage Cameras Plugin](manage-cameras-plugin.md)
-* [Properties Plus Plugin](properties-plus-plugin.md)
-* [3D Context Generator](3d-context-creator.md)
+* [ストリング ライトを生成する](generate-string-lights.md)
+* [Manage Cameras プラグイン](manage-cameras-plugin.md)
+* [Properties Plus プラグイン](properties-plus-plugin.md)
+* [3D Context Creator](3d-context-creator.md)
 
-We also recommend that you check the [FormIt Plugin Community](formit-plugin-community.md) section, where you can find plugin examples from other developers as well as guidelines on how to submit and showcase your plugins for the wider FormIt community. &#x20;
+また、「[FormIt プラグインのコミュニティ](formit-plugin-community.md)」セクションを確認することをお勧めします。このセクションでは、他の開発者が作成したプラグインの例や、幅広い FormIt コミュニティにプラグインを送信して紹介する方法に関するガイドラインを確認できます。
 
 ![](<../../.gitbook/assets/g6 (2).gif>)

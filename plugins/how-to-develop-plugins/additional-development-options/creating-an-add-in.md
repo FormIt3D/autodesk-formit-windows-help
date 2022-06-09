@@ -1,14 +1,14 @@
-# Creating an Add-In
+# アドインを作成する
 
-An Add-In is a plugin that also loads DLLs that expose new JavaScript APIs.&#x20;
+アドインとはプラグインのことですが、新しい JavaScript API を公開する DLL のロードも行います。&#x20;
 
 
 
-### Download FormIt API
+### FormIt API をダウンロードする
 
-To build DLLs that support FormIt, the FormIt API is needed. The FormIt API can be downloaded from the [Autdesk Developers Network](https://www.autodesk.com/developer-network/overview). A login is needed to access the download.&#x20;
+FormIt をサポートする DLL をビルドするには、FormIt API が必要です。FormIt API は、[ Autodesk デベロッパー ネットワーク](https://www.autodesk.co.jp/developer-network/overview)からダウンロードできます。ダウンロードを行うにはログインが必要です。&#x20;
 
-Once logged in, the FormIt API is available under SOFTWARE.
+ログインすると、SOFTWARE から FormIt API を取得できるようになります。
 
 &#x20;
 
@@ -16,9 +16,9 @@ Once logged in, the FormIt API is available under SOFTWARE.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FormItAPIMenuItem.jpg)
 
-An Add-In has access to the [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) and [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+アドインで、[FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) および [FormIt モデリング カーネル C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html) にアクセスできます。
 
-An add-in has the following structure:
+アドインは次のような構造になっています。
 
 ```
             // FormIt looks for REGISTERAPIMETHODS to load new JS APIs
@@ -35,10 +35,10 @@ An add-in has the following structure:
                 ...
                 ...
             }
-        
+
 ```
 
-To get the arguements into C++ variables use SCRIPTCONVERTER-
+引数を C++ 変数に変換するには、SCRIPTCONVERTER を使用します。
 
 ```
             // Create a JS API with 2 argument
@@ -51,10 +51,10 @@ To get the arguements into C++ variables use SCRIPTCONVERTER-
                 SCRIPTCONVERTER(int, arg2);
                 return JSON_UNDEFINED;
             }
-        
+
 ```
 
-Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to convert your C++ variable to json
+JSON\_UNDEFINED か任意の JSON オブジェクトのいずれかを返すことができます。to\_json を使用して、C++ 変数を json に変換します。
 
 ```
             // Create a JS API with 2 argument
@@ -69,16 +69,16 @@ Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to conve
                 std::string myValue = "Test";
                 return to_json(myValue);
             }
-        
+
 ```
 
-Once the DLL is defining all the needed JS APIs, the plugin must tell FormIt what DLLs need loaded. This is done in the [manifest](https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8).
+DLL で必要なすべての JS API を定義したら、プラグインは、どの DLL のロードが必要かを FormIt に伝える必要があります。これは、[manifest](https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8) で行います。
 
 ```
         "DLLs" : ["PLUGINLOCATION/MyClass.dll", "PLUGINLOCATION/HelloDLL.dll"]
-        
+
 ```
 
-[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) is a working example that explains how to make an Add-In.
+[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) は動作の一例です。アドインの作成方法がわかります。
 
-[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) is a working example that explains how to make an Add-In with the [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) も動作の一例ですが、[FormIt モデリング カーネル C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html) を使用するアドインの作成方法がわかります。

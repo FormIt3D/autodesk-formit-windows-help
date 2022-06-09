@@ -4,9 +4,8 @@
 
 次のファイル形式を読み込むことができます。
 
-* Windows: OBJ、DWG、STL、SAT、SKP
+* Windows: OBJ、DWG、STL、SAT、SKP&#x20;
 * Web: OBJ、STL
 * iOS: OBJ、STL、SAT
 
 データの読み込みとコンテンツ ライブラリの使用の詳細については、「[モデルを読み込む](../formit-primer/part-i/import-export-and-content-library.md)」を参照してください。
-

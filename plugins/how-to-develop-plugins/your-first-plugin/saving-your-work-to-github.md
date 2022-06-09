@@ -1,31 +1,31 @@
-# Saving Your Work to GitHub
+# GitHub に作業内容を保存する
 
-As you work on your plugin, you’ll want to save your progress. To make this possible, we have integrated GitHub directly into the Plugin Playground.
+プラグインを操作する場合には、進行中の作業内容の保存が必要となります。これを可能にするために、GitHub が Plugin Playground に直接統合されました。
 
-### Adding a New Plugin Project to Your GitHub Account
+### GitHub アカウントに新しいプラグイン プロジェクトを追加する
 
-Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
+ボタンをクリックして GitHub にログインし、FormIt がリポジトリ(プロジェクト)にアクセスできるようにします。
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (58).png>) button.
+プロジェクトを作成するには、名前を入力し、![](<../../../.gitbook/assets/image (58).png>) ボタンをクリックします。
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-In a few moments, the newly created project will appear in your projects list. Select the project from the drop-down to load it.
+しばらくすると、新しく作成されたプロジェクトがプロジェクト リストに表示されます。ロードするプロジェクトをドロップダウンから選択します。
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
-### Save Your Work
+### 作業内容を保存する
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
+プラグインに変更を加えた場合は、[Save]ボタン ![](<../../../.gitbook/assets/image (40).png>) をクリックして、変更内容を GitHub アカウントに保存します。
 
+![](<../../../.gitbook/assets/save a plugin.png>)
 
+### GitHub でプロジェクトを表示する
 
-### View Your Project in GitHub
+GitHub ボタンを使用して、GitHub で直接ファイルを検索および編集することもできます。
 
-You can also find and edit your files directly in GitHub by using the GitHub button.
-
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###
