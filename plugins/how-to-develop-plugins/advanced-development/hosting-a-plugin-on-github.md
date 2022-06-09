@@ -1,41 +1,37 @@
-# Hosting a Plugin on GitHub
+# Hébergement d’un plug-in sur GitHub
 
-Have you built a useful plugin that you want to share? Host your repository on GitHub so that others can install your plugin from the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager)!
+Vous avez créé un plug-in utile que vous souhaitez partager ? Hébergez votre référentiel sur GitHub pour que d’autres utilisateurs puissent installer votre plug-in à partir de [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager).
 
-### Host Your Plugin Project
+### Héberger votre projet de plug-in
 
-This process is similar to an earlier chapter where we discuss how to [publish your plugin](../your-first-plugin/publishing-your-project.md) created in the Plugin Playground. &#x20;
+Ce processus ressemble à un chapitre précédent où nous discutions de la façon de [publier votre plug-in](../your-first-plugin/publishing-your-project.md) créé dans Plugin Playground.
 
-Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlugins
+Accédez à votre nouveau référentiel de plug-ins GitHub (par exemple, https://github.com/Joe/JoesPlugins).
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+Dans le menu supérieur, cliquez sur Paramètres > Pages. Sous Source, cliquez sur le bouton Aucun et sélectionnez la branche principale. Cliquez sur Enregistrer.
 
 ![](<../../../.gitbook/assets/image (74).png>)
 
-### Continue to Update Your Plugin Project Locally
+### Continuer à mettre à jour votre projet de plug-in localement
 
-At this point, you can continue adding, modifying, and testing plugins locally, and when you're ready to publish, use GitHub Desktop or another Git client to push your changes to your GitHub repo. Anyone consuming your repo and plugins will always get the latest code when they start FormIt.
+À ce stade, vous pouvez continuer à ajouter, modifier et tester des plug-ins localement et, lorsque vous êtes prêt à publier, utiliser GitHub Desktop ou un autre client Git pour transférer vos modifications vers votre référentiel GitHub. Toute personne qui utilise votre référentiel et vos plug-ins obtiendra toujours le code le plus récent au démarrage de FormIt.
 
-### Publish Your Project
+### Publier votre projet
 
-For projects created in an IDE instead of [Plugin Playground](../your-first-plugin/plugin-playground.md), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
+Pour les projets créés dans un IDE au lieu de [Plugin Playground](../your-first-plugin/plugin-playground.md), vous pouvez publier votre plug-in en ajoutant une rubrique **FormIt-plugin** au référentiel de votre plug-in.
 
-This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
+Cela permet de découvrir votre plug-in dans la liste des [plug-ins de la communauté](../../example-1/formit-plugin-community.md).
 
-View your repo on GitHub by visiting your project link, for example, https://github.com/Joe/JoesPlugin
+Consultez votre référentiel sur GitHub en suivant le lien de votre projet (par exemple, https://github.com/Joe/JoesPlugin).
 
-Click on Settings in the top right corner.
+Cliquez sur Paramètres dans le coin supérieur droit.
 
 ![](<../../../.gitbook/assets/image (39).png>)
 
-Add a plugin description, add formit-plugin to the Topics field, and save changes.
+Ajoutez une description de plug-in, ajoutez formit-plugin au champ Topics et enregistrez les modifications.
 
 ![](<../../../.gitbook/assets/image (54).png>)
 
-Once saved, your plugin project will be added to the [community plugins](https://github.com/topics/formit-plugin) list.
-
-
-
-
+Une fois enregistré, votre projet de plug-in sera ajouté à la liste des [plug-ins de la communauté](https://github.com/topics/formit-plugin).
 
 ###

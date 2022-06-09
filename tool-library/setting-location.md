@@ -13,11 +13,11 @@ Vous devez être connecté à votre compte Autodesk Account pour accéder à la 
 
 * Lancez la boîte de dialogue **Définir l’emplacement** à partir de l’outil **Emplacement** de la barre d’outils ou à l’aide du raccourci clavier SL.
 
-![](../.gitbook/assets/location-toolbar.png)
+![](<../.gitbook/assets/location-toolbar (1).png>)
 
-* Tout d’abord, saisissez l’emplacement de votre projet dans la zone de recherche située dans le coin supérieur gauche de la fenêtre _Définir l’emplacement_.
+* Tout d’abord, saisissez l’emplacement de votre projet dans la zone de recherche située dans le coin supérieur gauche de la fenêtre _Définir l’emplacement_.&#x20;
 
-![](../.gitbook/assets/location-step-1%20%281%29.png)
+![](<../.gitbook/assets/location-step-1 (1).png>)
 
 * Sélectionnez l’une des options d’emplacement proposées automatiquement ou appuyez sur la touche Entrée pour choisir la première option.
 * Un zoom avant est effectué automatiquement sur l’emplacement que vous avez recherché.
@@ -38,7 +38,7 @@ Une fois que vous avez recherché un emplacement, choisissez l’une des deux op
 
 * Faites glisser l’image satellite dans le carré pour ajuster sa position.
 * Une fois que la surface carrée contient l’image souhaitée, cliquez sur **Terminer l’importation**.
-* L’image est importée à l’échelle, avec le nord géographique orienté vers le haut, centrée sur l’origine de la zone de dessin FormIt. Pour modifier la transparence et l’ordre Z de l’image importée, double-cliquez dessus et accédez à la [**palette Propriétés**](../formit-introduction/tool-bars.md).
+* L’image est importée à l’échelle, avec le nord géographique orienté vers le haut, centrée sur l’origine de la zone de dessin FormIt. Pour modifier la transparence et l’ordre Z de l’image importée, double-cliquez dessus et accédez à la [**palette Propriétés**](../formit-introduction/tool-bars.md).&#x20;
 
 ![](../.gitbook/assets/location-step-3.png)
 
@@ -50,7 +50,7 @@ Après avoir importé la première image satellite, utilisez la fenêtre Défini
 * Cliquez sur **Importer une image satellite et un terrain.**
 * Le niveau de zoom et l’étendue de l’image satellite actifs s’affichent, comme indiqué dans la zone de dessin FormIt.
 * Il vous suffit d’ajuster la position ou le zoom, puis de cliquer sur **Terminer l’importation** comme vous l’avez fait auparavant.
-* Lorsque l’image est réimportée dans la zone de dessin, elle est placée à l’emplacement correct par rapport à la position de l’image d’origine \(et ne peut plus être centrée sur l’origine\) :
+* Lorsque l’image est réimportée dans la zone de dessin, elle est placée à l’emplacement correct par rapport à la position de l’image d’origine (et ne peut plus être centrée sur l’origine) :
 
 ![](../.gitbook/assets/location-step-4.png)
 
@@ -58,15 +58,15 @@ Après avoir importé la première image satellite, utilisez la fenêtre Défini
 
 Dans FormIt 2021.3, lorsque vous utilisez la boîte de dialogue **Définir l’emplacement** pour importer une image satellite, vous obtenez également le terrain.
 
-![](../.gitbook/assets/terrain-button_original.png)
+![](../.gitbook/assets/terrain-button\_original.png)
 
-Lorsque le terrain est importé, il est placé sur un calque, qui est désactivé par défaut \(si vous avez commencé la modélisation, votre modèle est peut être recouvert par le terrain\).
+Lorsque le terrain est importé, il est placé sur un calque, qui est désactivé par défaut (si vous avez commencé la modélisation, votre modèle est peut-être recouvert par le terrain).
 
 Lorsque vous êtes prêt à afficher le terrain, activez le calque Terrain en cochant la case correspondante :
 
-![](../.gitbook/assets/terrain-layer%20%281%29.png)
+![](<../.gitbook/assets/terrain-layer (1) (1).png>)
 
-![](../.gitbook/assets/terrain_solid.png)
+![](../.gitbook/assets/terrain\_solid.png)
 
 ### Utilisation du terrain
 
@@ -97,3 +97,12 @@ Le solide de découpe est supprimé du terrain, exposant ainsi un espace vide o�
 
 Vous pouvez utiliser des [calques](layers.md) pour masquer le solide de découpe, ou même faire des copies du terrain avec et sans la découpe, au cas où vous auriez besoin de référencer le terrain d’origine, ou de changer la forme de découpe avant d’exécuter l’opération de découpe de solide.
 
+### Dépannage de la boîte de dialogue Définir l’emplacement
+
+La définition d’un emplacement dans FormIt nécessite une connexion Internet pour télécharger des données satellite et de terrain à partir de Bing Maps.
+
+De plus, comme la boîte de dialogue Définir l’emplacement est un plug-in FormIt sous le capot, elle a besoin d’accéder à GitHub pour fonctionner. Si vous rencontrez des problèmes avec la boîte de dialogue Définir l’emplacement, vérifiez que vous avez accès à [https://github.io](https://github.io) :&#x20;
+
+* Accédez à votre navigateur Web.
+* Accédez à [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)
+* Si certaines données ne s’affichent pas, il se peut que votre réseau ou votre pare-feu bloque l’accès à GitHub.

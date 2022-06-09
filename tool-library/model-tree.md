@@ -10,7 +10,6 @@ Dans l’arborescence du modèle, chaque groupe est identifié comme étant un h
 
 Dans chaque historique, vous verrez une liste de groupes imbriqués, d’instances ou d’objets géométriques tels que des corps.
 
-Vous pouvez également afficher les attributs non géométriques \(attributs de chaîne\) associés aux objets FormIt à l’aide de l’arborescence du modèle. [Vous pouvez placer des attributs de chaîne sur des groupes créés par le nœud SendToFormIt à l’aide de Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+Vous pouvez également afficher les attributs non géométriques (attributs de chaîne) associés aux objets FormIt à l’aide de l’arborescence du modèle. [Vous pouvez placer des attributs de chaîne sur des groupes créés par le nœud SendToFormIt à l’aide de Dynamo ](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
-

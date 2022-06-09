@@ -1,10 +1,10 @@
-# Creating a Toolbar-Based Plugin
+# Création d’un plug-in basé sur une barre d’outils
 
 ![](<../../../.gitbook/assets/Toolbar based plugin.gif>)
 
-### Structure of a Toolbar-Based Plugin manifest.json
+### Structure d’un fichier manifest.json de plug-in basé sur une barre d’outils
 
-A toolbar-based plugin has a _manifest.json_ file with the following structure:
+Un plug-in basé sur une barre d’outils possède un fichier _manifest.json_ avec la structure suivante :
 
 ```
 {
@@ -18,13 +18,13 @@ A toolbar-based plugin has a _manifest.json_ file with the following structure:
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a toolbar-based plugin includes this special JSON property:
+Outre les [propriétés JSON standard](../advanced-development/general-plugin-setup-in-the-manifest.md), un plug-in basé sur une barre d’outils inclut cette propriété JSON spéciale :
 
-* "ToolbarURL" tells FormIt that this plugin is a toolbar and links to the location of another JSON file that describes the toolbar's functionality.
+* « ToolbarURL » indique à FormIt que ce plug-in est une barre d’outils et qu’il est lié à l’emplacement d’un autre fichier JSON qui décrit la fonctionnalité de la barre d’outils.
 
-### Configure Toolbar Format with JSON
+### Configurer le format de la barre d’outils avec JSON
 
-After creating a manifest file like the one described above, you'll need to create the toolbar.json file, which defines the toolbar buttons, their names, text, icons, and the onClick function assigned to each button. The toolbar's JSON file will have the following format:
+Après avoir créé un fichier manifest comme celui décrit ci-dessus, vous devez créer le fichier toolbar.json, qui définit les boutons de la barre d’outils, leurs noms, leur texte, les icônes et la fonction onClick affectés à chaque bouton. Le fichier JSON de la barre d’outils aura le format suivant :
 
 ```
 {
@@ -52,15 +52,15 @@ After creating a manifest file like the one described above, you'll need to crea
 }               
 ```
 
-The toolbar.json file includes these JSON properties:
+Le fichier toolbar.json contient les propriétés JSON suivantes :
 
-* "name" represents the name of the overall toolbar, and is used internally to associate all the buttons to the single toolbar menu.
-* "buttons" represents individual buttons added inside of the toolbar. A toolbar can have any number of buttons.
-* "name" defines the button's internal name, which is used to associate the button to the toolbar as well as to the button's onClick function.
-* "command" defines the function of the button, which can come in one of two forms: a JavaScript function (which can be defined in a script contained in the manifest.json "Scripts" field), or a FormIt command, for example, "Draw: Circle". You can obtain a list of FormIt commands by running the Messages plugin.
-* "iconText" sets the tooltip and description text in the button. If an icon URL is not provided, the text will create an auto-generated icon of formatted text.
-* "iconURL" can be set to define a custom icon for the button.
+* « name » représente le nom de la barre d’outils globale et est utilisé en interne pour associer tous les boutons au menu de la barre d’outils unique.
+* « buttons » représente les boutons individuels ajoutés à l’intérieur de la barre d’outils. Une barre d’outils peut comporter un nombre quelconque de boutons.
+* « name » définit le nom interne du bouton, qui est utilisé pour associer le bouton à la barre d’outils, ainsi qu’à la fonction onClick du bouton.
+* « command » définit la fonction du bouton, qui peut prendre l’une des deux formes suivantes : une fonction JavaScript (qui peut être définie dans un script contenu dans le champ « Scripts » du fichier manifest.json) ou une commande FormIt (par exemple, « Dessiner : Cercle »). Vous pouvez obtenir une liste des commandes FormIt en exécutant le plug-in Messages.
+* « iconText » définit le texte de l’info-bulle et de la description dans le bouton. Si aucune URL d’icône n’est fournie, le texte crée une icône de texte formaté générée automatiquement.
+* « iconURL » peut être configuré pour définir une icône personnalisée pour le bouton.
 
-After the buttons have all been defined in the toolbar.json file, the plugin is ready to go.&#x20;
+Une fois que tous les boutons ont été définis dans le fichier toolbar.json, le plug-in est prêt à l’emploi.&#x20;
 
-If there are any additional JavaScript functions you would like to define, add them to the same folder as the manifest.json file. Be sure to add the file reference to the "Scripts" field of the manifest file as well so that FormIt can find the files.
+Si vous souhaitez définir d’autres fonctions JavaScript, ajoutez-les au même dossier que le fichier manifest.json. Veillez à ajouter la référence de fichier au champ « Scripts » du fichier manifest afin que FormIt puisse trouver les fichiers.

@@ -1,31 +1,31 @@
-# Saving Your Work to GitHub
+# Enregistrement de votre travail dans GitHub
 
-As you work on your plugin, you’ll want to save your progress. To make this possible, we have integrated GitHub directly into the Plugin Playground.
+Vous voudrez certainement enregistrer votre travail sur le plug-in au fur et à mesure. Pour ce faire, nous avons intégré GitHub directement dans Plugin Playground.
 
-### Adding a New Plugin Project to Your GitHub Account
+### Ajout d’un nouveau projet de plug-in à votre compte GitHub
 
-Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
+Cliquez sur le bouton pour vous connecter à GitHub et autoriser FormIt à accéder à vos référentiels (projets).
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (58).png>) button.
+Pour créer un projet, entrez un nom et cliquez sur le bouton ![](<../../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-In a few moments, the newly created project will appear in your projects list. Select the project from the drop-down to load it.
+Après quelques instants, le nouveau projet apparaît dans la liste de vos projets. Sélectionnez le projet dans la liste déroulante pour le charger.
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
-### Save Your Work
+### Enregistrer votre travail
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
+Lorsque vous apportez des modifications à votre plug-in, cliquez sur le bouton Enregistrer ![](<../../../.gitbook/assets/image (40).png>) pour enregistrer les modifications dans votre compte GitHub.
 
+![](<../../../.gitbook/assets/save a plugin.png>)
 
+### Afficher votre projet dans GitHub
 
-### View Your Project in GitHub
+Vous pouvez également rechercher et modifier vos fichiers directement dans GitHub à l’aide du bouton GitHub.
 
-You can also find and edit your files directly in GitHub by using the GitHub button.
-
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###

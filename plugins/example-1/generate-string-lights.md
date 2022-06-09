@@ -1,34 +1,34 @@
-# Generate String Lights
+# Génération de guirlandes lumineuses
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_Dans ce chapitre, nous allons utiliser certains des plug-ins fournis avec FormIt afin d’améliorer le fichier_ _**Encode Campus Sample Model.axm**. Si ce n’est pas déjà fait, vous pouvez télécharger le fichier à partir des _[_jeux de données Partie II FormIt Primer_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
 
-_This neat plugin lets you quickly add hanging lights to your model based on a line or curve._
+_Ce plug-in intéressant vous permet d’ajouter rapidement des lumières suspendues à votre modèle selon une ligne ou une courbe._
 
-1 - Before adding any new lights, let's check out the intended result using a premade scene in the model.
+1 – Avant d’ajouter de nouvelles lumières, examinons le résultat souhaité à l’aide d’une scène prédéfinie dans le modèle.
 
-1. To jump to the scene containing existing string lights, open the **Scenes Palette** and double click on the scene named **Eye Level – Short Alley**.
-2. Notice the string lights that came with this model – that is what we are going to recreate, but somewhere else.
-3. In the **Layer Palette**, turn on the **Helper Geometry** layer so you can see the original lines used to generate these string lights.
+1. Pour accéder à la scène contenant des guirlandes lumineuses, ouvrez la **palette Scènes** et double-cliquez sur la scène intitulée **Eye Level – Short Alley** (Au niveau du regard – Petite allée).
+2. Observez les guirlandes lumineuses fournies avec ce modèle. C’est ce que nous allons recréer, mais ailleurs.
+3. Dans la **palette Calques**, activez le calque **Helper Geometry** (Géométrie de l’assistant) afin d’afficher les lignes d’origine utilisées pour générer ces guirlandes lumineuses.
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - Now let’s navigate to the other alley and add some lights. In the **Scenes Palette** open the **Eye Level – Long Alley** scene. Notice that this alley does not yet have any string lights.
+2 – Naviguons maintenant jusqu’à l’autre allée et ajoutons des lumières. Dans la **palette Scènes**, ouvrez la scène **Eye Level – Long Alley** (Au niveau du regard – Longue allée). Notez que cette allée ne comporte pas encore de guirlandes lumineuses.
 
-3 - To create a new string of lights:
+3 – Pour créer une nouvelle guirlande lumineuse, procédez comme suit :
 
-1. Open the newly installed **Generate String Lights Palette** by clicking on the string light icon. By default, the icons for new plugins appear at the bottom.
-2. Change the **Number of Fixtures** option to **10**.
-3. Double-click on one of the helper lines to edit the pre-created **String Lights – Long Alley** group. Then single-click on one of the pre-drawn helper lines to select it.
-4. Click the **Generate String Lights** button inside the plugin’s palette, and a new string of lights should appear! Note that each string of lights is created as its own unique group.
+1. Pour ouvrir la **palette Generate String Lights** (Générer des guirlandes lumineuses) nouvellement installée, cliquez sur l’icône en forme de guirlande lumineuse. Par défaut, les icônes des nouveaux plug-ins s’affichent dans la partie inférieure.
+2. Définissez l’option **Nombre de dispositifs** sur **10**.
+3. Double-cliquez sur l’une des lignes d’assistance pour modifier le groupe précréé **String Lights – Long Alley** (Guirlandes lumineuses – Longue allée). Ensuite, cliquez une fois sur l’une des lignes d’assistance prédessinées pour la sélectionner.
+4. Cliquez sur le bouton **Générer des guirlandes lumineuses** dans la palette du plug-in, et une nouvelle guirlande lumineuse apparaît. Notez que chaque guirlande lumineuse est créée en tant que groupe unique.
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
-_**Note:**_ _It is OK that some of the lines are going through the “Groove Coffee” sign, because the string light plugin creates a catenary curve that will sag realistically below the sign._
+_**Remarque :**_ _il est possible que certaines lignes passent par le panneau « Groove Coffee », car le plug-in de guirlandes lumineuses crée une courbe caténaire qui s’affaisse de manière réaliste sous le panneau._
 
-4 - Try creating some more string lights by using the other pre-made helper line and/or creating some of your own helper lines. Play around with the plugin’s settings to get different results.
+4 – Essayez de créer d’autres guirlandes lumineuses en utilisant l’autre ligne d’assistance prédéfinie et/ou en créant vos propres lignes d’aide. Jouez avec les paramètres du plug-in pour obtenir des résultats différents.
 
-5 - To help keep the model organized, when finished we recommend grouping all the helper lines and placing that group on the **Helper Geometry** layer, as well as assigning all string light groups to the **Context – Exterior Lighting** layer. This will prevent the helper lines from showing up in any of the ‘Eye Level’ scenes where we do not want to see them. When finished, the results should look something like the next screenshot.
+5 – Pour que le modèle reste organisé, une fois l’opération terminée, nous vous recommandons de regrouper toutes les lignes d’assistance et de placer ce groupe sur le calque **Helper Geometry** (Géométrie de l’assistant), et d’affecter tous les groupes de guirlandes lumineuses au calque **Context – Exterior Lighting** (Contexte – Éclairage extérieur). Cela permet de masquer les lignes d’assistance dans les scènes « Eye Level » (Au niveau du regard) où nous ne voulons pas les voir. Lorsque vous avez terminé, les résultats doivent ressembler à la capture d’écran suivante.
 
 ![](<../../.gitbook/assets/5 (3) (1).png>)
 
-_**Note:**_ _Unlike geometry created from a Dynamo script, which can be updated and regenerated through the_ _**Properties Palette**, objects created by a plugin are (for the most part) just regular FormIt geometry. Once created, they can only be edited using FormIt’s built in modeling tools._
+_**Remarque :**_ _contrairement à la géométrie créée à partir d’un script Dynamo, qui peut être mise à jour et régénérée à l’aide de la_ _**palette Propriétés**, les objets créés par un plug-in sont (pour la plupart) des géométries FormIt standard. Une fois créés, ils peuvent uniquement être modifiés à l’aide des outils de modélisation intégrés de FormIt._

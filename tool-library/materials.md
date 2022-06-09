@@ -1,16 +1,16 @@
 # Matériaux
 
-Faites apparaître vos modèles FormIt avec des matériaux qui prennent en charge les textures de réflexion, de lustre et en relief.
+Faites apparaître vos modèles FormIt avec des matériaux qui prennent en charge les textures de réflexion, de lustre, en relief et normales.
 
 ## Groupe de fonctions Matériaux
 
-![](<../.gitbook/assets/materials-sample-category (2).png>)
+![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
 
 Dans le groupe de fonctions Matériaux, vous pouvez choisir parmi une grande variété d’échantillons de matériaux, naviguer entre les bibliothèques de matériaux liées et, à partir de FormIt 2021, consulter et utiliser le contenu des matériaux d’autres fichiers FormIt (.AXM).
 
 ### Sources de la bibliothèque de matériaux
 
-Dans FormIt 2021 et les versions ultérieures, le groupe de fonctions Matériaux dispose d’une interface déroulante permettant de choisir parmi les sources de la bibliothèque de matériaux disponibles : Dans l’esquisse, Échantillons de matériaux et [Bibliothèques liées ](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+Dans FormIt 2021 et les versions ultérieures, le groupe de fonctions Matériaux dispose d’une interface déroulante permettant de choisir parmi les sources de la bibliothèque de matériaux disponibles : Dans l’esquisse, Échantillons de matériaux et [Bibliothèques liées ](https://windows.help.formit.autodesk.com/v/french/tool-library/materials#liaison-de-bibliotheques-de-materiaux).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
@@ -30,13 +30,13 @@ Affiche une liste des exemples de matériaux disponibles. Ces offres sont stock�
 
 **Bibliothèques liées**
 
-D’autres répertoires et emplacements apparaîtront après la [liaison des bibliothèques de matériaux](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+D’autres répertoires et emplacements apparaîtront après la [liaison des bibliothèques de matériaux](https://windows.help.formit.autodesk.com/v/french/tool-library/materials#liaison-de-bibliotheques-de-materiaux).
 
 ### Créer, Supprimer et Pipette
 
-![](../.gitbook/assets/materials\_add.PNG) L’outil **Créer un matériau** vous permet de créer un matériau et de définir sa couleur, sa texture, sa texture en relief, sa texture de découpe, sa transparence et ses paramètres de réflexion/lustre.
+![](../.gitbook/assets/materials\_add.PNG) **L’outil Créer un matériau** vous permet de créer un matériau et de définir sa couleur, sa texture, sa texture en relief ou normale, sa texture de découpe, sa transparence et ses paramètres de réflexion/lustre.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Supprimez** le(s) matériau(s) sélectionné(s).
+![](<../.gitbook/assets/materials\_delete (1).PNG>) **Delete** selected Material(s).
 
 ![](../.gitbook/assets/materials\_eyedropper.PNG)L’outil **Pipette** vous permet de sélectionner un matériau peint dans la scène et de commencer immédiatement peindre avec.
 
@@ -45,7 +45,7 @@ D’autres répertoires et emplacements apparaîtront après la [liaison des bib
 
 ### Actualiser, Lier des bibliothèques et Purger les éléments non utilisés
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) L’outil **Lier les bibliothèques de matériaux** vous permet de lier des bibliothèques de matériaux à partir des répertoires locaux. Les répertoires contenant des fichiers JPG, PNG ou AXM (FormIt) affichent du contenu. Pour plus d’informations, reportez-vous à la rubrique [Liaison de bibliothèques de matériaux](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+![](../.gitbook/assets/materials-link.png) **L’outil Lier les bibliothèques de matériaux** vous permet de lier des bibliothèques de matériaux à partir des répertoires locaux. Les répertoires contenant des fichiers JPG, PNG ou AXM (FormIt) affichent du contenu. Pour plus d’informations, reportez-vous à la rubrique [Liaison de bibliothèques de matériaux](https://windows.help.formit.autodesk.com/v/french/tool-library/materials#liaison-de-bibliotheques-de-materiaux).
 
 ![](../.gitbook/assets/materials-refresh.png)L’outil **Actualiser** vous permet d’actualiser le répertoire actuel. Cet outil est uniquement activé lorsque vous visualisez un répertoire lié localement (et non Dans l’esquisse ou Échantillons de matériaux).
 
@@ -115,10 +115,10 @@ Lorsque vous créez ou modifiez un matériau, la boîte de dialogue Éditeur de 
    * Cliquez sur l’icône Supprimer pour supprimer la texture de ce matériau.
       * **Texture à partir d’un fichier image**
          * JPG ou PNG
-      * **Texture en relief à partir d’un fichier image**
+      * **Texture en relief ou normale à partir d’un fichier image**
          * JPG recommandé
          * Idéal pour ajouter des effets de profondeur aux matériaux.
-         * Vous pouvez utiliser des logiciels gratuits tels que ShaderMap pour générer des textures en relief en fonction d’une texture.
+         * Vous pouvez utiliser des logiciels gratuits tels que ShaderMap pour générer des textures en relief ou normales en fonction d’une texture.
       * **Texture de découpe à partir d’un fichier image**
          * PNG
          * Idéal pour les matériaux qui présentent une transparence partielle, comme les clôtures grillagées ou les panneaux perforés.
@@ -142,7 +142,7 @@ Utilisez l’outil **Ajuster le positionnement des matériaux** pour remplacer l
    * Si la face hérite son matériau de son groupe parent, vous devez peindre la face directement en premier.
 * Accédez à l’outil Ajuster le positionnement des matériaux via le raccourci clavier MP ou à partir du menu contextuel :
 
-![](../.gitbook/assets/adjust-material-placement.PNG)
+![](../.gitbook/assets/adjust-material-placement.png)
 
 Utilisez les commandes à l’écran pour déplacer, faire pivoter et mettre à l’échelle les textures de matériaux directement sur la face de manière interactive :
 

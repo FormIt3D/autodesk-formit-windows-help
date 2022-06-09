@@ -8,7 +8,7 @@ Si vous utilisez FormIt pour la première fois, nous vous recommandons de commen
 
 Reportez-vous aux sections **Introduction à FormIt** et **Bibliothèque d’outils** pour obtenir des explications détaillées sur les outils, barres d’outils, palettes et processus spécifiques décrits dans le présent guide.
 
-![](../../.gitbook/assets/screen1.jpg)
+![](<../../.gitbook/assets/screen1 (1).jpg>)
 
 ### Prérequis
 
@@ -16,7 +16,7 @@ Avant de commencer la partie II, téléchargez et installez FormIt pour Windows
 
 Pour la plupart des chapitres, vous devrez également télécharger et utiliser le jeu de données disponible à l’adresse ci-dessous.
 
-_Si vous ne pouvez pas exécuter FormIt pour Windows, la majorité du didacticiel peut être réalisé à l’aide de l’_ [_**application Web**_](https://formit.autodesk.com/app) _gratuite. Pour plus d’informations sur les versions de FormIt et les licences, visitez le_ ****[_**site Web FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Si vous ne pouvez pas exécuter FormIt pour Windows, la majorité du didacticiel peut être réalisé à l’aide de l’_ [_**application Web**_](https://formit.autodesk.com/app)_**gratuite.** Pour plus d’informations sur les versions de FormIt et les licences, consultez le _ [_site Web FormIt_](https://formit.autodesk.com)_._
 
 ### Jeu de données
 
@@ -24,5 +24,4 @@ Le campus Encode, illustré ci-dessus, est un projet fictif à usage multiple de
 
 Tous les éléments de façade du bâtiment Encode sont contrôlés par des scripts Dynamo, gérés par un chemin à la base du bâtiment qui définit la forme de la façade.
 
-* \*\*\*\*\* [**Jeux de données Partie II FormIt Primer**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
-
+* [**Jeux de données Partie II FormIt Primer**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)

@@ -10,7 +10,7 @@ Lorsque vous commencez à déplacer les objets que vous avez placés, les choses
 4. Après avoir cliqué, vous pouvez effectuer un accrochage à d’autres objets pour aligner cette face.
 5. Comme avec le déplacement, vous pouvez cliquer sur la **cote temporaire** ou simplement commencer à saisir une valeur pour définir l’amplitude du mouvement.
 
-![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 Vous pouvez également supprimer une face à l’aide de la touche **Suppr** ou en cliquant avec le bouton droit de la souris et en choisissant Supprimer dans le menu contextuel.
 
@@ -28,6 +28,6 @@ Vous pouvez également supprimer une face à l’aide du **bouton droit de la so
 ## Modification des points
 
 1. Cliquez une fois sur l’un des coins de l’un des cubes.
-2. Comme pour une arête, faites glisser le point le long de l’un des axes pour redéfinir la forme. [Suivant Échelle non uniforme](non-uniform-scale.md)
+2. Comme pour une arête, faites glisser le point le long de l’un des axes pour redéfinir la forme. [Suivant Échelle non uniforme](broken-reference)
 
-![](<../.gitbook/assets/modify3 (1) (1).png>)
+![](<../.gitbook/assets/modify3 (1).png>)

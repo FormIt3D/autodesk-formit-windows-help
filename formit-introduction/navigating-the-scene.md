@@ -12,19 +12,18 @@ Vous pouvez également utiliser la barre d’outils de navigation flottante situ
 
 ![](../.gitbook/assets/20190618-ortho-views.png) **Vues orthogonales** : cliquez sur ce bouton pour afficher un menu déroulant des [vues orthogonales](../tool-library/orthographic-views.md) disponibles.
 
-![](../.gitbook/assets/20190618-3d-view.png) **Vue 3D par défaut \(ZD\) :** lance la vue 3D par défaut.
+![](../.gitbook/assets/20190618-3d-view.png) **Vue 3D par défaut (ZD) :** lance la vue 3D par défaut.
 
-![](../.gitbook/assets/jet-pack.png) **Visite virtuelle \(FT\) :** le mode « Jetpack » vous permet de parcourir la scène à l’aide de votre clavier. Utilisez WASD pour vous déplacer vers l’avant/l’arrière/la gauche/la droite, et Q/E pour vous déplacer vers le haut/vers le bas. Utilisez la touche Espace pour « survoler » l’écran.
+![](../.gitbook/assets/jet-pack.png) **Visite virtuelle (FT) :** le mode « Jetpack » vous permet de parcourir la scène à l’aide de votre clavier. Utilisez WASD pour vous déplacer vers l’avant/l’arrière/la gauche/la droite, et Q/E pour vous déplacer vers le haut/vers le bas. Utilisez la touche Espace pour « survoler » l’écran.
 
-![](../.gitbook/assets/orbit-tool.png) **Orbite \(O\) :** lorsque cette option est activée, cliquez avec le bouton gauche de la souris et faites glisser le curseur pour appliquer une orbite au modèle. Vous pouvez également effectuer cette opération à tout moment en cliquant avec le bouton droit de la souris et en faisant glisser le curseur.
+![](../.gitbook/assets/orbit-tool.png) **Orbite (O) :** lorsque cette option est activée, cliquez avec le bouton gauche de la souris et faites glisser le curseur pour appliquer une orbite au modèle. Vous pouvez également effectuer cette opération à tout moment en cliquant avec le bouton droit de la souris et en faisant glisser le curseur.
 
-![](../.gitbook/assets/swivel.PNG) **Pivot \(SV\) :** utilisez l’outil Pivot de la barre d’outils de navigation pour regarder autour de la scène à partir d’un point fixe.
+![](../.gitbook/assets/swivel.PNG) **Pivot (SV) :** utilisez l’outil Pivot de la barre d’outils de navigation pour regarder autour de la scène à partir d’un point fixe.
 
-![](../.gitbook/assets/panning.png) **Panoramique \(P\) :** cliquez sur le bouton central de la souris et faites glisser le curseur, ou utilisez l’outil Panoramique \(main\) de la barre d’outils de navigation pour effectuer un panoramique dans la scène.
+![](../.gitbook/assets/panning.png) **Panoramique (P) :** cliquez sur le bouton central de la souris et faites glisser le curseur, ou utilisez l’outil Panoramique (main) de la barre d’outils de navigation pour effectuer un panoramique dans la scène.
 
-![](../.gitbook/assets/zoom.png) **Zoom \(Z\) :** utilisez la molette de la souris ou sélectionnez l’outil Zoom dans la barre d’outils de navigation, puis cliquez sur le bouton gauche de la souris et faites glisser le curseur pour effectuer un zoom.
+![](../.gitbook/assets/zoom.png) **Zoom (Z) :** utilisez la molette de la souris ou sélectionnez l’outil Zoom dans la barre d’outils de navigation, puis cliquez sur le bouton gauche de la souris et faites glisser le curseur pour effectuer un zoom.
 
-![](../.gitbook/assets/zoom_all.png) **Zoom tout \(ZE ou ZA\) :** effectuez un zoom pour ajuster l’ensemble du modèle à la vue active.
+![](../.gitbook/assets/zoom\_all.png) **Zoom tout (ZE ou ZA) :** effectuez un zoom pour ajuster l’ensemble du modèle à la vue active.
 
-![](../.gitbook/assets/zoom_selection.png) **Zoom sur la sélection \(ZS\) :** effectuez un zoom pour ajuster tous les objets actuellement sélectionnés à la vue active.
-
+![](../.gitbook/assets/zoom\_selection.png) **Zoom sur la sélection (ZS) :** effectuez un zoom pour ajuster tous les objets actuellement sélectionnés à la vue active.

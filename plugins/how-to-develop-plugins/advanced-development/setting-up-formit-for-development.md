@@ -1,109 +1,109 @@
-# Setting Up FormIt for Development
+# Configuration de FormIt pour le développement
 
-In order to test and build plugins in the FormIt desktop app, you'll need FormIt for Windows v17.0 or later.
+Pour tester et créer des plug-ins dans l’application de bureau FormIt, vous aurez besoin de FormIt pour Windows 17.0 ou version ultérieure.
 
-### **Display Script Editor and Script Output**
+### **Afficher l’éditeur de script et la sortie du script**
 
-In the top menu of FormIt, go to **Window** in the top **** menu and check the **Script Editor** and **Script Output** boxes.
+Dans le menu supérieur de FormIt, accédez à **Fenêtre** dans le menu supérieur et cochez les cases **Éditeur de scripts** et **Sortie de script**.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
-The Script Editor and Script Output panels will appear at the bottom of the FormIt window.
+Les panneaux Éditeur de scripts et Sortie de script s’affichent au bas de la fenêtre FormIt.
 
-Switch between the Script Editor and Script Output by using the buttons at the bottom.
+Basculez entre l’éditeur de script et la sortie de script à l’aide des boutons situés dans la partie inférieure.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditorDefaultState.PNG)
 
-You can also arrange both panels side by side. Click the button next to the "x" in the upper right corner to detach one of the panels, then drag and drop the panels next to each other:
+Vous pouvez également organiser les deux panneaux côte à côte. Cliquez sur le bouton en regard du « x » dans le coin supérieur droit pour détacher l’un des panneaux, puis faites glisser et déposez les panneaux l’un à côté de l’autre :
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditor+ScriptOutputConfiguration.gif)
 
-### **Script Editor**
+### **Éditeur de scripts**
 
-The Script Editor provides a simple development environment where you can write and test code.
+L’éditeur de scripts fournit un environnement de développement simple dans lequel vous pouvez écrire et tester du code.
 
-The Script Editor stores written code inside a scratch.js file in the directory where the FormIt.exe file is located.
+L’éditeur de scripts stocke le code écrit dans un fichier scratch.js, dans le répertoire contenant le fichier FormIt.exe.
 
-At the top are two buttons:
+Deux boutons sont disponibles dans la partie supérieure :
 
-**Run** ![](<../../../.gitbook/assets/image (8).png>): **** Executes all code written in the window.
+**Exécuter** ![](<../../../.gitbook/assets/image (8).png>) : exécute tout le code écrit dans la fenêtre.
 
-**Run Selection** ![](<../../../.gitbook/assets/image (52).png>):  ****  Executes only the selected/highlighted lines of code.
+**Exécuter la sélection** ![](<../../../.gitbook/assets/image (52).png>) : exécute uniquement les lignes de code sélectionnées/mises en surbrillance.
 
-### **Script Output**
+### **Sortie de script**
 
-The Script Output window displays any messages printed to the console from plugins.
+La fenêtre Sortie de script affiche tous les messages imprimés sur la console à partir de plug-ins.
 
-You can clear the output by running `console.clear();` in the Script Editor.
+Vous pouvez effacer la sortie en exécutant `console.clear();` dans l’éditeur de scripts.
 
-## Working with Sample Plugins
+## Utilisation des exemples de plug-ins
 
-After [cloning a repository](cloning-a-sample-plugin.md) and [setting up a web server](hosting-a-plugin-on-a-local-server.md), you can now get your local plugins to show up in FormIt.
+Après avoir [cloné un référentiel](cloning-a-sample-plugin.md) et [configuré un serveur Web](hosting-a-plugin-on-a-local-server.md), vous pouvez désormais afficher vos plug-ins locaux dans FormIt.
 
-You can load or install any of the plugins, but for the purposes of this exercise, you'll install both a panel-based and a toolbar-based plugin. We'll assume your npm http-server is running on port 8080 hosting both example repositories.
+Vous pouvez charger ou installer n’importe quel plug-in, mais dans le cadre de cet exercice, vous allez installer à la fois un plug-in basé sur un groupe de fonctions et un plug-in basé sur une barre d’outils. Nous supposerons que votre serveur HTTP npm est exécuté sur le port 8080 hébergeant les deux exemples de référentiels.
 
-### **Load vs. Install**
+### **Comparaison entre chargement et installation**
 
-`FormIt.LoadPlugin();` loads the plugin only for the current session. The plugin will be unloaded automatically when the app is closed and restarted.
+`FormIt.LoadPlugin();` charge le plug-in uniquement pour la session en cours. Le plug-in sera déchargé automatiquement après fermeture et redémarrage de l’application.
 
-This is a great option for temporarily manifesting a plugin for testing in the current session only.
+C’est une excellente option pour activer temporairement un plug-in pour le test dans la session en cours uniquement.
 
-`FormIt.InstallPlugin();` makes the plugin persist using a registry key. This is great for plugins you'll use frequently from session to session.
+`FormIt.InstallPlugin();` rend le plug-in persistant à l’aide d’une clé de registre. C’est idéal pour les plug-ins que vous utiliserez fréquemment d’une session à l’autre.
 
-On Windows, the following registry keys are used to persist plugins:
+Sous Windows, les clés de registre suivantes sont utilisées pour conserver les plug-ins :
 
-* Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Plug-ins : Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
 
-Use `FormIt.UninstallPlugin();` to uninstall.
+Utilisez `FormIt.UninstallPlugin();` pour désinstaller le plug-in.
 
-In the following examples, unless otherwise noted, feel free to use either _Install_ or _Load,_ depending on whether you want the results of the exercise to be persistent or not.
+Dans les exemples suivants, sauf indication contraire, n’hésitez pas à utiliser _Installer_ ou _Charger_, selon que vous souhaitez rendre les résultats de l’exercice persistants ou non.
 
-### **Toolbar Plugin Sample: Flip Along**
+### **Exemple de plug-in de barre d’outils : Flip Along (Basculer le long)**
 
-In the Script Editor, run the following:
+Dans l’éditeur de scripts, exécutez les opérations suivantes :
 
-If running a local server:
+Si vous exécutez un serveur local :
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+Si le chargement se fait à partir du [référentiel FormIt GitHub](https://github.com/FormIt3D/) (nécessite une connexion Internet) :
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
-You should see the Flip Along toolbar appear at the top of the application window:
+La barre d’outils Flip Along (Basculer le long) doit s’afficher en haut de la fenêtre de l’application :
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FlipAlongToolbar.PNG)
 
-### **HTML Panel Plugin Sample: Properties Plus**
+### **Exemple de plug-in de groupe de fonctions HTML : Properties Plus (Propriétés plus)**
 
-In the Script Editor, run the following:
+Dans l’éditeur de scripts, exécutez les opérations suivantes :
 
-If running a local server:
+Si vous exécutez un serveur local :
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+Si le chargement se fait à partir du [référentiel FormIt GitHub](https://github.com/FormIt3D/) (nécessite une connexion Internet) :
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
-You should see the Properties Plus panel appear on the right side of the application window:
+Le groupe de fonctions Properties Plus (Propriétés plus) doit s’afficher sur le côté droit de la fenêtre de l’application :
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PropertiesPlusPanel.png)
 
-### **Modal and Modeless Dialog Plugin Sample**
+### **Exemple de plug-in de boîte de dialogue modale ou non modale**
 
-Dialog plugins are unique: They can only be loaded, not installed.
+Les plug-ins de boîte de dialogue sont uniques : ils peuvent uniquement être chargés, pas installés.
 
-In the Script Editor, run the following:
+Dans l’éditeur de scripts, exécutez les opérations suivantes :
 
-If running a local server:
+Si vous exécutez un serveur local :
 
-* Modal: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
-* Modeless: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
+* Modale : `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
+* Non modale : `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+Si le chargement se fait à partir du [référentiel FormIt GitHub](https://github.com/FormIt3D/) (nécessite une connexion Internet) :
 
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
+* Modale : `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
+* Modale : `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-You should see the Hello Block! panel from the HTML panel example appear on screen as either a modal or modeless dialog.
+Vous devriez voir le groupe de fonctions Hello Block ! de l’exemple de groupe de fonctions HTML apparaître à l’écran sous la forme d’une boîte de dialogue modale ou non modale.

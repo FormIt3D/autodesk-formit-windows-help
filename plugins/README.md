@@ -1,15 +1,13 @@
-# Plugins
+# Plug-ins
 
 ![](../.gitbook/assets/gg1.gif)
 
-Plugins can improve your Autodesk FormIt® experience by expanding your modeling toolset. You can address specific design needs that are not included in FormIt's tool library.&#x20;
+Les plug-ins peuvent améliorer votre expérience Autodesk FormIt® en élargissant votre jeu d’outils de modélisation. Vous pouvez répondre à des besoins de conception spécifiques qui ne sont pas couverts par la bibliothèque d’outils de FormIt.
 
-The plugins section of this primer includes four chapters:
+La section Plug-ins de ce guide comprend quatre chapitres :
 
-1. [Introduction to Plugins](introduction.md): Basic information you need to know about plugins.
-2. [How to Use Plugins](how-to-use-plug-ins.md): If you are a FormIt user and want to give plugins a try, this section will guide you through the process of installing and using plugins.
-3. [How to Develop Plugins:](how-to-develop-plugins/) If you are a developer and want to go the extra mile, this section will guide you through the steps needed to develop a FormIt Plugin.
-4. [Examples:](example-1/) If you want to try out existing plugins, this section contains descriptions of some of the available plugins.&#x20;
-
-
-
+1. [Introduction aux plug-ins](introduction.md) : informations de base que vous devez connaître sur les plug-ins.
+2. [Utilisation des plug-ins](how-to-use-plug-ins.md) : si vous utilisez FormIt et souhaitez tester les plug-ins, cette section vous guidera tout au long du processus d’installation et d’utilisation des plug-ins.
+3. [Développement de plug-ins](how-to-develop-plugins/) : si vous êtes développeur et souhaitez aller plus loin, cette section vous guidera tout au long des étapes nécessaires au développement d’un plug-in FormIt.
+4. [API FormIt](how-to-develop-plugins/useful-links.md) : liens vers la documentation de l’API FormIt.
+5. [Exemples](example-1/) : si vous souhaitez tester des plug-ins existants, cette section contient des descriptions de certains des plug-ins disponibles.

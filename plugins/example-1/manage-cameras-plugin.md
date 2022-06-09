@@ -1,43 +1,43 @@
-# Manage Cameras Plugin
+# Plug-in Manage Cameras (Gérer les caméras)
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_Dans ce chapitre, nous allons utiliser certains des plug-ins fournis avec FormIt afin d’améliorer le fichier_ _**Encode Campus Sample Model.axm**. Si ce n’est pas déjà fait, vous pouvez télécharger le fichier à partir des _[_jeux de données Partie II FormIt Primer_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
 
-Throughout the primer, we have been using scenes as valuable tools to navigate and control visibility throughout the model. This plugin allows us to see and edit the elevation of our current camera, export cameras for each scene as 3D objects, and copy these scenes between models.
+Tout au long du guide, nous avons utilisé les scènes comme des outils précieux afin de naviguer et de contrôler la visibilité dans l’ensemble du modèle. Ce plug-in permet d’afficher et de modifier l’élévation de la caméra actuelle, d’exporter les caméras de chaque scène en tant qu’objets 3D et de copier ces scènes entre les modèles.
 
-1 - First, we will adjust the **Eye Level – Long Alley** scene so that its camera is actually at eye level:
+1. Tout d’abord, nous allons ajuster la scène **Eye Level – Long Alley** (Au niveau du regard – Longue allée) de sorte que sa caméra soit réellement au niveau du regard :
 
-1. If not already there, go back to the **Eye Level – Long Alley** scene by double-clicking on it inside the **Scenes Palette**.
-2. Open the **Manage Cameras Palette** by clicking on the camera with a gear icon.
-3. Change the **Height Above Ground** to **5’-8”**.
+1. Si ce n’est pas déjà fait, double-cliquez sur la scène **Eye Level – Long Alley** (Au niveau du regard – Longue allée) dans la **palette Scènes** pour y revenir.
+2. Cliquez sur l’icône en forme d’appareil photo avec une icône d’engrenage pour ouvrir la **palette Gérer les caméras**.
+3. Définissez la valeur de **Hauteur au-dessus du sol** sur **5 pi–8 po**.
 
 ![](<../../.gitbook/assets/6 (6) (1).png>)
 
-_**Note:**_ _If your model has levels, this plugin will also show the height above the nearest level below the_ _**Main Camera**._
+_**Remarque :**_ _si votre modèle possède des niveaux, ce plug-in affiche également la hauteur au-dessus du niveau le plus proche sous la_ _**Caméra principale**._
 
-2 - Then:
+2 – Ensuite, procédez comme suit :
 
-1. Go back to the **Scenes Palette**.
-2. Make sure the **Eye Level – Long Alley** scene is still selected (otherwise single-click to select it).
-3. Click on the **Update Scene** button to save the new camera height to this scene.
+1. Revenez à la **palette Scènes**.
+2. Assurez-vous que la scène **Eye Level – Long Alley** (Au niveau du regard – Longue allée) est toujours sélectionnée (sinon, cliquez une fois dessus pour la sélectionner).
+3. Cliquez sur le bouton **Mettre à jour la scène** pour enregistrer la nouvelle hauteur de caméra dans cette scène.
 
 ![](<../../.gitbook/assets/7 (1) (1).png>)
 
-_**Note:**_ _You can also adjust the angle and position of a scene’s camera by toggling the_ _**Edit Scene Cameras**_ _button at the top of the_ _**Scenes Palette**_ _(between the update and play buttons)._
+_**Remarque :**_ _vous pouvez également ajuster l’angle et la position de la caméra d’une scène en activant le bouton_ _**Modifier les caméras de la scène**_ _situé dans la partie supérieure de la_ _**palette Scènes**_ _(entre les boutons de mise à jour et de lecture)._
 
-3 - Next let’s export our scenes to a new model. First we have to create camera objects for all scenes using the **Manage Cameras** plugin:
+3 – Exportons ensuite nos scènes vers un nouveau modèle. Tout d’abord, nous devons créer des objets caméra pour toutes les scènes à l’aide du plug-in **Manage Cameras** (Gérer les caméras) :
 
-1. Open the **Manage Cameras Palette** again.
-2. Make sure the **Copy Cameras to Clipboard** option is checked.
-3. Click on the **Export Scenes to Cameras** button. This may take a few seconds.
-4. If your entire canvas went white, it is because your **Main Camera** was aligned with one of the scene cameras. **Zoom (Z)** out until you can see the 3 main buildings and the newly created camera objects. Note that the camera objects are automatically placed into one large group named **Cameras**. Inside that group, each individual camera is placed in its own group with the same name as the scenes it was created from.
+1. Ouvrez à nouveau la **palette Gérer les caméras**.
+2. Assurez-vous que l’option **Copier les caméras dans le Presse-papiers** est sélectionnée.
+3. Cliquez sur le bouton **Exporter les scènes vers les caméras**. Cette opération peut prendre quelques secondes.
+4. Si la zone de dessin devient entièrement blanche, c’est parce que votre **caméra principale** était alignée avec l’une des caméras de la scène. **Utilisez l’outil Zoom (Z)** pour effectuer un zoom arrière jusqu’à ce que vous puissiez distinguer les 3 bâtiments principaux et les nouveaux objets de caméra. Notez que les objets caméra sont automatiquement placés dans un grand groupe nommé **Cameras** (Caméras). Dans ce groupe, chaque caméra est placée dans son propre groupe avec le même nom que les scènes à partir desquelles elle a été créée.
 
 ![](<../../.gitbook/assets/8 (7) (1).png>)
 
-4 – Let’s copy these scenes to a new model. Since the camera data was saved to the clipboard, there is not much we have to do:
+4 – Copions ces scènes dans un nouveau modèle. Étant donné que les données de caméra ont été enregistrées dans le Presse-papiers, il ne reste pas grand-chose à faire :
 
-1. **Save** **(Ctrl + S)** your current model, and the close it.
-2. Start a new empty sketch by selecting **New Sketch (Ctrl + N)** from the **File** dropdown in the **Main Menu** bar.
-3. Open the **Manage Cameras** plugin, if its not already open, and make sure the **Look for Cameras on Clipboard** option is checked.
-4. Click on the **Import Scenes from Cameras** button near the bottom of the plugin, and the scenes from our other model will be imported. To check, open the **Scenes Palette** and/or turn on the **Camera** layer. You will see that all the scenes and 3D camera objects have been imported into this model.
+1. **Enregistrez** **(Ctrl + S)** votre modèle actuel, puis fermez-le.
+2. Pour commencer une nouvelle esquisse vide, sélectionnez **Nouvelle esquisse (Ctrl + N)** dans la liste déroulante **Fichier** de la barre du **menu principal**.
+3. Ouvrez le plug-in **Manage Cameras** (Gérer les caméras), s’il n’est pas déjà ouvert, et assurez-vous que l’option **Rechercher les caméras dans le Presse-papiers** est sélectionnée.
+4. Cliquez sur le bouton **Importer des scènes à partir de caméras** situé dans la partie inférieure du plug-in. Les scènes de l’autre modèle sont importées. Pour vérifier, ouvrez la **palette Scènes** et/ou activez le calque **Camera** (Caméra). Vous pouvez constater que toutes les scènes et tous les objets de caméra 3D ont été importés dans ce modèle.
 
 ![](<../../.gitbook/assets/9 (7) (1).png>)

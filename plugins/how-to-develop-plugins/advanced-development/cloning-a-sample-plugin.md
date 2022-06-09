@@ -1,36 +1,36 @@
-# Cloning a Sample Plugin
+# Clonage d’un exemple de plug-in
 
-### Clone an Existing FormIt Plugin Repo
+### Cloner un référentiel de plug-in FormIt existant
 
-You can clone various plugin repos from the FormIt team. These plugins demonstrate different UI types and some advanced functionality that can be achieved with plugins.
+Vous pouvez cloner différents référentiels de plug-ins de l’équipe FormIt. Ces plug-ins présentent différents types d’interface utilisateur et certaines fonctionnalités avancées pouvant être obtenues à l’aide de plug-ins.
 
-Each plugin is stored in its own repo. You can find them here: [FormIt3D Organization Repos](https://github.com/FormIt3D)
+Chaque plugin est stocké dans son propre référentiel. Vous pouvez les trouver ici : [référentiels d’organisation FormIt3D](https://github.com/FormIt3D)
 
 ### GitHub Desktop
 
-[GitHub Desktop](https://desktop.github.com) provides an easy-to-use interface for cloning repos, seeing changes to files, and pushing/pulling changes between your local computer and online repos. Some of the features GitHub desktop provides are:
+[GitHub Desktop](https://desktop.github.com) offre une interface conviviale pour le clonage des référentiels, l’affichage des modifications apportées aux fichiers et le transfert/retrait des modifications entre votre ordinateur local et les référentiels en ligne. Voici quelques-unes des fonctionnalités fournies par GitHub Desktop :
 
-* Create a new repo to host your plugin on GitHub.
-* Use GitHub Desktop to clone your new (empty) GitHub repository to your local machine.
-* Develop your plugin by adding new files to the repo folder locally.
-* Use GitHub Desktop to push your plugin files and directories to your repository.
-* Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+* Créez un référentiel pour héberger votre plug-in sur GitHub.
+* Utilisez GitHub Desktop pour cloner votre nouveau référentiel GitHub (vide) sur votre ordinateur local.
+* Développez votre plug-in en ajoutant localement de nouveaux fichiers au dossier du référentiel.
+* Utilisez GitHub Desktop pour transférer vos fichiers et répertoires de plug-in vers votre référentiel.
+* Activez GitHub Pages dans votre référentiel afin que FormIt puisse charger et afficher vos plug-ins hébergés par GitHub.
 
-### Clone a Sample Plugin Repo with GitHub Desktop
+### Cloner un exemple de référentiel de plug-in avec GitHub Desktop
 
-In GitHub, choose a plugin project you wish to clone or modify. Click the **Code** button, and copy the address from the dropdown.
+Dans GitHub, choisissez un projet de plug-in que vous souhaitez cloner ou modifier. Cliquez sur le bouton **Code** et copiez l’adresse à partir de la liste déroulante.
 
 ![](<../../../.gitbook/assets/image (78).png>)
 
-Open your GitHub desktop app, click **Current Repository**, and then select **Clone Repository**.
+Ouvrez l’application GitHub Desktop, cliquez sur **Référentiel actuel**, puis sélectionnez **Cloner le référentiel**.
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
-Select the **URL** tab, paste the copied link into first field, and choose a local folder path on your computer to save these files. Click **Clone**.
+Sélectionnez l’onglet **URL**, collez le lien copié dans le premier champ, puis choisissez un chemin de dossier local sur votre ordinateur pour enregistrer ces fichiers. Cliquez sur **Cloner**.
 
 ![](<../../../.gitbook/assets/image (46).png>)
 
-### Open Your Project in Visual Studio Code
+### Ouvrir votre projet dans Visual Studio Code
 
-Launch Visual Studio Code. Go to **File** > **Open Folder** and select the folder that contains your plugin files and folders, for example, C:\Users\Documents\GenerateStringLights\v22\_0
+Lancez Visual Studio Code. Accédez à **Fichier** > **Ouvrir un dossier** et sélectionnez le dossier qui contient vos fichiers et dossiers de plug-in (par exemple, C:\Utilisateurs\Documents\GenerateStringLights\v22\_0).
 

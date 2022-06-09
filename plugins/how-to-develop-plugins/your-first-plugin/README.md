@@ -1,12 +1,12 @@
-# Your First Plugin
+# Votre premier plug-in
 
-Let's start by creating and editing a simple plugin using the Plugin Playground. The steps to do this are:
+Commençons par créer et modifier un plug-in simple à l’aide de Plugin Playground. Pour ce faire, les étapes à suivre sont :
 
-* Setting up the [Plugin Playground](plugin-playground.md)
-* [Launching the Sample Plugin](launching-the-sample-plugin.md)
-* [Adding Your Own Features](adding-your-own-features.md)
-* [Saving Your Work to GitHub](saving-your-work-to-github.md)
-* [Publishing Your Project](publishing-your-project.md)
+* Configuration de [Plugin Playground](plugin-playground.md)
+* [Lancement de l’exemple de plug-in](launching-the-sample-plugin.md)
+* [Ajout de vos propres fonctionnalités](adding-your-own-features.md)
+* [Enregistrement de votre travail dans GitHub](saving-your-work-to-github.md)
+* [Publication de votre projet](publishing-your-project.md)
 
 ![](<../../../.gitbook/assets/03-FormIt plugin cylinder demo.gif>)
 

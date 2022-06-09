@@ -1,7 +1,7 @@
 # Raccourcis clavier
 
-| Commande | Raccourci\(s\) |
-| :--- | :--- |
+| Commande | Raccourci(s) |
+| ---------------------------------------------- | ------------------ |
 | Paramètres d’application : Afficher les cotes | D, D |
 | Paramètres d’application : Accrocher à la grille | S, G |
 | Collaboration : Inviter à la session | C, I |
@@ -30,16 +30,16 @@
 | Modifier : Copier | Ctrl + C |
 | Modifier : Supprimer | Supprimer |
 | Modifier : Coller | Ctrl + V |
-| Modifier : Préférences |  |
+| Modifier : Préférences |                    |
 | Modifier : Rétablir | Ctrl + Y |
 | Modifier : Rétablir | Ctrl+Maj+Z |
 | Modifier : Réinitialiser les axes | R, Z |
 | Modifier : Définir les axes | S, Z |
 | Modifier : Annuler | Ctrl + Z |
-| Analyse d’énergie : Annuler Insight |  |
-| Analyse d’énergie : Générer Insight |  |
-| Analyse d’énergie : Afficher Insight |  |
-| Fichier : Exporter l’image |  |
+| Analyse d’énergie : Annuler Insight |                    |
+| Analyse d’énergie : Générer Insight |                    |
+| Analyse d’énergie : Afficher Insight |                    |
+| Fichier : Exporter l’image |                    |
 | Fichier : Exporter le modèle vers | Ctrl+E |
 | Fichier : Importer un modèle 3D | Ctrl+I |
 | Fichier : Importer une image | Ctrl+Maj+I |
@@ -49,56 +49,56 @@
 | Fichier : Enregistrer dans BIM 360 Docs | Alt+S |
 | Fichier : Enregistrer avec l’historique | Ctrl + S, Ctrl + H |
 | Fichier : Enregistrer | Ctrl + S |
-| Groupe : Modifier le groupe \(menu contextuel\) | E |
-| Groupe : Modifier le groupe \(barre d’outils\) | Alt + E |
+| Groupe : Modifier le groupe (menu contextuel) | E |
+| Groupe : Modifier le groupe (barre d’outils) | Alt + E |
 | Groupe : Terminer l’action de groupe | F |
-| Groupe : Grouper \(menu contextuel\) | G |
+| Groupe : Grouper (menu contextuel) | G |
 | Groupe : Grouper (barre d’outils) | Alt+G |
-| Groupe : Rendre unique \(menu contextuel\) | M, U |
-| Groupe : Rendre unique \(barre d’outils\) | Alt + M |
-| Groupe : Dissocier \(menu contextuel\) | U |
-| Groupe : Dissocier \(barre d’outils\) | Alt+U |
-| Groupe : Tout dissocier \(menu contextuel\) | U, A |
-| Groupe : Tout dissocier \(barre d’outils\) | Alt + A |
+| Groupe : Rendre unique (menu contextuel) | M, U |
+| Groupe : Rendre unique (barre d’outils) | Alt + M |
+| Groupe : Dissocier (menu contextuel) | U |
+| Groupe : Dissocier (barre d’outils) | Alt+U |
+| Groupe : Tout dissocier (menu contextuel) | U, A |
+| Groupe : Tout dissocier (barre d’outils) | Alt + A |
 | Groupe : Dissocier le modèle | U, M |
-| Aide : À propos |  |
-| Aide : Rechercher les mises à jour FormIt |  |
-| Aide : Blog FormIt |  |
-| Aide : Galerie FormIt |  |
-| Aide : Vidéos FormIt |  |
-| Aide : Obtenir de l’aide |  |
-| Aide : Aide |  |
-| Aide : Quoi de neuf |  |
+| Aide : À propos |                    |
+| Aide : Rechercher les mises à jour FormIt |                    |
+| Aide : Blog FormIt |                    |
+| Aide : Galerie FormIt |                    |
+| Aide : Vidéos FormIt |                    |
+| Aide : Obtenir de l’aide |                    |
+| Aide : Aide |                    |
+| Aide : Quoi de neuf |                    |
 | Niveaux : Niveaux d’affichage | D, L |
 | Niveaux : Utiliser les niveaux | U, L |
-| Empêcher les matériaux sur les faces arrière |  |
+| Empêcher les matériaux sur les faces arrière |                    |
 | Primitive : Cube | Alt+B |
 | Primitive : Cylindre | Alt + C |
 | Primitive : Dôme | Alt+D |
 | Primitive : Prisme | Alt + R |
 | Primitive : Pyramide | Alt + P |
-| Prototype : Afficher l’état de la souris/grille |  |
+| Prototype : Afficher l’état de la souris/grille |                    |
 | Filtre de sélection : arêtes | E, S |
 | Filtre de sélection : faces | F, S |
 | Filtre de sélection : groupes | G, S |
 | Filtre de sélection : solides | S, S |
-| Paramètres: Grands boutons |  |
+| Paramètres: Grands boutons |                    |
 | Paramètres d’esquisse : Activer/désactiver le type d’unité | U, T |
 | Analyse d’ensoleillement : Analyser | A, A |
 | Analyse d’ensoleillement : Entrer en mode d’analyse d’ensoleillement | S, A |
-| Analyse d’ensoleillement : Quitter |  |
-| Analyse d’ensoleillement : Réinitialiser |  |
+| Analyse d’ensoleillement : Quitter |                    |
+| Analyse d’ensoleillement : Réinitialiser |                    |
 | Outils: Réseau | A, R |
 | Outils: Couverture | C, V |
-| Outils: Couper la géométrie \(menu contextuel\) | C, C |
-| Outils: Couper la géométrie \(barre d’outils\) | C, G |
+| Outils : Couper la géométrie (menu contextuel) | C, C |
+| Outils : Couper la géométrie (barre d’outils) | C, G |
 | Outils: Activer le contact | E, T |
 | Outils: Activer le contact | T, M |
 | Outils: Extruder arêtes | E, E |
 | Outils: Congé | F, I |
-| Outils: Informations |  |
-| Outils: Attacher la géométrie \(menu contextuel\) | J, C |
-| Outils: Attacher la géométrie \(barre d’outils\) | J, G |
+| Outils: Informations |                    |
+| Outils : Attacher la géométrie (menu contextuel) | J, C |
+| Outils : Attacher la géométrie (barre d’outils) | J, G |
 | Outils: Sélection lasso | L, L |
 | Outils: Lissage des arêtes | L, O |
 | Outils: Mesurer | M |
@@ -111,7 +111,7 @@
 | Outils: Décaler le solide | O, S |
 | Outils: Inverser les faces | F, F |
 | Outils: Rotation | Q |
-| Outils: Exécuter script depuis éditeur |  |
+| Outils: Exécuter script depuis éditeur |                    |
 | Outils: Échelle | S, C |
 | Outils: Sélectionner | Espace |
 | Outils: Définir l’emplacement | S, L |
@@ -120,20 +120,20 @@
 | Outils: Balayage | S, W |
 | Outils: Dépouiller la face | T, F |
 | Outils: Rendre les arêtes non lisses | U, E |
-| Vue : Thème bleu |  |
-| Vue : Thème par défaut |  |
+| Vue : Thème bleu |                    |
+| Vue : Thème par défaut |                    |
 | Vue : Survol de la première personne | F, T |
-| Vue  : Caméra en orbite |  |
-| Vue : Caméra panoramique |  |
-| Vue : Thème système |  |
-| Vue : Activer/désactiver la perspective |  |
+| Vue  : Caméra en orbite |                    |
+| Vue : Caméra panoramique |                    |
+| Vue : Thème système |                    |
+| Vue : Activer/désactiver la perspective |                    |
 | Vue : Haut | Z, T |
 | Vue : Zoom sur tout | Z, A |
 | Vue : Zoom sur tout | Z, E |
 | Vue : Zoom sur tout | Z, Z |
 | Vue : Zoom sur toutes les images | Z, I |
-| Vue : Caméra avec zoom |  |
-| Vue : Zoom arrière |  |
+| Vue : Caméra avec zoom |                    |
+| Vue : Zoom arrière |                    |
 | Vue : Zoom sur la sélection | Z, S |
 | Fenêtre : Barre d’outils Conception | H, D |
 | Fenêtre : Barre d’outils de navigation flottante | H, B |
@@ -146,4 +146,3 @@
 | Fenêtre : Barre d’outils Standard | H, T |
 | Fenêtre : Barre d’état | H, S |
 | Fenêtre : Barre d’outils Vue | H, V |
-

@@ -15,8 +15,3 @@ Le noyau de modélisation de FormIt permet d’obtenir des workflows incroyables
 **En outre, utilisez les outils de sélection intelligente pour sélectionner rapidement une géométrie similaire et gagner du temps :**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

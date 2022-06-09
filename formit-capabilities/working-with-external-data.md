@@ -4,9 +4,8 @@ Importez divers formats de fichier image et de fichier 3D pour ajouter des dét
 
 Les formats de fichiers suivants peuvent être importés :
 
-* Windows : OBJ, DWG, STL, SAT, SKP
+* Windows : OBJ, DWG, STL, SAT, SKP&#x20;
 * Web : OBJ, STL
 * iOS : OBJ, STL, SAT
 
 Reportez-vous à la rubrique [Importation de modèles](../formit-primer/part-i/import-export-and-content-library.md) pour plus d’informations sur l’importation de données et l’utilisation de la bibliothèque de contenu.
-

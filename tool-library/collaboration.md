@@ -13,8 +13,5 @@ Avec un abonnement FormIt Pro, vous avez accès à la fonctionnalité de collab
 
 ## Démarrage d’une session de collaboration
 
-1. Dans la liste déroulante Collaboration, choisissez « Démarrer la session de partage ». ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. Envoyez un lien par e-mail à vos collaborateurs. Ce lien invite les destinataires à se connecter à leur compte Autodesk Account pour commencer immédiatement la collaboration.  ![](../.gitbook/assets/collaborate.png)
-
-
-
+1. Dans la liste déroulante Collaboration, choisissez « Démarrer la session de partage ». ![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
+2. Envoyez un lien par e-mail à vos collaborateurs. Ce lien invite les destinataires à se connecter à leur compte Autodesk Account pour commencer immédiatement la collaboration.  ![](<../.gitbook/assets/collaborate (1).png>)

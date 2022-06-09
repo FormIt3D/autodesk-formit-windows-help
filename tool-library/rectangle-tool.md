@@ -21,4 +21,3 @@ Couleurs de ligne par axe :
 ![](../.gitbook/assets/rectangle2.png)
 
 Une fois le rectangle dessiné, il devient une face qui peut être extrudée pour créer un volume.
-

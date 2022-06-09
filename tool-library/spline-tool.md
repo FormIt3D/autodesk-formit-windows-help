@@ -13,4 +13,3 @@ Les splines peuvent également se fermer sur elles-mêmes afin de créer une fac
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
-

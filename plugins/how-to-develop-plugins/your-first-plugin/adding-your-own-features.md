@@ -1,18 +1,18 @@
-# Adding Your Own Features
+# Ajout de vos propres fonctionnalités
 
-### Inside the HTML, JavaScript, and CSS Panels
+### Dans les groupes de fonctions HTML, JavaScript et CSS
 
-When you click Edit in the Plugin Playground sample plugin, you will see the HTML, JavaScript (JS), and CSS panels. The HTML panel (left) enables you to modify the user interface of your plugin. The JS panel (middle) enables you to write functions that can communicate to FormIt using the FormIt JS Plugin API. Finally, the CSS panel (right) will determine the style of your HTML.
+Lorsque vous cliquez sur Modifier dans l’exemple de plug-in Plugin Playground, les groupes de fonctions HTML, JavaScript (JS) et CSS s’affichent. Le groupe de fonctions HTML (à gauche) vous permet de modifier l’interface utilisateur de votre plug-in. Le groupe de fonctions JS (au milieu) vous permet d’écrire des fonctions qui peuvent communiquer avec FormIt à l’aide de l’API du plug-in JS FormIt. Enfin, le groupe de fonctions CSS (à droite) détermine le style de votre code HTML.
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-### Adding a Function to Create a Cylinder&#x20;
+### Ajout d’une fonction pour créer un cylindre
 
-Let's add a feature to this plugin to create a cylinder.
+Ajoutez une fonction à ce plug-in pour créer un cylindre.
 
-First, let's configure the input field and UI button in the HTML panel. Copy the following code and paste it after line 23 and before _\<!-- Do not remove below scripts unless you know what you're doing- - >_
+Commencez par configurer le champ de saisie et le bouton d’interface utilisateur dans le groupe de fonctions HTML. Copiez le code suivant et collez-le après la ligne 23 et avant _\<!-- Ne supprimez pas les scripts ci-dessous, sauf si vous savez ce que vous faites -- > _
 
-This will add some basic UI elements to our plugin.
+Cela permet d’ajouter des éléments de base de l’interface utilisateur au plug-in.
 
 ```
 <p>Cylinder: Create a cylinder at the origin.</p>
@@ -20,22 +20,22 @@ This will add some basic UI elements to our plugin.
     <input id="Radius" type=number value=2 />
     <label>Radius</label>
 </div>
-        
+
 <div>
     <input id="CHeight" type=number value =0.5 />
     <label>Height</label>
 </div>
-        
+
 
 <input id="CreateCylinderBtn" type=button value="Create Cylinder" />
-        
+
 ```
 
 ![](<../../../.gitbook/assets/image (86).png>)
 
-Next, let's add two functions in our JS panel. Copy the following code and paste it at the end of the file (after line 16).
+Ajoutez ensuite deux fonctions dans le groupe de fonctions JS. Copiez le code suivant et collez-le à la fin du fichier (après la ligne 16).
 
-This will create a cylinder in our FormIt workspace.
+Cela permet de créer un cylindre dans l’espace de travail FormIt.
 
 ```
 // Create cylinder
@@ -65,12 +65,12 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ![](<../../../.gitbook/assets/image (82).png>)
 
-### Running and previewing
+### Exécution et aperçu
 
-When you’re ready to see the results, click the Play button ![](<../../../.gitbook/assets/image (81).png>) again and you will see your updates to the plugin in the same panel.
+Lorsque vous êtes prêt à voir les résultats, cliquez sur le bouton Play (Lecture) ![](<../../../.gitbook/assets/image (81).png>), et vous verrez vos mises à jour du plug-in dans le même groupe de fonctions.
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
-### FormIt plugins API
+### API des plug-ins FormIt
 
-For complete documentation on the FormIt plugins API, see the [useful links](../useful-links.md) section.
+Pour obtenir une documentation complète sur l’API des plug-ins FormIt, reportez-vous à la section [liens utiles](../useful-links.md).

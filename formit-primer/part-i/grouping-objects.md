@@ -8,25 +8,25 @@ _Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le 
 
 1 – Double-cliquez sur le volume de la terrasse supérieure pour le sélectionner.
 
-2 – Cliquez avec le bouton droit de la souris, puis choisissez **Grouper \(G\)**, ou appuyez simplement sur la touche « **G** ».
+2 – Cliquez avec le bouton droit de la souris, puis choisissez **Grouper (G)**, ou appuyez simplement sur la touche « **G** ».
 
-![](../../.gitbook/assets/0%20%281%29.jpeg)
+![](<../../.gitbook/assets/0 (1).jpeg>)
 
 3 – Notez qu’après la création d’un groupe, vous êtes automatiquement placé dans l’outil Déplacer.
 
 ## **Déplacement d’un groupe**
 
-1 – Pour faciliter le processus de modélisation, activez l’option **Accrochage à la grille \(SG\)**, si elle est désactivée.
+1 – Pour faciliter le processus de modélisation, activez l’option **Accrochage à la grille (SG)**, si elle est désactivée.
 
-![](../../.gitbook/assets/1%20%2814%29.png)
+![](<../../.gitbook/assets/1 (14).png>)
 
-2 – Pour déplacer l’objet sélectionné, toujours dans la commande **Déplacer \(M\)**, cliquez une fois sur l’angle inférieur du volume. Déplacez ensuite le curseur vers le haut. Une ligne d’axe bleue (\Z\) s’affiche. Cette ligne vous aidera à déplacer l’objet vers le haut.
+2 – Pour déplacer l’objet sélectionné, toujours dans la commande **Déplacer (M)**, cliquez une fois sur l’angle inférieur du volume. Déplacez ensuite le curseur vers le haut. Une ligne d’axe bleue (Z) s’affiche. Cette ligne vous aidera à déplacer l’objet vers le haut.
 
 3 – Lorsque l’axe bleu est visible, tapez **4’-6”**. Une boîte de dialogue de cotation s’affiche ensuite. Après avoir saisi la cote, cliquez sur **OK** ou appuyez sur la touche **Entrée** du clavier. La masse entière se déplace alors vers le haut, hors du plan du sol, le long de l’**axe Z**.
 
-_**Remarque :**_ _comme dans Revit, vous pouvez également taper_ _**4’6**,_ _**4’6”,**_ _ou_ _**4.5**. Le programme interprète la valeur comme 4\(pieds\) 6\(pouces\) lorsque vous utilisez les unités anglo-saxonnes._
+_**Remarque :**_ _comme dans Revit, vous pouvez également taper_ _**4’6**,_ _**4’6”**_ _ou_ _**4.5**. Le programme interprète la valeur comme 4(pieds) 6(pouces) lorsque vous utilisez les unités anglo-saxonnes._
 
-![](../../.gitbook/assets/2%20%282%29.png)
+![](<../../.gitbook/assets/2 (2).png>)
 
 ## **Modification d’un groupe**
 
@@ -35,7 +35,7 @@ _**Remarque :**_ _comme dans Revit, vous pouvez également taper_ _**4’6**,_ 
 1. Dans la **palette Propriétés**, renommez le groupe « **Volume - Bâtiment principal** ».
 2. Pour enregistrer les modifications et quitter le **mode de modification de groupe**, cliquez sur l’icône en forme de coche **Terminer la modification du groupe** située dans le coin supérieur gauche de la zone de dessin ou double-cliquez dans l’espace.
 
-![](../../.gitbook/assets/3%20%2812%29.png)
+![](<../../.gitbook/assets/3 (12) (1).png>)
 
 _**Remarques**:_
 
@@ -52,7 +52,7 @@ _**Remarque :**_ _le groupement d’une géométrie remplace les paramètres pr
 2. Accédez à la **palette Propriétés** et cochez la case **Utiliser les niveaux.**
 3. Ne conservez que le niveau **Bâtiment principal** et désélectionnez tous les autres.
 4. Le champ **Aire par niveau** affiche l’aire brute des objets sélectionnés. La surface de chaque **niveau** est affichée devant le nom de chaque **niveau**.
-5. Si aucune ligne de niveau bleue ne traverse horizontalement l’objet, activez l’affichage des niveaux. Pour ce faire, accédez au **menu Paramètres > Style visuel > Niveaux d’affichage \(DL\).**
+5. Si aucune ligne de niveau bleue ne traverse horizontalement l’objet, activez l’affichage des niveaux. Pour ce faire, accédez au **menu Paramètres > Style visuel > Niveaux d’affichage (DL).**
 
 _**Remarque** : si aucune surface n’est indiquée pour le niveau_ _**Bâtiment principal**_ _, la géométrie ne croise peut-être pas le niveau, qui doit être situé à une hauteur de 4’-6”. Pour résoudre ce problème, repositionnez la géométrie ou la hauteur du_ _**niveau**_ _de sorte qu’ils se coupent._
 
@@ -60,7 +60,7 @@ _**Remarque** : si aucune surface n’est indiquée pour le niveau_ _**Bâtiment
 
 2 – Pour désélectionner le groupe, appuyez sur la touche **Échap** ou cliquez une fois dans l’espace. Si aucun objet n’est sélectionné, la **palette Propriétés** indique l’aire brute de l’esquisse globale plutôt que l’aire d’un objet spécifique.
 
-![](../../.gitbook/assets/5%20%2815%29.png)
+![](<../../.gitbook/assets/5 (15).png>)
 
 ## **Gérer les groupes**
 
@@ -72,7 +72,7 @@ _**Remarque** : si aucune surface n’est indiquée pour le niveau_ _**Bâtiment
    * Groupe **groupe 2** : groupe sans nom contenant l’image du plan d’étage.
 2. Pour renommer le groupe **groupe 2** à l’aide de la palette Arborescence des groupes, double-cliquez sur le groupe **groupe 2**, puis tapez **Image du plan**.
 
-![](../../.gitbook/assets/6%20%284%29.png)
+![](<../../.gitbook/assets/6 (4).png>)
 
 _**Remarques :**_
 
@@ -81,7 +81,7 @@ _**Remarques :**_
 
 2 – Le groupe **Image du plan** étant toujours sélectionné, accédez à la **palette Propriétés**. Notez que le nom du groupe a également été mis à jour dans le champ **Groupe**.
 
-![](../../.gitbook/assets/7.png)
+![](<../../.gitbook/assets/7 (11).png>)
 
 ## **Masquer le contexte du groupe**
 
@@ -91,8 +91,7 @@ _Cet outil permet de masquer rapidement toute la géométrie située en dehors d
 
 1. Double-cliquez sur sa géométrie pour modifier le groupe.
 2. Accédez à **Paramètres** dans le **menu principal** et cochez la case **Masquer le contexte du groupe** ou appuyez simplement sur la touche **H** de votre clavier. Le groupe **Image du plan** disparaît.
-3. Terminez la modification du groupe. Notez que le mode **Masquer le contexte de groupe \(H\)** est uniquement actif dans l’**Assistant Modifier le groupe**.
+3. Terminez la modification du groupe. Notez que le mode **Masquer le contexte de groupe (H)** est uniquement actif dans l’**Assistant Modifier le groupe**.
 4. Pour désactiver à nouveau ce mode, appuyez simplement sur la touche **H**. Cette option peut être activée ou désactivée à tout moment, à l’intérieur ou à l’extérieur d’un groupe.
 
-![](../../.gitbook/assets/8%20%285%29.png)
-
+![](<../../.gitbook/assets/8 (5).png>)

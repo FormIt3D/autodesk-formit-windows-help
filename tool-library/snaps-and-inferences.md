@@ -8,9 +8,9 @@ Pour faciliter l’esquisse et la modélisation, utilisez les points d’accroch
 
 Plusieurs accrochages peuvent vous aider lors de la création d’esquisses et de la modélisation. L’accrochage aux objets est automatiquement activé et vous pouvez effectuer un accrochage aux éléments suivants :
 
-|                                                                                                                                                                            |                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Sommets | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+|                                                                                                                                                                            |                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| Sommets | ![](<../.gitbook/assets/inf3 (3).png>) |
 | Arêtes. Lorsque vous placez le curseur sur l’arête, des petits points rouges sont dessinés aux extrémités et au milieu. | ![](../.gitbook/assets/inf4.png) |
 | Milieux des arêtes | ![](../.gitbook/assets/inf5.png) |
 | Plan d’une face. Lorsque vous passez le curseur sur la face, un petit point rouge est dessiné au niveau du centre de gravité de la face. Cela vous permet de trouver facilement ce point si vous souhaitez y effectuer un accrochage. | ![](../.gitbook/assets/inf6.png) |

@@ -4,7 +4,7 @@
 
 FormIt 2021 et les versions ultérieures vous permettent de mettre en réseau des objets le long d’une trajectoire et de personnaliser rapidement les résultats en place. L’exemple Array Along Path est optimisé par Dynamo, ce qui signifie que le réseau est facilement configurable afin d’obtenir les résultats souhaités. De plus, la réexécution de la logique permet de mettre à jour la géométrie en place.
 
-![](../.gitbook/assets/array-along-path.gif)
+![](<../.gitbook/assets/array-along-path (1).gif>)
 
 ## Lancement de Array Along Path
 
@@ -16,7 +16,7 @@ FormIt 2021 et les versions ultérieures vous permettent de mettre en réseau d
 * Une fenêtre s’affiche et vous invite à sélectionner la trajectoire du réseau.
    * Dans ce cas, vous devez sélectionner uniquement une série d’arêtes contiguës ou un groupe contenant une série d’arêtes contiguës.
    * Une fois la trajectoire sélectionnée, cliquez sur le bouton « finish » ou appuyez sur la touche Entrée.
-* Le groupe de fonctions Dynamo indique que les modifications sont en cours de traitement. Lorsque vous avez terminé, vous disposez d’un réseau généré par Dynamo dans un groupe FormIt, prêt à être modifié \(reportez-vous à la section ci-dessous\).
+* Le groupe de fonctions Dynamo indique que les modifications sont en cours de traitement. Lorsque vous avez terminé, vous disposez d’un réseau généré par Dynamo dans un groupe FormIt, prêt à être modifié (reportez-vous à la section ci-dessous).
 
 ## Itération en place
 
@@ -26,9 +26,9 @@ Lorsque l’exemple Array Along Path est exécuté, un nouveau groupe contenant 
 
 Pour revenir aux propriétés Array Along Path, sélectionnez le groupe et basculez vers le groupe de fonctions Properties, ou modifiez le groupe qui permet d’afficher automatiquement les propriétés.
 
-![](../.gitbook/assets/array-along-path-options.png)
+![](<../.gitbook/assets/array along path (2).png>)
 
-### Select Object\(s\) to Array <a id="run"></a>
+### Select Object(s) to Array <a href="#run" id="run"></a>
 
 Cliquez sur ce bouton pour revenir à l’assistant de sélection et modifier les objets mis en réseau.
 
@@ -36,7 +36,7 @@ Cliquez sur ce bouton pour revenir à l’assistant de sélection et modifier le
 
 Cliquez sur ce bouton pour revenir à l’assistant de sélection et modifier la trajectoire utilisée pour calculer le réseau.
 
-### Array Type <a id="run"></a>
+### Array Type <a href="#run" id="run"></a>
 
 Cette option permet d’activer ou de désactiver le type de réseau à calculer : By Distance ou By Number.
 
@@ -77,15 +77,13 @@ Lorsque la valeur est définie sur **False** :
 
 Cette option s’applique uniquement aux trajectoires fermées. Lorsque vous utilisez l’exemple Array Along Path avec une trajectoire fermée, la direction de la courbe peut inverser de manière inattendue les résultats attendus du réseau. Définissez cette option sur **True** pour inverser la direction du réseau si les résultats sont inversés.
 
-### Run <a id="run"></a>
+### Run <a href="#run" id="run"></a>
 
 Après avoir modifié les options, cliquez sur le bouton « Run » pour exécuter le graphique Dynamo sous-jacent et générer de nouveaux résultats. Ce bouton devient bleu lorsque les paramètres ont été modifiés. Vous devez donc cliquer dessus pour afficher les mises à jour dans la géométrie finale.‌
 
-### Edit Embedded Graph <a id="edit-embedded-graph"></a>
+### Edit Embedded Graph <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
 
 Cliquez sur ce bouton pour lancer l’environnement de l’éditeur graphique Dynamo. Celui-ci vous permet d’afficher et de modifier le graphique Dynamo sous-jacent afin de modifier plus rapidement les paramètres et d’afficher les mises à jour en direct, ou d’inspecter/ajuster la logique.
-
-
 
 ## Sélection de la géométrie
 
@@ -98,6 +96,3 @@ Lors de la sélection d’objets pour l’exemple Array Along Path et d’autres
 * Pour sélectionner une série d’objets, utilisez la fenêtre de sélection de surfaces.
 * Pour désélectionner des objets déjà sélectionnés, sélectionnez-les à nouveau.
 * Au moins un objet est requis pour effectuer une étape basée sur une sélection.
-
-
-

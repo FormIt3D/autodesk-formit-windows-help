@@ -1,31 +1,31 @@
-# Publishing Your Project
+# Publication de votre projet
 
-### Publishing from the Plugin Playground
+### Publication à partir de Plugin Playground
 
-When you’re ready to share your plugin with others, use the Publish![](<../../../.gitbook/assets/image (66).png>)button to publish your project.
+Lorsque vous êtes prêt à partager votre plug-in avec d’autres utilisateurs, utilisez le bouton Publish (Publier) ![](<../../../.gitbook/assets/image (66).png>) pour publier votre projet.
 
-![](https://formit3d.github.io/PluginPlayground/images/save4.png)
+![](<../../../.gitbook/assets/publish a plugin.png>)
 
 ###
 
-### Hosting Your Plugin on GitHub
+### Hébergement de votre plug-in sur GitHub
 
-Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+Activez GitHub Pages dans votre référentiel afin que FormIt puisse charger et afficher vos plug-ins hébergés par GitHub.
 
-Go to your new [GitHub ](https://github.com)plugins repo, for example, [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn)
+Accédez à votre nouveau référentiel de plug-ins [GitHub](https://github.com) (par exemple, [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn)).
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+Dans le menu supérieur, cliquez sur Paramètres > Pages. Sous Source, cliquez sur le bouton Aucun et sélectionnez la branche principale. Cliquez sur Enregistrer.
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
-### Deploying Your Plugin in FormIt&#x20;
+### Déploiement de votre plug-in dans FormIt
 
-To use a plugin hosted on GitHub, copy the plugin page link, go to the Plugin Manager and scroll to the bottom, and paste the link in the field under Add Your Private or Local Plugin. Then click the Add ![](<../../../.gitbook/assets/image (58).png>) button.
+Pour utiliser un plug-in hébergé sur GitHub, copiez le lien de la page du plug-in, accédez à Plugin Manager et faites défiler vers le bas, puis collez le lien dans le champ sous Add Your Private or Local Plugin (Ajouter votre plug-in privé ou local). Cliquez ensuite sur le bouton Add (Ajouter) ![](<../../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (80).png>)
 
 ![](<../../../.gitbook/assets/image (85).png>)
 
-Once the plugin is installed, it will be added to the bottom of your toolbar, ready to use.
+Une fois le plug-in installé, il sera ajouté au bas de la barre d’outils, prêt à l’emploi.
 
 ![](<../../../.gitbook/assets/image (38).png>)

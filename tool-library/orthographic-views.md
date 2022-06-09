@@ -1,12 +1,12 @@
 # Vues orthogonales
 
-**Affichez votre modèle dans différentes vues orthogonales, notamment vue de dessus, vue latérale et vue de dessus.**
+Affichez votre modèle dans différentes vues orthogonales, notamment vue de dessus, vue latérale et vue de dessus.
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**Pour accéder aux vues orthogonales, cliquez sur l’icône du haut dans la barre d’outils de navigation flottante :**
+Vous trouverez des vues orthogonales dans le menu Vue, en cliquant sur l’icône Orthogonale dans la barre d’outils de navigation flottante ou en utilisant le raccourci VO. Cliquez sur l’icône Vue de dessus dans la barre d’outils de navigation flottante pour accéder à plusieurs options d’affichage.
 
-![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
+![](../.gitbook/assets/floating-nav\_flyout-v2.png)
 
 **Voici quelques conseils pratiques pour travailler avec des vues orthogonales :**
 
@@ -14,10 +14,14 @@
 * Lorsque vous basculez entre les vues d’élévation (avant/droite/gauche/arrière), FormIt conserve la hauteur du sol pour des raisons de cohérence.
 * Vous pouvez maintenir la touche Maj enfoncée pendant que vous effectuez un panoramique dans une vue orthogonale pour verrouiller le mouvement panoramique sur l’axe horizontal ou vertical.
 * Les directions de vue orthogonale sont basées sur les axes universels. Vous pouvez réaligner les axes, ce qui modifie l’orientation de toutes les vues orthogonales :
+
    * Utilisez le raccourci SZ ou cliquez avec le bouton droit de la souris dans l’espace (pas sur une géométrie) :
-   * ![](../.gitbook/assets/set-axes\_context.PNG)
+
+   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+
    * Définissez l’origine et la poignée sur les axes rouges pour l’aligner dans une direction significative.
-   * ![](../.gitbook/assets/set-axes.PNG)
+
+   ![](../.gitbook/assets/set-axes.PNG)&#x20;
 
 **Les vues orthogonales fonctionnent conjointement avec d’autres fonctions FormIt :**
 

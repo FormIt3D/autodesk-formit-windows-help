@@ -4,7 +4,7 @@
 
 Dans FormIt 2021 et les versions ultérieures, vous pouvez générer et modifier des objets 3D Text, qui sont optimisés par Dynamo. Dynamo permet de modifier la police, la taille et d’autres propriétés du texte en place, sans avoir à générer et à repositionner le texte lorsque des modifications sont nécessaires.
 
-![](../.gitbook/assets/3d-text.gif)
+![](<../.gitbook/assets/3d-text (1).gif>)
 
 ## Placement de texte 3D
 
@@ -25,7 +25,7 @@ Les options de 3D Text sont disponibles dans le groupe de fonctions Properties 
 
 Après avoir placé le groupe 3D Text, le groupe de fonctions Properties s’affiche automatiquement. Vous pouvez également sélectionner le groupe et passer vous-même à Propriétés, ou double-cliquer sur le groupe pour passer automatiquement au groupe de fonctions Properties.
 
-![](../.gitbook/assets/3d-text-options.png)
+![](<../.gitbook/assets/3d-text-options (2).png>)
 
 ### Text
 
@@ -51,23 +51,23 @@ Le texte sera alors aligné par rapport à l’origine du système de coordonné
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-Hauteur du texte, exprimée dans l’unité FormIt active.
+Cette fonctionnalité permet de modifier la hauteur du texte. L’unité est basée sur le nœud [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes), et toute unité peut être utilisée.
 
 ### Extrusion Depth
 
-Quantité d’extrusion 3D du texte, exprimée dans les unités FormIt actives. Le texte 3D est conçu pour être un solide. Par conséquent, cette valeur ne peut pas être égale à zéro, mais vous pouvez l’approcher de 0 pour que l’extrusion paraisse moins évidente.
+Cette fonctionnalité correspond à la quantité d’extrusion 3D du texte, dans l’unité définie par le nœud [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes). Le texte 3D est conçu pour être un solide. Par conséquent, cette valeur ne peut pas être égale à zéro, mais vous pouvez l’approcher de 0 pour que l’extrusion paraisse moins évidente.
 
 ### Tracking
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-Le suivi est utile pour ajuster l’espacement par défaut entre les lettres d’une police particulière. Ce paramètre utilise les unités FormIt actives et peut être positif ou négatif. Par exemple, en pieds, 0,25 ajoute 3” d’espacement entre chaque lettre. À l’inverse, -0,25 rapproche toutes les lettres de 3”.
+Le suivi est utile pour ajuster l’espacement par défaut entre les lettres d’une police particulière. Il utilise l’unité définie par le nœud [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) et peut être positif ou négatif. Par exemple, en pieds, 0,25 ajoute 3” d’espacement entre chaque lettre. À l’inverse, -0,25 rapproche toutes les lettres de 3”.
 
 ### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-Si le champ Text contient plusieurs lignes, cette valeur détermine l’espace entre chaque ligne de texte. Ce paramètre utilise les unités FormIt actives.
+Si le champ Text contient plusieurs lignes, cette valeur détermine l’espace entre chaque ligne de texte. Il utilise l’unité définie par le nœud [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 ### Invert Text
 
@@ -79,13 +79,13 @@ Lorsque la valeur est définie sur True, cette option crée un solide autour du 
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Ce paramètre s’applique uniquement lorsque l’option Invert Text est définie sur True. Il indique l’épaisseur de la bordure autour du texte pour le solide duquel le texte est supprimé. Ce paramètre utilise les unités FormIt actives.
+Ce paramètre s’applique uniquement lorsque l’option Invert Text est définie sur True. Il indique l’épaisseur de la bordure autour du texte pour le solide duquel le texte est supprimé. Il utilise l’unité définie par le nœud [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 ### Curve Faceting Quality
 
 Étant donné que les courbes provenant de polices sont converties en segments de ligne à l’aide de 3D Text, cette valeur contrôle la précision des facettes des courbes.
 
-Des valeurs inférieures réduisent le niveau de détails des facettes \(segments plus longs\), tandis que des valeurs plus élevées augmentent le niveau de détail des facettes \(segments plus courts\). Cette valeur remplace les paramètres de création de facettes de courbe et de surface de FormIt dans les préférences.
+Des valeurs inférieures réduisent le niveau de détails des facettes (segments plus longs), tandis que des valeurs plus élevées augmentent le niveau de détail des facettes (segments plus courts). Cette valeur remplace les paramètres de création de facettes de courbe et de surface de FormIt dans les préférences.
 
 ### Run
 
@@ -103,7 +103,7 @@ Si vous effectuez une itération des options de 3D Text, il est recommandé de 
 
 Pour lancer l’éditeur graphique Dynamo, cliquez sur le bouton « Edit Embedded Graph » dans le groupe de fonctions Properties pour lancer l’éditeur graphique Dynamo.
 
-![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
+![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
 
 ## Dépannage
 
@@ -114,8 +114,3 @@ Certaines polices peuvent créer des « courbes auto-sécantes » ou d’autre
 Si vous obtenez une erreur lorsque vous tentez d’exécuter 3D Text ou si des lettres disparaissent, cliquez sur « Edit Embedded Graph » pour déceler les erreurs dans le graphique et la source du problème.
 
 Certaines polices présentent également des problèmes connus qui empêchent leur conversion en géométrie correcte. Bahnschrift en est un exemple. Si vous rencontrez un autre problème de police, [faites-le nous savoir sur les forums](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=fr). Nous ferons notre possible pour résoudre les problèmes liés à des polices spécifiques.
-
-
-
-
-

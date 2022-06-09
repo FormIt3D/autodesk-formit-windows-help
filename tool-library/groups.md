@@ -6,7 +6,7 @@ Les groupes peuvent être créés et modifiés de deux manières : à partir du
 
 ## Interactions des groupes
 
-Pour **créer un groupe**, sélectionnez les éléments que vous souhaitez regrouper (arêtes, faces, solides ou autres groupes) et cliquez avec le bouton droit de la souris. Choisissez l’outil **Grouper \(G\)** dans le menu contextuel. Les images importées et les images satellites ne peuvent pas être regroupées.
+Pour **créer un groupe**, sélectionnez les éléments que vous souhaitez regrouper (arêtes, faces, solides ou autres groupes) et cliquez avec le bouton droit de la souris. Choisissez l’outil **Grouper (G)** dans le menu contextuel. Les images importées et les images satellites ne peuvent pas être regroupées.
 
 Pour **sélectionner un groupe**, cliquez une fois sur le groupe. Lorsque vous sélectionnez un groupe, des lignes en pointillés apparaissent. Elles indiquent la taille totale du groupe.
 
@@ -55,4 +55,3 @@ Vous pouvez spécifier les **catégories** des groupes dans FormIt afin que vos 
 Vous pouvez également utiliser le groupe de fonctions **Propriétés** pour spécifier un nom pour votre groupe FormIt. Cela peut être utile pour naviguer dans votre propre modèle. De plus, quand vous importez votre modèle dans Revit, vous pouvez facilement filtrer les éléments en utilisant le nom du groupe.
 
 Notez que les **groupes imbriqués dans FormIt ne sont pas importés dans Revit en tant que groupes imbriqués**. Cela empêche l’imbrication des familles Revit.
-

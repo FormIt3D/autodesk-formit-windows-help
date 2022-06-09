@@ -1,42 +1,42 @@
-# Properties Plus Plugin
+# Plug-in Properties Plus (Propriétés plus)
 
-_This plugin is a more featured version of the standard_ _**Properties Palette**. If you select multiple groups and/or types of geometry, this plugin will provide you with a breakdown of what has been selected, as well as allow for the bulk renaming of groups and group instances._
+_Ce plug-in est une version plus avancée de la_ _**palette Propriétés** standard. Si vous sélectionnez plusieurs groupes et/ou types de géométrie, ce plug-in vous fournit le détail de ce qui a été sélectionné, et vous permet de renommer en bloc des groupes et des occurrences de groupe._
 
-1 **-** First we will look at the properties of a door group from our main model. Re-open **Encode Campus Sample Model.axm** and go back to the **Eye Level – Long Alley** scene. To start utilizing the **Properties Plus** plugin:
+1 **– **Tout d’abord, nous allons examiner les propriétés d’un groupe de portes à partir de notre modèle de base. Rouvrez le fichier **Encode Campus Sample Model.axm** et revenez à la scène **Eye Level – Long Alley** (Au niveau du regard – Longue allée). Pour commencer à utiliser le plug-in **Properties Plus** (Propriétés plus), procédez comme suit :
 
-1. Open the **Properties Plus Palette** by clicking on the property with a ‘plus’ symbol icon.
-2. Make sure that **Update on Selection Change** is checked.
-3. Select one of the double glass door groups, named **Door**, on the right side of the alley.
-4. Under the **Selection Count** area, **Total Objects** tells us that we have one (**1**) object selected.
-5. Just below that we can find more information on what types of objects have been selected. In this case, there is one (**1**) group selected, but that group has four (**4**) instances somewhere in the model.
+1. Pour ouvrir la **palette Properties Plus** (Propriétés plus), cliquez sur la propriété portant l’icône « plus ».
+2. Assurez-vous que l’option **Mettre à jour lors du changement de sélection** est cochée.
+3. Sélectionnez l’un des groupes de portes à double vitre, nommé **Door** (Porte), sur le côté droit de l’allée.
+4. Dans la zone **Compteur de sélections**, l’option **Nombre total d’objets** indique qu’un (**1**) objet est sélectionné.
+5. Juste en dessous, vous trouverez plus d’informations sur les types d’objets sélectionnés. Dans ce cas, un (**1**) groupe est sélectionné, mais ce groupe comporte quatre (**4**) occurrences dans le modèle.
 
 ![](<../../.gitbook/assets/10 (2) (1).png>)
 
-_**Note:**_ _Checking the number of instances of the selected group can be very handy to prevent accidentally changing multiple elements when you actually only wanted to change the selected element, but forgot to make it unique first._
+_**Remarque :**_ _il peut s’avérer très pratique de vérifier le nombre d’occurrences du groupe sélectionné pour éviter de modifier accidentellement plusieurs éléments lorsque vous souhaitiez uniquement modifier l’élément sélectionné, mais que vous avez oublié de le rendre unique avant._
 
-2 - This plugin allows us to edit a group or group instance’s name without having to go into group edit mode, and rename multiple instances at once. As we learned previously, every group has a name, but every instance of that group can also have a unique ‘instance’ name. Since there will most likely be many types of doors in this model, we want to give this group, and some of its instances, more specific names.
+2 – Ce plug-in nous permet d’éditer le nom d’une occurrence de groupe ou d’un groupe sans avoir à passer en mode de modification de groupe, et de renommer plusieurs instances à la fois. Comme nous l’avons vu précédemment, chaque groupe a un nom, mais chaque occurrence de ce groupe peut également avoir un nom « d’instance » unique. Étant donné que ce modèle va probablement contenir de nombreux types de portes, il est préférable d’attribuer à ce groupe, et à certaines de ses occurrences, des noms plus spécifiques.
 
-1. With the first glass **Door** group still selected, add another **Door** group to your current selection by holding **Shift** or **Ctrl** and single-clicking on the other double glass **Door** group near the first.
-2. Notice that now, the **Properties Plus Palette** has updated its **Selection Count** to show that there are two (**2**) instances selected, but still only one (**1**) unique **Family** (AKA group) selected. (Even though this plugin is using the term **Family**, which should be familiar to Revit users, in this context it means the same thing as a FormIt group.)
-3. Under the **Group Family** area, update the **Name** field to be **Doors – Double Glass Storefront**. This will update the name group’s name for all instances, no matter where they are or whether they are currently selected or not, without having to double-click and edit the group.
-4. Since these two instances are both doors into the Groove Coffee area, lets rename just these two instances by entering **Groove Coffee Door** into the **Name** field under the **Multiple Group Instances** area.
+1. Étant donné que le premier groupe de portes vitrées **Door** (Porte) est toujours sélectionné, ajoutez un autre groupe **Door** (Porte) à votre sélection actuelle. Pour ce faire, maintenez la touche **Maj** ou **Ctrl** enfoncée et cliquez une fois sur l’autre groupe de portes à double vitre **Door** (Porte) situé près du premier groupe.
+2. Notez que la **palette Properties Plus** (Propriétés plus) a mis à jour le **Compteur de sélections** pour indiquer que deux (**2**) occurrences sont sélectionnées, mais qu’une (**1**) seule **famille** (également appelée groupe) est sélectionnée. (Bien que ce plug-in utilise le terme **Famille**, que les utilisateurs de Revit connaissent, dans ce contexte, il signifie la même chose qu’un groupe FormIt.)
+3. Sous la zone **Famille de groupes**, définissez le champ **Nom** sur **Doors – Double Glass Storefront** (Portes – Vitrine à double vitre). Cela permet de mettre à jour le nom du groupe pour toutes les occurrences, où qu’elles se trouvent et peu importe si elles sont sélectionnées ou non, sans avoir à double-cliquer sur le groupe pour le modifier.
+4. Comme ces deux occurrences sont des portes dans la zone Groove Coffee, renommez uniquement ces deux occurrences en saisissant **Groove Coffee Door** (Porte Groove Coffee) dans le champ **Nom** sous la zone **Occurrences de groupes multiples**.
 
-**Note:** In the standard **Properties Palette**, there is no way to rename multiple instances of a group at once. This can be extremely handy when you want to rename tens or hundreds of instances with the same name at once.
+**Remarque :** dans la **palette Propriétés** standard, il n’est pas possible de renommer plusieurs occurrences d’un groupe à la fois. Cela peut s’avérer très pratique lorsque vous souhaitez renommer des dizaines ou des centaines d’occurrences du même nom à la fois.
 
 ![](<../../.gitbook/assets/11 (6) (1).png>)
 
-_**Note:**_ _If you mouse leaves the palette, you will no longer be able to edit the selected textbox. This is true for all palettes, so make sure to keep your cursor within the palette boundary while editing anything inside of a palette._
+_**Remarque :**_ _si vous quittez la palette avec la souris, vous ne pourrez plus modifier la zone de texte sélectionnée. Ceci est vrai pour toutes les palettes. Par conséquent, lorsque vous modifiez des éléments à l’intérieur d’une palette, veillez à maintenir le curseur à l’intérieur du contour de la palette._
 
-3 - Now if you select a Groove Coffee glass door or a different glass door and look at their properties in the regular **Properties Palette**, you will see that the name of the **Group** has been updated for every instance, but only the Groove Coffee doors have their instance **Name** property updated from its default value.
+3 – Si vous sélectionnez une porte vitrée Groove Coffee ou une autre porte vitrée et que vous examinez ses propriétés dans la **palette Propriétés** standard, vous verrez que le nom du **groupe** a été mis à jour pour chaque occurrence, mais que seule la propriété **Nom** de l’occurrence des portes Groove Coffee est mise à jour par rapport à sa valeur par défaut.
 
 ![](<../../.gitbook/assets/12 (3) (1).png>)
 
-4 - Finally, let’s look at how this plugin sorts different types of elements:
+4 – Enfin, examinons comment ce plug-in trie différents types d’éléments :
 
-1. Quickly draw a **Line (L)**, **Rectangle (R)**, and **Cube (Alt + B)** anywhere you would like in the model. These will be temporary, so their precise location is not important.
-2. Re-open the **Properties Plus Palette** if it was closed, and then press **Crtl + A** to select all visible elements in the model.
-3. Look in the **Selection Count** area, and notice that the selected elements are separated into **Edges** (lines), **Faces**, **Bodies**, (3D shapes made of faces and edges, like the cube)**,** **Groups**, and more.
+1. Tracez rapidement une **ligne (L)**, un **rectangle (R)** et un **cube (Alt + B)** à l’endroit souhaité dans le modèle. Comme ces éléments sont temporaires, leur emplacement n’a pas d’importance.
+2. Rouvrez la **palette Properties Plus** (Propriétés plus) si elle a été fermée, puis appuyez sur **Ctrl + A** pour sélectionner tous les éléments visibles dans le modèle.
+3. Dans la zone **Compteur de sélections**, notez que les éléments sélectionnés sont séparés en **arêtes** (lignes), **faces**, **corps**, (formes 3D constituées de faces et d’arêtes, comme le cube)**,** **groupes**, etc.
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
-_**Note:**_ _This plugin also detects_ _**Vertices**, which can be created using another plugin called_ _**Generate Vertex**. If you would like to experiment, install the_ _**Generate Vertex Plugin**_ _and repeat the steps above._
+_**Remarque :**_ _ce plug-in détecte également les__ **sommets**, qui peuvent être créés à l’aide d’un autre plug-in appelé_ _**Generate Vertex** (Générer le sommet). Si vous souhaitez faire des essais, installez le_ _**plug-in Generate Vertex**__ (Générer le sommet) et répétez les étapes ci-dessus._

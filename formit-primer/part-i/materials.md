@@ -8,9 +8,9 @@ _Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le 
 
 1 – Pour afficher le plan contenant les cotes que nous allons référencer, accédez à la **palette Calques** et activez le calque **Plan Image** (Image du plan).
 
-2 – Sélectionnez l’outil **Rectangle \(R\)**. Nous allons créer un rectangle directement sur le groupe Floor (Sol) existant. Assurez-vous que vous ne modifiez pas le groupe Floor (Sol), mais que vous dessinez par-dessus l’objet groupé existant.
+2 – Sélectionnez l’outil **Rectangle (R)**. Nous allons créer un rectangle directement sur le groupe Floor (Sol) existant. Assurez-vous que vous ne modifiez pas le groupe Floor (Sol), mais que vous dessinez par-dessus l’objet groupé existant.
 
-![](../../.gitbook/assets/0%20%283%29.png)
+![](<../../.gitbook/assets/0 (3).png>)
 
 3 – Pour commencer le rectangle pour la zone de verre, procédez comme suit :
 
@@ -19,11 +19,11 @@ _Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le 
 3. Pour définir la deuxième arête, commencez à déplacer la souris le long de l’arête la plus longue du sol existant. Saisissez **55 pi-5 ½ po** pour définir la longueur de la deuxième arête, puis cliquez sur **OK**.
 4. Cliquez sur la touche **Échap** pour quitter l’outil Rectangle. Cliquez une fois à l’intérieur du nouveau rectangle pour sélectionner la face et commencez à la faire glisser vers le haut.
 
-![](../../.gitbook/assets/1%20%283%29.png)
+![](<../../.gitbook/assets/1 (3) (1).png>)
 
 4 – Pour définir la hauteur, déplacez la souris vers le haut le long de l’**axe Z**, appuyez sur la touche **Tab** et saisissez **11 pi-2 po**.
 
-![](../../.gitbook/assets/2%20%284%29.png)
+![](<../../.gitbook/assets/2 (4) (1).png>)
 
 _**Remarque :**_ _chaque fois que vous utilisez un outil pour lequel vous pouvez définir une cote, appuyez sur la touche_ _**Tab**_ _ou saisissez directement des nombres._
 
@@ -31,21 +31,21 @@ _**Remarque :**_ _chaque fois que vous utilisez un outil pour lequel vous pouve
 
 6 – Double-cliquez sur le groupe pour le modifier. Dans la **palette Propriétés**, nommez le groupe **Glass Walls (Murs en verre).**
 
-![](../../.gitbook/assets/3%20%283%29.png)
+![](<../../.gitbook/assets/3 (3).png>)
 
 7 – Pour définir l’épaisseur du mur en verre, procédez comme suit :
 
-1. Cliquez avec le bouton droit de la souris sur la face supérieure et choisissez l’outil **Décaler la face \(OF\).**
+1. Cliquez avec le bouton droit de la souris sur la face supérieure et choisissez l’outil **Décaler la face (OF).**
 2. Déplacez le curseur de la souris vers l’intérieur et saisissez **4 po.**
 3. Cliquez deux fois sur **Échap** pour effacer l’outil et la sélection.
 
-![](../../.gitbook/assets/4%20%2817%29.png)
+![](<../../.gitbook/assets/4 (17).png>)
 
-​_**Remarque :**_ _les unités par défaut des projets anglo-saxons sont les pieds, comme dans Revit. Si vous saisissez un seul nombre sans unité spécifiée, par exemple_ _**4**, vous obtenez_ _**4 pieds \(4 pi\)**_ _et non_ _**4 pouces \(4 po\)**._
+​_**Remarque :**_ _les unités par défaut des projets anglo-saxons sont les pieds, comme dans Revit. Si vous saisissez un seul nombre sans unité spécifiée, par exemple_ _**4**, vous obtenez_ _**4 pieds (4 pi)**_ _et non_ _**4 pouces (4 po)**._
 
 8 – Pour creuser la zone intérieure, cliquez une fois sur la face supérieure intérieure pour la sélectionner, puis cliquez à nouveau pour **faire glisser la face**. Déplacez la face vers le bas jusqu’à ce qu’elle disparaisse, puis cliquez dans l’espace pour terminer le processus.
 
-![](../../.gitbook/assets/5%20%2812%29.png)
+![](<../../.gitbook/assets/5 (12).png>)
 
 _**Remarque :**_ _contrairement à d’autres logiciels, FormIt vous empêche de déplacer accidentellement la face à supprimer « trop loin » (entraînant la création d’une extrusion négative)._
 
@@ -53,7 +53,7 @@ _**Remarque :**_ _contrairement à d’autres logiciels, FormIt vous empêche d
 
 10 – Sélectionnez le groupe **Glass Walls** (Murs en verre) en un seul clic et placez-le sur le calque **Main Building Floor** (Sol du bâtiment principal).
 
-![](../../.gitbook/assets/6%20%2813%29.png)
+![](<../../.gitbook/assets/6 (13) (1).png>)
 
 ## **Importation d’un matériau à partir de la bibliothèque de matériaux d’Autodesk**
 
@@ -67,11 +67,11 @@ _**Remarque :**_ _contrairement à d’autres logiciels, FormIt vous empêche d
 4. Recherchez le matériau **Glass – Blue Tint** (Verre – Teinte bleue) et cliquez dessus pour l’ajouter à votre bibliothèque de matériaux **Dans l’esquisse**.
 5. Notez que vous revenez normalement à la bibliothèque **Dans l’esquisse**, qui inclut désormais le matériau nouvellement sélectionné.
 
-![](../../.gitbook/assets/7%20%288%29.png)
+![](<../../.gitbook/assets/7 (8) (1).png>)
 
-![](../../.gitbook/assets/8%20%288%29.png)
+![](<../../.gitbook/assets/8 (8).png>)
 
-3 – Après l’ajout du matériau, vous devez automatiquement vous trouver dans l’outil **Pinceau**. Si ce n’est pas le cas, cliquez simplement une fois sur le matériau **Glass – Blue Tint** (Verre – Teinte bleue). Pour peindre tous les murs, double-cliquez sur la géométrie à l’aide de l’outil **Pinceau**. Le matériau sélectionné est alors appliqué à l’objet entier. ![](../../.gitbook/assets/9%20%281%29.png)​
+3 – Après l’ajout du matériau, vous devez automatiquement vous trouver dans l’outil **Pinceau**. Si ce n’est pas le cas, cliquez simplement une fois sur le matériau **Glass – Blue Tint** (Verre – Teinte bleue). Pour peindre tous les murs, double-cliquez sur la géométrie à l’aide de l’outil **Pinceau**. Le matériau sélectionné est alors appliqué à l’objet entier. ![](<../../.gitbook/assets/9 (1).png>)​
 
 4 – Cliquez sur **Échap** pour quitter l’outil **Pinceau**. Appuyez de nouveau sur la touche **Échap** ou double-cliquez dans l’espace pour quitter le groupe.
 
@@ -81,22 +81,22 @@ _**Remarque :**_ _contrairement à d’autres logiciels, FormIt vous empêche d
 
 1. Sélectionnez le groupe **Floor (Sol)** d’un simple clic.
 2. Cliquez sur l’un des coins inférieurs pour lancer l’outil **Déplacer**.
-3. Commencez à déplacer le sol vers le haut le long de l’axe bleu \(**axe Z**\). Pour créer une **copie rapide**, appuyez sur la touche **Ctrl**. Un aperçu « fantôme » de la copie doit s’afficher​. 
-4. Lorsque vous vous déplacez le long de l’axe bleu \(**axe Z**\), commencez à saisir **12 pi 2 po** et la **boîte de dialogue Cote** s’affiche. Cliquez sur **OK** ou appuyez sur **Entrée** pour finaliser la position.
+3. Commencez à déplacer le sol vers le haut le long de l’axe bleu (**axe Z**). Pour créer une **copie rapide**, appuyez sur la touche **Ctrl**. Un aperçu « fantôme » de la copie doit s’afficher​.
+4. Lorsque vous vous déplacez le long de l’axe bleu (**axe Z**), commencez à saisir **12 pi 2 po**, et la **boîte de dialogue Cote** s’affiche. Cliquez sur **OK** ou appuyez sur **Entrée** pour finaliser la position.
 
-![](../../.gitbook/assets/10%20%281%29.png)
+![](<../../.gitbook/assets/10 (1).png>)
 
-![](../../.gitbook/assets/11%20%281%29.png)
+![](<../../.gitbook/assets/11 (1).png>)
 
 ## **Modification du toit**
 
-1 – Le groupe copié est toujours sélectionné, mais utilisez la commande **Rendre unique \(MU\)** pour le dissocier du groupe Floor (Sol).
+1 – Le groupe copié est toujours sélectionné, mais utilisez la commande **Rendre unique (MU)** pour le dissocier du groupe Floor (Sol).
 
 2 – Double-cliquez sur le groupe pour le modifier. Renommez le groupe **Roof** (Toit) dans la **palette Propriétés**. Pour quitter le groupe, double-cliquez dans l’espace.
 
 3 – Dans la **palette Calques**, créez un **calque** appelé **Roof** (Toit) et ajoutez-y le groupe **Roof** (Toit). Vous pouvez activer ou désactiver le calque pour vérifier que les éléments appropriés se trouvent sur le toit. Reportez-vous au **chapitre 6** pour plus d’informations sur l’utilisation des **calques**.
 
-4 – Accédez à la **palette Matériaux** et importez le matériau **Concrete – Broom Finish – Colorized 1** (Béton – Fini brossé – Coloré 1) à partir du dossier **Concrete+Asphalt** (Béton+Asphalte) dans la bibliothèque **Échantillons de matériaux** **\(Production\)**. Notez qu’en cliquant sur le matériau, la géométrie sélectionnée est automatiquement peinte et le nouveau matériau est ajouté à la bibliothèque de matériaux **Dans l’esquisse**.
+4 – Accédez à la **palette Matériaux** et importez le matériau **Concrete – Broom Finish – Colorized 1** (Béton – Fini brossé – Coloré 1) à partir du dossier **Concrete+Asphalt** (Béton+Asphalte) dans la bibliothèque **Échantillons de matériaux** **(Production)**. Notez qu’en cliquant sur le matériau, la géométrie sélectionnée est automatiquement peinte et le nouveau matériau est ajouté à la bibliothèque de matériaux **Dans l’esquisse**.
 
 ![](../../.gitbook/assets/12.jpeg)
 
@@ -104,21 +104,21 @@ _**Remarque :**_ _peindre un groupe en dehors du_ _**mode de modification de gr
 
 ## **Création de la terrasse inférieure**
 
-1 – En fonction du calque **Plan Image** (Image du plan), créez la terrasse inférieure sous la forme d’un **rectangle \(R\)** de **55 pi 3 po** de long et **22 pi-7 3/4 po** de large, puis extrudez-le de 1 pi. Positionnez le nouveau rectangle à 8 5/8 po du bord sud du bâtiment principal \(profondeur des poteaux que nous allons créer ultérieurement\).
+1 – En fonction du calque **Plan Image** (Image du plan), créez la terrasse inférieure sous la forme d’un **rectangle (R)** de **55 pi 3 po** de long et **22 pi-7 3/4 po** de large, puis extrudez-le de 1 pi. Positionnez le nouveau rectangle à 8 5/8 po du bord sud du bâtiment principal (profondeur des poteaux que nous allons créer ultérieurement).
 
 _**Remarques**:_
 
 * _Reportez-vous aux chapitres précédents pour savoir comment dessiner et extruder des rectangles._
-* _Vous devrez peut-être activer ou désactiver l’option_ _**Accrocher à la grille \(SG\)**_ _pour cliquer sur _l’angle de la terrasse.
+* _Vous devrez peut-être activer ou désactiver l’option_ _**Accrocher à la grille (SG)**_ _pour cliquer sur _l’angle de la terrasse.
 
 2 – Pour finaliser la terrasse inférieure, procédez comme suit :
 
-1. Utilisez l’outil **Grouper \(G\)** pour regrouper la géométrie et nommez-la **Lower Terrace Floor** (Sol de la terrasse inférieure).
+1. **Utilisez l’outil Grouper (G)** pour regrouper la géométrie et nommez-la **Lower Terrace Floor** (Sol de la terrasse inférieure).
 2. **Déplacez** le groupe de **2 pi-2 po** par rapport au plan du sol.
 3. Créez un **calque** appelé **Lower Terrace** (Terrasse inférieure) et ajoutez-y le groupe.
 4. Ajoutez la géométrie **Terrace Level Floor** (Sol de la terrasse inférieure) au groupe.
 
-![](../../.gitbook/assets/13%20%281%29.png)
+![](<../../.gitbook/assets/13 (1).png>)
 
 _**Remarque :**_ _cette image ne représente pas le processus détaillé de création et d’affectation de la géométrie aux groupes, niveaux et calques. Pour plus d’informations sur ces processus, reportez-vous aux chapitres précédents de ce guide._
 
@@ -130,9 +130,8 @@ _**Remarque :**_ _cette image ne représente pas le processus détaillé de cr�
 2. Cliquez sur la mosaïque d’aperçu **Color** (Couleur) pour ouvrir la fenêtre contextuelle **Éditeur de couleurs**.
 3. Définissez le champ **Val** sur **190** pour assombrir la teinte du matériau.
 
-![](../../.gitbook/assets/14%20%282%29.png)
+![](<../../.gitbook/assets/14 (2).png>)
 
 5 – **Peignez** les groupes **Floor** (Sol) et **Lower Terrace Floor** (Sol de la terrasse inférieure) avec le matériau **Travertine** (Travertin) modifié.
 
 ![](../../.gitbook/assets/15.jpeg)
-

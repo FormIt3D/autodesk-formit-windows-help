@@ -6,22 +6,22 @@
 
 Dynamo permet de créer rapidement des systèmes de meneaux de vitrine/mur-rideau dans FormIt. Le système Storefront Curtainwall se trouve dans le répertoire Dynamo Samples du groupe de fonctions Dynamo :
 
-![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
+![](../.gitbook/assets/storefront-curtainwall-button.png)
 
 ## Sélection du vitrage pour le système de meneaux
 
-À partir de FormIt 2021.2, le système Storefront Curtainwall utilise le nouveau [nœud SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), qui vous permet de sélectionner un élément de « vitrage » \(une seule face ou un solide extrudé\) autour duquel vous pouvez générer un système de meneaux.
+À partir de FormIt 2021.2, le système Storefront Curtainwall utilise le nouveau [nœud SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), qui vous permet de sélectionner un élément de « vitrage » (une seule face ou un solide extrudé) autour duquel vous pouvez générer un système de meneaux.
 
-![Plan simple d’une « vitre » avec une ouverture pour les portes en bas.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![Plan simple d’une « vitre » avec une ouverture pour les portes en bas.](../.gitbook/assets/storefron-system-1\_glass-only.png)
 
-Lorsque vous cliquez sur la miniature Storefront Curtainwall \(notez l’icône indiquant qu’une sélection est requise\), FormIt vous invite à sélectionner la géométrie de vitre pour continuer :
+Lorsque vous cliquez sur la miniature Storefront Curtainwall (notez l’icône indiquant qu’une sélection est requise), FormIt vous invite à sélectionner la géométrie de vitre pour continuer :
 
-![](../.gitbook/assets/storefront-curtainwall-prompt.png)
+![](<../.gitbook/assets/storefront-curtainwall-prompt (2).png>)
 
 Tenez compte des remarques et mises en garde suivantes concernant le fonctionnement de la sélection du vitrage :
 
-* Actuellement, seules les surfaces planes sont prises en charge. Si vous sélectionnez une série de surfaces \(par exemple, une surface « incurvée » composée de surfaces planes plus petites\), le script recherche la face plane la plus grande et l’utilise.
-* Si votre vitre est opaque, c’est-à-dire qu’une seule face est très légèrement extrudée afin d’apporter une légère épaisseur, le script recherche la plus grande surface afin de générer les meneaux obtenus sur un côté du solide en verre. 
+* Actuellement, seules les surfaces planes sont prises en charge. Si vous sélectionnez une série de surfaces (par exemple, une surface « incurvée » composée de surfaces planes plus petites), le script recherche la face plane la plus grande et l’utilise.
+* Si votre vitre est opaque, c’est-à-dire qu’une seule face est très légèrement extrudée afin d’apporter une légère épaisseur, le script recherche la plus grande surface afin de générer les meneaux obtenus sur un côté du solide en verre.
 * Vous pouvez esquisser des ouvertures de portes et supprimer la surface obtenue du contour du vitrage. Les meneaux obtenus respectent l’ouverture, laissant ainsi un espace vide pour l’ajout de portes.
 * En raison des limitations de Dynamo, ce script ne fonctionne pas si la géométrie du vitrage comporte des ouvertures au milieu.
 
@@ -35,19 +35,19 @@ Lorsque vous sélectionnez la géométrie d’un graphique Dynamo dans FormIt, c
    * Sélectionnez le groupe obtenu et placez-le dans un autre groupe.
    * Double-cliquez pour ouvrir le premier groupe. Il s’agit du « conteneur » de la vitre et des meneaux obtenus.
    * Cliquez sur la miniature Storefront Curtainwall et utilisez le groupe de vitres comme sélection.
-   * Une fois le script exécuté, vous pouvez quitter le groupe et copier/coller le conteneur selon vos besoins. Vous pouvez modifier toutes les instances \(en ajustant la forme ou les paramètres de la vitre\) sans problème.
+   * Une fois le script exécuté, vous pouvez quitter le groupe et copier/coller le conteneur selon vos besoins. Vous pouvez modifier toutes les instances (en ajustant la forme ou les paramètres de la vitre) sans problème.
 
 ## Options du système de meneaux
 
 Une fois que vous avez sélectionné la vitre et exécuté le script, vous obtenez un résultat dans la zone de dessin FormIt, sous la forme d’un groupe FormIt. Ce groupe est automatiquement sélectionné et le groupe de fonctions Properties affiche les options disponibles.
 
-![](../.gitbook/assets/storefront-curtainwall-parameters.png)
+![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
 
 * **Run** : si vous modifiez la forme de la vitre et souhaitez réexécuter le graphique pour mettre à jour les résultats du meneau, cliquez sur ce bouton.
 * **Edit Embedded Graph** : modifiez le script Dynamo qui génère la géométrie. Ce script est incorporé dans le fichier FormIt et est spécifique de ce groupe.
-* **Select Glass \(Surface or Solid\)** : cliquez sur ce bouton pour mettre à jour la sélection vers un autre élément de vitrage autour duquel générer les meneaux.
+* **Select Glass (Surface or Solid)** : cliquez sur ce bouton pour mettre à jour la sélection vers un autre élément de vitrage autour duquel générer les meneaux.
 
-Le script utilise les valeurs par défaut pour sa première exécution. Vous devez donc les ajuster en fonction de votre cas d’utilisation unique. Toutes les valeurs utilisent les unités FormIt actives.
+Le script utilise les valeurs par défaut pour sa première exécution. Vous devez donc les ajuster en fonction de votre cas d’utilisation unique. Toutes les valeurs utilisent les unités définies par le nœud [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 * **Mullion Width + Depth** : largeur et profondeur de tous les éléments de meneau.
 * **Vertical Mullion Spacing** : distance, au centre, entre chaque meneau vertical.
@@ -69,7 +69,7 @@ Vous recherchez d’autres options de personnalisation ? Plusieurs options avan
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
 * **Randomize Vertical and Horizontal Mullion Layout** : définissez cette option sur True pour espacer les meneaux verticaux ou horizontaux de façon aléatoire.
-* **Min/Max Mullion Spacing \(if random\)** : ajustez ces valeurs pour définir une plage de valeurs d’espacement aléatoire minimum et maximum.
+* **Min/Max Mullion Spacing (if random)** : ajustez ces valeurs pour définir une plage de valeurs d’espacement aléatoire minimal et maximal.
 
 ### Meneaux extérieurs
 
@@ -77,4 +77,3 @@ Vous recherchez d’autres options de personnalisation ? Plusieurs options avan
 
 * **Flip Offset Direction of Border Mullions :** par défaut, le système de meneaux utilise le contour du vitrage et le décale vers l’intérieur afin de créer les meneaux extérieurs. Pour effectuer un décalage vers l’extérieur, définissez cette option sur True. Cette opération augmente la taille globale du système de meneaux en dehors du contour du vitrage en fonction du paramètre Largeur du meneau.
 * **Tolerance Between Selection and Border Mullions** : par défaut, le système de meneaux est généré exactement au niveau du contour du vitrage, ce qui peut entraîner du Z fighting à l’endroit où le cadre de la vitre et les surfaces externes des meneaux extérieurs se rejoignent. Dans la plupart des cas, ceci n’est pas visible, mais si votre cas d’utilisation requiert que les arêtes du système soient visibles et que vous souhaitez éviter le Z fighting, activez cette option et ajustez la valeur de tolérance si nécessaire.
-

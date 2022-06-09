@@ -8,7 +8,6 @@ Vous pouvez utiliser l’outil **Mesurer** pour mesurer la géométrie existante
 2. Sélectionnez deux points pour mesurer la distance qui les sépare.
 3. Sélectionnez une face ou une arête à ajuster, cliquez sur la valeur affichée et ajoutez une nouvelle valeur dans la boîte de dialogue qui s’affiche.
 
-![](../.gitbook/assets/measure%20%281%29.png)  
-![](../.gitbook/assets/measure2.png)  
+![](<../.gitbook/assets/measure (1).png>)\
+![](<../.gitbook/assets/measure2 (1).png>)\
 ![](../.gitbook/assets/measure3.png)
-
