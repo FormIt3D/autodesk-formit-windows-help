@@ -4,7 +4,7 @@
 
 FormIt 2021 이상에서는 Dynamo에서 제공하는 3D 문자 객체를 생성하고 수정할 수 있습니다. Dynamo를 사용하면 편집 작업이 필요할 때 문자를 다시 생성하고 위치를 변경할 필요 없이 문자의 글꼴, 크기 및 기타 특성을 그 자리에서 편집할 수 있습니다.
 
-![](../.gitbook/assets/3d-text.gif)
+![](<../.gitbook/assets/3d-text (1).gif>)
 
 ## 3D 문자 배치
 
@@ -25,7 +25,7 @@ Dynamo를 사용하여 3D 문자를 생성할 때의 장점은 편집이 쉽고 
 
 3D 문자를 처음으로 배치하면 특성 패널이 자동으로 표시됩니다. 그룹을 선택하고 특성으로 직접 전환할 수 있고, 그룹을 두 번 클릭하여 자동으로 특성 패널로 전환할 수도 있습니다.
 
-![](../.gitbook/assets/3d-text-options.png)
+![](<../.gitbook/assets/3d-text-options (2).png>)
 
 ### 문자
 
@@ -51,23 +51,23 @@ Dynamo를 사용하여 3D 문자를 생성할 때의 장점은 편집이 쉽고 
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-문자의 높이(현재 FormIt 단위)입니다.
+문자의 높이입니다. 이 단위는 [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 노드를 기준으로 하며 어떠한 단위도 사용할 수 있습니다.
 
 ### 돌출 깊이
 
-문자의 3D 돌출 크기(현재 FormIt 단위)입니다. 3D 문자는 솔리드로 설계되었으므로, 이 값은 0이 될 수 없지만 0에 매우 가깝게 설정할 수는 있으므로 돌출이 덜 명확합니다.
+[FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 노드에서 설정한 단위로 나타낸 문자의 3D 돌출 양입니다. 3D 문자는 솔리드로 설계되었으므로, 이 값은 0이 될 수 없지만 0에 매우 가깝게 설정할 수는 있으므로 돌출이 덜 명확합니다.
 
 ### 추적
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-추적은 특정 글꼴의 문자 간 기본 간격을 조정하는 데 유용합니다. 현재 FormIt 단위를 사용하며 양수 또는 음수일 수 있습니다. 예를 들어, 피트로 0.25를 지정하면 각 문자 사이에 3인치 간격이 추가됩니다. 반대로 -0.25를 지정하면 모든 문자가 3인치씩 더 가까워집니다.
+추적은 특정 글꼴의 문자 간 기본 간격을 조정하는 데 유용합니다. [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 노드에서 설정한 단위를 사용하며, 양수 또는 음수일 수 있습니다. 예를 들어, 피트로 0.25를 지정하면 각 문자 사이에 3인치 간격이 추가됩니다. 반대로 -0.25를 지정하면 모든 문자가 3인치씩 더 가까워집니다.
 
 ### 여러 줄 간격
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-문자 필드에 여러 줄이 있는 경우 이 값은 각 문자 줄 사이의 공간을 제어합니다. 현재 FormIt 단위를 사용합니다.
+문자 필드에 여러 줄이 있는 경우 이 값은 각 문자 줄 사이의 공간을 제어합니다. [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 노드에서 설정한 단위를 사용합니다.
 
 ### 문자 반전
 
@@ -79,13 +79,13 @@ Dynamo를 사용하여 3D 문자를 생성할 때의 장점은 편집이 쉽고 
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-문자 반전이 참인 경우에만 적용됩니다. 문자가 제거되는 솔리드에 사용할 문자 주위의 경계 크기를 지정합니다. 현재 FormIt 단위를 사용합니다.
+문자 반전이 참인 경우에만 적용됩니다. 문자가 제거되는 솔리드에 사용할 문자 주위의 경계 크기를 지정합니다. [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 노드에서 설정한 단위를 사용합니다.
 
 ### 곡선 면분할 품질
 
 글꼴의 곡선은 3D 문자를 사용하여 선 세그먼트로 변환되므로 이 값은 곡선이 분할된 정도를 제어합니다.
 
-숫자가 작을수록 면이 더 성기게 분할되고\(더 긴 세그먼트\) 숫자가 클수록 면이 더 세밀하게 분할됩니다\(더 짧은 세그먼트\). 이 값은 기본 설정에 포함된 FormIt의 곡선 및 표면 면분할 설정을 재정의합니다.
+숫자가 작을수록 면이 더 성기게 분할되고(더 긴 세그먼트) 숫자가 클수록 면이 더 세밀하게 분할됩니다(더 짧은 세그먼트). 이 값은 기본 설정에 포함된 FormIt의 곡선 및 표면 면분할 설정을 재정의합니다.
 
 ### 실행
 
@@ -103,7 +103,7 @@ Dynamo를 사용하여 3D 문자를 생성할 때의 장점은 편집이 쉽고 
 
 특성 패널에서 "포함된 그래프 편집" 버튼을 클릭하여 Dynamo 그래프 편집기를 시작할 수 있습니다.
 
-![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
+![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
 
 ## 문제 해결
 
@@ -114,8 +114,3 @@ Dynamo를 사용하여 3D 문자를 생성할 때의 장점은 편집이 쉽고 
 3D 문자를 실행하려고 할 때 오류가 발생하거나 문자가 사라지는 경우 "포함된 그래프 편집"을 클릭하여 그래프에 어떤 문제가 발생하고 있는지와 오류가 발생할 수 있는 위치를 확인하는 것이 좋습니다.
 
 일부 글꼴에는 적절한 형상으로 변환되지 않는 알려진 문제가 있습니다. Bahnschrift가 이 예에 해당합니다. 문제가 있는 다른 글꼴을 접하게 되면 [포럼을 통해 알려주십시오](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). 특정 글꼴의 문제를 해결하기 위해 노력하겠습니다.
-
-
-
-
-

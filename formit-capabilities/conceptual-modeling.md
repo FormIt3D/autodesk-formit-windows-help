@@ -15,8 +15,3 @@ FormIt의 솔리드 모델링 커널은 놀라운 시간 절약 워크플로우�
 **또한 스마트 선택 도구를 사용하여 유사한 형상을 빠르게 선택하고 클릭 횟수를 줄일 수 있습니다.**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

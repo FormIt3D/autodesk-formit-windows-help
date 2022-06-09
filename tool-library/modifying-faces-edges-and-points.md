@@ -10,7 +10,7 @@
 4. 클릭한 후 다른 객체로 스냅하여 이 면을 정렬할 수 있습니다.
 5. 이동과 마찬가지로 **임시 치수**를 클릭하거나 값을 입력하여 이동량을 정의할 수 있습니다.
 
-![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 **Delete** 키를 사용하거나 마우스 오른쪽 버튼을 클릭하고 상황에 맞는 메뉴에서 삭제를 호출하여 면을 삭제할 수도 있습니다.
 
@@ -28,6 +28,6 @@
 ## 점 수정
 
 1. 한 정육면체의 모서리 중 하나를 한 번 클릭합니다.
-2. 모서리와 마찬가지로, 축 중 하나를 따라 점을 끌어 모양을 재정의합니다. [다음 비균일 축척](non-uniform-scale.md)
+2. 모서리와 마찬가지로, 축 중 하나를 따라 점을 끌어 모양을 재정의합니다. [다음 비균일 축척](broken-reference)
 
-![](<../.gitbook/assets/modify3 (1) (1).png>)
+![](<../.gitbook/assets/modify3 (1).png>)

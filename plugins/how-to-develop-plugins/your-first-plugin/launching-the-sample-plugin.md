@@ -1,21 +1,19 @@
-# Launching the Sample Plugin
+# 샘플 플러그인 시작
 
-### Running the Sample Plugin
+### 샘플 플러그인 실행
 
-A sample plugin comes loaded with the Plugin Playground. Click the Play button to run a plugin.
+샘플 플러그인은 플러그인 플레이그라운드와 함께 로드됩니다. 재생 버튼을 클릭하여 플러그인을 실행합니다.
 
-![Step 1](https://formit3d.github.io/PluginPlayground/images/step1.png)
+![Step 1](<../../../.gitbook/assets/run a plugin.png>)
 
+이렇게 하면 숫자를 입력해야 하는 3개의 필드와 블록 작성 버튼이 있는 플러그인이 표시됩니다. 계속 진행하면서 제공된 입력 값을 기준으로 큐브를 작성하는 플러그인을 테스트합니다.
 
+### 코드 보기 및 편집
 
-This will display a plugin with 3 numerical inputs and a Create Block button. Go ahead and test the plugin, which will create a cube based on the provided input values.
+이 플러그인의 기반이 되는 코드를 보려면 편집 버튼을 클릭합니다.
 
-### Viewing and Editing Code
+![Step2](<../../../.gitbook/assets/edit a plugin.png>)
 
-If you want to see the code behind this plugin, click the Edit button.
-
-![Step2](https://formit3d.github.io/PluginPlayground/images/step2.png)
-
-This will launch a dialog containing all the main pieces of a FormIt plugin: HTML, JavaScript, and CSS.
+그러면 FormIt 플러그인의 모든 기본 부분(HTML, JavaScript 및 CSS)이 포함된 대화상자가 시작됩니다.
 
 ![](<../../../.gitbook/assets/02-view and edit playground code.gif>)

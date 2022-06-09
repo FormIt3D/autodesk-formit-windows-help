@@ -1,12 +1,5 @@
 # Revit
 
-FormIt은 Revit과 원활하게 호환되도록 설계되었습니다. 기본 사항에 대해 자세히 알아보려면 [**FormIt 입문서 튜토리얼의 이 섹션**]()을 참고하십시오.
+![](<../.gitbook/assets/image (53).png>)
 
-## Revit에서의 데이터 작업
-
-Revit에서 FormIt으로 형상을 보낼 수 있습니다. 이 기능은 빠른 연구 모델을 수행한 다음, 형상을 다시 Revit으로 보내는 데 유용합니다. 아래에 비디오 데모가 나와 있습니다.
-
-## Revit 컨텐츠 작성
-
-FormIt을 사용하여 Revit 패밀리에서 사용할 컨텐츠를 작성할 수 있습니다. 아래에 비디오 데모가 나와 있습니다.
-
+[FormIt 기능 섹션에서 FormIt + Revit을 참고하십시오.](../formit-capabilities/formit-+-revit.md)

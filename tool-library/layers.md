@@ -2,13 +2,13 @@
 
 레이어를 사용하여 FormIt 객체의 가시성을 제어할 수 있습니다.
 
-[FormIt 입문서](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)를 참조하여 레이어의 실제 작동을 확인하십시오.
+[FormIt 입문서](../formit-primer/part-i/control-visibility-with-layers.md)를 따라 수행하면서 레이어가 어떻게 적용되는지 알아보십시오.
 
 ## 레이어 작성 및 이름 지정
 
 레이어 패널에서 "**+**" 아이콘을 클릭하여 레이어를 작성하고 이름을 지정할 수 있습니다.
 
-![](../.gitbook/assets/layer-locking-image.jpg)
+![](<../.gitbook/assets/layer-locking-image (1).jpg>)
 
 이름을 두 번 클릭하여 레이어의 이름을 바꾸거나 왼쪽 상자를 선택 및 선택 취소하여 객체의 가시성을 전환할 수 있습니다. 오른쪽 확인란을 사용하여 레이어를 잠그거나 잠금을 해제합니다. 잠긴 레이어는 계속 표시되지만 선택하거나 편집할 수 없습니다.
 
@@ -25,4 +25,3 @@ FormIt에는 "기본" 또는 "작업 레이어"라는 개념이 없습니다. �
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
 패널에서 레이어를 새 위치로 끌어다 놓아 순서를 변경할 수도 있습니다. 순서를 변경해도 형상 가시성에는 영향을 주지 않습니다. 순서 변경은 패널의 구성 도구일 뿐입니다.
-

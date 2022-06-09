@@ -4,7 +4,4 @@
 
 특성 팔레트를 사용하여 객체 그룹을 편집하고, 레이어에 객체를 지정하고, 객체의 재료를 변경할 수 있습니다.
 
-![](../.gitbook/assets/properties_palette.png)
-
-
-
+![](../.gitbook/assets/properties\_palette.png)

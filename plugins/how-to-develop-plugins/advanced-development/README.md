@@ -1,6 +1,6 @@
-# Advanced Development
+# 고급 개발
 
-In the previous section, we covered the basics of plugin development by[ building a simple plugin](../your-first-plugin/) in the Plugin Playground. This section will review some more advanced modes of development using an external IDE.
+이전 섹션에서는 플러그인 플레이그라운드에서 [간단한 플러그인을 빌드](../your-first-plugin/)하면서 플러그인 개발에 대한 기본 사항을 살펴보았습니다. 이 섹션에서는 외부 IDE를 사용하는 고급 개발 모드에 대해 더욱 자세히 살펴보겠습니다.
 
 ![](../../../.gitbook/assets/c22.PNG)
 

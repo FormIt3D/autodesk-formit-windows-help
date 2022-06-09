@@ -1,34 +1,34 @@
-# Generate String Lights
+# 스트링 조명 생성
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_이 장에서는 FormIt에서 제공되는 플러그인 중 일부를 샘플링하여_ _**Encode Campus Sample Model.axm**을 개선합니다. 아직 다운로드하지 않은 경우_ [_FormIt Primer 2부 데이터세트_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)에서 다운로드할 수 있습니다.
 
-_This neat plugin lets you quickly add hanging lights to your model based on a line or curve._
+_이 깔끔한 플러그인을 사용하면 선 또는 곡선을 기반으로 모델에 매달린 조명을 신속하게 추가할 수 있습니다._
 
-1 - Before adding any new lights, let's check out the intended result using a premade scene in the model.
+1 - 새 조명을 추가하기 전에 모델에서 미리 만든 장면을 사용하여 의도한 결과를 얻었는지 확인해 보겠습니다.
 
-1. To jump to the scene containing existing string lights, open the **Scenes Palette** and double click on the scene named **Eye Level – Short Alley**.
-2. Notice the string lights that came with this model – that is what we are going to recreate, but somewhere else.
-3. In the **Layer Palette**, turn on the **Helper Geometry** layer so you can see the original lines used to generate these string lights.
+1. 기존 스트링 조명이 포함된 장면으로 이동하려면 **장면 팔레트**를 열고 **눈 높이 - 짧은 골목**이라는 장면을 두 번 클릭합니다.
+2. 이 모델에 제공된 스트링 조명이 있는데, 다른 곳에 다시 작성해 보겠습니다.
+3. **레이어 팔레트**에서 **도우미 형상** 레이어를 켜면 스트링 조명을 생성하는 데 사용된 원래 선을 확인할 수 있습니다.
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - Now let’s navigate to the other alley and add some lights. In the **Scenes Palette** open the **Eye Level – Long Alley** scene. Notice that this alley does not yet have any string lights.
+2 - 이제 다른 골목으로 이동하여 조명을 추가하겠습니다. **장면 팔레트**에서 **눈 높이 - 긴 골목** 장면을 엽니다. 이 골목에는 아직 스트링 조명이 없습니다.
 
-3 - To create a new string of lights:
+3 - 새 스트링 조명을 작성하려면 다음을 수행합니다.
 
-1. Open the newly installed **Generate String Lights Palette** by clicking on the string light icon. By default, the icons for new plugins appear at the bottom.
-2. Change the **Number of Fixtures** option to **10**.
-3. Double-click on one of the helper lines to edit the pre-created **String Lights – Long Alley** group. Then single-click on one of the pre-drawn helper lines to select it.
-4. Click the **Generate String Lights** button inside the plugin’s palette, and a new string of lights should appear! Note that each string of lights is created as its own unique group.
+1. 스트링 조명 아이콘을 클릭하여 새로 설치된 **스트링 조명 생성 팔레트**를 엽니다. 기본적으로 새 플러그인에 대한 아이콘이 하단에 나타납니다.
+2. **설비 수** 옵션을 **10**으로 변경합니다.
+3. 도우미 선 중 하나를 두 번 클릭하여 미리 작성한 **스트링 조명 - 긴 골목** 그룹을 편집합니다. 그런 다음 미리 그려진 도우미 선 중 하나를 한 번 클릭하여 선택합니다.
+4. 플러그인 팔레트 내에서 **스트링 조명 생성** 버튼을 클릭하면 새 조명 스트링이 나타납니다. 각 스트링 조명은 고유한 그룹으로 작성됩니다.
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
-_**Note:**_ _It is OK that some of the lines are going through the “Groove Coffee” sign, because the string light plugin creates a catenary curve that will sag realistically below the sign._
+_**주:**_ _스트링 조명 플러그인은 간판 아래로 현실감 있게 늘어진 현수선을 만들기 때문에 일부 선이 'Groove Coffee' 간판을 통과해도 괜찮습니다._
 
-4 - Try creating some more string lights by using the other pre-made helper line and/or creating some of your own helper lines. Play around with the plugin’s settings to get different results.
+4 - 미리 만들어진 다른 도우미 선을 사용하거나 자체 도우미 선 몇 개를 작성하여 스트링 조명을 더 작성해 보십시오. 플러그인의 설정을 이것 저것 적용해 보면서 달라지는 결과를 확인해 보십시오.
 
-5 - To help keep the model organized, when finished we recommend grouping all the helper lines and placing that group on the **Helper Geometry** layer, as well as assigning all string light groups to the **Context – Exterior Lighting** layer. This will prevent the helper lines from showing up in any of the ‘Eye Level’ scenes where we do not want to see them. When finished, the results should look something like the next screenshot.
+5 - 모델을 깔끔하게 정리할 수 있도록 작업을 마치면 모든 도우미 선을 그룹화하고 해당 그룹을 **도우미 형상** 레이어에 배치하는 것이 좋으며, 모든 스트링 조명 그룹은 **컨텍스트 - 실외 조명** 레이어에 할당하는 것이 좋습니다. 이렇게 하면 도우미 선을 표시하고 싶지 않은 모든 '눈 수준' 장면에서 도우미 선이 표시되지 않습니다. 작업이 끝나면 다음 스크린샷과 같은 결과가 나타납니다.
 
 ![](<../../.gitbook/assets/5 (3) (1).png>)
 
-_**Note:**_ _Unlike geometry created from a Dynamo script, which can be updated and regenerated through the_ _**Properties Palette**, objects created by a plugin are (for the most part) just regular FormIt geometry. Once created, they can only be edited using FormIt’s built in modeling tools._
+_**주:**_ ___**특성 팔레트**를 통해 업데이트 및 재생성할 수 있는 Dynamo 스크립트에서 작성된 형상과 달리, 플러그인으로 작성된 객체는 (대부분의 부품에서) 일반적인 FormIt 형상입니다. 작성한 후에는 FormIt에 내장된 모델링 도구를 사용한 경우에만 편집할 수 있습니다._

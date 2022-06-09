@@ -1,16 +1,15 @@
-# Reloading for Local Changes
+# 로컬 변경 사항 다시 로드
 
-While developing a plugin you may need to quickly reload your latest code updates without reloading the whole app. This can be achieved in both web and windows versions of FormIt without reloading the whole app.
+플러그인을 개발하는 동안, 전체 앱을 다시 로드하지 않고 최신 코드 업데이트를 빠르게 다시 로드해야 할 수 있습니다. FormIt의 웹 및 Windows 버전에서는 모두 이와 같은 작업을 전체 앱을 다시 로드하지 않고도 수행할 수 있습니다.
 
-## Web Reloading
+## 웹 다시 로드
 
-💡 **** To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`&#x20;
+?? FormIt 웹에서 플러그인을 다시 로드하려면 플러그인의 HTML을 마우스 오른쪽 버튼으로 클릭하고 `Reload Frame`을 클릭합니다.
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
-## Windows Reloading
+## Windows 다시 로드
 
-💡 **** To reload your plugin in FormIt windows right-click on the plugin's HTML and click on `Hard Reload` &#x20;
+?? Windows용 FormIt에서 플러그인을 다시 로드하려면 플러그인의 HTML을 마우스 오른쪽 버튼으로 클릭하고 `Hard Reload`를 클릭합니다.
 
 ![](../../../.gitbook/assets/d18.png)
-

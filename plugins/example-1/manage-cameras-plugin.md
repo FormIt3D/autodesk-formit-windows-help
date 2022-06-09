@@ -1,43 +1,43 @@
-# Manage Cameras Plugin
+# 카메라 플러그인 관리
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_이 장에서는 FormIt에서 제공되는 플러그인 중 일부를 샘플링하여_ _**Encode Campus Sample Model.axm**을 개선합니다. 아직 다운로드하지 않은 경우 _[_FormIt Primer 2부 데이터세트_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)에서 다운로드할 수 있습니다.
 
-Throughout the primer, we have been using scenes as valuable tools to navigate and control visibility throughout the model. This plugin allows us to see and edit the elevation of our current camera, export cameras for each scene as 3D objects, and copy these scenes between models.
+Primer 전체에서 우리는 장면을 중요한 도구로 사용하여 모형 전체의 가시성을 탐색하고 제어했습니다. 이 플러그인을 사용하면 현재 카메라의 높이를 보고 편집하고, 각 장면의 카메라를 3D 객체로 내보내고, 모델 간에 이러한 장면을 복사할 수 있습니다.
 
-1 - First, we will adjust the **Eye Level – Long Alley** scene so that its camera is actually at eye level:
+1 - 먼저 카메라가 실제로 눈 높이에 있도록 **눈 높이 - 긴 골목** 장면을 조정합니다.
 
-1. If not already there, go back to the **Eye Level – Long Alley** scene by double-clicking on it inside the **Scenes Palette**.
-2. Open the **Manage Cameras Palette** by clicking on the camera with a gear icon.
-3. Change the **Height Above Ground** to **5’-8”**.
+1. 아직 해당 장면이 표시되지 않았다면 **장면 팔레트** 내에서 두 번 클릭하여 **눈 높이 - 긴 골목** 장면으로 돌아갑니다.
+2. 기어가 있는 카메라 아이콘을 클릭하여 **카메라 관리 팔레트**를 엽니다.
+3. **지반으로부터의 높이**를 **5’-8"**로 변경합니다.
 
 ![](<../../.gitbook/assets/6 (6) (1).png>)
 
-_**Note:**_ _If your model has levels, this plugin will also show the height above the nearest level below the_ _**Main Camera**._
+_**주:**_ _모델에 수준이 있는 경우 이 플러그인은_ _**주 카메라** 아래 가장 가까운 수준 위 높이도 표시합니다._
 
-2 - Then:
+2 - 그런 다음 아래 단계를 수행합니다.
 
-1. Go back to the **Scenes Palette**.
-2. Make sure the **Eye Level – Long Alley** scene is still selected (otherwise single-click to select it).
-3. Click on the **Update Scene** button to save the new camera height to this scene.
+1. **장면 팔레트**로 돌아갑니다.
+2. **눈 높이 - 긴 골목** 장면이 선택되어 있는지 확인합니다(선택되지 않은 경우 한 번 클릭하여 선택).
+3. **장면 업데이트** 버튼을 클릭하여 새 카메라 높이를 이 장면에 저장합니다.
 
 ![](<../../.gitbook/assets/7 (1) (1).png>)
 
-_**Note:**_ _You can also adjust the angle and position of a scene’s camera by toggling the_ _**Edit Scene Cameras**_ _button at the top of the_ _**Scenes Palette**_ _(between the update and play buttons)._
+_**주:**_ ___**장면 팔레트**_ _맨 위에서(업데이트 버튼과 재생 버튼 사이에 있는)_ _**장면 카메라 편집**_ _버튼을 전환하여 장면의 카메라 각도와 위치를 조정할 수도 있습니다._
 
-3 - Next let’s export our scenes to a new model. First we have to create camera objects for all scenes using the **Manage Cameras** plugin:
+3 - 이제 장면을 새 모델로 내보내겠습니다. 먼저 **카메라 관리** 플러그인을 사용하여 모든 장면에 대한 카메라 객체를 만들어야 합니다.
 
-1. Open the **Manage Cameras Palette** again.
-2. Make sure the **Copy Cameras to Clipboard** option is checked.
-3. Click on the **Export Scenes to Cameras** button. This may take a few seconds.
-4. If your entire canvas went white, it is because your **Main Camera** was aligned with one of the scene cameras. **Zoom (Z)** out until you can see the 3 main buildings and the newly created camera objects. Note that the camera objects are automatically placed into one large group named **Cameras**. Inside that group, each individual camera is placed in its own group with the same name as the scenes it was created from.
+1. **카메라 관리 팔레트**를 다시 엽니다.
+2. **클립보드에 카메라 복사** 옵션이 선택되어 있는지 확인합니다.
+3. **카메라로 장면 내보내기**￼ 버튼을 클릭합니다. 이 작업은 몇 초 정도 걸릴 수 있습니다.
+4. 전체 캔버스가 흰색으로 표시되는 이유는 **주 카메라**가 장면 카메라 중 하나와 정렬되었기 때문입니다. 주 건물 3개와 새로 작성된 카메라 객체가 표시될 때까지 **줌(Z)** 축소합니다. 카메라 객체는 **카메라**라는 하나의 큰 그룹에 자동으로 배치됩니다. 해당 그룹 내에서 각 개별 카메라는 작성된 장면과 동일한 이름으로 자체 그룹에 배치됩니다.
 
 ![](<../../.gitbook/assets/8 (7) (1).png>)
 
-4 – Let’s copy these scenes to a new model. Since the camera data was saved to the clipboard, there is not much we have to do:
+4 - 이러한 장면을 새 모델로 복사하겠습니다. 카메라 데이터가 클립보드에 저장되었으므로 수행해야 할 작업이 많지 않습니다.
 
-1. **Save** **(Ctrl + S)** your current model, and the close it.
-2. Start a new empty sketch by selecting **New Sketch (Ctrl + N)** from the **File** dropdown in the **Main Menu** bar.
-3. Open the **Manage Cameras** plugin, if its not already open, and make sure the **Look for Cameras on Clipboard** option is checked.
-4. Click on the **Import Scenes from Cameras** button near the bottom of the plugin, and the scenes from our other model will be imported. To check, open the **Scenes Palette** and/or turn on the **Camera** layer. You will see that all the scenes and 3D camera objects have been imported into this model.
+1. 현재 모델을 **저장****(Ctrl+S)**하고 닫습니다.
+2. **주 메뉴** 막대의 **파일** 드롭다운에서 **새 스케치(Ctrl+N)**를 선택하여 비어 있는 새 스케치를 시작합니다.
+3. **카메라 관리** 플러그인이 아직 열려 있지 않은 경우 열고 **클립보드에서 카메라 찾기** 옵션이 선택되어 있는지 확인합니다.
+4. 플러그인 하단 근처의 **카메라에서 장면 가져오기** 버튼을 클릭하면 다른 모델의 장면을 가져옵니다. 확인하려면 **장면 팔레트**를 열고 **카메라** 레이어를 켭니다. 모든 장면 및 3D 카메라 객체를 이 모델로 가져온 것을 확인할 수 있습니다.
 
 ![](<../../.gitbook/assets/9 (7) (1).png>)

@@ -1,15 +1,15 @@
-# Using an IDE
+# IDE 사용
 
-Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+[플러그인 플레이그라운드](../your-first-plugin/plugin-playground.md)를 사용하면 간편하고 편리하게 플러그인을 개발할 수 있습니다. 그러나 외부 IDE(통합 개발 환경)를 사용하여 플러그인을 개발하고자 싶은 사용자도 있을 수 있습니다. IDE를 사용할 경우 얻을 수 있는 이점은 다음과 같습니다.&#x20;
 
-* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
-* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server.
+* 구문 오류 수정, 확장 등을 제공하는 기본 IDE를 사용할 수 있습니다.
+* 동료와 협업하면서 GitHub 리포지토리를 통해 FormIt 플러그인을 개발할 수 있습니다.
+* 개인 플러그인을 개발하여 로컬 서버에서 호스팅할 수 있습니다.
 
-### Install an IDE
+### IDE 설치
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
+FormIt 플러그인 개발에 적합한 무료 IDE는 Microsoft의 [Visual Studio Code](https://code.visualstudio.com/Download)입니다. 링크를 따라 이동하여 설정 파일을 다운로드하고 설치를 완료합니다.
 
-We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
+이 데모에서는 Visual Studio Code를 사용하지만, 기본 코드 편집기를 사용할 수도 있습니다. IDE에 로컬 서버를 실행하기 위한 터미널이 포함되어 있는지 확인합니다.
 
 ![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

@@ -4,13 +4,10 @@ FormIt에서 선형 및 방사형 배열을 모두 작성할 수 있습니다. *
 
 ## 단위
 
-![](../.gitbook/assets/array.png)  
-![](../.gitbook/assets/array_linear2.png)  
-![](../.gitbook/assets/linear_array_3.png)
+![](../.gitbook/assets/array.png)\
+![](../.gitbook/assets/array\_linear2.png)\
+![](../.gitbook/assets/linear\_array\_3.png)
 
 ## 반지름
 
-![](../.gitbook/assets/array_radial1.png)  
-![](../.gitbook/assets/radial_array2.png)  
-![](../.gitbook/assets/radial_array3.png)
-
+![](<../.gitbook/assets/array\_radial1 (1).png>)\![](../.gitbook/assets/radial\_array2.png)\![](../.gitbook/assets/radial\_array3.png)

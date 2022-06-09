@@ -4,17 +4,12 @@
 
 두 개 이상의 객체 면을 선택한 경우 **상황에 맞는** 메뉴에서 **면 평면화** 도구를 선택할 수 있습니다. 바로 가기 "**FL**"을 사용하여 **면 평면화**에 액세스할 수도 있습니다.
 
-![](../.gitbook/assets/flatten_faces.png)
+![](../.gitbook/assets/flatten\_faces.png)
 
-**면 평면화**는 평면형이어야 하는 면이 예기치 않게 깎인면\(부드러운 모서리가 면 사이에 있음\)이 되거나, [SketchUp 모델](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten)과 같은 낮은 정확도 데이터를 가져오거나, 정점이나 모서리를 실수로 이동하여 면이 깎인면 또는 삼각형으로 변하게 될 때 복구 도구로 유용할 수 있습니다.
+**면 평면화**는 평면형이어야 하는 면이 예기치 않게 깎인면(부드러운 모서리가 면 사이에 있음)이 되거나, [SketchUp 모델](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit#flatten)과 같은 낮은 정확도 데이터를 가져오거나, 정점이나 모서리를 실수로 이동하여 면이 깎인면 또는 삼각형으로 변하게 될 때 복구 도구로 유용할 수 있습니다.
 
 **면 평면화**를 모양을 정렬하거나 확장하기 위한 설계 도구로도 사용할 수 있습니다. 이렇게 하려면 먼저 가이드 표면을 선택한 다음, 추가 면을 선택하여 첫 번째 표면의 평면으로 평평하게 만듭니다.
 
 아래 동영상을 통해 **면 편명화**의 강력함과 다재다능함을 확인해 보십시오.
 
 {% embed url="https://www.youtube.com/watch?v=R0bvwv0ruAY" %}
-
-
-
-
-

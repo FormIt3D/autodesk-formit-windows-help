@@ -1,22 +1,22 @@
-# Versioning
+# 버전 관리
 
-As you develop and update your plugin, at some point, you may need to version the code.
+플러그인을 개발하고 업데이트하는 경우 특정 시점에 코드의 버전을 관리해야 할 수 있습니다.
 
-For example, FormIt's APIs may change between releases, and while you may want the new version of your plugin to use new FormIt or WSM APIs, you'd also like to keep the plugin working in older clients.
+예를 들어, FormIt의 API는 릴리스 간에 변경될 수 있으며, 새 버전의 플러그인에서 새 FormIt 또는 WSM API를 사용하도록 하고 싶으면서도 이전 클라이언트에서도 플러그인이 계속 작동하도록 하고 싶을 수 있습니다.
 
-Starting with FormIt **v18.0**, you can implement versioning for your plugin in 3 simple steps:
+FormIt **v18.0**부터, 다음과 같은 간단한 세 단계로 플러그인의 버전 관리를 구현할 수 있습니다.
 
-* Add a _versions.json_ file to the root of your plugin directory
-* Specify each compatible FormIt version, and the directory containing those plugin files, in _versions.json_
-* Use the FormIt internal version number, or "Build Number", found in FormIt under Info > About.
+* 플러그인 디렉토리의 루트에 _versions.json_ 파일을 추가합니다.
+* 호환되는 각 FormIt 버전과 이러한 플러그인 파일이 포함된 디렉토리를 _versions.json_에 지정합니다.
+* FormIt의 정보 > 정보 아래에 있는 FormIt 내부 버전 번호 또는 "빌드 번호"를 사용합니다.
 
 
 
-### How to organize versioning for your plugin
+### 플러그인의 버전 관리를 구성하는 방법
 
-Organize your plugin files and directories to match _versions.json_
+_versions.json_과 일치하도록 플러그인 파일 및 디렉토리를 구성합니다.
 
-Your _versions.json_ should look like this:
+_versions.json_이 다음과 같이 나타나야 합니다.
 
 ```
         [
@@ -35,10 +35,10 @@ Your _versions.json_ should look like this:
                 "path":"v19_0"
             }
         ]
-        
+
 ```
 
-The above paths _v18\_0_ and _v19\_0_ must be valid subpaths from the root of your directory/repository.
+위의 경로 _v18\_0_ 및 _v19\_0_은 디렉토리/리포지토리의 루트에서 유효한 하위 경로여야 합니다.
 
 ![](../../../.gitbook/assets/i1.png)
 
@@ -46,22 +46,22 @@ The above paths _v18\_0_ and _v19\_0_ must be valid subpaths from the root of yo
 
 ![](../../../.gitbook/assets/i3.png)
 
-A great way to handle this is to move your plugin code into subdirectories. Using the above _versions.json_, a directory structure would look like this:
+이를 처리하기 위한 좋은 방법은 플러그인 코드를 하위 디렉토리로 옮기는 것입니다. 위의 _versions.json_을 사용하면 디렉토리 구조가 다음과 같이 나타납니다.
 
-* **versions.json** (file)
-*   **v18\_0** (directory)
+* **versions.json**(파일)
+* **v18\_0**(디렉토리)
 
-    * **manifest.json** (file)
-    * **plugin.html** (file)
-    * **plugin.js** (file)
+   * **manifest.json**(파일)
+   * **plugin.html**(파일)
+   * **plugin.js**(파일)
 
 
-* **v19\_0** (directory)
-  * **manifest.json** (file)
-  * **plugin.html** (file)
-  * **plugin.js** (file)
+* **v19\_0**(디렉토리)
+   * **manifest.json**(파일)
+   * **plugin.html**(파일)
+   * **plugin.js**(파일)
 
-Optional properties on version are "exactVersion" and "lastVersion". "exactVersion" indicates the version has to match FormIt's version exactly. "lastVersion" indicates the last version allowed to run in FormIt.\
+버전의 선택적 특성은 "exactVersion" 및 "lastVersion"입니다. "exactVersion"은 버전이 FormIt 버전과 정확하게 일치해야 함을 나타냅니다. "lastVersion"은 FormIt에서 실행할 수 있는 마지막 버전을 나타냅니다.\
 
 
 ```
@@ -85,10 +85,10 @@ Optional properties on version are "exactVersion" and "lastVersion". "exactVersi
  ]
 ```
 
-It's also possible to use git branches/tags/commits for your paths.
+경로의 git 분기/태그/커밋을 사용할 수도 있습니다.
 
-If you're working with a pre-release or beta build of FormIt, and would like to test changes to a plugin that only works with the pre-release version:
+FormIt의 시험판 또는 베타 빌드로 작업하면서 시험판 버전에서만 작동하는 플러그인에 대한 변경 사항을 테스트하려는 경우:
 
-* Follow the steps above, except using the filename _versions\_prerelease.json_
-* If you commit _versions\_prerelease_ to your repo, you'll want to remove it when that pre-release version of FormIt is released
-  * Otherwise, future pre-release FormIt versions will be loading the plugin from a location that could be stale or intended for an older version
+* 파일 이름 _versions\_prelease.json_을 사용하는 것을 제외하고 위의 단계를 따릅니다.
+* 리포지토리에 _versions\_prelease_를 커밋하는 경우 FormIt의 시험판 버전이 릴리즈될 때 제거하고 싶을 것입니다.
+   * 그렇지 않으면 이후의 시험판 FormIt 버전은 오래되었거나 이전 버전용일 수 있는 위치에서 플러그인을 로드합니다.

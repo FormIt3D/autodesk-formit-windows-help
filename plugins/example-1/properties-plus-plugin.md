@@ -1,42 +1,42 @@
-# Properties Plus Plugin
+# 특성 더하기 플러그인
 
-_This plugin is a more featured version of the standard_ _**Properties Palette**. If you select multiple groups and/or types of geometry, this plugin will provide you with a breakdown of what has been selected, as well as allow for the bulk renaming of groups and group instances._
+_이 플러그인은 표준_ _**특성 팔레트**에 더 많은 기능을 더한 버전입니다. 여러 그룹 및/또는 형상 유형을 선택하는 경우 이 플러그인은 선택한 항목에 대한 세분화 정보를 제공할 뿐만 아니라 그룹 및 그룹 인스턴스(instance)의 대량 이름 바꾸기를 허용합니다._
 
-1 **-** First we will look at the properties of a door group from our main model. Re-open **Encode Campus Sample Model.axm** and go back to the **Eye Level – Long Alley** scene. To start utilizing the **Properties Plus** plugin:
+1 **-** 먼저 주모델에서 문 그룹의 특성을 살펴보겠습니다. **Encode Campus Sample Model.axm**을 다시 열고 **눈 높이 - 긴 골목** 장면으로 돌아갑니다. **특성 더하기** 플러그인을 활용하려면 다음 작업을 수행합니다.
 
-1. Open the **Properties Plus Palette** by clicking on the property with a ‘plus’ symbol icon.
-2. Make sure that **Update on Selection Change** is checked.
-3. Select one of the double glass door groups, named **Door**, on the right side of the alley.
-4. Under the **Selection Count** area, **Total Objects** tells us that we have one (**1**) object selected.
-5. Just below that we can find more information on what types of objects have been selected. In this case, there is one (**1**) group selected, but that group has four (**4**) instances somewhere in the model.
+1. '더하기' 기호 아이콘이 있는 특성을 클릭하여 **특성 더하기 팔레트**를 엽니다.
+2. **선택 변경 시 업데이트**가 선택되어 있는지 확인합니다.
+3. 골목 오른쪽에 있는 **Door**라는 이중 유리 문 그룹 중 하나를 선택합니다.
+4. **선택 항목 수** 영역에서 **총 객체 수**를 보면 객체가 **1**개 선택되었음을 알 수 있습니다.
+5. 바로 아래에서 선택한 객체 유형에 대한 자세한 정보를 확인할 수 있습니다. 이 경우 그룹 **1**개가 선택되었지만 이 그룹은 모델 어딘가에 인스턴스(instance) **4**개를 포함하고 있습니다.
 
 ![](<../../.gitbook/assets/10 (2) (1).png>)
 
-_**Note:**_ _Checking the number of instances of the selected group can be very handy to prevent accidentally changing multiple elements when you actually only wanted to change the selected element, but forgot to make it unique first._
+_**주:**_ _실제로 선택한 요소를 변경하려고 했지만 먼저 해당 요소를 고유한 요소로 만들지 못한 경우, 선택한 그룹의 인스턴스(instance) 수를 확인하는 것은 실수로 여러 요소를 변경하는 것을 방지하는 데 매우 편리할 수 있습니다._
 
-2 - This plugin allows us to edit a group or group instance’s name without having to go into group edit mode, and rename multiple instances at once. As we learned previously, every group has a name, but every instance of that group can also have a unique ‘instance’ name. Since there will most likely be many types of doors in this model, we want to give this group, and some of its instances, more specific names.
+2 - 이 플러그인을 사용하면 그룹 편집 모드로 전환하지 않고도 그룹 또는 그룹 인스턴스(instance) 이름을 편집할 수 있으며, 한 번에 여러 인스턴스(instance)의 이름을 바꿀 수 있습니다. 앞에서 살펴본 것처럼 모든 그룹에는 이름이 있지만 해당 그룹의 모든 '인스턴스'(instance) 이름도 고유할 수 있습니다. 이 모델에는 많은 유형의 문이 있을 가능성이 높으므로 이 그룹과 이 그룹의 일부 인스턴스(instance)에 더 구체적인 이름을 지정하려고 합니다.
 
-1. With the first glass **Door** group still selected, add another **Door** group to your current selection by holding **Shift** or **Ctrl** and single-clicking on the other double glass **Door** group near the first.
-2. Notice that now, the **Properties Plus Palette** has updated its **Selection Count** to show that there are two (**2**) instances selected, but still only one (**1**) unique **Family** (AKA group) selected. (Even though this plugin is using the term **Family**, which should be familiar to Revit users, in this context it means the same thing as a FormIt group.)
-3. Under the **Group Family** area, update the **Name** field to be **Doors – Double Glass Storefront**. This will update the name group’s name for all instances, no matter where they are or whether they are currently selected or not, without having to double-click and edit the group.
-4. Since these two instances are both doors into the Groove Coffee area, lets rename just these two instances by entering **Groove Coffee Door** into the **Name** field under the **Multiple Group Instances** area.
+1. 첫 번째 유리 **문** 그룹을 선택한 상태에서 **Shift** 키 또는 **Ctrl** 키를 누른 채 첫 번째 문 근처에서 다른 이중 유리 **문**을 한 번 클릭하여 다른 **문** 그룹을 현재 선택에 추가합니다.
+2. 이제 **특성 더하기 팔레트**에서 **선택 항목 수**가 업데이트되어 인스턴스(instance) **2**개가 선택되었지만, **패밀리**(즉, 그룹)는 **1**개만 고유하게 선택됩니다. (이 플러그인이 Revit 사용자에게 익숙한 **패밀리**라는 용어를 사용하더라도 이 컨텍스트에서는 FormIt 그룹과 동일한 것을 의미합니다.)
+3. **그룹 패밀리** 영역에서 **이름** 필드를 **문 - 이중 유리 점두**로 업데이트합니다. 이렇게 하면 그룹을 두 번 클릭하고 편집하지 않아도, 모든 인스턴스(instance)의 위치 또는 현재 선택 여부와 관계없이 그룹의 이름이 업데이트됩니다.
+4. 이 두 인스턴스(instance)는 모두 Groove Coffee 영역에 있는 문 두 개이므로 **여러 그룹 인스턴스(Instance)** 영역 아래의 **이름** 필드에 **Groove Coffee Door**를 입력하여 이 두 인스턴스(instance)의 이름만 바꿔 보겠습니다.
 
-**Note:** In the standard **Properties Palette**, there is no way to rename multiple instances of a group at once. This can be extremely handy when you want to rename tens or hundreds of instances with the same name at once.
+**주:** 표준 **특성 팔레트**에서는 그룹의 여러 인스턴스(instance) 이름을 한 번에 바꿀 수 있는 방법이 없습니다. 이 옵션은 한 번에 수십 또는 수백 개의 인스턴스(instance) 이름을 동일한 이름으로 바꾸려는 경우 매우 유용할 수 있습니다.
 
 ![](<../../.gitbook/assets/11 (6) (1).png>)
 
-_**Note:**_ _If you mouse leaves the palette, you will no longer be able to edit the selected textbox. This is true for all palettes, so make sure to keep your cursor within the palette boundary while editing anything inside of a palette._
+_**주:**_ _마우스를 팔레트 밖으로 이동하면 선택한 텍스트 상자를 더 이상 편집할 수 없습니다. 이는 모든 팔레트에 적용되므로 팔레트 내부에서 원하는 항목을 편집할 때 커서가 팔레트 경계를 벗어나지 않도록 하십시오._
 
-3 - Now if you select a Groove Coffee glass door or a different glass door and look at their properties in the regular **Properties Palette**, you will see that the name of the **Group** has been updated for every instance, but only the Groove Coffee doors have their instance **Name** property updated from its default value.
+3 - 이제 Groove Coffee 유리 문 또는 다른 유리 문을 선택하고 일반 **특성 팔레트**에서 해당 특성을 확인하면 **그룹**의 이름이 모든 인스턴스(instance)에 대해 업데이트되었지만 Groove Coffee 문만 인스턴스(instance) **이름** 특성이 기본값에서 업데이트된 것을 확인할 수 있습니다.
 
 ![](<../../.gitbook/assets/12 (3) (1).png>)
 
-4 - Finally, let’s look at how this plugin sorts different types of elements:
+4 - 마지막으로 이 플러그인이 다른 유형의 요소를 어떻게 정렬하는지 살펴보겠습니다.
 
-1. Quickly draw a **Line (L)**, **Rectangle (R)**, and **Cube (Alt + B)** anywhere you would like in the model. These will be temporary, so their precise location is not important.
-2. Re-open the **Properties Plus Palette** if it was closed, and then press **Crtl + A** to select all visible elements in the model.
-3. Look in the **Selection Count** area, and notice that the selected elements are separated into **Edges** (lines), **Faces**, **Bodies**, (3D shapes made of faces and edges, like the cube)**,** **Groups**, and more.
+1. 모델에서 원하는 위치에 **선(L)**, **직사각형(R)** 및 **정육면체(Alt+B)**를 빠르게 그립니다. 이러한 요소는 일시적으로 적용되므로 정확한 위치는 중요하지 않습니다.
+2. **특성 더하기 팔레트**가 닫혀 있는 경우 다시 열고 **Ctrl + A**를 눌러 모델에서 표시되는 모든 요소를 선택합니다.
+3. **선택 항목 수** 영역을 살펴보면 선택한 요소가 **모서리**(선), **면**, **본체**(정육면체처럼 면 및 모서리로 된 3D 모양)**,** **그룹** 등으로 구분되어 있습니다.
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
-_**Note:**_ _This plugin also detects_ _**Vertices**, which can be created using another plugin called_ _**Generate Vertex**. If you would like to experiment, install the_ _**Generate Vertex Plugin**_ _and repeat the steps above._
+_**주:**_ _이 플러그인은_ _**정점**도 탐지하며 정점은_ _**정점 생성**이라는 다른 플러그인을 사용하여 작성할 수 있습니다. 실험해 보려면_ _**정점 생성 플러그인**_ _을 설치하고 위의 단계를 반복하십시오._

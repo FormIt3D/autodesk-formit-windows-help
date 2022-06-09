@@ -13,11 +13,11 @@
 
 * 도구막대의 **위치** 도구에서 또는 키보드 바로 가기 SL을 사용하여 **위치 설정** 대화상자를 시작합니다.
 
-![](../.gitbook/assets/location-toolbar.png)
+![](<../.gitbook/assets/location-toolbar (1).png>)
 
-* 먼저 _위치 설정_ 창의 왼쪽 상단 코너에 있는 검색 상자에 프로젝트 위치를 입력합니다.
+* 먼저 _위치 설정_ 창의 왼쪽 상단 코너에 있는 검색 상자에 프로젝트 위치를 입력합니다.&#x20;
 
-![](../.gitbook/assets/location-step-1%20%281%29.png)
+![](<../.gitbook/assets/location-step-1 (1).png>)
 
 * 자동 채우기 위치 옵션 중 하나를 선택하거나 Enter 키를 눌러 첫 번째 위치 옵션을 선택합니다.
 * 자동으로 검색한 위치로 확대합니다.
@@ -38,7 +38,7 @@
 
 * 사각형 내에서 위성 이미지를 끌어 위치를 조정합니다.
 * 사각형 영역이 원하는 이미지를 캡슐화하면 **가져오기 완료**를 클릭합니다.
-* 이미지가 실제 북쪽이 위를 향하고 FormIt 캔버스 원점의 중심에 오도록 축척되어 가져오기됩니다. 가져온 이미지를 두 번 클릭하고 [**특성 팔레트**](../formit-introduction/tool-bars.md)로 이동하여 투명도 및 Z-순서를 변경할 수 있습니다.
+* 이미지가 실제 북쪽이 위를 향하고 FormIt 캔버스 원점의 중심에 오도록 축척되어 가져오기됩니다. 가져온 이미지를 두 번 클릭하고 [**특성 팔레트**](../formit-introduction/tool-bars.md)로 이동하여 투명도 및 Z-순서를 변경할 수 있습니다.&#x20;
 
 ![](../.gitbook/assets/location-step-3.png)
 
@@ -58,15 +58,15 @@
 
 FormIt 2021.3부터는 **위치 설정** 대화상자를 사용하여 위성 이미지를 가져오면 지형도 가져오기됩니다.
 
-![](../.gitbook/assets/terrain-button_original.png)
+![](../.gitbook/assets/terrain-button\_original.png)
 
 가져온 지형은 기본적으로 꺼져 있는 레이어에 배치됩니다. 모델링을 시작한 경우 모델은 지형에 의해 덮일 수 있습니다.
 
 지형을 볼 준비가 되면 해당 확인란을 선택하여 지형 레이어를 전환합니다.
 
-![](../.gitbook/assets/terrain-layer%20%281%29.png)
+![](<../.gitbook/assets/terrain-layer (1) (1).png>)
 
-![](../.gitbook/assets/terrain_solid.png)
+![](../.gitbook/assets/terrain\_solid.png)
 
 ### 지형 작업
 
@@ -97,3 +97,12 @@ FormIt 2021.3부터는 **위치 설정** 대화상자를 사용하여 위성 이
 
 원래 지형을 참조해야 하거나 솔리드 절단 작업을 실행하기 전에 절단 모양을 변경해야 하는 경우, [레이어](layers.md)를 사용하여 절단 솔리드를 숨기거나 절단이 있거나 없는 지형의 사본을 만들 수 있습니다.
 
+### 위치 설정 대화상자 문제 해결
+
+FormIt에서 위치를 설정하려면 Bing Maps에서 위성 및 지형 데이터를 다운로드하기 위해 인터넷에 연결되어 있어야 합니다.
+
+또한 위치 설정 대화상자는 내부에 있는 FormIt 플러그인이므로, 작동하려면 GitHub에 액세스할 수 있어야 합니다. 위치 설정 대화상자에 문제가 있는 경우 [https://github.io](https://github.io)에 대한 액세스 권한이 있는지 확인합니다.&#x20;
+
+* 웹 브라우저로 이동합니다.
+* [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)으로 이동해 봅니다.
+* 일부 데이터가 표시되지 않으면 네트워크 또는 방화벽으로 인해 GitHub에 액세스할 수 없는 것일 수 있습니다.

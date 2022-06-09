@@ -8,7 +8,4 @@
 2. 두 점을 선택하여 두 점 사이의 거리를 측정합니다.
 3. 조정할 면 또는 모서리를 선택하고 표시된 값을 클릭한 다음, 표시되는 대화상자에서 새 값을 추가합니다.
 
-![](../.gitbook/assets/measure%20%281%29.png)  
-![](../.gitbook/assets/measure2.png)  
-![](../.gitbook/assets/measure3.png)
-
+![](<./.gitbook/assets/measure (1).png>)\![](<./.gitbook/assets/measure2 (1).png>)\![](../.gitbook/assets/measure3.png)

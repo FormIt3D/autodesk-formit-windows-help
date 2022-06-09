@@ -1,12 +1,10 @@
-# How to Develop Plugins
+# 플러그인 개발 방법
 
-For the tinkerers and developers out there, FormIt is a great tool for developing plugins. There are two modes of development you can choose from, depending on your development skills and the complexity of the project you wish to execute.&#x20;
+FormIt은 팅커러 및 개발자가 플러그인을 개발하는 데 사용할 수 있는 유용한 도구입니다. 개발 역량 및 실행하려는 프로젝트의 복잡성에 따라 두 가지 개발 모드 중에서 선택할 수 있습니다.&#x20;
 
-* We recommend that you start with the [Your First Plugin](your-first-plugin/) section. It guides you through creating a simple plugin using the Plugin Playground.&#x20;
-* If you want to develop a more complex project, we recommend following the [Advanced Development](advanced-development/) section.
-* For information on developing other types of plugins, check out the [Additional Development Options](additional-development-options/) section.
-* The [Useful Links](useful-links.md) section provides links to FormIt API websites.
+* [첫 번째 플러그인](your-first-plugin/) 섹션부터 시작하는 것이 좋습니다. 첫 번째 섹션에서는 플러그인 플레이그라운드를 사용하여 간단한 플러그인을 작성하는 과정을 안내합니다.
+* 보다 복잡한 프로젝트를 개발하려면 [고급 개발](advanced-development/) 섹션을 참고하는 것이 좋습니다.
+* 기타 유형의 플러그인 개발에 대한 자세한 내용은 [추가 개발 옵션](additional-development-options/) 섹션을 참고하십시오.
+* 문서 링크에 대해서는 [FormIt API](useful-links.md) 페이지를 참고하십시오.
 
 ![](../../.gitbook/assets/g5.gif)
-
-&#x20;

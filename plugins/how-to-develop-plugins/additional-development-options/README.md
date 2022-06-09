@@ -1,12 +1,12 @@
-# Additional Development Options
+# 추가 개발 옵션
 
-As an advanced developer, you also have some additional development options you may want to try:
+고급 개발자는 다음과 같은 몇 가지 추가 개발 옵션을 사용해 볼 수 있습니다.
 
-* [Creating an HTML Panel Plugin](creating-an-html-panel-plugin.md)
-* [Creating a Combined HTML Panel and Toolbar Plugin](creating-a-combined-html-panel-and-toolbar-plugin.md)
-* [Creating a Toolbar based Plugin](creating-a-toolbar-based-plugin.md)
-* [Testing a Combined HTML Panel and Toolbar Plugin](testing-a-combined-html-panel-and-toolbar-plugin.md)
-* [Creating an Add-In](creating-an-add-in.md)
-* [Invoking Plugins and API from Dynamo](invoking-plugins-and-api-from-dynamo.md)
+* [HTML 패널 플러그인 작성](creating-an-html-panel-plugin.md)
+* [결합된 HTML 패널 및 도구막대 플러그인 작성](creating-a-combined-html-panel-and-toolbar-plugin.md)
+* [도구막대 기반 플러그인 작성](creating-a-toolbar-based-plugin.md)
+* [결합된 HTML 패널 및 도구막대 플러그인 테스트](testing-a-combined-html-panel-and-toolbar-plugin.md)
+* [애드인 작성](creating-an-add-in.md)
+* [Dynamo에서 플러그인 및 API 호출](invoking-plugins-and-api-from-dynamo.md)
 
 ![](../../../.gitbook/assets/c23.PNG)

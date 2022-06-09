@@ -2,11 +2,11 @@
 
 간격띄우기 선 도구를 사용하여 평행선 또는 간격띄우기 선을 그립니다. 이 기능은 나중에 돌출되어 3D 벽처럼 보일 수 있는 2D 모양을 작성하는 데 유용합니다.
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](<../.gitbook/assets/image (3).png>)
 
-**간격띄우기 선** 도구는 다음과 같이 [**선**](https://windows.help.formit.autodesk.com/tool-library/line-tool) 도구처럼 작동합니다.
+**간격띄우기 선** 도구는 다음과 같이 [**선**](https://windows.help.formit.autodesk.com/v/korean/tool-library/line-tool) 도구처럼 작동합니다.
 
-* 클릭하여 첫 번째 점을 설정한 다음, 커서를 이동하고 다음 점을 배치하여 기존 형상으로 스냅하거나 추정 축으로 스냅합니다.
+* 클릭하여 첫 번째 점을 설정한 다음, 커서를 이동하고 다음 점을 배치하여 기존 형상으로 스냅하거나 추정 축으로 스냅합니다.&#x20;
 * 결과 모양의 미리보기가 표시됩니다. 두 번째 및 세 번째 점에 따라 나머지 점이 따를 평면이 결정되므로 결과는 평면이 됩니다.
 * 점을 계속 추가하고 **Esc** 키를 누르거나 두 번 클릭하여 도구를 완료합니다.
 * 자체 교차가 정리되고 병합되어 돌출 가능한 면 하나가 남게 됩니다.
@@ -37,7 +37,7 @@
 
 기본적으로 간격띄우기 선 도구는 평면에 형상을 생성해야 하므로, 처음 몇 개의 점에 따라 나머지 점이 따를 평면이 결정됩니다.
 
-정육면체의 측면에서 그리기를 시작합니다(예: 해당 면의 평면 사용). 동일선상에 있지 않은 세 점이 배치된 후에는 입력 평면이 나머지 입력을 위해 고정됩니다. 면에 그릴 때 결과 모양이 면에 삽입되어 여러 면으로 분할됩니다. 삽입을 방지하려면 그리는 면이 [그룹](https://windows.help.formit.autodesk.com/tool-library/groups)의 일부여야 합니다.
+정육면체의 측면에서 그리기를 시작합니다(예: 해당 면의 평면 사용). 동일선상에 있지 않은 세 점이 배치된 후에는 입력 평면이 나머지 입력을 위해 고정됩니다. 면에 그릴 때 결과 모양이 면에 삽입되어 여러 면으로 분할됩니다. 삽입을 방지하려면 그리는 면이 [그룹](https://windows.help.formit.autodesk.com/v/korean/tool-library/groups)의 일부여야 합니다.
 
 ![수직 면에 그리기](../.gitbook/assets/walls7.png)
 
@@ -45,12 +45,9 @@
 
 간격띄우기 선 도구를 사용하여 평면 도면에서 추적할 수도 있습니다. 평면을 이미지로 가져옵니다.
 
-* 평면의 축척이 적절하도록 이미지 크기를 조정합니다. 이 내용은 [여기](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane)에 자세히 설명되어 있습니다.
+* 평면의 축척이 적절하도록 이미지 크기를 조정합니다. 이 내용은 [여기](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane)에 자세히 설명되어 있습니다.&#x20;
 * [직교 카메라](orthographic-camera.md)를 사용하여 직교 [평면도](orthographic-views.md)에서 추적할 수 있습니다.
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
-
-
-

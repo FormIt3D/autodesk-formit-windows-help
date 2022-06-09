@@ -4,7 +4,7 @@
 
 ## 세 점에 의한 호
 
-![](../.gitbook/assets/arc_three_pts.png)
+![](../.gitbook/assets/arc\_three\_pts.png)
 
 호는 세 점으로 정의되며 X, Y 및 Z축에 그릴 수 있습니다. 첫 번째 점을 정의한 다음, 첫 번째 점에서 두 번째 점까지의 거리를 결정하고 마지막으로 세 번째 점을 선택하여 호의 높이를 지정합니다. 스냅할 수 있는 '반원' 점이 자동으로 제공됩니다. 이 점을 넘어가면 호 선이 처음 두 점을 지나 연장됩니다.
 
@@ -16,9 +16,8 @@
 
 ## 중심에 의한 호
 
-![](../.gitbook/assets/arc-by-center%20%281%29.png)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 호의 중간 점을 선택한 다음 끌어 중심을 선택하고, 다시 끌어 호의 길이를 정의합니다. 값 입력을 시작하여 호의 정확한 각도를 입력하기만 하면 됩니다.
 
-![](../.gitbook/assets/arc_circle_demo.gif)
-
+![](../.gitbook/assets/arc\_circle\_demo.gif)

@@ -3,19 +3,35 @@
 ## 다운로드 및 설치
 
 * 최신 [Windows용 FormIt](https://formit.autodesk.com/page/download)을 다운로드합니다.
-* Autodesk 계정을 사용하여 로그인하거나 [여기에서 무료 Autodesk 계정을 생성](https://accounts.autodesk.com/)합니다.
+* Autodesk 계정을 사용하여 로그인하거나 [여기에서 무료 Autodesk 계정을 생성](https://accounts.autodesk.com)합니다.
 * Revit용 FormIt 애드인은 Revit 2017 이상 버전에 포함되어 있습니다. 또한 [Autodesk 웹 사이트](https://formit.autodesk.com/page/formit-revit)에서 애드인을 다운로드하여 수동으로 설치할 수도 있습니다.
+
+FormIt에 대한 응용프로그램 레벨 설정은 Computer\HKEY\_CURRENT\_USER\SOFTWARE\Autodesk\FormIt 360\\에 있습니다.
 
 ## 권장 시스템 구성
 
 | 요구사항 | 상세 정보 |
-| :--- | :--- |
-| **운영 체제** | Microsoft® Windows® 8, 8.1 또는 10 _주: Parallels Desktop은 OpenGL 드라이버의 성능 저하 및 그래픽 문제로 인해 공식적으로 지원되지 않습니다._ |
-| **CPU** | Intel® Pentium®, Xeon®, i-Series 프로세서 또는 SSE2 기술이 적용된 동급 AMD®. CPU 정격 속도는 가장 높은 것을 권장합니다. |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **운영 체제** | <p>Microsoft® Windows® 8, 8.1, 10, 11</p><p><em>주: Parallels Desktop은 OpenGL 드라이버의 성능 저하 및 그래픽 문제로 인해 공식적으로 지원되지 않습니다.</em></p> |
+| **CPU** | <p>Intel® Pentium®, Xeon®, i-Series 프로세서 또는 SSE2 기술이 적용된 동급 AMD®.</p><p>CPU 정격 속도는 가장 높은 것을 권장합니다.</p> |
 | **메모리** | 최소 4GB RAM, 8GB 이상 권장 |
-| **비디오 카드\(GPU\)** | OpenGL 4.2 및 DirectX 11 이상을 지원하는 개별 NVIDIA 또는 AMD GPU를 사용하는 것이 좋습니다. 전환 가능한 그래픽 카드가 있는 시스템의 경우 제조업체 지침에 따라 FormIt이 항상 전용 GPU를 사용하도록 하십시오. [AMD](https://www.amd.com/ko/support/kb/faq/dh-017) 및 [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1)에 대한 지침을 참고하십시오. 최상의 성능과 신뢰성을 위해 제조업체의 웹 사이트나 Windows 업데이트를 통해 그래픽 카드 드라이버를 최신 상태로 유지해야 합니다. FormIt이 시작될 때 오래된 드라이버 또는 기타 문제로 인해 비디오 카드를 사용할 수 없는 경우 메시지가 표시됩니다. 드라이버를 업데이트한 후 FormIt을 시작할 수 없는 경우 [포럼에 문의](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en)하십시오. |
+| **비디오 카드(GPU)** | <p>OpenGL 3.3을 지원하는 개별 NVIDIA 또는 AMD 비디오 카드가 필요합니다. OpenGL 4.2 지원은 강력하게 권장됩니다.</p><p>전환 가능한 비디오 카드가 있는 시스템의 경우 최대의 성능을 위해 제조업체 지침에 따라 FormIt이 항상 전용 GPU를 사용하도록 하십시오. 지침에 대해서는 <a href="https://www.amd.com/en/support/kb/faq/dh-017">AMD</a> 및 <a href="http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1">NVIDIA</a>를 참고하십시오.</p><p>최상의 성능과 신뢰성을 위해 제조업체의 웹 사이트나 Windows 업데이트를 통해 비디오 카드 드라이버를 최신 상태로 유지해야 합니다.</p><p>FormIt이 시작될 때 오래된 드라이버 또는 기타 문제로 인해 비디오 카드를 사용할 수 없는 경우 메시지가 표시됩니다. 드라이버를 업데이트하고 나서 FormIt이 시작되지 않는 경우 <a href="https://forums.autodesk.com/t5/formit-forum/bd-p/142">포럼을 참고</a>하십시오.</p> |
 | **디스크 공간** | 1GB의 사용 가능한 디스크 공간 |
-| **연결 및 라이센싱** | Windows에서 FormIt Pro를 실행하려면 FormIt Pro 클라우드 서브스크립션이 있는 Autodesk 계정이 필요합니다. FormIt Pro는 [**Autodesk AEC 컬렉션**](https://www.autodesk.co.kr/collections/architecture-engineering-construction/overview)의 일부로 제공됩니다. |
+| **연결 및 라이센싱** | <p>Autodesk 계정에 로그인하려면 FormIt을 처음 시작할 때 인터넷에 연결되어 있어야 합니다.</p><p>FormIt을 시작할 때 플러그인을 로드하는 데도 인터넷 연결이 필요합니다. 시작 시 인터넷 연결이 탐지되지 않으면 응용프로그램이 플러그인 없이 시작됩니다.</p><p>Windows에서 FormIt Pro를 실행하려면 FormIt Pro 클라우드 서브스크립션이 있는 Autodesk 계정이 있어야 합니다. FormIt Pro는 <a href="https://www.autodesk.com/collections/architecture-engineering-construction/overview"><strong>Autodesk AEC 컬렉션</strong></a>의 일부로 제공됩니다.</p> |
+
+## 오프라인 액세스
+
+Windows용 FormIt을 처음 실행할 때 라이센스를 검증할 수 있도록 인터넷에 연결되어 있어야 합니다. 처음 로그인한 후에는 30일 동안 앱을 오프라인으로 사용할 수 있습니다. 30일이 지나면 온라인으로 전환하여 라이센스를 다시 검증해야 합니다.
+
+Windows용 FormIt을 오프라인으로 사용할 경우 다음과 같은 일부 기능을 사용하지 못할 수 있습니다.
+
+* Bing Maps에서 위성 및 지형 데이터를 검색하려면 인터넷 연결이 필요하므로 위치 설정 도구가 작동하지 않습니다.
+   * 그러나 이전 온라인 세션에서 모델에 이미 있는 기존 위성 및 지형은 그대로 유지됩니다.
+* Plugin Manager를 포함한 모든 플러그인이 응용프로그램이 시작될 때마다 GitHub에서 최신 코드를 가져올 때 로드되지 않습니다.
+   * 해결 방법: 온라인 상태에서 모든 플러그인을 로드하고 오프라인 상태에서 FormIt 세션을 실행 중인 상태로 유지하는 경우 이전에 로드된 플러그인은 그대로 유지되고 정상적으로 작동합니다.
+* 샘플 재료는 클라우드 호스트 서버에서 제공되기 때문에 로드되지 않습니다.
+   * 해결 방법: 인터넷에 연결되어 있는 동안 샘플 재료 카테고리 폴더로 이동합니다. 폴더가 다운로드되어 컴퓨터에 저장되므로 나중에 오프라인으로 액세스할 수 있습니다.
+* 컨텐츠 라이브러리를 포함하여 Autodesk Docs에 저장하거나 Autodesk Docs에서 열 수 없습니다.
 
 ## 권장 Windows DPI 설정
 
@@ -27,3 +43,16 @@ Windows용 FormIt은 디스플레이 화면이 Windows에서 125% 이하의 DPI 
 * FormIt에서 사용할 모니터를 나타내는 직사각형을 선택합니다.
 * "배율 및 레이아웃" 섹션에서 "텍스트, 앱 및 기타 항목의 크기" 드롭다운을 열고 125% 이하의 값을 선택합니다.
 
+## 문제 해결
+
+### Windows 10 Pro N 시스템 오류
+
+Windows 10 Pro N 버전 1909 이상에서 FormIt을 실행하는 경우 다음 오류 메시지가 표시될 수 있습니다.
+
+![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
+
+이 오류는 특정 버전의 Windows 10 Pro N의 알려진 문제로 인해 발생합니다. 이 오류를 방지하려면 [Windows N 버전용 미디어 기능 팩 리스트](https://support.microsoft.com/ko-kr/topic/n-버전에-대한-windows-기능-팩-목록-c1c6fffa-d052-8338-7a79-a4bb980a700a)에서 사용 중인 Windows 10 버전에 해당하는 미디어 기능 팩을 다운로드하십시오.
+
+### 로그인할 수 없음
+
+FormIt에서 계정에 로그인하려고 하면 로그인 대화상자가 중단되어 로그인을 진행하지 못할 수 있습니다. 이 경우 네트워크 방화벽에서 \*.autodesk.com을 차단 해제해야 할 수 있습니다. 지원이 필요하면 IT 부서에 문의하십시오.

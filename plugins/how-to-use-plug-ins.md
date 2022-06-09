@@ -1,69 +1,66 @@
-# How to Use Plugins
+# 플러그인 사용 방법
 
 ![](<../.gitbook/assets/g3 (1).gif>)
 
 ## Plugin Manager
 
-The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
+FormIt Plugin Manager는 한 곳에서 플러그인을 검색하고 관리할 수 있는 도구입니다.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+FormIt이 인터넷에 액세스할 수 있는 경우, FormIt을 시작하면 Plugin Manager가 자동으로 로드됩니다.
 
-Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) on the right side of the app:
+앱 오른쪽에 있는 해당 탭 아이콘![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)을 클릭하여 액세스합니다.
 
 ![](../.gitbook/assets/c1.PNG)
 
-## Plugin Categories
+## 플러그인 카테고리
 
-The Plugin Manager organizes plugins into categories to help you find the plugins you're most interested in.
+Plugin Manager는 사용자가 가장 관심 있는 플러그인을 찾을 수 있도록 플러그인이 카테고리로 정리되어 있습니다.
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed Plugins:** Plugins already installed by the user.&#x20;
+**설치된 플러그인:** 사용자가 이미 설치한 플러그인입니다.&#x20;
 
-**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team.\
-GitHub tag:  _formit-plugin-recommended_
+**권장 플러그인:** FormIt 팀에서 FormIt의 핵심 기능을 확장하고 새 워크플로우를 잠금 해제하기 위해 권장하는 플러그인입니다. FormIt 팀의 승인을 받은 후 커뮤니티에서 개발한 플러그인이 여기에 표시됩니다.\GitHub 태그: _formit-plugin-recommended_
 
-**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team. \
-GitHub tag:  _formit-plugin_
+**공용 플러그인:** 커뮤니티에서 빌드한 플러그인입니다. 이 카테고리의 플러그인은 FormIt 팀에서 검토하거나 승인하지 않은 플러그인입니다. \GitHub 태그: _formit-plugin_
 
-**For Developers Plugins**: Plugins built by the community to enable the creation of new FormIt plugins. \
-GitHub tag:  _formit-plugin-developers_
+**개발자 플러그인**: 새 FormIt 플러그인의 생성을 지원하기 위해 커뮤니티에서 빌드한 플러그인입니다. \GitHub 태그: _formit-plugin-developers_
 
-## Add Your Private or Local Plugin
+## 개인 또는 로컬 플러그인 추가
 
-If you're [developing your own plugin](how-to-develop-plugins/), you can add its private URL into the field at the bottom of the panel and click (+):
+[자체 플러그인을 개발](how-to-develop-plugins/)하는 경우 패널 하단의 필드에 개인 URL을 추가하고 (+)를 클릭하면 됩니다.
 
 ![](../.gitbook/assets/d4.PNG)
 
-For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+개인 또는 로컬 플러그인 추가에 대한 자세한 내용은 [Plugin Manager에서 플러그인 미리보기 ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
-## Resetting the Plugin Manager
+## Plugin Manager 재설정
 
-The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins. If you need to reset your Plugin Manager to its defaults, delete the following registry key:
+Plugin Manager는 Windows의 레지스트리 키를 사용하여 설치된 리포지토리 및 플러그인을 저장합니다. Plugin Manager를 기본값으로 재설정해야 하는 경우 다음 레지스트리 키를 삭제합니다.
 
 `Computer\HKEY_CURRENT_USER\Software\Autodesk\FormIt 360\Plugins`
 
-⚠️ Note: This will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+⚠️ 주: 이렇게 하면 사용자가 추가한 모든 리포지토리와 플러그인이 설치제거되어 내장 리포지토리와 플러그인만 포함하도록 Plugin Manager가 재설정됩니다.
 
-## Installing Plugins
+## 플러그인 설치
 
-The [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
+[Plugin Manager](how-to-use-plug-ins.md#plugin-manager)에는 여러 플러그인이 다양한 카테고리로 정리되어 있습니다. 각 플러그인에는 이름, 설명, GitHub 링크 및 설치 토글이 있습니다.&#x20;
 
 ![](../.gitbook/assets/d5.PNG)
 
-To install a plugin, simply turn on the toggle next to the plugin's name.&#x20;
+플러그인을 설치하려면 플러그인 이름 옆에 있는 토글을 켜기만 하면 됩니다.&#x20;
 
 ![](../.gitbook/assets/d6.png)
 
-The icon of the selected plugin will appear in the right panel. Click it to display the plugin's UI.
+선택한 플러그인의 아이콘이 오른쪽 패널에 나타납니다. 이 아이콘을 클릭하여 플러그인의 UI를 표시합니다.
 
 ![](../.gitbook/assets/d7.PNG)
 
-## Using Plugins
+## 플러그인 사용
 
-Each plugin has a unique UI defined by its developer. A plugin usually has a set of instructions on how to use it, a set of parameters (text boxes, sliders, checkboxes, etc.), and one or more buttons to execute it.
+각 플러그인에는 개발자가 정의한 고유한 UI가 있습니다. 일반적으로 플러그인에는 사용 방법에 대한 지침 세트, 매개변수(텍스트 상자, 슬라이더, 확인란 등) 세트 및 실행을 위한 하나 이상의 버튼이 있습니다.
 
-As an example, we'll use one of the simpler examples in the Plugin Manager: Fillet 2D Corners. We first load the plugin from the Recommended section of the Plugin Manager. Then, following the instructions provided by the developer, we set the fillet radius, select a group of faces to fillet, and click the Fillet Corners button.
+Plugin Manager: 2D 코너 모깍기에서 좀 더 단순한 예 중 하나를 사용해 보겠습니다. 먼저 Plugin Manager의 권장 섹션에서 플러그인을 로드합니다. 그런 다음, 개발자가 제공한 지침에 따라 모깎기 반지름을 설정하고 모깎기할 면 그룹을 선택한 다음, 코너 모깎기 버튼을 클릭합니다.
 
 ![](../.gitbook/assets/g4.gif)
 

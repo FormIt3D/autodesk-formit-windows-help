@@ -4,9 +4,8 @@
 
 다음 파일 형식을 가져올 수 있습니다.
 
-* Windows: OBJ, DWG, STL, SAT, SKP
+* Windows: OBJ, DWG, STL, SAT, SKP&#x20;
 * 웹: OBJ, STL
 * iOS: OBJ, STL, SAT
 
 데이터 가져오기 및 컨텐츠 라이브러리 작업에 대한 자세한 내용은 [모델 가져오기](../formit-primer/part-i/import-export-and-content-library.md)를 참고하십시오.
-

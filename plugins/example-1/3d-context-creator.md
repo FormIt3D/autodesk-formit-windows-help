@@ -2,47 +2,47 @@
 
 ![](../../.gitbook/assets/contextcreator1.gif)
 
-## What is it?
+## 정의
 
-3D Context Creator is a very easy-to-use plugin that will help you quickly generate 3d context inside FormIt. This plugin can help you:
+3D Context Creator는 FormIt 내부에서 3D 컨텍스트를 빠르게 생성하는 데 도움이 되는 매우 사용하기 쉬운 플러그인입니다. 이 플러그인은 다음과 같은 작업을 수행하는 데 도움이 될 수 있습니다.
 
-* Visualize your project site with its surrounding context
-* Make informed decisions especially in the early stage of the design process.
-* Is free for all users of FormIt to download.&#x20;
+* 주변 컨텍스트를 사용하여 프로젝트 사이트를 시각화합니다.
+* 특히 설계 프로세스의 초기 단계에서 정보를 토대로 의사 결정을 내립니다.
+* FormIt의 모든 사용자는 무료로 다운로드할 수 있습니다.&#x20;
 
-This plugin retrieves data from [Open Street Map](https://www.openstreetmap.org/about) to help transform it into FormIt geometries. The source code for this plugin is available on [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+이 플러그인은 [Open Street Map](https://www.openstreetmap.org/about)에서 데이터를 검색하여 FormIt 형상으로 변환하는 데 도움을 줍니다. 이 플러그인의 소스 코드는 [Github](https://github.com/matterlab-co/FormIt-Context-Plugin)에서 확인할 수 있습니다.&#x20;
 
-## How to use it
+## 사용 방법
 
-To install it, simply turn on the plugin’s toggle, as you would with any other plugin.
+설치하려면 다른 플러그인과 마찬가지로 플러그인의 토글을 켜면 됩니다.
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
-Once toggled on, the plugin should appear on the right side of the app and be ready to use.
+토글을 켜면 플러그인이 앱 오른쪽에 나타나고 사용할 준비가 됩니다.
 
 ![](../../.gitbook/assets/formitUI.PNG)
 
-Before using the plugin, begin by setting your site location from the main FormIt toolbar.
+플러그인을 사용하기 전에, 먼저 기본 FormIt 도구막대에서 사이트 위치를 설정합니다.
 
 ![](<../../.gitbook/assets/image (76).png>)
 
-Search for your site location, and then click Import Satellite Image and Terrain.
+사이트 위치를 검색한 다음, 위성 이미지 및 지형 가져오기를 클릭합니다.
 
 ![](<../../.gitbook/assets/image (77).png>)
 
-Once the satellite image has been successfully imported into your FormIt project, navigate to the 3D Context Creator plugin.
+위성 이미지를 FormIt 프로젝트로 성공적으로 가져왔으면 3D Context Creator 플러그인으로 이동합니다.
 
-Adjust the square radius slider to expand the distance (in meters) of the context from the location point.
+사각형 반지름 슬라이더를 조정하여 위치 점에서 컨텍스트까지의 거리(미터)를 확장합니다.
 
 ![](../../.gitbook/assets/contextcreator7.png)
 
-Click on the Create button. And that is it!
+작성 버튼을 클릭합니다. 이제 끝났습니다.
 
-Once you are happy with the settings, click the Create button. Depending on the size and complexity of the given radius, it may take a few moments to process the building forms.
+설정이 만족스러우면 작성 버튼을 클릭합니다. 지정된 반지름의 크기 및 복잡성에 따라 건물 형태를 처리하는 데 몇 분 정도 걸릴 수 있습니다.
 
-## **Some examples**
+## **몇 가지 예**
 
-Try to guess what iconic cities are represented in the following contexts:
+다음과 같은 컨텍스트에서 대표적인 도시가 무엇인지 추측해 보십시오.
 
 ![](<../../.gitbook/assets/image (2).png>)
 
