@@ -1,16 +1,16 @@
 # FormIt-Einführung
 
-![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
+![](<../.gitbook/assets/formit intro hero image.png>)
 
 ## Inhalt
 
-\*\*\*\*[**Teil I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*beinhaltet ein einzelnes Arbeitsablauf-Lernprogramm, in dem die grundlegenden Werkzeuge vorgestellt werden, während das berühmte Farnsworth House Schritt für Schritt modelliert wird, damit Sie noch heute mit dem Modellieren beginnen können.
+[**Teil I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) beinhaltet ein einzelnes Arbeitsablauf-Lernprogramm, in dem die grundlegenden Werkzeuge vorgestellt werden, während das berühmte Farnsworth House Schritt für Schritt modelliert wird, damit Sie noch heute mit dem Modellieren beginnen können.
 
 ![](<../.gitbook/assets/farnsworth-house (1).png>)
 
-\*\*\*\* [**Teil II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) behandelt einige erweiterte Werkzeuge, für die ein vormodelliertes, fiktives Architekturprojekt verwendet wird, sodass Sie erweiterte Modellierungsfunktionen, analytische Werkzeuge und Berechnungswerkzeuge ausprobieren können, damit Sie FormIt auf der nächsten Ebene nutzen können.
+[**Teil II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) behandelt einige erweiterte Werkzeuge, für die ein vormodelliertes, fiktives Architekturprojekt verwendet wird, sodass Sie erweiterte Modellierungsfunktionen, analytische Werkzeuge und Berechnungswerkzeuge ausprobieren können, damit Sie FormIt auf der nächsten Ebene nutzen können.
 
-![](../.gitbook/assets/screen1.jpg)
+![](<../.gitbook/assets/screen1 (1).jpg>)
 
 ## Danksagungen
 

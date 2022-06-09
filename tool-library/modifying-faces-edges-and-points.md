@@ -10,7 +10,7 @@ Der interessante Teil der Arbeit beginnt, wenn Sie die platzierten Objekte versc
 4. Nach dem Klicken können Sie andere Objekte fangen, um diese Fläche auszurichten.
 5. Wie beim Verschieben können Sie auch hier auf die **temporäre Bemaßung** klicken oder einfach einen Wert eingeben, um den Betrag der Verschiebung zu definieren.
 
-![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 Sie können eine Fläche auch löschen, indem Sie die **ENTF**-Taste drücken, oder indem Sie mit der rechten Maustaste klicken und im Kontextmenü die Option Löschen aufrufen.
 
@@ -28,6 +28,6 @@ Darüber hinaus können Sie eine Fläche über **Rechtsklick > X-Schaltfläche**
 ## Ändern von Punkten
 
 1. Klicken Sie auf eine der Ecken an einem der Würfel.
-2. Sie können ähnlich wie bei Kanten die Form neu definieren, indem Sie den Punkt entlang einer der Achsen ziehen. [Nächste ungleichmäßige Skalierung](non-uniform-scale.md)
+2. Sie können ähnlich wie bei Kanten die Form neu definieren, indem Sie den Punkt entlang einer der Achsen ziehen. [Nächste ungleichmäßige Skalierung](broken-reference)
 
-![](<../.gitbook/assets/modify3 (1) (1).png>)
+![](<../.gitbook/assets/modify3 (1).png>)

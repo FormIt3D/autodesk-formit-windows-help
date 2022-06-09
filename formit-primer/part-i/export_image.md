@@ -7,16 +7,15 @@ _Sie müssen dieses Kapitel nicht zwingend durcharbeiten. Wenn Sie nicht das ges
 1 – Beim Exportieren eines Bilds werden alle im Ansichtsbereich angezeigten Elemente fast genauso exportiert wie sie in FormIt angezeigt werden. Wir möchten ein Bild der **Schnittszene** exportieren.
 
 1. Zunächst müssen wir die Szene aus der **Szenenpalette** öffnen, indem wir darauf doppelklicken.
-2. Wechseln Sie in der **Hauptmenüleiste** zu **Datei &gt; Exportieren &gt; Lokal \(STRG+E\)**. Das Fenster **Datei exportieren** wird angezeigt.
-3. Führen Sie im neuen Fenster unter **Dateitypoptionen** einen Bildlauf nach unten durch, und wählen Sie **Als Bild** \(letzte Option\) aus. Im Feld Exportoptionen wird nach **Voreinstellung** die Dropdown-Option in **4K UHD** statt **Ansichtsfenster** geändert. Dadurch wird automatisch die Ausgabebildauflösung, **Bemaßung \(px\)**, auf **3840** x **2160** Pixel festgelegt.
+2. Wechseln Sie in der **Hauptmenüleiste** zu **Datei > Exportieren > Lokal (STRG+E)**. Das Fenster **Datei exportieren** wird angezeigt.
+3. Führen Sie im neuen Fenster unter **Dateitypoptionen** einen Bildlauf nach unten durch, und wählen Sie **Als Bild** (letzte Option) aus. Im Feld Exportoptionen wird nach **Voreinstellung** die Dropdown-Option in **4K UHD** statt **Ansichtsfenster** geändert. Dadurch wird automatisch die Ausgabebildauflösung, **Bemaßung (px)**, auf **3840** x **2160** Pixel festgelegt.
 4. Klicken Sie auf **Exportieren**. Das Fenster **Datei angeben, in der gespeichert werden soll...** wird angezeigt.
 5. Navigieren Sie im neuen Fenster zur Auswahl von Speicherort und Name des Bilds, und klicken Sie dann auf **Speichern**.
 
-![](../../.gitbook/assets/0%20%285%29.png)
+![](<../../.gitbook/assets/0 (5).png>)
 
-2 – Wenn Sie Ihre Ergebnisse mit dem bereitgestellten Exportbild vergleichen möchten, wechseln Sie zu **Farnsworth House Data Set &gt; Supporting Files &gt; Images**.
+2 – Wenn Sie Ihre Ergebnisse mit dem bereitgestellten Exportbild vergleichen möchten, wechseln Sie zu **Farnsworth House Data Set > Supporting Files > Images**.
 
-![Beispielexportbild aus dem Farnsworth House-Datensatz](../../.gitbook/assets/1%20%2816%29.png)
+![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
 
 \_\_
-

@@ -1,21 +1,21 @@
-# FormIt Plugin Community
+# FormIt-Plugin-Community
 
 ![](../../.gitbook/assets/C21.PNG)
 
-## Looking for Plugins?
+## Suchen Sie nach Plugins?
 
-If you are looking for some ideas to develop your FormIt plugin, check out some of these examples:
+Wenn Sie nach Ideen zum Entwickeln Ihres FormIt-Plugins suchen, sehen Sie sich einige der folgenden Beispiele an:
 
-* [Community plugins](https://github.com/topics/formit-plugin): Plugins developed by FormIt users and developers.
-* [Plugins recommended by FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): Plugins developed by the community and recommended by FormIt team.
-* [Plugins from FormIt](https://github.com/FormIt3D): Official Plugins developed by FormIt team.
+* [Community-Plugins](https://github.com/topics/formit-plugin): Plugins, die von FormIt-Benutzern und -Entwicklern entwickelt wurden.
+* [Vom FormIt-Team empfohlene Plugins](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): Plugins, die von der Community entwickelt wurden und vom FormIt-Team empfohlen werden.
+* [FormIt-Plugins](https://github.com/FormIt3D): Offizielle Plugins, die vom FormIt-Team entwickelt wurden.
 
-## Want FormIt to feature your plugin?
+## Sie möchten, dass das FormIt-Team Ihr Plugin zur Verfügung stellt?
 
-If you have developed a plugin that would be useful for other FormIt users, we would love to hear more about it, so please let us know, we will review it and consider adding it **formit-plugin-recommended** list or feature it as [examples](./) in our primer.&#x20;
+Wenn Sie ein Plugin entwickelt haben, das für andere FormIt-Benutzer nützlich sein könnte, würden wir uns freuen, mehr darüber zu erfahren. Wir werden es prüfen und dann eventuell zur Liste der **vom FormIT-Team empfohlenen Plugins** hinzufügen oder als [Beispiel](./) in der Einführung verwenden.&#x20;
 
 
 
-### Help from FormIt and the community
+### Hilfe vom FormIt-Team und der Community
 
-Having issues building or running plugins? [Reach out to us!](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
+Sie haben Probleme beim Erstellen oder Ausführen von Plugins? [Nehmen Sie Kontakt mit uns auf!](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=de)

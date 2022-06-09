@@ -4,7 +4,7 @@
 
 In FormIt 2021 und höher können Sie ein Geländer entlang eines Pfads erstellen und die Ergebnisse sofort und direkt anpassen. Railing Along Path (Geländer entlang Pfad) wird von Dynamo unterstützt, d. h., das resultierende Geländer kann einfach konfiguriert werden, um die gewünschten Ergebnisse zu erzielen. Durch erneutes Ausführen der Logik wird die Geometrie direkt aktualisiert.
 
-![](../.gitbook/assets/railing-along-path.gif)
+![](<../.gitbook/assets/railing-along-path (1).gif>)
 
 ## Starten von Railing Along Path (Geländer entlang Pfad)
 
@@ -13,7 +13,7 @@ In FormIt 2021 und höher können Sie ein Geländer entlang eines Pfads erstell
 * Auf der linken Seite des Bildschirms wird eine Eingabeaufforderung zum Auswählen des Pfads für das Geländer angezeigt.
    * Sie sollten nur eine Reihe von fortlaufenden Kanten oder eine Gruppe, die nur eine Reihe von Kanten enthält, auswählen.
    * Wenn Sie den Pfad ausgewählt haben, klicken Sie auf die Schaltfläche Finish (Fertig stellen), oder drücken Sie die EINGABETASTE.
-* In der Gruppe Dynamo wird angezeigt, dass die Änderungen verarbeitet werden. Wenn Sie fertig sind, wird ein in Dynamo generiertes Geländer in einer FormIt-Gruppe angezeigt, das Sie bearbeiten können \(siehe unten\).
+* In der Gruppe Dynamo wird angezeigt, dass die Änderungen verarbeitet werden. Wenn Sie fertig sind, wird ein in Dynamo generiertes Geländer in einer FormIt-Gruppe angezeigt, das Sie bearbeiten können (siehe unten).
 
 ## Erstellen von Iterationen an Ort und Stelle
 
@@ -23,7 +23,7 @@ Wenn Railing Along Path (Geländer entlang Pfad) ausgeführt wird, wird eine neu
 
 Sie können jederzeit zu den Eigenschaften für Railing Along Path (Geländer entlang Pfad) zurückkehren, indem Sie die Gruppe auswählen und zur Gruppe Properties (Eigenschaften) wechseln oder die Gruppe bearbeiten, sodass automatisch Properties (Eigenschaften) angezeigt werden.
 
-![](../.gitbook/assets/railing-along-path-options.png)
+![](<../.gitbook/assets/railing-along-path-options (1).png>)
 
 ### Railing Height (Geländerhöhe)
 
@@ -37,7 +37,7 @@ Der Abstand zwischen den vertikalen Hauptpfosten. Verwendet die aktuellen FormIt
 
 Wenn **True**, werden an jedem Scheitelpunkt des ausgewählten Pfads Pfosten hinzugefügt, und die Berechnung für die nächste Pfostenpositionierung wird an diesem Punkt zurückgesetzt.
 
-Wenn Sie beispielsweise eine Reihe von drei Kanten ausgewählt haben, wird an jedem der beiden inneren Punkte ein Pfosten angezeigt. Dies ist nützlich, wenn die Scheitelpunkte eine Richtungsänderung \(z. B. Treppensteigen oder um die Ecke biegen\) an Stellen angeben, an denen natürlicherweise ein Pfosten auftreten würde.
+Wenn Sie beispielsweise eine Reihe von drei Kanten ausgewählt haben, wird an jedem der beiden inneren Punkte ein Pfosten angezeigt. Dies ist nützlich, wenn die Scheitelpunkte eine Richtungsänderung (z. B. Treppensteigen oder um die Ecke biegen) an Stellen angeben, an denen natürlicherweise ein Pfosten auftreten würde.
 
 Wenn **False**, werden Pfosten nur entlang des Pfads hinzugefügt. Dabei wird an einem Ende begonnen, und die Entfernung entlang des Pfads wird gemessen. Dabei werden Scheitelpunkte entlang des Pfads ignoriert. Dies ist hilfreich, wenn Sie einen Bogen, Spline oder Kreis ausgewählt haben, bei dem die Scheitelpunkte nicht von Bedeutung sind und vom Pfostenabstand ignoriert werden sollen.
 
@@ -49,11 +49,11 @@ In Fällen, in denen der Abstand der Pfosten zu einem verbleibendem Abstand an e
 
 ### Post Width + Depth (Pfostenbreite und -tiefe)
 
-Die Größe \(in der Draufsicht\) der rechteckigen vertikalen Pfostenprofile. Verwendet die aktuellen FormIt-Einheiten.
+Die Größe (in der Draufsicht) der rechteckigen vertikalen Pfostenprofile. Verwendet die aktuellen FormIt-Einheiten.
 
 ### Handrail Width + Height (Handlaufbreite und -höhe)
 
-Die Größe \(in der Schnittansicht\) des rechteckigen Handlaufprofils. Verwendet die aktuellen FormIt-Einheiten.
+Die Größe (in der Schnittansicht) des rechteckigen Handlaufprofils. Verwendet die aktuellen FormIt-Einheiten.
 
 ### Baluster Orientation (Ausrichtung der vertikalen Holmen)
 
@@ -78,4 +78,3 @@ Klicken Sie nach dem Bearbeiten der Optionen auf die Schaltfläche Run (Ausführ
 ### Edit Embedded Graph (Eingebettetes Diagramm bearbeiten)
 
 Wenn Sie auf diese Schaltfläche klicken, wird die Dynamo-Diagramm-Editor-Umgebung geöffnet, in der Sie das zugrunde liegende Dynamo-Diagramm anzeigen und bearbeiten können, um Parameter schneller zu ändern, Live-Aktualisierungen anzuzeigen oder die Logik zu prüfen bzw. anzupassen.
-

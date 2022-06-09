@@ -2,28 +2,29 @@
 
 ## Start
 
-Wenn Sie FormIt starten, befinden Sie sich in einer 3D-Umgebung. Nehmen Sie sich etwas Zeit, um zu lernen, wie Sie [im 3D-Raum navigieren](navigating-the-scene.md). Beginnen Sie dann mit dem Erstellen eines Projekts \([hier erfahren Sie, wie das geht](../formit-primer/)\), verwenden Sie das Menü Datei, um ein vorhandenes FormIt-Projekt zu öffnen, oder importieren Sie eine Reihe anderer Dateitypen.
+Wenn Sie FormIt starten, befinden Sie sich in einer 3D-Umgebung. Nehmen Sie sich etwas Zeit, um zu lernen, wie Sie [im 3D-Raum navigieren](navigating-the-scene.md). Beginnen Sie dann mit dem Erstellen eines Projekts ([hier erfahren Sie, wie das geht](../formit-primer/)), verwenden Sie das Menü Datei, um ein vorhandenes FormIt-Projekt zu öffnen, oder importieren Sie eine Reihe anderer Dateitypen.
 
-FormIt ermöglicht das Öffnen, Speichern und Exportieren von Dateien sowohl lokal als auch in BIM 360 Docs. [Die Verwendung von BIM 360 Docs in FormIt](https://formit.autodesk.com/page/formit-bim-360-docs) ist eine hervorragende Möglichkeit für die gemeinsame Nutzung von Modellen in der Cloud.
+FormIt ermöglicht das Öffnen, Speichern und Exportieren von Dateien sowohl lokal als auch in Autodesk Docs. [Die Verwendung von Autodesk Docs in FormIt](https://formit.autodesk.com/page/formit-autodesk-docs/) ist eine hervorragende Möglichkeit für die gemeinsame Nutzung von Modellen in der Cloud.
 
-Apropos Speichern: FormIt [speichert Ihre Arbeit automatisch](../tool-library/autosave.md), sobald Sie Änderungen am Modell vornehmen. Es wird weiterhin empfohlen, häufig zu speichern, da dadurch die Sicherungsdatei bereinigt und Speicherplatz gespart wird.
+Zusätzlich zur Verwendung des Menüs Datei können Sie jedes importierbare 3D-Modell in FormIt öffnen, indem Sie die Datei in den Ansichtsbereich ziehen und dort ablegen. Um eine Datei in die aktuelle Skizze zu importieren, halten Sie die STRG-Taste beim Ziehen und Ablegen gedrückt.
+
+FormIt [speichert Ihre Arbeit automatisch](../tool-library/autosave.md), sobald Sie Änderungen am Modell vornehmen. Es wird weiterhin empfohlen, häufig zu speichern, da dadurch die Sicherungsdatei bereinigt und Speicherplatz gespart wird.
 
 ## App-Einstellungen
 
 * Einheiten:
 
-   ![](../.gitbook/assets/formit_units.png)
+   ![](../.gitbook/assets/formit\_units.png)
 
    * Diese Einstellung wirkt sich auf die Einheiten in allen Werkzeugen und in importierter Geometrie aus, z. B. Dynamo und Dateitypen ohne Einheiten wie STL.
-
 * Rasterfang:
    * Erzwingt, dass Werkzeuge mit Platzierungspunkten an Rasterschnittpunkten gefangen werden. Beachten Sie, dass Sie das Raster unter [Visuelle Stile](../formit-primer/part-i/visual-settings.md) deaktivieren können. Wenn das Raster deaktiviert ist, wird auch der Objektfang deaktiviert.
 * Bearbeitbare Bemaßungen anzeigen:
-   * Wählen Sie, ob die Bemaßungsfelder sichtbar bleiben sollen \(es wird empfohlen, diese Option aktiviert zu lassen, wenn Sie mit großer Genauigkeit zeichnen möchten\).
+   * Wählen Sie, ob die Bemaßungsfelder sichtbar bleiben sollen (es wird empfohlen, diese Option aktiviert zu lassen, wenn Sie mit großer Genauigkeit zeichnen möchten).
 * Kontext ausblenden/Nur bearbeitete Gruppe anzeigen:
-   * Dies wirkt sich darauf aus, ob beim Bearbeiten einer Gruppe die Umgebung angezeigt wird oder nicht. Sie können diese Einstellung einfach über den Kurzbefehl \(H\) ändern. Wenn Sie beim Modellieren in und außerhalb von Gruppen den Befehl H umschalten, können Sie Gruppen nach Bedarf isoliert und im Kontext anzeigen.
+   * Dies wirkt sich darauf aus, ob beim Bearbeiten einer Gruppe die Umgebung angezeigt wird oder nicht. Sie können diese Einstellung einfach über den Kurzbefehl (H) ändern. Wenn Sie beim Modellieren in und außerhalb von Gruppen den Befehl H umschalten, können Sie Gruppen nach Bedarf isoliert und im Kontext anzeigen.
 * Vorauswahl-Hervorhebung:
-   * Vorgabemäßig werden Objekte von FormIt vorausgewählt, wenn Sie den Cursor darüber bewegen. Dies ist nützlich, um sicherzustellen, dass Sie wirklich das Objekt auswählen, das Sie auswählen möchten. Es kann jedoch bei der Präsentation eines Entwurfs störend wirken. Verwenden Sie diese Option oder den Tastaturbefehl, um bei Bedarf schnell zwischen dem Ein- und Ausblenden der Vorauswahl-Hervorhebung zu wechseln. Beachten Sie, dass diese Option aktiviert werden muss, um Funktionen wie die [intelligente Auswahl](https://www.youtube.com/watch?v=akLeB1FADt4) verwenden zu können.
+   * Vorgabemäßig werden Objekte von FormIt vorausgewählt, wenn Sie den Cursor darüber bewegen. Dies ist nützlich, um sicherzustellen, dass Sie wirklich das Objekt auswählen, das Sie auswählen möchten. Es kann jedoch bei der Präsentation eines Entwurfs störend wirken. Verwenden Sie diese Option oder den Tastaturbefehl, um bei Bedarf schnell zwischen dem Ein- und Ausblenden der Vorauswahl-Hervorhebung zu wechseln. Beachten Sie, dass diese Option aktiviert werden muss, um Funktionen wie die [intelligente Auswahl](https://www.youtube.com/watch?v=akLeB1FADt4) verwenden zu können.&#x20;
 
 ## Berührungsmodus
 
@@ -38,4 +39,3 @@ Wenn der Berührungsmodus aktiviert ist, wird dieser im Werkzeugkasten hervorgeh
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 
 ![](../.gitbook/assets/20190618-touch-mode-banner.png)
-

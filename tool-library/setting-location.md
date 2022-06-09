@@ -13,11 +13,11 @@ Sie müssen sich mit Ihrem Konto bei Autodesk Account anmelden, um auf das Dialo
 
 * Öffnen Sie das Dialogfeld **Standort festlegen** über das Werkzeug **Standort** im Werkzeugkasten oder über den Tastaturbefehl SL.
 
-![](../.gitbook/assets/location-toolbar.png)
+![](<../.gitbook/assets/location-toolbar (1).png>)
 
-* Beginnen Sie, indem Sie den Standort des Projekts in das Suchfeld in der oberen linken Ecke des Fensters _Standort festlegen_ eingeben.
+* Beginnen Sie, indem Sie den Standort des Projekts in das Suchfeld in der oberen linken Ecke des Fensters _Standort festlegen_ eingeben.&#x20;
 
-![](../.gitbook/assets/location-step-1%20%281%29.png)
+![](<../.gitbook/assets/location-step-1 (1).png>)
 
 * Wählen Sie eine der Optionen für die automatische Angabe der Standortdaten, oder drücken Sie die EINGABETASTE, um die erste Option zu wählen.
 * Der gesuchte Standort wird automatisch vergrößert.
@@ -38,7 +38,7 @@ Nachdem Sie nach einem Standort gesucht haben, können Sie eine von zwei Optione
 
 * Ziehen Sie die Satellitenbilder innerhalb des Quadrats, um ihre Position anzupassen.
 * Wenn sich die gewünschten Bilder innerhalb der quadratischen Fläche befinden, klicken Sie auf **Import beenden**.
-* Das Bild wird maßstabsgetreu mit dem geografischen Norden nach oben und zentriert am Ursprung des FormIt-Ansichtsbereichs importiert. Sie können die Transparenz und Z-Reihenfolge des importierten Bildes ändern, indem Sie darauf doppelklicken und die [**Eigenschaftenpalette**](../formit-introduction/tool-bars.md) verwenden.
+* Das Bild wird maßstabsgetreu mit dem geografischen Norden nach oben und zentriert am Ursprung des FormIt-Ansichtsbereichs importiert. Sie können die Transparenz und Z-Reihenfolge des importierten Bildes ändern, indem Sie darauf doppelklicken und die [**Eigenschaftenpalette**](../formit-introduction/tool-bars.md) verwenden.&#x20;
 
 ![](../.gitbook/assets/location-step-3.png)
 
@@ -50,7 +50,7 @@ Nachdem Sie Satellitenbilder erstmalig importiert haben, können Sie im Fenster 
 * Klicken Sie auf **Satellitenbilder und Gelände importieren**
 * Sie sehen den aktuellen Zoomfaktor und die Grenzen des Satellitenbilds, wie im FormIt-Ansichtsbereich dargestellt.
 * Passen Sie einfach die Position an, oder zoomen Sie, und klicken Sie wie zuvor auf **Import beenden**.
-* Wenn das Bild wieder in den Ansichtsbereich importiert wird, wird es an die richtige Position relativ zur ursprünglichen Bildposition verschoben \(und ist möglicherweise nicht mehr am Ursprung zentriert\):
+* Wenn das Bild wieder in den Ansichtsbereich importiert wird, wird es an die richtige Position relativ zur ursprünglichen Bildposition verschoben (und ist möglicherweise nicht mehr am Ursprung zentriert):
 
 ![](../.gitbook/assets/location-step-4.png)
 
@@ -58,15 +58,15 @@ Nachdem Sie Satellitenbilder erstmalig importiert haben, können Sie im Fenster 
 
 Neu in FormIt 2021.3 ist, dass Sie auch Geländedaten erhalten, wenn Sie das Dialogfeld **Standort festlegen** verwenden, um Satellitenbilder zu importieren.
 
-![](../.gitbook/assets/terrain-button_original.png)
+![](../.gitbook/assets/terrain-button\_original.png)
 
-Wenn Geländedaten importiert werden, werden diese auf einem Layer platziert, der vorgabemäßig deaktiviert ist \(falls Sie schon mit dem Modellieren begonnen haben, wird Ihr Modell möglicherweise vom Gelände überdeckt\).
+Wenn Geländedaten importiert werden, werden diese auf einem Layer platziert, der vorgabemäßig deaktiviert ist (falls Sie schon mit dem Modellieren begonnen haben, wird Ihr Modell möglicherweise vom Gelände überdeckt).
 
 Wenn Sie bereit sind, das Gelände anzuzeigen, aktivieren Sie das Kontrollkästchen, um den Gelände-Layer anzuzeigen:
 
-![](../.gitbook/assets/terrain-layer%20%281%29.png)
+![](<../.gitbook/assets/terrain-layer (1) (1).png>)
 
-![](../.gitbook/assets/terrain_solid.png)
+![](../.gitbook/assets/terrain\_solid.png)
 
 ### Arbeiten mit Geländedaten
 
@@ -97,3 +97,12 @@ Das Ergebnis ist das Gelände, aus dem der Schnittvolumenkörper entfernt wurde,
 
 Sie können [Layer](layers.md) verwenden, um den Schnittvolumenkörper auszublenden oder sogar Kopien des Geländes mit und ohne Schnitt zu erstellen, falls Sie das ursprüngliche Gelände referenzieren müssen, oder Sie können die Schnittform ändern, bevor Sie den Volumenkörperschnitt ausführen.
 
+### Fehlerbehebung im Dialogfeld Standort festlegen
+
+Zum Festlegen eines Standorts in FormIt ist eine Internetverbindung erforderlich, um Satelliten- und Geländedaten von Bing Maps herunterzuladen.
+
+Da das Dialogfeld Standort festlegen ein FormIt-Plugin ist, muss es außerdem auf GitHub zugreifen können, um zu funktionieren. Wenn Sie Probleme mit dem Dialogfeld Standort festlegen haben, stellen Sie sicher, dass Sie auf [https://github.io](https://github.io) zugreifen können:&#x20;
+
+* Wechseln Sie zu Ihrem Webbrowser.
+* Navigieren Sie zu [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json).
+* Wenn keine Daten angezeigt werden, blockiert Ihr Netzwerk oder Ihre Firewall möglicherweise den Zugriff auf GitHub.

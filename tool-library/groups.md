@@ -6,7 +6,7 @@ Gruppen können auf zwei Arten erstellt und bearbeitet werden: Entweder über da
 
 ## Gruppeninteraktionen
 
-Um eine **Gruppe zu erstellen**, wählen Sie die Elemente aus, die Sie gruppieren möchten – dies kann Kanten, Flächen, Volumenkörper oder andere Gruppen umfassen – und klicken Sie mit der rechten Maustaste. Wählen Sie das Werkzeug **Gruppe \(G\)** aus dem Kontextmenü. Importierte Bilder und Satellitenbilder können nicht gruppiert werden.
+Um eine **Gruppe zu erstellen**, wählen Sie die Elemente aus, die Sie gruppieren möchten – dies kann Kanten, Flächen, Volumenkörper oder andere Gruppen umfassen – und klicken Sie mit der rechten Maustaste. Wählen Sie das Werkzeug **Gruppe (G)** aus dem Kontextmenü. Importierte Bilder und Satellitenbilder können nicht gruppiert werden.
 
 Um eine **Gruppe auszuwählen**, klicken Sie auf diese. Beachten Sie die gestrichelten Linien, die angezeigt werden, wenn Sie eine Gruppe auswählen. Diese Linien geben die Gesamtgröße der Gruppe an.
 
@@ -55,4 +55,3 @@ Sie können die **Kategorien** für Gruppen in FormIt so festlegen, dass Ihre Fo
 Sie können auch die Gruppe **Eigenschaften** verwenden, um einen Namen für Ihre FormIt-Gruppe anzugeben. Dies kann beim Navigieren in Ihrem eigenen Modell hilfreich sein. Wenn Sie Ihr Modell in Revit importieren, können Sie Elemente mithilfe des Namens der Gruppe leicht filtern.
 
 Beachten Sie, dass **verschachtelte Gruppen in FormIt nicht als verschachtelte Gruppen in Revit importiert werden**. Dadurch werden stark verschachtelte Revit-Familien verhindert.
-

@@ -10,13 +10,13 @@ Visuelle Stile [können pro Szene festgelegt werden](https://windows.help.formit
 
 Verwalten Sie, wie Flächen angezeigt und schattiert werden.
 
-![](../.gitbook/assets/visual_styles%20%281%29.png)
+![](<../.gitbook/assets/visual\_styles (1).png>)
 
 Die Option **Umgebungshelligkeit** steuert die Gesamthelligkeit aller Materialien in der Szene. Ein Wert von 100 bedeutet, dass den Lichtstrahlen ausgesetzte Materialien mit ihrer vollen Helligkeit angezeigt werden, wie in der Farbe oder Textur des Materials definiert. Bei Werten über 100 würden die Materialien überbelichtet, könnten aber für SketchUp-Modelle nützlich sein, die in FormIt immer noch dunkel aussehen. Der Vorgabewert ist 100.
 
-Die Option **Umgebungskontrast** steuert, wie viel dunkler Flächen im Schatten im Vergleich zu Flächen, die direktem Sonnenlicht ausgesetzt sind, angezeigt werden. Der Wert 0 bedeutet, dass die Beleuchtung keine Auswirkung hat \(alle Materialien werden unabhängig von der Ausrichtung mit voller Helligkeit angezeigt\), während bei höheren Werten Flächen im Schatten immer dunkler erscheinen. Der Standardwert ist 25.
+Die Option **Umgebungskontrast** steuert, wie viel dunkler Flächen im Schatten im Vergleich zu Flächen, die direktem Sonnenlicht ausgesetzt sind, angezeigt werden. Der Wert 0 bedeutet, dass die Beleuchtung keine Auswirkung hat (alle Materialien werden unabhängig von der Ausrichtung mit voller Helligkeit angezeigt), während bei höheren Werten Flächen im Schatten immer dunkler erscheinen. Der Standardwert ist 25.
 
-Aktivieren Sie die Option **Schatten**, um zu sehen, wie Ihr Entwurf [zur aktuellen Tageszeit beschattet wird](https://windows.help.formit.autodesk.com/tool-library/shadows).
+Aktivieren Sie die Option **Schatten**, um zu sehen, wie Ihr Entwurf [zur aktuellen Tageszeit beschattet wird](https://windows.help.formit.autodesk.com/v/german/tool-library/shadows).
 
 Die Option **Schattenintensität** steuert, wie dunkel Schatten auf der Grundplatte und anderen Flächen gezeichnet werden. Bei einem Wert von 0 werden Schatten effektiv unsichtbar, und bei einem Wert von 100 werden Schatten schwarz. Der Vorgabewert ist 20.
 
@@ -26,25 +26,17 @@ Die Option **Monotone Oberflächen** deaktiviert die Farbe und Textur aller Mate
 
 Im Abschnitt Oberflächenfarben werden Vorgabefarben für Flächen definiert, wenn kein Material angewendet wird.
 
-**Flächen** ist die Vorgabefarbe aller nach vorne weisenden FormIt-Flächen \(oder beider Seiten, wenn Rückseiten deaktiviert ist\), wenn kein Material angewendet wird.
+**Flächen** ist die Vorgabefarbe aller nach vorne weisenden FormIt-Flächen (oder beider Seiten, wenn Rückseiten deaktiviert ist), wenn kein Material angewendet wird.
 
 **Rückseiten** wird verwendet, um verschiedene Materialien auf beiden Seiten einer einzelnen Fläche für SketchUp-Modelle anzuzeigen, die in FormIt importiert werden und dies erfordern. Diese Option ist vorgabemäßig deaktiviert, wird aber aktiviert, wenn SketchUp-Modelle geöffnet oder importiert werden. In Nicht-SketchUp-Geometrie wird die angegebene Farbe für die Rückseite an den Rückseiten von Flächen angezeigt.
 
 Verwenden Sie die Optionen Schnitt – Schnitteffekte und Schnitt – Schnittmaterialeffekte, um die Vorgabefarben von Flächen, Linien und den Schnittmaterialeffekt zu verwalten, wenn das Werkzeug [Schnittebene](section-planes.md) verwendet wird.
 
-## Grundplatten
-
-Wenn die Grundplatte im Gruppenbearbeitungsmodus deaktiviert ist, ist das blaue Arbeitsebenenraster jetzt ebenfalls deaktiviert.
-
-Die Farbe der Arbeitsebene kann auch über die Gruppe Visuelle Stile angepasst werden.
-
-![](../.gitbook/assets/screen-shot-2020-03-30-at-1.30.16-pm.png)
-
-## Kanten
+### Kanten
 
 Verwalten Sie den Anzeigestil aller Kanten im Modell.
 
-![](../.gitbook/assets/edges.PNG)
+![](../.gitbook/assets/edges.png)
 
 Der **Kontrast** wirkt sich auf die Sichtbarkeit aller Kanten aus. Bei einem Wert von 0 werden die Kanten praktisch unsichtbar. Der Vorgabewert lautet 60.
 
@@ -62,17 +54,17 @@ Mit **Skizzenartige Kanten** wird allen Kanten ein skizzenartiger Effekt hinzuge
 
 Blenden Sie Umgebungseffekte und Hilfsobjekte ein und aus.
 
-![](../.gitbook/assets/environment.PNG)
+![](../.gitbook/assets/visual-styles1.PNG)
 
 **Raster** steuert die Anzeige des Rasters auf der Grundplatte sowie das Raster, das beim Bearbeiten einer Gruppe angezeigt wird. Die Option Rasterfang wird deaktiviert, wenn das Raster deaktiviert ist.
 
 Die Option **Achsen** steuert die Anzeige der XYZ-Achsen, die beim Weltursprung oder beim Gruppenursprung angezeigt werden, wenn eine Gruppe bearbeitet wird.
 
-Die Option **Ebenen** steuert die Anzeige der [**Ebenen**](levels-and-area.md)****, die in der Gruppe Ebenen festgelegt wurden.
+Die Option **Ebenen** steuert die Anzeige der [**Ebenen**](levels-and-area.md), die in der Gruppe Ebenen festgelegt wurden.
 
-**Nebel** steuert die Anzeige von Nebel, der gezeichnet wird, damit der Übergang zwischen der Grundplatte und dem Himmel nahtlos aussieht. Wenn Sie Nebel deaktivieren, erhalten Sie eine scharfe Horizontlinie, an der die Grundplatte \(falls aktiviert\) an den Himmel grenzt.
+**Nebel** steuert die Anzeige von Nebel, der gezeichnet wird, damit der Übergang zwischen der Grundplatte und dem Himmel nahtlos aussieht. Wenn Sie Nebel deaktivieren, erhalten Sie eine scharfe Horizontlinie, an der die Grundplatte (falls aktiviert) an den Himmel grenzt.
 
-**Nordpfeil** steuert die Anzeige eines kleinen grafischen Widgets, das die Richtung des Projektnordens angibt \(wie durch Standort und Satellitenbilder festgelegt\).
+**Nordpfeil** steuert die Anzeige eines kleinen grafischen Widgets, das die Richtung des Projektnordens angibt (wie durch Standort und Satellitenbilder festgelegt).
 
 Umgebungsfarben wie Himmel, Hintergrund und Grundplatte können ebenfalls angepasst werden.
 
@@ -80,15 +72,22 @@ Der Himmel besteht aus einem Verlauf der Farben für **Unten/Hintergrund**, **Mi
 
 Wenn die Option **Himmel** deaktiviert ist, ist nur die Farbe **Unten/Hintergrund** sichtbar.
 
+Steuern Sie die Transparenz der **Grundplatte** mithilfe des Schiebereglers.
+
+Wenn die Grundplatte im Gruppenbearbeitungsmodus deaktiviert ist, ist das blaue Arbeitsebenenraster jetzt ebenfalls deaktiviert.
+
+Die Farbe der **Arbeitsebene** kann auch über die Gruppe Visuelle Stile angepasst werden.
+
+![](<../.gitbook/assets/Visual styles - ground plane transparency.png>)
+
 ## Diagnose
 
 Blenden Sie Diagnosewerkzeuge ein und aus.
 
-![](../.gitbook/assets/diagnostics.PNG)
+![](../.gitbook/assets/diagnostics.png)
 
 Die Option **Dichtheitsprobleme** hebt alle Kanten, die nicht Teil eines wasserdichten Volumenkörperobjekts sind, rot hervor.
 
-Die Option **Rückseiten** hebt alle Flächen, die in die falsche Richtung zeigen, rot hervor \(die Rückseiten aller Volumenkörperobjekte sollten zur Innenseite der Volumenkörperform weisen\).
+Die Option **Rückseiten** hebt alle Flächen, die in die falsche Richtung zeigen, rot hervor (die Rückseiten aller Volumenkörperobjekte sollten zur Innenseite der Volumenkörperform weisen).
 
 [Erfahren Sie mehr über die Verwendung der Dichtheits- und Rückseitendiagnose zum Identifizieren und Beheben von Problemen mit Volumenkörpermodellen](https://formit.autodesk.com/blog/post/repairing-solid-models).
-

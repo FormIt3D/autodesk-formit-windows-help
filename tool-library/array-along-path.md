@@ -4,7 +4,7 @@
 
 In FormIt 2021 und höher können Sie Objekte entlang eines Pfads anordnen und die Ergebnisse sofort und direkt anpassen. Array Along Path (Reihe entlang Pfad) wird von Dynamo unterstützt, d. h., die Reihe kann einfach konfiguriert werden, um die gewünschten Ergebnisse zu erzielen. Durch erneutes Ausführen der Logik wird die Geometrie direkt aktualisiert.
 
-![](../.gitbook/assets/array-along-path.gif)
+![](<../.gitbook/assets/array-along-path (1).gif>)
 
 ## Starten von Array Along Path (Reihe entlang Pfad)
 
@@ -16,7 +16,7 @@ In FormIt 2021 und höher können Sie Objekte entlang eines Pfads anordnen und 
 * Nun wird eine Eingabeaufforderung zum Auswählen des Pfads für die Reihe angezeigt.
    * Hier sollten Sie nur eine Reihe von fortlaufenden Kanten oder eine Gruppe, die eine Reihe von fortlaufenden Kanten enthält, auswählen.
    * Wenn Sie den Pfad ausgewählt haben, klicken Sie auf die Schaltfläche Finish (Fertig stellen), oder drücken Sie die EINGABETASTE.
-* In der Gruppe Dynamo wird angezeigt, dass die Änderungen verarbeitet werden. Wenn Sie fertig sind, wird eine in Dynamo generierte Reihe in einer FormIt-Gruppe angezeigt, die Sie bearbeiten können \(siehe unten\).
+* In der Gruppe Dynamo wird angezeigt, dass die Änderungen verarbeitet werden. Wenn Sie fertig sind, wird eine in Dynamo generierte Reihe in einer FormIt-Gruppe angezeigt, die Sie bearbeiten können (siehe unten).
 
 ## Erstellen von Iterationen an Ort und Stelle
 
@@ -26,9 +26,9 @@ Wenn Array Along Path (Reihe entlang Pfad) ausgeführt wird, wird eine neue Grup
 
 Sie können jederzeit zu den Eigenschaften für Array Along Path (Reihe entlang Pfad) zurückkehren, indem Sie die Gruppe auswählen und zur Gruppe Properties (Eigenschaften) wechseln oder die Gruppe bearbeiten, sodass automatisch Eigenschaften angezeigt werden.
 
-![](../.gitbook/assets/array-along-path-options.png)
+![](<../.gitbook/assets/array along path (2).png>)
 
-### Select Object\(s\) to Array (Objekte für Reihe auswählen) <a id="run"></a>
+### Select Object(s) to Array (Objekte für Reihe auswählen) <a href="#run" id="run"></a>
 
 Klicken Sie auf diese Schaltfläche, um zum Auswahlassistenten zurückzukehren und die anzuordnenden Objekte zu ändern.
 
@@ -36,7 +36,7 @@ Klicken Sie auf diese Schaltfläche, um zum Auswahlassistenten zurückzukehren u
 
 Klicken Sie auf diese Schaltfläche, um zum Auswahlassistenten zurückzukehren und den Pfad zu ändern, der zum Berechnen der Reihe verwendet wird.
 
-### Array Type (Reihentyp) <a id="run"></a>
+### Array Type (Reihentyp) <a href="#run" id="run"></a>
 
 Hiermit wird der zu berechnende Reihentyp umgeschaltet: By Distance (Nach Abstand) oder By Number (Nach Nummer).
 
@@ -77,15 +77,13 @@ Wenn **False**:
 
 Nur für geschlossene Pfade. Wenn Sie Array Along Path (Reihe entlang Pfad) mit einem geschlossenen Pfad verwenden, werden die erwarteten Ergebnisse der Reihe möglicherweise durch die Richtung der Kurve unerwartet umgekehrt. Setzen Sie diesen Wert auf **True**, um auch die Reihenrichtung umzukehren, wenn die Ergebnisse umgekehrt werden.
 
-### Run (Ausführen) <a id="run"></a>
+### Run (Ausführen) <a href="#run" id="run"></a>
 
 Klicken Sie nach dem Bearbeiten der Optionen auf die Schaltfläche Run (Ausführen), um das zugrunde liegende Dynamo-Diagramm auszuführen und neue Ergebnisse zu generieren. Diese Schaltfläche wird blau, wenn Parameter geändert wurden. So erkennen Sie, dass Sie darauf klicken müssen, um die Aktualisierungen in der endgültigen Geometrie zu sehen.‌
 
-### Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) <a id="edit-embedded-graph"></a>
+### Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
 
 Wenn Sie auf diese Schaltfläche klicken, wird die Dynamo-Diagramm-Editor-Umgebung geöffnet, in der Sie das zugrunde liegende Dynamo-Diagramm anzeigen und bearbeiten können, um Parameter schneller zu ändern, Live-Aktualisierungen anzuzeigen oder die Logik zu prüfen bzw. anzupassen.
-
-
 
 ## Auswählen von Geometrie
 
@@ -98,6 +96,3 @@ Bei der Auswahl von Objekten für Array Along Path (Reihe entlang Pfad) und ande
 * Sie können das Fenster für die Bereichsauswahl verwenden, um eine Reihe von Objekten zu erfassen.
 * Sie können bereits ausgewählte Objekte auswählen, um deren Auswahl aufzuheben.
 * Mindestens ein Objekt ist erforderlich, um mit einem auswahlbasierten Schritt fortzufahren.
-
-
-

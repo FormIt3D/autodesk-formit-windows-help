@@ -21,4 +21,3 @@ Linienfarben nach Achse:
 ![](../.gitbook/assets/rectangle2.png)
 
 Wenn Sie das Rechteck fertig gezeichnet haben, wird es zu einer Fläche, die extrudiert werden kann, um ein Volumen zu erstellen.
-

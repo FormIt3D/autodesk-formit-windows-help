@@ -1,7 +1,7 @@
 # Tastaturkurzbefehle
 
-| Befehl | Kurzbefehl\(e\) |
-| :--- | :--- |
+| Befehl | Kurzbefehl(e) |
+| ---------------------------------------------- | ------------------ |
 | Anwendungseinstellungen: Bemaßungen anzeigen | D, D |
 | Anwendungseinstellungen: Rasterfang | S, G |
 | Zusammenarbeit: Zu Sitzung einladen | C, I |
@@ -30,16 +30,16 @@
 | Bearbeiten: Kopieren | Strg + C |
 | Bearbeiten: Löschen | Entf |
 | Bearbeiten: Einfügen | Strg + V |
-| Bearbeiten: Voreinstellungen |  |
+| Bearbeiten: Voreinstellungen |                    |
 | Bearbeiten: Wiederherstellen | Strg + Y |
 | Bearbeiten: Wiederherstellen | Strg + Umschalt + Z |
 | Bearbeiten: Achsen zurücksetzen | R, Z |
 | Bearbeiten: Achsen festlegen | S, Z |
 | Bearbeiten: Rückgängig | Strg + Z |
-| Energieanalyse: Insight abbrechen |  |
-| Energieanalyse: Insight generieren |  |
-| Energieanalyse: Insight anzeigen |  |
-| Datei: Bild exportieren |  |
+| Energieanalyse: Insight abbrechen |                    |
+| Energieanalyse: Insight generieren |                    |
+| Energieanalyse: Insight anzeigen |                    |
+| Datei: Bild exportieren |                    |
 | Datei: Modell exportieren in | Strg + E |
 | Datei: 3D-Modell importieren | Strg + I |
 | Datei: Bild importieren | Strg + Umschalt + I |
@@ -49,56 +49,56 @@
 | Datei: Speichern unter BIM 360 Docs | Alt + S |
 | Datei: Speichern mit Verlauf | Strg + S, Strg + H |
 | Datei: Speichern | Strg + S |
-| Gruppe: Gruppe bearbeiten \(Kontextmenü\) | E |
-| Gruppe: Gruppe bearbeiten \(Werkzeugkasten\) | Alt + E |
+| Gruppe: Gruppe bearbeiten (Kontextmenü) | E |
+| Gruppe: Gruppe bearbeiten (Werkzeugkasten) | Alt + E |
 | Gruppe: Aktion für Gruppe fertig stellen | F |
-| Gruppe: Gruppe \(Kontextmenü\) | G |
-| Gruppe: Gruppe \(Werkzeugkasten\) | Alt + G |
-| Gruppe: Als eindeutig definieren \(Kontextmenü\) | M, U |
-| Gruppe: Als eindeutig definieren \(Werkzeugkasten\) | Alt + M |
-| Gruppe: Gruppierung aufheben \(Kontextmenü\) | U |
-| Gruppe: Gruppierung aufheben \(Werkzeugkasten\) | Alt + U |
-| Gruppe: Gruppierung für alle aufheben \(Kontextmenü\) | U, A |
-| Gruppe: Gruppierung für alle aufheben \(Werkzeugkasten\) | Alt + A |
+| Gruppe: Gruppe (Kontextmenü) | G |
+| Gruppe: Gruppe (Werkzeugkasten) | Alt + G |
+| Gruppe: Als eindeutig definieren (Kontextmenü) | M, U |
+| Gruppe: Als eindeutig definieren (Werkzeugkasten) | Alt + M |
+| Gruppe: Gruppierung aufheben (Kontextmenü) | U |
+| Gruppe: Gruppierung aufheben (Werkzeugkasten) | Alt + U |
+| Gruppe: Gruppierung für alle aufheben (Kontextmenü) | U, A |
+| Gruppe: Gruppierung für alle aufheben (Werkzeugkasten) | Alt + A |
 | Gruppe: Modellgruppierung aufheben | U, M |
-| Hilfe: Info |  |
-| Hilfe: Nach FormIt-Updates suchen |  |
-| Hilfe: FormIt-Blog |  |
-| Hilfe: FormIt-Katalog |  |
-| Hilfe: FormIt-Videos |  |
-| Hilfe: Support abrufen |  |
-| Hilfe: Hilfe |  |
-| Hilfe: Neue Funktionen |  |
+| Hilfe: Info |                    |
+| Hilfe: Nach FormIt-Updates suchen |                    |
+| Hilfe: FormIt-Blog |                    |
+| Hilfe: FormIt-Katalog |                    |
+| Hilfe: FormIt-Videos |                    |
+| Hilfe: Support abrufen |                    |
+| Hilfe: Hilfe |                    |
+| Hilfe: Neue Funktionen |                    |
 | Ebenen: Ebenen anzeigen | D, L |
 | Ebenen: Ebenen verwenden | U, L |
-| Keine Materialien auf rückwärtigen Flächen |  |
+| Keine Materialien auf rückwärtigen Flächen |                    |
 | Grundkörper: Würfel | Alt + B |
 | Grundkörper: Zylinder | Alt + C |
 | Grundkörper: Kuppel | Alt + D |
 | Grundkörper: Prisma | Alt + R |
 | Grundkörper: Pyramide | Alt + P |
-| Prototyp: Maus-/Rasterstatus anzeigen |  |
+| Prototyp: Maus-/Rasterstatus anzeigen |                    |
 | Auswahlfilter: Kanten | E, S |
 | Auswahlfilter: Flächen | F, S |
 | Auswahlfilter: Gruppen | G, S |
 | Auswahlfilter: Volumenkörper | S, S |
-| Einstellungen: Große Schaltflächen |  |
+| Einstellungen: Große Schaltflächen |                    |
 | Skizzeneinstellungen: Einheitentyp wechseln | U, T |
 | Sonnenstudie: Analysieren | A, A |
 | Sonnenstudie: Sonnenstudienmodus aufrufen/beenden | S, A |
-| Sonnenstudie: Beenden |  |
-| Sonnenstudie: Zurücksetzen |  |
+| Sonnenstudie: Beenden |                    |
+| Sonnenstudie: Zurücksetzen |                    |
 | Werkzeuge: Reihe | A, R |
 | Werkzeuge: Abdeckung | C, V |
-| Werkzeuge: Geometrie ausschneiden \(Kontextmenü\) | C, C |
-| Werkzeuge: Geometrie ausschneiden \(Werkzeugkasten\) | C, G |
+| Werkzeuge: Geometrie ausschneiden (Kontextmenü) | C, C |
+| Werkzeuge: Geometrie ausschneiden (Werkzeugkasten) | C, G |
 | Werkzeuge: Touch aktivieren | E, T |
 | Werkzeuge: Touch aktivieren | T, M |
 | Werkzeuge: Kanten extrudieren | E, E |
 | Werkzeuge: Abrunden | F, I |
-| Werkzeuge: Informationen |  |
-| Werkzeuge: Geometrie verbinden \(Kontextmenü\) | J, C |
-| Werkzeuge: Geometrie verbinden \(Werkzeugkasten\) | J, G |
+| Werkzeuge: Informationen |                    |
+| Werkzeuge: Geometrie verbinden (Kontextmenü) | J, C |
+| Werkzeuge: Geometrie verbinden (Werkzeugkasten) | J, G |
 | Werkzeuge: Lasso-Auswahl | L, L |
 | Werkzeuge: Erhebung Kanten | L, O |
 | Werkzeuge: Messen | M |
@@ -111,7 +111,7 @@
 | Werkzeuge: Volumenkörper versetzen | O, S |
 | Werkzeuge: Fläche umkehren | F, F |
 | Werkzeuge: Drehen | Q |
-| Werkzeuge: Skript ausführen über Editor |  |
+| Werkzeuge: Skript ausführen über Editor |                    |
 | Werkzeuge: Maßstab | S, C |
 | Werkzeuge: Auswählen | MEP-Raum |
 | Werkzeuge: Standort festlegen | S, L |
@@ -120,20 +120,20 @@
 | Werkzeuge: Sweep | S, W |
 | Werkzeuge: Fläche abschrägen | T, F |
 | Werkzeuge: Kantenglättung aufheben | U, E |
-| Ansicht: Blaues Design |  |
-| Ansicht: Vorgabedesign |  |
+| Ansicht: Blaues Design |                    |
+| Ansicht: Vorgabedesign |                    |
 | Ansicht: 3D-Navigation Ich-Perspektive | F, T |
-| Ansicht: Mit Kamera umkreisen |  |
-| Ansicht: Kamera schwenken |  |
-| Ansicht: Systemdesign |  |
-| Ansicht: Perspektive wechseln |  |
+| Ansicht: Mit Kamera umkreisen |                    |
+| Ansicht: Kamera schwenken |                    |
+| Ansicht: Systemdesign |                    |
+| Ansicht: Perspektive wechseln |                    |
 | Ansicht: Von oben | Z, T |
 | Ansicht: Alles zoomen | Z, A |
 | Ansicht: Alles zoomen | Z, E |
 | Ansicht: Alles zoomen | Z, Z |
 | Ansicht: Zoom alle Bilder | Z, I |
-| Ansicht: Kamera-Zoom |  |
-| Ansicht: Auszoomen |  |
+| Ansicht: Kamera-Zoom |                    |
+| Ansicht: Auszoomen |                    |
 | Ansicht: Auswahl zoomen | Z, S |
 | Fenster: Werkzeugkasten Entwurf | H, D |
 | Fenster: Frei stehende Navigationsleiste | H, B |
@@ -146,4 +146,3 @@
 | Fenster: Werkzeugkasten Standard | H, T |
 | Fenster: Statusleiste | H, S |
 | Fenster: Werkzeugkasten Ansicht | H, V |
-

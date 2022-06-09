@@ -2,14 +2,12 @@
 
 ![](../.gitbook/assets/gg1.gif)
 
-Plugins can improve your Autodesk FormIt® experience by expanding your modeling toolset. You can address specific design needs that are not included in FormIt's tool library.&#x20;
+Plugins können Ihre Arbeit mit Autodesk FormIt® verbessern, indem sie Ihr Modellierungs-Toolset erweitern. Sie können spezifische Konstruktionsanforderungen erfüllen, die nicht in der Werkzeugbibliothek von FormIt enthalten sind.
 
-The plugins section of this primer includes four chapters:
+Der Abschnitt zu Plugins in dieser Einführung enthält vier Kapitel:
 
-1. [Introduction to Plugins](introduction.md): Basic information you need to know about plugins.
-2. [How to Use Plugins](how-to-use-plug-ins.md): If you are a FormIt user and want to give plugins a try, this section will guide you through the process of installing and using plugins.
-3. [How to Develop Plugins:](how-to-develop-plugins/) If you are a developer and want to go the extra mile, this section will guide you through the steps needed to develop a FormIt Plugin.
-4. [Examples:](example-1/) If you want to try out existing plugins, this section contains descriptions of some of the available plugins.&#x20;
-
-
-
+1. [Einführung in Plugins](introduction.md): Grundlegende Informationen zu Plugins.
+2. [So verwenden Sie Plugins](how-to-use-plug-ins.md): Wenn Sie FormIt-Benutzer sind und Plugins ausprobieren möchten, werden Sie in diesem Abschnitt durch die Installation und Verwendung von Plugins geführt.
+3. [So entwickeln Sie Plugins:](how-to-develop-plugins/) Wenn Sie Entwickler sind und noch mehr erreichen möchten, werden Sie in diesem Abschnitt durch die Schritte zum Entwickeln eines FormIt-Plugins geführt.
+4. [FormIt-APIs](how-to-develop-plugins/useful-links.md): Links zur API-Dokumentation von FormIt
+5. [Beispiele:](example-1/) Wenn Sie vorhandene Plugins ausprobieren möchten, enthält dieser Abschnitt Beschreibungen einiger verfügbarer Plugins.

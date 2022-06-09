@@ -4,7 +4,7 @@ Mithilfe von Linien können Sie Flächen teilen und Geometrie konstruieren.
 
 Tastatur: L
 
-![](../.gitbook/assets/line_toolbar.png)
+![](../.gitbook/assets/line\_toolbar.png)
 
 Sie können Linien auf der X-, Y- oder Z-Achse und auch auf vorhandener Geometrie zeichnen. Wenn Sie eine Achse fangen, wird eine farbige Linie über die gezeichnete Linie hinaus erstellt, die angibt, auf welcher Achse Sie zeichnen. Sie können die Länge der Linie beim Zeichnen sehen, und Sie können manuell eine bestimmte Länge eingeben, indem Sie die **TABULATORTASTE** drücken und einen Wert eingeben.
 
@@ -17,4 +17,3 @@ Um eine Länge anzugeben, geben Sie einfach einen Bemaßungswert ein. Daraufhin 
 * Z = Blau
 
 ![](../.gitbook/assets/lines.png)
-

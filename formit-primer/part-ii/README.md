@@ -8,7 +8,7 @@ Wenn Sie FormIt zum ersten Mal verwenden, empfehlen wir, mit **Teil I** zu begi
 
 Weitere Informationen zu den hier beschriebenen Werkzeugen, Werkzeugkästen, Paletten und Prozessen finden Sie in den Abschnitten **Einführung in FormIt** und **Werkzeugbibliothek**.
 
-![](../../.gitbook/assets/screen1.jpg)
+![](<../../.gitbook/assets/screen1 (1).jpg>)
 
 ### Voraussetzungen
 
@@ -16,13 +16,12 @@ Bevor Sie mit Teil II beginnen, laden Sie FormIt for Windows herunter, und inst
 
 Für die meisten Kapitel müssen Sie auch den Datensatz herunterladen und verwenden, der unter dem folgenden Link zu finden ist.
 
-_Wenn Sie FormIt for Windows nicht ausführen können, kann der größte Teil des Lernprogramms in der kostenlosen_ [_**Web-Anwendung**_](https://formit.autodesk.com/app) _abgeschlossen werden. Weitere Informationen zu FormIt-Versionen und zur Lizenzierung finden Sie auf der_ ****[_**FormIt-Website.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Wenn Sie FormIt for Windows nicht ausführen können, kann der größte Teil des Lernprogramms in der kostenlosen_ [_**Web-Anwendung**_](https://formit.autodesk.com/app)_** abgeschlossen werden.** Weitere Informationen zu FormIt-Versionen und zur Lizenzierung finden Sie auf der_ [_FormIt-Website_](https://formit.autodesk.com)_._
 
 ### Daten
 
-Der oben abgebildete Encode Campus ist ein fiktives Mehrzweck-Projekt mittlerer Größe auf einem städtischen Grundstück, das organisierte Layer, Szenen, Materialien und sogar Geometrien enthält, die mit bearbeitbaren Dynamo-Live-Skripten verknüpft sind. 
+Der oben abgebildete Encode Campus ist ein fiktives Mehrzweck-Projekt mittlerer Größe auf einem städtischen Grundstück, das organisierte Layer, Szenen, Materialien und sogar Geometrien enthält, die mit bearbeitbaren Dynamo-Live-Skripten verknüpft sind.
 
 Alle Fassadenelemente des Encode-Gebäudes werden von Dynamo-Skripten gesteuert, die durch einen Pfad unten am Gebäude gesteuert werden, der die Form der Fassade definiert.
 
-* \*\*\*\*[**FormIt Primer Data Sets Part II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
-
+* [**FormIt Primer Data Sets Part II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)

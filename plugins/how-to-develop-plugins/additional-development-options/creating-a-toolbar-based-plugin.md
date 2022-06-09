@@ -1,10 +1,10 @@
-# Creating a Toolbar-Based Plugin
+# Erstellen eines werkzeugkastenbasierten Plugins
 
 ![](<../../../.gitbook/assets/Toolbar based plugin.gif>)
 
-### Structure of a Toolbar-Based Plugin manifest.json
+### Struktur einer manifest.json-Datei für ein werkzeugkastenbasiertes Plugin
 
-A toolbar-based plugin has a _manifest.json_ file with the following structure:
+Ein werkzeugkastenbasiertes Plugin enthält eine _manifest.json_-Datei mit der folgenden Struktur:
 
 ```
 {
@@ -18,13 +18,13 @@ A toolbar-based plugin has a _manifest.json_ file with the following structure:
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a toolbar-based plugin includes this special JSON property:
+Zusätzlich zu den [Standard-JSON-Eigenschaften](../advanced-development/general-plugin-setup-in-the-manifest.md) enthält ein werkzeugkastenbasiertes Plugin die folgende spezielle JSON-Eigenschaft:
 
-* "ToolbarURL" tells FormIt that this plugin is a toolbar and links to the location of another JSON file that describes the toolbar's functionality.
+* ToolbarURL weist FormIt an, dass es sich bei diesem Plugin um einen Werkzeugkasten handelt, und verweist auf den Speicherort einer anderen JSON-Datei, in der die Funktionen des Werkzeugkastens beschrieben werden.
 
-### Configure Toolbar Format with JSON
+### Konfigurieren des Werkzeugkastenformats mit JSON
 
-After creating a manifest file like the one described above, you'll need to create the toolbar.json file, which defines the toolbar buttons, their names, text, icons, and the onClick function assigned to each button. The toolbar's JSON file will have the following format:
+Nach dem Erstellen einer Manifestdatei wie der oben beschriebenen müssen Sie die Datei toolbar.json erstellen, in der die Schaltflächen im Werkzeugkasten, deren Namen, der Text, die Symbole und die den einzelnen Schaltflächen zugewiesenen onClick-Funktionen definiert sind. Die JSON-Datei des Werkzeugkastens hat das folgende Format:
 
 ```
 {
@@ -52,15 +52,15 @@ After creating a manifest file like the one described above, you'll need to crea
 }               
 ```
 
-The toolbar.json file includes these JSON properties:
+Die Datei toolbar.json enthält die folgenden JSON-Eigenschaften:
 
-* "name" represents the name of the overall toolbar, and is used internally to associate all the buttons to the single toolbar menu.
-* "buttons" represents individual buttons added inside of the toolbar. A toolbar can have any number of buttons.
-* "name" defines the button's internal name, which is used to associate the button to the toolbar as well as to the button's onClick function.
-* "command" defines the function of the button, which can come in one of two forms: a JavaScript function (which can be defined in a script contained in the manifest.json "Scripts" field), or a FormIt command, for example, "Draw: Circle". You can obtain a list of FormIt commands by running the Messages plugin.
-* "iconText" sets the tooltip and description text in the button. If an icon URL is not provided, the text will create an auto-generated icon of formatted text.
-* "iconURL" can be set to define a custom icon for the button.
+* name steht für den Namen des gesamten Werkzeugkastens und wird intern verwendet, um alle Schaltflächen mit dem einzelnen Werkzeugkastenmenü zu verknüpfen.
+* buttons steht für einzelne Schaltflächen, die im Werkzeugkasten hinzugefügt wurden. Ein Werkzeugkasten kann eine beliebige Anzahl von Schaltflächen enthalten.
+* name definiert den internen Namen der Schaltfläche, der verwendet wird, um die Schaltfläche mit dem Werkzeugkasten sowie mit der onClick-Funktion der Schaltfläche zu verknüpfen.
+* command definiert die Funktion der Schaltfläche, die in zwei Formen vorliegen kann: eine JavaScript-Funktion (die in einem Skript definiert werden kann, das im manifest.json-Feld Scripts enthalten ist) oder ein FormIt-Befehl, z. B. Zeichnen: Kreis. Sie können eine Liste der FormIt-Befehle abrufen, indem Sie das Nachrichten-Plugin ausführen.
+* iconText legt den QuickInfo- und Beschreibungstext für die Schaltfläche fest. Wenn keine Symbol-URL bereitgestellt wird, erstellt der Text ein automatisch generiertes Symbol mit formatiertem Text.
+* iconURL kann so eingestellt werden, dass ein benutzerdefiniertes Symbol für die Schaltfläche definiert wird.
 
-After the buttons have all been defined in the toolbar.json file, the plugin is ready to go.&#x20;
+Nachdem alle Schaltflächen in der Datei toolbar.json definiert wurden, kann das Plugin verwendet werden.&#x20;
 
-If there are any additional JavaScript functions you would like to define, add them to the same folder as the manifest.json file. Be sure to add the file reference to the "Scripts" field of the manifest file as well so that FormIt can find the files.
+Wenn Sie weitere JavaScript-Funktionen definieren möchten, fügen Sie sie demselben Ordner wie die Datei manifest.json hinzu. Stellen Sie sicher, dass die Dateireferenz auch zum Feld Scripts der Manifestdatei hinzugefügt wird, damit FormIt die Dateien finden kann.

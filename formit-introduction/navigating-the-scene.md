@@ -12,19 +12,18 @@ Sie können auch die verschiebbare Navigationsleiste auf der rechten Seite des A
 
 ![](../.gitbook/assets/20190618-ortho-views.png) **Orthogonale Ansichten**: Klicken Sie auf diese Option, um ein Flyout-Menü mit den verfügbaren [orthogonalen Ansichten](../tool-library/orthographic-views.md) anzuzeigen.
 
-![](../.gitbook/assets/20190618-3d-view.png) **Vorgegebene 3D-Ansicht \(ZD\):** Startet die vorgegebene 3D-Ansicht.
+![](../.gitbook/assets/20190618-3d-view.png) **Vorgegebene 3D-Ansicht (ZD):** Startet die vorgegebene 3D-Ansicht.
 
-![](../.gitbook/assets/jet-pack.png) **Walkthrough \(FT\):** Im Jetpack-Modus können Sie sich mithilfe der Tastatur in der Szene bewegen. Verwenden Sie WASD, um sich vorwärts/rückwärts/nach links/nach rechts zu bewegen, und verwenden Sie Q/E, um sich nach oben/unten zu bewegen. Verwenden Sie die LEERTASTE, um die 3D-Navigation zu nutzen.
+![](../.gitbook/assets/jet-pack.png) **Walkthrough (FT):** Im Jetpack-Modus können Sie sich mithilfe der Tastatur in der Szene bewegen. Verwenden Sie WASD, um sich vorwärts/rückwärts/nach links/nach rechts zu bewegen, und verwenden Sie Q/E, um sich nach oben/unten zu bewegen. Verwenden Sie die LEERTASTE, um die 3D-Navigation zu nutzen.
 
-![](../.gitbook/assets/orbit-tool.png) **Umkreisen \(O\):** Wenn diese Option aktiviert ist, klicken Sie mit der linken Maustaste und ziehen die Maus, um das Modell zu umkreisen. Sie können dies auch jederzeit durch Klicken mit der rechten Maustaste und Ziehen tun.
+![](../.gitbook/assets/orbit-tool.png) **Umkreisen (O):** Wenn diese Option aktiviert ist, klicken Sie mit der linken Maustaste und ziehen die Maus, um das Modell zu umkreisen. Sie können dies auch jederzeit durch Klicken mit der rechten Maustaste und Ziehen tun.
 
-![](../.gitbook/assets/swivel.PNG) **Schwenken \(SV\):** Mit dem Werkzeug Schwenken aus der Navigationsleiste können Sie die Szene von einem bestimmten Punkt aus ansehen.
+![](../.gitbook/assets/swivel.PNG) **Schwenken (SV):** Mit dem Werkzeug Schwenken aus der Navigationsleiste können Sie die Szene von einem bestimmten Punkt aus ansehen.
 
-![](../.gitbook/assets/panning.png) **Pan \(P\):** Klicken Sie mit der mittleren Maustaste, und ziehen Sie die Maus, oder verwenden Sie das Werkzeug Pan \(Hand\) aus der Navigationsleiste, um über die Szene zu schwenken.
+![](../.gitbook/assets/panning.png) **Pan (P):** Klicken Sie mit der mittleren Maustaste, und ziehen Sie die Maus, oder verwenden Sie das Werkzeug Pan (Hand) aus der Navigationsleiste, um über die Szene zu schwenken.
 
-![](../.gitbook/assets/zoom.png) **Zoom \(Z\):** Drehen Sie das Mausrad, oder verwenden Sie das Werkzeug Zoom aus der Navigationsleiste, und ziehen Sie bei gedrückter linker Maustaste die Maus, um das Modell zu vergrößern oder zu verkleinern.
+![](../.gitbook/assets/zoom.png) **Zoom (Z):** Drehen Sie das Mausrad, oder verwenden Sie das Werkzeug Zoom aus der Navigationsleiste, und ziehen Sie bei gedrückter linker Maustaste die Maus, um das Modell zu vergrößern oder zu verkleinern.
 
-![](../.gitbook/assets/zoom_all.png) **Alles zoomen \(ZE oder ZA\):** Zoomen Sie zum Einpassen des gesamten Modells in die aktuelle Ansicht.
+![](../.gitbook/assets/zoom\_all.png) **Alles zoomen (ZE oder ZA):** Zoomen Sie zum Einpassen des gesamten Modells in die aktuelle Ansicht.
 
-![](../.gitbook/assets/zoom_selection.png) **Auswahl zoomen \(ZS\):** Zoomen Sie zum Einpassen aller aktuell ausgewählten Objekte in die aktuelle Ansicht.
-
+![](../.gitbook/assets/zoom\_selection.png) **Auswahl zoomen (ZS):** Zoomen Sie zum Einpassen aller aktuell ausgewählten Objekte in die aktuelle Ansicht.

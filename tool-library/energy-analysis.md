@@ -1,4 +1,5 @@
-# Energy Analysis in Insight
+# Energieanalyse mit Insight
 
-Weitere Informationen zur Verwendung von Energy Analysis finden Sie [hier](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis).
+![](<../.gitbook/assets/image (22).png>)
 
+[Weitere Informationen finden Sie in FormIt und Insight im Abschnitt zu den FormIt-Funktionen.](../formit-capabilities/analysis.md)

@@ -15,8 +15,3 @@ Der FormIt-Kernel für die Volumenkörper-Modellierung ermöglicht unglaubliche,
 **Verwenden Sie die Werkzeuge für die intelligente Auswahl, um ähnliche Geometrie schnell und mit weniger Klicks auszuwählen:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

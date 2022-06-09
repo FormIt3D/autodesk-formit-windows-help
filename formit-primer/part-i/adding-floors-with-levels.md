@@ -9,11 +9,11 @@ _Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei **1.
 1 – So erstellen Sie Ebenen
 
 1. Wechseln Sie zur **Palette Ebene** in der **Palettenleiste**.
-2. Klicken Sie viermal auf **+** \(**Ebene hinzufügen**\), um vier Ebenen zu erstellen.
+2. Klicken Sie viermal auf **+** (**Ebene hinzufügen**), um vier Ebenen zu erstellen.
 3. Doppelklicken Sie auf die aktuelle Höhe der einzelnen Ebenen, um sie in **0'-0", 2'-2", 4'-6"** und **17'-8"** zu ändern.
 4. Doppelklicken Sie auf den aktuellen Namen der einzelnen Ebenen, und benennen Sie sie um: **Ground, Terrace, Main Building** und **Top of Roof**
 
-![](../../.gitbook/assets/0%20%2816%29.png)
+![](<../../.gitbook/assets/0 (16) (1).png>)
 
 _**Anmerkung**: Sie können auf das Symbol_ _**++**_ _klicken, um mehrere Ebenen mit einem bestimmten und einheitlichen Abstand zu erstellen. Dies ist für mehrstöckige Gebäude praktisch_.
 
@@ -25,12 +25,11 @@ _In den vorherigen Schritten haben wir nur Ebenen erstellt. Jetzt können wir di
 
 1. Wählen Sie den gesamten oberen Terrassenkörper durch Doppelklicken aus.
 2. Klicken Sie in der **Eigenschaftenpalette** auf **Ebenen verwenden**. In diesem Schritt werden alle Ebenen, die die ausgewählte Geometrie aktuell schneiden, vorausgewählt.
-3. Auf die derzeit ausgewählte Geometrie sind drei Ebenen angewendet \(**Main Building, Terrace,** und **Ground**\). In dieser Übung soll jedoch nur **Ground** angewendet werden. Deaktivieren Sie **Main Building** und **Terrace**.
+3. Auf die derzeit ausgewählte Geometrie sind drei Ebenen angewendet (**Main Building, Terrace,** und **Ground**). In dieser Übung soll jedoch nur **Ground** angewendet werden. Deaktivieren Sie **Main Building** und **Terrace**.
 4. Dadurch wird sichergestellt, dass nur die Fläche, die von **Ground** geschnitten wird, für die Berechnung der Bruttofläche berücksichtigt wird, die im Feld **Fläche nach Ebene** angezeigt wird.
 
-![](../../.gitbook/assets/1%20%284%29.png)
+![](<../../.gitbook/assets/1 (4) (1).png>)
 
 _**Anmerkung**: Wenn am Körper keine blauen Ebenenlinien angezeigt werden, geben Sie_ _**DL**_ _für_ _**Ebenen anzeigen** ein._
 
-![](../../.gitbook/assets/2%20%283%29.png)
-
+![](<../../.gitbook/assets/2 (3) (1).png>)

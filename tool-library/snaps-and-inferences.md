@@ -8,9 +8,9 @@ Objektfang und Ableitungspunkte ermöglichen eine präzise Erstellung, Platzieru
 
 Beim Skizzieren und Modellieren stehen mehrere Objektfangfunktionen zur Verfügung. Der Objektfang für Objekte ist automatisch aktiviert. Die folgenden Fangreferenzen sind verfügbar:
 
-|                                                                                                                                                                            |                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Knoten | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+|                                                                                                                                                                            |                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| Knoten | ![](<../.gitbook/assets/inf3 (3).png>) |
 | Kanten Wenn Sie den Mauszeiger über die Kante bewegen, werden kleine        rote Punkte an den Enden und am Mittelpunkt gezeichnet. | ![](../.gitbook/assets/inf4.png) |
 | Kantenmittelpunkte | ![](../.gitbook/assets/inf5.png) |
 | Die Ebene einer Fläche. Wenn Sie den Mauszeiger über die Fläche bewegen, wird ein        kleiner roter Punkt am Flächenschwerpunkt gezeichnet. Dadurch können Sie den Punkt leicht finden,        wenn Sie diesen fangen möchten. | ![](../.gitbook/assets/inf6.png) |

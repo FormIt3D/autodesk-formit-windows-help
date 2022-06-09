@@ -4,13 +4,12 @@ Sie können sowohl lineare als auch radiale Reihen in FormIt erstellen. Um **Rei
 
 ## Linear
 
-![](../.gitbook/assets/array.png)  
-![](../.gitbook/assets/array_linear2.png)  
-![](../.gitbook/assets/linear_array_3.png)
+![](../.gitbook/assets/array.png)\
+![](../.gitbook/assets/array\_linear2.png)\
+![](../.gitbook/assets/linear\_array\_3.png)
 
 ## Radial
 
-![](../.gitbook/assets/array_radial1.png)  
-![](../.gitbook/assets/radial_array2.png)  
-![](../.gitbook/assets/radial_array3.png)
-
+![](<../.gitbook/assets/array\_radial1 (1).png>)\
+![](../.gitbook/assets/radial\_array2.png)\
+![](../.gitbook/assets/radial\_array3.png)

@@ -1,69 +1,69 @@
-# How to Use Plugins
+# So verwenden Sie Plugins
 
 ![](<../.gitbook/assets/g3 (1).gif>)
 
 ## Plugin Manager
 
-The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
+Der FormIt Plugin Manager ist Ihre zentrale Anlaufstelle für die Suche und Verwaltung von Plugins.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+Der Plugin Manager wird beim Starten von FormIt automatisch geladen, sofern FormIt über Internetzugriff verfügt.
 
-Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) on the right side of the app:
+Sie können darauf zugreifen, indem Sie auf das Registerkartensymbol![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) auf der rechten Seite der App klicken:
 
 ![](../.gitbook/assets/c1.PNG)
 
-## Plugin Categories
+## Plugin-Kategorien
 
-The Plugin Manager organizes plugins into categories to help you find the plugins you're most interested in.
+Der Plugin Manager ordnet Plugins in Kategorien an, damit Sie die Plugins finden, die Sie am meisten interessieren.
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed Plugins:** Plugins already installed by the user.&#x20;
+**Installierte Plugins:** Bereits vom Benutzer installierte Plugins.&#x20;
 
-**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team.\
-GitHub tag:  _formit-plugin-recommended_
+**Empfohlene Plugins:** Plugins, die das FormIt-Team zur Erweiterung der Kernfunktionen von FormIt und zur Nutzung neuer Arbeitsabläufe empfiehlt. Von der Community entwickelte Plugins werden hier angezeigt, nachdem sie vom FormIt-Team geprüft wurden.\
+GitHub-Tag: _formit-plugin-recommended_
 
-**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team. \
-GitHub tag:  _formit-plugin_
+**Öffentliche Plugins:** Von der Community erstellte Plugins. Plugins in dieser Kategorie wurden vom FormIt-Team nicht überprüft oder genehmigt. \
+GitHub-Tag: _formit-plugin_
 
-**For Developers Plugins**: Plugins built by the community to enable the creation of new FormIt plugins. \
-GitHub tag:  _formit-plugin-developers_
+**Plugins für Entwickler**: Plugins, die von der Community erstellt wurden, um die Erstellung neuer FormIt-Plugins zu ermöglichen. \
+GitHub-Tag: _formit-plugin-developers_
 
-## Add Your Private or Local Plugin
+## Hinzufügen Ihres privaten oder lokalen Plugins
 
-If you're [developing your own plugin](how-to-develop-plugins/), you can add its private URL into the field at the bottom of the panel and click (+):
+Wenn Sie [Ihr eigenes Plugin entwickeln](how-to-develop-plugins/), können Sie die private URL in das Feld unten in der Gruppe einfügen und auf (+) klicken:
 
 ![](../.gitbook/assets/d4.PNG)
 
-For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+Weitere Informationen zum Hinzufügen Ihres privaten oder lokalen Plugins finden Sie unter [Vorschau eines Plugins im Plugin Manager ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
-## Resetting the Plugin Manager
+## Zurücksetzen des Plugin Manager
 
-The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins. If you need to reset your Plugin Manager to its defaults, delete the following registry key:
+Der Plugin Manager verwendet Registrierungsschlüssel unter Windows, um die installierten Repositorys und Plugins zu speichern. Wenn Sie den Plugin Manager auf die Vorgaben zurücksetzen müssen, löschen Sie den folgenden Registrierungsschlüssel:
 
 `Computer\HKEY_CURRENT_USER\Software\Autodesk\FormIt 360\Plugins`
 
-⚠️ Note: This will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+⚠️ Anmerkung: Dadurch werden alle vom Benutzer hinzugefügten Repositorys und Plugins deinstalliert, und der Plugin Manager wird zurückgesetzt, sodass nur die integrierten Repositorys und Plugins enthalten sind.
 
-## Installing Plugins
+## Installieren von Plugins
 
-The [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
+Der [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) enthält eine Reihe von Plugins, die in verschiedenen Kategorien angeordnet sind. Jedes Plugin verfügt über einen Namen, eine Beschreibung, einen GitHub-Link und einen Installationsschalter.&#x20;
 
 ![](../.gitbook/assets/d5.PNG)
 
-To install a plugin, simply turn on the toggle next to the plugin's name.&#x20;
+Um ein Plugin zu installieren, aktivieren Sie einfach den Schalter neben dem Namen des Plugins.&#x20;
 
 ![](../.gitbook/assets/d6.png)
 
-The icon of the selected plugin will appear in the right panel. Click it to display the plugin's UI.
+Das Symbol des ausgewählten Plugins wird im rechten Bereich angezeigt. Klicken Sie darauf, um die Benutzeroberfläche des Plugins anzuzeigen.
 
 ![](../.gitbook/assets/d7.PNG)
 
-## Using Plugins
+## Verwenden von Plugins
 
-Each plugin has a unique UI defined by its developer. A plugin usually has a set of instructions on how to use it, a set of parameters (text boxes, sliders, checkboxes, etc.), and one or more buttons to execute it.
+Jedes Plugin verfügt über eine eigene, von seinem Entwickler definierte Benutzeroberfläche. Ein Plugin enthält in der Regel eine Reihe von Anweisungen zur Verwendung, eine Reihe von Parametern (Textfelder, Schieberegler, Kontrollkästchen usw.) sowie eine oder mehrere Schaltflächen zur Ausführung des Plugins.
 
-As an example, we'll use one of the simpler examples in the Plugin Manager: Fillet 2D Corners. We first load the plugin from the Recommended section of the Plugin Manager. Then, following the instructions provided by the developer, we set the fillet radius, select a group of faces to fillet, and click the Fillet Corners button.
+Wir verwenden eines der einfacheren Beispiele im Plugin Manager: Fillet 2D Corners. Zunächst laden wir das Plugin aus dem Abschnitt der empfohlenen Plugins im Plugin Manager. Anschließend legen wir gemäß den Anweisungen des Entwicklers den Abrundungsradius fest, wählen eine Gruppe von Flächen zum Abrunden aus und klicken auf die Schaltfläche Fillet Corners.
 
 ![](../.gitbook/assets/g4.gif)
 

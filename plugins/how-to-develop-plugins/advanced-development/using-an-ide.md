@@ -1,15 +1,15 @@
-# Using an IDE
+# Verwenden einer IDE
 
-Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+Die Entwicklung von Plugins mit [Plugin Playground](../your-first-plugin/plugin-playground.md) ist einfach und bequem. Sie können jedoch Plugins auch mithilfe einer externen integrierten Entwicklungsumgebung (IDE) entwickeln. Die Verwendung einer IDE bietet u. a. folgende Vorteile:&#x20;
 
-* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
-* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server.
+* Sie können Ihre bevorzugte IDE verwenden, in der Syntaxfehler korrigiert werden können, Erweiterungen verfügbar sind usw.
+* Sie können mit Kollegen zusammenarbeiten, um ein FormIt-Plugin über ein GitHub-Repository zu entwickeln.
+* Sie können private Plugins entwickeln und diese auf einem lokalen Server hosten.
 
-### Install an IDE
+### Installieren einer IDE
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
+Eine kostenlose IDE, die für die Entwicklung von FormIt-Plugins gut geeignet ist, ist [Visual Studio Code](https://code.visualstudio.com/Download) von Microsoft. Klicken Sie auf den Link zum Herunterladen der Installationsdatei, und schließen Sie die Installation ab.
 
-We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
+Für diese Demonstration verwenden wir Visual Studio Code, Sie können jedoch auch Ihren bevorzugten Code-Editor verwenden. Stellen Sie sicher, dass die IDE ein Terminal zum Ausführen des lokalen Servers enthält.
 
-![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)
+![Visual Studio-Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

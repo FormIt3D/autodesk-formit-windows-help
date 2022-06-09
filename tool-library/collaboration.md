@@ -13,8 +13,5 @@ Ein Abonnement für FormIt Pro gibt Ihnen Zugang zur Zusammenarbeit in Echtzeit 
 
 ## Sitzung für Zusammenarbeit starten
 
-1. Wählen Sie in der Dropdown-Liste Zusammenarbeit die Option Gemeinsame Sitzung starten. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. Versenden Sie einen Link per E-Mail an Teamkollegen. Über diesen Link werden die Empfänger aufgefordert, sich bei ihrem Konto bei Autodesk Account anzumelden, um sofort mit der Zusammenarbeit zu beginnen.  ![](../.gitbook/assets/collaborate.png)
-
-
-
+1. Wählen Sie in der Dropdown-Liste Zusammenarbeit die Option Gemeinsame Sitzung starten. ![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
+2. Versenden Sie einen Link per E-Mail an Teamkollegen. Über diesen Link werden die Empfänger aufgefordert, sich bei ihrem Konto bei Autodesk Account anzumelden, um sofort mit der Zusammenarbeit zu beginnen.  ![](<../.gitbook/assets/collaborate (1).png>)

@@ -4,7 +4,7 @@ Mithilfe des Werkzeugs Bogen können Sie Halbkreise oder symmetrische Bogen erst
 
 ## Bogen durch drei Punkte
 
-![](../.gitbook/assets/arc_three_pts.png)
+![](../.gitbook/assets/arc\_three\_pts.png)
 
 Ein Bogen wird durch drei Punkte definiert und kann auf der X-, Y- oder Z-Achse gezeichnet werden. Definieren Sie den ersten Punkt, legen Sie dann die Entfernung vom ersten zum zweiten Punkt fest und definieren Sie schließlich einen dritten Punkt für die Höhe des Bogens. Ein Punkt, der den Halbkreis markiert, wird automatisch angezeigt und kann als Fangpunkt verwendet werden. Jenseits davon wird die Bogenlinie über die ersten beiden Punkte hinaus verlängert.
 
@@ -16,9 +16,8 @@ Nachdem Sie den Bogen gezeichnet haben, können Sie mithilfe des [Werkzeugs Lini
 
 ## Bogen durch Mittelpunkt
 
-![](../.gitbook/assets/arc-by-center%20%281%29.png)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Wählen Sie den Mittelpunkt des Bogens, ziehen Sie dann den Cursor, um die Mitte zu wählen, und ziehen Sie ihn erneut, um die Länge des Bogens zu definieren. Geben Sie einfach einen Wert ein, um eine genaue Gradzahl für den Bogen einzugeben.
 
-![](../.gitbook/assets/arc_circle_demo.gif)
-
+![](../.gitbook/assets/arc\_circle\_demo.gif)

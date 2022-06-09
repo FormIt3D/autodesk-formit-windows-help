@@ -13,4 +13,3 @@ Splines können auch geschlossen werden, wodurch eine Fläche entsteht.
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
-

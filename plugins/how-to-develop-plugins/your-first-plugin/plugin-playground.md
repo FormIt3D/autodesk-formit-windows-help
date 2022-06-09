@@ -1,25 +1,25 @@
 # Plugin Playground
 
-## What is the Plugin Playground?
+## Was ist Plugin Playground?
 
-The Plugin Playground is an out-of-the-box feature that lets you quickly develop and test plugins in FormIt. It's a great concept-modeling environment where you can make your 3D ideas reality in no time. You don't need any additional software, so there's no need to leave the FormIt app. It comes with a sample plugin, so you don't need to set up your plugin from scratch. Simply test your code and save your project to your GitHub account, all in the Playground panel.&#x20;
+Plugin Playground ist eine sofort einsatzfähige Funktion, mit der Sie schnell Plugins in FormIt entwickeln und testen können. Es handelt sich um eine großartige Umgebung für die Konzeptmodellierung, in der Sie Ihre 3D-Ideen im Handumdrehen in die Realität umsetzen können. Sie benötigen keine zusätzliche Software, daher müssen Sie die FormIt-App nicht verlassen. Sie enthält ein Beispiel-Plugin, sodass Sie das Plugin nicht von Grund auf neu erstellen müssen. Testen Sie einfach Ihren Code, und speichern Sie Ihr Projekt in Ihrem GitHub-Konto, alles in der Gruppe Playground.
 
-Here are some of the benefits of developing in the Plugin Playground:
+Hier sind einige der Vorteile der Entwicklung in Plugin Playground:
 
-* No additional installation required
-* Develop, test, and run plugins within the FormIt desktop or web app
-* Fast and easy file setup with sample code included
-* Save your project to your own GitHub account
-* Use the recording feature
+* Keine zusätzliche Installation erforderlich
+* Entwickeln, Testen und Ausführen von Plugins in der FormIt Desktop- oder Web-App
+* Schnelle und einfache Dateieinrichtung mit enthaltenem Beispielcode
+* Speichern Ihres Projekts in Ihrem eigenen GitHub-Konto
+* Verwenden der Aufzeichnungsfunktion
 
 ![](<../../../.gitbook/assets/14 (3) (1).png>)
 
-## Installing the Plugin Playground
+## Installieren von Plugin Playground
 
-You can think of the Plugin Playground as a plugin that makes plugins. This is because you install it as you would install any other plugin. Open the Plugin Manager, and you will find the Plugin Playground under the Recommended list. Use the toggle to install the Plugin Playground.
+Sie können sich Plugin Playground als Plugin vorstellen, mit dem Plugins erstellt werden. Dies liegt daran, dass Sie es wie jedes andere Plugin installieren. Öffnen Sie den Plugin Manager. Dort finden Sie Plugin Playground unter der Liste der empfohlenen Plugins. Verwenden Sie den Schalter, um Plugin Playground zu installieren.
 
 ![](<../../../.gitbook/assets/01-install playgground formit.gif>)
 
-Once it's installed, you can access the Plugin Playground through the ![](<../../../.gitbook/assets/image (25).png>) icon in the right menu.
+Nach der Installation können Sie über das Symbol ![](<../../../.gitbook/assets/image (25).png>) im rechten Menü auf Plugin Playground zugreifen.
 
-![](<../../../.gitbook/assets/image (79).png>)
+![](<../../../.gitbook/assets/image (53) (1) (1) (1).png>)

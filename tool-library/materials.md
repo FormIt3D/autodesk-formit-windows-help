@@ -1,16 +1,16 @@
 # Materialien
 
-Versehen Sie Ihre FormIt-Modelle mit Materialien, die Reflexions-, Glanz- und Relief-Maps unterstützen.
+Versehen Sie Ihre FormIt-Modelle mit Materialien, die Reflexions-, Glanz-, Bump- oder Normalen-Maps unterstützen.
 
 ## Gruppe Materialien
 
-![](<../.gitbook/assets/materials-sample-category (2).png>)
+![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
 
 In der Gruppe Materialien können Sie aus einer Vielzahl von Materialmustern wählen, zwischen verknüpften Materialbibliotheken navigieren und ab FormIt 2021 auf die Materialinhalte anderer FormIt-Dateien (.AXM) zugreifen und diese verwenden.
 
 ### Materialbibliotheksquellen
 
-In FormIt 2021 und höher verfügt die Gruppe Materialien über eine Dropdown-Benutzeroberfläche, in der Sie aus den verfügbaren Materialbibliotheksquellen wählen können: In Skizze, Materialmuster und [verknüpfte Bibliotheken](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+In FormIt 2021 und höher verfügt die Gruppe Materialien über eine Dropdown-Benutzeroberfläche, in der Sie aus den verfügbaren Materialbibliotheksquellen wählen können: In Skizze, Materialmuster und [verknüpfte Bibliotheken](https://windows.help.formit.autodesk.com/v/german/tool-library/materials#verknuepfen-von-materialbibliotheken).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
@@ -30,13 +30,13 @@ Zeigt eine Liste der verfügbaren Mustermaterialien an. Diese Angebote werden au
 
 **Verknüpfte Bibliotheken**
 
-Nach dem [Verknüpfen von Materialbibliotheken](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) werden andere Verzeichnisse und Speicherorte angezeigt.
+Nach dem [Verknüpfen von Materialbibliotheken](https://windows.help.formit.autodesk.com/v/german/tool-library/materials#verknuepfen-von-materialbibliotheken) werden andere Verzeichnisse und Speicherorte angezeigt.
 
 ### Erstellen, Löschen und Pipette
 
-![](../.gitbook/assets/materials\_add.PNG) **Erstellen Sie ein neues Material**, indem Sie die Einstellungen für Farbe, Textur, Relief-Map, Ausschnitt-Map, Transparenz und Reflexion/Glanz festlegen.
+![](../.gitbook/assets/materials\_add.PNG) **Erstellen Sie ein neues Material**, indem Sie die Einstellungen für Farbe, Textur, Bump- oder Normalen-Map, Ausschnitt-Map, Transparenz und Reflexion/Glanz festlegen.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Löschen** Sie die ausgewählten Materialien.
+![](<../.gitbook/assets/materials\_delete (1).PNG>) **Löschen** Sie die ausgewählten Materialien.
 
 Verwenden Sie ![](../.gitbook/assets/materials\_eyedropper.PNG) **Pipette** für ein Material, das in der Szene vorhanden ist, und nutzen Sie es sofort zum Auftragen.
 
@@ -45,7 +45,7 @@ Verwenden Sie ![](../.gitbook/assets/materials\_eyedropper.PNG) **Pipette** für
 
 ### Aktualisieren, Bibliotheken verknüpfen und Nicht verwendete bereinigen
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Verknüpfen Sie Materialbibliotheken** aus lokalen Verzeichnissen. In Verzeichnissen mit JPG-, PNG- oder AXM-Dateien (FormIt) werden Inhalte angezeigt. Weitere Informationen finden Sie unter [Verknüpfen von Materialbibliotheken](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+![](../.gitbook/assets/materials-link.png) **Verknüpfen Sie Materialbibliotheken** aus lokalen Verzeichnissen. In Verzeichnissen mit JPG-, PNG- oder AXM-Dateien (FormIt) werden Inhalte angezeigt. Weitere Informationen finden Sie unter [Verknüpfen von Materialbibliotheken](https://windows.help.formit.autodesk.com/v/german/tool-library/materials#verknuepfen-von-materialbibliotheken).
 
 ![](../.gitbook/assets/materials-refresh.png)**Aktualisieren** Sie das aktuelle Verzeichnis. Nur aktiviert, wenn ein lokal verknüpftes Verzeichnis angezeigt wird (nicht In Skizze oder Materialmuster).
 
@@ -115,10 +115,10 @@ Wenn Sie ein Material erstellen oder bearbeiten, wird das Dialogfeld Material-Ed
    * Klicken Sie auf das Symbol Löschen, um die Map aus diesem Material zu löschen.
       * **Textur aus einer Bilddatei**
          * JPG oder PNG
-      * **Relief-Map aus einer Bilddatei**
+      * **Bump- oder Normalen-Map aus einer Bilddatei**
          * JPG wird empfohlen
          * Diese Option eignet sich hervorragend zum Hinzufügen von Tiefeneffekten zu Materialien.
-         * Sie können Freeware wie ShaderMap verwenden, um Relief-Maps für eine bestimmte Textur zu generieren.
+         * Sie können Freeware wie ShaderMap verwenden, um Bump-/Normalen-Maps für eine bestimmte Textur zu generieren.
       * **Ausschnitt-Map aus einer Bilddatei**
          * PNG
          * Diese Option eignet sich hervorragend für Materialien mit selektiver Transparenz, wie Maschendrahtzäune oder perforierte Elemente.
@@ -142,7 +142,7 @@ Verwenden Sie das Werkzeug **Materialplatzierung anpassen**, um die vorgegebene 
    * Wenn die Fläche das Material aus der übergeordneten Gruppe übernimmt, müssen Sie die Fläche zuerst direkt mit dem Material versehen.
 * Sie können das Werkzeug Materialplatzierung anpassen über den Tastaturkurzbefehl MP oder über das Kontextmenü aufrufen:
 
-![](../.gitbook/assets/adjust-material-placement.PNG)
+![](../.gitbook/assets/adjust-material-placement.png)
 
 Verwenden Sie die Steuerelemente auf dem Bildschirm, um die Materialtexturen direkt auf der Fläche interaktiv zu verschieben, zu drehen und zu skalieren:
 

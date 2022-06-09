@@ -4,7 +4,7 @@
 
 In FormIt 2021 und höher können Sie 3D-Textobjekte erstellen und ändern, die von Dynamo unterstützt werden. Dynamo ermöglicht die direkte Bearbeitung von Schriftart, Größe und anderen Eigenschaften des Texts, ohne dass der Text im Falle von erforderlichen Änderungen neu generiert und positioniert werden muss.
 
-![](../.gitbook/assets/3d-text.gif)
+![](<../.gitbook/assets/3d-text (1).gif>)
 
 ## Platzieren von 3D-Text
 
@@ -25,7 +25,7 @@ Der große Vorteil bei der Verwendung von Dynamo zum Erstellen von 3D-Text beste
 
 Nach dem erstmaligen Platzieren des 3D-Texts wird die Gruppe Properties (Eigenschaften) automatisch angezeigt. Sie können auch die Gruppe auswählen und selbst zu Eigenschaften wechseln oder auf die Gruppe doppelklicken, um automatisch zur Gruppe Properties (Eigenschaften) zu wechseln.
 
-![](../.gitbook/assets/3d-text-options.png)
+![](<../.gitbook/assets/3d-text-options (2).png>)
 
 ### Text
 
@@ -51,23 +51,23 @@ Hiermit wird der Text relativ zum Ursprung des lokalen Koordinatensystems der Gr
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-Die Höhe des Texts in den aktuellen FormIt-Einheiten.
+Die Höhe des Texts. Die Einheit basiert auf dem [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)-Block. Es kann eine beliebige Einheit verwendet werden.
 
 ### Extrusion Depth (Extrusionstiefe)
 
-Der Umfang der 3D-Extrusion des Texts in den aktuellen FormIt-Einheiten. 3D-Text ist als Volumenkörper konzipiert, daher kann dieser Wert nicht null sein, aber Sie können einen Wert angeben, der sehr nahe an 0 ist, sodass die Extrusion weniger offensichtlich ist.
+Der Umfang der 3D-Extrusion des Texts in der durch den [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)-Block festgelegten Einheit. 3D-Text ist als Volumenkörper konzipiert, daher kann dieser Wert nicht null sein, aber Sie können einen Wert angeben, der sehr nahe an 0 ist, sodass die Extrusion weniger offensichtlich ist.
 
 ### Tracking (Zeichenabstand)
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-Tracking (Zeichenabstand) ist hilfreich, um den Vorgabeabstand zwischen Buchstaben einer bestimmten Schriftart anzupassen. Verwendet die aktuellen FormIt-Einheiten und kann positiv oder negativ sein. Beispiel: Bei Verwendung von Fuß ergibt 0.25 einen Abstand von 3" zwischen jedem Buchstaben. Umgekehrt bedeutet -0.25, dass alle Buchstaben um 3" näher beieinander liegen.
+Tracking (Zeichenabstand) ist hilfreich, um den Vorgabeabstand zwischen Buchstaben einer bestimmten Schriftart anzupassen. Dabei wird die durch den [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)-Block festgelegte Einheit verwendet. Diese kann positiv oder negativ sein. Beispiel: Bei Verwendung von Fuß ergibt 0.25 einen Abstand von 3" zwischen jedem Buchstaben. Umgekehrt bedeutet -0.25, dass alle Buchstaben um 3" näher beieinander liegen.
 
 ### Multi-Line (Spacing) Mehrzeiliger Abstand
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-Wenn das Textfeld mehrere Zeilen umfasst, wird mit diesem Wert der Abstand zwischen den einzelnen Textzeilen festgelegt. Verwendet die aktuellen FormIt-Einheiten.
+Wenn das Textfeld mehrere Zeilen umfasst, wird mit diesem Wert der Abstand zwischen den einzelnen Textzeilen festgelegt. Dabei wird die durch den [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)-Block festgelegte Einheit verwendet.
 
 ### Invert (Text) Invertieren von Text
 
@@ -79,13 +79,13 @@ Wenn diese Option auf True eingestellt ist, wird ein Volumenkörper um den Text 
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Nur verfügbar, wenn Text invertieren auf True gesetzt ist. Legt die Größe des Rahmens um den Text fest, der für den Volumenkörper verwendet wird, aus dem der Text entfernt wird. Verwendet die aktuellen FormIt-Einheiten.
+Nur verfügbar, wenn Text invertieren auf True gesetzt ist. Legt die Größe des Rahmens um den Text fest, der für den Volumenkörper verwendet wird, aus dem der Text entfernt wird. Dabei wird die durch den [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes)-Block festgelegte Einheit verwendet.
 
 ### Curve Faceting Quality (Kurvenfacettierungsqualität)
 
 Kurven aus Schriftarten werden mithilfe von 3D-Text in Liniensegmente konvertiert. Dieser Wert steuert daher, wie fein die Kurven facettiert werden.
 
-Niedrigere Werte führen zu gröberer Facettierung \(längere Segmente\), höhere Werte zu feineren Facettierungen \(kürzere Segmente\). Dieser Wert überschreibt die Einstellungen für die Facettierung von Kurven und Flächen in FormIt in den Voreinstellungen.
+Niedrigere Werte führen zu gröberer Facettierung (längere Segmente), höhere Werte zu feineren Facettierungen (kürzere Segmente). Dieser Wert überschreibt die Einstellungen für die Facettierung von Kurven und Flächen in FormIt in den Voreinstellungen.
 
 ### Run (Ausführen)
 
@@ -103,7 +103,7 @@ Wenn Sie 3D-Textoptionen iterieren, ist es möglicherweise schneller, den Dynamo
 
 Sie können in der Gruppe Properties (Eigenschaften) auf die Schaltfläche Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) klicken, um den Dynamo-Diagramm-Editor zu starten.
 
-![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
+![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
 
 ## Troubleshooting (Fehlerbehebung)
 
@@ -114,8 +114,3 @@ Bei einigen Schriftarten werden möglicherweise sich selbst schneidende Kurven o
 Wenn Sie beim Ausführen von 3D-Text eine Fehlermeldung erhalten oder Buchstaben nicht mehr angezeigt werden, können Sie auf Edit Embedded Graph (Eingebettetes Diagramm bearbeiten) klicken, um zu sehen, welcher Fehler im Diagramm aufgetreten ist und wo der Fehler liegt.
 
 Einige Schriftarten weisen außerdem bekannte Probleme auf, die verhindern, dass sie in die richtige Geometrie umgewandelt werden. Ein Beispiel dafür ist die Bahnschrift. Wenn Sie eine andere Schriftart verwenden, die Probleme verursacht, [teilen Sie uns dies über die Foren](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=de) mit. Wir werden unser Bestes tun, um Probleme mit bestimmten Schriftarten zu beheben.
-
-
-
-
-

@@ -1,31 +1,31 @@
-# Saving Your Work to GitHub
+# Speichern Ihrer Arbeit in GitHub
 
-As you work on your plugin, you’ll want to save your progress. To make this possible, we have integrated GitHub directly into the Plugin Playground.
+Während Sie an Ihrem Plugin arbeiten, sollten Sie Ihren Fortschritt speichern. Um dies zu ermöglichen, haben wir GitHub direkt in Plugin Playground integriert.
 
-### Adding a New Plugin Project to Your GitHub Account
+### Hinzufügen eines neuen Plugin-Projekts zu Ihrem GitHub-Konto
 
-Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
+Klicken Sie auf die Schaltfläche, um sich bei GitHub anzumelden, und ermöglichen Sie FormIt den Zugriff auf Ihre Repositorys (Projekte).
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (58).png>) button.
+Um ein Projekt zu erstellen, geben Sie einen Namen ein und klicken auf die Schaltfläche ![](<../../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-In a few moments, the newly created project will appear in your projects list. Select the project from the drop-down to load it.
+Das neu erstellte Projekt wird kurz danach in Ihrer Projektliste angezeigt. Wählen Sie das Projekt aus der Dropdown-Liste aus, um es zu laden.
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
-### Save Your Work
+### Speichern Ihrer Arbeit
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
+Wenn Sie Änderungen an Ihrem Plugin vornehmen, klicken Sie auf die Schaltfläche Speichern ![](<../../../.gitbook/assets/image (40).png>), um die Änderungen in Ihrem GitHub-Konto zu speichern.
 
+![](<../../../.gitbook/assets/save a plugin.png>)
 
+### Anzeigen Ihres Projekts in GitHub
 
-### View Your Project in GitHub
+Sie können Ihre Dateien auch direkt in GitHub finden und bearbeiten, indem Sie die GitHub-Schaltfläche verwenden.
 
-You can also find and edit your files directly in GitHub by using the GitHub button.
-
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###

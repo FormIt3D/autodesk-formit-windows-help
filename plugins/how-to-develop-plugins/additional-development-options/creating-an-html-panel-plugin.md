@@ -1,8 +1,8 @@
-# Creating an HTML Panel Plugin
+# Erstellen eines HTML-Gruppen-Plugins
 
 ![](<../../../.gitbook/assets/PANEL BASED PLUGIN.gif>)
 
-A panel-based plugin that displays an HTML page has a _manifest.json_ file with the following structure:
+Ein gruppenbasiertes Plugin, das eine HTML-Seite anzeigt, verfügt über eine _manifest.json_-Datei mit der folgenden Struktur:
 
 ```
 {
@@ -17,12 +17,12 @@ A panel-based plugin that displays an HTML page has a _manifest.json_ file with 
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a panel-based plugin includes these special JSON properties:
+Zusätzlich zu den [Standard-JSON-Eigenschaften](../advanced-development/general-plugin-setup-in-the-manifest.md) enthält ein gruppenbasiertes Plugin die folgenden speziellen JSON-Eigenschaften:
 
-* "Panel" tells FormIt that this plugin is a panel, and links to the location of the HTML file that should be loaded in the panel.
-* The HTML file will need links in the header to the appropriate JavaScript files, as well as to a CSS file for styling.
-* The HTML file will render in the FormIt panel as it would in a browser.
-* You can see examples of rich HTML interfaces in our [FormIt3D organization](https://github.com/FormIt3D/).
-* "PanelIcon" defines an icon for this plugin to appear in the tab on the right side of the application. If undefined, FormIt creates an automatic icon using the initials from the name of the plugin.
+* Panel weist FormIt an, dass es sich bei diesem Plugin um eine Gruppe handelt, und verweist auf den Speicherort der HTML-Datei, die in diese Gruppe geladen werden soll.
+* Die HTML-Datei benötigt im Header Links zu den entsprechenden JavaScript-Dateien sowie zu einer CSS-Datei für die Stilzuweisung.
+* Die HTML-Datei wird in der FormIt-Gruppe wie in einem Browser gerendert.
+* Beispiele für komplexe HTML-Schnittstellen finden Sie in unserer [FormIt3D-Organisation](https://github.com/FormIt3D/).
+* PanelIcon definiert ein Symbol für dieses Plugin, das auf der Registerkarte auf der rechten Seite der Anwendung angezeigt wird. Wenn nicht definiert, erstellt FormIt ein automatisches Symbol mit den Initialen aus dem Namen des Plugins.
 
-Once your HTML, CSS, and JavaScript files are set up, you can begin testing your HTML panel plugin by [loading it or installing it](../advanced-development/setting-up-formit-for-development.md#load-vs.-install).
+Sobald Ihre HTML-, CSS- und JavaScript-Dateien konfiguriert sind, können Sie mit dem Testen des HTML-Gruppen-Plugins beginnen, indem Sie es [laden oder installieren](../advanced-development/setting-up-formit-for-development.md#load-vs.-install).
