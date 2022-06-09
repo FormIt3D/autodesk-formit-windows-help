@@ -1,16 +1,15 @@
-# Reloading for Local Changes
+# Ricaricamento per modifiche locali
 
-While developing a plugin you may need to quickly reload your latest code updates without reloading the whole app. This can be achieved in both web and windows versions of FormIt without reloading the whole app.
+Durante lo sviluppo di un plug-in, potrebbe essere necessario ricaricare rapidamente gli aggiornamenti del codice più recenti senza ricaricare l'intera app. app. Questa operazione può essere eseguita sia nelle versioni di FormIt per il Web che in quelle per Windows senza ricaricare l'intera app.
 
-## Web Reloading
+## Ricaricamento nella versione per il Web
 
-💡 **** To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`&#x20;
+?? Per ricaricare il plug-in nella versione di FormIt per il Web, fare clic con il pulsante destro del mouse sul codice HTML del plug-in e fare clic su `Reload Frame`.
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
-## Windows Reloading
+## Ricaricamento nella versione per Windows
 
-💡 **** To reload your plugin in FormIt windows right-click on the plugin's HTML and click on `Hard Reload` &#x20;
+?? Per ricaricare il plug-in nella versione di FormIt per Windows, fare clic con il pulsante destro del mouse sul codice HTML del plug-in e fare clic su `Hard Reload`.
 
 ![](../../../.gitbook/assets/d18.png)
-

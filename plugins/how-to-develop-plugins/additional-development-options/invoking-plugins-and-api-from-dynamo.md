@@ -1,19 +1,19 @@
-# Invoking Plugins and API from Dynamo
+# Richiamo di plug-in e API da Dynamo
 
-## **Connecting Plugins With Dynamo**
+## **Connessione di plug-in con Dynamo**
 
-FormIt 2022.1 and newer offers access to JavaScript APIs and custom functions from Dynamo via two new nodes:
+FormIt 2022.1 e versioni successive offre l'accesso alle API JavaScript e alle funzioni personalizzate da Dynamo tramite due nuovi nodi:
 
 ### **CallJSAPI** <a href="#calljsapi" id="calljsapi"></a>
 
-The **CallJSAPI** node allows you to invoke FormIt JavaScript APIs directly from Dynamo.
+Il nodo **CallJSAPI** consente di richiamare le API JavaScript di FormIt direttamente da Dynamo.
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallJSAPI-GetTotalGrossArea.png)
 
-For function names and parameters, take a look at our JavaScript documentation, which is divided into two parts: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) and [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (modeling kernel).
+Per i nomi e i parametri delle funzioni, consultare la documentazione su JavaScript, suddivisa in due parti: [API di FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) e [API di WSM](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (kernel di modellazione).
 
 ### **CallPluginJS** <a href="#callpluginjs" id="callpluginjs"></a>
 
-Conversely, the **CallPluginJS** node allows you to invoke custom functions from a loaded plugin, or a script snippet that's been executed from the Script Editor window.
+Al contrario, il nodo **CallPluginJS** consente di richiamare funzioni personalizzate da un plug-in caricato o da un frammento di script eseguito dalla finestra Editor script.
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallPluginJS.png)

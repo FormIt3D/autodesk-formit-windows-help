@@ -2,13 +2,13 @@
 
 Utilizzare i layer per controllare la visibilità degli oggetti di FormIt.
 
-Vedere i layer in azione seguendo la [Guida introduttiva di FormIt.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Vedere i layer in azione seguendo la [Guida introduttiva di FormIt](../formit-primer/part-i/control-visibility-with-layers.md).
 
 ## Creazione e denominazione di layer
 
 Nel pannello Layer, è possibile creare e denominare i layer facendo clic sull'icona "**+**".
 
-![](../.gitbook/assets/layer-locking-image.jpg)
+![](<../.gitbook/assets/layer-locking-image (1).jpg>)
 
 È possibile fare doppio clic sul nome per rinominare il layer o attivare/disattivare la visibilità dei relativi oggetti selezionando e deselezionando la casella a sinistra. Utilizzare la casella di controllo a destra per bloccare e sbloccare i layer. Un layer bloccato sarà ancora visibile ma non selezionabile o modificabile.
 
@@ -25,4 +25,3 @@ In FormIt non esiste il concetto di "layer di default" o "layer di lavoro". Tutt
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
 È inoltre possibile riordinare i layer nel pannello trascinandoli e rilasciandoli in una nuova posizione. Si noti che questo non ha alcun impatto sulla visibilità della geometria, ma è solo uno strumento organizzativo del pannello.
-

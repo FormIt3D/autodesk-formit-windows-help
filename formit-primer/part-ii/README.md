@@ -8,7 +8,7 @@ Se non si conosce FormIt, è consigliabile iniziare con la **Parte I**, poiché 
 
 Consultare le sezioni **Introduzione a FormIt** e **Libreria degli strumenti** per spiegazioni dettagliate su strumenti, barre degli strumenti, tavolozze e processi specifici descritti in questo documento.
 
-![](../../.gitbook/assets/screen1.jpg)
+![](<../../.gitbook/assets/screen1 (1).jpg>)
 
 ### Prerequisiti
 
@@ -16,7 +16,7 @@ Prima di iniziare la Parte II, scaricare e installare FormIt per Windows utilizz
 
 Per la maggior parte dei capitoli, sarà inoltre necessario scaricare e utilizzare il set di dati disponibile al collegamento riportato di seguito.
 
-_Se non è possibile eseguire FormIt per Windows, la maggior parte dell'esercitazione può essere completata utilizzando l'_ [_**applicazione Web **_](https://formit.autodesk.com/app) _gratuita. Per ulteriori informazioni sulle versioni e sulle licenze di FormIt, visitare il_ ****[_**sito Web di FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Se non è possibile eseguire FormIt per Windows, la maggior parte dell'esercitazione può essere completata utilizzando l'_ [_**applicazione Web **_](https://formit.autodesk.com/app)_** gratuita.** Per ulteriori informazioni sulle versioni e sulle licenze di FormIt, visitare il_ [_sito Web di FormIt_](https://formit.autodesk.com)_._
 
 ### Set di dati
 
@@ -24,5 +24,4 @@ Il campus encode, nella figura precedente, è un progetto multiuso fittizio di m
 
 Tutti gli elementi della facciata dell'edificio encode sono controllati dagli script di Dynamo, guidati da un percorso alla base dell'edificio che definisce la forma della facciata.
 
-* \*\*\*\*[**Set di dati della Parte II della Guida introduttiva di FormIt**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
-
+* [**Set di dati della Parte II della Guida introduttiva di FormIt**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)

@@ -1,14 +1,14 @@
-# Creating an Add-In
+# Creazione di un modulo aggiuntivo
 
-An Add-In is a plugin that also loads DLLs that expose new JavaScript APIs.&#x20;
+Un modulo aggiuntivo è un plug-in che carica anche le DLL che espongono nuove API JavaScript.&#x20;
 
 
 
-### Download FormIt API
+### Download dell'API di FormIt
 
-To build DLLs that support FormIt, the FormIt API is needed. The FormIt API can be downloaded from the [Autdesk Developers Network](https://www.autodesk.com/developer-network/overview). A login is needed to access the download.&#x20;
+Per creare DLL che supportino FormIt, è necessaria l'API di FormIt. L'API di FormIt può essere scaricata da [Autodesk Developers Network](https://www.autodesk.com/developer-network/overview). Per accedere al download, è necessario eseguire l'accesso.&#x20;
 
-Once logged in, the FormIt API is available under SOFTWARE.
+Una volta eseguito l'accesso, l'API di FormIt è disponibile in SOFTWARE.
 
 &#x20;
 
@@ -16,9 +16,9 @@ Once logged in, the FormIt API is available under SOFTWARE.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FormItAPIMenuItem.jpg)
 
-An Add-In has access to the [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) and [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+Un modulo aggiuntivo dispone dell'accesso all'[API di FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) e all'[API C++ del kernel di modellazione di FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
 
-An add-in has the following structure:
+Un modulo aggiuntivo presenta la seguente struttura:
 
 ```
             // FormIt looks for REGISTERAPIMETHODS to load new JS APIs
@@ -35,10 +35,10 @@ An add-in has the following structure:
                 ...
                 ...
             }
-        
+
 ```
 
-To get the arguements into C++ variables use SCRIPTCONVERTER-
+Per ottenere gli argomenti nelle variabili C++, utilizzare SCRIPTCONVERTER.
 
 ```
             // Create a JS API with 2 argument
@@ -51,10 +51,10 @@ To get the arguements into C++ variables use SCRIPTCONVERTER-
                 SCRIPTCONVERTER(int, arg2);
                 return JSON_UNDEFINED;
             }
-        
+
 ```
 
-Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to convert your C++ variable to json
+Può essere restituito JSON\_UNDEFINED o qualsiasi oggetto JSON. Utilizzare to\_json per convertire la variabile C++ in JSON.
 
 ```
             // Create a JS API with 2 argument
@@ -69,16 +69,16 @@ Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to conve
                 std::string myValue = "Test";
                 return to_json(myValue);
             }
-        
+
 ```
 
-Once the DLL is defining all the needed JS APIs, the plugin must tell FormIt what DLLs need loaded. This is done in the [manifest](https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8).
+Una volta definite tutte le API JS necessarie tramite la DLL, il plug-in deve indicare a FormIt quali DLL devono essere caricate. Questa operazione viene eseguita nel file [manifesto]( https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8).
 
 ```
         "DLLs" : ["PLUGINLOCATION/MyClass.dll", "PLUGINLOCATION/HelloDLL.dll"]
-        
+
 ```
 
-[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) is a working example that explains how to make an Add-In.
+[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) è un esempio pratico che spiega come creare un modulo aggiuntivo.
 
-[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) is a working example that explains how to make an Add-In with the [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) è un esempio pratico che spiega come creare un modulo aggiuntivo con l'[API C++ del kernel di modellazione di FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).

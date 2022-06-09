@@ -8,9 +8,8 @@ Per informazioni su come modificare il piano di base, vedere [Stili di visualizz
 
 Ruotare gli [Assi globali](world-axes.md) sul piano di un altro oggetto nel disegno. Così il piano di lavoro attivo verrà allineato in modo da corrispondere a questa superficie. È ora possibile disegnare, posizionare gli elementi e modificare gli elementi rispetto al nuovo piano XY, anziché al piano del terreno di default. È possibile eseguire l'orbita dietro o sotto la griglia e i piani di lavoro per eseguire lo snap e la deduzione agli elementi che si trovano dietro.
 
-È possibile attivare e disattivare la visibilità della linea di griglia per utilizzare il disegno basato sul piano di lavoro. È possibile controllare questa impostazione in Stile visualizzazione &gt; Ambiente &gt; **Visualizza: Griglia \(DG\).**
+È possibile attivare e disattivare la visibilità della linea di griglia per utilizzare il disegno basato sul piano di lavoro. È possibile controllare questa impostazione in Stile visualizzazione > Ambiente > **Visualizza: Griglia (DG).**
 
-È inoltre possibile controllare se eseguire lo snap alla griglia durante il disegno. Attivare e disattivare questa impostazione in Impostazioni &gt; **Snap alla griglia \(SG\).**
+È inoltre possibile controllare se eseguire lo snap alla griglia durante il disegno. Attivare e disattivare questa impostazione in Impostazioni > **Snap alla griglia (SG).**
 
 ![](../.gitbook/assets/work-plane.gif)
-

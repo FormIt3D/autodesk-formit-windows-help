@@ -13,11 +13,11 @@ Per accedere alla finestra di dialogo Imposta posizione e ai relativi servizi, �
 
 * Avviare la finestra di dialogo **Imposta posizione** dallo strumento **Posizione** sulla barra degli strumenti o con i tasti di scelta rapida SL.
 
-![](../.gitbook/assets/location-toolbar.png)
+![](<../.gitbook/assets/location-toolbar (1).png>)
 
-* Iniziare digitando la posizione del progetto nella casella di ricerca nell'angolo superiore sinistro della finestra _Imposta posizione_.
+* Iniziare digitando la posizione del progetto nella casella di ricerca nell'angolo superiore sinistro della finestra _Imposta posizione_.&#x20;
 
-![](../.gitbook/assets/location-step-1%20%281%29.png)
+![](<../.gitbook/assets/location-step-1 (1).png>)
 
 * Selezionare una delle opzioni di composizione automatica della posizione oppure premere INVIO per scegliere la prima opzione.
 * Verrà eseguito lo zoom avanti della posizione cercata automaticamente.
@@ -38,7 +38,7 @@ Dopo aver cercato una posizione, è possibile scegliere una delle due opzioni:
 
 * Trascinare le immagini satellitari all'interno del quadrato per regolarne la posizione.
 * Una volta che l'area quadrata ha incapsulato le immagini desiderate, fare clic su **Termina importazione dell'immagine**.
-* L'immagine verrà importata in scala, con il nord reale rivolto verso l'alto, centrato in corrispondenza dell'origine dell'area di disegno di FormIt. È possibile modificare la trasparenza e l'ordinamento Z dell'immagine importata facendo doppio clic e accedendo alla [**tavolozza Proprietà**](../formit-introduction/tool-bars.md).
+* L'immagine verrà importata in scala, con il nord reale rivolto verso l'alto, centrato in corrispondenza dell'origine dell'area di disegno di FormIt. È possibile modificare la trasparenza e l'ordinamento Z dell'immagine importata facendo doppio clic e accedendo alla [**tavolozza Proprietà**](../formit-introduction/tool-bars.md).&#x20;
 
 ![](../.gitbook/assets/location-step-3.png)
 
@@ -50,7 +50,7 @@ Dopo aver importato per la prima volta immagini satellitari, è possibile utiliz
 * Fare clic su **Importa immagine satellitare e terreno.**
 * Verranno visualizzati il livello di zoom e le estensioni dell'immagine satellitare corrente, come mostrato nell'area di disegno di FormIt.
 * È sufficiente regolare la posizione o lo zoom e fare clic su **Termina importazione dell'immagine** come in precedenza.
-* Quando l'immagine viene reimportata nell'area di disegno, verrà spostata nella posizione corretta rispetto alla posizione originale \(e potrebbe non essere più centrata in corrispondenza dell'origine\):
+* Quando l'immagine viene reimportata nell'area di disegno, verrà spostata nella posizione corretta rispetto alla posizione originale (e potrebbe non essere più centrata in corrispondenza dell'origine):
 
 ![](../.gitbook/assets/location-step-4.png)
 
@@ -58,15 +58,15 @@ Dopo aver importato per la prima volta immagini satellitari, è possibile utiliz
 
 Novità di FormIt 2021.3: quando si utilizza la finestra di dialogo **Imposta posizione** per importare immagini satellitari, verrà incluso anche il terreno.
 
-![](../.gitbook/assets/terrain-button_original.png)
+![](../.gitbook/assets/terrain-button\_original.png)
 
-Quando il terreno viene importato, viene posizionato su un layer, che è disattivato per default \(nel caso in cui sia stata avviata la modellazione, il modello potrebbe essere coperto dal terreno\).
+Quando il terreno viene importato, viene posizionato su un layer, che è disattivato per default (nel caso in cui sia stata avviata la modellazione, il modello potrebbe essere coperto dal terreno).
 
 Quando si è pronti per visualizzare il terreno, attivare o disattivare il layer Terrain selezionando la casella:
 
-![](../.gitbook/assets/terrain-layer%20%281%29.png)
+![](<../.gitbook/assets/terrain-layer (1) (1).png>)
 
-![](../.gitbook/assets/terrain_solid.png)
+![](../.gitbook/assets/terrain\_solid.png)
 
 ### Utilizzo di Terrain
 
@@ -97,3 +97,12 @@ Il risultato sarà il terreno con il solido di taglio rimosso, che espone il vuo
 
 È possibile utilizzare i [layer](layers.md) per nascondere il solido di taglio o anche per creare copie del terreno con e senza il taglio, nel caso in cui sia necessario fare riferimento al terreno originale o modificare la forma di taglio prima di eseguire l'operazione di taglio del solido.
 
+### Risoluzione dei problemi della finestra di dialogo Imposta posizione
+
+L'impostazione di una posizione in FormIt richiede una connessione ad Internet per scaricare i dati satellitari e del terreno da Bing Maps.
+
+Inoltre, poiché la finestra di dialogo Imposta posizione è come un plug-in di FormIt, richiede l'accesso a GitHub per poter funzionare. Se si verificano problemi con la finestra di dialogo Imposta posizione, verificare di disporre dell'accesso a [https://github.io](https://github.io):&#x20;
+
+* Accedere al browser Web.
+* Provare ad accedere a [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json).
+* Se alcuni dati non vengono visualizzati, è possibile che la rete o il firewall blocchi l'accesso a GitHub.

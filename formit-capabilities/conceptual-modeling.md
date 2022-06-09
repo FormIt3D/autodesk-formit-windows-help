@@ -15,8 +15,3 @@ Il kernel di modellazione di solidi di FormIt consente di ottenere straordinari 
 **Inoltre, è possibile utilizzare gli strumenti di selezione intelligente per selezionare rapidamente la geometria simile ed evitare di fare clic più volte:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

@@ -4,7 +4,7 @@ Utilizzare lo strumento Arco per creare semicerchi o archi simmetrici. È possib
 
 ## Arco per tre punti
 
-![](../.gitbook/assets/arc_three_pts.png)
+![](../.gitbook/assets/arc\_three\_pts.png)
 
 Un arco è definito da tre punti e può essere disegnato sugli assi X, Y e Z. Definire il primo punto, quindi determinare una distanza dal primo al secondo punto e infine un terzo punto per l'altezza dell'arco. Verrà automaticamente fornito un punto "a semicerchio" a cui è possibile eseguire lo snap; oltre a questo, la linea dell'arco si estenderà oltre i primi due punti.
 
@@ -16,9 +16,8 @@ Dopo aver disegnato l'arco, è possibile creare una superficie utilizzando lo [s
 
 ## Arco per centro
 
-![](../.gitbook/assets/arc-by-center%20%281%29.png)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Scegliere il punto medio dell'arco, quindi trascinare per scegliere il centro e trascinare per definire la lunghezza dell'arco. È sufficiente digitare un valore per immettere un numero preciso di gradi per l'arco.
 
-![](../.gitbook/assets/arc_circle_demo.gif)
-
+![](../.gitbook/assets/arc\_circle\_demo.gif)

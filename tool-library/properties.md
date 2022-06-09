@@ -4,7 +4,4 @@ Nella **tavolozza Proprietà** vengono visualizzate le informazioni e i dati rel
 
 Utilizzando la tavolozza Proprietà, è possibile modificare il gruppo di un oggetto, assegnare un oggetto ad un layer e modificare il materiale di un oggetto.
 
-![](../.gitbook/assets/properties_palette.png)
-
-
-
+![](../.gitbook/assets/properties\_palette.png)

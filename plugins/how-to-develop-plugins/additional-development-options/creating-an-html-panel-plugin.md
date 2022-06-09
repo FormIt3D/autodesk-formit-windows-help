@@ -1,8 +1,8 @@
-# Creating an HTML Panel Plugin
+# Creazione di un plug-in del pannello HTML
 
 ![](<../../../.gitbook/assets/PANEL BASED PLUGIN.gif>)
 
-A panel-based plugin that displays an HTML page has a _manifest.json_ file with the following structure:
+Un plug-in basato sul pannello che visualizza una pagina HTML presenta un file _manifest.json_ con la seguente struttura:
 
 ```
 {
@@ -17,12 +17,12 @@ A panel-based plugin that displays an HTML page has a _manifest.json_ file with 
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a panel-based plugin includes these special JSON properties:
+Oltre alle [proprietà JSON standard](../advanced-development/general-plugin-setup-in-the-manifest.md), un plug-in basato sul pannello include le seguenti proprietà JSON speciali:
 
-* "Panel" tells FormIt that this plugin is a panel, and links to the location of the HTML file that should be loaded in the panel.
-* The HTML file will need links in the header to the appropriate JavaScript files, as well as to a CSS file for styling.
-* The HTML file will render in the FormIt panel as it would in a browser.
-* You can see examples of rich HTML interfaces in our [FormIt3D organization](https://github.com/FormIt3D/).
-* "PanelIcon" defines an icon for this plugin to appear in the tab on the right side of the application. If undefined, FormIt creates an automatic icon using the initials from the name of the plugin.
+* "Panel" indica a FormIt che questo plug-in è un pannello e si collega alla posizione del file HTML che deve essere caricato nel pannello.
+* Il file HTML richiede collegamenti, nell'intestazione, ai file JavaScript appropriati, nonché a un file CSS per gli stili.
+* Il file HTML verrà sottoposto a rendering nel pannello di FormIt come in un browser.
+* È possibile vedere esempi di interfacce HTML complete nel nostro [repository dell'organizzazione di FormIt3D](https://github.com/FormIt3D/).
+* "PanelIcon" definisce un'icona per visualizzare questo plug-in nella scheda sul lato destro dell'applicazione. Se non è definita, FormIt crea un'icona automatica utilizzando le iniziali del nome del plug-in.
 
-Once your HTML, CSS, and JavaScript files are set up, you can begin testing your HTML panel plugin by [loading it or installing it](../advanced-development/setting-up-formit-for-development.md#load-vs.-install).
+Una volta impostati i file HTML, CSS e JavaScript, è possibile iniziare a testare il plug-in del pannello HTML [caricandolo o installandolo](../advanced-development/setting-up-formit-for-development.md#load-vs.-install).

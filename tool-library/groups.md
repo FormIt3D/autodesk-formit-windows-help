@@ -6,7 +6,7 @@ I gruppi possono essere creati e modificati in due modi: dal menu contestuale di
 
 ## Interazioni tra gruppi
 
-Per **creare un gruppo**, selezionare gli elementi che si desidera raggruppare, che possono includere bordi, superfici, solidi o altri gruppi, e fare clic con il pulsante destro del mouse. Scegliere lo strumento **Gruppo \(G\)** dal menu contestuale. Le immagini importate e le immagini satellitari non possono essere raggruppate.
+Per **creare un gruppo**, selezionare gli elementi che si desidera raggruppare, che possono includere bordi, superfici, solidi o altri gruppi, e fare clic con il pulsante destro del mouse. Scegliere lo strumento **Gruppo (G)** dal menu contestuale. Le immagini importate e le immagini satellitari non possono essere raggruppate.
 
 Per **selezionare un gruppo**, fare un singolo clic sul gruppo. Notare le linee tratteggiate visualizzate quando si seleziona un gruppo. Queste linee indicano la dimensione totale del gruppo.
 
@@ -55,4 +55,3 @@ Se si conoscono bene le **famiglie** di Revit, si avrà familiarità con il conc
 È inoltre possibile utilizzare il pannello **Proprietà** per specificare un nome per il gruppo di FormIt. Ciò può essere utile per navigare nel modello e, quando si importa il modello in Revit, è possibile filtrare facilmente gli elementi utilizzando il nome del gruppo.
 
 Notare che **i gruppi nidificati in FormIt non vengono importati in Revit come gruppi nidificati**. In questo modo si evitano le famiglie di Revit nidificate in profondità.
-

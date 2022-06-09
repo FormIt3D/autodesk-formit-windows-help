@@ -1,10 +1,10 @@
-# Previewing a Plugin in the Plugin Manager
+# Anteprima di un plug-in in Plugin Manager
 
-To preview a plugin in the Plugin Manager before it's pushed to GitHub, paste the localhost URL into the field at the bottom of the Plugin Manager and click Add ![](<../../../.gitbook/assets/image (44).png>):
+Per visualizzare l'anteprima di un plug-in in Plugin Manager prima che venga inviato a GitHub, incollare l'URL localhost nel campo nella parte inferiore di Plugin Manager e fare clic sull'icona di aggiunta ![](<../../.gitbook/assets/image (44).png>):
 
 ![](<../../../.gitbook/assets/image (16).png>)
 
-Then look for your plugin in the Installed section at the top:
+Quindi, cercare il plug-in nella sezione Installed in alto:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerInstalledList.png)
 

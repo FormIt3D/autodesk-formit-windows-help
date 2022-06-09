@@ -8,9 +8,9 @@ Per semplificare il disegno e la modellazione, utilizzare gli snap e i punti di 
 
 Esistono diversi snap che possono essere utili durante il disegno e la modellazione. Lo snap ad oggetti viene attivato automaticamente ed è possibile eseguire lo snap a:
 
-|                                                                                                                                                                            |                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Vertici | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+|                                                                                                                                                                            |                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| Vertici | ![](<../.gitbook/assets/inf3 (3).png>) |
 | Bordi. Quando si posiziona il cursore sul bordo, verranno disegnati piccoli punti rossi in corrispondenza delle        estremità e del punto medio. | ![](../.gitbook/assets/inf4.png) |
 | Punti medi del bordo | ![](../.gitbook/assets/inf5.png) |
 | Il piano di una superficie. Quando si posiziona il cursore sulla superficie, verrà disegnato un piccolo punto rosso

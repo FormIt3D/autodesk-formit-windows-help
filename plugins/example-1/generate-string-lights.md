@@ -1,34 +1,34 @@
 # Generate String Lights
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_In questo capitolo, illustreremo alcuni dei plug-in forniti con FormIt per apportare alcuni miglioramenti al file_ _**Encode Campus Sample Model.axm**. Se non è già stato fatto, è possibile scaricare il file dal_ [_set di dati della Parte II della Guida introduttiva di FormIt_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip).
 
-_This neat plugin lets you quickly add hanging lights to your model based on a line or curve._
+_Questo nuovo plug-in consente di aggiungere rapidamente al modello luci sospese in base ad una linea o una curva._
 
-1 - Before adding any new lights, let's check out the intended result using a premade scene in the model.
+1 - Prima di aggiungere eventuali nuove luci, controlliamo il risultato desiderato utilizzando una scena predefinita nel modello.
 
-1. To jump to the scene containing existing string lights, open the **Scenes Palette** and double click on the scene named **Eye Level – Short Alley**.
-2. Notice the string lights that came with this model – that is what we are going to recreate, but somewhere else.
-3. In the **Layer Palette**, turn on the **Helper Geometry** layer so you can see the original lines used to generate these string lights.
+1. Per passare alla scena contenente luci stringa esistenti, aprire la **tavolozza Scene** e fare doppio clic sulla scena denominata **Eye Level – Short Alley**.
+2. Notare le luci stringa fornite con questo modello: è quello che ricreeremo, ma aggiungendo qualche altro elemento.
+3. Nella **tavolozza Layer**, attivare il layer **Helper Geometry** in modo da visualizzare le linee originali utilizzate per generare queste luci stringa.
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - Now let’s navigate to the other alley and add some lights. In the **Scenes Palette** open the **Eye Level – Long Alley** scene. Notice that this alley does not yet have any string lights.
+2 - Ora passiamo all'altro vialetto e aggiungiamo alcune luci. Nella **tavolozza Scene**, aprire la scena **Eye Level – Long Alley**. Notare che in questo vialetto non sono ancora presenti eventuali luci stringa.
 
-3 - To create a new string of lights:
+3 - Per creare una nuova stringa di luci:
 
-1. Open the newly installed **Generate String Lights Palette** by clicking on the string light icon. By default, the icons for new plugins appear at the bottom.
-2. Change the **Number of Fixtures** option to **10**.
-3. Double-click on one of the helper lines to edit the pre-created **String Lights – Long Alley** group. Then single-click on one of the pre-drawn helper lines to select it.
-4. Click the **Generate String Lights** button inside the plugin’s palette, and a new string of lights should appear! Note that each string of lights is created as its own unique group.
+1. Aprire la **tavolozza Generate String Lights** appena installata facendo clic sull'icona della luce stringa. Per default, le icone per i nuovi plug-in vengono visualizzate nella parte inferiore.
+2. Modificare l'opzione **Number of Fixtures** in **10**.
+3. Fare doppio clic su una delle linee guida per modificare il gruppo **String Lights – Long Alley** pre-creato. Quindi fare clic una sola volta su una delle linee guida pre-disegnate per selezionarlo.
+4. Fare clic sul pulsante **Generate String Lights** all'interno della tavolozza del plug-in. Dovrebbe essere visualizzata una nuova stringa di luci. Si noti che ogni stringa di luci viene creata come gruppo univoco.
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
-_**Note:**_ _It is OK that some of the lines are going through the “Groove Coffee” sign, because the string light plugin creates a catenary curve that will sag realistically below the sign._
+_**Nota**_ _È possibile che alcune linee passino attraverso l'insegna "Groove Coffee", poiché il plug-in della luce stringa crea una curva catenaria che va a sparire in maniera realistica sotto l'insegna stessa._
 
-4 - Try creating some more string lights by using the other pre-made helper line and/or creating some of your own helper lines. Play around with the plugin’s settings to get different results.
+4 - Provare a creare più luci stringa utilizzando le altre linee guida predefinite e/o creando alcune linee guida personalizzate. Utilizzare le impostazioni del plug-in per ottenere risultati diversi.
 
-5 - To help keep the model organized, when finished we recommend grouping all the helper lines and placing that group on the **Helper Geometry** layer, as well as assigning all string light groups to the **Context – Exterior Lighting** layer. This will prevent the helper lines from showing up in any of the ‘Eye Level’ scenes where we do not want to see them. When finished, the results should look something like the next screenshot.
+5 - Per mantenere ordinato il modello, al termine consigliamo di raggruppare tutte le linee guida e posizionare tale gruppo sul layer **Helper Geometry**, nonché assegnare tutti i gruppi di luci stringa al layer **Context – Exterior Lighting**. Ciò impedirà la visualizzazione delle linee guida in una qualsiasi delle scene "Eye Level" dove non desideriamo vederle. Al termine, i risultati dovrebbero essere simili alla schermata successiva.
 
 ![](<../../.gitbook/assets/5 (3) (1).png>)
 
-_**Note:**_ _Unlike geometry created from a Dynamo script, which can be updated and regenerated through the_ _**Properties Palette**, objects created by a plugin are (for the most part) just regular FormIt geometry. Once created, they can only be edited using FormIt’s built in modeling tools._
+_**Nota**_ _A differenza della geometria creata da uno script di Dynamo, che può essere aggiornata e rigenerata mediante la_ _**tavolozza Proprietà**, gli oggetti creati da un plug-in sono (per la maggior parte) solo la normale geometria di FormIt. Una volta creati, possono essere modificati solo utilizzando gli strumenti di modellazione incorporati di FormIt._

@@ -13,4 +13,3 @@ Le spline possono anche chiudersi su se stesse creando una superficie.
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
-

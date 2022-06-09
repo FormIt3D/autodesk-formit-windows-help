@@ -8,13 +8,13 @@ Quando si apre un disegno vuoto in FormIt, gli assi globali vengono visualizzati
 
 ![](../.gitbook/assets/axis.png)
 
-Per ruotare la griglia e ridefinire il punto di origine per il disegno, **fare clic con il pulsante destro del mouse** sullo spazio vuoto nella scena e scegliere l'icona **Imposta assi \(SZ\)** dal menu contestuale.  
-![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png)
+Per ruotare la griglia e ridefinire il punto di origine per il disegno, **fare clic con il pulsante destro del mouse** sullo spazio vuoto nella scena e scegliere l'icona **Imposta assi (SZ)** dal menu contestuale.\
+![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
 
-Viene visualizzato il widget Imposta assi. Fare clic sul grip grande al centro per selezionare il widget. Fare nuovamente clic per impostare il punto di origine. Ora fare clic sul punto sull'asse rosso per ruotare la griglia oppure fare clic sul punto sull'asse blu per ruotare il piano della griglia verticalmente. Fare clic nello spazio per confermare la modifica.  
-![](../.gitbook/assets/2021-01-14_12-30-10.gif)
+Viene visualizzato il widget Imposta assi. Fare clic sul grip grande al centro per selezionare il widget. Fare nuovamente clic per impostare il punto di origine. Ora fare clic sul punto sull'asse rosso per ruotare la griglia oppure fare clic sul punto sull'asse blu per ruotare il piano della griglia verticalmente. Fare clic nello spazio per confermare la modifica.\
+![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
 
-Per **ripristinare** l'impostazione di default dell'origine e della griglia, fare clic con il pulsante destro del mouse sullo spazio vuoto nella scena e scegliere **Reimposta assi \(RZ\)**.
+Per **ripristinare** l'impostazione di default dell'origine e della griglia, fare clic con il pulsante destro del mouse sullo spazio vuoto nella scena e scegliere **Reimposta assi (RZ)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
@@ -27,4 +27,3 @@ Nei passaggi precedenti viene illustrato come controllare il **sistema di coordi
 * Gli **assi rosso, verde e blu** vengono visualizzati quando si lavora con gli strumenti di disegno per guidare il disegno 3D.
 * L'**asse viola** visualizza un asse perpendicolare e parallelo rispetto alle linee disegnate ad un angolo.
 * Tenere premuto il **tasto MAIUSC** durante il disegno o lo spostamento per **bloccare l'asse corrente**.
-

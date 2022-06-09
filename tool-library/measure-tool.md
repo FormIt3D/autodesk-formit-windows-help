@@ -8,7 +8,6 @@ L'utensile **Misura** si trova sulla [barra degli strumenti](../formit-introduct
 2. Selezionare due punti per misurare la distanza tra di essi.
 3. Selezionare una superficie o un bordo da regolare, fare clic sul valore visualizzato e aggiungere un nuovo valore nella finestra di dialogo visualizzata.
 
-![](../.gitbook/assets/measure%20%281%29.png)  
-![](../.gitbook/assets/measure2.png)  
+![](<../.gitbook/assets/measure (1).png>)\
+![](<../.gitbook/assets/measure2 (1).png>)\
 ![](../.gitbook/assets/measure3.png)
-

@@ -1,31 +1,31 @@
-# Publishing Your Project
+# Pubblicazione del progetto
 
-### Publishing from the Plugin Playground
+### Pubblicazione da Plugin Playground
 
-When you’re ready to share your plugin with others, use the Publish![](<../../../.gitbook/assets/image (66).png>)button to publish your project.
+Quando si è pronti a condividere il plug-in con altri utenti, utilizzare il pulsante di pubblicazione![](<../../../.gitbook/assets/image (66).png>)per pubblicare il progetto.
 
-![](https://formit3d.github.io/PluginPlayground/images/save4.png)
+![](<../../../.gitbook/assets/publish a plugin.png>)
 
 ###
 
-### Hosting Your Plugin on GitHub
+### Hosting del plug-in su GitHub
 
-Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+Attivare GitHub Pages nel repository in modo che FormIt possa caricare e visualizzare i plug-in ospitati su GitHub.
 
-Go to your new [GitHub ](https://github.com)plugins repo, for example, [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn)
+Accedere al nuovo repository dei plug-in [GitHub ](https://github.com), ad esempio [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn).
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+Nel menu superiore, fare clic su Settings > Pages. In Source, fare clic sul pulsante None e selezionare il ramo principale. Fare clic su Salva.
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
-### Deploying Your Plugin in FormIt&#x20;
+### Installazione client del plug-in in FormIt
 
-To use a plugin hosted on GitHub, copy the plugin page link, go to the Plugin Manager and scroll to the bottom, and paste the link in the field under Add Your Private or Local Plugin. Then click the Add ![](<../../../.gitbook/assets/image (58).png>) button.
+Per utilizzare un plug-in ospitato su GitHub, copiare il collegamento alla pagina del plug-in, passare a Plugin Manager e scorrere verso il basso, quindi incollare il collegamento nel campo sotto Add Your Private or Local Plugin. Quindi fare clic sul pulsante di aggiunta ![](<../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (80).png>)
 
 ![](<../../../.gitbook/assets/image (85).png>)
 
-Once the plugin is installed, it will be added to the bottom of your toolbar, ready to use.
+Una volta installato, il plug-in verrà aggiunto alla parte inferiore della barra degli strumenti, pronto per l'uso.
 
 ![](<../../../.gitbook/assets/image (38).png>)

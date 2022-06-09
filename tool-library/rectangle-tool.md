@@ -21,4 +21,3 @@ Colori delle linee per asse:
 ![](../.gitbook/assets/rectangle2.png)
 
 Una volta completato il disegno, il rettangolo diventa una superficie che può essere estrusa per creare un volume.
-

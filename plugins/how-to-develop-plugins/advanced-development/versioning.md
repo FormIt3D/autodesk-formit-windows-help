@@ -1,22 +1,22 @@
-# Versioning
+# Controllo delle versioni
 
-As you develop and update your plugin, at some point, you may need to version the code.
+Durante lo sviluppo e l'aggiornamento del plug-in, ad un certo punto potrebbe essere necessario specificare una versione del codice.
 
-For example, FormIt's APIs may change between releases, and while you may want the new version of your plugin to use new FormIt or WSM APIs, you'd also like to keep the plugin working in older clients.
+Ad esempio, le API di FormIt possono cambiare da una release all'altra e, sebbene si desideri la nuova versione del plug-in per utilizzare le nuove API di FormIt o WSM, si desidera anche mantenere funzionante il plug-in in client meno recenti.
 
-Starting with FormIt **v18.0**, you can implement versioning for your plugin in 3 simple steps:
+A partire da FormIt **v18.0**, è possibile implementare il controllo delle versioni per il plug-in in 3 semplici passaggi:
 
-* Add a _versions.json_ file to the root of your plugin directory
-* Specify each compatible FormIt version, and the directory containing those plugin files, in _versions.json_
-* Use the FormIt internal version number, or "Build Number", found in FormIt under Info > About.
+* Aggiungere un file _versions.json_ alla directory principale del plug-in.
+* Specificare ogni versione compatibile di FormIt e la directory contenente tali file di plug-in in _versions.json_.
+* Utilizzare il numero di versione interna di FormIt, o il numero di build, disponibile in FormIt in Info > Informazioni su.
 
 
 
-### How to organize versioning for your plugin
+### Come organizzare il controllo delle versioni per il plug-in
 
-Organize your plugin files and directories to match _versions.json_
+Organizzare i file e le directory dei plug-in in modo che corrispondano a _versions.json_.
 
-Your _versions.json_ should look like this:
+Il file _versions.json_ dovrebbe essere simile al seguente:
 
 ```
         [
@@ -35,10 +35,10 @@ Your _versions.json_ should look like this:
                 "path":"v19_0"
             }
         ]
-        
+
 ```
 
-The above paths _v18\_0_ and _v19\_0_ must be valid subpaths from the root of your directory/repository.
+I percorsi precedenti _v18\_0_ e _v19\_0_ devono essere percorsi secondari validi della directory principale/del repository.
 
 ![](../../../.gitbook/assets/i1.png)
 
@@ -46,22 +46,22 @@ The above paths _v18\_0_ and _v19\_0_ must be valid subpaths from the root of yo
 
 ![](../../../.gitbook/assets/i3.png)
 
-A great way to handle this is to move your plugin code into subdirectories. Using the above _versions.json_, a directory structure would look like this:
+Un modo efficace per gestire questa situazione consiste nello spostare il codice del plug-in nelle sottodirectory. Utilizzando il file _versions.json_ riportato sopra, una struttura di directory sarebbe simile alla seguente:
 
 * **versions.json** (file)
-*   **v18\_0** (directory)
+* **v18\_0** (directory)
 
-    * **manifest.json** (file)
-    * **plugin.html** (file)
-    * **plugin.js** (file)
+   * **manifest.json** (file)
+   * **plugin.html** (file)
+   * **plugin.js** (file)
 
 
 * **v19\_0** (directory)
-  * **manifest.json** (file)
-  * **plugin.html** (file)
-  * **plugin.js** (file)
+   * **manifest.json** (file)
+   * **plugin.html** (file)
+   * **plugin.js** (file)
 
-Optional properties on version are "exactVersion" and "lastVersion". "exactVersion" indicates the version has to match FormIt's version exactly. "lastVersion" indicates the last version allowed to run in FormIt.\
+Le proprietà facoltative della versione sono "exactVersion" e "lastVersion". "exactVersion" indica che la versione deve corrispondere esattamente a quella di FormIt. "lastVersion" indica l'ultima versione consentita per l'esecuzione in FormIt.\
 
 
 ```
@@ -85,10 +85,10 @@ Optional properties on version are "exactVersion" and "lastVersion". "exactVersi
  ]
 ```
 
-It's also possible to use git branches/tags/commits for your paths.
+È inoltre possibile utilizzare rami/tag/commit Git per i percorsi.
 
-If you're working with a pre-release or beta build of FormIt, and would like to test changes to a plugin that only works with the pre-release version:
+Se si utilizza una build pre-release o beta di FormIt e si desidera testare le modifiche apportate ad un plug-in che funziona solo con la versione pre-release:
 
-* Follow the steps above, except using the filename _versions\_prerelease.json_
-* If you commit _versions\_prerelease_ to your repo, you'll want to remove it when that pre-release version of FormIt is released
-  * Otherwise, future pre-release FormIt versions will be loading the plugin from a location that could be stale or intended for an older version
+* Seguire i passaggi descritti sopra, tranne l'utilizzo del nome file _versions\_prerelease.json_.
+* Se si conferma _versions\_prerelease_ nel repository, sarà necessario rimuoverlo quando viene rilasciata la versione pre-release di FormIt.
+   * In caso contrario, le versioni di FormIt pre-release future caricheranno il plug-in da una posizione che potrebbe essere obsoleta o destinata ad una versione precedente.

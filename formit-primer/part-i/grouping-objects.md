@@ -8,25 +8,25 @@ _Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.5
 
 1 - Selezionare la massa della terrazza superiore facendo doppio clic.
 
-2 - Fare clic con il pulsante destro del mouse e selezionare **Gruppo \(G\)** oppure premere semplicemente **G**.
+2 - Fare clic con il pulsante destro del mouse e selezionare **Gruppo (G)** oppure premere semplicemente **G**.
 
-![](../../.gitbook/assets/0%20%281%29.jpeg)
+![](<../../.gitbook/assets/0 (1).jpeg>)
 
 3 - Notare che dopo la creazione di un gruppo, viene automaticamente aperto lo strumento Sposta.
 
 ## **Spostamento di un gruppo**
 
-1 - Per facilitare il processo di modellazione, attivare l'opzione **Snap alla griglia \(SG\)**, se è disattivata.
+1 - Per facilitare il processo di modellazione, attivare l'opzione **Snap alla griglia (SG)**, se è disattivata.
 
-![](../../.gitbook/assets/1%20%2814%29.png)
+![](<../../.gitbook/assets/1 (14).png>)
 
-2 - Per iniziare a spostare l'oggetto selezionato, mentre è ancora attivo il comando **Sposta \(M\)**, fare clic una volta su qualsiasi angolo inferiore della massa. Spostare quindi il cursore verso l'alto. Dovrebbe essere visualizzata una linea dell'asse blu \(Z\). Questa linea aiuterà a spostare l'oggetto verso l'alto.
+2 - Per iniziare a spostare l'oggetto selezionato, mentre è ancora attivo il comando **Sposta (M)**, fare clic una volta su qualsiasi angolo inferiore della massa. Spostare quindi il cursore verso l'alto. Dovrebbe essere visualizzata una linea dell'asse blu (Z). Questa linea aiuterà a spostare l'oggetto verso l'alto.
 
 3 - Con l'asse blu visibile, digitare **4'-6"**. Verrà visualizzata una finestra di dialogo per definire la quota. Dopo aver immesso la quota, fare clic su **OK** o premere **INVIO** sulla tastiera. In questo modo, l'intera massa verrà spostata verso l'alto, lontano dal piano del terreno lungo l'**asse Z**.
 
-_**Nota**_ _Analogamente a Revit, è anche possibile digitare_ _**4'6**,_ _**4'6"**_ _o_ _**4.5** e il valore verrà interpretato come 4\(piedi\) 6\(pollici\) quando si utilizzano le unità imperiali._
+_**Nota**_ _Analogamente a Revit, è anche possibile digitare_ _**4'6**,_ _**4'6"**_ _o_ _**4.5** e il valore verrà interpretato come 4(piedi) 6(pollici) quando si utilizzano le unità imperiali._
 
-![](../../.gitbook/assets/2%20%282%29.png)
+![](<../../.gitbook/assets/2 (2).png>)
 
 ## **Modifica di un gruppo**
 
@@ -35,7 +35,7 @@ _**Nota**_ _Analogamente a Revit, è anche possibile digitare_ _**4'6**,_ _**4'6
 1. Nella **tavolozza Proprietà**, rinominare il gruppo **Massing - Main Building**.
 2. Per salvare le modifiche e uscire dalla **modalità di modifica del gruppo**, fare clic sull'icona del segno di spunta **Termina modifica gruppo** nell'angolo superiore sinistro dell'area di disegno oppure fare doppio clic nello spazio.
 
-![](../../.gitbook/assets/3%20%2812%29.png)
+![](<../../.gitbook/assets/3 (12) (1).png>)
 
 _**Note**_
 
@@ -52,7 +52,7 @@ _**Nota**_ _Il raggruppamento di una geometria sostituisce le impostazioni prece
 2. Accedere alla **tavolozza Proprietà** e selezionare **Usa livelli.**
 3. Mantenere solo il livello **Main Building** deselezionando tutti gli altri.
 4. Nel campo **Area per livello** viene visualizzata l'area lorda degli oggetti attualmente selezionati. L'area di ogni **livello** viene visualizzata davanti al nome di ciascun **livello**.
-5. Se non è visibile una linea di livello blu che interseca l'oggetto orizzontalmente, attivare la visualizzazione del livello accedendo al **menu Impostazioni &gt; Stile visualizzazione &gt; Visualizza livelli \(DL\).**
+5. Se non è visibile una linea di livello blu che interseca l'oggetto orizzontalmente, attivare la visualizzazione del livello accedendo al **menu Impostazioni > Stile visualizzazione > Visualizza livelli (DL).**
 
 _**Nota** Se non viene indicata alcuna area per il livello_ _**Main Building**_ _, la geometria potrebbe non intersecare il livello, che dovrebbe essere ad un'altezza di 4'-6". Risolvere i problemi riposizionando la geometria o l'altezza del_ _**livello**_ _in modo che si intersechino._
 
@@ -60,7 +60,7 @@ _**Nota** Se non viene indicata alcuna area per il livello_ _**Main Building**_ 
 
 2 - Deselezionare il gruppo premendo **ESC** o facendo un singolo clic nello spazio. Senza alcun oggetto selezionato, nella **tavolozza Proprietà** viene riportata l'area lorda complessiva del disegno, anziché l'area di un oggetto specifico.
 
-![](../../.gitbook/assets/5%20%2815%29.png)
+![](<../../.gitbook/assets/5 (15).png>)
 
 ## **Gestione dei gruppi**
 
@@ -72,7 +72,7 @@ _**Nota** Se non viene indicata alcuna area per il livello_ _**Main Building**_ 
    * **gruppo 2**: gruppo senza nome contenente l'immagine della pianta del pavimento.
 2. Per rinominare il **gruppo 2** mediante la tavolozza Struttura gruppi, fare doppio clic sul **gruppo 2**, quindi digitare **Plan Image**.
 
-![](../../.gitbook/assets/6%20%284%29.png)
+![](<../../.gitbook/assets/6 (4).png>)
 
 _**Note **_
 
@@ -81,7 +81,7 @@ _**Note **_
 
 2 - Con il gruppo **Plan Image** ancora selezionato, accedere alla **tavolozza Proprietà**. Notare che il nome del gruppo è stato aggiornato anche nel campo **Gruppo**.
 
-![](../../.gitbook/assets/7.png)
+![](<../../.gitbook/assets/7 (11).png>)
 
 ## **Nascondi contesto gruppo**
 
@@ -91,8 +91,7 @@ _Questo strumento consente di nascondere rapidamente tutta la geometria esterna 
 
 1. Fare doppio clic sulla geometria per modificare il gruppo.
 2. Passare a **Impostazioni** nel **Menu principale** e selezionare **Nascondi contesto gruppo** oppure premere semplicemente **H** sulla tastiera. Notare come **Plan Image** scompare.
-3. Terminare la modifica del gruppo. Notare che la modalità **Nascondi contesto gruppo \(H\)** è attiva solo all'interno della **procedura guidata di modifica del gruppo**.
+3. Terminare la modifica del gruppo. Notare che la modalità **Nascondi contesto gruppo (H)** è attiva solo all'interno della **procedura guidata di modifica del gruppo**.
 4. Per disattivare nuovamente questa modalità, è sufficiente premere **H**. Questa opzione può essere attivata in qualsiasi momento, all'interno o all'esterno di un gruppo.
 
-![](../../.gitbook/assets/8%20%285%29.png)
-
+![](<../../.gitbook/assets/8 (5).png>)

@@ -1,16 +1,16 @@
 # Materiali
 
-Rendere visibili i modelli di FormIt con materiali che supportano mappe di riflessione, lucide e di composizione in rilievo.
+È possibile rendere visibili i modelli di FormIt con materiali che supportano mappe di riflessione, lucide e di composizione in rilievo o normali.
 
 ## Pannello Materiali
 
-![](<../.gitbook/assets/materials-sample-category (2).png>)
+![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
 
 Nel pannello Materiali, è possibile scegliere tra una vasta gamma di Campioni di materiali, spostarsi tra le librerie di materiali collegate e, a partire da FormIt 2021, accedere al contenuto Materiali di altri file di FormIt (.AXM) e utilizzarlo.
 
 ### Origini della libreria di materiali
 
-In FormIt 2021 e versioni successive, il pannello Materiali dispone di un'interfaccia a discesa che consente di scegliere tra le origini disponibili della libreria di materiali: Nel disegno, Campioni di materiali e [librerie collegate](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+In FormIt 2021 e versioni successive, il pannello Materiali dispone di un'interfaccia a discesa che consente di scegliere tra le origini disponibili della libreria di materiali: Nel disegno, Campioni di materiali e [librerie collegate](https://windows.help.formit.autodesk.com/v/italian/tool-library/materials#collegamento-delle-librerie-di-materiali).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
@@ -30,13 +30,13 @@ Mostra un elenco dei materiali di esempio disponibili. Queste offerte sono memor
 
 **Librerie collegate**
 
-Altre directory e posizioni verranno visualizzate dopo il [collegamento delle librerie di materiali](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+Altre directory e posizioni verranno visualizzate dopo il [collegamento delle librerie di materiali](https://windows.help.formit.autodesk.com/v/italian/tool-library/materials#collegamento-delle-librerie-di-materiali).
 
 ### Creazione, eliminazione e contagocce
 
-![](../.gitbook/assets/materials\_add.PNG) **Crea un nuovo materiale** definendone le impostazioni di colore, trama, mappa di composizione in rilievo, mappa di ritaglio, trasparenza e riflessione/lucidità.
+![](../.gitbook/assets/materials\_add.PNG) **Creare un nuovo materiale** definendone le impostazioni di colore, trama, mappa di composizione in rilievo o normale, mappa di ritaglio, trasparenza e riflessione/lucidità.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Eliminare** i materiali selezionati.
+![](<../.gitbook/assets/materials\_delete (1).PNG>) **Eliminare** i materiali selezionati.
 
 ![](../.gitbook/assets/materials\_eyedropper.PNG) Utilizza il **contagocce** per un materiale dipinto nella scena e inizia immediatamente a dipingerlo.
 
@@ -45,7 +45,7 @@ Altre directory e posizioni verranno visualizzate dopo il [collegamento delle li
 
 ### Aggiornamento, collegamento di librerie ed eliminazione di materiali inutilizzati
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Collega le librerie di materiali** da directory locali. Nelle directory contenenti file JPG, PNG o AXM (FormIt) verrà visualizzato il contenuto. Per ulteriori informazioni, vedere [Collegamento delle librerie di materiali](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+![](../.gitbook/assets/materials-link.png) **Collega le librerie di materiali** da directory locali. Nelle directory contenenti file JPG, PNG o AXM (FormIt) verrà visualizzato il contenuto. Per ulteriori informazioni, vedere [Collegamento delle librerie di materiali](https://windows.help.formit.autodesk.com/v/italian/tool-library/materials#collegamento-delle-librerie-di-materiali).
 
 ![](../.gitbook/assets/materials-refresh.png)**Aggiorna** la directory corrente. Il pulsante viene attivato solo quando si visualizza una directory collegata localmente (non Nel disegno o Campioni di materiali).
 
@@ -115,10 +115,10 @@ Quando si crea o si modifica un materiale, verrà visualizzata la finestra di di
    * Fare clic sull'icona Elimina per eliminare la mappa da questo materiale.
       * **Trama di un file di immagine**
          * File JPG o PNG
-      * **Mappa di composizione in rilievo di un file di immagine**
+      * **Mappa di composizione in rilievo o normale di un file di immagine**
          * File JPG consigliato
          * Ideale per aggiungere effetti di profondità ai materiali
-         * È possibile utilizzare freeware come ShaderMap per generare mappe di composizione in rilievo a partire da una trama.
+         * È possibile utilizzare freeware come ShaderMap per generare mappe di composizione in rilievo/normali a partire da una trama.
       * **Mappa di ritaglio di un file di immagine**
          * PNG
          * Ideale per i materiali con trasparenza selettiva, ad esempio le recinzioni o i pannelli perforati.
@@ -142,7 +142,7 @@ Utilizzare lo strumento **Regola posizionamento materiale** per sostituire il po
    * Se la superficie eredita il materiale dal gruppo principale, sarà necessario prima dipingere la superficie direttamente.
 * Accedere allo strumento Regola posizionamento materiale tramite il tasto di scelta rapida MP o dal menu di scelta rapida:
 
-![](../.gitbook/assets/adjust-material-placement.PNG)
+![](../.gitbook/assets/adjust-material-placement.png)
 
 Utilizzare i controlli su schermo per spostare, ruotare e mettere in scala interattivamente le trame dei materiali direttamente sulla superficie:
 

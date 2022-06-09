@@ -1,31 +1,31 @@
-# Saving Your Work to GitHub
+# Salvataggio del lavoro su GitHub
 
-As you work on your plugin, you’ll want to save your progress. To make this possible, we have integrated GitHub directly into the Plugin Playground.
+Mentre si lavora sul plug-in, è consigliabile salvare i progressi compiuti. Per rendere possibile tutto questo, abbiamo integrato GitHub direttamente in Plugin Playground.
 
-### Adding a New Plugin Project to Your GitHub Account
+### Aggiunta di un nuovo progetto di plug-in all'account GitHub
 
-Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
+Fare clic sul pulsante per accedere a GitHub e consentire a FormIt di accedere ai propri repository (progetti).
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (58).png>) button.
+Per creare un progetto, digitare un nome e fare clic sul pulsante![](<../../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-In a few moments, the newly created project will appear in your projects list. Select the project from the drop-down to load it.
+Tra pochi minuti, il progetto appena creato verrà visualizzato nell'elenco dei progetti. Selezionare il progetto dal menu a discesa per caricarlo.
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
-### Save Your Work
+### Salvataggio del lavoro
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
+Quando si apportano modifiche al plug-in, fare clic sul pulsante di salvataggio![](<../../../.gitbook/assets/image (40).png>)per salvare le modifiche sull'account GitHub.
 
+![](<../../../.gitbook/assets/save a plugin.png>)
 
+### Visualizzazione del progetto in GitHub
 
-### View Your Project in GitHub
+È inoltre possibile trovare e modificare i file direttamente in GitHub utilizzando il pulsante GitHub.
 
-You can also find and edit your files directly in GitHub by using the GitHub button.
-
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###

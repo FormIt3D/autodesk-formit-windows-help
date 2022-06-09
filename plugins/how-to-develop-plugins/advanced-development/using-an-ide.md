@@ -1,15 +1,15 @@
-# Using an IDE
+# Utilizzo di un IDE
 
-Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+Lo sviluppo di plug-in con [Plugin Playground](../your-first-plugin/plugin-playground.md) è semplice e comodo. Tuttavia, è possibile sviluppare plug-in utilizzando un ambiente di sviluppo integrato (IDE) esterno. Alcuni dei vantaggi dell'utilizzo di un IDE includono quanto segue:&#x20;
 
-* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
-* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server.
+* È possibile utilizzare l'IDE preferito, che può fornire la correzione di errori di sintassi, le estensioni e così via.
+* È possibile collaborare con i colleghi per sviluppare un plug-in di FormIt tramite un repository GitHub.
+* È possibile sviluppare plug-in privati e ospitarli su un server locale.
 
-### Install an IDE
+### Installazione di un IDE
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
+Un IDE gratuito che funziona correttamente per lo sviluppo di plug-in di FormIt è [Visual Studio Code](https://code.visualstudio.com/Download) di Microsoft. Seguire il collegamento per scaricare il file di installazione e completare l'installazione.
 
-We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
+Per questa dimostrazione utilizzeremo Visual Studio Code, ma è possibile utilizzare l'editor di codici preferito. Assicurarsi che IDE includa un terminale per l'esecuzione del server locale.
 
 ![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

@@ -10,7 +10,7 @@ Le cose diventano davvero interessanti quando si inizia a spingere e trascinare 
 4. Dopo aver fatto clic, è possibile eseguire lo snap ad altri oggetti per allineare questa superficie.
 5. Come con lo spostamento, è possibile fare clic sulla **quota temporanea** o è sufficiente iniziare a digitare un valore per definire la quantità di movimento.
 
-![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 È inoltre possibile eliminare una superficie utilizzando il tasto **CANC** o facendo clic con il pulsante destro del mouse e richiamando Elimina dal menu contestuale.
 
@@ -28,6 +28,6 @@ Le cose diventano davvero interessanti quando si inizia a spingere e trascinare 
 ## Modifica di punti
 
 1. Fare un singolo clic su uno degli angoli di uno dei cubi.
-2. Analogamente ad un bordo, è possibile trascinare il punto lungo uno degli assi per ridefinire la forma. [Successivo Scala non uniforme](non-uniform-scale.md)
+2. Analogamente ad un bordo, è possibile trascinare il punto lungo uno degli assi per ridefinire la forma. [Successivo Scala non uniforme](broken-reference)
 
-![](<../.gitbook/assets/modify3 (1) (1).png>)
+![](<../.gitbook/assets/modify3 (1).png>)
