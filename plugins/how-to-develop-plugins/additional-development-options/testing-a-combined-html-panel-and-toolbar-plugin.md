@@ -1,51 +1,51 @@
-# Testing a Combined HTML Panel and Toolbar Plugin
+# Testowanie wtyczki stanowiącej połączenie panelu HTML i paska narzędzi
 
-You can test your in-progress plugins easily using the built-in [Script Editor ](../advanced-development/setting-up-formit-for-development.md)in FormIt for Windows
+Wbudowany [Edytor skryptów](../advanced-development/setting-up-formit-for-development.md) w programie FormIt dla systemu Windows pozwala łatwo testować wtyczki podczas ich opracowywania
 
-We recommend using `FormIt.LoadPlugin("URL");` when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted).&#x20;
+Zalecamy używanie podczas testowania polecenia `FormIt.LoadPlugin("URL");`, które tymczasowo wczytuje wtyczki na czas danej sesji (znikną one po ponownym uruchomieniu programu FormIt).&#x20;
 
-Once testing is complete, you can persist the plugin between sessions using `FormIt.InstallPlugin("URL");`.
+Po zakończeniu testowania można utrwalić wtyczkę między sesjami, używając polecenia `FormIt.InstallPlugin("URL");`.
 
-**FormIt for Windows v17 and newer**
+**Program FormIt dla systemu Windows w wersji 17 i nowszych**
 
 ****
 
-### **Toolbar Plugins**
+### **Wtyczki paska narzędzi**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+Wczytaj wtyczkę do programu FormIt, aby wyświetlić najnowszy interfejs użytkownika i przetestować najnowsze funkcje:
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then load the plugin again using the command above.
+Wprowadź zmiany, a następnie ponownie wczytaj wtyczkę, używając polecenia powyżej.
 
-You can load many instances of the same plugin in the current session as you test, each with its own UI.
+W bieżącej sesji można wczytać wiele wystąpień tej samej wtyczki, każde z własnym interfejsem użytkownika, na potrzeby testowania.
 
-Be sure to use the latest UI instance to ensure you're testing your most recent changes.
+Upewnij się, że testujesz najnowsze zmiany, korzystając z najnowszego wystąpienia interfejsu użytkownika.
 
 
 
-### **HTML Panel Plugins**
+### **Wtyczki panelu HTML**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+Wczytaj wtyczkę do programu FormIt, aby wyświetlić najnowszy interfejs użytkownika i przetestować najnowsze funkcje:
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then simply right-click the panel and select "Hard Reload" to reload the panel with the latest HTML, CSS, and scripts.
+Wprowadź zmiany, a następnie kliknij prawym przyciskiem myszy panel i wybierz opcję „Twarde ponowne wczytanie”, aby ponownie wczytać panel z najnowszymi skryptami HTML, CSS i HTML.
 
 ****
 
-### **Preview your plugin with Plugin Manager**
+### **Wyświetlanie podglądu wtyczki za pomocą narzędzia Plugin Manager**
 
-Once your plugin is loaed, refer an [earlier chapter](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) for this guide.
+Po wczytaniu wtyczki zapoznaj się z [wcześniejszym rozdziałem](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) tego podręcznika.
 
 ****
 
-### **Force clearing web cache for .JSON files**
+### **Wymuszanie wyczyszczenia internetowej pamięci podręcznej dla plików .JSON**
 
-If you modify the title or description inside the manifest.json file for a plugin or repo, you may need to force clear the cache in FormIt for Windows to see those changes take effect the next time you reload the Plugin Manager.
+Jeśli zmodyfikujesz tytuł lub opis w pliku manifest.json dla wtyczki lub repozytorium, konieczne może być wymuszenie wyczyszczenia pamięci podręcznej w programie FormIt dla systemu Windows, aby te zmiany odniosły skutek przy następnym ponownym wczytywaniu narzędzia Plugin Manager.
 
-FormIt for Windows stores its web cache here, you will need to enable hidden items in Windows Explorer to see the AppData folder.
+Program FormIt dla systemu Windows przechowuje internetową pamięć podręczną w tym miejscu. Aby wyświetlić folder AppData, należy włączyć elementy ukryte w Eksploratorze Windows.
 
 * C:\Users\user\AppData\Local\Autodesk\FormIt 360\QtWebEngine\Default
 
-To delete the web cache, simply delete the "Default" folder above, then reload the Plugin Manager to see the updated titles and descriptions.
+Aby usunąć internetową pamięć podręczną, wystarczy usunąć folder „Default” (Domyślny) powyżej, a następnie ponownie wczytać narzędzie Plugin Manager w celu wyświetlenia zaktualizowanych tytułów i opisów.

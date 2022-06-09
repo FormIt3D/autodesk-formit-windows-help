@@ -1,15 +1,15 @@
-# Using an IDE
+# Korzystanie ze środowiska IDE
 
-Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+Tworzenie wtyczek za pomocą środowiska [Plugin Playground](../your-first-plugin/plugin-playground.md) jest proste i wygodne. Można jednak tworzyć wtyczki przy użyciu zewnętrznego zintegrowanego środowiska programistycznego (IDE). Niektóre korzyści z korzystania ze środowiska IDE:&#x20;
 
-* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
-* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server.
+* Można używać preferowanego środowiska IDE, które może zapewniać funkcje poprawy błędów składni, rozszerzenia itp.
+* Można współpracować z innymi programistami w celu utworzenia wtyczki programu FormIt za pomocą repozytorium GitHub.
+* Można tworzyć prywatne wtyczki i hostować je na serwerze lokalnym.
 
-### Install an IDE
+### Instalowanie środowiska IDE
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
+Bezpłatnym środowiskiem IDE, które dobrze sprawdza się w przypadku tworzenia wtyczek programu FormIt, jest program [Visual Studio Code](https://code.visualstudio.com/Download) firmy Microsoft. Kliknij łącze, aby pobrać plik instalacyjny i przeprowadzić instalację.
 
-We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
+W tym przykładzie będziemy używać programu Visual Studio Code, ale możesz użyć samodzielnie wybranego edytora kodu. Upewnij się, że środowisko IDE zawiera terminal umożliwiający uruchomienie serwera lokalnego.
 
-![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)
+![Program Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

@@ -2,7 +2,7 @@
 
 Za pomocą narzędzia Plugin Manager zainstaluj przydatne wtyczki z od zespołu programu FormIt, lub dowiedz się, jak [**opracować własne wtyczki programu FormIt**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**.**
 
-#### Narzędzie Plugin Manager programu FormIt
+## Narzędzie Plugin Manager programu FormIt
 
 Narzędzie Plugin Manager programu FormIt działa jako centrum wyszukiwania wtyczek programu Formit i zarządzania nimi.
 
@@ -12,7 +12,7 @@ Dostęp do narzędzia Plugin Manager można uzyskać, klikając ikonę jego kart
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)
 
-#### Narzędzie Plugin Manager kategoryzuje różne typy wtyczek:
+## Narzędzie Plugin Manager kategoryzuje różne typy wtyczek:
 
 * **Zainstalowane wtyczki**
 * **Zalecane wtyczki**
@@ -21,21 +21,21 @@ Dostęp do narzędzia Plugin Manager można uzyskać, klikając ikonę jego kart
 * **Wtyczki publiczne**
    * Wtyczki utworzone przez społeczność, które nie zostały zweryfikowane ani zatwierdzone przez zespół programu FormIt.
 
-#### Narzędzie Plugin Manager zaprojektowano przy użyciu szeregu rozwijalnych i zwijanych interfejsów, co ułatwia zarządzanie wtyczkami i ich repozytoriami:
+## Narzędzie Plugin Manager zaprojektowano przy użyciu szeregu rozwijalnych i zwijanych interfejsów, co ułatwia zarządzanie wtyczkami i ich repozytoriami:
 
 * **Zarządzanie wtyczkami:**
    * Kliknij nazwę wtyczki, aby zobaczyć jej opis.
    * Przełącz przełącznik, aby ją zainstalować lub odinstalować.
       * Wtyczka będzie widoczna jako pasek narzędzi w górnej części aplikacji, panel po prawej stronie lub okno dialogowe w środku, w zależności od jej typu.
-* Jeśli [tworzysz własną wtyczkę](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), możesz dodać jej prywatny adres URL w polu na dole i kliknąć \(+\):
+* Jeśli [tworzysz własną wtyczkę](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html), możesz dodać jej prywatny adres URL w polu na dole i kliknąć (+):
 
 ![Narzędzie Plugin Manager programu FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/images/addNew.png)
 
-#### Jak działają wtyczki
+## Jak działają wtyczki
 
 * Wtyczki są oparte na technologii internetowej i są dostępne w programie FormIt dla systemu Windows oraz w wersji internetowej programu FormIt.
 * Wtyczki składają się z serii plików i folderów przechowywanych w serwisie GitHub lub na serwerze lokalnym (w przypadku tworzenia własnej wtyczki).
-* Wtyczki zewnętrzne \(wtyczki inne niż hostowane lokalnie\) wymagają połączenia z Internetem do wstępnego wczytania, co ma następujące konsekwencje:
+* Wtyczki zewnętrzne (wtyczki inne niż hostowane lokalnie) wymagają połączenia z Internetem do wstępnego wczytania, co ma następujące konsekwencje:
    * Wtyczki zewnętrzne nie zostaną wczytane, jeśli podczas uruchamiania programu FormIt nie zostanie wykryte połączenie z Internetem.
    * Po wczytaniu niektóre wtyczki zewnętrzne mogą nadal działać w trybie offline w danej sesji, ale działanie innych może zostać przerwane, dopóki połączenie nie zostanie przywrócone.
    * Wtyczki zewnętrzne wczytują najnowszy kod na serwerze przy każdym uruchomieniu, więc ich funkcje są aktualizowane za każdym razem, gdy autor wprowadza zmiany.
@@ -44,4 +44,3 @@ Dostęp do narzędzia Plugin Manager można uzyskać, klikając ikonę jego kart
    * Aby przywrócić domyślne ustawienia narzędzia Plugin Manager, należy usunąć następujący klucz rejestru:
       * Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins
       * Należy pamiętać, że spowoduje to odinstalowanie wszystkich repozytoriów i wtyczek dodanych przez użytkownika, a więc zresetowanie narzędzia Plugin Manager do stanu, w którym będzie zawierać tylko wbudowane repozytoria i wtyczki.
-

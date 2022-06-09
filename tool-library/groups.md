@@ -6,7 +6,7 @@ Grupy można tworzyć i edytować na dwa sposoby: z poziomu menu kontekstowego w
 
 ## Interakcje grup
 
-Aby **utworzyć grupę**, wybierz elementy, które chcesz zgrupować — mogą to być krawędzie, powierzchnie, bryły lub inne grupy — i kliknij prawym przyciskiem myszy. Z menu kontekstowego wybierz narzędzie **Grupuj \(G\)**. Nie można grupować obrazów zaimportowanych i satelitarnych.
+Aby **utworzyć grupę**, wybierz elementy, które chcesz zgrupować — mogą to być krawędzie, powierzchnie, bryły lub inne grupy — i kliknij prawym przyciskiem myszy. Z menu kontekstowego wybierz narzędzie **Grupuj (G)**. Nie można grupować obrazów zaimportowanych i satelitarnych.
 
 Aby **wybrać grupę**, kliknij ją raz. Zwróć uwagę na przerywane linie widoczne podczas wybierania grupy — wskazują one całkowity rozmiar grupy.
 
@@ -55,4 +55,3 @@ Dla grup w programie FormIt możesz określić **kategorie**, aby po zaimportowa
 Za pomocą panelu **Właściwości** możesz również określić nazwę grupy programu FormIt. Może to być przydatne podczas nawigacji po własnym modelu, a po zaimportowaniu modelu do programu Revit można będzie łatwo filtrować elementy, używając nazwy grupy.
 
 Pamiętaj, że **grupy zagnieżdżone w programie FormIt nie są importowane do programu Revit jako grupy zagnieżdżone**. Zapobiega to tworzeniu głęboko zagnieżdżonych rodzin programu Revit.
-

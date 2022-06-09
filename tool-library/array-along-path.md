@@ -4,19 +4,19 @@
 
 W programie FormIt 2021 i nowszych wersjach można ustawiać obiekty w szyku wzdłuż ścieżki i szybko dostosowywać wyniki lokalnie. Szyk wzdłuż ścieżki jest obsługiwany przez dodatek Dynamo, co oznacza, że można go łatwo skonfigurować, aby uzyskać żądane wyniki, a ponowne uruchomienie logiki spowoduje zaktualizowanie geometrii lokalnie.
 
-![](../.gitbook/assets/array-along-path.gif)
+![](<../.gitbook/assets/array-along-path (1).gif>)
 
 ## Uruchamianie przykładu Array Along Path
 
 * Przejdź do panelu Dynamo w programie FormIt dla systemu Windows i upewnij się, że znajdujesz się w katalogu Dynamo Samples.
 * Kliknij przykład Array Along Path.
-* Po lewej stronie ekranu zostanie wyświetlony monit „Select object\(s\) to array”.
+* Po lewej stronie ekranu zostanie wyświetlony monit „Select object(s) to array”.
    * W tym kroku możesz wybrać dowolne połączenie obiektów programu FormIt.
    * Po wybraniu elementu możesz kliknąć strzałkę „next” po lewej stronie ekranu lub po prostu nacisnąć klawisz Enter.
 * Teraz zostanie wyświetlony monit „Select path for array”.
    * W tym miejscu należy wybrać tylko serię przylegających krawędzi lub grupę zawierającą serię przylegających krawędzi.
    * Po wybraniu ścieżki kliknij przycisk „finish” lub naciśnij klawisz Enter.
-* W panelu Dynamo będzie wyświetlana informacja o przetwarzaniu zmian. Po zakończeniu szyk wygenerowany przez dodatek Dynamo będzie dostępny w grupie FormIt i będzie można go modyfikować \(patrz poniżej\).
+* W panelu Dynamo będzie wyświetlana informacja o przetwarzaniu zmian. Po zakończeniu szyk wygenerowany przez dodatek Dynamo będzie dostępny w grupie FormIt i będzie można go modyfikować (patrz poniżej).
 
 ## Iteracja lokalna
 
@@ -26,9 +26,9 @@ Gdy narzędzie Array Along Path jest uruchomione, tworzona jest nowa grupa zawie
 
 W każdej chwili można wrócić do właściwości narzędzia Array Along Path, wybierając grupę i przełączając się na panel Właściwości lub edytując grupę, co spowoduje automatyczne wyświetlenie właściwości.
 
-![](../.gitbook/assets/array-along-path-options.png)
+![](<../.gitbook/assets/array along path (2).png>)
 
-### Select Object\(s\) to Array <a id="run"></a>
+### Select Object(s) to Array <a href="#run" id="run"></a>
 
 Kliknij tę opcję, aby wrócić do kreatora wyboru i zmienić obiekty ustawiane w szyku.
 
@@ -36,7 +36,7 @@ Kliknij tę opcję, aby wrócić do kreatora wyboru i zmienić obiekty ustawiane
 
 Kliknij tę opcję, aby wrócić do kreatora wyboru i zmienić ścieżkę służącą do obliczenia szyku.
 
-### Array Type <a id="run"></a>
+### Array Type <a href="#run" id="run"></a>
 
 Ta opcja służy do przełączania typu szyku do obliczenia: By Distance lub By Number.
 
@@ -77,15 +77,13 @@ W przypadku wartości **False**:
 
 Dotyczy tylko zamkniętych ścieżek. W przypadku użycia narzędzia Array Along Path z zamkniętą ścieżką kierunek krzywej może spowodować nieoczekiwane odwrócenie spodziewanych wyników szyku. Jeśli wyniki są odwrócone, przełącz tę opcję na **True**, aby odwrócić kierunek szyku.
 
-### Uruchom <a id="run"></a>
+### Uruchom <a href="#run" id="run"></a>
 
 Po zakończeniu edycji opcji kliknij przycisk „Run”, aby uruchomić podstawowy wykres dodatku Dynamo i wygenerować nowe wyniki. Po zmianie parametrów przycisk zmienia kolor na niebieski, dzięki czemu wiesz, że należy go kliknąć, aby zobaczyć aktualizacje w końcowej geometrii.‌
 
-### Edit Embedded Graph <a id="edit-embedded-graph"></a>
+### Edit Embedded Graph <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
 
 Kliknięcie tego przycisku spowoduje uruchomienie środowiska edytora wykresów Dynamo, aby można było wyświetlić i edytować podstawowy wykres Dynamo w celu szybszej zmiany parametrów i wyświetlenia aktualizacji na żywo bądź sprawdzenia/dopasowania logiki.
-
-
 
 ## Wybieranie geometrii
 
@@ -98,6 +96,3 @@ Podczas wybierania obiektów dla narzędzia Array Along Path i innych wykresów 
 * Aby pobrać serię obiektów, możesz użyć okna wyboru obszaru.
 * Wybierając już wybrane obiekty, możesz usunąć ich zaznaczenie.
 * Do wykonania kroku opartego na wyborze wymagany jest co najmniej jeden obiekt.
-
-
-

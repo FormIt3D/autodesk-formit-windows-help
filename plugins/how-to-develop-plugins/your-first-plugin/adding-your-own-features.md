@@ -1,18 +1,18 @@
-# Adding Your Own Features
+# Dodawanie własnych funkcji
 
-### Inside the HTML, JavaScript, and CSS Panels
+### Panele HTML, JavaScript i CSS
 
-When you click Edit in the Plugin Playground sample plugin, you will see the HTML, JavaScript (JS), and CSS panels. The HTML panel (left) enables you to modify the user interface of your plugin. The JS panel (middle) enables you to write functions that can communicate to FormIt using the FormIt JS Plugin API. Finally, the CSS panel (right) will determine the style of your HTML.
+Po kliknięciu przycisku Edit (Edytuj) w przykładowej wtyczce w obszarze Plugin Playground (Zabawa z wtyczkami) zostaną wyświetlone panele HTML, JavaScript (JS) i CSS. Panel HTML (po lewej) umożliwia modyfikowanie interfejsu użytkownika wtyczki. Panel JS (środkowy) umożliwia pisanie funkcji, które mogą komunikować się z programem FormIt za pomocą interfejsu API wtyczki JS programu FormIt. Natomiast panel CSS (po prawej) określa styl HTML.
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-### Adding a Function to Create a Cylinder&#x20;
+### Dodawanie funkcji do tworzenia walca
 
-Let's add a feature to this plugin to create a cylinder.
+Dodajmy do tej wtyczki element służący do tworzenia walca.
 
-First, let's configure the input field and UI button in the HTML panel. Copy the following code and paste it after line 23 and before _\<!-- Do not remove below scripts unless you know what you're doing- - >_
+Najpierw skonfigurujmy pole wprowadzania i przycisk interfejsu użytkownika w panelu HTML. Skopiuj następujący kod i wklej go po 23. wierszu i przed tekstem _\<!-- Do not remove below scripts unless you know what you're doing- - >_
 
-This will add some basic UI elements to our plugin.
+Spowoduje to dodanie do wtyczki pewnch podstawowych elementów interfejsu użytkownika.
 
 ```
 <p>Cylinder: Create a cylinder at the origin.</p>
@@ -20,22 +20,22 @@ This will add some basic UI elements to our plugin.
     <input id="Radius" type=number value=2 />
     <label>Radius</label>
 </div>
-        
+
 <div>
     <input id="CHeight" type=number value =0.5 />
     <label>Height</label>
 </div>
-        
+
 
 <input id="CreateCylinderBtn" type=button value="Create Cylinder" />
-        
+
 ```
 
 ![](<../../../.gitbook/assets/image (86).png>)
 
-Next, let's add two functions in our JS panel. Copy the following code and paste it at the end of the file (after line 16).
+Następnie dodajmy dwie funkcje w panelu JS. Skopiuj następujący kod i wklej go na końcu pliku (po 16. wierszu).
 
-This will create a cylinder in our FormIt workspace.
+Spowoduje to utworzenie walca w obszarze roboczym programu FormIt.
 
 ```
 // Create cylinder
@@ -65,12 +65,12 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ![](<../../../.gitbook/assets/image (82).png>)
 
-### Running and previewing
+### Uruchamianie i podgląd
 
-When you’re ready to see the results, click the Play button ![](<../../../.gitbook/assets/image (81).png>) again and you will see your updates to the plugin in the same panel.
+Gdy wszystko będzie gotowe do wyświetlenia wyników, ponownie kliknij przycisk Odtwórz ![](<../../../.gitbook/assets/image (81).png>), a aktualizacje wtyczki pojawią się w tym samym panelu.
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
-### FormIt plugins API
+### Interfejs API wtyczek programu FormIt
 
-For complete documentation on the FormIt plugins API, see the [useful links](../useful-links.md) section.
+Aby zapoznać się z pełną dokumentacją dotyczącą interfejsu API wtyczek programu FormIt, zobacz sekcję [przydatnych łączy](../useful-links.md).

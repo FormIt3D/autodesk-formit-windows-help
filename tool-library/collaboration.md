@@ -13,8 +13,5 @@ Dzięki subskrypcji programu FormIt Pro masz dostęp do funkcji współpracy w c
 
 ## Rozpoczynanie sesji współpracy
 
-1. Z listy rozwijanej Współpraca wybierz opcję Rozpocznij sesję udostępniania. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. Wyślij łącze do współpracowników pocztą e-mail. To łącze monituje odbiorców o zalogowanie się na ich konta Autodesk, aby mogli natychmiast rozpocząć współpracę. ![](../.gitbook/assets/collaborate.png)
-
-
-
+1. Z listy rozwijanej Współpraca wybierz opcję Rozpocznij sesję udostępniania. ![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
+2. Wyślij łącze do współpracowników pocztą e-mail. To łącze monituje odbiorców o zalogowanie się na ich konta Autodesk, aby mogli natychmiast rozpocząć współpracę. ![](<../.gitbook/assets/collaborate (1).png>)

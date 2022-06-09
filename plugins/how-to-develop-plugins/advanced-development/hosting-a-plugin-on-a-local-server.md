@@ -1,63 +1,62 @@
-# Hosting a Plugin on a Local Server
+# Hostowanie wtyczki na serwerze lokalnym
 
-Before you can preview a cloned plugin in FormIt, you need to host it on a local server.
+Zanim będzie można wyświetlić podgląd sklonowanej wtyczki w programie FormIt, należy umieścić ją jako hostowaną na serwerze lokalnym.
 
-### **View the Terminal in IDE**
+### **Wyświetlanie terminala w środowisku IDE**
 
-You have the option of starting the server inside Visual Studio Code, instead of a separate terminal window. **** Before opening a terminal, make sure the right folder is opened in Visual Studio Code.
+Istnieje możliwość uruchomienia serwera w programie Visual Studio Code, zamiast w oddzielnym oknie terminala. \*\*\*\* Przed otwarciem terminala upewnij się, że w programie Visual Studio Code jest otwarty właściwy folder.
 
-View > Terminal (or shortcut Ctrl + \`)
+Widok > Terminal (lub skrót Ctrl + \`)
 
 ![](<../../../.gitbook/assets/image (11).png>)
 
-### Set Up an HTTP Server
+### Konfigurowanie serwera HTTP
 
-An HTTP server that works well is npm's [http-server](https://www.npmjs.com/package/http-server).
+Serwer HTTP, który działa poprawnie, to serwer [http-server](https://www.npmjs.com/package/http-server) programu npm.
 
-First, you will need to download and install [NodeJS](https://nodejs.org/en/), if it's not already installed.
+Najpierw należy pobrać i zainstalować środowisko [NodeJS](https://nodejs.org/en/), jeśli nie zostało jeszcze zainstalowane.
 
-If you encounter errors in the following steps, try restarting your computer to complete the NodeJS installation.
+W przypadku wystąpienia błędów w kolejnych punktach spróbuj ponownie uruchomić komputer, aby ukończyć instalację środowiska NodeJS.
 
-In the Command Prompt, enter the following to install npm's _http-server_ globally (a one-time setup).
+W wierszu polecenia wprowadź następujące wartości, aby zainstalować globalnie _http-server_ programu npm (konfiguracja jednorazowa).
 
 * `npm install http-server -g`
 
 ![](<../../../.gitbook/assets/image (47).png>)
 
-### Start the Local Server
+### Uruchamianie serwera licencji
 
-Once the setup is complete, run the following command in the terminal to start your npm http-server:
+Po ukończeniu instalacji uruchom następujące polecenie w terminalu, aby uruchomić serwer npm http-server:
 
 * `http-server`
 
 ![](<../../../.gitbook/assets/image (84).png>)
 
-Tip 1: In case of any issues with running the http-server (installed globally or locally), it may be helpful to run it directly via npx:
+Wskazówka 1: w przypadku problemów z uruchomieniem serwera http-server (zainstalowanego globalnie lub lokalnie) może być przydatne uruchomienie go bezpośrednio za pośrednictwem serwera npx:
 
 * `npx http-server`
 
-Tip 2: For Windows 10/11 users, if you encounter an error when running a script on your new machine, this may be due to the settings being disabled. To fix this:
+Wskazówka 2: w przypadku użytkowników systemu Windows 10/11, jeśli wystąpi błąd podczas uruchamiania skryptu na nowym komputerze, może to być spowodowane wyłączeniem ustawień. Aby to naprawić:
 
-* Launch PowerShell script as an administrator&#x20;
-* Enter: `Set-ExecutionPolicy RemoteSigned`&#x20;
+* Uruchom skrypt programu PowerShell jako administrator
+* Wprowadź: `Set-ExecutionPolicy RemoteSigned`
 
-### Develop for FormIt Web
+### Programowanie dla wersji internetowej programu FormIt
 
-To develop for FormIt Web, simply run the following command instead:
+Aby zaprogramować rozwiązanie dla wersji internetowej programu FormIt, zamiast tego należy po prostu uruchomić następujące polecenie:
 
 * `http-server --cors`
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-### Verify Your Server
+### Weryfikowanie serwera
 
-You can verify your server by navigating to the following address in your web browser:&#x20;
+Możesz zweryfikować swój serwer, przechodząc do następującego adresu w przeglądarce internetowej:
 
 * http://localhost:8080
 
-You should see your project folder files in the browser window.
+Pliki folderu projektu powinny być widoczne w oknie przeglądarki.
 
-\*\*If you use a different web server than npm, the default address/port might be different.
+\*\*Jeśli używany jest serwer internetowy inny niż npm, domyślny adres/port może być inny.
 
 ![](<../../../.gitbook/assets/image (41).png>)
-

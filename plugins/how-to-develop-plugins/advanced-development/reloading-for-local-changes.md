@@ -1,16 +1,15 @@
-# Reloading for Local Changes
+# Ponowne wczytywanie w celu odzwierciedlenia zmian lokalnych
 
-While developing a plugin you may need to quickly reload your latest code updates without reloading the whole app. This can be achieved in both web and windows versions of FormIt without reloading the whole app.
+Podczas tworzenia wtyczki może być konieczne ponowne wczytanie najnowszych aktualizacji kodu bez ponownego wczytywania całej aplikacji. Można to zrobić zarówno w wersji internetowej programu FormIt, jak i w wersji dla systemu Windows bez ponownego wczytywania całej aplikacji.
 
-## Web Reloading
+## Ponowne wczytywanie w wersji internetowej
 
-💡 **** To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`&#x20;
+?? Aby ponownie wczytać wtyczkę w wersji internetowej programu FormIt, kliknij prawym przyciskiem myszy kod HTML wtyczki i kliknij opcję `Reload Frame`
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
-## Windows Reloading
+## Ponowne wczytywanie w systemie Windows
 
-💡 **** To reload your plugin in FormIt windows right-click on the plugin's HTML and click on `Hard Reload` &#x20;
+?? Aby ponownie wczytać wtyczkę w programie FormIt dla systemu Windows, kliknij prawym przyciskiem myszy kod HTML wtyczki i kliknij opcję `Hard Reload`
 
 ![](../../../.gitbook/assets/d18.png)
-

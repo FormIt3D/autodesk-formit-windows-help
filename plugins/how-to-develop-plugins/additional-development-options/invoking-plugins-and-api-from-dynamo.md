@@ -1,19 +1,19 @@
-# Invoking Plugins and API from Dynamo
+# Wywoływanie wtyczek i interfejsu API z dodatku Dynamo
 
-## **Connecting Plugins With Dynamo**
+## **Łączenie wtyczek z dodatkiem Dynamo**
 
-FormIt 2022.1 and newer offers access to JavaScript APIs and custom functions from Dynamo via two new nodes:
+Program FormIt w wersji 2022.1 i nowszych zapewnia dostęp do interfejsów API języka JavaScript i funkcji niestandardowych z dodatku Dynamo za pośrednictwem dwóch nowych węzłów:
 
 ### **CallJSAPI** <a href="#calljsapi" id="calljsapi"></a>
 
-The **CallJSAPI** node allows you to invoke FormIt JavaScript APIs directly from Dynamo.
+Węzeł **CallJSAPI** umożliwia wywoływanie interfejsów API języka JavaScript programu FormIt bezpośrednio z dodatku Dynamo.
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallJSAPI-GetTotalGrossArea.png)
 
-For function names and parameters, take a look at our JavaScript documentation, which is divided into two parts: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) and [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (modeling kernel).
+Nazwy funkcji i parametry można znaleźć w dokumentacji języka JavaScript, która jest podzielona na dwie części: [Interfejs API programu FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) oraz [Interfejs API WSM](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (jądro modelowania).
 
 ### **CallPluginJS** <a href="#callpluginjs" id="callpluginjs"></a>
 
-Conversely, the **CallPluginJS** node allows you to invoke custom functions from a loaded plugin, or a script snippet that's been executed from the Script Editor window.
+Natomiast węzeł **CallPluginJS** umożliwia wywoływanie funkcji niestandardowych z wczytanej wtyczki lub fragmentu skryptu wykonywanego z poziomu okna Edytor skryptów.
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallPluginJS.png)

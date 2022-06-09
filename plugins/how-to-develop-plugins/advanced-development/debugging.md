@@ -1,28 +1,28 @@
-# Debugging
+# Usuwanie błędów
 
-Debugging a FormIt plugin requires different procedures depending on the engine you are debugging. (For more information on engines check the [previous section](client-side-vs-web-side-engines.md))
+Debugowanie wtyczki programu FormIt wymaga różnych procedur w zależności od debugowanego mechanizmu. (Aby uzyskać więcej informacji na temat mechanizmów, zapoznaj się z [poprzednią sekcją](client-side-vs-web-side-engines.md))
 
-### **Client-Side (FormIt) Debugging**
+### **Debugowanie po stronie klienta (FormIt)**
 
-To debug in FormIt-side code, which applies to both toolbar- and panel-based plugins, you can add a line in the code to pop the desktop application's built-in JS debugger:
+Aby debugować w kodzie po stronie programu FormIt, co dotyczy zarówno wtyczek opartych na paskach narzędzi, jak i na panelach, można dodać wiersz w kodzie służący do wyświetlania wbudowanego debuggera JS aplikacji komputerowej:
 
 `debugger`
 
 ![](../../../.gitbook/assets/debugger.gif)
 
-### **Web-Side (HTML) Debugging**
+### **Debugowanie po stronie WWW (HTML)**
 
-Panel-based FormIt plugins offer HTML-based UI debugging, since the panels are fundamentally HTML websites with styling and scripts.
+Wtyczki programu FormIt oparte na panelach umożliwiają debugowanie interfejsu użytkownika opartego na kodzie HTML, ponieważ panele są zasadniczo witrynami HTML ze stylami i skryptami.
 
-To debug HTML-side code for plugins built into a panel, including scripts and styling:
+Debugowanie kodu po stronie HTML dla wtyczek wbudowanych w panel, wraz ze skryptami i stylizacją:
 
-* **FormIt for Windows 2021.1 and newer**
-  * Right-click on the plugin HTML page and click "Debug" to display the application's built-in HTML debugger.
+* **Program FormIt dla systemu Windows 2021.1 i nowsze wersje**
+   * Kliknij prawym przyciskiem myszy stronę HTML wtyczki i kliknij pozycję Debuguj, aby wyświetlić wbudowany debuger HTML aplikacji.
 
 ![](../../../.gitbook/assets/debugpanelplugin.gif)
 
-* **FormIt for Web**
-  * Use shortcut F12, or Ctrl + Shift+ I, to pull up the browser's HTML debugger.
+* **Wersja internetowa programu FormIt**
+   * Użyj skrótu F12 lub kombinacji Ctrl + Shift + I, aby uruchomić debuger HTML przeglądarki.
 
 ![](../../../.gitbook/assets/debugonweb.gif)
 

@@ -1,69 +1,69 @@
-# How to Use Plugins
+# Jak używać wtyczek
 
 ![](<../.gitbook/assets/g3 (1).gif>)
 
-## Plugin Manager
+## Narzędzie Plugin Manager
 
-The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
+Narzędzie Plugin Manager programu FormIt to kompleksowy punkt obsługi do wyszukiwania wtyczek programu Formit i zarządzania nimi.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+Narzędzie Plugin Manager jest wczytywane automatycznie podczas uruchamiania programu FormIt, o ile program FormIt ma dostęp do Internetu.
 
-Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) on the right side of the app:
+Dostęp do niego można uzyskać, klikając ikonę karty ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) po prawej stronie aplikacji:
 
 ![](../.gitbook/assets/c1.PNG)
 
-## Plugin Categories
+## Kategorie wtyczek
 
-The Plugin Manager organizes plugins into categories to help you find the plugins you're most interested in.
+W narzędziu Plugin Manager wtyczki są zorganizowane w kategoriach, aby ułatwić użytkownikom znalezienie tych najbardziej ich interesujących.
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed Plugins:** Plugins already installed by the user.&#x20;
+**Installed Plugins (Zainstalowane wtyczki):** wtyczki już zainstalowane przez użytkownika.&#x20;
 
-**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team.\
-GitHub tag:  _formit-plugin-recommended_
+**Recommended Plugins (Zalecane wtyczki):** wtyczki zalecane przez zespół programu FormIt na potrzeby rozszerzenia podstawowych funkcji programu FormIt i udostępnienia nowych procesów roboczych. Po zatwierdzeniu przez zespół programu FormIt pojawiają się tutaj wtyczki opracowane przez społeczność.\
+Oznaczenie GitHub: _formit-plugin-recommended_
 
-**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team. \
-GitHub tag:  _formit-plugin_
+**Public Plugins (Wtyczki publiczne):** wtyczki opracowane przez społeczność. Wtyczki w tej kategorii nie zostały zweryfikowane ani zatwierdzone przez zespół programu FormIt. \
+Oznaczenie GitHub: _formit-plugin_
 
-**For Developers Plugins**: Plugins built by the community to enable the creation of new FormIt plugins. \
-GitHub tag:  _formit-plugin-developers_
+**For Developers Plugins (Wtyczki dla programistów)**: wtyczki opracowane przez społeczność w celu umożliwienia tworzenia nowych wtyczek programu FormIt. \
+Oznaczenie GitHub: _formit-plugin-developers_
 
-## Add Your Private or Local Plugin
+## Dodawanie wtyczki prywatnej lub lokalnej
 
-If you're [developing your own plugin](how-to-develop-plugins/), you can add its private URL into the field at the bottom of the panel and click (+):
+Jeśli [tworzysz własną wtyczkę](how-to-develop-plugins/), możesz dodać jej prywatny adres URL w polu na dole i kliknąć (+):
 
 ![](../.gitbook/assets/d4.PNG)
 
-For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+Aby uzyskać więcej informacji na temat dodawania wtyczki prywatnej lub lokalnej, zobacz sekcję [Wyświetlanie podglądu wtyczki w narzędziu Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
-## Resetting the Plugin Manager
+## Resetowanie narzędzia Plugin Manager
 
-The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins. If you need to reset your Plugin Manager to its defaults, delete the following registry key:
+Narzędzie Plugin Manager używa kluczy rejestru w systemie Windows do przechowywania zainstalowanych repozytoriów i wtyczek. Aby przywrócić domyślne ustawienia narzędzia Plugin Manager, należy usunąć następujący klucz rejestru:
 
 `Computer\HKEY_CURRENT_USER\Software\Autodesk\FormIt 360\Plugins`
 
-⚠️ Note: This will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+⚠️ Uwaga: należy pamiętać, że spowoduje to odinstalowanie wszystkich repozytoriów i wtyczek dodanych przez użytkownika, a więc zresetowanie narzędzia Plugin Manager do stanu, w którym będzie zawierać tylko wbudowane repozytoria i wtyczki.
 
-## Installing Plugins
+## Instalowanie wtyczek
 
-The [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
+Narzędzie [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) zawiera wiele wtyczek zorganizowanych w różnych kategoriach. Każda wtyczka ma nazwę, opis, łącze GitHub i przełącznik instalacji.&#x20;
 
 ![](../.gitbook/assets/d5.PNG)
 
-To install a plugin, simply turn on the toggle next to the plugin's name.&#x20;
+Aby zainstalować wtyczkę, wystarczy włączyć przełącznik obok jej nazwy.&#x20;
 
 ![](../.gitbook/assets/d6.png)
 
-The icon of the selected plugin will appear in the right panel. Click it to display the plugin's UI.
+Ikona wybranej wtyczki zostanie wyświetlona w prawym panelu. Kliknij ją, aby wyświetlić interfejs użytkownika wtyczki.
 
 ![](../.gitbook/assets/d7.PNG)
 
-## Using Plugins
+## Używanie wtyczek
 
-Each plugin has a unique UI defined by its developer. A plugin usually has a set of instructions on how to use it, a set of parameters (text boxes, sliders, checkboxes, etc.), and one or more buttons to execute it.
+Każda wtyczka ma niepowtarzalny interfejs użytkownika zdefiniowany przez jej programistę. Wtyczka zazwyczaj ma zestaw instrukcji dotyczących sposobu korzystania z niej, zestaw parametrów (pola tekstowe, suwaki, pola wyboru itp.) oraz jeden lub więcej przycisków do jej wykonania.
 
-As an example, we'll use one of the simpler examples in the Plugin Manager: Fillet 2D Corners. We first load the plugin from the Recommended section of the Plugin Manager. Then, following the instructions provided by the developer, we set the fillet radius, select a group of faces to fillet, and click the Fillet Corners button.
+Przykładowo użyjemy jednego z prostszych przykładów w narzędziu Plugin Manager: Fillet 2D Corners. Najpierw wczytujemy wtyczkę z sekcji polecanych w narzędziu Plugin Manager. Następnie, postępując zgodnie z instrukcjami programisty wtyczki, ustawiamy promień zaokrąglenia, wybieramy grupę powierzchni do zaokrąglenia i klikamy przycisk Fillet Corners (Zaokrąglij narożniki).
 
 ![](../.gitbook/assets/g4.gif)
 

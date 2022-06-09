@@ -1,4 +1,5 @@
 # Analiza energetyczna w usłudze Insight
 
-Więcej informacji na temat korzystania z analizy energetycznej można znaleźć [tutaj](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis).
+![](<../.gitbook/assets/image (22).png>)
 
+[Sprawdź informacje o połączeniu produktów FormIt + Insight w sekcji „Możliwości programu FormIt”.](../formit-capabilities/analysis.md)

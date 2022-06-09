@@ -8,9 +8,9 @@ Aby łatwiej szkicować i modelować, używaj przyciągania i punktów wnioskowa
 
 Istnieje kilka trybów przyciągania, które mogą być pomocne podczas szkicowania i modelowania. Przyciąganie do obiektów jest automatycznie włączone i można je przyciągać do następujących elementów:
 
-|                                                                                                                                                                            |                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Wierzchołki | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+|                                                                                                                                                                            |                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| Wierzchołki | ![](<../.gitbook/assets/inf3 (3).png>) |
 | krawędzi Po ustawieniu wskaźnika na krawędzi na końcach i w punkcie środkowym zostaną narysowane małe czerwone kropki. | ![](../.gitbook/assets/inf4.png) |
 | Punkty środkowe krawędzi | ![](../.gitbook/assets/inf5.png) |
 | Płaszczyzna powierzchni. Po ustawieniu wskaźnika na powierzchni na środku ciężkości powierzchni zostanie narysowana mała czerwona kropka. Ułatwi to znalezienie tego punktu, jeśli chcesz do niego przyciągnąć. | ![](../.gitbook/assets/inf6.png) |

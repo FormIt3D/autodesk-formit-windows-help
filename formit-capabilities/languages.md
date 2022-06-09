@@ -1,13 +1,13 @@
-# Languages
+# Języki
 
-FormIt for Windows supports 13 languages: English, Czech, German, Spanish, French, Italian, Japanese, Korean, Polish, Brazilian Portuguese, Russian, Simplified Chinese, and Traditional Chinese.
+Program FormIt dla systemu Windows obsługuje 13 języków: angielski, chiński uproszczony, chiński tradycyjny, czeski, francuski, hiszpański, japoński, koreański, niemiecki, polski, portugalski brazylijski, rosyjski i włoski.
 
-To change languages, select Settings in the toolbar or menu at the top of the screen, go to Languages, and select a language.&#x20;
+Aby zmienić języki, wybierz opcję Ustawienia na pasku narzędzi lub w menu u góry ekranu, przejdź do obszaru Języki i wybierz język.
 
-The language change will take effect once you restart FormIt.
+Zmiana języka zostanie zastosowana po ponownym uruchomieniu programu FormIt.
 
 ![](../.gitbook/assets/localization-language-picker.png)
 
-Additionally, when you launch FormIt from Revit via the 3D Sketch button, the FormIt interface will match the language from Revit, so you can enjoy a consistent experience across applications.
+Ponadto po uruchomieniu programu FormIt z programu Revit za pomocą przycisku Szkic 3D interfejs FormIt będzie zgodny z językiem programu Revit, co zapewnia spójne środowisko w tych różnych aplikacjach.
 
 ![](../.gitbook/assets/revit-formit-language-matching.png)

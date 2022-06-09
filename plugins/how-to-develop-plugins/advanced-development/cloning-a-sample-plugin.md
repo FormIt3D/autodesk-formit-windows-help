@@ -1,36 +1,36 @@
-# Cloning a Sample Plugin
+# Klonowanie przykładowej wtyczki
 
-### Clone an Existing FormIt Plugin Repo
+### Klonowanie istniejącego repozytorium wtyczki programu FormIt
 
-You can clone various plugin repos from the FormIt team. These plugins demonstrate different UI types and some advanced functionality that can be achieved with plugins.
+Możesz klonować różne repozytoria wtyczek od zespołu programu FormIt. Te wtyczki ilustrują różne typy interfejsu użytkownika i niektóre zaawansowane funkcje, które można zrealizować za pomocą wtyczek.
 
-Each plugin is stored in its own repo. You can find them here: [FormIt3D Organization Repos](https://github.com/FormIt3D)
+Każda wtyczka jest przechowywana w jej własnym repozytorium. Można je znaleźć tutaj: [Repozytoria organizacji FormIt3D](https://github.com/FormIt3D)
 
-### GitHub Desktop
+### Aplikacja GitHub Desktop
 
-[GitHub Desktop](https://desktop.github.com) provides an easy-to-use interface for cloning repos, seeing changes to files, and pushing/pulling changes between your local computer and online repos. Some of the features GitHub desktop provides are:
+Aplikacja [GitHub Desktop](https://desktop.github.com) zapewnia łatwy w użyciu interfejs umożliwiający klonowanie repozytoriów, wyświetlanie zmian w plikach oraz wypychanie/pobieranie zmian między komputerem lokalnym a repozytoriami online. Niektóre funkcje dostępne w aplikacji GitHub Desktop:
 
-* Create a new repo to host your plugin on GitHub.
-* Use GitHub Desktop to clone your new (empty) GitHub repository to your local machine.
-* Develop your plugin by adding new files to the repo folder locally.
-* Use GitHub Desktop to push your plugin files and directories to your repository.
-* Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+* Tworzenie nowego repozytorium mającego służyć jako obiekt nadrzędny wtyczki w serwisie GitHub.
+* Klonowanie nowego (pustego) repozytorium GitHub na komputerze lokalnym za pomocą aplikacji GitHub Desktop.
+* Opracowywanie wtyczki przez dodawanie nowych plików do folderu repozytorium lokalnie.
+* Wypychanie w aplikacji GitHub Desktop plików i katalogów wtyczki do repozytorium.
+* Włączanie stron GitHub w repozytorium, aby umożliwić programowi FormIt wczytywanie i wyświetlanie wtyczek hostowanych w GitHub.
 
-### Clone a Sample Plugin Repo with GitHub Desktop
+### Klonowanie przykładowego repozytorium wtyczki za pomocą aplikacji GitHub Desktop
 
-In GitHub, choose a plugin project you wish to clone or modify. Click the **Code** button, and copy the address from the dropdown.
+W serwisie GitHub wybierz projekt wtyczki, który chcesz sklonować lub zmodyfikować. Kliknij przycisk **Code** (Kod) i skopiuj adres z listy rozwijanej.
 
 ![](<../../../.gitbook/assets/image (78).png>)
 
-Open your GitHub desktop app, click **Current Repository**, and then select **Clone Repository**.
+Otwórz aplikację GitHub Desktop, kliknij opcję **Current Repository** (Bieżące repozytorium), a następnie wybierz opcję **Clone Repository** (Klonuj repozytorium).
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
-Select the **URL** tab, paste the copied link into first field, and choose a local folder path on your computer to save these files. Click **Clone**.
+Wybierz kartę **URL**, wklej skopiowane łącze w pierwszym polu i wybierz ścieżkę folderu lokalnego na komputerze, aby zapisać te pliki. Kliknij przycisk **Clone** (Klonuj).
 
 ![](<../../../.gitbook/assets/image (46).png>)
 
-### Open Your Project in Visual Studio Code
+### Otwieranie projektu w programie Visual Studio Code
 
-Launch Visual Studio Code. Go to **File** > **Open Folder** and select the folder that contains your plugin files and folders, for example, C:\Users\Documents\GenerateStringLights\v22\_0
+Uruchom program Visual Studio Code. Przejdź do opcji **Plik** > **Otwórz folder** i wybierz folder zawierający pliki i foldery wtyczki, na przykład C:\Użytkownicy\Dokumenty\GenerateStringLights\v22\_0
 

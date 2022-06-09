@@ -1,21 +1,19 @@
-# Launching the Sample Plugin
+# Uruchamianie przykładowej wtyczki
 
-### Running the Sample Plugin
+### Uruchamianie przykładowej wtyczki
 
-A sample plugin comes loaded with the Plugin Playground. Click the Play button to run a plugin.
+Za pomocą środowiska Plugin Playground zostaje wczytana przykładowa wtyczka. Kliknij przycisk Odtwórz, aby uruchomić wtyczkę.
 
-![Step 1](https://formit3d.github.io/PluginPlayground/images/step1.png)
+![Step 1](<../../../.gitbook/assets/run a plugin.png>)
 
+Spowoduje to wyświetlenie wtyczki z 3 pozycjami liczbowych danych wejściowych i przyciskiem Create Block (Utwórz blok). Przetestuj wtyczkę, która utworzy sześcian na podstawie podanych wartości wejściowych.
 
+### Wyświetlanie i edytowanie kodu
 
-This will display a plugin with 3 numerical inputs and a Create Block button. Go ahead and test the plugin, which will create a cube based on the provided input values.
+Aby wyświetlić kod tej wtyczki, kliknij przycisk Edytuj.
 
-### Viewing and Editing Code
+![Step2](<../../../.gitbook/assets/edit a plugin.png>)
 
-If you want to see the code behind this plugin, click the Edit button.
-
-![Step2](https://formit3d.github.io/PluginPlayground/images/step2.png)
-
-This will launch a dialog containing all the main pieces of a FormIt plugin: HTML, JavaScript, and CSS.
+Spowoduje to otwarcie okna dialogowego zawierającego wszystkie główne elementy tej wtyczki programu FormIt: kod HTML, JavaScript i CSS.
 
 ![](<../../../.gitbook/assets/02-view and edit playground code.gif>)

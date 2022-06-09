@@ -4,7 +4,7 @@
 
 W programie FormIt 2021 i w nowszych wersjach można generować poręcz wzdłuż ścieżki i szybko dostosowywać wyniki lokalnie. Poręcz wzdłuż ścieżki jest obsługiwana przez dodatek Dynamo, co oznacza, że wynikową poręcz można łatwo skonfigurować, aby uzyskać żądane wyniki, a ponowne uruchomienie logiki spowoduje zaktualizowanie geometrii lokalnie.
 
-![](../.gitbook/assets/railing-along-path.gif)
+![](<../.gitbook/assets/railing-along-path (1).gif>)
 
 ## Uruchamianie przykładu Railing Along Path
 
@@ -13,7 +13,7 @@ W programie FormIt 2021 i w nowszych wersjach można generować poręcz wzdłuż
 * Po lewej stronie ekranu zostanie wyświetlony monit „Select path for railing”.
    * W tym miejscu należy wybrać tylko serię przylegających krawędzi lub grupę zawierającą serię krawędzi.
    * Po wybraniu ścieżki kliknij przycisk „finish” lub naciśnij klawisz Enter/Return.
-* W panelu Dynamo będzie wyświetlana informacja o przetwarzaniu zmian. Po zakończeniu poręcz wygenerowana przez dodatek Dynamo będzie dostępna w grupie FormIt i będzie można ją modyfikować \(patrz poniżej\).
+* W panelu Dynamo będzie wyświetlana informacja o przetwarzaniu zmian. Po zakończeniu poręcz wygenerowana przez dodatek Dynamo będzie dostępna w grupie FormIt i będzie można ją modyfikować (patrz poniżej).
 
 ## Iteracja lokalna
 
@@ -23,7 +23,7 @@ Gdy narzędzie Railing Along Path jest uruchomione, tworzona jest nowa grupa zaw
 
 W każdej chwili można wrócić do właściwości narzędzia Railing Along Path, wybierając grupę i przełączając się na panel Właściwości lub edytując grupę, co spowoduje automatyczne wyświetlenie właściwości.
 
-![](../.gitbook/assets/railing-along-path-options.png)
+![](<../.gitbook/assets/railing-along-path-options (1).png>)
 
 ### Wysokość poręczy
 
@@ -37,7 +37,7 @@ Odstępy między głównymi słupkami pionowymi. Używane są bieżące jednostk
 
 Gdy jest ustawiona wartość **true**, słupki zostaną dodane w poszczególnych wierzchołkach wybranej ścieżki, a obliczenia dla następnego położenia słupka zostaną zresetowane w tych punktach.
 
-Na przykład jeśli wybrano serię 3 krawędzi, w każdym z dwóch punktów wewnętrznych pojawi się słupek. Jest to przydatne, jeśli wierzchołki wskazują zmianę kierunku \(np. kierunek schodów w górę lub zakręty\) w miejscach, w których słupki w naturalny sposób występują.
+Na przykład jeśli wybrano serię 3 krawędzi, w każdym z dwóch punktów wewnętrznych pojawi się słupek. Jest to przydatne, jeśli wierzchołki wskazują zmianę kierunku (np. kierunek schodów w górę lub zakręty) w miejscach, w których słupki w naturalny sposób występują.
 
 Gdy jest ustawiona wartość **false**, słupki zostaną dodane tylko wzdłuż ścieżki rozpoczynającej się na jednym końcu i z pomiarem odległości wzdłuż ścieżki oraz ignorowaniem występujących wzdłuż ścieżki wierzchołków. Jest to przydatne, jeśli wybrano łuk, splajn lub okrąg, w których wierzchołki nie są ważne i powinny być ignorowane w odstępach między słupkami.
 
@@ -49,11 +49,11 @@ W przypadkach gdy odstępy między słupkami powodują powstanie pustej przestrz
 
 ### Post Width + Depth
 
-Rozmiar \(w rzucie\) profili pionowych słupków prostokątnych. Używane są bieżące jednostki programu FormIt.
+Rozmiar (w rzucie) profili pionowych słupków prostokątnych. Używane są bieżące jednostki programu FormIt.
 
 ### Handrail Width + Height
 
-Rozmiar \(w przekroju\) profilu poręczy prostokątnej. Używane są bieżące jednostki programu FormIt.
+Rozmiar (w przekroju) profilu poręczy prostokątnej. Używane są bieżące jednostki programu FormIt.
 
 ### Baluster Orientation
 
@@ -78,4 +78,3 @@ Po zakończeniu edycji opcji kliknij przycisk „Run”, aby uruchomić podstawo
 ### Edit Embedded Graph
 
 Kliknięcie tego przycisku spowoduje uruchomienie środowiska edytora wykresów Dynamo, aby można było wyświetlić i edytować podstawowy wykres Dynamo w celu szybszej zmiany parametrów i wyświetlenia aktualizacji na żywo bądź sprawdzenia/dopasowania logiki.
-

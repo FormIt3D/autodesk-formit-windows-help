@@ -8,7 +8,7 @@ Jeśli jesteś nowym użytkownikiem programu FormIt, zalecamy rozpoczęcie pracy
 
 Szczegółowe objaśnienia dotyczące konkretnych narzędzi, pasków narzędzi, palet i procesów podano w sekcjach **Wprowadzenie do programu FormIt** i **Biblioteka narzędzi**.
 
-![](../../.gitbook/assets/screen1.jpg)
+![](<../../.gitbook/assets/screen1 (1).jpg>)
 
 ### Wymagania wstępne
 
@@ -16,7 +16,7 @@ Przed rozpoczęciem części II pobierz i zainstaluj program FormIt dla systemu 
 
 W przypadku większości rozdziałów konieczne jest również pobranie i używanie zestawu danych, do którego prowadzi poniższe łącze.
 
-_Jeśli nie można uruchomić programu FormIt dla systemu Windows, większość ćwiczeń z tego samouczka można wykonać za pomocą bezpłatnej_ [_**aplikacji internetowej**_](https://formit.autodesk.com/app)_**.** Aby uzyskać więcej informacji na temat wersji i licencjonowania programu FormIt, odwiedź witrynę internetową_ ****[_**programu FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Jeśli nie można uruchomić programu FormIt dla systemu Windows, większość ćwiczeń z tego samouczka można wykonać za pomocą bezpłatnej_ [_**aplikacji internetowej**_](https://formit.autodesk.com/app)_**.** Aby uzyskać więcej informacji na temat wersji i licencjonowania programu FormIt, odwiedź_ [_witrynę internetową programu FormIt_](https://formit.autodesk.com)_._
 
 ### Dane
 
@@ -24,5 +24,4 @@ Model Encode Campus, przedstawiony powyżej, jest fikcyjnym projektem o średnie
 
 Wszystkie elementy fasady budynku Encode są sterowane przez skrypty Dynamo i zależne od ścieżki u podstawy budynku, która definiuje kształt fasady.
 
-* \*\*\*\*[**Zestaw danych podręcznika FormIt Primer — część II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
-
+* [**Zestaw danych podręcznika FormIt Primer — część II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)

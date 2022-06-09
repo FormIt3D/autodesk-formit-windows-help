@@ -1,6 +1,6 @@
-# Creating a Combined HTML Panel and Toolbar Plugin
+# Tworzenie wtyczki stanowiącej połączenie panelu HTML i paska narzędzi
 
-With a single _manifest.json_, you can initialize both a toolbar and an HTML panel, offering a variety of UI types and tools, all loaded from the same directory.
+Za pomocą jednego pliku _manifest.json_ można zainicjować zarówno pasek narzędzi, jak i panel HTML, udostępniając różne narzędzia i typy interfejsu użytkownika wczytane z tego samego katalogu.
 
 ```
     {
@@ -22,5 +22,5 @@ With a single _manifest.json_, you can initialize both a toolbar and an HTML pan
         "Panel": "panel.html", <-- Panel entry point
         "PanelIcon": "block.png" <-- Icon for your panel button
     }
-        
+
 ```

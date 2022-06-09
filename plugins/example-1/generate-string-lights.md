@@ -1,34 +1,34 @@
-# Generate String Lights
+# Generate String Lights (Generuj ciągi świateł)
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_W tym rozdziale omówimy kilka przykładowych wtyczek dostarczanych z programem FormIt, aby wprowadzić ulepszenia w modelu_ _**Encode Campus Sample Model.axm**. Jeśli jeszcze nie zostało to zrobione, możesz pobrać plik z zestawu danych_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
 
-_This neat plugin lets you quickly add hanging lights to your model based on a line or curve._
+_Ta świetna wtyczka umożliwia szybkie dodawanie do modelu wiszących świateł na podstawie linii lub krzywej._
 
-1 - Before adding any new lights, let's check out the intended result using a premade scene in the model.
+1 — Przed dodaniem jakichkolwiek nowych świateł sprawdźmy zamierzony rezultat, używając wstępnie przygotowanej sceny w modelu.
 
-1. To jump to the scene containing existing string lights, open the **Scenes Palette** and double click on the scene named **Eye Level – Short Alley**.
-2. Notice the string lights that came with this model – that is what we are going to recreate, but somewhere else.
-3. In the **Layer Palette**, turn on the **Helper Geometry** layer so you can see the original lines used to generate these string lights.
+1. Aby przejść do sceny zawierającej istniejące ciągi świateł, otwórz **paletę Sceny** i kliknij dwukrotnie scenę o nazwie **Eye Level – Short Alley** \(Poziom wzroku — Krótka uliczka\).
+2. Zwróć uwagę na ciąg świateł, który pojawił się w tym modelu — zamierzamy go odtworzyć, ale w innym miejscu.
+3. Na **palecie Warstwy** włącz warstwę **Helper Geometry** \(Geometria pomocnicza\), aby wyświetlić oryginalne linie użyte do wygenerowania tego ciągu świateł.
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - Now let’s navigate to the other alley and add some lights. In the **Scenes Palette** open the **Eye Level – Long Alley** scene. Notice that this alley does not yet have any string lights.
+2 — Teraz przejdźmy do drugiej uliczki i dodajmy trochę świateł. W **palecie Sceny** otwórz scenę **Eye Level – Long Alley** \(Poziom wzroku — Długa uliczka\). Zwróć uwagę, że w tej uliczce nie ma jeszcze żadnego ciągu świateł.
 
-3 - To create a new string of lights:
+3 — Aby utworzyć nowy ciąg świateł:
 
-1. Open the newly installed **Generate String Lights Palette** by clicking on the string light icon. By default, the icons for new plugins appear at the bottom.
-2. Change the **Number of Fixtures** option to **10**.
-3. Double-click on one of the helper lines to edit the pre-created **String Lights – Long Alley** group. Then single-click on one of the pre-drawn helper lines to select it.
-4. Click the **Generate String Lights** button inside the plugin’s palette, and a new string of lights should appear! Note that each string of lights is created as its own unique group.
+1. Otwórz nowo zainstalowaną **paletę Generate String Lights** \(Generuj ciągi świateł\), klikając ikonę ciągu świateł. Domyślnie ikony nowych wtyczek są wyświetlane u dołu.
+2. Zmień opcję **Number of Fixtures** \(Liczba opraw\) na **10**.
+3. Kliknij dwukrotnie jedną z linii pomocniczych, aby przeprowadzić edycję wstępnie utworzonej grupy **String Lights – Long Alley** \(Ciąg świateł — Długa uliczka\). Następnie kliknij jedną ze wstępnie narysowanych linii pomocniczych, aby ją zaznaczyć.
+4. Kliknij przycisk **Generate String Lights** \(Generuj ciąg świateł\) znajdujący się w palecie wtyczki. Powinien pojawić się nowy ciąg świateł. Pamiętaj, że każdy ciąg świateł jest tworzony jako osobna, niepowtarzalna grupa.
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
-_**Note:**_ _It is OK that some of the lines are going through the “Groove Coffee” sign, because the string light plugin creates a catenary curve that will sag realistically below the sign._
+_**Uwaga:**_ _niektóre linie przechodzą przez znak „Groove Coffee”, ponieważ wtyczka ciągu świateł tworzy krzywą łańcucha, która będzie realistycznie zwisać pod znakiem._
 
-4 - Try creating some more string lights by using the other pre-made helper line and/or creating some of your own helper lines. Play around with the plugin’s settings to get different results.
+4 — Spróbuj utworzyć więcej ciągów świateł, używając innej wstępnie utworzonej linii pomocniczej i/lub utworzyć kilka własnych linii pomocniczych. Pobaw się ustawieniami wtyczki, aby uzyskać różne wyniki.
 
-5 - To help keep the model organized, when finished we recommend grouping all the helper lines and placing that group on the **Helper Geometry** layer, as well as assigning all string light groups to the **Context – Exterior Lighting** layer. This will prevent the helper lines from showing up in any of the ‘Eye Level’ scenes where we do not want to see them. When finished, the results should look something like the next screenshot.
+5 — Aby ułatwić zachowanie porządku w modelu, po zakończeniu zalecamy zgrupowanie wszystkich linii pomocniczych i umieszczenie tej grupy w warstwie **Helper Geometry** \(Geometria pomocnicza\), jak również przypisanie wszystkich grup ciągów świateł do warstwy **Context – Exterior Lighting** \(Kontekst — Oświetlenie zewnętrzne\). Zapobiegnie to wyświetlaniu linii pomocniczych we wszystkich scenach „Eye Level” \(Poziom wzroku\), w których nie chcemy ich widzieć. Po zakończeniu wyniki powinny wyglądać podobnie jak na następnym zrzucie ekranu.
 
 ![](<../../.gitbook/assets/5 (3) (1).png>)
 
-_**Note:**_ _Unlike geometry created from a Dynamo script, which can be updated and regenerated through the_ _**Properties Palette**, objects created by a plugin are (for the most part) just regular FormIt geometry. Once created, they can only be edited using FormIt’s built in modeling tools._
+_**Uwaga:**_ _w odróżnieniu od geometrii utworzonej ze skryptu Dynamo, którą można zaktualizować i wygenerować ponownie za pomocą_ _**palety Właściwości**, obiekty utworzone przez wtyczkę to (przeważnie) zwykła geometria programu FormIt. Po utworzeniu można je edytować tylko za pomocą narzędzi modelowania wbudowanych w programie FormIt._

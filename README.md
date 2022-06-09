@@ -2,11 +2,17 @@
 
 ## Dokumentacja programu FormIt dla systemu Windows
 
-![](<.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
+![](<.gitbook/assets/formit intro hero image.png>)
 
 ## Dowiedz się więcej na temat możliwości programu FormIt dla systemu Windows
 
-Oprogramowanie do modelowania architektonicznego FormIt® umożliwia architektom szkicowanie, współpracę, analizowanie i modyfikowanie koncepcji projektowych na wczesnym etapie projektu oraz sprawniejszą pracę już od samego początku dzięki projektowaniu koncepcyjnemu opartemu na BIM.
+Program FormIt to intuicyjne narzędzie do modelowania koncepcyjnego, które umożliwia szkicowanie, współpracę, analizę i iterację wczesnych koncepcji projektów architektonicznych za pomocą komputera, przeglądarki internetowej lub tabletu.
 
-* Korzystanie z programu FormIt dla systemu Windows wymaga subskrypcji **FormIt Pro**, która jest częścią [kolekcji Autodesk z zakresu architektury, inżynierii i budownictwa (AEC)](https://www.autodesk.pl/collections/architecture-engineering-construction/overview).
-* Można również pobrać program [FormIt dla systemu Windows](https://formit.autodesk.com/page/download) i rozpocząć korzystanie z 30-dniowej bezpłatnej wersji próbnej programu FormIt Pro.
+* Projektuj w dowolnym miejscu i czasie w prostym, a jednocześnie wydajnym środowisku szkicowania 3D i modelowania brył.
+* Podejmuj świadome decyzje projektowe z uwzględnieniem kontekstu terenu, wpływu oświetlenia naturalnego i analizy energetycznej.
+* Wykorzystaj możliwości projektowania obliczeniowego dzięki wbudowanej integracji z dodatkiem Dynamo.
+* Połącz projekty koncepcyjne z procesami BIM dzięki zintegrowanej integracji z programem Revit.
+
+Korzystanie z programu FormIt dla systemu Windows wymaga subskrypcji **FormIt Pro**, która jest częścią [kolekcji Autodesk z zakresu architektury, inżynierii i budownictwa (AEC)](https://www.autodesk.pl/collections/architecture-engineering-construction/overview).
+
+Można również pobrać program [FormIt dla systemu Windows](https://formit.autodesk.com/page/download) i rozpocząć korzystanie z 30-dniowej bezpłatnej wersji próbnej programu **FormIt** **Pro**.

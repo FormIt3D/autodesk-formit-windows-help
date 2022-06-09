@@ -1,39 +1,39 @@
-# Introduction to Plugins
+# Wprowadzenie do wtyczek
 
 ![](../.gitbook/assets/gg4.gif)
 
-Plugins are custom software additions that expand FormIt's core functionality. Plugins can enhance, empower, and simplify your 3D modeling workflows in FormIt.&#x20;
+Wtyczki to niestandardowe dodatki programowe, które rozszerzają podstawowe funkcje programu FormIt. Wtyczki mogą rozszerzać, usprawniać i upraszczać procesy robocze modelowania 3D w programie FormIt.&#x20;
 
-Plugins can be used to generate objects, make modifications to existing objects, or extract information about an object. Plugins can also use rich web interfaces to display data and provide controls and inputs directly in the application.&#x20;
+Wtyczki mogą służyć do generowania obiektów, modyfikowania istniejących obiektów lub wyodrębniania informacji o obiekcie. Wtyczki mogą również używać rozbudowanych interfejsów internetowych do wyświetlania danych oraz zapewniania elementów sterujących i danych wejściowych bezpośrednio w aplikacji.&#x20;
 
-## Accessing Plugins
+## Uzyskiwanie dostępu do wtyczek
 
-Plugins are available in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) in the desktop and web versions of FormIt, as long as you are connected to the internet. Plugins are composed of a series of files and folders hosted on GitHub, or on a local server when building your own.&#x20;
+Wtyczki są dostępne w narzędziu [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) w wersjach komputerowej oraz internetowej programu FormIt, o ile komputer jest połączony z Internetem. Wtyczki składają się z serii plików i folderów przechowywanych w serwisie GitHub lub na serwerze lokalnym (w przypadku tworzenia własnej wtyczki).&#x20;
 
 ![](../.gitbook/assets/c17.PNG)
 
-### Plugins Require Internet Access
+### Wtyczki wymagają dostępu do Internetu
 
-External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
+Wtyczki zewnętrzne (wtyczki inne niż hostowane lokalnie) wymagają połączenia z Internetem do wstępnego wczytania, co ma następujące konsekwencje:
 
-* External plugins will not load if no internet connection is detected when FormIt starts. Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.&#x20;
-* External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change. Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
+* Wtyczki zewnętrzne nie zostaną wczytane, jeśli podczas uruchamiania programu FormIt nie zostanie wykryte połączenie z Internetem. Po wczytaniu niektóre wtyczki zewnętrzne mogą nadal działać w trybie offline w danej sesji, ale działanie innych może zostać przerwane, dopóki połączenie nie zostanie przywrócone.&#x20;
+* Wtyczki zewnętrzne wczytują najnowszy kod na serwerze przy każdym uruchomieniu, więc ich funkcje są aktualizowane za każdym razem, gdy autor wprowadza zmiany. Wtyczki są wczytywane asynchronicznie, co oznacza, że kolejność wtyczek w interfejsie programu FormIt może się zmieniać podczas każdej nowej sesji.
 
-## Open Source
+## Otwórz źródło
 
-Plugins are open-source, allowing you to use the plugins in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) free of charge, publish and share your plugins easily, and find other plugins on GitHub to understand how they're built.&#x20;
+Wtyczki są składnikami typu open source, dzięki czemu można bezpłatnie używać wtyczek w narzędziu [Plugin Manager](how-to-use-plug-ins.md#plugin-manager), łatwo je publikować i udostępniać oraz znajdować inne wtyczki w serwisie GitHub, aby analizować ich konstrukcję.&#x20;
 
-If you are a developer and want more information on how to publish your plugins, see [Hosting a Plugin on GitHub](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
+Jeśli jesteś programistą i chcesz uzyskać więcej informacji na temat publikowania wtyczek, zobacz temat [Hostowanie wtyczki w serwisie GitHub](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
 
-If you want to make a plugin for private use, you can develop and host it using a local service. For more information, see [Using an IDE. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
+Aby utworzyć wtyczkę do użytku prywatnego, można ją opracować i hostować za pomocą usługi lokalnej. Aby uzyskać więcej informacji, zobacz temat [Korzystanie ze środowiska IDE. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
 
 ![](../.gitbook/assets/c18.PNG)
 
 
 
-## Contact Us
+## Skontaktuj się z nami
 
-If you need any help with FormIt plugins, drop us a line on the [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
+Jeśli potrzebujesz pomocy dotyczącej wtyczek programu FormIt, daj nam znać na [forum programu FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en).
 
 ![](../.gitbook/assets/c19.PNG)
 

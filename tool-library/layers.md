@@ -2,13 +2,13 @@
 
 Za pomocą warstw możesz sterować widocznością obiektów programu FormIt.
 
-Zobacz warstwy w działaniu, korzystając z podręcznika [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Zobacz warstwy w działaniu, korzystając z podręcznika [](../formit-primer/part-i/control-visibility-with-layers.md)FormIt Primer.
 
 ## Tworzenie i nazywanie warstw
 
 W panelu Warstwy można tworzyć warstwy i nadawać im nazwy, klikając ikonę „**+**”.
 
-![](../.gitbook/assets/layer-locking-image.jpg)
+![](<../.gitbook/assets/layer-locking-image (1).jpg>)
 
 Klikając dwukrotnie warstwę, można zmienić jej nazwę. Natomiast przez zaznaczenie lub wyczyszczenie lewego pola wyboru można przełączać widoczność jej obiektów. Za pomocą prawego pola wyboru można blokować i odblokowywać warstwy. Zablokowana warstwa będzie nadal widoczna, ale nie będzie dostępna do wyboru ani do edycji.
 
@@ -25,4 +25,3 @@ Można kliknąć warstwę prawym przyciskiem myszy i wybrać opcję „Wybierz w
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
 Można również zmienić kolejność warstw w panelu, przeciągając je i upuszczając w nowych położeniach. Należy pamiętać, że nie ma to wpływu na widoczność geometrii — jest to narzędzie służące wyłącznie do organizacji tego panelu.
-

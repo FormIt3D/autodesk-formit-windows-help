@@ -6,21 +6,21 @@
 
 Możliwość szybkiego tworzenia systemów szprosów witryny/ściany kurtynowej w programie FormIt jest obsługiwana przez dodatek Dynamo. System Storefront Curtainwall można znaleźć w katalogu Dynamo Samples w panelu Dynamo:
 
-![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
+![](../.gitbook/assets/storefront-curtainwall-button.png)
 
 ## Wybieranie szyby dla systemu szprosów
 
-Od wersji FormIt 2021.2 w systemie Storefront Curtainwall używany jest nowy węzeł [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), który umożliwia wybranie szyby, „glass” \(pojedynczej powierzchni lub wyciągniętej bryły\), wokół której ma zostać wygenerowany system szprosów.
+Od wersji FormIt 2021.2 w systemie Storefront Curtainwall używany jest nowy węzeł [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), który umożliwia wybranie szyby, „glass” (pojedynczej powierzchni lub wyciągniętej bryły), wokół której ma zostać wygenerowany system szprosów.
 
-![Prosta szklana płaszczyzna z otworem na drzwi na dole.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![Prosta szklana („glass”) płaszczyzna z otworem na drzwi na dole.](../.gitbook/assets/storefron-system-1\_glass-only.png)
 
-Po kliknięciu miniatury Storefront Curtainwall \(zwróć uwagę na ikonę wskazującą, że wymagany jest wybór\) zostanie wyświetlony monit programu FormIt o wybranie geometrii szyby, aby można było kontynuować:
+Po kliknięciu miniatury Storefront Curtainwall (zwróć uwagę na ikonę wskazującą, że wymagany jest wybór) zostanie wyświetlony monit programu FormIt o wybranie geometrii szyby, aby można było kontynuować:
 
-![](../.gitbook/assets/storefront-curtainwall-prompt.png)
+![](<../.gitbook/assets/storefront-curtainwall-prompt (2).png>)
 
 Kilka uwag i zastrzeżeń dotyczących sposobu wyboru szyby:
 
-* Obecnie obsługiwane są tylko powierzchnie płaskie. Jeśli zostanie wybrany szereg powierzchni \(na przykład powierzchnia „zakrzywiona” składająca się z mniejszych powierzchni płaskich\), skrypt znajdzie największą powierzchnię płaską i użyje tej powierzchni.
+* Obecnie obsługiwane są tylko powierzchnie płaskie. Jeśli zostanie wybrany szereg powierzchni (na przykład powierzchnia „zakrzywiona” składająca się z mniejszych powierzchni płaskich), skrypt znajdzie największą powierzchnię płaską i użyje tej powierzchni.
 * Jeśli szyba jest bryłą — tzn. pojedyncza powierzchnia jest wyciągnięta bardzo nieznacznie w celu uzyskania odrobiny grubości — skrypt znajdzie największą powierzchnię i wynikowe szprosy zostaną wygenerowane po jednej stronie bryły szklanej.
 * Można naszkicować otwory na drzwi i usunąć wynikową powierzchnię z obwiedni szyby. Wynikowe szprosy będą uwzględniać otwór drzwiowy, pozostawiając puste miejsce na dodanie drzwi.
 * Z powodu ograniczeń dodatku Dynamo ten skrypt nie będzie działał, jeśli geometria szyby ma otwory w środku.
@@ -35,19 +35,19 @@ Podczas wybierania geometrii dla wykresu Dynamo w programie FormIt niektóre roz
    * Wybierz grupę wynikową i umieść ją w innej grupie.
    * Kliknij dwukrotnie, aby przejść do pierwszej grupy. Jest to „pojemnik” zarówno na szybę, jak i na wynikowe szprosy.
    * Kliknij miniaturę Storefront Curtainwall i użyj grupy szyby jako wyboru.
-   * Po uruchomieniu skryptu można zamknąć grupę i skopiować/wkleić pojemnik, w którym się znajduje, jeśli zachodzi taka potrzeba. Bez problemu można edytować dowolne wystąpienia \(dopasowując kształt lub parametry szyby\).
+   * Po uruchomieniu skryptu można zamknąć grupę i skopiować/wkleić pojemnik, w którym się znajduje, jeśli zachodzi taka potrzeba. Bez problemu można edytować dowolne wystąpienia (dopasowując kształt lub parametry szyby).
 
 ## Opcje systemu szprosów
 
 Po wybraniu szyby i uruchomieniu skryptu uzyskuje się wynik w obszarze rysunku programu FormIt w postaci grupy programu FormIt. Ta grupa zostanie automatycznie wybrana, a na panelu Właściwości zostaną wyświetlone dostępne opcje.
 
-![](../.gitbook/assets/storefront-curtainwall-parameters.png)
+![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
 
 * **Run**: Jeśli zmienisz kształt szyby i zechcesz ponownie uruchomić wykres, aby zaktualizować wyniki szprosów, kliknij tę opcję.
 * **Edit Embedded Graph**: Edytuj skrypt Dynamo, który generuje geometrię. Ten skrypt jest osadzony w pliku programu FormIt i jest charakterystyczny dla tej grupy.
-* **Select Glass \(Surface or Solid\)**: Kliknij tę opcję, aby zaktualizować wybór do innej szyby, wokół której mają być generowane szprosy.
+* **Select Glass (Surface or Solid)**: kliknij tę opcję, aby zaktualizować wybór do innej szyby, wokół której mają być generowane szprosy.
 
-Skrypt będzie używał wartości domyślnych dla pierwszego przebiegu, dlatego należy dostosować je do danego konkretnego przypadku zastosowania. Wszystkie wartości będą mieć bieżące jednostki FormIt.
+Skrypt będzie używał wartości domyślnych dla pierwszego przebiegu, dlatego należy dostosować je do danego konkretnego przypadku zastosowania. We wszystkich wartościach będą używane jednostki określone przez węzeł [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 * **Mullion Width + Depth**: Szerokość i głębokość wszystkich elementów szprosu.
 * **Vertical Mullion Spacing**: Odległość między środkami poszczególnych szprosów pionowych.
@@ -69,7 +69,7 @@ Szukasz dodatkowych możliwości dostosowania? W panelu właściwości programu 
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
 * **Randomize Vertical and Horizontal Mullion Layout**: Ustaw wartość True, aby losowo rozmieścić szprosy pionowe lub poziome.
-* **Min/Max Mullion Spacing \(if random\)**: Te wartości można dostosować, aby ustawić zakres minimalnych i maksymalnych losowych wartości odstępów.
+* **Min/Max Mullion Spacing (if random)**: te wartości można dostosować, aby ustawić zakres minimalnych i maksymalnych losowych wartości odstępów.
 
 ### Szprosy graniczne
 
@@ -77,4 +77,3 @@ Szukasz dodatkowych możliwości dostosowania? W panelu właściwości programu 
 
 * **Flip Offset Direction of Border Mullions:** Domyślnie system szprosów będzie używał obwiedni szyby i odsunie ją do wewnątrz, aby utworzyć szprosy graniczne. Aby odsunąć ją na zewnątrz, ustaw tę opcję na True. Spowoduje to rozszerzenie całkowitego rozmiaru systemu szprosów poza obwiednię szyby o wartość szerokości szprosu.
 * **Tolerance Between Selection and Border Mullions**: Domyślnie system szprosów będzie generowany dokładnie na granicy szyby, co może spowodować niedopasowanie brzegu szyby i zewnętrznych powierzchni szprosów granicznych. W większości przypadków nie będzie to widoczne, ale jeśli w danym zastosowaniu wymagana jest widoczność krawędzi systemu i chcesz uniknąć niedopasowania, włącz tę opcję i dostosuj wartość tolerancji zgodnie z potrzebami.
-

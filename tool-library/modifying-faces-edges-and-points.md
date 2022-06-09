@@ -10,7 +10,7 @@ Wypychanie i ciągnięcie umieszczonych obiektów może dawać bardzo interesuj�
 4. Po kliknięciu możesz przyciągać do innych obiektów, aby wyrównać tę powierzchnię.
 5. Podobnie jak w przypadku przesunięcia, możesz kliknąć **wymiar tymczasowy** lub po prostu rozpocząć wpisywanie wartości, aby zdefiniować wielkość przesunięcia.
 
-![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 Można również usunąć powierzchnię, używając klawisza **Delete** lub klikając prawym przyciskiem myszy i wywołując polecenie Usuń z menu kontekstowego.
 
@@ -28,6 +28,6 @@ Powierzchnię można również usunąć, **klikając prawym przyciskiem myszy i 
 ## Modyfikowanie punktów
 
 1. Kliknij jednokrotnie narożnik jednego z sześcianów.
-2. Podobnie jak w przypadku krawędzi, przeciągnij punkt wzdłuż jednej z osi, aby ponownie zdefiniować kształt. [Następne: Skalowanie niejednorodne](non-uniform-scale.md)
+2. Podobnie jak w przypadku krawędzi, przeciągnij punkt wzdłuż jednej z osi, aby ponownie zdefiniować kształt. [Następne: Skalowanie niejednorodne](broken-reference)
 
-![](<../.gitbook/assets/modify3 (1) (1).png>)
+![](<../.gitbook/assets/modify3 (1).png>)

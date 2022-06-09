@@ -1,8 +1,8 @@
-# Creating an HTML Panel Plugin
+# Tworzenie wtyczki panelu HTML
 
 ![](<../../../.gitbook/assets/PANEL BASED PLUGIN.gif>)
 
-A panel-based plugin that displays an HTML page has a _manifest.json_ file with the following structure:
+Wtyczka oparta na panelu, która wyświetla stronę HTML, ma plik _manifest.json_ o następującej strukturze:
 
 ```
 {
@@ -17,12 +17,12 @@ A panel-based plugin that displays an HTML page has a _manifest.json_ file with 
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a panel-based plugin includes these special JSON properties:
+Oprócz [standardowych właściwości JSON](../advanced-development/general-plugin-setup-in-the-manifest.md) wtyczka oparta na panelu zawiera następujące specjalne właściwości JSON:
 
-* "Panel" tells FormIt that this plugin is a panel, and links to the location of the HTML file that should be loaded in the panel.
-* The HTML file will need links in the header to the appropriate JavaScript files, as well as to a CSS file for styling.
-* The HTML file will render in the FormIt panel as it would in a browser.
-* You can see examples of rich HTML interfaces in our [FormIt3D organization](https://github.com/FormIt3D/).
-* "PanelIcon" defines an icon for this plugin to appear in the tab on the right side of the application. If undefined, FormIt creates an automatic icon using the initials from the name of the plugin.
+* „Panel” — informuje program FormIt, że ta wtyczka jest panelem i zapewnia połączenie z położeniem pliku HTML, który powinien zostać wczytany do panelu.
+* Plik HTML musi mieć w nagłówku łącza do odpowiednich plików JavaScript, jak również do pliku CSS, za pomocą którego zostaną przypisane style.
+* Plik HTML będzie renderowany w panelu programu FormIt tak jak w przeglądarce.
+* Przykłady zaawansowanych interfejsów HTML można znaleźć w naszej [organizacji FormIt3D](https://github.com/FormIt3D/).
+* „PanelIcon” — definiuje ikonę tej wtyczki, która ma być wyświetlana na karcie po prawej stronie aplikacji. Jeśli nie jest zdefiniowana, program FormIt tworzy automatyczną ikonę, używając pierwszych liter wyrazów z nazwy wtyczki.
 
-Once your HTML, CSS, and JavaScript files are set up, you can begin testing your HTML panel plugin by [loading it or installing it](../advanced-development/setting-up-formit-for-development.md#load-vs.-install).
+Po skonfigurowaniu plików HTML, CSS i JavaScript można rozpocząć testowanie wtyczki panelu HTML, [wczytując ją lub instalując](../advanced-development/setting-up-formit-for-development.md#load-vs.-install).

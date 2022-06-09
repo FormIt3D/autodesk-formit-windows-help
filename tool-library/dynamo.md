@@ -1,6 +1,5 @@
 # Dynamo
 
-Dodatek Dynamo jest wbudowany w programie FormIt dla systemu Windows 17.0 i nowszych wersjach, co umożliwia uruchamianie lokalnych wykresów dodatku Dynamo w celu łatwego generowania złożonej geometrii w programie FormIt.
+![](<../.gitbook/assets/image (33).png>)
 
-[Dowiedz się, jak współdziałają program FormIt i dodatek Dynamo](https://formit.autodesk.com/page/formit-dynamo).
-
+[Sprawdź informacje o połączeniu produktów FormIt + Dynamo w sekcji „Możliwości programu FormIt”](../formit-capabilities/formit-+-dynamo.md).

@@ -21,4 +21,3 @@ Kolory linii według osi:
 ![](../.gitbook/assets/rectangle2.png)
 
 Po zakończeniu rysowania prostokąta staje się on powierzchnią, którą można wyciągnąć, aby utworzyć bryłę.
-

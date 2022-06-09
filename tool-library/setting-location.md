@@ -13,11 +13,11 @@ Aby uzyskać dostęp do okna dialogowego Ustaw położenie i jego usług, należ
 
 * Uruchom okno dialogowe **Ustaw położenie** z narzędzia **Położenie** na pasku narzędzi lub za pomocą skrótu klawiaturowego SL.
 
-![](../.gitbook/assets/location-toolbar.png)
+![](<../.gitbook/assets/location-toolbar (1).png>)
 
-* Najpierw wpisz położenie projektu w polu wyszukiwania w lewym górnym rogu okna _Ustaw położenie_.
+* Najpierw wpisz położenie projektu w polu wyszukiwania w lewym górnym rogu okna _Ustaw położenie_.&#x20;
 
-![](../.gitbook/assets/location-step-1%20%281%29.png)
+![](<../.gitbook/assets/location-step-1 (1).png>)
 
 * Wybierz jedną z automatycznie wypełnionych opcji położenia lub naciśnij klawisz Enter, aby wybrać pierwszą.
 * Widok zostanie powiększony do położenia, które zostało automatycznie wyszukane.
@@ -38,7 +38,7 @@ Po wyszukaniu położenia można wybrać jedną z dwóch opcji:
 
 * Przeciągnij obraz satelitarny w kwadracie, aby dopasować jego położenie.
 * Po ujęciu w obszarze kwadratowym odpowiedniego obrazu kliknij przycisk **Zakończ importowanie**.
-* Obraz zostanie zaimportowany z przeskalowaniem, przy czym północ rzeczywista jest skierowana w górę, wyśrodkowana w początku obszaru rysunku FormIt. Przezroczystość i kolejność względem osi Z zaimportowanego obrazu można zmienić, klikając go dwukrotnie i przechodząc do [**palety Właściwości**](../formit-introduction/tool-bars.md).
+* Obraz zostanie zaimportowany z przeskalowaniem, przy czym północ rzeczywista jest skierowana w górę, wyśrodkowana w początku obszaru rysunku FormIt. Przezroczystość i kolejność względem osi Z zaimportowanego obrazu można zmienić, klikając go dwukrotnie i przechodząc do [**palety Właściwości**](../formit-introduction/tool-bars.md).&#x20;
 
 ![](../.gitbook/assets/location-step-3.png)
 
@@ -50,7 +50,7 @@ Po wstępnym zaimportowaniu obrazów satelitarnych można za pomocą okna Ustaw 
 * Kliknij opcję **Importuj obraz satelitarny i teren.**
 * Zostanie wyświetlony bieżący poziom powiększenia obrazu satelitarnego i zakres, jak pokazano w obszarze rysunku FormIt.
 * Wystarczy dopasować położenie lub powiększenie, a następnie kliknąć przycisk **Zakończ importowanie**, tak jak poprzednio.
-* Po ponownym zaimportowaniu obrazu do obszaru rysunku zostanie on przesunięty do właściwego położenia względem oryginalnego położenia obrazu \(i może nie być już wyśrodkowany w początku\):
+* Po ponownym zaimportowaniu obrazu do obszaru rysunku zostanie on przesunięty do właściwego położenia względem oryginalnego położenia obrazu (i może nie być już wyśrodkowany w początku):
 
 ![](../.gitbook/assets/location-step-4.png)
 
@@ -58,15 +58,15 @@ Po wstępnym zaimportowaniu obrazów satelitarnych można za pomocą okna Ustaw 
 
 Nowość w programie FormIt 2021.3: w przypadku importowania obrazów satelitarnych przy użyciu okna dialogowego **Ustaw położenie** uzyskuje się również teren.
 
-![](../.gitbook/assets/terrain-button_original.png)
+![](../.gitbook/assets/terrain-button\_original.png)
 
-Po zaimportowaniu terenu jest on umieszczany na warstwie, która jest domyślnie wyłączona \(w przypadku rozpoczęcia modelowania model może być przykryty przez teren).
+Po zaimportowaniu terenu jest on umieszczany na warstwie, która jest domyślnie wyłączona (w przypadku rozpoczęcia modelowania model może być przykryty przez teren).
 
 Gdy wszystko będzie gotowe do wyświetlenia terenu, zaznacz pole wyboru w celu przełączenia warstwy terenu:
 
-![](../.gitbook/assets/terrain-layer%20%281%29.png)
+![](<../.gitbook/assets/terrain-layer (1) (1).png>)
 
-![](../.gitbook/assets/terrain_solid.png)
+![](../.gitbook/assets/terrain\_solid.png)
 
 ### Praca z terenem
 
@@ -97,3 +97,12 @@ W wyniku tego powstanie teren z usuniętą bryłą tnącą, co spowoduje odsłon
 
 Za pomocą [warstw](layers.md) można ukryć bryłę tnącą lub nawet utworzyć kopie terenu z wycięciem i bez niego na wypadek, gdyby trzeba było utworzyć odniesienie do pierwotnego terenu lub zmienić kształt wycięcia przed wykonaniem operacji wycięcia bryły.
 
+### Rozwiązywanie problemów z oknem dialogowym Ustaw lokalizację
+
+Ustawienie lokalizacji w programie FormIt wymaga połączenia z Internetem w celu pobrania danych satelitarnych i danych terenu z usługi Mapy Bing.
+
+Ponadto ponieważ okno dialogowe Ustaw lokalizację jest tak naprawdę wtyczką programu FormIt, do działania tej wtyczki wymagany jest dostęp do serwisu GitHub. W przypadku problemów z oknem dialogowym Ustaw lokalizację sprawdź, czy masz dostęp do witryny [https://github.io](https://github.io):&#x20;
+
+* Przejdź do przeglądarki internetowej.
+* Spróbuj przejść na adres [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)
+* Jeśli nie pojawią się dane, sieć lub zapora mogą blokować dostęp do serwisu GitHub.

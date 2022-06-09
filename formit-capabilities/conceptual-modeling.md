@@ -15,8 +15,3 @@ Jądro do modelowania brył programu FormIt zapewnia niezwykłe, oszczędzające
 **Ponadto za pomocą narzędzi inteligentnego wybierania można szybko wybrać podobną geometrię i zaoszczędzić sobie kliknięć:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

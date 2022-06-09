@@ -8,7 +8,6 @@ Za pomocą narzędzia **Zmierz** można zmierzyć istniejącą geometrię w mode
 2. Wybierz dwa punkty, aby zmierzyć odległość między nimi.
 3. Wybierz powierzchnię lub krawędź, którą chcesz dostosować, kliknij wyświetloną wartość i dodaj nową wartość w wyświetlonym oknie dialogowym.
 
-![](../.gitbook/assets/measure%20%281%29.png)  
-![](../.gitbook/assets/measure2.png)  
+![](<../.gitbook/assets/measure (1).png>)\
+![](<../.gitbook/assets/measure2 (1).png>)\
 ![](../.gitbook/assets/measure3.png)
-

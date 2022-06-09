@@ -4,7 +4,7 @@
 
 W programie FormIt 2021 i jego nowszych wersjach można generować i modyfikować obiekty tekstu 3D obsługiwane przez dodatek Dynamo. Dodatek Dynamo umożliwia edycję czcionki, rozmiaru i innych właściwości tekstu lokalnie, bez konieczności ponownego generowania i zmiany położenia tekstu, gdy potrzebne są zmiany.
 
-![](../.gitbook/assets/3d-text.gif)
+![](<../.gitbook/assets/3d-text (1).gif>)
 
 ## Umieszczanie tekstu 3D
 
@@ -25,7 +25,7 @@ Opcje tekstu 3D są dostępne w panelu Właściwości po wybraniu grupy tekstu 3
 
 Po wstępnym umieszczeniu tekstu 3D automatycznie zostanie wyświetlony panel Właściwości. Możesz również wybrać grupę i samodzielnie przełączyć się na panel Właściwości lub kliknąć dwukrotnie grupę, aby zrobić to automatycznie.
 
-![](../.gitbook/assets/3d-text-options.png)
+![](<../.gitbook/assets/3d-text-options (2).png>)
 
 ### Text
 
@@ -51,23 +51,23 @@ Ta opcja spowoduje przesunięcie tekstu w celu wyrównania go względem początk
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-Wysokość tekstu w bieżących jednostkach programu FormIt.
+Wysokość tekstu. Jednostka jest oparta na węźle [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) i można użyć dowolnej jednostki.
 
 ### Extrusion Depth
 
-Wielkość wyciągnięcia 3D tekstu w bieżących jednostkach programu FormIt. Tekst 3D jest zaprojektowany jako bryła, dlatego ta wartość nie może wynosić zero, natomiast może być bardzo bliska 0, aby jego wyciągnięcie nie było oczywiste.
+Wielkość wyciągnięcia 3D tekstu w jednostkach ustawionych przez węzeł [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes). Tekst 3D jest zaprojektowany jako bryła, dlatego ta wartość nie może wynosić zero, natomiast może być bardzo bliska 0, aby jego wyciągnięcie nie było oczywiste.
 
 ### Śledzenie
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-Śledzenie przydaje się podczas dopasowywania domyślnych odstępów między literami z określonej czcionki. Ta wartość jest podawana w bieżących jednostkach programu FormIt i może być dodatnia lub ujemna. Na przykład w przypadku stóp wartość 0,25 spowoduje dodanie odstępu o szerokości 3" między poszczególnymi literami. I na odwrót: wartość -0,25 przybliży wszystkie litery do siebie o 3".
+Śledzenie przydaje się podczas dopasowywania domyślnych odstępów między literami z określonej czcionki. Używa jednostki ustawionej przez węzeł [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) i może ona być dodatnia lub ujemna. Na przykład w przypadku stóp wartość 0,25 spowoduje dodanie odstępu o szerokości 3" między poszczególnymi literami. I na odwrót: wartość -0,25 przybliży wszystkie litery do siebie o 3".
 
 ### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-Jeśli w polu Tekst znajduje się wiele wierszy, ta wartość określa wielkość odstępu między poszczególnymi wierszami tekstu. Używane są bieżące jednostki programu FormIt.
+Jeśli w polu Tekst znajduje się wiele wierszy, ta wartość określa wielkość odstępu między poszczególnymi wierszami tekstu. Używa jednostki ustawionej przez węzeł [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 ### Invert Text
 
@@ -79,13 +79,13 @@ Gdy ta opcja ma wartość True, wokół tekstu zostanie utworzona bryła, z któ
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Ma zastosowanie tylko w sytuacji, gdy opcja Invert Text ma wartość True. Określa wielkość obramowania wokół tekstu używanego względem bryły, z której jest usuwany tekst. Używane są bieżące jednostki programu FormIt.
+Ma zastosowanie tylko w sytuacji, gdy opcja Invert Text ma wartość True. Określa wielkość obramowania wokół tekstu używanego względem bryły, z której jest usuwany tekst. Używa jednostki ustawionej przez węzeł [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 ### Curve Faceting Quality
 
 Krzywe z czcionek są przekształcane na segmenty linii za pomocą tekstu 3D, dlatego ta wartość określa, z jak wielu płaszczyzn składają się krzywe.
 
-Mniejsze liczby spowodują utworzenie mniej precyzyjnych płaszczyzn \(dłuższych segmentów\), a większe — bardziej precyzyjnych \(krótszych segmentów\). Ta wartość zastępuje ustawienia płaszczyzn krzywej i powierzchni w Preferencjach programu FormIt.
+Mniejsze liczby spowodują utworzenie mniej precyzyjnych płaszczyzn (dłuższych segmentów), a większe — bardziej precyzyjnych (krótszych segmentów). Ta wartość zastępuje ustawienia płaszczyzn krzywej i powierzchni w Preferencjach programu FormIt.
 
 ### Uruchom
 
@@ -103,7 +103,7 @@ Iteracja opcji tekstu 3D może być szybsza dzięki uruchomieniu edytora wykres�
 
 Aby uruchomić edytor wykresów Dynamo, można kliknąć przycisk Edytuj osadzony wykres w panelu Właściwości.
 
-![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
+![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
 
 ## Rozwiązywanie problemów
 
@@ -114,8 +114,3 @@ Niektóre czcionki mogą powodować tworzenie „samoprzecinających się krzywy
 Jeśli podczas próby uruchomienia tekstu 3D wystąpi błąd lub litery znikną, warto kliknąć opcję „Edit Embedded Graph”, aby zobaczyć, co dzieje się z wykresem i gdzie mógł wystąpić błąd.
 
 Niektóre czcionki mają również znane problemy, które uniemożliwiają przekształcenie ich w prawidłową geometrię. Jednym z przykładów takiej czcionki jest Bahnschrift. Jeśli natrafisz na inną problematyczną czcionkę, [poinformuj nas o tym na forach ](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). Zrobimy wszystko, co w naszej mocy, aby rozwiązać problemy z określonymi czcionkami.
-
-
-
-
-

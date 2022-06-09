@@ -1,25 +1,25 @@
-# Plugin Playground
+# Plugin Playground \(Zabawa z wtyczkami\)
 
-## What is the Plugin Playground?
+## Czym jest środowisko Plugin Playground?
 
-The Plugin Playground is an out-of-the-box feature that lets you quickly develop and test plugins in FormIt. It's a great concept-modeling environment where you can make your 3D ideas reality in no time. You don't need any additional software, so there's no need to leave the FormIt app. It comes with a sample plugin, so you don't need to set up your plugin from scratch. Simply test your code and save your project to your GitHub account, all in the Playground panel.&#x20;
+Plugin Playground jest gotową funkcją, która umożliwia szybkie tworzenie i testowanie wtyczek w programie FormIt. To świetne środowisko do modelowania koncepcyjnego, w którym można szybko urzeczywistnić pomysły 3D. Nie potrzeba żadnego dodatkowego oprogramowania, więc nie trzeba opuszczać aplikacji FormIt. Środowisko jest dostarczane z przykładową wtyczką, więc nie trzeba konfigurować wtyczki od podstaw. Wystarczy przetestować kod i zapisać projekt na koncie GitHub, wszystko w panelu środowiska Playground.
 
-Here are some of the benefits of developing in the Plugin Playground:
+Oto niektóre z zalet opracowywania rozwiązań w środowisku Plugin Playground:
 
-* No additional installation required
-* Develop, test, and run plugins within the FormIt desktop or web app
-* Fast and easy file setup with sample code included
-* Save your project to your own GitHub account
-* Use the recording feature
+* Nie jest wymagana żadna dodatkowa instalacja
+* Wtyczki można tworzyć, testować i uruchamiać w aplikacji komputerowej lub internetowej FormIt
+* Szybka i łatwa konfiguracja plików dzięki dołączonemu przykładowemu kodowi
+* Zapisywanie projektu na koncie w serwisie GitHub
+* Korzystanie z funkcji nagrywania
 
 ![](<../../../.gitbook/assets/14 (3) (1).png>)
 
-## Installing the Plugin Playground
+## Instalowanie środowiska Plugin Playground
 
-You can think of the Plugin Playground as a plugin that makes plugins. This is because you install it as you would install any other plugin. Open the Plugin Manager, and you will find the Plugin Playground under the Recommended list. Use the toggle to install the Plugin Playground.
+Środowisko Plugin Playground można postrzegać jako wtyczkę służącą do tworzenia wtyczek. Jest tak dlatego, że instaluje się je tak samo jak inne wtyczki. Otwórz narzędzie Plugin Manager, a znajdziesz środowisko Plugin Playground na liście Recommended (Zalecane). Użyj przełącznika, aby zainstalować środowisko Plugin Playground.
 
 ![](<../../../.gitbook/assets/01-install playgground formit.gif>)
 
-Once it's installed, you can access the Plugin Playground through the ![](<../../../.gitbook/assets/image (25).png>) icon in the right menu.
+Po zainstalowaniu środowiska Plugin Playground można uzyskać do niego dostęp za pomocą ikony ![](<../../../.gitbook/assets/image (25).png>) w menu po prawej stronie.
 
-![](<../../../.gitbook/assets/image (79).png>)
+![](<../../../.gitbook/assets/image (53) (1) (1) (1).png>)

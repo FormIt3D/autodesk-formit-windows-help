@@ -12,19 +12,18 @@ Możesz również przechodzić do określonych trybów widoku za pomocą ruchome
 
 ![](../.gitbook/assets/20190618-ortho-views.png) **Widoki prostokątne**: Kliknij, aby wyświetlić menu rozwijane dostępnych [widoków prostokątnych](../tool-library/orthographic-views.md).
 
-![](../.gitbook/assets/20190618-3d-view.png) **Domyślny widok 3D \(ZD\):** Uruchamia domyślny widok 3D.
+![](../.gitbook/assets/20190618-3d-view.png) **Domyślny widok 3D (ZD):** uruchamia domyślny widok 3D.
 
-![](../.gitbook/assets/jet-pack.png) **Animacja \(FT\):** Tryb „przelotu” umożliwiający spacer po scenie przy użyciu klawiatury. Używaj klawiszy WASD, aby poruszać się do przodu/do tyłu/w lewo/w prawo, oraz klawiszy Q/E, aby poruszać się w górę/w dół. Klawisz spacji umożliwia włączenie „lotu”.
+![](../.gitbook/assets/jet-pack.png) **Animacja (FT):** tryb „przelotu” umożliwiający spacer po scenie przy użyciu klawiatury. Używaj klawiszy WASD, aby poruszać się do przodu/do tyłu/w lewo/w prawo, oraz klawiszy Q/E, aby poruszać się w górę/w dół. Klawisz spacji umożliwia włączenie „lotu”.
 
-![](../.gitbook/assets/orbit-tool.png) **Obróć \(O\):** Po włączeniu tej opcji kliknij lewym przyciskiem myszy i przeciągnij, aby orbitować wokół modelu. Można to również zrobić w dowolnym momencie, klikając prawym przyciskiem myszy i przeciągając.
+![](../.gitbook/assets/orbit-tool.png) **Obróć (O):** po włączeniu tej opcji kliknij lewym przyciskiem myszy i przeciągnij, aby orbitować wokół modelu. Można to również zrobić w dowolnym momencie, klikając prawym przyciskiem myszy i przeciągając.
 
-![](../.gitbook/assets/swivel.PNG) **Przekręć \(SV\):** Za pomocą narzędzia Przekręć z paska narzędzi nawigacji można rozejrzeć się po scenie ze stałego punktu obserwacyjnego.
+![](../.gitbook/assets/swivel.PNG) **Przekręć (SV):** za pomocą narzędzia Przekręć z paska narzędzi nawigacji można rozejrzeć się po scenie ze stałego punktu obserwacyjnego.
 
-![](../.gitbook/assets/panning.png) **Przesuń \(P\):** Kliknij środkowym przyciskiem myszy i przeciągnij lub użyj narzędzia Przesuń \(ikona dłoni\) z paska narzędzi nawigacji, aby przesunąć widok w poprzek sceny.
+![](../.gitbook/assets/panning.png) **Przesuń (P):** kliknij środkowym przyciskiem myszy i przeciągnij lub użyj narzędzia Przesuń (ikona dłoni) z paska narzędzi nawigacji, aby przesunąć widok w poprzek sceny.
 
-![](../.gitbook/assets/zoom.png) **Powiększ \(Z\):** Przewiń kółkiem myszy lub wybierz narzędzie Powiększ z paska narzędzi nawigacji, a następnie kliknij lewym przyciskiem myszy i przeciągnij, aby powiększyć.
+![](../.gitbook/assets/zoom.png) **Powiększ (Z):** przewiń kółkiem myszy lub wybierz narzędzie Powiększ z paska narzędzi nawigacji, a następnie kliknij lewym przyciskiem myszy i przeciągnij, aby powiększyć.
 
-![](../.gitbook/assets/zoom_all.png) **Powiększ wszystko \(ZE lub ZA\):** Powiększ, aby dopasować cały model do bieżącego widoku.
+![](../.gitbook/assets/zoom\_all.png) **Powiększ wszystko (ZE lub ZA):** powiększ, aby dopasować cały model do bieżącego widoku.
 
-![](../.gitbook/assets/zoom_selection.png) **Powiększ wybór \(ZS\):** Powiększ, aby dopasować wszystkie aktualnie wybrane obiekty do bieżącego widoku.
-
+![](../.gitbook/assets/zoom\_selection.png) **Powiększ wybór (ZS):** powiększ, aby dopasować wszystkie aktualnie wybrane obiekty do bieżącego widoku.

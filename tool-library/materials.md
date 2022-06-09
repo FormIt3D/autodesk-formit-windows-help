@@ -1,16 +1,16 @@
 # Materials
 
-Możesz uatrakcyjnić modele programu FormIt, używając materiałów z odbiciami, połyskiem i mapami wypukłości.
+Możesz uatrakcyjnić modele programu FormIt, używając materiałów z odbiciami, połyskiem oraz mapami wypukłości lub mapami normalnymi.
 
 ## Panel Materiały
 
-![](<../.gitbook/assets/materials-sample-category (2).png>)
+![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
 
 W panelu Materiały możesz wybrać jeden z wielu materiałów przykładowych, przechodzić między połączonymi bibliotekami materiałów oraz, od wersji FormIt 2021, uzyskiwać dostęp do materiałów z innych plików programu FormIt (AXM) i używać ich.
 
 ### Źródła bibliotek materiałów
 
-W programie FormIt 2021 i nowszych wersjach panel Materiały zawiera interfejs rozwijany, za pomocą którego można wybrać dostępne źródła bibliotek materiałów: W szkicu, Przykłady materiałów i [połączone biblioteki](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+W programie FormIt 2021 i nowszych wersjach panel Materiały zawiera interfejs rozwijany, za pomocą którego można wybrać dostępne źródła bibliotek materiałów: W szkicu, Przykłady materiałów i [połączone biblioteki](https://windows.help.formit.autodesk.com/v/polish/tool-library/materials#laczenie-bibliotek-materialow).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
@@ -30,13 +30,13 @@ Wyświetla listę dostępnych materiałów przykładowych. Te oferty są przecho
 
 **Połączone biblioteki**
 
-Inne katalogi i położenia będą widoczne po [połączeniu bibliotek materiałów](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+Inne katalogi i położenia będą widoczne po [połączeniu bibliotek materiałów](https://windows.help.formit.autodesk.com/v/polish/tool-library/materials#laczenie-bibliotek-materialow).
 
 ### Tworzenie, usuwanie i zakraplacz
 
-![](../.gitbook/assets/materials\_add.PNG) **Tworzenie nowego materiału** — możesz zdefiniować jego kolor, teksturę, mapę wypukłości, mapę wycięć, przezroczystość oraz ustawienia odbicia/połysku.
+![](../.gitbook/assets/materials\_add.PNG) **Tworzenie nowego materiału** — możesz zdefiniować jego kolor, teksturę, mapę wypukłości lub mapę normalną, mapę wycięć, przezroczystość oraz ustawienia odbicia/połysku.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Usuń** wybrane materiały.
+![](<../.gitbook/assets/materials\_delete (1).PNG>) **Usuń** wybrane materiały.
 
 ![](../.gitbook/assets/materials\_eyedropper.PNG) **Kroplomierz** pozwala wybrać materiał, którym pomalowany jest element sceny, i zacząć malować tym materiałem.
 
@@ -45,7 +45,7 @@ Inne katalogi i położenia będą widoczne po [połączeniu bibliotek materiał
 
 ### Odświeżanie, łączenie bibliotek i usuwanie nieużywanych
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Łączenie bibliotek materiałów** z katalogów lokalnych. Elementy będą widoczne w katalogach zawierających pliki JPG, PNG lub AXM (pliki programu FormIt). Aby uzyskać więcej informacji, zobacz temat [Łączenie bibliotek materiałów](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+![](../.gitbook/assets/materials-link.png) **Łączenie bibliotek materiałów** z katalogów lokalnych. Elementy będą widoczne w katalogach zawierających pliki JPG, PNG lub AXM (pliki programu FormIt). Aby uzyskać więcej informacji, zobacz temat [Łączenie bibliotek materiałów](https://windows.help.formit.autodesk.com/v/polish/tool-library/materials#laczenie-bibliotek-materialow).
 
 ![](../.gitbook/assets/materials-refresh.png) **Odświeżenie** bieżącego katalogu. Ta opcja jest dostępna tylko podczas wyświetlania katalogu połączonego lokalnie (nie w przypadku bibliotek W szkicu i Przykłady materiałów).
 
@@ -115,10 +115,10 @@ Podczas tworzenia lub edycji materiału zostanie wyświetlone okno dialogowe Edy
    * Kliknij ikonę Usuń, aby usunąć mapę z tego materiału.
       * **Tekstura z pliku obrazu**
          * JPG lub PNG
-      * **Mapa wypukłości z pliku obrazu**
+      * **Mapa wypukłości lub mapa normalna z pliku obrazu**
          * Zalecany format JPG.
          * Praktyczne rozwiązanie do dodawania efektu głębi do materiałów.
-         * Aby wygenerować mapy wypukłości na podstawie tekstury, można użyć bezpłatnego oprogramowania, takiego jak ShaderMap.
+         * Aby wygenerować mapy wypukłości/normalne na podstawie tekstury, można użyć bezpłatnego oprogramowania, takiego jak ShaderMap.
       * **Mapa wycięć z pliku obrazu**
          * PNG
          * Praktyczne rozwiązanie w przypadku materiałów, które mają selektywną przezroczystość, takich jak ogrodzenia z siatki czy panele perforowane.
@@ -142,7 +142,7 @@ Za pomocą narzędzia **Dopasuj położenie materiału** można nadpisać domyś
    * Jeśli powierzchnia dziedziczy materiał z grupy nadrzędnej, należy najpierw bezpośrednio pomalować powierzchnię.
 * Przejdź do narzędzia Dopasuj położenie materiału za pomocą skrótu MP lub przy użyciu menu kontekstowego dostępnego po kliknięciu prawym przyciskiem myszy:
 
-![](../.gitbook/assets/adjust-material-placement.PNG)
+![](../.gitbook/assets/adjust-material-placement.png)
 
 Użyj kontrolek na ekranie, aby w sposób interaktywny przesuwać, obracać i skalować tekstury materiału bezpośrednio na powierzchni:
 

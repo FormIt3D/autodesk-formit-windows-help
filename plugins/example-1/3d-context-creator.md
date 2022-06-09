@@ -1,48 +1,48 @@
-# 3D Context Creator
+# 3D Context Creator (Kreator kontekstu 3D)
 
 ![](../../.gitbook/assets/contextcreator1.gif)
 
-## What is it?
+## Co to jest?
 
-3D Context Creator is a very easy-to-use plugin that will help you quickly generate 3d context inside FormIt. This plugin can help you:
+3D Context Creator to bardzo łatwa w użyciu wtyczka, która pomaga szybko wygenerować kontekst 3D w programie FormIt. Oto w czym pomaga ta wtyczka:
 
-* Visualize your project site with its surrounding context
-* Make informed decisions especially in the early stage of the design process.
-* Is free for all users of FormIt to download.&#x20;
+* Wizualizowanie obszaru projektu z otaczającym go kontekstem.
+* Podejmowanie świadomych decyzji, zwłaszcza na wczesnym etapie procesu projektowania.
+* Ten składnik mogą pobrać bezpłatnie wszyscy użytkownicy programu FormIt.&#x20;
 
-This plugin retrieves data from [Open Street Map](https://www.openstreetmap.org/about) to help transform it into FormIt geometries. The source code for this plugin is available on [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+Ta wtyczka pobiera dane z usługi [Open Street Map](https://www.openstreetmap.org/about), aby ułatwić przekształcenie ich w geometrie programu FormIt. Kod źródłowy tej wtyczki jest dostępny w serwisie [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
 
-## How to use it
+## Sposób korzystania
 
-To install it, simply turn on the plugin’s toggle, as you would with any other plugin.
+Aby zainstalować tę wtyczkę, wystarczy włączyć jej przełącznik, tak jak w przypadku każdej innej wtyczki.
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
-Once toggled on, the plugin should appear on the right side of the app and be ready to use.
+Po włączeniu wtyczki za pomocą przełącznika powinna ona być widoczna po prawej stronie aplikacji i gotowa do użycia.
 
 ![](../../.gitbook/assets/formitUI.PNG)
 
-Before using the plugin, begin by setting your site location from the main FormIt toolbar.
+Przed użyciem wtyczki należy ustawić położenie terenu za pomocą głównego paska narzędzi programu FormIt.
 
 ![](<../../.gitbook/assets/image (76).png>)
 
-Search for your site location, and then click Import Satellite Image and Terrain.
+Wyszukaj położenie terenu, a następnie kliknij opcję Importuj obraz satelitarny i teren.
 
 ![](<../../.gitbook/assets/image (77).png>)
 
-Once the satellite image has been successfully imported into your FormIt project, navigate to the 3D Context Creator plugin.
+Po pomyślnym zaimportowaniu obrazu satelitarnego do projektu programu FormIt przejdź do wtyczki 3D Context Creator.
 
-Adjust the square radius slider to expand the distance (in meters) of the context from the location point.
+Dostosuj kwadratowy suwak promienia, aby rozszerzyć odległość (w metrach) kontekstu od punktu położenia.
 
 ![](../../.gitbook/assets/contextcreator7.png)
 
-Click on the Create button. And that is it!
+Kliknij przycisk Utwórz. To wszystko.
 
-Once you are happy with the settings, click the Create button. Depending on the size and complexity of the given radius, it may take a few moments to process the building forms.
+Po uzyskaniu zadowalających ustawień kliknij przycisk Utwórz. W zależności od rozmiaru i złożoności danego promienia przetwarzanie form budynku może potrwać kilka minut.
 
-## **Some examples**
+## **Kilka przykładów**
 
-Try to guess what iconic cities are represented in the following contexts:
+Spróbuj zgadnąć, jakie znane miasta są reprezentowane w następujących kontekstach:
 
 ![](<../../.gitbook/assets/image (2).png>)
 

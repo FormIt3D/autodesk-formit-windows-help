@@ -4,7 +4,7 @@ Za pomocą linii można dzielić powierzchnie i tworzyć geometrię.
 
 Klawiatura: L
 
-![](../.gitbook/assets/line_toolbar.png)
+![](../.gitbook/assets/line\_toolbar.png)
 
 Linie można rysować na osiach X, Y oraz Z, a także na istniejącej geometrii. Podczas przyciągania do osi, rysowana linia jest przedłużana za pomocą kolorowej linii wskazującej, na której osi użytkownik rysuje. Długość linii jest widoczna podczas rysowania, ale można też ręcznie wprowadzić określoną długość, naciskając klawisz **Tab** i wprowadzając wartość.
 
@@ -17,4 +17,3 @@ Aby określić długość, wystarczy wpisać wartość wymiaru, a zostanie wyśw
 * Z = kolor niebieski
 
 ![](../.gitbook/assets/lines.png)
-

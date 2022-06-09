@@ -1,12 +1,12 @@
-# General Plugin Setup in the Manifest
+# Konfiguracja ogólna wtyczki w manifeście
 
-FormIt plugins are composed of a key core component called a _manifest.json_ file.&#x20;
+Wtyczki programu FormIt mają kluczowy komponent — plik _manifest.json_.&#x20;
 
-The manifest file is a [JSON object](http://www.json.org) that tells the FormIt infrastructure what files to fetch and what kind of plugin to create.
+Plik manifestu to [obiekt JSON](https://www.json.org/json-pl.html), który informuje infrastrukturę programu FormIt, które pliki należy pobrać i jaki rodzaj wtyczki należy utworzyć.
 
-### Manifest.json Structure and Properties
+### Struktura i właściwości pliku Manifest.json
 
-A manifest.json file has the following structure. It has additional properties depending on whether it's a [toolbar-based](../additional-development-options/creating-a-toolbar-based-plugin.md) or an [HTML panel-based plugin](../additional-development-options/creating-an-html-panel-plugin.md).
+Struktura pliku manifest.json jest następująca. Plik ten ma dodatkowe właściwości w zależności od tego, czy jest to [wtyczka oparta na pasku narzędzi](../additional-development-options/creating-a-toolbar-based-plugin.md), czy [wtyczka oparta na panelu HTML](../additional-development-options/creating-an-html-panel-plugin.md).
 
 ```
 {
@@ -22,17 +22,17 @@ A manifest.json file has the following structure. It has additional properties d
 }               
 ```
 
-A typical plugin includes these JSON properties:
+Typowa wtyczka ma następujące właściwości JSON:
 
-* "PluginName" represents the name of the plugin for internal and most display purposes, including for the [Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
-* "PluginType" represents the type of the plugin, letting users know in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) description what to look for when they install the plugin.
-* "PluginDescription" is displayed in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) to communicate the plugin's capabilities.
-* "Scripts" lists the required external scripts associated with the plugin that will be loaded into the FormIt application and can be executed when plugin functionality is invoked.
+* „PluginName” — reprezentuje nazwę wtyczki do celów wewnętrznych i większości celów związanych z wyświetlaniem, w tym dla narzędzia [Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
+* „PluginType” — reprezentuje typ wtyczki, informując użytkowników w opisie w narzędziu [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager), czego oczekiwać w przypadku zainstalowania wtyczki.
+* W narzędziu [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) jest wyświetlany opis wtyczki („PluginDescription”) z wyszczególnieniem jej możliwości.
+* „Scripts” — zawiera wymagane skrypty zewnętrzne skojarzone z wtyczką, które zostaną wczytane do aplikacji FormIt i mogą być wykonywane po wywołaniu funkcji wtyczki.
 
 ![](<../../../.gitbook/assets/image (5).png>)
 
-Start your plugin development by creating a manifest.json file in your plugin folder. Next, you'll need to decide whether you are making a toolbar-based or panel-based plugin.
+Rozpocznij tworzenie wtyczki, tworząc plik manifest.json w folderze wtyczki. Następnie należy zdecydować, czy tworzona wtyczka będzie oparta na pasku narzędzi, czy panelu.
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
-**Note:** The use of PLUGINLOCATION throughout the manifest.json file above is essential and is case sensitive. FormIt will replace PLUGINLOCATION with the server location for the plugin.
+**Uwaga:** używanie zmiennej PLUGINLOCATION w całym pliku manifest.json powyżej jest bardzo ważne i jest w nim uwzględniana wielkość liter. Program FormIt zastąpi zmienną PLUGINLOCATION położeniem wtyczki na serwerze.
