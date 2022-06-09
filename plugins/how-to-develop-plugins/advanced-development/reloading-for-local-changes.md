@@ -1,16 +1,15 @@
-# Reloading for Local Changes
+# 重新載入以反映本端變更
 
-While developing a plugin you may need to quickly reload your latest code updates without reloading the whole app. This can be achieved in both web and windows versions of FormIt without reloading the whole app.
+開發外掛程式時，您可能需要快速重新載入最新的程式碼更新，而不是重新載入整個應用程式。這可以在 FormIt 的網頁版和 Windows 版中實現，而無需重新載入整個應用程式。
 
-## Web Reloading
+## 網頁版重新載入
 
-💡 **** To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`&#x20;
+?? 若要在 FormIt 網頁版中重新載入外掛程式，請在外掛程式的 HTML 上按一下右鍵，然後按一下 `Reload Frame`
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
-## Windows Reloading
+## Windows 重新載入
 
-💡 **** To reload your plugin in FormIt windows right-click on the plugin's HTML and click on `Hard Reload` &#x20;
+?? 若要在 FormIt Windows 版中重新載入外掛程式，請在外掛程式的 HTML 上按一下右鍵，然後按一下 `Hard Reload`
 
 ![](../../../.gitbook/assets/d18.png)
-

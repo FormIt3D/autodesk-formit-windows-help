@@ -1,12 +1,12 @@
-# Examples
+# 範例
 
-In this section you will find sample plugin implementations to follow along:
+在本節中，您會找到可遵循的外掛程式實施範例：
 
-* [Generate string lights](generate-string-lights.md)
-* [Manage Cameras Plugin](manage-cameras-plugin.md)
-* [Properties Plus Plugin](properties-plus-plugin.md)
-* [3D Context Generator](3d-context-creator.md)
+* [Generate String Lights](generate-string-lights.md)
+* [Manage Cameras 外掛程式](manage-cameras-plugin.md)
+* [Properties Plus 外掛程式](properties-plus-plugin.md)
+* [3D Context Creator](3d-context-creator.md)
 
-We also recommend that you check the [FormIt Plugin Community](formit-plugin-community.md) section, where you can find plugin examples from other developers as well as guidelines on how to submit and showcase your plugins for the wider FormIt community. &#x20;
+我們還建議您查看 [FormIt 外掛程式社群](formit-plugin-community.md)一節，您可以在當中找到其他開發人員提供的外掛程式範例，以及有關如何提交外掛程式並展示給更廣大 FormIt 社群的指導方針。
 
 ![](<../../.gitbook/assets/g6 (2).gif>)

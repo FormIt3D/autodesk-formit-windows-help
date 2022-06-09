@@ -15,12 +15,12 @@ FormIt 功能：
 * 模型組織和可見性工具，例如群組、圖層和場景
 * 分析工具，包括：
    * 實體模型診斷和修復的無縫和背面驗證
-   * 日光與陰影
+   * 太陽與陰影
    * 日光分析
    * 能源分析
 * Autodesk 產品整合：
    * BIM 360 Docs
-   * Insight \(能源分析\)
+   * Insight (能源分析)
    * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
    * [Revit](https://formit.autodesk.com/page/formit-revit)
 * 檔案格式支援：
@@ -29,7 +29,7 @@ FormIt 功能：
    * 匯出
       * AXM、FBX、OBJ、STL、SAT、DAE、DXF
 
-FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) 和[瀏覽器](https://app.formit.autodesk.com/) 中免費取得。需要 **FormIt Pro** 固定期限的使用授權，才能使用 [Windows 版 FormIt]( https://formit.autodesk.com/page/download)，這是功能最強大且功能最豐富的 FormIt 版本。**FormIt Pro** 固定期限的使用授權還可在 iOS 和網路上啟用其他功能，例如「日光和能源分析」。[Autodesk 工程建設軟體集](https://www.autodesk.com.tw/collections/architecture-engineering-construction/overview)中包含 **FormIt Pro**。
+FormIt 可在 [iOS](https://itunes.apple.com/tw/app/autodesk-formit-360/id575282599?mt=8) 和[瀏覽器](https://app.formit.autodesk.com) 免費取得。需要 **FormIt Pro** 固定期限的使用授權，才能使用 [Windows 版 FormIt]( https://formit.autodesk.com/page/download)，這是功能最強大且功能最豐富的 FormIt 版本。**FormIt Pro** 固定期限的使用授權還可在 iOS 和網路上啟用其他功能，例如「日光和能源分析」。[Autodesk 工程建設軟體集](https://www.autodesk.com.tw/collections/architecture-engineering-construction/overview)中包含 **FormIt Pro**。
 
 **Android 版 FormIt 發生了什麼事？**
 
@@ -41,7 +41,7 @@ FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282
 
 此外，您也可以直接從我們的網站免費執行網頁版本：[http://formit.autodesk.com](http://formit.autodesk.com)
 
-您可以從 Apple App Store \(僅限 iPad) 免費下載 iOS 版本。
+您可以從 Apple App Store (僅限 iPad) 免費下載 iOS 版本。
 
 **如果我是學生或教師，是否可以免費存取 FormIt Pro？**
 
@@ -49,11 +49,11 @@ FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282
 
 **如何學習 FormIt？**
 
-最好的開始位置是 [FormIt 入門手冊自學課程](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html)。
+最好的開始位置是 [FormIt 入門手冊自學課程](../formit-primer/)。
 
-入門手冊有多個部分，範圍從初學者 \(建立整棟現代房屋\) 到更進階的內容 \(以更進階的方式使用 Revit 和 Dynamo\)。
+入門手冊有多個部分，範圍從初學者 (建立整棟現代房屋) 到更進階的內容 (以更進階的方式使用 Revit 和 Dynamo)。
 
-我們的 FormIt 星期五線上研討會系列也有 20 多個影片。您可以在我們的 [YouTube 頻道](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH) 上找到這些影片。
+我們的 FormIt 星期五線上研討會系列也有 20 多個影片。您可以在我們的 [YouTube 頻道](https://www.youtube.com/channel/UCdZJr6Bo4pwBu3lQqcxlDsw) 找到這些影片。
 
 ## 與 Revit 搭配運作
 
@@ -65,7 +65,7 @@ FormIt 是一個獨立的 3D 草圖繪製和設計應用程式，但是它會建
 
 自 2016 年起，Revit 隨附一個用於處理 FormIt 資料的增益集。當您將 FormIt AXM 檔案匯入至 Revit 時，此增益集會查看檔案中的每個物件，然後使用 API 在 Revit 中重新建立。FormIt 中的所有項目預設都會分類為「量體」。
 
-FormIt 轉換器會採用每個量體物件，並使用 [Direct Shape API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/CHT/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html) 在 Revit 中建立量體族群。
+FormIt 轉換器會採用每個量體物件，並使用 [Direct Shape API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html) 在 Revit 中建立量體族群。
 
 DirectShape 是 IFC 工作流程中使用的不可編輯物件。雖然它無法編輯，但是具備在 FormIt 和 Revit 之間轉移完整材料材質的明顯優勢。[這裡有自學課程](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html)，其中更詳細地說明 FormIt 至 Revit 的工作流程。
 
@@ -75,7 +75,7 @@ DirectShape 是 IFC 工作流程中使用的不可編輯物件。雖然它無法
 
 **Revit 是否可以將資料傳回 FormIt？**
 
-可以。若要將資料匯回 FormIt，請將 Revit 檔案的全部或_部分_ (最好) 匯出為 SAT 檔案格式。通常不需要將您所有的 Revit 資料傳送至 FormIt。而是先在 Revit 中建立一個篩選視圖，其中僅包含最少量的資料 \(例如，樓板和牆\)，然後再儲存為 SAT。
+可以。若要將資料匯回 FormIt，請將 Revit 檔案的全部或_部分_ (最好) 匯出為 SAT 檔案格式。通常不需要將您所有的 Revit 資料傳送至 FormIt。而是先在 Revit 中建立一個篩選視圖，其中僅包含最少量的資料 (例如，樓板和牆)，然後再儲存為 SAT。
 
 ## 與其他應用程式搭配運作
 
@@ -101,9 +101,9 @@ FormIt 正式命名前的內部代號是 XModeler，因此我們建立的檔案�
 
 **FormIt 與 SketchUp 相比如何？**
 
-* [**與 Revit 的互動**](../tool-library/revit.md)更好
+* [**與 Revit 的互動**](../tool-library/revit.md)更好_\*\*_
 * 與 [**Dynamo 整合**](../tool-library/dynamo.md)用於計算設計
-* 適用於[**日光分析**](../tool-library/solar-analysis.md)和[**能源分析**](../tool-library/energy-analysis.md) \(由 Autodesk Insight 提供\) 的原生工具
+* 適用於[**日光分析**](../tool-library/solar-analysis.md)和[**能源分析**](../tool-library/energy-analysis.md) (由 Autodesk Insight 提供) 的原生工具
 * 更強大的實體塑型核心，能進行進階的塑型作業
 * 原生進階塑型工具，例如[**掃掠、覆蓋、斷面混成**](../tool-library/cover-sweep-loft.md)、偏移實體/為實體建立薄殼、3D 混成/圓角以及[**將面弄平**](../tool-library/flatten-face.md)
 * 多個可見的[**剖面平面**](../tool-library/section-planes.md)
@@ -113,7 +113,7 @@ FormIt 正式命名前的內部代號是 XModeler，因此我們建立的檔案�
 
 **我可以使用 SketchUp 鍵盤快速鍵嗎？**
 
-是！Windows 版 FormIt 有一套完全可編輯的鍵盤對應。預設已經有許多常用的 SketchUp 快速鍵，但您可以在「編輯」&gt;「偏好」功能表中編輯。
+是！Windows 版 FormIt 有一套完全可編輯的鍵盤對應。預設已經有許多常用的 SketchUp 快速鍵，但您可以在「編輯」>「偏好」功能表中編輯。
 
 **我可以使用我的 DWG 檔案嗎？**
 
@@ -128,9 +128,8 @@ FormIt 正式命名前的內部代號是 XModeler，因此我們建立的檔案�
 **如果我無法登入，該怎麼做？**
 
 * 這篇[論壇文章](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=zh-CN)涵蓋常見的登入問題
-* 如果您的電腦有可切換的圖形處理器 \(GPU\)，請務必確保 FormIt 永遠使用較高效能的 GPU。以下是 [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) 和 [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1) 的指示
+* 如果您的電腦有可切換的圖形處理器 (GPU)，請務必確保 FormIt 永遠使用較高效能的 GPU。以下是 [AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) 和 [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1) 的指示
 
 **如果 Insight 能源分析失敗，該怎麼做？**
 
 如果 Insight 能源分析報告錯誤或無法傳回任何結果，請[查看 Insight 能源分析頁面](https://formit.autodesk.com/page/formit-insight)，以取得常見的疑難排解秘訣。
-

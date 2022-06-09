@@ -1,41 +1,37 @@
-# Hosting a Plugin on GitHub
+# 在 GitHub 上裝載外掛程式
 
-Have you built a useful plugin that you want to share? Host your repository on GitHub so that others can install your plugin from the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager)!
+您是否建置了有用的外掛程式想要分享？在 GitHub 上裝載您的儲存庫，以便其他人可以從 [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) 安裝您的外掛程式！
 
-### Host Your Plugin Project
+### 裝載外掛程式專案
 
-This process is similar to an earlier chapter where we discuss how to [publish your plugin](../your-first-plugin/publishing-your-project.md) created in the Plugin Playground. &#x20;
+此程序與先前的章節中我們討論如何[發佈在 Plugin Playground 中建立的外掛程式](../your-first-plugin/publishing-your-project.md)類似。
 
-Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlugins
+移往您新的 GitHub 外掛程式儲存庫，例如 https://github.com/Joe/JoesPlugins
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+在頂端功能表中，按一下「Settings」>「Pages」。在「Source」下，按一下「None」按鈕，然後選取「main branch」。按一下「Save」。
 
 ![](<../../../.gitbook/assets/image (74).png>)
 
-### Continue to Update Your Plugin Project Locally
+### 在本端繼續更新外掛程式專案
 
-At this point, you can continue adding, modifying, and testing plugins locally, and when you're ready to publish, use GitHub Desktop or another Git client to push your changes to your GitHub repo. Anyone consuming your repo and plugins will always get the latest code when they start FormIt.
+此時，您可以繼續在本端新增、修改和測試外掛程式，當您準備發佈時，使用 GitHub Desktop 或其他 Git 用戶端將變更推送到您的 GitHub 儲存庫。使用您的儲存庫和外掛程式的任何人，在啟動 FormIt 時一律會獲得最新的程式碼。
 
-### Publish Your Project
+### 發佈專案
 
-For projects created in an IDE instead of [Plugin Playground](../your-first-plugin/plugin-playground.md), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
+對於在 IDE 而不是在 [Plugin Playground](../your-first-plugin/plugin-playground.md) 中建立的專案，您可以透過在外掛程式的儲存庫中新增 **FormIt-plugin** 主題來發佈外掛程式。
 
-This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
+這可讓其他人在[社群外掛程式](../../example-1/formit-plugin-community.md)清單中找到您的外掛程式。
 
-View your repo on GitHub by visiting your project link, for example, https://github.com/Joe/JoesPlugin
+造訪專案連結 (例如 https://github.com/Joe/JoesPlugin)，可查看您在 GitHub 上的儲存庫
 
-Click on Settings in the top right corner.
+按一下右上角的「Settings」。
 
 ![](<../../../.gitbook/assets/image (39).png>)
 
-Add a plugin description, add formit-plugin to the Topics field, and save changes.
+加入外掛程式描述、在「Topics」欄位中加入 formit-plugin，並儲存變更。
 
 ![](<../../../.gitbook/assets/image (54).png>)
 
-Once saved, your plugin project will be added to the [community plugins](https://github.com/topics/formit-plugin) list.
-
-
-
-
+儲存後，您的外掛程式專案將加入[社群外掛程式](https://github.com/topics/formit-plugin)清單。
 
 ###

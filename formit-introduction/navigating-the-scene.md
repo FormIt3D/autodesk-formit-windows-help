@@ -12,19 +12,18 @@
 
 ![](../.gitbook/assets/20190618-ortho-views.png) **正投影視圖**：按一下以顯示可用[正投影視圖](../tool-library/orthographic-views.md)的圖示列功能表。
 
-![](../.gitbook/assets/20190618-3d-view.png) **預設 3D 視圖 \(ZD\)：**啟動預設的 3D 視圖。
+![](../.gitbook/assets/20190618-3d-view.png) **預設 3D 視圖 (ZD)：** 啟動預設的 3D 視圖。
 
-![](../.gitbook/assets/jet-pack.png) **穿越 \(FT\)：**「噴射背包」模式可讓您使用鍵盤穿越場景。使用 WASD 可向前/向後/向左/向右移動，使用 Q/E 可向上/向下移動。使用空格鍵可「飛行」。
+![](../.gitbook/assets/jet-pack.png) **穿越 (FT)：** 「噴射背包」模式可讓您使用鍵盤穿越場景。使用 WASD 可向前/向後/向左/向右移動，使用 Q/E 可向上/向下移動。使用空格鍵可「飛行」。
 
-![](../.gitbook/assets/orbit-tool.png) **環轉 \(O\)：**啟用時，按一下滑鼠左鍵並拖曳滑鼠可繞著模型環轉。您也可以隨時按一下右鍵並拖曳，以執行此作業。
+![](../.gitbook/assets/orbit-tool.png) **環轉 (O)：** 啟用時，按一下滑鼠左鍵並拖曳滑鼠可繞著模型環轉。您也可以隨時按一下右鍵並拖曳，以執行此作業。
 
-![](../.gitbook/assets/swivel.PNG) **迴旋 \(SV\)：**使用導覽工具列中的「迴旋」工具，可從固定點環視場景。
+![](../.gitbook/assets/swivel.PNG) **迴旋 (SV)：** 使用導覽工具列中的「迴旋」工具，可從固定點環視場景。
 
-![](../.gitbook/assets/panning.png) **平移 \(P\)：**按一下滑鼠中鍵並拖曳滑鼠，或使用導覽工具列中的「平移 \(手形\)」工具可在場景中平移。
+![](../.gitbook/assets/panning.png) **平移 (P)：** 按一下滑鼠中鍵並拖曳滑鼠，或使用導覽工具列中的「平移 (手形)」工具可在場景中平移。
 
-![](../.gitbook/assets/zoom.png) **縮放 \(Z\)：**捲動滑鼠滾輪，或從導覽工具列選取「縮放」工具，然後按一下滑鼠左鍵並拖曳可縮放。
+![](../.gitbook/assets/zoom.png) **縮放 (Z)：** 捲動滑鼠滾輪，或從導覽工具列選取「縮放」工具，然後按一下滑鼠左鍵並拖曳可縮放。
 
-![](../.gitbook/assets/zoom_all.png) **全部縮放 \(ZE 或 ZA\)：**縮放以將整個模型佈滿目前視圖
+![](../.gitbook/assets/zoom\_all.png) **全部縮放 (ZE 或 ZA)：** 縮放以將整個模型佈滿目前視圖。
 
-![](../.gitbook/assets/zoom_selection.png) **縮放選取項目 \(ZS\)：**縮放以將目前選取的所有物件佈滿目前視圖。
-
+![](../.gitbook/assets/zoom\_selection.png) **縮放選取項目 (ZS)：** 縮放以將目前選取的所有物件佈滿目前視圖。

@@ -10,7 +10,7 @@
 4. 按一下後，您可以鎖點至其他物件以對齊此面。
 5. 與移動一樣，您可以按一下**暫時標註**，或直接開始鍵入值以定義移動量。
 
-![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 您也可以使用 **Delete** 鍵，或按一下右鍵並從關聯式功能表呼叫「刪除」，來刪除面。
 
@@ -28,6 +28,6 @@
 ## 修改點
 
 1. 按一下其中一個立方體的其中一個角。
-2. 與邊類似，您可以沿其中一條軸拖曳該點，以重新定義造型。[下一個 非等比例](non-uniform-scale.md)
+2. 與邊類似，您可以沿其中一條軸拖曳該點，以重新定義造型。[下一個 非等比例](broken-reference)
 
-![](<../.gitbook/assets/modify3 (1) (1).png>)
+![](<../.gitbook/assets/modify3 (1).png>)

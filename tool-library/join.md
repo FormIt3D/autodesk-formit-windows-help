@@ -6,27 +6,24 @@
 
 鍵盤：J G
 
-![](../.gitbook/assets/boolean_join.png)
+![](../.gitbook/assets/boolean\_join.png)
 
 執行「接合」指令，然後遵循螢幕左上角的模式指示
 
 按一下以選取要接合的物件。
 
-![](../.gitbook/assets/cut_mode01.png)
+![](<../.gitbook/assets/cut\_mode01 (1).png>)
 
 按一下以選取要被接合的物件或群組。
 
-![](../.gitbook/assets/cut_mode02.png)
+![](<../.gitbook/assets/cut\_mode02 (1).png>)
 
 按一下勾號以完成指令。
 
 ## 先選取物件
 
-1. 按兩下以選取要被接合的物件 \(如果是群組則按一下\)。
+1. 按兩下以選取要被接合的物件 (如果是群組則按一下)。
 2. 按住 **Ctrl 鍵**，按兩下要與第一個物件接合的重疊物件。
 3. 在任何物件上按一下右鍵，然後在關聯式功能表中選擇「接合工具」。
 
-![](../.gitbook/assets/join-tool.png)
-
-
-
+![](<../.gitbook/assets/join tool.png>)

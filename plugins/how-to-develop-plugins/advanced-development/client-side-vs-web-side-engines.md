@@ -1,27 +1,27 @@
-# Client-Side vs Web-Side Engines
+# 用戶端與網頁端引擎
 
-FormIt plugins utilize two distinct JavaScript engines:&#x20;
+FormIt 外掛程式使用兩個不同的 JavaScript 引擎：&#x20;
 
-* The panel displaying the HTML (Web-Side)
-* The Client-side (FormIt) makes calls to FormIt and its geometry kernel.&#x20;
+* 面板顯示 HTML (網頁端)
+* 用戶端 (FormIt) 呼叫 FormIt 及其幾何圖形核心。&#x20;
 
-These two JavaScript engines work in distinct processes.
+這兩個 JavaScript 引擎在不同的程序中工作。
 
-## **Client-Side (FormIt) vs Web-Side (HTML)**
+## **用戶端 (FormIt) 與網頁端 (HTML)**
 
-FormIt runs multiple JavaScript engines simultaneously:
+FormIt 會同時執行多個 JavaScript 引擎：
 
-* The FormIt application has its own JavaScript engine
-* Each plugin Toolbar has its own JavaScript engine.
-* Each plugin Panel has its own JavaScript engine (Chromium)
+* FormIt 應用程式有自己的 JavaScript 引擎
+* 每個外掛程式工具列都有自己的 JavaScript 引擎。
+* 每個外掛程式面板都有自己的 JavaScript 引擎 (Chromium)
 
-Plugins can specify where the JavaScript is loaded:
+外掛程式可以指定 JavaScript 的載入位置：
 
 ![](../../../.gitbook/assets/d14.png)
 
-### Client-Side (FormIt)
+### 用戶端 (FormIt)
 
-Specified using [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8)
+使用 [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8) 指定
 
 ```
     "Scripts": [
@@ -31,18 +31,18 @@ Specified using [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins
 
 ```
 
-### Web-side (HTML)
+### 網頁端 (HTML)
 
-Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7)
+使用 [index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7) 指定
 
-* Web-side scripts are loaded from the web page.
-* Web-side scripts can call into the Client-Side (FormIt) JavaScript using multiple async calls.
+* 網頁端指令碼是從網頁載入。
+* 網頁端指令碼可以使用多個非同步呼叫，來呼叫用戶端 (FormIt) JavaScript。
 
-## Three methods to call Client-side (FormIt) commands from a Web-based plugin:
+## 從網頁式外掛程式呼叫用戶端 (FormIt) 指令有三種方法：
 
-### Method 1: FormItInterface.CallMethod
+### 方法 1：FormItInterface.CallMethod
 
-`CallMethod` takes a function name and the arguments that will run on the FormIt Side.  The passed-in function will be called with the result of the function call.
+`CallMethod` 使用將在 FormIt 端上執行的函式名稱以及引數。傳入的函式將搭配函式呼叫的結果呼叫。
 
 ```
     var args = {
@@ -56,23 +56,23 @@ Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/bl
     });
 ```
 
-**Pros:**&#x20;
+**優點：**&#x20;
 
-➕ No`await` needed.&#x20;
+➕ 不需要 `await`。&#x20;
 
-**Cons:**&#x20;
+**缺點：**&#x20;
 
-➖ A callback is needed to get the result and is called “who knows when”.&#x20;
+➖需要回呼才能得到結果，因此稱為「誰知道時間」。&#x20;
 
-➖ Scripts are defined in two different places.&#x20;
+➖指令碼定義在兩個不同的位置。&#x20;
 
-➖ Requires plugin logic to be split into two different files.
+➖需要將外掛程式邏輯分為兩個不同的檔案。
 
-### **Method 2: FormIt.CallJS**&#x20;
+### **方法 2：FormIt.CallJS**&#x20;
 
-**\*Available in FormIt 2022.1 and newer only**
+**\*只有 FormIt 2022.1 和更高版本提供**
 
-CallJS takes the JavaScript function to be called on the FormIt Side and the arguments.json object.
+CallJS 使用要在 FormIt 端呼叫的 JavaScript 函式和 arguments.json 物件。
 
 ```
 var args =
@@ -85,45 +85,45 @@ var result = await FormIt.CallJS("CreateBlock", args);
 
 ```
 
-**Pros:**&#x20;
+**優點：**&#x20;
 
-➕ The result is available when needed
+➕需要時就可以得到結果
 
-**Cons:**&#x20;
+**缺點：**&#x20;
 
-➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.
+➖ ****必須使用 await 裝飾所有非同步呼叫，忘記這樣做就會導致事情惡化。
 
-➖ **** Potentially slower due to `await`
+➖ ****速度可能會因為 `await` 而變慢
 
-### **Method 3 (async/await)**
+### **方法 3 (非同步/等待)**
 
 ```
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-With an async call, the Web Side calls the FormIt Side. This call starts in one process, sent to another process, then the result is passed back to the starting process. This is why await is needed.&#x20;
+網頁端透過非同步呼叫來呼叫 FormIt 端。此呼叫會在一個程序中開始，傳送至另一個程序，然後結果會傳回到開始程序。這就是為什麼需要等待。&#x20;
 
-Only built-in FormIt APIs can be called by default.
+預設只能呼叫內建 FormIt API。
 
-**Pros:**&#x20;
+**優點：**&#x20;
 
-➕ The result is available when needed.&#x20;
+➕需要時就可以得到結果。&#x20;
 
-➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
+➕允許將所有程式碼合併到從網頁端執行的一個 JS 檔案中，不需要在 manifest.json 中定義任何指令碼。
 
-**Cons:**&#x20;
+**缺點：**&#x20;
 
-➖ **** Have to decorate all the async calls with `await`, forgetting to do so will mess things up.&#x20;
+➖ ****必須使用 `await` 裝飾所有非同步呼叫，忘記這樣做就會導致事情惡化。&#x20;
 
-➖ **** Potentially slower due to `await.`
+➖ ****速度可能會因為 `await.` 而變慢
 
-### Method 4 (RegisterAsyncAPI)&#x20;
+### 方法 4 (RegisterAsyncAPI)&#x20;
 
-**\*Available in FormIt 2023.0 and newer only**&#x20;
+**\*只有 FormIt 2023.0 和更高版本提供**&#x20;
 
-To call a user defined function on the FormIt Side, the function needs to be registered. For example:&#x20;
+若要在 FormIt 側呼叫使用者定義的函式，需要註冊該函式。例如：&#x20;
 
-**Client-Side (FormIt)**
+**用戶端 (FormIt)**
 
 ```
 FormIt.RegisterAsyncAPI("HelloBlockAsync", "CreateBlock", "l, w, h");
@@ -134,24 +134,24 @@ HelloBlockAsync.CreateBlock = function(args)
 }
 ```
 
-**Web-Side (HTML)**
+**網頁端 (HTML)**
 
 ```
 var result = await HelloBlockAsync.CreateBlock(l, w, h);
 ```
 
-See [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0)  for an example.
+請參閱 [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0) 的範例。
 
-**Pros:**&#x20;
+**優點：**&#x20;
 
-➕ The result is available when needed.&#x20;
+➕需要時就可以得到結果。&#x20;
 
-➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
+➕允許將所有程式碼合併到從網頁端執行的一個 JS 檔案中，不需要在 manifest.json 中定義任何指令碼。
 
-**Cons:**&#x20;
+**缺點：**&#x20;
 
-➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.&#x20;
+➖ ****必須使用 await 裝飾所有非同步呼叫，忘記這樣做就會導致事情惡化。&#x20;
 
-➖ **** Potentially slower due to `await.`
+➖ ****速度可能會因為 `await.` 而變慢
 
 ##

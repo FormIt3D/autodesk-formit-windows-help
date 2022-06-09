@@ -4,7 +4,7 @@
 
 鍵盤：L
 
-![](../.gitbook/assets/line_toolbar.png)
+![](../.gitbook/assets/line\_toolbar.png)
 
 您可以在 X、Y 或 Z 軸以及既有幾何圖形上繪製線。鎖點至軸時，有顏色的線會延伸到您正在繪製的線之外，以指出您正在繪製的軸。繪製時您可以看到線的長度，也可以按 **Tab** 並輸入值手動輸入特定長度。
 
@@ -17,4 +17,3 @@
 * Z = 藍色
 
 ![](../.gitbook/assets/lines.png)
-

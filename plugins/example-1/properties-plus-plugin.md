@@ -1,42 +1,42 @@
-# Properties Plus Plugin
+# Properties Plus 外掛程式
 
-_This plugin is a more featured version of the standard_ _**Properties Palette**. If you select multiple groups and/or types of geometry, this plugin will provide you with a breakdown of what has been selected, as well as allow for the bulk renaming of groups and group instances._
+_此外掛程式是一個進階版的_ _**「性質」選項板**。如果您選取幾何圖形的多個群組和/或類型，此外掛程式將提供您選取項目的明細，而且允許批量更名群組和群組實體。_
 
-1 **-** First we will look at the properties of a door group from our main model. Re-open **Encode Campus Sample Model.axm** and go back to the **Eye Level – Long Alley** scene. To start utilizing the **Properties Plus** plugin:
+1 **-** 首先，我們將從主模型查看門群組的性質。重新開啟 **Encode Campus Sample Model.axm**，並返回 **Eye Level - Long Alley** 場景。開始使用 **Properties Plus** 外掛程式：
 
-1. Open the **Properties Plus Palette** by clicking on the property with a ‘plus’ symbol icon.
-2. Make sure that **Update on Selection Change** is checked.
-3. Select one of the double glass door groups, named **Door**, on the right side of the alley.
-4. Under the **Selection Count** area, **Total Objects** tells us that we have one (**1**) object selected.
-5. Just below that we can find more information on what types of objects have been selected. In this case, there is one (**1**) group selected, but that group has four (**4**) instances somewhere in the model.
+1. 按一下帶有「加號」圖示的性質，開啟**「Properties Plus」選項板**。
+2. 確保已勾選**「Update on Selection Change」**。
+3. 選取路右側名為 **Door** 的其中一個雙層玻璃門群組。
+4. 在**「Selection Count」**區域中，**「Total Objects」**會告知我們已選取一個 (**1**) 物件。
+5. 在下方，我們可以找到已選取哪些類型物件的更多資訊。在此案例中，已選取一個 (**1**) 群組，但該群組在模型中有四個 (**4**) 實體。
 
 ![](<../../.gitbook/assets/10 (2) (1).png>)
 
-_**Note:**_ _Checking the number of instances of the selected group can be very handy to prevent accidentally changing multiple elements when you actually only wanted to change the selected element, but forgot to make it unique first._
+_**注意:**_ _查看所選群組的實體數目非常方便，可防止在您實際只想變更所選元素，但忘記先將其設為唯一時，意外變更多個元素。_
 
-2 - This plugin allows us to edit a group or group instance’s name without having to go into group edit mode, and rename multiple instances at once. As we learned previously, every group has a name, but every instance of that group can also have a unique ‘instance’ name. Since there will most likely be many types of doors in this model, we want to give this group, and some of its instances, more specific names.
+2 - 此外掛程式可讓我們編輯群組或群組實體的名稱，而無需進入群組編輯模式，以及一次更名多個實體。我們先前知道，每個群組都有名稱，但該群組的每個實體也可以有唯一的「實體」名稱。由於此模型中很可能有許多類型的門，因此我們要為此群組及其某些實體指定更具體的名稱。
 
-1. With the first glass **Door** group still selected, add another **Door** group to your current selection by holding **Shift** or **Ctrl** and single-clicking on the other double glass **Door** group near the first.
-2. Notice that now, the **Properties Plus Palette** has updated its **Selection Count** to show that there are two (**2**) instances selected, but still only one (**1**) unique **Family** (AKA group) selected. (Even though this plugin is using the term **Family**, which should be familiar to Revit users, in this context it means the same thing as a FormIt group.)
-3. Under the **Group Family** area, update the **Name** field to be **Doors – Double Glass Storefront**. This will update the name group’s name for all instances, no matter where they are or whether they are currently selected or not, without having to double-click and edit the group.
-4. Since these two instances are both doors into the Groove Coffee area, lets rename just these two instances by entering **Groove Coffee Door** into the **Name** field under the **Multiple Group Instances** area.
+1. 在第一個玻璃**門**群組仍處於選取狀態時，按住 **Shift** 或 **Ctrl**，並按一下第一個玻璃門附近的另一個雙層玻璃**門**群組，將另一個**門**群組加到目前選取範圍。
+2. 請注意，**「Properties Plus」選項板**現在更新了其**「Selection Count」**，顯示已選取兩個 (**2**) 實體，但仍然只選取一個 (**1**) 唯一的**族群** (也就是群組)。(即使此外掛程式使用的是 Revit 使用者熟悉的**族群**術語，但是在此環境中，它與 FormIt 群組意義相同)。
+3. 在**「Group Family」**區域下，將**「Name」**欄位更新為**「Doors – Double Glass Storefront」**。無論實體在何處，或目前是否選取，這都會更新所有實體之名稱群組的名稱，而無需按兩下並編輯群組。
+4. 由於這兩個實體都是 Groove Coffee 區域的門，因此可以在**「Multiple Group Instances」**區域下的**「Name」**欄位中輸入**「Groove Coffee Door」**只更名這兩個實體。
 
-**Note:** In the standard **Properties Palette**, there is no way to rename multiple instances of a group at once. This can be extremely handy when you want to rename tens or hundreds of instances with the same name at once.
+**注意:**在標準**「性質」選項板**中，無法一次更名群組的多個實體。當您要一次更名數十個或數百個名稱相同的實體時，這會非常方便。
 
 ![](<../../.gitbook/assets/11 (6) (1).png>)
 
-_**Note:**_ _If you mouse leaves the palette, you will no longer be able to edit the selected textbox. This is true for all palettes, so make sure to keep your cursor within the palette boundary while editing anything inside of a palette._
+_**注意:**_ _如果滑鼠離開選項板，您就無法再編輯選取的文字方塊。所有選項板都是如此，因此在編輯選項板內的任何內容時，請務必將游標保持在選項板邊界內。_
 
-3 - Now if you select a Groove Coffee glass door or a different glass door and look at their properties in the regular **Properties Palette**, you will see that the name of the **Group** has been updated for every instance, but only the Groove Coffee doors have their instance **Name** property updated from its default value.
+3 - 現在，如果您選取某扇 Groove Coffee 玻璃門或其他玻璃門，並在一般的**「性質」選項板**中查看性質，您會看到每個實體的**群組**名稱都已更新，但只有 Groove Coffee 門的實體**「名稱」**性質已從其預設值更新。
 
 ![](<../../.gitbook/assets/12 (3) (1).png>)
 
-4 - Finally, let’s look at how this plugin sorts different types of elements:
+4 - 最後，我們來看看此外掛程式如何排序不同類型的元素：
 
-1. Quickly draw a **Line (L)**, **Rectangle (R)**, and **Cube (Alt + B)** anywhere you would like in the model. These will be temporary, so their precise location is not important.
-2. Re-open the **Properties Plus Palette** if it was closed, and then press **Crtl + A** to select all visible elements in the model.
-3. Look in the **Selection Count** area, and notice that the selected elements are separated into **Edges** (lines), **Faces**, **Bodies**, (3D shapes made of faces and edges, like the cube)**,** **Groups**, and more.
+1. 在模型中您想要的任意位置快速繪製**線 (L)**、**矩形 (R)**和**立方體 (Alt + B)**。這些是暫時的，因此精確位置並不重要。
+2. 重新開啟**「Properties Plus」選項板** (如果已關閉)，然後按 **Crtl + A** 選取模型中所有可見元素。
+3. 查看**「Selection Count」**區域，請注意選取的元素已分為 **Edges** (線)、**Faces**、**Bodies**、(由面和邊組成的 3D 造型，如立方體)**、** **Groups** 等等。
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
-_**Note:**_ _This plugin also detects_ _**Vertices**, which can be created using another plugin called_ _**Generate Vertex**. If you would like to experiment, install the_ _**Generate Vertex Plugin**_ _and repeat the steps above._
+_**注意:**_ _此外掛程式也會偵測_ _**Vertices**，可使用另一個稱為_ _**Generate Vertex**的外掛程式建立。如果您想要實驗，請安裝 __**Generate Vertex 外掛程式**__，然後重複上述步驟。_

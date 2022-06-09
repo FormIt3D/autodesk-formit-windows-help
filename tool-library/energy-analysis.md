@@ -1,4 +1,5 @@
 # 使用 Insight 進行能源分析
 
-請在[這裡](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis)進一步瞭解如何使用能源分析。
+![](<../.gitbook/assets/image (22).png>)
 
+[請參閱 FormIt 功能區段中的 FormIt + Insight。](../formit-capabilities/analysis.md)

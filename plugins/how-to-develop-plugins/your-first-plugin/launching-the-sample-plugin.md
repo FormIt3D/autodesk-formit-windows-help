@@ -1,21 +1,19 @@
-# Launching the Sample Plugin
+# 啟動範例外掛程式
 
-### Running the Sample Plugin
+### 執行範例外掛程式
 
-A sample plugin comes loaded with the Plugin Playground. Click the Play button to run a plugin.
+範例外掛程式會隨 Plugin Playground 一起載入。按一下「播放」按鈕可執行外掛程式。
 
-![Step 1](https://formit3d.github.io/PluginPlayground/images/step1.png)
+![Step 1](<../../../.gitbook/assets/run a plugin.png>)
 
+這會顯示一個包含 3 個數值輸入和「Create Block」按鈕的外掛程式。繼續測試外掛程式，它會根據提供的輸入值建立一個立方體。
 
+### 檢視和編輯程式碼
 
-This will display a plugin with 3 numerical inputs and a Create Block button. Go ahead and test the plugin, which will create a cube based on the provided input values.
+如果您要查看此外掛程式的程式碼，請按一下「編輯」按鈕。
 
-### Viewing and Editing Code
+![Step2](<../../../.gitbook/assets/edit a plugin.png>)
 
-If you want to see the code behind this plugin, click the Edit button.
-
-![Step2](https://formit3d.github.io/PluginPlayground/images/step2.png)
-
-This will launch a dialog containing all the main pieces of a FormIt plugin: HTML, JavaScript, and CSS.
+這會啟動一個對話方塊，其中包含 FormIt 外掛程式的所有主要部分：HTML、JavaScript 和 CSS。
 
 ![](<../../../.gitbook/assets/02-view and edit playground code.gif>)

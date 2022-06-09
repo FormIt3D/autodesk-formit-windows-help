@@ -1,109 +1,109 @@
-# Setting Up FormIt for Development
+# 設定 FormIt 以進行開發
 
-In order to test and build plugins in the FormIt desktop app, you'll need FormIt for Windows v17.0 or later.
+若要在 FormIt 桌面應用程式中測試和建置外掛程式，您需要 FormIt for Windows v17.0 或更高版本。
 
-### **Display Script Editor and Script Output**
+### **顯示腳本編輯器和腳本輸出**
 
-In the top menu of FormIt, go to **Window** in the top **** menu and check the **Script Editor** and **Script Output** boxes.
+在 FormIt 的頂端功能表中，移往頂端功能表的**「視窗」**，勾選**「腳本編輯器」**和**「腳本輸出」**方塊。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
-The Script Editor and Script Output panels will appear at the bottom of the FormIt window.
+「腳本編輯器」和「腳本輸出」面板會顯示在 FormIt 視窗的底部。
 
-Switch between the Script Editor and Script Output by using the buttons at the bottom.
+使用底部的按鈕在「腳本編輯器」和「腳本輸出」之間切換。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditorDefaultState.PNG)
 
-You can also arrange both panels side by side. Click the button next to the "x" in the upper right corner to detach one of the panels, then drag and drop the panels next to each other:
+您也可以並排兩個面板。按一下右上角「x」旁邊的按鈕可分離其中一個面板，然後拖放面板到彼此旁邊：
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditor+ScriptOutputConfiguration.gif)
 
-### **Script Editor**
+### **腳本編輯器**
 
-The Script Editor provides a simple development environment where you can write and test code.
+腳本編輯器提供一個簡單的開發環境，您可以在其中編寫和測試程式碼。
 
-The Script Editor stores written code inside a scratch.js file in the directory where the FormIt.exe file is located.
+腳本編輯器將編寫的程式碼儲存在 FormIt.exe 檔案所在的目錄中的 scratch.js 檔案內。
 
-At the top are two buttons:
+頂端有兩個按鈕：
 
-**Run** ![](<../../../.gitbook/assets/image (8).png>): **** Executes all code written in the window.
+**執行** ![](<../../../../.gitbook/assets/image (8).png>)：執行視窗中編寫的所有程式碼。
 
-**Run Selection** ![](<../../../.gitbook/assets/image (52).png>):  ****  Executes only the selected/highlighted lines of code.
+**執行選取項目** ![](<../../../.../.gitbook/assets/image (52).png>)：僅執行選取的/亮顯的程式碼行。
 
-### **Script Output**
+### **腳本輸出**
 
-The Script Output window displays any messages printed to the console from plugins.
+「腳本輸出」視窗會顯示任何來自外掛程式而列印到主控台的訊息。
 
-You can clear the output by running `console.clear();` in the Script Editor.
+您可以在腳本編輯器中執行 `console.clear();` 清除輸出。
 
-## Working with Sample Plugins
+## 使用範例外掛程式
 
-After [cloning a repository](cloning-a-sample-plugin.md) and [setting up a web server](hosting-a-plugin-on-a-local-server.md), you can now get your local plugins to show up in FormIt.
+在[複製儲存庫](cloning-a-sample-plugin.md)並[設定網頁伺服器](hosting-a-plugin-on-a-local-server.md)之後，您現在可以取得本端外掛程式在 FormIt 中展示。
 
-You can load or install any of the plugins, but for the purposes of this exercise, you'll install both a panel-based and a toolbar-based plugin. We'll assume your npm http-server is running on port 8080 hosting both example repositories.
+您可以載入或安裝任何外掛程式，但為了進行本練習，您將同時安裝面板式外掛程式和工具列式外掛程式。我們將假設您裝載兩個範例儲存庫的 npm http-server 在連接埠 8080 上執行。
 
-### **Load vs. Install**
+### **載入與安裝**
 
-`FormIt.LoadPlugin();` loads the plugin only for the current session. The plugin will be unloaded automatically when the app is closed and restarted.
+`FormIt.LoadPlugin();` 只會為目前的工作階段載入外掛程式。當應用程式關閉並重新啟動時，外掛程式會自動卸載。
 
-This is a great option for temporarily manifesting a plugin for testing in the current session only.
+這是一個很適合暫時顯示外掛程式的選項，僅供在目前工作階段中進行測試。
 
-`FormIt.InstallPlugin();` makes the plugin persist using a registry key. This is great for plugins you'll use frequently from session to session.
+`FormIt.InstallPlugin();` 會讓外掛程式持續使用登錄機碼。這很適合您經常在不同工作階段使用的外掛程式。
 
-On Windows, the following registry keys are used to persist plugins:
+在 Windows 中，以下登錄機碼會用來保留外掛程式：
 
 * Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
 
-Use `FormIt.UninstallPlugin();` to uninstall.
+使 用 `FormIt.UninstallPlugin();` 可解除安裝。
 
-In the following examples, unless otherwise noted, feel free to use either _Install_ or _Load,_ depending on whether you want the results of the exercise to be persistent or not.
+在下列範例中，除非另有說明，否則請根據您是否希望保留練習結果來自由使用_安裝_或_載入_。
 
-### **Toolbar Plugin Sample: Flip Along**
+### **工具列外掛程式範例：Flip Along**
 
-In the Script Editor, run the following:
+在腳本編輯器中，執行下列程式碼：
 
-If running a local server:
+如果執行本端伺服器：
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+如果從 [FormIt GitHub 儲存庫](https://github.com/FormIt3D/)載入 (需要網際網路連線)：
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
-You should see the Flip Along toolbar appear at the top of the application window:
+您應該會看到「Flip Along」工具列顯示在應用程式視窗的頂端：
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FlipAlongToolbar.PNG)
 
-### **HTML Panel Plugin Sample: Properties Plus**
+### **HTML 面板外掛程式範例：Properties Plus**
 
-In the Script Editor, run the following:
+在腳本編輯器中，執行下列程式碼：
 
-If running a local server:
+如果執行本端伺服器：
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+如果從 [FormIt GitHub 儲存庫](https://github.com/FormIt3D/)載入 (需要網際網路連線)：
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
-You should see the Properties Plus panel appear on the right side of the application window:
+您應該會看到「Properties Plus」面板顯示在應用程式視窗的右側：
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PropertiesPlusPanel.png)
 
-### **Modal and Modeless Dialog Plugin Sample**
+### **排他式和共存式對話方塊外掛程式範例**
 
-Dialog plugins are unique: They can only be loaded, not installed.
+對話方塊外掛程式很獨特：只能載入，無法安裝。
 
-In the Script Editor, run the following:
+在腳本編輯器中，執行下列程式碼：
 
-If running a local server:
+如果執行本端伺服器：
 
-* Modal: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
-* Modeless: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
+* 排他式：`FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
+* 共存式：`FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+如果從 [FormIt GitHub 儲存庫](https://github.com/FormIt3D/)載入 (需要網際網路連線)：
 
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
+* 排他式：`FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
+* 排他式：`FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-You should see the Hello Block! panel from the HTML panel example appear on screen as either a modal or modeless dialog.
+您應該會看到「HTML」面板範例中的「Hello Block!」面板在螢幕上顯示為一個「排他式」或「共存式」對話方塊。

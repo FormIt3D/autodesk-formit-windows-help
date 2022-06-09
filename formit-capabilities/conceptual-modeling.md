@@ -15,8 +15,3 @@ FormIt 的實體塑型核心，可讓您以驚人而省時的工作流程，輕�
 **此外，使用智慧型選取工具可快速選取類似的幾何圖形並減少點按次數：**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

@@ -1,16 +1,16 @@
 # 材料
 
-讓 FormIt 模型彈出支援反射、光澤和凸紋貼圖的材料。
+讓 FormIt 模型彈出支援反射、光澤、凸紋或一般貼圖的材料。
 
 ## 材料面板
 
-![](<../.gitbook/assets/materials-sample-category (2).png>)
+![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
 
 在「材料」面板中，您可以從各種「材料範例」中進行選擇，在連結的材料資源庫之間導覽，而且自 FormIt 2021 開始，存取和使用其他 FormIt (.AXM) 檔案的材料內容。
 
 ### 材料資源庫來源
 
-在 FormIt 2021 和更高版本中，「材料」面板有一個下拉式介面，可從「在草圖中」、「材料範例」和[連結的資源庫](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)中選擇可用的材料資源庫來源。
+在 FormIt 2021 和更高版本中，「材料」面板有一個下拉式介面，可從「在草圖中」、「材料範例」和[連結的資源庫](https://windows.help.formit.autodesk.com/v/traditional-chinese/tool-library/materials#lian-jie-cai-liao-zi-yuan-ku)中選擇可用的材料資源庫來源。
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
@@ -30,26 +30,26 @@
 
 **連結的資源庫**
 
-[連結材料資源庫](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)之後，會顯示其他目錄和位置。
+[連結材料資源庫](https://windows.help.formit.autodesk.com/v/traditional-chinese/tool-library/materials#lian-jie-cai-liao-zi-yuan-ku)之後，會顯示其他目錄和位置。
 
 ### 建立、刪除和使用滴管
 
-![](../.gitbook/assets/materials\_add.PNG)透過定義新材料的顏色、材質、凸紋貼圖、挖除貼圖、透明度和反射/光澤等設定來**建立新材料**。
+![](../.gitbook/assets/materials\_add.PNG) 透過定義新材料的顏色、材質、凸紋或一般貼圖、挖除貼圖、透明度和反射/光澤等設定來**建立新材料**。
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **刪除**選取的材料。
+![](<../.gitbook/assets/materials\_delete (1).PNG>) **刪除**選取的材料。
 
-![](../.gitbook/assets/materials\_eyedropper.PNG)對場景中繪製的材料使用**滴管**，然後使用它立即開始繪製。
+![](../.gitbook/assets/materials\_eyedropper.PNG) 對場景中繪製的材料使用**滴管**，然後使用它立即開始繪製。
 
 * 按一下「滴管」工具，然後按一下使用材料繪製的面
 * 在面上找到的材料會在面板中亮顯，在載入該材料時，「畫筆」工具會變為作用中狀態。
 
 ### 重新整理、連結資源庫和清除未使用的項目
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png)從本端目錄**連結材料資源庫**。包含 JPG、PNG 或 AXM (FormIt) 檔案的目錄將顯示內容。請參閱[連結材料資源庫](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)，以取得更多資訊。
+![](../.gitbook/assets/materials-link.png) 從本端目錄**連結材料資源庫**。包含 JPG、PNG 或 AXM (FormIt) 檔案的目錄將顯示內容。請參閱[連結材料資源庫](https://windows.help.formit.autodesk.com/v/traditional-chinese/tool-library/materials#lian-jie-cai-liao-zi-yuan-ku)，以取得更多資訊。
 
-![](../.gitbook/assets/materials-refresh.png)**重新整理**目前目錄。只有在檢視本端連結的目錄 (不是「在草圖中」或「材料範例」) 時啟用。
+![](../.gitbook/assets/materials-refresh.png) **重新整理**目前目錄。只有在檢視本端連結的目錄 (不是「在草圖中」或「材料範例」) 時啟用。
 
-![](../.gitbook/assets/materials-purge.png)**清除目前 FormIt 草圖中未使用的材料**。
+![](../.gitbook/assets/materials-purge.png) 從目前 FormIt 草圖中**清除未使用的**材料。
 
 未使用的材料可能會在迭代過程中自然地累積，但如果這些材料使用高品質的材質，則會顯著增加檔案大小。
 
@@ -115,10 +115,10 @@ FormIt 2021 和更高版本可讓您將「材料」面板連結至包含材料�
    * 按一下「刪除」圖示，可從此材料中刪除貼圖。
       * **影像檔案中的材質**
          * JPG 或 PNG
-      * **影像檔案中的凸紋貼圖**
+      * **影像檔案中的凸紋或一般貼圖**
          * 建議使用 JPG
          * 非常適合在材料中加入深度效果。
-         * 您可以使用 ShaderMap 之類的自由軟體，產生指定材質的凸紋貼圖。
+         * 您可以使用 ShaderMap 之類的自由軟體，產生指定材質的凸紋/一般貼圖。
       * **影像檔案中的挖除貼圖**
          * PNG
          * 非常適合可選擇透明度的材料，例如網狀圍籬或穿孔板。
@@ -142,7 +142,7 @@ FormIt 2021 和更高版本可讓您將「材料」面板連結至包含材料�
    * 如果面是從其父系群組繼承其材料，您必須先直接繪製面。
 * 透過快速鍵 MP 或右鍵關聯式功能表存取「調整材料放置」工具：
 
-![](../.gitbook/assets/adjust-material-placement.PNG)
+![](../.gitbook/assets/adjust-material-placement.png)
 
 使用螢幕上的控制項，以互動方式直接在面上移動、旋轉材料材質和調整其比例：
 

@@ -4,7 +4,7 @@
 
 ## 用三個點畫弧
 
-![](../.gitbook/assets/arc_three_pts.png)
+![](../.gitbook/assets/arc\_three\_pts.png)
 
 弧由三點定義，可以在 X、Y 和 Z 軸上繪製。定義第一點，然後決定第一點到第二點的距離，最後決定第三點得到弧的高度。系統會自動為您提供一個可鎖點的「半圓」點；除此之外，弧線將延伸通過前兩個點。
 
@@ -16,9 +16,8 @@
 
 ## 用中心畫弧
 
-![](../.gitbook/assets/arc-by-center%20%281%29.png)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 選擇弧的中點，然後拖曳以選擇中心點，再拖曳以定義弧的長度。只需開始鍵入值，即可輸入弧的精確度數。
 
-![](../.gitbook/assets/arc_circle_demo.gif)
-
+![](../.gitbook/assets/arc\_circle\_demo.gif)

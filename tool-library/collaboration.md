@@ -13,8 +13,5 @@ FormIt 可讓多個使用者在 Windows、iPadOS 或網頁用戶端的任意組�
 
 ## 啟動協同合作工作階段
 
-1. 從「協同合作」下拉式清單中，選擇「啟動共用工作階段」。![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. 以電子郵件傳送連結給協同合作者。此連結會提示收件者登入其 Autodesk 帳戶，以立即開始協同合作。![](../.gitbook/assets/collaborate.png)
-
-
-
+1. 從「協同合作」下拉式清單中，選擇「啟動共用工作階段」。![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
+2. 以電子郵件傳送連結給協同合作者。此連結會提示收件者登入其 Autodesk 帳戶，以立即開始協同合作。![](<../.gitbook/assets/collaborate (1).png>)

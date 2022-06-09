@@ -4,9 +4,8 @@
 
 您可以匯入以下檔案格式：
 
-* Windows：OBJ、DWG、STL、SAT、SKP
+* Windows：OBJ、DWG、STL、SAT、SKP&#x20;
 * 網頁：OBJ、STL
 * iOS：OBJ、STL、SAT
 
 請參閱[匯入模型](../formit-primer/part-i/import-export-and-content-library.md)，以取得匯入資料和使用內容資源庫的更多資訊。
-

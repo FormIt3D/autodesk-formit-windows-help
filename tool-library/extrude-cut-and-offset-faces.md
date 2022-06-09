@@ -6,25 +6,24 @@
 
 若要推拉面，請按一下以選取面，然後按一下並拖曳。面會前後移動，您現在可以移動滑鼠，以在其他模型元素鎖點和推論。再按一下以完成移動面。按住 Ctrl 鍵可保留原始邊。
 
-![](../.gitbook/assets/extrude%20%281%29.png)
+![](<../.gitbook/assets/extrude (1).png>)
 
 ## 蓋印
 
 若要蓋印造型，請使用「3D 草圖」工具，在既有面上繪製直線、弧、雲形線、矩形或圓。此動作會建立新的面，這些面可以單獨推拉，不影響原始面。
 
-![](../.gitbook/assets/imprint1.png)  
+![](../.gitbook/assets/imprint1.png)\
 ![](../.gitbook/assets/imprint2.png)
 
 ## 偏移
 
 偏移物件的面：
 
-1. 首先選取要編輯的面，然後按一下右鍵以檢視**關聯式**功能表。
-2. 從**關聯式**功能表中，按一下**「偏移面」**工具。
+1. 首先選取要編輯的面，然後按一下右鍵以檢視**關聯式**功能表。&#x20;
+2. 從**關聯式**功能表中，按一下 **「偏移面」** 工具。&#x20;
 3. 將游標移至所選面上，並調整顯示的線，直到達到您想要的偏移效果。
 4. 按一下任意位置以完成偏移。您現在可以單獨推拉偏移面。
 
-![](../.gitbook/assets/offset1.png)  
-![](../.gitbook/assets/offset2.png)  
+![](../.gitbook/assets/offset1.png)\
+![](../.gitbook/assets/offset2.png)\
 ![](../.gitbook/assets/offset3.png)
-

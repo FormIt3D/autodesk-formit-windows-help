@@ -1,9 +1,11 @@
 # FormIt 功能
 
-![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
+![](<../.gitbook/assets/formit intro hero image.png>)
 
 ## FormIt 功能
 
 透過功能強大的內建實體塑型系統、令人驚艷的視覺化選項，以及原生的 Dynamo 整合，建立概念建築設計，同時啟動 BIM 工作流程。
 
 使用 Autodesk® FormIt®，可在構想出現時擷取建築設計概念。利用精確簡單的實體塑型，以群組和圖層組織您的構想，並取得真實世界的敷地資訊 (例如衛星影像)，使用陰影、日光分析和能源分析來正確調整和分析您的設計。將您的初步設計移至集中的資料儲存，以在 Autodesk® Revit® 軟體或其他軟體進行存取與修改。
+
+![](../.gitbook/assets/formit-capabilities.png)

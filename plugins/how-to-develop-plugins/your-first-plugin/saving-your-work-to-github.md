@@ -1,31 +1,31 @@
-# Saving Your Work to GitHub
+# 將您的工作儲存至 GitHub
 
-As you work on your plugin, you’ll want to save your progress. To make this possible, we have integrated GitHub directly into the Plugin Playground.
+當您使用外掛程式時，您會想要儲存您的進度。為了達到這個目的，我們已將 GitHub 直接整合到 Plugin Playground 中。
 
-### Adding a New Plugin Project to Your GitHub Account
+### 將新的外掛程式專案加入您的 GitHub 帳戶
 
-Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
+按一下按鈕登入 GitHub，並允許 FormIt 存取您的儲存庫 (專案)。
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (58).png>) button.
+若要建立專案，請鍵入名稱，然後按一下 ![](<../../../.gitbook/assets/image (58).png>) 按鈕。
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-In a few moments, the newly created project will appear in your projects list. Select the project from the drop-down to load it.
+稍後，新建立的專案將顯示在專案清單中。從下拉式清單中選取專案以將其載入。
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
-### Save Your Work
+### 儲存您的工作
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
+當您變更外掛程式時，請按一下「儲存」按鈕 ![](<../../../.gitbook/assets/image (40).png>)，將變更儲存到您的 GitHub 帳戶。
 
+![](<../../../.gitbook/assets/save a plugin.png>)
 
+### 在 GitHub 中檢視您的專案
 
-### View Your Project in GitHub
+您也可以使用 GitHub 按鈕，在 GitHub 中直接尋找和編輯檔案。
 
-You can also find and edit your files directly in GitHub by using the GitHub button.
-
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###

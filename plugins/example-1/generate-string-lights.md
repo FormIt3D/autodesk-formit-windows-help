@@ -1,34 +1,34 @@
 # Generate String Lights
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_在本章中，我們將以 FormIt 隨附的一些外掛程式作為例子，以對_ _**Encode Campus Sample Model.axm**做一些改進。如果您還沒下載，可以從_ [_FormIt 入門手冊第 2 部分資料集_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)下載檔案。
 
-_This neat plugin lets you quickly add hanging lights to your model based on a line or curve._
+_這個簡潔的外掛程式可讓您在模型中根據直線或曲線加入懸掛的燈。_
 
-1 - Before adding any new lights, let's check out the intended result using a premade scene in the model.
+1 - 加入任何新燈光之前，我們先在模型中使用預先製作的場景來查看預期結果。
 
-1. To jump to the scene containing existing string lights, open the **Scenes Palette** and double click on the scene named **Eye Level – Short Alley**.
-2. Notice the string lights that came with this model – that is what we are going to recreate, but somewhere else.
-3. In the **Layer Palette**, turn on the **Helper Geometry** layer so you can see the original lines used to generate these string lights.
+1. 若要跳至包含既有燈串的場景，請開啟**「場景」選項板**，然後按兩下名為 **Eye Level – Short Alley** 的場景。
+2. 請注意此模型隨附的燈串，這是我們要重新建立的，但在其他地方。
+3. 在**「圖層」選項板**中，開啟 **Helper Geometry** 圖層，您可以看到用來產生這些燈串的原始線條。
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - Now let’s navigate to the other alley and add some lights. In the **Scenes Palette** open the **Eye Level – Long Alley** scene. Notice that this alley does not yet have any string lights.
+2 - 我們現在導覽到其他條路，並加入一些燈光。在**「場景」選項板**中，開啟 **Eye Level – Long Alley** 場景。請注意，這條路還沒有任何燈串。
 
-3 - To create a new string of lights:
+3 - 建立新的燈串：
 
-1. Open the newly installed **Generate String Lights Palette** by clicking on the string light icon. By default, the icons for new plugins appear at the bottom.
-2. Change the **Number of Fixtures** option to **10**.
-3. Double-click on one of the helper lines to edit the pre-created **String Lights – Long Alley** group. Then single-click on one of the pre-drawn helper lines to select it.
-4. Click the **Generate String Lights** button inside the plugin’s palette, and a new string of lights should appear! Note that each string of lights is created as its own unique group.
+1. 按一下燈串圖示，以開啟新安裝的**「Generate String Lights」選項板**。新外掛程式的圖示預設會顯示在底部。
+2. 將**「Number of Fixtures」**選項變更為 **10**。
+3. 按兩下其中一條輔助線，以編輯預先建立的 **String Lights – Long Alley** 群組。然後按一下其中一條預先繪製的輔助線以選取它。
+4. 按一下外掛程式選項板內的**「Generate String Lights」**按鈕，新的燈串應該就會出現！請注意，每個燈串都是以自己的唯一群組建立的。
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
-_**Note:**_ _It is OK that some of the lines are going through the “Groove Coffee” sign, because the string light plugin creates a catenary curve that will sag realistically below the sign._
+_**注意:**_ _某些線條會穿過「Groove Coffee」標誌沒關係，因為燈串外掛程式會建立一條懸垂曲線在標誌下面真實地下垂。_
 
-4 - Try creating some more string lights by using the other pre-made helper line and/or creating some of your own helper lines. Play around with the plugin’s settings to get different results.
+4 - 嘗試使用其他預先製作的輔助線和/或建立您自己的輔助線，來建立更多燈串。使用外掛程式的設定實驗看看，以獲得不同的結果。
 
-5 - To help keep the model organized, when finished we recommend grouping all the helper lines and placing that group on the **Helper Geometry** layer, as well as assigning all string light groups to the **Context – Exterior Lighting** layer. This will prevent the helper lines from showing up in any of the ‘Eye Level’ scenes where we do not want to see them. When finished, the results should look something like the next screenshot.
+5 - 為了協助讓模型保持井然有序，建議在完成時將所有輔助線分組，並將該群組放在 **Helper Geometry** 圖層上，以及將所有燈串群組指定到 **Context – Exterior Lighting** 圖層。這可以避免輔助線出現在我們不想看到它們的任何「Eye Level」場景中。完成後，結果應該會與下一張螢幕快照類似。
 
 ![](<../../.gitbook/assets/5 (3) (1).png>)
 
-_**Note:**_ _Unlike geometry created from a Dynamo script, which can be updated and regenerated through the_ _**Properties Palette**, objects created by a plugin are (for the most part) just regular FormIt geometry. Once created, they can only be edited using FormIt’s built in modeling tools._
+_**注意:**_ _與從 Dynamo 指令碼建立的幾何圖形 (可透過_ _**「性質」選項板**更新和重生) 不同，外掛程式建立的物件 (大部分) 只是一般的 FormIt 幾何圖形。建立後，只能使用 FormIt 內建的塑型工具進行編輯。_

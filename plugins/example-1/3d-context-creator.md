@@ -2,47 +2,47 @@
 
 ![](../../.gitbook/assets/contextcreator1.gif)
 
-## What is it?
+## 這是什麼？
 
-3D Context Creator is a very easy-to-use plugin that will help you quickly generate 3d context inside FormIt. This plugin can help you:
+3D Context Creator 是一個非常容易使用的外掛程式，可協助您在 FormIt 中快速產生 3D 環境。此外掛程式可協助您：
 
-* Visualize your project site with its surrounding context
-* Make informed decisions especially in the early stage of the design process.
-* Is free for all users of FormIt to download.&#x20;
+* 視覺化專案敷地及其周圍環境
+* 做出明智決策，尤其是在設計過程的早期階段。
+* FormIt 的所有使用者均可免費下載。&#x20;
 
-This plugin retrieves data from [Open Street Map](https://www.openstreetmap.org/about) to help transform it into FormIt geometries. The source code for this plugin is available on [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+此外掛程式會從 [Open Street Map](https://www.openstreetmap.org/about) 擷取資料，以協助將其轉換為 FormIt 幾何圖形。此外掛程式的原始程式碼位於 [Github](https://github.com/matterlab-co/FormIt-Context-Plugin)。&#x20;
 
-## How to use it
+## 如何使用
 
-To install it, simply turn on the plugin’s toggle, as you would with any other plugin.
+若要安裝，只需開啟外掛程式的開關，就像使用任何其他外掛程式一樣。
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
-Once toggled on, the plugin should appear on the right side of the app and be ready to use.
+開啟後，外掛程式應該會顯示在應用程式的右側，並準備好供您使用。
 
 ![](../../.gitbook/assets/formitUI.PNG)
 
-Before using the plugin, begin by setting your site location from the main FormIt toolbar.
+使用外掛程式之前，請先從 FormIt 主工具列設定您的敷地位置。
 
 ![](<../../.gitbook/assets/image (76).png>)
 
-Search for your site location, and then click Import Satellite Image and Terrain.
+搜尋您的敷地位置，然後按一下「匯入衛星影像和地形」。
 
 ![](<../../.gitbook/assets/image (77).png>)
 
-Once the satellite image has been successfully imported into your FormIt project, navigate to the 3D Context Creator plugin.
+衛星影像成功匯入 FormIt 專案後，請導覽至 3D Context Creator 外掛程式。
 
-Adjust the square radius slider to expand the distance (in meters) of the context from the location point.
+調整平方半徑滑棒以延伸環境與定位點的距離 (以公尺為單位)。
 
 ![](../../.gitbook/assets/contextcreator7.png)
 
-Click on the Create button. And that is it!
+按一下「Create」按鈕。就這樣！
 
-Once you are happy with the settings, click the Create button. Depending on the size and complexity of the given radius, it may take a few moments to process the building forms.
+對設定感到滿意後，按一下「Create」按鈕。根據給定半徑的大小和複雜性，處理建築形狀可能需要一些時間。
 
-## **Some examples**
+## **一些範例**
 
-Try to guess what iconic cities are represented in the following contexts:
+請試著猜猜看下列環境描繪的是哪些代表性城市：
 
 ![](<../../.gitbook/assets/image (2).png>)
 

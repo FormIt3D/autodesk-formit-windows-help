@@ -1,6 +1,6 @@
-# Advanced Development
+# 進階開發
 
-In the previous section, we covered the basics of plugin development by[ building a simple plugin](../your-first-plugin/) in the Plugin Playground. This section will review some more advanced modes of development using an external IDE.
+在上節中，我們透過在 Plugin Playground [建置簡單的外掛程式](../your-first-plugin/)，涵蓋外掛程式開發的基礎知識。本節將回顧一些更進階、使用外部 IDE 的開發模式。
 
 ![](../../../.gitbook/assets/c22.PNG)
 

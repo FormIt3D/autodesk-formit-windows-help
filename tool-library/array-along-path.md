@@ -4,39 +4,39 @@
 
 在 FormIt 2021 和更高版本中，您可以沿路徑排列物件，並快速就地自訂結果。Array Along Path 由 Dynamo 提供技術支援，這表示您可以輕鬆規劃陣列以獲得您想要的結果，重新執行邏輯將就地更新幾何圖形。
 
-![](../.gitbook/assets/array-along-path.gif)
+![](<../.gitbook/assets/array-along-path (1).gif>)
 
 ## 啟動 Array Along Path
 
-* 移至 Windows 版 FormIt 中的 Dynamo 面板，確保您位於「Dynamo Samples」目錄中。
+* 移至 FormIt for Windows 中的 Dynamo 面板，確保您位於「Dynamo Samples」目錄中。
 * 按一下「Array Along Path」範例。
-* 在螢幕的左側，您會看到「Select object\(s\) to array」提示。
+* 在螢幕左側，您會看到「Select object(s) to array」的提示。
    * 您在此步驟可以混合選取任何 FormIt 物件。
    * 選取某些項目後，您可以按螢幕左側的「下一個」箭頭，或按 Enter。
 * 現在，您會看到「Select path for array」提示。
    * 在此，您應該只選取一系列相鄰邊，或選取包含一系列相鄰邊的群組。
    * 選取路徑後，按一下「完成」按鈕，或按 Enter。
-* 「Dynamo」面板會指示其正在處理變更。完成後，您在 FormIt 群組中會有一個 Dynamo 產生的陣列，可供您修改 \(請參閱下方\)。
+* 「Dynamo」面板會指示其正在處理變更。完成後，您在 FormIt 群組中會有一個 Dynamo 產生的陣列，可供您修改 (請參閱下方)。
 
 ## 就地重複
 
 執行 Array Along Path 後，您會看到結果已設定為預設值，您可以修改它們以滿足您的需要。
 
-當 Array Along Path 執行時，它會建立包含結果的新群組，FormIt 會自動選取該群組並顯示該 Array Along Path 實體可用的選項。
+當 Array Along Path 執行時，它會建立包含結果的新群組，FormIt 會自動選取該群組並顯示該 Array Along Path 例證可用的選項。
 
 您永遠可以透過選取「群組」並切換至「性質」面板，或編輯將自動顯示「性質」的「群組」，返回 Array Along Path 的性質。
 
-![](../.gitbook/assets/array-along-path-options.png)
+![](<../.gitbook/assets/array along path (2).png>)
 
-### Select Object\(s\) to Array \(選取要排成陣列的物件\) <a id="run"></a>
+### Select Object(s) to Array (選取要排成陣列的物件) <a href="#run" id="run"></a>
 
 按一下此按鈕可返回選取精靈，以變更要排成陣列的物件。
 
-### Select Array Path \(選取陣列路徑\)
+### Select Array Path (選取陣列路徑)
 
 按一下此按鈕可返回選取精靈，以變更用於計算陣列的路徑。
 
-### Array Type \(陣列類型\) <a id="run"></a>
+### Array Type (陣列類型) <a href="#run" id="run"></a>
 
 這可切換要計算的陣列類型：「By Distance \(依距離\)」或「By Number \(依數目\)」。
 
@@ -44,7 +44,7 @@
 
 **如果為 False**，計算將為「依複本數」，因此此欄位下方的數字是指沿路徑佈滿的複本數。
 
-### Include Original Selection In Results \(在結果中包括原始選取\)
+### Include Original Selection In Results (在結果中包括原始選取)
 
 如果為 **True**：
 
@@ -55,13 +55,13 @@
 
 * 產生的陣列將**不**包括原始選取，因此**除了**原始選取，您還會再得到您指定的複本數，結果也不會產生 Z-fight 現象
 
-### Rotate Copies Along Path \(沿路徑旋轉複本\)
+### Rotate Copies Along Path (沿路徑旋轉複本)
 
 如果為 **True**，複本會旋轉，以保持原始物件相對於路徑的方位。
 
 如果為 **False**，複本不會旋轉，只會移動。
 
-### Use Relative Positioning Along Path \(沿路徑使用相對定位\)
+### Use Relative Positioning Along Path (沿路徑使用相對定位)
 
 如果為 **True**：
 
@@ -73,19 +73,17 @@
 * 無論原始物件與路徑的相對位置為何，路徑的整個長度都會用來計算陣列。
 * 這樣會斷開路徑相對於物件的位置，只使用整個路徑。如果路徑和物件彼此不靠近，此選項非常有用。
 
-### Reverse Path Direction \(反轉路徑方向\)
+### Reverse Path Direction (反轉路徑方向)
 
 僅適用於封閉路徑。對封閉路徑使用 Array Along Path 時，曲線的方向可能會不預期地翻轉陣列的預期結果。將此值切換為 **True**，可在結果翻轉時反轉陣列方向。
 
-### 執行 <a id="run"></a>
+### 執行 <a href="#run" id="run"></a>
 
 編輯選項後，按一下「執行」按鈕以執行基礎的 Dynamo 圖表，並產生新結果。參數如果變更，此按鈕將變為藍色，您就會知道要按一下才能在最後的幾何圖形中看到更新。 
 
-### 編輯內嵌的圖表 <a id="edit-embedded-graph"></a>
+### 編輯內嵌的圖表 <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
 
 按一下此按鈕將啟動 Dynamo 圖表編輯器環境，您可以檢視和編輯基礎的 Dynamo 圖表，以更快速變更參數並查看即時更新，或檢查/調整邏輯。
-
-
 
 ## 選取幾何圖形
 
@@ -98,6 +96,3 @@
 * 您可以使用區域選取視窗擷取一系列物件。
 * 您可以選取已選取的物件以將其除選。
 * 至少需要一個物件才能繼續執行選取型的步驟。
-
-
-

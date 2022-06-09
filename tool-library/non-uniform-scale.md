@@ -4,17 +4,17 @@
 
 選取邊、面、實體、網格或群組的任意組合，然後使用鍵盤快速鍵 **NU** 或從關聯式功能表選項存取「非等比例」：
 
-![](../.gitbook/assets/nu-scale_context-menu.PNG)
+![](../.gitbook/assets/nu-scale\_context-menu.PNG)
 
 **處於作用中狀態後，您會看到一系列掣點，可用於在1 個、2 個或 3 個軸中同時以非等比例地調整物件比例。**
 
 為了清晰起見，只繪製面向相機的掣點。如果需要調整另一側的掣點，請圍繞物件環轉。
 
-![](../.gitbook/assets/nu-scale_grips-1.PNG)
+![](../.gitbook/assets/nu-scale\_grips-1.PNG)
 
 按一下掣點後，您會看到一系列可編輯的文字方塊，您可以在其中依百分比或距離調整比例：
 
-![](../.gitbook/assets/nu-scale_grips-2.PNG)
+![](../.gitbook/assets/nu-scale\_grips-2.PNG)
 
 **尺寸方塊出現後，您可以：**
 
@@ -29,7 +29,7 @@
 * 或按一下以暫時設定掣點位置，然後按一下兩個尺寸方塊的一個以依距離調整比例。
 * 在空間中離開方塊的地方按一下，或按 Esc 完成「非等比例」作業。
 
-![](../.gitbook/assets/nu-scale_grips-3.PNG)
+![](../.gitbook/assets/nu-scale\_grips-3.PNG)
 
 **同樣地，以其中一個角掣點調整比例，會遵循整個造型的縱橫比，並有效地以等比例調整：**
 
@@ -37,5 +37,4 @@
 * 或按一下以暫時設定掣點位置，然後按一下三個尺寸方塊的一個以依距離調整比例。
 * 在空間中離開方塊的地方按一下，或按 Esc 完成「非等比例」作業。
 
-![](../.gitbook/assets/nu-scale_grips-4.PNG)
-
+![](../.gitbook/assets/nu-scale\_grips-4.PNG)

@@ -1,10 +1,10 @@
-# Creating a Toolbar-Based Plugin
+# 建立工具列式外掛程式
 
 ![](<../../../.gitbook/assets/Toolbar based plugin.gif>)
 
-### Structure of a Toolbar-Based Plugin manifest.json
+### 工具列式外掛程式 manifest.json 的結構
 
-A toolbar-based plugin has a _manifest.json_ file with the following structure:
+工具列式外掛程式有一個結構如下的 _manifest.json_ 檔案：
 
 ```
 {
@@ -18,13 +18,13 @@ A toolbar-based plugin has a _manifest.json_ file with the following structure:
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a toolbar-based plugin includes this special JSON property:
+除了[標準的 JSON 性質](../advanced-development/general-plugin-setup-in-the-manifest.md)，工具列式外掛程式還包括此特殊的 JSON 性質：
 
-* "ToolbarURL" tells FormIt that this plugin is a toolbar and links to the location of another JSON file that describes the toolbar's functionality.
+* 「ToolbarURL」告訴 FormIt 此外掛程式是一個工具列，並連結至描述工具列功能的另一個 JSON 檔案的位置。
 
-### Configure Toolbar Format with JSON
+### 使用 JSON 規劃工具列格式
 
-After creating a manifest file like the one described above, you'll need to create the toolbar.json file, which defines the toolbar buttons, their names, text, icons, and the onClick function assigned to each button. The toolbar's JSON file will have the following format:
+建立如上所述的 manifest 檔案後，您必須建立 toolbar.json 檔案，定義工具列按鈕、工具列名稱、文字、圖示，以及指定給每個按鈕的 onClick 函式。工具列的 JSON 檔案具有以下格式：
 
 ```
 {
@@ -52,15 +52,15 @@ After creating a manifest file like the one described above, you'll need to crea
 }               
 ```
 
-The toolbar.json file includes these JSON properties:
+toolbar.json 檔案包括以下 JSON 性質：
 
-* "name" represents the name of the overall toolbar, and is used internally to associate all the buttons to the single toolbar menu.
-* "buttons" represents individual buttons added inside of the toolbar. A toolbar can have any number of buttons.
-* "name" defines the button's internal name, which is used to associate the button to the toolbar as well as to the button's onClick function.
-* "command" defines the function of the button, which can come in one of two forms: a JavaScript function (which can be defined in a script contained in the manifest.json "Scripts" field), or a FormIt command, for example, "Draw: Circle". You can obtain a list of FormIt commands by running the Messages plugin.
-* "iconText" sets the tooltip and description text in the button. If an icon URL is not provided, the text will create an auto-generated icon of formatted text.
-* "iconURL" can be set to define a custom icon for the button.
+* 「name」表示整個工具列的名稱，在內部使用以將所有按鈕關聯至單一工具列功能表。
+* 「buttons」表示在工具列內加入的個別按鈕。工具列可以有任意數量的按鈕。
+* 「name」定義按鈕的內部名稱，用於將按鈕關聯至工具列以及按鈕的 onClick 函式。
+* 「command」定義按鈕的函式，可以是兩種形式的其中一種：JavaScript 函式 (可在 manifest.json「Scripts」欄位中包含的指令碼中定義)，或 FormIt 指令 (例如「繪製: 圓」)。您可以執行 Messages 外掛程式取得 FormIt 指令的清單。
+* 「iconText」設定按鈕中的工具提示和描述文字。如果未提供圖示 URL，則文字將建立格式化文字的自動產生圖示。
+* 可以設定「iconURL」以定義按鈕的自訂圖示。
 
-After the buttons have all been defined in the toolbar.json file, the plugin is ready to go.&#x20;
+在 toolbar.json 檔案中定義所有按鈕後，外掛程式就準備好了。&#x20;
 
-If there are any additional JavaScript functions you would like to define, add them to the same folder as the manifest.json file. Be sure to add the file reference to the "Scripts" field of the manifest file as well so that FormIt can find the files.
+如果您要定義任何其他 JavaScript 函式，請將其加入與 manifest.json 檔案相同的資料夾。請務必將檔案參考加到 manifest 檔案的「Scripts」欄位，以便 FormIt 可以找到這些檔案。

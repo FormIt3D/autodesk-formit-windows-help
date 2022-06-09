@@ -8,7 +8,7 @@
 
 請參閱 **FormIt 簡介**和**工具資源庫**部分，以取得此處討論的特定工具、工具列、選項板和程序的詳細說明。
 
-![](../../.gitbook/assets/screen1.jpg)
+![](<../../.gitbook/assets/screen1 (1).jpg>)
 
 ### 必備條件
 
@@ -16,7 +16,7 @@
 
 對於大多數章節，您也需要下載並使用位於以下連結的資料集。
 
-_如果您無法執行 Windows 版 FormIt，則可以使用免費的_[_**網頁應用程式**_](https://formit.autodesk.com/app)_**完成大部分自學課程。**如需 FormIt 版本和授權的更多資訊，請造訪_ ****[_**FormIt 網站**_](https://formit.autodesk.com)_\*\*\*\*_。
+_如果您無法執行 Windows 版 FormIt，則可以使用免費的_[_**網頁應用程式**_](https://formit.autodesk.com/app)_**完成大部分自學課程。** 如需 FormIt 版本和授權的更多資訊，請造訪_ [_FormIt 網站_](https://formit.autodesk.com)_。_
 
 ### 資料集
 
@@ -24,5 +24,4 @@ _如果您無法執行 Windows 版 FormIt，則可以使用免費的_[_**網頁�
 
 Encode 建築的所有正面元素都由 Dynamo 腳本控制，由定義正面造型的建築底部的路徑驅動。
 
-* \*\*\*\*[**FormIt 入門手冊資料集第 II 部分**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
-
+* [**FormIt 入門手冊資料集第 II 部分**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)

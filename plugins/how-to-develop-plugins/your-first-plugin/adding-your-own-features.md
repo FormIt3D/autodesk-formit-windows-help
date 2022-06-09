@@ -1,18 +1,18 @@
-# Adding Your Own Features
+# 加入您自己的功能
 
-### Inside the HTML, JavaScript, and CSS Panels
+### 在 HTML、JavaScript 和 CSS 面板中
 
-When you click Edit in the Plugin Playground sample plugin, you will see the HTML, JavaScript (JS), and CSS panels. The HTML panel (left) enables you to modify the user interface of your plugin. The JS panel (middle) enables you to write functions that can communicate to FormIt using the FormIt JS Plugin API. Finally, the CSS panel (right) will determine the style of your HTML.
+在 Plugin Playground 範例外掛程式中按一下「編輯」時，您會看到「HTML」、「JavaScript (JS)」和「CSS」面板。「HTML」面板 (左) 可讓您修改外掛程式的使用者介面。「JS」面板 (中) 可讓您編寫函式，這些函式可使用 FormIt JS 外掛程式 API 與 FormIt 溝通。最後，「CSS」面板 (右) 將決定 HTML 的樣式。
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-### Adding a Function to Create a Cylinder&#x20;
+### 新增函式以建立圓柱
 
-Let's add a feature to this plugin to create a cylinder.
+我們在此外掛程式新增一個功能來建立圓柱。
 
-First, let's configure the input field and UI button in the HTML panel. Copy the following code and paste it after line 23 and before _\<!-- Do not remove below scripts unless you know what you're doing- - >_
+首先，在「HTML」面板中規劃輸入欄位和使用者介面按鈕。複製下列程式碼，並貼到第 23 行後面和 _\<!-- Do not remove below scripts unless you know what you're doing- - >_ 前面
 
-This will add some basic UI elements to our plugin.
+這會將一些基本的使用者介面元素加入外掛程式。
 
 ```
 <p>Cylinder: Create a cylinder at the origin.</p>
@@ -20,22 +20,22 @@ This will add some basic UI elements to our plugin.
     <input id="Radius" type=number value=2 />
     <label>Radius</label>
 </div>
-        
+
 <div>
     <input id="CHeight" type=number value =0.5 />
     <label>Height</label>
 </div>
-        
+
 
 <input id="CreateCylinderBtn" type=button value="Create Cylinder" />
-        
+
 ```
 
 ![](<../../../.gitbook/assets/image (86).png>)
 
-Next, let's add two functions in our JS panel. Copy the following code and paste it at the end of the file (after line 16).
+接下來，我們在「JS」面板中新增兩個函式。複製下列程式碼，並貼到檔案的結尾 (第 16 行後面)。
 
-This will create a cylinder in our FormIt workspace.
+這會在 FormIt 工作區中建立一個圓柱。
 
 ```
 // Create cylinder
@@ -65,12 +65,12 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ![](<../../../.gitbook/assets/image (82).png>)
 
-### Running and previewing
+### 執行和預覽
 
-When you’re ready to see the results, click the Play button ![](<../../../.gitbook/assets/image (81).png>) again and you will see your updates to the plugin in the same panel.
+當您準備好查看結果時，請再按一下「播放」按鈕 ![](<../../../.gitbook/assets/image (81).png>)，您會在同一個面板中看到外掛程式的更新。
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
-### FormIt plugins API
+### FormIt 外掛程式 API
 
-For complete documentation on the FormIt plugins API, see the [useful links](../useful-links.md) section.
+如需 FormIt 外掛程式 API 的完整文件，請參閱[有用的連結](../useful-links.md)一節。
