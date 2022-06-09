@@ -13,8 +13,5 @@ FormIt 允许多个用户在 Windows、iPadOS 或 Web 客户端的任意组合�
 
 ## 启动协作任务
 
-1. 从“协作”下拉列表中，选择“启动共享任务”。![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. 将链接通过电子邮件发送给协作者。此链接会提示收件人登录其 Autodesk 帐户，以立即开始协作。![](../.gitbook/assets/collaborate.png)
-
-
-
+1. 从“协作”下拉列表中，选择“启动共享任务”。![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
+2. 将链接通过电子邮件发送给协作者。此链接会提示收件人登录其 Autodesk 帐户，以立即开始协作。![](<../.gitbook/assets/collaborate (1).png>)

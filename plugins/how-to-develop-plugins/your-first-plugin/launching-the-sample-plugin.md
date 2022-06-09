@@ -1,21 +1,19 @@
-# Launching the Sample Plugin
+# 启动样例插件
 
-### Running the Sample Plugin
+### 运行样例插件
 
-A sample plugin comes loaded with the Plugin Playground. Click the Play button to run a plugin.
+“插件乐园”附带了一个样例插件。单击“播放”按钮以运行插件。
 
-![Step 1](https://formit3d.github.io/PluginPlayground/images/step1.png)
+![Step 1](<../../../.gitbook/assets/run a plugin.png>)
 
+这将显示一个插件，其中包含 3 个数值输入和一个“创建块”按钮。继续测试插件，该插件将基于提供的输入值创建一个立方体。
 
+### 查看和编辑代码
 
-This will display a plugin with 3 numerical inputs and a Create Block button. Go ahead and test the plugin, which will create a cube based on the provided input values.
+如果要查看此插件背后的代码，请单击“编辑”按钮。
 
-### Viewing and Editing Code
+![Step2](<../../../.gitbook/assets/edit a plugin.png>)
 
-If you want to see the code behind this plugin, click the Edit button.
-
-![Step2](https://formit3d.github.io/PluginPlayground/images/step2.png)
-
-This will launch a dialog containing all the main pieces of a FormIt plugin: HTML, JavaScript, and CSS.
+这将启动一个对话框，其中包含 FormIt 插件的所有主要部分：HTML、JavaScript 和 CSS。
 
 ![](<../../../.gitbook/assets/02-view and edit playground code.gif>)

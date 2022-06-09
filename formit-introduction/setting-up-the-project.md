@@ -4,26 +4,27 @@
 
 启动 FormIt 时，您将处于三维环境中。花些时间学习[如何在三维空间中导航](navigating-the-scene.md)，然后开始构建项目（[此处为操作方法](../formit-primer/)）、使用“文件”菜单打开现有 FormIt 项目，或输入各种其他文件类型。
 
-FormIt 允许在本地和 BIM 360 Docs 上打开、保存和输出到文件。[在 FormIt 中使用 BIM 360 Docs](https://formit.autodesk.com/page/formit-bim-360-docs) 是在云中共享模型的绝佳方式。
+FormIt 允许在本地和 Autodesk Docs 上打开、保存和输出到文件。[在 FormIt 中使用 Autodesk Docs](https://formit.autodesk.com/page/formit-autodesk-docs/) 是在云中共享模型的绝佳方式。
 
-说到保存，在开始对模型进行更改后，FormIt 将[自动保存工作](../tool-library/autosave.md)。仍建议经常保存，因为这样会清理备份文件并节省空间。
+除了使用“文件”菜单之外，还可以通过将文件拖放到画布中，以在 FormIt 中打开任何可输入的三维模型。要将文件输入到当前草图中，请按住 Ctrl 键并拖放。
+
+在开始对模型进行更改后，FormIt 将[自动保存工作](../tool-library/autosave.md)。仍建议经常保存，因为这样会清理备份文件并节省空间。
 
 ## 应用设置
 
 * 单位:
 
-   ![](../.gitbook/assets/formit_units.png)
+   ![](../.gitbook/assets/formit\_units.png)
 
    * 设置该选项将影响所有工具和输入的几何图形（如 Dynamo）中的单位和无单位文件类型（如 STL）。
-
 * 捕捉到栅格：
    * 强制带有放置点的工具捕捉到栅格交点。请注意，可以在[“视觉样式”](../formit-primer/part-i/visual-settings.md)中关闭栅格；如果栅格处于关闭状态，则捕捉到栅格也将被禁用。
 * 显示可编辑的尺寸：
-   * 选择是否使尺寸框保持可见（如果要精确绘制，建议启用此选项）。
+   * 选择是否使尺寸标注框保持可见（如果要精确绘制，建议您启用此选项）。
 * 隐藏上下文/仅显示编辑的组：
    * 这会影响编辑组是否会显示其周围环境。可以使用快捷键 (H) 轻松更改此设置。在组内和组外建模时切换 H，可以根据需要在隔离环境和上下文中查看组。
 * 选择前亮显：
-   * 默认情况下，将光标悬停在对象上时，FormIt 将“预选”这些对象。这有助于确保要选择的对象是您获得的对象，但在呈现设计时可能会分散注意力。使用此选项或快捷键，可以根据需要在显示和隐藏选择前亮显之间快速切换。请注意，需要启用此选项才能使用[智能选择](https://www.youtube.com/watch?v=akLeB1FADt4)等功能。
+   * 默认情况下，将光标悬停在对象上时，FormIt 将“预选”这些对象。这有助于确保要选择的对象是您获得的对象，但在呈现设计时可能会分散注意力。使用此选项或快捷键，可以根据需要在显示和隐藏选择前亮显之间快速切换。请注意，需要启用此选项才能使用[智能选择](https://www.youtube.com/watch?v=akLeB1FADt4)等功能。&#x20;
 
 ## 触摸模式
 
@@ -38,4 +39,3 @@ FormIt 允许在本地和 BIM 360 Docs 上打开、保存和输出到文件。[�
 ![](../.gitbook/assets/20190619-touch-mode-on.png)
 
 ![](../.gitbook/assets/20190618-touch-mode-banner.png)
-

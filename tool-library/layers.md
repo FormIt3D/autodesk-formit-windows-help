@@ -2,13 +2,13 @@
 
 使用“图层”控制 FormIt 对象的可见性。
 
-按照 [FormIt Primer](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers) 查看图层的实际操作
+按照 [FormIt Primer](../formit-primer/part-i/control-visibility-with-layers.md) 所述，查看处于活动状态的图层。
 
 ## 创建和命名图层
 
 在“图层”面板中，可以通过单击**“+”**图标来创建和命名图层。
 
-![](../.gitbook/assets/layer-locking-image.jpg)
+![](<../.gitbook/assets/layer-locking-image (1).jpg>)
 
 可以双击名称来重命名图层，也可以通过选中和取消选中左侧框来切换其对象的可见性。使用右侧复选框锁定和解锁图层。锁定的图层仍将可见，但不可选，也不可编辑。
 
@@ -25,4 +25,3 @@ FormIt 没有“默认”或“工作图层”的概念。所有新的几何图�
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
 还可以在面板中通过将图层拖放到新位置，来对图层重新排序。请注意，这不会影响几何图形可见性 - 这纯粹是面板中的组织工具。
-

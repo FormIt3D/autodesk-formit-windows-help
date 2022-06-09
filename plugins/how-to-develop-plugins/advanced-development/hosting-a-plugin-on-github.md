@@ -1,41 +1,37 @@
-# Hosting a Plugin on GitHub
+# 在 GitHub 上托管插件
 
-Have you built a useful plugin that you want to share? Host your repository on GitHub so that others can install your plugin from the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager)!
+您是否已构建了一个要共享的有用插件？在 GitHub 上托管您的存储库，以便其他用户可以通过[插件管理器](../../how-to-use-plug-ins.md#plugin-manager)安装您的插件！
 
-### Host Your Plugin Project
+### 托管插件项目
 
-This process is similar to an earlier chapter where we discuss how to [publish your plugin](../your-first-plugin/publishing-your-project.md) created in the Plugin Playground. &#x20;
+此过程与前一章中所述内容类似，其中我们讨论了如何在“插件乐园”中[发布已创建的插件](../your-first-plugin/publishing-your-project.md)。
 
-Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlugins
+转到您新的 GitHub 插件存储库，例如 https://github.com/Joe/JoesPlugins
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+在顶部菜单中，依次单击“设置”>“页面”。在“源”下，单击“无”按钮，然后选择主分支。单击“保存”。
 
 ![](<../../../.gitbook/assets/image (74).png>)
 
-### Continue to Update Your Plugin Project Locally
+### 继续在本地更新插件项目
 
-At this point, you can continue adding, modifying, and testing plugins locally, and when you're ready to publish, use GitHub Desktop or another Git client to push your changes to your GitHub repo. Anyone consuming your repo and plugins will always get the latest code when they start FormIt.
+此时，可以继续在本地添加、修改和测试插件，然后在准备好发布后，使用 GitHub Desktop 或其他 Git 客户端来将所做更改推送到您的 GitHub 存储库。任何使用您的存储库和插件的用户在他们启动 FormIt 时，都会始终获得最新代码。
 
-### Publish Your Project
+### 发布项目
 
-For projects created in an IDE instead of [Plugin Playground](../your-first-plugin/plugin-playground.md), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
+对于在 IDE（而非[插件乐园](../your-first-plugin/plugin-playground.md)）中创建的项目，可以通过将 **FormIt 插件**主题添加到您插件的存储库来发布插件。
 
-This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
+这样，就可以在[社区插件](../../example-1/formit-plugin-community.md)列表中找到您的插件。
 
-View your repo on GitHub by visiting your project link, for example, https://github.com/Joe/JoesPlugin
+通过访问项目链接（例如，https://github.com/Joe/JoesPlugin），在 GitHub 上查看存储库
 
-Click on Settings in the top right corner.
+单击右上角的“设置”。
 
 ![](<../../../.gitbook/assets/image (39).png>)
 
-Add a plugin description, add formit-plugin to the Topics field, and save changes.
+添加插件描述、将“Formit 插件”添加到“Topics”字段，然后保存更改。
 
 ![](<../../../.gitbook/assets/image (54).png>)
 
-Once saved, your plugin project will be added to the [community plugins](https://github.com/topics/formit-plugin) list.
-
-
-
-
+保存后，您的插件项目将添加到[社区插件](https://github.com/topics/formit-plugin)列表。
 
 ###

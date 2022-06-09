@@ -6,17 +6,17 @@
 
 对象可以转换为网格，网格可以转换回对象（而不会丢失任何数据）。某些文件类型会自动输入为网格，如 OBJ、STL 和 DWG。在下面详细了解如何在类型之间转换，以及网格的其他优点和限制。
 
-### 将对象转换为网格
+## 将对象转换为网格
 
 顶点、边、面或实体的任意组合都可以转换为网格。
 
 只需选择“对象”，然后使用快捷键 OM（对象到网格），或者单击鼠标右键并在上下文菜单中选择“对象到网格”：
 
-![](../.gitbook/assets/context-menu_object-to-mesh.PNG)
+![](../.gitbook/assets/context-menu\_object-to-mesh.PNG)
 
 在将对象转换为网格后，屏幕顶部将显示一条确认消息：
 
-![](../.gitbook/assets/success_object-to-mesh.PNG)
+![](../.gitbook/assets/success\_object-to-mesh.PNG)
 
 **将对象转换为网格时：**
 
@@ -32,16 +32,16 @@
 * 如果可以将整个组及其所有嵌套组转换为网格，则网格将变得更强大。
 * 可以使用插件将组及其嵌套内容转换为组：
    * 在应用程序右侧查找“插件管理器”图标：
-      * ![](../.gitbook/assets/plugin-manager_icon.PNG)
+      * ![](../.gitbook/assets/plugin-manager\_icon.PNG)&#x20;
    * 找到“划分网格 + 全部取消划分网格”插件，然后单击复选框以安装它：
-      * ![](../.gitbook/assets/plugin-manager_mesh-unmesh-all.PNG)
+      * ![](../.gitbook/assets/plugin-manager\_mesh-unmesh-all.png)&#x20;
    * 将加载“划分网格 + 全部取消划分网格”插件。只需选择包含要转换为网格的对象的组，然后单击“全部划分网格”。
-      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.PNG)
+      * ![](../.gitbook/assets/mesh-unmesh-all-plugin.png)&#x20;
    * 使用此插件转换嵌套对象或网格时，屏幕顶部将显示一条更新消息，告知您有多少个组和组实例受该操作影响：
 
-![](../.gitbook/assets/success_mesh-all.PNG)
+![](../.gitbook/assets/success\_mesh-all.png)
 
-### 与网格交互
+## 与网格交互
 
 **由于网格的轻质特性，因此网格有特定的限制和行为：**
 
@@ -50,7 +50,7 @@
 * 捕捉到网格仅限于网格的面和顶点。为了提高性能，捕捉和推断将不会用于网格的边。
    * 但是，转换为网格（一种不同类型的网格，称为“点网格”）的 DWG 文件将能够捕捉到和推断到网格边。
 * 网格不能应用标高。
-* 网格不会报告无间隙或背面问题。将它们转换回对象，以查看它们是否是无间隙。
+* 网格不会报告无间隙或背面问题。将它们转换回对象，以查看它们是否是无间隙。&#x20;
    * 转换为网格之前无间隙的对象将在转换回对象之后保持无间隙。
 * 网格不能用于高级建模操作，如实体连接/剪切、三维抽壳、三维偏移、圆角、放样、扫掠或覆盖。
 
@@ -58,33 +58,32 @@
 
 **如果工具提示报告“在网格上”或“特性”面板报告网格，则您就会知道正在与网格交互：**
 
-![](../.gitbook/assets/snap_on-mesh.PNG)
+![](../.gitbook/assets/snap\_on-mesh.png)
 
-![](../.gitbook/assets/properties-panel_mesh.PNG)
+![](../.gitbook/assets/properties-panel\_mesh.png)
 
 **某些文件类型会自动输入为网格以提高性能：**
 
 * STL 和 OBJ 文件（可能包含密集几何图形，如来自其他应用程序的点云）将自动输入为网格。
 * DWG 文件（在高质量曲线上可能包含数百万个小边段）将自动输入为网格。
 
-### 将网格转换回对象
+## 将网格转换回对象
 
 只需选择网格，然后使用快捷键 MO（网格到对象），或单击鼠标右键并在上下文菜单中选择“网格到对象”：
 
-![](../.gitbook/assets/context-menu_mesh-to-object.PNG)
+![](../.gitbook/assets/context-menu\_mesh-to-object.PNG)
 
 在将对象转换为网格后，屏幕顶部将显示一条确认消息：
 
-![](../.gitbook/assets/success_mesh-to-object.PNG)
+![](../.gitbook/assets/success\_mesh-to-object.PNG)
 
 **将网格转换回对象时：**
 
 * 转换回对象时，任何在转换为网格之前为实体/无间隙的对象都将重新连接为无间隙实体。
-* 将一系列边（例如，来自 DWG 文件）或一系列顶点（例如，来自点云）转换为网格并转换回时，会自动将未划分网格的对象放入组。
+* 将一系列边（例如，来自 DWG 文件）或一系列顶点（例如，来自点云）转换为网格并转换回时，会自动将未划分网格的对象放入一个组。
    * 这将防止新的边或顶点与其他可能造成不利影响和影响性能的几何图形合并。
    * 只需将生成的组解组，即可释放边和/或顶点。
 
 **将分组网格转换回对象：**
 
 * 请参见上述说明，以使用“划分网格 + 全部取消划分网格”插件将组及其嵌套网格重新转换回对象。
-

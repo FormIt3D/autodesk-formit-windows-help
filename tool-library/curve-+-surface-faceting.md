@@ -8,7 +8,7 @@ FormIt 是一个多面体建模系统，因此诸如圆、圆弧和样条曲线�
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](<../.gitbook/assets/faceting (1).png>)
+![](../.gitbook/assets/faceting.png)
 
 **曲线镶嵌面质量**
 
@@ -18,9 +18,9 @@ FormIt 是一个多面体建模系统，因此诸如圆、圆弧和样条曲线�
 
 对于现有曲线，还可以使用“重建曲线”插件，以追溯方式重建具有新镶嵌面计数的**现有**圆弧或圆：
 
-![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
+![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-![](../.gitbook/assets/faceting\_rebuild-curve.gif)
+![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
 
 **曲面镶嵌面质量**
 
@@ -30,10 +30,10 @@ FormIt 是一个多面体建模系统，因此诸如圆、圆弧和样条曲线�
 
 使用 Dynamo 时，可以修改镶嵌面质量，然后在“特性面板”中点击“运行图形”（而不更改任何参数），以利用新的镶嵌面计数：
 
-![](../.gitbook/assets/faceting\_column.gif)
+![](<../.gitbook/assets/faceting\_column (1).gif>)
 
 与曲线一样，可以为新草图或仅为当前草图设置曲面镶嵌面质量。
 
 请注意，镶嵌面值当前限制为 4 的倍数，因此在手动输入数值时，FormIt 会舍入为最接近的倍数。可以使用滑块和箭头，来循环显示接受的值。
 
-![](../.gitbook/assets/units-+-precision.png)
+![](<../.gitbook/assets/units-+-precision (1).png>)

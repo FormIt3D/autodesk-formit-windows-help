@@ -14,9 +14,9 @@
 
 ![](../.gitbook/assets/20190618-3d-view.png) **默认三维视图(ZD)**：启动默认三维视图。
 
-![](../.gitbook/assets/jet-pack.png) **漫游(FT)**：“Jetpack”模式允许您使用键盘在场景中漫游。使用 WASD 可向前/向后/向左/向右移动，使用 Q/E 可向上/向下移动。使用空格键可“飞行”。
+![](../.gitbook/assets/jet-pack.png) **漫游(FT)**：“Jetpack”模式允许使用键盘在场景中漫游。使用 WASD 可向前/向后/向左/向右移动，使用 Q/E 可向上/向下移动。使用空格键可“飞行”。
 
-![](../.gitbook/assets/orbit-tool.png) **动态观察(O)**：如果启用，单击鼠标左键并拖动鼠标以围绕模型动态观察。还可以随时通过单击鼠标右键并拖动，来执行此操作。
+![](../.gitbook/assets/orbit-tool.png) **动态观察(O)**：启用后，单击鼠标左键并拖动鼠标以围绕模型动态观察。还可以随时通过单击鼠标右键并拖动，来执行此操作。
 
 ![](../.gitbook/assets/swivel.PNG) **回旋(SV)**：使用“导航”工具栏中的“旋转”工具，以从固定点环视场景。
 
@@ -24,7 +24,6 @@
 
 ![](../.gitbook/assets/zoom.png) **缩放(Z)**：滚动鼠标滚轮，或者从“导航”工具栏中选择“缩放”工具，然后单击并拖动鼠标左键进行缩放。
 
-![](../.gitbook/assets/zoom_all.png) **全部缩放（ZE 或 ZA）**：缩放以使整个模型布满当前视图
+![](../.gitbook/assets/zoom\_all.png) **全部缩放(ZE 或 ZA)**：缩放以使整个模型布满当前视图。
 
-![](../.gitbook/assets/zoom_selection.png) **缩放选择(ZS)**：缩放以使当前选定的所有对象布满当前视图。
-
+![](../.gitbook/assets/zoom\_selection.png) **缩放选择(ZS)**：缩放以使当前选定的所有对象布满当前视图。

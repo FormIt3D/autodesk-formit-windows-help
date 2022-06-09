@@ -1,31 +1,31 @@
-# Saving Your Work to GitHub
+# 将工作保存到 GitHub
 
-As you work on your plugin, you’ll want to save your progress. To make this possible, we have integrated GitHub directly into the Plugin Playground.
+在处理插件时，您会想要保存进度。为了实现此目的，我们已将 GitHub 直接集成到“插件乐园”中。
 
-### Adding a New Plugin Project to Your GitHub Account
+### 将新插件项目添加到 GitHub 帐户
 
-Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
+单击该按钮可登录到 GitHub，然后允许 FormIt 访问您的存储库（项目）。
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (58).png>) button.
+要创建项目，请键入名称，然后单击 ![](<../../../.gitbook/assets/image (58).png>) 按钮。
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-In a few moments, the newly created project will appear in your projects list. Select the project from the drop-down to load it.
+稍后，新创建的项目将显示在项目列表中。从下拉列表中选择项目以加载它。
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
-### Save Your Work
+### 保存工作
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
+对插件进行更改后，单击“保存”按钮 ![](<../../../.gitbook/assets/image (40).png>)，以将更改保存到您的 GitHub 帐户。
 
+![](<../../../.gitbook/assets/save a plugin.png>)
 
+### 在 GitHub 中查看项目
 
-### View Your Project in GitHub
+还可以使用 GitHub 按钮，直接在 GitHub 中查找和编辑文件。
 
-You can also find and edit your files directly in GitHub by using the GitHub button.
-
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###

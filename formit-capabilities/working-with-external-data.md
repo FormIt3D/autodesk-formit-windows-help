@@ -9,4 +9,3 @@
 * iOS：OBJ、STL、SAT
 
 有关输入数据和使用“内容库”的详细信息，请参见[输入模型](../formit-primer/part-i/import-export-and-content-library.md)。
-

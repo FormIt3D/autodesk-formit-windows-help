@@ -1,69 +1,69 @@
-# How to Use Plugins
+# 如何使用插件
 
 ![](<../.gitbook/assets/g3 (1).gif>)
 
-## Plugin Manager
+## 插件管理器
 
-The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
+“FormIt 插件管理器”是您发现和管理插件的一站式工具。
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+只要 FormIt 可以访问 Internet，则当 FormIt 启动时就会自动加载“插件管理器”。
 
-Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) on the right side of the app:
+通过单击应用程序右侧的选项卡图标![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG)访问它：
 
 ![](../.gitbook/assets/c1.PNG)
 
-## Plugin Categories
+## 插件类别
 
-The Plugin Manager organizes plugins into categories to help you find the plugins you're most interested in.
+插件管理器会将插件组织到不同的类别中，以帮助您查找最感兴趣的插件。
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed Plugins:** Plugins already installed by the user.&#x20;
+**已安装的插件：**用户已安装的插件。&#x20;
 
-**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team.\
-GitHub tag:  _formit-plugin-recommended_
+**推荐的插件：**FormIt 团队推荐用于扩展 FormIt 的核心功能和解锁新工作流的插件。社区开发的插件在获得 FormIt 团队批准后会显示在此处。\
+GitHub 标记：_formit-plugin-recommended_
 
-**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team. \
-GitHub tag:  _formit-plugin_
+**公共插件：**由社区构建的插件。此类别中的插件尚未由 FormIt 团队审阅或批准。\
+GitHub 标记：_formit-plugin_
 
-**For Developers Plugins**: Plugins built by the community to enable the creation of new FormIt plugins. \
-GitHub tag:  _formit-plugin-developers_
+**面向开发人员的插件**：由社区构建的插件，可用于创建新的 FormIt 插件。\
+GitHub 标记：_formit-plugin-developers_
 
-## Add Your Private or Local Plugin
+## 添加私有或本地插件
 
-If you're [developing your own plugin](how-to-develop-plugins/), you can add its private URL into the field at the bottom of the panel and click (+):
+如果您正在[开发自己的插件](how-to-develop-plugins/)，可以将其私有 URL 添加到面板底部的字段中，然后单击 (+)：
 
 ![](../.gitbook/assets/d4.PNG)
 
-For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+有关如何添加私有或本地插件的详细信息，请参见[在插件管理器中预览插件。](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
-## Resetting the Plugin Manager
+## 重置插件管理器
 
-The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins. If you need to reset your Plugin Manager to its defaults, delete the following registry key:
+“插件管理器”使用 Windows 上的注册表项，来存储您安装的储存库和插件。 如果需要将“插件管理器”重置为其默认值，请删除以下注册表项：
 
 `Computer\HKEY_CURRENT_USER\Software\Autodesk\FormIt 360\Plugins`
 
-⚠️ Note: This will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+⚠️ 注意：这将卸载用户添加的所有存储库和插件，从而重置“插件管理器”以仅包含内置的存储库和插件。
 
-## Installing Plugins
+## 安装插件
 
-The [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
+[插件管理器](how-to-use-plug-ins.md#plugin-manager)包含许多插件，它们组织在不同类别下。每个插件都有一个名称、描述、GitHub 链接和安装开关。&#x20;
 
 ![](../.gitbook/assets/d5.PNG)
 
-To install a plugin, simply turn on the toggle next to the plugin's name.&#x20;
+要安装某个插件，只需打开该插件名称旁边的开关。&#x20;
 
 ![](../.gitbook/assets/d6.png)
 
-The icon of the selected plugin will appear in the right panel. Click it to display the plugin's UI.
+选定插件的图标将显示在右侧面板中。单击它可显示插件的 UI。
 
 ![](../.gitbook/assets/d7.PNG)
 
-## Using Plugins
+## 使用插件
 
-Each plugin has a unique UI defined by its developer. A plugin usually has a set of instructions on how to use it, a set of parameters (text boxes, sliders, checkboxes, etc.), and one or more buttons to execute it.
+每个插件都有一个由其开发人员定义的唯一 UI。一个插件通常有一组关于如何使用它的说明、一组参数（文本框、滑块、复选框等），以及一个或多个执行它的按钮。
 
-As an example, we'll use one of the simpler examples in the Plugin Manager: Fillet 2D Corners. We first load the plugin from the Recommended section of the Plugin Manager. Then, following the instructions provided by the developer, we set the fillet radius, select a group of faces to fillet, and click the Fillet Corners button.
+举个例子，我们将使用“插件管理器”中一个较简单的示例：圆角二维角点。首先，我们从“插件管理器”的“推荐”部分中加载插件。然后，按照开发人员提供的说明，我们设置圆角半径、选择一组要圆角化的面，然后单击“圆角”按钮。
 
 ![](../.gitbook/assets/g4.gif)
 

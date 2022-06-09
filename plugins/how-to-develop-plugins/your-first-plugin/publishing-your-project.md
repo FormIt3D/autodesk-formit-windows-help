@@ -1,31 +1,31 @@
-# Publishing Your Project
+# 发布项目
 
-### Publishing from the Plugin Playground
+### 从“插件乐园”发布
 
-When you’re ready to share your plugin with others, use the Publish![](<../../../.gitbook/assets/image (66).png>)button to publish your project.
+当您准备好与他人共享插件时，请使用“发布”![](<../../../.gitbook/assets/image (66).png>) 按钮发布项目。
 
-![](https://formit3d.github.io/PluginPlayground/images/save4.png)
+![](<../../../.gitbook/assets/publish a plugin.png>)
 
 ###
 
-### Hosting Your Plugin on GitHub
+### 在 GitHub 上托管插件
 
-Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+在您的存储库中启用 GitHub Pages，以便 FormIt 可以加载和显示您的 GitHub 托管插件。
 
-Go to your new [GitHub ](https://github.com)plugins repo, for example, [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn)
+转到您新的 [GitHub](https://github.com) 插件存储库，例如 [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn)
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+在顶部菜单中，依次单击“设置”>“页面”。在“源”下，单击“无”按钮，然后选择主分支。单击“保存”。
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
-### Deploying Your Plugin in FormIt&#x20;
+### 在 FormIt 中展开插件
 
-To use a plugin hosted on GitHub, copy the plugin page link, go to the Plugin Manager and scroll to the bottom, and paste the link in the field under Add Your Private or Local Plugin. Then click the Add ![](<../../../.gitbook/assets/image (58).png>) button.
+要使用在 GitHub 上托管的插件，请复制插件页面链接、转到“插件管理器”并滚动到底部，然后将链接粘贴到“添加您的私有插件”或“添加本地插件”下的字段中。然后，单击“添加”![](<../../../.gitbook/assets/image (58).png>) 按钮。
 
 ![](<../../../.gitbook/assets/image (80).png>)
 
 ![](<../../../.gitbook/assets/image (85).png>)
 
-Once the plugin is installed, it will be added to the bottom of your toolbar, ready to use.
+完成安装插件后，它会添加到工具栏的底部，可供使用。
 
 ![](<../../../.gitbook/assets/image (38).png>)

@@ -1,12 +1,12 @@
 # 正交视图(Orthographic Views)
 
-**在各种正交视图中查看模型，包括顶部、侧面和底部。**
+在各种正交视图中查看模型，包括顶部、侧面和底部。
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**通过单击浮动导航工具栏中的顶部图标，将找到正交视图：**
+可以在“视图”菜单中找到正交视图，方法是单击浮动导航工具栏中的“正交”图标，或者使用快捷键 VO。单击浮动导航工具栏中的“俯视图”图标，可访问多个视图选项。
 
-![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
+![](../.gitbook/assets/floating-nav\_flyout-v2.png)
 
 **使用正交视图时的一些有用提示：**
 
@@ -14,10 +14,14 @@
 * 切换立面视图（前/右/左/后）时，FormIt 将为了一致性而保持地面高度。
 * 在正交视图中平移时，可以按住 Shift 键，以将平移移动锁定到水平轴或垂直轴。
 * 正交视图方向基于世界坐标轴。可以重新对齐轴，这将改变所有正交视图的方向：
+
    * 使用快捷键 SZ，或在空间中单击鼠标右键（不在任何几何图形上）：
-   * ![](../.gitbook/assets/set-axes\_context.PNG)
+
+   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+
    * 设置原点，然后在红色轴上设置夹点以将其与有意义的方向对齐
-   * ![](../.gitbook/assets/set-axes.PNG)
+
+   ![](../.gitbook/assets/set-axes.PNG)&#x20;
 
 **正交视图与其他 FormIt 功能结合使用：**
 

@@ -4,7 +4,7 @@
 
 ## 按三点方式创建圆弧
 
-![](../.gitbook/assets/arc_three_pts.png)
+![](../.gitbook/assets/arc\_three\_pts.png)
 
 圆弧由三个点定义，可以在 X、Y 和 Z 轴上绘制。定义第一个点，然后确定从第一个点到第二个点的距离，最后确定圆弧高度的第三个点。您将自动获得一个可以捕捉到的“半圆”点；除该点之外，圆弧线将延伸超过前两个点。
 
@@ -16,9 +16,8 @@
 
 ## 按圆心创建圆弧
 
-![](../.gitbook/assets/arc-by-center%20%281%29.png)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 选择圆弧的中点、拖动以选择圆心，然后拖动以定义圆弧的长度。只需开始键入值，即可输入圆弧的精确度数。
 
-![](../.gitbook/assets/arc_circle_demo.gif)
-
+![](../.gitbook/assets/arc\_circle\_demo.gif)

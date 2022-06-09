@@ -1,34 +1,34 @@
-# Generate String Lights
+# 生成灯串
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_在本章中，我们将对 FormIt 附带的几个插件进行举例介绍，以对_ _**“Encode Campus Sample Model.axm”**进行一些改进。如果您尚未下载，可以从_ [_FormIt Primer Part II 数据集_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)下载文件
 
-_This neat plugin lets you quickly add hanging lights to your model based on a line or curve._
+_此款简洁插件让您可以根据直线或曲线为模型快速添加吊灯。_
 
-1 - Before adding any new lights, let's check out the intended result using a premade scene in the model.
+1 - 在添加任何新灯之前，我们先使用模型中的预制场景查看预期结果。
 
-1. To jump to the scene containing existing string lights, open the **Scenes Palette** and double click on the scene named **Eye Level – Short Alley**.
-2. Notice the string lights that came with this model – that is what we are going to recreate, but somewhere else.
-3. In the **Layer Palette**, turn on the **Helper Geometry** layer so you can see the original lines used to generate these string lights.
+1. 要跳转到包含现有灯串的场景，请打开**“场景选项板”**，然后双击名为**“视点标高 - 短巷”**的场景。
+2. 请注意此模型随附的灯串 - 这是我们将要重新创建的对象，但位于其他位置。
+3. 在**“层选项板”**中，打开**“辅助几何图形”**图层，以便可以看到用于生成这些灯串的原始线。
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - Now let’s navigate to the other alley and add some lights. In the **Scenes Palette** open the **Eye Level – Long Alley** scene. Notice that this alley does not yet have any string lights.
+2 - 现在，我们导航到其他巷子并添加一些灯。在**“场景选项板”**中，打开**“视点标高 - 长巷”**场景。请注意，这条巷还没有任何灯串。
 
-3 - To create a new string of lights:
+3 - 创建新灯串的步骤：
 
-1. Open the newly installed **Generate String Lights Palette** by clicking on the string light icon. By default, the icons for new plugins appear at the bottom.
-2. Change the **Number of Fixtures** option to **10**.
-3. Double-click on one of the helper lines to edit the pre-created **String Lights – Long Alley** group. Then single-click on one of the pre-drawn helper lines to select it.
-4. Click the **Generate String Lights** button inside the plugin’s palette, and a new string of lights should appear! Note that each string of lights is created as its own unique group.
+1. 通过单击灯串图标，打开新安装的**“生成灯串选项板”**。默认情况下，新插件的图标显示在底部。
+2. 将**“装置数量”**选项更改为**“10”**。
+3. 双击其中一条辅助线，以编辑预先创建的**“灯串 - 长巷”**组。然后，单击其中一条预先绘制的辅助线以将其选中。
+4. 单击插件选项板内的**“生成灯串”**按钮，此时应显示一个新灯串！请注意，每个灯串都是作为其自己唯一的组创建的。
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
-_**Note:**_ _It is OK that some of the lines are going through the “Groove Coffee” sign, because the string light plugin creates a catenary curve that will sag realistically below the sign._
+_**注意：**_ _有些线穿过“凹槽咖啡”标志是可以的，因为该灯串插件会创建一条实际上在该符号下方下垂的悬链线曲线。_
 
-4 - Try creating some more string lights by using the other pre-made helper line and/or creating some of your own helper lines. Play around with the plugin’s settings to get different results.
+4 - 尝试使用其他预制辅助线和/或创建一些您自己的辅助线，来创建更多灯串。玩转插件的设置，以获取不同的结果。
 
-5 - To help keep the model organized, when finished we recommend grouping all the helper lines and placing that group on the **Helper Geometry** layer, as well as assigning all string light groups to the **Context – Exterior Lighting** layer. This will prevent the helper lines from showing up in any of the ‘Eye Level’ scenes where we do not want to see them. When finished, the results should look something like the next screenshot.
+5 - 为帮助保持模型井然有序，完成后，建议您对所有辅助线进行分组并将该组放置在**“辅助几何图形”**图层上，以及将所有灯串组指定给**“上下文 - 外部照明”**图层。这将阻止辅助线显示在我们不希望看到它们的任何“视点标高”场景中。完成后，结果应类似于下一个屏幕截图。
 
 ![](<../../.gitbook/assets/5 (3) (1).png>)
 
-_**Note:**_ _Unlike geometry created from a Dynamo script, which can be updated and regenerated through the_ _**Properties Palette**, objects created by a plugin are (for the most part) just regular FormIt geometry. Once created, they can only be edited using FormIt’s built in modeling tools._
+_**注意：**__不同于 Dynamo 脚本创建的几何图形（可以通过__**“特性选项板”**更新和重新生成），插件所创建的对象（在大多数情况下）只是常规 FormIt 几何图形。创建后，只能使用 FormIt 内置的建模工具编辑它们。_

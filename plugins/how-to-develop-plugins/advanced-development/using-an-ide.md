@@ -1,15 +1,15 @@
-# Using an IDE
+# 使用 IDE
 
-Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+使用[插件乐园](../your-first-plugin/plugin-playground.md)开发插件非常简单、方便。但是，您可能希望使用外部集成开发环境 (IDE) 开发插件。使用 IDE 的一些优点包括：
 
-* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
-* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server.
+* 您可以使用首选 IDE，它可以提供语法错误更正、扩展等。
+* 您可以与同事协作，通过 GitHub 存储库开发 FormIt 插件。
+* 您可以开发专用插件，并将其托管在本地服务器上。
 
-### Install an IDE
+### 安装 IDE
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
+适用于 FormIt 插件开发的免费 IDE 是 Microsoft 的 [Visual Studio Code](https://code.visualstudio.com/Download)。单击链接以下载安装文件并完成安装。
 
-We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
+我们将使用 Visual Studio Code 进行此演示，但您可以使用自己首选的代码编辑器。确保您的 IDE 包含用于运行本地服务器的终端。
 
 ![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

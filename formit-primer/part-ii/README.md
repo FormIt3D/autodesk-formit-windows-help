@@ -8,7 +8,7 @@
 
 有关本文中所讨论的特定工具、工具栏、选项板和流程的详细说明，请参见**“FormIt 简介”**和**“工具库”**部分。
 
-![](../../.gitbook/assets/screen1.jpg)
+![](<../../.gitbook/assets/screen1 (1).jpg>)
 
 ### 先决条件
 
@@ -16,7 +16,7 @@
 
 对于大多数章节，还需要下载并使用通过下面的链接找到的数据集。
 
-_如果无法运行 FormIt for Windows，可以使用免费的_ [_**Web 应用程序**_](https://formit.autodesk.com/app)_**完成大部分教程。** 有关 FormIt 版本和许可的详细信息，请访问_ ****[_**FormIt 网站。**_](https://formit.autodesk.com)_\*\*\*\*_
+_如果无法运行 FormIt for Windows，可以使用免费的_ [_**Web 应用程序**_](https://formit.autodesk.com/app)_**完成大部分教程。** 有关 FormIt 版本和许可的详细信息，请访问_ [_FormIt 网站_](https://formit.autodesk.com)_。_
 
 ### 数据来源
 
@@ -24,5 +24,4 @@ _如果无法运行 FormIt for Windows，可以使用免费的_ [_**Web 应用�
 
 “编码建筑”的所有外立面图元都由 Dynamo 脚本控制，并由定义外立面形状的建筑底部处的路径驱动。
 
-* \*\*\*\*[**FormIt Primer 数据集第 II 部分**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
-
+* [**FormIt Primer 数据集第 II 部分**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)

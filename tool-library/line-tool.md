@@ -4,7 +4,7 @@
 
 键盘：L
 
-![](../.gitbook/assets/line_toolbar.png)
+![](../.gitbook/assets/line\_toolbar.png)
 
 可以在 X、Y 或 Z 轴上绘制线，也可以在现有几何图形上绘制线。捕捉到轴时，一条彩色线将延伸到正在绘制的线之外，以便指示正在哪个轴上绘制。可以在绘制时看到线的长度，并且可以通过按 **Tab** 键并输入值来手动输入特定长度。
 
@@ -17,4 +17,3 @@
 * Z = 蓝色
 
 ![](../.gitbook/assets/lines.png)
-

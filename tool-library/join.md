@@ -6,27 +6,24 @@
 
 键盘：J G
 
-![](../.gitbook/assets/boolean_join.png)
+![](../.gitbook/assets/boolean\_join.png)
 
 运行“连接”命令，然后按照屏幕左上角的模式说明进行操作
 
 单击以选择要连接到的对象。
 
-![](../.gitbook/assets/cut_mode01.png)
+![](<../.gitbook/assets/cut\_mode01 (1).png>)
 
 单击以选择要连接的对象或组。
 
-![](../.gitbook/assets/cut_mode02.png)
+![](<../.gitbook/assets/cut\_mode02 (1).png>)
 
 单击复选标记以完成命令。
 
 ## 先选择对象
 
-1. 双击以选择要连接的对象（单击以选择组）。
+1. 双击以选择要连接的对象（单击以选择一个组）。
 2. 按住 **CTRL** 键，双击要与第一个对象连接的重叠对象。
 3. 在任一对象上单击鼠标右键，然后在上下文菜单中选择“连接工具”。
 
-![](../.gitbook/assets/join-tool.png)
-
-
-
+![](<../.gitbook/assets/join tool.png>)

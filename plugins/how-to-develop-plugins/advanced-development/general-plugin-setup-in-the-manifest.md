@@ -1,12 +1,12 @@
-# General Plugin Setup in the Manifest
+# 清单中的常规插件设置
 
-FormIt plugins are composed of a key core component called a _manifest.json_ file.&#x20;
+FormIt 插件由名为 _manifest.json_ 文件的关键核心组件组成。&#x20;
 
-The manifest file is a [JSON object](http://www.json.org) that tells the FormIt infrastructure what files to fetch and what kind of plugin to create.
+manifest 文件是一个 [JSON 对象](https://www.json.org/json-zh.html)，它会告知 FormIt 基础架构要获取哪些文件以及要创建哪种插件。
 
-### Manifest.json Structure and Properties
+### Manifest.json 结构和特性
 
-A manifest.json file has the following structure. It has additional properties depending on whether it's a [toolbar-based](../additional-development-options/creating-a-toolbar-based-plugin.md) or an [HTML panel-based plugin](../additional-development-options/creating-an-html-panel-plugin.md).
+manifest.json 文件具有以下结构。它有其他特性，具体取决于它是[基于工具栏的插件](../additional-development-options/creating-a-toolbar-based-plugin.md)还是[基于 HTML 面板的插件](../additional-development-options/creating-an-html-panel-plugin.md)。
 
 ```
 {
@@ -22,17 +22,17 @@ A manifest.json file has the following structure. It has additional properties d
 }               
 ```
 
-A typical plugin includes these JSON properties:
+一个典型插件包括以下 JSON 特性：
 
-* "PluginName" represents the name of the plugin for internal and most display purposes, including for the [Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
-* "PluginType" represents the type of the plugin, letting users know in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) description what to look for when they install the plugin.
-* "PluginDescription" is displayed in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) to communicate the plugin's capabilities.
-* "Scripts" lists the required external scripts associated with the plugin that will be loaded into the FormIt application and can be executed when plugin functionality is invoked.
+* “PluginName”表示插件的名称，适用于内部的大多数显示目的，包括[插件管理器。](../../how-to-use-plug-ins.md#plugin-manager)
+* “PluginType”表示插件的类型，让用户在[插件管理器](../../how-to-use-plug-ins.md#plugin-manager)描述中了解他们在安装插件时要查找的内容。
+* “PluginDescription”会显示在[插件管理器](../../how-to-use-plug-ins.md#plugin-manager)中，以传达插件的功能。
+* “Scripts”会列出与插件相关联的所需外部脚本，这些脚本将加载到 FormIt 应用程序中并可以在调用插件功能时执行。
 
 ![](<../../../.gitbook/assets/image (5).png>)
 
-Start your plugin development by creating a manifest.json file in your plugin folder. Next, you'll need to decide whether you are making a toolbar-based or panel-based plugin.
+通过在插件文件夹中创建一个 manifest.json 文件，来开始开发插件。接下来，您需要确定是创建基于工具栏的插件还是基于面板的插件。
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
-**Note:** The use of PLUGINLOCATION throughout the manifest.json file above is essential and is case sensitive. FormIt will replace PLUGINLOCATION with the server location for the plugin.
+**注意：**在上述 manifest.json 文件中使用 PLUGINLOCATION 是必不可少的，并且区分大小写。FormIt 会将 PLUGINLOCATION 替换为插件的服务器位置。

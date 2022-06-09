@@ -6,17 +6,17 @@
 
 Dynamo 支持在 FormIt 中快速创建店面/幕墙竖梃系统。可以在 Dynamo 面板的“Dynamo 样例”目录中找到“店面幕墙系统”系统：
 
-![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
+![](../.gitbook/assets/storefront-curtainwall-button.png)
 
 ## 为竖梃系统选择“玻璃”
 
 从 FormIt 2021.2 开始，店面幕墙系统使用新的 [SelectFromFormIt 节点](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)，从而让您可以选择一块围绕其生成竖梃系统的“玻璃”（一个面或拉伸实体）。
 
-![一个简单的“玻璃”平面，其底部为门的洞口。](../.gitbook/assets/storefron-system-1_glass-only.png)
+![一个简单的“玻璃”平面，其底部为门的洞口。](../.gitbook/assets/storefron-system-1\_glass-only.png)
 
-单击“店面幕墙”缩略图（注意图标，指示需要选择）时，FormIt 将提示您选择玻璃几何图形以继续：
+单击“店面幕墙”缩略图（注意指示需要选择的图标）时，FormIt 将提示您选择玻璃几何图形以继续：
 
-![](../.gitbook/assets/storefront-curtainwall-prompt.png)
+![](<../.gitbook/assets/storefront-curtainwall-prompt (2).png>)
 
 有关如何选择玻璃的一些注意事项：
 
@@ -29,7 +29,7 @@ Dynamo 支持在 FormIt 中快速创建店面/幕墙竖梃系统。可以在 Dyn
 
 在 FormIt 中为 Dynamo 图形选择几何图形时，某些组织技巧可以简化体验并允许轻松实例化结果：
 
-* 将玻璃放在组中，然后使用该组作为“店面/幕墙”脚本的选择。 
+* 将玻璃放在组中，然后使用该组作为“店面/幕墙”脚本的选择。
    这样一来，在生成竖梃后，可以更轻松地编辑玻璃轮廓；如果梯段之间的玻璃已经过大量修改，且面 ID 已更改，则组将确保脚本始终会找到该玻璃 - 因为它使用的是组 ID，而不是面 ID。
 * 如果计划将竖梃系统的结果复制并粘贴到模型中的其他位置，则最好将玻璃和生成的竖梃包含在组中。这还将防止在仅复制并粘贴生成的竖梃组时，选择节点不知道要使用哪个玻璃实例的问题。
    * 先将玻璃放入组中。双击它以选择玻璃，然后点击 G 或使用上下文菜单或工具栏中的组命令。
@@ -42,13 +42,13 @@ Dynamo 支持在 FormIt 中快速创建店面/幕墙竖梃系统。可以在 Dyn
 
 选择玻璃并运行脚本后，您将在 FormIt 画布中以 FormIt 组的形式获得结果。此组将自动选中，“特性”面板将显示可用选项。
 
-![](../.gitbook/assets/storefront-curtainwall-parameters.png)
+![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
 
 * **运行**：如果修改玻璃的形状，并且要重新运行图形以更新竖梃结果，请单击此按钮。
 * **编辑嵌入的图形**：编辑将生成几何图形的 Dynamo 脚本。此脚本嵌入在 FormIt 文件中，并且特定于此组。
 * **选择玻璃(曲面或实体)**：单击此按钮，可将选择更新为一块不同的要围绕其生成竖梃的玻璃。
 
-该脚本会将默认值用于其首次运行，因此您需要针对您的独特用例调整这些值。所有值都将使用当前 FormIt 单位。
+该脚本会将默认值用于其首次运行，因此您需要针对您的独特用例调整这些值。所有值都将使用 [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 节点设置的单位。
 
 * **竖梃宽度 + 深度**：所有竖梃图元的宽度和深度。
 * **垂直竖梃间距**：每个竖梃之间的中心距离。
@@ -76,6 +76,5 @@ Dynamo 支持在 FormIt 中快速创建店面/幕墙竖梃系统。可以在 Dyn
 
 ![](../.gitbook/assets/storefront-curtainwall-border-mullion-options.png)
 
-* **翻转边界竖梃的偏移方向：**默认情况下，竖梃系统将使用玻璃边界，并向内偏移它以创建边界竖梃。要向外偏移，请将此选项设置为“True”。这将通过“竖梃宽度”设置，增加玻璃边界之外竖梃系统的总体大小。
+* **翻转边界竖梃的偏移方向：** 默认情况下，竖梃系统将使用玻璃边界，并向内偏移它以创建边界竖梃。要向外偏移，请将此选项设置为“True”。这将通过“竖梃宽度”设置，增加玻璃边界之外竖梃系统的总体大小。
 * **选择与边界竖梃之间的公差**：默认情况下，竖梃系统将恰好在玻璃的边界处生成，这可能会导致玻璃边缘与边界竖梃外表面碰撞处出现 Z 方向冲突。在大多数情况下，这将不可见，但如果用例要求系统的边缘可见，并且您想要避免出现 Z 方向冲突，请启用该选项并根据需要调整公差值。
-

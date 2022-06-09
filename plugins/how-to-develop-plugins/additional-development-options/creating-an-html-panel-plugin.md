@@ -1,8 +1,8 @@
-# Creating an HTML Panel Plugin
+# 创建 HTML 面板插件
 
 ![](<../../../.gitbook/assets/PANEL BASED PLUGIN.gif>)
 
-A panel-based plugin that displays an HTML page has a _manifest.json_ file with the following structure:
+显示 HTML 页面的基于面板的插件有一个 _manifest.json_ 文件，其结构如下所示：
 
 ```
 {
@@ -17,12 +17,12 @@ A panel-based plugin that displays an HTML page has a _manifest.json_ file with 
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a panel-based plugin includes these special JSON properties:
+除了[标准 JSON 特性](../advanced-development/general-plugin-setup-in-the-manifest.md)之外，基于面板的插件还包括以下特殊 JSON 特性：
 
-* "Panel" tells FormIt that this plugin is a panel, and links to the location of the HTML file that should be loaded in the panel.
-* The HTML file will need links in the header to the appropriate JavaScript files, as well as to a CSS file for styling.
-* The HTML file will render in the FormIt panel as it would in a browser.
-* You can see examples of rich HTML interfaces in our [FormIt3D organization](https://github.com/FormIt3D/).
-* "PanelIcon" defines an icon for this plugin to appear in the tab on the right side of the application. If undefined, FormIt creates an automatic icon using the initials from the name of the plugin.
+* “面板”告知 FormIt 此插件是一个面板，并链接到应在该面板中加载的 HTML 文件的位置。
+* HTML 文件需要标头中的链接指向相应 JavaScript 文件，以及指向 CSS 文件以进行样式设置。
+* HTML 文件将在 FormIt 面板中渲染，就像在浏览器中一样。
+* 可以在我们的 [FormIt3D 组织](https://github.com/FormIt3D/)中查看丰富的 HTML 界面示例。
+* “PanelIcon”为此插件定义图标，该图标将显示在应用程序右侧的选项卡中。如果未定义，FormIt 会自动使用插件名称的首字母创建一个图标。
 
-Once your HTML, CSS, and JavaScript files are set up, you can begin testing your HTML panel plugin by [loading it or installing it](../advanced-development/setting-up-formit-for-development.md#load-vs.-install).
+完成设置 HTML、CSS 和 JavaScript 文件后，可以通过[加载或安装](../advanced-development/setting-up-formit-for-development.md#load-vs.-install)来开始测试 HTML 面板插件。

@@ -1,16 +1,16 @@
 # 材料
 
-使 FormIt 模型随支持反射、光泽和凹凸贴图的材质一起弹出。
+使 FormIt 模型随支持反射、光泽和凹凸或法线贴图的材质一起弹出。
 
 ## 材质面板
 
-![](<../.gitbook/assets/materials-sample-category (2).png>)
+![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
 
 在材质面板中，可以从各种材质样例中进行选择、在链接的材质库之间导航，以及自 FormIt 2021 开始，可以访问和使用其他 FormIt (.AXM) 文件的材质内容。
 
 ### 材质库源
 
-在 FormIt 2021 及更高版本中，“材质”面板有一个下拉界面，可用于从可用材质库源中进行选择：在草图中、材质样例和[链接库](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)。
+在 FormIt 2021 及更高版本中，“材质”面板有一个下拉界面，可用于从可用材质库源中进行选择：在草图中、材质样例和[链接库](https://windows.help.formit.autodesk.com/v/simplified-chinese/tool-library/materials#lian-jie-cai-zhi-ku)。
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
@@ -30,13 +30,13 @@
 
 **链接的库**
 
-[链接材料库](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)后，将显示其他目录和位置。
+[链接材料库](https://windows.help.formit.autodesk.com/v/simplified-chinese/tool-library/materials#lian-jie-cai-zhi-ku)后，将显示其他目录和位置。
 
 ### 创建、删除和滴管
 
-![](../.gitbook/assets/materials\_add.PNG)**创建新材质**，方法是定义其颜色、纹理、凹凸贴图、裁切贴图、透明度和反射/光泽设置。
+![](../.gitbook/assets/materials\_add.PNG) **创建新材质**，方法是定义其颜色、纹理、凹凸或法线贴图、裁切贴图、透明度和反射/光泽设置。
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **删除**选定材质。
+![](<../.gitbook/assets/materials\_delete (1).PNG>) **“删除”** 选定材质。
 
 ![](../.gitbook/assets/materials\_eyedropper.PNG) 对场景中绘制的材质使用**滴管**，然后使用它立即开始绘制。
 
@@ -45,7 +45,7 @@
 
 ### 刷新、链接库和清除未使用项
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) 从本地目录**链接材质库**。包含 JPG、PNG 或 AXM (FormIt) 文件的目录将显示内容。有关详细信息，请参见[链接材质库](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries)。
+从本地目录![](../.gitbook/assets/materials-link.png) **链接材质库** 。包含 JPG、PNG 或 AXM (FormIt) 文件的目录将显示内容。有关详细信息，请参见[链接材质库](https://windows.help.formit.autodesk.com/v/simplified-chinese/tool-library/materials#lian-jie-cai-zhi-ku)。
 
 ![](../.gitbook/assets/materials-refresh.png) **刷新**当前目录。仅在查看本地链接的目录（不在草图或材质样例中）时启用。
 
@@ -115,10 +115,10 @@ FormIt 2021 及更高版本支持将“材质”面板链接到包含材质内�
    * 单击“删除”图标，以从此材质中删除贴图。
       * **图像文件中的纹理**
          * JPG 或 PNG
-      * **图像文件中的凹凸贴图**
+      * **图像文件中的凹凸或法线贴图**
          * 建议使用 JPG
          * 非常适用于向材质添加深度效果。
-         * 可以使用 ShaderMap 之类的免费软件，来生成给定纹理的凹凸贴图。
+         * 可以使用 ShaderMap 之类的免费软件，来生成给定纹理的凹凸/法线贴图。
       * **图像文件中的裁切贴图**
          * PNG
          * 非常适合具有选择性透明度的材质，如链节围栏或穿孔板。
@@ -136,13 +136,13 @@ FormIt 2021 及更高版本支持将“材质”面板链接到包含材质内�
 * 垂直面将沿 Z 轴定向纹理顶部。
 * 水平面将沿面的最长边纵向定向纹理。
 
-使用**“调整材质放置”**工具，以覆盖默认的材质放置以及特定面上的材质比例：
+使用 **“调整材质放置”** 工具，以覆盖默认的材质放置以及特定面上的材质比例：
 
 * 选择使用材质绘制的一个面或多个面
    * 如果面从其父组继承其材质，则需要先直接绘制面。
 * 通过快捷键 MP 或快捷关联菜单，访问“调整材质放置”工具：
 
-![](../.gitbook/assets/adjust-material-placement.PNG)
+![](../.gitbook/assets/adjust-material-placement.png)
 
 使用屏幕上的控件，以交互方式直接在面上移动、旋转和缩放材质纹理：
 

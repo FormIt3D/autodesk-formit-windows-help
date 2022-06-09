@@ -1,51 +1,51 @@
-# Testing a Combined HTML Panel and Toolbar Plugin
+# 测试组合的 HTML 面板和工具栏插件
 
-You can test your in-progress plugins easily using the built-in [Script Editor ](../advanced-development/setting-up-formit-for-development.md)in FormIt for Windows
+可以使用 FormIt for Windows 中内置的[脚本编辑器](../advanced-development/setting-up-formit-for-development.md)，轻松测试正在处理的插件
 
-We recommend using `FormIt.LoadPlugin("URL");` when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted).&#x20;
+建议您在测试时使用 `FormIt.LoadPlugin("URL");`，这会为此任务暂时加载插件（重新启动 FormIt 时，插件会消失）。&#x20;
 
-Once testing is complete, you can persist the plugin between sessions using `FormIt.InstallPlugin("URL");`.
+完成测试后，可以使用 `FormIt.InstallPlugin("URL");` 在任务之间保留该插件。
 
-**FormIt for Windows v17 and newer**
+**FormIt for Windows v17 及更高版本**
 
 ****
 
-### **Toolbar Plugins**
+### **工具栏插件**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+将插件加载到 FormIt 中，以查看最新 UI 并测试最新功能：
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then load the plugin again using the command above.
+进行一些更改，然后使用上述命令再次加载插件。
 
-You can load many instances of the same plugin in the current session as you test, each with its own UI.
+在测试时，可以在当前任务中加载同一插件的多个实例，每个实例都具有其自己的 UI。
 
-Be sure to use the latest UI instance to ensure you're testing your most recent changes.
+请务必使用最新的 UI 实例，以确保测试的是您最新的更改。
 
 
 
-### **HTML Panel Plugins**
+### **HTML 面板插件**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+将插件加载到 FormIt 中，以查看最新 UI 并测试最新功能：
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then simply right-click the panel and select "Hard Reload" to reload the panel with the latest HTML, CSS, and scripts.
+进行一些更改，然后只需在面板上单击鼠标右键并选择“硬重新加载”，即可加载带有最新 HTML、CSS 和脚本的面板。
 
 ****
 
-### **Preview your plugin with Plugin Manager**
+### **使用插件管理器预览插件**
 
-Once your plugin is loaed, refer an [earlier chapter](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) for this guide.
+加载插件后，请参见[前一章](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md)以了解本手册。
 
 ****
 
-### **Force clearing web cache for .JSON files**
+### **强制清除 .JSON 文件的 Web 缓存**
 
-If you modify the title or description inside the manifest.json file for a plugin or repo, you may need to force clear the cache in FormIt for Windows to see those changes take effect the next time you reload the Plugin Manager.
+如果在 manifest.json 文件中修改插件或存储库的标题或描述，则可能需要在 FormIt for Windows 中强制清除缓存，以便在下次重新加载“插件管理器”时看到这些更改生效。
 
-FormIt for Windows stores its web cache here, you will need to enable hidden items in Windows Explorer to see the AppData folder.
+FormIt for Windows 将其 Web 缓存存储在此处，您需要在“Windows 资源管理器”中启用隐藏的项目才能看到“AppData”文件夹。
 
 * C:\Users\user\AppData\Local\Autodesk\FormIt 360\QtWebEngine\Default
 
-To delete the web cache, simply delete the "Default" folder above, then reload the Plugin Manager to see the updated titles and descriptions.
+要删除 Web 缓存，只需删除上面的“Default”文件夹，然后重新加载“插件管理器”以查看更新的标题和描述。

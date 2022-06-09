@@ -1,63 +1,62 @@
-# Hosting a Plugin on a Local Server
+# 在本地服务器上托管插件
 
-Before you can preview a cloned plugin in FormIt, you need to host it on a local server.
+在可以在 FormIt 中预览克隆的插件之前，您需要将其托管在本地服务器上。
 
-### **View the Terminal in IDE**
+### **在 IDE 中查看终端**
 
-You have the option of starting the server inside Visual Studio Code, instead of a separate terminal window. **** Before opening a terminal, make sure the right folder is opened in Visual Studio Code.
+可以选择在 Visual Studio Code 中启动服务器，而不是启动单独的终端窗口。\*\*\*\* 在打开终端之前，请确保在 Visual Studio Code 中打开了正确的文件夹。
 
-View > Terminal (or shortcut Ctrl + \`)
+“视图”>“终端”（或快捷键 Ctrl + \`）
 
 ![](<../../../.gitbook/assets/image (11).png>)
 
-### Set Up an HTTP Server
+### 设置 HTTP 服务器
 
-An HTTP server that works well is npm's [http-server](https://www.npmjs.com/package/http-server).
+一个运行正常的 HTTP 服务器是 npm 的 [http-server](https://www.npmjs.com/package/http-server)。
 
-First, you will need to download and install [NodeJS](https://nodejs.org/en/), if it's not already installed.
+首先，如果尚未安装 [NodeJS](https://nodejs.org/zh-cn/)，则需要下载并安装它。
 
-If you encounter errors in the following steps, try restarting your computer to complete the NodeJS installation.
+如果在以下步骤中遇到错误，请尝试重新启动计算机以完成 NodeJS 安装。
 
-In the Command Prompt, enter the following to install npm's _http-server_ globally (a one-time setup).
+在命令提示下，输入以下内容以全局安装 npm 的 _http-server_（一次性设置）。
 
 * `npm install http-server -g`
 
 ![](<../../../.gitbook/assets/image (47).png>)
 
-### Start the Local Server
+### 启动本地服务器
 
-Once the setup is complete, run the following command in the terminal to start your npm http-server:
+完成设置后，在终端中运行以下命令来启动 npm http-server：
 
 * `http-server`
 
 ![](<../../../.gitbook/assets/image (84).png>)
 
-Tip 1: In case of any issues with running the http-server (installed globally or locally), it may be helpful to run it directly via npx:
+提示 1：如果运行 http-server（全局或本地安装）时出现任何问题，则通过 npx 直接运行它可能会有所帮助：
 
 * `npx http-server`
 
-Tip 2: For Windows 10/11 users, if you encounter an error when running a script on your new machine, this may be due to the settings being disabled. To fix this:
+提示 2：对于 Windows 10/11 用户，如果在新计算机上运行脚本时遇到错误，这可能是由于设置被禁用造成的。若要解决此问题，请执行以下操作：
 
-* Launch PowerShell script as an administrator&#x20;
-* Enter: `Set-ExecutionPolicy RemoteSigned`&#x20;
+* 以管理员身份启动 PowerShell 脚本
+* 输入： `Set-ExecutionPolicy RemoteSigned`
 
-### Develop for FormIt Web
+### 为 FormIt Web 开发
 
-To develop for FormIt Web, simply run the following command instead:
+要为 FormIt Web 开发，只需改为运行以下命令：
 
 * `http-server --cors`
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-### Verify Your Server
+### 验证服务器
 
-You can verify your server by navigating to the following address in your web browser:&#x20;
+可以通过在 Web 浏览器中导航到以下地址来验证服务器：
 
 * http://localhost:8080
 
-You should see your project folder files in the browser window.
+您应该会在浏览器窗口中看到项目文件夹文件。
 
-\*\*If you use a different web server than npm, the default address/port might be different.
+\*\*如果使用的 Web 服务器与 npm 不同，则默认地址/端口可能不同。
 
 ![](<../../../.gitbook/assets/image (41).png>)
-

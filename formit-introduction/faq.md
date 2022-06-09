@@ -29,7 +29,7 @@ FormIt 功能：
    * 导出
       * AXM、FBX、OBJ、STL、SAT、DAE、DXF
 
-FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) 和[浏览器](https://app.formit.autodesk.com/)中免费使用。需要 **FormIt Pro** 固定期限的使用许可，才能使用 [FormIt for Windows](https://formit.autodesk.com/page/download)，这一版本的 FormIt 的功能最强大也最丰富。**FormIt Pro** 固定期限的使用许可还支持在 iOS 和 Web 上使用其他功能，如日光和能量分析。**FormIt Pro** 包含在 [Autodesk 工程建设软件集](https://www.autodesk.com.cn/collections/architecture-engineering-construction/overview) 中。
+FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) 和[浏览器](https://app.formit.autodesk.com)中免费使用。需要 **FormIt Pro** 固定期限的使用许可，才能使用 [FormIt for Windows](https://formit.autodesk.com/page/download)，这一版本的 FormIt 的功能最强大也最丰富。**FormIt Pro** 固定期限的使用许可还支持在 iOS 和 Web 上使用其他功能，如日光和能量分析。**FormIt Pro** 包含在 [Autodesk 工程建设软件集](https://www.autodesk.com.cn/collections/architecture-engineering-construction/overview) 中。
 
 **FormIt for Android 发生了什么情况？**
 
@@ -49,11 +49,11 @@ FormIt 可在 [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282
 
 **如何学习使用 FormIt？**
 
-最好从 [FormIt Primer 教程](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html)开始。
+最好从 [FormIt Primer 教程](../formit-primer/)开始。
 
 本入门手册有多个部分，从初学者（创建整个现代住宅）到更高级的操作（以更高级的方式使用 Revit 和 Dynamo）。
 
-在 FormIt Friday 网络讲座系列中，我们还提供有 20 多个视频。可以在 [YouTube 频道](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH)上找到这些视频。
+在 FormIt Friday 网络讲座系列中，我们还提供有 20 多个视频。可以在 [YouTube 频道](https://www.youtube.com/channel/UCdZJr6Bo4pwBu3lQqcxlDsw)上找到这些视频。
 
 ## 使用 Revit
 
@@ -65,7 +65,7 @@ FormIt 是一款独立的三维草图绘制和设计应用程序，但它创建�
 
 自 2016 年开始，Revit 会随附一个用于使用 FormIt 数据的附加模块。将 FormIt AXM 文件输入 Revit 时，该附加模块会查看文件中的每个对象，然后使用相应 API 在 Revit 中重新创建。默认情况下，FormIt 中的所有内容都分类为“体量”。
 
-FormIt 转换器会获取每个体量对象，并使用 [Direct Shape API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/CHS/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html) 在 Revit 中创建体量族。
+FormIt 转换器会获取每个体量对象，并使用 [Direct Shape API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html) 在 Revit 中创建体量族。
 
 “Direct Shape”是 IFC 工作流中所使用的不可编辑对象。尽管它不可编辑，但它具有在 FormIt 和 Revit 之间传输完整材质纹理的显著优势。[此处获取教程](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html)，该教程详细介绍了 FormIt 到 Revit 的工作流。
 
@@ -101,7 +101,7 @@ FormIt 正式命名之前的内部代号为 XModeler - 因此我们创建的文�
 
 **FormIt 与 SketchUp 相比如何？**
 
-* [**与 Revit 的互操作性更好**](../tool-library/revit.md) ****
+* [**与 Revit 的互操作性**](../tool-library/revit.md) 更好 _\*\*_
 * [**Dynamo 集成**](../tool-library/dynamo.md)（用于计算设计）
 * Autodesk Insight 支持用于[**日光分析**](../tool-library/solar-analysis.md)和[**能量分析**](../tool-library/energy-analysis.md)的原生工具
 * 更强健的实体建模内核，支持高级建模操作
@@ -128,9 +128,8 @@ FormIt 正式命名之前的内部代号为 XModeler - 因此我们创建的文�
 **如果无法登录，该怎么办？**
 
 * 此[论坛帖子](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=zh-CN)介绍了常见登录问题
-* 如果您的 PC 具有可切换的图形处理器 (GPU)，请务必确保 FormIt 始终使用性能更高的 GPU。以下是有关 [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) 和 [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1) 的说明
+* 如果您的 PC 具有可切换的图形处理器 (GPU)，请务必确保 FormIt 始终使用性能更高的 GPU。以下是有关 [AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) 和 [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1) 的说明
 
 **如果 Insight 能量分析失败，该怎么办？**
 
 如果 Insight 能量分析报告错误或无法返回任何结果，请[查看我们的 Insight 能量分析页面](https://formit.autodesk.com/page/formit-insight)，以了解常见疑难解答提示。
-

@@ -15,8 +15,3 @@ FormIt 的实体建模内核可实现令人难以置信的省时工作流程，�
 **此外，使用“智能选择”工具快速选择相似的几何图形，并保存单击：**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

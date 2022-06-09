@@ -1,14 +1,14 @@
-# Creating an Add-In
+# 创建附加模块
 
-An Add-In is a plugin that also loads DLLs that expose new JavaScript APIs.&#x20;
+附加模块是一个插件，它还会加载可显示新 JavaScript API 的 DLL。&#x20;
 
 
 
-### Download FormIt API
+### 下载 FormIt API
 
-To build DLLs that support FormIt, the FormIt API is needed. The FormIt API can be downloaded from the [Autdesk Developers Network](https://www.autodesk.com/developer-network/overview). A login is needed to access the download.&#x20;
+要构建支持 FormIt 的 DLL，需要 FormIt API。可以从 [Autdesk 开发人员网络](https://www.autodesk.com.cn/developer-network/overview)下载 FormIt API。需要登录才能访问下载。&#x20;
 
-Once logged in, the FormIt API is available under SOFTWARE.
+登录后，FormIt API 在“软件”下可用。
 
 &#x20;
 
@@ -16,9 +16,9 @@ Once logged in, the FormIt API is available under SOFTWARE.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FormItAPIMenuItem.jpg)
 
-An Add-In has access to the [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) and [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+附加模块有权访问 [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) 和 [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html)。
 
-An add-in has the following structure:
+附加模块具有以下结构：
 
 ```
             // FormIt looks for REGISTERAPIMETHODS to load new JS APIs
@@ -35,10 +35,10 @@ An add-in has the following structure:
                 ...
                 ...
             }
-        
+
 ```
 
-To get the arguements into C++ variables use SCRIPTCONVERTER-
+要将参数转换为 C++ 变量，请使用 SCRIPTCONVERTER-
 
 ```
             // Create a JS API with 2 argument
@@ -51,10 +51,10 @@ To get the arguements into C++ variables use SCRIPTCONVERTER-
                 SCRIPTCONVERTER(int, arg2);
                 return JSON_UNDEFINED;
             }
-        
+
 ```
 
-Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to convert your C++ variable to json
+可以返回 JSON\_UNDEFINED 或任何 json 对象。使用 to\_json 将 C++ 变量转换为 json
 
 ```
             // Create a JS API with 2 argument
@@ -69,16 +69,16 @@ Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to conve
                 std::string myValue = "Test";
                 return to_json(myValue);
             }
-        
+
 ```
 
-Once the DLL is defining all the needed JS APIs, the plugin must tell FormIt what DLLs need loaded. This is done in the [manifest](https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8).
+在 DLL 定义了所有需要的 JS API 后，插件必须告知 FormIt 需要加载哪些 DLL。此操作在 [manifest](https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8) 中完成。
 
 ```
         "DLLs" : ["PLUGINLOCATION/MyClass.dll", "PLUGINLOCATION/HelloDLL.dll"]
-        
+
 ```
 
-[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) is a working example that explains how to make an Add-In.
+[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) 是一个有效示例，介绍了如何创建附加模块。
 
-[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) is a working example that explains how to make an Add-In with the [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) 是一个有效示例，介绍如何使用 [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html) 创建附加模块。

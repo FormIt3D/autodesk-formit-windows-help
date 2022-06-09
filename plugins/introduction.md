@@ -1,39 +1,39 @@
-# Introduction to Plugins
+# 插件简介
 
 ![](../.gitbook/assets/gg4.gif)
 
-Plugins are custom software additions that expand FormIt's core functionality. Plugins can enhance, empower, and simplify your 3D modeling workflows in FormIt.&#x20;
+插件是扩展 FormIt 核心功能的自定义软件附加模块。插件可以增强、强化和简化 FormIt 中的三维建模工作流。&#x20;
 
-Plugins can be used to generate objects, make modifications to existing objects, or extract information about an object. Plugins can also use rich web interfaces to display data and provide controls and inputs directly in the application.&#x20;
+插件可用于生成对象、修改现有对象或提取有关对象的信息。插件还可以使用丰富的 Web 界面来显示数据，以及直接在应用程序中提供控件和输入。&#x20;
 
-## Accessing Plugins
+## 访问插件
 
-Plugins are available in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) in the desktop and web versions of FormIt, as long as you are connected to the internet. Plugins are composed of a series of files and folders hosted on GitHub, or on a local server when building your own.&#x20;
+只要连接到 Internet，即可通过桌面版和 Web 版的 FormIt 中的[插件管理器](how-to-use-plug-ins.md#plugin-manager)使用插件。插件由托管在 GitHub 或本地服务器（构建自己的插件时）上的一些列文件和文件夹组成。&#x20;
 
 ![](../.gitbook/assets/c17.PNG)
 
-### Plugins Require Internet Access
+### 插件需要 Internet 访问
 
-External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
+外部插件（插件不在本地托管）需要 Internet 连接，才能初始加载，这意味着：
 
-* External plugins will not load if no internet connection is detected when FormIt starts. Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.&#x20;
-* External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change. Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
+* 如果在 FormIt 启动时未检测到 Internet 连接，则将加载外部插件。 加载后，一些外部插件可以继续在脱机模式下为该任务工作，但其他外部插件可能会中断工作，直到恢复连接。&#x20;
+* 外部插件在每次运行时都在服务器上加载最新代码，因此只要作者推送更改，其功能就会更新。 插件异步加载，这意味着 FormIt 界面中插件的顺序可能会随每个新任务而变化。
 
-## Open Source
+## 打开源
 
-Plugins are open-source, allowing you to use the plugins in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) free of charge, publish and share your plugins easily, and find other plugins on GitHub to understand how they're built.&#x20;
+插件是开源的，从而可以免费使用[插件管理器](how-to-use-plug-ins.md#plugin-manager)中的插件、轻松发布和共享插件，以及在 GitHub 上查找其他插件以了解其构建方式。&#x20;
 
-If you are a developer and want more information on how to publish your plugins, see [Hosting a Plugin on GitHub](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
+如果您是开发人员并想要了解有关如何发布插件的详细信息，请参见[在 GitHub 上托管插件](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md)。&#x20;
 
-If you want to make a plugin for private use, you can develop and host it using a local service. For more information, see [Using an IDE. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
+如果您要制作插件以供私人使用，可以使用本地服务开发和托管该插件。有关详细信息，请参见[使用 IDE。](how-to-develop-plugins/advanced-development/using-an-ide.md)
 
 ![](../.gitbook/assets/c18.PNG)
 
 
 
-## Contact Us
+## 联系我们
 
-If you need any help with FormIt plugins, drop us a line on the [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
+如果您需要有关 FormIt 插件的任何帮助，请在 [FormIt 论坛](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=zh-CN)上给我们留言。
 
 ![](../.gitbook/assets/c19.PNG)
 

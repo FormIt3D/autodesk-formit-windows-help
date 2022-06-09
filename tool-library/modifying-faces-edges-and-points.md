@@ -10,7 +10,7 @@
 4. 单击后，可以捕捉到其他对象以对齐此面。
 5. 与移动一样，可以单击**临时尺寸**，或只需键入值来定义移动量。
 
-![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 还可以使用 **Delete** 键或通过单击鼠标右键并从上下文菜单中调用“删除”来删除面。
 
@@ -28,6 +28,6 @@
 ## 修改点
 
 1. 单击某个立方体的某个角。
-2. 与边类似，可以沿其中一条轴拖动点来重新定义形状。[下一个非均匀缩放](non-uniform-scale.md)
+2. 与边类似，可以沿其中一条轴拖动点来重新定义形状。[下一个非均匀缩放](broken-reference)
 
-![](<../.gitbook/assets/modify3 (1) (1).png>)
+![](<../.gitbook/assets/modify3 (1).png>)

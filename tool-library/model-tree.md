@@ -13,4 +13,3 @@
 还可以使用“模型树”查看附着到 FormIt 对象的非几何属性（字符串属性）。[可以使用 Dynamo 将字符串属性放置在由 SendToFormIt 节点创建的组上](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes)。
 
 ![](../.gitbook/assets/model-tree-attribute.png)
-

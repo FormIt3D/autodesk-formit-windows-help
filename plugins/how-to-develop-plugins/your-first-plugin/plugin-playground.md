@@ -1,25 +1,25 @@
-# Plugin Playground
+# 插件乐园
 
-## What is the Plugin Playground?
+## 什么是“插件乐园”？
 
-The Plugin Playground is an out-of-the-box feature that lets you quickly develop and test plugins in FormIt. It's a great concept-modeling environment where you can make your 3D ideas reality in no time. You don't need any additional software, so there's no need to leave the FormIt app. It comes with a sample plugin, so you don't need to set up your plugin from scratch. Simply test your code and save your project to your GitHub account, all in the Playground panel.&#x20;
+“插件乐园”是一种开箱即用功能，让您可以在 FormIt 中快速开发和测试插件。这是一个绝佳的概念建模环境，在其中可以立即实现三维创意。您不需要任何其他软件，因此无需离开 FormIt 应用程序。它附带了一个样例插件，因此无需从头开始设置插件。只需测试您的代码并将项目保存到您的 GitHub 帐户，所有操作都在“乐园”面板中完成。
 
-Here are some of the benefits of developing in the Plugin Playground:
+以下是在“插件乐园”中开发的一些优势：
 
-* No additional installation required
-* Develop, test, and run plugins within the FormIt desktop or web app
-* Fast and easy file setup with sample code included
-* Save your project to your own GitHub account
-* Use the recording feature
+* 无需安装其他软件
+* 在 FormIt 桌面或 Web 应用程序中开发、测试和运行插件
+* 使用包含的样例代码快速轻松地设置文件
+* 将项目保存到您自己的 GitHub 帐户
+* 使用录制功能
 
 ![](<../../../.gitbook/assets/14 (3) (1).png>)
 
-## Installing the Plugin Playground
+## 安装“插件乐园”
 
-You can think of the Plugin Playground as a plugin that makes plugins. This is because you install it as you would install any other plugin. Open the Plugin Manager, and you will find the Plugin Playground under the Recommended list. Use the toggle to install the Plugin Playground.
+可以将“插件乐园”视为一个制作插件的插件。这是因为可以像安装任何其他插件一样来安装它。打开“插件管理器”，您会在“推荐”列表下找到“插件乐园”。使用开关来安装“插件乐园”。
 
 ![](<../../../.gitbook/assets/01-install playgground formit.gif>)
 
-Once it's installed, you can access the Plugin Playground through the ![](<../../../.gitbook/assets/image (25).png>) icon in the right menu.
+完成安装后，可以通过右侧菜单的 ![](<../../../.gitbook/assets/image (25).png>) 图标来访问“插件乐园”。
 
-![](<../../../.gitbook/assets/image (79).png>)
+![](<../../../.gitbook/assets/image (53) (1) (1) (1).png>)

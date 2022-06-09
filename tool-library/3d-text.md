@@ -4,7 +4,7 @@
 
 在 FormIt 2021 及更高版本中，可以生成和修改由 Dynamo 提供支持的三维文字对象。Dynamo 支持在位编辑文字的字体、大小和其他特性，而无需在需要编辑时重新生成和重新定位文字。
 
-![](../.gitbook/assets/3d-text.gif)
+![](<../.gitbook/assets/3d-text (1).gif>)
 
 ## 放置三维文字
 
@@ -25,7 +25,7 @@
 
 最初放置三维文字后，将自动显示“特性”面板。还可以选择“组”并自行切换到“特性”，或双击“组”以自动切换到“特性”面板。
 
-![](../.gitbook/assets/3d-text-options.png)
+![](<../.gitbook/assets/3d-text-options (2).png>)
 
 ### 文字
 
@@ -51,23 +51,23 @@
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-文字的高度以当前 FormIt 单位表示。
+文字高度。单位基于 [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 节点，并且可以使用任何单位。
 
 ### 拉伸深度
 
-文字的三维拉伸量以当前 FormIt 单位表示。三维文字设计为实体样式，因此该值不能为零；但可以让其接近为 0，以便它在拉伸时不太明显。
+文字的三维拉伸量，以 [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 节点设置的单位表示。三维文字设计为实体样式，因此该值不能为零；但可以让其接近为 0，以便它在拉伸时不太明显。
 
 ### 追踪
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-跟踪对于调整特定字体中字母之间的默认间距非常有用。使用当前 FormIt 单位，可以是正值或负值。例如，在英尺中，0.25 将在每个字母之间增加 3" 的间距。相反，-0.25 将使所有字母靠近 3"。
+跟踪对于调整特定字体中字母之间的默认间距非常有用。它使用由 [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 节点设置的单位，可以是正值或负值。例如，在英尺中，0.25 将在每个字母之间增加 3" 的间距。相反，-0.25 将使所有字母靠近 3"。
 
 ### 多行间距
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-如果“文字”字段中有多行，则此值控制每行文字之间的间距。使用当前 FormIt 单位。
+如果“文字”字段中有多行，则此值控制每行文字之间的间距。它使用由 [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 节点设置的单位。
 
 ### 反转文字
 
@@ -79,7 +79,7 @@
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-仅当“反转文字”为“True”时才适用。指定要用于删除其中文字的实体的文字周围边框数量。使用当前 FormIt 单位。
+仅当“反转文字”为“True”时才适用。指定要用于删除其中文字的实体的文字周围边框数量。它使用由 [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) 节点设置的单位。
 
 ### 曲线镶嵌面质量
 
@@ -103,7 +103,7 @@
 
 可以单击“特性”面板中的“编辑嵌入的图形”按钮，以启动 Dynamo 图形编辑器。
 
-![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
+![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
 
 ## 疑难解答
 
@@ -114,8 +114,3 @@
 如果尝试运行三维文字时出现错误，或者字母消失，则有必要单击“编辑嵌入的图形”以查看图形的问题所在以及可能发生问题的位置。
 
 某些字体还存在已知问题，导致它们无法转换为正确的几何图形。Bahnschrift 就是其中一个例子。如果遇到其他有问题的字体，请[在论坛上告知我们](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=zh-CN)。我们将尽我们所能解决特定字体的问题。
-
-
-
-
-

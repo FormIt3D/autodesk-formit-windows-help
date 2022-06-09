@@ -1,42 +1,42 @@
-# Properties Plus Plugin
+# 特性+ 插件
 
-_This plugin is a more featured version of the standard_ _**Properties Palette**. If you select multiple groups and/or types of geometry, this plugin will provide you with a breakdown of what has been selected, as well as allow for the bulk renaming of groups and group instances._
+_此插件的功能超过标准版的_ _**“特性选项板”**。如果选择多个组和/或类型的几何图形，此插件将为您提供所选内容的细分，并允许批量重命名组和组实例。_
 
-1 **-** First we will look at the properties of a door group from our main model. Re-open **Encode Campus Sample Model.axm** and go back to the **Eye Level – Long Alley** scene. To start utilizing the **Properties Plus** plugin:
+1 **-** 首先，我们将查看主模型中门组的特性。重新打开**“Encode Campus Sample Model.axm”**，然后返回**“视点标高 - 长巷”**场景。开始使用**“特性+”**插件的步骤：
 
-1. Open the **Properties Plus Palette** by clicking on the property with a ‘plus’ symbol icon.
-2. Make sure that **Update on Selection Change** is checked.
-3. Select one of the double glass door groups, named **Door**, on the right side of the alley.
-4. Under the **Selection Count** area, **Total Objects** tells us that we have one (**1**) object selected.
-5. Just below that we can find more information on what types of objects have been selected. In this case, there is one (**1**) group selected, but that group has four (**4**) instances somewhere in the model.
+1. 通过单击带有“加号”符号图标的特性，即可打开**“特性+ 选项板”**。
+2. 确保**“更改选择时更新”**处于选中状态。
+3. 选择小巷右侧、名为**“门”**的双玻璃门组之一。
+4. 在**“选择计数”**区域下，**“对象总数”**会告知我们已选择一 (**1**) 个对象。
+5. 在下面，我们可以找到有关已选择哪些类型对象的详细信息。在本例中，已选择一 (**1**) 个组，但该组在模型中的其他位置有四 (**4**) 个实例。
 
 ![](<../../.gitbook/assets/10 (2) (1).png>)
 
-_**Note:**_ _Checking the number of instances of the selected group can be very handy to prevent accidentally changing multiple elements when you actually only wanted to change the selected element, but forgot to make it unique first._
+_**注意：**_ _如果实际上只想更改选定图元，但却忘记先使其唯一，则检查选定组的实例数可能非常方便，以防止意外更改多个图元。_
 
-2 - This plugin allows us to edit a group or group instance’s name without having to go into group edit mode, and rename multiple instances at once. As we learned previously, every group has a name, but every instance of that group can also have a unique ‘instance’ name. Since there will most likely be many types of doors in this model, we want to give this group, and some of its instances, more specific names.
+2 - 此插件允许我们编辑组或组实例的名称（而无需进入组编辑模式），并允许一次重命名多个实例。如前所述，每个组都有一个名称，但该组的每个实例还可以有唯一的“实例”名称。由于此模型中很可能有多种类型的门，因此我们想要为此组及其某些实例指定更具体的名称。
 
-1. With the first glass **Door** group still selected, add another **Door** group to your current selection by holding **Shift** or **Ctrl** and single-clicking on the other double glass **Door** group near the first.
-2. Notice that now, the **Properties Plus Palette** has updated its **Selection Count** to show that there are two (**2**) instances selected, but still only one (**1**) unique **Family** (AKA group) selected. (Even though this plugin is using the term **Family**, which should be familiar to Revit users, in this context it means the same thing as a FormIt group.)
-3. Under the **Group Family** area, update the **Name** field to be **Doors – Double Glass Storefront**. This will update the name group’s name for all instances, no matter where they are or whether they are currently selected or not, without having to double-click and edit the group.
-4. Since these two instances are both doors into the Groove Coffee area, lets rename just these two instances by entering **Groove Coffee Door** into the **Name** field under the **Multiple Group Instances** area.
+1. 在第一个玻璃**“门”**组仍处于选中状态时，通过按住 **Shift** 或 **Ctrl** 键并单击第一个玻璃“门”组附近的其他双玻璃**“门”**组，从而将另一个**“门”**组添加到当前选择中。
+2. 请注意，**“特性+ 选项板”**现已更新其**“选择计数”**，以显示已选择两 (**2**) 个实例，但仍仅选择一 (**1**) 个唯一**“族”**（也称为“组”）。（即使此插件使用的是术语**“族”**（Revit 用户应该很熟悉），但在此上下文中，它意味着与 FormIt 组是同一个意思。）
+3. 在**“组族”**区域下，将**“名称”**字段更新为**“门 - 双玻璃店面”**。这将更新所有实例的名称组名称，无论这些实例位于何处或当前是否处于选中状态，都无需双击并编辑组。
+4. 由于这两个实例都是进入“凹槽咖啡”区域的门，因此我们只需通过在**“多组实例”**区域下的**“名称”**字段中输入**“凹槽咖啡门”**来重命名这两个实例。
 
-**Note:** In the standard **Properties Palette**, there is no way to rename multiple instances of a group at once. This can be extremely handy when you want to rename tens or hundreds of instances with the same name at once.
+**注意：**在标准**“特性选项板”**中，无法一次重命名组的多个实例。当想要同时重命名数十或数百个名称相同的实例时，这将非常方便。
 
 ![](<../../.gitbook/assets/11 (6) (1).png>)
 
-_**Note:**_ _If you mouse leaves the palette, you will no longer be able to edit the selected textbox. This is true for all palettes, so make sure to keep your cursor within the palette boundary while editing anything inside of a palette._
+_**注意：**_ _如果鼠标光标离开选项板，将无法再编辑选定的文本框。这适用于所有选项板，因此请确保在编辑选项板内的任何内容时，将光标保留在选项板边界内。_
 
-3 - Now if you select a Groove Coffee glass door or a different glass door and look at their properties in the regular **Properties Palette**, you will see that the name of the **Group** has been updated for every instance, but only the Groove Coffee doors have their instance **Name** property updated from its default value.
+3 - 现在，如果选择“凹槽咖啡”玻璃门或其他玻璃门，并在常规**“特性选项板”**中查看其特性，您会看到每个实例的**“组”**名称已更新，但只有“凹槽咖啡”门的实例**“名称”**特性更新自其默认值。
 
 ![](<../../.gitbook/assets/12 (3) (1).png>)
 
-4 - Finally, let’s look at how this plugin sorts different types of elements:
+4 - 最后，我们来了解此插件如何对不同类型的图元进行排序：
 
-1. Quickly draw a **Line (L)**, **Rectangle (R)**, and **Cube (Alt + B)** anywhere you would like in the model. These will be temporary, so their precise location is not important.
-2. Re-open the **Properties Plus Palette** if it was closed, and then press **Crtl + A** to select all visible elements in the model.
-3. Look in the **Selection Count** area, and notice that the selected elements are separated into **Edges** (lines), **Faces**, **Bodies**, (3D shapes made of faces and edges, like the cube)**,** **Groups**, and more.
+1. 在模型中所需的任意位置，快速绘制**“线(L)”**、**“矩形(R)”**和**“立方体(Alt + B)”**。这些是临时的，因此其精确位置并不重要。
+2. 重新打开**“特性+ 选项板”**（如果已关闭），然后按 **Crtl + A** 以选择模型中所有可见的图元。
+3. 在**“选择计数”**区域中查看，请注意，选定图元会划分为**“边”**（线）、**“面”**、**“实体”**（由面和边组成的三维形状，如立方体）**、****“组”**等。
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
-_**Note:**_ _This plugin also detects_ _**Vertices**, which can be created using another plugin called_ _**Generate Vertex**. If you would like to experiment, install the_ _**Generate Vertex Plugin**_ _and repeat the steps above._
+_**注意：**_ _此插件还会检测_ _**“顶点”**，可以使用名为_ _**“生成顶点”**的另一个插件创建顶点。如果要进行试验，请安装__**“生成顶点插件”**__，然后重复上述步骤。_

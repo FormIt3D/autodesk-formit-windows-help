@@ -1,19 +1,19 @@
-# Invoking Plugins and API from Dynamo
+# 从 Dynamo 调用插件和 API
 
-## **Connecting Plugins With Dynamo**
+## **将插件与 Dynamo 连接**
 
-FormIt 2022.1 and newer offers access to JavaScript APIs and custom functions from Dynamo via two new nodes:
+FormIt 2022.1 及更高版本允许从 Dynamo 通过两个新节点访问 JavaScript API 和自定义函数：
 
-### **CallJSAPI** <a href="#calljsapi" id="calljsapi"></a>
+### **CallJSAPI**<a href="#calljsapi" id="calljsapi"></a>
 
-The **CallJSAPI** node allows you to invoke FormIt JavaScript APIs directly from Dynamo.
+**CallJSAPI** 节点允许直接从 Dynamo 调用 FormIt JavaScript API。
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallJSAPI-GetTotalGrossArea.png)
 
-For function names and parameters, take a look at our JavaScript documentation, which is divided into two parts: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) and [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (modeling kernel).
+有关函数名称和参数，请查看我们的 JavaScript 文档，该文档分为两个部分：[FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) 和 [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html)（建模内核）。
 
-### **CallPluginJS** <a href="#callpluginjs" id="callpluginjs"></a>
+### **CallPluginJS**<a href="#callpluginjs" id="callpluginjs"></a>
 
-Conversely, the **CallPluginJS** node allows you to invoke custom functions from a loaded plugin, or a script snippet that's been executed from the Script Editor window.
+相反，**CallPluginJS** 节点允许调用已加载的插件或从“脚本编辑器”窗口执行的脚本片段中的自定义函数。
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallPluginJS.png)

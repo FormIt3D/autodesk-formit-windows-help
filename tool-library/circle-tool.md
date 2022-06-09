@@ -4,11 +4,10 @@
 
 键盘：C
 
-![](../.gitbook/assets/circle_toolbar.png)
+![](../.gitbook/assets/circle\_toolbar.png)
 
 要绘制圆，请先选择圆心，然后指定圆半径。接下来，圆将自动成为面。
 
 ![](../.gitbook/assets/circle1.png)
 
 ![](../.gitbook/assets/circle2.png)
-
