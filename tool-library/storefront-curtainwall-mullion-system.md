@@ -6,21 +6,21 @@
 
 A capacidade de criar rapidamente sistemas de montante de vitrine/cortina parede no FormIt é fornecida pelo Dynamo. É possível localizar o sistema Storefront Curtainwall no diretório Dynamo Samples no painel Dynamo:
 
-![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
+![](../.gitbook/assets/storefront-curtainwall-button.png)
 
 ## Selecionar “Glass” para o sistema do montante
 
-A partir do FormIt 2021.2, o sistema Storefront Curtainwall usa o novo [nó SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), permitindo que você selecione um pedaço de “vidro” \(um sólido de face única ou de extrusão\) em torno do qual será gerado um sistema de montante.
+A partir do FormIt 2021.2, o Sistema de vitrine/cortina parede usa o novo [nó SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), permitindo que você selecione um pedaço de “vidro” (um sólido de face única ou de extrusão) em torno do qual será gerado um sistema de montante.
 
-![ Um plano simples de &quot;vidro&quot; com uma abertura para portas na parte inferior.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![Um plano simples de “vidro” com uma abertura para portas na parte inferior.](../.gitbook/assets/storefron-system-1\_glass-only.png)
 
-Quando você clicar na miniatura Storefront Curtainwall \(observe o ícone que indica que uma seleção é necessária\), o FormIt solicitará que você selecione a geometria do vidro para continuar:
+Quando você clicar na miniatura Vitrine/cortina parede (observe o ícone que indica que uma seleção é necessária), o FormIt solicitará que você selecione a geometria do vidro para continuar:
 
-![](../.gitbook/assets/storefront-curtainwall-prompt.png)
+![](<../.gitbook/assets/storefront-curtainwall-prompt (2).png>)
 
 Algumas notas e ressalvas sobre como funciona a seleção de vidro:
 
-* No momento, somente superfícies planas são suportadas. Se você selecionar uma série de superfícies \(por exemplo, uma superfície “curvada” composta de superfícies planas menores\), o script encontrará a maior face plana e a usará.
+* No momento, somente superfícies planas são suportadas. Se você selecionar uma série de superfícies (por exemplo, uma superfície “curvada” composta de superfícies planas menores), o script encontrará a maior face plana e a usará.
 * Se o vidro for sólido – ou seja, uma única face com extrusão muito pequena para transmitir um pouco de espessura – o script encontrará a maior superfície, de modo que os montantes resultantes serão gerados em um lado do sólido de vidro.
 * É possível desenhar aberturas para portas e remover a superfície resultante do limite de vidro. Os montantes resultantes respeitarão a abertura da porta, deixando-a em branco para a adição de portas.
 * Devido às limitações do Dynamo, esse script não funcionará se a geometria de vidro tiver aberturas no meio.
@@ -35,19 +35,19 @@ Ao selecionar a geometria de um gráfico do Dynamo no FormIt, alguns truques org
    * Selecione o grupo resultante e coloque-o em outro grupo.
    * Clique duas vezes para inserir o primeiro grupo. Esse é o “contêiner” para o vidro e os montantes resultantes.
    * Clique na miniatura Storefront Curtainwall e use o grupo de vidro como seleção.
-   * Após a execução do script, você pode sair do grupo e copiar/colar o contêiner conforme necessário. É possível editar qualquer uma das instâncias \(ajustando a forma do vidro ou parâmetros\) sem problemas.
+   * Após a execução do script, você pode sair do grupo e copiar/colar o contêiner conforme necessário. É possível editar qualquer uma das instâncias (ajustando a forma do vidro ou os parâmetros) sem problemas.
 
 ## Opções do sistema de montante
 
 Depois de selecionar o vidro e executar o script, você obterá um resultado na tela do FormIt, na forma de um grupo do FormIt. Esse grupo será selecionado automaticamente e o painel Properties exibirá as opções disponíveis.
 
-![](../.gitbook/assets/storefront-curtainwall-parameters.png)
+![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
 
 * **Run**: se você modificar a forma do vidro e desejar executar novamente o gráfico para atualizar os resultados do montante, clique nessa opção.
 * **Edit Embedded Graph**: edite o script do Dynamo que está gerando a geometria. Esse script é incorporado no arquivo FormIt e é específico para esse grupo.
-* **Select Glass \(Surface or Solid\)**: clique para atualizar a seleção para uma peça de vidro diferente ao redor da qual serão gerados montantes.
+* **Select Glass (Surface or Solid)**: clique para atualizar a seleção para uma peça de vidro diferente ao redor da qual serão gerados montantes.
 
-O script usará valores padrão para sua primeira execução, portanto, você desejará ajustá-los para seu caso de uso exclusivo. Todos os valores usarão as unidades atuais do FormIt.
+O script usará valores padrão para sua primeira execução, portanto, você desejará ajustá-los para seu caso de uso exclusivo. Todos os valores usarão as unidades definidas pelo nó [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 * **Mullion Width + Depth**: a largura e a profundidade de todos os elementos do montante.
 * **Vertical Mullion Spacing**: a distância, no centro, entre cada montante vertical.
@@ -69,7 +69,7 @@ Procurando mais personalização? Diversas opções avançadas estão ocultas do
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
 * **Randomize Vertical and Horizontal Mullion Layout**: defina como True para espaçar os montantes verticais ou horizontais aleatoriamente.
-* **Min/Max Mullion Spacing \(if random\)**: ajuste esses valores para definir uma faixa de valores de espaçamento aleatório mínimo e máximo.
+* **Min/Max Mullion Spacing (if random)**: ajuste esses valores para definir uma faixa de valores de espaçamento aleatório mínimo e máximo.
 
 ### Montantes de borda
 
@@ -77,4 +77,3 @@ Procurando mais personalização? Diversas opções avançadas estão ocultas do
 
 * **Flip Offset Direction of Border Mullions:** por padrão, o sistema de montante usará o limite de vidro e o deslocará para dentro para criar os montantes de borda. Para deslocar para fora, defina essa opção como True. Isso aumentará o tamanho geral do sistema de montante fora do limite de vidro pela configuração Mullion Width.
 * **Tolerance Between Selection and Border Mullions**: por padrão, o sistema de montante será gerado exatamente na borda do vidro, o que pode causar a luta Z onde a borda do vidro e as superfícies externas dos montantes de borda colidem. Na maioria dos casos, isso não será visível, mas se seu caso de uso exigir que as arestas do sistema estejam visíveis e você desejar evitar a luta Z, ative essa opção e ajuste o valor de tolerância conforme necessário.
-

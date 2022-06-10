@@ -7,20 +7,15 @@ A ferramenta Medir ângulo é usada para medir ângulos entre vértices, arestas
 * No menu da barra de ferramentas **Medir**, selecione a ferramenta **Medir ângulo** ou use o atalho de teclado **M A** e selecione um ponto inicial.
 
    ![](../.gitbook/assets/measure-angle.png)
-
 * Clique e arraste a alça para o vértice inicial.
 
    ![](../.gitbook/assets/measure-angle2.png)
-
 * Use as setas para medir o ângulo entre um ponto e outro.
 
    ![](../.gitbook/assets/measure-angle4.png)
-
 * Para alterar a geometria, clique em uma aresta ou face e insira um novo valor de ângulo clicando no ângulo exibido.
 
-   ![](../.gitbook/assets/measure-angle3.png)
-
+   ![](<../.gitbook/assets/measure-angle3 (1).png>)
 * As alterações ou medições são exibidas:
 
    ![](../.gitbook/assets/measure-angle5.png)
-

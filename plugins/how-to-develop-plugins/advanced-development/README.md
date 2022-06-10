@@ -1,6 +1,6 @@
-# Advanced Development
+# Desenvolvimento avançado
 
-In the previous section, we covered the basics of plugin development by[ building a simple plugin](../your-first-plugin/) in the Plugin Playground. This section will review some more advanced modes of development using an external IDE.
+Na seção anterior, abordamos os conceitos básicos do desenvolvimento de plug-ins [criando um plug-in simples](../your-first-plugin/) no Plugin Playground. Esta seção analisará alguns modos de desenvolvimento mais avançados usando um IDE externo.
 
 ![](../../../.gitbook/assets/c22.PNG)
 

@@ -8,9 +8,9 @@ Para facilitar o esboço e a modelagem, use snaps e pontos de inferência para c
 
 Há vários snaps que poderão ajudar enquanto você estiver desenhando e modelando. O snap a objetos é automaticamente ativado. É possível efetuar snap a:
 
-|                                                                                                                                                                            |                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Vértices | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+|                                                                                                                                                                            |                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| Vértices | ![](<../.gitbook/assets/inf3 (3).png>) |
 | Arestas. Ao passar o cursor sobre a aresta, pequenos pontos vermelhos serão desenhados nas extremidades e no ponto médio. | ![](../.gitbook/assets/inf4.png) |
 | Pontos médios da aresta | ![](../.gitbook/assets/inf5.png) |
 | O plano de uma face. Ao passar o cursor sobre a face, um pequeno ponto vermelho será desenhado no centroide da face. Isso facilitará a localização desse ponto, caso você deseje efetuar snap a ele. | ![](../.gitbook/assets/inf6.png) |

@@ -1,21 +1,21 @@
-# FormIt Plugin Community
+# Comunidade de plug-ins do FormIt
 
 ![](../../.gitbook/assets/C21.PNG)
 
-## Looking for Plugins?
+## Procurando plug-ins?
 
-If you are looking for some ideas to develop your FormIt plugin, check out some of these examples:
+Se você estiver procurando algumas ideias para desenvolver o plug-in do FormIt, confira alguns destes exemplos:
 
-* [Community plugins](https://github.com/topics/formit-plugin): Plugins developed by FormIt users and developers.
-* [Plugins recommended by FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): Plugins developed by the community and recommended by FormIt team.
-* [Plugins from FormIt](https://github.com/FormIt3D): Official Plugins developed by FormIt team.
+* [Plug-ins da comunidade](https://github.com/topics/formit-plugin): plug-ins desenvolvidos por usuários e desenvolvedores do FormIt.
+* [Plug-ins recomendados pelo FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): plug-ins desenvolvidos pela comunidade e recomendados pela equipe do FormIt.
+* [Plug-ins do FormIt](https://github.com/FormIt3D): plug-ins oficiais desenvolvidos pela equipe do FormIt.
 
-## Want FormIt to feature your plugin?
+## Deseja que o FormIt apresente o plug-in?
 
-If you have developed a plugin that would be useful for other FormIt users, we would love to hear more about it, so please let us know, we will review it and consider adding it **formit-plugin-recommended** list or feature it as [examples](./) in our primer.&#x20;
+Se você tiver desenvolvido um plug-in que seria útil para outros usuários do FormIt, adoraríamos saber mais sobre ele. Por isso, informe-nos, vamos analisá-lo e considerar adicioná-lo à lista **formit-plugin-recommended** ou exibi-lo como [exemplo](./) em nosso manual.&#x20;
 
 
 
-### Help from FormIt and the community
+### Ajuda do FormIt e da comunidade
 
-Having issues building or running plugins? [Reach out to us!](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
+Problemas ao criar ou executar plug-ins? [Entre em contato conosco.](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=pt-br)

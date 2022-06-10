@@ -6,7 +6,7 @@ Uma das técnicas mais básicas, porém importantes, nos fluxos de trabalho do F
 
 ## Interações de grupos
 
-Para **criar um grupo**, selecione os elementos que você deseja agrupar (isso pode incluir arestas, faces, sólidos ou outros grupos) e clique com o botão direito do mouse. Selecione a ferramenta **Grupo \(G\)** no menu de contexto. Não é possível agrupar imagens importadas e imagens de satélite.
+Para **criar um grupo**, selecione os elementos que você deseja agrupar (isso pode incluir arestas, faces, sólidos ou outros grupos) e clique com o botão direito do mouse. Selecione a ferramenta **Grupo (G)** no menu de contexto. Não é possível agrupar imagens importadas e imagens de satélite.
 
 Para **selecionar um grupo**, clique uma vez no grupo. Observe as linhas tracejadas que são exibidas ao selecionar um grupo; elas indicam o tamanho total do grupo.
 
@@ -55,4 +55,3 @@ Se você está familiarizado com as **famílias** do Revit, também está famili
 Também é possível usar o painel **Propriedades** para especificar um nome para o grupo do FormIt. Isso pode ser útil para navegar em seu próprio modelo e, ao importar o modelo para o Revit, será possível filtrar facilmente os elementos usando o nome do grupo.
 
 Observe que os **grupos aninhados no FormIt não são importados para o Revit como grupos aninhados**. Isso impede famílias do Revit profundamente aninhadas.
-

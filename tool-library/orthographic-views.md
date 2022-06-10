@@ -1,12 +1,12 @@
 # Vistas ortogonais
 
-**Visualize o modelo em várias vistas ortogonais, incluindo superior, lateral e inferior.**
+Visualize o modelo em várias vistas ortogonais, incluindo superior, lateral e inferior.
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**Você encontrará vistas ortogonais clicando no ícone superior na barra de ferramentas de navegação flutuante:**
+Você encontrará as vistas ortogonais no menu Vista, clicando no ícone Ortogonal na barra de ferramentas de navegação flutuante ou usando o atalho V O. Clique no ícone Vista superior na barra de ferramentas de navegação flutuante para acessar várias opções de vista.
 
-![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
+![](../.gitbook/assets/floating-nav\_flyout-v2.png)
 
 **Algumas dicas úteis ao trabalhar com vistas ortogonais:**
 
@@ -14,10 +14,14 @@
 * Ao alternar entre vistas de elevação (frontal/direita/esquerda/trás), o FormIt manterá a altura do solo para consistência.
 * É possível manter pressionada a tecla Shift ao efetuar o pan em uma vista ortogonal para bloquear o movimento Pan para o eixo horizontal ou vertical.
 * As direções da vista ortogonal são baseadas nos eixos universais. É possível realinhar os eixos, o que alterará as orientações de todas as vistas ortogonais:
+
    * Use o atalho SZ ou clique com o botão direito do mouse no espaço (não sobre qualquer geometria):
-   * ![](../.gitbook/assets/set-axes\_context.PNG)
+
+   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+
    * Defina a origem e, em seguida, a alça nos eixos vermelhos para alinhá-la com uma direção significativa
-   * ![](../.gitbook/assets/set-axes.PNG)
+
+   ![](../.gitbook/assets/set-axes.PNG)&#x20;
 
 **As vistas ortogonais funcionam em conjunto com outros recursos do FormIt:**
 

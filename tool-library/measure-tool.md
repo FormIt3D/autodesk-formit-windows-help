@@ -8,7 +8,6 @@ A ferramenta **Medir** está localizada na [barra de ferramentas](../formit-intr
 2. Selecione dois pontos para medir a distância entre eles.
 3. Selecione uma face ou aresta que deseja ajustar, clique no valor exibido e adicione um novo valor na caixa de diálogo que é exibida.
 
-![](../.gitbook/assets/measure%20%281%29.png)  
-![](../.gitbook/assets/measure2.png)  
+![](<../.gitbook/assets/measure (1).png>)\
+![](<../.gitbook/assets/measure2 (1).png>)\
 ![](../.gitbook/assets/measure3.png)
-

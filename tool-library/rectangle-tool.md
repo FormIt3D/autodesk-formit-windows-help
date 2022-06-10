@@ -21,4 +21,3 @@ Cores de linha por eixo:
 ![](../.gitbook/assets/rectangle2.png)
 
 Quando você terminar de desenhar o retângulo, ele se torna numa face que pode sofrer extrusão para criar um volume.
-

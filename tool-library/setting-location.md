@@ -13,11 +13,11 @@ Você precisará estar conectado com a Autodesk Account para acessar a caixa de 
 
 * Abra a caixa de diálogo **Configurar localização** da ferramenta **Localização** na barra de ferramentas ou com o atalho de teclado SL.
 
-![](../.gitbook/assets/location-toolbar.png)
+![](<../.gitbook/assets/location-toolbar (1).png>)
 
-* Comece digitando a localização do projeto na caixa de pesquisa no canto superior esquerdo da janela _Configurar localização_.
+* Comece digitando a localização do projeto na caixa de pesquisa no canto superior esquerdo da janela _Configurar localização_.&#x20;
 
-![](../.gitbook/assets/location-step-1%20%281%29.png)
+![](<../.gitbook/assets/location-step-1 (1).png>)
 
 * Selecione uma das opções de localização de preenchimento automático ou pressione Enter para escolher a primeira
 * Você aumentará o zoom na localização que pesquisou automaticamente
@@ -38,7 +38,7 @@ Após ter pesquisado uma localização, você pode escolher uma das duas opçõe
 
 * Arraste as imagens de satélite dentro do quadrado para ajustar sua posição
 * Depois que a área quadrada encapsula as imagens desejadas, clique em **Concluir importação**
-* A imagem será importada em escala, com o norte verdadeiro voltado para cima, centralizado na origem da tela do FormIt. É possível alterar a transparência e a ordem Z da imagem importada clicando duas vezes nela e acessando a [**paleta Propriedades**](../formit-introduction/tool-bars.md).
+* A imagem será importada em escala, com o norte verdadeiro voltado para cima, centralizado na origem da tela do FormIt. É possível alterar a transparência e a ordem Z da imagem importada clicando duas vezes nela e acessando a [**paleta Propriedades**](../formit-introduction/tool-bars.md).&#x20;
 
 ![](../.gitbook/assets/location-step-3.png)
 
@@ -50,7 +50,7 @@ Após importar imagens de satélite pela primeira vez, é possível usar a janel
 * Clique em **Importar imagem de satélite e terreno.**
 * Você verá o nível de zoom e as extensões da imagem de satélite atual, como mostrado na tela do FormIt
 * Basta ajustar a posição ou o zoom e clicar em **Concluir importação** como você fez antes
-* Quando a imagem for reimportada para a tela, ela se moverá para a localização correta relativa à posição original da imagem \(e não poderá mais ser centralizada na origem\):
+* Quando a imagem for reimportada para a tela, ela se moverá para a localização correta relativa à posição original da imagem (e não poderá mais ser centralizada na origem):
 
 ![](../.gitbook/assets/location-step-4.png)
 
@@ -58,15 +58,15 @@ Após importar imagens de satélite pela primeira vez, é possível usar a janel
 
 Novo no FormIt 2021.3, quando você usa a caixa de diálogo **Configurar localização** para importar imagens de satélite, também obterá o terreno.
 
-![](../.gitbook/assets/terrain-button_original.png)
+![](../.gitbook/assets/terrain-button\_original.png)
 
-Quando o terreno é importado, ele é colocado em uma camada, que está desativada por padrão \(caso você tenha iniciado a modelagem, o modelo poderá ser coberto pelo terreno\).
+Quando o terreno é importado, ele é colocado em uma camada, que está desativada por padrão (caso você tenha iniciado a modelagem, o modelo poderá ser coberto pelo terreno).
 
 Quando estiver pronto para visualizar o terreno, alterne a camada do terreno marcando a caixa:
 
-![](../.gitbook/assets/terrain-layer%20%281%29.png)
+![](<../.gitbook/assets/terrain-layer (1) (1).png>)
 
-![](../.gitbook/assets/terrain_solid.png)
+![](../.gitbook/assets/terrain\_solid.png)
 
 ### Trabalhar com o terreno
 
@@ -97,3 +97,12 @@ O resultado será o terreno com o sólido de corte removido, expondo o vazio ond
 
 É possível usar [camadas](layers.md) para ocultar o sólido de corte, ou até mesmo fazer cópias do terreno com e sem o corte, caso seja necessário referenciar o terreno original, ou alterar a forma de corte antes de executar a operação de corte sólido.
 
+### Solução de problemas da caixa de diálogo Configurar localização
+
+A definição de uma localização no FormIt requer uma conexão com a Internet para fazer o download de dados de satélite e terreno do Bing Maps.
+
+Além disso, como a caixa de diálogo Configurar localização é estruturalmente um plug-in do FormIt, ele requer acesso ao GitHub para funcionar. Se você estiver tendo problemas com a caixa de diálogo Configurar localização, verifique se tem acesso a [https://github.io](https://github.io):&#x20;
+
+* Vá para o navegador da Web.
+* Tente navegar para [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)
+* Se você não vir a exibição de alguns dados, a rede ou o firewall poderá estar bloqueando o acesso ao GitHub.

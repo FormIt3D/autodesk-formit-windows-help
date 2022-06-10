@@ -1,39 +1,39 @@
-# Introduction to Plugins
+# Introdução aos plug-ins
 
 ![](../.gitbook/assets/gg4.gif)
 
-Plugins are custom software additions that expand FormIt's core functionality. Plugins can enhance, empower, and simplify your 3D modeling workflows in FormIt.&#x20;
+Os plug-ins são adições de software personalizadas que expandem a funcionalidade básica do FormIt. Os plug-ins podem aprimorar, capacitar e simplificar os fluxos de trabalho de modelagem 3D no FormIt.&#x20;
 
-Plugins can be used to generate objects, make modifications to existing objects, or extract information about an object. Plugins can also use rich web interfaces to display data and provide controls and inputs directly in the application.&#x20;
+Os plug-ins podem ser usados para gerar objetos, fazer modificações em objetos existentes ou extrair informações sobre um objeto. Os plug-ins também podem usar interfaces da Web avançadas para exibir dados e fornecer controles e entradas diretamente no aplicativo.&#x20;
 
-## Accessing Plugins
+## Acessar os plug-ins
 
-Plugins are available in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) in the desktop and web versions of FormIt, as long as you are connected to the internet. Plugins are composed of a series of files and folders hosted on GitHub, or on a local server when building your own.&#x20;
+Os plug-ins estão disponíveis no [Gerenciador de plug-ins](how-to-use-plug-ins.md#plugin-manager) nas versões para desktop e Web do FormIt, desde que você esteja conectado à Internet. Os plug-ins são compostos de uma série de arquivos e pastas hospedados no GitHub ou em um servidor local ao criar seu próprio.&#x20;
 
 ![](../.gitbook/assets/c17.PNG)
 
-### Plugins Require Internet Access
+### Os plug-ins requerem acesso à Internet
 
-External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
+Plug-ins externos (plug-ins não hospedados localmente) requerem uma conexão com a Internet para serem carregados inicialmente, o que significa que:
 
-* External plugins will not load if no internet connection is detected when FormIt starts. Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.&#x20;
-* External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change. Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
+* Os plug-ins externos não serão carregados se nenhuma conexão com a Internet for detectada quando o FormIt for iniciado. Depois de carregados, alguns plug-ins externos podem continuar a trabalhar no modo off-line para essa sessão, mas outros podem ser interrompidos até que a conectividade seja restaurada.&#x20;
+* Os plug-ins externos carregam o código mais recente no servidor em cada execução; portanto, sua funcionalidade será atualizada sempre que o autor enviar uma alteração. Os plug-ins são carregados de forma assíncrona, o que significa que a ordem dos plug-ins na interface do FormIt pode mudar em cada nova sessão.
 
-## Open Source
+## Abrir origem
 
-Plugins are open-source, allowing you to use the plugins in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) free of charge, publish and share your plugins easily, and find other plugins on GitHub to understand how they're built.&#x20;
+Os plug-ins são de código aberto, permitindo usar os plug-ins no [Gerenciador de plug-ins](how-to-use-plug-ins.md#plugin-manager) gratuitamente, publicar e compartilhar os plug-ins com facilidade e encontrar outros plug-ins no GitHub para entender como eles são criados.&#x20;
 
-If you are a developer and want more information on how to publish your plugins, see [Hosting a Plugin on GitHub](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
+Se você for um desenvolvedor e desejar mais informações sobre como publicar os plug-ins, consulte [Hospedar um plug-in no GitHub](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
 
-If you want to make a plugin for private use, you can develop and host it using a local service. For more information, see [Using an IDE. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
+Se você deseja criar um plug-in para uso privado, será possível desenvolvê-lo e hospedá-lo usando um serviço local. Para obter mais informações, consulte [Usar um IDE. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
 
 ![](../.gitbook/assets/c18.PNG)
 
 
 
-## Contact Us
+## Fale conosco
 
-If you need any help with FormIt plugins, drop us a line on the [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
+Se precisar de ajuda com os plug-ins do FormIt, entre em contato conosco no [Fórum do FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=pt-br).
 
 ![](../.gitbook/assets/c19.PNG)
 

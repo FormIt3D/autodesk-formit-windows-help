@@ -8,9 +8,8 @@ Para saber como editar o plano do chão, consulte [Estilos visuais.](../formit-p
 
 Gire os [Eixos universais](world-axes.md) para o plano de outro objeto no esboço. Isso alinhará o plano de trabalho ativo para corresponder a essa face. Agora é possível desenhar, inserir elementos e modificar elementos relativos ao novo plano XY, em vez do plano de chão padrão. É possível orbitar atrás ou abaixo da grade e dos planos de trabalho para efetuar o snap e inferência para elementos atrás dela.
 
-É possível ativar e desativar a visibilidade da linha de eixo para se beneficiar do esboço com base no plano de trabalho. É possível controlar essa configuração em Estilo visual &gt; Ambiente &gt; **Exibir grade \(DG\).**
+É possível ativar e desativar a visibilidade da linha de eixo para se beneficiar do esboço com base no plano de trabalho. É possível controlar essa configuração em Estilo visual > Ambiente > **Exibir grade (DG).**
 
-Também é possível controlar se você efetua o snap à grade ao desenhar. Ative e desative essa configuração em Configurações &gt; **Snap à grade \(SG\).**
+Também é possível controlar se você efetua o snap à grade ao desenhar. Ative e desative essa configuração em Configurações > **Snap à grade (SG).**
 
 ![](../.gitbook/assets/work-plane.gif)
-

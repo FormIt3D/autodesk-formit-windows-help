@@ -10,7 +10,7 @@ As coisas ficam realmente interessantes quando você começa a empurrar e puxar 
 4. Após clicar, é possível efetuar o snap para outros objetos para alinhar essa face.
 5. Como com o movimento, você pode clicar na **dimensão temporária** ou simplesmente começar a digitar um valor para definir a quantidade de movimento.
 
-![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 Também é possível excluir uma face usando a tecla **Delete** ou clicando com o botão direito do mouse e selecionando Excluir no menu de contexto.
 
@@ -28,6 +28,6 @@ Também é possível excluir uma face usando **Clique com o botão direito do mo
 ## Modificar pontos
 
 1. Clique uma vez em um dos cantos de um dos cubos.
-2. De forma similar a uma aresta, arraste o ponto ao longo de um dos eixos para redefinir a forma. [Próxima escala não uniforme](non-uniform-scale.md)
+2. De forma similar a uma aresta, arraste o ponto ao longo de um dos eixos para redefinir a forma. [Próxima escala não uniforme](broken-reference)
 
-![](<../.gitbook/assets/modify3 (1) (1).png>)
+![](<../.gitbook/assets/modify3 (1).png>)

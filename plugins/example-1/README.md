@@ -1,12 +1,12 @@
-# Examples
+# Exemplos
 
-In this section you will find sample plugin implementations to follow along:
+Nesta seção, você encontrará exemplos de implementações de plug-ins a serem seguidas:
 
-* [Generate string lights](generate-string-lights.md)
-* [Manage Cameras Plugin](manage-cameras-plugin.md)
-* [Properties Plus Plugin](properties-plus-plugin.md)
-* [3D Context Generator](3d-context-creator.md)
+* [Gerar luzes de sequência](generate-string-lights.md)
+* [Plug-in Gerenciar câmeras](manage-cameras-plugin.md)
+* [Plug-in Mais propriedades](properties-plus-plugin.md)
+* [Gerador de contexto 3D](3d-context-creator.md)
 
-We also recommend that you check the [FormIt Plugin Community](formit-plugin-community.md) section, where you can find plugin examples from other developers as well as guidelines on how to submit and showcase your plugins for the wider FormIt community. &#x20;
+Também recomendamos que você verifique a seção [Comunidade de plug-ins do FormIt](formit-plugin-community.md), onde é possível encontrar exemplos de plug-ins de outros desenvolvedores, bem como diretrizes sobre como enviar e exibir os plug-ins para a comunidade mais ampla do FormIt.
 
 ![](<../../.gitbook/assets/g6 (2).gif>)

@@ -1,63 +1,62 @@
-# Hosting a Plugin on a Local Server
+# Hospedar um plug-in em um servidor local
 
-Before you can preview a cloned plugin in FormIt, you need to host it on a local server.
+Antes de visualizar um plug-in clonado no FormIt, é preciso hospedá-lo em um servidor local.
 
-### **View the Terminal in IDE**
+### **Visualizar o terminal no IDE**
 
-You have the option of starting the server inside Visual Studio Code, instead of a separate terminal window. **** Before opening a terminal, make sure the right folder is opened in Visual Studio Code.
+Você tem a opção de iniciar o servidor dentro do Visual Studio Code, em vez de em uma janela de terminal separada. \*\*\*\* Antes de abrir um terminal, verifique se a pasta correta está aberta no Visual Studio Code.
 
-View > Terminal (or shortcut Ctrl + \`)
+Visualizar > Terminal (ou atalho Ctrl + \`)
 
 ![](<../../../.gitbook/assets/image (11).png>)
 
-### Set Up an HTTP Server
+### Configurar um servidor HTTP
 
-An HTTP server that works well is npm's [http-server](https://www.npmjs.com/package/http-server).
+Um servidor HTTP que funciona bem é o [http-server](https://www.npmjs.com/package/http-server) do npm.
 
-First, you will need to download and install [NodeJS](https://nodejs.org/en/), if it's not already installed.
+Primeiro, você precisará fazer o download e instalar o [NodeJS](https://nodejs.org/pt-br/), se ele ainda não estiver instalado.
 
-If you encounter errors in the following steps, try restarting your computer to complete the NodeJS installation.
+Se você encontrar erros nas etapas a seguir, tente reiniciar o computador para concluir a instalação do NodeJS.
 
-In the Command Prompt, enter the following to install npm's _http-server_ globally (a one-time setup).
+No prompt de comando, insira o seguinte para instalar o _http-server_ do npm globalmente (uma configuração única).
 
 * `npm install http-server -g`
 
 ![](<../../../.gitbook/assets/image (47).png>)
 
-### Start the Local Server
+### Iniciar o servidor local
 
-Once the setup is complete, run the following command in the terminal to start your npm http-server:
+Quando a configuração estiver concluída, execute o seguinte comando no terminal para iniciar o http-server do npm:
 
 * `http-server`
 
 ![](<../../../.gitbook/assets/image (84).png>)
 
-Tip 1: In case of any issues with running the http-server (installed globally or locally), it may be helpful to run it directly via npx:
+Dica 1: No caso de problemas com a execução do http-server (instalado globalmente ou localmente), pode ser útil executá-lo diretamente via npx:
 
 * `npx http-server`
 
-Tip 2: For Windows 10/11 users, if you encounter an error when running a script on your new machine, this may be due to the settings being disabled. To fix this:
+Dica 2: Para usuários do Windows 10/11, se ocorrer um erro ao executar um script no novo computador, isso poderá ser devido às configurações estarem desativadas. Para corrigir esse problema:
 
-* Launch PowerShell script as an administrator&#x20;
-* Enter: `Set-ExecutionPolicy RemoteSigned`&#x20;
+* Inicie o script do PowerShell como administrador
+* Configure: `Set-ExecutionPolicy RemoteSigned`
 
-### Develop for FormIt Web
+### Desenvolver para o FormIt para Web
 
-To develop for FormIt Web, simply run the following command instead:
+Para desenvolver para o FormIt para Web, basta executar o seguinte comando:
 
 * `http-server --cors`
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-### Verify Your Server
+### Verificar o servidor
 
-You can verify your server by navigating to the following address in your web browser:&#x20;
+É possível verificar o servidor navegando até o seguinte endereço no navegador da Web:
 
 * http://localhost:8080
 
-You should see your project folder files in the browser window.
+Você deve ver os arquivos da pasta de projeto na janela do navegador.
 
-\*\*If you use a different web server than npm, the default address/port might be different.
+\*\*Se você usar um servidor da Web diferente de npm, o endereço/porta padrão poderá ser diferente.
 
 ![](<../../../.gitbook/assets/image (41).png>)
-

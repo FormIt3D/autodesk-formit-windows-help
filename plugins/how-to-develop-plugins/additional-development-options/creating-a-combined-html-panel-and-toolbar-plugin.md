@@ -1,6 +1,6 @@
-# Creating a Combined HTML Panel and Toolbar Plugin
+# Criar um painel HTML e um plug-in de barra de ferramentas combinados
 
-With a single _manifest.json_, you can initialize both a toolbar and an HTML panel, offering a variety of UI types and tools, all loaded from the same directory.
+Com um único _manifest.json_, é possível inicializar uma barra de ferramentas e um painel HTML, oferecendo uma variedade de tipos e ferramentas de interface do usuário, todos carregados no mesmo diretório.
 
 ```
     {
@@ -22,5 +22,5 @@ With a single _manifest.json_, you can initialize both a toolbar and an HTML pan
         "Panel": "panel.html", <-- Panel entry point
         "PanelIcon": "block.png" <-- Icon for your panel button
     }
-        
+
 ```

@@ -1,31 +1,31 @@
-# Saving Your Work to GitHub
+# Salvar o trabalho no GitHub
 
-As you work on your plugin, you’ll want to save your progress. To make this possible, we have integrated GitHub directly into the Plugin Playground.
+À medida que você trabalha no plug-in, é recomendável salvar o progresso. Para tornar isso possível, integramos o GitHub diretamente no Plugin Playground.
 
-### Adding a New Plugin Project to Your GitHub Account
+### Como adicionar um novo projeto de plug-in à conta do GitHub
 
-Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
+Clique no botão para efetuar login no GitHub e permitir que o FormIt acesse os repositórios (projetos).
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (58).png>) button.
+Para criar um projeto, digite um nome e clique no botão ![](<../../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-In a few moments, the newly created project will appear in your projects list. Select the project from the drop-down to load it.
+Em alguns momentos, o projeto recém-criado será exibido na lista de projetos. Selecione o projeto no menu suspenso para carregá-lo.
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
-### Save Your Work
+### Salvar o trabalho
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
+Quando você fizer alterações no plug-in, clique no botão Salvar ![](<../../../.gitbook/assets/image (40).png>) para salvar as alterações na conta do GitHub.
 
+![](<../../../.gitbook/assets/save a plugin.png>)
 
+### Visualizar o projeto no GitHub
 
-### View Your Project in GitHub
+Também é possível localizar e editar os arquivos diretamente no GitHub usando o botão GitHub.
 
-You can also find and edit your files directly in GitHub by using the GitHub button.
-
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###

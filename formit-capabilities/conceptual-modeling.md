@@ -15,8 +15,3 @@ O kernel de modelagem sólida do FormIt permite fluxos de trabalho incríveis qu
 **Além disso, use as ferramentas de Seleção inteligente para selecionar rapidamente geometrias semelhantes e salvar cliques:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

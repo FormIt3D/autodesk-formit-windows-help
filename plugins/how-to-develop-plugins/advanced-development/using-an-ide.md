@@ -1,15 +1,15 @@
-# Using an IDE
+# Usar um IDE
 
-Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+Desenvolver plug-ins com o [Plugin Playground](../your-first-plugin/plugin-playground.md) é simples e conveniente. No entanto, você pode desejar desenvolver plug-ins usando um ambiente de desenvolvimento integrado (IDE) externo. Alguns dos benefícios de usar um IDE:&#x20;
 
-* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
-* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server.
+* É possível usar o IDE preferido, que pode fornecer correção de erro de sintaxe, extensões etc.
+* É possível colaborar com colegas para desenvolver um plug-in do FormIt por meio de um repositório do GitHub.
+* É possível desenvolver plug-ins privados e hospedá-los em um servidor local.
 
-### Install an IDE
+### Instalar um IDE
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
+Um IDE gratuito que funciona bem para o desenvolvimento de plug-ins do FormIt é o [Visual Studio Code](https://code.visualstudio.com/Download) da Microsoft. Siga o link para fazer o download do arquivo de configuração e concluir a instalação.
 
-We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
+Usaremos o Visual Studio Code para esta demonstração, mas você pode usar seu editor de código preferido. Certifique-se de que o IDE inclua um terminal para executar o servidor local.
 
 ![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

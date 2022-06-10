@@ -8,7 +8,7 @@ No FormIt para Windows v18 e versões mais recentes, os valores de facetamento d
 
 ![](../.gitbook/assets/faceting\_planter.gif)
 
-![](<../.gitbook/assets/faceting (1).png>)
+![](../.gitbook/assets/faceting.png)
 
 **Curve Faceting Quality**
 
@@ -18,9 +18,9 @@ Esse valor também afetará a qualidade de círculos e arcos importados de arqui
 
 Para curvas existentes, também é possível usar o plug-in Rebuild Curve para reconstruir retroativamente um arco ou círculo **existente** com uma nova contagem de facetamento:
 
-![](../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm.png)
+![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-![](../.gitbook/assets/faceting\_rebuild-curve.gif)
+![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
 
 **Surface Faceting Quality**
 
@@ -30,10 +30,10 @@ Por exemplo, defini-la como 64 e, em seguida, consolidar uma esfera do Dynamo us
 
 Ao trabalhar com o Dynamo, é possível modificar a qualidade de facetamento e clicar em “Run Graph” no painel Properties sem alterar nenhum parâmetro para aproveitar as novas contagens de facetamento:
 
-![](../.gitbook/assets/faceting\_column.gif)
+![](<../.gitbook/assets/faceting\_column (1).gif>)
 
 Como ocorre com as curvas, é possível definir a qualidade de facetamento da superfície para novos esboços ou somente para o esboço atual.
 
 Observe que os valores de facetamento estão limitados atualmente a múltiplos de 4, portanto, ao inserir números manualmente, o FormIt será arredondado para o múltiplo mais próximo. É possível usar os controles deslizantes e as setas para percorrer os valores aceitos.
 
-![](../.gitbook/assets/units-+-precision.png)
+![](<../.gitbook/assets/units-+-precision (1).png>)

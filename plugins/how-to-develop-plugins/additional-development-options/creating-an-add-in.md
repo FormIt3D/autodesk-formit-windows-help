@@ -1,14 +1,14 @@
-# Creating an Add-In
+# Criar um complemento
 
-An Add-In is a plugin that also loads DLLs that expose new JavaScript APIs.&#x20;
+Um complemento é um plug-in que também carrega DLLs que expõem novas APIs de JavaScript.&#x20;
 
 
 
-### Download FormIt API
+### Fazer download da API do FormIt
 
-To build DLLs that support FormIt, the FormIt API is needed. The FormIt API can be downloaded from the [Autdesk Developers Network](https://www.autodesk.com/developer-network/overview). A login is needed to access the download.&#x20;
+Para criar DLLs que suportam o FormIt, a API do FormIt é necessária. É possível fazer o download da API do FormIt na [Autodesk Developers Network](https://www.autodesk.com/developer-network/overview). É necessário um login para acessar o download.&#x20;
 
-Once logged in, the FormIt API is available under SOFTWARE.
+Depois de conectado, a API do FormIt está disponível em SOFTWARE.
 
 &#x20;
 
@@ -16,9 +16,9 @@ Once logged in, the FormIt API is available under SOFTWARE.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FormItAPIMenuItem.jpg)
 
-An Add-In has access to the [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) and [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+Um complemento tem acesso à [API do FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html) e à [API C++ do kernel de modelagem do FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
 
-An add-in has the following structure:
+Um complemento tem a seguinte estrutura:
 
 ```
             // FormIt looks for REGISTERAPIMETHODS to load new JS APIs
@@ -35,10 +35,10 @@ An add-in has the following structure:
                 ...
                 ...
             }
-        
+
 ```
 
-To get the arguements into C++ variables use SCRIPTCONVERTER-
+Para colocar os argumentos em variáveis C++, use SCRIPTCONVERTER-
 
 ```
             // Create a JS API with 2 argument
@@ -51,10 +51,10 @@ To get the arguements into C++ variables use SCRIPTCONVERTER-
                 SCRIPTCONVERTER(int, arg2);
                 return JSON_UNDEFINED;
             }
-        
+
 ```
 
-Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to convert your C++ variable to json
+JSON\_UNDEFINED ou qualquer objeto json pode ser retornado. Use to\_json para converter a variável C++ em json
 
 ```
             // Create a JS API with 2 argument
@@ -69,16 +69,16 @@ Either JSON\_UNDEFINED or any json object can be returned. Use to\_json to conve
                 std::string myValue = "Test";
                 return to_json(myValue);
             }
-        
+
 ```
 
-Once the DLL is defining all the needed JS APIs, the plugin must tell FormIt what DLLs need loaded. This is done in the [manifest](https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8).
+Depois que a DLL está definindo todas as APIs JS necessárias, o plug-in deve informar ao FormIt quais DLLs precisam ser carregadas. Isso é feito no [manifesto](https://github.com/FormIt3D/HelloAddIn/blob/main/v22\_0/manifest.json#L8).
 
 ```
         "DLLs" : ["PLUGINLOCATION/MyClass.dll", "PLUGINLOCATION/HelloDLL.dll"]
-        
+
 ```
 
-[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) is a working example that explains how to make an Add-In.
+[HelloAddIn](https://github.com/FormIt3D/HelloAddIn) é um exemplo de trabalho que explica como criar um complemento.
 
-[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) is a working example that explains how to make an Add-In with the [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).
+[HelloWSMAddIn](https://github.com/FormIt3D/HelloWSMAddIn) é um exemplo de trabalho que explica como criar um complemento com a [API C++ do kernel de modelagem do FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html).

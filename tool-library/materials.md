@@ -1,16 +1,16 @@
 # Materiais
 
-Faça com que os modelos do FormIt sejam exibidos com materiais que suportam reflexão, brilho e mapas de saliência.
+Faça com que os modelos do FormIt sejam exibidos com materiais que suportem reflexão, brilho e mapas de saliência.
 
 ## Painel Materiais
 
-![](<../.gitbook/assets/materials-sample-category (2).png>)
+![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
 
 No painel de materiais, é possível escolher entre uma grande variedade de amostras de material, navegar entre bibliotecas de materiais vinculadas e, a partir do FormIt 2021, acessar e usar o conteúdo de materiais de outros arquivos do FormIt (.AXM).
 
 ### Fontes da biblioteca de materiais
 
-No FormIt 2021 e versões mais recentes, o painel Materiais tem uma interface de menu suspenso para escolher entre as fontes disponíveis na Biblioteca de materiais: No esboço, Amostras de material e [bibliotecas vinculadas](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+No FormIt 2021 e versões mais recentes, o painel Materiais tem uma interface de menu suspenso para escolher entre as fontes disponíveis na Biblioteca de materiais: No esboço, Amostras de material e [bibliotecas vinculadas](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/tool-library/materials#vincular-bibliotecas-de-materiais).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
@@ -30,13 +30,13 @@ Exibe uma lista de materiais de amostra disponíveis. Essas ofertas são armazen
 
 **Bibliotecas vinculadas**
 
-Outros diretórios e localizações aparecerão após [vincular as bibliotecas de materiais](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+Outros diretórios e localizações aparecerão após [vincular as bibliotecas de materiais](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/tool-library/materials#vincular-bibliotecas-de-materiais).
 
 ### Criar, excluir e conta-gotas
 
 ![](../.gitbook/assets/materials\_add.PNG) **Crie um novo material** definindo as configurações de cor, textura, mapa de saliência, mapa de corte, transparência e reflexão/brilho.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Excluir** materiais selecionados.
+![](<../.gitbook/assets/materials\_delete (1).PNG>) **Exclua** os materiais selecionados.
 
 ![](../.gitbook/assets/materials\_eyedropper.PNG) Use a ferramenta **Conta-gotas** em um material pintado na cena e imediatamente comece a pintar com ele.
 
@@ -45,7 +45,7 @@ Outros diretórios e localizações aparecerão após [vincular as bibliotecas d
 
 ### Atualizar, vincular bibliotecas e eliminar itens não usados
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png)**Vincule bibliotecas de materiais** de diretórios locais. Os diretórios com arquivos JPG, PNG ou AXM (FormIt) exibirão conteúdos. Consulte [Vincular bibliotecas de materiais](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) para obter mais informações.
+![](../.gitbook/assets/materials-link.png) **Vincule bibliotecas de materiais** de diretórios locais. Os diretórios com arquivos JPG, PNG ou AXM (FormIt) exibirão conteúdos. Consulte [Vincular bibliotecas de materiais](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/tool-library/materials#vincular-bibliotecas-de-materiais) para obter mais informações.
 
 ![](../.gitbook/assets/materials-refresh.png) **Atualize** o diretório atual. Somente ativado ao visualizar um diretório vinculado localmente (e não em esboço ou amostras de material).
 
@@ -115,13 +115,13 @@ Quando você cria ou edita um material, verá a caixa de diálogo Editor de mate
    * Clique no ícone Excluir para excluir o mapa desse material.
       * **Textura de um arquivo de imagem**
          * JPG ou PNG
-      * **Mapa de saliência de um arquivo de imagem**
+      * **Mapa de saliência ou normal de um arquivo de imagem**
          * JPG recomendado
          * Ótimo para adicionar efeitos de profundidade aos materiais.
-         * É possível usar freeware, como o ShaderMap, para gerar mapas de saliência com uma determinada textura.
+         * É possível usar freeware, como o ShaderMap, para gerar mapas de saliência/normal com uma determinada textura.
       * **Mapa de corte de um arquivo de imagem**
          * PNG
-         * Ótimo para materiais que têm transparência seletiva, como cercas de chainlink ou painéis perfurados.
+         * Ótimo para materiais que têm transparência seletiva, como cercas de tela de alambrado ou painéis perfurados.
 * **Nome**
 * **Escala horizontal e vertical**
    * Quando essa opção está ativada, o botão Bloquear aspecto garante que as escalas horizontal e vertical respeitem a relação de aspecto da textura.
@@ -142,7 +142,7 @@ Use a ferramenta **Ajustar colocação do material** para substituir o posiciona
    * Se a face herdar material de seu grupo principal, será necessário pintar a face diretamente em primeiro lugar.
 * Acesse a ferramenta Ajustar colocação do material através do atalho MP ou no menu de contexto do botão direito do mouse:
 
-![](../.gitbook/assets/adjust-material-placement.PNG)
+![](../.gitbook/assets/adjust-material-placement.png)
 
 Use os controles na tela para mover, rotacionar e dimensionar de forma interativa as texturas de material diretamente na face:
 

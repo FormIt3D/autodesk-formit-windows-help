@@ -1,28 +1,28 @@
-# Debugging
+# Depuração
 
-Debugging a FormIt plugin requires different procedures depending on the engine you are debugging. (For more information on engines check the [previous section](client-side-vs-web-side-engines.md))
+A depuração de um plug-in do FormIt requer procedimentos diferentes dependendo do mecanismo que você esteja depurando. (Para obter mais informações sobre mecanismos, consulte a [seção anterior](client-side-vs-web-side-engines.md))
 
-### **Client-Side (FormIt) Debugging**
+### **Depuração do lado do cliente (FormIt)**
 
-To debug in FormIt-side code, which applies to both toolbar- and panel-based plugins, you can add a line in the code to pop the desktop application's built-in JS debugger:
+Para depurar no código FormIt-side, que se aplica a plug-ins baseados em barra de ferramentas e em painel, é possível adicionar uma linha no código para exibir o depurador JS integrado do aplicativo para desktop:
 
 `debugger`
 
 ![](../../../.gitbook/assets/debugger.gif)
 
-### **Web-Side (HTML) Debugging**
+### **Depuração do lado da Web (HTML)**
 
-Panel-based FormIt plugins offer HTML-based UI debugging, since the panels are fundamentally HTML websites with styling and scripts.
+Os plug-ins do FormIt baseados em painéis oferecem depuração de interface do usuário baseada em HTML, já que os painéis são essencialmente sites HTML com estilização e scripts.
 
-To debug HTML-side code for plugins built into a panel, including scripts and styling:
+Para depurar o código do lado HTML para plug-ins embutidos em um painel, incluindo scripts e estilização:
 
-* **FormIt for Windows 2021.1 and newer**
-  * Right-click on the plugin HTML page and click "Debug" to display the application's built-in HTML debugger.
+* **FormIt para Windows 2021.1 e versões mais recentes**
+   * Clique com o botão direito do mouse na página HTML do plug-in e clique em “Depurar” para exibir o depurador HTML integrado do aplicativo.
 
 ![](../../../.gitbook/assets/debugpanelplugin.gif)
 
-* **FormIt for Web**
-  * Use shortcut F12, or Ctrl + Shift+ I, to pull up the browser's HTML debugger.
+* **FormIt para Web**
+   * Use o atalho F12 ou Ctrl + Shift + I para abrir o depurador HTML do navegador.
 
 ![](../../../.gitbook/assets/debugonweb.gif)
 

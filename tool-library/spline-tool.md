@@ -13,4 +13,3 @@ As splines também podem fechar sobre si mesmas criando uma face.
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
-

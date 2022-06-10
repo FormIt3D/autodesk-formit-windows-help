@@ -4,7 +4,7 @@ Use a ferramenta Arco para criar meios círculos ou arcos simétricos. Há duas 
 
 ## Arco por três pontos
 
-![](../.gitbook/assets/arc_three_pts.png)
+![](../.gitbook/assets/arc\_three\_pts.png)
 
 Um arco é definido por três pontos e pode ser desenhado nos eixos X, Y e Z. Defina o primeiro ponto e, em seguida, determine a distância do primeiro ao segundo ponto e, por fim, um terceiro ponto para a altura do arco. Você receberá automaticamente um ponto de “meio círculo” no qual você pode efetuar snap; além disso, a linha de arco se estenderá além dos dois primeiros pontos.
 
@@ -16,9 +16,8 @@ Após desenhar o arco, é possível criar uma face usando a [ferramenta Linha](l
 
 ## Arco por centro
 
-![](../.gitbook/assets/arc-by-center%20%281%29.png)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Selecione o ponto central do arco, arraste para selecionar o centro e arraste para definir o comprimento do arco. Basta começar a digitar um valor para inserir um número preciso de graus para o arco.
 
-![](../.gitbook/assets/arc_circle_demo.gif)
-
+![](../.gitbook/assets/arc\_circle\_demo.gif)

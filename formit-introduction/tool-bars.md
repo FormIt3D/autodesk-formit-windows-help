@@ -6,7 +6,7 @@ A barra de ferramentas padrão é ativada por padrão, mas é dividida nas seç�
 
 ### Arquivo
 
-![](../.gitbook/assets/file_icons.png)
+![](../.gitbook/assets/file\_icons.png)
 
 1. **Menu Arquivo** com operações de arquivo como Abrir, Salvar e Exportar
 2. **Desfazer** a última alteração
@@ -14,19 +14,19 @@ A barra de ferramentas padrão é ativada por padrão, mas é dividida nas seç�
 
 ### Geometria
 
-![](../.gitbook/assets/geometry_icons%20%281%29.png)
+![](<../.gitbook/assets/geometry\_icons (1).png>)
 
-1. \*\*\*\*[**Seleção**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) ****e filtros de seleção de área
-2. Ferramentas [**Medir** ](../tool-library/measure-tool.md)distância e [**Medir ângulo**](../tool-library/measure-angle-tool.md) ****
+1. [**Seleção**](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/tool-library/select-edge-face-or-object) e filtros de seleção de área
+2. Ferramentas [**Medir distância** ](../tool-library/measure-tool.md) e [**Medir ângulo**](../tool-library/measure-angle-tool.md)
 3. [**Planos de corte**](../tool-library/section-planes.md)
 4. [**Ferramentas de desenho 3D**](../formit-primer/part-i/3d-sketching.md)
 5. Barra de ferramentas [**Primitivo**](../tool-library/place-primitive-object.md)
-6. Barra de ferramentas [**Geometria avançada**]() com Unir, Cortar, Varredura, Elevar e Casca
+6. Barra de ferramentas [**Geometria avançada**](tool-bars.md) com Unir, Cortar, Varredura, Elevar e Casca
 7. Barra de ferramentas [**Grupos**](../tool-library/groups.md)
 
 ### Configurações
 
-![](../.gitbook/assets/settings_icons.png)
+![](../.gitbook/assets/settings\_icons.png)
 
 1. Menu **Configurações** para configurações da interface do usuário e do aplicativo.
 2. **Modo de toque** para ativar interações em dispositivos de tela sensível ao toque.
@@ -36,7 +36,7 @@ A barra de ferramentas padrão é ativada por padrão, mas é dividida nas seç�
 
 ### Projeto
 
-![](../.gitbook/assets/design_icons.png)
+![](../.gitbook/assets/design\_icons.png)
 
 1. [**Localização** ](../tool-library/setting-location.md)
 2. [**Análise de luz solar, de sombras e de sol**](../tool-library/solar-analysis.md)
@@ -44,35 +44,34 @@ A barra de ferramentas padrão é ativada por padrão, mas é dividida nas seç�
 
 ## Paleta
 
-![](../.gitbook/assets/properties%20%281%29.png)[**Propriedades**](https://windows.help.formit.autodesk.com/tool-library/properties)\*\*\*\*
+![](<../.gitbook/assets/properties (1).png>) [**Propriedades**](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png)[**Camadas**](../tool-library/layers.md)
 
 ![](../.gitbook/assets/scenes.png)[**Cenas**](../tool-library/scenes.md)
 
-![](../.gitbook/assets/visual_styles.png)[**Estilos visuais**](../tool-library/visual-styles.md)
+![](../.gitbook/assets/visual\_styles.png)[**Estilos visuais**](../tool-library/visual-styles.md)
 
-![](../.gitbook/assets/branch_tree.png)[**Árvore de grupos**](../tool-library/groups-tree.md)
+![](../.gitbook/assets/branch\_tree.png)[**Árvore de grupos**](../tool-library/groups-tree.md)
 
 ![](../.gitbook/assets/dynamo.png)[**Dynamo**](../tool-library/dynamo.md)
 
 ![](../.gitbook/assets/levels.png)[**Níveis**](../tool-library/levels-and-area.md)
 
-![](../.gitbook/assets/content_library.png)[**Biblioteca de conteúdo**](../tool-library/content-library.md)
+![](../.gitbook/assets/content\_library.png)[**Biblioteca de conteúdo**](../tool-library/content-library.md)
 
 ![](../.gitbook/assets/undo.png)[**Gerenciador de desfazer**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin_img.png)[**Plug-ins**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)\*\*\*\*
+![](../.gitbook/assets/plugin\_img.png) [**Plug-ins**](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/tool-library/plug-ins)
 
 ## Menu de contexto
 
 Clique com o botão direito do mouse em um elemento na tela 3D para exibir um menu de comandos e modificações para aquele tipo de geometria. Passe o mouse sobre os ícones para ver seus nomes.
 
-![](../.gitbook/assets/wheel_img.png)
+![](../.gitbook/assets/wheel\_img.png)
 
 ## Atalhos do teclado
 
 Personalize os [atalhos **de teclado**](../appendix/keyboard-shortcuts.md) do FormIt em Editar > Preferências > Atalhos.
 
-![](../.gitbook/assets/shortcuts_img.png)
-
+![](<../.gitbook/assets/shortcuts\_img (1).png>)
