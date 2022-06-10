@@ -8,25 +8,25 @@ _Si no ha completado la última sección, descargue y abra el archivo_ _**1.5 - 
 
 1 - Haga doble clic en la masa de terraza superior para seleccionarla.
 
-2 - Haga clic con el botón derecho y seleccione **Grupo \(G\)** o simplemente pulse **G**.
+2 - Haga clic con el botón derecho y seleccione **Grupo (G)** o simplemente pulse **G**.
 
-![](../../.gitbook/assets/0%20%281%29.jpeg)
+![](<../../.gitbook/assets/0 (1).jpeg>)
 
 3 - Observe que después de crear un grupo, se incluye automáticamente en la herramienta Mover.
 
 ## **Desplazar un grupo**
 
-1 - Para facilitar el proceso de modelado, active la opción **Forzar cursor a rejilla \(SG\)** si estaba desactivada.
+1 - Para facilitar el proceso de modelado, active la opción **Forzar cursor a rejilla (SG)** si estaba desactivada.
 
-![](../../.gitbook/assets/1%20%2814%29.png)
+![](<../../.gitbook/assets/1 (14).png>)
 
-2 - Para empezar a mover el objeto seleccionado, mientras sigue en el comando **Mover \(M\)**, haga clic una vez en cualquier esquina inferior de la masa. A continuación, desplace el cursor hacia arriba y verá que aparece una línea de eje \(Z\) azul. Esta línea le ayudará a mover el objeto en línea recta.
+2 - Para empezar a mover el objeto seleccionado, mientras sigue en el comando **Mover (M)**, haga clic una vez en cualquier esquina inferior de la masa. A continuación, desplace el cursor hacia arriba y verá que aparece una línea de eje (Z) azul. Esta línea le ayudará a mover el objeto en línea recta.
 
 3 - Con el eje azul visible, escriba **4'-6"**; aparecerá un cuadro de diálogo de cota. Después de introducir la cota, haga clic en **Aceptar** o pulse **Intro** en el teclado. De este modo, se desplazará toda la masa hacia arriba fuera del plano de suelo a lo largo del **eje Z**.
 
-_**Nota:**_ _Al igual que en Revit, también puede especificar_ _**4'6**,_ _**4'6'',**_ _o_ _**4,5**, y el programa interpretará el valor como 4 \(pies\) 6 \(pulgadas\) al utilizar unidades imperiales._
+_**Nota:**_ _Al igual que en Revit, también puede especificar_ _**4'6**,_ _**4'6'',**_ _o_ _**4,5** y el programa interpretará el valor como 4 (pies) 6 (pulgadas) al utilizar unidades imperiales._
 
-![](../../.gitbook/assets/2%20%282%29.png)
+![](<../../.gitbook/assets/2 (2).png>)
 
 ## **Editar un grupo**
 
@@ -35,7 +35,7 @@ _**Nota:**_ _Al igual que en Revit, también puede especificar_ _**4'6**,_ _**4'
 1. En la **paleta Propiedades**, cambie el nombre del grupo **Masa - Edificio principal**.
 2. Para guardar los cambios y salir del **modo de edición de grupo**, haga clic en el icono de marca de verificación **Finalizar edición de grupo** en la esquina superior izquierda del lienzo o haga doble clic fuera del espacio.
 
-![](../../.gitbook/assets/3%20%2812%29.png)
+![](<../../.gitbook/assets/3 (12) (1).png>)
 
 _**Notas**:_
 
@@ -52,7 +52,7 @@ _**Nota:**_ _La agrupación de una geometría reemplaza la configuración anteri
 2. Vaya a la **paleta Propiedades** y active **Utilizar niveles.**
 3. Mantenga solo el nivel del **edificio principal**. Para eso, desactive todos los demás.
 4. En el campo **Área por nivel**, se mostrará el área bruta de los objetos seleccionados actualmente. El área de cada **nivel** se muestra delante del nombre de cada **nivel**.
-5. Si no aparece una línea de nivel azul que cruce el objeto horizontalmente, active la visualización del nivel en el**menú Configuración &gt; Estilo visual &gt; Mostrar niveles \(DL\).**
+5. Si no aparece una línea de nivel azul que cruce el objeto horizontalmente, active la visualización del nivel en el **menú Configuración > Estilo visual > Mostrar niveles (DL).**
 
 _**Nota**: Si no se ha notificado ningún área para el nivel del_ _**edificio principal**_ _, es posible que la geometría no se interseque con el nivel, debería encontrarse a una altura de 4'-6''. Para solucionar los problemas, cambie la posición de la geometría o la altura del_ _**nivel**_ _para que se intersequen._
 
@@ -60,7 +60,7 @@ _**Nota**: Si no se ha notificado ningún área para el nivel del_ _**edificio p
 
 2 - Anule la selección del grupo. Para ello, pulse la tecla **Esc** o haga clic fuera del espacio. Sin ningún objeto seleccionado, la **paleta Propiedades** informará del área bruta general del boceto en lugar del área de un objeto específico.
 
-![](../../.gitbook/assets/5%20%2815%29.png)
+![](<../../.gitbook/assets/5 (15).png>)
 
 ## **Administrar grupos**
 
@@ -72,7 +72,7 @@ _**Nota**: Si no se ha notificado ningún área para el nivel del_ _**edificio p
    * **grupo 2**: grupo sin nombre que contiene la imagen del plano de planta.
 2. Para cambiar el nombre del **grupo 2**, mediante la paleta Árbol de grupos, haga doble clic en **grupo 2** y, a continuación, escriba **Imagen del plano**.
 
-![](../../.gitbook/assets/6%20%284%29.png)
+![](<../../.gitbook/assets/6 (4).png>)
 
 _**Notas:**_
 
@@ -81,7 +81,7 @@ _**Notas:**_
 
 2. Con el grupo **Imagen del plano** seleccionado, vaya a la **paleta Propiedades**. Tenga en cuenta que el nombre del grupo también se ha actualizado en el campo **Grupo**.
 
-![](../../.gitbook/assets/7.png)
+![](<../../.gitbook/assets/7 (11).png>)
 
 ## **Ocultar contexto del grupo**
 
@@ -91,8 +91,7 @@ _Esta herramienta permite ocultar rápidamente toda la geometría fuera del grup
 
 1. Haga doble clic en su geometría para editar el grupo.
 2. Desplácese a **Configuración** en el **menú principal** y active la opción **Ocultar contexto del grupo** o simplemente pulse **H** en el teclado. Observe cómo desaparece la **imagen del plano**.
-3. Termine de editar el grupo. Tenga en cuenta que el modo **Ocultar contexto del grupo \(H\)** solo está activo mientras se encuentra en el **Asistente para editar grupos**.
+3. Termine de editar el grupo. Tenga en cuenta que el modo **Ocultar contexto del grupo (H)** solo está activo mientras se encuentra en el **Asistente para editar grupos**.
 4. Para desactivar de nuevo este modo, simplemente pulse **H**. Esta opción se puede activar o desactivar en cualquier momento, dentro o fuera de un grupo.
 
-![](../../.gitbook/assets/8%20%285%29.png)
-
+![](<../../.gitbook/assets/8 (5).png>)

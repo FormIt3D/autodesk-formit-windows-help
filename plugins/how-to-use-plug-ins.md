@@ -1,69 +1,69 @@
-# How to Use Plugins
+# Cómo utilizar módulos de extensión
 
 ![](<../.gitbook/assets/g3 (1).gif>)
 
 ## Plugin Manager
 
-The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
+Plugin Manager de FormIt es una única ubicación centralizada en la que puede descubrir y gestionar módulos de extensión.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+Plugin Manager se carga automáticamente cuando se inicia FormIt, siempre que este tenga acceso a Internet.
 
-Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) on the right side of the app:
+Para acceder a él, haga clic en su icono de ficha![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) ubicado a la derecha de la aplicación:
 
 ![](../.gitbook/assets/c1.PNG)
 
-## Plugin Categories
+## Categorías de módulos de extensión
 
-The Plugin Manager organizes plugins into categories to help you find the plugins you're most interested in.
+Plugin Manager organiza los módulos de extensión en categorías para ayudarle a encontrar aquellos que más le pueden interesar.
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed Plugins:** Plugins already installed by the user.&#x20;
+**Módulos de extensión instalados:** los módulos de extensión que ha instalado el usuario.&#x20;
 
-**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team.\
-GitHub tag:  _formit-plugin-recommended_
+**Módulos de extensión recomendados:** módulos de extensión que el equipo de FormIt recomienda para ampliar las funciones principales de FormIt y descubrir nuevos flujos de trabajo. Los módulos de extensión desarrollados por la comunidad aparecen aquí después de que los apruebe el equipo de FormIt.\
+Etiqueta de GitHub: _formit-plugin-recommended_
 
-**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team. \
-GitHub tag:  _formit-plugin_
+**Módulos de extensión públicos:** módulos creados por la comunidad. El equipo de FormIt no ha revisado ni aprobado los módulos de esta categoría. \
+Etiqueta de GitHub: _formit-plugin_
 
-**For Developers Plugins**: Plugins built by the community to enable the creation of new FormIt plugins. \
-GitHub tag:  _formit-plugin-developers_
+**Para módulos de extensión de desarrolladores**: módulos creados por la comunidad para permitir la creación de nuevos módulos de extensión de FormIt. \
+Etiqueta de GitHub: _formit-plugin-developers_
 
-## Add Your Private or Local Plugin
+## Añadir el módulo de extensión privado o local
 
-If you're [developing your own plugin](how-to-develop-plugins/), you can add its private URL into the field at the bottom of the panel and click (+):
+Si está [desarrollando su propio módulo de extensión](how-to-develop-plugins/), puede añadir su dirección URL privada en el campo de la parte inferior del panel y hacer clic en (+), como se muestra a continuación:
 
 ![](../.gitbook/assets/d4.PNG)
 
-For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+Para obtener más información sobre cómo añadir el módulo de extensión privado o local, consulte [Vista preliminar de un módulo de extensión en Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
-## Resetting the Plugin Manager
+## Restablecimiento de Plugin Manager
 
-The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins. If you need to reset your Plugin Manager to its defaults, delete the following registry key:
+Plugin Manager utiliza claves del Registro de Windows para almacenar los repositorios y los módulos instalados. Si necesita restablecer Plugin Manager a sus valores por defecto, elimine la siguiente clave del Registro:
 
 `Computer\HKEY_CURRENT_USER\Software\Autodesk\FormIt 360\Plugins`
 
-⚠️ Note: This will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+⚠️ Nota: Esto desinstalará todos los repositorios y los módulos de extensión añadidos por el usuario, lo que restablecerá Plugin Manager para incluir solo los repositorios y los módulos de extensión integrados.
 
-## Installing Plugins
+## Instalación de módulos de extensión
 
-The [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
+[Plugin Manager](how-to-use-plug-ins.md#plugin-manager) incluye varios módulos de extensión organizados en distintas categorías. Cada módulo de extensión presenta un nombre, una descripción, un vínculo de GitHub y un conmutador de instalación.&#x20;
 
 ![](../.gitbook/assets/d5.PNG)
 
-To install a plugin, simply turn on the toggle next to the plugin's name.&#x20;
+Para instalar un módulo de extensión, simplemente active el conmutador que aparece junto al nombre del módulo.&#x20;
 
 ![](../.gitbook/assets/d6.png)
 
-The icon of the selected plugin will appear in the right panel. Click it to display the plugin's UI.
+El icono del módulo de extensión seleccionado aparecerá en el panel derecho. Haga clic en él para mostrar la interfaz de usuario del módulo.
 
 ![](../.gitbook/assets/d7.PNG)
 
-## Using Plugins
+## Uso de los módulos de extensión
 
-Each plugin has a unique UI defined by its developer. A plugin usually has a set of instructions on how to use it, a set of parameters (text boxes, sliders, checkboxes, etc.), and one or more buttons to execute it.
+Cada módulo de extensión presenta una interfaz de usuario única definida por su desarrollador. Un módulo suele tener un conjunto de instrucciones sobre cómo utilizarlo, un conjunto de parámetros (cuadros de texto, controles deslizantes, casillas de verificación, etc.) y uno o varios botones para ejecutarlo.
 
-As an example, we'll use one of the simpler examples in the Plugin Manager: Fillet 2D Corners. We first load the plugin from the Recommended section of the Plugin Manager. Then, following the instructions provided by the developer, we set the fillet radius, select a group of faces to fillet, and click the Fillet Corners button.
+Por ejemplo, utilizaremos uno de los ejemplos más sencillos de Plugin Manager, "Fillet 2D Corners". Cargaremos primero el módulo de extensión desde la sección de módulos recomendados de Plugin Manager. A continuación, mediante las instrucciones proporcionadas por el desarrollador, estableceremos el radio de empalme, seleccionaremos un grupo de caras que empalmar y haremos clic en el botón Fillet Corners.
 
 ![](../.gitbook/assets/g4.gif)
 

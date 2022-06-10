@@ -2,11 +2,11 @@
 
 Dibuje líneas paralelas o de desfase mediante la herramienta Línea de desfase. Esto resulta útil para crear formas 2D que posteriormente se pueden extruir para que tengan un aspecto similar al de los muros 3D.
 
-![](../.gitbook/assets/image%20%283%29.png)
+![](<../.gitbook/assets/image (3).png>)
 
-La herramienta **Línea de desfase** funciona como la [**Línea** ](https://windows.help.formit.autodesk.com/tool-library/line-tool):
+La herramienta **Línea de desfase** funciona como la [**Línea** ](https://windows.help.formit.autodesk.com/v/spanish/tool-library/line-tool):
 
-* Haga clic para definir el primer punto y, a continuación, mueva el cursor y coloque los puntos posteriores, ajustando la geometría existente o los ejes de inferencia.
+* Haga clic para definir el primer punto y, a continuación, mueva el cursor y coloque los puntos posteriores, ajustando la geometría existente o los ejes de inferencia.&#x20;
 * Se muestra una vista preliminar de la forma resultante. Los puntos segundo y tercero determinan el plano que seguirán los demás puntos, por lo que el resultado es plano.
 * Continúe añadiendo puntos y pulse **Esc** o haga doble clic para finalizar la herramienta.
 * Las autointersecciones se limpiarán y se fusionarán, dejando una cara extruible.
@@ -37,7 +37,7 @@ Puede dibujar de forma libre las líneas de entrada unas encima de otras. Una ve
 
 Por lo tanto, la herramienta Línea de desfase debe generar geometría en un plano, por lo que los primeros puntos determinarán el plano que seguirán los puntos restantes.
 
-Por ejemplo, inicie el dibujo en un lado de un cubo para usar el plano de esa cara. Después de colocar tres puntos no colineales, el plano de entrada se fija para el resto de la entrada. Tenga en cuenta que, al dibujar en una cara, la forma resultante se inserta en la cara, dividiéndola en varias caras. Para evitar la inserción, la cara en la que dibuje deberá formar parte de un [grupo](https://windows.help.formit.autodesk.com/tool-library/groups).
+Por ejemplo, inicie el dibujo en un lado de un cubo para usar el plano de esa cara. Después de colocar tres puntos no colineales, el plano de entrada se fija para el resto de la entrada. Tenga en cuenta que, al dibujar en una cara, la forma resultante se inserta en la cara, dividiéndola en varias caras. Para evitar la inserción, la cara en la que dibuje deberá formar parte de un [grupo](https://windows.help.formit.autodesk.com/v/spanish/tool-library/groups).
 
 ![Dibujo en una cara vertical](../.gitbook/assets/walls7.png)
 
@@ -45,12 +45,9 @@ Por ejemplo, inicie el dibujo en un lado de un cubo para usar el plano de esa ca
 
 También puede utilizar la herramienta Línea de desfase para trazar desde un dibujo de plano. Importe el plano como una imagen.
 
-* Cambie el tamaño de la imagen para que el plano tenga la escala correcta. Esto se describe con más detalle [aquí](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane). 
+* Cambie el tamaño de la imagen para que el plano tenga la escala correcta. Esto se describe con más detalle [aquí](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane). &#x20;
 * Puede utilizar la [Cámara ortogonal](orthographic-camera.md) para trazar en una [vista superior](orthographic-views.md) ortogonal.
 
 ![](../.gitbook/assets/walls9.png)
 
 ![](../.gitbook/assets/walls10.png)
-
-
-

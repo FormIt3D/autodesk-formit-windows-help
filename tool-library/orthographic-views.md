@@ -1,12 +1,12 @@
 # Vistas ortogonales
 
-**Vea el modelo en diversas vistas ortogonales, incluidas las vistas superior, laterales e inferior.**
+Vea el modelo en diversas vistas ortogonales, incluidas las vistas superior, laterales e inferior.
 
 ![](../.gitbook/assets/infotainment\_2016\_product\_02.png)
 
-**Para buscar vistas ortogonales, haga clic en el icono superior de la barra de herramientas de navegación flotante:**
+Encontrará vistas ortogonales en el menú Vista. Para ello, haga clic en el icono Ortogonal de la barra de herramientas de navegación flotante o utilice el método abreviado V O. Haga clic en el icono Vista superior de la barra de herramientas de navegación flotante para acceder a varias opciones de vista.
 
-![](<../.gitbook/assets/floating-nav\_flyout (1) (1).PNG>)
+![](../.gitbook/assets/floating-nav\_flyout-v2.png)
 
 **A continuación, se ofrecen algunos consejos útiles al trabajar con vistas ortogonales:**
 
@@ -14,10 +14,14 @@
 * Al cambiar de vista de elevación (frontal/derecha/izquierda/posterior), FormIt conservará la altura del suelo para mantener la coherencia.
 * Puede mantener pulsada la tecla Mayús mientras realiza el encuadre en una vista ortogonal para bloquear el movimiento de encuadre en el eje horizontal o vertical.
 * Las direcciones de las vistas ortogonales se basan en los ejes universales. Puede volver a alinear los ejes, lo que modificará las orientaciones de todas las vistas ortogonales, como se indica a continuación:
+
    * Utilice el método abreviado SZ o haga clic con el botón derecho en el espacio (no sobre ninguna geometría):
-   * ![](../.gitbook/assets/set-axes\_context.PNG)
+
+   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+
    * Defina el origen y establezca el pinzamiento en los ejes rojos para alinearlo con una dirección significativa.
-   * ![](../.gitbook/assets/set-axes.PNG)
+
+   ![](../.gitbook/assets/set-axes.PNG)&#x20;
 
 **Las vistas ortogonales funcionan en combinación con otras funciones de FormIt, como se indica a continuación:**
 

@@ -1,36 +1,36 @@
-# Cloning a Sample Plugin
+# Clonación de un módulo de extensión de ejemplo
 
-### Clone an Existing FormIt Plugin Repo
+### Clonar un repositorio de módulos de extensión de FormIt existente
 
-You can clone various plugin repos from the FormIt team. These plugins demonstrate different UI types and some advanced functionality that can be achieved with plugins.
+Puede clonar varios repositorios de módulos de extensión del equipo de FormIt. Estos módulos de extensión presentan diferentes tipos de interfaz de usuario y algunas funciones avanzadas que se pueden obtener con los módulos.
 
-Each plugin is stored in its own repo. You can find them here: [FormIt3D Organization Repos](https://github.com/FormIt3D)
+Cada módulo de extensión se almacena en su propio repositorio. Puede encontrarlos aquí: [repositorios de organización de FormIt3D](https://github.com/FormIt3D).
 
 ### GitHub Desktop
 
-[GitHub Desktop](https://desktop.github.com) provides an easy-to-use interface for cloning repos, seeing changes to files, and pushing/pulling changes between your local computer and online repos. Some of the features GitHub desktop provides are:
+[GitHub Desktop](https://desktop.github.com) proporciona una interfaz fácil de usar para clonar repositorios, ver cambios en los archivos y aplicar o extraer cambios entre el equipo local y los repositorios en línea. Entre las funciones que incluye GitHub Desktop, se incluyen las siguientes:
 
-* Create a new repo to host your plugin on GitHub.
-* Use GitHub Desktop to clone your new (empty) GitHub repository to your local machine.
-* Develop your plugin by adding new files to the repo folder locally.
-* Use GitHub Desktop to push your plugin files and directories to your repository.
-* Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+* Cree un nuevo repositorio para alojar el módulo de extensión en GitHub.
+* Utilice GitHub Desktop para clonar el nuevo repositorio de GitHub (vacío) en el equipo local.
+* Desarrolle el módulo de extensión mediante la adición local de nuevos archivos a la carpeta del repositorio.
+* Utilice GitHub Desktop para insertar los archivos y los directorios del módulo de extensión en el repositorio.
+* Active las páginas de GitHub en el repositorio para que FormIt pueda cargar y mostrar los módulos de extensión alojados en GitHub.
 
-### Clone a Sample Plugin Repo with GitHub Desktop
+### Clonar un repositorio de módulos de extensión de ejemplo con GitHub Desktop
 
-In GitHub, choose a plugin project you wish to clone or modify. Click the **Code** button, and copy the address from the dropdown.
+En GitHub, elija un proyecto de módulo de extensión que desee clonar o modificar. Haga clic en el botón **Code** y copie la dirección del menú desplegable.
 
 ![](<../../../.gitbook/assets/image (78).png>)
 
-Open your GitHub desktop app, click **Current Repository**, and then select **Clone Repository**.
+Abra la aplicación GitHub Desktop, haga clic en **Current Repository** y, a continuación, seleccione **Clone Repository**.
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
-Select the **URL** tab, paste the copied link into first field, and choose a local folder path on your computer to save these files. Click **Clone**.
+Seleccione la ficha **URL**, pegue el vínculo copiado en el primer campo y elija una ruta de carpeta local en el equipo para guardar estos archivos. Haga clic en **Clone**.
 
 ![](<../../../.gitbook/assets/image (46).png>)
 
-### Open Your Project in Visual Studio Code
+### Abrir el proyecto en Visual Studio Code
 
-Launch Visual Studio Code. Go to **File** > **Open Folder** and select the folder that contains your plugin files and folders, for example, C:\Users\Documents\GenerateStringLights\v22\_0
+Inicie Visual Studio Code. Vaya a **File** > **Open Folder** y seleccione la carpeta que contiene los archivos y las carpetas de módulos de extensión como, por ejemplo, C:\Usuarios\Documentos\GenerateStringLights\v22\_0.
 

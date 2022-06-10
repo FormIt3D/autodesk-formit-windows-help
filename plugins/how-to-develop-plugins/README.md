@@ -1,12 +1,10 @@
-# How to Develop Plugins
+# Cómo desarrollar módulos de extensión
 
-For the tinkerers and developers out there, FormIt is a great tool for developing plugins. There are two modes of development you can choose from, depending on your development skills and the complexity of the project you wish to execute.&#x20;
+Para los aficionados y los desarrolladores de software, FormIt es una excelente herramienta para desarrollar módulos de extensión. Existen dos modos de desarrollo entre los que puede elegir en función de sus conocimientos de desarrollo y de la complejidad del proyecto que desee ejecutar.&#x20;
 
-* We recommend that you start with the [Your First Plugin](your-first-plugin/) section. It guides you through creating a simple plugin using the Plugin Playground.&#x20;
-* If you want to develop a more complex project, we recommend following the [Advanced Development](advanced-development/) section.
-* For information on developing other types of plugins, check out the [Additional Development Options](additional-development-options/) section.
-* The [Useful Links](useful-links.md) section provides links to FormIt API websites.
+* Es recomendable que comience por la sección [Su primer módulo de extensión](your-first-plugin/). Le guía por el proceso de creación de un módulo de extensión sencillo mediante Plugin Playground.
+* Si desea desarrollar un proyecto más complejo, es recomendable seguir las indicaciones de la sección [Desarrollo avanzado](advanced-development/).
+* Para obtener información sobre el desarrollo de otros tipos de módulos de extensión, consulte la sección [Opciones de desarrollo adicionales](additional-development-options/).
+* Consulte la página [API de FormIt](useful-links.md) para obtener vínculos a la documentación.
 
 ![](../../.gitbook/assets/g5.gif)
-
-&#x20;

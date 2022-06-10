@@ -1,39 +1,39 @@
-# Introduction to Plugins
+# Introducción a los módulos de extensión
 
 ![](../.gitbook/assets/gg4.gif)
 
-Plugins are custom software additions that expand FormIt's core functionality. Plugins can enhance, empower, and simplify your 3D modeling workflows in FormIt.&#x20;
+Los módulos de extensión son complementos de software personalizados que amplían las funciones principales de FormIt. Pueden mejorar, potenciar y simplificar los flujos de trabajo de modelado 3D en FormIt.&#x20;
 
-Plugins can be used to generate objects, make modifications to existing objects, or extract information about an object. Plugins can also use rich web interfaces to display data and provide controls and inputs directly in the application.&#x20;
+Los módulos de extensión permiten generar objetos, realizar modificaciones en objetos existentes o extraer información sobre un objeto. También pueden utilizar interfaces web enriquecidas para mostrar datos y proporcionar controles y entradas directamente en la aplicación.&#x20;
 
-## Accessing Plugins
+## Acceso a módulos de extensión
 
-Plugins are available in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) in the desktop and web versions of FormIt, as long as you are connected to the internet. Plugins are composed of a series of files and folders hosted on GitHub, or on a local server when building your own.&#x20;
+Los módulos de extensión están disponibles en [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) en las versiones web y de escritorio de FormIt, siempre que esté conectado a Internet. Los módulos de extensión están formados por una serie de archivos y carpetas alojados en GitHub o en un servidor local cuando se crea uno propio.&#x20;
 
 ![](../.gitbook/assets/c17.PNG)
 
-### Plugins Require Internet Access
+### Los módulos de extensión requieren acceso a Internet
 
-External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
+Los módulos de extensión externos (aquellos no hospedados localmente) requieren una conexión a Internet para cargarse inicialmente. Esto implica lo siguiente:
 
-* External plugins will not load if no internet connection is detected when FormIt starts. Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.&#x20;
-* External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change. Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
+* Los módulos de extensión externos no se cargarán si no se detecta conexión a Internet al iniciar FormIt. Una vez cargados, algunos módulos de extensión externos pueden seguir trabajando en modo sin conexión en esa sesión, pero es posible que otros no funcionen hasta que se restablezca la conectividad.&#x20;
+* Los módulos de extensión externos cargan el código más reciente del servidor en cada ejecución, por lo que sus funciones se actualizarán cada vez que el autor publique un cambio. Los módulos de extensión se cargan de forma asíncrona, lo que significa que su orden en la interfaz de FormIt puede cambiar en cada nueva sesión.
 
-## Open Source
+## Código abierto
 
-Plugins are open-source, allowing you to use the plugins in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) free of charge, publish and share your plugins easily, and find other plugins on GitHub to understand how they're built.&#x20;
+Los módulos de [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) son de código abierto, por lo que se pueden utilizar de forma gratuita, además de publicar y compartir fácilmente; también puede busca otros módulos de extensión en GitHub para descubrir cómo se han creado.&#x20;
 
-If you are a developer and want more information on how to publish your plugins, see [Hosting a Plugin on GitHub](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
+Si es desarrollador y desea obtener más información sobre cómo publicar módulos de extensión, consulte [Alojamiento de un módulo de extensión en GitHub](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
 
-If you want to make a plugin for private use, you can develop and host it using a local service. For more information, see [Using an IDE. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
+Si desea crear un módulo de extensión para uso privado, puede desarrollarlo y alojarlo mediante un servicio local. Para obtener más información, consulte [Uso de un IDE. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
 
 ![](../.gitbook/assets/c18.PNG)
 
 
 
-## Contact Us
+## Contáctenos
 
-If you need any help with FormIt plugins, drop us a line on the [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
+Si necesita ayuda con los módulos de extensión de FormIt, publique sus comentarios en el [foro de FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=es).
 
 ![](../.gitbook/assets/c19.PNG)
 

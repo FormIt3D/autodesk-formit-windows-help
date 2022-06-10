@@ -2,13 +2,13 @@
 
 Utilice Capas para controlar la visibilidad de los objetos de FormIt.
 
-Vea las capas en acción en [FormIt Primer.](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/control-visibility-with-layers)
+Vea las capas en acción en [FormIt Primer](../formit-primer/part-i/control-visibility-with-layers.md).
 
 ## Creación y denominación de capas
 
 En el panel Capas, puede hacer clic en el icono **+** para crear capas y asignarles nombres.
 
-![](../.gitbook/assets/layer-locking-image.jpg)
+![](<../.gitbook/assets/layer-locking-image (1).jpg>)
 
 Puede hacer doble clic en el nombre de la capa para cambiarlo o activar o desactivar la visibilidad de sus objetos mediante la activación o la desactivación de la casilla de la izquierda. Utilice la casilla de verificación derecha para bloquear y desbloquear capas. Una capa bloqueada seguirá estando visible, pero no se podrá seleccionar ni editar.
 
@@ -25,4 +25,3 @@ Puede hacer clic con el botón derecho en una capa y elegir Seleccionar todo en 
 ![](../.gitbook/assets/20191216-layers-panel-3.png)
 
 También puede reordenar las capas en el panel. Para ello, arrástrelas y suéltelas en una nueva posición. Tenga en cuenta que esto no afecta a la visibilidad de la geometría; se trata de una herramienta de organización exclusiva del panel.
-

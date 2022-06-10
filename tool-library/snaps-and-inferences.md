@@ -8,14 +8,14 @@ Para facilitar el boceto y el modelado, utilice forzados de cursor y puntos de d
 
 Existen varios forzados de cursor que pueden ayudarle durante la creación de bocetos y el modelado. El forzado de cursos se activa automáticamente y puede forzar el cursor a los siguientes elementos:
 
-|                                                                                                                                                                            |                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Vértices. | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
-| Bordes. Al colocar el cursor en el borde, se dibujarán pequeños puntos rojos en los
+|                                                                                                                                                                            |                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| Vértices. | ![](<../.gitbook/assets/inf3 (3).png>) |
+| Bordes. Al colocar el cursor en el borde, se dibujarán pequeños puntos rojos en los
         extremos y en el punto medio. | ![](../.gitbook/assets/inf4.png) |
 | Puntos medios de bordes. | ![](../.gitbook/assets/inf5.png) |
-| El plano de una cara. Al colocar el cursor en la cara, se dibujará un pequeño punto rojo
-        en el centro de la cara. Esto hará que sea fácil encontrar ese punto
+| El plano de una cara. Al colocar el cursor en la cara, se dibujará un pequeño punto rojo
+        en el centro de la cara. Esto hará que sea fácil encontrar ese punto
         si desea forzar el cursor a él. | ![](../.gitbook/assets/inf6.png) |
 | Centroides de caras. | ![](../.gitbook/assets/inf7.png) |
 | El plano de trabajo, si no se fuerza el cursor a otro elemento. | ![](../.gitbook/assets/inf8.png) |

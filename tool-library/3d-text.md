@@ -4,7 +4,7 @@
 
 En FormIt 2021 y versiones posteriores, puede generar y modificar objetos de texto 3D con tecnología de Dynamo. Dynamo permite editar la fuente, el tamaño y otras propiedades del texto in situ sin necesidad de volver a generar y colocar el texto cuando se necesiten realizar modificaciones.
 
-![](../.gitbook/assets/3d-text.gif)
+![](<../.gitbook/assets/3d-text (1).gif>)
 
 ## Colocación de texto 3D
 
@@ -25,7 +25,7 @@ Las opciones de texto 3D están disponibles en el panel Propiedades cuando se se
 
 Después de colocar inicialmente el texto 3D, el panel Propiedades se mostrará automáticamente. También puede seleccionar el grupo y cambiar a Propiedades o hacer doble clic en el grupo para cambiar automáticamente al panel Propiedades.
 
-![](../.gitbook/assets/3d-text-options.png)
+![](<../.gitbook/assets/3d-text-options (2).png>)
 
 ### Texto
 
@@ -51,23 +51,23 @@ Esta opción desplazará el texto que se va a alinear en relación con el origen
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-La altura del texto expresada en las unidades actuales de FormIt.
+La altura del texto. La unidad se basa en el nodo [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) y se puede utilizar cualquier unidad.
 
 ### Extrusion Depth
 
-La cantidad de extrusión 3D del texto expresada en las unidades actuales de FormIt. El texto 3D se ha diseñado para que sea uniforme, por lo que este valor no puede ser cero, pero puede utilizar un valor próximo a 0 para que sea menos obvio que está extruido.
+La cantidad de extrusión 3D del texto, en la unidad definida por el nodo [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes). El texto 3D se ha diseñado para que sea uniforme, por lo que este valor no puede ser cero, pero puede utilizar un valor próximo a 0 para que sea menos obvio que está extruido.
 
 ### Interletraje
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-El interletraje es útil para ajustar el espaciado por defecto entre letras de un tipo determinado. Utiliza las unidades de FormIt actuales y puede ser positivo o negativo. Por ejemplo, en pies, 0,25 añadirá 3" de espaciado entre cada letra. Por el contrario, -0,25 hará que todas las letras estén 3" más cerca.
+El interletraje es útil para ajustar el espaciado por defecto entre letras de un tipo determinado. Utiliza la unidad definida por el nodo [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) y puede ser positivo o negativo. Por ejemplo, en pies, 0,25 añadirá 3" de espaciado entre cada letra. Por el contrario, -0,25 hará que todas las letras estén 3" más cerca.
 
 ### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-Si tiene varias líneas en el campo de texto, este valor controla el espacio que hay entre cada línea de texto. Utiliza las unidades actuales de FormIt.
+Si tiene varias líneas en el campo de texto, este valor controla el espacio que hay entre cada línea de texto. Utiliza la unidad definida por el nodo [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 ### Invert Text
 
@@ -79,13 +79,13 @@ Si se establece en "True", esta opción crea un sólido alrededor del texto y el
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Solo se aplica cuando la opción "Invert Text" se ha establecido como "True". Permite especificar la cantidad de borde alrededor del texto que se va a utilizar para el sólido del que se ha eliminado el texto. Utiliza las unidades actuales de FormIt.
+Solo se aplica cuando la opción "Invert Text" se ha establecido como "True". Permite especificar la cantidad de borde alrededor del texto que se va a utilizar para el sólido del que se ha eliminado el texto. Utiliza la unidad definida por el nodo [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 ### Calidad de facetado de curva
 
 Las curvas de tipos de letra se convierten en segmentos de línea mediante texto 3D, por lo que este valor controla la precisión con la que se facetan las curvas.
 
-Los números más bajos darán como resultado un facetado más grueso \(segmentos más largos\) y los números más altos darán como resultado un facetado más fino \(segmentos más cortos\). Este valor modifica los parámetros de facetado de curva y superficie de FormIt en Preferencias.
+Los números más bajos darán como resultado un facetado más grueso (segmentos más largos) y los números más altos darán como resultado un facetado más fino (segmentos más cortos). Este valor modifica los parámetros de facetado de curva y superficie de FormIt en Preferencias.
 
 ### Ejecutar
 
@@ -103,7 +103,7 @@ Si está realizando iteraciones en las opciones de texto 3D, puede que sea más 
 
 Puede hacer clic en el botón Editar gráfico incrustado en el panel Propiedades para iniciar el editor de gráficos de Dynamo.
 
-![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
+![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
 
 ## Solución de problemas
 
@@ -114,8 +114,3 @@ Algunos tipos de letra pueden crear "curvas intersecantes" u otra geometría pro
 Si se produce un error al intentar ejecutar la función de texto 3D o si desaparecen las letras, es recomendable hacer clic en Editar gráfico incrustado para ver qué sucede con el gráfico y dónde puede estar el error.
 
 Algunos tipos de letra también presentan problemas conocidos que impiden que se conviertan en geometría adecuada. Bahnschrift es un ejemplo de esto. Si encuentra otro tipo de letra que sea problemático, [infórmenos de ello en los foros](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=es). Haremos todo lo posible para solucionar problemas con tipos de letra específicos.
-
-
-
-
-

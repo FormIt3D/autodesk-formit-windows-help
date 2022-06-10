@@ -1,15 +1,15 @@
-# Using an IDE
+# Uso de un IDE
 
-Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+Desarrollar módulos de extensión con [Plugin Playground](../your-first-plugin/plugin-playground.md) es sencillo y cómodo. Sin embargo, es posible que desee desarrollar módulos de extensión mediante un entorno de desarrollo integrado (IDE) externo. Entre las ventajas de utilizar un IDE, se incluyen las siguiente:&#x20;
 
-* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
-* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server.
+* Puede utilizar su IDE preferido, que puede proporcionar corrección de errores de sintaxis, extensiones, etc.
+* Puede colaborar con compañeros para desarrollar un módulo de extensión de FormIt mediante un repositorio de GitHub.
+* Puede desarrollar módulos de extensión privados y alojarlos en un servidor local.
 
-### Install an IDE
+### Instalación de un IDE
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
+Un IDE gratuito eficaz para el desarrollo de módulos de extensión de FormIt es [Visual Studio Code](https://code.visualstudio.com/Download) de Microsoft. Siga el vínculo para descargar el archivo de instalación y completar el proceso.
 
-We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
+Utilizaremos Visual Studio Code para esta demostración, pero puede utilizar el editor de código que prefiera. Asegúrese de que el IDE incluya un terminal para ejecutar el servidor local.
 
 ![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

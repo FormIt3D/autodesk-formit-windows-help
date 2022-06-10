@@ -1,31 +1,31 @@
-# Saving Your Work to GitHub
+# Guardar el trabajo en GitHub
 
-As you work on your plugin, you’ll want to save your progress. To make this possible, we have integrated GitHub directly into the Plugin Playground.
+Al trabajar en un módulo de extensión, es posible que desee guardar su progreso. Para ello, hemos integrado GitHub directamente en Plugin Playground.
 
-### Adding a New Plugin Project to Your GitHub Account
+### Adición de un nuevo proyecto de módulo de extensión a la cuenta de GitHub
 
-Click the button to log in to GitHub and allow FormIt to access to your repositories (projects).
+Haga clic en el botón para iniciar sesión en GitHub y permitir que FormIt acceda a los repositorios (proyectos).
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-To create a project, type in a name and click the ![](<../../../.gitbook/assets/image (58).png>) button.
+Para crear un proyecto, introduzca un nombre y haga clic en el botón ![](<../../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
-In a few moments, the newly created project will appear in your projects list. Select the project from the drop-down to load it.
+El proyecto recién creado aparecerá al instante en la lista de proyectos. Seleccione el proyecto en el menú desplegable para cargarlo.
 
 ![](<../../../.gitbook/assets/image (73).png>)
 
-### Save Your Work
+### Guardar el trabajo
 
-When you make changes to your plugin, click the Save button ![](<../../../.gitbook/assets/image (40).png>)to save the changes to your GitHub account.
+Al realizar cambios en el módulo de extensión, haga clic en el botón Guardar ![](<../../../.gitbook/assets/image (40).png>) para guardar los cambios realizados en la cuenta de GitHub.
 
+![](<../../../.gitbook/assets/save a plugin.png>)
 
+### Ver el proyecto en GitHub
 
-### View Your Project in GitHub
+También puede buscar y editar archivos directamente en GitHub mediante el botón GitHub.
 
-You can also find and edit your files directly in GitHub by using the GitHub button.
-
-![](https://formit3d.github.io/PluginPlayground/images/save3.png)
+![](<../../../.gitbook/assets/view in github.png>)
 
 ###

@@ -13,8 +13,5 @@ Con una suscripción a FormIt Pro, tiene acceso a la función de colaboración e
 
 ## Iniciar una sesión de colaboración
 
-1. En el menú desplegable Colaboración, seleccione Iniciar sesión de uso compartido. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. Envíe un vínculo por correo electrónico a los colaboradores. Este vínculo solicita a los destinatarios que inicien sesión en sus cuentas de Autodesk Account para iniciar inmediatamente la colaboración. ![](../.gitbook/assets/collaborate.png)
-
-
-
+1. En el menú desplegable Colaboración, seleccione Iniciar sesión de uso compartido. ![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
+2. Envíe un vínculo por correo electrónico a los colaboradores. Este vínculo solicita a los destinatarios que inicien sesión en sus cuentas de Autodesk Account para iniciar inmediatamente la colaboración. ![](<../.gitbook/assets/collaborate (1).png>)

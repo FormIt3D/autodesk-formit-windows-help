@@ -10,7 +10,6 @@ En el Árbol del modelo, cada grupo se identifica como un historial, ya que cada
 
 En cada historial, aparecerá una lista de objetos geométricos, ejemplares o grupos anidados como cuerpos.
 
-También puede ver atributos no geométricos \(atributos de cadena\) enlazados a objetos de FormIt mediante el Árbol del modelo. [Puede colocar atributos de cadena en grupos creados por el nodo SendToFormIt mediante Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+También puede ver atributos no geométricos (atributos de cadena) enlazados a objetos de FormIt mediante el Árbol del modelo. [Puede colocar atributos de cadena en grupos creados por el nodo SendToFormIt mediante Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
-

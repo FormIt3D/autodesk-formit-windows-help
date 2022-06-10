@@ -1,10 +1,10 @@
-# Creating a Toolbar-Based Plugin
+# Creación de un módulo de extensión basado en barra de herramientas
 
 ![](<../../../.gitbook/assets/Toolbar based plugin.gif>)
 
-### Structure of a Toolbar-Based Plugin manifest.json
+### Estructura de un archivo manifest.json de un módulo de extensión basado en barra de herramientas
 
-A toolbar-based plugin has a _manifest.json_ file with the following structure:
+Un módulo de extensión basado en barra de herramientas contiene un archivo _manifest.json_ con la siguiente estructura:
 
 ```
 {
@@ -18,13 +18,13 @@ A toolbar-based plugin has a _manifest.json_ file with the following structure:
 }               
 ```
 
-In addition to the [standard JSON properties](../advanced-development/general-plugin-setup-in-the-manifest.md), a toolbar-based plugin includes this special JSON property:
+Además de las [propiedades JSON estándar](../advanced-development/general-plugin-setup-in-the-manifest.md), un módulo de extensión basado en barra de herramientas incluye esta propiedad JSON especial:
 
-* "ToolbarURL" tells FormIt that this plugin is a toolbar and links to the location of another JSON file that describes the toolbar's functionality.
+* "ToolbarURL" indica a FormIt que este módulo es una barra de herramientas y se vincula a la ubicación de otro archivo JSON que describe la funcionalidad de la barra de herramientas.
 
-### Configure Toolbar Format with JSON
+### Configurar el formato de barra de herramientas con JSON
 
-After creating a manifest file like the one described above, you'll need to create the toolbar.json file, which defines the toolbar buttons, their names, text, icons, and the onClick function assigned to each button. The toolbar's JSON file will have the following format:
+Después de crear un archivo manifest como el que se ha descrito anteriormente, deberá crear el archivo toolbar.json, que define los botones de la barra de herramientas, sus nombres, el texto, los iconos y la función onClick asignada a cada botón. El archivo JSON de la barra de herramientas presentará el siguiente formato:
 
 ```
 {
@@ -52,15 +52,15 @@ After creating a manifest file like the one described above, you'll need to crea
 }               
 ```
 
-The toolbar.json file includes these JSON properties:
+El archivo toolbar.json incluye las siguientes propiedades JSON:
 
-* "name" represents the name of the overall toolbar, and is used internally to associate all the buttons to the single toolbar menu.
-* "buttons" represents individual buttons added inside of the toolbar. A toolbar can have any number of buttons.
-* "name" defines the button's internal name, which is used to associate the button to the toolbar as well as to the button's onClick function.
-* "command" defines the function of the button, which can come in one of two forms: a JavaScript function (which can be defined in a script contained in the manifest.json "Scripts" field), or a FormIt command, for example, "Draw: Circle". You can obtain a list of FormIt commands by running the Messages plugin.
-* "iconText" sets the tooltip and description text in the button. If an icon URL is not provided, the text will create an auto-generated icon of formatted text.
-* "iconURL" can be set to define a custom icon for the button.
+* "name" representa el nombre de la barra de herramientas general y se utiliza de forma interna para asociar todos los botones al menú único de la barra de herramientas.
+* "buttons" representa los botones individuales añadidos dentro de la barra de herramientas. Una barra de herramientas puede tener cualquier número de botones.
+* "name" define el nombre interno del botón, que se utiliza para asociar el botón a la barra de herramientas, así como a la función onClick del botón.
+* "command" define la función del botón, que puede presentar una de estas dos formas: una función de JavaScript (que puede definirse en una secuencia de comandos incluida en el campo "Scripts" de manifest.json) o un comando de FormIt, por ejemplo, "Dibujar: Círculo". Para obtener una lista de comandos de FormIt, ejecute el módulo de extensión Messages.
+* "iconText" establece el texto de la información de herramientas y la descripción en el botón. Si no se ha especificado una dirección URL de icono, el texto creará un icono generado automáticamente de texto con formato.
+* "iconURL" se puede establecer para definir un icono personalizado para el botón.
 
-After the buttons have all been defined in the toolbar.json file, the plugin is ready to go.&#x20;
+Una vez que se hayan definido todos los botones del archivo toolbar.json, el módulo de extensión está listo para su uso.&#x20;
 
-If there are any additional JavaScript functions you would like to define, add them to the same folder as the manifest.json file. Be sure to add the file reference to the "Scripts" field of the manifest file as well so that FormIt can find the files.
+Si desea definir funciones adicionales de JavaScript, añádalas en la misma carpeta que el archivo manifest.json. Asegúrese de añadir la referencia de archivo al campo "Scripts" del archivo manifest para que FormIt pueda encontrar los archivos.

@@ -12,19 +12,18 @@ También puede utilizar la barra de herramientas de navegación flotante situada
 
 ![](../.gitbook/assets/20190618-ortho-views.png) **Vistas ortogonales**: haga clic para que se muestre un menú desplegable de las [vistas ortogonales](../tool-library/orthographic-views.md) disponibles.
 
-![](../.gitbook/assets/20190618-3d-view.png) **Vista 3D por defecto \(ZD\):** inicia la vista 3D por defecto.
+![](../.gitbook/assets/20190618-3d-view.png) **Vista 3D por defecto (ZD):** inicia la vista 3D por defecto.
 
-![](../.gitbook/assets/jet-pack.png) **Recorrido \(FT\):** el modo de "mochila propulsora" permite recorrer la escena con el teclado. Utilice WASD para desplazarse adelante/atrás/a izquierda/a derecha y Q/E para subir/bajar. Utilice la barra espaciadora para "volar".
+![](../.gitbook/assets/jet-pack.png) **Recorrido (FT):** el modo de "mochila propulsora" permite recorrer la escena con el teclado. Utilice WASD para desplazarse adelante/atrás/a izquierda/a derecha y Q/E para subir/bajar. Utilice la barra espaciadora para "volar".
 
-![](../.gitbook/assets/orbit-tool.png) **Orbitar \(O\):** si está activada esta opción, haga clic con el botón izquierdo y arrastre el ratón para orbitar alrededor del modelo. También puede hacerlo en cualquier momento. Para ello, haga clic con el botón derecho y arrastre.
+![](../.gitbook/assets/orbit-tool.png) **Orbitar (O):** si está activada esta opción, haga clic con el botón izquierdo y arrastre el ratón para orbitar alrededor del modelo. También puede hacerlo en cualquier momento. Para ello, haga clic con el botón derecho y arrastre.
 
-![](../.gitbook/assets/swivel.PNG) **Pivotar \(SV\):** utilice la herramienta Pivotar de la barra de herramientas de navegación para mirar alrededor de la escena desde un punto fijo.
+![](../.gitbook/assets/swivel.PNG) **Pivotar (SV):** utilice la herramienta Pivotar de la barra de herramientas de navegación para mirar alrededor de la escena desde un punto fijo.
 
-![](../.gitbook/assets/panning.png) **Encuadrar \(P\):** haga clic y arrastre el botón central del ratón o utilice la herramienta Encuadrar \(mano\) de la barra de herramientas de navegación para encuadrar la escena.
+![](../.gitbook/assets/panning.png) **Encuadrar (P):** haga clic y arrastre el botón central del ratón o utilice la herramienta Encuadrar (mano) de la barra de herramientas de navegación para encuadrar la escena.
 
-![](../.gitbook/assets/zoom.png) **Zoom \(Z\):** desplace la rueda del ratón o seleccione la herramienta Zoom en la barra de herramientas de navegación y haga clic en el botón izquierdo del ratón y arrastre para aplicar zoom.
+![](../.gitbook/assets/zoom.png) **Zoom (Z):** desplace la rueda del ratón o seleccione la herramienta Zoom en la barra de herramientas de navegación y haga clic en el botón izquierdo del ratón y arrastre para aplicar zoom.
 
-![](../.gitbook/assets/zoom_all.png) **Zoom todo \(ZE o ZA\):** aplique el zoom para ajustar todo el modelo a la vista actual.
+![](../.gitbook/assets/zoom\_all.png) **Zoom todo (ZE o ZA):** aplique zoom para ajustar todo el modelo a la vista actual.
 
-![](../.gitbook/assets/zoom_selection.png) **Zoom selección \(ZS\):** aplique zoom para ajustar todos los objetos seleccionados actualmente a la vista actual.
-
+![](../.gitbook/assets/zoom\_selection.png) **Zoom selección (ZS):** aplique zoom para ajustar todos los objetos seleccionados actualmente a la vista actual.

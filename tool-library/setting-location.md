@@ -13,11 +13,11 @@ Deberá iniciar sesión con su cuenta de Autodesk Account para acceder al cuadro
 
 * Inicie el cuadro de diálogo **Establecer ubicación** desde la herramienta **Ubicación** de la barra de herramientas o con el acceso directo del teclado SL.
 
-![](../.gitbook/assets/location-toolbar.png)
+![](<../.gitbook/assets/location-toolbar (1).png>)
 
-* Escriba primero la ubicación del proyecto en el cuadro de búsqueda de la esquina superior izquierda de la ventana _Establecer ubicación_.
+* Escriba primero la ubicación del proyecto en el cuadro de búsqueda de la esquina superior izquierda de la ventana _Establecer ubicación_.&#x20;
 
-![](../.gitbook/assets/location-step-1%20%281%29.png)
+![](<../.gitbook/assets/location-step-1 (1).png>)
 
 * Seleccione una de las opciones de ubicación de relleno automático o pulse Intro para elegir la primera
 * Se ampliará la vista de la ubicación que ha buscado automáticamente.
@@ -38,7 +38,7 @@ Una vez que haya buscado una ubicación, puede elegir una de estados opciones:
 
 * Arrastre las imágenes de satélite dentro del cuadrado para ajustar su posición.
 * Una vez que el área cuadrada encapsule las imágenes que desea, haga clic en **Finalizar importación de imagen**.
-* La imagen se importará a escala, con el norte real orientado hacia arriba, centrado en el origen del lienzo de FormIt. Puede cambiar la transparencia y el orden Z de la imagen importada. Para ello, haga doble clic en ella y vaya a la [**paleta Propiedades**](../formit-introduction/tool-bars.md).
+* La imagen se importará a escala, con el norte real orientado hacia arriba, centrado en el origen del lienzo de FormIt. Puede cambiar la transparencia y el orden Z de la imagen importada. Para ello, haga doble clic en ella y vaya a la [**paleta Propiedades**](../formit-introduction/tool-bars.md).&#x20;
 
 ![](../.gitbook/assets/location-step-3.png)
 
@@ -50,7 +50,7 @@ Después de importar imágenes de satélite por primera vez, puede utilizar la v
 * Haga clic en **Importar imagen de satélite y terreno**
 * Verá el nivel de zoom y la extensión de la imagen de satélite actual, como se muestra en el lienzo de FormIt.
 * Solo tiene que ajustar la posición o el zoom y hacer clic en **Finalizar importación de imagen** como antes.
-* Cuando la imagen se vuelva a importar en el lienzo, se desplazará a la ubicación correcta con respecto a la posición de la imagen original \(y puede que ya no esté centrada en el origen\), como se muestra a continuación:
+* Cuando la imagen se vuelva a importar en el lienzo, se desplazará a la ubicación correcta con respecto a la posición de la imagen original (y puede que ya no esté centrada en el origen), como se muestra a continuación:
 
 ![](../.gitbook/assets/location-step-4.png)
 
@@ -58,15 +58,15 @@ Después de importar imágenes de satélite por primera vez, puede utilizar la v
 
 Como novedad en FormIt 2021.3, al utilizar el cuadro de diálogo **Establecer ubicación** para importar imágenes de satélite, también obtendrá terreno.
 
-![](../.gitbook/assets/terrain-button_original.png)
+![](../.gitbook/assets/terrain-button\_original.png)
 
-Cuando se importa terreno, este se coloca en una capa, que está desactivada por defecto \(en caso de que haya comenzado a modelar, el modelo puede estar cubierto por el terreno\).
+Cuando se importa terreno, este se coloca en una capa, que está desactivada por defecto (en caso de que haya comenzado a modelar, el modelo puede estar cubierto por el terreno).
 
 Cuando esté listo para ver el terreno, active la casilla de verificación para activar o desactivar la capa de terreno, como se muestra a continuación:
 
-![](../.gitbook/assets/terrain-layer%20%281%29.png)
+![](<../.gitbook/assets/terrain-layer (1) (1).png>)
 
-![](../.gitbook/assets/terrain_solid.png)
+![](../.gitbook/assets/terrain\_solid.png)
 
 ### Trabajo con terreno
 
@@ -97,3 +97,12 @@ El resultado será el terreno con el sólido de corte eliminado, lo que expone e
 
 Puede utilizar [capas](layers.md) para ocultar el sólido de corte, o incluso para realizar copias del terreno con y sin el corte, en caso de que necesite hacer referencia al terreno original o cambiar la forma de corte antes de ejecutar la operación de corte de sólido.
 
+### Resolución de problemas del cuadro de diálogo Establecer ubicación
+
+Si desea establecer una ubicación en FormIt, se necesita una conexión a Internet para descargar datos de satélite y terreno de Bing Maps.
+
+Además, como el cuadro de diálogo Establecer ubicación es en el fondo un módulo de expansión de FormIt, requiere acceso a GitHub para funcionar. Si tiene problemas con el cuadro de diálogo Establecer ubicación, compruebe que tiene acceso a [https://github.io](https://github.io), como se indica a continuación:&#x20;
+
+* Acceda al navegador web.
+* Pruebe a desplazarse a [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json).
+* Si no aparecen algunos datos, es posible que la red o el servidor de seguridad estén bloqueando el acceso a GitHub.

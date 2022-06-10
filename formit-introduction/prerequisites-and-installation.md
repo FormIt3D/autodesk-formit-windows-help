@@ -3,19 +3,35 @@
 ## Descarga e instalación
 
 * Descargue la versión más reciente de [FormIt para Windows](https://formit.autodesk.com/page/download).
-* Utilice su cuenta de Autodesk Account para iniciar sesión o [cree una gratuita aquí](https://accounts.autodesk.com/).
+* Utilice su cuenta de Autodesk Account para iniciar sesión o [cree una gratuita aquí](https://accounts.autodesk.com).
 * El complemento FormIt para Revit se incluye con Revit 2017 y versiones posteriores. También puede descargar e instalar manualmente el complemento [desde nuestro sitio web](https://formit.autodesk.com/page/formit-revit).
+
+Los parámetros de nivel de aplicación para FormIt se encuentran en Computer\HKEY\_CURRENT\_USER\SOFTWARE\Autodesk\FormIt 360\\
 
 ## Configuración del sistema recomendada
 
 | Requisito | Detalles |
-| :--- | :--- |
-| **Sistema operativo** | Microsoft® Windows® 8, 8.1 o 10 _Nota Parallels Desktop no se admite oficialmente debido a la reducción del rendimiento y a problemas gráficos de los controladores OpenGL._ |
-| **CPU** | Procesador Intel® Pentium® o Xeon® de varios núcleos o procesador i-Series o equivalente AMD® con tecnología SSE2. Se recomienda adquirir un procesador con la máxima velocidad posible. |
+| ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Sistema operativo** | <p>Microsoft® Windows® 8, 8.1, 10 u 11.</p><p><em>Nota: Parallels Desktop no se admite oficialmente debido a la reducción del rendimiento y a problemas gráficos de los controladores OpenGL.</em></p> |
+| **CPU** | <p>Procesador Intel® Pentium® o Xeon® de varios núcleos o procesador i-Series o equivalente AMD® con tecnología SSE2.</p><p>Se recomienda adquirir un procesador con la máxima velocidad posible.</p> |
 | **Memoria** | Se requiere un mínimo de 4 GB de RAM, aunque se recomiendan 8 GB o más. |
-| **Tarjeta de vídeo \(GPU\)** | Se recomienda encarecidamente utilizar una GPU dedicada NVIDIA o AMD compatible con OpenGL 4.2 y DirectX 11 o superior. Para sistemas con tarjetas gráficas intercambiables, siga las instrucciones del fabricante para asegurarse de que FormIt siempre utilice la GPU dedicada. Consulte las instrucciones para [AMD ](https://www.amd.com/es/support/kb/faq/dh-017)y [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1). Para obtener un rendimiento y una fiabilidad óptimos, asegúrese de que los controladores de la tarjeta gráfica estén actualizados desde el sitio web del fabricante o Windows Update. FormIt mostrará un mensaje al inicio si no puede utilizar la tarjeta de vídeo debido a controladores obsoletos u otros problemas. Si FormIt no se inicia después de actualizar los controladores, [póngase en contacto con nosotros en los foros](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=es). |
+| **Tarjeta de vídeo (GPU)** | <p>Se requiere una tarjeta de vídeo específica NVIDIA o AMD compatible con OpenGL 3.3. Es recomendable disponer de compatibilidad con OpenGL 4.2.</p><p>Para sistemas con tarjetas de vídeo intercambiables, siga las instrucciones del fabricante a fin de asegurarse de que FormIt siempre utilice la GPU específica para obtener el máximo rendimiento. Consulte las instrucciones para <a href="https://www.amd.com/en/support/kb/faq/dh-017">AMD </a>y <a href="http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1">NVIDIA</a>.</p><p>Para obtener un rendimiento y una fiabilidad óptimos, asegúrese de que los controladores de la tarjeta de vídeo estén actualizados desde el sitio web del fabricante o Windows Update.</p><p>FormIt mostrará un mensaje al inicio si no puede utilizar la tarjeta de vídeo debido a controladores obsoletos u otros problemas. Si FormIt no se inicia después de actualizar los controladores, <a href="https://forums.autodesk.com/t5/formit-forum/bd-p/142">póngase en contacto con nosotros en los foros</a>.</p> |
 | **Espacio en disco** | 1 GB de espacio libre en disco. |
-| **Conectividad y licencias** | Se necesita una cuenta de Autodesk Account con una suscripción en la nube de FormIt Pro para ejecutar FormIt Pro en Windows. FormIt Pro está disponible como parte de la [**Autodesk AEC Collection**](https://www.autodesk.es/collections/architecture-engineering-construction/overview). |
+| **Conectividad y licencias** | <p>Se necesita una conexión a Internet al iniciar FormIt por primera vez para iniciar sesión en su cuenta de Autodesk Account.</p><p>También se necesita una conexión a Internet para cargar los módulos de extensión al iniciar FormIt. Si no se detecta una conexión a Internet al inicio, la aplicación se iniciará sin módulos de extensión.</p><p>Se necesita una cuenta de Autodesk Account con una suscripción en la nube de FormIt Pro para ejecutar FormIt Pro en Windows. FormIt Pro está disponible como parte de la <a href="https://www.autodesk.com/collections/architecture-engineering-construction/overview"><strong>Autodesk AEC Collection</strong></a>.</p> |
+
+## Acceso sin conexión
+
+La primera vez que ejecute FormIt para Windows, deberá estar conectado a Internet para que se pueda validar la licencia. Después de iniciar sesión por primera vez, puede utilizar la aplicación sin conexión durante 30 días. Después de esto, deberá conectarse a Internet para validar de nuevo la licencia.
+
+Al utilizar FormIt para Windows sin conexión, algunas funciones estarán limitadas, como se indica a continuación:
+
+* La herramienta Establecer ubicación no funcionará, ya que requiere una conexión a Internet para recuperar datos de satélite y terreno de Bing Maps.
+   * Sin embargo, se conservará la información de satélite y terreno existente que ya se encuentre en el modelo de una sesión en línea anterior.
+* No se cargarán los módulos de extensión, incluido Plugin Manager, ya que obtienen el código más reciente de GitHub cada vez que se inicia la aplicación.
+   * Solución alternativa: Si carga todos los módulos de extensión mientras está conectado a Internet y mantiene la sesión de FormIt en ejecución al desconectarse, se conservarán los módulos de extensión cargados anteriormente y estos funcionarán con normalidad.
+* Los materiales de muestra no se cargarán, ya que proceden de un servidor alojado en la nube.
+   * Solución alternativa: Desplácese a las carpetas de categorías de materiales de muestra mientras está conectado a Internet. Las carpetas se descargan y se almacenan en el equipo y se puede acceder a ellas más posteriormente cuando no haya conexión a Internet.
+* No podrá guardar ni abrir ningún elemento en Autodesk Docs, incluida la biblioteca de contenido.
 
 ## Configuración recomendada de DPI de Windows
 
@@ -27,3 +43,16 @@ Puede cambiar esto en Windows 10 mediante las siguientes acciones:
 * Seleccione el rectángulo que representa el monitor que utilizará con FormIt.
 * En la sección Escala y distribución, abra el menú desplegable Cambiar el tamaño del texto, las aplicaciones y otros elementos y seleccione un valor de 125 % o menos.
 
+## Solución de problemas
+
+### Error del sistema en Windows 10 Pro N
+
+Si ejecuta FormIt en la versión 1909 de Windows 10 Pro N o posterior, es posible que aparezca este mensaje de error:
+
+![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
+
+Esto se debe a un problema conocido que se produce con determinadas versiones de Windows 10 Pro N. Para evitar este error, descargue el Media Feature Pack para su versión de Windows 10 aquí: [Lista de Media Feature Pack para ediciones N de Windows](https://support.microsoft.com/es-es/topic/lista-de-media-feature-pack-para-ediciones-n-de-windows-c1c6fffa-d052-8338-7a79-a4bb980a700a).
+
+### No se puede iniciar sesión
+
+Al intentar iniciar sesión en su cuenta en FormIt, es posible que el cuadro de diálogo de inicio de sesión se bloquee, lo que impide que pueda continuar. Si esto sucede, es posible que deba desbloquear \*.autodesk.com en el servidor de seguridad de red. Póngase en contacto con el departamento de TI para obtener asistencia.

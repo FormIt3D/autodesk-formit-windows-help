@@ -21,4 +21,3 @@ Colores de línea por eje:
 ![](../.gitbook/assets/rectangle2.png)
 
 Cuando termine de dibujar el rectángulo, se convertirá en una cara que se puede extruir para crear un volumen.
-

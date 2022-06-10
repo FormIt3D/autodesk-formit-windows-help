@@ -4,7 +4,7 @@
 
 En FormIt 2021 y versiones posteriores, puede generar una barandilla a lo largo de un camino y personalizar rápidamente los resultados in situ. La herramienta "Railing Along Path" cuenta con tecnología de Dynamo, lo que significa que la barandilla resultante se puede configurar fácilmente para obtener los resultados deseados y si se vuelve a ejecutar la lógica, se actualizará la geometría in situ.
 
-![](../.gitbook/assets/railing-along-path.gif)
+![](<../.gitbook/assets/railing-along-path (1).gif>)
 
 ## Inicio de "Railing Along Path"
 
@@ -13,7 +13,7 @@ En FormIt 2021 y versiones posteriores, puede generar una barandilla a lo largo 
 * En el lado izquierdo de la pantalla, aparecerá una solicitud para seleccionar un camino para la barandilla.
    * Aquí, debe seleccionar solo una serie de bordes contiguos o un grupo que contenga solo una serie de bordes.
    * Una vez que haya seleccionado el camino, haga clic en el botón "finish" o pulse Intro.
-* El panel de Dynamo indicará que está procesando los cambios. Cuando haya terminado, tendrá una barandilla generada por Dynamo en un grupo de FormIt, lista para modificar \(consulte la información mostrada a continuación\).
+* El panel de Dynamo indicará que está procesando los cambios. Cuando haya terminado, tendrá una barandilla generada por Dynamo en un grupo de FormIt, lista para modificar (consulte la información mostrada a continuación).
 
 ## Iteración in situ
 
@@ -23,7 +23,7 @@ Cuando se ejecuta, esta función crea un nuevo grupo que contiene los resultados
 
 Siempre puede volver a las propiedades de "Railing Along Path". Para ello, seleccione el grupo y cambie al panel Propiedades o modifique el grupo que mostrará automáticamente las propiedades.
 
-![](../.gitbook/assets/railing-along-path-options.png)
+![](<../.gitbook/assets/railing-along-path-options (1).png>)
 
 ### Altura de barandilla
 
@@ -37,7 +37,7 @@ La distancia entre las pilastras verticales principales. Utiliza las unidades ac
 
 Si se establece en **True**, las pilastras se añadirán en cada vértice del camino seleccionado y el cálculo de la siguiente posición de la pilastra se restablecerá en ese punto.
 
-Por ejemplo, si ha seleccionado una serie de tres bordes, aparecerá una pilastra en cada uno de los dos puntos interiores. Esto resulta útil si los vértices indican un cambio de dirección \(como subir escaleras o girar esquinas\) en el que se colocará de forma natural una pilastra.
+Por ejemplo, si ha seleccionado una serie de tres bordes, aparecerá una pilastra en cada uno de los dos puntos interiores. Esto resulta útil si los vértices indican un cambio de dirección (como subir escaleras o girar esquinas) en el que se colocará de forma natural una pilastra.
 
 Si se establece en **False**, las pilastras solo se añadirán a lo largo del camino empezando desde un extremo y midiendo la distancia a lo largo del camino, omitiendo los vértices a lo largo de la trayectoria. Esto resulta útil si ha seleccionado un arco, una spline o un círculo, donde los vértices no son importantes y desea que la distancia entre pilastras los omita.
 
@@ -49,11 +49,11 @@ En los casos en que la distancia entre pilastras dé como resultado el espacio r
 
 ### Post Width + Post Depth
 
-El tamaño \(en plano\) de los perfiles de pilastra vertical rectangular. Utiliza las unidades actuales de FormIt.
+El tamaño (en plano) de los perfiles de pilastra vertical rectangular. Utiliza las unidades actuales de FormIt.
 
 ### Handrail Width + Handrail Height
 
-El tamaño \(en sección\) del perfil de pasamanos rectangular. Utiliza las unidades actuales de FormIt.
+El tamaño (en sección) del perfil de pasamanos rectangular. Utiliza las unidades actuales de FormIt.
 
 ### Baluster Orientation
 
@@ -78,4 +78,3 @@ Después de editar las opciones, haga clic en el botón Ejecutar para ejecutar e
 ### Editar gráfico incrustado
 
 Al hacer clic en este botón, se inicia el entorno del editor de gráficos de Dynamo, por lo que puede ver y editar el gráfico subyacente de Dynamo para cambiar los parámetros y ver las actualizaciones directas con mayor rapidez o para inspeccionar o ajustar la lógica.
-

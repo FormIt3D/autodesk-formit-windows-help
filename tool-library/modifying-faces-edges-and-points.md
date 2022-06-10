@@ -10,7 +10,7 @@ Las cosas se ponen interesantes al empezar a empujar los objetos colocados o tir
 4. Después de hacer clic, puede forzar el cursor a otros objetos para alinear esta cara.
 5. Al igual que con el desplazamiento, puede hacer clic en la **cota temporal** o simplemente empezar a escribir un valor para definir la cantidad de movimiento.
 
-![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 También puede suprimir una cara. Para ello, pulse la tecla **Supr** o haga clic con el botón derecho y ejecute Suprimir en el menú contextual.
 
@@ -28,6 +28,6 @@ También puede suprimir una cara mediante **clic con el botón derecho > botón 
 ## Modificación de puntos
 
 1. Haga clic una vez en una de las esquinas de uno de los cubos.
-2. De forma similar a un borde, arrastre el punto a lo largo de uno de los ejes para redefinir la forma. [Escala no uniforme siguiente](non-uniform-scale.md)
+2. De forma similar a un borde, arrastre el punto a lo largo de uno de los ejes para redefinir la forma. [Escala no uniforme siguiente](broken-reference)
 
-![](<../.gitbook/assets/modify3 (1) (1).png>)
+![](<../.gitbook/assets/modify3 (1).png>)

@@ -20,7 +20,7 @@ Funciones de FormIt:
    * Análisis energético
 * Integraciones de productos de Autodesk:
    * BIM 360 Docs
-   * Insight \(Análisis energético\)
+   * Insight (Análisis energético)
    * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
    * [Revit](https://formit.autodesk.com/page/formit-revit)
 * Compatibilidad con formatos de archivo:
@@ -29,7 +29,7 @@ Funciones de FormIt:
    * Exportar
       * AXM, FBX, OBJ, STL, SAT, DAE, DXF
 
-FormIt está disponible de forma gratuita en [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) y [en el navegador](https://app.formit.autodesk.com/). Se requiere una suscripción a **FormIt Pro** para utilizar [FormIt para Windows](https://formit.autodesk.com/page/download), la versión más potente y con más funciones de FormIt. La suscripción a **FormIt Pro** también ofrece funciones adicionales en iOS y en la Web, como el análisis solar y energético. **FormIt Pro** se incluye en la [Autodesk AEC Collection](https://www.autodesk.es/collections/architecture-engineering-construction/overview).
+FormIt está disponible de forma gratuita en [iOS](https://itunes.apple.com/es/app/autodesk-formit-360/id575282599?mt=8) y [en el navegador](https://app.formit.autodesk.com). Se requiere una suscripción a **FormIt Pro** para utilizar [FormIt para Windows](https://formit.autodesk.com/page/download), la versión más potente y con más funciones de FormIt. La suscripción a **FormIt Pro** también ofrece funciones adicionales en iOS y en la Web, como el análisis solar y energético. **FormIt Pro** se incluye en la [Autodesk AEC Collection](https://www.autodesk.es/collections/architecture-engineering-construction/overview).
 
 **¿Qué ha ocurrido con FormIt para Android?**
 
@@ -41,19 +41,19 @@ Para ejecutar la versión para Windows, debe tener acceso a **FormIt Pro**, que 
 
 Además, la versión web se puede ejecutar directamente de forma gratuita desde nuestro sitio web: [http://formit.autodesk.com](http://formit.autodesk.com).
 
-La versión para iOS se puede descargar gratis desde la App Store de Apple \(solo para iPad\).
+La versión para iOS se puede descargar gratis desde la App Store de Apple (solo para iPad).
 
 **Si soy estudiante o profesor, ¿puedo obtener acceso a FormIt Pro sin coste alguno?**
 
-Sí. Puede acceder a la suscripción a FormIt Pro a través del [portal de educación de Autodesk](https://www.autodesk.es/).
+Sí. Puede acceder a la suscripción a FormIt Pro a través del [portal de educación de Autodesk](https://www.autodesk.com/education/free-software/formit-pro).
 
 **¿Cómo puedo aprender a usar FormIt?**
 
-El mejor punto de partida es el [aprendizaje FormIt Primer](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Building-the-Farnsworth-House.html).
+El mejor punto de partida es el [aprendizaje FormIt Primer](../formit-primer/).
 
-Existen varias secciones de FormIt Primer, que van desde el nivel principiante \(creación de una casa moderna completa\) hasta el más avanzado \(trabajar con Revit y Dynamo de formas más avanzadas\).
+Existen varias secciones de FormIt Primer, que van desde el nivel principiante (creación de una casa moderna completa) hasta el más avanzado (trabajar con Revit y Dynamo de formas más avanzadas).
 
-También disponemos más de 20 videos en nuestra serie de seminarios web "FormIt Friday". Están disponibles en nuestro [canal de YouTube](https://www.youtube.com/playlist?list=PLqumTDi1CVHM7rCHJs83Yb2FyadmuQsiH).
+También disponemos más de 20 videos en nuestra serie de seminarios web "FormIt Friday". Están disponibles en nuestro [canal de YouTube](https://www.youtube.com/channel/UCdZJr6Bo4pwBu3lQqcxlDsw).
 
 ## Trabajar con Revit
 
@@ -65,7 +65,7 @@ FormIt es una aplicación de diseño y dibujo 3D independiente, pero crea datos 
 
 A partir de la versión 2016, Revit incluye un complemento para trabajar con datos de FormIt. Al importar un archivo AXM de FormIt en Revit, este complemento examina cada objeto del archivo y lo vuelve a crear en Revit mediante la API. Por defecto, todos los elementos de FormIt se consideran como masa.
 
-El Conversor a FormIt utiliza cada objeto de masa y crea una familia de masas en Revit mediante la [API Direct Shape](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ESP/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
+El Conversor a FormIt utiliza cada objeto de masa y crea una familia de masas en Revit mediante la [API Direct Shape](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
 
 Direct Shape es un objeto no editable que se utiliza en los flujos de trabajo de IFC. Aunque no se puede editar, tiene la ventaja de transferir texturas de materiales completas entre FormIt y Revit. [A continuación, se muestra un aprendizaje](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html) que explica con más detalle el flujo de trabajo de FormIt a Revit.
 
@@ -75,7 +75,7 @@ No directamente. Como se ha indicado anteriormente, cada objeto se establece por
 
 **¿Revit puede devolver datos a FormIt?**
 
-Sí. Para volver a importar datos en FormIt, exporte todo o, preferiblemente, _parte_ del archivo de Revit al formato de archivo SAT. Normalmente, no es necesario enviar TODOS los datos de Revit a FormIt. En su lugar, cree una vista filtrada en Revit que solo incluya los datos mínimos \(por ejemplo, suelos y muros\) antes de guardarla en SAT.
+Sí. Para volver a importar datos en FormIt, exporte todo o, preferiblemente, _parte_ del archivo de Revit al formato de archivo SAT. Normalmente, no es necesario enviar TODOS los datos de Revit a FormIt. En su lugar, cree una vista filtrada en Revit que solo incluya los datos mínimos (por ejemplo, suelos y muros) antes de guardarla en SAT.
 
 ## Trabajar con otras aplicaciones
 
@@ -101,7 +101,7 @@ Antes de que FormIt recibiera su nombre, su designación en clave interna era XM
 
 **¿Qué ventajas ofrece FormIt frente a SketchUp?**
 
-* Mejor [**interoperabilidad con Revit**](../tool-library/revit.md) ****
+* Mejor [**interoperabilidad con Revit**](../tool-library/revit.md) _\*\*_
 * [**Integración de Dynamo**](../tool-library/dynamo.md) para el diseño computacional
 * Herramientas nativas para el [**análisis solar**](../tool-library/solar-analysis.md) y el [**análisis energético con tecnología**](../tool-library/energy-analysis.md) de Autodesk Insight
 * Un núcleo de modelado de sólidos más robusto que permite operaciones avanzadas de modelado
@@ -113,7 +113,7 @@ Antes de que FormIt recibiera su nombre, su designación en clave interna era XM
 
 **¿Puedo utilizar los métodos abreviados de teclado de SketchUp?**
 
-Sí. FormIt para Windows tiene un mapa de teclado completamente editable. Muchos métodos abreviados comunes de SketchUp ya están disponibles por defecto, pero puede editarlos en el menú Editar &gt; Preferencias.
+Sí. FormIt para Windows tiene un mapa de teclado completamente editable. Muchos métodos abreviados comunes de SketchUp ya están disponibles por defecto, pero puede editarlos en el menú Editar > Preferencias.
 
 **¿Puedo utilizar archivos DWG?**
 
@@ -128,9 +128,8 @@ Puede ponerse en contacto primero con su distribuidor de Autodesk o buscar infor
 **¿Qué debo hacer si no puedo iniciar sesión?**
 
 * En esta [entrada del foro](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=es), se abordan los problemas habituales de inicio de sesión.
-* Si tiene un PC con un procesador de gráficos intercambiable \(GPU\), es importante asegurarse de que FormIt siempre utilice la GPU de mayor rendimiento. A continuación, se indican las instrucciones para [AMD](https://community.amd.com/docs/DOC-1581#jive_content_id_Assigning_Applications_to_GPUs) y [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1).
+* Si tiene un PC con un procesador de gráficos intercambiable (GPU), es importante asegurarse de que FormIt siempre utilice la GPU de mayor rendimiento. A continuación, se indican las instrucciones para [AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) y [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1).
 
 **¿Qué debo hacer si el análisis energético de Insight presenta errores?**
 
 Si el análisis energético de Insight informa de un error o no devuelve ningún resultado, [eche un vistazo a la página de análisis energético de Insight](https://formit.autodesk.com/page/formit-insight) para obtener consejos habituales para la resolución de problemas.
-

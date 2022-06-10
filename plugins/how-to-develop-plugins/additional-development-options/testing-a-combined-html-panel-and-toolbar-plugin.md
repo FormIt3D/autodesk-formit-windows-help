@@ -1,51 +1,51 @@
-# Testing a Combined HTML Panel and Toolbar Plugin
+# Probar un módulo de extensión combinado de panel HTML y barra de herramientas
 
-You can test your in-progress plugins easily using the built-in [Script Editor ](../advanced-development/setting-up-formit-for-development.md)in FormIt for Windows
+Puede probar fácilmente los módulos de extensión en curso mediante el [Editor de secuencias de comando](../advanced-development/setting-up-formit-for-development.md) integrado en FormIt para Windows.
 
-We recommend using `FormIt.LoadPlugin("URL");` when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted).&#x20;
+Es recomendable utilizar `FormIt.LoadPlugin("URL");` al realizar pruebas, ya que carga temporalmente los módulos de extensión para esta sesión (desaparecerán cuando se reinicie FormIt).&#x20;
 
-Once testing is complete, you can persist the plugin between sessions using `FormIt.InstallPlugin("URL");`.
+Una vez finalizada las pruebas, puede conservar el módulo de extensión entre sesiones mediante `FormIt.InstallPlugin("URL");`.
 
-**FormIt for Windows v17 and newer**
+**FormIt para Windows v17 y versiones más recientes**
 
 ****
 
-### **Toolbar Plugins**
+### **Módulos de extensión de barra de herramientas**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+Cargue el módulo de extensión en FormIt para ver la interfaz de usuario más reciente y probar las últimas funciones:
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then load the plugin again using the command above.
+Realice algunos cambios y, a continuación, cargue de nuevo el módulo de extensión con el comando indicado anteriormente.
 
-You can load many instances of the same plugin in the current session as you test, each with its own UI.
+Puede cargar muchas instancias del mismo módulo de extensión en la sesión actual a medida que realiza la prueba, cada una con su propia interfaz de usuario.
 
-Be sure to use the latest UI instance to ensure you're testing your most recent changes.
+Asegúrese de utilizar la última instancia de la interfaz de usuario para asegurarse de que está probando los cambios más recientes.
 
 
 
-### **HTML Panel Plugins**
+### **Módulos de extensión de panel HTML**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+Cargue el módulo de extensión en FormIt para ver la interfaz de usuario más reciente y probar las últimas funciones:
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then simply right-click the panel and select "Hard Reload" to reload the panel with the latest HTML, CSS, and scripts.
+Realice algunos cambios y, a continuación, haga clic con el botón derecho en el panel y seleccione "Forzar recarga" para volver a cargar el panel con las últimas secuencias de comandos HTML y CSS.
 
 ****
 
-### **Preview your plugin with Plugin Manager**
+### **Obtener una vista preliminar del módulo de extensión con Plugin Manager**
 
-Once your plugin is loaed, refer an [earlier chapter](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) for this guide.
+Una vez cargado el módulo, consulte el [capítulo anterior](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) de esta guía.
 
 ****
 
-### **Force clearing web cache for .JSON files**
+### **Forzar la limpieza de la memoria caché web para los archivos .JSON**
 
-If you modify the title or description inside the manifest.json file for a plugin or repo, you may need to force clear the cache in FormIt for Windows to see those changes take effect the next time you reload the Plugin Manager.
+Si modifica el título o la descripción dentro del archivo manifest.json de un módulo de extensión o un repositorio, es posible que deba forzar la eliminación de la memoria caché en FormIt para Windows a fin de que se apliquen esos cambios la próxima vez que vuelva a cargar Plugin Manager.
 
-FormIt for Windows stores its web cache here, you will need to enable hidden items in Windows Explorer to see the AppData folder.
+FormIt para Windows almacena su memoria caché web aquí; deberá activar los elementos ocultos en el Explorador de Windows para ver la carpeta AppData.
 
-* C:\Users\user\AppData\Local\Autodesk\FormIt 360\QtWebEngine\Default
+* C:\Usuarios\user\AppData\Local\Autodesk\FormIt 360\QtWebEngine\Default
 
-To delete the web cache, simply delete the "Default" folder above, then reload the Plugin Manager to see the updated titles and descriptions.
+Para eliminar la memoria caché web, simplemente elimine la carpeta "Default" indicada anteriormente y, a continuación, vuelva a cargar Plugin Manager para ver los títulos y las descripciones actualizados.

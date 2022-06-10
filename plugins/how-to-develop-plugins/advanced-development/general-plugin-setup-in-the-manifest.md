@@ -1,12 +1,12 @@
-# General Plugin Setup in the Manifest
+# Configuración general de módulos de extensión en el archivo manifest
 
-FormIt plugins are composed of a key core component called a _manifest.json_ file.&#x20;
+Los módulos de extensión de FormIt están formados por un componente central clave que recibe el nombre de archivo _manifest.json_.&#x20;
 
-The manifest file is a [JSON object](http://www.json.org) that tells the FormIt infrastructure what files to fetch and what kind of plugin to create.
+El archivo manifest es un [objeto JSON](https://www.json.org/json-es.html) que indica a la infraestructura de FormIt los archivos que se deben recuperar y el tipo de módulo de extensión que se debe crear.
 
-### Manifest.json Structure and Properties
+### Propiedades y estructura del archivo manifest.json
 
-A manifest.json file has the following structure. It has additional properties depending on whether it's a [toolbar-based](../additional-development-options/creating-a-toolbar-based-plugin.md) or an [HTML panel-based plugin](../additional-development-options/creating-an-html-panel-plugin.md).
+Un archivo manifest.json presenta la siguiente estructura. Tiene propiedades adicionales en función de si se trata de un [módulo de extensión basado en barra de herramientas](../additional-development-options/creating-a-toolbar-based-plugin.md) o un [módulo de extensión basado en panel HTML](../additional-development-options/creating-an-html-panel-plugin.md).
 
 ```
 {
@@ -22,17 +22,17 @@ A manifest.json file has the following structure. It has additional properties d
 }               
 ```
 
-A typical plugin includes these JSON properties:
+Un módulo de extensión típico incluye estas propiedades JSON:
 
-* "PluginName" represents the name of the plugin for internal and most display purposes, including for the [Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
-* "PluginType" represents the type of the plugin, letting users know in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) description what to look for when they install the plugin.
-* "PluginDescription" is displayed in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) to communicate the plugin's capabilities.
-* "Scripts" lists the required external scripts associated with the plugin that will be loaded into the FormIt application and can be executed when plugin functionality is invoked.
+* "PluginName" representa el nombre del módulo de extensión para fines internos y de visualización, incluido para [Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
+* "PluginType" representa el tipo de módulo de extensión, lo que permite a los usuarios saber en la descripción de [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) lo que deben buscar al instalar el módulo de extensión.
+* "PluginDescription" se muestra en [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) para indicar las funciones del módulo de extensión.
+* "Scripts" muestra las secuencias de comandos externas necesarias asociadas con el módulo de extensión que se cargará en la aplicación FormIt y que pueden ejecutarse cuando se llame a las funciones del módulo de extensión.
 
 ![](<../../../.gitbook/assets/image (5).png>)
 
-Start your plugin development by creating a manifest.json file in your plugin folder. Next, you'll need to decide whether you are making a toolbar-based or panel-based plugin.
+Para empezar a desarrollar el módulo de extensión, cree un archivo manifest.json en la carpeta del módulo de extensión. A continuación, deberá decidir si va a crear un módulo de extensión basado en barra de herramientas o panel.
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
-**Note:** The use of PLUGINLOCATION throughout the manifest.json file above is essential and is case sensitive. FormIt will replace PLUGINLOCATION with the server location for the plugin.
+**Nota:** El uso de PLUGINLOCATION en todo el archivo manifest.json anterior es esencial y distingue entre mayúsculas y minúsculas. FormIt reemplazará PLUGINLOCATION por la ubicación del servidor para el módulo de extensión.

@@ -4,7 +4,4 @@ La **paleta Propiedades** presenta información y datos pertinentes para un obje
 
 Mediante la paleta Propiedades, puede editar el grupo de un objeto, asignar un objeto a una capa y cambiar el material de un objeto.
 
-![](../.gitbook/assets/properties_palette.png)
-
-
-
+![](../.gitbook/assets/properties\_palette.png)

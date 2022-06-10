@@ -1,16 +1,16 @@
 # Materiales
 
-Consiga que los modelos de FormIt destaquen con materiales que admiten mapas de relieve, brillo y reflexión.
+Consiga que los modelos de FormIt destaquen con materiales que admiten mapas de relieve o normales, brillo y reflexión.
 
 ## El panel Materiales
 
-![](<../.gitbook/assets/materials-sample-category (2).png>)
+![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
 
 En el panel Materiales, puede elegir entre una amplia variedad de muestras de materiales, desplazarse entre las bibliotecas de materiales vinculadas y, a partir de FormIt 2021, acceder al contenido de materiales de otros archivos de FormIt (.AXM) y utilizarlos.
 
 ### Orígenes de la biblioteca de materiales
 
-En FormIt 2021 y versiones posteriores, el panel Materiales tiene una interfaz desplegable para elegir entre diferentes orígenes disponibles de la biblioteca de materiales: En el boceto, Muestras de materiales y [bibliotecas vinculadas](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+En FormIt 2021 y versiones posteriores, el panel Materiales tiene una interfaz desplegable para elegir entre diferentes orígenes disponibles de la biblioteca de materiales: En el boceto, Muestras de materiales y [bibliotecas vinculadas](https://windows.help.formit.autodesk.com/v/spanish/tool-library/materials#vinculacion-de-bibliotecas-de-materiales).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
@@ -30,13 +30,13 @@ Muestra una lista de materiales de muestra disponibles. Estas ofertas se almacen
 
 **Bibliotecas vinculadas**
 
-Aparecerán otros directorios y ubicaciones después de [vincular bibliotecas de materiales](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+Aparecerán otros directorios y ubicaciones después de [vincular bibliotecas de materiales](https://windows.help.formit.autodesk.com/v/spanish/tool-library/materials#vinculacion-de-bibliotecas-de-materiales).
 
 ### Crear, suprimir y cuentagotas
 
-![](../.gitbook/assets/materials\_add.PNG) **Cree un nuevo material** mediante la definición de los parámetros de color, textura, mapa de relieve, mapa de corte, transparencia y reflexión/brillo.
+![](../.gitbook/assets/materials\_add.PNG) **Cree un nuevo material** mediante la definición de los parámetros de color, textura, mapa de relieve o normal, mapa de corte, transparencia y reflexión/brillo.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Suprima** los materiales seleccionados.
+![](<../.gitbook/assets/materials\_delete (1).PNG>) **Suprima** los materiales seleccionados
 
 ![](../.gitbook/assets/materials\_eyedropper.PNG) Utilice el **cuentagotas** para obtener un material pintado en la escena y empezar a pintar con él al instante.
 
@@ -45,7 +45,7 @@ Aparecerán otros directorios y ubicaciones después de [vincular bibliotecas de
 
 ### Actualizar, vincular bibliotecas y limpiar elementos no utilizados
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Vincule bibliotecas de materiales** desde directorios locales. Los directorios que contengan archivos JPG, PNG o AXM (FormIt) mostrarán contenido. Consulte [Vinculación de bibliotecas de materiales](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries) para obtener más información.
+![](../.gitbook/assets/materials-link.png) **Vincule bibliotecas de materiales** desde directorios locales. Los directorios que contengan archivos JPG, PNG o AXM (FormIt) mostrarán contenido. Consulte [Vinculación de bibliotecas de materiales](https://windows.help.formit.autodesk.com/v/spanish/tool-library/materials#vinculacion-de-bibliotecas-de-materiales) para obtener más información.
 
 ![](../.gitbook/assets/materials-refresh.png)**Actualice** el directorio actual. Esta opción solo se activa al visualizar un directorio vinculado localmente (no en las listas En el boceto ni Muestras de materiales).
 
@@ -115,10 +115,10 @@ Al crear o editar un material, aparecerá el cuadro de diálogo Editor de materi
    * Haga clic en el icono Suprimir para suprimir el mapa de este material.
       * **Textura de un archivo de imagen**
          * JPG o PNG
-      * **Mapa de relieve de un archivo de imagen**
+      * **Mapa de relieve o normal de un archivo de imagen**
          * JPG (recomendado)
          * Ideal para añadir efectos de profundidad a materiales.
-         * Puede utilizar software gratuito como ShaderMap para generar mapas de relieve en función de la textura especificada.
+         * Puede utilizar software gratuito como ShaderMap para generar mapas de relieve o normales en función de la textura especificada.
       * **Mapa de corte de un archivo de imagen**
          * PNG
          * Ideal para materiales con transparencia selectiva, como vallas con eslabones de cadena o paneles perforados.
@@ -142,7 +142,7 @@ Utilice la herramienta **Ajustar colocación del material** para modificar la po
    * Si la cara hereda su material de su grupo principal, deberá pintar primero la cara directamente.
 * Acceda a la herramienta Ajustar colocación del material a través del menú contextual MP o desde el menú contextual:
 
-![](../.gitbook/assets/adjust-material-placement.PNG)
+![](../.gitbook/assets/adjust-material-placement.png)
 
 Utilice los controles en pantalla para mover y rotar las texturas de materiales directamente en la cara y ajustar su escala:
 

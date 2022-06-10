@@ -8,27 +8,24 @@ Para crear diseños más complejos después de crear un boceto de una forma o co
 
 Para **inclinar una cara**, realice lo siguiente:
 
-1. Seleccione una cara y haga clic con el botón derecho para ver el menú contextual.
+1. Seleccione una cara y haga clic con el botón derecho para ver el menú contextual.&#x20;
 2. Seleccione el icono **Inclinar cara** en el menú contextual.
-3. Defina el eje de inclinación. Para ello, dibuje una línea.
+3. Defina el eje de inclinación. Para ello, dibuje una línea.&#x20;
 4. Haga clic en un tercer punto para iniciar la operación de inclinación.
 
-![](../.gitbook/assets/tilt_face.png)  
-![](../.gitbook/assets/tilt2.png)  
+![](<../.gitbook/assets/tilt\_face (1).png>)\
+![](../.gitbook/assets/tilt2.png)\
 ![](../.gitbook/assets/tilt3.png)
 
 ### Facetar caras suaves
 
 Si pasa el cursor sobre una cara y observa líneas discontinuas, esto significa que la cara está formada por caras más pequeñas debido a la deformación de la cara. Para **convertir las líneas discontinuas en bordes del modelo**, realice lo siguiente:
 
-1. Seleccione la cara o el objeto que desea cambiar y haga clic con el botón derecho para ver el menú contextual.
-2. En el menú contextual, seleccione la herramienta **Facetar caras suaves**.
-3. Los bordes se añaden automáticamente en la ubicación en la que la cara se ha suavizado anteriormente.
+1. Seleccione la cara o el objeto que desea cambiar y haga clic con el botón derecho para ver el menú contextual.&#x20;
+2. En el menú contextual, seleccione la herramienta **Facetar caras suaves**.&#x20;
+3. Los bordes se añaden automáticamente en la ubicación en la que la cara se ha suavizado anteriormente.&#x20;
 
 Este comando también funciona de la forma opuesta: puede seleccionar caras facetadas y elegir la herramienta **Facetar caras suaves** en el menú contextual para ocultar los bordes y conseguir que las caras parezcan suaves.
 
-![](../.gitbook/assets/smooth_face.png)  
-![](../.gitbook/assets/smoothed_face.png)
-
-## 
-
+![](../.gitbook/assets/smooth\_face.png)\
+![](../.gitbook/assets/smoothed\_face.png)

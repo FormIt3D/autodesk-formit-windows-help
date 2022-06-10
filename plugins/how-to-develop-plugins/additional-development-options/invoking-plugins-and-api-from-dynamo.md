@@ -1,19 +1,19 @@
-# Invoking Plugins and API from Dynamo
+# Llamada a módulos de extensión y API desde Dynamo
 
-## **Connecting Plugins With Dynamo**
+## **Conexión de módulos de extensión con Dynamo**
 
-FormIt 2022.1 and newer offers access to JavaScript APIs and custom functions from Dynamo via two new nodes:
+FormIt 2022.1 y versiones posteriores ofrecen acceso a las API de JavaScript y a las funciones personalizadas de Dynamo mediante los dos nuevos nodos siguientes:
 
 ### **CallJSAPI** <a href="#calljsapi" id="calljsapi"></a>
 
-The **CallJSAPI** node allows you to invoke FormIt JavaScript APIs directly from Dynamo.
+El nodo **CallJSAPI** permite llamar a la API de JavaScript de FormIt directamente desde Dynamo.
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallJSAPI-GetTotalGrossArea.png)
 
-For function names and parameters, take a look at our JavaScript documentation, which is divided into two parts: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) and [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (modeling kernel).
+Para obtener información sobre los parámetros y los nombres de función, consulte la documentación de JavaScript que se divide en estas dos partes: [API de FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) y [API WSM](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (núcleo de modelado).
 
 ### **CallPluginJS** <a href="#callpluginjs" id="callpluginjs"></a>
 
-Conversely, the **CallPluginJS** node allows you to invoke custom functions from a loaded plugin, or a script snippet that's been executed from the Script Editor window.
+Por el contrario, el nodo **CallPluginJS** permite llamar a funciones personalizadas de un módulo de extensión cargado o un fragmento de secuencia de comandos que se ha ejecutado desde la ventana del Editor de secuencias de comandos.
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallPluginJS.png)

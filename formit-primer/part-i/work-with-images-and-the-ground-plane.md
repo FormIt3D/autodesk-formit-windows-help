@@ -6,35 +6,35 @@ _Si no ha completado la última sección, abra el archivo_ _**1.2 - Project Set 
 
 ## **Calcular el tamaño de la imagen**
 
-El archivo **plan.png** proporcionado es una imagen de un plano impreso en un hoja \(ARCH D\) de 24" x 26", cuya anchura es de 3600 píxeles y su altura es de 2400 píxeles. Al conocer la escala de dibujo \(¼"=1'-0"\) y las cotas de imagen, puede calcular que 1' es igual a 25 píxeles, lo que significa que la imagen debe presentar un tamaño de 144' x 96' cuando se importa a escala completa en FormIt.
+El archivo **plan.png** proporcionado es una imagen de un plano impreso en un hoja (ARCH D) de 24" x 26", cuya anchura es de 3600 píxeles y su altura es de 2400 píxeles. Al conocer la escala de dibujo (¼"=1'-0") y las cotas de imagen, puede calcular que 1' es igual a 25 píxeles, lo que significa que la imagen debe presentar un tamaño de 144' x 96' cuando se importa a escala completa en FormIt.
 
-![](../../.gitbook/assets/0%20%281%29.png)
+![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **Importar una imagen para ajustar su escala**
 
 1 - Haga clic en el icono **Vista superior** de la **barra de navegación flotante** para ver la escena desde arriba.
 
-![](../../.gitbook/assets/1%20%281%29.png)
+![](<../../.gitbook/assets/1 (1).png>)
 
-2 - Seleccione la **herramienta Rectángulo \(R\)** en la barra de herramientas Boceto 3D.
+2 - Seleccione la **herramienta Rectángulo (R)** en la barra de herramientas Boceto 3D.
 
-![](../../.gitbook/assets/2%20%281%29.png)
+![](<../../.gitbook/assets/2 (1).png>)
 
 3 - Para crear un rectángulo con un tamaño exacto de **144'** x **96'**, haga clic en cualquier lugar del espacio de trabajo para definir el punto inicial y, a continuación, mueva el ratón para obtener una vista preliminar y definir la longitud del primer lado. Empiece a escribir un valor de cota para acceder a un cuadro de diálogo en el que puede introducir la cota exacta. Haga clic en **Aceptar** o pulse la tecla **Intro** para confirmar la cota. Repita el proceso para establecer la longitud del segundo lado y finalizar el rectángulo.
 
-![Introduzca la longitud del primer lado del rectángulo.](../../.gitbook/assets/3%20%281%29.png)
+![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
 
-![Introduzca la longitud del segundo lado del rectángulo.](../../.gitbook/assets/4%20%281%29.png)
+![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
 
-![Finalice el rectángulo.](../../.gitbook/assets/5%20%281%29.png)
+![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
 
 4 - Para crear el nuevo material "Plano de planta", realice lo siguiente:
 
 1. Abra la **paleta Materiales**.
 2. Haga clic en el icono **+** para crear un material nuevo.
 3. Asigne al nuevo material el nombre "**Plano de planta".**
-4. En **MAPAS**, haga clic en el mosaico de vista preliminar de **textura** y vaya al archivo **plan.png** de la carpeta **Farnsworth House Data Set &gt; Supporting Files &gt; Images**. A continuación, haga clic en **Abrir**.
-5. En **PROPIEDADES**, cambie la escala de la imagen. Para ello, introduzca **144'** en el campo **Escala horizontal** y **96'** en el campo **Escala vertical**. Tenga en cuenta que puede que sea necesario desbloquear la escala horizontal y vertical \(**icono de eslabón de cadena**\) para insertar valores que cambien las proporciones de la imagen.
+4. En **MAPAS**, haga clic en el mosaico de vista preliminar de **textura** y vaya al archivo **plan.png** de la carpeta **Farnsworth House Data Set > Supporting Files > Images**. A continuación, haga clic en **Abrir**.
+5. En **PROPIEDADES**, cambie la escala de la imagen. Para ello, introduzca **144'** en el campo **Escala horizontal** y **96'** en el campo **Escala vertical**. Tenga en cuenta que puede que sea necesario desbloquear la escala horizontal y vertical (**icono de eslabón de cadena**) para insertar valores que cambien las proporciones de la imagen.
 6. Active **Transparencia** y establezca su valor en aproximadamente la mitad. Esto ayudará a alinear la imagen del plano de planta importada con la imagen de satélite.
 7. Haga clic en **Aceptar **para finalizar el material.
 
@@ -47,7 +47,7 @@ El archivo **plan.png** proporcionado es una imagen de un plano impreso en un ho
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 - Si el material aparece invertido o hacia atrás, es posible que deba invertir la cara. Para ello, haga clic con el botón derecho del ratón para acceder al **menú contextual** y seleccione el botón Invertir cara \(FF\).
+6 - Si el material aparece invertido o hacia atrás, es posible que deba invertir la cara. Para ello, haga clic con el botón derecho del ratón para acceder al **menú contextual** y seleccione el botón Invertir cara (FF).
 
 ![](../../.gitbook/assets/8.png)
 
@@ -59,7 +59,7 @@ El archivo **plan.png** proporcionado es una imagen de un plano impreso en un ho
 
 2 - Para rotar el rectángulo a fin de alinearlo con la imagen de satélite:
 
-1. Haga clic con el botón derecho en el rectángulo para abrir el menú contextual. Seleccione **Rotar \(Q\).**
+1. Haga clic con el botón derecho en el rectángulo para abrir el menú contextual. Seleccione **Rotar (Q).**
 2. El **widget de rotación** aparece en el centro del rectángulo. Seleccione el widget. Para ello, haga clic una vez en el pinzamiento naranja situado en el centro. Desplace el widget a la esquina inferior izquierda del rectángulo. Se forzará el cursor a la esquina. Haga clic para colocarlo.
 3. Introduzca **9**; aparecerá el cuadro de cota. Haga clic en el botón **Aceptar** para rotar el rectángulo 9 grados en sentido antihorario.
 
@@ -69,7 +69,7 @@ El archivo **plan.png** proporcionado es una imagen de un plano impreso en un ho
 
 ## **Alinear la rejilla con la imagen de satélite**
 
-1 - Ahora, vamos a alinear la rejilla con la imagen de satélite y el plano de planta. Haga clic con el botón derecho en cualquier lugar del **plano de suelo** y seleccione **Establecer ejes \(SZ\)**.
+1 - Ahora, vamos a alinear la rejilla con la imagen de satélite y el plano de planta. Haga clic con el botón derecho en cualquier lugar del **plano de suelo** y seleccione **Establecer ejes (SZ)**.
 
 ![](../../.gitbook/assets/12.png)
 
@@ -90,4 +90,3 @@ El archivo **plan.png** proporcionado es una imagen de un plano impreso en un ho
 ![](../../.gitbook/assets/16.png)
 
 6 - La imagen de satélite, el rectángulo y la rejilla ahora están alineados, lo que simplificará el boceto 3D.
-

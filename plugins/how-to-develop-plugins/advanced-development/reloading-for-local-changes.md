@@ -1,16 +1,15 @@
-# Reloading for Local Changes
+# Volver a cargar para aplicar cambios locales
 
-While developing a plugin you may need to quickly reload your latest code updates without reloading the whole app. This can be achieved in both web and windows versions of FormIt without reloading the whole app.
+Al desarrollar un módulo de extensión, es posible que deba volver a cargar rápidamente las actualizaciones más recientes del código sin cargar de nuevo toda la aplicación. Esto se puede realizar tanto en la versión web como en la versión para Windows de FormIt sin necesidad de cargar de nuevo toda la aplicación.
 
-## Web Reloading
+## Volver a cargar en la versión web
 
-💡 **** To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`&#x20;
+?? Para volver a cargar el módulo de extensión en la versión web de FormIt, haga clic con el botón derecho en el código HTML del módulo de extensión y haga clic en `Reload Frame`.
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
-## Windows Reloading
+## Volver a cargar en la versión para Windows
 
-💡 **** To reload your plugin in FormIt windows right-click on the plugin's HTML and click on `Hard Reload` &#x20;
+?? Para volver a cargar el módulo de extensión en la versión para Windows de FormIt, haga clic con el botón derecho en el código HTML del módulo de extensión y haga clic en `Hard Reload`.
 
 ![](../../../.gitbook/assets/d18.png)
-

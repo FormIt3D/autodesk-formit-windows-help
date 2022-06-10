@@ -1,21 +1,21 @@
-# FormIt Plugin Community
+# Comunidad de módulos de extensión de FormIt
 
 ![](../../.gitbook/assets/C21.PNG)
 
-## Looking for Plugins?
+## ¿Busca módulos de extensión?
 
-If you are looking for some ideas to develop your FormIt plugin, check out some of these examples:
+Si busca algunas ideas para desarrollar un módulo de extensión de FormIt, consulte algunos de estos ejemplos:
 
-* [Community plugins](https://github.com/topics/formit-plugin): Plugins developed by FormIt users and developers.
-* [Plugins recommended by FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): Plugins developed by the community and recommended by FormIt team.
-* [Plugins from FormIt](https://github.com/FormIt3D): Official Plugins developed by FormIt team.
+* [Módulos de extensión de la comunidad](https://github.com/topics/formit-plugin): los módulos de extensión creados por los usuarios y los desarrolladores de FormIt.
+* [Módulos de extensión recomendados por FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): módulos de extensión desarrollados por la comunidad y recomendados por el equipo de FormIt.
+* [Módulos de extensión de FormIt](https://github.com/FormIt3D): módulos oficiales desarrollados por el equipo de FormIt.
 
-## Want FormIt to feature your plugin?
+## ¿Desea que FormIt incluya su módulo de extensión?
 
-If you have developed a plugin that would be useful for other FormIt users, we would love to hear more about it, so please let us know, we will review it and consider adding it **formit-plugin-recommended** list or feature it as [examples](./) in our primer.&#x20;
+Si ha desarrollado un módulo de extensión que sería útil para otros usuarios de FormIt, nos encantaría que nos proporcionase más información al respecto; lo revisaremos y consideremos la posibilidad de añadirlo a la lista **formit-plugin-recommended** o incluirlo como [ejemplo](./) en nuestro manual de introducción.&#x20;
 
 
 
-### Help from FormIt and the community
+### Ayuda de FormIt y la comunidad
 
-Having issues building or running plugins? [Reach out to us!](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
+¿Tiene problemas para crear o ejecutar módulos de extensión? [Póngase en contacto con nosotros.](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=es)

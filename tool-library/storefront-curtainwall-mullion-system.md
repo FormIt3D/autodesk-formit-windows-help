@@ -6,21 +6,21 @@
 
 Dynamo proporciona la capacidad de crear rápidamente sistemas de montantes de muro cortina/escaparate en FormIt. Puede encontrar el sistema de muro cortina/escaparate en el directorio de muestras de Dynamo del panel de Dynamo:
 
-![](../.gitbook/assets/storefront-curtainwall-button%20%281%29.png)
+![](../.gitbook/assets/storefront-curtainwall-button.png)
 
 ## Selección de "cristal" para el sistema de montantes
 
-A partir de FormIt 2021.2, el sistema de muro cortina/escaparate utiliza el nuevo nodo [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), que permite seleccionar un elemento de "cristal" \(una cara única o un sólido extruido\) alrededor del que generar un sistema de montantes.
+A partir de FormIt 2021.2, el sistema de muro cortina/escaparate utiliza el nuevo nodo [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes), que permite seleccionar un elemento de "cristal" (una cara única o un sólido extruido) alrededor del que generar un sistema de montantes.
 
-![Un plano sencillo de "cristal" con un hueco para puertas en la parte inferior.](../.gitbook/assets/storefron-system-1_glass-only.png)
+![Un plano sencillo de "cristal" con un hueco para puertas en la parte inferior.](../.gitbook/assets/storefron-system-1\_glass-only.png)
 
-Al hacer clic en la miniatura del muro cortina/escaparate \(observe el icono que indica que se requiere una selección\), FormIt le solicitará que seleccione la geometría de cristal para continuar, como se muestra a continuación:
+Al hacer clic en la miniatura del muro cortina/escaparate (observe el icono que indica que se requiere una selección), FormIt le solicitará que seleccione la geometría de cristal para continuar, como se muestra a continuación:
 
-![](../.gitbook/assets/storefront-curtainwall-prompt.png)
+![](<../.gitbook/assets/storefront-curtainwall-prompt (2).png>)
 
 A continuación, se ofrecen algunas notas y advertencias sobre cómo funciona la selección de cristal:
 
-* Actualmente, solo se admiten superficies planas. Si selecciona una serie de superficies \(por ejemplo, una superficie "curva" compuesta de superficies planas más pequeñas\), la secuencia de comandos encontrará la cara plana más grande y la utilizará. 
+* Actualmente, solo se admiten superficies planas. Si selecciona una serie de superficies (por ejemplo, una superficie "curva" compuesta de superficies planas más pequeñas), la secuencia de comandos encontrará la cara plana más grande y la utilizará.
 * Si el cristal es sólido (es decir, una sola cara extruida ligeramente para representar algo de grosor), la secuencia de comandos encontrará la superficie más grande, por lo que los montantes resultantes se generarán en un lado del sólido de cristal.
 * Puede dibujar huecos para puertas y eliminar la superficie resultante del contorno de cristal; los montantes resultantes respetarán el hueco de puerta, dejándolo en blanco para la adición de puertas.
 * Debido a las limitaciones de Dynamo, esta secuencia de comandos no funcionará si la geometría de cristal tiene huecos en el medio.
@@ -35,19 +35,19 @@ Al seleccionar la geometría de un gráfico de Dynamo en FormIt, algunos trucos 
    * Seleccione el grupo resultante y colóquelo en otro grupo.
    * Haga doble clic para introducir el primer grupo. Este es el "contenedor" tanto para el cristal como para los montantes resultantes.
    * Haga clic en la miniatura del muro cortina/escaparate y utilice el grupo de cristal como selección.
-   * Una vez que se ejecute la secuencia de comandos, puede salir del grupo y copiar y pegar el contenedor según sea necesario. Puede editar cualquiera de los ejemplares \(ajustando la forma o los parámetros de cristal\) sin problemas.
+   * Una vez que se ejecute la secuencia de comandos, puede salir del grupo y copiar y pegar el contenedor según sea necesario. Puede editar cualquiera de los ejemplares (ajustando la forma o los parámetros de cristal) sin problemas.
 
 ## Opciones del sistema de montantes
 
 Una vez que seleccione un cristal y ejecute la secuencia de comandos, obtendrá un resultado en el lienzo de FormIt en forma de grupo de FormIt. Este grupo se seleccionará automáticamente y el panel Propiedades presentará las opciones disponibles.
 
-![](../.gitbook/assets/storefront-curtainwall-parameters.png)
+![](<../.gitbook/assets/storefront-curtainwall-parameters (1).png>)
 
 * **Ejecutar**: si modifica la forma del cristal y desea volver a ejecutar el gráfico para actualizar los resultados del montante, haga clic en este botón.
 * **Editar gráfico incrustado**: edite la secuencia de comandos de Dynamo que genera la geometría. Esta secuencia de comandos está incrustada en el archivo de FormIt y es específica de este grupo.
-* **Select Glass \(Surface or Solid\)**: haga clic en esta opción para actualizar la selección a un cristal diferente alrededor del que generar los montantes.
+* **Select Glass (Surface or Solid)**: haga clic en esta opción para actualizar la selección a un cristal diferente alrededor del que generar los montantes.
 
-La secuencia de comandos utilizará los valores por defecto para su primera ejecución, por lo que es recomendable que los ajuste a su caso de uso exclusivo. Todos los valores utilizarán las unidades de FormIt actuales.
+La secuencia de comandos utilizará los valores por defecto para su primera ejecución, por lo que es recomendable que los ajuste a su caso de uso exclusivo. Todos los valores utilizarán las unidades establecidas por el nodo [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 * **Mullion Width + Mullion Depth**: la anchura y la profundidad de los elementos de montante.
 * **Vertical Mullion Spacing**: la distancia, en el centro, entre cada montante vertical.
@@ -69,7 +69,7 @@ La secuencia de comandos utilizará los valores por defecto para su primera ejec
 ![](../.gitbook/assets/storefront-curtainwall-random-verticals.png)
 
 * **Randomize Vertical and Horizontal Mullion Layout**: establezca esta opción en "True" para separar los montantes verticales u horizontales de forma aleatoria.
-* **Min/Max Mullion Spacing \(if random\)**: ajuste estos valores para establecer un intervalo de valores aleatorios de distancia mínima y máxima.
+* **Min/Max Mullion Spacing (if random)**: ajuste estos valores para establecer un intervalo de valores aleatorios de distancia mínima y máxima.
 
 ### Montantes de borde
 
@@ -77,4 +77,3 @@ La secuencia de comandos utilizará los valores por defecto para su primera ejec
 
 * **Flip Offset Direction of Border Mullions:** por defecto, el sistema de montantes utilizará el contorno de cristal y lo desfasará hacia dentro para crear los montantes de borde. Para desfasar hacia fuera, establezca esta opción en "True". Esto aumentará el tamaño general del sistema de montantes fuera del contorno de cristal mediante la opción "Mullion Width".
 * **Tolerance Between Selection and Border Mullions**: por defecto, el sistema de montantes se genera exactamente en el borde del cristal, lo que podría provocar un conflicto de planos en el que chocarían el borde del cristal y las superficies exteriores de los montantes de borde. En la mayoría de los casos, esto no será visible, pero si el caso de uso requiere que los bordes del sistema estén visibles y desea evitar el conflicto de planos, active esta opción y ajuste el valor de tolerancia según sea necesario.
-

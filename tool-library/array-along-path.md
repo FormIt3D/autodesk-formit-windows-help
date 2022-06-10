@@ -4,19 +4,19 @@
 
 En FormIt 2021 y versiones posteriores, puede organizar los objetos a lo largo de un camino y personalizar rápidamente los resultados in situ. La opción "Array Along Path" cuenta con tecnología de Dynamo, lo que significa que la matriz se puede configurar fácilmente para obtener los resultados deseados y si se vuelve a ejecutar la lógica, se actualizará la geometría in situ.
 
-![](../.gitbook/assets/array-along-path.gif)
+![](<../.gitbook/assets/array-along-path (1).gif>)
 
 ## Inicio de "Array Along Path"
 
 * Vaya al panel Dynamo en FormIt para Windows y asegúrese de que se encuentra en el directorio de muestras de Dynamo.
 * Haga clic en la muestra de "Array Along Path".
-* En el lado izquierdo de la pantalla, aparecerá la solicitud "Select object\(s\) to array".
+* En el lado izquierdo de la pantalla, aparecerá la solicitud "Select object(s) to array".
    * Puede seleccionar cualquier combinación de objetos de FormIt para este paso.
    * Una vez que haya realizado una selección, puede pulsar la flecha "siguiente" situada a la izquierda de la pantalla o pulsar Intro.
 * Ahora aparecerá la solicitud "Select path for array".
    * Aquí, debe seleccionar solo una serie de bordes contiguos o un grupo que contenga una serie de bordes contiguos.
    * Una vez que haya seleccionado el camino, haga clic en el botón "finish" o pulse Intro.
-* El panel de Dynamo indicará que está procesando los cambios. Cuando haya terminado, tendrá una matriz generada por Dynamo en un grupo de FormIt, lista para modificar \(consulte la información mostrada a continuación\).
+* El panel de Dynamo indicará que está procesando los cambios. Cuando haya terminado, tendrá una matriz generada por Dynamo en un grupo de FormIt, lista para modificar (consulte la información mostrada a continuación).
 
 ## Iteración in situ
 
@@ -26,9 +26,9 @@ Cuando se ejecuta, esta función crea un nuevo grupo que contiene los resultados
 
 Siempre puede volver a las propiedades de "Array Along Path". Para ello, seleccione el grupo y cambie al panel Propiedades o modifique el grupo que mostrará automáticamente las propiedades.
 
-![](../.gitbook/assets/array-along-path-options.png)
+![](<../.gitbook/assets/array along path (2).png>)
 
-### Select Object\(s\) to Array <a id="run"></a>
+### Select Object(s) to Array <a href="#run" id="run"></a>
 
 Haga clic en este botón para volver al asistente de selección a fin de cambiar los objetos que se van a incluir en la matriz.
 
@@ -36,7 +36,7 @@ Haga clic en este botón para volver al asistente de selección a fin de cambiar
 
 Haga clic en este botón para volver al asistente de selección y cambiar el camino que se utiliza para calcular la matriz.
 
-### Array Type <a id="run"></a>
+### Array Type <a href="#run" id="run"></a>
 
 Esta opción activa o desactiva el tipo de matriz que se va a calcular: por distancia o por número.
 
@@ -77,15 +77,13 @@ Si se establece en **False**:
 
 Solo para los caminos cerrados. Cuando se utiliza "Array Along Path" con un camino cerrado, la dirección de la curva puede invertir inesperadamente los resultados esperados de la matriz. Establezca esta opción en **True** para invertir la dirección de la matriz si se cambia la orientación de los resultados.
 
-### Ejecutar <a id="run"></a>
+### Ejecución <a href="#run" id="run"></a>
 
 Después de editar las opciones, haga clic en el botón Ejecutar para ejecutar el gráfico subyacente de Dynamo y generar nuevos resultados. Este botón se colorea de azul cuando se han modificado los parámetros, por lo que debe hacer clic en él para ver las actualizaciones en la geometría final.‌
 
-### Editar gráfico incrustado <a id="edit-embedded-graph"></a>
+### Editar gráfico incrustado <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
 
 Al hacer clic en este botón, se inicia el entorno del editor de gráficos de Dynamo, por lo que puede ver y editar el gráfico subyacente de Dynamo para cambiar los parámetros y ver las actualizaciones directas con mayor rapidez o para inspeccionar o ajustar la lógica.
-
-
 
 ## Selección de geometría
 
@@ -98,6 +96,3 @@ Al seleccionar objetos para "Array Along Path" y otros gráficos de Dynamo basad
 * Puede utilizar la ventana de selección de área para capturar una serie de objetos.
 * Puede seleccionar objetos seleccionados para anular su selección.
 * Se necesita al menos un objeto para continuar con un paso basado en selección.
-
-
-

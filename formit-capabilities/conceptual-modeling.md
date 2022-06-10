@@ -15,8 +15,3 @@ El núcleo de modelado de sólidos de FormIt permite flujos de trabajo increíbl
 **Además, utilice las herramientas de selección inteligente para elegir geometría similar rápidamente con menos pulsaciones del ratón:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

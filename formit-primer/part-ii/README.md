@@ -8,7 +8,7 @@ Si es un nuevo usuario de FormIt, se recomienda empezar por la **parte 1**, ya q
 
 Consulte las secciones **Introducción a FormIt** y **Biblioteca de herramientas** para obtener información detallada sobre las herramientas, las barras de herramientas, las paletas y los procesos específicos que se describen aquí.
 
-![](../../.gitbook/assets/screen1.jpg)
+![](<../../.gitbook/assets/screen1 (1).jpg>)
 
 ### Requisitos previos
 
@@ -16,13 +16,12 @@ Antes de comenzar con la parte 2, descargue e instale FormIt para Windows median
 
 En la mayoría de los capítulos, también deberá descargar y utilizar el conjunto de datos que se encuentra en el vínculo siguiente.
 
-_Si no puede ejecutar FormIt para Windows, la mayoría del aprendizaje se puede completar mediante la_ [_**aplicación web**_](https://formit.autodesk.com/app) _gratuita. Para obtener más información sobre las versiones y licencias de FormIt, visite el_ ****[_**sitio web de FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Si no puede ejecutar FormIt para Windows, la mayoría del aprendizaje se puede completar mediante la_ [_**aplicación web**_](https://formit.autodesk.com/app)_** gratuita.** Para obtener más información sobre las versiones y licencias de FormIt, visite el_ [_sitio web de FormIt_](https://formit.autodesk.com)_._
 
 ### Conjunto de datos
 
-Encode Campus, que se muestra arriba, es un proyecto ficticio de tamaño medio para varios usos, que se ha establecido en un trazado urbano, con capas organizadas, escenas, materiales e incluso geometrías vinculadas a secuencias de comandos de Dynamo que se pueden editar en directo. 
+Encode Campus, que se muestra arriba, es un proyecto ficticio de tamaño medio para varios usos, que se ha establecido en un trazado urbano, con capas organizadas, escenas, materiales e incluso geometrías vinculadas a secuencias de comandos de Dynamo que se pueden editar en directo.
 
 Todos los elementos de fachada del edificio Encode se controlan mediante secuencias de comandos de Dynamo, controladas por una ruta en la base del edificio que define la forma de la fachada.
 
-* \*\*\*\*[**Conjuntos de datos de la parte 2 de FormIt Primer**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
-
+* [**Conjuntos de datos de la parte 2 de FormIt Primer**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)

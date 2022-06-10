@@ -1,21 +1,19 @@
-# Launching the Sample Plugin
+# Inicio del módulo de extensión de ejemplo
 
-### Running the Sample Plugin
+### Ejecución del módulo de extensión de ejemplo
 
-A sample plugin comes loaded with the Plugin Playground. Click the Play button to run a plugin.
+En Plugin Playground, se incluye un módulo de extensión de ejemplo. Haga clic en el botón de reproducción para ejecutar un módulo de extensión.
 
-![Step 1](https://formit3d.github.io/PluginPlayground/images/step1.png)
+![Step 1](<../../../.gitbook/assets/run a plugin.png>)
 
+Se mostrará un módulo de extensión con tres entradas numéricas y el botón Create Block. Continúe y pruebe el módulo de extensión, que creará un cubo basado en los valores de entrada proporcionados.
 
+### Visualización y edición de código
 
-This will display a plugin with 3 numerical inputs and a Create Block button. Go ahead and test the plugin, which will create a cube based on the provided input values.
+Si desea ver el código incluido en este módulo de extensión, haga clic en el botón de edición.
 
-### Viewing and Editing Code
+![Step2](<../../../.gitbook/assets/edit a plugin.png>)
 
-If you want to see the code behind this plugin, click the Edit button.
-
-![Step2](https://formit3d.github.io/PluginPlayground/images/step2.png)
-
-This will launch a dialog containing all the main pieces of a FormIt plugin: HTML, JavaScript, and CSS.
+Esta acción iniciará un cuadro de diálogo que contiene todas las partes principales de un módulo de extensión de FormIt, HTML, JavaScript y CSS.
 
 ![](<../../../.gitbook/assets/02-view and edit playground code.gif>)
