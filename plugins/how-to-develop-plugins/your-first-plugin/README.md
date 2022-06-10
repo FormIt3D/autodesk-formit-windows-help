@@ -1,12 +1,12 @@
-# Your First Plugin
+# Váš první modul plug-in
 
-Let's start by creating and editing a simple plugin using the Plugin Playground. The steps to do this are:
+Začneme vytvořením a úpravou jednoduchého modulu plug-in pomocí nástroje Plugin Playground. Postup je následující:
 
-* Setting up the [Plugin Playground](plugin-playground.md)
-* [Launching the Sample Plugin](launching-the-sample-plugin.md)
-* [Adding Your Own Features](adding-your-own-features.md)
-* [Saving Your Work to GitHub](saving-your-work-to-github.md)
-* [Publishing Your Project](publishing-your-project.md)
+* Nastavení nástroje [Plugin Playground](plugin-playground.md)
+* [Spuštění vzorového modulu plug-in](launching-the-sample-plugin.md)
+* [Přidání vlastních funkcí](adding-your-own-features.md)
+* [Uložení práce ve službě GitHub](saving-your-work-to-github.md)
+* [Publikování projektu](publishing-your-project.md)
 
 ![](<../../../.gitbook/assets/03-FormIt plugin cylinder demo.gif>)
 

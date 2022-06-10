@@ -10,7 +10,6 @@ Ve stromu modelu je každá skupina označena jako Historie, protože každá sk
 
 V rámci každé historie se zobrazí seznam vnořených skupin, instancí nebo geometrických objektů, jako jsou tělesa.
 
-Pomocí stromu modelu můžete také zobrazit negeometrické atributy \(atributy řetězce\) připojené k objektům aplikace FormIt. [Atributy řetězce lze umístit do skupin vytvořených uzlem SendToFormIt pomocí aplikace Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
+Pomocí stromu modelu můžete také zobrazit negeometrické atributy (atributy řetězce) připojené k objektům aplikace FormIt. [Atributy řetězce lze umístit do skupin vytvořených uzlem SendToFormIt pomocí aplikace Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes).
 
 ![](../.gitbook/assets/model-tree-attribute.png)
-

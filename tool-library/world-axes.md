@@ -8,11 +8,11 @@ Když je v aplikaci FormIt otevřen prázdný náčrt, zobrazí se ve středu o
 
 ![](../.gitbook/assets/axis.png)
 
-Chcete-li osnovu otočit a znovu definovat počáteční bod náčrtu, **klikněte pravým tlačítkem** na prázdné místo ve scéně a v místní nabídce vyberte ikonu **Nastavit osy \(SZ\)**.   ![](../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low%20%281%29.png).
+Chcete-li osnovu otočit a znovu definovat počáteční bod náčrtu, **klikněte pravým tlačítkem** na prázdné místo ve scéně a v místní nabídce vyberte ikonu **Nastavit osy (SZ)** \![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>).
 
-Zobrazí se pomůcka Nastavit osy. Kliknutím na velký uzel uprostřed pomůcku vyberte. Dalším kliknutím nastavte bod počátku. Nyní kliknutím na tečku na červené ose otočte osnovu nebo kliknutím na tečku na modré ose vertikálně otočte rovinu osnovy. Kliknutím do prostoru potvrďte změnu.  ![](../.gitbook/assets/2021-01-14_12-30-10.gif)
+Zobrazí se pomůcka Nastavit osy. Kliknutím na velký uzel uprostřed pomůcku vyberte. Dalším kliknutím nastavte bod počátku. Nyní kliknutím na tečku na červené ose otočte osnovu nebo kliknutím na tečku na modré ose vertikálně otočte rovinu osnovy. Kliknutím do prostoru potvrďte změnu.\![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
 
-Chcete-li **obnovit** výchozí nastavení počátku a osnovy, klikněte pravým tlačítkem myši na prázdné místo ve scéně a vyberte možnost **Obnovit osy \(RZ\)**.
+Chcete-li **obnovit** výchozí nastavení počátku a osnovy, klikněte pravým tlačítkem myši na prázdné místo ve scéně a vyberte možnost **Obnovit osy (RZ)**.
 
 ![](../.gitbook/assets/guid-eb26f44b-70b2-404a-8a7c-57d094d888c3-low.png)
 
@@ -22,7 +22,6 @@ Výše uvedený postup vysvětluje, jak řídit **globální souřadnicový syst
 
 ## Interakce s osami
 
-* Při práci s nástroji náčrtu se zobrazí **červené, zelené a modré osy**, které slouží jako vodítko pro 3D kreslení. 
+* Při práci s nástroji náčrtu se zobrazí **červené, zelené a modré osy**, které slouží jako vodítko pro 3D kreslení.
 * **Fialová osa** zobrazuje kolmou a rovnoběžnou osu vzhledem k čarám nakresleným pod úhlem.
 * Podržením **klávesy Shift** při kreslení nebo posouvání se **uzamkne aktuální osa**.
-

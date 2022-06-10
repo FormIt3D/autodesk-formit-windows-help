@@ -1,19 +1,19 @@
-# Invoking Plugins and API from Dynamo
+# Vyvolání modulů plug-in a rozhraní API z aplikace Dynamo
 
-## **Connecting Plugins With Dynamo**
+## **Připojení k modulům plug-in pomocí aplikace Dynamo**
 
-FormIt 2022.1 and newer offers access to JavaScript APIs and custom functions from Dynamo via two new nodes:
+Aplikace FormIt 2022.1 a novější nabízí přístup k rozhraním API jazyka JavaScript a uživatelským funkcím z aplikace Dynamo prostřednictvím dvou nových uzlů:
 
 ### **CallJSAPI** <a href="#calljsapi" id="calljsapi"></a>
 
-The **CallJSAPI** node allows you to invoke FormIt JavaScript APIs directly from Dynamo.
+Uzel **CallJSAPI** umožňuje vyvolat rozhraní API jazyka JavaScript aplikace FormIt přímo z aplikace Dynamo.
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallJSAPI-GetTotalGrossArea.png)
 
-For function names and parameters, take a look at our JavaScript documentation, which is divided into two parts: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) and [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (modeling kernel).
+Názvy a parametry funkcí naleznete v dokumentaci k jazyku JavaScript, která je rozdělena do dvou částí: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) a [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (modelovací jádro).
 
 ### **CallPluginJS** <a href="#callpluginjs" id="callpluginjs"></a>
 
-Conversely, the **CallPluginJS** node allows you to invoke custom functions from a loaded plugin, or a script snippet that's been executed from the Script Editor window.
+Naopak uzel **CallPluginJS** umožňuje vyvolat uživatelské funkce z načteného modulu plug-in nebo fragmentu skriptu, který byl proveden z okna Editor skriptů.
 
 ![](https://formit.autodesk.com/page/formit-dynamo/dynamo-formitCallPluginJS.png)

@@ -8,7 +8,7 @@ Pokud jste s aplikací FormIt dosud nepracovali, doporučujeme začít **část
 
 Podrobné informace o konkrétních nástrojích, panelech nástrojů, paletách a procesech, které jsou zde popsány, naleznete v částech **Úvod do aplikace FormIt** a **Knihovna nástrojů**.
 
-![](../../.gitbook/assets/screen1.jpg)
+![](<../../.gitbook/assets/screen1 (1).jpg>)
 
 ### Předpoklady
 
@@ -16,7 +16,7 @@ Před zahájením části II si stáhněte a nainstalujte aplikaci FormIt pro sy
 
 U většiny kapitol si budete muset stáhnout a použít datový soubor, který naleznete v níže uvedeném odkazu.
 
-_Pokud aplikaci FormIt pro systém Windows nemůžete spustit, můžete většinu výukového programu dokončit pomocí bezplatné_ [_**webové aplikace**_](https://formit.autodesk.com/app)_.**** Další informace o verzích a licencích aplikace FormIt naleznete na webových stránkách aplikace_ ****[_**FormIt.**_](https://formit.autodesk.com)_\*\*\*\*_
+_Pokud aplikaci FormIt pro systém Windows nemůžete spustit, můžete většinu výukového programu dokončit pomocí bezplatné_ [_**webové aplikace**_](https://formit.autodesk.com/app)_.**** Další informace o verzích a licencích aplikace FormIt naleznete na_ [_webových stránkách aplikace FormIt_](https://formit.autodesk.com)_._
 
 ### Datová sada
 
@@ -24,5 +24,4 @@ Encode Campus zobrazený výše je fiktivní středně velký víceúčelový pr
 
 Všechny prvky fasády budovy aplikace Encode jsou kontrolovány skripty aplikace Dynamo, které jsou řízeny cestou v základně budovy, jež definuje tvar fasády.
 
-* \*\*\*\*[**Datové sady k příručce Základy aplikace FormIt, část II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)\*\*\*\*
-
+* [**Datové sady k příručce Základy aplikace FormIt, část II**](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)

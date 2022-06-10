@@ -1,43 +1,43 @@
-# Manage Cameras Plugin
+# Modul plug-in Manage Cameras
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_V této kapitole si ukážeme několik modulů plug-in, které jsou součástí aplikace FormIt, a provedeme několik vylepšení souboru_ _**Encode Campus Sample Model.axm**. Pokud jste tak ještě neučinili, můžete si soubor stáhnout z _[_datové sady k příručce Základy aplikace FormIt, Část II_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
 
-Throughout the primer, we have been using scenes as valuable tools to navigate and control visibility throughout the model. This plugin allows us to see and edit the elevation of our current camera, export cameras for each scene as 3D objects, and copy these scenes between models.
+V celé příručce jsme používali scény jako cenné nástroje pro navigaci a řízení viditelnosti v celém modelu. Tento modul plug-in umožňuje zobrazit a upravit výšku aktuální kamery, exportovat kamery pro každou scénu jako 3D objekty a kopírovat tyto scény mezi modely.
 
-1 - First, we will adjust the **Eye Level – Long Alley** scene so that its camera is actually at eye level:
+1 – Nejprve upravíme scénu **Eye Level – Long Alley**, aby její kamera byla skutečně v úrovni očí:
 
-1. If not already there, go back to the **Eye Level – Long Alley** scene by double-clicking on it inside the **Scenes Palette**.
-2. Open the **Manage Cameras Palette** by clicking on the camera with a gear icon.
-3. Change the **Height Above Ground** to **5’-8”**.
+1. Pokud již není k dispozici, vraťte se do scény **Eye Level – Long Alley** tak, že na ni dvakrát kliknete na **paletě Scény**.
+2. Kliknutím na kameru s ikonou ozubeného kola otevřete **paletu Manage Cameras**.
+3. Změňte parametr **Height Above Ground** (Výška nad terénem) na hodnotu **5’-8"**.
 
 ![](<../../.gitbook/assets/6 (6) (1).png>)
 
-_**Note:**_ _If your model has levels, this plugin will also show the height above the nearest level below the_ _**Main Camera**._
+_**Poznámka:**_ _Pokud má model podlaží, tento modul plug-in také zobrazí výšku nad nejbližším podlažím pod_ _**hlavní kamerou**._
 
-2 - Then:
+2 – Poté postupujte následovně:
 
-1. Go back to the **Scenes Palette**.
-2. Make sure the **Eye Level – Long Alley** scene is still selected (otherwise single-click to select it).
-3. Click on the **Update Scene** button to save the new camera height to this scene.
+1. Přejděte zpět na **paletu Scény**.
+2. Ujistěte se, že je scéna **Eye Level – Long Alley** stále vybrána (v opačném případě ji vyberte jedním kliknutím).
+3. Kliknutím na tlačítko **Aktualizovat scénu** uložte novou výšku kamery do této scény.
 
 ![](<../../.gitbook/assets/7 (1) (1).png>)
 
-_**Note:**_ _You can also adjust the angle and position of a scene’s camera by toggling the_ _**Edit Scene Cameras**_ _button at the top of the_ _**Scenes Palette**_ _(between the update and play buttons)._
+_**Poznámka:**_ _Úhel a polohu kamery scény můžete také upravit přepnutím tlačítka_ _**Upravit kamery scény**_ _v horní části palety_ _**Scény**_ _(mezi tlačítky pro aktualizaci a přehrávání)._
 
-3 - Next let’s export our scenes to a new model. First we have to create camera objects for all scenes using the **Manage Cameras** plugin:
+3 – Nyní vyexportujeme scény do nového modelu. Nejprve je nutné vytvořit objekty kamery pro všechny scény pomocí modulu plug-in **Manage Cameras**:
 
-1. Open the **Manage Cameras Palette** again.
-2. Make sure the **Copy Cameras to Clipboard** option is checked.
-3. Click on the **Export Scenes to Cameras** button. This may take a few seconds.
-4. If your entire canvas went white, it is because your **Main Camera** was aligned with one of the scene cameras. **Zoom (Z)** out until you can see the 3 main buildings and the newly created camera objects. Note that the camera objects are automatically placed into one large group named **Cameras**. Inside that group, each individual camera is placed in its own group with the same name as the scenes it was created from.
+1. Znovu otevřete **paletu Manage Cameras**.
+2. Ujistěte se, že je zaškrtnuto políčko **Copy Cameras to Clipboard** (Kopírovat kamery do schránky).
+3. Klikněte na tlačítko **Export Scenes to Cameras** (Exportovat scény do kamer). Export může trvat několik sekund.
+4. Pokud celá kreslicí plocha zbělela, je to proto, že **hlavní kamera** byla zarovnána s jednou z kamer scény. **Oddalte (Z)** pohled tak, abyste viděli 3 hlavní budovy a nově vytvořené objekty kamery. Všimněte si, že objekty kamery jsou automaticky umístěny do jedné velké skupiny s názvem **Kamery**. Uvnitř této skupiny je každá jednotlivá kamera umístěna do vlastní skupiny se stejným názvem jako scény, ze kterých byla vytvořena.
 
 ![](<../../.gitbook/assets/8 (7) (1).png>)
 
-4 – Let’s copy these scenes to a new model. Since the camera data was saved to the clipboard, there is not much we have to do:
+4 – Zkopírujme tyto scény do nového modelu. Vzhledem k tomu, že data kamery byla uložena do schránky, stačí provést jen pár kroků:
 
-1. **Save** **(Ctrl + S)** your current model, and the close it.
-2. Start a new empty sketch by selecting **New Sketch (Ctrl + N)** from the **File** dropdown in the **Main Menu** bar.
-3. Open the **Manage Cameras** plugin, if its not already open, and make sure the **Look for Cameras on Clipboard** option is checked.
-4. Click on the **Import Scenes from Cameras** button near the bottom of the plugin, and the scenes from our other model will be imported. To check, open the **Scenes Palette** and/or turn on the **Camera** layer. You will see that all the scenes and 3D camera objects have been imported into this model.
+1. **Uložte** **(Ctrl+S)** aktuální model a zavřete jej.
+2. Vytvořte nový prázdný náčrt výběrem možnosti **Nový náčrt (Ctrl+N)** v rozevíracím seznamu **Soubor** na panelu **Hlavní nabídka**.
+3. Otevřete modul plug-in **Manage Cameras**, pokud ještě není otevřený, a ujistěte se, že je zaškrtnuta možnost **Look for Cameras on Clipboard** (Hledat kamery ve schránce).
+4. Kliknutím na tlačítko **Import Scenes from Cameras** (Importovat scény z kamer) v dolní části modulu plug-in importujte scény z našeho druhého modelu. Chcete-li provést kontrolu, otevřete **paletu Scény** nebo zapněte hladinu **Kamera**. Uvidíte, že do tohoto modelu byly importovány všechny scény a 3D objekty kamery.
 
 ![](<../../.gitbook/assets/9 (7) (1).png>)

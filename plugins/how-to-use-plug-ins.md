@@ -1,69 +1,69 @@
-# How to Use Plugins
+# Jak používat moduly plug-in
 
 ![](<../.gitbook/assets/g3 (1).gif>)
 
-## Plugin Manager
+## Nástroj Plugin Manager
 
-The FormIt Plugin Manager is your one-stop shop for discovering and managing plugins.
+Plugin Manager aplikace FormIt je komplexní nástroj pro vyhledávání a správu modulů plug-in.
 
-The Plugin Manager is loaded automatically when FormIt starts, as long as FormIt has access to the internet.
+Nástroj Plugin Manager je načten automaticky při spuštění aplikace FormIt, pokud má aplikace FormIt přístup k internetu.
 
-Access it by clicking its tab icon![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) on the right side of the app:
+Přístup k nástroji získáte kliknutím na ikonu karty ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PluginManagerTab.PNG) v pravé části aplikace:
 
 ![](../.gitbook/assets/c1.PNG)
 
-## Plugin Categories
+## Kategorie modulů plug-in
 
-The Plugin Manager organizes plugins into categories to help you find the plugins you're most interested in.
+Nástroj Plugin Manager uspořádává moduly plug-in do kategorií, což usnadňuje nalezení modulů, které vás nejvíce zajímají.
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed Plugins:** Plugins already installed by the user.&#x20;
+**Installed:** Moduly plug-in již byly nainstalovány uživatelem.&#x20;
 
-**Recommended Plugins:** Plugins that the FormIt team recommends for expanding FormIt's core functionality and unlocking new workflows. Community-developed plugins appear here after being approved by the FormIt team.\
-GitHub tag:  _formit-plugin-recommended_
+**Recommended:** Moduly plug-in, které tým aplikace FormIt doporučuje k rozšíření základních funkcí aplikace FormIt a odemknutí nových pracovních postupů. Moduly plug-in vyvinuté komunitou se zde objeví po schválení týmem aplikace FormIt.\
+Štítek GitHub: _formit-plugin-recommended_
 
-**Public Plugins:** Plugins built by the community. Plugins in this category have not been reviewed or approved by the FormIt team. \
-GitHub tag:  _formit-plugin_
+**Public:** Moduly plug-in vytvořené komunitou. Moduly plug-in v této kategorii nebyly zkontrolovány ani schváleny týmem FormIt. \
+Štítek tag: _formit-plugin_
 
-**For Developers Plugins**: Plugins built by the community to enable the creation of new FormIt plugins. \
-GitHub tag:  _formit-plugin-developers_
+**For Developers**: Moduly plug-in vytvořené komunitou za účelem vytváření nových modulů plug-in aplikace FormIt. \
+Štítek tag: _formit-plugin-developers_
 
-## Add Your Private or Local Plugin
+## Přidání soukromého nebo místního modulu plug-in
 
-If you're [developing your own plugin](how-to-develop-plugins/), you can add its private URL into the field at the bottom of the panel and click (+):
+Pokud [vyvíjíte vlastní modul plug-in](how-to-develop-plugins/), můžete přidat jeho soukromou adresu URL do pole v dolní části a kliknout na tlačítko (+):
 
 ![](../.gitbook/assets/d4.PNG)
 
-For more information on adding your private or local plugin, see [Previewing a Plugin in the Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+Další informace o přidávání soukromého nebo místního modulu plug-in naleznete v části [Zobrazení náhledu modulu plug-in v nástroji Plugin Manager. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
-## Resetting the Plugin Manager
+## Obnovení nástroje Plugin Manager
 
-The Plugin Manager uses registry keys on Windows to store your installed repositories and plugins. If you need to reset your Plugin Manager to its defaults, delete the following registry key:
+Nástroj Plugin Manager používá v systému Windows k ukládání nainstalovaných úložišť a modulů plug-in klíče registru. Pokud potřebujete obnovit výchozí nastavení nástroje Plugin Manager, odstraňte následující klíč registru:
 
 `Computer\HKEY_CURRENT_USER\Software\Autodesk\FormIt 360\Plugins`
 
-⚠️ Note: This will uninstall all user-added repos and plugins, resetting the Plugin Manager to include only the built-in repos and plugins.
+⚠️ Poznámka: Tímto způsobem odinstalujete všechny úložiště a moduly plug-in přidané uživatelem a obnovíte nástroj Plugin Manager tak, aby obsahoval pouze integrovaná úložiště a moduly plug-in.
 
-## Installing Plugins
+## Instalace modulů plug-in
 
-The [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) includes a number of plugins, organized under different categories. Each plugin has a name, description, GitHub link, and Install toggle.&#x20;
+[Plugin Manager](how-to-use-plug-ins.md#plugin-manager) obsahuje řadu modulů plug-in, které jsou uspořádány v různých kategoriích. U každého modulu plug-in je zobrazen název, popis, odkaz na GitHub a přepínač pro instalaci.&#x20;
 
 ![](../.gitbook/assets/d5.PNG)
 
-To install a plugin, simply turn on the toggle next to the plugin's name.&#x20;
+Chcete-li nainstalovat modul plug-in, jednoduše přepněte přepínač vedle názvu modulu.&#x20;
 
 ![](../.gitbook/assets/d6.png)
 
-The icon of the selected plugin will appear in the right panel. Click it to display the plugin's UI.
+Ikona vybraného modulu plug-in se zobrazí v pravém panelu. Kliknutím na tuto ikonu zobrazíte uživatelské rozhraní modulu plug-in.
 
 ![](../.gitbook/assets/d7.PNG)
 
-## Using Plugins
+## Používání modulů plug-in
 
-Each plugin has a unique UI defined by its developer. A plugin usually has a set of instructions on how to use it, a set of parameters (text boxes, sliders, checkboxes, etc.), and one or more buttons to execute it.
+Každý modul plug-in má jedinečné uživatelské rozhraní definované vývojářem. Modul plug-in obvykle obsahuje sadu pokynů, jak jej používat, sadu parametrů (textová pole, posuvníky, zaškrtávací políčka atd.) a jedno nebo více tlačítek pro jeho spuštění.
 
-As an example, we'll use one of the simpler examples in the Plugin Manager: Fillet 2D Corners. We first load the plugin from the Recommended section of the Plugin Manager. Then, following the instructions provided by the developer, we set the fillet radius, select a group of faces to fillet, and click the Fillet Corners button.
+Jako příklad použijeme jeden z jednodušších příkladů v nástroji Plugin Manager: Fillet 2D Corners. Nejprve načtete modul plug-in z části Recommended (Doporučené) v nástroji Plugin Manager. Poté podle pokynů vývojáře nastavíme poloměr zaoblení, vybereme skupinu ploch, které chcete zaoblit, a klikneme na tlačítko Fillet Corners (Zaoblit rohy).
 
 ![](../.gitbook/assets/g4.gif)
 

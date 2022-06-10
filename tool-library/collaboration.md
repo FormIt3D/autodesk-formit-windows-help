@@ -13,8 +13,5 @@ S předplatným aplikace FormIt Pro získáte přístup k funkci spolupráce v
 
 ## Zahájení relace spolupráce
 
-1. V rozevíracím seznamu Spolupráce vyberte možnost Spustit relaci sdílení. ![](../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8.png)
-2. Odešlete spolupracovníkům e-mailem odkaz. Tento odkaz vyzve příjemce, aby se přihlásili ke svým účtům Autodesk a ihned začali spolupracovat. ![](../.gitbook/assets/collaborate.png)
-
-
-
+1. V rozevíracím seznamu Spolupráce vyberte možnost Spustit relaci sdílení. ![](<../.gitbook/assets/6c166d38-6851-4d62-b2dc-8f83efd958f8 (1).png>)
+2. Odešlete spolupracovníkům e-mailem odkaz. Tento odkaz vyzve příjemce, aby se přihlásili ke svým účtům Autodesk a ihned začali spolupracovat. ![](<../.gitbook/assets/collaborate (1).png>)

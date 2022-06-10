@@ -4,7 +4,4 @@
 
 Pomocí palety Vlastnosti můžete upravit skupinu objektu, přiřadit objekt k hladině a změnit materiál objektu.
 
-![](../.gitbook/assets/properties_palette.png)
-
-
-
+![](../.gitbook/assets/properties\_palette.png)

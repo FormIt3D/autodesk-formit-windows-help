@@ -1,31 +1,31 @@
-# Publishing Your Project
+# Publikování projektu
 
-### Publishing from the Plugin Playground
+### Publikování z nástroje Plugin Playground
 
-When you’re ready to share your plugin with others, use the Publish![](<../../../.gitbook/assets/image (66).png>)button to publish your project.
+Když budete připraveni sdílet modul plug-in s ostatními, publikujte projekt pomocí tlačítka Publikovat![] (<../../.gitbook/assets/image (66).png>).
 
-![](https://formit3d.github.io/PluginPlayground/images/save4.png)
+![](<../../../.gitbook/assets/publish a plugin.png>)
 
 ###
 
-### Hosting Your Plugin on GitHub
+### Hostování modulu plug-in na GitHubu
 
-Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+Povolte službu GitHub Pages v úložišti, aby aplikace FormIt mohla načítat a zobrazovat vaše moduly plug-in hostované na GitHubu.
 
-Go to your new [GitHub ](https://github.com)plugins repo, for example, [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn)
+Přejděte do nového úložiště modulů plug-in na [GitHubu](https://github.com), například [https://github.com/h-iL/myFormItPlugIn](https://github.com/h-iL/myFormItPlugIn).
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+V horní nabídce klikněte na Settings > Pages (Nastavení > Stránky). V části Source (Zdroj) klikněte na tlačítko None (Žádný) a vyberte větev main (hlavní). Klikněte na tlačítko Save (Uložit).
 
 ![](<../../../.gitbook/assets/image (30).png>)
 
-### Deploying Your Plugin in FormIt&#x20;
+### Rozmístění modulu plug-in v aplikaci FormIt
 
-To use a plugin hosted on GitHub, copy the plugin page link, go to the Plugin Manager and scroll to the bottom, and paste the link in the field under Add Your Private or Local Plugin. Then click the Add ![](<../../../.gitbook/assets/image (58).png>) button.
+Chcete-li použít modul plug-in hostovaný na GitHubu, zkopírujte odkaz na stránku modul plug-in, přejděte do nástroje Plugin Manager, přejděte dolů a vložte odkaz do pole Add Your Private or Local Plugin (Přidat soukromý nebo místní modul plug-in). Poté klikněte na tlačítko Přidat ![] (<../.../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (80).png>)
 
 ![](<../../../.gitbook/assets/image (85).png>)
 
-Once the plugin is installed, it will be added to the bottom of your toolbar, ready to use.
+Po instalaci bude modul plug-in přidán na konec panelu nástrojů a bude připraven k použití.
 
 ![](<../../../.gitbook/assets/image (38).png>)

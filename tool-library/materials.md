@@ -1,16 +1,16 @@
 # Materiály
 
-Vylepšete své modely aplikace FormIt pomocí materiálů, které podporují odrazy, lesk a mapy nerovností.
+Vylepšete své modely aplikace FormIt pomocí materiálů, které podporují odrazy, lesk a mapy nerovností nebo normální mapy.
 
 ## Panel Materiály
 
-![](<../.gitbook/assets/materials-sample-category (2).png>)
+![](<../.gitbook/assets/materials-sample-category (2) (1).png>)
 
 Na panelu materiálů můžete vybírat ze široké škály ukázek materiálů, procházet připojené knihovny materiálů a od verze aplikace FormIt 2021 také přistupovat k obsahu materiálů jiných souborů FormIt (.AXM) a používat je.
 
 ### Zdroje knihovny materiálů
 
-V aplikaci FormIt 2021 a novějších verzích obsahuje panel Materiály rozevírací seznam, ve kterém si můžete vybrat z dostupných zdrojů knihovny materiálů: V náčrtu, Ukázky materiálů a [připojené knihovny](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+V aplikaci FormIt 2021 a novějších verzích obsahuje panel Materiály rozevírací seznam, ve kterém si můžete vybrat z dostupných zdrojů knihovny materiálů: V náčrtu, Ukázky materiálů a [připojené knihovny](https://windows.help.formit.autodesk.com/v/czech/tool-library/materials#pripojeni-knihoven-materialu).
 
 ![](<../.gitbook/assets/materials-directory-picker (1).png>)
 
@@ -30,13 +30,13 @@ Zobrazí seznam dostupných vzorových materiálů. Tyto nabídky jsou uloženy 
 
 **Připojené knihovny**
 
-Další adresáře a umístění se zobrazí po [připojení knihoven materiálů](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+Další adresáře a umístění se zobrazí po [připojení knihoven materiálů](https://windows.help.formit.autodesk.com/v/czech/tool-library/materials#pripojeni-knihoven-materialu).
 
 ### Vytváření, odstraňování a kapátko
 
-![](../.gitbook/assets/materials\_add.PNG)**Vytvořte nový materiál** definováním jeho barvy, textury, mapy nerovností, mapy výřezů, průhlednosti a nastavení odlesku/lesku.
+![](../.gitbook/assets/materials\_add.PNG) **Vytvořte nový materiál** definováním jeho barvy, textury, mapy nerovností nebo normální mapy, mapy výřezů, průhlednosti a nastavení odlesku/lesku.
 
-![](<../.gitbook/assets/materials\_delete (1) (1).PNG>) **Odstranit** vybrané materiály.
+![](<../.gitbook/assets/materials\_delete (1).PNG>) **Odstranit** vybrané materiály.
 
 ![](../.gitbook/assets/materials\_eyedropper.PNG)**Kapátko** – Zkopírujte materiál ve scéně a ihned s ním začněte malovat.
 
@@ -45,7 +45,7 @@ Další adresáře a umístění se zobrazí po [připojení knihoven materiál�
 
 ### Obnovení, připojení knihoven a čištění nepoužívaných materiálů
 
-\*\*\*\*![](../.gitbook/assets/materials-link.png) **Připojte knihovny materiálů** z místních adresářů. Zobrazí se obsah v adresářích se soubory JPG, PNG nebo AXM (FormIt). Další informace naleznete v části [Připojení knihoven materiálů](https://windows.help.formit.autodesk.com/tool-library/materials#linking-material-libraries).
+![](../.gitbook/assets/materials-link.png) **Připojte knihovny materiálů** z místních adresářů. Zobrazí se obsah v adresářích se soubory JPG, PNG nebo AXM (FormIt). Další informace naleznete v části [Připojení knihoven materiálů](https://windows.help.formit.autodesk.com/v/czech/tool-library/materials#pripojeni-knihoven-materialu).
 
 ![](../.gitbook/assets/materials-refresh.png)**Obnovte** aktuální adresář. Tato možnost je povolena pouze při zobrazení místně připojeného adresáře (není k dispozici v seznamu V náčrtu nebo Ukázky materiálu).
 
@@ -115,10 +115,10 @@ Při vytváření nebo úpravě materiálu se zobrazí dialog Editor materiálu,
    * Kliknutím na ikonu Odstranit odstraníte mapu z tohoto materiálu.
       * **Textura ze souboru obrázku**
          * JPG nebo PNG
-      * **Mapa nerovností ze souboru obrázku**
+      * **Mapa nerovností nebo normální mapa ze souboru obrázku**
          * Doporučený formát JPG
          * Ideální pro přidání efektů hloubky k materiálům
-         * Pomocí freewaru, jako je například ShaderMap, můžete generovat mapy nerovností s danou texturou.
+         * Pomocí freewaru, jako je například ShaderMap, můžete generovat mapy nerovností / normální mapy s danou texturou.
       * **Mapa výřezů ze souboru obrázku**
          * PNG
          * Ideální pro materiály se selektivní průhledností, jako jsou ploty z drátěného pletiva nebo děrované panely.
@@ -142,7 +142,7 @@ Pomocí nástroje **Upravit umístění materiálu** můžete změnit výchozí 
    * Pokud plocha dědí svůj materiál ze své nadřazené skupiny, bude nutné nejprve pomalovat plochu přímo.
 * Nástroj Upravit umístění materiálu můžete spustit pomocí klávesové zkratky MP nebo z místní nabídky, která se zobrazí po kliknutí pravým tlačítkem myši:
 
-![](../.gitbook/assets/adjust-material-placement.PNG)
+![](../.gitbook/assets/adjust-material-placement.png)
 
 Pomocí ovládacích prvků na obrazovce můžete interaktivně přesouvat a otáčet textury materiálů a měnit jejich měřítko přímo na ploše:
 

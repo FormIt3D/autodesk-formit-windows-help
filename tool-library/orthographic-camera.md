@@ -1,18 +1,38 @@
-# Ortografická kamera
+# Ortografická a perspektivní kamera
 
-Aplikace FormIt 2021 obsahuje novou funkci Ortografická kamera. V navigační nabídce naleznete tlačítka ortografického a perspektivního pohledu:
+Aplikace FormIt 2023 obsahuje několik možností ortografické a perspektivní kamery. V plovoucí navigační nabídce jsou k dispozici tlačítka Ortografická, 2bodová perspektiva a 3bodová perspektiva:
 
-![Tlačítka ortografického pohledu \(dolní\) a perspektivního pohledu \(horní\) kamery](../.gitbook/assets/screen-shot-2020-04-07-at-2.12.52-pm.png)
+![Tlačítka pohledů kamery – 3bodová perspektiva (nahoře), 2bodová perspektiva (uprostřed) a ortografická (dole)](../.gitbook/assets/camera-2point-floating-nav-blurred.png)
 
-Díky této nové možnosti můžete snadno přepínat mezi ortografickým a perspektivním pohledem kamery.
+### 3bodová perspektiva
 
-![Model lze přepnout z režimu perspektivní kamery do režimu ortografické kamery.](../.gitbook/assets/ortho-camera.gif)
+* Toto je výchozí perspektivní kamera. Při určitých úhlech kamery se svislé čáry zdánlivě sbíhají v blízkosti horního okraje kamery.
+* Poloha kamery nastavená v tomto režimu bude definovat rovinu oříznutí pro ortografickou kameru.
+* Při stisknuté klávese Ctrl a přiblížení v tomto režimu bude přiblížení prováděno konstantním tempem, aniž by se kamera při přibližování k objektům zpomalovala.
 
-V režimu ortografické kamery budou všechny ostatní nástroje kamery respektovat aktuální režim. Například možnost **Zarovnat kameru s plochou** zarovná ortografickou kameru s plochou, čímž vznikne ortografický bokorysný pohled.
+### 2bodová perspektiva
+
+* Tato kamera je podobná 3bodové perspektivě, ale zajišťuje, že svislé čáry zůstanou svislé.
+* Při určitých úhlech kamery se může geometrie jevit jako zkreslená, aby svislé čáry zůstaly vždy svislé.
+* Poloha kamery nastavená v tomto režimu bude definovat rovinu oříznutí pro ortografickou kameru.
+* Při stisknuté klávese Ctrl a přiblížení v tomto režimu bude přiblížení prováděno konstantním tempem, aniž by se kamera při přibližování k objektům zpomalovala.
+* 2bodová perspektiva je také pracovní režim, takže si všimnete, že svislé čáry zůstanou svislé i při změně kamery – to může při určitých úhlech kamery zkreslovat scénu.
+
+![](../.gitbook/assets/camera-2point-working-mode.gif)
+
+### Ortografická
+
+* Režim ortografického promítání vhodný pro diagramy, 3D detailní výkresy a další neperspektivní grafiku.
+* Poloha kamery nastavená v jednom ze dvou perspektivních režimů definuje rovinu oříznutí pro ortografickou kameru. Pokud se scéna neočekávaně ořízne, přepněte do perspektivního režimu, oddalte scénu a poté přepněte zpět do ortografického režimu.
+
+### Použití režimů
+
+Všechny režimy kamery jsou plnohodnotné pracovní režimy s přístupem k navigačním a kreslicím nástrojům v libovolném režimu, který upřednostňujete. Nabídka umožňuje snadno přepínat mezi různými kamerami.&#x20;
+
+![Přepínání tří různých režimů kamery: 3bodová perspektiva, 2bodová perspektiva a ortografická.](../.gitbook/assets/perspective-gif.gif)
+
+Po výběru kamery budou všechny ostatní nástroje kamery respektovat aktuální režim. Například možnost **Zarovnat kameru s plochou** zarovná ortografickou kameru s plochou, čímž vznikne ortografický bokorysný pohled.
 
 Pokud ručně přejdete k přednastavenému ortografickému pohledu, například hornímu pohledu nebo přednímu pohledu, ortografická kamera se k této poloze přichytí, což usnadní používání těchto přednastavených pohledů.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
-
-**Poznámka:** Pokud v režimu ortografické kamery dojde k oříznutí kamery, můžete přepnout zpět do režimu perspektivního pohledu, oddálit pohled a poté akci opakovat.
-

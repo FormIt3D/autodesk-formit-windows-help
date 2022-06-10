@@ -4,7 +4,7 @@
 
 V aplikaci FormIt 2021 a novějších verzích můžete uspořádat objekty podél trajektorie a rychle přizpůsobovat výsledky na místě. Skript Array Along Path používá technologii aplikace Dynamo, což znamená, že pole lze snadno konfigurovat tak, abyste dosáhli požadovaných výsledků, a novým spuštěním logiky dojde k aktualizaci geometrie na místě.
 
-![](../.gitbook/assets/array-along-path.gif)
+![](<../.gitbook/assets/array-along-path (1).gif>)
 
 ## Spuštění skriptu Array Along Path
 
@@ -16,7 +16,7 @@ V aplikaci FormIt 2021 a novějších verzích můžete uspořádat objekty pod
 * Nyní se zobrazí výzva k výběru trajektorie pro pole.
    * Zde byste měli vybrat pouze řadu přilehlých hran nebo skupinu obsahující řadu přilehlých hran.
    * Po výběru trajektorie klikněte na tlačítko „Dokončit“ nebo stiskněte klávesu Enter.
-* Na panelu Dynamo se zobrazí zpráva o zpracování změn. Po dokončení této operace budete mít ve skupině aplikace FormIt pole vytvořené aplikací Dynamo, které bude připraveno k úpravám \(viz níže\).
+* Na panelu Dynamo se zobrazí zpráva o zpracování změn. Po dokončení této operace budete mít ve skupině aplikace FormIt pole vytvořené aplikací Dynamo, které bude připraveno k úpravám (viz níže).
 
 ## Iterace na místě
 
@@ -26,9 +26,9 @@ Při spuštění skriptu Array Along Path se vytvoří nová skupina obsahujíc�
 
 K vlastnostem skriptu Array Along Path se můžete kdykoli vrátit výběrem skupiny a přepnutím na panel vlastností nebo úpravou skupiny, která automaticky zobrazí vlastnosti.
 
-![](../.gitbook/assets/array-along-path-options.png)
+![](<../.gitbook/assets/array along path (2).png>)
 
-### Select Object\(s\) to Array <a id="run"></a>
+### Select Object(s) to Array <a href="#run" id="run"></a>
 
 Kliknutím na toto tlačítko se vrátíte do průvodce výběrem a můžete změnit, které objekty budou přidány do pole.
 
@@ -36,7 +36,7 @@ Kliknutím na toto tlačítko se vrátíte do průvodce výběrem a můžete zm�
 
 Kliknutím na toto tlačítko se vrátíte do průvodce výběrem a změníte trajektorii, která se použije k výpočtu pole.
 
-### Array Type <a id="run"></a>
+### Array Type <a href="#run" id="run"></a>
 
 Přepíná typ pole, které se má vypočítat: podle vzdálenosti nebo podle počtu.
 
@@ -77,15 +77,13 @@ Hodnota **False**:
 
 Pouze pro uzavřené trajektorie. Při použití skriptu Array Along Path s uzavřenou trajektorií může směr křivky neočekávaně převrátit očekávané výsledky pole. Pokud jsou výsledky převráceny, přepnutím této možnosti na hodnotu **True** obrátíte směr pole.
 
-### Run <a id="run"></a>
+### Run <a href="#run" id="run"></a>
 
 Po úpravě možností kliknutím na tlačítko Run spusťte základní graf aplikace Dynamo a vygenerujte nové výsledky. Toto tlačítko se po změně parametrů zbarví modře, abyste věděli, že je třeba na tlačítko kliknout, aby se aktualizace zobrazily ve výsledné geometrii.‌
 
-### Edit Embedded Graph <a id="edit-embedded-graph"></a>
+### Edit Embedded Graph <a href="#edit-embedded-graph" id="edit-embedded-graph"></a>
 
 Kliknutím na toto tlačítko spustíte prostředí editoru grafu aplikace Dynamo, ve kterém můžete prohlížet a upravovat základní graf Dynamo a rychle měnit parametry a zobrazovat živé aktualizace nebo kontrolovat či upravovat logiku.
-
-
 
 ## Výběr geometrie
 
@@ -98,6 +96,3 @@ Při výběru objektů pro skript Array Along Path a další grafy aplikace Dyna
 * Pomocí okna pro výběr oblasti můžete uchopit řadu objektů.
 * Můžete vybrat objekty, které již byly vybrány, a zrušit jejich výběr.
 * Abyste mohli pokračovat v kroku založeném na výběru, je nutné vybrat alespoň jeden objekt.
-
-
-

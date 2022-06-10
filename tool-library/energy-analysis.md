@@ -1,4 +1,5 @@
 # Energetická analýza s aplikací Insight
 
-Informace o používání energetické analýzy naleznete [zde](https://windows.help.formit.autodesk.com/formit-primer/part-ii/2.9-solar-and-insight-energy-analysis).
+![](<../.gitbook/assets/image (22).png>)
 
+[Informace o aplikacích FormIt a Insight naleznete v části Možnosti aplikace FormIt.](../formit-capabilities/analysis.md)

@@ -1,28 +1,28 @@
-# Debugging
+# Ladění
 
-Debugging a FormIt plugin requires different procedures depending on the engine you are debugging. (For more information on engines check the [previous section](client-side-vs-web-side-engines.md))
+Ladění modulu plug-in FormIt vyžaduje různé postupy v závislosti na modulu, který ladíte. (Další informace o modulech naleznete v [předchozí části](client-side-vs-web-side-engines.md))
 
-### **Client-Side (FormIt) Debugging**
+### **Ladění na straně klienta (FormIt)**
 
-To debug in FormIt-side code, which applies to both toolbar- and panel-based plugins, you can add a line in the code to pop the desktop application's built-in JS debugger:
+Chcete-li ladit kód na straně aplikace FormIt, což platí pro moduly plug-in panelů nástrojů i moduly plug-in panelů, můžete do kódu přidat řádek, který spustí vestavěný ladicí program JS počítačové aplikace:
 
 `debugger`
 
 ![](../../../.gitbook/assets/debugger.gif)
 
-### **Web-Side (HTML) Debugging**
+### **Ladění na straně webu (HTML)**
 
-Panel-based FormIt plugins offer HTML-based UI debugging, since the panels are fundamentally HTML websites with styling and scripts.
+Moduly plug-in panelů aplikace FormIt nabízejí ladění uživatelského rozhraní založené na jazyce HTML, protože panely jsou v podstatě webové stránky HTML se styly a skripty.
 
-To debug HTML-side code for plugins built into a panel, including scripts and styling:
+Ladění kódu HTML pro moduly plug-in panelů, včetně skriptů a stylů:
 
-* **FormIt for Windows 2021.1 and newer**
-  * Right-click on the plugin HTML page and click "Debug" to display the application's built-in HTML debugger.
+* **Aplikace FormIt pro systém Windows 2021.1 a novější**
+   * Klikněte pravým tlačítkem na stránku HTML modulu plug-in a kliknutím na položku Debug (Ladit) zobrazte vestavěný ladicí program HTML aplikace FormIt.
 
 ![](../../../.gitbook/assets/debugpanelplugin.gif)
 
-* **FormIt for Web**
-  * Use shortcut F12, or Ctrl + Shift+ I, to pull up the browser's HTML debugger.
+* **FormIt pro web**
+   * Pomocí klávesové zkratky F12 nebo Ctrl+Shift+I spusíte ladicí program HTML v prohlížeči.
 
 ![](../../../.gitbook/assets/debugonweb.gif)
 

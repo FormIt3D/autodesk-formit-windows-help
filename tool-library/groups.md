@@ -6,7 +6,7 @@ Skupiny lze vytvářet a upravovat dvěma způsoby: buď z místní nabídky vy
 
 ## Interakce se skupinami
 
-Chcete-li **vytvořit skupinu**, vyberte prvky, které chcete seskupit, například hrany, plochy, tělesa nebo jiné skupiny, a klikněte pravým tlačítkem myši. V místní nabídce vyberte nástroj **Skupina \(G\)**. Importované obrázky a satelitní snímky nelze seskupit.
+Chcete-li **vytvořit skupinu**, vyberte prvky, které chcete seskupit, například hrany, plochy, tělesa nebo jiné skupiny, a klikněte pravým tlačítkem myši. V místní nabídce vyberte nástroj **Skupina (G)**. Importované obrázky a satelitní snímky nelze seskupit.
 
 Chcete-li **vybrat skupinu**, jednou na ni klikněte. Všimněte si přerušovaných čar, které se zobrazí při výběru skupiny. Tyto čáry označují celkovou velikost skupiny.
 
@@ -55,4 +55,3 @@ V aplikaci FormIt můžete zadat **kategorie** skupin tak, aby se z vašich sk
 K zadání názvu skupiny aplikace FormIt můžete použít také panel **Vlastnosti**. To může být užitečné při navigaci ve vlastním modelu a při importu modelu do aplikace Revit můžete prvky snadno filtrovat pomocí názvu skupiny.
 
 Všimněte si, že **vnořené skupiny v aplikaci FormIt nejsou importovány do aplikace Revit jako vnořené skupiny**. Tím se zabrání hluboce vnořeným rodinám aplikace Revit.
-

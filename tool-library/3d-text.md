@@ -4,7 +4,7 @@
 
 V aplikaci FormIt 2021 a novějších verzích lze generovat a upravovat 3D textové objekty, které používají technologii aplikace Dynamo. Aplikace Dynamo umožňuje upravovat písmo, velikost a další vlastnosti textu na místě, aniž by bylo nutné text v případě potřeby znovu generovat a měnit jeho umístění.
 
-![](../.gitbook/assets/3d-text.gif)
+![](<../.gitbook/assets/3d-text (1).gif>)
 
 ## Umístění 3D textu
 
@@ -25,7 +25,7 @@ Volby 3D textu jsou dostupné v panelu vlastností při výběru skupiny 3D tex
 
 Po počátečním umístění 3D textu se automaticky zobrazí panel vlastností. Můžete také vybrat skupinu a přepnout na vlastnosti sami nebo dvojitým kliknutím na skupinu automaticky přepnout na panel vlastností.
 
-![](../.gitbook/assets/3d-text-options.png)
+![](<../.gitbook/assets/3d-text-options (2).png>)
 
 ### Text
 
@@ -33,7 +33,7 @@ Zadejte text, který chcete zobrazit v geometrii 3D textu. V tomto poli se tak
 
 ### Font
 
-Vyberte písmo 3D textu. V tomto seznamu se zobrazí písma dostupná v počítači a výběrem nového písma se aktualizuje obsah v poli Text. 
+Vyberte písmo 3D textu. V tomto seznamu se zobrazí písma dostupná v počítači a výběrem nového písma se aktualizuje obsah v poli Text.
 
 Všimněte si, že některá písma mají složitější geometrii a jejich generování pomocí aplikace Dynamo může trvat delší dobu.
 
@@ -51,23 +51,23 @@ Tímto nastavením se text zarovná vzhledem k počátku místního souřadnico
 
 ![](../.gitbook/assets/3d-text-text-size.png)
 
-Výška textu v aktuálních jednotkách aplikace FormIt.
+Výška textu. Jednotka je založena na uzlu [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) a lze použít libovolnou jednotku.
 
 ### Extrusion Depth
 
-Velikost 3D vysunutí textu v aktuálních jednotkách aplikace FormIt. 3D text je navržen tak, aby tvořil těleso, takže tato hodnota nemůže být nulová, ale můžete ji nastavit velmi blízko 0, aby nebylo tak patrné, že je vysunutý.
+Velikost 3D vysunutí textu v jednotkách nastavených pomocí uzlu [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes). 3D text je navržen tak, aby tvořil těleso, takže tato hodnota nemůže být nulová, ale můžete ji nastavit velmi blízko 0, aby nebylo tak patrné, že je vysunutý.
 
 ### Tracking
 
 ![](../.gitbook/assets/3d-text-tracking.png)
 
-Tato možnost umožňuje nastavit výchozí mezery mezi písmeny určitého písma. Použijí se aktuální jednotky aplikace FormIt a hodnota může být kladná nebo záporná. Pokud jsou jednotky například stopy, hodnota 0.25 přidá mezi jednotlivá písmena 3" mezeru. Naopak hodnota -0.25 přiblíží všechna písmena o 3".
+Tato možnost umožňuje nastavit výchozí mezery mezi písmeny určitého písma. Používá jednotku nastavenou pomocí uzlu [FormItLengthString](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes) a může být kladná nebo záporná. Pokud jsou jednotky například stopy, hodnota 0.25 přidá mezi jednotlivá písmena 3" mezeru. Naopak hodnota -0.25 přiblíží všechna písmena o 3".
 
 ### Multi-Line Spacing
 
 ![](../.gitbook/assets/3d-text-multi-line.png)
 
-Pokud je v poli Text více řádků, tato hodnota určuje, jak velká mezera bude mezi jednotlivými řádky textu. Použijí se aktuální jednotky aplikace FormIt.
+Pokud je v poli Text více řádků, tato hodnota určuje, jak velká mezera bude mezi jednotlivými řádky textu. Používá jednotku nastavenou pomocí uzlu [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 ### Invert Text
 
@@ -79,13 +79,13 @@ Pokud je vybrána hodnota True, vytvoří tato možnost kolem textu těleso a od
 
 ![](../.gitbook/assets/3d-text-inverted-border.png)
 
-Platí pouze v případě, že je možnost Invert Text nastavena na hodnotu True. Určuje velikost ohraničení okolo textu, které se použije pro těleso, z něhož je text odstraněn. Použijí se aktuální jednotky aplikace FormIt.
+Platí pouze v případě, že je možnost Invert Text nastavena na hodnotu True. Určuje velikost ohraničení okolo textu, které se použije pro těleso, z něhož je text odstraněn. Používá jednotku nastavenou pomocí uzlu [FormItLengthString ](https://formit.autodesk.com/page/formit-dynamo/#dynamo-formit-nodes).
 
 ### Curve Faceting Quality
 
 Křivky z písem jsou pomocí 3D textu převedeny na úsečkové segmenty, takže tato hodnota určuje, jak jemně jsou křivky složeny z plošek.
 
-Nižší čísla budou mít za následek hrubší plošky \(delší úsečky\) a vyšší čísla budou mít za následek jemnější plošky \(kratší úsečky\). Tato hodnota přepíše nastavení tvorby plošek křivek a ploch v předvolbách aplikace FormIt.
+Nižší čísla budou mít za následek hrubší plošky (delší úsečky) a vyšší čísla budou mít za následek jemnější plošky (kratší úsečky). Tato hodnota přepíše nastavení tvorby plošek křivek a ploch v předvolbách aplikace FormIt.
 
 ### Run
 
@@ -103,7 +103,7 @@ Pokud iterujete možnosti 3D textu, může být rychlejší spustit editor grafu
 
 Editor grafu aplikace Dynamo můžete spustit kliknutím na tlačítko Edit Embedded Graph na panelu vlastností.
 
-![](../.gitbook/assets/3d-text-edit-embedded-windows.png)
+![](<../.gitbook/assets/3d-text-edit-embedded-windows (1).png>)
 
 ## Řešení potíží
 
@@ -114,8 +114,3 @@ Některá písma mohou vytvářet „křivky, které protínají samy sebe“, n
 Pokud při pokusu o spuštění 3D textu dojde k chybě nebo pokud písmena zmizí, můžete kliknout na tlačítko Edit Embedded Graph, abyste zjistili, co je s grafem špatně a kde může docházet k chybě.
 
 Některá písma mají také známé problémy, které brání jejich převedení do správné geometrie. Příkladem je písmo Bahnschrift. Pokud narazíte na jiné problematické písmo, [dejte nám vědět na fórech](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). Uděláme, co bude v našich silách, abychom problémy s konkrétními písmy vyřešili.
-
-
-
-
-

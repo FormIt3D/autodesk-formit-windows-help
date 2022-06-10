@@ -1,36 +1,36 @@
-# Cloning a Sample Plugin
+# Klonování vzorového modulu plug-in
 
-### Clone an Existing FormIt Plugin Repo
+### Klonování existujícího úložiště modulu plug-in pro aplikaci FormIt
 
-You can clone various plugin repos from the FormIt team. These plugins demonstrate different UI types and some advanced functionality that can be achieved with plugins.
+Můžete klonovat různá úložiště modulů plug-in od týmu aplikace FormIt. Tyto moduly plug-in demonstrují různé typy uživatelského rozhraní a některé pokročilé funkce, kterých lze dosáhnout pomocí modulů plug-in.
 
-Each plugin is stored in its own repo. You can find them here: [FormIt3D Organization Repos](https://github.com/FormIt3D)
+Každý doplněk je uložen ve svém vlastním úložišti. Najdete je v [úložišti struktury FormIt3D ](https://github.com/FormIt3D).
 
 ### GitHub Desktop
 
-[GitHub Desktop](https://desktop.github.com) provides an easy-to-use interface for cloning repos, seeing changes to files, and pushing/pulling changes between your local computer and online repos. Some of the features GitHub desktop provides are:
+Aplikace [GitHub Desktop](https://desktop.github.com) poskytuje intuitivní rozhraní pro klonování úložišť, prohlížení změn v souborech a přesouvání změn mezi místním počítačem a online úložišti. Mezi funkce, které aplikace GitHub Desktop nabízí, patří například:
 
-* Create a new repo to host your plugin on GitHub.
-* Use GitHub Desktop to clone your new (empty) GitHub repository to your local machine.
-* Develop your plugin by adding new files to the repo folder locally.
-* Use GitHub Desktop to push your plugin files and directories to your repository.
-* Enable GitHub Pages in your repository so FormIt can load and display your GitHub-hosted plugins.
+* Vytvoření nového úložiště, které bude hostovat váš modul plug-in na GitHubu.
+* Klonování nového (prázdného) úložiště GitHubu do místního počítače.
+* Vytvoření modulu plug-in přidáním nových souborů do místní složky úložiště.
+* Odeslání souborů a adresářů modulu plug-in do úložiště.
+* Povolení služby GitHub Pages v úložišti, aby aplikace FormIt mohla načítat a zobrazovat vaše moduly plug-in hostované na GitHubu.
 
-### Clone a Sample Plugin Repo with GitHub Desktop
+### Klonování vzorového úložiště modulu plug-in pomocí aplikace GitHub Desktop
 
-In GitHub, choose a plugin project you wish to clone or modify. Click the **Code** button, and copy the address from the dropdown.
+Na GitHubu vyberte projekt modulu plug-in, který chcete klonovat nebo upravit. Klikněte na tlačítko **Code** (Kód) a zkopírujte adresu z rozevíracího seznamu.
 
 ![](<../../../.gitbook/assets/image (78).png>)
 
-Open your GitHub desktop app, click **Current Repository**, and then select **Clone Repository**.
+Otevřete aplikaci GitHub Desktop, klikněte na položku **Current Repository** (Aktuální úložiště) a vyberte možnost **Clone Repository** (Klonovat úložiště).
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
-Select the **URL** tab, paste the copied link into first field, and choose a local folder path on your computer to save these files. Click **Clone**.
+Vyberte kartu **URL**, vložte zkopírovaný odkaz do prvního pole a vyberte cestu k místní složce v počítači, do které chcete tyto soubory uložit. Klikněte na tlačítko **Clone** (Klonovat).
 
 ![](<../../../.gitbook/assets/image (46).png>)
 
-### Open Your Project in Visual Studio Code
+### Otevření projektu v aplikaci Visual Studio Code
 
-Launch Visual Studio Code. Go to **File** > **Open Folder** and select the folder that contains your plugin files and folders, for example, C:\Users\Documents\GenerateStringLights\v22\_0
+Spusťte aplikaci Visual Studio Code. Přejděte do umístění **File** (Soubor) > **Open Folder** (Otevřít složku) a vyberte složku, která obsahuje soubory a složky modulu plug-in, například C:\Users\Documents\GenerateStringLights\v22\_0.
 

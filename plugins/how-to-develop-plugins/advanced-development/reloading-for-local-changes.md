@@ -1,16 +1,15 @@
-# Reloading for Local Changes
+# Opakované načtení místních změn
 
-While developing a plugin you may need to quickly reload your latest code updates without reloading the whole app. This can be achieved in both web and windows versions of FormIt without reloading the whole app.
+Při vývoji modulu plug-in můžete potřebovat rychle načíst nejnovější aktualizace kódu, aniž byste museli načítat celou aplikaci. To můžete provést jak ve webové verzi aplikace FormIt, tak ve verzi pro systém Windows.
 
-## Web Reloading
+## Opakované načtení ve webové verzi
 
-💡 **** To reload your plugin in FormIt web right-click on the plugin's HTML and click on `Reload Frame`&#x20;
+?? Chcete-li znovu načíst modul plug-in ve webové aplikaci FormIt, klikněte pravým tlačítkem na kód HTML modulu plug-in a potom klikněte na možnost `Reload Frame`.
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
-## Windows Reloading
+## Opakované načtení ve verzi pro systém Windows
 
-💡 **** To reload your plugin in FormIt windows right-click on the plugin's HTML and click on `Hard Reload` &#x20;
+?? Chcete-li znovu načíst doplněk v aplikaci FormIt pro systém Windows, klikněte pravým tlačítkem na kód HTML modulu plug-in a potom klikněte na možnost `Hard Reload`.
 
 ![](../../../.gitbook/assets/d18.png)
-

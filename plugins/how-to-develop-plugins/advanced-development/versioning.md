@@ -1,22 +1,22 @@
-# Versioning
+# Správa verzí
 
-As you develop and update your plugin, at some point, you may need to version the code.
+Při vývoji a aktualizaci zásuvného modulu může být v určitém okamžiku nutné spravovat verze kódu.
 
-For example, FormIt's APIs may change between releases, and while you may want the new version of your plugin to use new FormIt or WSM APIs, you'd also like to keep the plugin working in older clients.
+Například rozhraní API aplikace FormIt se mohou mezi verzemi měnit, a i když chcete, aby nová verze modulu plug-in používala nová rozhraní API aplikace FormIt nebo WSM, je vhodné zachovat funkčnost modulu plug-in i ve starších klientech.
 
-Starting with FormIt **v18.0**, you can implement versioning for your plugin in 3 simple steps:
+Počínaje verzí aplikace FormIt **18.0** můžete implementovat správu verzí modulu plug-in ve 3 jednoduchých krocích:
 
-* Add a _versions.json_ file to the root of your plugin directory
-* Specify each compatible FormIt version, and the directory containing those plugin files, in _versions.json_
-* Use the FormIt internal version number, or "Build Number", found in FormIt under Info > About.
+* Do kořenové složky adresáře modulu plug-in přidejte soubor _versions.json_.
+* V souboru _versions.json_ zadejte každou kompatibilní verzi aplikaci FormIt a adresář obsahující soubory modulu plug-in.
+* Použijte interní číslo verze aplikace FormIt neboli „číslo sestavení“, které najdete v aplikaci FormIt v nabídce Informace > O aplikaci.
 
 
 
-### How to organize versioning for your plugin
+### Jak uspořádat verze pro modul plug-in
 
-Organize your plugin files and directories to match _versions.json_
+Uspořádejte soubory a adresáře modulů plug-in tak, aby odpovídaly souboru _versions.json_.
 
-Your _versions.json_ should look like this:
+Soubor _versions.json_ by měl vypadat takto:
 
 ```
         [
@@ -35,10 +35,10 @@ Your _versions.json_ should look like this:
                 "path":"v19_0"
             }
         ]
-        
+
 ```
 
-The above paths _v18\_0_ and _v19\_0_ must be valid subpaths from the root of your directory/repository.
+Výše uvedené cesty _v18\_0_ a _v19\_0_ musí být platné dílčí cesty kořenového adresáře/úložiště.
 
 ![](../../../.gitbook/assets/i1.png)
 
@@ -46,22 +46,22 @@ The above paths _v18\_0_ and _v19\_0_ must be valid subpaths from the root of yo
 
 ![](../../../.gitbook/assets/i3.png)
 
-A great way to handle this is to move your plugin code into subdirectories. Using the above _versions.json_, a directory structure would look like this:
+Skvělým způsobem, jak to vyřešit, je přesunout kód modulu plug-in do podadresářů. Při použití výše uvedeného souboru _versions.json_ by adresářová struktura vypadala takto:
 
-* **versions.json** (file)
-*   **v18\_0** (directory)
+* **versions.json** (soubor)
+* **v18\_0** (adresář)
 
-    * **manifest.json** (file)
-    * **plugin.html** (file)
-    * **plugin.js** (file)
+   * **manifest.json** (soubor)
+   * **plugin.html** (soubor)
+   * **plugin.js** (soubor)
 
 
-* **v19\_0** (directory)
-  * **manifest.json** (file)
-  * **plugin.html** (file)
-  * **plugin.js** (file)
+* **v19\_0** (adresář)
+   * **manifest.json** (soubor)
+   * **plugin.html** (soubor)
+   * **plugin.js** (soubor)
 
-Optional properties on version are "exactVersion" and "lastVersion". "exactVersion" indicates the version has to match FormIt's version exactly. "lastVersion" indicates the last version allowed to run in FormIt.\
+Volitelné vlastnosti verze jsou „exactVersion“ a „lastVersion“. „exactVersion“ označuje, že verze musí přesně odpovídat verzi aplikace FormIt. „lastVersion“ označuje poslední verzi, která může být v aplikaci FormIt spuštěna.\
 
 
 ```
@@ -85,10 +85,10 @@ Optional properties on version are "exactVersion" and "lastVersion". "exactVersi
  ]
 ```
 
-It's also possible to use git branches/tags/commits for your paths.
+Pro cesty je také možné použít větve, popisky, nebo příkazy commit systému Git.
 
-If you're working with a pre-release or beta build of FormIt, and would like to test changes to a plugin that only works with the pre-release version:
+Pokud pracujete s předběžnou verzí nebo beta sestavením aplikace FormIt a chcete otestovat změny modulu plug-in, který funguje pouze s předběžnou verzí:
 
-* Follow the steps above, except using the filename _versions\_prerelease.json_
-* If you commit _versions\_prerelease_ to your repo, you'll want to remove it when that pre-release version of FormIt is released
-  * Otherwise, future pre-release FormIt versions will be loading the plugin from a location that could be stale or intended for an older version
+* Postupujte podle výše uvedených kroků kromě použití názvu souboru _versions\_prerelease.json_.
+* Jestliže do svého úložiště zapíšete verzi _versions\_prerelease_, měli byste ji odebrat, až bude tato předběžná verze aplikace FormIt vydána.
+   * V opačném případě budou budoucí předběžné aplikace FormIt načítat modul plug-in z umístění, které může být zastaralé nebo určené pro starší verzi.

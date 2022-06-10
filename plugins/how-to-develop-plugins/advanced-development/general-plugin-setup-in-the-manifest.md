@@ -1,12 +1,12 @@
-# General Plugin Setup in the Manifest
+# Obecné nastavení modulu plug-in v manifestu
 
-FormIt plugins are composed of a key core component called a _manifest.json_ file.&#x20;
+Moduly plug-in aplikace FormIt se skládají z hlavní komponenty zvané soubor _manifest.json_.&#x20;
 
-The manifest file is a [JSON object](http://www.json.org) that tells the FormIt infrastructure what files to fetch and what kind of plugin to create.
+Soubor manifestu je [objekt JSON](https://www.json.org/json-cz.html), který aplikaci FormIt říká, jaké soubory má načíst a jaký druh modulu plug-in vytvořit.
 
-### Manifest.json Structure and Properties
+### Struktura a vlastnosti souboru manifest.json
 
-A manifest.json file has the following structure. It has additional properties depending on whether it's a [toolbar-based](../additional-development-options/creating-a-toolbar-based-plugin.md) or an [HTML panel-based plugin](../additional-development-options/creating-an-html-panel-plugin.md).
+Soubor manifest.json má následující strukturu. V závislosti na tom, zda se jedná o [modul plug-in založený na panelu nástrojů](../additional-development-options/creating-a-toolbar-based-plugin.md) nebo [modul plug-in založený na panelu HTML](../additional-development-options/creating-an-html-panel-plugin.md) má další vlastnosti.
 
 ```
 {
@@ -22,17 +22,17 @@ A manifest.json file has the following structure. It has additional properties d
 }               
 ```
 
-A typical plugin includes these JSON properties:
+Typický modul plug-in obsahuje tyto vlastnosti JSON:
 
-* "PluginName" represents the name of the plugin for internal and most display purposes, including for the [Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
-* "PluginType" represents the type of the plugin, letting users know in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) description what to look for when they install the plugin.
-* "PluginDescription" is displayed in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) to communicate the plugin's capabilities.
-* "Scripts" lists the required external scripts associated with the plugin that will be loaded into the FormIt application and can be executed when plugin functionality is invoked.
+* „PluginName“ představuje název modulu plug-in pro interní účely a většinu zobrazovacích účelů, včetně nástroje [ Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
+* „PluginType“ představuje typ modulu plug-in, který uživatelům v nástroje [c](../../how-to-use-plug-ins.md#plugin-manager) umožňuje zjistit, na co se mají při instalaci modulu plug-in zaměřit.
+* „PluginDescription“ se zobrazuje v okně nástroje [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) a informuje o možnostech modulu plug-in.
+* „Scripts“ uvádí požadované externí skripty přidružené k modulu plug-in, které budou načteny do aplikace FormIt a mohou být spuštěny při vyvolání funkce modulu plug-in.
 
 ![](<../../../.gitbook/assets/image (5).png>)
 
-Start your plugin development by creating a manifest.json file in your plugin folder. Next, you'll need to decide whether you are making a toolbar-based or panel-based plugin.
+Vývoj modulu plug-in začněte vytvořením souboru manifest.json ve složce modulu plug-in. Dále se musíte rozhodnout, zda vytváříte modul plug-in panelu nástrojů nebo panelu.
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
-**Note:** The use of PLUGINLOCATION throughout the manifest.json file above is essential and is case sensitive. FormIt will replace PLUGINLOCATION with the server location for the plugin.
+**Poznámka:** Použití parametru PLUGINLOCATION ve výše uvedeném souboru manifest.json je nezbytné a jsou rozlišována malá a velká písmena. Aplikace FormIt nahradí parametr PLUGINLOCATION umístěním serveru pro modul plug-in.

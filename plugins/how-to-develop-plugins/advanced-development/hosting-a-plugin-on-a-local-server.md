@@ -1,63 +1,62 @@
-# Hosting a Plugin on a Local Server
+# Hostování modulu plug-in na místním serveru
 
-Before you can preview a cloned plugin in FormIt, you need to host it on a local server.
+Před zobrazením náhledu klonovaného modulu plug-in v aplikaci FormIt je nutné jej hostovat na místním serveru.
 
-### **View the Terminal in IDE**
+### **Zobrazení terminálu v integrovaném vývojovém prostředí**
 
-You have the option of starting the server inside Visual Studio Code, instead of a separate terminal window. **** Before opening a terminal, make sure the right folder is opened in Visual Studio Code.
+Místo v samostatném okně terminálu můžete server spustit uvnitř aplikace Visual Studio Code. \*\*\*\* Před spuštěním terminálu se ujistěte, že je v aplikaci Visual Studio Code otevřena správná složka.
 
-View > Terminal (or shortcut Ctrl + \`)
+Klikněte na nabídku View > Terminal (Zobrazit > Terminál), nebo použijte klávesovou zkratku Ctrl + \`.
 
 ![](<../../../.gitbook/assets/image (11).png>)
 
-### Set Up an HTTP Server
+### Nastavení serveru HTTP
 
-An HTTP server that works well is npm's [http-server](https://www.npmjs.com/package/http-server).
+Dobře fungující server HTTP je server [http-server](https://www.npmjs.com/package/http-server) společnosti npm.
 
-First, you will need to download and install [NodeJS](https://nodejs.org/en/), if it's not already installed.
+Nejprve je nutné stáhnout a nainstalovat prostředí [NodeJS](https://nodejs.org/en/), pokud již není nainstalováno.
 
-If you encounter errors in the following steps, try restarting your computer to complete the NodeJS installation.
+Pokud v následujících krocích narazíte na chyby, zkuste restartovat počítač a dokončit instalaci NodeJS.
 
-In the Command Prompt, enter the following to install npm's _http-server_ globally (a one-time setup).
+Zadáním následujícího příkazu do příkazového řádku globálně nainstalujte _http-server_ společnosti npm (jednorázová instalace).
 
 * `npm install http-server -g`
 
 ![](<../../../.gitbook/assets/image (47).png>)
 
-### Start the Local Server
+### Spuštění místního serveru
 
-Once the setup is complete, run the following command in the terminal to start your npm http-server:
+Po dokončení instalace zadejte v terminálu následující příkaz, který spustí npm http-server:
 
 * `http-server`
 
 ![](<../../../.gitbook/assets/image (84).png>)
 
-Tip 1: In case of any issues with running the http-server (installed globally or locally), it may be helpful to run it directly via npx:
+Tip 1: V případě problémů se spuštěním http-serveru (instalovaného globálně nebo místně) jej můžete spustit přímo prostřednictvím npx:
 
 * `npx http-server`
 
-Tip 2: For Windows 10/11 users, if you encounter an error when running a script on your new machine, this may be due to the settings being disabled. To fix this:
+Tip 2: Pokud uživatelé systému Windows 10 nebo 11 narazí při spuštění skriptu v novém počítači na chybu, může to být způsobeno zakázaným nastavením. Opravte problém následujícím způsobem:
 
-* Launch PowerShell script as an administrator&#x20;
-* Enter: `Set-ExecutionPolicy RemoteSigned`&#x20;
+* Spusťte skript PowerShell jako správce.
+* Zadejte: `Set-ExecutionPolicy RemoteSigned`
 
-### Develop for FormIt Web
+### Vývoj pro webovou aplikaci FormIt
 
-To develop for FormIt Web, simply run the following command instead:
+Chcete-li vytvářet moduly plug-in pro webovou aplikaci FormIt, jednoduše spusťte následující příkaz:
 
 * `http-server --cors`
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-### Verify Your Server
+### Ověření serveru
 
-You can verify your server by navigating to the following address in your web browser:&#x20;
+Server můžete ověřit přechodem na následující adresu ve webovém prohlížeči:
 
 * http://localhost:8080
 
-You should see your project folder files in the browser window.
+V okně prohlížeče by se měly zobrazit soubory ve složce projektu.
 
-\*\*If you use a different web server than npm, the default address/port might be different.
+\*\*Pokud používáte jiný webový server než npm, může se výchozí adresa nebo port lišit.
 
 ![](<../../../.gitbook/assets/image (41).png>)
-

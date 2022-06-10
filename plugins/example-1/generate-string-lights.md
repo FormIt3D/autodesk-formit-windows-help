@@ -1,34 +1,34 @@
-# Generate String Lights
+# Generování světelných řetězů
 
-_In this chapter, we are going to sample a few of the plugins that come with FormIt to make some improvements to the_ _**Encode Campus Sample Model.axm**. If you have not already, you can download the file from the_ [_FormIt Primer Part II DataSet_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
+_V této kapitole si ukážeme několik modulů plug-in, které jsou součástí aplikace FormIt, a provedeme několik vylepšení souboru_ _**Encode Campus Sample Model.axm**. Pokud jste tak ještě neučinili, můžete si soubor stáhnout z _[_datové sady k příručce Základy aplikace FormIt, Část II_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)__
 
-_This neat plugin lets you quickly add hanging lights to your model based on a line or curve._
+_Tento praktický modul plug-in umožňuje do modelu rychle přidat závěsná světla na ve tvaru čáry nebo křivky._
 
-1 - Before adding any new lights, let's check out the intended result using a premade scene in the model.
+1 – Před přidáním nových světel se podívejme na zamýšlený výsledek pomocí předem vytvořené scény v modelu.
 
-1. To jump to the scene containing existing string lights, open the **Scenes Palette** and double click on the scene named **Eye Level – Short Alley**.
-2. Notice the string lights that came with this model – that is what we are going to recreate, but somewhere else.
-3. In the **Layer Palette**, turn on the **Helper Geometry** layer so you can see the original lines used to generate these string lights.
+1. Chcete-li přejít na scénu obsahující existující světelné řetězy, otevřete **paletu Scény** a dvakrát klikněte na scénu s názvem **Eye Level – Short Alley**.
+2. Všimněte si světelného řetězu obsaženého v tomto modelu – tento řetěz chceme znovu vytvořit, ale někde jinde.
+3. Na **paletě Hladina** zapněte hladinu **Pomocná geometrie**, aby se zobrazily původní čáry použité k vytvoření těchto světelných řetězů.
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - Now let’s navigate to the other alley and add some lights. In the **Scenes Palette** open the **Eye Level – Long Alley** scene. Notice that this alley does not yet have any string lights.
+2 – Nyní přejdeme do druhé uličky a přidáme světla. Na **paletě Scény** otevřete scénu **Eye Level – Long Alley**. Všimněte si, že v této uličce ještě nejsou žádné světelné řetězy.
 
-3 - To create a new string of lights:
+3 – Vytvoření nových světelných řetězů:
 
-1. Open the newly installed **Generate String Lights Palette** by clicking on the string light icon. By default, the icons for new plugins appear at the bottom.
-2. Change the **Number of Fixtures** option to **10**.
-3. Double-click on one of the helper lines to edit the pre-created **String Lights – Long Alley** group. Then single-click on one of the pre-drawn helper lines to select it.
-4. Click the **Generate String Lights** button inside the plugin’s palette, and a new string of lights should appear! Note that each string of lights is created as its own unique group.
+1. Kliknutím na ikonu světelného řetězu otevřete nově nainstalovanou **paletu Generování světelných řetězů**. Ve výchozím nastavení se ikony nových modulů plug-in zobrazují v dolní části.
+2. Do pole **Počet svítidel** zadejte hodnotu **10**.
+3. Dvakrát klikněte na jednu z pomocných čar, abyste upravili předem vytvořenou skupinu **Světelné řetězy – dlouhá ulička**. Poté jedním kliknutím vyberte jednu z předpřipravených pomocných čar.
+4. Na paletě modulu plug-in klikněte na tlačítko **Generovat světelné řetězy**. Měl by se zobrazit nový světelný řetěz. Všimněte si, že každý světelný řetěz je vytvořen jako vlastní jedinečná skupina.
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
-_**Note:**_ _It is OK that some of the lines are going through the “Groove Coffee” sign, because the string light plugin creates a catenary curve that will sag realistically below the sign._
+_**Poznámka:**_ _Nedělejte si starosti, že některé čáry procházejí nápisem „Groove Coffee“, protože modul plug-in světelných řetězů vytváří řetězovou křivku, která se pod nápisem realisticky prohne._
 
-4 - Try creating some more string lights by using the other pre-made helper line and/or creating some of your own helper lines. Play around with the plugin’s settings to get different results.
+4 – Zkuste vytvořit další světelné řetězy pomocí další přednastavené pomocné čáry nebo si vytvořte vlastní pomocné čáry. Experimentujte s nastavením modulu plug-in, abyste získali různé výsledky.
 
-5 - To help keep the model organized, when finished we recommend grouping all the helper lines and placing that group on the **Helper Geometry** layer, as well as assigning all string light groups to the **Context – Exterior Lighting** layer. This will prevent the helper lines from showing up in any of the ‘Eye Level’ scenes where we do not want to see them. When finished, the results should look something like the next screenshot.
+5 – Aby byl model lépe uspořádán, doporučujeme po dokončení seskupit všechny pomocné čáry a umístit tuto skupinu do hladiny **Pomocná geometrie** a také přiřadit všechny skupiny světelných řetězů k hladině **Kontext – vnější osvětlení**. Tím se zabrání tomu, aby se pomocné čáry objevily v některé ze scén „Eye Level", kde je nechceme vidět. Až budete hotovi, měly by vaše výsledky vypadat podobně jako na následujícím obrázku.
 
 ![](<../../.gitbook/assets/5 (3) (1).png>)
 
-_**Note:**_ _Unlike geometry created from a Dynamo script, which can be updated and regenerated through the_ _**Properties Palette**, objects created by a plugin are (for the most part) just regular FormIt geometry. Once created, they can only be edited using FormIt’s built in modeling tools._
+_**Poznámka:**_ _Na rozdíl od geometrie vytvořené pomocí skriptu aplikace Dynamo, kterou lze aktualizovat a znovu vytvořit prostřednictvím_ _**palety Vlastnosti**, jsou objekty vytvořené pomocí modulu plug-in (většinou) běžnou geometrií aplikace FormIt. Po vytvoření je lze upravovat pouze pomocí integrovaných modelovacích nástrojů aplikace FormIt._

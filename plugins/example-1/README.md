@@ -1,12 +1,12 @@
-# Examples
+# Příklady
 
-In this section you will find sample plugin implementations to follow along:
+V této části najdete vzorové implementace zásuvných modulů, které můžete sledovat:
 
-* [Generate string lights](generate-string-lights.md)
-* [Manage Cameras Plugin](manage-cameras-plugin.md)
-* [Properties Plus Plugin](properties-plus-plugin.md)
-* [3D Context Generator](3d-context-creator.md)
+* [Generování světelných řetězů](generate-string-lights.md)
+* [Modul plug-in Manage Cameras](manage-cameras-plugin.md)
+* [Modul plug-in Properties Plus](properties-plus-plugin.md)
+* [3D Context Creator](3d-context-creator.md)
 
-We also recommend that you check the [FormIt Plugin Community](formit-plugin-community.md) section, where you can find plugin examples from other developers as well as guidelines on how to submit and showcase your plugins for the wider FormIt community. &#x20;
+Doporučujeme také, abyste si prošli část [Komunita modulů plug-in pro aplikaci FormIt](formit-plugin-community.md), kde najdete příklady modulů plug-in od jiných vývojářů, a také pokyny týkající se odesílání a prezentace modulů plug-in pro širší komunitu aplikace FormIt.
 
 ![](<../../.gitbook/assets/g6 (2).gif>)

@@ -1,15 +1,15 @@
-# Using an IDE
+# Používání integrovaného vývojového prostředí
 
-Developing plugins with the [Plugin Playground](../your-first-plugin/plugin-playground.md) is simple and convenient. However, you may want to develop plugins using an external integrated development environment (IDE). Some of the benefits of using an IDE include:&#x20;
+Vývoj modulů plug-in pomocí nástroje [Plug-in Playground](../your-first-plugin/plugin-playground.md) je jednoduchý a pohodlný. Moduly plug-in však můžete vytvářet i pomocí externího integrovaného vývojového prostředí (IDE). Mezi výhody používání integrovaného vývojového prostředí patří:&#x20;
 
-* You can use your preferred IDE, which may provide syntax error correction, extensions, etc.
-* You can collaborate with colleagues to develop a FormIt plugin via a GitHub repository.
-* You can develop private plugins and host them on a local server.
+* Můžete použít své preferované IDE, které může poskytovat opravu syntaktických chyb, rozšíření atd.
+* Můžete spolupracovat s kolegy na vývoji modulu plug-in pro aplikaci FormIt prostřednictvím úložiště na GitHubu.
+* Můžete vytvořit soukromé moduly plug-in a hostovat je na místním serveru.
 
-### Install an IDE
+### Instalace integrovaného vývojového prostředí
 
-A free IDE that works well for FormIt plugin development is Microsoft's [Visual Studio Code](https://code.visualstudio.com/Download). Follow the link to download the setup file and complete the installation.
+Bezplatným prostředím IDE, které lze bez problémů použít k vývoji modulů plug-in pro aplikaci FormIt, je [Visual Studio Code](https://code.visualstudio.com/Download) společnosti Microsoft. Klikněte na odkaz, stáhněte instalační soubor a dokončete instalaci.
 
-We will be using Visual Studio Code for this demonstration, but you may use your preferred code editor. Make sure your IDE includes a terminal for running your local server.
+V této ukázce budeme používat aplikaci Visual Studio Code, ale můžete použít svůj preferovaný editor kódu. Zkontrolujte, zda vaše integrované vývojové prostředí obsahuje terminál pro spuštění místního serveru.
 
 ![Visual Studio Code](../../../.gitbook/assets/FCJ3c67VkAAJfiV.jpg)

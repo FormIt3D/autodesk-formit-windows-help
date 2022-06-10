@@ -6,35 +6,35 @@ _Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.2
 
 ## **Výpočet velikost obrázku**
 
-Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o rozměrech 24" x 26", který je široký 3 600 pixelů a vysoký 2 400 pixelů. Když znáte měřítko výkresu \(¼"=1'-0"\) a rozměry obrázku, můžete vypočítat, že 1’ = 25 pixelů, což znamená, že obrázek by měl mít po importu do aplikace FormIt v plném měřítku rozměry 144' x 96'.
+Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o rozměrech 24" x 26", který je široký 3 600 pixelů a vysoký 2 400 pixelů. Když znáte měřítko výkresu (¼"=1'-0") a rozměry obrázku, můžete vypočítat, že 1’ = 25 pixelů, což znamená, že obrázek by měl mít po importu do aplikace FormIt v plném měřítku rozměry 144' x 96'.
 
-![](../../.gitbook/assets/0%20%281%29.png)
+![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **Import obrázku v měřítku**
 
 1 – Kliknutím na ikonu **Horní pohled** na **plovoucím panelu nástrojů Navigace** zobrazte scénu shora.
 
-![](../../.gitbook/assets/1%20%281%29.png)
+![](<../../.gitbook/assets/1 (1).png>)
 
-2 – Na panelu nástrojů 3D náčrt vyberte nástroj **Obdélník \(R\)**.
+2 – Na panelu nástrojů 3D náčrt vyberte nástroj **Obdélník (R)**.
 
-![](../../.gitbook/assets/2%20%281%29.png)
+![](<../../.gitbook/assets/2 (1).png>)
 
 3 – Chcete-li vytvořit obdélník o rozměrech přesně **144’** x **96’**, kliknutím kdekoli v pracovním prostoru definujte počáteční bod a poté pohybem myši zobrazte náhled a zadejte délku první strany. Začněte zadávat hodnotu kóty, čímž se zobrazí dialog, do kterého můžete zadat přesnou kótu. Kliknutím na tlačítko **OK** nebo stisknutím klávesy **Enter** potvrďte kótu. Opakujte postup, nastavte délku druhé strany a dokončete obdélník.
 
-![Zadejte délku pro první stranu obdélníku.](../../.gitbook/assets/3%20%281%29.png)
+![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
 
-![Zadejte délku pro druhou stranu obdélníku.](../../.gitbook/assets/4%20%281%29.png)
+![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
 
-![Dokončete obdélník.](../../.gitbook/assets/5%20%281%29.png)
+![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
 
 4 – Vytvoření nového materiálu „Půdorys podlaží“:
 
 1. Otevřete **paletu Materiál**.
 2. Kliknutím na ikonu **+** vytvořte nový materiál.
 3. Pojmenujte nový materiál jako **Půdorys podlaží**
-4. V části **MAPY** klikněte na dlaždici náhledu **Textura** a přejděte k souboru **plan.png** ve složce **Farnsworth House Data Set &gt;  Supporting Files &gt; Images**. Poté klikněte na tlačítko **Otevřít**.
-5. V části **VLASTNOSTI** změňte měřítko obrázku zadáním hodnoty **144'** do pole **Horizontální měřítko** a **96'** do pole **Vertikální měřítko**. Všimněte si, že k vložení hodnot, které mění poměr stran obrázku, může být nutné odemknout horizontální a vertikální měřítko \(ikona **řetězu**\).
+4. V části **MAPY** klikněte na dlaždici náhledu **Textura** a přejděte k souboru **plan.png** ve složce **Farnsworth House·Data·Set·> Supporting Files >Images**. Poté klikněte na tlačítko **Otevřít**.
+5. V části **VLASTNOSTI** změňte měřítko obrázku zadáním hodnoty **144'** do pole **Horizontální měřítko** a **96'** do pole **Vertikální měřítko**. Všimněte si, že k vložení hodnot, které mění poměr stran obrázku, může být nutné odemknout horizontální a vertikální měřítko (ikona **řetězu**).
 6. Zaškrtněte políčko **Průhlednost** a nastavte hodnotu přibližně na polovinu rozsahu. To usnadní zarovnání importovaného obrázku půdorysu podlaží se satelitním snímkem.
 7. Kliknutím na tlačítko **OK** dokončete materiál.
 
@@ -47,7 +47,7 @@ Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o�
 
 ![](../../.gitbook/assets/7.jpeg)
 
-6 – Pokud se materiál zobrazuje převrácený nebo obrácený, bude nutné obrátit plochu. To provedete tak, že kliknutím pravým tlačítkem myši zobrazíte **místní nabídku** a vyberete tlačítko Obrátit plochu \(FF\).
+6 – Pokud se materiál zobrazuje převrácený nebo obrácený, bude nutné obrátit plochu. To provedete tak, že kliknutím pravým tlačítkem myši zobrazíte **místní nabídku** a vyberete tlačítko Obrátit plochu (FF).
 
 ![](../../.gitbook/assets/8.png)
 
@@ -59,7 +59,7 @@ Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o�
 
 2 – Otočení obdélníku tak, aby byl zarovnán se satelitním snímkem:
 
-1. Kliknutím pravým tlačítkem myši na obdélník zobrazte místní nabídku. Vyberte možnost **Otočit \(Q\)**
+1. Kliknutím pravým tlačítkem myši na obdélník zobrazte místní nabídku. Vyberte možnost **Otočit (Q)**
 2. Uprostřed obdélníku se zobrazí **pomůcka pro otočení**. Vyberte pomůcku kliknutím na oranžový uzel uprostřed. Přesuňte pomůcku do levého dolního rohu obdélníku. Pomůcka se přichytí k rohu. Kliknutím ji umístěte.
 3. Zadejte hodnotu **9**. Zobrazí se pole kóty. Kliknutím na tlačítko **OK** otočte obdélník o 9 stupňů proti směru hodinových ručiček.
 
@@ -69,7 +69,7 @@ Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o�
 
 ## **Zarovnání osnovy se satelitním snímkem**
 
-1 – Nyní zarovnáme osnovu se satelitním snímkem a půdorysem podlaží. Klikněte pravým tlačítkem myši kamkoli na **základní rovinu** a vyberte možnost **Nastavit osy \(SZ\)**.
+1 – Nyní zarovnáme osnovu se satelitním snímkem a půdorysem podlaží. Klikněte pravým tlačítkem myši kamkoli na **základní rovinu** a vyberte možnost **Nastavit osy (SZ)**.
 
 ![](../../.gitbook/assets/12.png)
 
@@ -77,7 +77,7 @@ Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o�
 
 ![](../../.gitbook/assets/13.png)
 
-3 – Klikněte na uzel na konci červené osy. Přesuňte uzel do pravého dolního rohu obdélníku tak, aby se červená osa zarovnala s dolní hranou roviny. Kliknutím na volné místo  potvrďte změnu.
+3 – Klikněte na uzel na konci červené osy. Přesuňte uzel do pravého dolního rohu obdélníku tak, aby se červená osa zarovnala s dolní hranou roviny. Kliknutím na volné místo potvrďte změnu.
 
 ![](../../.gitbook/assets/14.png)
 
@@ -90,4 +90,3 @@ Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o�
 ![](../../.gitbook/assets/16.png)
 
 6 – Satelitní snímek, obdélník a osnova jsou nyní zarovnány, což usnadní 3D kreslení.
-

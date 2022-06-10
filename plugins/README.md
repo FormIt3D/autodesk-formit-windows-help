@@ -1,15 +1,13 @@
-# Plugins
+# Moduly plug-in
 
 ![](../.gitbook/assets/gg1.gif)
 
-Plugins can improve your Autodesk FormIt® experience by expanding your modeling toolset. You can address specific design needs that are not included in FormIt's tool library.&#x20;
+Moduly plug-in mohou zlepšit možnosti aplikace Autodesk FormIt® rozšířením sady nástrojů pro modelování. S jejich pomocí můžete řešit specifické potřeby návrhu, které nejsou zahrnuty v knihovně nástrojů aplikace FormIt.
 
-The plugins section of this primer includes four chapters:
+Část týkající se modulů plug-in této příručky obsahuje čtyři kapitoly:
 
-1. [Introduction to Plugins](introduction.md): Basic information you need to know about plugins.
-2. [How to Use Plugins](how-to-use-plug-ins.md): If you are a FormIt user and want to give plugins a try, this section will guide you through the process of installing and using plugins.
-3. [How to Develop Plugins:](how-to-develop-plugins/) If you are a developer and want to go the extra mile, this section will guide you through the steps needed to develop a FormIt Plugin.
-4. [Examples:](example-1/) If you want to try out existing plugins, this section contains descriptions of some of the available plugins.&#x20;
-
-
-
+1. [Úvod k modulům plug-in](introduction.md): Základní informace, které potřebujete vědět o modulech plug-in.
+2. [Jak používat moduly plug-in](how-to-use-plug-ins.md): Pokud jste uživatel aplikace FormIt a chcete vyzkoušet moduly plug-in, tato část vás provede procesem jejich instalace a používáním.
+3. [Jak vyvíjet moduly plug-in:](how-to-develop-plugins/) Pokud jste vývojář a chcete si vyzkoušet něco nového, tato část vás provede kroky potřebnými k vývoji modulu plug-in pro aplikaci FormIt.
+4. [Rozhraní API aplikace FormIt](how-to-develop-plugins/useful-links.md): Odkazy na dokumentaci rozhraní API aplikace FormIt.
+5. [Příklady:](example-1/) Chcete-li si vyzkoušet existující moduly plug-in, naleznete v této části popisy některých dostupných modulů plug-in.

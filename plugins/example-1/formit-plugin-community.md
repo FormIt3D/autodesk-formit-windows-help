@@ -1,21 +1,21 @@
-# FormIt Plugin Community
+# Komunita modulů plug-in pro aplikaci FormIt
 
 ![](../../.gitbook/assets/C21.PNG)
 
-## Looking for Plugins?
+## Hledáte moduly plug-in?
 
-If you are looking for some ideas to develop your FormIt plugin, check out some of these examples:
+Pokud hledáte inspiraci pro vývoj svého modulu plug-in pro aplikaci FormIt, podívejte se na některé z těchto příkladů:
 
-* [Community plugins](https://github.com/topics/formit-plugin): Plugins developed by FormIt users and developers.
-* [Plugins recommended by FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): Plugins developed by the community and recommended by FormIt team.
-* [Plugins from FormIt](https://github.com/FormIt3D): Official Plugins developed by FormIt team.
+* [Moduly plug-in komunity](https://github.com/topics/formit-plugin): Moduly plug-in vyvinuté uživateli a vývojáři aplikace FormIt.
+* [Moduly plug-in doporučené týmem aplikace FormIt](https://github.com/search?q=org%3AFormIt3D+formit-plugin-recommended): Moduly plug-in vyvinuté komunitou a doporučené týmem aplikace FormIt.
+* [Moduly plug-in od týmu aplikace FormIt](https://github.com/FormIt3D): Oficiální moduly plug-in vyvinuté týmem aplikace FormIt.
 
-## Want FormIt to feature your plugin?
+## Chcete, aby aplikace FormIt obsahovala váš modul plug-in?
 
-If you have developed a plugin that would be useful for other FormIt users, we would love to hear more about it, so please let us know, we will review it and consider adding it **formit-plugin-recommended** list or feature it as [examples](./) in our primer.&#x20;
+Pokud jste vyvinuli modul plug-in, který by byl užitečný pro ostatní uživatele aplikace FormIt, rádi bychom se o něm dozvěděli více. Dejte nám vědět a my váš modul zkontrolujeme a zvážíme jeho přidání do seznamu **doporučených modulů plug-in pro aplikaci Formit** nebo jej použijeme jako [příklad](./) v naší příručce.&#x20;
 
 
 
-### Help from FormIt and the community
+### Nápověda od komunity a týmu aplikace FormIt
 
-Having issues building or running plugins? [Reach out to us!](https://forums.autodesk.com/t5/formit-forum/bd-p/142)
+Máte problémy s vytvářením nebo spouštěním modulů plug-in? [Kontaktujte nás!](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en)

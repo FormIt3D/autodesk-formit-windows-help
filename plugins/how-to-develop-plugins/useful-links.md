@@ -1,12 +1,10 @@
-# Useful Links
+# Rozhraní API aplikace FormIt
 
-## FormIt API
+Chcete-li získat přístup k dokumentaci rozhraní API pro aplikaci FormIt, použijte následující odkazy:
 
-To access FormIt's API documentation use the following links:
-
-* [FormIt Core JS API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html)
-* [FormIt Modeling Kernel (WSM) JS API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html)
-* [FormIt Core C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html)
-* [FormIt Modeling Kernel C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html)
+* [Rozhraní FormIt Core JS API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html)
+* [Rozhraní FormIt Modeling Kernel (WSM) JS API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html)
+* [Rozhraní FormIt Core C++ API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/index.html)
+* [Rozhraní FormIt Modeling Kernel C++](https://formit3d.github.io/FormItExamplePlugins/docs/FormItCPPAPI/group\_\_mod\_\_wsm\_\_api\_\_ref.html)
 
 ![](../../.gitbook/assets/c26.PNG)

@@ -1,18 +1,18 @@
-# Adding Your Own Features
+# Přidání vlastních funkcí
 
-### Inside the HTML, JavaScript, and CSS Panels
+### Panely jazyků HTML, JavaScript a CSS
 
-When you click Edit in the Plugin Playground sample plugin, you will see the HTML, JavaScript (JS), and CSS panels. The HTML panel (left) enables you to modify the user interface of your plugin. The JS panel (middle) enables you to write functions that can communicate to FormIt using the FormIt JS Plugin API. Finally, the CSS panel (right) will determine the style of your HTML.
+Když kliknete na tlačítko Edit (Upravit) ve vzorovém modulu plug-in Plugin Playground, uvidíte panely HTML, JavaScript (JS) a CSS. Panel HTML (vlevo) umožňuje upravit uživatelské rozhraní modulu plug-in. Panel JS (uprostřed) umožňuje psát funkce, které mohou komunikovat s aplikací FormIt pomocí rozhraní API modulu plug-in FormIt JS. Pomocí panelu CSS (vpravo) můžete definovat styl HTML.
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
-### Adding a Function to Create a Cylinder&#x20;
+### Přidání funkce pro vytvoření válce
 
-Let's add a feature to this plugin to create a cylinder.
+Přidejte do tohoto modulu plug-in funkci pro vytvoření válce.
 
-First, let's configure the input field and UI button in the HTML panel. Copy the following code and paste it after line 23 and before _\<!-- Do not remove below scripts unless you know what you're doing- - >_
+Nejprve nakonfigurujte vstupní pole a tlačítko uživatelského rozhraní v panelu HTML. Zkopírujte následující kód a vložte jej za řádek 23 a před řádek _\<!-- Do not remove below scripts unless you know what you're doing- - >_
 
-This will add some basic UI elements to our plugin.
+Tím do modulu plug-in přidáte některé základní prvky uživatelského rozhraní.
 
 ```
 <p>Cylinder: Create a cylinder at the origin.</p>
@@ -20,22 +20,22 @@ This will add some basic UI elements to our plugin.
     <input id="Radius" type=number value=2 />
     <label>Radius</label>
 </div>
-        
+
 <div>
     <input id="CHeight" type=number value =0.5 />
     <label>Height</label>
 </div>
-        
+
 
 <input id="CreateCylinderBtn" type=button value="Create Cylinder" />
-        
+
 ```
 
 ![](<../../../.gitbook/assets/image (86).png>)
 
-Next, let's add two functions in our JS panel. Copy the following code and paste it at the end of the file (after line 16).
+Nyní přidejte dvě funkce na panelu JS. Zkopírujte následující kód a vložte jej na konec souboru (za řádek 16).
 
-This will create a cylinder in our FormIt workspace.
+Tento kód umožní v pracovním prostoru aplikace FormIt vytvořit válec.
 
 ```
 // Create cylinder
@@ -65,12 +65,12 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ![](<../../../.gitbook/assets/image (82).png>)
 
-### Running and previewing
+### Spuštění a náhled
 
-When you’re ready to see the results, click the Play button ![](<../../../.gitbook/assets/image (81).png>) again and you will see your updates to the plugin in the same panel.
+Až si budete chtít prohlédnout výsledky, klikněte znovu na tlačítko Přehrát ![] (<../../../.gitbook/assets/image (81).png>) a na stejném panelu se zobrazí aktualizace modulu plug-in.
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
-### FormIt plugins API
+### Rozhraní API modulů plug-in pro aplikaci FormIt
 
-For complete documentation on the FormIt plugins API, see the [useful links](../useful-links.md) section.
+Úplnou dokumentaci k rozhraní API modulů plug-in pro aplikaci FormIt naleznete v části [užitečné odkazy](../useful-links.md).

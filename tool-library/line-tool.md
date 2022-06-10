@@ -4,7 +4,7 @@ Pomocí čar můžete rozdělit plochy a vytvořit geometrii.
 
 Klávesnice: L
 
-![](../.gitbook/assets/line_toolbar.png)
+![](../.gitbook/assets/line\_toolbar.png)
 
 Čáry můžete kreslit na ose X, Y nebo Z a také na existující geometrii. Při přichycení k ose se za kreslenou čáru prodlouží barevná čára označující osu, na kterou kreslíte. Během kreslení vidíte délku čáry, přičemž stisknutím klávesy **Tab** a zadáním hodnoty můžete ručně zadat konkrétní délku.
 
@@ -17,4 +17,3 @@ Chcete-li zadat délku, stačí zadat hodnotu kóty a zobrazí se dialog Upravit
 * Z = modrá
 
 ![](../.gitbook/assets/lines.png)
-

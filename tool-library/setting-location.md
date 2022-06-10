@@ -1,4 +1,4 @@
-# Umístění nastavení
+# Nastavení umístění
 
 Nastavení umístění projektu na světě je důležité pro přesnost modelu a následných analýz:
 
@@ -13,11 +13,11 @@ Pro přístup k dialogu Nastavit umístění a jeho službám musíte být při
 
 * Otevřete dialog **Nastavit umístění** pomocí nástroje **Umístění** na panelu nástrojů nebo pomocí klávesové zkratky SL.
 
-![](../.gitbook/assets/location-toolbar.png)
+![](<../.gitbook/assets/location-toolbar (1).png>)
 
-* Začněte zadávat umístění projektu do vyhledávacího pole v levém horním rohu okna _Nastavit umístění_.
+* Začněte zadávat umístění projektu do vyhledávacího pole v levém horním rohu okna _Nastavit umístění_.&#x20;
 
-![](../.gitbook/assets/location-step-1%20%281%29.png)
+![](<../.gitbook/assets/location-step-1 (1).png>)
 
 * Vyberte jednu z automaticky vyplňovaných možností umístění nebo stisknutím klávesy Enter vyberte první možnost.
 * Vyhledané umístění se automaticky přiblíží.
@@ -38,7 +38,7 @@ Po vyhledání umístění si můžete vybrat jednu ze dvou možností:
 
 * Přetažením satelitního snímku v rámci čtverce upravte jeho polohu.
 * Jakmile čtvercová oblast obsahuje požadovaný snímek, klikněte na tlačítko **Dokončit import**.
-* Snímek bude importován ve správném měřítku se skutečným severem směrem nahoru a bude vystředěn na počátek kreslicí plochy aplikace FormIt. Průhlednost a pořadí vykreslování importovaného snímku můžete změnit tak, že na něj dvakrát kliknete a přejdete do [**palety Vlastnosti**](../formit-introduction/tool-bars.md).
+* Snímek bude importován ve správném měřítku se skutečným severem směrem nahoru a bude vystředěn na počátek kreslicí plochy aplikace FormIt. Průhlednost a pořadí vykreslování importovaného snímku můžete změnit tak, že na něj dvakrát kliknete a přejdete do [**palety Vlastnosti**](../formit-introduction/tool-bars.md).&#x20;
 
 ![](../.gitbook/assets/location-step-3.png)
 
@@ -50,7 +50,7 @@ Po prvním importu satelitního snímku můžete v okně Nastavit umístění u
 * Klikněte na tlačítko **Importovat satelitní snímek a terén**
 * Zobrazí se aktuální úroveň přiblížení a rozsah satelitního snímku, jak je znázorněno na kreslicí ploše aplikace FormIt.
 * Nyní stačí upravit polohu nebo přiblížení a kliknout na tlačítko **Dokončit import**, stejně jako předtím.
-* Po novém importu snímku na kreslicí plochu se snímek přesune do správného umístění vzhledem k původní poloze obrázku \(již nemusí být vystředěn v počátku\):
+* Po novém importu snímku na kreslicí plochu se snímek přesune do správného umístění vzhledem k původní poloze obrázku (již nemusí být vystředěn v počátku):
 
 ![](../.gitbook/assets/location-step-4.png)
 
@@ -58,15 +58,15 @@ Po prvním importu satelitního snímku můžete v okně Nastavit umístění u
 
 Nově se v aplikaci FormIt 2021.3 při importu satelitních snímků pomocí dialogu **Nastavit umístění** importuje také terén.
 
-![](../.gitbook/assets/terrain-button_original.png)
+![](../.gitbook/assets/terrain-button\_original.png)
 
-Terén je při importu umístěn na hladině, která je ve výchozím nastavení vypnutá \(v případě, že jste začali modelovat, by model mohl být zakrytý terénem\).
+Terén je při importu umístěn na hladině, která je ve výchozím nastavení vypnutá (v případě, že jste začali modelovat, by model mohl být zakrytý terénem).
 
 Když budete připraveni zobrazit terén, zapněte hladinu Terén zaškrtnutím políčka:
 
-![](../.gitbook/assets/terrain-layer%20%281%29.png)
+![](<../.gitbook/assets/terrain-layer (1) (1).png>)
 
-![](../.gitbook/assets/terrain_solid.png)
+![](../.gitbook/assets/terrain\_solid.png)
 
 ### Práce s terénem
 
@@ -97,3 +97,12 @@ Výsledkem bude terén s odebraným tělesem a prázdným místem, kam můžete
 
 Pomocí [hladin](layers.md) můžete těleso oříznutí skrýt nebo dokonce vytvořit kopie terénu s řezem a bez něj pro případ, že byste potřebovali odkazovat na původní terén nebo změnit tvar řezu před provedením operace řezu objemovým tělesem.
 
+### Řešení potíží s dialogem Nastavit umístění
+
+Nastavení umístění v aplikaci FormIt vyžaduje připojení k internetu kvůli stažení satelitních a terénních dat ze služby Bing Maps.
+
+Protože je dialog Nastavit umístění interním modulem plug-in aplikace FormIt, vyžaduje navíc ke svému fungování přístup ke službě GitHub. Pokud máte problémy s dialogem Nastavit umístění, zkontrolujte, zda máte přístup k webu [https://github.io](https://github.io):&#x20;
+
+* Přejděte do webového prohlížeče.
+* Zkuste přejít do umístění [https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json](https://formit3d.github.io/SetLocationPlugin/v20\_0/manifest.json)
+* Pokud nevidíte žádná data, může vaše síť nebo brána firewall blokovat přístup ke službě GitHub.

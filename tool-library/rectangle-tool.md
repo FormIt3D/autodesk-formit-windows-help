@@ -21,4 +21,3 @@ Barvy čar podle osy:
 ![](../.gitbook/assets/rectangle2.png)
 
 Po dokončení kreslení obdélníku se z něj stane plocha, kterou lze vysunout a vytvořit tak objem.
-

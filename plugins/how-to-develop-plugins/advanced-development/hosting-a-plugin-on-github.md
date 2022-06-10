@@ -1,41 +1,37 @@
-# Hosting a Plugin on GitHub
+# Hostování modulu plug-in na GitHubu
 
-Have you built a useful plugin that you want to share? Host your repository on GitHub so that others can install your plugin from the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager)!
+Vytvořili jste užitečný modul plug-in, který chcete sdílet? Hostujte úložiště na GitHubu, aby ostatní mohli nainstalovat váš modul plug-in z nástroje [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager)!
 
-### Host Your Plugin Project
+### Hostování modulu plug-in
 
-This process is similar to an earlier chapter where we discuss how to [publish your plugin](../your-first-plugin/publishing-your-project.md) created in the Plugin Playground. &#x20;
+Tento proces je podobný předchozí kapitole, která se zabývá [publikováním modulu plug-in](../your-first-plugin/publishing-your-project.md) vytvořeného v nástroji Plugin Playground.
 
-Go to your new GitHub plugins repo, for example, https://github.com/Joe/JoesPlugins
+Přejděte do svého úložiště modulů plug-in na GitHubu, například https://github.com/Joe/JoesPlugins.
 
-In the top menu, click Settings > Pages. Under Source, click the None button and select the main branch. Click Save.
+V horní nabídce klikněte na Settings > Pages (Nastavení > Stránky). V části Source (Zdroj) klikněte na tlačítko None (Žádný) a vyberte větev main (hlavní). Klikněte na tlačítko Uložit.
 
 ![](<../../../.gitbook/assets/image (74).png>)
 
-### Continue to Update Your Plugin Project Locally
+### Místní aktualizace modulu plug-in
 
-At this point, you can continue adding, modifying, and testing plugins locally, and when you're ready to publish, use GitHub Desktop or another Git client to push your changes to your GitHub repo. Anyone consuming your repo and plugins will always get the latest code when they start FormIt.
+Nyní můžete pokračovat v přidávání, úpravách a testování modulů plug-in místně. Až budete připraveni k publikování, použijte aplikaci GitHub Desktop nebo jiného klienta Git k odeslání změn do úložiště na GitHubu. Každý, kdo používá vaše úložiště a moduly plug-in, získá při spuštění aplikace FormIt vždy nejnovější kód.
 
-### Publish Your Project
+### Publikování projektu
 
-For projects created in an IDE instead of [Plugin Playground](../your-first-plugin/plugin-playground.md), you can publish your plugin by adding a **FormIt-plugin** topic to your plugin's repository.
+U projektů vytvořených v integrovaném vývojovém prostředí, nikoli v nástroji [Plugin Playground](../your-first-plugin/plugin-playground.md), můžete modul plug-in publikovat přidáním tématu **FormIt-plugin** do úložiště modulů plug-in.
 
-This allows your plugin to be discovered in the [community plugins](../../example-1/formit-plugin-community.md) list.
+Díky tomu se váš modul plug-in zobrazí v seznamu [modulů plug-in vytvořených komunitou](../../example-1/formit-plugin-community.md).
 
-View your repo on GitHub by visiting your project link, for example, https://github.com/Joe/JoesPlugin
+Své úložiště si můžete na GitHubu prohlédnout tak, že navštívíte odkaz na svůj projekt, například https://github.com/Joe/JoesPlugin.
 
-Click on Settings in the top right corner.
+Klikněte na položku Settings (Nastavení) v pravém horním rohu.
 
 ![](<../../../.gitbook/assets/image (39).png>)
 
-Add a plugin description, add formit-plugin to the Topics field, and save changes.
+Přidejte popis modulu plug-in, do pole Topics (Témata) zadejte formit-plugin a uložte provedené změny.
 
 ![](<../../../.gitbook/assets/image (54).png>)
 
-Once saved, your plugin project will be added to the [community plugins](https://github.com/topics/formit-plugin) list.
-
-
-
-
+Po uložení bude váš projekt modulu plug-in přidán do seznamu [modulů plug-in vytvořených komunitou](https://github.com/topics/formit-plugin).
 
 ###

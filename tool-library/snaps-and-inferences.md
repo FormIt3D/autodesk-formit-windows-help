@@ -8,9 +8,9 @@ Chcete-li si usnadnit kreslení a modelování, používejte k přesnému vytvo
 
 Při vytváření náčrtů a modelování vám může pomoci několik uchopení. Přichytání k objektům je automaticky povoleno a přichytit se můžete k následujícím prvkům:
 
-|                                                                                                                                                                            |                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| Vrcholy | ![](<../.gitbook/assets/inf3 (3) (2).png>) |
+|                                                                                                                                                                            |                                        |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| Vrcholy | ![](<../.gitbook/assets/inf3 (3).png>) |
 | Hrany. Při umístění kurzoru nad hranu se na koncích a ve středovém bodu zabrazí malé červené tečky. | ![](../.gitbook/assets/inf4.png) |
 | Středové body hrany | ![](../.gitbook/assets/inf5.png) |
 | Rovina plochy. Při umístění kurzoru nad plochu se v těžišti plochy zobrazí malý červený bod. To vám usnadní nalezení bodu, pokud k němu chcete provést přichycení. | ![](../.gitbook/assets/inf6.png) |

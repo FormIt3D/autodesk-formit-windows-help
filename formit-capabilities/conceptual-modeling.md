@@ -15,8 +15,3 @@ Jádro pro modelování těles aplikace FormIt umožňuje pokročilé pracovní 
 **Pomocí nástrojů inteligentního výběru navíc můžete snadno a rychle vybrat podobnou geometrii:**
 
 {% embed url="https://www.youtube.com/watch?v=akLeB1FADt4" %}
-
-
-
-
-

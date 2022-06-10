@@ -1,21 +1,19 @@
-# Launching the Sample Plugin
+# Spuštění vzorového modulu plug-in
 
-### Running the Sample Plugin
+### Spuštění vzorového modulu plug-in
 
-A sample plugin comes loaded with the Plugin Playground. Click the Play button to run a plugin.
+Spolu s nástrojem Plugin Playground se načte vzorový modul plug-in. Kliknutím na tlačítko pro přehrání jej spusťte.
 
-![Step 1](https://formit3d.github.io/PluginPlayground/images/step1.png)
+![Step 1](<../../../.gitbook/assets/run a plugin.png>)
 
+Zobrazí se modul plug-in se 3 numerickými vstupy a tlačítkem Create Block (Vytvořit blok). Pokračujte a vyzkoušejte si tento modul plug-in, který na základě zadaných vstupních hodnot vytvoří krychli.
 
+### Zobrazení a úpravy kódu
 
-This will display a plugin with 3 numerical inputs and a Create Block button. Go ahead and test the plugin, which will create a cube based on the provided input values.
+Pokud chcete zobrazit kód pro tento modul plug-in, klikněte na tlačítko Edit (Upravit).
 
-### Viewing and Editing Code
+![Step2](<../../../.gitbook/assets/edit a plugin.png>)
 
-If you want to see the code behind this plugin, click the Edit button.
-
-![Step2](https://formit3d.github.io/PluginPlayground/images/step2.png)
-
-This will launch a dialog containing all the main pieces of a FormIt plugin: HTML, JavaScript, and CSS.
+Zobrazí se dialog obsahující všechny hlavní části modulu plug-in pro aplikaci FormIt: HTML, JavaScript a CSS.
 
 ![](<../../../.gitbook/assets/02-view and edit playground code.gif>)

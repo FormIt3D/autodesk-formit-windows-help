@@ -1,109 +1,109 @@
-# Setting Up FormIt for Development
+# Nastavení aplikace FormIt pro vývoj
 
-In order to test and build plugins in the FormIt desktop app, you'll need FormIt for Windows v17.0 or later.
+Chcete-li testovat a vytvářet moduly plug-in v počítačové aplikaci FormIt, budete potřebovat aplikaci FormIt pro systém Windows verze 17.0 nebo novější.
 
-### **Display Script Editor and Script Output**
+### **Zobrazení panelů Editor skriptů a Výstup skriptu**
 
-In the top menu of FormIt, go to **Window** in the top **** menu and check the **Script Editor** and **Script Output** boxes.
+V horní nabídce aplikace FormIt přejděte do nabídky **Okno** a zaškrtněte políčka **Editor skriptů** a **Výstup skriptu**.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
-The Script Editor and Script Output panels will appear at the bottom of the FormIt window.
+V dolní části okna aplikace FormIt se zobrazí panely Editor skriptů a Výstup skriptu.
 
-Switch between the Script Editor and Script Output by using the buttons at the bottom.
+Mezi panely Editor skriptů a Výstup skriptu můžete přepínat pomocí tlačítek v dolní části.
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditorDefaultState.PNG)
 
-You can also arrange both panels side by side. Click the button next to the "x" in the upper right corner to detach one of the panels, then drag and drop the panels next to each other:
+Můžete také uspořádat oba panely vedle sebe. Kliknutím na tlačítko vedle tlačítka „x“ v pravém horním rohu odpojte jeden z panelů a poté přetáhněte panely vedle sebe:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditor+ScriptOutputConfiguration.gif)
 
-### **Script Editor**
+### **Editor skriptů**
 
-The Script Editor provides a simple development environment where you can write and test code.
+Editor skriptů poskytuje jednoduché vývojové prostředí pro psaní a testovatání kódu.
 
-The Script Editor stores written code inside a scratch.js file in the directory where the FormIt.exe file is located.
+Editor skriptů ukládá napsaný kód do souboru scratch.js v adresáři, v němž je umístěn soubor FormIt.exe.
 
-At the top are two buttons:
+Nahoře jsou dvě tlačítka:
 
-**Run** ![](<../../../.gitbook/assets/image (8).png>): **** Executes all code written in the window.
+**Spustit** ![](<../../../.gitbook/assets/image (8).png>): Spustí veškerý kód zapsaný v okně.
 
-**Run Selection** ![](<../../../.gitbook/assets/image (52).png>):  ****  Executes only the selected/highlighted lines of code.
+**Spustit výběr** ![](<../../../.gitbook/assets/image (52).png>): Spustí pouze vybrané/zvýrazněné řádky kódu.
 
-### **Script Output**
+### **Výstup skriptu**
 
-The Script Output window displays any messages printed to the console from plugins.
+Okno Výstup skriptu zobrazuje všechny zprávy vypsané do konzoly z modulů plug-in.
 
-You can clear the output by running `console.clear();` in the Script Editor.
+Výstup můžete vymazat spuštěním příkazu `console.clear();` v Editoru skriptů.
 
-## Working with Sample Plugins
+## Práce se vzorovými moduly plug-in
 
-After [cloning a repository](cloning-a-sample-plugin.md) and [setting up a web server](hosting-a-plugin-on-a-local-server.md), you can now get your local plugins to show up in FormIt.
+Po [klonování úložiště](cloning-a-sample-plugin.md) a [nastavení webového serveru](hosting-a-plugin-on-a-local-server.md) můžete nyní v aplikaci FormIt zobrazit místní moduly plug-in.
 
-You can load or install any of the plugins, but for the purposes of this exercise, you'll install both a panel-based and a toolbar-based plugin. We'll assume your npm http-server is running on port 8080 hosting both example repositories.
+Můžete načíst nebo nainstalovat kterýkoli z modulů plug-in, ale pro účely tohoto cvičení budete instalovat jak modul plug-in založený na panelu, tak modul plug-in založený na panelu nástrojů. Budeme předpokládat, že váš npm http-server běží na portu 8080 a hostuje obě vzorová úložiště.
 
-### **Load vs. Install**
+### **Načtení a instalace**
 
-`FormIt.LoadPlugin();` loads the plugin only for the current session. The plugin will be unloaded automatically when the app is closed and restarted.
+Příkaz `FormIt.LoadPlugin();` načte modul plug-in pouze pro aktuální relaci. Modul plug-in bude automaticky uvolněn při ukončení a restartování aplikace.
 
-This is a great option for temporarily manifesting a plugin for testing in the current session only.
+Jedná se o skvělou možnost, jak dočasně zobrazit modul plug-in pro účely testování pouze v aktuální relaci.
 
-`FormIt.InstallPlugin();` makes the plugin persist using a registry key. This is great for plugins you'll use frequently from session to session.
+Příkaz `FormIt.InstallPlugin();` zajistí, že modul plug-in zůstane zachován pomocí klíče registru. Jedná se o vhodnou volbu pro moduly plug-in, které budete často používat v různých relacích.
 
-On Windows, the following registry keys are used to persist plugins:
+V systému Windows se k zachování modulů plug-in používají následující klíče registru:
 
-* Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Moduly plug-in: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
 
-Use `FormIt.UninstallPlugin();` to uninstall.
+K odinstalaci použijte příkaz `FormIt.UninstallPlugin();`.
 
-In the following examples, unless otherwise noted, feel free to use either _Install_ or _Load,_ depending on whether you want the results of the exercise to be persistent or not.
+Pokud není uvedeno jinak, v následujících příkladech můžete použít příkaz _Install_ nebo _Load_ podle toho, zda chcete, aby výsledky cvičení byly trvalé nebo nikoli.
 
-### **Toolbar Plugin Sample: Flip Along**
+### **Vzorový modul plug-in panelu nástrojů: Flip Along**
 
-In the Script Editor, run the following:
+V Editoru skriptů spusťte následující příkaz:
 
-If running a local server:
+Pokud používáte místní server:
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+Pokud se modul plug-in načítá z úložiště služby [FormIt GitHub](https://github.com/FormIt3D/) (nutné připojení k internetu):
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
-You should see the Flip Along toolbar appear at the top of the application window:
+V horní části okna aplikace by se měl zobrazit panel nástrojů Flip Along:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/FlipAlongToolbar.PNG)
 
-### **HTML Panel Plugin Sample: Properties Plus**
+### **Vzorový modul plug-in panelu HTML: Properties Plus**
 
-In the Script Editor, run the following:
+V Editoru skriptů spusťte následující příkaz:
 
-If running a local server:
+Pokud používáte místní server:
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+Pokud se modul plug-in načítá z úložiště služby [FormIt GitHub](https://github.com/FormIt3D/) (nutné připojení k internetu):
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
-You should see the Properties Plus panel appear on the right side of the application window:
+V pravé části okna aplikace by se měl zobrazit panel Properties Plus:
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/PropertiesPlusPanel.png)
 
-### **Modal and Modeless Dialog Plugin Sample**
+### **Vzorový modul plug-in modálního a nemodálního dialogu**
 
-Dialog plugins are unique: They can only be loaded, not installed.
+Moduly plug-in dialogu jsou jedinečné: lze je pouze načíst, nelze je instalovat.
 
-In the Script Editor, run the following:
+V Editoru skriptů spusťte následující příkaz:
 
-If running a local server:
+Pokud používáte místní server:
 
-* Modal: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
-* Modeless: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
+* Modální: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
+* Nemodální: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-If loading from the [FormIt GitHub repo](https://github.com/FormIt3D/) (requires an internet connection):
+Pokud se modul plug-in načítá z úložiště služby [FormIt GitHub](https://github.com/FormIt3D/) (nutné připojení k internetu):
 
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
-* Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
+* Modální: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
+* Modální: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-You should see the Hello Block! panel from the HTML panel example appear on screen as either a modal or modeless dialog.
+Panel Hello Block! z příkladu panelu HTML by se měl zobrazit na obrazovce jako modální nebo nemodální dialog.

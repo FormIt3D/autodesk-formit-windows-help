@@ -1,16 +1,16 @@
 # Příručka k aplikaci FormIt
 
-![](<../.gitbook/assets/b5030b43-df24-4259-ad6a-94bcad61bc78 (1).png>)
+![](<../.gitbook/assets/formit intro hero image.png>)
 
 ## Obsah
 
-\*\*\*\*[**Část I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) \*\*\*\*obsahuje jeden výukový kurz zaměřený na pracovní postupy, jenž popisuje základní nástroje při modelování slavného domu Farnsworth House a usnadní vám začátky modelování.
+[**Část I**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-i) obsahuje jeden výukový kurz zaměřený na pracovní postupy, jenž popisuje základní nástroje při modelování slavného domu Farnsworth House a usnadní vám začátky modelování.
 
 ![](<../.gitbook/assets/farnsworth-house (1).png>)
 
-\*\*\*\*[**Část II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) se zabývá některými pokročilejšími nástroji a využívá předem modelovaný fiktivní architektonický projekt k seznámení s pokročilými funkcemi modelování, analytickými nástroji a výpočetními nástroji, které vám umožní pracovat s aplikací FormIt na vyšší úrovni.
+[**Část II**](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/part-ii) se zabývá některými pokročilejšími nástroji a využívá předem modelovaný fiktivní architektonický projekt k seznámení s pokročilými funkcemi modelování, analytickými nástroji a výpočetními nástroji, které vám umožní pracovat s aplikací FormIt na vyšší úrovni.
 
-![](../.gitbook/assets/screen1.jpg)
+![](<../.gitbook/assets/screen1 (1).jpg>)
 
 ## Autoři
 

@@ -4,7 +4,7 @@
 
 V aplikaci FormIt 2021 a novějších verzích můžete vygenerovat zábradlí podél trajektorie a rychle přizpůsobovat výsledky na místě. Skript Railing Along Path používá technologii aplikace Dynamo, což znamená, že výsledné zábradlí lze snadno konfigurovat tak, abyste dosáhli požadovaných výsledků, a novým spuštěním logiky dojde k aktualizaci geometrie na místě.
 
-![](../.gitbook/assets/railing-along-path.gif)
+![](<../.gitbook/assets/railing-along-path (1).gif>)
 
 ## Spuštění skriptu Railing Along Path
 
@@ -13,7 +13,7 @@ V aplikaci FormIt 2021 a novějších verzích můžete vygenerovat zábradlí 
 * Na levé straně obrazovky se zobrazí výzva k výběru trajektorie pro zábradlí.
    * Měli byste vybrat pouze řadu přilehlých hran nebo skupinu obsahující pouze řadu přilehlých hran.
    * Po výběru trajektorie klikněte na tlačítko „Dokončit“ nebo stiskněte klávesu Enter/Return.
-* Na panelu Dynamo se zobrazí zpráva o zpracování změn. Po dokončení této operace budete mít ve skupině aplikace FormIt zábradlí vytvořené aplikací Dynamo, které bude připraveno k úpravám \(viz níže\).
+* Na panelu Dynamo se zobrazí zpráva o zpracování změn. Po dokončení této operace budete mít ve skupině aplikace FormIt zábradlí vytvořené aplikací Dynamo, které bude připraveno k úpravám (viz níže).
 
 ## Iterace na místě
 
@@ -23,7 +23,7 @@ Při spuštění skriptu Railing Along Path se vytvoří nová skupina obsahují
 
 K vlastnostem skriptu Railing Along Path se můžete kdykoli vrátit výběrem skupiny a přepnutím na panel vlastností nebo úpravou skupiny, která automaticky zobrazí vlastnosti.
 
-![](../.gitbook/assets/railing-along-path-options.png)
+![](<../.gitbook/assets/railing-along-path-options (1).png>)
 
 ### Railing Height
 
@@ -37,7 +37,7 @@ Rozteč mezi hlavními vertikálními sloupky. Použijí se aktuální jednotky 
 
 Pokud je nastavena hodnota **True**, budou sloupky přidány v každé vrcholu vybrané trajektorie a výpočet pro umístění dalšího sloupku se v tomto bodě obnoví.
 
-Jestliže jste například vybrali řadu 3 hran, bude se sloupek zobrazovat v každém ze dvou vnitřních bodů. To je užitečné, pokud vrcholy označují změnu směru \(například chůze do schodů nebo zatáčka\), kde by se přirozeně vyskytoval sloupek.
+Jestliže jste například vybrali řadu 3 hran, bude se sloupek zobrazovat v každém ze dvou vnitřních bodů. To je užitečné, pokud vrcholy označují změnu směru (například chůze do schodů nebo zatáčka), kde by se přirozeně vyskytoval sloupek.
 
 Pokud je nastavena hodnota **False**, sloupky se přidají pouze podél trajektorie počínaje od jednoho konce a budou měřit vzdálenost podél trajektorie, přičemž budou ignorovat vrcholy podél trajektorie. To je užitečné, pokud jste vybrali oblouk, spline nebo kružnici, kde vrcholy nejsou důležité a chcete, aby je rozteč sloupků ignorovala.
 
@@ -49,11 +49,11 @@ V případech, kdy rozteč sloupků vytváří zbývající prostor na nežádo
 
 ### Post Width + Depth
 
-Velikost \(v půdorysu\) obdélníkových svislých profilů sloupků. Použijí se aktuální jednotky aplikace FormIt.
+Velikost (v půdorysu) obdélníkových svislých profilů sloupků. Použijí se aktuální jednotky aplikace FormIt.
 
 ### Handrail Width + Height
 
-Velikost \(v řezu\) obdélníkového profilu madla zábradlí. Použijí se aktuální jednotky aplikace FormIt.
+Velikost (v řezu) obdélníkového profilu madla zábradlí. Použijí se aktuální jednotky aplikace FormIt.
 
 ### Baluster Orientation
 
@@ -78,4 +78,3 @@ Po úpravě možností kliknutím na tlačítko Run spusťte základní graf apl
 ### Edit Embedded Graph
 
 Kliknutím na toto tlačítko spustíte prostředí editoru grafu aplikace Dynamo, ve kterém můžete prohlížet a upravovat základní graf Dynamo a rychle měnit parametry a zobrazovat živé aktualizace nebo kontrolovat či upravovat logiku.
-

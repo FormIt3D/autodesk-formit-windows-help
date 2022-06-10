@@ -1,51 +1,51 @@
-# Testing a Combined HTML Panel and Toolbar Plugin
+# Testování kombinovaného modulu plug-in panelu HTML a panelu nástrojů
 
-You can test your in-progress plugins easily using the built-in [Script Editor ](../advanced-development/setting-up-formit-for-development.md)in FormIt for Windows
+Rozpracované moduly plug-in můžete snadno testovat pomocí vestavěného [Editoru skriptů](../advanced-development/setting-up-formit-for-development.md) v aplikaci FormIt pro systém Windows.
 
-We recommend using `FormIt.LoadPlugin("URL");` when testing, which loads plugins temporarily for this session (they will disappear when FormIt is restarted).&#x20;
+Při testování doporučujeme použít příkaz `FormIt.LoadPlugin("URL");`, který dočasně načte moduly plug-in pro danou relaci (po restartování aplikace FormIt moduly zmizí).&#x20;
 
-Once testing is complete, you can persist the plugin between sessions using `FormIt.InstallPlugin("URL");`.
+Po dokončení testování můžete modul plug-in zachovat mezi relacemi příkazem `FormIt.InstallPlugin("URL");`.
 
-**FormIt for Windows v17 and newer**
+**Aplikace FormIt pro systém Windows verze 17 a novější**
 
 ****
 
-### **Toolbar Plugins**
+### **Moduly plug-in panelu nástrojů**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+Načtěte modul plug-in do aplikace FormIt, abyste si mohli prohlédnout nejnovější uživatelské rozhraní a otestovat nejnovější funkce:
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then load the plugin again using the command above.
+Proveďte nějaké změny a pak znovu načtěte modul plug-in pomocí výše uvedeného příkazu.
 
-You can load many instances of the same plugin in the current session as you test, each with its own UI.
+Při testování můžete v aktuální relaci načíst mnoho instancí stejného modulu plug-in, přičemž každá z nich bude mít vlastní uživatelské rozhraní.
 
-Be sure to use the latest UI instance to ensure you're testing your most recent changes.
+Přesvědčte se, že používáte nejnovější instanci uživatelského rozhraní, abyste měli jistotu, že testujete nejnovější změny.
 
 
 
-### **HTML Panel Plugins**
+### **Moduly plug-in panelu HTML**
 
-Load your plugin into FormIt to see the latest UI and test the latest functionality:
+Načtěte modul plug-in do aplikace FormIt, abyste si mohli prohlédnout nejnovější uživatelské rozhraní a otestovat nejnovější funkce:
 
 * `FormIt.LoadPlugin("http://localhost:8080/YourPluginName");`
 
-Make some changes, then simply right-click the panel and select "Hard Reload" to reload the panel with the latest HTML, CSS, and scripts.
+Proveďte nějaké změny, pak klikněte pravým tlačítkem myši na panel a vyberte položku Hard Reload. Tím panel znovu načtete s nejnovějšími kódy HTML, CSS a skripty.
 
 ****
 
-### **Preview your plugin with Plugin Manager**
+### **Náhled modulu plug-in pomocí nástroje Plugin Manager**
 
-Once your plugin is loaed, refer an [earlier chapter](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) for this guide.
+Po načtení modulu plug-in si přečtěte [tuto kapitolu](../advanced-development/previewing-a-plugin-in-the-plugin-manager.md) této příručky.
 
 ****
 
-### **Force clearing web cache for .JSON files**
+### **Vynucení vymazání webové vyrovnávací paměti pro soubory .JSON**
 
-If you modify the title or description inside the manifest.json file for a plugin or repo, you may need to force clear the cache in FormIt for Windows to see those changes take effect the next time you reload the Plugin Manager.
+Pokud změníte název nebo popis v souboru manifest.json pro modul plug-in nebo úložiště, bude možná nutné vynutit vymazání vyrovnávací paměti v aplikaci FormIt pro systém Windows, aby se tyto změny projevily při příštím načtení nástroje Plugin Manager.
 
-FormIt for Windows stores its web cache here, you will need to enable hidden items in Windows Explorer to see the AppData folder.
+Aplikace FormIt pro systém Windows ukládá svou webovou vyrovnávací paměť v následujícím umístění. Chcete-li zobrazit složku AppData, bude nutné v Průzkumníku Windows povolit skryté položky.
 
-* C:\Users\user\AppData\Local\Autodesk\FormIt 360\QtWebEngine\Default
+* C:\Users\uživatel\AppData\Local\Autodesk\FormIt 360\QtWebEngine\Default
 
-To delete the web cache, simply delete the "Default" folder above, then reload the Plugin Manager to see the updated titles and descriptions.
+Chcete-li odstranit webovou vyrovnávací paměť, jednoduše odstraňte složku „Default“ a poté znovu načtěte nástroj Plugin Manager, abyste viděli aktualizované názvy a popisy.

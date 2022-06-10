@@ -1,39 +1,39 @@
-# Introduction to Plugins
+# Úvod k modulům plug-in
 
 ![](../.gitbook/assets/gg4.gif)
 
-Plugins are custom software additions that expand FormIt's core functionality. Plugins can enhance, empower, and simplify your 3D modeling workflows in FormIt.&#x20;
+Moduly plug-in jsou uživatelské softwarové doplňky, které rozšiřují základní funkce aplikace FormIt. Moduly plug-in mohou vylepšit, rozšířit a zjednodušit pracovní postupy 3D modelování v aplikaci FormIt.&#x20;
 
-Plugins can be used to generate objects, make modifications to existing objects, or extract information about an object. Plugins can also use rich web interfaces to display data and provide controls and inputs directly in the application.&#x20;
+Moduly plug-in lze použít ke generování objektů, úpravám existujících objektů nebo extrahování informací o objektu. Moduly plug-in mohou také využívat pokročilá webová rozhraní k zobrazování dat a poskytování ovládacích prvků a vstupů přímo v aplikaci.&#x20;
 
-## Accessing Plugins
+## Přístup k modulům plug-in
 
-Plugins are available in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) in the desktop and web versions of FormIt, as long as you are connected to the internet. Plugins are composed of a series of files and folders hosted on GitHub, or on a local server when building your own.&#x20;
+Moduly plug-in jsou dostupné v nástroji [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) v aplikaci FormIt ve verzi pro počítač a web, pokud jste připojeni k internetu. Moduly plug-in se skládají z řady souborů a složek, které jsou uloženy na GitHubu (nebo na místním serveru, pokud si vytváříte vlastní).&#x20;
 
 ![](../.gitbook/assets/c17.PNG)
 
-### Plugins Require Internet Access
+### Moduly plug-in vyžadují přístup k internetu
 
-External plugins (plugins not hosted locally) require an internet connection to initially load, which means:
+Externí moduly plug-in (moduly plug-in, které nejsou hostovány místně) vyžadují k počátečnímu načtení připojení k internetu, což znamená:
 
-* External plugins will not load if no internet connection is detected when FormIt starts. Once loaded, some external plugins can continue to work in offline mode for that session, but others might break until connectivity is restored.&#x20;
-* External plugins load the latest code on the server at every run, so their functionality will update whenever the author pushes a change. Plugins are loaded asynchronously, which means the order of the plugins in the FormIt interface may change with each new session.
+* Externí moduly plug-in nebudou načteny, pokud při spuštění aplikace FormIt není zjištěno připojení k internetu. Po načtení mohou některé externí moduly plug-in pro danou relaci pokračovat v práci v režimu offline, ale jiné se mohou přerušit, dokud nebude obnoveno připojení.&#x20;
+* Externí moduly plug-in načítají nejnovější kód ze serveru při každém spuštění, takže jejich funkce se aktualizují vždy, když autor publikuje změnu. Moduly plug-in se načítají asynchronně, což znamená, že pořadí modulů plug-in v rozhraní aplikace FormIt se může v každé nové relaci měnit.
 
 ## Open Source
 
-Plugins are open-source, allowing you to use the plugins in the [Plugin Manager](how-to-use-plug-ins.md#plugin-manager) free of charge, publish and share your plugins easily, and find other plugins on GitHub to understand how they're built.&#x20;
+Moduly plug-in jsou open-source, díky čemuž můžete bezplatně používat moduly plug-in v nástroji [Plugin Manager](how-to-use-plug-ins.md#plugin-manager), snadno publikovat a sdílet vlastní moduly plug-in a vyhledávat další moduly plug-in na GitHubu a zkoumat, jak byly vytvořeny.&#x20;
 
-If you are a developer and want more information on how to publish your plugins, see [Hosting a Plugin on GitHub](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
+Pokud jste vývojář a chcete získat další informace o publikování modulů plug-in, přečtěte si část [Hostování modulu plug-in na GitHubu](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md).&#x20;
 
-If you want to make a plugin for private use, you can develop and host it using a local service. For more information, see [Using an IDE. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
+Chcete-li vytvořit modul plug-in pro soukromé použití, můžete jej vytvořit a hostovat pomocí místní služby. Další informace naleznete v části [Používání integrovaného vývojového prostředí. ](how-to-develop-plugins/advanced-development/using-an-ide.md)
 
 ![](../.gitbook/assets/c18.PNG)
 
 
 
-## Contact Us
+## Kontaktujte nás
 
-If you need any help with FormIt plugins, drop us a line on the [FormIt Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
+Pokud potřebujete pomoc s moduly plug-in pro aplikaci FormIt, napište nám na [fórum aplikace FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en).
 
 ![](../.gitbook/assets/c19.PNG)
 

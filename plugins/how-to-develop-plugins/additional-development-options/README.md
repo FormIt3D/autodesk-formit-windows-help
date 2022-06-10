@@ -1,12 +1,12 @@
-# Additional Development Options
+# Další možnosti vývoje
 
-As an advanced developer, you also have some additional development options you may want to try:
+Jako pokročilý vývojář máte k dispozici i další možnosti vývoje, které můžete vyzkoušet:
 
-* [Creating an HTML Panel Plugin](creating-an-html-panel-plugin.md)
-* [Creating a Combined HTML Panel and Toolbar Plugin](creating-a-combined-html-panel-and-toolbar-plugin.md)
-* [Creating a Toolbar based Plugin](creating-a-toolbar-based-plugin.md)
-* [Testing a Combined HTML Panel and Toolbar Plugin](testing-a-combined-html-panel-and-toolbar-plugin.md)
-* [Creating an Add-In](creating-an-add-in.md)
-* [Invoking Plugins and API from Dynamo](invoking-plugins-and-api-from-dynamo.md)
+* [Vytvoření modulu plug-in panelu HTML](creating-an-html-panel-plugin.md)
+* [Vytvoření kombinovaného modulu plug-in panelu HTML a panelu nástrojů](creating-a-combined-html-panel-and-toolbar-plugin.md)
+* [Vytvoření modulu plug-in panelu nástrojů](creating-a-toolbar-based-plugin.md)
+* [Testování kombinovaného modulu plug-in panelu HTML a panelu nástrojů](testing-a-combined-html-panel-and-toolbar-plugin.md)
+* [Vytvoření doplňku](creating-an-add-in.md)
+* [Vyvolání modulů plug-in a rozhraní API z aplikace Dynamo](invoking-plugins-and-api-from-dynamo.md)
 
 ![](../../../.gitbook/assets/c23.PNG)
