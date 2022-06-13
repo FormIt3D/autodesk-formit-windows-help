@@ -43,7 +43,7 @@ Pomocí panelu Dynamo můžete spustit aplikaci Dynamo, umisťovat skupiny aplik
 ### **Přidávání a správa místních adresářů aplikace Dynamo**
 
 * Panel Dynamo funguje stejně jako [knihovna obsahu](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/import-export-and-content-library) a umožňuje připojovat a spravovat místní adresáře obsahující soubory aplikace Dynamo.
-* Na panelu Dynamo klikněte na tlačítko Připojit adresář. Poté klikněte znovu na tlačítko (+) v dialogu Předvolby a vyberte adresář, který chcete připojit k aplikaci FormIt: ![](../.gitbook/assets/dynamo\_selectdirectory.png)
+* Na panelu Dynamo klikněte na tlačítko Připojit adresář. Poté klikněte znovu na tlačítko (+) v dialogu Předvolby a vyberte adresář, který chcete připojit k aplikaci FormIt: <img src="../.gitbook/assets/dynamo_selectdirectory.png" alt="" data-size="line">
 * Mezi připojenými adresáři můžete přepínat pomocí rozevíracího seznamu:
 
 ![](../.gitbook/assets/dynamo\_dropdown.png)
@@ -100,7 +100,7 @@ V aplikaci FormIt 2023 a novějších verzích můžete pomocí aplikace Dynamo
 
 * [Zde](https://formit-help.s3.amazonaws.com/Send+Levels+to+Excel.dyn) si stáhněte ukázkový graf aplikace Dynamo.
 * Na paletě aplikace Dynamo přejděte do místního adresáře, do kterého byl uložen graf aplikace Dynamo.
-* Klikněte pravým tlačítkem na miniaturu a klikněte na položku _Upravit vložený graf_.
+* Klikněte pravým tlačítkem na miniaturu a klikněte na položku _Upravit vložený graf_
 * Vytvořte prázdnou tabulku aplikace Excel.
 * Do pole Umístění tabulky zadejte cestu k tabulce aplikace Excel.
 * Upravte libovolná další pole, například Název listu.
@@ -165,7 +165,7 @@ Zdrojové grafy se zobrazí na panelu Dynamo po [připojení místních adresá�
 
 * Počínaje aplikací FormIt 2023 můžete řídit tvorbu plošek křivek a povrchů připojených k uzlům SendToFormIt pomocí uzlů FormItGroupOptions SetCurveFacetingCount a SetSurfaceFacetingCount.
 
-   ![](../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png)
+<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * Tyto uzly přepisují globální nastavení plošek křivek a povrchů definovaných v nabídce Upravit -> Předvolby -> Jednotky + Přesnost.
 * To je velmi užitečné, pokud graf aplikace Dynamo potřebuje generovat zakřivené objekty pomocí specifických hodnot plošek, protože se tím sníží nutnost měnit globální nastavení pro každý graf Dynamo spuštěný v aktuální relaci.
 
@@ -176,7 +176,7 @@ Zdrojové grafy se zobrazí na panelu Dynamo po [připojení místních adresá�
 
 ![](../.gitbook/assets/dynamo\_controlcurve.gif)
 
-[Další informace o nastavení plošek křivek a povrchů v aplikaci FormIt.](https://windows.help.formit.autodesk.com/v/czech/tool-library/curve-+-surface-faceting)
+[Další informace o nastavení plošek křivek a povrchů v aplikaci FormIt.](https://windows.help.formit.autodesk.com/tool-library/curve-+-surface-faceting)
 
 ## Použití skupin aplikace FormIt s aplikací Dynamo
 
@@ -292,7 +292,7 @@ Nejvýkonnější uzly pro odesílání dat mezi aplikacemi FormIt a Dynamo.
    * Můžete také seskupit výsledky aplikace Dynamo **a** výběr a poté přesunout příslušnou skupinu.
 * Při odeslání geometrie aplikace FormIt do aplikace Dynamo budou při vrácení geometrie zpět do aplikace FormIt ztraceny všechny atributy, materiály nebo vnořené skupiny.
 * Pokud v aplikaci Dynamo upravujete graf založený na výběru a vybraná geometrie v aplikaci FormIt se změní, bude nutné geometrii znovu vybrat kliknutím na tlačítko Vybrat z aplikace FormIt v uzlu SelectFromFormIt.&#x20;
-* Při výběru v aplikaci FormIt se použije aktivní [filtr výběru](https://windows.help.formit.autodesk.com/v/czech/tool-library/select-edge-face-or-object#filtrovani-vyberu). Pokud například chcete v aplikaci FormIt vybrat vrcholy, bude nutné je povolit ve filtru výběru.
+* Při výběru v aplikaci FormIt se použije aktivní [filtr výběru](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object#selection-filtering). Pokud například chcete v aplikaci FormIt vybrat vrcholy, bude nutné je povolit ve filtru výběru.
 
 ![](../.gitbook/assets/dynamo\_filterselection.png)
 
@@ -405,7 +405,7 @@ Názvy a parametry funkcí naleznete v dokumentaci k jazyku JavaScript, která
 
 Naopak uzel **CallPluginJS** umožňuje vyvolat uživatelské funkce z načteného modulu plug-in nebo fragmentu skriptu, který byl proveden z okna Editor skriptů.
 
-![](../.gitbook/assets/dynamo\_callpluginjs.png)
+![](<../.gitbook/assets/dynamo\_callpluginjs (1).png>)
 
 ## Důležité poznámky
 
@@ -421,7 +421,7 @@ Naopak uzel **CallPluginJS** umožňuje vyvolat uživatelské funkce z načten�
    * _C:/Program Files/Autodesk/FormIt/FormIt.exe_
    * _C:/Program Files/Autodesk/FormIt/DynamoSandbox/FormItDynamoSandbox.exe_
    * Pokud máte kartu NVIDIA, [zkontrolujte, zda máte nainstalovaný ovládací panel NVIDIA](https://whatsabyte.com/blog/find-nvidia-control-panel/).
-   * Pomocí ovládacích panelů [NVIDIA](https://nvidia.custhelp.com/app/answers/detail/a\_id/2615/\~/how-do-i-customize-optimus-profiles-and-settings%3F) nebo [AMD](https://www.amd.com/en/support/kb/faq/dh-017) nastavte následující aplikace tak, aby používaly samostatnou grafickou kartu:
+   * Pomocí ovládacích panelů [NVIDIA](https://nvidia.custhelp.com/app/answers/detail/a\_id/2615/\~/how-do-i-customise-optimus-profiles-and-settings%3F) nebo [AMD](https://www.amd.com/en/support/kb/faq/dh-017) nastavte následující aplikace tak, aby používaly samostatnou grafickou kartu:
 * Pokud používáte jiné než anglické národní prostředí, bude možná nutné v nastavení oblasti systému Windows 10 nastavit angličtinu, abyste se vyhnuli problémům s některými uzly aplikace Dynamo:
    * V nabídce Start vyhledejte výraz „jazyk“ a vyberte možnost Nastavení jazyka.
    * V pravé horní části dialogu Jazyk klikněte na správu nastavení jazyka.
@@ -434,4 +434,4 @@ Naopak uzel **CallPluginJS** umožňuje vyvolat uživatelské funkce z načten�
 
 ### **Získání podpory**
 
-Potřebujete nápovědu k aplikacím FormIt a Dynamo? [Dejte nám vědět na fórech](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en).
+Potřebujete nápovědu k aplikacím FormIt a Dynamo? [Dejte nám vědět na fórech](https://forums.autodesk.com/t5/formit-forum/bd-p/142).

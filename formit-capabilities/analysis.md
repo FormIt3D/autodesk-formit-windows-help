@@ -74,7 +74,7 @@ S předplatným aplikace **FormIt Pro** v rámci sady [AEC Collection](https://w
    * Případné problémy se službami FormIt můžete zkontrolovat na [řídicím panelu stavu Autodesk](https://health.autodesk.com).
 * Chcete-li zjistit, zda služba Green Building Studio úspěšně provedla energetickou analýzu pro tento projekt, podívejte se na [řídicí panel služby Green Building Studio](https://gbs.autodesk.com/GBS/Project).
    * Nejnovější projekt by se měl objevit v horní části seznamu a měl by zobrazovat 248 spuštění.
-   * Pokud se zobrazí 0 spuštění, [informujte nás na fórech aplikace FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en) a my vám pomůžeme s řešením problémů.
+   * Pokud se zobrazí 0 spuštění, [informujte nás na fórech aplikace FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142) a my vám pomůžeme s řešením problémů.
 
 ### **Podrobné protokoly** <a href="#detailed-logs" id="detailed-logs"></a>
 
@@ -84,7 +84,7 @@ S předplatným aplikace **FormIt Pro** v rámci sady [AEC Collection](https://w
    * Spusťte energetickou analýzu.
    * Otevřete nástroje pro vývojáře (stiskněte klávesu F12 v prohlížeči Google Chrome nebo Firefox).
    * Zobrazte kartu Konzole.
-   * Zkopírujte všechny chyby nebo vytvořte snímek obrazovky a [nahlaste chyby na fórech aplikace FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en).
+   * Zkopírujte všechny chyby nebo vytvořte snímek obrazovky a [nahlaste chyby na fórech aplikace FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
 
 ## Analýza slunečního záření
 

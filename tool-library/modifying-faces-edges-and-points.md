@@ -10,7 +10,7 @@ Skutečně zajímavé to začne být, když začnete umístěné objekty tlačit
 4. Po kliknutí se můžete přichytit k jiným objektům a zarovnat tuto plochu.
 5. Stejně jako v případě přesunu můžete kliknout na **dočasnou kótu** nebo jednoduše začít zadávat hodnotu a definovat tak míru pohybu.
 
-   ![](../.gitbook/assets/modify.png)
+<img src="../.gitbook/assets/modify.png" alt="" data-size="original">
 
 Plochu můžete také odstranit pomocí klávesy **Delete** nebo kliknutím pravým tlačítkem myši a výběrem položky Odstranit v místní nabídce.
 
@@ -28,6 +28,6 @@ Plochu můžete odstranit také tak, že **kliknete pravým tlačítkem myši a 
 ## Úprava bodů
 
 1. Klikněte na jeden z rohů některé z krychlí.
-2. Podobně jako u hrany můžete přetažením bodu podél jedné z os předefinovat tvar. [Další Nejednotná změna měřítka](https://app.gitbook.com/s/-LUD0SaYwlwiIwTSyXLn/tool-library/non-uniform-scale)
+2. Podobně jako u hrany můžete přetažením bodu podél jedné z os předefinovat tvar. [Další Nejednotná změna měřítka](broken-reference)
 
 ![](<../.gitbook/assets/modify3 (1).png>)
