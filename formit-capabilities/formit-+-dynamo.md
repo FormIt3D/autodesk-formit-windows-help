@@ -130,14 +130,14 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 ### **嵌入的图形**
 
-将 Dynamo 对象放置到 FormIt 中后，其基础图形会被复制并嵌入到当前 FormIt 文件中。在 Dynamo 中，通过**“编辑嵌入的图形”**按钮进行编辑。
+将 Dynamo 对象放置到 FormIt 中后，其基础图形会被复制并嵌入到当前 FormIt 文件中。在 Dynamo 中，通过 **“编辑嵌入的图形”** 按钮进行编辑。
 
 ![](../.gitbook/assets/dynamo\_embeddedgraph.png)
 
 ![](../.gitbook/assets/dynamo\_editgraphgif.gif)
 
 * 选择“Dynamo 组”并切换到“特性”面板，或者只需双击组即可自动切换到“特性”。
-* 单击**“编辑嵌入的图形”**按钮。
+* 单击 **“编辑嵌入的图形”** 按钮。
 * 在 Dynamo 中，您会注意到顶部的文件名现在会包含“(FormIt)”，这意味着正在编辑嵌入在此 FormIt 文件中的图形，而不是修改源图形。
 * 确保一个或多个 [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 节点已连接到要发送到 FormIt 的几何图形。
 * 当调整图形时，FormIt 会实时显示对几何图形的更新。
