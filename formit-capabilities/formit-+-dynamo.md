@@ -166,6 +166,7 @@ FormIt 支援三種類型的 Dynamo 圖表：
 * 從 FormIt 2023 開始，您可以使用 FormItGroupOptions 節點 SetCurveFacetingCount 和 SetSurfaceFacetingCount，控制連接至 SendToFormIt 節點的曲線和曲面的刻面。
 
 <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+
 * 這些節點將取代「編輯」->「偏好」->「單位 + 精確度」下定義的全域曲線和曲面刻面的設定。
 * 如果您的 Dynamo 圖表需要使用特定的刻面值產生彎曲物件，這會非常有用，如此能減少為目前工作階段中每個 Dynamo 圖表變更全域設定的需求。
 
