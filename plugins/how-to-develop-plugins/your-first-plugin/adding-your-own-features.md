@@ -67,7 +67,7 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ### Esecuzione e anteprima
 
-Quando si è pronti a vedere i risultati, fare nuovamente clic sul pulsante di riproduzione ![] (<../../../.gitbook/assets/image (81).png>) e visualizzare gli aggiornamenti al plug-in nello stesso pannello.
+Quando si è pronti a vedere i risultati, fare nuovamente clic sul pulsante di riproduzione ![](<../../../.gitbook/assets/image (81).png>) e visualizzare gli aggiornamenti al plug-in nello stesso pannello.
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
