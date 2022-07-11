@@ -4,7 +4,7 @@ _In diesem Kapitel nutzen Sie die Rechenleistung von_ [_**Dynamo**_](http://dyna
 
 _Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**1.10 – Computational Groups with Dynamo.axm**_ _aus dem Ordner_ _**FormIt Primer Part 1 Datasets** herunter und öffnen sie._
 
-__ [_**Hier**_](http://formit.autodesk.com/page/formit-dynamo) _ erfahren Sie mehr darüber, wie FormIt und Dynamo bei Computational Design-Arbeitsabläufen zusammenwirken._
+_[_**Hier**_](http://formit.autodesk.com/page/formit-dynamo) erfahren Sie mehr darüber, wie FormIt und Dynamo bei Computational Design-Arbeitsabläufen zusammenwirken._
 
 ## **Erstellen von Treppen für die untere Terrasse**
 
