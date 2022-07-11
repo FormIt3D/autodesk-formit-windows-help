@@ -59,7 +59,8 @@ _**Anmerkung:**_ _Um zu erfahren, wie Sie in der Skizze navigieren, empfehlen wi
 
 2 – Wählen Sie die Fläche des Stützenprofils aus, und extrudieren Sie die Fläche auf **17'-8"**.
 
-_**Anmerkung:**_ _Wenn das Stützenprofil beim Verschieben am Dach ausgerichtet wird, extrudieren Sie die Fläche um_ _**17'-8"**_\_ nach unten anstatt nach oben._
+_**Anmerkung:**_ _Wenn das Stützenprofil beim Verschieben am Dach ausgerichtet wird, extrudieren Sie die Fläche um_ _**17'-8"**_\
+_nach unten anstatt nach oben._
 
 3 – Verkleinern Sie die Ansicht, und aktivieren Sie den Layer **Roof** (falls deaktiviert). Die Oberkante der Stütze sollte an der Oberkante des Dachs ausgerichtet sein.
 
