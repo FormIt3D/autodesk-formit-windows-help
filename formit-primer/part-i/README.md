@@ -12,7 +12,7 @@ Avant de commencer la partie I, téléchargez et installez FormIt pour Windows 
 
 Vous devrez également télécharger le jeu de données disponible en cliquant sur le lien ci-dessous. Le jeu de données est un ensemble de fichiers utilisés dans la partie I.
 
-_Si vous ne pouvez pas exécuter FormIt pour Windows, la majorité du didacticiel peut être réalisé à l’aide de l’_ [_**application Web**_](https://formit.autodesk.com/app)_**gratuite.** Pour plus d’informations sur les versions de FormIt et les licences, consultez le _ [_site Web FormIt_](https://formit.autodesk.com).
+_Si vous ne pouvez pas exécuter FormIt pour Windows, la majorité du didacticiel peut être réalisé à l’aide de l’_ [_**application Web**_](https://formit.autodesk.com/app) _gratuite **.** Pour plus d’informations sur les versions de FormIt et les licences, consultez le_ [_site Web FormIt_](https://formit.autodesk.com).
 
 ### Jeu de données
 
