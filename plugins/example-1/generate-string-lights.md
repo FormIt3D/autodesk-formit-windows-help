@@ -1,25 +1,25 @@
 # Generate String Lights
 
-_在本章中，我們將以 FormIt 隨附的一些外掛程式作為例子，以對_ _**Encode Campus Sample Model.axm**做一些改進。如果您還沒下載，可以從_ [_FormIt 入門手冊第 2 部分資料集_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)下載檔案。
+_在本章中，我們將以 FormIt 隨附的一些外掛程式作為例子，以對_ _**Encode Campus Sample Model.axm**做一些改進。如果您還沒下載，可以從_ [_FormIt 入門手冊第 2 部分資料集_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)_下載檔案。_
 
 _這個簡潔的外掛程式可讓您在模型中根據直線或曲線加入懸掛的燈。_
 
 1 - 加入任何新燈光之前，我們先在模型中使用預先製作的場景來查看預期結果。
 
-1. 若要跳至包含既有燈串的場景，請開啟**「場景」選項板**，然後按兩下名為 **Eye Level – Short Alley** 的場景。
+1. 若要跳至包含既有燈串的場景，請開啟 **「場景」選項板**，然後按兩下名為 **Eye Level – Short Alley** 的場景。
 2. 請注意此模型隨附的燈串，這是我們要重新建立的，但在其他地方。
-3. 在**「圖層」選項板**中，開啟 **Helper Geometry** 圖層，您可以看到用來產生這些燈串的原始線條。
+3. 在 **「圖層」選項板** 中，開啟 **Helper Geometry** 圖層，您可以看到用來產生這些燈串的原始線條。
 
 ![](<../../.gitbook/assets/3 (10).png>)
 
-2 - 我們現在導覽到其他條路，並加入一些燈光。在**「場景」選項板**中，開啟 **Eye Level – Long Alley** 場景。請注意，這條路還沒有任何燈串。
+2 - 我們現在導覽到其他條路，並加入一些燈光。在 **「場景」選項板**中，開啟 **Eye Level – Long Alley** 場景。請注意，這條路還沒有任何燈串。
 
 3 - 建立新的燈串：
 
-1. 按一下燈串圖示，以開啟新安裝的**「Generate String Lights」選項板**。新外掛程式的圖示預設會顯示在底部。
-2. 將**「Number of Fixtures」**選項變更為 **10**。
+1. 按一下燈串圖示，以開啟新安裝的 **「Generate String Lights」選項板**。新外掛程式的圖示預設會顯示在底部。
+2. 將 **「Number of Fixtures」** 選項變更為 **10**。
 3. 按兩下其中一條輔助線，以編輯預先建立的 **String Lights – Long Alley** 群組。然後按一下其中一條預先繪製的輔助線以選取它。
-4. 按一下外掛程式選項板內的**「Generate String Lights」**按鈕，新的燈串應該就會出現！請注意，每個燈串都是以自己的唯一群組建立的。
+4. 按一下外掛程式選項板內的 **「Generate String Lights」** 按鈕，新的燈串應該就會出現！請注意，每個燈串都是以自己的唯一群組建立的。
 
 ![](<../../.gitbook/assets/4 (6) (1).png>)
 
