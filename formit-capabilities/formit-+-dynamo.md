@@ -163,9 +163,9 @@ Zdrojové grafy se zobrazí na panelu Dynamo po [připojení místních adresá�
 
 ### **Řízení tvorby plošek křivek a povrchů**
 
-* Počínaje aplikací FormIt 2023 můžete řídit tvorbu plošek křivek a povrchů připojených k uzlům SendToFormIt pomocí uzlů FormItGroupOptions SetCurveFacetingCount a SetSurfaceFacetingCount.
+*   Počínaje aplikací FormIt 2023 můžete řídit tvorbu plošek křivek a povrchů připojených k uzlům SendToFormIt pomocí uzlů FormItGroupOptions SetCurveFacetingCount a SetSurfaceFacetingCount.
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * Tyto uzly přepisují globální nastavení plošek křivek a povrchů definovaných v nabídce Upravit -> Předvolby -> Jednotky + Přesnost.
 * To je velmi užitečné, pokud graf aplikace Dynamo potřebuje generovat zakřivené objekty pomocí specifických hodnot plošek, protože se tím sníží nutnost měnit globální nastavení pro každý graf Dynamo spuštěný v aktuální relaci.
 
