@@ -53,7 +53,7 @@ _**Remarque :**_ _si vous ne parvenez pas à sélectionner la nouvelle face, app
 
 ![](<../../.gitbook/assets/5 (16) (1).png>)
 
-_**Remarque :**_ _les cadres des meneaux se chevauchent dans les coins. C’est intentionnel. Le résultat ci-dessus montre la géométrie des cadres des meneaux obtenue avec les calques_ _**Glass Wall**_ _(Mur en verre) et_ _**Column**__ (Poteau) désactivés._
+_**Remarque :**_ _les cadres des meneaux se chevauchent dans les coins. C’est intentionnel. Le résultat ci-dessus montre la géométrie des cadres des meneaux obtenue avec les calques_ _**Glass Wall**_ _(Mur en verre) et_ _**Column**_ _(Poteau) désactivés._
 
 **Création de meneaux**
 
