@@ -112,7 +112,7 @@ _Ahora colocaremos los elementos de contenido creados dentro del modelo de Farns
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
-_**Nota:**_ _Al mover el_ _**núcleo**, tenga cuidado de no cambiar su elevación. Puede utilizar la tecla_ _**Mayús**_ _para restringir el movimiento a fin de que siempre se realice a lo largo de uno de los ejes o asegúrese de que los puntos de referencia inicial y final del comando_ _**Mover (M)**_ _se encuentren ambos a la misma altura. Para ello, haga clic en la_ _**imagen del plano**, no en el propio_ _**núcleo**__. Consulte los capítulos anteriores para obtener más información sobre la herramienta __**Mover (M)**__.‌_
+_**Nota:**_ _Al mover el_ _**núcleo**, tenga cuidado de no cambiar su elevación. Puede utilizar la tecla_ _**Mayús**_ _para restringir el movimiento a fin de que siempre se realice a lo largo de uno de los ejes o asegúrese de que los puntos de referencia inicial y final del comando_ _**Mover (M)**_ _se encuentren ambos a la misma altura. Para ello, haga clic en la_ _**imagen del plano**, no en el propio_ _**núcleo**_ _. Consulte los capítulos anteriores para obtener más información sobre la herramienta_ _**Mover (M)**_ _.‌_
 
 ## **Colocar mobiliario desde la biblioteca**
 
