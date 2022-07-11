@@ -52,7 +52,8 @@ _有兩種不同的方式可將 FormIt 的幾何圖形帶入 Revit。您可以�
 
 使用「匯入 CAD」按鈕匯入 FormIt 檔案。
 
-![](<../../.gitbook/assets/3 (21) (1).png>)\匯入的 .axm 元素。請注意，FormIt 模型中的樓層也會匯入到 Revit。
+![](<../../.gitbook/assets/3 (21) (1).png>)\
+匯入的 .axm 元素。請注意，FormIt 模型中的樓層也會匯入到 Revit。
 
 _與其他 CAD 格式類似，原始檔案中的圖層會匯入到 Revit。此功能可讓您為每個圖層定義不同的可見性設定，以輕鬆操控 FormIt 檔案在任何 Revit 視圖中的圖形外觀。_
 
