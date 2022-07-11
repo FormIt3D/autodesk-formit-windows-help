@@ -83,7 +83,7 @@ Sí. Para volver a importar datos en FormIt, exporte todo o, preferiblemente, _p
 
 Antes de que FormIt recibiera su nombre, su designación en clave interna era XModeler, por lo que el formato de archivo que creamos fue Autodesk X Modeler o AXM para abreviar.
 
-**¿Qué tipo de formatos 3D puede importar FormIt? **
+**¿Qué tipo de formatos 3D puede importar FormIt?**
 
 * Windows: AXM, DWG, FBX, OBJ, SAT, SKP, STL
 * Web: OBJ, STL
