@@ -22,8 +22,7 @@ _**Nota**_ _Se il modello contiene livelli, questo plug-in mostrerà anche l'alt
 
 ![](<../../.gitbook/assets/7 (1) (1).png>)
 
-_**Nota**_ _È inoltre possibile regolare l'angolo e la posizione della cinepresa di una scena attivando/disattivando il pulsante_ _**
-Modifica cineprese scena**_ _nella parte superiore della_ _**tavolozza Scene**_ _(tra i pulsanti di aggiornamento e riproduzione)._
+_**Nota**_ _È inoltre possibile regolare l'angolo e la posizione della cinepresa di una scena attivando/disattivando il pulsante_ _**Modifica cineprese scena**_ _nella parte superiore della_ _**tavolozza Scene**_ _(tra i pulsanti di aggiornamento e riproduzione)._
 
 3 - Quindi esportare le scene in un nuovo modello. Innanzitutto, dobbiamo creare oggetti cinepresa per tutte le scene utilizzando il plug-in **Manage Cameras**:
 
