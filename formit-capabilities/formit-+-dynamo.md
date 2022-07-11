@@ -163,9 +163,9 @@ Quelldiagramme werden in der Gruppe Dynamo angezeigt, nachdem [lokale Verzeichni
 
 ### **Steuern der Kurven- und Oberflächenfacettierung**
 
-* Ab FormIt 2023 können Sie das Facettieren von Kurven und Flächen, die SendToFormIt-Blöcken zugeordnet sind, mithilfe der FormItGroupOptions-Blöcke SetCurveFacetingCount und SetSurfaceFacetingCount steuern.
+*   Ab FormIt 2023 können Sie das Facettieren von Kurven und Flächen, die SendToFormIt-Blöcken zugeordnet sind, mithilfe der FormItGroupOptions-Blöcke SetCurveFacetingCount und SetSurfaceFacetingCount steuern.
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * Diese Blöcke überschreiben die globalen Einstellungen für die Kurven- und Oberflächenfacettierung, die unter Bearbeiten -> Voreinstellungen -> Einheiten und Genauigkeit definiert sind.
 * Dies ist sehr nützlich, wenn Ihr Dynamo-Diagramm gekrümmte Objekte mit bestimmten Facettierungswerten erstellen muss, wodurch die Notwendigkeit, die globale Einstellung für jedes in der aktuellen Sitzung ausgeführte Dynamo-Diagramm zu ändern, verringert wird.
 
