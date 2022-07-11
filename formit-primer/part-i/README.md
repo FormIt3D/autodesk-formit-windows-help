@@ -12,7 +12,7 @@
 
 您也需要下載位於以下連結的資料集。資料集收集了整個第 I 部分所使用的檔案。
 
-_如果您無法執行 Windows 版 FormIt，則可以使用免費的_[_**網頁應用程式**_](https://formit.autodesk.com/app)_**完成大部分自學課程。** 如需 FormIt 版本和授權的更多資訊，請造訪_ [_FormIt 網站_](https://formit.autodesk.com)。
+_如果您無法執行 Windows 版 FormIt，則可以使用免費的_[_**網頁應用程式**_](https://formit.autodesk.com/app)_完成大部分自學課程。如需 FormIt 版本和授權的更多資訊，請造訪_ [_FormIt 網站_](https://formit.autodesk.com)。
 
 ### 資料集
 
