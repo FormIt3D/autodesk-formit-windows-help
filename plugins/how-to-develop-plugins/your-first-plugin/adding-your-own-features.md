@@ -67,7 +67,7 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ### Spuštění a náhled
 
-Až si budete chtít prohlédnout výsledky, klikněte znovu na tlačítko Přehrát ![] (<../../../.gitbook/assets/image (81).png>) a na stejném panelu se zobrazí aktualizace modulu plug-in.
+Až si budete chtít prohlédnout výsledky, klikněte znovu na tlačítko Přehrát ![](<../../../.gitbook/assets/image (81).png>) a na stejném panelu se zobrazí aktualizace modulu plug-in.
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
