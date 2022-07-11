@@ -17,7 +17,7 @@ La barre d’outils standard est activée par défaut, mais elle est divisée en
 ![](<../.gitbook/assets/geometry\_icons (1).png>)
 
 1. [**Sélection**](https://windows.help.formit.autodesk.com/v/french/tool-library/select-edge-face-or-object) et filtres de sélection de zone
-2. [**Outils Mesurer** ](../tool-library/measure-tool.md)la distance et [**Mesurer l’angle **](../tool-library/measure-angle-tool.md)
+2. [**Outils Mesurer** ](../tool-library/measure-tool.md)la distance et [**Mesurer l’angle**](../tool-library/measure-angle-tool.md)
 3. [**Plans de coupe**](../tool-library/section-planes.md)
 4. [**Outils d’esquisse 3D**](../formit-primer/part-i/3d-sketching.md)
 5. Barre d’outils [**Primitive**](../tool-library/place-primitive-object.md)
