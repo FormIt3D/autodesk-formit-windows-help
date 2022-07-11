@@ -18,13 +18,16 @@ Plugin Manager 將外掛程式組織成品類，以協助您尋找您最感興�
 
 ![](../.gitbook/assets/d16.png)
 
-**Installed 外掛程式：**使用者已安裝的外掛程式。&#x20;
+**Installed 外掛程式：** 使用者已安裝的外掛程式。&#x20;
 
-**Recommended 外掛程式：**FormIt 團隊建議的外掛程式，用於擴充 FormIt 的核心功能並解鎖新的工作流程。社群開發的外掛程式被 FormIt 團隊核准後，會顯示在這裡。\GitHub 標籤：_formit-plugin-recommended_
+**Recommended 外掛程式：** FormIt 團隊建議的外掛程式，用於擴充 FormIt 的核心功能並解鎖新的工作流程。社群開發的外掛程式被 FormIt 團隊核准後，會顯示在這裡。\
+GitHub 標籤：_formit-plugin-recommended_
 
-**Public 外掛程式：**社群建置的外掛程式。此品類中的外掛程式尚未被 FormIt 團隊審閱或核准。\GitHub 標籤：_formit-plugin_
+**Public 外掛程式：** 社群建置的外掛程式。此品類中的外掛程式尚未被 FormIt 團隊審閱或核准。\
+GitHub 標籤：_formit-plugin_
 
-**For Developers 外掛程式**：由社群建置的外掛程式，可供建立新的 FormIt 外掛程式。\GitHub 標籤：_formit-plugin-developers_
+**For Developers 外掛程式**：由社群建置的外掛程式，可供建立新的 FormIt 外掛程式。\
+GitHub 標籤：_formit-plugin-developers_
 
 ## 加入您私人或本端的外掛程式
 
