@@ -11,11 +11,9 @@ Esistono diversi snap che possono essere utili durante il disegno e la modellazi
 |                                                                                                                                                                            |                                        |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
 | Vertici | ![](<../.gitbook/assets/inf3 (3).png>) |
-| Bordi. Quando si posiziona il cursore sul bordo, verranno disegnati piccoli punti rossi in corrispondenza delle        estremità e del punto medio. | ![](../.gitbook/assets/inf4.png) |
+| Bordi. Quando si posiziona il cursore sul bordo, verranno disegnati piccoli punti rossi in corrispondenza delle estremità e del punto medio. | ![](../.gitbook/assets/inf4.png) |
 | Punti medi del bordo | ![](../.gitbook/assets/inf5.png) |
-| Il piano di una superficie. Quando si posiziona il cursore sulla superficie, verrà disegnato un piccolo punto rosso
-        in corrispondenza del centroide della superficie. In questo modo sarà più semplice trovare il punto,
-        se si desidera eseguire lo snap. | ![](../.gitbook/assets/inf6.png) |
+| Il piano di una superficie. Quando si posiziona il cursore sulla superficie, verrà disegnato un piccolo punto rosso in corrispondenza del centroide della superficie. In questo modo sarà più semplice trovare il punto,se si desidera eseguire lo snap. | ![](../.gitbook/assets/inf6.png) |
 | Centroidi della superficie | ![](../.gitbook/assets/inf7.png) |
 | Il piano di lavoro, se non si esegue lo snap ad altri elementi. | ![](../.gitbook/assets/inf8.png) |
 | Centri del cerchio o dell'arco | ![](../.gitbook/assets/inf9.png) |
