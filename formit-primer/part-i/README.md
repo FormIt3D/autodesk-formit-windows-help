@@ -12,7 +12,7 @@ Bevor Sie mit Teil I beginnen, laden Sie FormIt for Windows herunter, und insta
 
 Sie müssen außerdem den Datensatz herunterladen, der unter dem folgenden Link zu finden ist. Der Datensatz ist eine Sammlung von Dateien, die in Teil I verwendet werden.
 
-_Wenn Sie FormIt for Windows nicht ausführen können, kann der größte Teil des Lernprogramms in der kostenlosen_ [_**Web-Anwendung**_](https://formit.autodesk.com/app)_** abgeschlossen werden.** Weitere Informationen zu FormIt-Versionen und zur Lizenzierung finden Sie auf der_ [_FormIt-Website_](https://formit.autodesk.com).
+_Wenn Sie FormIt for Windows nicht ausführen können, kann der größte Teil des Lernprogramms in der kostenlosen_ [_**Web-Anwendung**_](https://formit.autodesk.com/app) _abgeschlossen werden **.** Weitere Informationen zu FormIt-Versionen und zur Lizenzierung finden Sie auf der_ [_FormIt-Website_](https://formit.autodesk.com).
 
 ### Daten
 
