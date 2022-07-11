@@ -52,7 +52,8 @@ _Il existe deux manières d’importer une géométrie de FormIt vers Revit. Vou
 
 Importation d’un fichier FormIt à l’aide du bouton Importer CAO.
 
-![](<../../.gitbook/assets/3 (21) (1).png>)\Élément .axm importé. Notez que les niveaux du modèle FormIt sont également importés dans Revit.
+![](<../../.gitbook/assets/3 (21) (1).png>)\
+Élément .axm importé. Notez que les niveaux du modèle FormIt sont également importés dans Revit.
 
 _Comme pour les autres formats CAO, les calques du fichier d’origine sont importés dans Revit. Cette fonction vous permet de définir différents paramètres de visibilité pour chaque calque afin de manipuler facilement l’apparence graphique de votre fichier FormIt dans n’importe quelle vue Revit._
 
