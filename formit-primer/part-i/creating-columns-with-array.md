@@ -55,11 +55,12 @@ _**Remarque :**_ _la touche_ _**Maj**_ _permet de verrouiller le déplacement d
 
 ![](<../../.gitbook/assets/5 (1).jpeg>)
 
-_**Remarque :**_ _pour savoir comment naviguer dans l’esquisse, nous vous recommandons de consulter le chapitre_ _**Naviguer dans la scène**__._
+_**Remarque :**_ _pour savoir comment naviguer dans l’esquisse, nous vous recommandons de consulter le chapitre_ _**Naviguer dans la scène**_ _._
 
 2 – Sélectionnez la face du profil du poteau et extrudez la face jusqu’à **17 pi-8 po**.
 
-_**Remarque :**_ _si, lors du déplacement du profil du poteau, il s’est aligné sur le toit, extrudez la face vers le bas de_ _**17 pi-8 po** _\_au lieu de la déplacer vers le haut._
+_**Remarque :**_ _si, lors du déplacement du profil du poteau, il s’est aligné sur le toit, extrudez la face vers le bas de_ _**17 pi-8 po**_\
+_au lieu de la déplacer vers le haut._
 
 3 – Effectuez un zoom arrière et activez le calque **Roof** (Toit) (si désactivé). Le haut du poteau doit s’aligner sur le haut du toit.
 
@@ -67,13 +68,13 @@ _**Remarque :**_ _si, lors du déplacement du profil du poteau, il s’est alig
 
 4 – Pour que le modèle reste organisé et ordonné, sélectionnez à nouveau la géométrie du poteau et effectuez les opérations suivantes :
 
-1. **Utilisez l’outil Grouper (G)**pour créer un groupe et nommez-le **Column Tall** (Grand poteau).
+1. **Utilisez l’outil Grouper (G)** pour créer un groupe et nommez-le **Column Tall** (Grand poteau).
 2. Créez un **calque** appelé **Column** (Poteau) et ajoutez-y le groupe.
 3. Importez le matériau **Metal – Brushed – Colorized** (Métal – Brossé – Coloré) et peignez le groupe avec.
 
 ![](<../../.gitbook/assets/7 (4) (1).png>)
 
-_**Remarque :**_ _reportez-vous aux chapitres précédents pour plus d’informations sur les_ _**groupes**, les_ _**calques** et les_ _matériaux**.**_
+_**Remarque :**_ _reportez-vous aux chapitres précédents pour plus d’informations sur les_ _**groupes**, les_ _**calques** et les_ _**matériaux**._
 
 4 – Cliquez sur **Échap** pour désactiver l’outil Pinceau.
 
