@@ -163,9 +163,9 @@ Les graphiques sources sont affichés dans le groupe de fonctions Dynamo après 
 
 ### **Contrôle de facettage de courbe et de surface**
 
-* À partir de FormIt 2023, vous pouvez contrôler le facettage des courbes et des surfaces attachées aux nœuds SendToFormIt à l’aide des nœuds FormItGroupOptions, SetCurveFacetingCount et SetSurfaceFacetingCount.
+*   À partir de FormIt 2023, vous pouvez contrôler le facettage des courbes et des surfaces attachées aux nœuds SendToFormIt à l’aide des nœuds FormItGroupOptions, SetCurveFacetingCount et SetSurfaceFacetingCount.
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * Ces nœuds remplacent les paramètres de facettage de surface et de courbe globaux, qui sont définis sous Modifier -> Préférences -> Unités et Précision.
 * Cette option est très utile si votre graphique Dynamo doit générer des objets incurvés à l’aide de valeurs de facettage spécifiques, ce qui évite de modifier le paramètre global pour chaque graphique Dynamo exécuté dans la session en cours.
 
