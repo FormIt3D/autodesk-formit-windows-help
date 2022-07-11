@@ -2,7 +2,7 @@
 
 _FormIt 其中一個最令人興奮的功能是，能夠將您的模型從彈性塑型環境 (例如 FormIt) 移到功能強大的參數式環境 (例如 Revit)。在本章中，我們將完成一些練習，將各種元素從 FormIt 移到 Revit，以及從 Revit 移到 FormIt。_
 
-_本章將使用範例 Revit 族群。如果您還沒下載，可以從 **Farnsworth House Data Set 下載。**如果您到目前為止並未依照整個自學課程進行，您也可以從 **FormIt Primer Part 1 Datasets** 下載並開啟 **1.15 - Working With Revit.axm** 檔案。_
+_本章將使用範例 Revit 族群。如果您還沒下載，可以從 **Farnsworth House Data Set 下載。** 如果您到目前為止並未依照整個自學課程進行，您也可以從 **FormIt Primer Part 1 Datasets** 下載並開啟 **1.15 - Working With Revit.axm** 檔案。_
 
 _在這些練習中，我們將使用 Revit 2022，此版本已改進與 FormIt 的互通性功能。舊版 Revit 沒有此自學課程中展示的某些或任何功能，使用者介面也不同。_
 
