@@ -2,7 +2,7 @@
 
 _Jednou z nejzajímavějších funkcí aplikace FormIt je možnost přesunout model z flexibilního prostředí modelování, jako je aplikace FormIt, do výkonného parametrického prostředí, jako je aplikace Revit. V této kapitole projdeme několik cvičení, ve kterých přesuneme různé prvky z aplikace FormIt do aplikace Revit a z aplikace Revit do aplikace FormIt._
 
-_V této kapitole budeme používat vzorové rodiny aplikace Revit. Pokud jste to ještě neudělali, můžete si je stáhnout z **datové sady domu Farnsworth House.**Pokud jste až do tohoto bodu neabsolvovali celý výukový program, můžete si také stáhnout a otevřít soubor **1.15 – Working With Revit.axm** z **datových sad k příručce Základy aplikace FormIt, Část 1**._
+_V této kapitole budeme používat vzorové rodiny aplikace Revit. Pokud jste to ještě neudělali, můžete si je stáhnout z **datové sady domu Farnsworth House.** Pokud jste až do tohoto bodu neabsolvovali celý výukový program, můžete si také stáhnout a otevřít soubor **1.15 – Working With Revit.axm** z **datových sad k příručce Základy aplikace FormIt, Část 1**._
 
 _V těchto cvičeních budeme používat aplikaci Revit 2022, která má vylepšené možnosti interoperability s aplikací FormIt. Předchozí verze aplikace Revit neobsahují některé nebo žádné funkce zobrazené v tomto výukovém programu a mají jiné uživatelské rozhraní._
 
@@ -36,7 +36,7 @@ _**Poznámky:**_
 
 ## Z aplikace FormIt do aplikace Revit
 
-_Existují dva různé způsoby přenesení geometrie z aplikace FormIt do aplikace Revit. Existující soubor__ **.axm** můžete importovat do projektu aplikace Revit nebo souboru rodiny aplikace Revit, který se bude chovat podobně jako importovaný model nebo soubor CAD. Případně můžete aplikaci FormIt spustit z aplikace Revit a přenést každou skupinu aplikace FormIt do aplikace Revit jako samostatný prvek obecného modelu. Druhá metoda je popsána v **části II** v kapitole_ _**2.8**_ – _**Pokročilé pracovní postupy aplikace Revit**._
+_Existují dva různé způsoby přenesení geometrie z aplikace FormIt do aplikace Revit. Existující soubor_ _**.axm** můžete importovat do projektu aplikace Revit nebo souboru rodiny aplikace Revit, který se bude chovat podobně jako importovaný model nebo soubor CAD. Případně můžete aplikaci FormIt spustit z aplikace Revit a přenést každou skupinu aplikace FormIt do aplikace Revit jako samostatný prvek obecného modelu. Druhá metoda je popsána v **části II** v kapitole_ _**2.8**_ – _**Pokročilé pracovní postupy aplikace Revit**._
 
 ### Import domu Farnsworth House do aplikace Revit
 
