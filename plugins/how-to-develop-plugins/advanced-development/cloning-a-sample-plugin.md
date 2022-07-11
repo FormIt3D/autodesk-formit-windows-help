@@ -18,19 +18,19 @@
 
 ### 使用 GitHub Desktop 複製範例外掛程式儲存庫
 
-在 GitHub 中，選擇您要複製或修改的外掛程式專案。按一下**「Code」**按鈕，然後從下拉式清單中複製地址。
+在 GitHub 中，選擇您要複製或修改的外掛程式專案。按一下 **「Code」** 按鈕，然後從下拉式清單中複製地址。
 
 ![](<../../../.gitbook/assets/image (78).png>)
 
-開啟 GitHub Desktop 應用程式，按一下**「Current Repository」**，然後選擇**「Clone Repository」**。
+開啟 GitHub Desktop 應用程式，按一下 **「Current Repository」**，然後選擇 **「Clone Repository」**。
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
-選取**「URL」**頁籤，將複製的連結貼到第一個欄位，然後在電腦上選擇本端資料夾路徑以儲存這些檔案。按一下**「Clone」**。
+選取 **「URL」** 頁籤，將複製的連結貼到第一個欄位，然後在電腦上選擇本端資料夾路徑以儲存這些檔案。按一下 **「Clone」**。
 
 ![](<../../../.gitbook/assets/image (46).png>)
 
 ### 在 Visual Studio Code 中開啟您的專案
 
-啟動 Visual Studio Code。移至**「檔案」**>**「開啟資料夾」**，然後選取包含外掛程式檔案和資料夾的資料夾，例如 C:\Users\Documents\GenerateStringLights\v22\_0
+啟動 Visual Studio Code。移至 **「檔案」**>**「開啟資料夾」**，然後選取包含外掛程式檔案和資料夾的資料夾，例如 C:\Users\Documents\GenerateStringLights\v22\_0
 
