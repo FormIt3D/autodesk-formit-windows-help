@@ -34,13 +34,13 @@ Para crear un grupo desde la barra de herramientas Grupos, seleccione uno o más
 
 Para **editar un grupo desde la barra de herramientas Grupos**, seleccione el icono **Editar grupo** y, a continuación, haga clic en el grupo que desee modificar. Cuando haya terminado de realizar modificaciones, seleccione el icono **Finalizar**. Esta herramienta permite elegir el grupo específico que desea editar, incluso aunque esté muy anidado.
 
-**Para establecer un grupo como exclusivo desde la barra de herramientas, ** seleccione el icono **Establecer como exclusivo** en la barra de herramientas Grupos. Además, puede seleccionar **Establecer como exclusivo** en la barra de herramientas Grupos, elegir el grupo que desea establecer como exclusivo y, a continuación, hacer clic en el icono **Finalizar**.
+**Para establecer un grupo como exclusivo desde la barra de herramientas,** seleccione el icono **Establecer como exclusivo** en la barra de herramientas Grupos. Además, puede seleccionar **Establecer como exclusivo** en la barra de herramientas Grupos, elegir el grupo que desea establecer como exclusivo y, a continuación, hacer clic en el icono **Finalizar**.
 
-**Para desagrupar un grupo de la barra de herramientas Grupos, ** seleccione el grupo que desee modificar y elija el icono **Desagrupar** en el menú de la barra de herramientas Grupos. De este modo, se desagrupa la selección actual, pero no se desagrupa ningún grupo anidado. También puede seleccionar **Desagrupar** en la barra de herramientas, seleccionar el grupo que desee modificar y, a continuación, seleccionar el icono **Finalizar**.
+**Para desagrupar un grupo de la barra de herramientas Grupos,** seleccione el grupo que desee modificar y elija el icono **Desagrupar** en el menú de la barra de herramientas Grupos. De este modo, se desagrupa la selección actual, pero no se desagrupa ningún grupo anidado. También puede seleccionar **Desagrupar** en la barra de herramientas, seleccionar el grupo que desee modificar y, a continuación, seleccionar el icono **Finalizar**.
 
 **Para desagrupar todos los grupos anidados que se encuentran debajo del grupo seleccionado,** elija un grupo con grupos anidados y, a continuación, seleccione **Desagrupar todos los grupos anidados** en la barra de herramientas Grupos.
 
-**Para desagrupar todos los grupos del modelo, ** seleccione la herramienta **Desagrupar todo** de la barra de herramientas Grupos.
+**Para desagrupar todos los grupos del modelo,** seleccione la herramienta **Desagrupar todo** de la barra de herramientas Grupos.
 
 ## Grupos y Revit
 
