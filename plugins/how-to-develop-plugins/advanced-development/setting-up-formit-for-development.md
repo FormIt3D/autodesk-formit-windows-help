@@ -26,9 +26,9 @@ L'Editor script memorizza il codice scritto all'interno di un file scratch.js ne
 
 Nella parte superiore sono disponibili due pulsanti:
 
-**Esegui** ![] (<../../.gitbook/assets/image (8).png>): esegue tutto il codice scritto nella finestra.
+**Esegui** ![](<../../../.gitbook/assets/image (8).png>): esegue tutto il codice scritto nella finestra.
 
-**Esegui selezione**![] (<../../.gitbook/assets/image (52).png>): esegue solo le righe di codice selezionate/evidenziate.
+**Esegui selezione** ![](<../../../.gitbook/assets/image (52).png>): esegue solo le righe di codice selezionate/evidenziate.
 
 ### **Output script**
 
