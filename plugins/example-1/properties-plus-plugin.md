@@ -39,4 +39,4 @@ _**Anmerkung:**_ _Wenn Sie den Mauszeiger von der Palette weg bewegen, können S
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
-_**Anmerkung:**_ _Dieses Plugin erkennt auch_ _**Scheitelpunkte**, die mit einem anderen Plugin namens_ _**Generate Vertex** erstellt werden können. Wenn Sie experimentieren möchten, installieren Sie das_ _**Plugin Generate Vertex**__, und wiederholen Sie die oben genannten Schritte._
+_**Anmerkung:**_ _Dieses Plugin erkennt auch_ _**Scheitelpunkte**, die mit einem anderen Plugin namens_ _**Generate Vertex** erstellt werden können. Wenn Sie experimentieren möchten, installieren Sie das_ _**Plugin Generate Vertex**_ _, und wiederholen Sie die oben genannten Schritte._
