@@ -4,12 +4,12 @@ Durante lo sviluppo di un plug-in, potrebbe essere necessario ricaricare rapidam
 
 ## Ricaricamento nella versione per il Web
 
-?? Per ricaricare il plug-in nella versione di FormIt per il Web, fare clic con il pulsante destro del mouse sul codice HTML del plug-in e fare clic su `Reload Frame`.
+💡 Per ricaricare il plug-in nella versione di FormIt per il Web, fare clic con il pulsante destro del mouse sul codice HTML del plug-in e fare clic su `Reload Frame`.
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
 ## Ricaricamento nella versione per Windows
 
-?? Per ricaricare il plug-in nella versione di FormIt per Windows, fare clic con il pulsante destro del mouse sul codice HTML del plug-in e fare clic su `Hard Reload`.
+💡 Per ricaricare il plug-in nella versione di FormIt per Windows, fare clic con il pulsante destro del mouse sul codice HTML del plug-in e fare clic su `Hard Reload`.
 
 ![](../../../.gitbook/assets/d18.png)
