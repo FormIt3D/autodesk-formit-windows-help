@@ -10,4 +10,6 @@
 
 ## 徑向
 
-![](<../.gitbook/assets/array\_radial1 (1).png>)\![](../.gitbook/assets/radial\_array2.png)\![](../.gitbook/assets/radial\_array3.png)
+![](<../.gitbook/assets/array\_radial1 (1).png>)\
+![](../.gitbook/assets/radial\_array2.png)\
+![](../.gitbook/assets/radial\_array3.png)
