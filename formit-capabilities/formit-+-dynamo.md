@@ -163,9 +163,9 @@ Los gráficos de origen se muestran en el panel de Dynamo después de [vincular 
 
 ### **Facetado de curva de control + superficie**
 
-* En FormIt 2023 y versiones posteriores, puede controlar el facetado de las curvas y superficies enlazadas a nodos SendToFormIt mediante los nodos FormItGroupOptions, SetCurveFacetingCount y SetSurfaceFacetingCount.
+*  En FormIt 2023 y versiones posteriores, puede controlar el facetado de las curvas y superficies enlazadas a nodos SendToFormIt mediante los nodos FormItGroupOptions, SetCurveFacetingCount y SetSurfaceFacetingCount.
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+   <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * Estos nodos modificarán los parámetros globales de facetado de curvas y superficies, que se definen en Editar -> Preferencias -> Unidades + precisión.
 * Esto resulta muy útil si el gráfico de Dynamo debe generar objetos curvos mediante valores de facetado específicos, ya que se reduce la necesidad de cambiar la configuración global de cada gráfico de Dynamo ejecutado en la sesión actual.
 
@@ -289,7 +289,7 @@ Los nodos más eficaces para enviar datos entre FormIt y Dynamo.
 * Asigne un nombre al nodo SelectFromFormIt para indicar el tipo de geometría que se espera. Por ejemplo, "Seleccionar contorno de emplazamiento (bordes)".
    * Puede seleccionar cualquier tipo de geometría de FormIt, pero a menudo es mejor restringir la selección a un grupo de FormIt y [seleccionar este grupo en lugar de la geometría original](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 * Si necesita mover los resultados de un gráfico de Dynamo basado en la selección, es mejor mover primero la geometría de selección y, a continuación, volver a ejecutar el gráfico, que se ajustará a la geometría de selección actualizada y se reubicará de forma adecuada.&#x20;
-   * También puede agrupar los resultados de Dynamo ** y ** la selección y, a continuación, mover el grupo contenedor.
+   * También puede agrupar los resultados de Dynamo **y** la selección y, a continuación, mover el grupo contenedor.
 * Cuando se envía geometría de FormIt a Dynamo, todos los atributos, materiales y grupos anidados se pierden al devolver la geometría a FormIt.
 * Si va a editar un gráfico basado en la selección en Dynamo y la geometría seleccionada en FormIt cambia, deberá volver a seleccionar la geometría. Para ello, haga clic en el botón "Seleccionar en FormIt" en el nodo SelectFromFormIt.&#x20;
 * Al realizar selecciones en FormIt, se aplica el [filtro de selección](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object#selection-filtering) activo. Por ejemplo, si desea seleccionar vértices de FormIt, deberá activarlos en el filtro de selección.
