@@ -36,7 +36,7 @@ El archivo **plan.png** proporcionado es una imagen de un plano impreso en un ho
 4. En **MAPAS**, haga clic en el mosaico de vista preliminar de **textura** y vaya al archivo **plan.png** de la carpeta **Farnsworth House Data Set > Supporting Files > Images**. A continuación, haga clic en **Abrir**.
 5. En **PROPIEDADES**, cambie la escala de la imagen. Para ello, introduzca **144'** en el campo **Escala horizontal** y **96'** en el campo **Escala vertical**. Tenga en cuenta que puede que sea necesario desbloquear la escala horizontal y vertical (**icono de eslabón de cadena**) para insertar valores que cambien las proporciones de la imagen.
 6. Active **Transparencia** y establezca su valor en aproximadamente la mitad. Esto ayudará a alinear la imagen del plano de planta importada con la imagen de satélite.
-7. Haga clic en **Aceptar **para finalizar el material.
+7. Haga clic en **Aceptar** para finalizar el material.
 
 ![](../../.gitbook/assets/create-1.png)
 
