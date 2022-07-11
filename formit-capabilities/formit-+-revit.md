@@ -13,7 +13,7 @@ FormIt for Windows stellt eine direkte Verbindung mit Revit her und ermöglicht 
 * Verknüpfen Sie ein FormIt-Modell (AXM-Format) mit Revit, indem Sie auf der Registerkarte Einfügen in Revit auf die Schaltfläche _**CAD verknüpfen**_ klicken.
 * Wählen Sie ein verknüpftes FormIt-Element in Revit aus, und verwenden Sie die neue Schaltfläche _**In FormIt bearbeiten**_, um es in FormIt zu öffnen und sofort zu bearbeiten.
 * Verwenden Sie die neue _**Spalte An Revit senden**_ in der Palette Layer, um zu steuern, welche Layer an Revit gesendet werden, wenn die FormIt-Skizze in Revit verknüpft wird.&#x20;
-* Zeigen Sie eine Vorschau der Geometrie an, die an Revit gesendet wird. Verwenden Sie dazu den neuen Modus _**Vorschau zum Senden an Revit￼**_, der unten in der Gruppe Layer und neben der Schaltfläche An Revit senden verfügbar ist.
+* Zeigen Sie eine Vorschau der Geometrie an, die an Revit gesendet wird. Verwenden Sie dazu den neuen Modus _**Vorschau zum Senden an Revit**_, der unten in der Gruppe Layer und neben der Schaltfläche An Revit senden verfügbar ist.
 * Silhouettenkanten werden jetzt für FormIt-Objekte in Revit gezeichnet.
 
 ### **Verbesserungen in FormIt 2022.1** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
