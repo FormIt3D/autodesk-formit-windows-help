@@ -60,7 +60,7 @@ _**Nota**_ _Per informazioni su come spostarsi all'interno del disegno, è consi
 2 - Selezionare la superficie del profilo del pilastro ed estrudere la superficie fino a **17'-8"**.
 
 _**Nota**_ _Se durante lo spostamento del profilo del pilastro, la superficie viene allineata al tetto, estruderla verso il basso di_ _**17'-8"**_\
-_ anziché verso l'alto._
+_anziché verso l'alto._
 
 3 - Eseguire lo zoom indietro e attivare il layer **Roof** (se disattivato). La parte superiore del pilastro deve essere allineata alla parte superiore del tetto.
 
@@ -139,7 +139,7 @@ _**Nota**_ _Tenendo premuto_ _**MAIUSC**_ _o_ _**CTRL**_ _è possibile seleziona
 
 ![](<../../.gitbook/assets/12 (4).png>)
 
-_**Nota**_ _È possibile controllare l'altezza dei pilastri corti utilizzando lo strumento_ _**Misura (ME)**__. In alternativa, è possibile selezionare uno dei bordi verticali del pilastro e visualizzarne la lunghezza nella_ _**tavolozza Proprietà**._
+_**Nota**_ _È possibile controllare l'altezza dei pilastri corti utilizzando lo strumento_ _**Misura (ME)**_ _. In alternativa, è possibile selezionare uno dei bordi verticali del pilastro e visualizzarne la lunghezza nella_ _**tavolozza Proprietà**._
 
 4 - Utilizzando le tecniche appena apprese, copiare il pilastro corto più lontano sul lato opposto di **Lower Terrace Floor** per creare l'ultimo pilastro rimanente.
 
