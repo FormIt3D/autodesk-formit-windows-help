@@ -12,7 +12,7 @@ Antes de comenzar con la parte 1, descargue e instale FormIt para Windows median
 
 También deberá descargar el conjunto de datos que se encuentra en el vínculo siguiente. El conjunto de datos es una colección de archivos que se utilizan en toda la parte 1.
 
-_Si no puede ejecutar FormIt para Windows, la mayoría del aprendizaje se puede completar mediante la_ [_**aplicación web**_](https://formit.autodesk.com/app)_** gratuita.** Para obtener más información sobre las versiones y licencias de FormIt, visite el_ [_sitio web de FormIt_](https://formit.autodesk.com).
+_Si no puede ejecutar FormIt para Windows, la mayoría del aprendizaje se puede completar mediante la_ [_**aplicación web**_](https://formit.autodesk.com/app) _gratuita **.** Para obtener más información sobre las versiones y licencias de FormIt, visite el_ [_sitio web de FormIt_](https://formit.autodesk.com).
 
 ### Conjunto de datos
 
