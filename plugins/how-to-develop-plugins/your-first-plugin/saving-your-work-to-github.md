@@ -18,7 +18,7 @@ Během chvíle se nově vytvořený projekt zobrazí v seznamu projektů. V ro
 
 ### Uložení práce
 
-Pokud v modulu plug-in provedete změny, klikněte na tlačítko Uložit ![] (<../../.gitbook/assets/image (40).png>), aby se změny uložily do vašeho účtu GitHub.
+Pokud v modulu plug-in provedete změny, klikněte na tlačítko Uložit ![](<../../../.gitbook/assets/image (40).png>), aby se změny uložily do vašeho účtu GitHub.
 
 ![](<../../../.gitbook/assets/save a plugin.png>)
 
