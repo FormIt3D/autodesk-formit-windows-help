@@ -60,7 +60,7 @@ _**Nota:**_ _Para obtener información sobre cómo desplazarse por el boceto, se
 2- Seleccione la cara del perfil del pilar y extruya la cara hasta**17'-8"**.
 
 _**Nota:**_ _Si el perfil del pilar se alinea con la cubierta al moverlo, extruya la cara hacia abajo_ _**17'-8"**_\
-_ en lugar de hacia arriba._
+_en lugar de hacia arriba._
 
 3 - Reduzca la vista y active la capa **Roof** (si está desactivada). La parte superior del pilar debe alinearse con la parte superior de la cubierta.
 
