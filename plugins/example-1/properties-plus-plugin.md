@@ -2,7 +2,7 @@
 
 _Ce plug-in est une version plus avancée de la_ _**palette Propriétés** standard. Si vous sélectionnez plusieurs groupes et/ou types de géométrie, ce plug-in vous fournit le détail de ce qui a été sélectionné, et vous permet de renommer en bloc des groupes et des occurrences de groupe._
 
-1 **– **Tout d’abord, nous allons examiner les propriétés d’un groupe de portes à partir de notre modèle de base. Rouvrez le fichier **Encode Campus Sample Model.axm** et revenez à la scène **Eye Level – Long Alley** (Au niveau du regard – Longue allée). Pour commencer à utiliser le plug-in **Properties Plus** (Propriétés plus), procédez comme suit :
+1 **–** Tout d’abord, nous allons examiner les propriétés d’un groupe de portes à partir de notre modèle de base. Rouvrez le fichier **Encode Campus Sample Model.axm** et revenez à la scène **Eye Level – Long Alley** (Au niveau du regard – Longue allée). Pour commencer à utiliser le plug-in **Properties Plus** (Propriétés plus), procédez comme suit :
 
 1. Pour ouvrir la **palette Properties Plus** (Propriétés plus), cliquez sur la propriété portant l’icône « plus ».
 2. Assurez-vous que l’option **Mettre à jour lors du changement de sélection** est cochée.
