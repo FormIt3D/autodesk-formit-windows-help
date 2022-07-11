@@ -2,7 +2,7 @@
 
 _Analogamente ad AutoCAD e Photoshop, i layer in FormIt consentono di gestire la visibilità degli oggetti nel modello. In questo capitolo, creeremo un layer per salvare e nascondere la massa dell'edificio per un'analisi futura._
 
-_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.6 - Control Visibility with Layers.axm**_ _dai_ _set di dati della Parte I della Guida introduttiva di FormIt**.**_
+_Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.6 - Control Visibility with Layers.axm**_ _dai_ _set di dati della **Parte I della Guida introduttiva di FormIt**._
 
 ## **Creazione di layer**
 
