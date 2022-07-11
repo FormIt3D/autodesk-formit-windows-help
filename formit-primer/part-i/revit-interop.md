@@ -2,7 +2,7 @@
 
 _Una delle funzionalità più interessanti di FormIt è la possibilità di spostare il modello da un ambiente di modellazione flessibile come FormIt ad un ambiente parametrico potente come Revit. In questo capitolo, esamineremo alcuni esercizi che consentono di spostare vari elementi da FormIt a Revit e da Revit a FormIt._
 
-_In questo capitolo verranno utilizzate le famiglie di Revit di esempio. Se non è già stato fatto, è possibile scaricarle dal **set di dati di Casa Farnsworth.**Se non è stata seguita l'intera esercitazione fino a questo momento, è anche possibile scaricare e aprire il file **1.15 – Working With Revit.axm** dai **set di dati della Parte I della Guida introduttiva di FormIt**._
+_In questo capitolo verranno utilizzate le famiglie di Revit di esempio. Se non è già stato fatto, è possibile scaricarle dal **set di dati di Casa Farnsworth.** Se non è stata seguita l'intera esercitazione fino a questo momento, è anche possibile scaricare e aprire il file **1.15 – Working With Revit.axm** dai **set di dati della Parte I della Guida introduttiva di FormIt**._
 
 _In questi esercizi, utilizzeremo Revit 2022, che offre funzionalità di interoperabilità migliorate con FormIt. Nelle versioni precedenti di Revit non sono presenti alcune o nessuna delle funzionalità mostrate in questa esercitazione e l'interfaccia utente sarà diversa._
 
@@ -23,7 +23,7 @@ _**Nota**_ _Nella procedura riportata di seguito vengono mostrati l'interfaccia 
 
 ![](<../../.gitbook/assets/0 (23).png>)
 
-_**Note **_
+_**Note**_
 
 * _Questo processo richiede tempo poiché in Revit viene aperto il file_ _**RFA**_ _nel primo percorso, quindi viene convertito e salvato in formato_ _**AXMF**_ _per FormIt._
 * _In questo esercizio, stiamo convertendo un solo file, ma è possibile utilizzare questo processo per convertire in batch tutti i file_ _**RFA**_ _nella cartella selezionata (inclusi eventuali file_ _**RFA**_ _nelle cartelle nidificate)._
@@ -36,7 +36,7 @@ _**Note **_
 
 ## Da FormIt a Revit
 
-_Esistono due modi diversi per importare la geometria da FormIt a Revit. È possibile importare un file_ _**.axm** esistente in un progetto di Revit o in un file di famiglia Revit, che funzionerà in modo simile ad un modello importato o ad un file CAD. In alternativa, è possibile avviare FormIt da Revit e importare ogni gruppo di FormIt in Revit come singolo elemento modello generico. Il secondo metodo è descritto nella **Parte II**, capitolo _ _**2.8**_ _**Workflow di Revit avanzati**._
+_Esistono due modi diversi per importare la geometria da FormIt a Revit. È possibile importare un file_ _**.axm** esistente in un progetto di Revit o in un file di famiglia Revit, che funzionerà in modo simile ad un modello importato o ad un file CAD. In alternativa, è possibile avviare FormIt da Revit e importare ogni gruppo di FormIt in Revit come singolo elemento modello generico. Il secondo metodo è descritto nella **Parte II**, capitolo_ _**2.8**_ _**Workflow di Revit avanzati**._
 
 ### Importazione di Casa Farnsworth in Revit
 
