@@ -17,7 +17,7 @@ Ve výchozím nastavení je povolen panel nástrojů Standard, který je rozděl
 ![](<../.gitbook/assets/geometry\_icons (1).png>)
 
 1. [**Výběr**](https://windows.help.formit.autodesk.com/v/czech/tool-library/select-edge-face-or-object) a filtry výběru oblasti.
-2. [**Nástroje Odměřit ** ](../tool-library/measure-tool.md)vzdálenost a [**Odměřit úhel**](../tool-library/measure-angle-tool.md)
+2. [**Nástroje Odměřit**](../tool-library/measure-tool.md) vzdálenost a [**Odměřit úhel**](../tool-library/measure-angle-tool.md)
 3. [**Roviny řezu**](../tool-library/section-planes.md)
 4. [**Nástroje pro 3D náčrty**](../formit-primer/part-i/3d-sketching.md)
 5. Panel nástrojů [**Základní těleso**](../tool-library/place-primitive-object.md)
