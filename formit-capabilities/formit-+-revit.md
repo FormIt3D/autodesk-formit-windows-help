@@ -22,7 +22,7 @@ Inicie FormIt desde Revit con el botón Boceto 3D e incluya todos los datos de n
 
 ### **Novedades de la versión 2022** <a href="#all-new-for-2022" id="all-new-for-2022"></a>
 
-* Inicie FormIt directamente desde Revit con el nuevo botón _**Boceto 3D** _ de la ficha Masa y emplazamiento de Revit.
+* Inicie FormIt directamente desde Revit con el nuevo botón _**Boceto 3D**_ de la ficha Masa y emplazamiento de Revit.
 * Diseñe un boceto en FormIt y envíelo de vuelta a Revit mediante el botón _**Enviar a Revit**_ de FormIt cuando haya iniciado el diseño desde el botón _Boceto 3D_.
 * Importe un modelo de FormIt en Revit mediante el botón _**Importar CAD**_ de la ficha Insertar de Revit (más fiable y hasta **30 veces más rápido** que el botón _Importar FormIt a RVT_ anterior).
 * No es necesario descargar un complemento independiente para contar con las funciones de FormIt.
@@ -59,7 +59,7 @@ Si trabaja tanto en las primeras fases como en el diseño detallado, puede repet
 
 ![Uso de Editar en FormIt después de seleccionar un objeto de FormIt](../.gitbook/assets/revit-edit-in-formit-workflow.gif)
 
-* Utilice el _modo de vista previa de Revit****_ para obtener una vista preliminar de la geometría que se enviará a Revit y asegurarse de que va a compartir el diseño adecuado para el desarrollo detallado.
+* Utilice el _**modo de vista previa de Revit**_ para obtener una vista preliminar de la geometría que se enviará a Revit y asegurarse de que va a compartir el diseño adecuado para el desarrollo detallado.
 * Seleccione los elementos que desee en los diseños y envíe cada uno de los diseños a Revit mediante el botón _**Enviar a Revit**_ o guardando el modelo vinculado.&#x20;
 
 #### **Uso de las herramientas**
@@ -71,7 +71,7 @@ Si trabaja tanto en las primeras fases como en el diseño detallado, puede repet
 * Al iniciar Revit 2022.0 o una versión posterior, aparece un nuevo botón en la ficha Masa y emplazamiento denominado **Boceto 3D**. El botón solo está disponible en las vistas 3D; aparecerá desactivado en las vistas 2D de Revit.
 * Asegúrese de que ha iniciado sesión en Revit con sus credenciales de Autodesk. Al iniciar el botón _**Boceto 3D**_, es posible que se le solicite que inicie sesión de nuevo en su cuenta de Autodesk. Esto se hace para comprobar que dispone de los derechos correctos.
 * Si no está instalado FormIt 2022.0 o una versión posterior (o si hay instalada una versión anterior a FormIt 2022.0), FormIt no se iniciará y se le solicitará que descargue la versión correcta de FormIt.
-* Haga clic en el botón _**Boceto 3D** _ para iniciar FormIt. Elija si desea incorporar todos los objetos visibles o solo aquellos seleccionados en FormIt. La opción de transferir solo los objetos seleccionados resulta útil si el modelo de Revit es grande y el diseño solo hará referencia a una parte del mismo. Además, utilice una caja de sección en Revit para aislar un área interior del modelo de Revit e incorporarla en FormIt.
+* Haga clic en el botón _**Boceto 3D**_ para iniciar FormIt. Elija si desea incorporar todos los objetos visibles o solo aquellos seleccionados en FormIt. La opción de transferir solo los objetos seleccionados resulta útil si el modelo de Revit es grande y el diseño solo hará referencia a una parte del mismo. Además, utilice una caja de sección en Revit para aislar un área interior del modelo de Revit e incorporarla en FormIt.
 
 ![](../.gitbook/assets/revit-objects.png)
 
@@ -141,7 +141,7 @@ Si trabaja tanto en las primeras fases como en el diseño detallado, puede repet
 
 #### **Conversión de familias de Revit** <a href="#converting-revit-families" id="converting-revit-families"></a>
 
-* Las familias de Revit se convierten en contenido de FormIt mediante el botón _**Convertir RFA a FormIt** _ de la ficha Complementos de Revit, lo que permite reutilizar el contenido existente de Revit en el contexto de FormIt.
+* Las familias de Revit se convierten en contenido de FormIt mediante el botón _**Convertir RFA a FormIt**_ de la ficha Complementos de Revit, lo que permite reutilizar el contenido existente de Revit en el contexto de FormIt.
 * Especifique una carpeta de archivos RFA para convertirlos en archivos de FormIt y guardarlos en la carpeta que elija.
 * Esta es una excelente forma de reutilizar todo el contenido de Revit que ya tiene. Convierta el contenido a FormIt y establezca la biblioteca de contenido de FormIt en la carpeta que contiene los archivos convertidos. A continuación, en la paleta Biblioteca de contenido, haga clic en una vista preliminar en miniatura y colóquela en el modelo.
 
