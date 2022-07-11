@@ -163,9 +163,9 @@ I grafici di origine vengono visualizzati nel pannello di Dynamo dopo il [colleg
 
 ### **Controllo della sfaccettatura di curve e superfici**
 
-* A partire da FormIt 2023, è possibile controllare la sfaccettatura di curve e superfici associate ai nodi SendToFormIt utilizzando i nodi FormItGroupOptions: SetCurveFacetingCount e SetSurfaceFacetingCount.
+*   A partire da FormIt 2023, è possibile controllare la sfaccettatura di curve e superfici associate ai nodi SendToFormIt utilizzando i nodi FormItGroupOptions: SetCurveFacetingCount e SetSurfaceFacetingCount.
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * Questi nodi sostituiranno le impostazioni globali di sfaccettatura di curve e superfici, definite in Modifica -> Preferenze -> Unità + precisione.
 * Ciò è molto utile se il grafico di Dynamo deve generare oggetti curvi utilizzando valori di sfaccettatura specifici, riducendo la necessità di modificare l'impostazione globale per ogni grafico di Dynamo eseguito nella sessione corrente.
 
