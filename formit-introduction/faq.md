@@ -101,7 +101,7 @@ FormIt 正式命名前的內部代號是 XModeler，因此我們建立的檔案�
 
 **FormIt 與 SketchUp 相比如何？**
 
-* [**與 Revit 的互動**](../tool-library/revit.md)更好_\*\*_
+* [**與 Revit 的互動**](../tool-library/revit.md)更好 _\*\*_
 * 與 [**Dynamo 整合**](../tool-library/dynamo.md)用於計算設計
 * 適用於[**日光分析**](../tool-library/solar-analysis.md)和[**能源分析**](../tool-library/energy-analysis.md) (由 Autodesk Insight 提供) 的原生工具
 * 更強大的實體塑型核心，能進行進階的塑型作業
