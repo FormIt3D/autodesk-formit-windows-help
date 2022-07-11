@@ -52,7 +52,8 @@ _Existují dva různé způsoby přenesení geometrie z aplikace FormIt do apli
 
 Import souboru aplikace FormIt pomocí tlačítka Importovat CAD.
 
-![](<../../.gitbook/assets/3 (21) (1).png>)\Importovaný prvek .axm. Všimněte si, že podlaží z modelu aplikace FormIt jsou také importována do aplikace Revit.
+![](<../../.gitbook/assets/3 (21) (1).png>)\
+Importovaný prvek .axm. Všimněte si, že podlaží z modelu aplikace FormIt jsou také importována do aplikace Revit.
 
 _Podobně jako u jiných formátů CAD jsou hladiny v původním souboru importovány do aplikace Revit. Tato funkce umožňuje definovat různá nastavení viditelnosti pro každou hladinu a snadno tak upravovat grafický vzhled souboru FormIt v libovolném pohledu aplikace Revit._
 
