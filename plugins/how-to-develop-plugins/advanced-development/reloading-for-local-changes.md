@@ -4,12 +4,12 @@
 
 ## 網頁版重新載入
 
-?? 若要在 FormIt 網頁版中重新載入外掛程式，請在外掛程式的 HTML 上按一下右鍵，然後按一下 `Reload Frame`
+💡 若要在 FormIt 網頁版中重新載入外掛程式，請在外掛程式的 HTML 上按一下右鍵，然後按一下 `Reload Frame`
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
 ## Windows 重新載入
 
-?? 若要在 FormIt Windows 版中重新載入外掛程式，請在外掛程式的 HTML 上按一下右鍵，然後按一下 `Hard Reload`
+💡 若要在 FormIt Windows 版中重新載入外掛程式，請在外掛程式的 HTML 上按一下右鍵，然後按一下 `Hard Reload`
 
 ![](../../../.gitbook/assets/d18.png)
