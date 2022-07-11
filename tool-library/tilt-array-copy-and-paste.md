@@ -13,7 +13,9 @@
 3. 透過繪製線來定義傾斜軸。&#x20;
 4. 按一下第三點以開始傾斜作業。
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\![](../.gitbook/assets/tilt2.png)\![](../.gitbook/assets/tilt3.png)
+![](<../.gitbook/assets/tilt\_face (1).png>)\
+![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt3.png)
 
 ### 刻面 / 平滑面
 
