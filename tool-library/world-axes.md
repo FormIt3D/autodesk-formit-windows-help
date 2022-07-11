@@ -11,7 +11,8 @@ Cuando se abre un boceto en blanco en FormIt, los ejes universales se muestran c
 Para rotar la rejilla y redefinir el punto de origen del boceto, **haga clic con el botón derecho** en un espacio vacío de la escena y seleccione el icono **Establecer ejes (SZ)** en el menú contextual.\
 ![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
 
-Aparece el widget para establecer ejes. Haga clic en el pinzamiento grande del centro para seleccionar el widget. Haga clic de nuevo para establecer el punto de origen. A continuación, haga clic en el punto del eje rojo para rotar la rejilla o haga clic en el punto de los ejes azules para girar el plano de rejilla verticalmente. Haga clic fuera del espacio para confirmar el cambio\![](../.gitbook/assets/2021-01-14\_12-30-10.gif).
+Aparece el widget para establecer ejes. Haga clic en el pinzamiento grande del centro para seleccionar el widget. Haga clic de nuevo para establecer el punto de origen. A continuación, haga clic en el punto del eje rojo para rotar la rejilla o haga clic en el punto de los ejes azules para girar el plano de rejilla verticalmente. Haga clic fuera del espacio para confirmar el cambio\
+![](../.gitbook/assets/2021-01-14\_12-30-10.gif).
 
 Para **restablecer** el origen y la rejilla a la configuración por defecto, haga clic con el botón derecho en un espacio vacío de la escena y elija **Restablecer ejes (RZ)**.
 
