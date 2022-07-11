@@ -8,4 +8,6 @@
 2. 選取兩點以測量它們之間的距離。
 3. 選取要調整的面或邊，按一下顯示的值，然後在顯示的對話方塊中加入新值。
 
-![](<../.gitbook/assets/measure (1).png>)\![](<../.gitbook/assets/measure2 (1).png>)\![](../.gitbook/assets/measure3.png)
+![](<../.gitbook/assets/measure (1).png>)\
+![](<../.gitbook/assets/measure2 (1).png>)\
+![](../.gitbook/assets/measure3.png)
