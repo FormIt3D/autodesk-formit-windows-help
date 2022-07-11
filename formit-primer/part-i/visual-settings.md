@@ -61,6 +61,6 @@ _Ora creeremo un'altra scena con alcune impostazioni di **Stili visualizzazione*
 
 ![](<../../.gitbook/assets/5 (6) (1).png>)
 
-_**Nota** Deselezionando la proprietà_ _Cinepresa****_ _della nuova scena, è possibile utilizzarla per attivare solo le impostazioni di visualizzazione appena create senza spostare la posizione della cinepresa. Provare utilizzando una delle precedenti scene denominate Aerial, quindi fare doppio clic su_ _**Customized Scene**_ _e osservare cosa succede._
+_**Nota** Deselezionando la proprietà_ _**Cinepresa**_ _della nuova scena, è possibile utilizzarla per attivare solo le impostazioni di visualizzazione appena create senza spostare la posizione della cinepresa. Provare utilizzando una delle precedenti scene denominate Aerial, quindi fare doppio clic su_ _**Customized Scene**_ _e osservare cosa succede._
 
 _**Nota**_ _Per ulteriori informazioni su_ _**diagnostica degli stili di visualizzazione**_ _e applicazioni avanzate per_ _**Scene**, consultare la_ _**Parte II della Guida introduttiva**._
