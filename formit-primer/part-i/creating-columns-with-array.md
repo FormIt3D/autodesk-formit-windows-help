@@ -59,7 +59,8 @@ _**Poznámka:**_ _Informace o tom, jak se pohybovat v náčrtu, získáte v kapi
 
 2 – Vyberte plochu profilu sloupu a vysuňte ji nahoru do vzdálenosti **17’-8"**.
 
-_**Poznámka:**_ _Pokud se při přesouvání profil sloupu zarovnal ke střeše, vysuňte plochu dolů o_ _**17’-8"**_\_, nikoli nahoru._
+_**Poznámka:**_ _Pokud se při přesouvání profil sloupu zarovnal ke střeše, vysuňte plochu dolů o_ _**17’-8"**,_\
+_nikoli nahoru._
 
 3 – Oddalte pohled a zapněte hladinu **Střecha** (pokud je vypnutá). Vrchol sloupu by měl být zarovnán s horní částí střechy.
 
