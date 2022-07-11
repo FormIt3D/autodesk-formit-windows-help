@@ -2,7 +2,7 @@
 
 ### Publikování z nástroje Plugin Playground
 
-Když budete připraveni sdílet modul plug-in s ostatními, publikujte projekt pomocí tlačítka Publikovat![] (<../../.gitbook/assets/image (66).png>).
+Když budete připraveni sdílet modul plug-in s ostatními, publikujte projekt pomocí tlačítka Publikovat![](<../../../.gitbook/assets/image (66).png>).
 
 ![](<../../../.gitbook/assets/publish a plugin.png>)
 
@@ -20,7 +20,7 @@ V horní nabídce klikněte na Settings > Pages (Nastavení > Stránky). V č�
 
 ### Rozmístění modulu plug-in v aplikaci FormIt
 
-Chcete-li použít modul plug-in hostovaný na GitHubu, zkopírujte odkaz na stránku modul plug-in, přejděte do nástroje Plugin Manager, přejděte dolů a vložte odkaz do pole Add Your Private or Local Plugin (Přidat soukromý nebo místní modul plug-in). Poté klikněte na tlačítko Přidat ![] (<../.../.gitbook/assets/image (58).png>).
+Chcete-li použít modul plug-in hostovaný na GitHubu, zkopírujte odkaz na stránku modul plug-in, přejděte do nástroje Plugin Manager, přejděte dolů a vložte odkaz do pole Add Your Private or Local Plugin (Přidat soukromý nebo místní modul plug-in). Poté klikněte na tlačítko Přidat ![](<../../../.gitbook/assets/image (58).png>).
 
 ![](<../../../.gitbook/assets/image (80).png>)
 
