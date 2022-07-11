@@ -12,7 +12,7 @@ Prima di iniziare la Parte I, scaricare e installare FormIt per Windows utilizza
 
 Sarà inoltre necessario scaricare il set di dati disponibile nel collegamento riportato di seguito. Il set di dati è una raccolta di file utilizzati in tutta la Parte I.
 
-_Se non è possibile eseguire FormIt per Windows, la maggior parte dell'esercitazione può essere completata utilizzando l'_ [_**applicazione Web **_](https://formit.autodesk.com/app)_** gratuita.** Per ulteriori informazioni sulle versioni e sulle licenze di FormIt, visitare il_ [_sito Web di FormIt_](https://formit.autodesk.com).
+_Se non è possibile eseguire FormIt per Windows, la maggior parte dell'esercitazione può essere completata utilizzando l'_ [**applicazione Web**](https://formit.autodesk.com/app) _gratuita **.** Per ulteriori informazioni sulle versioni e sulle licenze di FormIt, visitare il_ [_sito Web di FormIt_](https://formit.autodesk.com).
 
 ### Set di dati
 
