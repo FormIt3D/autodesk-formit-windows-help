@@ -20,6 +20,6 @@ Plugin Playground si můžete představit jako modul plug-in, který vytváří 
 
 ![](<../../../.gitbook/assets/01-install playgground formit.gif>)
 
-Po dokončení instalace můžete k nástroji Plug-in Playground přistupovat kliknutím na ikonu ![] (<../../.gitbook/assets/image (25).png>) v nabídce vpravo.
+Po dokončení instalace můžete k nástroji Plug-in Playground přistupovat kliknutím na ikonu ![](<../../../.gitbook/assets/image (25).png>) v nabídce vpravo.
 
 ![](<../../../.gitbook/assets/image (53) (1) (1) (1).png>)
