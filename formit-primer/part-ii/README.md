@@ -16,7 +16,7 @@ Před zahájením části II si stáhněte a nainstalujte aplikaci FormIt pro sy
 
 U většiny kapitol si budete muset stáhnout a použít datový soubor, který naleznete v níže uvedeném odkazu.
 
-_Pokud aplikaci FormIt pro systém Windows nemůžete spustit, můžete většinu výukového programu dokončit pomocí bezplatné_ [_**webové aplikace**_](https://formit.autodesk.com/app)_.**** Další informace o verzích a licencích aplikace FormIt naleznete na_ [_webových stránkách aplikace FormIt_](https://formit.autodesk.com)_._
+_Pokud aplikaci FormIt pro systém Windows nemůžete spustit, můžete většinu výukového programu dokončit pomocí bezplatné_ [_**webové aplikace**_](https://formit.autodesk.com/app)_. Další informace o verzích a licencích aplikace FormIt naleznete na_ [_webových stránkách aplikace FormIt_](https://formit.autodesk.com)_._
 
 ### Datová sada
 
