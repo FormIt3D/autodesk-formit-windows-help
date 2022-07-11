@@ -32,6 +32,6 @@ Añada una descripción del módulo de extensión, añada "formit-plugin" en el 
 
 ![](<../../../.gitbook/assets/image (54).png>)
 
-Una vez guardado, el proyecto de módulo de extensión se añadirá a la lista de [https://github.com/topics/formit-plugin](módulos de extensión de la comunidad).
+Una vez guardado, el proyecto de módulo de extensión se añadirá a la lista de [módulos de extensión de la comunidad](https://github.com/topics/formit-plugin).
 
 ###
