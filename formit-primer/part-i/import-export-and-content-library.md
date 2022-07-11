@@ -112,13 +112,13 @@ _‌Ora posizioneremo gli elementi del contenuto creati all'interno del modello 
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
-_**Nota**_ _Durante lo spostamento di_ _**Core**, prestare attenzione a non modificarne la quota altimetrica. È possibile utilizzare il tasto_ _**MAIUSC**_ _per limitare il movimento in modo che sia sempre lungo uno degli assi o assicurarsi che i punti di riferimento iniziale e finale del comando_ _**Sposta (M)**_ _siano entrambi alla stessa altezza facendo clic solo su_ _**Plan Image**, non su_ _**Core**__. Per ulteriori informazioni sullo strumento_ _**Sposta (M)**__, consultare i capitoli precedenti.‌_
+_**Nota**_ _Durante lo spostamento di_ _**Core**, prestare attenzione a non modificarne la quota altimetrica. È possibile utilizzare il tasto_ _**MAIUSC**_ _per limitare il movimento in modo che sia sempre lungo uno degli assi o assicurarsi che i punti di riferimento iniziale e finale del comando_ _**Sposta (M)**_ _siano entrambi alla stessa altezza facendo clic solo su_ _**Plan Image**, non su_ _**Core**_ _. Per ulteriori informazioni sullo strumento_ _**Sposta (M)**_ _, consultare i capitoli precedenti.‌_
 
 ## **Posizionamento di arredi dalla libreria**
 
 1 - Utilizzando una procedura simile, è ora possibile posizionare gli arredi creati in precedenza in questo capitolo dalla cartella **Custom FormIt Content**. Se non sono stati convertiti tutti e tre (3) i file SKP, è possibile utilizzare le versioni predefinite all'interno della cartella **Furniture**.
 
-_**Note **_
+_**Note**_
 
 * _Riattivare il layer_ _**Main Building Floor**_ _, in modo da poter posizionare gli arredi direttamente sulla superficie di_ _**Main Building Floor**._
 * _Durante il posizionamento di un nuovo oggetto, utilizzare il tasto_ _**TAB**_ _per alternare i piani di posizionamento._
@@ -147,7 +147,7 @@ _**Nota**_ _Analogamente, lo strumento_ _**Scala (SC)**_ _può essere utilizzato
 
 ![](<../../.gitbook/assets/13 (6).png>)
 
-_**Nota**_ _Anche se gli alberi sono tutte istanze dello stesso gruppo, siamo stati in grado di_ _**metterli in scala**_ _in base a dimensioni diverse. L'utilizzo delle opzioni_ _**Scala (SC)**_ _e_ _**Scala non uniforme (NU)**_ _al di fuori della modalità di modifica del gruppo consente di modificare singole istanze dello stesso gruppo. Se dovessimo modificare uno dei gruppi_ _Tree****_ _e cambiarne la geometria o il materiale, tutte le istanze del gruppo verrebbero comunque aggiornate, ma ognuna manterrebbe la scala personalizzata corrente. Eseguire una prova._
+_**Nota**_ _Anche se gli alberi sono tutte istanze dello stesso gruppo, siamo stati in grado di_ _**metterli in scala**_ _in base a dimensioni diverse. L'utilizzo delle opzioni_ _**Scala (SC)**_ _e_ _**Scala non uniforme (NU)**_ _al di fuori della modalità di modifica del gruppo consente di modificare singole istanze dello stesso gruppo. Se dovessimo modificare uno dei gruppi_ _**Tree**_ _e cambiarne la geometria o il materiale, tutte le istanze del gruppo verrebbero comunque aggiornate, ma ognuna manterrebbe la scala personalizzata corrente. Eseguire una prova._
 
 ### **Tenere ordinato il modello**
 
