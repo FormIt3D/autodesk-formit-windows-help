@@ -16,7 +16,7 @@ Avant de commencer la partie II, téléchargez et installez FormIt pour Windows
 
 Pour la plupart des chapitres, vous devrez également télécharger et utiliser le jeu de données disponible à l’adresse ci-dessous.
 
-_Si vous ne pouvez pas exécuter FormIt pour Windows, la majorité du didacticiel peut être réalisé à l’aide de l’_ [_**application Web**_](https://formit.autodesk.com/app)_**gratuite.** Pour plus d’informations sur les versions de FormIt et les licences, consultez le _ [_site Web FormIt_](https://formit.autodesk.com)_._
+_Si vous ne pouvez pas exécuter FormIt pour Windows, la majorité du didacticiel peut être réalisé à l’aide de l’_ [_**application Web**_](https://formit.autodesk.com/app) _gratuite **.** Pour plus d’informations sur les versions de FormIt et les licences, consultez le _[_site Web FormIt_](https://formit.autodesk.com)_ ._
 
 ### Jeu de données
 
