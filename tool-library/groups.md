@@ -40,7 +40,7 @@ Pour **modifier un groupe depuis la barre d’outils Groupes**, sélectionnez l�
 
 **Pour dissocier tous les groupes imbriqués sous le groupe sélectionné,** sélectionnez un groupe avec des groupes imbriqués et choisissez **Dissocier tous les groupes imbriqués** dans la barre d’outils Groupes.
 
-**Pour dissocier tous les groupes du modèle, **sélectionnez l’outil **Tout dissocier** dans la barre d’outils Groupes.
+**Pour dissocier tous les groupes du modèle,** sélectionnez l’outil **Tout dissocier** dans la barre d’outils Groupes.
 
 ## Groupes et Revit
 
