@@ -12,7 +12,7 @@ Před zahájením části I si stáhněte a nainstalujte aplikaci FormIt pro sys
 
 Také si budete muset stáhnout a použít datový soubor, který naleznete v níže uvedeném odkazu. Datová sada je kolekcí souborů používaných v části I.
 
-_Pokud aplikaci FormIt pro systém Windows nemůžete spustit, můžete většinu výukového programu dokončit pomocí bezplatné_ [_**webové aplikace**_](https://formit.autodesk.com/app)_.**** Další informace o verzích a licencích aplikace FormIt naleznete na_ [_webových stránkách aplikace FormIt_](https://formit.autodesk.com).
+_Pokud aplikaci FormIt pro systém Windows nemůžete spustit, můžete většinu výukového programu dokončit pomocí bezplatné_ [_**webové aplikace**_](https://formit.autodesk.com/app)_.Další informace o verzích a licencích aplikace FormIt naleznete na_ [_webových stránkách aplikace FormIt_](https://formit.autodesk.com).
 
 ### Datová sada
 
