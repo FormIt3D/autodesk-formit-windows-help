@@ -74,7 +74,7 @@ _**Nota** Se non viene indicata alcuna area per il livello_ _**Main Building**_ 
 
 ![](<../../.gitbook/assets/6 (4).png>)
 
-_**Note **_
+_**Note**_
 
 * _Per un modello ordinato, consigliamo di mantenere descrittivi i nomi dei gruppi._
 * _Questo è un modo comodo per gestire e modificare tutti i gruppi nel modello da un'unica posizione._
