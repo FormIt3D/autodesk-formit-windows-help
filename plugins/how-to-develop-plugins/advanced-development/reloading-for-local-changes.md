@@ -4,12 +4,12 @@ Während der Entwicklung eines Plugins müssen Sie möglicherweise Ihre neuesten
 
 ## Neuladen im Web
 
-?? Um das Plugin in FormIt Web neu zu laden, klicken Sie mit der rechten Maustaste auf den HTML-Code des Plugins und klicken dann auf `Reload Frame`.
+💡 Um das Plugin in FormIt Web neu zu laden, klicken Sie mit der rechten Maustaste auf den HTML-Code des Plugins und klicken dann auf `Reload Frame`.
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
 ## Neuladen in Windows
 
-?? Um das Plugin in FormIt Windows neu zu laden, klicken Sie mit der rechten Maustaste auf den HTML-Code des Plugins und klicken dann auf `Hard Reload`.
+💡 Um das Plugin in FormIt Windows neu zu laden, klicken Sie mit der rechten Maustaste auf den HTML-Code des Plugins und klicken dann auf `Hard Reload`.
 
 ![](../../../.gitbook/assets/d18.png)
