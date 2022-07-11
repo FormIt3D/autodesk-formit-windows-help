@@ -2,7 +2,7 @@
 
 _La modélisation de volumes conceptuels représente seulement la moitié des fonctionnalités de FormIt. L’autre moitié sont de superbes graphiques qui aident à raconter une histoire à un client ou à un membre d’équipe. Dans ce chapitre, nous allons aborder les méthodes permettant de configurer vos_ _**styles visuels graphiques**_ _et de créer des animations._
 
-_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.12 – Visual Styles.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer **._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.12 – Visual Styles.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
 
 ## **Création d’une animation**
 
@@ -63,4 +63,4 @@ _Nous allons maintenant créer une autre scène avec des paramètres personnalis
 
 _**Remarque** : si vous désactivez la propriété_ _**Caméra**_ _de la nouvelle scène, vous pouvez l’utiliser uniquement pour activer les paramètres visuels que nous venons de créer sans déplacer la position de la caméra. Pour essayer, accédez à l’une de vos scènes aériennes précédentes, puis double-cliquez sur la_ _**scène personnalisée**_ _et observez ce qu’il se passe._
 
-_**Remarque :**_ _pour en savoir plus sur les_ _**diagnostics de styles visuels**_ _et les applications avancées pour les_ _**scènes**, consultez la_ _partie II du guide**.**_
+_**Remarque :**_ _pour en savoir plus sur les_ _**diagnostics de styles visuels**_ _et les applications avancées pour les_ _**scènes**, consultez la_ _**partie II du guide**._
