@@ -4,12 +4,12 @@ Al desarrollar un módulo de extensión, es posible que deba volver a cargar rá
 
 ## Volver a cargar en la versión web
 
-?? Para volver a cargar el módulo de extensión en la versión web de FormIt, haga clic con el botón derecho en el código HTML del módulo de extensión y haga clic en `Reload Frame`.
+💡 Para volver a cargar el módulo de extensión en la versión web de FormIt, haga clic con el botón derecho en el código HTML del módulo de extensión y haga clic en `Reload Frame`.
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
 ## Volver a cargar en la versión para Windows
 
-?? Para volver a cargar el módulo de extensión en la versión para Windows de FormIt, haga clic con el botón derecho en el código HTML del módulo de extensión y haga clic en `Hard Reload`.
+💡 Para volver a cargar el módulo de extensión en la versión para Windows de FormIt, haga clic con el botón derecho en el código HTML del módulo de extensión y haga clic en `Hard Reload`.
 
 ![](../../../.gitbook/assets/d18.png)
