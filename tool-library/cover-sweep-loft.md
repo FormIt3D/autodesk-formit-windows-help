@@ -15,7 +15,7 @@
 
 ## 沿路徑掃掠幾何圖形
 
-1. 使用直線標記您要切割的物件的面。![](../.gitbook/assets/sweep.png)
+1. 使用直線標記您要切割的物件的面。 ![](../.gitbook/assets/sweep.png)
 2. 按一下掃掠工具圖示。 ![](<../.gitbook/assets/sweep-tool (1).png>)
 3. 選取您之前標記的面。
 
