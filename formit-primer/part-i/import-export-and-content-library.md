@@ -6,7 +6,7 @@ _Dans ce chapitre, nous allons utiliser des fichiers du dossier_ **Farnsworth Ho
 
 ## **Importation et modification de fichiers SKP**
 
-_Nous allons tout d’abord ajouter un élément de contenu téléchargé à votre bibliothèque de contenu personnel_. Notez que dans cet exercice, nous allons utiliser uniquement des fichiers SKP. Pour en savoir plus sur l’ouverture/l’importation d’autres formats de fichier, reportez-vous à [**ce billet de blog sur les fonctionnalités de FormIt 2021.2**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) et **ce chapitre sur les ** **formats de fichier d’importation et d’exportation étendus**.
+_Nous allons tout d’abord ajouter un élément de contenu téléchargé à votre bibliothèque de contenu personnel_. Notez que dans cet exercice, nous allons utiliser uniquement des fichiers SKP. Pour en savoir plus sur l’ouverture/l’importation d’autres formats de fichier, reportez-vous à [**ce billet de blog sur les fonctionnalités de FormIt 2021.2**](https://formit.autodesk.com/blog/post/formit-2021-2-and-new-revit-add-in-now-available) et **ce chapitre sur les** **formats de fichier d’importation et d’exportation étendus**.
 
 1 – Veillez à **enregistrer (Ctrl + S)** tout travail ouvert, puis lancez une nouvelle esquisse FormIt. Pour ce faire, vous pouvez procéder comme suit :
 
@@ -112,7 +112,7 @@ _‌Nous allons maintenant placer les éléments de contenu que nous avons cré�
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
-_**Remarque :**_ _lorsque vous déplacez le_ _**noyau**, veillez à ne pas modifier son élévation. Vous pouvez utiliser la touche_ _**Maj**_ _pour limiter le mouvement à l’un des axes ou vous assurer que les points de référence de départ et d’arrivée de l’option_ _**Déplacer (M)**_ _sont à la même hauteur en cliquant uniquement sur le calque_ _**Plan Image** (Image du plan) et non sur le __**noyau**__. Reportez-vous aux chapitres précédents pour en savoir plus sur l’outil_ _**Déplacer (M)**__._ 
+_**Remarque :**_ _lorsque vous déplacez le_ _**noyau**, veillez à ne pas modifier son élévation. Vous pouvez utiliser la touche_ _**Maj**_ _pour limiter le mouvement à l’un des axes ou vous assurer que les points de référence de départ et d’arrivée de l’option_ _**Déplacer (M)**_ _sont à la même hauteur en cliquant uniquement sur le calque_ _**Plan Image** (Image du plan) et non sur le __**noyau**__. Reportez-vous aux chapitres précédents pour en savoir plus sur l’outil_ _**Déplacer (M)**_ _._ 
 
 ## **Placement de mobilier à partir de la bibliothèque**
 
@@ -122,7 +122,7 @@ _**Remarques :**_
 
 * _Activez de nouveau le calque_ _**Main Building Floor**_ _(Sol du bâtiment principal), de sorte que vous puissiez placer le mobilier directement sur la surface de_ _**Main Building Floor**(Sol du bâtiment principal)._
 * _Lors du placement d’un nouvel objet, utilisez la touche_ _**Tab**_ _pour alterner entre les plans de placement._
-* _Lors du placement d’un nouvel objet, utilisez la touche_ _**Espace**_ _ pour le faire pivoter de 90 intervalles avant de le placer._
+* _Lors du placement d’un nouvel objet, utilisez la touche_ _**Espace**_ _pour le faire pivoter de 90 intervalles avant de le placer._
 
 ![](<../../.gitbook/assets/9 (3).png>)
 
