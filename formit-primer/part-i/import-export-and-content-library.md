@@ -112,7 +112,7 @@ _‌Teraz umieścimy utworzone elementy w modelu domu pani Farnsworth._
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
-_**Uwaga:**_ _podczas przesuwania elementu_ _**Core** należy uważać, aby nie zmienić jego rzędnej. Można użyć klawisza_ _**Shift**__, aby ograniczyć ruch tylko do jednej z osi, lub ustawić początkowy i końcowy punkt odniesienia polecenia_ _**Przesuń (M)**_ _na tej samej wysokości, klikając tylko_ _**Obraz planu**, a nie sam element_ _**Core**_ _. Zapoznaj się z poprzednimi rozdziałami, aby dowiedzieć się więcej na temat narzędzia_ _**Przesuń (M)**__.‌_
+_**Uwaga:**_ _podczas przesuwania elementu_ _**Core** należy uważać, aby nie zmienić jego rzędnej. Można użyć klawisza_ _**Shift**_ _, aby ograniczyć ruch tylko do jednej z osi, lub ustawić początkowy i końcowy punkt odniesienia polecenia_ _**Przesuń (M)**_ _na tej samej wysokości, klikając tylko_ _**Obraz planu**, a nie sam element_ _**Core**_ _. Zapoznaj się z poprzednimi rozdziałami, aby dowiedzieć się więcej na temat narzędzia_ _**Przesuń (M)**_ _.‌_
 
 ## **Umieszczanie mebli z biblioteki**
 
@@ -141,7 +141,7 @@ _**Uwagi:**_
 
 ![](<../../.gitbook/assets/12 (2).png>)
 
-_**Uwaga:**_ _w podobny sposób można użyć narzędzia_ _**Skala (SC)**__, aby zmienić skalę całego modelu lub grupy w jednorodny sposób._
+_**Uwaga:**_ _w podobny sposób można użyć narzędzia_ _**Skala (SC)**_ _, aby zmienić skalę całego modelu lub grupy w jednorodny sposób._
 
 2 — Skopiuj tę grupę i umieść wiele drzew wokół domu, używając **narzędzi skali**, aby utworzyć drzewa o różnych rozmiarach i proporcjach.
 
