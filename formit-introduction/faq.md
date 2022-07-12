@@ -101,7 +101,7 @@ O nome de código interno antes do FormIt ter sido oficialmente nomeado era XMod
 
 **Como o FormIt pode ser comparado ao SketchUp?**
 
-* Melhor [**interoperabilidade com o Revit**](../tool-library/revit.md)\*\*__
+* Melhor [**interoperabilidade com o Revit**](../tool-library/revit.md) _\*\*_
 * [**Integração do Dynamo**](../tool-library/dynamo.md) para projetos computacionais
 * Ferramentas nativas para [**análise solar**](../tool-library/solar-analysis.md) e [**análise de energia realizada**](../tool-library/energy-analysis.md) pelo Autodesk Insight
 * Um kernel de modelagem de sólidos mais robusto que permite operações avançadas de modelagem
