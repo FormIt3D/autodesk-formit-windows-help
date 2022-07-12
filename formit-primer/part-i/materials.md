@@ -41,7 +41,7 @@ _**Uwaga:**_ _używając narzędzia, w którym można wprowadzić wymiar, możes
 
 ![](<../../.gitbook/assets/4 (17).png>)
 
-​_**Uwaga:**_ _jednostką domyślną dla projektów w jednostkach brytyjskich są stopy, podobnie jak w programie Revit. Jeśli wprowadzisz pojedynczą liczbę bez określonej jednostki, na przykład_ _**4**, otrzymasz_ _**4 stopy (4’)**__, a nie_ _**4 cale (4”)**._
+​_**Uwaga:**_ _jednostką domyślną dla projektów w jednostkach brytyjskich są stopy, podobnie jak w programie Revit. Jeśli wprowadzisz pojedynczą liczbę bez określonej jednostki, na przykład_ _**4**, otrzymasz_ _**4 stopy (4’)**_ _, a nie_ _**4 cale (4”)**._
 
 8 — Aby wyciąć obszar wewnętrzny, kliknij górną powierzchnię wewnętrzną jeden raz, aby ją wybrać, a następnie kliknij ponownie, aby rozpocząć operację **przeciągania powierzchni**. Przesuwaj powierzchnię w dół, aż zniknie, a następnie kliknij w pustym obszarze, aby zakończyć ten proces.
 
@@ -109,7 +109,7 @@ _**Uwaga:**_ _malowanie grupy poza_ _**trybem edycji grupy**_ _jest przydatną t
 _**Uwagi:**_
 
 * _Sposób rysowania i wyciągania prostokątów przedstawiono w poprzednich rozdziałach._
-* _Może być konieczne włączenie lub wyłączenie opcji_ _**Przyciągaj do siatki (SG)**__, aby kliknąć_ narożnik tarasu.
+* _Może być konieczne włączenie lub wyłączenie opcji_ _**Przyciągaj do siatki (SG)**_ _, aby kliknąć_ narożnik tarasu.
 
 2 — Dokończ tworzenie tarasu dolnego:
 
