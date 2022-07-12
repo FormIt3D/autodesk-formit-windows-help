@@ -2,7 +2,7 @@
 
 Para facilitar o esboço e a modelagem, use snaps e pontos de inferência para criar, inserir e editar a geometria com precisão. É possível usar qualquer eixo escolhido para desenhar ou executar outra ação, como a extrusão de uma superfície.
 
-**Observação:** _Consulte_ [_Atalhos de teclado_](../appendix/keyboard-shortcuts.md)_ para obter informações sobre como acelerar o uso das ferramentas do software._
+**Observação:** _Consulte_ [_Atalhos de teclado_](../appendix/keyboard-shortcuts.md) _para obter informações sobre como acelerar o uso das ferramentas do software._
 
 ## Posicionamento
 
