@@ -4,12 +4,12 @@
 
 ## Web での再ロード
 
-?? FormIt for Web でプラグインを再ロードするには、プラグインの HTML パネルで右クリックして `Reload Frame` をクリックします。
+💡 FormIt for Web でプラグインを再ロードするには、プラグインの HTML パネルで右クリックして `Reload Frame` をクリックします。
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
 ## Windows での再ロード
 
-?? FormIt for Windows でプラグインを再ロードするには、プラグインの HTML パネルで右クリックして `Hard Reload` をクリックします。
+💡 FormIt for Windows でプラグインを再ロードするには、プラグインの HTML パネルで右クリックして `Hard Reload` をクリックします。
 
 ![](../../../.gitbook/assets/d18.png)
