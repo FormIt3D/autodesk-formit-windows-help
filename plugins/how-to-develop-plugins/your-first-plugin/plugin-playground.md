@@ -20,6 +20,6 @@
 
 ![](<../../../.gitbook/assets/01-install playgground formit.gif>)
 
-설치가 완료되면 오른쪽 메뉴의 ![](<../././.gitbook/assets/image (25).png>) 아이콘을 통해 플러그인 플레이그라운드에 액세스할 수 있습니다.
+설치가 완료되면 오른쪽 메뉴의 ![](<../../../.gitbook/assets/image (25).png>) 아이콘을 통해 플러그인 플레이그라운드에 액세스할 수 있습니다.
 
 ![](<../../../.gitbook/assets/image (53) (1) (1) (1).png>)
