@@ -176,7 +176,7 @@ Dynamo オブジェクトを FormIt に配置すると、その基礎となる�
 
 ![](../.gitbook/assets/dynamo\_controlcurve.gif)
 
-[FormIt の曲面とサーフェス切り子面の設定の詳細はこちら](https://windows.help.formit.autodesk.com/v/japanese/tool-library/curve-+-surface-faceting)をご覧ください。
+[FormIt の曲面とサーフェス切り子面の設定の詳細はこちらをご覧ください。](https://windows.help.formit.autodesk.com/v/japanese/tool-library/curve-+-surface-faceting)
 
 ## Dynamo で FormIt グループを使用する
 
@@ -243,7 +243,7 @@ FormIt と Dynamo の間でデータを送信する、最も高機能なノー�
 
 * FormItGroupOptions は FormIt 2022 の新しい(オプションの)ポートです。下の「**FormItGroupOptions ノード**」セクションで詳しく説明します。
 * FormIt 2021.3 以降では、複数の SendToFormIt ノードを使用して Dynamo の結果を整理し、FormIt グループとサブグループにまとめることができます。
-* Dynamo と FormIt グループの連携については[こちら](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)をご覧ください。
+* [Dynamo と FormIt グループの連携についてはこちらをご覧ください。](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)
 
 ![](<../.gitbook/assets/dynamo\_sendtoformitnodes (1).png>)
 
