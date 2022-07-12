@@ -25,7 +25,7 @@ _Nas etapas anteriores, só criamos níveis. Agora estamos prontos para aplicar 
 
 1. Selecione toda a massa do terraço superior clicando duas vezes nela.
 2. Na **paleta Propriedades**, clique em **Usar níveis**. Esse passo pré-selecionará todos os níveis que atualmente efetuam a interseção com a geometria selecionada.
-3. Agora a geometria atualmente selecionada tem três níveis aplicados (**Construção principal, Terraço **e **Solo**), mas para este exercício, queremos aplicar somente **Solo**. Desmarque **Construção principal** e **Terraço**.
+3. Agora a geometria atualmente selecionada tem três níveis aplicados (**Construção principal, Terraço** e **Solo**), mas para este exercício, queremos aplicar somente **Solo**. Desmarque **Construção principal** e **Terraço**.
 4. Esse processo assegura que somente a área intersecionada pelo **Solo** seja considerada para o cálculo da área bruta, que pode ser vista no campo **Área por nível**.
 
 ![](<../../.gitbook/assets/1 (4) (1).png>)
