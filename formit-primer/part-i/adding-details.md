@@ -99,7 +99,7 @@ _**Uwaga:**_ _szpros znajduje się teraz bezpośrednio za słupem. Wyłącz wars
 
 ## **Tworzenie gzymsu dachowego przy użyciu narzędzia Przeciągnięcie**
 
-_Teraz utworzymy gzyms domu pani Farnsworth za pomocą jednego z zaawansowanych narzędzi do modelowania programu FormIt — __**Przeciągnięcie**. Aby poznać inne zaawansowane funkcji modelowania, zapoznaj się z rozdziałem_ **2.2 —** _**Modelowanie zaawansowane**_ _w sekcji_ _**FormIt Primer — część II**._
+_Teraz utworzymy gzyms domu pani Farnsworth za pomocą jednego z zaawansowanych narzędzi do modelowania programu FormIt —_ _**Przeciągnięcie**. Aby poznać inne zaawansowane funkcji modelowania, zapoznaj się z rozdziałem_ **2.2 —** _**Modelowanie zaawansowane**_ _w sekcji_ _**FormIt Primer — część II**._
 
 _Pierwszym krokiem procesu tworzenia_ _**Przeciągnięcia**_ _jest narysowanie profilu prostopadłego do wyciągnięcia. W tym celu użyjemy geometrii dachu jako wzoru._
 
@@ -115,7 +115,7 @@ _Pierwszym krokiem procesu tworzenia_ _**Przeciągnięcia**_ _jest narysowanie p
 2. Zostanie uruchomiony **Kreator wyboru przeciągnięcia** i zobaczysz monit **Należy wybrać powierzchnię (lub krawędzie) dla profilu przeciągnięcia**. Wybierz powierzchnię profilu utworzoną w poprzednim kroku.
 3. Po wybraniu profilu zostanie wyświetlony monit **Należy wybrać powierzchnię (lub krawędzie) dla ścieżki przeciągnięcia, a następnie kliknąć przycisk Zakończ**. Wybierz górną powierzchnię dachu. Program FormIt automatycznie użyje obwiedni wybranej powierzchni jako ścieżki przeciągnięcia i utworzy przeciągnięcie wokół całego dachu.
 
-_**Uwaga:**_ _w przypadku problemów z wybraniem dowolnej z powierzchni użyj narzędzia_ _**Obróć (O)**__, aby lepiej zobaczyć powierzchnię, i spróbuj ponownie. Możesz też wybrać wszystkie krawędzie dachu zamiast jego górnej powierzchni, aby ukończyć tworzenie przeciągnięcia._
+_**Uwaga:**_ _w przypadku problemów z wybraniem dowolnej z powierzchni użyj narzędzia_ _**Obróć (O)**_ _, aby lepiej zobaczyć powierzchnię, i spróbuj ponownie. Możesz też wybrać wszystkie krawędzie dachu zamiast jego górnej powierzchni, aby ukończyć tworzenie przeciągnięcia._
 
 ![](<../../.gitbook/assets/11 (2).png>)
 
