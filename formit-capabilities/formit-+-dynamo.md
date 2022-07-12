@@ -306,7 +306,7 @@ FormIt 2022.1.0 이상에서는 **FormItLengthString** 노드를 사용하여 �
 
 ![](../.gitbook/assets/dynamo\_formitlengthstring.png)
 
-지원되는 다른 입력 노드와 마찬가지로 _FormItLengthString_은 '입력임'으로 표시된 경우 FormIt 특성 팔레트에 표시되며, 이름을 바꾸면 FormIt에 새 이름이 표시됩니다.
+지원되는 다른 입력 노드와 마찬가지로 _FormItLengthString_ 은 '입력임'으로 표시된 경우 FormIt 특성 팔레트에 표시되며, 이름을 바꾸면 FormIt에 새 이름이 표시됩니다.
 
 ![](../.gitbook/assets/dynamo\_propertiespalette.png)
 
@@ -316,7 +316,7 @@ _FormItLengthString_ 노드의 각 인스턴스는 어떤 단위 유형으로도
 
 FormIt 2022.1.1 이상에서 FormItLengthString 노드를 사용하도록 그래프를 전환하거나(그래프에 첫 번째 노드를 배치하여) 원시 숫자만 사용하도록 그래프를 전환하면(마지막 FormItLengthString 제거하여) Dynamo에서 그래프를 편집하는 동안 특정 동작이 변경됩니다.
 
-* 그래프를 편집하는 동안 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 노드를 사용하는 경우, 위와 같이 원시 숫자와 _FormItLengthString_ 노드 간을 전환하려면 각 _SelectFromString_에 대한 형상을 다시 선택해야 합니다. 그래야 결과가 FormIt에서 올바르게 계속 축척됩니다.
+* 그래프를 편집하는 동안 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 노드를 사용하는 경우, 위와 같이 원시 숫자와 _FormItLengthString_ 노드 간을 전환하려면 각 _SelectFromString_ 에 대한 형상을 다시 선택해야 합니다. 그래야 결과가 FormIt에서 올바르게 계속 축척됩니다.
 * 그래프에 첫 번째 FormItLengthString 노드를 배치하면 그래프에서 치수(원시 숫자 입력 포함)로 의도된 모든 숫자는 미터(Dynamo의 기본 단위)를 나타냅니다.
    * [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 노드에서 변경 사항을 고려하고 FormIt에서 생성된 형상이 올바른 크기로 유지되는지 확인합니다.
    * 반대로 그래프에서 모든 FormItLengthString 노드를 제거하면 FormIt의 단위 설정이 무엇이든 관계없이 해당 단위를 나타내도록 원시 숫자가 전환됩니다(이전 동작).
