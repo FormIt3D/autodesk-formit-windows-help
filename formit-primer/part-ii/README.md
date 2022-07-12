@@ -16,7 +16,7 @@ FormIt を初めて使用する場合は、**パート 1** から始めること
 
 ほとんどの章で、次のリンクにあるデータ セットもダウンロードして利用する必要があります。
 
-_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app)_**でほとんどのチュートリアルを完了できます。** FormIt のバージョンとライセンスの詳細については、_ [_FormIt の Web サイト_](https://formit.autodesk.com)_ を参照してください。_
+_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app)_でほとんどのチュートリアルを完了できます **。** FormIt のバージョンとライセンスの詳細については、_ [_FormIt の Web サイト_](https://formit.autodesk.com)_を参照してください。_
 
 ### データ セット
 
