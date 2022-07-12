@@ -53,7 +53,7 @@ _W poprzednich krokach utworzyliśmy schody bez podestów. Teraz utworzymy schod
 
 ![](<../../.gitbook/assets/2 (9) (1).png>)
 
-_**Uwaga:**_ _Ponieważ warstwa_ _**Plan Image**_ _znajduje się na płaszczyźnie_ _**Ground Level**_ ___**narzędzie Przesuń**_ _będzie używało tej płaszczyzny jako odniesienia dla punktu początkowego. Na powyższej ilustracji zwróć uwagę na etykietkę narzędzia_ _**On Face**_ _wskazującą, że jako odniesienie początkowe została wybrana powierzchnia warstwy Plan Image, a jako odniesienie końcowe — górna powierzchnia warstwy_ _**Lower Terrace Floor**__._
+_**Uwaga:**_ _Ponieważ warstwa_ _**Plan Image**_ _znajduje się na płaszczyźnie_ _**Ground Level**_ _**narzędzie Przesuń**_ _będzie używało tej płaszczyzny jako odniesienia dla punktu początkowego. Na powyższej ilustracji zwróć uwagę na etykietkę narzędzia_ _**On Face**_ _wskazującą, że jako odniesienie początkowe została wybrana powierzchnia warstwy Plan Image, a jako odniesienie końcowe — górna powierzchnia warstwy_ _**Lower Terrace Floor**_ _._
 
 2 — Użyj narzędzia **Ustaw jako niepowtarzalne (MU)**, aby zmiana danych wejściowych tych schodów w dodatku Dynamo nie wpłynęła na dolne schody. Zmień położenie grupy odpowiednio do potrzeb, aby znajdowała się ona blisko położenia końcowego — dostosujemy to później. Możesz przełączyć widoczność warstwy **Lower Terrace**, aby wyświetlić poniższy rzut, co ułatwi jego umieszczenie, ale uważaj, aby nie zmienić rzędnej nowych schodów podczas ich przesuwania.
 
@@ -67,7 +67,7 @@ _**Uwaga:**_ _Ponieważ warstwa_ _**Plan Image**_ _znajduje się na płaszczyźn
 
 ![](<../../.gitbook/assets/3 (1).jpeg>)
 
-_**Uwaga:**_ _Jeśli ustawisz dla parametru_ _**Add Bottom Landing**_ _wartość_ _**True**_ _i uruchomisz ponownie skrypt, górna powierzchnia dolnego podestu powinna pasować do górnej powierzchni warstwy_ _**Lower Terrace Floor**. Dzieje się tak, ponieważ — w odróżnieniu od poprzednich schodów — dopasowaliśmy parametr_ _**Riser Height**_ _do rzeczywistej wysokości parametru_ _**Floor-to-Floor Height**__, jaką chcemy uzyskać (2’-4” lub 2,333’)._
+_**Uwaga:**_ _Jeśli ustawisz dla parametru_ _**Add Bottom Landing**_ _wartość_ _**True**_ _i uruchomisz ponownie skrypt, górna powierzchnia dolnego podestu powinna pasować do górnej powierzchni warstwy_ _**Lower Terrace Floor**. Dzieje się tak, ponieważ — w odróżnieniu od poprzednich schodów — dopasowaliśmy parametr_ _**Riser Height**_ _do rzeczywistej wysokości parametru_ _**Floor-to-Floor Height**_ _, jaką chcemy uzyskać (2’-4” lub 2,333’)._
 
 2 — Ponownie zmień położenie grupy na końcowe. Górny podest powinien być równoległy do warstwy **Main Building Floor**.
 
