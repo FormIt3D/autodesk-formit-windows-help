@@ -2,7 +2,7 @@
 
 _Um dos recursos mais interessantes do FormIt é a capacidade de mover o modelo de um ambiente de modelagem flexível, como o FormIt, para um ambiente paramétrico avançado, como o Revit. Neste capítulo, analisaremos alguns exercícios que movem vários elementos do FormIt para o Revit e do Revit para o FormIt._
 
-_Este capítulo usará famílias de amostra do Revit. Se você ainda não tiver isso, faça o download delas do **Conjunto de dados da Residência Farnsworth.**Se você não tiver seguido todo o tutorial até esse ponto, também será possível fazer o download e abrir o arquivo **1.15 – Working With Revit.axm** nos **Conjuntos de dados da Parte 1 do Manual do FormIt**._
+_Este capítulo usará famílias de amostra do Revit. Se você ainda não tiver isso, faça o download delas do **Conjunto de dados da Residência Farnsworth.** Se você não tiver seguido todo o tutorial até esse ponto, também será possível fazer o download e abrir o arquivo **1.15 – Working With Revit.axm** nos **Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
 _Nestes exercícios, usaremos o Revit 2022, que melhorou os recursos de interoperabilidade com o FormIt. As versões anteriores do Revit não terão parte ou nenhum dos recursos mostrados neste tutorial e terão uma interface do usuário diferente._
 
