@@ -68,7 +68,7 @@ _Nesta próxima etapa, será configurada uma cena a ser usada como a miniatura d
 
 3 – **Salve (Ctrl + S)** novamente o modelo concluído da otomana. Observe que a **Miniatura de conteúdo** é criada com base na vista atual quando o modelo foi salvo pela última vez; portanto, assegure-se de que você esteja na **Cena em miniatura** antes de salvar.
 
-_Se desejar, será possível comparar o arquivo com o nosso abrindo o arquivo __**Ottoman – Barcelona\_Mies.axm**__ salvo no __**Conjunto de dados da Residência Farnsworth > Arquivos de suporte > FormIt > Mobiliário** __, no_ _**Conjunto de dados da Residência Farnsworth**.‌_
+_Se desejar, será possível comparar o arquivo com o nosso abrindo o arquivo_ _**Ottoman – Barcelona\_Mies.axm**_ _salvo no_ _**Conjunto de dados da Residência Farnsworth > Arquivos de suporte > FormIt > Mobiliário**_ _, no_ _**Conjunto de dados da Residência Farnsworth**.‌_
 
 _Você pode seguir as mesmas etapas indicadas acima com os arquivos SKP de banco e cadeira, localizados na mesma pasta da otomana._
 
@@ -112,7 +112,7 @@ _‌Agora, vamos inserir os itens de conteúdo que criamos no modelo Farnsworth.
 
 ![](<../../.gitbook/assets/8 (1).png>)
 
-_**Observação:**_ _Ao mover o_ _**Núcleo**, tenha cuidado para não alterar sua elevação. É possível usar a tecla_ _**Shift**_ _para restringir o movimento para que esteja sempre ao longo de um dos eixos ou assegurar que os pontos de referência inicial e final do comando_ _**Mover (M)**_ _estejam na mesma altura, clicando somente na_ _**Imagem da planta**e não no_ _**Núcleo**_ _. Consulte os capítulos anteriores para saber mais sobre a ferramenta_ _**Mover (M)**__.‌_
+_**Observação:**_ _Ao mover o_ _**Núcleo**, tenha cuidado para não alterar sua elevação. É possível usar a tecla_ _**Shift**_ _para restringir o movimento para que esteja sempre ao longo de um dos eixos ou assegurar que os pontos de referência inicial e final do comando_ _**Mover (M)**_ _estejam na mesma altura, clicando somente na_ _**Imagem da planta**e não no_ _**Núcleo**_ _. Consulte os capítulos anteriores para saber mais sobre a ferramenta_ _**Mover (M)**_ _.‌_
 
 ## **Inserir mobiliário da biblioteca**
 
