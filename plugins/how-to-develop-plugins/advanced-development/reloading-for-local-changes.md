@@ -4,12 +4,12 @@ Podczas tworzenia wtyczki może być konieczne ponowne wczytanie najnowszych akt
 
 ## Ponowne wczytywanie w wersji internetowej
 
-?? Aby ponownie wczytać wtyczkę w wersji internetowej programu FormIt, kliknij prawym przyciskiem myszy kod HTML wtyczki i kliknij opcję `Reload Frame`
+💡 Aby ponownie wczytać wtyczkę w wersji internetowej programu FormIt, kliknij prawym przyciskiem myszy kod HTML wtyczki i kliknij opcję `Reload Frame`
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
 ## Ponowne wczytywanie w systemie Windows
 
-?? Aby ponownie wczytać wtyczkę w programie FormIt dla systemu Windows, kliknij prawym przyciskiem myszy kod HTML wtyczki i kliknij opcję `Hard Reload`
+💡 Aby ponownie wczytać wtyczkę w programie FormIt dla systemu Windows, kliknij prawym przyciskiem myszy kod HTML wtyczki i kliknij opcję `Hard Reload`
 
 ![](../../../.gitbook/assets/d18.png)
