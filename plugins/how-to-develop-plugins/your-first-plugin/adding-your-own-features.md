@@ -67,7 +67,7 @@ document.getElementById("CreateCylinderBtn").addEventListener("click", ()=>
 
 ### 실행 및 미리보기
 
-결과를 볼 준비가 되면 재생 버튼 ![](<.././.gitbook/assets/image (81).png>)을 다시 클릭합니다. 그러면 플러그인에 대한 업데이트가 동일한 패널에 표시됩니다.
+결과를 볼 준비가 되면 재생 버튼 ![](<../../../.gitbook/assets/image (81).png>)을 다시 클릭합니다. 그러면 플러그인에 대한 업데이트가 동일한 패널에 표시됩니다.
 
 ![](<../../../.gitbook/assets/image (14).png>)
 
