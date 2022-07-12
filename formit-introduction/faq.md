@@ -101,7 +101,7 @@ FormIt の公式の名前が決まる前、社内で使われていたコード�
 
 **FormIt の SketchUp との違いは何ですか?**
 
-* [**Revit との相互運用性**](../tool-library/revit.md)__が向上
+* [**Revit との相互運用性**](../tool-library/revit.md)が向上 _\*\*_
 * 計算設計のための[**Dynamo との統合**](../tool-library/dynamo.md)
 * [**日照解析**](../tool-library/solar-analysis.md)および Autodesk Insight による[**エネルギー解析**](../tool-library/energy-analysis.md)のネイティブ ツール
 * 高度なモデリング操作を可能にする、より堅牢なソリッド モデリング カーネル
