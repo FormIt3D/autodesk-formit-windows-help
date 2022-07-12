@@ -110,7 +110,7 @@ FormIt 2023 以降では、Dynamo を使用して FormIt レベルを Excel に�
 
 [Dynamo]パレットに Dynamo の入力が表示され、グラフの結果を表示する Excel が開きます。&#x20;
 
-モデルを変更したら、グラフのサムネイルを再度クリックするか、_[実行]_ボタンをクリックして、最新バージョンの FormIt スケッチのレベル データでスプレッドシートを更新できます。
+モデルを変更したら、グラフのサムネイルを再度クリックするか、_[実行]_ ボタンをクリックして、最新バージョンの FormIt スケッチのレベル データでスプレッドシートを更新できます。
 
 ![](../.gitbook/assets/dynamo-send-levels-to-excel.gif)
 
@@ -130,14 +130,14 @@ FormIt 2023 以降では、Dynamo を使用して FormIt レベルを Excel に�
 
 ### **埋め込まれたグラフ**
 
-Dynamo オブジェクトを FormIt に配置すると、その基礎となるグラフがコピーされ、現在の FormIt ファイルに埋め込まれます。Dynamo での編集は、**[埋め込まれたグラフを編集]**ボタンを使用して行います。
+Dynamo オブジェクトを FormIt に配置すると、その基礎となるグラフがコピーされ、現在の FormIt ファイルに埋め込まれます。Dynamo での編集は、**[埋め込まれたグラフを編集]** ボタンを使用して行います。
 
 ![](../.gitbook/assets/dynamo\_embeddedgraph.png)
 
 ![](../.gitbook/assets/dynamo\_editgraphgif.gif)
 
 * Dynamo グループを選択して[プロパティ]パネルに切り替えるか、グループをダブルクリックして自動的に[プロパティ]に切り替えます。
-* **[埋め込まれたグラフを編集]**ボタンをクリックします。
+* **[埋め込まれたグラフを編集]** ボタンをクリックします。
 * Dynamo 上部に表示されるファイル名に「(FormIt)」が含まれていることに注目してください。これは、この FormIt ファイルに埋め込まれているグラフを編集中であり、ソース グラフは変更されないことを意味します。
 * 1 つまたは複数の [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) ノードが、FormIt に送信するジオメトリに接続されていることを確認します。
 * FormIt では、グラフを調整すると、ジオメトリに対する更新がリアルタイムで表示されます。
@@ -153,7 +153,7 @@ Dynamo オブジェクトを FormIt に配置すると、その基礎となる�
 ![](../.gitbook/assets/dynamo\_sourcegraphgif.gif)
 
 * [Dynamo]パネルに、Dynamo ファイルを含む[フォルダをリンク](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started)し、パネル内のその場所までナビゲートします。&#x20;
-* 編集する Dynamo グラフのサムネイルを右クリック(または矢印をクリック)して、**[ソース グラフを編集]**ボタンを選択します。
+* 編集する Dynamo グラフのサムネイルを右クリック(または矢印をクリック)して、**[ソース グラフを編集]** ボタンを選択します。
 * Dynamo が要求されたグラフを開いて起動します。FormIt ではグラフの最終出力のジオメトリが表示されます。
    * 1 つまたは複数の [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) ノードを入力として使用するグラフの場合、SelectFromFormIt ノードで選択を入力するまで結果のジオメトリが表示されない可能性があります。
 * 結果として得られたジオメトリは、現在のグループ編集コンテキストの原点にある新しいグループに表示されます。
@@ -163,9 +163,9 @@ Dynamo オブジェクトを FormIt に配置すると、その基礎となる�
 
 ### **曲面 + サーフェス切り子面をコントロールする**
 
-* FormIt 2023 以降では、FormItGroupOptions ノード、SetCurveFacetingCount ノードおよび SetSurfaceFacetingCount ノードを使用して、SendToFormIt ノードにアタッチされた曲面とサーフェス切り子面をコントロールできるようになりました。
+*   FormIt 2023 以降では、FormItGroupOptions ノード、SetCurveFacetingCount ノードおよび SetSurfaceFacetingCount ノードを使用して、SendToFormIt ノードにアタッチされた曲面とサーフェス切り子面をコントロールできるようになりました。
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * これらのノードは、曲面およびサーフェス切り子面のグローバル設定をオーバーライドします。これらの設定は、[編集]->[基本設定]->[単位 + 精度]で定義します。
 * これは、Dynamo グラフで特定の切り子面の値を使用して曲線オブジェクトを生成する必要がある場合に非常に便利です。これにより、現在のセッションで実行する各 Dynamo グラフのグローバル設定を変更する必要がなくなります。
 
