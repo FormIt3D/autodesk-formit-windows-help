@@ -163,9 +163,9 @@ Wykresy źródłowe są wyświetlane w panelu Dynamo po [połączeniu katalogów
 
 ### **Kontrolowanie płaszczyzn krzywych i powierzchni**
 
-* Od wersji FormIt 2023 można sterować płaszczyznami krzywych i powierzchni dołączonych do węzłów SendToFormIt, używając funkcji SetCurveFacetingCount i SetSurfaceFacetingCount węzłów FormItGroupOptions.
+*   Od wersji FormIt 2023 można sterować płaszczyznami krzywych i powierzchni dołączonych do węzłów SendToFormIt, używając funkcji SetCurveFacetingCount i SetSurfaceFacetingCount węzłów FormItGroupOptions.
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * Węzły te nadpiszą globalne ustawienia płaszczyzn krzywej i powierzchni, które są zdefiniowane w obszarze Edycja -> Preferencje -> Jednostki i dokładność.
 * Jest to bardzo przydatne, jeśli wykres Dynamo wymaga wygenerowania zakrzywionych obiektów przy użyciu określonych wartości płaszczyzny, co zmniejsza potrzebę zmiany ustawień globalnych dla każdego przebiegu wykresu dodatku Dynamo w bieżącej sesji.
 
