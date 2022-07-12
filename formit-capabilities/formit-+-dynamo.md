@@ -163,9 +163,9 @@ Dynamo 객체를 FormIt에 배치하면 해당 기본 그래프가 복사되어 
 
 ### **곡선 + 표면 면분할 제어**
 
-* FormIt 2023부터 FormItGroupOptions 노드의 SetCurveFacetingCount 및 SetSurfaceFacetingCount를 사용하여 SendToFormIt 노드에 부착된 곡선 및 표면의 면분할을 제어할 수 있습니다.
+*   FormIt 2023부터 FormItGroupOptions 노드의 SetCurveFacetingCount 및 SetSurfaceFacetingCount를 사용하여 SendToFormIt 노드에 부착된 곡선 및 표면의 면분할을 제어할 수 있습니다.
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * 이러한 노드는 전역 곡선 및 표면 면분할 설정을 재지정하며, 이 설정은 편집 -> 기본 설정 -> 단위 + 정확도에서 정의할 수 있습니다.
 * 이 기능은 Dynamo 그래프에서 특정 면분할 값을 사용하여 곡선 객체를 생성해야 하는 경우 매우 유용합니다. 즉, 현재 세션에서 실행되는 각 Dynamo 그래프에 대한 전역 설정을 변경할 필요성이 줄어듭니다.
 
