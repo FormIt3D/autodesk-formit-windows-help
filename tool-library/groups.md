@@ -38,9 +38,9 @@ Aby **edytować grupę z poziomu elementu paska narzędzi Grupy**, wybierz ikon�
 
 **Aby usunąć grupowanie grupy z elementu paska narzędzi Grupy**, wybierz grupę, którą chcesz zmienić, a następnie wybierz ikonę **Usuń grupowanie** z menu paska narzędzi Grupy. Spowoduje to usunięcie grupowania bieżącego wyboru, ale nie zostanie usunięte grupowanie jakichkolwiek grup zagnieżdżonych. Możesz również wybrać opcję **Usuń grupowanie** na pasku narzędzi, wybrać grupę, którą chcesz zmienić, a następnie wybrać ikonę **Zakończ**.
 
-**Aby usunąć grupowanie wszystkich grup zagnieżdżonych poniżej aktualnie wybranej grupy, **wybierz grupę zawierającą grupy zagnieżdżone, a następnie wybierz opcję **Usuń grupowanie wszystkich zagnieżdżonych** z paska narzędzi Grupy.
+**Aby usunąć grupowanie wszystkich grup zagnieżdżonych poniżej aktualnie wybranej grupy,** wybierz grupę zawierającą grupy zagnieżdżone, a następnie wybierz opcję **Usuń grupowanie wszystkich zagnieżdżonych** z paska narzędzi Grupy.
 
-**Aby usunąć grupowanie wszystkich grup w modelu, **wybierz narzędzie **Usuń grupowanie wszystkiego** z paska narzędzi Grupy.
+**Aby usunąć grupowanie wszystkich grup w modelu,** wybierz narzędzie **Usuń grupowanie wszystkiego** z paska narzędzi Grupy.
 
 ## Grupy i program Revit
 
