@@ -12,7 +12,7 @@
 
 아래 링크에 있는 데이터세트도 다운로드해야 합니다. 데이터세트는 1부 전체에서 사용되는 파일의 컬렉션입니다.
 
-_Windows용 FormIt을 실행할 수 없는 경우 무료_ [_**웹 응용프로그램**_](https://formit.autodesk.com/app)_**을 사용하여 대부분의 튜토리얼을 완료할 수 있습니다.**FormIt 버전 및 라이센싱에 대한 자세한 내용은_ [_FormIt 웹 사이트_](https://formit.autodesk.com)를 참고하십시오.
+_Windows용 FormIt을 실행할 수 없는 경우 무료_ [_**웹 응용프로그램**_](https://formit.autodesk.com/app) _을 사용하여 대부분의 튜토리얼을 완료할 수 있습니다 **.** FormIt 버전 및 라이센싱에 대한 자세한 내용은_ [_FormIt 웹 사이트_](https://formit.autodesk.com)를 참고하십시오.
 
 ### 데이터 세트
 
