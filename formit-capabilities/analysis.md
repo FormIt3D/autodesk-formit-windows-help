@@ -16,7 +16,7 @@ description: >-
 
 ## Insight를 사용한 에너지 해석
 
-**AEC 컬렉션**https://www.autodesk.co.kr/collections/architecture-engineering-construction/overview[을 통해 ](FormIt Pro) 서브스크립션을 구매하면 **Insight**를 통해 에너지 해석에 액세스할 수 있습니다.
+[AEC 컬렉션](https://www.autodesk.co.kr/collections/architecture-engineering-construction/overview)을 통해 **FormIt Pro** 서브스크립션을 구매하면 **Insight**를 통해 에너지 해석에 액세스할 수 있습니다.
 
 * Green Building Studio의 해석 엔진으로 초기 단계 설계 모델을 해석합니다.
 * 해석 결과의 대시보드 뷰에 연결하여 설계 옵션을 비교합니다.
@@ -88,7 +88,7 @@ description: >-
 
 ## 일조 해석
 
-**AEC 컬렉션**https://www.autodesk.co.kr/collections/architecture-engineering-construction/overview[을 통해 ](FormIt Pro) 서브스크립션을 구매하면 건물에 미치는 태양의 영향을 다음과 같이 시각화할 수 있습니다.
+[AEC 컬렉션](https://www.autodesk.co.kr/collections/architecture-engineering-construction/overview)을 통해 **FormIt Pro** 스크립션을 구매하면 건물에 미치는 태양의 영향을 다음과 같이 시각화할 수 있습니다.
 
 * 태양이 미치는 영향을 해석할 관련 면을 지정합니다.
 * 앱 캔버스 내에서 몇 초 만에 결과를 시각화합니다.
