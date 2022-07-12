@@ -2,7 +2,7 @@
 
 _Estamos prontos para começar a desenhar a Residência Farnsworth. A modelagem 3D no FormIt, em seu núcleo, consiste em linhas de desenho para criar faces e, em seguida, arrastar essas faces para criar volumes._
 
-‌_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.3 – 3D Sketch and Drag Face.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
+_Se você não tiver concluído a última seção, faça o download e abra o arquivo_ _**1.3 – 3D Sketch and Drag Face.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
 ## **Desenhar faces com linhas**
 
