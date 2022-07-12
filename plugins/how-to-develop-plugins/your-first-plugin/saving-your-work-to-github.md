@@ -8,7 +8,7 @@ GitHub에 로그인하는 버튼을 클릭하고 FormIt이 리포지토리(프�
 
 ![](<../../../.gitbook/assets/image (51).png>)
 
-프로젝트를 작성하려면 이름을 입력하고 ![](<../../.gitbook/assets/image (58).png>) 버튼을 클릭합니다.
+프로젝트를 작성하려면 이름을 입력하고 ![](<../../../.gitbook/assets/image (58).png>) 버튼을 클릭합니다.
 
 ![](<../../../.gitbook/assets/image (45).png>)
 
@@ -18,7 +18,7 @@ GitHub에 로그인하는 버튼을 클릭하고 FormIt이 리포지토리(프�
 
 ### 작업 저장
 
-플러그인을 변경한 경우 저장 버튼 ![](<../../.gitbook/assets/image (40).png>)을 클릭하여 GitHub 계정에 대한 변경 사항을 저장합니다.
+플러그인을 변경한 경우 저장 버튼 ![](<../../../.gitbook/assets/image (40).png>)을 클릭하여 GitHub 계정에 대한 변경 사항을 저장합니다.
 
 ![](<../../../.gitbook/assets/save a plugin.png>)
 
