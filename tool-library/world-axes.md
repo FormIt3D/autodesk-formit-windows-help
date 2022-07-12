@@ -8,7 +8,8 @@ Quando um esboço em branco é aberto no FormIt, os eixos universais são exibid
 
 ![](../.gitbook/assets/axis.png)
 
-Para rotacionar a grade e redefinir o ponto de origem para o esboço, **clique com o botão direito do mouse** no espaço vazio na cena e selecione o ícone **Definir eixos (SZ)** no menu de contexto\![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
+Para rotacionar a grade e redefinir o ponto de origem para o esboço, **clique com o botão direito do mouse** no espaço vazio na cena e selecione o ícone **Definir eixos (SZ)** no menu de contexto\
+![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
 
 O widget Definir eixos é exibido. Clique na alça grande no centro para selecionar o widget. Clique novamente para definir o ponto de origem. Agora, clique no ponto no eixo vermelho para rotacionar a grade ou clique no ponto nos eixos azuis para girar o plano da grade verticalmente. Clique fora do espaço para confirmar a alteração.\
 ![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
