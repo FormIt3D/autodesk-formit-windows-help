@@ -11,7 +11,8 @@ Gdy w programie FormIt zostanie otwarty pusty szkic, osie globalne będą wyświ
 Aby obrócić siatkę i ponownie zdefiniować punkt początkowy szkicu, **kliknij prawym przyciskiem myszy** puste miejsce w scenie i wybierz ikonę **Ustaw osie (SZ)** z menu kontekstowego\
 ![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
 
-Zostanie wyświetlony widżet Ustaw osie. Kliknij duży uchwyt w środku, aby aktywować widżet. Kliknij ponownie, aby ustawić punkt początkowy. Kliknij kropkę na czerwonej osi, aby obrócić siatkę, lub kliknij kropkę na niebieskich osiach, aby obrócić płaszczyznę siatki w pionie. Kliknij w innym miejscu poza tym obszarem, aby zatwierdzić tę zmianę.\![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
+Zostanie wyświetlony widżet Ustaw osie. Kliknij duży uchwyt w środku, aby aktywować widżet. Kliknij ponownie, aby ustawić punkt początkowy. Kliknij kropkę na czerwonej osi, aby obrócić siatkę, lub kliknij kropkę na niebieskich osiach, aby obrócić płaszczyznę siatki w pionie. Kliknij w innym miejscu poza tym obszarem, aby zatwierdzić tę zmianę.\
+![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
 
 Aby **przywrócić ustawienia domyślne** punktu początkowego i siatki, kliknij prawym przyciskiem myszy puste miejsce w scenie i wybierz opcję **Resetuj osie (RZ)**.
 
