@@ -163,9 +163,9 @@ FormIt поддерживает три типа графиков Dynamo.
 
 ### **Управление фасетизацией кривых и поверхностей**
 
-* Начиная с версии FormIt 2023, фасетизацией кривых и поверхностей, присоединенных к узлам SendToFormIt, можно управлять с помощью узлов FormItGroupOptions (SetCurveFacetingCount и SetSurfaceFacetingCount).
+*   Начиная с версии FormIt 2023, фасетизацией кривых и поверхностей, присоединенных к узлам SendToFormIt, можно управлять с помощью узлов FormItGroupOptions (SetCurveFacetingCount и SetSurfaceFacetingCount).
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * Эти узлы переопределяют глобальные параметры фасетизации кривых и поверхностей, заданные в разделе «Правка» > «Настройки» > «Единицы и точность».
 * Это очень удобно, когда в графике Dynamo требуется создать криволинейные объекты с определенными значениями фасетизации, поскольку эта возможность позволяет не менять глобальную настройку для каждого графика Dynamo, запускаемого в текущем сеансе.
 
