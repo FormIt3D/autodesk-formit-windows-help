@@ -10,10 +10,10 @@ FormIt for Windows は、Revit に直接接続することで、初期のコン�
 
 ### 2023 でのリンクによる高機能<a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
 
-* Revit の[挿入]タブの_**[CAD をリンク]**_ボタンを使用して、FormIt モデル(AXM 形式)を Revit にリンクします。
-* Revit でリンクされた FormIt 要素を選択し、新しい_**[FormIt で編集]**_ボタンを使用して FormIt で起動し、すぐに編集できるようにします。
-* FormIt スケッチが Revit にリンクされたときに Revit に送信されるレイヤをコントロールするには、[レイヤ]パレットの新しい_**[Revit に送信]列**_を使用します。&#x20;
-* _**Revit に送信する選択内容をプレビュー**_する新しいモードで、Revit に送信されるジオメトリをプレビューできます。このモードは、[レイヤ]パネルの下部および[Revit に送信]ボタンの横にあります。
+* Revit の[挿入]タブの _**[CAD をリンク]**_ ボタンを使用して、FormIt モデル(AXM 形式)を Revit にリンクします。
+* Revit でリンクされた FormIt 要素を選択し、新しい _**[FormIt で編集]**_ ボタンを使用して FormIt で起動し、すぐに編集できるようにします。
+* FormIt スケッチが Revit にリンクされたときに Revit に送信されるレイヤをコントロールするには、[レイヤ]パレットの新しい _**[Revit に送信]列**_ を使用します。&#x20;
+* _**Revit に送信する選択内容をプレビュー**_ する新しいモードで、Revit に送信されるジオメトリをプレビューできます。このモードは、[レイヤ]パネルの下部および[Revit に送信]ボタンの横にあります。
 * シルエット エッジが Revit の FormIt オブジェクトに対して描画されるようになりました。
 
 ### **FormIt 2022.1 の改善点**<a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
@@ -22,9 +22,9 @@ FormIt for Windows は、Revit に直接接続することで、初期のコン�
 
 ### **2022 の新機能**<a href="#all-new-for-2022" id="all-new-for-2022"></a>
 
-* Revit の[マス & 外構]タブの新しい _**[3D スケッチ]**_ボタンを使用して、Revit から FormIt を直接起動できます。
-* _[3D スケッチ]_ボタンから起動した場合、FormIt で設計を行い、FormIt の_**[Revit に送信]**_ボタンを使用してスケッチを Revit に戻すことができます。
-* Revit の[挿入]タブの_**[CAD 読込]**_ボタンを使用して、FormIt モデルを Revit に読み込むことができます(以前の_[FormIt を RVT に読み込む]_ボタンよりも信頼性が向上し、速度は最大で **30 倍**高速なります)。
+* Revit の[マス & 外構]タブの新しい _**[3D スケッチ]**_ ボタンを使用して、Revit から FormIt を直接起動できます。
+* _[3D スケッチ]_ ボタンから起動した場合、FormIt で設計を行い、FormIt の _**[Revit に送信]**_ ボタンを使用してスケッチを Revit に戻すことができます。
+* Revit の[挿入]タブの _**[CAD 読込]**_ ボタンを使用して、FormIt モデルを Revit に読み込むことができます(以前の _[FormIt を RVT に読み込む]_ ボタンよりも信頼性が向上し、速度は最大で **30 倍**高速なります)。
 * FormIt 機能用に個別のアドインをダウンロードする必要はありません。
 
 ### **Revit 2021.1 の改善点**<a href="#revit-20211-improvements" id="revit-20211-improvements"></a>
@@ -41,8 +41,8 @@ FormIt for Windows は、Revit に直接接続することで、初期のコン�
 
 * コンテキスト ジオメトリをワンクリックで Revit から FormIt にプッシュできます。
 * FormIt で設計とモデルを作成し、設計を同じセッションの同じ Revit プロジェクトに戻すことができます。
-* _[CAD をリンク]_ツールを使用して Revit で FormIt モデルを参照し、Revit で引き続き可視化と詳細化を行うことができます。
-* _[FormIt で編集]_を使用して、Revit から FormIt リンクを起動できます。
+* _[CAD をリンク]_ ツールを使用して Revit で FormIt モデルを参照し、Revit で引き続き可視化と詳細化を行うことができます。
+* _[FormIt で編集]_ を使用して、Revit から FormIt リンクを起動できます。
 
 ![](<../.gitbook/assets/revit to formit.png>)
 
@@ -50,28 +50,28 @@ FormIt for Windows は、Revit に直接接続することで、初期のコン�
 
 #### **推奨されるワークフロー**
 
-* 切断ボックスを使用して Revit モデルの内部の部分を定義し、_**[3D スケッチ]**_ボタンをクリックして FormIt を開き、内部レイアウトや特注の設計内容について検討します。新しい設計をワンクリックで Revit に送信します。
-* Revit で既にモデリングされた都市コンテキストから開始し、_**[3D スケッチ]**_ボタンをクリックして、周囲のコンテキストをスナップ可能な参照として FormIt に取り込みます。新しい設計をワンクリックで Revit に送信します。
-* 既存の Revit 建築モデルを開き、_**[3D スケッチ]**_ボタンを使用して FormIt を起動します。新しく追加する複数のデザインをモデリングし、各デザインを異なる FormIt レイヤに配置します。
-* Revit で FormIt オブジェクトを選択し、_**[FormIt で編集]**_ボタンを使用して FormIt でモデルを起動します。
+* 切断ボックスを使用して Revit モデルの内部の部分を定義し、_**[3D スケッチ]**_ ボタンをクリックして FormIt を開き、内部レイアウトや特注の設計内容について検討します。新しい設計をワンクリックで Revit に送信します。
+* Revit で既にモデリングされた都市コンテキストから開始し、_**[3D スケッチ]**_ ボタンをクリックして、周囲のコンテキストをスナップ可能な参照として FormIt に取り込みます。新しい設計をワンクリックで Revit に送信します。
+* 既存の Revit 建築モデルを開き、_**[3D スケッチ]**_ ボタンを使用して FormIt を起動します。新しく追加する複数のデザインをモデリングし、各デザインを異なる FormIt レイヤに配置します。
+* Revit で FormIt オブジェクトを選択し、_**[FormIt で編集]**_ ボタンを使用して FormIt でモデルを起動します。
 
 ![](../.gitbook/assets/edit-in-formit.png)
 
 ![FormIt オブジェクトを選択した後に[FormIt で編集]を使用する](../.gitbook/assets/revit-edit-in-formit-workflow.gif)
 
-* _**Revit のプレビュー モード**_を使用して Revit に送信されるジオメトリをプレビューし、詳細開発に使用する適切な設計を共有していることを確認します。
-* 設計から必要な要素を選択し、_**[Revit に送信]**_ボタンを使用して各デザインを Revit に送信するか、リンク モデルを保存します。&#x20;
+* _**Revit のプレビュー モード**_ を使用して Revit に送信されるジオメトリをプレビューし、詳細開発に使用する適切な設計を共有していることを確認します。
+* 設計から必要な要素を選択し、_**[Revit に送信]**_ ボタンを使用して各デザインを Revit に送信するか、リンク モデルを保存します。&#x20;
 
 #### **ツールを使用する**
 
-* _**[3D スケッチ]**_ボタン、_**[FormIt で編集]**_ボタン、および_**[Revit に送信]**_ワークフローは、Autodesk Architecture, Engineering & Construction (AEC) Collection のサブスクリプションメンバーおよび特定の種類のアクセス権を持つお客様が使用できます。Revit LT では使用できません。[AEC Collection の詳細はこちら](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview)です。
+* _**[3D スケッチ]**_ ボタン、_**[FormIt で編集]**_ ボタン、および _**[Revit に送信]**_ ワークフローは、Autodesk Architecture, Engineering & Construction (AEC) Collection のサブスクリプションメンバーおよび特定の種類のアクセス権を持つお客様が使用できます。Revit LT では使用できません。[AEC Collection の詳細はこちら](https://www.autodesk.co.jp/collections/architecture-engineering-construction/overview)です。
 
 ![3D スケッチで新しいインスタンスを起動し、[FormIt に送信]を使用して Revit リンクを保存および作成する](../.gitbook/assets/revit-3d-sketch-send-to-revit.png)
 
-* Revit 2022.0 以降のバージョンを起動すると、[マス & 外構]タブに**[3D スケッチ]**という新しいボタンが表示されます。このボタンは 3D ビューからのみ使用できます。Revit の 2D ビューでは無効になっています。
-* オートデスクの資格情報を使用して Revit にサインインしていることを確認します。_**[3D スケッチ]**_ボタンを起動すると、Autodesk Account に再度サインインするように求められることがあります。これは、正しい資格があることを確認するためです。
+* Revit 2022.0 以降のバージョンを起動すると、[マス & 外構]タブに **[3D スケッチ]** という新しいボタンが表示されます。このボタンは 3D ビューからのみ使用できます。Revit の 2D ビューでは無効になっています。
+* オートデスクの資格情報を使用して Revit にサインインしていることを確認します。_**[3D スケッチ]**_ ボタンを起動すると、Autodesk Account に再度サインインするように求められることがあります。これは、正しい資格があることを確認するためです。
 * FormIt 2022.0 以降のバージョンがインストールされていない場合(または 2022.0 より前のバージョンの FormIt がインストールされている場合)、FormIt は起動せず、正しいバージョンの FormIt をダウンロードするよう求められます。
-* _**[3D スケッチ]**_ボタンをクリックして、FormIt を起動します。すべての表示オブジェクトまたは選択したオブジェクトのみを FormIt に取り込みます。大きな Revit モデルの一部のみを参照するデザインの場合には、選択したオブジェクトのみを取り込むことをお勧めします。さらに、Revit の切断ボックスを使用して、Revit モデルの内部領域を分離し、FormIt に取り込みます。
+* _**[3D スケッチ]**_ ボタンをクリックして、FormIt を起動します。すべての表示オブジェクトまたは選択したオブジェクトのみを FormIt に取り込みます。大きな Revit モデルの一部のみを参照するデザインの場合には、選択したオブジェクトのみを取り込むことをお勧めします。さらに、Revit の切断ボックスを使用して、Revit モデルの内部領域を分離し、FormIt に取り込みます。
 
 ![](../.gitbook/assets/revit-objects.png)
 
@@ -79,15 +79,15 @@ FormIt for Windows は、Revit に直接接続することで、初期のコン�
 * FormIt を起動すると、含まれている Revit ジオメトリが FormIt の独自のレイヤに表示されます。レイヤは「Revit コンテキスト」と呼ばれ、既定でロックされています。
 * フォームを追加したり、マテリアルやコンテンツなどを適用して、FormIt でモデルを作成します。
 * レベルを[レベル]パレットから FormIt オブジェクトに適用します。
-* Revit に送信するジオメトリを含めたり除外するには、[レイヤ]パレットの_**[Revit に送信]列**_を使用します。
+* Revit に送信するジオメトリを含めたり除外するには、[レイヤ]パレットの _**[Revit に送信]列**_ を使用します。
 
 ![[レイヤ]パレットの[Revit に送信]列](../.gitbook/assets/revit-send-to-formit-layers-column.png)
 
-* _**Revit プレビュー モード**_を使用すると、Revit に送信するジオメトリをオプションでプレビューできます。[レイヤ]パレットの下部または[Revit に送信]ボタンの横にあるチェックボックスを使用して、Revit プレビュー モードをアクティブにします。
+* _**Revit プレビュー モード**_ を使用すると、Revit に送信するジオメトリをオプションでプレビューできます。[レイヤ]パレットの下部または[Revit に送信]ボタンの横にあるチェックボックスを使用して、Revit プレビュー モードをアクティブにします。
 
 ![Revit プレビュー モード](../.gitbook/assets/revit-preview-mode.png)
 
-* FormIt のツールバーの_**[Revit に送信]**_ボタンを使用して、FormIt ジオメトリを Revit に転送します。
+* FormIt のツールバーの _**[Revit に送信]**_ ボタンを使用して、FormIt ジオメトリを Revit に転送します。
    * これにより、ファイルを保存するよう求めるメッセージが表示され、モデルが Revit にリンクされます。
       * **注:** Autodesk Docs に保存すると FormIt と Revit の接続が切断されるため、ファイルはローカルに保存することをお勧めします。クラウドでモデルを共有する場合は、その代わりに [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/JPN/) を使用します。
    * リンクの作成後は、モデルを再保存するか、[Revit に送信]ボタンをクリックすると、いつでも Revit に変更を転送できるようになります。
@@ -97,7 +97,7 @@ FormIt for Windows は、Revit に直接接続することで、初期のコン�
 * FormIt のレベル、レイヤ、マテリアルは、ジオメトリとともに Revit に転送されます。
    * Revit の[マテリアル]ダイアログ ボックスを使用して、「FormIt」でリストをフィルタすると FormIt マテリアルを表示できます。
    * FormIt レイヤは、Revit ビューの[表示/グラフィックス]の[読み込み]タブで見つけることができます。この方法は、Revit でさまざまな FormIt デザイン オプションを表示する場合に便利です。
-* Revit 2023.0 以降のバージョンを起動して FormIt オブジェクトを選択する場合は、_**[FormIt で編集]**_ボタンを使用すると FormIt でモデルを起動できます。
+* Revit 2023.0 以降のバージョンを起動して FormIt オブジェクトを選択する場合は、_**[FormIt で編集]**_ ボタンを使用すると FormIt でモデルを起動できます。
 * [FormIt-Revit ワークフロー チュートリアルについては、「FormIt Primer」を参照してください。](../formit-primer/part-ii/2.8-advanced-revit-workflows.md)
 
 ### **FormIt モデルの読み込みとリンク: FormIt と Revit 間のデザイン コラボレーション**<a href="#importing-formit-models-design-collaboration-between-formit-and-revit" id="importing-formit-models-design-collaboration-between-formit-and-revit"></a>
@@ -116,7 +116,7 @@ FormIt for Windows は、Revit に直接接続することで、初期のコン�
 
 #### **ツールを使用する**
 
-* 現在の Revit プロジェクトに読み込む FormIt ファイルを指定します。Revit の_**[CAD 読込]**_ツールを開きます。使用可能なファイル タイプのリストから .AXM を選択します。目的の .AXM ファイルを選択して_[開く]_をクリックします。
+* 現在の Revit プロジェクトに読み込む FormIt ファイルを指定します。Revit の _**[CAD 読込]**_ ツールを開きます。使用可能なファイル タイプのリストから .AXM を選択します。目的の .AXM ファイルを選択して _[開く]_ をクリックします。
 * FormIt マテリアルを Revit に転送し、Revit のマテリアルのダイアログ ボックスに表示します。FormIt マテリアルのリストをフィルタします。
    * FormIt で尺度を変更または回転したマテリアルは、Revit でも正しい尺度と回転を保持します。
 * FormIt から Revit にレベルを転送します。
@@ -141,7 +141,7 @@ FormIt for Windows は、Revit に直接接続することで、初期のコン�
 
 #### **Revit ファミリを変換する**<a href="#converting-revit-families" id="converting-revit-families"></a>
 
-* Revit ファミリは、Revit の[アドイン]タブの_**[RFA を FormIt に変換]**_ボタンを使用すると FormIt コンテンツに変換できます。変換することにより、FormIt のコンテキストで既存の Revit コンテンツを効率的に再利用できるようになります。
+* Revit ファミリは、Revit の[アドイン]タブの _**[RFA を FormIt に変換]**_ ボタンを使用すると FormIt コンテンツに変換できます。変換することにより、FormIt のコンテキストで既存の Revit コンテンツを効率的に再利用できるようになります。
 * RFA ファイルを FormIt ファイルに変換して出力する任意のフォルダを指定します。
 * この方法は、既存のすべての Revit コンテンツを再利用する際に便利です。コンテンツを FormIt に変換し、変換されたファイルを入れるフォルダとして FormIt のコンテンツ ライブラリを指定します。次に、[コンテンツ ライブラリ]パレットからサムネイル プレビューをクリックしてモデルに配置します。
 
@@ -151,7 +151,7 @@ FormIt for Windows は、Revit に直接接続することで、初期のコン�
 
 * FormIt for Windows を使用して、SketchUp コンテンツを開いたり読み込むことができます。
 * オプションで、[組み込みの診断ツールと修復ツールを使用してジオメトリを修正](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit)し、下流工程の操作に適したソリッドにすることもできます。
-* FormIt ファイルを保存し、前述の**[CAD 読込]**ワークフローまたは**[Revit に送信]**ワークフローを使用して読み込みます。
+* FormIt ファイルを保存し、前述の **[CAD 読込]** ワークフローまたは **[Revit に送信]** ワークフローを使用して読み込みます。
 
 ## FormIt Converter アドインからの移行<a href="#revit-the-add-in" id="revit-the-add-in"></a>
 
@@ -161,7 +161,7 @@ FormIt + Revit 2022 以降はユーザ インタフェースに組み込まれ�
 
 ### **.AXM ファイルを読み込む新しい方法**<a href="#a-new-way-to-import-axm-files" id="a-new-way-to-import-axm-files"></a>
 
-アドインの _[FormIt を RVT に読み込み]_ボタンに代わり、Revit の[挿入]タブの[CAD 読込]ツールを使用して FormIt (.AXM)ファイルを読み込むことができます。&#x20;
+アドインの _[FormIt を RVT に読み込み]_ ボタンに代わり、Revit の[挿入]タブの[CAD 読込]ツールを使用して FormIt (.AXM)ファイルを読み込むことができます。&#x20;
 
 このワークフローでは、速度が最大 **30 倍高速**になるほか、全般的に**信頼性が向上**しています。さらに、いくつかの動作が変更されました。
 
@@ -187,9 +187,9 @@ FormIt + Revit 2022 以降はユーザ インタフェースに組み込まれ�
 
 ### **Revit ファミリの変更点**<a href="#changes-to-revit-families" id="changes-to-revit-families"></a>
 
-Revit の[アドイン]タブの_[RFA を FormIt に変換]_ボタンを使用することにより、FormIt で引き続き Revit ファミリ コンテンツを使用できます。このワークフローに変更はありません。
+Revit の[アドイン]タブの _[RFA を FormIt に変換]_ ボタンを使用することにより、FormIt で引き続き Revit ファミリ コンテンツを使用できます。このワークフローに変更はありません。
 
-より良いエクスペリエンスを提供するため、_[ファミリを再ロード]_ボタンが削除されました。
+より良いエクスペリエンスを提供するため、_[ファミリを再ロード]_ ボタンが削除されました。
 
 ![](../.gitbook/assets/revit-families-old-new.png)
 
