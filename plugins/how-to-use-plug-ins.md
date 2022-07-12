@@ -20,11 +20,14 @@ O Gerenciador de plug-ins organiza os plug-ins em categorias para ajudar a encon
 
 **Plug-ins instalados:** plug-ins já instalados pelo usuário.&#x20;
 
-**Plug-ins recomendados:** plug-ins recomendados pela equipe do FormIt para expandir a funcionalidade principal do FormIt e revelar novos fluxos de trabalho. Os plug-ins desenvolvidos pela comunidade serão exibidos aqui após serem aprovados pela equipe do FormIt.\Identificador do GitHub: _formit-plugin-recommended_
+**Plug-ins recomendados:** plug-ins recomendados pela equipe do FormIt para expandir a funcionalidade principal do FormIt e revelar novos fluxos de trabalho. Os plug-ins desenvolvidos pela comunidade serão exibidos aqui após serem aprovados pela equipe do FormIt.\
+Identificador do GitHub: _formit-plugin-recommended_
 
-**Plug-ins públicos:** plug-ins criados pela comunidade. Os plug-ins nessa categoria não foram revisados ou aprovados pela equipe do FormIt. \Identificador do GitHub: _formit-plugin_
+**Plug-ins públicos:** plug-ins criados pela comunidade. Os plug-ins nessa categoria não foram revisados ou aprovados pela equipe do FormIt. \
+Identificador do GitHub: _formit-plugin_
 
-**Para plug-ins de desenvolvedores**: plug-ins criados pela comunidade para permitir a criação de novos plug-ins do FormIt. \Identificador do GitHub: _formit-plugin-developers_
+**Para plug-ins de desenvolvedores**: plug-ins criados pela comunidade para permitir a criação de novos plug-ins do FormIt. \
+Identificador do GitHub: _formit-plugin-developers_
 
 ## Adicionar o plug-in local ou privado
 
