@@ -99,7 +99,7 @@ _**Observação:**_ _Agora, o montante está diretamente atrás da coluna. Desat
 
 ## **Criar a cornija de telhado com varredura**
 
-_Agora, vamos criar a cornija da “Farnsworth House” usando uma das ferramentas avançadas de modelagem do FormIt:_ _**Varredura**. Para saber mais sobre outras modelagens avançadas, confira o capítulo_ **2.2 –** _**Modelagem avançada** no_ _ _ _**Manual do FormIt – Parte II**._
+_Agora, vamos criar a cornija da “Farnsworth House” usando uma das ferramentas avançadas de modelagem do FormIt:_ _**Varredura**. Para saber mais sobre outras modelagens avançadas, confira o capítulo_ **2.2 –** _**Modelagem avançada** no_ _**Manual do FormIt – Parte II**._
 
 _O primeiro passo para criar uma __**Varredura**__ é desenhar um perfil perpendicular à “extrusão” da varredura. Para isso, vamos usar a geometria do telhado como guia._
 
