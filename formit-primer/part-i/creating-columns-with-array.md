@@ -59,7 +59,8 @@ _**Observação:**_ _Para saber como navegar pelo esboço, recomendamos consulta
 
 2 – Selecione a face do perfil da coluna e faça a extrusão da face para cima em **17’-8"**.
 
-_**Observação:**_ _Se, ao mover o perfil da coluna, ele se alinhar com o telhado, faça a extrusão da face para baixo em_ _**17’-8"**_, em vez de para cima.\__
+_**Observação:**_ _Se, ao mover o perfil da coluna, ele se alinhar com o telhado, faça a extrusão da face para baixo em_ _**17’-8"**_,\
+_em vez de para cima._
 
 3 – Diminua o zoom e ative a camada **Telhado** (se estiver desativada). A parte superior da coluna deve se alinhar com a parte superior do telhado.
 
@@ -138,7 +139,7 @@ _**Observação:**_ _Ao manter pressionada a tecla_ _**Shift**_ _ou a tecla_ _**
 
 ![](<../../.gitbook/assets/12 (4).png>)
 
-_**Observação:**_ _É possível verificar a altura das colunas curtas usando a ferramenta_ _**Medir (ME)**__. Outra opção é selecionar uma das arestas verticais da coluna e ver seu comprimento na_ _**paleta Propriedades**._
+_**Observação:**_ _É possível verificar a altura das colunas curtas usando a ferramenta_ _**Medir (ME)**_ _. Outra opção é selecionar uma das arestas verticais da coluna e ver seu comprimento na_ _**paleta Propriedades**._
 
 4 – Com as técnicas que você acabou de aprender, copie a coluna curta mais afastada para o lado oposto do **Piso do terraço inferior** para criar a última coluna restante.
 
