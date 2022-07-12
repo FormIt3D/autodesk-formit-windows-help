@@ -10,4 +10,6 @@ FormIt에서 선형 및 방사형 배열을 모두 작성할 수 있습니다. *
 
 ## 반지름
 
-![](<../.gitbook/assets/array\_radial1 (1).png>)\![](../.gitbook/assets/radial\_array2.png)\![](../.gitbook/assets/radial\_array3.png)
+![](<../.gitbook/assets/array\_radial1 (1).png>)\
+![](../.gitbook/assets/radial\_array2.png)\
+![](../.gitbook/assets/radial\_array3.png)
