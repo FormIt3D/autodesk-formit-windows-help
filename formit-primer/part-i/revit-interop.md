@@ -36,7 +36,7 @@ _**Uwagi:**_
 
 ## Z programu FormIt do programu Revit
 
-_Istnieją dwa różne sposoby przenoszenia geometrii z programu FormIt do programu Revit. Istniejący plik_ _**.axm** można zaimportować do projektu programu Revit lub pliku rodziny programu Revit i będzie on się zachowywać podobnie jak zaimportowany model lub plik CAD. Można również uruchomić program FormIt z poziomu programu Revit i przenieść poszczególne grupy programu FormIt do programu Revit jako pojedyncze elementy modelu ogólnego. Druga metoda jest opisana w rozdziale **Part II** __**2.8** __**Zaawansowane procesy robocze programu Revit**._
+_Istnieją dwa różne sposoby przenoszenia geometrii z programu FormIt do programu Revit. Istniejący plik_ _**.axm** można zaimportować do projektu programu Revit lub pliku rodziny programu Revit i będzie on się zachowywać podobnie jak zaimportowany model lub plik CAD. Można również uruchomić program FormIt z poziomu programu Revit i przenieść poszczególne grupy programu FormIt do programu Revit jako pojedyncze elementy modelu ogólnego. Druga metoda jest opisana w rozdziale **Part II**_ _**2.8**_ _**Zaawansowane procesy robocze programu Revit**._
 
 ### Importowanie domu pani Farnsworth do programu Revit
 
