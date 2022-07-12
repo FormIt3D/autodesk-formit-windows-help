@@ -59,7 +59,8 @@ _**Uwaga:**_ _aby dowiedzieć się, jak poruszać się po szkicu, zapoznaj się 
 
 2. Wybierz powierzchnię profilu słupa i wyciągnij powierzchnię w górę o **17 stóp i 8 cali**.
 
-_**Uwaga:**_ _jeśli podczas przesuwania profil słupa został wyrównany względem dachu, wyciągnij powierzchnię o_ _**17 stóp i 8 cali**_\_ w dół, a nie w górę._
+_**Uwaga:**_ _jeśli podczas przesuwania profil słupa został wyrównany względem dachu, wyciągnij powierzchnię o_ _**17 stóp i 8 cali**_\
+_w dół, a nie w górę._
 
 3 — Pomniejsz widok i włącz warstwę **Dach** (jeśli jest wyłączona). Górna powierzchnia słupa powinna być wyrównana do górnej powierzchni dachu.
 
@@ -138,7 +139,7 @@ _**Uwaga:**_ _przytrzymanie naciśniętego klawisza_ _**Shift**_ _lub_ _**Ctrl**
 
 ![](<../../.gitbook/assets/12 (4).png>)
 
-_**Uwaga:**_ _wysokość krótkich słupów można sprawdzić za pomocą narzędzia_ _**Zmierz (ME)**__. Można również wybrać jedną z pionowych krawędzi słupa i wyświetlić jej długość na_ _**palecie Właściwości**._
+_**Uwaga:**_ _wysokość krótkich słupów można sprawdzić za pomocą narzędzia_ _**Zmierz (ME)**_ _. Można również wybrać jedną z pionowych krawędzi słupa i wyświetlić jej długość na_ _**palecie Właściwości**._
 
 4. Korzystając z poznanych tu technik, skopiuj najbardziej oddalony krótki słup na przeciwległą stronę **Podłogi dolnego tarasu**, aby utworzyć ostatni słup.
 
