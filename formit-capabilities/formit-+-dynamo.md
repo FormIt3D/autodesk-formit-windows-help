@@ -163,9 +163,9 @@ Os Gráficos de origem são exibidos no painel do Dynamo após a [vinculação d
 
 ### **Controle de facetamento de curva + superfície**
 
-* A partir do FormIt 2023, é possível controlar o facetamento de curvas e superfícies anexadas aos nós SendToFormIt usando os nós FormItGroupOptions SetCurveFacetingCount e SetSurfaceFacetingCount.
+*   A partir do FormIt 2023, é possível controlar o facetamento de curvas e superfícies anexadas aos nós SendToFormIt usando os nós FormItGroupOptions SetCurveFacetingCount e SetSurfaceFacetingCount.
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * Esses nós substituirão as configurações globais de facetamento de curva e superfície, que estão definidas em Editar -> Preferências -> Unidades + Precisão.
 * Isso será muito útil se o gráfico do Dynamo precisar gerar objetos curvos usando valores de facetamento específicos, o que elimina a necessidade de alterar a configuração global para cada gráfico do Dynamo executado na sessão atual.
 
