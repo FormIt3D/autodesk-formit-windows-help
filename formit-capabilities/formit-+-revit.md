@@ -199,7 +199,8 @@ FormIt для ОС Windows напрямую подключается к Revit, 
 
 Требуется помощь в работе с FormIt и Revit? [Напишите нам на форумах](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=ru).
 
-Скачивание старой надстройки Revit \ (2021 или более ранние версии) <a href="#revit-download" id="revit-download"></a>
+Скачивание старой надстройки Revit \
+(2021 или более ранние версии) <a href="#revit-download" id="revit-download"></a>
 ------------------------------------------------------------------
 
 При использовании FormIt и Revit 2022 или более поздней версии скачивать отдельную надстройку не требуется.
