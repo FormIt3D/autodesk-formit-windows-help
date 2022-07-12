@@ -13,7 +13,9 @@
 3. 선을 그려 경사 축을 정의합니다.&#x20;
 4. 세 번째 점을 클릭하여 경사 작업을 시작합니다.
 
-![](<../.gitbook/assets/tilt\_face (1).png>)\![](../.gitbook/assets/tilt2.png)\![](../.gitbook/assets/tilt3.png)
+![](<../.gitbook/assets/tilt\_face (1).png>)\
+![](../.gitbook/assets/tilt2.png)\
+![](../.gitbook/assets/tilt3.png)
 
 ### 깎인면/부드러운 면
 
