@@ -35,4 +35,4 @@ manifest.json 文件具有以下结构。它有其他特性，具体取决于它
 
 ![](<../../../.gitbook/assets/image (36).png>)
 
-**注意：**在上述 manifest.json 文件中使用 PLUGINLOCATION 是必不可少的，并且区分大小写。FormIt 会将 PLUGINLOCATION 替换为插件的服务器位置。
+**注意：** 在上述 manifest.json 文件中使用 PLUGINLOCATION 是必不可少的，并且区分大小写。FormIt 会将 PLUGINLOCATION 替换为插件的服务器位置。
