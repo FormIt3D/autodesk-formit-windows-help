@@ -44,7 +44,7 @@
 
 ## 工具箱
 
-![](<../.gitbook/assets/properties (1).png>) [** 特性 **](https://windows.help.formit.autodesk.com/v/simplified-chinese/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**特性**](https://windows.help.formit.autodesk.com/v/simplified-chinese/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**图层**](../tool-library/layers.md)
 
@@ -62,7 +62,7 @@
 
 ![](../.gitbook/assets/undo.png) [**撤消管理器**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin\_img.png) [**插件 **](https://windows.help.formit.autodesk.com/v/simplified-chinese/tool-library/plug-ins)
+![](../.gitbook/assets/plugin\_img.png) [**插件**](https://windows.help.formit.autodesk.com/v/simplified-chinese/tool-library/plug-ins)
 
 ## 上下文菜单
 
