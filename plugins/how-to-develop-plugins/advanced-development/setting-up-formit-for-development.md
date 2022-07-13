@@ -4,7 +4,7 @@
 
 ### **显示脚本编辑器和脚本输出**
 
-在 FormIt 的顶部菜单中，转到顶部菜单中的**“窗口”**，然后选中**“脚本编辑器”**和**“脚本输出”**框。
+在 FormIt 的顶部菜单中，转到顶部菜单中的 **“窗口”**，然后选中 **“脚本编辑器”** 和 **“脚本输出”** 框。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
