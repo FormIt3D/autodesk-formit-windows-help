@@ -18,19 +18,19 @@
 
 ### 使用 GitHub Desktop 克隆样例插件存储库
 
-在 GitHub 中，选择要克隆或修改的插件项目。单击**“代码”**按钮，然后从下拉列表中复制地址。
+在 GitHub 中，选择要克隆或修改的插件项目。单击 **“代码”** 按钮，然后从下拉列表中复制地址。
 
 ![](<../../../.gitbook/assets/image (78).png>)
 
-打开 GitHub Desktop 应用程序，单击**“当前存储库”**，然后选择**“克隆存储库”**。
+打开 GitHub Desktop 应用程序，单击 **“当前存储库”** ，然后选择 **“克隆存储库”**。
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
-选择**“URL”**选项卡、将复制的链接粘贴到第一个字段，然后在计算机上选择本地文件夹路径以保存这些文件。单击**“克隆”**。
+选择 **“URL”** 选项卡、将复制的链接粘贴到第一个字段，然后在计算机上选择本地文件夹路径以保存这些文件。单击 **“克隆”**。
 
 ![](<../../../.gitbook/assets/image (46).png>)
 
 ### 在 Visual Studio Code 中打开项目
 
-启动 Visual Studio Code。 转到**“文件”**>**“打开文件夹”**，然后选择包含插件文件和文件夹的文件夹，例如 C:\Users\Documents\GenerateStringLights\v22\_0
+启动 Visual Studio Code。 转到 **“文件”**>**“打开文件夹”**，然后选择包含插件文件和文件夹的文件夹，例如 C:\Users\Documents\GenerateStringLights\v22\_0
 
