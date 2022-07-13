@@ -15,7 +15,7 @@
 ![](../.gitbook/assets/imprint1.png)\
 ![](../.gitbook/assets/imprint2.png)
 
-## Offset
+## 偏移
 
 偏移对象的面的步骤：
 
