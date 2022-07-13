@@ -19,13 +19,14 @@
 
 使用 FormIt 内容库将 Autodesk Docs 中的内容放置在 FormIt Web 和 Windows 上。
 
-![工具集库](../.gitbook/assets/autodeskdocs\_contentlibrary.png)
+![内容库](../.gitbook/assets/autodeskdocs\_contentlibrary.png)
 
 ### **工程建设软件集中的 Autodesk Docs**
 
 * Autodesk Docs 作为工程建设软件集固定期限的使用许可的一部分提供
 * 可以使用第三方云存储服务（例如，iCloud、Dropbox、Box 等）将文件同步到云位置。
-* 如果已订购工程建设软件集固定期限的使用许可，则可以开始使用 Autodesk Docs 在云中以及本地保存和打开 FormIt 文件。[在此处访问 Autodesk Docs 帐户](https://acc.autodesk.com/logon)。
+* 如果已订购工程建设软件集固定期限的使用许可，则可以开始使用 Autodesk Docs 在云中以及本地保存和打开 FormIt 文件。\
+[在此处访问 Autodesk Docs 帐户](https://acc.autodesk.com/logon)。
 
 ## Autodesk Docs Desktop Connector
 
