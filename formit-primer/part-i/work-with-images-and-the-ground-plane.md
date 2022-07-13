@@ -2,7 +2,7 @@
 
 _通过从导航栏中选择“文件”>“输入”，可以将 PNG 或 JPG 图像输入到模型的地平面。但是，为了更好地控制已输入图像的比例和位置，可以创建自定义材质并将其应用于已绘制的矩形。_
 
-_如果未完成最后一部分，请从 _ _**“FormIt Primer Part 1 数据集”** 下载并打开 _ _**“1.2 - Project Set Up with Images and Grid.axm”**_ _ 文件。_
+_如果未完成最后一部分，请从_ _**“FormIt Primer Part 1 数据集”** 下载并打开_ _**“1.2 - Project Set Up with Images and Grid.axm”**_ _文件。_
 
 ## **计算图像大小**
 
