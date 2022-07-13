@@ -8,7 +8,7 @@
 ![](../.gitbook/assets/array\_linear2.png)\
 ![](../.gitbook/assets/linear\_array\_3.png)
 
-## Radial
+## 径向
 
 ![](<../.gitbook/assets/array\_radial1 (1).png>)\
 ![](../.gitbook/assets/radial\_array2.png)\
