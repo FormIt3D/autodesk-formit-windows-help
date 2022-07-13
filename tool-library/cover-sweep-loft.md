@@ -9,7 +9,7 @@
 
    ![](../.gitbook/assets/cover\_tool1.png)
 
-   1. 单击**“完成”**
+   1. 单击 **“完成”**
 
       ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2).png>)![](../.gitbook/assets/cover-finish.PNG)
 
