@@ -130,7 +130,7 @@ _**注意:**_
 
 ![](<../../.gitbook/assets/10 (6).png>)
 
-## **使用比例工具**·
+## **使用比例工具**
 
 1 - 使用您剛才學到的技巧，從 **「Farnsworth House Data Set > FormIt > Planting」** 資料夾放置一個 **tree\_pine** 元件實體。
 
