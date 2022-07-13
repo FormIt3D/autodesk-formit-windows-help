@@ -4,12 +4,12 @@
 
 ## Web 重新加载
 
-?? 要在 FormIt Web 中重新加载插件，请在插件的 HTML 上单击鼠标右键，然后单击 `Reload Frame`
+💡 要在 FormIt Web 中重新加载插件，请在插件的 HTML 上单击鼠标右键，然后单击 `Reload Frame`
 
 ![](<../../../.gitbook/assets/d11 (1).png>)
 
 ## Windows 重新加载
 
-?? 要在 FormIt Windows 中重新加载插件，请在插件的 HTML 上单击鼠标右键，然后单击 `Hard Reload`
+💡 要在 FormIt Windows 中重新加载插件，请在插件的 HTML 上单击鼠标右键，然后单击 `Hard Reload`
 
 ![](../../../.gitbook/assets/d18.png)
