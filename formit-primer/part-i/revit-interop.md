@@ -2,7 +2,7 @@
 
 _FormIt 最令人兴奋的功能之一是能够将模型从 FormIt 等灵活建模环境移动到 Revit 等功能强大的参数化环境。在本章中，我们将介绍几个练习，这些练习将各种图元从 FormIt 移动到 Revit，以及从 Revit 移动到 FormIt。_
 
-_本章将使用样例 Revit 族。如果尚未下载，可以从 **“Farnsworth 住宅数据集”下载。**如果直到此时您才学完整个教程，还可以从 **“FormIt Primer Part 1 数据集”** 下载并打开 **“1.15 – Working With Revit.axm”** 文件。_
+_本章将使用样例 Revit 族。如果尚未下载，可以从 **“Farnsworth 住宅数据集”** 下载。 如果直到此时您才学完整个教程，还可以从 **“FormIt Primer Part 1 数据集”** 下载并打开 **“1.15 – Working With Revit.axm”** 文件。_
 
 _在这些练习中，我们将使用 Revit 2022，它改进了与 FormIt 的互操作性功能。Revit 的早期版本将不具有本教程中所涉及的部分或任何功能，并且 UI 也不同。_
 
@@ -36,7 +36,7 @@ _**注意：**_
 
 ## 从 FormIt 到 Revit
 
-_有两种不同的方法可将几何图形从 FormIt 输入 Revit。可以将现有 _ _**“.axm”** 输入 Revit 项目或 Revit 族文件，其行为与输入的模型或 CAD 文件类似。或者，可以从 Revit 中启动 FormIt，然后将每个 FormIt 组作为单个“常规模型”图元输入到 Revit。第二个方法将在 **“第 II 部分”** 的 _ _**“2.8**_ _**高级 Revit 工作流”** 一章中进行介绍。_
+_有两种不同的方法可将几何图形从 FormIt 输入 Revit。可以将现有_ _**“.axm”** 输入 Revit 项目或 Revit 族文件，其行为与输入的模型或 CAD 文件类似。或者，可以从 Revit 中启动 FormIt，然后将每个 FormIt 组作为单个“常规模型”图元输入到 Revit。第二个方法将在 **“第 II 部分”** 的_ _**“2.8**_ _**高级 Revit 工作流”** 一章中进行介绍。_
 
 ### 将 Farnsworth 住宅输入 Revit
 
@@ -44,9 +44,9 @@ _有两种不同的方法可将几何图形从 FormIt 输入 Revit。可以将�
 
 1. 转到 **“插入”选项卡** ，然后单击 **“输入 CAD”** 按钮。**“输入 CAD 格式”** 窗口将打开。
 2. 确保 **“文件类型”** 下拉列表设置为 **“FormIt 文件(\*.axm)”**。
-3. 导航到已在处理的 Farnsworth **.axm** 文件并选择该文件。如果尚未使用“Primer Part I”，还可以打开 **“1.15 – Working With Revit.axm”** 文件（位于 **“Farnsworth 住宅数据集”>“章节文件”** 文件夹中）。
+3. 导航到已在处理的 Farnsworth **.axm** 文件并选择该文件。如果尚未使用“第 I 部分”，还可以打开 **“1.15 – Working With Revit.axm”** 文件（位于 **“Farnsworth 住宅数据集”>“章节文件”** 文件夹中）。
 4. 确保 **“输入 FormIt 标高”** 处于选中状态。
-5. 在完成定义设置后，单击**“打开”**，FormIt 几何图形将作为单个图元输入到 Revit。
+5. 在完成定义设置后，单击 **“打开”**，FormIt 几何图形将作为单个图元输入到 Revit。
 
 ![](<../../.gitbook/assets/2 (24) (1).png>)
 
