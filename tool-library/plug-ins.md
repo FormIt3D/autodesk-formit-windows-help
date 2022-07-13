@@ -1,6 +1,6 @@
 # プラグイン
 
-Plugin Manager を使用して、FormIt チームから便利なプラグインをインストールするか、[**独自の FormIt プラグインを構築する**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)** **
+Plugin Manager を使用して、FormIt チームから便利なプラグインをインストールするか、[**独自の FormIt プラグインを構築する**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**。**
 
 ## FormIt Plugin Manager
 
