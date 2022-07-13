@@ -15,7 +15,7 @@
    * [FormIt a Revit](formit-capabilities/formit-+-revit.md)
    * [FormIt a JavaScript pro moduly plug-in](https://windows.help.formit.autodesk.com/v/czech/plugins)
 * [Úvod do aplikace FormIt](formit-introduction/README.md)
-   * [](formit-introduction/faq.md)Často kladené otázky
+   * [Často kladené otázky](formit-introduction/faq.md)
    * [Předpoklady a instalace](formit-introduction/prerequisites-and-installation.md)
    * [Nastavení projektu](formit-introduction/setting-up-the-project.md)
    * [Panely nástrojů a palety](formit-introduction/tool-bars.md)
