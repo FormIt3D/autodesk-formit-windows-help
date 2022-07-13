@@ -100,7 +100,7 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 * [在此处下载 Dynamo 样例图形](https://formit-help.s3.amazonaws.com/Send+Levels+to+Excel.dyn)。
 * 将 Dynamo 选项板指向保存 Dynamo 图形的本地目录。
-* 在缩略图上单击鼠标右键，然后单击_“编辑嵌入的图形”。_
+* 在缩略图上单击鼠标右键，然后单击 _“编辑嵌入的图形”。_
 * 在某处创建一个空的 Excel 电子表格。
 * 编辑“电子表格位置”字段，以使用 Excel 电子表格的路径。
 * 编辑所需的任何其他字段，例如“图纸名称”。
@@ -110,7 +110,7 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 您将看到 Dynamo 输入出现在 Dynamo 选项板中，并会看到 Excel 打开以显示图形中的结果。&#x20;
 
-在对模型进行更改时，可以再次单击图形缩略图或_“运行”_按钮，以使用最新版本 FormIt 草图中的标高数据更新电子表格。
+在对模型进行更改时，可以再次单击图形缩略图或 _“运行”_ 按钮，以使用最新版本 FormIt 草图中的标高数据更新电子表格。
 
 ![](../.gitbook/assets/dynamo-send-levels-to-excel.gif)
 
@@ -153,19 +153,19 @@ FormIt 支持三种类型的 Dynamo 图形：
 ![](../.gitbook/assets/dynamo\_sourcegraphgif.gif)
 
 * [链接目录](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started)（包含 Dynamo 文件）到 Dynamo 面板，然后在面板中导航到该位置。&#x20;
-* 在要编辑的 Dynamo 图形的缩略图上单击鼠标右键（或单击箭头），然后选择**“编辑源图形”**按钮。
+* 在要编辑的 Dynamo 图形的缩略图上单击鼠标右键（或单击箭头），然后选择 **“编辑源图形”** 按钮。
 * Dynamo 将启动并打开请求的图形，然后在 FormIt 中，您会看到图形的最终输出中显示几何图形。
    * 对于使用一个或多个 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 节点作为输入的图形，在 SelectFromFormIt 节点中填入选择内容后，才可能会看到生成的几何图形。
 * 生成的几何图形会显示在新组中，位于当前组编辑上下文的原点处。
    * 最好位于所需的组上下文中，然后再单击“编辑源图形”。
 * 完成编辑后，保存并关闭 Dynamo。在 FormIt 中，源图形已复制并嵌入到 FormIt 文件中。
-   * 如果需要对**“源图形”**进行更多编辑，请删除嵌入的副本并再次执行这些步骤。
+   * 如果需要对 **“源图形”** 进行更多编辑，请删除嵌入的副本并再次执行这些步骤。
 
 ### **控制曲线 + 曲面镶嵌面**
 
-* 从 FormIt 2023 开始，可以使用 FormItGroupOptions 节点 SetCurveFacetingCount 和 SetSurfaceFacetingCount，来控制附着到 SendToFormIt 节点的曲线和曲面的镶嵌面。
+*  从 FormIt 2023 开始，可以使用 FormItGroupOptions 节点 SetCurveFacetingCount 和 SetSurfaceFacetingCount，来控制附着到 SendToFormIt 节点的曲线和曲面的镶嵌面。
 
-<img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
+    <img src="../.gitbook/assets/dynamo-formitgroupoptions-faceting-nodes.png" alt="" data-size="original">
 * 这些节点会覆盖全局曲线和曲面镶嵌面设置，这些设置是在“编辑”->“首选项”->“单位+精度”下定义的。
 * 如果 Dynamo 图形需要使用特定镶嵌面值生成弯曲对象，这将非常有用，从而无需更改当前任务中运行的每个 Dynamo 图形的全局设置。
 
@@ -217,7 +217,7 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 * 当建筑形状更改时，只需选择竖梃系统组，然后在“特性”面板中单击“运行”。
    * 尽管玻璃制品组的内容已更改，但组本身未更改，因此在重新运行图形时无需重新选择玻璃制品。
-* 在 FormIt 2022 及更高版本中，上述模型可作为**“Dynamo 样例”**的**“建筑体量”**子文件夹中的“屋顶平面建筑”。
+* 在 FormIt 2022 及更高版本中，上述模型可作为 **“Dynamo 样例”** 的 **“建筑体量”** 子文件夹中的“屋顶平面建筑”。
 * 可以将 Dynamo 与 FormIt 的丰富功能结合使用，以在强大的概念建模器的丰富上下文中创建和调整完全参数化的设计（使用材质和嵌套逻辑完成）：
 
 ![](../.gitbook/assets/dynamo\_parametricdesigngif.gif)
@@ -237,11 +237,11 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 ### **SendToFormIt 节点**
 
-* 要在 FormIt 中生成 Dynamo 对象，请将所需的几何节点输出附着到至少一个 SendToFormIt 节点的_“几何图形”_输入：
+* 要在 FormIt 中生成 Dynamo 对象，请将所需的几何节点输出附着到至少一个 SendToFormIt 节点的 _“几何图形”_ 输入：
 
 ![](<../.gitbook/assets/dynamo\_sendtoformitnode (1).png>)
 
-* FormItGroupOptions 是 FormIt 2022 中的新（可选）端口，将在下面的**“FormItGroupOptions 节点”**部分中进行详细介绍。
+* FormItGroupOptions 是 FormIt 2022 中的新（可选）端口，将在下面的 **“FormItGroupOptions 节点”** 部分中进行详细介绍。
 * 在 FormIt 2021.3 及更高版本中，可以使用多个 SendToFormIt 节点将 Dynamo 结果组织为整齐的 FormIt 组和子组。
 * [了解 Dynamo 如何与 FormIt 组配合使用](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)。
 
@@ -289,7 +289,7 @@ FormIt 支持三种类型的 Dynamo 图形：
 * 命名 SelectFromFormIt 节点以指示所需的几何图形类型。例如，“Select Site Boundary (Edges)”（“选择场地边界(边)”）
    * 可以选择任何类型的 FormIt 几何图形，但通常最好将选择内容包含到 FormIt 组中，然后[选择该组而不是原始几何图形](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)。
 * 如果需要移动基于选择的 Dynamo 图形结果，最好先移动选择几何图形，然后重新运行该图形，这将拾取更新后的选择几何图形并相应地重新定位它本身。&#x20;
-   * 还可以对 Dynamo 结果**和**选择进行分组，然后移动包含的组。
+   * 还可以对 Dynamo 结果 **和** 选择进行分组，然后移动包含的组。
 * 如果将 FormIt 几何图形发送到 Dynamo，则任何属性、材质或嵌套组都会在将几何图形返回到 FormIt 时丢失。
 * 如果在 Dynamo 中编辑基于选择的图形，而 FormIt 中选定的几何图形发生更改，则需要通过单击 SelectFromFormIt 节点上的“从 FormIt 选择”来重新选择该几何图形。&#x20;
 * 在 FormIt 中选择时，将应用活动的[选择过滤器](https://windows.help.formit.autodesk.com/v/simplified-chinese/tool-library/select-edge-face-or-object#xuan-ze-guo-lv)。例如，如果要选择 FormIt 顶点，则需要在“选择过滤器”中启用该选项。
