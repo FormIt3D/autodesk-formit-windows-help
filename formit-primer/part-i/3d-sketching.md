@@ -2,7 +2,7 @@
 
 _Jsme připraveni začít kreslit dům Farnsworth House. 3D modelování v aplikaci FormIt se v podstatě skládá z kreslení čar, které vytvářejí plochy, a následného přetahování těchto ploch, čímž se vytváří objemy._
 
-‌_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.3 – 3D Sketch and Drag Face.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
+_Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.3 – 3D Sketch and Drag Face.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
 
 ## **Kreslení ploch pomocí čar**
 
