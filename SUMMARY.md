@@ -84,7 +84,7 @@
    * [修改面、边和点](tool-library/modifying-faces-edges-and-points.md)
    * [非均匀缩放](tool-library/non-uniform-scale.md)
    * [偏移线](tool-library/offset-line.md)
-   * [正交视图(Orthographic Views)](tool-library/orthographic-views.md)
+   * [正交视图](tool-library/orthographic-views.md)
    * [正交和透视相机](tool-library/orthographic-camera.md)
    * [放置基本体](tool-library/place-primitive-object.md)
    * [插件](tool-library/plug-ins.md)
