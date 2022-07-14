@@ -18,7 +18,7 @@
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditor+ScriptOutputConfiguration.gif)
 
-### **脚本编辑器(Script Editor)**
+### **脚本编辑器**
 
 “脚本编辑器”提供了一个简单的开发环境，在其中可以编写和测试代码。
 
