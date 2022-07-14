@@ -1,6 +1,6 @@
 # 管理相机插件
 
-_在本章中，我们将对 FormIt 附带的几个插件进行举例介绍，以对_ _**“Encode Campus Sample Model.axm”** 进行一些改进。如果您尚未下载，可以从_ [_FormIt Primer Part II 数据集_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)下载文件
+_在本章中，我们将对 FormIt 附带的几个插件进行举例介绍，以对_ _**“Encode Campus Sample Model.axm”** 进行一些改进。如果您尚未下载，可以从_ [_FormIt Primer Part II 数据集_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)_下载文件___
 
 在整个入门手册中，我们一直使用场景作为有价值的工具来导航和控制整个模型的可见性。 此插件允许我们查看和编辑当前相机的标高、将每个场景的相机输出为三维对象，以及在模型之间复制这些场景。
 
