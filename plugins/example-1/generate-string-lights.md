@@ -1,6 +1,6 @@
 # 生成灯串
 
-_在本章中，我们将对 FormIt 附带的几个插件进行举例介绍，以对_ _**“Encode Campus Sample Model.axm”** 进行一些改进。如果您尚未下载，可以从_ [_FormIt Primer Part II 数据集_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)下载文件
+_在本章中，我们将对 FormIt 附带的几个插件进行举例介绍，以对_ _**“Encode Campus Sample Model.axm”** 进行一些改进。如果您尚未下载，可以从_ [_FormIt Primer Part II 数据集_](https://formit-help.s3.amazonaws.com/FormIt+Primer+Part+2+Datasets.zip)_下载文件___
 
 _此款简洁插件让您可以根据直线或曲线为模型快速添加吊灯。_
 
