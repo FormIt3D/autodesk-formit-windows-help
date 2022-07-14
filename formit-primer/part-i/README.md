@@ -12,7 +12,7 @@ Primer パート 1 では、FormIt の基本的なツールとワークフロー
 
 次のリンクにあるデータ セットもダウンロードする必要があります。データ セットは、パート 1 を通して使用するファイルのコレクションです。
 
-_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app)_**でほとんどのチュートリアルを完了できます。** FormIt のバージョンとライセンスの詳細については、_ [_FormIt の Web サイト_](https://formit.autodesk.com) を参照してください。
+_FormIt for Windows を実行できない場合でも、無料の_ [_**Web 用アプリケーション**_](https://formit.autodesk.com/app)_でほとんどのチュートリアルを完了できます **。** FormIt のバージョンとライセンスの詳細については、_ [_FormIt の Web サイト_](https://formit.autodesk.com) を参照してください。
 
 ### データ セット
 
