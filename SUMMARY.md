@@ -103,7 +103,7 @@
    * [壳](tool-library/shell.md)
    * [捕捉和推断](tool-library/snaps-and-inferences.md)
    * [日光分析](tool-library/solar-analysis.md)
-   * [样条线(Spline)](tool-library/spline-tool.md)
+   * [样条线](tool-library/spline-tool.md)
    * [店面/幕墙竖梃系统](tool-library/storefront-curtainwall-mullion-system.md)
    * [撤消管理器](tool-library/undo\_manager.md)
    * [视觉样式](tool-library/visual-styles.md)
