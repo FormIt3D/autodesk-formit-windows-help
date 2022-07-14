@@ -96,7 +96,7 @@
    * [旋转对象](tool-library/rotate.md)
    * [缩放对象](tool-library/scale.md)
    * [场景](tool-library/scenes.md)
-   * [剖切平面](tool-library/section-planes.md)
+   * [剖面平面](tool-library/section-planes.md)
    * [选择](tool-library/select-edge-face-or-object.md)
    * [设置位置](tool-library/setting-location.md)
    * [太阳 + 阴影](tool-library/shadows.md)
