@@ -52,7 +52,7 @@ _Nesta próxima etapa, será configurada uma cena a ser usada como a miniatura d
 1 – Para definir as configurações de vista para a cena em miniatura:
 
 1. Na guia **Ambiente** da **paleta Estilos visuais**, desmarque todas as caixas de seleção e defina a cor de **Inferior/ Plano de fundo** como branca.
-2. Certifique-se de que o modo de vista esteja definido como **Perspectiva** (VP)****.
+2. Certifique-se de que o modo de vista esteja definido como **Perspectiva** **(VP)**.
 3. Use as **ferramentas de navegação de vistas** para aumentar o zoom de uma localização de câmera que represente bem o objeto, de forma semelhante à imagem abaixo.
 
 ![](<../../.gitbook/assets/4 (13) (1).png>)
