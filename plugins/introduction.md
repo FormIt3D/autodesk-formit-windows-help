@@ -25,7 +25,7 @@
 
 開発者としてプラグインのパブリッシュ方法の詳細を確認する場合は、「[GitHub にプラグインをホストする](how-to-develop-plugins/advanced-development/hosting-a-plugin-on-github.md)」を参照してください。&#x20;
 
-個人で使用するためにプラグインを作成する場合は、ローカル サービスを使用してプラグインを開発およびホストできます。詳細は、「[IDE を使用する](how-to-develop-plugins/advanced-development/using-an-ide.md)
+個人で使用するためにプラグインを作成する場合は、ローカル サービスを使用してプラグインを開発およびホストできます。詳細は、「[IDE を使用する](how-to-develop-plugins/advanced-development/using-an-ide.md)」
 
 ![](../.gitbook/assets/c18.PNG)
 
