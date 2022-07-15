@@ -79,7 +79,7 @@ _**Notas:**_
 * _Para mantener un modelo organizado, es recomendable que los nombres de grupo sean descriptivos._
 * _Este es un método útil para administrar y editar todos los grupos del modelo desde una ubicación._
 
-2. Con el grupo **Imagen del plano** seleccionado, vaya a la **paleta Propiedades**. Tenga en cuenta que el nombre del grupo también se ha actualizado en el campo **Grupo**.
+2 - Con el grupo **Imagen del plano** seleccionado, vaya a la **paleta Propiedades**. Tenga en cuenta que el nombre del grupo también se ha actualizado en el campo **Grupo**.
 
 ![](<../../.gitbook/assets/7 (11).png>)
 
