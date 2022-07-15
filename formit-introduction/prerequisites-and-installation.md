@@ -4,7 +4,7 @@
 
 * Pobierz najnowszą wersję programu [FormIt dla systemu Windows](https://formit.autodesk.com/page/download).
 * Zaloguj się na koncie Autodesk lub [utwórz bezpłatne konto Autodesk tutaj](https://accounts.autodesk.com).
-* Dodatek FormIt dla programu Revit jest dołączony do programu Revit 2017 i nowszych wersji. Dodatek ten można również pobrać i ręcznie zainstalować z naszej witryny[https://formit.autodesk.com/page/formit-revit]().
+* Dodatek FormIt dla programu Revit jest dołączony do programu Revit 2017 i nowszych wersji. Dodatek ten można również pobrać i ręcznie zainstalować [z naszej witryny](https://formit.autodesk.com/page/formit-revit).
 
 Ustawienia poziomu aplikacji dla programu FormIt znajdują się w ścieżce Computer\HKEY\_CURRENT\_USER\SOFTWARE\Autodesk\FormIt 360\\
 
