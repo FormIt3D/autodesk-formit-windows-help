@@ -2,7 +2,7 @@
 
 FormIt でジオメトリを作成した後、レベルを適用して床の高さを指定したり、面積計算を生成することができます。
 
-レベルの操作方法について詳しくは、FormIt Primer の[こちら](../formit-primer/part-i/adding-floors-with-levels.md)のページを参照してください。
+レベルの操作方法について詳しくは、[FormIt Primer のこちら](../formit-primer/part-i/adding-floors-with-levels.md)のページを参照してください。
 
 ## レベルを作成、設定する
 
