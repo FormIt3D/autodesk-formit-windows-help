@@ -2,7 +2,7 @@
 
 ![](<../../../.gitbook/assets/PANEL BASED PLUGIN.gif>)
 
-HTML ページを表示するパネルベースのプラグインには、次の構造を持つ __manifest.json ファイルがあります。
+HTML ページを表示するパネルベースのプラグインには、次の構造を持つ _manifest.json_ ファイルがあります。
 
 ```
 {
