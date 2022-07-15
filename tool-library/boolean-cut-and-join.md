@@ -24,4 +24,4 @@
 
 1. 切り取られる側のオブジェクトをダブルクリックで選択します。(グループの場合はシングルクリック)
 2. 切り取る側の重なっているオブジェクトを、**[Ctrl]キー** を押しながらダブル クリックします。
-3. 切り取られる側のオブジェクトを右クリックし、コンテキスト メニューで[**[切り取り]ツール**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) を選択します。![](<../.gitbook/assets/cut tool.png>)
+3. 切り取られる側のオブジェクトを右クリックし、コンテキスト メニューで[**[切り取り]ツール**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) を選択します。 ![](<../.gitbook/assets/cut tool.png>)
