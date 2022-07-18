@@ -15,7 +15,8 @@
 
 ## 경로를 따라 형상을 스윕하려면
 
-1. 선을 사용하여 절단할 객체의 면을 표시합니다. ![](../.gitbook/assets/sweep.png)
+1. 선을 사용하여 절단할 객체의 면을 표시합니다. \
+![](../.gitbook/assets/sweep.png)
 2. 스윕 도구 아이콘을 클릭합니다. ![](<../.gitbook/assets/sweep-tool (1).png>)
 3.  이전에 표시한 면을 선택합니다.
 
