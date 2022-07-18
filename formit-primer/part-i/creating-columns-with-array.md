@@ -141,6 +141,6 @@ _**Uwaga:**_ _przytrzymanie naciśniętego klawisza_ _**Shift**_ _lub_ _**Ctrl**
 
 _**Uwaga:**_ _wysokość krótkich słupów można sprawdzić za pomocą narzędzia_ _**Zmierz (ME)**_ _. Można również wybrać jedną z pionowych krawędzi słupa i wyświetlić jej długość na_ _**palecie Właściwości**._
 
-4. Korzystając z poznanych tu technik, skopiuj najbardziej oddalony krótki słup na przeciwległą stronę **Podłogi dolnego tarasu**, aby utworzyć ostatni słup.
+4 — Korzystając z poznanych tu technik, skopiuj najbardziej oddalony krótki słup na przeciwległą stronę **Podłogi dolnego tarasu**, aby utworzyć ostatni słup.
 
 ![](<../../.gitbook/assets/13 (4).png>)
