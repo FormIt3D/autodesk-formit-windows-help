@@ -13,7 +13,7 @@
    * [FormIt + Dynamo](formit-capabilities/formit-+-dynamo.md)
    * [日照解析とエネルギー解析](formit-capabilities/analysis.md)
    * [FormIt + Revit](formit-capabilities/formit-+-revit.md)
-   * [FormIt + JavaScript によるプラグイン](https://windows.help.formit.autodesk.com/v/japanese/plugins)
+   * [FormIt + JavaScript によるプラグイン](https://windows.help.formit.autodesk.com/v/ja/plugins)
 * [FormIt の概要](formit-introduction/README.md)
    * [よくある質問(FAQ)](formit-introduction/faq.md)
    * [前提条件とインストール](formit-introduction/prerequisites-and-installation.md)
