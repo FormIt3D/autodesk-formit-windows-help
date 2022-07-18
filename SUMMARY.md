@@ -13,7 +13,7 @@
    * [FormIt + Dynamo](formit-capabilities/formit-+-dynamo.md)
    * [일조 + 에너지 해석](formit-capabilities/analysis.md)
    * [FormIt + Revit](formit-capabilities/formit-+-revit.md)
-   * [FormIt + JavaScript 플러그인](https://windows.help.formit.autodesk.com/v/korean/plugins)
+   * [FormIt + JavaScript 플러그인](https://windows.help.formit.autodesk.com/v/ko/plugins)
 * [FormIt 소개](formit-introduction/README.md)
    * [FAQ](formit-introduction/faq.md)
    * [전제 조건 및 설치](formit-introduction/prerequisites-and-installation.md)
