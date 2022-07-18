@@ -71,7 +71,8 @@ _**Remarque :**_ _contrairement à d’autres logiciels, FormIt vous empêche d
 
 ![](<../../.gitbook/assets/8 (8).png>)
 
-3 – Après l’ajout du matériau, vous devez automatiquement vous trouver dans l’outil **Pinceau**. Si ce n’est pas le cas, cliquez simplement une fois sur le matériau **Glass – Blue Tint** (Verre – Teinte bleue). Pour peindre tous les murs, double-cliquez sur la géométrie à l’aide de l’outil **Pinceau**. Le matériau sélectionné est alors appliqué à l’objet entier. ![](<../../.gitbook/assets/9 (1).png>)​
+3 – Après l’ajout du matériau, vous devez automatiquement vous trouver dans l’outil **Pinceau**. Si ce n’est pas le cas, cliquez simplement une fois sur le matériau **Glass – Blue Tint** (Verre – Teinte bleue). Pour peindre tous les murs, double-cliquez sur la géométrie à l’aide de l’outil **Pinceau**. Le matériau sélectionné est alors appliqué à l’objet entier. \
+![](<../../.gitbook/assets/9 (1).png>)​
 
 4 – Cliquez sur **Échap** pour quitter l’outil **Pinceau**. Appuyez de nouveau sur la touche **Échap** ou double-cliquez dans l’espace pour quitter le groupe.
 
@@ -109,7 +110,7 @@ _**Remarque :**_ _peindre un groupe en dehors du_ _**mode de modification de gr
 _**Remarques**:_
 
 * _Reportez-vous aux chapitres précédents pour savoir comment dessiner et extruder des rectangles._
-* _Vous devrez peut-être activer ou désactiver l’option_ _**Accrocher à la grille (SG)**_ _pour cliquer sur _l’angle de la terrasse.
+* _Vous devrez peut-être activer ou désactiver l’option_ _**Accrocher à la grille (SG)**_ _pour cliquer sur_ l’angle de la terrasse.
 
 2 – Pour finaliser la terrasse inférieure, procédez comme suit :
 
