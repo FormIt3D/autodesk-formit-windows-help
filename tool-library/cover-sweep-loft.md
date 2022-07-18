@@ -25,7 +25,7 @@
 
    1.  절단할 모서리를 선택합니다.
 
-      ![](../.gitbook/assets/sweep3.png)
+        ![](../.gitbook/assets/sweep3.png)
    2. **완료** 아이콘을 클릭합니다. 원래 객체가 스윕 경로를 따라 수정됩니다. ![](../.gitbook/assets/sweep4.png)![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (1).png>)
 
 ## 다중 프로파일 또는 모서리를 로프트하려면
