@@ -4,7 +4,8 @@ Cierre bordes abiertos, realice cambios de geometría a lo largo de un camino de
 
 ## Para cerrar una serie de caras
 
-1. En el menú **Herramientas avanzadas de geometría** de la barra de acciones, haga clic en la herramienta **Recubrimiento**. ![](<../.gitbook/assets/cover-tool (1).png>)
+1. En el menú **Herramientas avanzadas de geometría** de la barra de acciones, haga clic en la herramienta **Recubrimiento**. \
+![](<../.gitbook/assets/cover-tool (1).png>)
 2. Haga clic en los bordes del objeto al que desea aplicar el recubrimiento.
 
    ![](../.gitbook/assets/cover\_tool1.png)
@@ -30,13 +31,14 @@ Cierre bordes abiertos, realice cambios de geometría a lo largo de un camino de
 
 ## Para solevar varios perfiles o bordes
 
-1. En el menú **Herramientas avanzadas de geometría** de la barra de acciones, haga clic en la herramienta **Solevación**. ![](<../.gitbook/assets/loft-tool (1).png>)
-2. Seleccione la cara o los bordes que desea solevar en el primer objeto.
+1. En el menú **Herramientas avanzadas de geometría** de la barra de acciones, haga clic en la herramienta **Solevación**. \
+![](<../.gitbook/assets/loft-tool (1).png>)
+2.  Seleccione la cara o los bordes que desea solevar en el primer objeto.
 
-   ![](../.gitbook/assets/loft1.png)
-3. Seleccione la cara o los bordes que desea solevar en el segundo objeto. Repita este paso para los objetos adicionales.
+    ![](../.gitbook/assets/loft1.png)
+3.  Seleccione la cara o los bordes que desea solevar en el segundo objeto. Repita este paso para los objetos adicionales.
 
-   ![](../.gitbook/assets/loft2.png)
-4. Haga clic en el icono **Finalizar**. ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2) (1).png>)
+    ![](../.gitbook/assets/loft2.png)
+4.  Haga clic en el icono **Finalizar**. ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2) (1).png>)
 
-   ![](../.gitbook/assets/loft3.png)
+    ![](../.gitbook/assets/loft3.png)
