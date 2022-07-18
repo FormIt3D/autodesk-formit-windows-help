@@ -13,7 +13,7 @@
    * [FormIt a Dynamo](formit-capabilities/formit-+-dynamo.md)
    * [Analýza slunečního záření a energetická analýza](formit-capabilities/analysis.md)
    * [FormIt a Revit](formit-capabilities/formit-+-revit.md)
-   * [FormIt a JavaScript pro moduly plug-in](https://windows.help.formit.autodesk.com/v/czech/plugins)
+   * [FormIt a JavaScript pro moduly plug-in](https://windows.help.formit.autodesk.com/v/cs/plugins)
 * [Úvod do aplikace FormIt](formit-introduction/README.md)
    * [Často kladené otázky](formit-introduction/faq.md)
    * [Předpoklady a instalace](formit-introduction/prerequisites-and-installation.md)
