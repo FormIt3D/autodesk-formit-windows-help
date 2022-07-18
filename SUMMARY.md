@@ -13,7 +13,7 @@
    * [FormIt + Dynamo](formit-capabilities/formit-+-dynamo.md)
    * [日光和能源分析](formit-capabilities/analysis.md)
    * [FormIt + Revit](formit-capabilities/formit-+-revit.md)
-   * [適用於外掛程式的 FormIt + JavaScript](https://windows.help.formit.autodesk.com/v/traditional-chinese/plugins)
+   * [適用於外掛程式的 FormIt + JavaScript](https://windows.help.formit.autodesk.com/v/zh-tw/plugins)
 * [FormIt 簡介](formit-introduction/README.md)
    * [常見問題與回答](formit-introduction/faq.md)
    * [必備條件和安裝](formit-introduction/prerequisites-and-installation.md)
