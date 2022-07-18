@@ -1,6 +1,6 @@
 # 플러그인
 
-Plugin Manager를 사용하여 FormIt 팀이 제공하는 유용한 플러그인을 설치하거나 [**자체 FormIt 플러그인을 빌드하는 방법**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)**을 알아보십시오.**
+Plugin Manager를 사용하여 FormIt 팀이 제공하는 유용한 플러그인을 설치하거나 [**자체 FormIt 플러그인을 빌드하는 방법**](https://formit3d.github.io/FormItExamplePlugins/docs/HowToBuild.html)을 알아보십시오 **.**
 
 ## FormIt Plugin Manager
 
