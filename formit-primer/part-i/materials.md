@@ -71,7 +71,8 @@ _**Nota:**_ _En FormIt, a diferencia de otros programas, no se puede empujar acc
 
 ![](<../../.gitbook/assets/8 (8).png>)
 
-3 - Después de añadir el material, debe encontrarse automáticamente en la herramienta **Pincel**. De lo contrario, haga clic de nuevo una vez en el material **Glass – Blue Tint**. Para pintar todos los muros, haga doble clic en la geometría con la herramienta **Pincel**. Esta acción aplicará el material seleccionado a todo el objeto. ![](<../../.gitbook/assets/9 (1).png>)​
+3 - Después de añadir el material, debe encontrarse automáticamente en la herramienta **Pincel**. De lo contrario, haga clic de nuevo una vez en el material **Glass – Blue Tint**. Para pintar todos los muros, haga doble clic en la geometría con la herramienta **Pincel**. Esta acción aplicará el material seleccionado a todo el objeto. \
+![](<../../.gitbook/assets/9 (1).png>)​
 
 4 - Haga clic en **Esc** para salir de la herramienta **Pincel**. Haga clic en **Esc** de nuevo o haga doble clic fuera en el espacio para salir del grupo.
 
