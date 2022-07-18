@@ -13,7 +13,7 @@
    * [FormIt и Dynamo](formit-capabilities/formit-+-dynamo.md)
    * [Расчет инсоляции и энергопотребления](formit-capabilities/analysis.md)
    * [FormIt и Revit](formit-capabilities/formit-+-revit.md)
-   * [FormIt и JavaScript для подключаемых модулей](https://windows.help.formit.autodesk.com/v/russian/plugins)
+   * [FormIt и JavaScript для подключаемых модулей](https://windows.help.formit.autodesk.com/v/ru/plugins)
 * [Основы FormIt](formit-introduction/README.md)
    * [Вопросы и ответы](formit-introduction/faq.md)
    * [Необходимые компоненты и установка](formit-introduction/prerequisites-and-installation.md)
