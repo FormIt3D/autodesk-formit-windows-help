@@ -30,14 +30,13 @@ Zamknij otwarte krawędzie, wprowadź zmiany geometrii wzdłuż ścieżki krawę
 
 ## Wyciąganie złożone wielu profili lub krawędzi
 
-1. W menu **Zaawansowane narzędzia geometrii** na pasku operacji kliknij narzędzie **Wyciągnięcie złożone**. \
-![](<../.gitbook/assets/loft-tool (1).png>)
-2. Wybierz powierzchnię lub krawędzie, które mają zostać wyciągnięte, na pierwszym obiekcie.
+1. W menu **Zaawansowane narzędzia geometrii** na pasku operacji kliknij narzędzie **Wyciągnięcie złożone**. ![](<../.gitbook/assets/loft-tool (1).png>)
+2.  Wybierz powierzchnię lub krawędzie, które mają zostać wyciągnięte, na pierwszym obiekcie.
 
-   ![](../.gitbook/assets/loft1.png)
-3. Wybierz powierzchnię lub krawędzie, które mają zostać wyciągnięte, na drugim obiekcie. Powtórz tę czynność dla dodatkowych obiektów.
+    ![](../.gitbook/assets/loft1.png)
+3.  Wybierz powierzchnię lub krawędzie, które mają zostać wyciągnięte, na drugim obiekcie. Powtórz tę czynność dla dodatkowych obiektów.
 
-   ![](../.gitbook/assets/loft2.png)
-4. Kliknij ikonę **Zakończ**. ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2) (1).png>)
+    ![](../.gitbook/assets/loft2.png)
+4.  Kliknij ikonę **Zakończ**. ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2) (1).png>)
 
-   ![](../.gitbook/assets/loft3.png)
+    ![](../.gitbook/assets/loft3.png)
