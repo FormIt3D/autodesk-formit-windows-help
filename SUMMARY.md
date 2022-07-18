@@ -13,7 +13,7 @@
    * [FormIt + Dynamo](formit-capabilities/formit-+-dynamo.md)
    * [Analiza oświetlenia naturalnego i analiza energetyczna](formit-capabilities/analysis.md)
    * [FormIt + Revit](formit-capabilities/formit-+-revit.md)
-   * [Program FormIt i język JavaScript do wtyczek](https://windows.help.formit.autodesk.com/v/polish/plugins)
+   * [Program FormIt i język JavaScript do wtyczek](https://windows.help.formit.autodesk.com/v/pl/plugins)
 * [Wprowadzenie do programu FormIt](formit-introduction/README.md)
    * [Często zadawane pytania](formit-introduction/faq.md)
    * [Wymagania wstępne i instalacja](formit-introduction/prerequisites-and-installation.md)
