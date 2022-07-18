@@ -13,7 +13,7 @@
    * [FormIt + Dynamo](formit-capabilities/formit-+-dynamo.md)
    * [Análise solar + de energia](formit-capabilities/analysis.md)
    * [FormIt + Revit](formit-capabilities/formit-+-revit.md)
-   * [FormIt + JavaScript para plug-ins](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/plugins)
+   * [FormIt + JavaScript para plug-ins](https://windows.help.formit.autodesk.com/v/pt-br/plugins)
 * [Introdução ao FormIt](formit-introduction/README.md)
    * [Perguntas frequentes (em inglês)](formit-introduction/faq.md)
    * [Pré-requisitos e instalação](formit-introduction/prerequisites-and-installation.md)
