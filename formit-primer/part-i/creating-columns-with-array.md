@@ -57,7 +57,7 @@ _**Uwaga:**_ _klawisz_ _**Shift**_ _umożliwia zablokowanie geometrii w celu prz
 
 _**Uwaga:**_ _aby dowiedzieć się, jak poruszać się po szkicu, zapoznaj się z rozdziałem_ _**Nawigacja po scenie**_ _._
 
-2. Wybierz powierzchnię profilu słupa i wyciągnij powierzchnię w górę o **17 stóp i 8 cali**.
+2 — Wybierz powierzchnię profilu słupa i wyciągnij powierzchnię w górę o **17 stóp i 8 cali**.
 
 _**Uwaga:**_ _jeśli podczas przesuwania profil słupa został wyrównany względem dachu, wyciągnij powierzchnię o_ _**17 stóp i 8 cali**_\
 _w dół, a nie w górę._
