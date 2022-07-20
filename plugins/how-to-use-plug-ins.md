@@ -35,7 +35,7 @@ GitHub のタグ: _formit-plugin-developers_
 
 ![](../.gitbook/assets/d4.PNG)
 
-プライベート プラグイン(ローカル プラグイン)の追加に関する詳細については、「[Plugin Manager でプラグインをプレビューする](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+プライベート プラグイン(ローカル プラグイン)の追加に関する詳細については、「[Plugin Manager でプラグインをプレビューする](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)」
 
 ## Plugin Manager をリセットする
 
