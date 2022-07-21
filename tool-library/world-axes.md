@@ -8,11 +8,11 @@ Lorsqu’une esquisse vide est ouverte dans FormIt, les axes universels sont rep
 
 ![](../.gitbook/assets/axis.png)
 
-Pour faire pivoter la grille et redéfinir le point d’origine de l’esquisse, **cliquez avec le bouton droit de la souris** sur un espace vide de la scène, puis choisissez l’icône **Définir les axes (SZ)** dans le menu contextuel\
-![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>).
+Pour faire pivoter la grille et redéfinir le point d’origine de l’esquisse, **cliquez avec le bouton droit de la souris** sur un espace vide de la scène, puis choisissez l’icône **Définir les axes (SZ)** dans le menu contextuel.\
+![](<../.gitbook/assets/guid-d035d02f-480d-44a2-ae80-4b4fbf3a6117-low (1).png>)
 
-Le widget Définir les axes s’affiche. Cliquez sur la grande poignée au centre pour sélectionner le widget. Cliquez à nouveau pour définir le point d’origine. Cliquez sur le point de l’axe rouge pour faire pivoter la grille ou cliquez sur le point des axes bleus pour faire pivoter le plan de grille verticalement. Cliquez dans l’espace pour confirmer la modification\
-![](../.gitbook/assets/2021-01-14\_12-30-10.gif).
+Le widget Définir les axes s’affiche. Cliquez sur la grande poignée au centre pour sélectionner le widget. Cliquez à nouveau pour définir le point d’origine. Cliquez sur le point de l’axe rouge pour faire pivoter la grille ou cliquez sur le point des axes bleus pour faire pivoter le plan de grille verticalement. Cliquez dans l’espace pour confirmer la modification.\
+![](../.gitbook/assets/2021-01-14\_12-30-10.gif)
 
 Pour **rétablir** les paramètres par défaut de l’origine et de la grille, cliquez avec le bouton droit de la souris sur un espace vide de la scène et choisissez **Réinitialiser les axes (RZ)**.
 
