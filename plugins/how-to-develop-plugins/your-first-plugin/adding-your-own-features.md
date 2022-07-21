@@ -10,7 +10,7 @@ Lorsque vous cliquez sur Modifier dans l’exemple de plug-in Plugin Playground
 
 Ajoutez une fonction à ce plug-in pour créer un cylindre.
 
-Commencez par configurer le champ de saisie et le bouton d’interface utilisateur dans le groupe de fonctions HTML. Copiez le code suivant et collez-le après la ligne 23 et avant _\<!-- Ne supprimez pas les scripts ci-dessous, sauf si vous savez ce que vous faites -- > _
+Commencez par configurer le champ de saisie et le bouton d’interface utilisateur dans le groupe de fonctions HTML. Copiez le code suivant et collez-le après la ligne 23 et avant _\<!-- Ne supprimez pas les scripts ci-dessous, sauf si vous savez ce que vous faites -- >_
 
 Cela permet d’ajouter des éléments de base de l’interface utilisateur au plug-in.
 
