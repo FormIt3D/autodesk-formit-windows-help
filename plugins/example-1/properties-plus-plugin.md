@@ -39,4 +39,4 @@ _**Remarque :**_ _si vous quittez la palette avec la souris, vous ne pourrez pl
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
-_**Remarque :**_ _ce plug-in détecte également les__ **sommets**, qui peuvent être créés à l’aide d’un autre plug-in appelé_ _**Generate Vertex** (Générer le sommet). Si vous souhaitez faire des essais, installez le_ _**plug-in Generate Vertex**__ (Générer le sommet) et répétez les étapes ci-dessus._
+_**Remarque :**_ _ce plug-in détecte également les_ _**sommets**, qui peuvent être créés à l’aide d’un autre plug-in appelé_ _**Generate Vertex** (Générer le sommet). Si vous souhaitez faire des essais, installez le_ _**plug-in Generate Vertex**_ _(Générer le sommet) et répétez les étapes ci-dessus._
