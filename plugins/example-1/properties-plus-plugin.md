@@ -35,7 +35,7 @@ _**Observação:**_ _Se você sair da paleta com o mouse, não poderá mais edit
 
 1. Desenhe rapidamente uma **Linha (L)**, um **Retângulo (R)** e um **Cubo (Alt + B)** em qualquer lugar do modelo. Esses desenhos serão temporários, portanto, a localização precisa não é importante.
 2. Abra novamente a **paleta Mais propriedades** se ela estiver fechada e, em seguida, pressione **Ctrl + A** para selecionar todos os elementos visíveis no modelo.
-3. Vá para a área **Contagem de seleção** e observe que os elementos selecionados estão separados em **Arestas** (linhas), **Faces**, **Corpos**, (formas 3D feitas de faces e arestas, como o cubo)**, ** **Grupos**, entre outros.
+3. Vá para a área **Contagem de seleção** e observe que os elementos selecionados estão separados em **Arestas** (linhas), **Faces**, **Corpos**, (formas 3D feitas de faces e arestas, como o cubo)**,** **Grupos**, entre outros.
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
