@@ -35,7 +35,7 @@ _**Nota:**_ _Si el cursor del ratón sale de la paleta, ya no podrá editar el c
 
 1. Dibuje rápidamente una **Línea (L)**, un **Rectángulo (R)** y un **Cubo (Alt + B)** en cualquier lugar del modelo. Estos serán temporales, por lo que la ubicación precisa no es importante.
 2. Vuelva a abrir la **paleta Properties Plus** si estaba cerrada y, a continuación, pulse **Ctrl + A** para seleccionar todos los elementos visibles en el modelo.
-3. Examine el área **Selection Count** y observe que los elementos seleccionados se dividen en **bordes** (líneas), **caras**, **cuerpos**, (formas 3D compuestas de caras y bordes, como el cubo)**, ** **grupos**, etc.
+3. Examine el área **Selection Count** y observe que los elementos seleccionados se dividen en **bordes** (líneas), **caras**, **cuerpos**, (formas 3D compuestas de caras y bordes, como el cubo)**,** **grupos**, etc.
 
 ![](<../../.gitbook/assets/13 (3) (1).png>)
 
