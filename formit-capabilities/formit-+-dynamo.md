@@ -427,7 +427,7 @@ De outra forma, o nó **CallPluginJS** permite chamar funções personalizadas d
    * Na parte superior direita da caixa de diálogo Idioma, clique em “Configurações administrativas de idioma”
    * Clique no botão “Alterar localidade do sistema...”
    * Escolha “English (United States)”
-* Se os gráficos não conseguirem gerar resultados no FormIt ao trabalhar com geometria ou números pequenos, tente alterar a configuração de escala do Dynamo para “Pequena”:
+* Se os gráficos não conseguirem gerar resultados no FormIt ao trabalhar com geometria ou números pequenos, tente alterar a configuração de escala do Dynamo para "Pequena":
    * Menu Dynamo > Preferências > Geral > Escala da geometria > Pequena
 
 ![](../.gitbook/assets/dynamo\_geometryscaling.png)
