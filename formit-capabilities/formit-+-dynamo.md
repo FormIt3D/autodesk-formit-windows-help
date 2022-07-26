@@ -43,7 +43,7 @@ Utilizzare il pannello di Dynamo per avviare Dynamo, posizionare i gruppi di Dyn
 ### **Aggiunta e gestione delle directory di Dynamo locali**
 
 * Il pannello di Dynamo funziona come la [Libreria di contenuti](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/import-export-and-content-library), consentendo di collegare e gestire le directory locali contenenti i file di Dynamo.
-* Fare clic sul pulsante di collegamento della directory nel pannello di Dynamo, quindi fare di nuovo clic su (+) nella finestra di dialogo Preferenze per selezionare una directory da collegare a FormIt: . <img src="../.gitbook/assets/dynamo_selectdirectory.png" alt="" data-size="line">
+* Fare clic sul pulsante di collegamento della directory nel pannello di Dynamo, quindi fare di nuovo clic su (+) nella finestra di dialogo Preferenze per selezionare una directory da collegare a FormIt: <img src="../.gitbook/assets/dynamo_selectdirectory.png" alt="" data-size="line">
 * Passare da una directory collegata all'altra utilizzando l'elenco a discesa:
 
 ![](../.gitbook/assets/dynamo\_dropdown.png)
@@ -432,6 +432,6 @@ Al contrario, il nodo **CallPluginJS** consente di richiamare funzioni personali
 
 ![](../.gitbook/assets/dynamo\_geometryscaling.png)
 
-### **Ottieni supporto**
+### **Ottenere supporto**
 
 Serve assistenza con FormIt + Dynamo? [Comunicarlo nei forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142).

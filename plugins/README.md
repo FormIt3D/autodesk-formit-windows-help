@@ -1,4 +1,4 @@
-# Plugin
+# Plug-in
 
 ![](../.gitbook/assets/gg1.gif)
 

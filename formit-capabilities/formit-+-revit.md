@@ -195,7 +195,7 @@ Il pulsante _Ricarica famiglie_ è stato rimosso poiché Autodesk lavora per off
 
 ## Note importanti <a href="#revit-important-notes" id="revit-important-notes"></a>
 
-### **Ottieni supporto** <a href="#get-support" id="get-support"></a>
+### **Ottenere supporto** <a href="#get-support" id="get-support"></a>
 
 Serve assistenza con FormIt + Revit? [Comunicarlo nei forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
 

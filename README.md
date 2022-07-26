@@ -4,7 +4,7 @@
 
 ![](<.gitbook/assets/formit intro hero image.png>)
 
-## Sono fornite informazioni sulle potenzialità di FormIt per Windows.
+## Informazioni sulle potenzialità di FormIt per Windows
 
 FormIt è uno strumento intuitivo di modellazione concettuale che consente di disegnare, collaborare, analizzare e iterare i concetti di progettazione architettonica nelle prime fasi tramite desktop, browser Web o tablet.
 

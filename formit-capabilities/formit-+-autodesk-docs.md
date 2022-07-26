@@ -48,6 +48,6 @@ Utilizzare la libreria di contenuti di FormIt per posizionare il contenuto di Au
 * In FormIt v18.0 e versioni successive, la cartella di FormIt non viene più creata automaticamente ed è possibile visualizzare i file in qualsiasi directory.
 * È possibile spostare i file fuori dalla cartella di FormIt ed eliminarla, se lo si desidera.
 
-### **Ottieni supporto**
+### **Ottenere supporto**
 
 * Serve assistenza con FormIt + Autodesk Docs? [Comunicarlo nei forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
