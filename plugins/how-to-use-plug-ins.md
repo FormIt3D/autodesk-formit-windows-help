@@ -20,14 +20,11 @@ Plugin Manager는 사용자가 가장 관심 있는 플러그인을 찾을 수 �
 
 **설치된 플러그인:** 사용자가 이미 설치한 플러그인입니다.&#x20;
 
-**권장 플러그인:** FormIt 팀에서 FormIt의 핵심 기능을 확장하고 새 워크플로우를 잠금 해제하기 위해 권장하는 플러그인입니다. FormIt 팀의 승인을 받은 후 커뮤니티에서 개발한 플러그인이 여기에 표시됩니다.\
-GitHub 태그: _formit-plugin-recommended_
+**권장 플러그인:** FormIt 팀에서 FormIt의 핵심 기능을 확장하고 새 워크플로우를 잠금 해제하기 위해 권장하는 플러그인입니다. FormIt 팀의 승인을 받은 후 커뮤니티에서 개발한 플러그인이 여기에 표시됩니다.\GitHub 태그: _formit-plugin-recommended_
 
-**공용 플러그인:** 커뮤니티에서 빌드한 플러그인입니다. 이 카테고리의 플러그인은 FormIt 팀에서 검토하거나 승인하지 않은 플러그인입니다. \
-GitHub 태그: _formit-plugin_
+**공용 플러그인:** 커뮤니티에서 빌드한 플러그인입니다. 이 카테고리의 플러그인은 FormIt 팀에서 검토하거나 승인하지 않은 플러그인입니다. \GitHub 태그: _formit-plugin_
 
-**개발자 플러그인**: 새 FormIt 플러그인의 생성을 지원하기 위해 커뮤니티에서 빌드한 플러그인입니다. \
-GitHub 태그: _formit-plugin-developers_
+**개발자 플러그인**: 새 FormIt 플러그인의 생성을 지원하기 위해 커뮤니티에서 빌드한 플러그인입니다. \GitHub 태그: _formit-plugin-developers_
 
 ## 개인 또는 로컬 플러그인 추가
 
@@ -35,7 +32,7 @@ GitHub 태그: _formit-plugin-developers_
 
 ![](../.gitbook/assets/d4.PNG)
 
-개인 또는 로컬 플러그인 추가에 대한 자세한 내용은 [Plugin Manager에서 플러그인 미리보기 ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
+개인 또는 로컬 플러그인 추가에 대한 자세한 내용은 [Plugin Manager에서 플러그인 미리보기를 참고하십시오. ](how-to-develop-plugins/advanced-development/previewing-a-plugin-in-the-plugin-manager.md)
 
 ## Plugin Manager 재설정
 

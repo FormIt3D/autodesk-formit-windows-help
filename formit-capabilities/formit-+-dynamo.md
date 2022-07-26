@@ -20,7 +20,7 @@ Windows용 FormIt에는 유용한 계산 설계 워크플로우를 지원하는 
 
 ### **다중 SendToFormIt 노드**
 
-[FormIt 2021.3](https://formit.autodesk.com/blog/post/introducing-formit-2021-3)은 [여러 SendToFormIt 노드 및 내포된 Dynamo 그래프](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)를 사용하는 기능을 추가합니다.
+[FormIt 2021.3](https://formit.autodesk.com/blog/post/introducing-formit-2021-3)에는 [여러 SendToFormIt 노드 및 내포된 Dynamo 그래프](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)를 사용하는 기능이 추가되었습니다.
 
 ### **SelectFromFormIt 노드**
 
@@ -62,8 +62,8 @@ Dynamo에서 그래프를 작성 및 편집하거나, 그래프를 표시하지 
 FormIt은 다음 세 가지 유형의 Dynamo 그래프를 지원합니다.
 
 * 데이터 그래프: 데이터 그래프에는 _SendToFormIt_ 노드가 없습니다. 데이터 그래프를 사용하면 FormIt을 통해 데이터를 표면화하거나 전달할 수 있습니다. 예를 들어, 데이터 그래프를 사용하여 Excel로 데이터를 보내거나 비기하학적 데이터를 계산하여 Watch 노드에 표시할 수 있습니다.
-* 형상 그래프: 형상 그래프는 즉시 형상을 생성합니다. 해당 매개변수를 확인하려면 형상 그래프를 캔버스에 배치해야 합니다. 썸네일을 클릭하면 형상이 커서에 나타나 3D 장면에 배치할 수 있습니다. 형상 그래프를 사용하려면 하나 이상의 _SendToFormIt_ 노드가 있어야 하고 그래프의 끝에서 형상을 수신해야 합니다.
-* 선택 그래프: 선택 그래프는 실행하기 전에 FormIt을 선택해야 합니다. 선택해야 하는 항목을 나타내는 프롬프트가 FormIt의 왼쪽 상단 코너에 표시됩니다. 항목을 선택하면 그래프가 실행되고 선택에 따라 형상이 생성됩니다. 형상 그래프를 사용하려면 하나 이상의 _SendToFormIt_ 노드가 있어야 하고 그래프의 끝에서 형상을 수신해야 합니다.
+* 형상 그래프: 형상 그래프는 즉시 형상을 생성합니다. 해당 매개변수를 확인하려면 형상 그래프를 캔버스에 배치해야 합니다. 썸네일을 클릭하면 형상이 커서에 나타나 3D 장면에 배치할 수 있습니다. 이 그래프를 사용하려면 하나 이상의 _SendToFormIt_ 노드가 있어야 하고 그래프의 끝에서 형상을 수신해야 합니다.
+* 선택 그래프: 선택 그래프는 실행하기 전에 FormIt을 선택해야 합니다. 선택해야 하는 항목을 나타내는 프롬프트가 FormIt의 왼쪽 상단 코너에 표시됩니다. 항목을 선택하면 그래프가 실행되고 선택에 따라 형상이 생성됩니다. 이 그래프를 사용하려면 하나 이상의 _SendToFormIt_ 노드가 있어야 하고 그래프의 끝에서 형상을 수신해야 합니다.
 
 ![](../.gitbook/assets/dynamo-graph-types.png)
 
@@ -100,7 +100,7 @@ FormIt 2023 이상에서는 Dynamo를 사용하여 FormIt 레벨을 Excel로 보
 
 * [여기에서 샘플 Dynamo 그래프](https://formit-help.s3.amazonaws.com/Send+Levels+to+Excel.dyn)를 다운로드합니다.
 * Dynamo 팔레트의 위치를 Dynamo 그래프가 저장된 로컬 디렉토리로 지정합니다.
-* 썸네일을 마우스 오른쪽 버튼으로 클릭하고 _포함된 그래프 편집_
+* 썸네일을 마우스 오른쪽 버튼으로 클릭하고 _포함된 그래프 편집을 클릭합니다._
 * 임의 위치에 빈 Excel 스프레드시트를 작성합니다.
 * 스프레드시트 위치 필드를 편집하여 Excel 스프레드시트의 경로를 사용합니다.
 * 시트 이름 등 원하는 다른 필드를 편집합니다.
@@ -152,7 +152,7 @@ Dynamo 객체를 FormIt에 배치하면 해당 기본 그래프가 복사되어 
 
 ![](../.gitbook/assets/dynamo\_sourcegraphgif.gif)
 
-* Dynamo 파일이 포함된 [디렉토리](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started)를 Dynamo 패널에 연결한 다음, 패널에서 해당 위치로 이동합니다.&#x20;
+* Dynamo 파일이 포함된 [디렉토리를 Dynamo 패널에 연결](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started)한 다음, 패널에서 해당 위치로 이동합니다.&#x20;
 * 편집하려는 Dynamo 그래프의 썸네일을 마우스 오른쪽 버튼으로 클릭하고(또는 화살표를 클릭) **소스 그래프 편집** 버튼을 선택합니다.
 * 요청된 그래프가 열려 있는 상태에서 Dynamo가 시작되고, FormIt에 그래프의 최종 출력의 형상이 표시됩니다.
    * 하나 이상의 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 노드를 입력으로 사용하는 그래프의 경우, SelectFromFormIt 노드가 선택 항목으로 채워질 때까지 결과 형상이 표시되지 않을 수 있습니다.
@@ -210,7 +210,7 @@ FormIt 그룹의 강력한 기능을 이용해 Dynamo 형상 구성을 개선하
 
 ### **Dynamo 그룹 내포**
 
-* **SelectFromFormIt** 노드를 사용하여 하나의 Dynamo 그래프에서 하위 그룹 결과를 선택하여 다른 그래프의 결과를 실행할 수 있습니다.&#x20;
+* **SelectFromFormIt** 노드를 사용해 하나의 Dynamo 그래프에서 하위 그룹 결과를 선택하여 다른 그래프의 결과를 실행할 수 있습니다.&#x20;
 * 위의 예에서 건물 생성기 그래프의 유리 출력은 내장 점두 커튼월 샘플의 선택 형상으로 사용됩니다.
 
 ![](../.gitbook/assets/dynamo\_storefront\_curtainwallgif.gif)
@@ -287,7 +287,7 @@ FormIt과 Dynamo 간에 데이터를 전송할 수 있는 가장 강력한 기�
 ### **팁, 트릭 및 참고**
 
 * 어떤 유형의 형상이 예상되는지 알 수 있도록 SelectFromFormIt 노드의 이름을 지정합니다. 예를 들어 "대지 경계(모서리) 선택"과 같이 지정합니다.
-   * 모든 유형의 FormIt 형상을 선택할 수 있지만 FormIt 그룹에 선택 항목을 포함하고 원시 형상 대신 해당 항목을 선택[하는 것이 가장 좋습니다](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
+   * 모든 유형의 FormIt 형상을 선택할 수 있지만 FormIt 그룹에 선택 항목을 포함하고 [원시 형상 대신 해당 항목을 선택](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)하는 것이 가장 좋습니다.
 * 선택 기반 Dynamo 그래프의 결과를 이동해야 하는 경우, 먼저 선택 형상을 이동하고 그래프를 다시 실행하는 것이 좋습니다. 그러면 업데이트된 선택 형상이 선택되어 적절하게 재배치됩니다.&#x20;
    * Dynamo 결과 **및** 선택사항을 그룹화한 다음, 포함하는 그룹을 이동할 수도 있습니다.
 * FormIt 형상을 Dynamo로 보내면 형상을 다시 FormIt으로 되돌릴 때 모든 속성, 재료 또는 내포된 그룹이 손실됩니다.
@@ -314,7 +314,7 @@ _FormItLengthString_ 노드의 각 인스턴스는 어떤 단위 유형으로도
 
 ### **원시 숫자에서 FormItLengthString으로 전환**
 
-FormIt 2022.1.1 이상에서 FormItLengthString 노드를 사용하도록 그래프를 전환하거나(그래프에 첫 번째 노드를 배치하여) 원시 숫자만 사용하도록 그래프를 전환하면(마지막 FormItLengthString 제거하여) Dynamo에서 그래프를 편집하는 동안 특정 동작이 변경됩니다.
+FormIt 2022.1.1 이상에서 FormItLengthString 노드를 사용하도록 그래프를 전환하거나(그래프에 첫 번째 노드를 배치하여) 원시 숫자만 사용하도록 그래프를 전환하면(마지막 FormItLengthString을 제거하여) Dynamo에서 그래프를 편집하는 동안 특정 동작이 변경됩니다.
 
 * 그래프를 편집하는 동안 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 노드를 사용하는 경우, 위와 같이 원시 숫자와 _FormItLengthString_ 노드 간을 전환하려면 각 _SelectFromString_ 에 대한 형상을 다시 선택해야 합니다. 그래야 결과가 FormIt에서 올바르게 계속 축척됩니다.
 * 그래프에 첫 번째 FormItLengthString 노드를 배치하면 그래프에서 치수(원시 숫자 입력 포함)로 의도된 모든 숫자는 미터(Dynamo의 기본 단위)를 나타냅니다.

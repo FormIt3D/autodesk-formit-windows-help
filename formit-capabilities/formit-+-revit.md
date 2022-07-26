@@ -24,7 +24,7 @@ Windows용 FormIt은 Revit에 직접 연결되므로 초기 컨셉과 상세 설
 
 * Revit의 매스작업 & 대지 탭에 있는 새로운 _**3D 스케치**_ 버튼을 사용하여 Revit에서 바로 FormIt을 시작할 수 있습니다.
 * FormIt에서 설계하고, _3D 스케치_ 버튼으로 실행되었을 때 FormIt의 _**Revit으로 보내기**_ 버튼을 사용하여 Revit으로 스케치를 다시 보낼 수 있습니다.
-* Revit의 삽입 탭에 있는 _**CAD 가져오기**_ 버튼을 사용하여 FormIt 모델을 Revit으로 가져올 수 있습니다. (이전의 **RVT로 FormIt 가져오기** 버튼보다 안정적이고 최대 _30배 더 빠른_ 속도를 제공합니다.)
+* Revit의 삽입 탭에 있는 _**CAD 가져오기**_ 버튼을 사용하여 FormIt 모델을 Revit으로 가져올 수 있습니다. (이전의 _RVT로 FormIt 가져오기_ 버튼보다 안정적이고 최대 **30배 더 빠른 속도**를 제공합니다.)
 * FormIt 기능을 위한 별도의 애드인을 다운로드할 필요가 없습니다.
 
 ### **Revit 2021.1 개선 사항** <a href="#revit-20211-improvements" id="revit-20211-improvements"></a>
