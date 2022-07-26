@@ -76,7 +76,7 @@ FormIt prend en charge trois types de graphiques Dynamo :
 * Lorsque vous placez la géométrie dans FormIt, une copie du graphique Dynamo est incorporée dans le fichier FormIt.
    * Pour générer une géométrie, un nœud [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) doit être associé aux nœuds de géométrie de sortie dans le graphique.
 * La géométrie du nœud SendToFormIt sera disponible sur le curseur pour le placement.
-   * Lorsque le graphique comporte des nœuds [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) marqués comme entrés, FormIt demande d’abord la sélection (chaque nœud de sélection dans l’ordre vertical), puis génère la géométrie à l’emplacement approprié par rapport à la sélection.
+   * Lorsque le graphique comporte des nœuds [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) marqués comme entrées, FormIt demande d’abord la sélection (chaque nœud de sélection dans l’ordre vertical), puis génère la géométrie à l’emplacement approprié par rapport à la sélection.
 * Une copie du fichier Dynamo d’origine est désormais intégrée au groupe FormIt et indépendante du graphique source.
 * Lors du placement, le groupe de fonctions Propriétés bascule automatiquement pour afficher les paramètres disponibles.
 
@@ -85,7 +85,7 @@ FormIt prend en charge trois types de graphiques Dynamo :
 ![](../.gitbook/assets/dynamo\_stairsgif2\_modifyparameters.gif)
 
 * Après avoir placé un groupe Dynamo, sélectionnez-le et basculez vers le groupe de fonctions Propriétés, ou double-cliquez sur le groupe pour basculer automatiquement sur Propriétés.
-   * Tous les nœuds d’entrée marqués comme entrés dans Dynamo sont répertoriés ici.
+   * Tous les nœuds d’entrée marqués comme entrées dans Dynamo sont répertoriés ici.
    * [**Les nœuds d’entrée SelectFromFormIt**](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) s’affichent sous forme de boutons dans la partie supérieure et peuvent être utilisés pour mettre à jour la sélection utilisée pour piloter le graphique.
    * FormIt prend en charge les nœuds d’entrée suivants : les curseurs de nombres, les curseurs d’entiers, les bascules booléennes et les champs de nombre/chaîne.
 * Modifiez les entrées dans FormIt, puis cliquez sur Exécuter. Le bouton Exécuter devient bleu pour indiquer que les paramètres ont été modifiés et que le graphique doit être exécuté.
@@ -171,7 +171,7 @@ Les graphiques sources sont affichés dans le groupe de fonctions Dynamo après 
 
 ![](../.gitbook/assets/dynamo-formitgroupoptions-faceting.gif)
 
-* Vous pouvez également définir globalement les paramètres de facettage dans Modifier -> Préférences -> Unités et Précision
+* Vous pouvez également définir globalement les paramètres de facettage dans Modifier -> Préférences -> Unités et Précision.
 * Après avoir ajusté la qualité de facettage dans Préférences, réexécutez le graphique pour utiliser les nouveaux paramètres de facettage globaux.
 
 ![](../.gitbook/assets/dynamo\_controlcurve.gif)
@@ -247,7 +247,7 @@ Voici les nœuds les plus puissants pour envoyer des données entre FormIt et Dy
 
 ![](<../.gitbook/assets/dynamo\_sendtoformitnodes (1).png>)
 
-* Le nœud SendToFormIt respecte l’indicateur de sortie, qui est activé par défaut. Vous pouvez cliquer avec le bouton droit de la souris sur le nœud pour vérifier que :
+* Le nœud SendToFormIt respecte l’indicateur de sortie, qui est activé par défaut. Vous pouvez cliquer avec le bouton droit de la souris sur le nœud pour vérifier :
 
 ![](<../.gitbook/assets/dynamo\_isoutput (1).png>)
 
@@ -286,7 +286,7 @@ Voici les nœuds les plus puissants pour envoyer des données entre FormIt et Dy
 
 ### **Conseils, astuces et remarques**
 
-* Nommez le nœud SelectFromFormIt pour indiquer le type de géométrie attendu. Par exemple, « Sélectionner le contour du site (arêtes) »
+* Nommez le nœud SelectFromFormIt pour indiquer le type de géométrie attendu. Par exemple, « Sélectionner le contour du site (arêtes) ».
    * Vous pouvez sélectionner n’importe quel type de géométrie FormIt, mais il est souvent préférable de contenir la sélection dans un groupe FormIt et de [la sélectionner au lieu de la géométrie brute](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 * Si vous devez déplacer les résultats d’un graphique Dynamo basé sur une sélection, il est préférable de déplacer d’abord la géométrie de sélection, puis de relancer le graphique, qui va prendre la géométrie de sélection mise à jour et se repositionner de manière appropriée.&#x20;
    * Vous pouvez également regrouper les résultats Dynamo **et** la sélection, puis déplacer le groupe qui les contient.
@@ -424,11 +424,11 @@ Pour les noms de fonction et les paramètres, consultez notre documentation Java
    * Utilisez les panneaux de configuration [NVIDIA](https://nvidia.custhelp.com/app/answers/detail/a\_id/2615/\~/how-do-i-customize-optimus-profiles-and-settings%3F) ou [AMD](https://www.amd.com/fr/support/kb/faq/dh-017) pour configurer les applications suivantes de manière à utiliser votre carte graphique distincte :
 * Si vous utilisez un paramètre régional autre que l’anglais, vous devrez peut-être définir les paramètres régionaux de Windows 10 sur anglais pour éviter les problèmes avec certains nœuds Dynamo :
    * Dans le menu Démarrer, recherchez « langue » et sélectionnez « Paramètres de langue ».
-   * Dans la partie supérieure droite de la boîte de dialogue Langue, cliquez sur « Paramètres de langue d’administration »
-   * Cliquez sur le bouton « Modifier les paramètres régionaux du système »
+   * Dans la partie supérieure droite de la boîte de dialogue Langue, cliquez sur « Paramètres de langue d’administration ».
+   * Cliquez sur le bouton « Modifier les paramètres régionaux du système ».
    * Choisissez « Anglais (États-Unis) ».
 * Si vous rencontrez des problèmes de génération de résultats dans FormIt lorsque vous travaillez avec de petites géométries ou des nombres réduits, essayez de définir le paramètre de mise à l’échelle Dynamo sur « Petit » :
-   * Menu Dynamo > Préférences > Général > Mise à l’échelle de la géométrie >·Petit
+   * Menu Dynamo > Préférences > Général > Mise à l’échelle de la géométrie > Petit
 
 ![](../.gitbook/assets/dynamo\_geometryscaling.png)
 

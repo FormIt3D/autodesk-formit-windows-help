@@ -59,7 +59,7 @@ Si vous travaillez à la fois en amont et dans la conception détaillée, vous p
 
 ![Utilisation de l’option Modifier dans FormIt après la sélection d’un objet FormIt](../.gitbook/assets/revit-edit-in-formit-workflow.gif)
 
-* Utilisez le _**mode d’aperçu·de Revit**_ pour afficher un aperçu de la géométrie qui sera envoyée à Revit afin de vous assurer que vous partagez la conception à utiliser pour le développement détaillé.
+* Utilisez le _**mode d’aperçu de Revit**_ pour afficher un aperçu de la géométrie qui sera envoyée à Revit afin de vous assurer que vous partagez la conception à utiliser pour le développement détaillé.
 * Sélectionnez les éléments de votre choix dans vos conceptions et envoyez chaque conception vers Revit à l’aide du bouton _**Envoyer vers Revit**_ ou en enregistrant le modèle lié.&#x20;
 
 #### **Utilisation des outils**
@@ -71,7 +71,7 @@ Si vous travaillez à la fois en amont et dans la conception détaillée, vous p
 * Lorsque vous lancez Revit 2022.0 ou une version ultérieure, un nouveau bouton appelé **Esquisse 3D** est disponible dans l’onglet Volume et site. Le bouton est disponible uniquement dans les vues 3D ; il apparaît désactivé dans les vues 2D de Revit.
 * Vérifiez que vous êtes connecté à Revit avec vos informations d’identification Autodesk. Le bouton _**Esquisse 3D**_ peut vous inviter à vous reconnecter à votre compte Autodesk. Cela permet de vérifier que vous disposez des droits d’accès appropriés.
 * Si FormIt 2022.0 ou une version ultérieure n’est pas installé (ou si une version antérieure à FormIt 2022.0 est installée), FormIt ne se lance pas et vous êtes invité à télécharger la version correcte de FormIt.
-* Cliquez sur le bouton _**Esquisse 3D**_ pour lancer FormIt. Choisissez d’importer tous les objets visibles ou uniquement les objets sélectionnés dans FormIt. Il est utile de n’importer que les objets sélectionnés si le modèle Revit est volumineux et que la conception ne référencera qu’une partie du modèle Revit. En outre, utilisez une zone de coupe dans Revit pour isoler une zone intérieure du modèle Revit à importer dans FormIt.
+* Cliquez sur le bouton _**Esquisse 3D**_ pour lancer FormIt. Choisissez d’importer tous les objets visibles ou uniquement les objets sélectionnés dans FormIt. Il est utile de n’importer que les objets sélectionnés si le modèle Revit est volumineux et que la conception ne référence qu’une partie du modèle Revit. En outre, utilisez une zone de coupe dans Revit pour isoler une zone intérieure du modèle Revit à importer dans FormIt.
 
 ![](../.gitbook/assets/revit-objects.png)
 
@@ -83,9 +83,9 @@ Si vous travaillez à la fois en amont et dans la conception détaillée, vous p
 
 ![Colonne Envoyer vers Revit dans la palette des calques](../.gitbook/assets/revit-send-to-formit-layers-column.png)
 
-* Le _**mode d’aperçu·de Revit**_ vous permet, si vous le souhaitez, d’afficher un aperçu de la géométrie à envoyer vers Revit. Activez le mode d’aperçu de Revit à l’aide de la case à cocher située au bas de la palette des calques ou à côté du bouton Envoyer vers Revit.
+* Le _**mode d’aperçu de Revit**_ vous permet, si vous le souhaitez, d’afficher un aperçu de la géométrie à envoyer vers Revit. Activez le mode d’aperçu de Revit à l’aide de la case à cocher située au bas de la palette des calques ou à côté du bouton Envoyer vers Revit.
 
-![Mode d’aperçu·de Revit](../.gitbook/assets/revit-preview-mode.png)
+![Mode d’aperçu de Revit](../.gitbook/assets/revit-preview-mode.png)
 
 * Transférez la géométrie FormIt dans Revit à l’aide du bouton _**Envoyer vers Revit**_ de la barre d’outils de FormIt.
    * Vous êtes invité à enregistrer le fichier, qui lie le modèle à Revit.
@@ -126,7 +126,7 @@ Si vous travaillez à la fois en amont et dans la conception détaillée, vous p
 * Le point d’origine FormIt et le point de base Revit sont utilisés pour placer de manière fiable les objets FormIt importés.
 * La géométrie FormIt importée dans Revit est fournie avec tous les calques FormIt.
    * Les calques FormIt sont accessibles à partir de l’onglet Graphismes de visibilité > Catégories importées. L’utilisateur peut y afficher la liste des calques FormIt et les activer ou les désactiver à l’aide des cases à cocher.
-* Les outils « Par face » de Revit (également appelés outils Modeleur d’architecture) permettent de générer des éléments Revit à partir de la géométrie FormIt
+* Les outils « Par face » de Revit (également appelés outils Modeleur d’architecture) permettent de générer des éléments Revit à partir de la géométrie FormIt.
    * Pour ce faire, la géométrie FormIt doit d’abord être importée dans une famille de volumes ou un modèle générique, puis chargée dans l’environnement du projet.
 * La géométrie FormIt est importée comme une seule occurrence.
    * Pour importer un modèle FormIt en tant qu’importations distinctes, isolez des parties du modèle dans FormIt, puis importez chaque partie en tant que fichier .AXM distinct.

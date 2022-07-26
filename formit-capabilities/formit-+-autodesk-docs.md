@@ -23,7 +23,7 @@ Utilisez Bibliothèque de contenu de FormIt pour placer du contenu provenant d�
 
 ### **Autodesk Docs dans AEC Collection**
 
-* Autodesk Docs est inclus dans les abonnements à AEC Collection
+* Autodesk Docs est inclus dans les abonnements à AEC Collection.
 * Vous pouvez utiliser des services de stockage dans le cloud tiers, tels qu’iCloud, Dropbox, Box, etc. pour synchroniser vos fichiers dans un emplacement cloud.
 * Si vous disposez d’un abonnement à AEC Collection, vous pouvez commencer à enregistrer et à ouvrir des fichiers FormIt dans le cloud à l’aide d’Autodesk Docs, ainsi qu’en local. [Accédez à votre compte Autodesk Docs en cliquant ici](https://acc.autodesk.com/logon).
 

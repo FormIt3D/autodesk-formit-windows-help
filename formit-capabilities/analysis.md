@@ -53,7 +53,7 @@ L’abonnement **FormIt Pro** via la collection [AEC Collection](https://www.aut
 
 ### **Démarrage de l’analyse d’énergie** <a href="#starting-energy-analysis" id="starting-energy-analysis"></a>
 
-* Recherchez le bouton Analyse d’énergie·dans la barre d’outils
+* Recherchez le bouton Analyse d’énergie dans la barre d’outils
 
 ![](../.gitbook/assets/generate\_insight.png)
 
@@ -88,7 +88,7 @@ L’abonnement **FormIt Pro** via la collection [AEC Collection](https://www.aut
 
 ## Analyse d’ensoleillement
 
-L’abonnement **FormIt Pro** via la collection [AEC Collection](https://www.autodesk.fr/collections/architecture-engineering-construction/overview), vous permet de visualiser l’impact du soleil sur votre bâtiment :
+L’abonnement **FormIt Pro** via la collection [AEC Collection](https://www.autodesk.fr/collections/architecture-engineering-construction/overview) vous permet de visualiser l’impact du soleil sur votre bâtiment :
 
 * Spécifiez les faces pertinentes à analyser pour l’impact solaire.
 * Visualisez les résultats en quelques secondes dans la zone de dessin de l’application.
