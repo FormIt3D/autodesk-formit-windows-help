@@ -329,7 +329,7 @@ FormIt поддерживает три типа графиков Dynamo.
 Стандартные узлы ввода Dynamo отображаются на панели «Свойства» в FormIt, если они помечены флагом «Является вводом» в Dynamo.
 
 * Number Slider
-* Регулятор целых чисел
+* Integer Slider
 * Number
 * String
 * Boolean Toggle
