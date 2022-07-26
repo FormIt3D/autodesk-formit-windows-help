@@ -42,8 +42,8 @@ FormIt for Windows 直接連接至 Revit，方便在早期概念與詳細設計�
 
 * 只需按一下，即可將關聯式的幾何圖形從 Revit 推送至 FormIt。
 * 在 FormIt 中設計和塑型，並將您的設計在同一個工作階段傳回同一個 Revit 專案。
-* 在 Revit 中使用 _連結 CAD_ 工具參考 FormIt 模型，並繼續在 Revit 中進行視覺化和詳圖製作。
-* 從 Revit 使用 _「以 FormIt 編輯」_ 啟動 FormIt 連結。
+* 在 Revit 中使用_「連結 CAD」_工具參考 FormIt 模型，並繼續在 Revit 中進行視覺化和詳圖製作。
+* 從 Revit 使用_「以 FormIt 編輯」_啟動 FormIt 連結。
 
 ![](<../.gitbook/assets/revit to formit.png>)
 
@@ -84,13 +84,13 @@ FormIt for Windows 直接連接至 Revit，方便在早期概念與詳細設計�
 
 ![「圖層」選項板中的「傳送至 Revit」欄](../.gitbook/assets/revit-send-to-formit-layers-column.png)
 
-* 使用 _**Revit 預覽模式**_，您可以選擇預覽要傳送至 Revit 的幾何圖形。使用「圖層」選項板底部或「傳送至 Revit」按鈕旁邊的勾選方塊，啟用「Revit 預覽模式」。
+* 您可以使用 _**Revit 預覽模式**_選擇預覽要傳送至 Revit 的幾何圖形。使用「圖層」選項板底部或「傳送至 Revit」按鈕旁邊的勾選方塊，啟用「Revit 預覽模式」。
 
 ![Revit 預覽模式](../.gitbook/assets/revit-preview-mode.png)
 
 * 使用 FormIt 工具列上的 _**「傳送至 Revit」**_ 按鈕，將 FormIt 幾何圖形轉移到 Revit。
    * 這會提示您儲存檔案，這會將模型連結至 Revit。
-      * **注意：** 我們建議將檔案儲存在本端，因為儲存至 Autodesk Docs 會中斷 FormIt 與 Revit 之間的連接。請改用 [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/CHT/) 將模型共用至雲端。
+      * **注意：** 我們建議將檔案儲存在本機，因為儲存至 Autodesk Docs 會中斷 FormIt 與 Revit 之間的連接。請改用 [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/CHT/) 將模型共用至雲端。
    * 建立連結後，只要想將變更轉移到 Revit，您可以重新儲存模型，或按一下「傳送至 Revit」按鈕。
 
 ![](<../.gitbook/assets/send-to-revit (2).png>)
@@ -125,7 +125,7 @@ FormIt for Windows 直接連接至 Revit，方便在早期概念與詳細設計�
 * FormIt 中彎曲/刻面幾何圖形的隱藏邊會進入 Revit，並帶有隱藏邊。
    * 已知問題：剪影邊在 Revit 的「隱藏線」視圖中也會顯示為隱藏。
 * 為了可靠放置匯入的 FormIt 物件，會使用 FormIt 原點和 Revit 基準點。
-* 匯入至 Revit 的 FormIt 幾何圖形將隨所有 FormIt 圖層一起進入。
+* 匯入至 Revit 的 FormIt 幾何圖形將所有 FormIt 圖層一起匯入。
    * 您可以從「可見性圖形」>「匯入的品類」頁籤存取 FormIt 圖層。使用者在這裡將看到 FormIt 圖層的清單，可以使用勾選方塊將其開啟和關閉。
 * Revit 的「依面」工具 (也稱為建築專家工具) 可從 FormIt 幾何圖形產生 Revit 元素
    * 這需要先將 FormIt 幾何圖形匯入至「量體族群」或「一般模型」族群，然後載入到專案環境。
@@ -142,7 +142,7 @@ FormIt for Windows 直接連接至 Revit，方便在早期概念與詳細設計�
 
 #### **轉換 Revit 族群**<a href="#converting-revit-families" id="converting-revit-families"></a>
 
-* 使用 Revit「增益集」頁籤上的 _**「將 RFA 轉換為 FormIt」**_ 按鈕將 Revit 族群轉換為 FormIt 內容，在 FormIt 環境中可以更有效率重複使用既有的 Revit 內容。
+* 使用 Revit「增益集」頁籤上的_**「將 RFA 轉換為 FormIt」**_按鈕將 Revit 族群轉換為 FormIt 內容，在 FormIt 環境中可以更有效率地重複使用既有的 Revit 內容。
 * 指定 RFA 檔案的資料夾，這些檔案將轉換為 FormIt 檔案並輸出至您選擇的資料夾。
 * 這是一個重複使用您既有所有 Revit 內容的絕佳方式。只需將內容轉換為 FormIt，並將 FormIt 的內容資源庫指向包含轉換檔案的資料夾即可。然後，從「內容資源庫」選項板中，按一下縮圖預覽並放置在模型中。
 
@@ -171,7 +171,7 @@ FormIt + Revit 2022 和更高版本提供內建的 Synergy，無需額外下載�
 * FormIt 幾何圖形會以一個匯入例證匯入。FormIt 品類不再成為 Revit 品類。我們正努力在未來的更新中解決此問題。
    * FormIt 品類目前只能用於能源分析。
 * 您不必再將模型分成小塊 - 請嘗試一次傳送整個 FormIt 模型！
-* 若要將 FormIt 模型以獨立的匯入內容來匯入，請在 FormIt 中隔離模型的零件，並將每個零件匯入為獨立的 .AXM 檔案。
+* 若要將 FormIt 模型以獨立的匯入內容匯入，請在 FormIt 中隔離模型的零件，並將每個零件匯入為獨立的 .AXM 檔案。
 
 ![](../.gitbook/assets/revit-old-new.png)
 

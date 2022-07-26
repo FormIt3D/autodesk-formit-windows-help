@@ -6,7 +6,7 @@ description: Computational Design in FormIt
 
 ![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
-FormIt for Windows 內建了 Dynamo，可進行令人難以置信的運算設計工作流程。
+FormIt for Windows 內建 Dynamo，具有令人難以置信的設計工作流程運算能力。
 
 ## FormIt + Dynamo 的新增功能
 
@@ -92,13 +92,13 @@ FormIt 支援三種類型的 Dynamo 圖表：
    * Dynamo 將在背景中執行以處理變更，並在 FormIt 中傳回更新的幾何圖形。
    * 在 FormIt 2022 和更高版本中，第一次從「性質」面板執行會建立一個專用的 Dynamo 例證，讓後續的編輯更快速。
    * 您可以在 Dynamo 執行時繼續使用 FormIt。&#x20;
-* 請注意，當 Dynamo 圖表執行時，每個 SendToFormIt 群組內的所有幾何圖形都會被刪除並取代。
+* 請注意，執行 Dynamo 圖表時，每個 SendToFormIt 群組內的所有幾何圖形都會被刪除並取代。
 
 ### 資料圖表：將 FormIt 樓層傳送至 Excel
 
 在 FormIt 2023 和更高版本中，您可以使用 Dynamo 將 FormIt 樓層傳送至 Excel：&#x20;
 
-* 請[在這裡下載範例 Dynamo 圖表](https://formit-help.s3.amazonaws.com/Send+Levels+to+Excel.dyn)。
+* 點[此](https://formit-help.s3.amazonaws.com/Send+Levels+to+Excel.dyn)下載範例 Dynamo 圖表。
 * 將 Dynamo 選項板指向儲存 Dynamo 圖表的本端目錄。
 * 在縮圖上按一下右鍵，然後按一下 _「編輯內嵌的圖表」。_
 * 在某處建立一個空白 Excel 試算表。
@@ -110,7 +110,7 @@ FormIt 支援三種類型的 Dynamo 圖表：
 
 您會看到 Dynamo 輸入顯示在 Dynamo 選項板中，也會看到 Excel 開啟以顯示圖表中的結果。&#x20;
 
-對模型做變更時，您可以再按一下圖表縮圖或按一下 _「執行」_ 按鈕，以最新版本的 FormIt 草圖中的樓層資料更新試算表。
+對模型做變更時，您可以再按一下圖表縮圖或按一下_「執行」_按鈕，使用最新版 FormIt 草圖中的樓層資料更新試算表。
 
 ![](../.gitbook/assets/dynamo-send-levels-to-excel.gif)
 
@@ -120,7 +120,7 @@ FormIt 支援三種類型的 Dynamo 圖表：
 
 * 在 FormIt 2021 和更高版本中，按一下 Dynamo 面板中的「啟動 Dynamo」按鈕，將自動啟動一個與 FormIt 連接的工作階段。
    * 這會在 Dynamo 中開啟一個圖表樣板，並在 FormIt 中自動產生樣板幾何圖形。
-   * 產生的幾何圖形將顯示在新群組中，位於目前群組編輯環境的原點。啟動 Dynamo 之前，最好位於所需的群組環境中。&#x20;
+   * 產生的幾何圖形將顯示在新群組中，位於目前群組編輯環境的原點。最好先前往所需的群組環境，再啟動 Dynamo。&#x20;
    * 樣板包括 FormIt 節點和一些範例幾何圖形。調整滑棒會調整兩種應用程式中立方塊的大小。
    * 從這裡，您可以開啟不同的 Dynamo 圖表，或使用樣板中的這些基本元件建立一些新物件，然後使用 Dynamo 中的「另存新檔」將圖表儲存到新位置。
 
@@ -142,7 +142,7 @@ FormIt 支援三種類型的 Dynamo 圖表：
 * 確保一個或多個 [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 節點已連接到您要傳送至 FormIt 的幾何圖形。
 * FormIt 會在您調整圖表時即時顯示幾何圖形的更新。
 * 如果您在 Dynamo 中沒有儲存變更，FormIt 將撤回到 Dynamo 圖表上次儲存的版本。
-* 請注意，當 Dynamo 圖表執行時，每個 SendToFormIt 群組內的所有幾何圖形都會被刪除並取代。
+* 請注意，執行 Dynamo 圖表時，每個 SendToFormIt 群組內的所有幾何圖形都會被刪除並取代。
 
 ### **來源圖表**
 
@@ -317,8 +317,7 @@ _FormItLengthString_ 節點的每個例證都可以使用任何單位類型，�
 
 在 FormIt 2022.1.1 和更高版本中，於 Dynamo 中編輯圖表時，切換圖表為使用 FormItLengthString 節點 (在圖表中放置第一個節點)，或切換圖表為只使用原始數字 (移除最後一個 FormItLengthString)，會變更某些行為：
 
-* 編輯圖表時使用 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 節點時，如上所示在原始數字與 _FormItLengthString_ 節點之間切換，將需要為每個 _SelectFromFormItNode_ 重新選取幾何圖形，結果才會繼續在 FormIt 中正確調整比例。
-
+* 使用 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 節點編輯圖表時，如上所示在原始數字與_FormItLengthString_ 節點之間切換，將需要為每個 _SelectFromFormItNode_ 重新選取幾何圖形，結果才會繼續在 FormIt 中正確調整比例。
 * 在圖表中放置第一個 FormItLengthString 節點後，圖表中要當作尺寸的所有數字 (包括原始數字輸入) 是指公尺 (其實就是 Dynamo 的原生單位)。
    * [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 節點會考慮變更，並確保 FormIt 中產生的幾何圖形保持正確大小。
    * 相反地，從圖表中移除所有 FormItLengthString 節點將切換原始數字，以參考 FormIt 的單位設定 (舊式行為)。
