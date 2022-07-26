@@ -25,7 +25,7 @@ FormIt コンテンツ ライブラリを使用して、Autodesk Docs のコン�
 
 * Autodesk Docs は、AEC Collection のサブスクリプションに含まれています。
 * iCloud、Dropbox、Box などのサードパーティのクラウド ストレージ サービスを使用して、クラウド上の場所にファイルを同期できます。
-* AEC Collection のサブスクリプションをご購入のお客様は、Autodesk Docs を使用して、クラウド上で FormIt ファイルを開いたり、保存するなどの作業ができるようになります。また、ローカルでも同様の作業が可能です。[Autodesk Docs アカウントには、こちら](https://acc.autodesk.com/logon)からアクセスしできます。
+* AEC Collection のサブスクリプションをご購入のお客様は、Autodesk Docs を使用して、クラウド上で FormIt ファイルを開いたり、保存するなどの作業ができるようになります。また、ローカルでも同様の作業が可能です。[Autodesk Docs アカウントには、こちら](https://acc.autodesk.com/logon)からアクセスできます。
 
 ## Autodesk Desktop Connector
 

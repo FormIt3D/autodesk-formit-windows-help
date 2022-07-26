@@ -75,7 +75,7 @@ FormIt は、次の 3 種類の Dynamo グラフをサポートしています�
    * 組み込みのサンプルを使用したり、独自の Dynamo ファイルの[ライブラリをリンクする](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started)ことができます。
 * ジオメトリを FormIt に配置すると、Dynamo グラフのコピーが FormIt ファイルに埋め込まれます。
    * ジオメトリを生成するには、[SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) ノードをグラフ内の出力ジオメトリ ノードにアタッチする必要があります。
-* SendToFormIt ノードからのジオメトリがカーソル上で配置できるようになります。
+* SendToFormIt ノードからのジオメトリをカーソル上で配置できるようになります。
    * グラフに「入力」とマークされた [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) ノードがある場合、FormIt はまず選択を要求し(各選択ノードを縦に並べます)、選択に対して正しい位置にジオメトリを生成します。
 * 元の Dynamo ファイルのコピーが FormIt グループに組み込まれ、ソース グラフから独立するようになりました。
 * 配置時に、[プロパティ]パネルが自動的に切り替わり、使用可能なパラメータが表示されます。
@@ -100,7 +100,7 @@ FormIt 2023 以降では、Dynamo を使用して FormIt レベルを Excel に�
 
 * [サンプルの Dynamo グラフは、こちら](https://formit-help.s3.amazonaws.com/Send+Levels+to+Excel.dyn)からダウンロード可能です。
 * [Dynamo]パレットで、Dynamo グラフが保存されたローカル フォルダを指定します。
-* サムネイルを右クリックし、_[埋め込まれたグラフを編集]_
+* サムネイルを右クリックし、次のボタンをクリックします: _[埋め込まれたグラフを編集]_
 * 任意の場所に空の Excel スプレッドシートを作成します。
 * スプレッドシートの場所のフィールドを編集し、Excel スプレッドシートのパスを指定します。
 * [シート名]など、任意のフィールドを編集します。
@@ -176,7 +176,7 @@ Dynamo オブジェクトを FormIt に配置すると、その基礎となる�
 
 ![](../.gitbook/assets/dynamo\_controlcurve.gif)
 
-[FormIt の曲面とサーフェス切り子面の設定の詳細はこちらをご覧ください。](https://windows.help.formit.autodesk.com/v/japanese/tool-library/curve-+-surface-faceting)
+[FormIt の曲面とサーフェス切り子面の設定の詳細はこちら](https://windows.help.formit.autodesk.com/v/japanese/tool-library/curve-+-surface-faceting)をご覧ください。
 
 ## Dynamo で FormIt グループを使用する
 
@@ -185,7 +185,7 @@ FormIt グループの機能を活用して、Dynamo のジオメトリを効率
 ### **グループと SelectFromFormIt ノード**
 
 * [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) ノードのジオメトリを選択する場合、代わりにジオメトリを FormIt グループに保存してグループを選択すると便利です。
-   * これにより、選択した FormIt グループの内容を柔軟に変更し、グループを参照しているグラフを再実行するだけで、更新された結果を確認できます。
+   * これにより、選択した FormIt グループの内容を柔軟に変更し、そのグループを参照しているグラフを再実行するだけで、更新された結果を確認できます。
 * グループ化されていないジオメトリを選択した場合、そのジオメトリを変更すると、次にグラフを実行する際にジオメトリを再選択するよう求められることがあります。
 
 ### **グループ内のジオメトリを生成する**
@@ -243,7 +243,7 @@ FormIt と Dynamo の間でデータを送信する、最も高機能なノー�
 
 * FormItGroupOptions は FormIt 2022 の新しい(オプションの)ポートです。下の「**FormItGroupOptions ノード**」セクションで詳しく説明します。
 * FormIt 2021.3 以降では、複数の SendToFormIt ノードを使用して Dynamo の結果を整理し、FormIt グループとサブグループにまとめることができます。
-* [Dynamo と FormIt グループの連携についてはこちらをご覧ください。](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)
+* Dynamo と FormIt グループの連携については[こちら](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)をご覧ください。
 
 ![](<../.gitbook/assets/dynamo\_sendtoformitnodes (1).png>)
 
