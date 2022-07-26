@@ -16,7 +16,7 @@ FormIt for Windows verfügt über integrierte Dynamo-Funktionen, sodass Sie von 
 
 ### **Bemaßungseingaben und Vorschau der JS-API**
 
-[FormIt 2022.1](https://formit.autodesk.com/blog/post/introducing-formit-2022-1) bietet die Möglichkeit, [vertraute FormIt-Bemaßungen als Eingaben zu verwenden](https://formit.autodesk.com/page/formit-dynamo#dynamo-input-nodes), stellt [Optionen auf Objektebene](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-options-nodes) vor und bietet eine Vorschau für den Zugriff auf die [JavaScript-API](https://formit.autodesk.com/page/formit-dynamo#dynamo-js-api-nodes). Sie finden die Anwendung [hier](https://formit.autodesk.com/page/download).
+[FormIt 2022.1](https://formit.autodesk.com/blog/post/introducing-formit-2022-1) bietet die Möglichkeit, [vertraute FormIt-Bemaßungen als Eingaben zu verwenden](https://formit.autodesk.com/page/formit-dynamo#dynamo-input-nodes), führt [Optionen auf Objektebene](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-options-nodes) ein und bietet eine Vorschau für den Zugriff auf die [JavaScript-API](https://formit.autodesk.com/page/formit-dynamo#dynamo-js-api-nodes). Sie finden die Anwendung [hier](https://formit.autodesk.com/page/download).
 
 ### **Mehrere SendToFormIt-Blöcke**
 

@@ -13,7 +13,7 @@ FormIt for Windows stellt eine direkte Verbindung mit Revit her und ermöglicht 
 * Verknüpfen Sie ein FormIt-Modell (AXM-Format) mit Revit, indem Sie auf der Registerkarte Einfügen in Revit auf die Schaltfläche _**CAD verknüpfen**_ klicken.
 * Wählen Sie ein verknüpftes FormIt-Element in Revit aus, und verwenden Sie die neue Schaltfläche _**In FormIt bearbeiten**_, um es in FormIt zu öffnen und sofort zu bearbeiten.
 * Verwenden Sie die neue _**Spalte An Revit senden**_ in der Palette Layer, um zu steuern, welche Layer an Revit gesendet werden, wenn die FormIt-Skizze in Revit verknüpft wird.&#x20;
-* Zeigen Sie eine Vorschau der Geometrie an, die an Revit gesendet wird. Verwenden Sie dazu den neuen Modus _**Vorschau zum Senden an Revit**_, der unten in der Gruppe Layer und neben der Schaltfläche An Revit senden verfügbar ist.
+* Zeigen Sie eine Vorschau der Geometrie an, die an Revit gesendet wird. Verwenden Sie dazu den neuen Modus _**Vorschau zum Senden an Revit￼**_, der unten in der Gruppe Layer und neben der Schaltfläche An Revit senden verfügbar ist.
 * Silhouettenkanten werden jetzt für FormIt-Objekte in Revit gezeichnet.
 
 ### **Verbesserungen in FormIt 2022.1** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
@@ -129,7 +129,7 @@ Wenn Sie sowohl in frühen Entwurfsphasen als auch mit detaillierten Entwürfen 
 * Mit den Werkzeugen Nach Fläche in Revit (auch als Gebäudemodellierer-Werkzeuge bezeichnet) können Sie Revit-Elemente aus FormIt-Geometrie generieren.
    * Dazu muss die FormIt-Geometrie zunächst in eine Körperfamilie oder allgemeine Modellfamilie importiert und dann in die Projektumgebung geladen werden.
 * FormIt-Geometrie wird als eine Importinstanz importiert.
-   * Um ein FormIt-Modell als separater Import zu importieren, isolieren Sie Teile des Modells in FormIt und importieren jedes Teil als separate AXM-Datei.
+   * Um ein FormIt-Modell in separaten Importvorgängen zu importieren, isolieren Sie Teile des Modells in FormIt und importieren jedes Teil als separate AXM-Datei.
 * Weitere Informationen finden Sie in der [Revit-Dokumentation.](https://help.autodesk.com/view/RVT/2023/DEU/?guid=GUID-A5F4B6C1-94CD-4433-A4E2-6B39B4BA8E6D)
 
 #### **Arbeiten mit Revit-Ebenen und FormIt-Importen**
