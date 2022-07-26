@@ -157,7 +157,7 @@ Zarówno na wczesnym etapie, jak i na etapie projektowania szczegółowego możn
 
 Połączenie produktów FormIt + Revit 2022 i nowsze wersje zapewniają wbudowaną synergię bez konieczności pobierania dodatkowych składników.
 
-Wskutek tych zmian rozpoczyna się przejście dodatku. Dowiedz się, jak zmieniły się poprzednie procesy robocze.
+Wskutek tych zmian rozpoczyna się proces przejścia z dodatku. Dowiedz się, jak zmieniły się poprzednie procesy robocze.
 
 ### **Nowy sposób importowania plików AXM** <a href="#a-new-way-to-import-axm-files" id="a-new-way-to-import-axm-files"></a>
 

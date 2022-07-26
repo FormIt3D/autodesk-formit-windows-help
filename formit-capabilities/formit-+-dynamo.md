@@ -171,7 +171,7 @@ Wykresy źródłowe są wyświetlane w panelu Dynamo po [połączeniu katalogów
 
 ![](../.gitbook/assets/dynamo-formitgroupoptions-faceting.gif)
 
-* Ustawienia płaszczyzn można również globalnie ustawić w obszarze Edycja -> Preferencje -> Jednostki i dokładność
+* Ustawienia płaszczyzn można również globalnie skonfigurować w obszarze Edycja -> Preferencje -> Jednostki i dokładność
 * Po dopasowaniu jakości płaszczyzn w obszarze Preferencje ponownie uruchom wykres, aby użyć nowych globalnych ustawień płaszczyzn.
 
 ![](../.gitbook/assets/dynamo\_controlcurve.gif)
