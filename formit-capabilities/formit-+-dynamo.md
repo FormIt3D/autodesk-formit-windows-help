@@ -10,7 +10,7 @@ FormIt for Windows 内置有 Dynamo，可用于实现令人难以置信的计算
 
 ## FormIt + Dynamo 的新特性
 
-### **数据图形、发送标高到 Excel 和镶嵌面控件**
+### **数据图形、发送标高到 Excel 和镶嵌面控制**
 
 [FormIt 2023](https://formit.autodesk.com/blog/post/introducing-formit-2023/) 支持在[不使用 SendToFormIt 节点](formit-+-dynamo.md#graph-types)的情况下运行 Dynamo 图形、添加了[发送 FormIt 标高到 Excel](formit-+-dynamo.md#send-formit-levels-to-excel) 的功能并添加了[通过新的 FormItGroupOptions 节点对曲线和曲面镶嵌面](../tool-library/curve-+-surface-faceting.md)的控制。
 
@@ -217,7 +217,7 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 * 当建筑形状更改时，只需选择竖梃系统组，然后在“特性”面板中单击“运行”。
    * 尽管玻璃制品组的内容已更改，但组本身未更改，因此在重新运行图形时无需重新选择玻璃制品。
-* 在 FormIt 2022 及更高版本中，上述模型可作为 **“Dynamo 样例”** 的 **“建筑体量”** 子文件夹中的“屋顶平面建筑”。
+* FormIt 2022 及更高版本中提供上述模型，位置为**“Dynamo 样例”**的**“建筑体量”**子文件夹中的“Roof Planes Building”。
 * 可以将 Dynamo 与 FormIt 的丰富功能结合使用，以在强大的概念建模器的丰富上下文中创建和调整完全参数化的设计（使用材质和嵌套逻辑完成）：
 
 ![](../.gitbook/assets/dynamo\_parametricdesigngif.gif)
@@ -328,10 +328,10 @@ _FormItLengthString_ 节点的每个实例都可用于任何单位类型，因�
 
 标准 Dynamo 输入节点在 Dynamo 中标记为“是输入”后，它们会显示在 FormIt 的“特性”面板中：
 
-* 数字滑块
-* 整数滑块
-* 编号
-* 字符串
+* Number Slider
+* Integer Slider
+* Number
+* String
 * Boolean Toggle
 
 可以重命名输入节点（为清楚起见建议重命名），其新名称会显示在 FormIt 中：

@@ -19,7 +19,7 @@
 
 使用 FormIt 内容库将 Autodesk Docs 中的内容放置在 FormIt Web 和 Windows 上。
 
-![内容库](../.gitbook/assets/autodeskdocs\_contentlibrary.png)
+![工具集库](../.gitbook/assets/autodeskdocs\_contentlibrary.png)
 
 ### **工程建设软件集中的 Autodesk Docs**
 
