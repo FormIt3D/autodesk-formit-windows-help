@@ -59,7 +59,7 @@ Si trabaja tanto en las primeras fases como en el diseño detallado, puede repet
 
 ![Uso de Editar en FormIt después de seleccionar un objeto de FormIt](../.gitbook/assets/revit-edit-in-formit-workflow.gif)
 
-* Utilice el _**modo de vista previa de Revit**_ para obtener una vista preliminar de la geometría que se enviará a Revit y asegurarse de que va a compartir el diseño adecuado para el desarrollo detallado.
+* Utilice el _modo de vista previa de Revit****_ para obtener una vista preliminar de la geometría que se enviará a Revit y asegurarse de que va a compartir el diseño adecuado para el desarrollo detallado.
 * Seleccione los elementos que desee en los diseños y envíe cada uno de los diseños a Revit mediante el botón _**Enviar a Revit**_ o guardando el modelo vinculado.&#x20;
 
 #### **Uso de las herramientas**

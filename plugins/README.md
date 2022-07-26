@@ -1,4 +1,4 @@
-# Módulos
+# Módulos de extensión
 
 ![](../.gitbook/assets/gg1.gif)
 
