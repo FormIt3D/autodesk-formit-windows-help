@@ -48,7 +48,7 @@ If you're working in both early stage and detailed design, you can quickly itera
 
 ### **3D Sketch, Edit in FormIt, and Send to Revit for Design Iteration** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 
-#### **Suggested Workflows**
+### **Suggested Workflows**
 
 * Define an interior portion of the Revit model using a Section Box, then click the _**3D Sketch**_ button to open FormIt and explore interior layouts or bespoke design features. Send the new design to Revit with one click.
 * Start with an urban context already modeled in Revit and click the _**3D Sketch**_ button to bring the surrounding context into FormIt as snappable references. Send the new design to Revit with one click.
@@ -62,27 +62,39 @@ If you're working in both early stage and detailed design, you can quickly itera
 * Use the _**Revit Preview mode**_ to preview the geometry that will be sent to Revit to make sure you are sharing the right design to be used for detailed development.
 * Select the elements you want from your designs and send each design to Revit using the _**Send to Revit**_ button or saving the linked model.&#x20;
 
-#### **Using the Tools**
+### **Using the Tools**
 
 * The _**3D Sketch**_ button, _**Edit in FormIt**_ button, and _**Send to Revit**_ workflow is available to subscribers of the Autodesk Architecture, Engineering, & Construction (AEC) Collection and to customers with specific types of access. It is not available through Revit LT. [Learn more about the AEC Collection here.](https://www.autodesk.com/collections/architecture-engineering-construction/overview)
+
+### The 3D Sketch Button
 
 ![Launch a new instance with 3D sketch, and save and create a Revit link with Send to FormIt](../.gitbook/assets/revit-3d-sketch-send-to-revit.png)
 
 * When you launch Revit 2022.0 or a later version, there is a new button on the Massing & Site tab called **3D Sketch**. The button is available from 3D views only; it will appear disabled in 2D views in Revit.
 * Ensure that you are signed in to Revit with your Autodesk credentials. Launching the _**3D Sketch**_ button may prompt you to sign into your Autodesk account again. This is to check that you have the correct entitlements.
 * If FormIt 2022.0 or a later version is not installed (or there is a pre-2022.0 FormIt version installed), FormIt will not launch and you will be prompted to download the correct version of FormIt.
+
+#### The 3D Sketch "Open FormIt" dialog
+
 * Click on the _**3D Sketch**_ button to launch FormIt. Choose between bringing all visible objects or just selected objects into FormIt.&#x20;
   * Choosing to bring only selected objects is helpful if the Revit model is large and the design will reference only a portion of the Revit model.&#x20;
   * Additionally, use a Section Box in Revit to isolate an interior area of the Revit model to bring into FormIt.
 
 ![](../.gitbook/assets/revit-objects.png)
 
-* How levels behave when launching FormIt:
-  * If "all visible Revit objects" is selected, any visible Revit levels will become FormIt levels, which can be [viewed in the Levels palette](../tool-library/levels-and-area.md#creating-and-configuring-levels) or [applied to objects via the Properties palette](../tool-library/levels-and-area.md#applying-levels).
-  * if "selected Revit objects" is selected, only selected levels will become FormIt levels.
+#### 3D Sketch and levels
+
+* If "all visible Revit objects" is selected, any visible Revit levels will become FormIt levels, which can be [viewed in the Levels palette](../tool-library/levels-and-area.md#creating-and-configuring-levels) or [applied to objects via the Properties palette](../tool-library/levels-and-area.md#applying-levels).
+* if "selected Revit objects" is selected, only selected levels will become FormIt levels.
+
+#### After FormIt launches
+
 * When FormIt launches, the included Revit geometry will display on its own layer in FormIt. The layer is called “Revit Context” and is locked by default.
 * Model in FormIt by adding forms or applying materials, content, and more.
-* Apply levels to FormIt objects from the Levels palette.
+* Apply levels to FormIt objects from the [Levels palette](../tool-library/levels-and-area.md#applying-levels).
+
+### The Send to Revit Workflow
+
 * Use the _**Send to Revit column**_ in the Layers palette to include or exclude geometry to be sent to Revit.
 
 ![Send to Revit column in the Layers palette](../.gitbook/assets/revit-send-to-formit-layers-column.png)
@@ -98,10 +110,18 @@ If you're working in both early stage and detailed design, you can quickly itera
 
 ![](<../.gitbook/assets/send-to-revit (2).png>)
 
-* FormIt levels, layers, and materials will transfer to Revit along with the geometry.
+* FormIt layers and materials will transfer to Revit along with the geometry.
   * You can view the FormIt materials in Revit's Materials dialog box by filtering the list by “FormIt.”
   * You can find FormIt layers in a Revit view through the import tab of Visibility Graphics. This is a great way to show different FormIt design options in Revit.
-* When you launch Revit 2023.0 or a later version and select a FormIt object, you can use the _**Edit in FormIt**_ button to launch the model in FormIt.
+  * In order to send levels to Revit, you'll need to import the AXM via the Import CAD dialog, and check "Import levels" at the bottom.
+
+### The Edit in FormIt Button
+
+* After linking a FormIt model in Revit, or after creating a new FormIt model using _**3D Sketch**_ and saving the model, the FormIt element is saved to Revit and can be edited again later.
+* Select a FormIt element in Revit, then click the _**Edit in FormIt**_ button in the Modify tab to launch the model in FormIt.
+
+![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
+
 * See the FormIt Primer for a [FormIt-Revit workflow tutorial.](../formit-primer/part-ii/2.8-advanced-revit-workflows.md)
 
 ### **Importing and Linking FormIt Models: Design Collaboration between FormIt and Revit** <a href="#importing-formit-models-design-collaboration-between-formit-and-revit" id="importing-formit-models-design-collaboration-between-formit-and-revit"></a>
