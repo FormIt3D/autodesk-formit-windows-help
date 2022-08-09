@@ -71,11 +71,15 @@ If you're working in both early stage and detailed design, you can quickly itera
 * When you launch Revit 2022.0 or a later version, there is a new button on the Massing & Site tab called **3D Sketch**. The button is available from 3D views only; it will appear disabled in 2D views in Revit.
 * Ensure that you are signed in to Revit with your Autodesk credentials. Launching the _**3D Sketch**_ button may prompt you to sign into your Autodesk account again. This is to check that you have the correct entitlements.
 * If FormIt 2022.0 or a later version is not installed (or there is a pre-2022.0 FormIt version installed), FormIt will not launch and you will be prompted to download the correct version of FormIt.
-* Click on the _**3D Sketch**_ button to launch FormIt. Choose to bring all visible objects or just selected objects into FormIt. Choosing to bring only selected objects is helpful if the Revit model is large and the design will reference only a portion of the Revit model. Additionally, use a Section Box in Revit to isolate an interior area of the Revit model to bring into FormIt.
+* Click on the _**3D Sketch**_ button to launch FormIt. Choose between bringing all visible objects or just selected objects into FormIt.&#x20;
+  * Choosing to bring only selected objects is helpful if the Revit model is large and the design will reference only a portion of the Revit model.&#x20;
+  * Additionally, use a Section Box in Revit to isolate an interior area of the Revit model to bring into FormIt.
 
 ![](../.gitbook/assets/revit-objects.png)
 
-* If you select levels in Revit, FormIt will receive those. Otherwise, FormIt will receive all visible levels in Revit.
+* How levels behave when launching FormIt:
+  * If "all visible Revit objects" is selected, any visible Revit levels will become FormIt levels, [accessible via the Levels palette](../tool-library/levels-and-area.md#applying-levels).
+  * if "selected Revit objects" is selected, only selected levels will become FormIt levels.
 * When FormIt launches, the included Revit geometry will display on its own layer in FormIt. The layer is called “Revit Context” and is locked by default.
 * Model in FormIt by adding forms or applying materials, content, and more.
 * Apply levels to FormIt objects from the Levels palette.
