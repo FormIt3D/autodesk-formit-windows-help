@@ -78,7 +78,7 @@ If you're working in both early stage and detailed design, you can quickly itera
 ![](../.gitbook/assets/revit-objects.png)
 
 * How levels behave when launching FormIt:
-  * If "all visible Revit objects" is selected, any visible Revit levels will become FormIt levels, [accessible via the Levels palette](../tool-library/levels-and-area.md#applying-levels).
+  * If "all visible Revit objects" is selected, any visible Revit levels will become FormIt levels, which can be [viewed in the Levels palette](../tool-library/levels-and-area.md#creating-and-configuring-levels) or [applied to objects via the Properties palette](../tool-library/levels-and-area.md#applying-levels).
   * if "selected Revit objects" is selected, only selected levels will become FormIt levels.
 * When FormIt launches, the included Revit geometry will display on its own layer in FormIt. The layer is called “Revit Context” and is locked by default.
 * Model in FormIt by adding forms or applying materials, content, and more.
