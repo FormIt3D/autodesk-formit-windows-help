@@ -4,13 +4,11 @@
 
 ## What is it?
 
-3D Context Creator is a very easy-to-use plugin that will help you quickly generate 3d context inside FormIt. This plugin can help you:
+3D Context Creator is an easy-to-use plugin that will generate 3D context buildings inside FormIt.&#x20;
 
-* Visualize your project site with its surrounding context
-* Make informed decisions especially in the early stage of the design process.
-* Is free for all users of FormIt to download.&#x20;
+This plugin can help you visualize your project site with its surrounding context and make informed decisions in the early stage of the design process.
 
-This plugin retrieves data from [Open Street Map](https://www.openstreetmap.org/about) to help transform it into FormIt geometries. The source code for this plugin is available on [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+This plugin retrieves data from [Open Street Map](https://www.openstreetmap.org/about) to help transform it into FormIt geometries. The source code for this plugin is available on [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).
 
 ## How to use it
 
