@@ -1,6 +1,6 @@
 # 3D Context Creator
 
-![](../../.gitbook/assets/contextcreator1.gif)
+![](<../../.gitbook/assets/3D Context Creator\_new.gif>)
 
 ## What is it?
 
@@ -12,31 +12,33 @@ This plugin retrieves data from [Open Street Map](https://www.openstreetmap.org/
 
 ## How to use it
 
-To install it, simply turn on the plugin’s toggle, as you would with any other plugin.
+To install it, simply enable on the plugin’s toggle from the Plugin manager as you would with any other plugin.
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
 Once toggled on, the plugin should appear on the right side of the app and be ready to use.
 
-![](../../.gitbook/assets/formitUI.PNG)
+![](<../../.gitbook/assets/3D Context Creator new\_no location (1).png>)
 
-Before using the plugin, begin by setting your site location from the main FormIt toolbar.
+If your site doesn't already have a location, you can click the **Set Location...** link to set a location and define the boundary that will be used for generating 3D context.
 
-![](<../../.gitbook/assets/image (76).png>)
+Once you've set your location, the 3D Context Creator will update with the current location and the button will be enabled:
 
-Search for your site location, and then click Import Satellite Image and Terrain.
+![](<../../.gitbook/assets/3D Context Creator new\_with location.png>)
 
-![](<../../.gitbook/assets/image (77).png>)
+The 3D Context Creator will simply use the extents of the satellite image to generate 3D Context. All you have to do is click **Generate 3D Context**!
 
-Once the satellite image has been successfully imported into your FormIt project, navigate to the 3D Context Creator plugin.
+Depending on the extents of the satellite image, and the complexity of the buildings, this could take a few seconds to generate.
 
-Adjust the square radius slider to expand the distance (in meters) of the context from the location point.
+The 3D context buildings will automatically be placed into a group instance, and placed on a layer called "Context Buildings." You can toggle the visibility of the context using this layer.
 
-![](../../.gitbook/assets/contextcreator7.png)
+![](<../../.gitbook/assets/3D Context Creator\_layers.png>)
 
-Click on the Create button. And that is it!
+![](<../../.gitbook/assets/3D Context Creator\_NYC.png>)
 
-Once you are happy with the settings, click the Create button. Depending on the size and complexity of the given radius, it may take a few moments to process the building forms.
+If you later decide to change your location, or adjust the scope of the satellite image, you can click **Generate 3D Context** again to regenerate the buildings.&#x20;
+
+_Note that regenerating the context will replace the group instance containing the buildings with a new instance, so any changes made to the buildings will be lost._ To prevent this, you can ungroup the context container, then regroup it.
 
 ## **Some examples**
 
