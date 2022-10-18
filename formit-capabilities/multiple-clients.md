@@ -4,4 +4,4 @@
 
 Помимо версий для [Windows](https://formit.autodesk.com/download) и [веб-браузера](https://formit.autodesk.com/app) также доступна версия FormIt для работы на Apple iPad с поддержкой Apple Pencil и удобным сенсорным интерфейсом. В сочетании с другими мощными мобильными приложениями, такими как Autodesk Sketchbook Pro, FormIt позволяет создавать целые презентации буквально на ходу.
 
-![FormIt on Apple iPad](<../.gitbook/assets/ipad scenes (1).png>)
+\![FormIt на Apple iPad](<../.gitbook/assets/ipad scenes (1).png>)
