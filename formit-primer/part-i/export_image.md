@@ -12,10 +12,10 @@ _Chociaż nie jest to wymagane do ukończenia tego rozdziału, jeśli nie zosta�
 4. Kliknij opcję **Eksportuj**, a zostanie wyświetlone okno **Określ plik do zapisania**.
 5. W nowym oknie wybierz położenie i nazwę do zapisania obrazu, a następnie kliknij przycisk **Zapisz**.
 
-![](<../../.gitbook/assets/0 (5).png>)
+\![](<../../.gitbook/assets/0 (5).png>)
 
 2 — Jeśli chcesz porównać wyniki z dostarczonym obrazem eksportu, przejdź do folderu **Farnsworth House Data Set > Supporting Files > Images**.
 
-![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
+\![Dostarczony przykładowy obraz eksportu z zestawu danych Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
 
-\_\_
+__
