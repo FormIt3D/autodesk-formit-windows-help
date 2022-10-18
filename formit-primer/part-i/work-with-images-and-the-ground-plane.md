@@ -2,31 +2,31 @@
 
 _Pour importer des images PNG ou JPG sur le plan du sol du modèle, sélectionnez Fichier > Importer dans la barre de navigation. Toutefois, pour mieux contrôler l’échelle et la position d’une image importée, vous pouvez créer un matériau personnalisé et l’appliquer à un rectangle que vous avez dessiné vous-même._
 
-_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le fichier_ _**1.2 – Project Set Up with Images and Grid.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
+_Si vous n’avez pas terminé la dernière section, téléchargez et ouvrez le_ fichier _**1.2 – Project Set Up with Images and Grid.axm**_ _à partir du dossier_ _**Jeux de données Partie I FormIt Primer**._
 
 ## **Calcul de la taille de l’image**
 
-Le fichier **plan.png** fourni est l’image d’un plan imprimé sur une feuille de 24 po x 26 po (ARCH D) dont la résolution est de 3 600 pixels de large sur 2 400 pixels de haut. Grâce à l’échelle du dessin (¼ po = 1 pi-0 po) et aux dimensions de l’image, vous pouvez calculer que 1 pi = 25 pixels, ce qui signifie que l’image doit être de 144 pi x 96 pi lorsqu’elle est importée dans FormIt à pleine échelle.
+Le fichier **plan.png** fourni est l’image d’un plan imprimé sur une feuille de 24 po x 26 po (ARCH D) dont la résolution est de 3600 pixels de large sur 2400 pixels de haut. Grâce à l’échelle du dessin (¼ po = 1 pi-0 po) et aux dimensions de l’image, vous pouvez calculer que 1 pi = 25 pixels, ce qui signifie que l’image doit être de 144 pi x 96 pi lorsqu’elle est importée dans FormIt à pleine échelle.
 
-![](<../../.gitbook/assets/0 (1) (2).png>)
+\![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **Importation d’une image à l’échelle**
 
 1 – Cliquez sur l’icône **Vue de dessus** dans la **barre de navigation flottante** pour visualiser la scène du dessus.
 
-![](<../../.gitbook/assets/1 (1).png>)
+\![](<../../.gitbook/assets/1 (1).png>)
 
 2 – Choisissez l’**outil Rectangle (R)** dans la barre d’outils Esquisse 3D.
 
-![](<../../.gitbook/assets/2 (1).png>)
+\![](<../../.gitbook/assets/2 (1).png>)
 
 3 – Pour créer un rectangle ayant les dimensions exactes de **144’** x **96’**, cliquez n’importe où dans l’espace de travail pour définir le point de départ, puis déplacez la souris pour afficher un aperçu et définir la première longueur de côté. Commencez à saisir une valeur de cote pour accéder à une boîte de dialogue dans laquelle vous pouvez entrer la cote exacte. Cliquez sur **OK** ou appuyez sur la touche **Entrée** pour valider la cote. Répétez la procédure pour définir la longueur du deuxième côté et terminer le rectangle.
 
-![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+\![Entrez la longueur du premier côté du rectangle.](<./../.gitbook/assets/3 (1).png>)
 
-![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+\![Entrez la longueur du deuxième côté du rectangle.](<./../.gitbook/assets/4 (1).png>)
 
-![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+\![Terminez le rectangle.](<../../.gitbook/assets/5 (1).png>)
 
 4 – Pour créer le matériau « Plan d’étage » procédez comme suit :
 
