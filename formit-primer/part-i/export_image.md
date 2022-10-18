@@ -2,7 +2,7 @@
 
 _V této kapitole budeme exportovat obrázek perspektivní scény řezu ve vysokém rozlišení, který jsme vytvořili v několika posledních kapitolách._
 
-_Ačkoli to není k dokončení této kapitoly nutné, pokud jste až do tohoto okamžiku neprováděli celý výukový program a chtěli byste exportovat obrázky podobné těm, které jsou zobrazeny níže, stáhněte si a otevřete soubor_ _**1.14 – Export Image.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, Část 1**._
+_Ačkoli to není k dokončení této kapitoly nutné, pokud jste až do tohoto okamžiku neprováděli celý výukový program a chtěli byste exportovat obrázky podobné těm, které jsou zobrazeny níže, stáhněte si a otevřete soubor_ _**1.14 – Export Image.axm**_ _z_ _**datových sad k příručce Základy aplikace FormIt, část 1**._
 
 1 – Při exportu obrázku bude vše, co je zobrazeno na kreslicí ploše, exportováno téměř přesně tak, jak je vidět v aplikaci FormIt. V tomto příkladu chceme exportovat obrázek scény **řezu**.
 
@@ -12,10 +12,10 @@ _Ačkoli to není k dokončení této kapitoly nutné, pokud jste až do tohoto
 4. Klikněte na tlačítko **Exportovat**. Zobrazí se okno **Určit soubor k uložení**.
 5. V zobrazeném okně přejděte do požadovaného umístění a vyberte název, pod kterým chcete obrázek uložit. Poté klikněte na tlačítko **Uložit**.
 
-![](<../../.gitbook/assets/0 (5).png>)
+\![](<../../.gitbook/assets/0 (5).png>)
 
 2 – Pokud chcete porovnat své výsledky s dodaným obrázkem k exportu, přejděte do složky **Farnsworth House Data Set > Supporting Files > Images**.
 
-![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
+\![Dodaný vzorový obrázek k exportu z datové sady Farnsworth House.](<../../.gitbook/assets/1 (16).png>)
 
-\_\_
+__
