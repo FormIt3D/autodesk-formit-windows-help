@@ -8,31 +8,31 @@ _Se você não tiver concluído a última seção, faça o download e abra o arq
 
 O arquivo **plan.png** fornecido é uma imagem de uma planta impressa em uma folha de 24" x 26" (ARCO D), que tem 3600 pixels de largura por 2400 pixels de altura. Conhecendo a escala de desenho (¼"=1'-0") e as cotas da imagem, é possível calcular que 1’ = 25 pixels, o que significa que a imagem deve ser 144'x96' quando importada para o FormIt em escala completa.
 
-![](<../../.gitbook/assets/0 (1) (2).png>)
+\![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **Importar uma imagem para escala**
 
 1 – Clique no ícone **Vista superior** na **Barra de navegação flutuante** para ver a cena de cima.
 
-![](<../../.gitbook/assets/1 (1).png>)
+\![](<../../.gitbook/assets/1 (1).png>)
 
 2 – Selecione a **ferramenta Retângulo (R)** na barra de ferramentas de esboço 3D.
 
-![](<../../.gitbook/assets/2 (1).png>)
+\![](<../../.gitbook/assets/2 (1).png>)
 
 3 – Para criar um retângulo que seja exatamente **144’** x **96’**, clique em qualquer lugar no espaço de trabalho para definir o ponto inicial e, em seguida, mova o mouse para visualizar e definir o comprimento do primeiro lado. Comece a digitar um valor de cota para acessar uma caixa de diálogo na qual é possível inserir a cota exata. Clique em **OK** ou pressione a tecla **Enter** para confirmar a cota. Repita o processo para definir o comprimento do segundo lado e concluir o retângulo.
 
-![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+\![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
 
-![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+\![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
 
-![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+\![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
 
 4 – Para criar o novo material de “Planta de piso”:
 
 1. Abra a **paleta Materiais**.
 2. Clique no ícone **+** para criar um novo material.
-3. Nomeie o novo material “**Planta de piso”.**
+3. Nomeie o novo material “**Planta de piso”**.
 4. Em **MAPAS**, clique na miniatura de visualização **Textura** e navegue para **plan.png** na pasta **Conjunto de dados da Residência Farnsworth > Arquivos de suporte > Imagens**. Em seguida, clique em **Abrir**.
 5. Em **PROPRIEDADES**, altere a escala da imagem inserindo **144'** no campo **Escala horizontal** e **96'** no campo **Escala vertical**. Observe que desbloquear as escalas horizontal e vertical (ícone **elo de corrente**) pode ser necessário para inserir valores que alteram as proporções da imagem.
 6. Marque **Transparência** e defina-a em torno da metade. Isso ajudará a alinhar a imagem da planta de piso importada com a imagem de satélite.
