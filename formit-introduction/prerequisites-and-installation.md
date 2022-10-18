@@ -6,18 +6,18 @@
 * 使用您的 Autodesk 帳戶登入，或[在此處建立免費的 Autodesk 帳戶](https://accounts.autodesk.com)。
 * Revit 2017 和更高版本隨附適用於 Revit 的 FormIt 增益集。您也可以[從我們的網站](https://formit.autodesk.com/page/formit-revit)下載並手動安裝增益集。
 
-FormIt 的應用程式層級設定位於 Computer\HKEY\_CURRENT\_USER\SOFTWARE\Autodesk\FormIt 360\\
+FormIt 的應用程式層級設定位於 Computer\\HKEY_CURRENT_USER\\SOFTWARE\\Autodesk\\FormIt 360\\
 
 ## 建議的系統規劃
 
-| 需求 | 詳細資料 |
+| 需求                    | 詳細資料                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **作業系統** | <p>Microsoft® Windows® 8、8.1、10 或 11。</p><p><em>注意：Parallels Desktop 因 OpenGL 驅動程式效能降低和圖形問題而未正式受到支援。</em></p> |
-| **CPU** | <p>Intel® Pentium®、Xeon® 或 i-Series 處理器或採用 SSE2 技術的 AMD® 同等級產品。</p><p>建議最大負荷的 CPU 速度額定值。</p> |
-| **記憶體** | 最少 4 GB RAM，建議 8 GB 或更高。 |
-| **顯示卡 (GPU)** | <p>需要支援 OpenGL 3.3 的 NVIDIA 或 AMD 獨立顯示卡。強烈建議使用 OpenGL 4.2 支援。</p><p>對於具有可切換顯示卡的系統，請遵循製造商指示，以確保 FormIt 永遠使用專用的 GPU 以獲得最佳效能。請參閱 <a href="https://www.amd.com/en/support/kb/faq/dh-017">AMD</a> 和 <a href="http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1">NVIDIA</a> 的說明。</p><p>為取得最佳效能和可靠性，請確保您的顯示卡驅動程式是來自製造商網站或 Windows Update 的最新版本。</p><p>如果由於驅動程式過期或其他問題而無法使用顯示卡，FormIt 將在啟動時顯示一則消息。如果更新驅動程式後 FormIt 無法啟動，請<a href="https://forums.autodesk.com/t5/formit-forum/bd-p/142">在論壇與我們聯絡</a>。</p> |
-| **磁碟空間** | 1 GB 可用磁碟空間。 |
-| **連線和授權** | <p>首次啟動 FormIt 時，需要網際網路連線，才能登入您的 Autodesk 帳戶。</p><p>啟動 FormIt 時，也需要網際網路連線才能載入外掛程式。如果啟動時未偵測到網際網路連線，應用程式會在沒有外掛程式的狀態下啟動。</p><p>您需要擁有 FormIt Pro 雲端固定期限使用授權的 Autodesk 帳戶，才能在 Windows 上執行 FormIt Pro。FormIt Pro 包含在 <a href="https://www.autodesk.com/collections/architecture-engineering-construction/overview"><strong>Autodesk 工程建設軟體集</strong></a>中。</p> |
+| **作業系統**           | <p>Microsoft® Windows® 8、8.1、10 或 11。</p><p><em>注意：Parallels Desktop 因 OpenGL 驅動程式效能降低和圖形問題而未正式受到支援。</em></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **CPU**                        | <p>Intel® Pentium®、Xeon® 或 i-Series 處理器或採用 SSE2 技術的 AMD® 同等級產品。</p><p>建議最大負荷的 CPU 速度額定值。</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **記憶體**                     | 最少 4 GB RAM，建議 8 GB 或更高。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **顯示卡 (GPU)**           | <p>需要支援 OpenGL 3.3 的 NVIDIA 或 AMD 獨立顯示卡。強烈建議使用 OpenGL 4.2 支援。</p><p>對於具有可切換顯示卡的系統，請遵循製造商指示，以確保 FormIt 永遠使用專用的 GPU 以獲得最佳效能。請參閱 <a href="https://www.amd.com/en/support/kb/faq/dh-017">AMD</a> 和 <a href="http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1">NVIDIA</a> 的指示。</p><p>為取得最佳效能和可靠性，請確保您的顯示卡驅動程式是來自製造商網站或 Windows Update 的最新版本。</p><p>如果由於驅動程式過期或其他問題而無法使用顯示卡，FormIt 將在啟動時顯示一則消息。如果更新驅動程式後 FormIt 無法啟動，請<a href="https://forums.autodesk.com/t5/formit-forum/bd-p/142">在論壇與我們聯絡</a>。</p> |
+| **磁碟空間**                 | 1 GB 可用磁碟空間。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **連線和授權** | <p>首次啟動 FormIt 時，需要網際網路連線，才能登入您的 Autodesk 帳戶。</p><p>啟動 FormIt 時，也需要網際網路連線才能載入外掛程式。如果啟動時未偵測到網際網路連線，應用程式會在沒有外掛程式的狀態下啟動。</p><p>您需要擁有 FormIt Pro 雲端固定期限使用授權的 Autodesk 帳戶，才能在 Windows 上執行 FormIt Pro。FormIt Pro 是 <a href="https://www.autodesk.com/collections/architecture-engineering-construction/overview"><strong>Autodesk 工程建設軟體集</strong></a>的一部分。</p>                                                                                                                                                                                                                                                                                                   |
 
 ## 離線存取
 
@@ -26,11 +26,11 @@ FormIt 的應用程式層級設定位於 Computer\HKEY\_CURRENT\_USER\SOFTWARE\A
 離線使用 FormIt for Windows 時，某些功能將受到限制：
 
 * 「設定位置」工具將無法運作，因為它需要網際網路連線才能從 Bing 地圖擷取衛星和地形資料。
-   * 但是，先前線上工作階段的模型中已經存在的任何既有衛星和地形將會保留。
+  * 但是，先前線上工作階段的模型中已經存在的任何既有衛星和地形將會保留。
 * 任何外掛程式 (包括 Plugin Manager) 都不會載入，因為它們會在每次應用程式啟動時從 GitHub 取得最新程式碼。
-   * 解決方法：如果您在線上時載入了所有外掛程式，並在離線時讓 FormIt 工作階段持續執行，則先前載入的外掛程式將會保留並正常運作。
+  * 解決方法：如果您在線上時載入了所有外掛程式，並在離線時讓 FormIt 工作階段持續執行，則先前載入的外掛程式將會保留並正常運作。
 * 範例材料不會載入，因為它們來自裝載在雲端的伺服器。
-   * 解決方法：連線至網際網路時，導覽至範例材料品類資料夾。資料夾會下載並儲存在您的電腦上，之後離線時就可以存取。
+  * 解決方法：連線至網際網路時，導覽至範例材料品類資料夾。資料夾會下載並儲存在您的電腦上，之後離線時就可以存取。
 * 您將無法儲存至 Autodesk Docs 或從 Autodesk Docs 開啟，包括從內容資源庫內開啟。
 
 ## 建議的 Windows DPI 設定
@@ -49,10 +49,10 @@ FormIt 的應用程式層級設定位於 Computer\HKEY\_CURRENT\_USER\SOFTWARE\A
 
 如果您在 Windows 10 Pro N 版本 1909 或更高版本上執行 FormIt，可能會看到以下錯誤訊息：
 
-![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
+\![Windows 10 上的 FormIt.exe 系統錯誤](<../.gitbook/assets/windows 10 error message.png>)
 
-這是某些 Windows 10 Pro N 版本的已知問題所造成。若要避免此錯誤，請從以下位置下載適用於您的 Windows 10 版本的 Media Feature Pack：[適用於 Windows N 版本的 Media Feature Pack 清單](https://support.microsoft.com/zh-tw/topic/適用于-n-版的媒體功能套件windows清單-c1c6fffa-d052-8338-7a79-a4bb980a700a)。
+這是某些 Windows 10 Pro N 版本的已知問題所造成。若要避免此錯誤，請從以下位置下載適用於您的 Windows 10 版本的 Media Feature Pack：[適用於 Windows N 版本的 Media Feature Pack 清單](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a)。
 
 ### 無法登入
 
-在 FormIt 中嘗試登入您的帳戶時，登入對話方塊可能會當機而阻止您繼續。如果發生此情況，您可能需要在網路防火牆中解除封鎖 \*.autodesk.com。請聯絡您的 IT 部門以取得支援。
+在 FormIt 中嘗試登入您的帳戶時，登入對話方塊可能會當機而阻止您繼續。如果發生此情況，您可能需要在網路防火牆中解除封鎖 *.autodesk.com。請聯絡您的 IT 部門以取得支援。
