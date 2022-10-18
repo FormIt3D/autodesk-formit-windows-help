@@ -4,20 +4,20 @@
 
 * 下载最新的 [FormIt for Windows](https://formit.autodesk.com/page/download)。
 * 使用 Autodesk 帐户登录，或[在此处创建免费 Autodesk 帐户](https://accounts.autodesk.com)。
-* Revit 2017 及更高版本随附 FormIt Add-In for Revit。还可以[从我们的网站](https://formit.autodesk.com/page/formit-revit)，下载并手动安装附加模块。
+* Revit 2017 及更高版本随附 FormIt Add-In for Revit。还可以从[我们的网站](https://formit.autodesk.com/page/formit-revit)下载并手动安装附加模块。
 
-FormIt 的应用程序级设置位于 Computer\HKEY\_CURRENT\_USER\SOFTWARE\Autodesk\FormIt 360\\
+FormIt 的应用程序级别设置位于 Computer\\HKEY_CURRENT_USER\\SOFTWARE\\Autodesk\\FormIt 360\\
 
 ## 建议的系统配置
 
-| 要求 | 详细信息 |
+| 要求                    | 详细信息                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **操作系统** | <p>Microsoft® Windows® 8、8.1、10 或 11。</p><p><em>注意：由于 OpenGL 驱动程序中存在性能降低和图形问题，因此 Parallels Desktop 未得到正式支持。</em></p> |
-| **CPU** | <p>支持 SSE2 技术的 Intel® Pentium®、Xeon®、i 系列处理器或 AMD® 同等级别处理器。</p><p>建议尽可能使用高主频 CPU。</p> |
-| **内存** | 建议最低 4 GB RAM、8 GB 或更大。 |
-| **视频卡 (GPU)** | <p>需要支持 OpenGL 3.3 的独立 NVIDIA 或 AMD 视频卡。强烈建议支持 OpenGL 4.2。</p><p>对于可切换视频卡的系统，请按照制造商的说明进行操作，以确保 FormIt 始终使用专用 GPU 来获得最佳性能。请参见以下产品的说明：<a href="https://www.amd.com/en/support/kb/faq/dh-017">AMD</a> 和<a href="http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1">NVIDIA</a>。</p><p>为了获得最佳性能和可靠性，请确保从制造商的网站或 Windows Update 获得最新版本的视频卡驱动程序。</p><p>如果由于驱动程序过时或其他问题而无法使用视频卡，FormIt 会在启动时显示一条消息。如果 FormIt 在更新驱动程序后无法启动，请<a href="https://forums.autodesk.com/t5/formit-forum/bd-p/142">在论坛上寻求帮助</a>。</p> |
-| **磁盘空间** | 1 GB 可用磁盘空间。 |
-| **连接和许可** | <p>首次启动 FormIt 时，需要连接 Internet，以便登录到 Autodesk 帐户。</p><p>启动 FormIt 时，还需要连接 Internet 才能加载插件。如果在启动时未检测到 Internet 连接，则应用程序将在不加载插件的情况下启动。</p><p>需要具有 FormIt Pro 云固定期限的使用许可的 Autodesk 帐户，才能在 Windows 上运行 FormIt Pro。FormIt Pro 作为以下产品的一部分提供：<a href="https://www.autodesk.com/collections/architecture-engineering-construction/overview"><strong>Autodesk 工程建设软件集</strong></a>。</p> |
+| **操作系统**           | <p>Microsoft® Windows® 8、8.1、10 或 11。</p><p><em>注意：由于 OpenGL 驱动程序中存在性能降低和图形问题，因此 Parallels Desktop 未得到正式支持。</em></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **CPU**                        | <p>支持 SSE2 技术的 Intel® Pentium®、Xeon®、i 系列处理器或 AMD® 同等级别处理器。</p><p>建议尽可能使用高主频 CPU。</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **内存**                     | 最小内存为 4 GB，建议 8 GB 或更大。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **视频卡 (GPU)**           | <p>需要支持 OpenGL 3.3 的独立 NVIDIA 或 AMD 视频卡。强烈建议支持 OpenGL 4.2。</p><p>对于可切换视频卡的系统，请按照制造商的说明操作，以确保 FormIt 始终使用专用 GPU 来获得最佳性能。请参见 <a href="https://www.amd.com/en/support/kb/faq/dh-017">AMD</a> 和 <a href="http://nvidia.custhelp.com/app/answers/detail/a_id/2615/kw/manage%203d%20settings/related/1">NVIDIA</a> 的说明。</p><p>为了获得最佳性能和可靠性，请确保从制造商的网站或 Windows Update 获取最新版本的视频卡驱动程序。</p><p>如果由于驱动程序过时或其他问题而无法使用视频卡，FormIt 会在启动时显示一条消息。如果 FormIt 在更新驱动程序后无法启动，请<a href="https://forums.autodesk.com/t5/formit-forum/bd-p/142">访问论坛</a>。</p> |
+| **磁盘空间**                 | 1 GB 可用磁盘空间。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| **连接和许可** | <p>首次启动 FormIt 时，需要连接 Internet，以便登录到 Autodesk 帐户。</p><p>启动 FormIt 时，还需要连接 Internet 才能加载插件。如果在启动时未检测到 Internet 连接，则应用程序将在不加载插件的情况下启动。</p><p>需要具有 FormIt Pro 云固定期限的使用许可的 Autodesk 帐户，才能在 Windows 上运行 FormIt Pro。FormIt Pro 作为 <a href="https://www.autodesk.com/collections/architecture-engineering-construction/overview"><strong>Autodesk 工程建设软件集</strong></a>的一部分提供。</p>                                                                                                                                                                                                                                                                                                   |
 
 ## 脱机访问
 
@@ -26,11 +26,11 @@ FormIt 的应用程序级设置位于 Computer\HKEY\_CURRENT\_USER\SOFTWARE\Auto
 脱机使用 FormIt for Windows 时，某些功能会受限制：
 
 * “设置位置”工具将不起作用，因为它需要连接 Internet，才能从必应地图检索卫星和地形数据。
-   * 但是，模型中已存在的来自上一个联机任务的任何现有卫星和地形将保留。
+  * 但是，模型中已存在的来自上一个联机任务的任何现有卫星和地形将保留。
 * 任何插件（包括“插件管理器”）都不会加载，因为它们会在应用程序每次启动时从 GitHub 获取最新代码。
-   * 解决方法：如果在联机时加载所有插件，并在脱机时使 FormIt 任务保持运行，则之前加载的插件将继续正常运行。
+  * 解决方法：如果在联机时加载所有插件，并在脱机时使 FormIt 任务保持运行，则之前加载的插件将继续正常运行。
 * 样例材质不会加载，因为它们来自云托管的服务器。
-   * 解决方法：在连接到 Internet 时，导航到样例材质类别文件夹。这些文件夹会下载并存储在您的计算机上，可以供以后脱机时访问。
+  * 解决方法：在连接到 Internet 时，导航到样例材质类别文件夹。这些文件夹会下载并存储在您的计算机上，可以供以后脱机时访问。
 * 您将无法在 Autodesk Docs 中保存或打开，包括在“内容库”中。
 
 ## 建议的 Windows DPI 设置
@@ -47,12 +47,12 @@ FormIt 的应用程序级设置位于 Computer\HKEY\_CURRENT\_USER\SOFTWARE\Auto
 
 ### Windows 10 Pro N 系统错误
 
-如果您在 Windows 10 Pro N 版本 1909 或更高版本上运行 FormIt，则可能会看到以下错误消息：
+如果您是在 Windows 10 Pro N 版本 1909 或更高版本上运行 FormIt，则可能会看到以下错误消息：
 
-![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
+\![Windows 10 上的 FormIt.exe 系统错误](<../.gitbook/assets/windows 10 error message.png>)
 
-这是由某些版本的 Windows 10 Pro N 的已知问题造成的。要避免出现此错误，请从以下位置下载适用于您版本的 Windows 10 的媒体功能包：[适用于 Windows N 版本的媒体功能包列表](https://support.microsoft.com/zh-cn/topic/n-个版本的媒体功能包windows列表-c1c6fffa-d052-8338-7a79-a4bb980a700a)。
+这是由某些版本的 Windows 10 Pro N 的已知问题造成的。为了避免出现此错误，请从以下位置下载适用于您版本的 Windows 10 的媒体功能包：[适用于 Windows N 版本的媒体功能包列表](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a)。
 
 ### 无法登录
 
-在 FormIt 中尝试登录到您的帐户时，登录对话框可能会挂起，从而阻止您继续操作。如果发生这种情况，则可能需要在网络防火墙中取消阻止 \*.autodesk.com。请联系 IT 部门以寻求支持。
+在 FormIt 中尝试登录到帐户时，登录对话框可能会挂起，从而阻止您继续操作。如果发生这种情况，则可能需要在网络防火墙中取消阻止 *.autodesk.com。请联系 IT 部门以寻求支持。
