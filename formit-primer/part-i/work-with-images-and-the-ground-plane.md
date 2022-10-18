@@ -8,25 +8,25 @@ _Se non è stata completata l'ultima sezione, scaricare e aprire il file_ _**1.2
 
 Il file **plan.png** fornito è un'immagine di una pianta stampata su un foglio da 24" x 26" (ARCH D), che è 3600 pixel di larghezza per 2400 pixel di altezza. Conoscendo la scala del disegno (¼"=1'-0") e le quote dell'immagine, è possibile calcolare 1' = 25 pixel, il che significa che l'immagine deve essere 144' x 96' quando viene importata in FormIt in scala intera.
 
-![](<../../.gitbook/assets/0 (1) (2).png>)
+\![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **Importazione di un'immagine in scala**
 
 1 - Fare clic sull'icona **Vista dall'alto** sulla **barra degli strumenti Navigazione mobile** per visualizzare la scena dall'alto.
 
-![](<../../.gitbook/assets/1 (1).png>)
+\![](<../../.gitbook/assets/1 (1).png>)
 
 2 - Scegliere lo **strumento Rettangolo (R)** dalla barra degli strumenti di disegno 3D.
 
-![](<../../.gitbook/assets/2 (1).png>)
+\![](<../../.gitbook/assets/2 (1).png>)
 
 3 - Per creare un rettangolo che sia esattamente **144'** x **96'**, fare clic in un punto qualsiasi dell'area di lavoro per definire il punto iniziale, quindi spostare il mouse per visualizzare l'anteprima e definire la lunghezza del primo lato. Iniziare a digitare un valore di quota per accedere ad una finestra di dialogo in cui è possibile immettere la quota esatta. Fare clic su **OK** o premere il tasto **INVIO** per applicare la quota. Ripetere la procedura per impostare la lunghezza del secondo lato e terminare il rettangolo.
 
-![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+\![ Immettere la lunghezza per il primo lato del rettangolo.](<../../.gitbook/assets/3 (1).png>)
 
-![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+\![Immettere la lunghezza per il secondo lato del rettangolo.](<../../.gitbook/assets/4 (1).png>)
 
-![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+\![Terminare il rettangolo.](<../../.gitbook/assets/5 (1).png>)
 
 4 - Per creare il nuovo materiale "Floor Plan":
 
@@ -34,7 +34,7 @@ Il file **plan.png** fornito è un'immagine di una pianta stampata su un foglio 
 2. Fare clic sull'icona **+** per creare un nuovo materiale.
 3. Assegnare al nuovo materiale il nome "**Floor Plan".**
 4. In **MAPPE**, fare clic sul riquadro di anteprima delle **trame** e individuare **plan.png** nella cartella **Farnsworth House Data Set > Supporting Files > Images**. Quindi fare clic su **Apri**.
-5. In **PROPRIETÀ**, modificare la scala dell'immagine immettendo **144'** nel campo **Scala orizzontale** e **96'** nel campo **Scala verticale**. Tenere presente che lo sblocco della scala orizzontale e verticale (icona della **catena**) potrebbe essere necessario per inserire valori che modificano le proporzioni dell'immagine.
+5. In **PROPRIETÀ**, modificare la scala dell'immagine immettendo **144'** nel campo **Scala orizzontale** e **96'**nel campo **Scala verticale**. Tenere presente che lo sblocco della scala orizzontale e verticale (icona della **catena**) potrebbe essere necessario per inserire valori che modificano le proporzioni dell'immagine.
 6. Selezionare **Trasparenza** e impostarla su circa la metà. In questo modo, l'immagine della pianta del pavimento importata verrà allineata all'immagine satellitare.
 7. Fare clic su **OK** per terminare il materiale.
 
