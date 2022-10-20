@@ -1,5 +1,6 @@
 ---
-opis: >- Rozpocznij proces roboczy BIM, oceniając wydajność elementów od początku procesu projektowania.
+opis: >- 
+  Rozpocznij proces roboczy BIM, oceniając wydajność elementów od początku procesu projektowania.
 ---
 
 # Analiza oświetlenia naturalnego i analiza energetyczna
