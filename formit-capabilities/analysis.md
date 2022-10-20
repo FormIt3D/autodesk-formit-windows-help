@@ -1,5 +1,5 @@
 ---
-descrição: >- 
+description: >- 
   Inicie um fluxo de trabalho BIM avaliando o desempenho dos elementos desde o início do processo de projeto.
 ---
 
