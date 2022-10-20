@@ -1,5 +1,6 @@
 ---
-Beschreibung: >- Starten Sie BIM-Arbeitsabläufe, indem Sie im Entwurfsprozess von Anfang an die Effizienz von Elementen beurteilen.
+Beschreibung: >- 
+  Starten Sie BIM-Arbeitsabläufe, indem Sie im Entwurfsprozess von Anfang an die Effizienz von Elementen beurteilen.
 ---
 
 # Solar- und Energieanalyse
