@@ -1,5 +1,6 @@
 ---
-description: > Pour commencer un workflow BIM, évaluez les performances des éléments dès le début du processus de conception.
+description: >-
+  Pour commencer un workflow BIM, évaluez les performances des éléments dès le début du processus de conception.
 ---
 
 # Analyse d’ensoleillement et d’énergie
