@@ -1,5 +1,6 @@
 ---
-Avviare un workflow BIM valutando le prestazioni degli elementi dall'inizio del processo di progettazione.
+description: >-
+  Avviare un workflow BIM valutando le prestazioni degli elementi dall'inizio del processo di progettazione.
 ---
 
 # Analisi solare + Analisi energetica
