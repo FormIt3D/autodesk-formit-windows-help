@@ -1,5 +1,5 @@
 ---
-Beschreibung: >- 
+description: >- 
   Starten Sie BIM-Arbeitsabläufe, indem Sie im Entwurfsprozess von Anfang an die Effizienz von Elementen beurteilen.
 ---
 
