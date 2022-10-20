@@ -1,5 +1,5 @@
 ---
-descripción: >- 
+description: >- 
   Inicie un flujo de trabajo de BIM mediante la evaluación del rendimiento de los elementos desde el principio del proceso de diseño.
 ---
 
