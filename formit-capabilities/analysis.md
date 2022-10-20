@@ -1,5 +1,5 @@
 ---
-popis: >-
+description: >-
   Pracovní postup BIM zahajte hodnocením výkonnosti prvků na začátku procesu návrhu.
 ---
 
