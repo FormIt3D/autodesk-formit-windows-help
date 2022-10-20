@@ -1,5 +1,5 @@
 ---
-opis: >- 
+description: >- 
   Rozpocznij proces roboczy BIM, oceniając wydajność elementów od początku procesu projektowania.
 ---
 
