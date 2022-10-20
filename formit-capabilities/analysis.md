@@ -1,5 +1,6 @@
 ---
-popis: >-Pracovní postup BIM zahajte hodnocením výkonnosti prvků na začátku procesu návrhu.
+popis: >-
+  Pracovní postup BIM zahajte hodnocením výkonnosti prvků na začátku procesu návrhu.
 ---
 
 # Analýza slunečního záření a energetická analýza
