@@ -24,7 +24,7 @@ Die bereitgestellte Datei **plan.png** ist ein Bild eines Plans, der auf einem B
 
 ![Geben Sie die Länge für die erste Seite des Rechtecks ein.](<../../.gitbook/assets/3 (1).png>)
 
-!Geben Sie die Länge für die zweite Seite des Rechtecks ein.](<../../.gitbook/assets/4 (1).png>)
+![Geben Sie die Länge für die zweite Seite des Rechtecks ein.](<../../.gitbook/assets/4 (1).png>)
 
 ![Stellen Sie das Rechteck fertig.](<../../.gitbook/assets/5 (1).png>)
 
