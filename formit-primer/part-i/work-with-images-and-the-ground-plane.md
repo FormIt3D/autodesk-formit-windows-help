@@ -26,7 +26,7 @@ Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o�
 
 ![Zadejte délku druhé strany obdélníku.](<../../.gitbook/assets/4 (1).png>)
 
-![Dokončete obdélník.](<../..gitbook/assets/5 (1).png>)
+![Dokončete obdélník.](<../../.gitbook/assets/5 (1).png>)
 
 4 – Vytvoření nového materiálu „Půdorys podlaží“:
 
