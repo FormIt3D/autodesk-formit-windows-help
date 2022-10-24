@@ -49,7 +49,7 @@ FormIt 的应用程序级别设置位于 Computer\\HKEY_CURRENT_USER\\SOFTWARE\\
 
 如果您是在 Windows 10 Pro N 版本 1909 或更高版本上运行 FormIt，则可能会看到以下错误消息：
 
-\![Windows 10 上的 FormIt.exe 系统错误](<../.gitbook/assets/windows 10 error message.png>)
+![Windows 10 上的 FormIt.exe 系统错误](<../.gitbook/assets/windows 10 error message.png>)
 
 这是由某些版本的 Windows 10 Pro N 的已知问题造成的。为了避免出现此错误，请从以下位置下载适用于您版本的 Windows 10 的媒体功能包：[适用于 Windows N 版本的媒体功能包列表](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a)。
 
