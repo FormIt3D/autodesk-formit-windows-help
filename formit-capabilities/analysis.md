@@ -5,7 +5,7 @@ description: >-
 
 # 日光和能源分析
 
-\![](<../.gitbook/assets/20220317 Solar Analysis.png>)
+![](<../.gitbook/assets/20220317 Solar Analysis.png>)
 
 ## FormIt 中的能源分析
 
