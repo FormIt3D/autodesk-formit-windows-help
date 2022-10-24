@@ -100,7 +100,7 @@ No FormIt 2023 e versões mais recentes, é possível usar o Dynamo para enviar
 
 * Faça o download do [gráfico de amostra do Dynamo aqui](https://formit-help.s3.amazonaws.com/Send+Levels+to+Excel.dyn).
 * Aponte a paleta do Dynamo para o diretório local onde o gráfico do Dynamo foi salvo.
-* Clique com o botão direito do mouse na miniatura e clique em _Editar gráfico incorporado_.
+* Clique com o botão direito do mouse na miniatura e clique em _Editar gráfico incorporado._
 * Crie uma planilha vazia do Excel em algum lugar.
 * Edite o campo Localização da planilha para usar o caminho para a planilha do Excel.
 * Edite qualquer outro campo que você queira, como o Nome da folha.
@@ -421,7 +421,7 @@ Inversamente, o nó **CallPluginJS** permite chamar funções personalizadas de 
   * _C:/Arquivos de Programas/Autodesk/FormIt/FormIt.exe_
   * _C:/Arquivos de Programas/Autodesk/FormIt/DynamoSandbox/FormItDynamoSandbox.exe_
   * Se você tiver uma placa NVIDIA, [verifique se o painel de controle NVIDIA está instalado](https://whatsabyte.com/blog/find-nvidia-control-panel/)
-  * Use os painéis de controle [NVIDIA[ ou ](https://www.amd.com/en/support/kb/faq/dh-017)AMD](https://nvidia.custhelp.com/app/answers/detail/a\_id/2615/\~/how-do-i-customize-optimus-profiles-and-settings%3F) para definir os seguintes aplicativos para usar a placa gráfica discreta:
+  * Use os painéis de controle [NVIDIA](https://nvidia.custhelp.com/app/answers/detail/a\_id/2615/\~/how-do-i-customize-optimus-profiles-and-settings%3F) ou [AMD](https://www.amd.com/en/support/kb/faq/dh-017) para definir os seguintes aplicativos para usar a placa gráfica discreta:
 * Se você estiver em um local cujo idioma oficial não seja o inglês, talvez seja necessário definir as configurações de região do Windows 10 para inglês, a fim de evitar problemas com determinados nós do Dynamo:
   * Pesquise “Idioma” em Iniciar e escolha “Configurações de idioma”
   * Na parte superior direita da caixa de diálogo Idioma, clique em “Configurações administrativas de idioma”

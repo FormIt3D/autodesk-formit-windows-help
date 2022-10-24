@@ -2,7 +2,7 @@
 
 _Neste capítulo, você aprenderá como usar_ _**Planos de corte**_ _para cortar o modelo, revelando espaços internos e elementos estruturais. O FormIt suporta vários_ _**planos de corte**_ _de uma vez para um efeito semelhante a Caixa de corte._
 
-_Se você não completou o capítulo anterior, faça o download e abra o arquivo _ _**1.13 - Section Planes.axm**_ _ nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
+_Se você não completou o capítulo anterior, faça o download e abra o arquivo_ _**1.13 - Section Planes.axm**_ _nos_ _**Conjuntos de dados da Parte 1 do Manual do FormIt**._
 
 1 – Para criar um novo plano de corte:
 
