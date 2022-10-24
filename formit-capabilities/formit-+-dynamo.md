@@ -4,7 +4,7 @@ popis: Výpočetní návrh v aplikaci FormIt
 
 # FormIt a Dynamo
 
-\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 Aplikace FormIt pro systém Windows má integrovanou aplikaci Dynamo, díky čemuž můžete využívat neuvěřitelné pracovní postupy výpočetního návrhu.
 
@@ -38,7 +38,7 @@ Používáte aplikace FormIt a Dynamo poprvé? Aby se 3D plátno zobrazilo v ap
 
 Pomocí panelu Dynamo můžete spustit aplikaci Dynamo, umisťovat skupiny aplikace Dynamo a upravovat grafy aplikace Dynamo:
 
-\![Panel Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Panel Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Přidávání a správa místních adresářů aplikace Dynamo**
 
@@ -202,7 +202,7 @@ Využijte výkonné skupiny aplikace FormIt pro lepší organizaci geometrie apl
 * Při použití více uzlů aplikace **SendToFormIt** můžete uspořádat uzly podle materiálu, abyste mohli různé podskupiny aplikace FormIt vykreslit pomocí různých materiálů.
 * V tomto příkladu je celá budova vygenerována z jednoduchých rovin v aplikaci FormIt. Každá komponenta budovy vyžadující jedinečné materiály získá vlastní uzel **SendToFormIt**:
 
-\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * Po použití materiálů na každou z podskupin zůstanou tyto materiály zachovány mezi spuštěními aplikace Dynamo:
 
@@ -229,7 +229,7 @@ Využijte výkonné skupiny aplikace FormIt pro lepší organizaci geometrie apl
   * Při kopírování a vkládání zůstávají skupiny aplikace Dynamo identické. Veškeré změny provedené v jedné kopii grafu aplikace Dynamo aktualizují také geometrii v jejích identických instancích, pokud nejsou nastaveny jako jedinečné.
   * Skupiny aplikace Dynamo lze nastavit jako jedinečné pomocí klávesové zkratky MU nebo pomocí místní nabídky:
 
-\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## Základní uzly aplikace FormIt
 
@@ -239,17 +239,17 @@ Nejvýkonnější uzly pro odesílání dat mezi aplikacemi FormIt a Dynamo.
 
 * Chcete-li v aplikaci FormIt vytvořit objekty aplikace Dynamo, připojte požadované výstupy geometrických uzlů ke vstupu _geometrie_ alespoň jednoho uzlu SendToFormIt:
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions je nový (volitelný) port v aplikaci FormIt 2022, který je podrobně popsán níže v části **Uzly FormItGroupOptions**.
 * V aplikaci FormIt 2021.3 a novějších verzích můžete použít více uzlů SendToFormIt k uspořádání výsledků aplikace Dynamo do přehledných skupin a podskupin aplikace FormIt.
 * [Podívejte se, jak aplikace Dynamo funguje se skupinami aplikace FormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * Uzel SendToFormIt bere ohled na příznak Je výstup, který je ve výchozím nastavení zaškrtnutý. Stav příznaku můžete ověřit kliknutím pravým tlačítkem myši na uzel:
 
-\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * Pokud je tato možnost zaškrtnuta, geometrie připojená k tomuto uzlu SendToFormIt se zobrazí v aplikaci FormIt uvnitř podskupiny.
 * Pokud není zaškrtnuta, nebude do aplikace FormIt odeslána žádná geometrie a odpovídající podskupina (pokud existuje) bude odstraněna.
@@ -258,11 +258,11 @@ Nejvýkonnější uzly pro odesílání dat mezi aplikacemi FormIt a Dynamo.
 
 * Aplikace FormIt 2021 a novější nabízí možnost výběru geometrií z aplikace FormIt, které budou použity jako vstupy v grafech aplikace Dynamo:
 
-\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * Název uzlu SelectFromFormIt bude použit ve výzvách v aplikaci FormIt, proto byste jej měli pojmenovat tak, aby popisoval, jaký typ geometrie aplikace FormIt by měl být vybrán:
 
-\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * Když kliknete na tlačítko Vybrat z aplikace FormIt v editoru grafu aplikace Dynamo nebo na panelu Vlastnosti, aplikace FormIt spustí režim průvodce výběrem, který vás provede výběrem geometrie:
 
@@ -270,7 +270,7 @@ Nejvýkonnější uzly pro odesílání dat mezi aplikacemi FormIt a Dynamo.
 
 * Uzel SelectFromFormIt bere ohled na příznak Je vstup, který je ve výchozím nastavení zaškrtnutý. Tuto možnost je nutné zaškrtnout, aby výběr v aplikaci FormIt fungoval. Stav příznaku můžete ověřit kliknutím pravým tlačítkem myši na uzel.
 
-\![](<../.gitbook/assets/dynamo_isinput (1).png>)
+![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * Pokud je zaškrtnut příznak Je vstup:
   * Miniatura grafu na panelu Dynamo označuje, že je třeba provést výběr:
@@ -322,7 +322,7 @@ V aplikaci FormIt 2022.1.1 a novějších verzích přepnutí grafu na použív
   * Naopak, odstraněním všech uzlů FormItLengthString z grafu se čísla přepnout tak, aby odkazovala na nastavení jednotek aplikace FormIt (staré chování).
 * Číselný výstup uzlů _FormItLengthString_ bude také v metrech, to však nezmění velikost geometrických výsledků v aplikaci FormIt:
 
-\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **Další podporované vstupní uzly**
 
@@ -336,7 +336,7 @@ Standardní vstupní uzly aplikace Dynamo se zobrazí na panelu Vlastnosti aplik
 
 Vstupní uzly můžete přejmenovat (doporučeno pro přehlednost) a jejich nový název se zobrazí v aplikaci FormIt:
 
-\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -348,7 +348,7 @@ Různé metody zobrazení negeometrických výsledků z aplikace Dynamo do apli
 
 Uzly Watch označené jako Je výstup se v aplikaci FormIt 2022 a novějších verzích zobrazí na panelu Vlastnosti v části Sledovat výstup uzlů:
 
-\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **Zobrazení oznámení aplikace FormIt**
 
@@ -375,7 +375,7 @@ Aplikace FormIt 2022.1 a novější nabízí možnost přizpůsobit způsob odes
 
 Uzly _FormItGeometryOptions_ lze použít před uzlem _SendToFormIt_:
 
-\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -397,7 +397,7 @@ Aplikace FormIt 2022.1 a novější nabízí přístup k rozhraním API jazyka 
 
 Uzel **CallJSAPI** umožňuje vyvolat rozhraní API jazyka JavaScript aplikace FormIt přímo z aplikace Dynamo.
 
-\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 Názvy a parametry funkcí naleznete v dokumentaci k jazyku JavaScript, která je rozdělena do dvou částí: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) a [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (jádro pro modelování).
 
@@ -405,7 +405,7 @@ Názvy a parametry funkcí naleznete v dokumentaci k jazyku JavaScript, která
 
 Naopak uzel **CallPluginJS** umožňuje vyvolat uživatelské funkce z načteného modulu plug-in nebo fragmentu skriptu, který byl proveden z okna Editor skriptů.
 
-\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## Důležité poznámky
 
