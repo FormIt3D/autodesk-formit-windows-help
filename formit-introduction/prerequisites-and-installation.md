@@ -49,7 +49,7 @@ FormIt для Windows работает наилучшим образом, ког
 
 При запуске FormIt в ОС Windows 10 Pro N 1909 или более поздней версии может появиться следующее сообщение об ошибке.
 
-\![Системная ошибка FormIt.exe в Windows 10](<../.gitbook/assets/windows 10 error message.png>)
+![Системная ошибка FormIt.exe в Windows 10](<../.gitbook/assets/windows 10 error message.png>)
 
 Это происходит из-за известной проблемы в некоторых версиях Windows 10 Pro N. Чтобы избежать этой ошибки, скачайте пакет компонентов мультимедиа для используемой версии Windows 10 отсюда: [Список пакетов компонентов мультимедиа для Windows N](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a).
 
