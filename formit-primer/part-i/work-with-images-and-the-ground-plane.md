@@ -8,25 +8,25 @@ _Pokud jste nedokončili poslední část, stáhněte a otevřete soubor_ _**1.2
 
 Poskytnutý soubor **plan.png** je obrázek půdorysu vytištěného na listu o rozměrech 24" x 26", který je široký 3600 pixelů a vysoký 2400 pixelů. Když znáte měřítko výkresu (¼"=1'-0") a rozměry obrázku, můžete vypočítat, že 1’ = 25 pixelů, což znamená, že obrázek by měl mít po importu do aplikace FormIt v plném měřítku rozměry 144' x 96'.
 
-\![](<../../.gitbook/assets/0 (1) (2).png>)
+![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **Import obrázku v měřítku**
 
 1 – Kliknutím na ikonu **Horní pohled** na **plovoucím panelu nástrojů Navigace** zobrazte scénu shora.
 
-\![](<../../.gitbook/assets/1 (1).png>)
+![](<../../.gitbook/assets/1 (1).png>)
 
 2 – Na panelu nástrojů 3D náčrt vyberte nástroj **Obdélník (R)**.
 
-\![](<../../.gitbook/assets/2 (1).png>)
+![](<../../.gitbook/assets/2 (1).png>)
 
 3 – Chcete-li vytvořit obdélník o rozměrech přesně **144’** x **96’**, kliknutím kdekoli v pracovním prostoru definujte počáteční bod a poté pohybem myši zobrazte náhled a zadejte délku první strany. Začněte zadávat hodnotu kóty, čímž se zobrazí dialog, do kterého můžete zadat přesnou kótu. Kliknutím na tlačítko **OK** nebo stisknutím klávesy **Enter** potvrďte kótu. Opakujte postup, nastavte délku druhé strany a dokončete obdélník.
 
-\![Zadejte délku první strany obdélníku.](<../../.gitbook/assets/3 (1).png>)
+![Zadejte délku první strany obdélníku.](<../../.gitbook/assets/3 (1).png>)
 
-\![Zadejte délku druhé strany obdélníku.](<../../.gitbook/assets/4 (1).png>)
+![Zadejte délku druhé strany obdélníku.](<../../.gitbook/assets/4 (1).png>)
 
-\![Dokončete obdélník.](<../..gitbook/assets/5 (1).png>)
+![Dokončete obdélník.](<../..gitbook/assets/5 (1).png>)
 
 4 – Vytvoření nového materiálu „Půdorys podlaží“:
 
