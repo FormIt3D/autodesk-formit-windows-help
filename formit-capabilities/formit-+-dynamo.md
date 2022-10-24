@@ -110,7 +110,7 @@ FormIt 支援三種類型的 Dynamo 圖表：
 
 您會看到 Dynamo 輸入顯示在 Dynamo 選項板中，也會看到 Excel 開啟以顯示圖表中的結果。
 
-對模型做變更時，您可以再按一下圖表縮圖或按一下_「執行」_按鈕，使用最新版 FormIt 草圖中的樓層資料更新試算表。
+對模型做變更時，您可以再按一下圖表縮圖或按一下 _「執行」_ 按鈕，使用最新版 FormIt 草圖中的樓層資料更新試算表。
 
 ![](../.gitbook/assets/dynamo-send-levels-to-excel.gif)
 
@@ -130,14 +130,14 @@ FormIt 支援三種類型的 Dynamo 圖表：
 
 ### **內嵌的圖表**
 
-將 Dynamo 物件放到 FormIt 後，會複製其基礎圖表並嵌入目前的 FormIt 檔案中。透過**「編輯內嵌的圖表」**按鈕即可在 Dynamo 中編輯此圖表。
+將 Dynamo 物件放到 FormIt 後，會複製其基礎圖表並嵌入目前的 FormIt 檔案中。透過 **「編輯內嵌的圖表」** 按鈕即可在 Dynamo 中編輯此圖表。
 
 ![](../.gitbook/assets/dynamo\_embeddedgraph.png)
 
 ![](../.gitbook/assets/dynamo\_editgraphgif.gif)
 
 * 選取 Dynamo 群組，並切換至「性質」面板，或者按兩下群組即可自動切換至「性質」。
-* 按一下**「編輯內嵌的圖表」**按鈕。
+* 按一下 **「編輯內嵌的圖表」** 按鈕。
 * 在 Dynamo 中，您會發現頂端的檔名現在包含「(FormIt)」，這表示您正在編輯嵌入此 FormIt 檔案中的圖表，而不是修改來源圖表。
 * 確保一個或多個 [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 節點已連接到您要傳送至 FormIt 的幾何圖形。
 * FormIt 會在您調整圖表時即時顯示幾何圖形的更新。
@@ -153,7 +153,7 @@ FormIt 支援三種類型的 Dynamo 圖表：
 ![](../.gitbook/assets/dynamo\_sourcegraphgif.gif)
 
 * 將包含 Dynamo 檔案的[目錄連結](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started)到 Dynamo 面板，然後在面板中導覽到該位置。
-* 在要編輯的 Dynamo 圖表縮圖上按一下右鍵 (或按一下箭頭)，然後選取**「編輯來源圖表」**按鈕。
+* 在要編輯的 Dynamo 圖表縮圖上按一下右鍵 (或按一下箭頭)，然後選取 **「編輯來源圖表」** 按鈕。
 * Dynamo 將在開啟要求圖表的狀態下啟動，在 FormIt 中，您會看到圖表最終輸出的幾何圖形出現。
   * 如果是使用一個或多個 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 節點做為輸入的圖表，在 SelectFromFormIt 節點填入選取之前，您可能看不到產生的幾何圖形。
 * 產生的幾何圖形將顯示在新群組中，位於目前群組編輯環境的原點。
