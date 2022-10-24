@@ -100,7 +100,7 @@ FormIt 支援三種類型的 Dynamo 圖表：
 
 * 下載[範例 Dynamo 圖表](https://formit-help.s3.amazonaws.com/Send+Levels+to+Excel.dyn)。
 * 將 Dynamo 選項板指向儲存 Dynamo 圖表的本端目錄。
-* 在縮圖上按一下右鍵，然後按一下_「編輯內嵌的圖表」_。
+* 在縮圖上按一下右鍵，然後按一下 _「編輯內嵌的圖表」_。
 * 在某處建立一個空白 Excel 試算表。
 * 編輯「試算表位置」欄位，以使用 Excel 試算表的路徑。
 * 編輯您想要的任何其他欄位，例如「工作表名稱」。
