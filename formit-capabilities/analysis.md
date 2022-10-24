@@ -5,7 +5,7 @@ description: >-
 
 # Analiza oświetlenia naturalnego i analiza energetyczna
 
-\![](<../.gitbook/assets/20220317 Solar Analysis.png>)
+![](<../.gitbook/assets/20220317 Solar Analysis.png>)
 
 ## Analiza energetyczna w programie FormIt
 
