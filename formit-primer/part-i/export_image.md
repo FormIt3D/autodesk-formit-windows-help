@@ -12,10 +12,10 @@ _Bien que ce chapitre ne soit pas obligatoire, si vous n’avez pas suivi l’in
 4. Cliquez sur **Exporter**. La fenêtre **Spécifier le fichier dans lequel enregistrer…** s’affiche.
 5. Dans la nouvelle fenêtre, recherchez l’emplacement et le nom d’enregistrement de l’image, puis cliquez sur **Enregistrer**.
 
-\![](<../../.gitbook/assets/0 (5).png>)
+![](<../../.gitbook/assets/0 (5).png>)
 
 2 – Si vous souhaitez comparer vos résultats à l’image d’exportation fournie, accédez à **Jeu de données Maison Farnsworth > Fichiers de support > Images**.
 
-\![Exemple d’image d’exportation fourni à partir du dossier Jeu de données Maison Farnsworth.](<../../.gitbook/assets/1 (16).png>)
+![Exemple d’image d’exportation fourni à partir du dossier Jeu de données Maison Farnsworth.](<../../.gitbook/assets/1 (16).png>)
 
 __
