@@ -2,7 +2,7 @@
 
 _Dans ce chapitre, vous allez apprendre à utiliser les_ _**plans de coupe**_ _permettant de couper votre modèle afin de révéler les espaces intérieurs et les éléments structurels. FormIt prend en charge plusieurs_ _**plans de coupe**_ _à la fois pour obtenir un effet similaire à une zone de coupe._
 
-_Si vous n’avez pas terminé le chapitre précédent, téléchargez et ouvrez le fichier_ _**1.13 – Section Planes.axm**_ _ à partir des _ _**Jeux de données Partie I FormIt Primer**._
+_Si vous n’avez pas terminé le chapitre précédent, téléchargez et ouvrez le fichier_ _**1.13 – Section Planes.axm**_ _à partir des_ _**Jeux de données Partie I FormIt Primer**._
 
 1 – Pour créer un plan de coupe, procédez comme suit :
 
