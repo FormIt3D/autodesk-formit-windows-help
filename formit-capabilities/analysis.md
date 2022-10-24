@@ -5,7 +5,7 @@ description: >-
 
 # Analýza slunečního záření a energetická analýza
 
-\![](<../.gitbook/assets/20220317 Solar Analysis.png>)
+![](<../.gitbook/assets/20220317 Solar Analysis.png>)
 
 ## Energetická analýza v aplikaci FormIt
 
