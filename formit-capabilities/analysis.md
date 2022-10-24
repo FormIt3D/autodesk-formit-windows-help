@@ -5,7 +5,7 @@ description: >-
 
 # Solar- und Energieanalyse
 
-\![](<../.gitbook/assets/20220317 Solar Analysis.png>)
+![](<../.gitbook/assets/20220317 Solar Analysis.png>)
 
 ## Energieanalyse in FormIt
 
