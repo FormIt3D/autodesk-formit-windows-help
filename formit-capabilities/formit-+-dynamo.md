@@ -4,7 +4,7 @@ Beschreibung: Computational Design in FormIt
 
 # FormIt und Dynamo
 
-\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 FormIt for Windows verfügt über integrierte Dynamo-Funktionen, sodass Sie von beeindruckenden Arbeitsabläufen für computergestützte Entwürfe profitieren können.
 
@@ -38,7 +38,7 @@ Verwenden Sie FormIt und Dynamo zum ersten Mal? Möglicherweise müssen Sie zuer
 
 Über die Gruppe Dynamo können Sie Dynamo starten, Dynamo-Gruppen platzieren und Dynamo-Diagramme bearbeiten:
 
-\![Gruppe Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Gruppe Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Hinzufügen und Verwalten lokaler Dynamo-Verzeichnisse**
 
@@ -202,7 +202,7 @@ Nutzen Sie die leistungsstarken FormIt-Gruppen für eine bessere Organisation de
 * Wenn Sie mehrere **SendToFormIt**-Blöcke verwenden, können Sie die Blöcke nach Material organisieren, sodass Sie verschiedene FormIt-Untergruppen mit unterschiedlichen Materialien malen können.
 * In diesem Beispiel wird ein ganzes Gebäude aus einfachen Ebenen in FormIt generiert. Jede Gebäudekomponente, die eindeutige Materialien erfordert, erhält ihren eigenen **SendToFormIt**-Block:
 
-\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * Nach dem Anwenden von Materialien auf die einzelnen Untergruppen bleiben die Materialien zwischen Dynamo-Ausführungen erhalten:
 
@@ -229,7 +229,7 @@ Nutzen Sie die leistungsstarken FormIt-Gruppen für eine bessere Organisation de
   * Durch Kopieren und Einfügen von Dynamo-Gruppen bleiben diese identisch. Änderungen, die Sie am Dynamo-Diagramm einer Kopie vornehmen, aktualisieren auch die Geometrie in den identischen Instanzen, sofern sie nicht als eindeutig definiert werden.
   * Sie können Dynamo-Gruppen mithilfe des Tastaturkurzbefehls MU oder über das Kontextmenü eindeutig machen:
 
-\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## Grundlegende FormIt-Blöcke
 
@@ -239,17 +239,17 @@ Die leistungsfähigsten Blöcke zum Senden von Daten zwischen FormIt und Dynamo.
 
 * Um Dynamo-Objekte in FormIt zu generieren, ordnen Sie die Ausgaben des gewünschten geometrischen Blocks der _Geometrie_-Eingabe von mindestens einem SendToFormIt-Block zu:
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions ist ein neuer (optionaler) Anschluss in FormIt 2022, der im Abschnitt **FormItGroupOptions-Blöcke** weiter unten beschrieben wird.
 * In FormIt 2021.3 und höher können Sie mehrere SendToFormIt-Blöcke verwenden, um Ihre Dynamo-Ergebnisse in aufgeräumten FormIt-Gruppen und -Untergruppen zu organisieren.
 * [Erfahren Sie, wie Dynamo mit FormIt-Gruppen funktioniert](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * Der SendToFormIt-Block berücksichtigt das Flag Ist Ausgabe, das vorgabemäßig aktiviert ist. Sie können mit der rechten Maustaste auf den Block klicken, um Folgendes zu überprüfen:
 
-\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * Wenn diese Option aktiviert ist, wird die Geometrie, die diesem SendToFormIt-Block zugeordnet ist, in FormIt in einer Untergruppe angezeigt.
 * Wenn diese Option deaktiviert ist, wird keine Geometrie an FormIt gesendet, und die entsprechende Untergruppe (falls vorhanden) wird gelöscht.
@@ -258,11 +258,11 @@ Die leistungsfähigsten Blöcke zum Senden von Daten zwischen FormIt und Dynamo.
 
 * In FormIt 2021 und höher können Sie Geometrie aus FormIt auswählen, um sie als Eingabe in Dynamo-Diagrammen zu verwenden:
 
-\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * Der Name des SelectFromFormIt-Blocks wird für Eingabeaufforderungen in FormIt verwendet. Sie sollten diesen daher so benennen, dass er beschreibt, welche Art von FormIt-Geometrie ausgewählt werden soll:
 
-\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * Wenn Sie im Dynamo-Diagramm-Editor oder in der Gruppe Eigenschaften auf die Schaltfläche Aus FormIt auswählen klicken, startet FormIt einen Auswahlassistenten, der Sie durch die Auswahl der Geometrie führt:
 
@@ -270,7 +270,7 @@ Die leistungsfähigsten Blöcke zum Senden von Daten zwischen FormIt und Dynamo.
 
 * Der SelectFromFormIt-Block berücksichtigt das Flag Ist Eingabe, das vorgabemäßig aktivierte ist. Diese Option muss aktiviert werden, damit die Auswahl in FormIt funktioniert. Klicken Sie mit der rechten Maustaste auf den Block, um ihn zu überprüfen.
 
-\![](<../.gitbook/assets/dynamo_isinput (1).png>)
+![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * Wenn Ist Eingabe aktiviert ist:
   * Die Miniaturansicht der Gruppe Dynamo im Diagramm gibt an, dass eine Auswahl erforderlich ist:
@@ -322,7 +322,7 @@ Wenn Sie in FormIt 2022.1.1 und höher einstellen, dass ein Diagramm FormItLeng
   * Umgekehrt gilt, dass durch das Entfernen aller FormItLengthString-Blöcke aus dem Diagramm die reinen Zahlen auf die Einheiteneinstellungen von FormIt (altes Verhalten) verweisen.
 * Die numerische Ausgabe von _FormItLengthString_-Blöcken erfolgt ebenfalls in Metern, aber dadurch wird die Größe der geometrischen Ergebnisse in FormIt nicht geändert:
 
-\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **Andere unterstützte Eingabeblöcke**
 
@@ -336,7 +336,7 @@ Standardeingabeblöcke von Dynamo werden in der FormIt-Gruppe Eigenschaften ange
 
 Sie können die Eingabeblöcke umbenennen (zur eindeutigen Unterscheidung empfohlen). Der neue Name wird dann in FormIt angezeigt:
 
-\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -348,7 +348,7 @@ Verschiedene Methoden zum Anzeigen von nicht geometrischen Ergebnissen aus Dynam
 
 Beobachtungsblöcke, die mit Ist Ausgabe markiert sind, werden in FormIt 2022 und höher im Abschnitt zu Beobachtungsblock-Ausgaben der Gruppe Eigenschaften angezeigt:
 
-\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **Anzeigen von FormIt-Benachrichtigungen**
 
@@ -375,7 +375,7 @@ FormIt 2022.1 und höher bietet die Möglichkeit, die Art und Weise, wie einzel
 
 _FormItGeometryOptions_-Blöcke können vor dem _SendToFormIt_-Block verwendet werden:
 
-\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -397,7 +397,7 @@ FormIt 2022.1 und neuer bietet über zwei neue Blöcke Zugriff auf JavaScript-A
 
 Der **CallJSAPI**-Block ermöglicht Ihnen das Aufrufen von FormIt-JavaScript-APIs direkt aus Dynamo.
 
-\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 Weitere Informationen zu Namen und Parametern von Funktionen finden Sie in unserer JavaScript-Dokumentation, die in zwei Bereiche unterteilt ist: [FormIt-API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) und [WSM-API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (Modellierungs-Kernel).
 
@@ -405,7 +405,7 @@ Weitere Informationen zu Namen und Parametern von Funktionen finden Sie in unser
 
 Umgekehrt können Sie mit dem **CallPluginJS**-Block benutzerdefinierte Funktionen von einem geladenen Plugin oder einem Skript-Snippet aus aufrufen, das im Skript-Editor-Fenster ausgeführt wird.
 
-\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## Wichtige Anmerkungen
 
