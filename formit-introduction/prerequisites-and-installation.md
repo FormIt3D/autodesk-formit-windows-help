@@ -49,7 +49,7 @@ O FormIt para Windows funciona melhor quando a tela de exibição está definida
 
 Se você estiver executando o FormIt no Windows 10 Pro N versão 1909 ou posterior, talvez veja esta mensagem de erro:
 
-\![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
+![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
 
 Isso se deve a um problema conhecido com determinadas versões do Windows 10 Pro N. Para evitar esse erro, faça o download do pacote de recursos de mídia da versão do Windows 10 aqui: [Lista de pacotes de recursos de mídia para edições do Windows N](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a).
 
