@@ -10,13 +10,13 @@ _Se il capitolo precedente non è stato completato, scaricare e aprire il file_ 
 2. Posizionare il cursore del mouse sul modello per identificare un piano da utilizzare come riferimento. Notare le frecce in corrispondenza degli angoli del **Piano di sezione** che indicano la direzione del taglio di sezione. Premere il tasto **TAB** per alternarsi tra piani diversi, se necessario.
 3. Fare clic per posizionare il **Piano di sezione** in un punto qualsiasi del muro in vetro a sud relativo all'edificio principale. Il piano verrà messo in scala in base alle dimensioni del modello e rimarrà selezionato.
 
-\![Anteprima del piano di sezione quando si posiziona il cursore del mouse sul muro in vetro.](<../../.gitbook/assets/0 (6).png>)
+![Anteprima del piano di sezione quando si posiziona il cursore del mouse sul muro in vetro.](<../../.gitbook/assets/0 (6).png>)
 
-\![Piano di sezione in scala dopo il posizionamento.](<../../.gitbook/assets/1 (19) (1).png>)
+![Piano di sezione in scala dopo il posizionamento.](<../../.gitbook/assets/1 (19) (1).png>)
 
 2 - Con il piano di sezione ancora selezionato, fare clic per iniziare a spostarlo all'indietro fino a quando non taglia una parte dell'edificio principale, come nell'immagine riportata di seguito. Questa operazione funziona in modo analogo allo spostamento di qualsiasi elemento del modello, tranne per il fatto che il piano di sezione può spostarsi solo lungo un asse perpendicolare alla direzione verso cui è rivolto. Una volta definita la posizione, premere **ESC** per annullare la selezione.
 
-\![](<../../.gitbook/assets/2 (11) (1).png>)
+![](<../../.gitbook/assets/2 (11) (1).png>)
 
 _**Nota**_ _È possibile aggiungere fino a 6 tagli di sezioni al modello contemporaneamente._
 
@@ -25,7 +25,7 @@ _**Nota**_ _È possibile aggiungere fino a 6 tagli di sezioni al modello contemp
 1. Disattivare e riattivare il layer **Section Cut 1**. In questo modo si controlla se la sezione taglia o meno il modello.
 2. Ora disattivare il layer **Section Indicator**. In questo modo viene nascosto il piano di sezione e i relativi indicatori di freccia, ma ciò non determina se il taglio di sezione effettivo è attivo o meno.
 
-\![](<../../.gitbook/assets/3 (6) (1).png>)
+![](<../../.gitbook/assets/3 (6) (1).png>)
 
 4 - Nella **scheda Superficie** della **tavolozza** **Stili visualizzazione**:
 
@@ -36,4 +36,4 @@ _**Nota**_ _È possibile aggiungere fino a 6 tagli di sezioni al modello contemp
 
 5 - Per finalizzare la sezione, passare alla **tavolozza Scene** e creare una nuova scena denominata **Section**, salvando le impostazioni correnti della posizione di **Cinepresa**, della visibilità di **Layer** e di **Stili di visualizzazione**.
 
-\![](<../../.gitbook/assets/5 (7).png>)
+![](<../../.gitbook/assets/5 (7).png>)
