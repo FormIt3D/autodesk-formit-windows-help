@@ -1,11 +1,10 @@
 ---
-description: >- 
-  通过从设计流程一开始就评估图元的性能，来启动 BIM 工作流。
+描述：>- 通过从设计流程一开始就评估图元的性能，来启动 BIM 工作流。
 ---
 
 # 日光 + 能量分析
 
-![](<../.gitbook/assets/20220317 Solar Analysis.png>)
+\![](<../.gitbook/assets/20220317 Solar Analysis.png>)
 
 ## FormIt 中的能量分析
 
