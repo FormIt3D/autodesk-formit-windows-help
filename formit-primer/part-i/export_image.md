@@ -12,10 +12,10 @@ _この章を完了する必要はありませんが、ここまでのすべて�
 4. **[書き出し]** をクリックすると、**[保存先のファイルを指定]** ウィンドウが表示されます。
 5. 表示されたウィンドウで、イメージを保存する場所と名前を選択して **[保存]** をクリックします。
 
-\![](<../../.gitbook/assets/0 (5).png>)
+![](<../../.gitbook/assets/0 (5).png>)
 
 2 - 結果を作成済みの書き出しイメージと比較する場合は、**Farnsworth House Data Set > Supporting Files > Images** に移動します。
 
-\![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
+![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
 
 __
