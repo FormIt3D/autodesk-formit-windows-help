@@ -10,13 +10,13 @@ _Se você não completou o capítulo anterior, faça o download e abra o arquivo
 2. Passe o mouse sobre o modelo para identificar um plano a ser usado como referência. Observe as setas nos cantos do **Plano de corte** indicando a direção do corte de seção. Pressione a tecla **Tab** para alternar entre diferentes planos, se necessário.
 3. Clique para colocar o **Plano de corte** em qualquer lugar na parede de vidro sul do edifício principal. O plano será dimensionado para o tamanho do modelo e permanecerá selecionado.
 
-\![Section plane preview when hovering over the glass wall.](<../../.gitbook/assets/0 (6).png>)
+![Section plane preview when hovering over the glass wall.](<../../.gitbook/assets/0 (6).png>)
 
-\![Scaled section plane after being placed.](<../../.gitbook/assets/1 (19) (1).png>)
+![Scaled section plane after being placed.](<../../.gitbook/assets/1 (19) (1).png>)
 
 2 – Com o plano de corte ainda selecionado, clique para começar a movê-lo para trás até que esteja cortando através de parte do edifício principal, similar à imagem abaixo. Isso funciona de forma similar a mover qualquer elemento do modelo, exceto que o plano de corte somente pode se mover ao longo de um eixo perpendicular à direção que está voltada. Quando estiver satisfeito com a posição, pressione **Esc** para limpar a seleção.
 
-\![](<../../.gitbook/assets/2 (11) (1).png>)
+![](<../../.gitbook/assets/2 (11) (1).png>)
 
 _**Observação:**_ _É possível adicionar até seis cortes de seção ao modelo de uma só vez._
 
@@ -25,7 +25,7 @@ _**Observação:**_ _É possível adicionar até seis cortes de seção ao model
 1. Ative e desative a camada **Corte da seção 1**. Isso controla se a seção corta o modelo ou não.
 2. Agora, desative a camada **Indicador de seção**. Isso oculta o plano de corte e seus indicadores de seta, mas não afeta se o corte de seção real está ativo ou não.
 
-\![](<../../.gitbook/assets/3 (6) (1).png>)
+![](<../../.gitbook/assets/3 (6) (1).png>)
 
 4 – Na **guia Superfície** da **paleta** **Estilos visuais**:
 
@@ -36,4 +36,4 @@ _**Observação:**_ _É possível adicionar até seis cortes de seção ao model
 
 5 – Para finalizar o corte, vá para a **paleta Cenas** e crie uma nova cena chamada **Corte**, salvando a posição atual da **Câmera**, a visibilidade das **Camadas** e as configurações dos **Estilos visuais**.
 
-\![](<../../.gitbook/assets/5 (7).png>)
+![](<../../.gitbook/assets/5 (7).png>)
