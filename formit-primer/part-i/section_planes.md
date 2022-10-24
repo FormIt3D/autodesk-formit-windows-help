@@ -1,8 +1,8 @@
 # 1.13 - Piani di sezione
 
-_In questo capitolo è descritto come utilizzare i_ _**piani di sezione**_ _per tagliare il modello, mostrando vani interni ed elementi strutturali. FormIt supporta più_ _** piani di sezione**_ _contemporaneamente per un effetto simile a quello di un riquadro di sezione._
+_In questo capitolo è descritto come utilizzare i_ _**piani di sezione**_ _per tagliare il modello, mostrando vani interni ed elementi strutturali. FormIt supporta più_ _**piani di sezione**_ _contemporaneamente per un effetto simile a quello di un riquadro di sezione._
 
-_Se il capitolo precedente non è stato completato, scaricare e aprire il file _ _**1.13 - Section Planes.axm**_ _dal_ _**set di dati della Parte 1 della Guida introduttiva di FormIt**._
+_Se il capitolo precedente non è stato completato, scaricare e aprire il file_ _**1.13 - Section Planes.axm**_ _dal_ _**set di dati della Parte 1 della Guida introduttiva di FormIt**._
 
 1 - Per creare un nuovo piano di sezione:
 

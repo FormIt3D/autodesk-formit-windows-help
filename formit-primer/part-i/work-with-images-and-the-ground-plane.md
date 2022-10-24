@@ -34,7 +34,7 @@ Il file **plan.png** fornito è un'immagine di una pianta stampata su un foglio 
 2. Fare clic sull'icona **+** per creare un nuovo materiale.
 3. Assegnare al nuovo materiale il nome "**Floor Plan".**
 4. In **MAPPE**, fare clic sul riquadro di anteprima delle **trame** e individuare **plan.png** nella cartella **Farnsworth House Data Set > Supporting Files > Images**. Quindi fare clic su **Apri**.
-5. In **PROPRIETÀ**, modificare la scala dell'immagine immettendo **144'** nel campo **Scala orizzontale** e **96'**nel campo **Scala verticale**. Tenere presente che lo sblocco della scala orizzontale e verticale (icona della **catena**) potrebbe essere necessario per inserire valori che modificano le proporzioni dell'immagine.
+5. In **PROPRIETÀ**, modificare la scala dell'immagine immettendo **144'** nel campo **Scala orizzontale** e **96'** nel campo **Scala verticale**. Tenere presente che lo sblocco della scala orizzontale e verticale (icona della **catena**) potrebbe essere necessario per inserire valori che modificano le proporzioni dell'immagine.
 6. Selezionare **Trasparenza** e impostarla su circa la metà. In questo modo, l'immagine della pianta del pavimento importata verrà allineata all'immagine satellitare.
 7. Fare clic su **OK** per terminare il materiale.
 
