@@ -5,7 +5,7 @@ description: >-
 
 # Расчет инсоляции и энергопотребления
 
-\![](<../.gitbook/assets/20220317 Solar Analysis.png>)
+![](<../.gitbook/assets/20220317 Solar Analysis.png>)
 
 ## Расчет энергопотребления в FormIt
 
