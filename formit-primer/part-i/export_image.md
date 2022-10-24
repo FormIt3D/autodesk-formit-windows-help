@@ -12,10 +12,10 @@ _雖然您不需要完成本章，但如果您在此之前並未跟隨整個自�
 4. 按一下 **「匯出」**，**「指定要儲存至的檔案...」** 視窗將會彈出。
 5. 在新視窗中導覽以選擇要儲存影像的位置和名稱，然後按一下 **「儲存」**。
 
-\![](<../../.gitbook/assets/0 (5).png>)
+![](<../../.gitbook/assets/0 (5).png>)
 
 2 - 如果您想要將結果與提供的匯出影像進行比較，請移至 **「Farnsworth House Data Set」>「Supporting Files」>「Images」**。
 
-\![Farnsworth House Data Set 提供的範例匯出影像。](<../../.gitbook/assets/1 (16).png>)
+![Farnsworth House Data Set 提供的範例匯出影像。](<../../.gitbook/assets/1 (16).png>)
 
 __
