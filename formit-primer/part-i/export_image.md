@@ -12,10 +12,10 @@ _Ačkoli to není k dokončení této kapitoly nutné, pokud jste až do tohoto
 4. Klikněte na tlačítko **Exportovat**. Zobrazí se okno **Určit soubor k uložení**.
 5. V zobrazeném okně přejděte do požadovaného umístění a vyberte název, pod kterým chcete obrázek uložit. Poté klikněte na tlačítko **Uložit**.
 
-\![](<../../.gitbook/assets/0 (5).png>)
+![](<../../.gitbook/assets/0 (5).png>)
 
 2 – Pokud chcete porovnat své výsledky s dodaným obrázkem k exportu, přejděte do složky **Farnsworth House Data Set > Supporting Files > Images**.
 
-\![Dodaný vzorový obrázek k exportu z datové sady Farnsworth House.](<../../.gitbook/assets/1 (16).png>)
+![Dodaný vzorový obrázek k exportu z datové sady Farnsworth House.](<../../.gitbook/assets/1 (16).png>)
 
 __
