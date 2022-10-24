@@ -14,7 +14,7 @@ Il file **plan.png** fornito è un'immagine di una pianta stampata su un foglio 
 
 1 - Fare clic sull'icona **Vista dall'alto** sulla **barra degli strumenti Navigazione mobile** per visualizzare la scena dall'alto.
 
-\![](<../../.gitbook/assets/1 (1).png>)
+![](<../../.gitbook/assets/1 (1).png>)
 
 2 - Scegliere lo **strumento Rettangolo (R)** dalla barra degli strumenti di disegno 3D.
 
