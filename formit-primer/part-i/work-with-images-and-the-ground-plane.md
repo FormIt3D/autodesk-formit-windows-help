@@ -8,25 +8,25 @@ _Wenn Sie den letzten Abschnitt nicht bearbeitet haben, laden Sie die Datei_ _**
 
 Die bereitgestellte Datei **plan.png** ist ein Bild eines Plans, der auf einem Blatt mit den Maßen 24'' x 26'' (ARCH D) gedruckt wurde, das 3600 Pixel breit und 2400 Pixel hoch ist. Wenn Sie den Zeichnungsmaßstab (¼" = 1'-0") und die Bildabmessungen kennen, können Sie berechnen, dass 1' = 25 Pixel, d. h., das Bild sollte beim Import in FormIt im vollen Maßstab 144' x 96' betragen.
 
-\![](<../../.gitbook/assets/0 (1) (2).png>)
+![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **Maßstabsgetreues Importieren eines Bilds**
 
 1 – Klicken Sie in der **verschiebbaren Navigationsleiste** auf das Symbol **Draufsicht**, um die Szene von oben anzuzeigen.
 
-\![](<../../.gitbook/assets/1 (1).png>)
+![](<../../.gitbook/assets/1 (1).png>)
 
 2 – Wählen Sie im Werkzeugkasten 3D-Skizze das **Werkzeug Rechteck (R)**.
 
-\![](<../../.gitbook/assets/2 (1).png>)
+![](<../../.gitbook/assets/2 (1).png>)
 
 3 – Um ein Rechteck zu erstellen, das genau **144'** x **96'** entspricht, klicken Sie auf eine beliebige Stelle im Arbeitsbereich, um den Startpunkt zu definieren, und bewegen Sie dann die Maus, um eine Vorschau anzuzeigen und die erste Seitenlänge zu definieren. Beginnen Sie mit der Eingabe eines Bemaßungswerts, um ein Dialogfeld zu öffnen, in dem Sie die genaue Bemaßung eingeben können. Klicken Sie auf **OK**, oder drücken Sie die **EINGABETASTE**, um die Bemaßung zu bestätigen. Wiederholen Sie den Vorgang, um die Länge der zweiten Seite festzulegen und das Rechteck fertigzustellen.
 
-\![Geben Sie die Länge für die erste Seite des Rechtecks ein.](<../../.gitbook/assets/3 (1).png>)
+![Geben Sie die Länge für die erste Seite des Rechtecks ein.](<../../.gitbook/assets/3 (1).png>)
 
 !Geben Sie die Länge für die zweite Seite des Rechtecks ein.](<../../.gitbook/assets/4 (1).png>)
 
-\![Stellen Sie das Rechteck fertig.](<../../.gitbook/assets/5 (1).png>)
+![Stellen Sie das Rechteck fertig.](<../../.gitbook/assets/5 (1).png>)
 
 4 – So erstellen Sie das neue Material Floor Plan
 
