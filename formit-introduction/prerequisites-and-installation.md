@@ -49,7 +49,7 @@ Windows용 FormIt은 디스플레이 화면이 Windows에서 125% 이하의 DPI 
 
 Windows 10 Pro N 버전 1909 이상에서 FormIt을 실행하는 경우 다음 오류 메시지가 표시될 수 있습니다.
 
-\![Windows 10의 FormIt.exe 시스템 오류](<../.gitbook/assets/windows 10 error message.png>)
+![Windows 10의 FormIt.exe 시스템 오류](<../.gitbook/assets/windows 10 error message.png>)
 
 이 오류는 특정 버전의 Windows 10 Pro N의 알려진 문제로 인해 발생합니다. 이 오류를 방지하려면 [Windows N 버전용 미디어 기능 팩 리스트](https://support.microsoft.com/ko-kr/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a)에서 사용 중인 Windows 10 버전에 해당하는 미디어 기능 팩을 다운로드하십시오.
 
