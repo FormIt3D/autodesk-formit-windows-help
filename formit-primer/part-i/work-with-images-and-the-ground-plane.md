@@ -8,25 +8,25 @@ _直前のセクションを完了していない場合は、_ _**1.2 - Project 
 
 用意されている **plan.png** は、幅 3600 x 高さ 2400 ピクセルの 24" x 26" シート(ARCH D)に印刷された平面図のイメージです。図面の尺度(¼" = 1'-0")とイメージの寸法から、1' = 25 ピクセルと計算できます。つまり、フル スケールで FormIt に読み込むと、このイメージは 144'x96' になります。
 
-\![](<../../.gitbook/assets/0 (1) (2).png>)
+![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **イメージを読み込んで尺度変更する**
 
 1 - **浮動ナビゲーション バー** の **[上面ビュー]** アイコンをクリックして、上からシーンを表示します。
 
-\![](<../../.gitbook/assets/1 (1).png>)
+![](<../../.gitbook/assets/1 (1).png>)
 
 2 - [3D スケッチ]ツールバーから **[長方形(R)]ツール** を選択します。
 
-\![](<../../.gitbook/assets/2 (1).png>)
+![](<../../.gitbook/assets/2 (1).png>)
 
 3 - 正確に **144'** x **96'** の長方形を作成するには、ワークスペース内の任意の場所をクリックして始点を定義し、マウスを動かして最初の辺の長さをプレビューして定義します。寸法の値の入力を開始すると、正確な寸法を入力できるダイアログ ボックスが表示されます。**[OK]** をクリックするか **[Enter]** キーを押して寸法を確定します。このプロセスを繰り返して、2 番目の辺の長さを設定し、長方形を完成させます。
 
-\![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
 
-\![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
 
-\![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
 
 4 - 新しい「Floor Plan」マテリアルを作成するには、次のように操作します。
 
