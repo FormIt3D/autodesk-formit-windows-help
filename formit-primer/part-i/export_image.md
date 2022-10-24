@@ -12,10 +12,10 @@ _Embora não seja necessário concluir este capítulo, se você não seguiu todo
 4. Clique em **Exportar** para exibir a janela **Especifique o arquivo para salvar...**
 5. Na nova janela, navegue para selecionar a localização e o nome em que deseja salvar a imagem e, em seguida, clique em **Salvar**.
 
-\![](<../../.gitbook/assets/0 (5).png>)
+![](<../../.gitbook/assets/0 (5).png>)
 
 2 – Se você desejar comparar os resultados com a imagem de exportação fornecida, vá para **Conjunto de dados da Residência Farnsworth > Arquivos de suporte > Imagens**.
 
-\![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
+![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
 
 __
