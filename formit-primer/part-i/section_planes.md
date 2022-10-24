@@ -10,7 +10,7 @@ _Pokud jste nedokončili předchozí kapitolu, stáhněte a otevřete soubor_ _*
 2. Přesunutím kurzoru nad model určete rovinu, kterou chcete použít jako referenci. Všimněte si šipek v rozích **roviny řezu**, které označují směr řezu. V případě potřeby můžete stisknutím klávesy **Tab** přepínat mezi různými rovinami.
 3. Kliknutím umístěte **rovinu řezu** kamkoli na jižní skleněnou stěnu hlavní budovy. Rovina se přizpůsobí velikosti modelu a zůstane vybraná.
 
-![Náhled roviny řezu při umístění kurzoru nad skleněnou stěnu.](<../.gitbook/assets/0 (6).png>)
+![Náhled roviny řezu při umístění kurzoru nad skleněnou stěnu.](<../../.gitbook/assets/0 (6).png>)
 
 ![Přizpůsobená rovina řezu po umístění.](<../../.gitbook/assets/1 (19) (1).png>)
 
