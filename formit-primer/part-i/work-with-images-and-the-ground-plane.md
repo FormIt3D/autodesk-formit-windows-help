@@ -8,25 +8,25 @@ _Jeśli ostatnia sekcja nie została ukończona, pobierz i otwórz plik_ _**1.2 
 
 Dostarczony plik **plan.png** jest obrazem rzutu drukowanym na arkuszu 24" x 26" (ARCH D) o szerokości 3600 pikseli i wysokości 2400 pikseli. Znając skalę rysunku (¼"=1'-0") i wymiary obrazu, można obliczyć, że 1' = 25 pikseli, co oznacza, że obraz powinien mieć rozmiar 144' x 96' w przypadku zaimportowania do formatu programu FormIt w pełnej skali.
 
-\![](<../../.gitbook/assets/0 (1) (2).png>)
+![](<../../.gitbook/assets/0 (1) (2).png>)
 
 ## **Importowanie obrazu w skali**
 
 1 — Kliknij ikonę **Widok z góry** na **ruchomym pasku nawigacji**, aby wyświetlić scenę z góry.
 
-\![](<../../.gitbook/assets/1 (1).png>)
+![](<../../.gitbook/assets/1 (1).png>)
 
 2 — Wybierz **narzędzie Prostokąt (R)** na pasku narzędzi Szkic 3D.
 
-\![](<../../.gitbook/assets/2 (1).png>)
+![](<../../.gitbook/assets/2 (1).png>)
 
 3 — W celu utworzenia prostokąta o długości dokładnie **144’** x **96’** kliknij w dowolnym miejscu w obszarze roboczym, aby zdefiniować punkt początkowy, a następnie przesuń wskaźnik myszy, aby wyświetlić podgląd i zdefiniować długość pierwszego boku. Rozpocznij wpisywanie wartości wymiaru, aby uzyskać dostęp do okna dialogowego, w którym można wprowadzić dokładny wymiar. Kliknij przycisk **OK** lub naciśnij klawisz **Enter**, aby zatwierdzić wymiar. Powtórz ten proces, aby ustawić długość drugiego boku i dokończyć prostokąt.
 
-\![Wprowadź długość pierwszego boku prostokąta.](<../../.gitbook/assets/3 (1).png>)
+![Wprowadź długość pierwszego boku prostokąta.](<../../.gitbook/assets/3 (1).png>)
 
-\![Wprowadź długość drugiego boku prostokąta.](<../../.gitbook/assets/4 (1).png>)
+![Wprowadź długość drugiego boku prostokąta.](<../../.gitbook/assets/4 (1).png>)
 
-\![Dokończ prostokąt.](<../../.gitbook/assets/5 (1).png>)
+![Dokończ prostokąt.](<../../.gitbook/assets/5 (1).png>)
 
 4 — Aby utworzyć nowy materiał „Floor Plan”:
 
