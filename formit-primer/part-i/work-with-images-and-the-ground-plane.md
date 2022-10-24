@@ -22,9 +22,9 @@ Le fichier **plan.png** fourni est l’image d’un plan imprimé sur une feuill
 
 3 – Pour créer un rectangle ayant les dimensions exactes de **144’** x **96’**, cliquez n’importe où dans l’espace de travail pour définir le point de départ, puis déplacez la souris pour afficher un aperçu et définir la première longueur de côté. Commencez à saisir une valeur de cote pour accéder à une boîte de dialogue dans laquelle vous pouvez entrer la cote exacte. Cliquez sur **OK** ou appuyez sur la touche **Entrée** pour valider la cote. Répétez la procédure pour définir la longueur du deuxième côté et terminer le rectangle.
 
-![Entrez la longueur du premier côté du rectangle.](<./../.gitbook/assets/3 (1).png>)
+![Entrez la longueur du premier côté du rectangle.](<../../.gitbook/assets/3 (1).png>)
 
-![Entrez la longueur du deuxième côté du rectangle.](<./../.gitbook/assets/4 (1).png>)
+![Entrez la longueur du deuxième côté du rectangle.](<../../.gitbook/assets/4 (1).png>)
 
 ![Terminez le rectangle.](<../../.gitbook/assets/5 (1).png>)
 
