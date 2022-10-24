@@ -5,7 +5,7 @@ description: >-
 
 # Analyse d’ensoleillement et d’énergie
 
-\![](<../.gitbook/assets/20220317 Solar Analysis.png>)
+![](<../.gitbook/assets/20220317 Solar Analysis.png>)
 
 ## Analyse d’énergie dans FormIt
 
