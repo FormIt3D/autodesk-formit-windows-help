@@ -5,7 +5,7 @@ description: >-
 
 # 일조 + 에너지 해석
 
-\![](<../.gitbook/assets/20220317 Solar Analysis.png>)
+![](<../.gitbook/assets/20220317 Solar Analysis.png>)
 
 ## FormIt에서 에너지 해석
 
