@@ -2,7 +2,7 @@
 
 _En este capítulo, aprenderá a utilizar_ _**planos de sección**_ _para cortar el modelo, mostrando espacios interiores y elementos estructurales. FormIt admite varios_ _**planos de sección**_ _a la vez para obtener un efecto similar al de caja de sección._
 
-_Si no ha completado el capítulo anterior, descargue y abra el archivo __**1.13 - Section Planes.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
+_Si no ha completado el capítulo anterior, descargue y abra el archivo_ _**1.13 - Section Planes.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
 1 - Para crear un plano de sección nuevo, realice lo siguiente:
 

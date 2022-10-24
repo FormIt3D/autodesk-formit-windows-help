@@ -2,7 +2,7 @@
 
 _En este capítulo, exportaremos una imagen de alta resolución de la escena en sección en perspectiva que hemos creado en los últimos capítulos._
 
-_Aunque no es necesario completar este capítulo, si no ha seguido todo el aprendizaje hasta este momento y desea exportar imágenes similares a las que se muestran a continuación, descargue y abra el archivo_ _**1.14 - Export Image.axm**_ _de los _ _**conjuntos de datos de la parte 1 de FormIt Primer**._
+_Aunque no es necesario completar este capítulo, si no ha seguido todo el aprendizaje hasta este momento y desea exportar imágenes similares a las que se muestran a continuación, descargue y abra el archivo_ _**1.14 - Export Image.axm**_ _de los_ _**conjuntos de datos de la parte 1 de FormIt Primer**._
 
 1 - Al exportar una imagen, lo que se muestra en el lienzo se exportará casi exactamente como aparece en FormIt. Deseamos exportar una imagen de la escena **Section**.
 

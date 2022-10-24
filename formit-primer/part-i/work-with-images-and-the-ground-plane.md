@@ -2,7 +2,7 @@
 
 _Puede importar imágenes PNG o JPG en el plano de suelo del modelo. Para ello, seleccione Archivo > Importar desde la barra de navegación. Sin embargo, para obtener un mayor control sobre la escala y la posición de una imagen importada, podemos crear un material personalizado y aplicarlo a un rectángulo que hemos dibujado nosotros mismos._
 
-_Si no ha completado la última sección, abra el archivo_ _**1.2 - Project Set Up with Images and Grid.axm**_ _del _ _**conjunto de datos de la parte 1 de FormIt Primer**._
+_Si no ha completado la última sección, abra el archivo_ _**1.2 - Project Set Up with Images and Grid.axm**_ _del_ _**conjunto de datos de la parte 1 de FormIt Primer**._
 
 ## **Calcular el tamaño de la imagen**
 
