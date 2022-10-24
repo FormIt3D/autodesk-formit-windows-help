@@ -2,7 +2,7 @@
 
 _In diesem Kapitel lernen Sie, wie Sie mithilfe von_ _**Schnittebenen**_ _Ihr Modell schneiden, sodass Innenräume und Tragwerkselemente sichtbar werden. FormIt unterstützt mehrere_ _**Schnittebenen**_ _gleichzeitig, um einen Schnittbereich-ähnlichen Effekt zu erzielen._
 
-_Wenn Sie das vorherige Kapitel nicht abgeschlossen haben, laden Sie die Datei _ _**1.13 - Section Planes.axm**_ _ aus den __**FormIt Primer Part 1 Datasets**herunter, und öffnen Sie sie._
+_Wenn Sie das vorherige Kapitel nicht abgeschlossen haben, laden Sie die Datei_ _**1.13 - Section Planes.axm**_ _aus den_ _**FormIt Primer Part 1 Datasets**herunter, und öffnen Sie sie._
 
 1 – So erstellen Sie eine neue Schnittebene
 
