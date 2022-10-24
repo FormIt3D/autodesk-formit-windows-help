@@ -49,7 +49,7 @@ V systému Windows 10 lze tuto změnu provést následujícím způsobem:
 
 Pokud používáte aplikaci FormIt v systému Windows 10 Pro N verze 1909 nebo novější, může se zobrazit následující chybová zpráva:
 
-\![Soubor FormIt.exe – systémová chyba v systému Windows 10](<../.gitbook/assets/windows 10 error message.png>)
+![Soubor FormIt.exe – systémová chyba v systému Windows 10](<../.gitbook/assets/windows 10 error message.png>)
 
 Důvodem je známý problém s některými verzemi systému Windows 10 Pro N. Chcete-li se této chybě vyhnout, stáhněte si balíček Media Feature Pack pro svou verzi systému Windows 10: [seznam balíčků Media Feature Pack pro verze systému Windows N](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a).
 
