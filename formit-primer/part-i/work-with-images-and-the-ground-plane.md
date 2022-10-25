@@ -22,11 +22,11 @@ _直前のセクションを完了していない場合は、_ _**1.2 - Project 
 
 3 - 正確に **144'** x **96'** の長方形を作成するには、ワークスペース内の任意の場所をクリックして始点を定義し、マウスを動かして最初の辺の長さをプレビューして定義します。寸法の値の入力を開始すると、正確な寸法を入力できるダイアログ ボックスが表示されます。**[OK]** をクリックするか **[Enter]** キーを押して寸法を確定します。このプロセスを繰り返して、2 番目の辺の長さを設定し、長方形を完成させます。
 
-![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+![長方形の最初の辺の長さを入力します。](<../../.gitbook/assets/3 (1).png>)
 
-![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+![長方形の 2 番目の辺の長さを入力します。](<../../.gitbook/assets/4 (1).png>)
 
-![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+![長方形が完成します。](<../../.gitbook/assets/5 (1).png>)
 
 4 - 新しい「Floor Plan」マテリアルを作成するには、次のように操作します。
 
