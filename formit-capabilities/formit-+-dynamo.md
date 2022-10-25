@@ -38,7 +38,7 @@ FormIt + Dynamo を初めて使用する場合は、Dynamo で 3D キャンバ�
 
 [Dynamo]パネルを使用して、Dynamo の起動、Dynamo グループの配置、Dynamo グラフの編集を行います。
 
-![Dynamo panel](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Dynamo のパネル](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **ローカルの Dynamo フォルダを追加および管理する**
 
