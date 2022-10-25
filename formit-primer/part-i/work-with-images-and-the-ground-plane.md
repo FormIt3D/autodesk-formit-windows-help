@@ -22,11 +22,11 @@ O arquivo **plan.png** fornecido é uma imagem de uma planta impressa em uma fol
 
 3 – Para criar um retângulo que seja exatamente **144’** x **96’**, clique em qualquer lugar no espaço de trabalho para definir o ponto inicial e, em seguida, mova o mouse para visualizar e definir o comprimento do primeiro lado. Comece a digitar um valor de cota para acessar uma caixa de diálogo na qual é possível inserir a cota exata. Clique em **OK** ou pressione a tecla **Enter** para confirmar a cota. Repita o processo para definir o comprimento do segundo lado e concluir o retângulo.
 
-![Enter length for rectangle’s first side.](<../../.gitbook/assets/3 (1).png>)
+![Inserir o comprimento do primeiro lado do retângulo.](<../../.gitbook/assets/3 (1).png>)
 
-![Enter length for rectangle’s second side.](<../../.gitbook/assets/4 (1).png>)
+![Inserir o comprimento do segundo lado do retângulo.](<../../.gitbook/assets/4 (1).png>)
 
-![Finish the rectangle.](<../../.gitbook/assets/5 (1).png>)
+![Concluir o retângulo.](<../../.gitbook/assets/5 (1).png>)
 
 4 – Para criar o novo material de “Planta de piso”:
 
