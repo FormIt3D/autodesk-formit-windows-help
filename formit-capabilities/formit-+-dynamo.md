@@ -38,7 +38,7 @@ FormIt + Dynamo를 처음 사용해 보십니까? Dynamo에서 3D 캔버스를 �
 
 Dynamo 패널을 사용하여 Dynamo를 시작하고, Dynamo 그룹을 배치하고, Dynamo 그래프를 편집할 수 있습니다.
 
-![Dynamo panel](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Dynamo 패널](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **로컬 Dynamo 디렉토리 추가 및 관리**
 
