@@ -16,6 +16,6 @@ _この章を完了する必要はありませんが、ここまでのすべて�
 
 2 - 結果を作成済みの書き出しイメージと比較する場合は、**Farnsworth House Data Set > Supporting Files > Images** に移動します。
 
-![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
+![Farnsworth House Data Set からの作成済みサンプルの書き出しイメージ](<../../.gitbook/assets/1 (16).png>)
 
 __
