@@ -10,9 +10,9 @@ _Se você não completou o capítulo anterior, faça o download e abra o arquivo
 2. Passe o mouse sobre o modelo para identificar um plano a ser usado como referência. Observe as setas nos cantos do **Plano de corte** indicando a direção do corte de seção. Pressione a tecla **Tab** para alternar entre diferentes planos, se necessário.
 3. Clique para colocar o **Plano de corte** em qualquer lugar na parede de vidro sul do edifício principal. O plano será dimensionado para o tamanho do modelo e permanecerá selecionado.
 
-![Section plane preview when hovering over the glass wall.](<../../.gitbook/assets/0 (6).png>)
+![Visualização do plano de corte ao passar o cursor sobre a parede de vidro.](<../../.gitbook/assets/0 (6).png>)
 
-![Scaled section plane after being placed.](<../../.gitbook/assets/1 (19) (1).png>)
+![Plano de corte dimensionado após ser inserido.](<../../.gitbook/assets/1 (19) (1).png>)
 
 2 – Com o plano de corte ainda selecionado, clique para começar a movê-lo para trás até que esteja cortando através de parte do edifício principal, similar à imagem abaixo. Isso funciona de forma similar a mover qualquer elemento do modelo, exceto que o plano de corte somente pode se mover ao longo de um eixo perpendicular à direção que está voltada. Quando estiver satisfeito com a posição, pressione **Esc** para limpar a seleção.
 
