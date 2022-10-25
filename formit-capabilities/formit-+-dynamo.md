@@ -38,7 +38,7 @@ Vous utilisez FormIt et Dynamo pour la première fois ? Vous devrez peut-être 
 
 Utilisez le groupe de fonctions Dynamo pour lancer Dynamo, placer des groupes Dynamo et modifier des graphiques Dynamo :
 
-![Dynamo panel](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Groupe de fonctions Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Ajout et gestion de répertoires Dynamo locaux**
 
