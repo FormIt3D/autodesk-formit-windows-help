@@ -49,7 +49,7 @@ Pour modifier ce paramètre dans Windows 10, procédez comme suit :
 
 Si vous exécutez FormIt sous Windows 10 Pro N version 1909 ou ultérieure, le message d’erreur suivant peut s’afficher :
 
-![FormIt.exe System Error on Windows 10](<../.gitbook/assets/windows 10 error message.png>)
+![FormIt.exe Erreur Système sur Windows 10](<../.gitbook/assets/windows 10 error message.png>)
 
 Cela est dû à un problème connu avec certaines versions de Windows 10 Pro N. Pour éviter cette erreur, téléchargez le Feature Pack multimédia pour votre version de Windows 10 à l’adresse suivante : [Liste de Feature Packs multimédias pour les éditions de Windows N](https://support.microsoft.com/en-us/topic/media-feature-pack-list-for-windows-n-editions-c1c6fffa-d052-8338-7a79-a4bb980a700a).
 
