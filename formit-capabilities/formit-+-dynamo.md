@@ -38,7 +38,7 @@ Saiba mais sobre a interface e vincule os diretórios do Dynamo ao FormIt.
 
 Use o painel do Dynamo para iniciar o Dynamo, inserir grupos do Dynamo e editar gráficos do Dynamo:
 
-![Dynamo panel](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Painel do Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Adicionar e gerenciar diretórios locais do Dynamo**
 
