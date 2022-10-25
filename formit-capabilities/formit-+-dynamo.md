@@ -38,7 +38,7 @@ Obtenga más información sobre la interfaz y vincule los directorios de Dynamo 
 
 Utilice el panel de Dynamo para iniciar Dynamo, insertar grupos de Dynamo y editar gráficos de Dynamo:
 
-![Dynamo panel](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Panel de Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Adición y administración de directorios locales de Dynamo**
 
