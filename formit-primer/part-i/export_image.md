@@ -16,6 +16,6 @@ _Embora não seja necessário concluir este capítulo, se você não seguiu todo
 
 2 – Se você desejar comparar os resultados com a imagem de exportação fornecida, vá para **Conjunto de dados da Residência Farnsworth > Arquivos de suporte > Imagens**.
 
-![Provided sample export image from the Farnsworth House Data Set.](<../../.gitbook/assets/1 (16).png>)
+![Imagem de exportação de amostra fornecida do conjunto de dados da Residência Farnsworth.](<../../.gitbook/assets/1 (16).png>)
 
 __
