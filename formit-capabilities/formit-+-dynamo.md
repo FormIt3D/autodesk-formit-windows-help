@@ -38,7 +38,7 @@
 
 Используйте панель Dynamo для запуска Dynamo, размещения групп Dynamo и редактирования графиков Dynamo.
 
-![Dynamo panel](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Панель Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Добавление локальных каталогов Dynamo и управление ими**
 
