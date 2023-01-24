@@ -87,7 +87,7 @@
   * [Orthographic Views](tool-library/orthographic-views.md)
   * [Orthographic and Perspective Camera](tool-library/orthographic-camera.md)
   * [Placing Primitives](tool-library/place-primitive-object.md)
-  * [Plug-Ins](tool-library/plug-ins.md)
+  * [Plugins](tool-library/plug-ins.md)
   * [Polygon](tool-library/polygon.md)
   * [Properties](tool-library/properties.md)
   * [Railing Along Path](tool-library/railing-along-path.md)
