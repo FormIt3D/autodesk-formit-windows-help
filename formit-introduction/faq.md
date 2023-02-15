@@ -85,7 +85,7 @@ The internal codename before FormIt was officially named was XModeler - so the f
 
 **What kind of 3D formats can FormIt import?**
 
-* Windows:  AXM, DWG, FBX, OBJ, SAT, SKP, STL
+* Windows: AXM, DWG, FBX, OBJ, SAT, SKP, STL
 * Web: OBJ, STL
 * iOS: OBJ, STL, SAT
 
@@ -101,12 +101,12 @@ The internal codename before FormIt was officially named was XModeler - so the f
 
 **How does FormIt compare to SketchUp?**
 
-* Better [**interop with Revit**](../tool-library/revit.md) _\*\*_
+* Better [**interop with Revit**](../tool-library/revit.md)
 * [**Dynamo integration**](../tool-library/dynamo.md) for computational design
 * Native tools for [**solar analysis**](../tool-library/solar-analysis.md) and [**energy analysis powered**](../tool-library/energy-analysis.md) by Autodesk Insight
 * A more robust solid modeling kernel that enables advanced modeling operations
 * Native advanced modeling tools like [**Sweep, Cover, Loft**](../tool-library/cover-sweep-loft.md), Offset/Shell Solid, and 3D Blend/Fillet and [**Flatten Faces**](../tool-library/flatten-face.md)
-* Multiple visible [**section planes** ](../tool-library/section-planes.md)
+* Multiple visible [**section planes**](../tool-library/section-planes.md)
 * Diagnostic tools like [**Display Watertight issues and Display Back Faces**](../tool-library/visual-styles.md)
 * [**Export pieces of the model**](../tool-library/export-data.md) based on what is selected and/or visible
 * Native OBJ, SAT, and STL export
@@ -129,6 +129,10 @@ You can start with your Autodesk reseller, or find us on the [FormIt forum](http
 
 * This [forum post](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) covers common login issues
 * If you have a PC with a switchable graphics processor (GPU) it is important to ensure that FormIt always uses the higher performance GPU. Here are instructions for [AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) and [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1)
+
+**What ports are needed for Real Time Collaboration to work?**
+
+Make sure outbound port 443 is open for [collaboration-server.formit.autodesk.com](http://collaboration-server.formit.autodesk.com/).
 
 **What to do if Insight Energy Analysis fails?**
 
