@@ -14,3 +14,6 @@ Editable Edge Properties:
 
 <figure><img src="../.gitbook/assets/EditEdge.png" alt=""><figcaption></figcaption></figure>
 
+<figure><img src="../.gitbook/assets/EditFace (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/EditVertex.png" alt=""><figcaption></figcaption></figure>

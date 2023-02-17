@@ -13,7 +13,7 @@ Run the Intersect command and follow the mode instruction in the upper left of t
 Single-click to select an object to cut into:\
 
 
-<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 Single click to select an object(s) or group(s) to take the intersection with:
 
