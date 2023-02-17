@@ -10,4 +10,4 @@ Start the polygon and click to choose the center point. Specify the radius by dr
 
 **Tool Options** allows you to change the number of sides and specify a particular radius.
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)

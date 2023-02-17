@@ -48,6 +48,6 @@ Try to guess what iconic cities are represented in the following contexts:
 
 ![](<../../.gitbook/assets/image (34).png>)
 
-![](<../../.gitbook/assets/image (13) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
 ![](<../../.gitbook/assets/image (59).png>)

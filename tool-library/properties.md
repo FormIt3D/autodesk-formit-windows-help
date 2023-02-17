@@ -23,3 +23,5 @@ In FormIt 2023 and newer, you can modify properties of a vertex, edge, face, and
 <figure><img src="../.gitbook/assets/EditFace (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Editable solid properties:
+
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
