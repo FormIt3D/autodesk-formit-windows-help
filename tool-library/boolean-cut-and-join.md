@@ -2,7 +2,7 @@
 
 You can cut one object or group from another with the Cut Tool. There are two ways to access the Cut tool:
 
-## Run the Cut command first
+## Boolean Cut from the Toolbar
 
 Keyboard: C G
 
@@ -20,7 +20,7 @@ Single click to select an object(s) or group(s) to be removed:
 
 Click the checkmark to finish the command. The object that was removed remains in the scene. You can delete it or use [Layers ](layers.md)to hide it.
 
-## Select objects first
+## Boolean Cut from the Context Menu
 
 1. Double-click to select the object to be cut into. (Single-click for a Group)
 2. Holding the **CTRL key** double click an overlapping object(s) to cut out.

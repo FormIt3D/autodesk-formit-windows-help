@@ -38,11 +38,11 @@ The standard toolbar is enabled by default, but is split into the following sect
 
 ![](../.gitbook/assets/design\_icons.png)
 
-1. [**Location** ](../tool-library/setting-location.md)
+1. [**Location**](../tool-library/setting-location.md)
 2. [**Sun, Shadows, and Solar Analysis**](../tool-library/solar-analysis.md)
 3. [**Energy Analysis**](../tool-library/energy-analysis.md)
 
-## Palette
+## Palettes
 
 ![](<../.gitbook/assets/properties (1).png>) [**Properties**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
@@ -63,6 +63,12 @@ The standard toolbar is enabled by default, but is split into the following sect
 ![](../.gitbook/assets/undo.png) [**Undo Manager**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
 ![](../.gitbook/assets/plugin\_img.png) [**Plug-Ins**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
+
+### Show/Hide All Palettes
+
+In FormIt 2023 and newer, the palette can be minimized/restored by toggling Show/Hide All Palettes found in the Window menu:
+
+<figure><img src="../.gitbook/assets/ShowHidePalette.png" alt=""><figcaption></figcaption></figure>
 
 ## Context Menu
 

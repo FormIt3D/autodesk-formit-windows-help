@@ -26,7 +26,7 @@ The Script Editor stores written code inside a scratch.js file in the directory 
 
 At the top are two buttons:
 
-**Run** ![](<../../../.gitbook/assets/image (8).png>): Executes all code written in the window.
+**Run** ![](<../../../.gitbook/assets/image (8) (1).png>): Executes all code written in the window.
 
 **Run Selection** ![](<../../../.gitbook/assets/image (52).png>): Executes only the selected/highlighted lines of code.
 

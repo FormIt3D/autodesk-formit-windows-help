@@ -44,7 +44,7 @@ _Note that regenerating the context will replace the group instance containing t
 
 Try to guess what iconic cities are represented in the following contexts:
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 ![](<../../.gitbook/assets/image (34).png>)
 

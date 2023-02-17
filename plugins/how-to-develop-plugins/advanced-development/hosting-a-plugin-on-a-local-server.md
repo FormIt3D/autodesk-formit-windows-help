@@ -8,7 +8,7 @@ You have the option of starting the server inside Visual Studio Code, instead of
 
 View > Terminal (or shortcut Ctrl + \`)
 
-![](<../../../.gitbook/assets/image (11).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### Set Up an HTTP Server
 
@@ -47,7 +47,7 @@ To develop for FormIt Web, simply run the following command instead:
 
 * `http-server --cors`
 
-![](<../../../.gitbook/assets/image (10).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### Verify Your Server
 

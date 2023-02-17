@@ -1,9 +1,9 @@
 # Client-Side vs Web-Side Engines
 
-FormIt plugins utilize two distinct JavaScript engines:&#x20;
+FormIt plugins utilize two distinct JavaScript engines:
 
 * The panel displaying the HTML (Web-Side)
-* The Client-side (FormIt) makes calls to FormIt and its geometry kernel.&#x20;
+* The Client-side (FormIt) makes calls to FormIt and its geometry kernel.
 
 These two JavaScript engines work in distinct processes.
 
@@ -28,7 +28,6 @@ Specified using [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins
         "PLUGINLOCATION/blockFormItSide.js",
         "https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/PluginUtils18_0.js"
     ]
-
 ```
 
 ### Web-side (HTML)
@@ -42,7 +41,7 @@ Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/bl
 
 ### Method 1: FormItInterface.CallMethod
 
-`CallMethod` takes a function name and the arguments that will run on the FormIt Side.  The passed-in function will be called with the result of the function call.
+`CallMethod` takes a function name and the arguments that will run on the FormIt Side. The passed-in function will be called with the result of the function call.
 
 ```
     var args = {
@@ -56,19 +55,19 @@ Specified using[ index.html](https://github.com/FormIt3D/FormItExamplePlugins/bl
     });
 ```
 
-**Pros:**&#x20;
+**Pros:**
 
-➕ No`await` needed.&#x20;
+➕ No`await` needed.
 
-**Cons:**&#x20;
+**Cons:**
 
-➖ A callback is needed to get the result and is called “who knows when”.&#x20;
+➖ A callback is needed to get the result and is called “who knows when”.
 
-➖ Scripts are defined in two different places.&#x20;
+➖ Scripts are defined in two different places.
 
 ➖ Requires plugin logic to be split into two different files.
 
-### **Method 2: FormIt.CallJS**&#x20;
+### **Method 2: FormIt.CallJS**
 
 **\*Available in FormIt 2022.1 and newer only**
 
@@ -82,18 +81,17 @@ var args =
     "h": 10
 };
 var result = await FormIt.CallJS("CreateBlock", args);
-
 ```
 
-**Pros:**&#x20;
+**Pros:**
 
 ➕ The result is available when needed
 
-**Cons:**&#x20;
+**Cons:**
 
-➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.
+➖ \*\*\*\* Have to decorate all the async calls with await, forgetting to do so will mess things up.
 
-➖ **** Potentially slower due to `await`
+➖ \*\*\*\* Potentially slower due to `await`
 
 ### **Method 3 (async/await)**
 
@@ -101,27 +99,27 @@ var result = await FormIt.CallJS("CreateBlock", args);
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-With an async call, the Web Side calls the FormIt Side. This call starts in one process, sent to another process, then the result is passed back to the starting process. This is why await is needed.&#x20;
+With an async call, the Web Side calls the FormIt Side. This call starts in one process, sent to another process, then the result is passed back to the starting process. This is why await is needed.
 
 Only built-in FormIt APIs can be called by default.
 
-**Pros:**&#x20;
+**Pros:**
 
-➕ The result is available when needed.&#x20;
+➕ The result is available when needed.
 
 ➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
 
-**Cons:**&#x20;
+**Cons:**
 
-➖ **** Have to decorate all the async calls with `await`, forgetting to do so will mess things up.&#x20;
+➖ \*\*\*\* Have to decorate all the async calls with `await`, forgetting to do so will mess things up.
 
-➖ **** Potentially slower due to `await.`
+➖ \*\*\*\* Potentially slower due to `await.`
 
-### Method 4 (RegisterAsyncAPI)&#x20;
+### Method 4 (RegisterAsyncAPI)
 
-**\*Available in FormIt 2023.0 and newer only**&#x20;
+**\*Available in FormIt 2023.0 and newer only**
 
-To call a user defined function on the FormIt Side, the function needs to be registered. For example:&#x20;
+To call a user defined function on the FormIt Side, the function needs to be registered. For example:
 
 **Client-Side (FormIt)**
 
@@ -140,18 +138,18 @@ HelloBlockAsync.CreateBlock = function(args)
 var result = await HelloBlockAsync.CreateBlock(l, w, h);
 ```
 
-See [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0)  for an example.
+See [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0) for an example.
 
-**Pros:**&#x20;
+**Pros:**
 
-➕ The result is available when needed.&#x20;
+➕ The result is available when needed.
 
 ➕ Allows combining all code into one JS file run from the web side, with no scripts defined in manifest.json.
 
-**Cons:**&#x20;
+**Cons:**
 
-➖ **** Have to decorate all the async calls with await, forgetting to do so will mess things up.&#x20;
+➖ \*\*\*\* Have to decorate all the async calls with await, forgetting to do so will mess things up.
 
-➖ **** Potentially slower due to `await.`
+➖ \*\*\*\* Potentially slower due to `await.`
 
 ##

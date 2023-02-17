@@ -2,7 +2,7 @@
 
 You can join one object or group into another with the Join tool. There are two ways to access the Join tool:
 
-## Run the Join command first
+## Boolean Join from the Toolbar
 
 Keyboard: J G
 
@@ -20,7 +20,7 @@ Single-click to select an object or group to be joined.
 
 Click the checkmark to finish the command.
 
-## Select objects first
+## Boolean Join from the Context Menu
 
 1. Double-click to select the object to be joined (single click for a group).
 2. Holding the **CTRL key,** double click an overlapping object you want to join with the first object.

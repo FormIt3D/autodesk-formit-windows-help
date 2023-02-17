@@ -6,16 +6,16 @@ The Measure Angle tool is used to measure angles between vertices, edges, faces,
 
 *   From the **Measure** toolbar menu, select the **Measure Angle** tool or use the keyboard shortcut **M A** and select a starting point.
 
-    ![](../.gitbook/assets/measure-angle.png)
+    <img src="../.gitbook/assets/measure-angle.png" alt="" data-size="original">
 *   Click and drag the handle to the starting vertex.
 
-    ![](../.gitbook/assets/measure-angle2.png)
+    <img src="../.gitbook/assets/measure-angle2.png" alt="" data-size="original">
 *   Use the arrows to measure the angle between one point to another.
 
-    ![](../.gitbook/assets/measure-angle4.png)
+    <img src="../.gitbook/assets/measure-angle4.png" alt="" data-size="original">
 *   To change the geometry, click on an edge or face and enter a new angle value by clicking on the displayed angle.
 
-    ![](<../.gitbook/assets/measure-angle3 (1).png>)
+    <img src="../.gitbook/assets/measure-angle3 (1).png" alt="" data-size="original">
 *   Your changes or measurements display:
 
-    ![](../.gitbook/assets/measure-angle5.png)
+    <img src="../.gitbook/assets/measure-angle5.png" alt="" data-size="original">

@@ -14,7 +14,7 @@ FormIt will [AutoSave your work](../tool-library/autosave.md) once you start mak
 
 *   Units:
 
-    ![](../.gitbook/assets/formit\_units.png)
+    <img src="../.gitbook/assets/formit_units.png" alt="" data-size="original">
 
     * Setting this will affect the units in all tools and imported geometry, like Dynamo and unitless file types like STL.
 * Snap to Grid:
@@ -24,7 +24,7 @@ FormIt will [AutoSave your work](../tool-library/autosave.md) once you start mak
 * Hide Context/Show Edited Group Only:
   * This affects whether editing a Group will show its surroundings or not. You can easily change this setting using the shortcut (H). Toggling H while modeling in and out of Groups allows you to view Groups both in isolation and in context as needed.
 * Preselection Highlight:
-  * By default, FormIt will "preselect" objects when you hover over them. This is useful to ensure the object you want to select is the object you get, but can be distracting when presenting a design. Use this option or the shortcut to quickly toggle back and forth between showing and hiding preselection highlight as necessary. Note that this option needs to be enabled to use features like [Smart Selection](https://www.youtube.com/watch?v=akLeB1FADt4).&#x20;
+  * By default, FormIt will "preselect" objects when you hover over them. This is useful to ensure the object you want to select is the object you get, but can be distracting when presenting a design. Use this option or the shortcut to quickly toggle back and forth between showing and hiding preselection highlight as necessary. Note that this option needs to be enabled to use features like [Smart Selection](https://www.youtube.com/watch?v=akLeB1FADt4).
 
 ## Touch Mode
 

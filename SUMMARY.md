@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [What's New](https://formit.autodesk.com/page/release-notes#release-notes-windows)
+* [Page 1](page-1.md)
 * [FormIt Capabilities](formit-capabilities/README.md)
   * [Multiple Clients](formit-capabilities/multiple-clients.md)
   * [Conceptual Solid Modeling](formit-capabilities/conceptual-modeling.md)
@@ -56,6 +57,7 @@
   * [Array Along Path](tool-library/array-along-path.md)
   * [AutoSave](tool-library/autosave.md)
   * [Boolean Cut](tool-library/boolean-cut-and-join.md)
+  * [Boolean Intesect](tool-library/boolean-cut-and-join-1.md)
   * [Boolean Join](tool-library/join.md)
   * [Circle](tool-library/circle-tool.md)
   * [Collaboration](tool-library/collaboration.md)

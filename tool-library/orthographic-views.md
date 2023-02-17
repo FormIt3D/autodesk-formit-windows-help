@@ -17,11 +17,11 @@ You'll find orthographic views in the View menu, by clicking the Orthographic ic
 
     * Use shortcut SZ, or right-click in space (not over any geometry):
 
-    ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes_context.PNG" alt="" data-size="original">
 
     * Set the origin, and set the grip on the red axes to align it with a meaningful direction
 
-    ![](../.gitbook/assets/set-axes.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes.PNG" alt="" data-size="original">
 
 **Orthographic views work in conjunction with other FormIt features:**
 

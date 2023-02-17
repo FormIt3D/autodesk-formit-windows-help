@@ -1,6 +1,6 @@
 # General Plugin Setup in the Manifest
 
-FormIt plugins are composed of a key core component called a _manifest.json_ file.&#x20;
+FormIt plugins are composed of a key core component called a _manifest.json_ file.
 
 The manifest file is a [JSON object](http://www.json.org) that tells the FormIt infrastructure what files to fetch and what kind of plugin to create.
 
@@ -29,7 +29,7 @@ A typical plugin includes these JSON properties:
 * "PluginDescription" is displayed in the [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) to communicate the plugin's capabilities.
 * "Scripts" lists the required external scripts associated with the plugin that will be loaded into the FormIt application and can be executed when plugin functionality is invoked.
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 Start your plugin development by creating a manifest.json file in your plugin folder. Next, you'll need to decide whether you are making a toolbar-based or panel-based plugin.
 
