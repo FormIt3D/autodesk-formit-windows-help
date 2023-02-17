@@ -1,4 +1,4 @@
-# Boolean Intesect
+# Boolean Intersect
 
 You can cut out the intersection of two objects or groups with the Intersect Tool. There are two ways to access the Intersect tool:
 
@@ -10,15 +10,19 @@ Keyboard: I G
 
 Run the Intersect command and follow the mode instruction in the upper left of the screen
 
-Single-click to select an object to cut into:
+Single-click to select an object to cut into:\
 
-![](../.gitbook/assets/Intersect1.png)
+
+<figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 Single click to select an object(s) or group(s) to take the intersection with:
 
-![](<../.gitbook/assets/Intersect2 (1).png>)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Click the checkmark to finish the command. The first object is replaced with the intersection of the selected geometry.
+Click the checkmark to finish the command. The first object will be replaced with the intersection of the selected geometry. You can delete the object object if you don't need it!\
+
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## Intersect from the Context Menu
 
