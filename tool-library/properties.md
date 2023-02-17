@@ -10,10 +10,14 @@ Using the Properties Palette, you can edit the group of an object, assign an obj
 
 If you have an edge, face, or vertex selected you will be able to modify the size and/or location using the Properties Palette.
 
-Editable Edge Properties:
+#### Editable vertex properties:
+
+<figure><img src="../.gitbook/assets/EditVertex.png" alt=""><figcaption></figcaption></figure>
+
+#### Editable edge properties:
 
 <figure><img src="../.gitbook/assets/EditEdge.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/EditFace (1).png" alt=""><figcaption></figcaption></figure>
+#### Editable face properties:
 
-<figure><img src="../.gitbook/assets/EditVertex.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/EditFace (1).png" alt=""><figcaption></figcaption></figure>
