@@ -28,6 +28,6 @@ You'll see a few grips appear:
 * The grip along the edge controls the radius of the circle
 * The grip at the top controls the normal/orientation of the circle
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
 
 To complete the edit, exit the tool by clicking into empty space or hitting ESC.  The new circle will replace the current circle.
