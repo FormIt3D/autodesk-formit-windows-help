@@ -57,7 +57,7 @@
   * [Array Along Path](tool-library/array-along-path.md)
   * [AutoSave](tool-library/autosave.md)
   * [Boolean Cut](tool-library/boolean-cut-and-join.md)
-  * [Boolean Intesect](tool-library/boolean-cut-and-join-1.md)
+  * [Boolean Intersect](tool-library/boolean-intersect.md)
   * [Boolean Join](tool-library/join.md)
   * [Circle](tool-library/circle-tool.md)
   * [Collaboration](tool-library/collaboration.md)
