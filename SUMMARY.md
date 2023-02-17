@@ -89,7 +89,7 @@
   * [Orthographic Views](tool-library/orthographic-views.md)
   * [Orthographic and Perspective Camera](tool-library/orthographic-camera.md)
   * [Placing Primitives](tool-library/place-primitive-object.md)
-  * [Place Vertex](tool-library/place-primitive-object-1.md)
+  * [Place Vertex](tool-library/place-vertex.md)
   * [Plugins](tool-library/plug-ins.md)
   * [Polygon](tool-library/polygon.md)
   * [Properties](tool-library/properties.md)
