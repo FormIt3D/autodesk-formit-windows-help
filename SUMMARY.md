@@ -2,7 +2,6 @@
 
 * [Introduction](README.md)
 * [What's New](https://formit.autodesk.com/page/release-notes#release-notes-windows)
-* [Page 1](page-1.md)
 * [FormIt Capabilities](formit-capabilities/README.md)
   * [Multiple Clients](formit-capabilities/multiple-clients.md)
   * [Conceptual Solid Modeling](formit-capabilities/conceptual-modeling.md)
