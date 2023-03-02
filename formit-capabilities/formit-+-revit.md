@@ -8,6 +8,12 @@ FormIt for Windows connects directly to Revit for seamless communication between
 
 ## What's New With FormIt + Revit <a href="#revit-what-s-new" id="revit-what-s-new"></a>
 
+### **FormIt 2023.1 Improvements** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
+
+* Location set in Revit is now synced to FormIt when launched via the 3D Sketch button.
+* Improved sync of DWG linework when FormIt is launched via the 3D Sketch button.
+* Optional syncing of camera between FormIt and Revit when in 3D Sketch or editing a linked FormIt object.
+
 ### The Power of Linking for 2023 <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
 
 * Link a FormIt model (AXM format) to Revit by using the _**Link CAD**_ button in Revit's Insert tab.
