@@ -13,15 +13,15 @@ Orthogonale Ansichten werden im Menü Ansicht angezeigt, indem Sie auf das Symbo
 * Beim Wechseln zwischen orthogonalen Ansichten behält FormIt den Zoomfaktor aus Konsistenzgründen bei.
 * Beim Wechseln der Ansichten (vorne/rechts/links/hinten) behält FormIt die Bodenhöhe aus Konsistenzgründen bei.
 * Sie können die UMSCHALTTASTE beim Schwenken in einer orthogonalen Ansicht gedrückt halten, um die Schwenkbewegung auf die horizontale oder vertikale Achse zu beschränken.
-* Orthogonale Ansichtsrichtungen basieren auf den Weltachsen. Sie können die Achsen neu ausrichten, wodurch sich die Ausrichtungen aller orthogonalen Ansichten ändern:
+*   Orthogonale Ansichtsrichtungen basieren auf den Weltachsen. Sie können die Achsen neu ausrichten, wodurch sich die Ausrichtungen aller orthogonalen Ansichten ändern:
 
-   * Verwenden Sie den Kurzbefehl SZ, oder klicken Sie mit der rechten Maustaste in den Raum (nicht über Geometrie):
+    * Verwenden Sie den Kurzbefehl SZ, oder klicken Sie mit der rechten Maustaste in den Raum (nicht über Geometrie):
 
-   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes_context.PNG" alt="" data-size="original">
 
-   * Legen Sie den Ursprung und den Griff an den roten Achsen fest, um ihn in einer sinnvollen Richtung auszurichten.
+    * Legen Sie den Ursprung und den Griff an den roten Achsen fest, um ihn in einer sinnvollen Richtung auszurichten.
 
-   ![](../.gitbook/assets/set-axes.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes.PNG" alt="" data-size="original">
 
 **Orthogonale Ansichten können mit anderen FormIt-Funktionen verwendet werden:**
 

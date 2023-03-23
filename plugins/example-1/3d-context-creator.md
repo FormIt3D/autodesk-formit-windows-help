@@ -1,53 +1,53 @@
 # 3D Context Creator
 
-![](../../.gitbook/assets/contextcreator1.gif)
+\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
-## Was bedeutet der Analysetyp?
+## Worum handelt es sich?
 
-3D Context Creator ist ein sehr benutzerfreundliches Plugin, mit dem Sie schnell 3D-Kontext in FormIt erstellen können. Dieses Plugin unterstützt Sie bei Folgendem:
+3D Context Creator ist ein benutzerfreundliches Plugin, mit dem Gebäude im 3D-Kontext in FormIt erstellt werden können. 
 
-* Visualisieren Ihres Projektstandorts mit dem Umgebungskontext
-* Treffen fundierter Entscheidungen, besonders in der frühen Phase des Entwurfsprozesses
-* Steht für alle Benutzer von FormIt kostenlos zum Herunterladen zur Verfügung&#x20;
+Dieses Plugin kann Ihnen helfen, Ihren Projektstandort im Umgebungskontext zu visualisieren und bereits in der frühen Phase des Entwurfsprozesses fundierte Entscheidungen zu treffen.
 
-Dieses Plugin ruft Daten aus [Open Street Map](https://www.openstreetmap.org/about) ab, um sie in FormIt-Geometrien zu transformieren. Der Quellcode für dieses Plugin ist verfügbar bei [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+Das Plugin ruft Daten aus [Open Street Map](https://www.openstreetmap.org/about) ab, um sie in FormIt-Geometrien zu transformieren. Der Quellcode für dieses Plugin ist auf [Github](https://github.com/matterlab-co/FormIt-Context-Plugin) verfügbar.
 
-## Wie wird sie verwendet?
+## Wie wird es verwendet?
 
-Um es zu installieren, aktivieren Sie einfach, wie bei jedem anderen Plugin, den Schalter des Plugins.
+Um es zu installieren, aktivieren Sie einfach den Schalter des Plugins im Plugin-Manager, wie Sie es bei jedem anderen Plugin tun würden.
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
 Nach dem Aktivieren sollte das Plugin auf der rechten Seite der App angezeigt werden und einsatzbereit sein.
 
-![](../../.gitbook/assets/formitUI.PNG)
+\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
-Bevor Sie das Plugin verwenden, legen Sie zunächst den Grundstücksstandort im Hauptwerkzeugkasten von FormIt fest.
+Wenn Ihr Gebiet noch keinen Standort hat, können Sie auf die Verknüpfung **Standort festlegen...** klicken, um einen Standort festzulegen und die Begrenzung zu definieren, die zum Erstellen von 3D-Kontext verwendet wird.
 
-![](<../../.gitbook/assets/image (76).png>)
+Nachdem Sie Ihren Standort festgelegt haben, wird der 3D Context Creator mit dem aktuellen Standort aktualisiert, und die Schaltfläche wird aktiviert:
 
-Suchen Sie nach dem Grundstücksstandort, und klicken Sie dann auf Satellitenbilder und Gelände importieren.
+\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
-![](<../../.gitbook/assets/image (77).png>)
+Der 3D Context Creator verwendet einfach die Grenzen des Satellitenbilds, um 3D-Kontext zu generieren. Sie müssen nur auf **Generate 3D Context** (3D-Kontext generieren) klicken.
 
-Nachdem das Satellitenbild erfolgreich in Ihr FormIt-Projekt importiert wurde, navigieren Sie zum Plugin 3D Context Creator.
+Je nach den Grenzen des Satellitenbilds und der Komplexität der Gebäude kann die Erstellung einige Sekunden dauern.
 
-Passen Sie den Schieberegler für den quadratischen Radius an, um den Abstand (in Metern) des Kontexts vom Positionspunkt zu vergrößern.
+Die Gebäude im 3D-Kontext werden automatisch in ein Gruppenexemplar eingefügt und auf einem Layer mit der Bezeichnung "Context Buildings" platziert. Sie können die Sichtbarkeit des Kontexts mit diesem Layer umschalten.
 
-![](../../.gitbook/assets/contextcreator7.png)
+\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-Klicken Sie auf die Schaltfläche Erstellen. Und das war's schon!
+\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
-Wenn Sie mit den Einstellungen zufrieden sind, klicken Sie auf die Schaltfläche Erstellen. Je nach Größe und Komplexität des angegebenen Radius kann es einen Moment dauern, bis die Gebäudeformen verarbeitet sind.
+Wenn Sie später beschließen, Ihren Standort zu ändern oder den Umfang des Satellitenbilds anzupassen, können Sie erneut auf **Generate 3D Context** (3D-Kontext generieren) klicken, um die Gebäude neu zu generieren. 
+
+_Beachten Sie, dass durch die Neugenerierung des Kontexts das Gruppenexemplar mit den Gebäuden durch ein neues Exemplar ersetzt wird, sodass alle bisherigen Änderungen an den Gebäuden verloren gehen._ Um dies zu verhindern, können Sie die Gruppierung des Kontextcontainers aufheben und ihn anschließend erneut gruppieren.
 
 ## **Einige Beispiele**
 
 Versuchen Sie zu erraten, welche symbolträchtigen Städte in den folgenden Kontexten dargestellt werden:
 
-![](<../../.gitbook/assets/image (2).png>)
+\![](<../../.gitbook/assets/image (2) (1).png>)
 
-![](<../../.gitbook/assets/image (34).png>)
+\![](<../../.gitbook/assets/image (34).png>)
 
-![](<../../.gitbook/assets/image (13).png>)
+\![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (59).png>)
+\![](<../../.gitbook/assets/image (59).png>)

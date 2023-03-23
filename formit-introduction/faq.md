@@ -1,6 +1,6 @@
 # Häufig gestellte Fragen
 
-## Info zu FormIt
+## FormIt
 
 **Was sind FormIt und FormIt Pro?**
 
@@ -14,22 +14,22 @@ FormIt-Funktionen:
 * Materialien aus der Autodesk-Materialbibliothek
 * Modellorganisations- und Sichtbarkeitswerkzeuge wie Gruppen, Layer und Szenen
 * Analysewerkzeuge, darunter:
-   * Dichtheits- und Rückseitenprüfung für Volumenmodelldiagnose und -reparatur
-   * Sonne und Schatten
-   * Sonnenstudie
-   * Energieanalyse
+  * Dichtheits- und Rückseitenprüfung für Volumenmodelldiagnose und -reparatur
+  * Sonne und Schatten
+  * Sonnenstudie
+  * Energieanalyse
 * Autodesk-Produktintegration:
-   * BIM 360 Docs
-   * Insight (Energieanalyse)
-   * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
-   * [Revit](https://formit.autodesk.com/page/formit-revit)
+  * BIM 360 Docs
+  * Insight (Energieanalyse)
+  * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
+  * [Revit](https://formit.autodesk.com/page/formit-revit)
 * Unterstützung von Dateiformaten:
-   * Öffnen/Importieren
-      * AXM, DWG, FBX, SAT, STL, OBJ, WSM, SketchUp, Image
-   * Exportieren
-      * AXM, FBX, OBJ, STL, SAT, DAE, DXF
+  * Öffnen/Importieren
+    * AXM, DWG, FBX, SAT, STL, OBJ, WSM, SketchUp, Image
+  * Exportieren
+    * AXM, FBX, OBJ, STL, SAT, DAE, DXF
 
-FormIt ist kostenlos unter [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) und [in Ihrem Browser](https://app.formit.autodesk.com) verfügbar. Ein **FormIt Pro**-Abonnement ist erforderlich, um [FormIt for Windows](https://formit.autodesk.com/page/download), die leistungsstärkste und funktionsreichste Version von FormIt, zu verwenden. Das **FormIt Pro**-Abonnement bietet außerdem zusätzliche Funktionen für iOS und das Web, wie z. B. Solar- und Energieanalysen. **FormIt Pro** ist in der [Autodesk AEC Collection](https://www.autodesk.de/collections/architecture-engineering-construction/overview) enthalten.
+FormIt ist kostenlos auf [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) und [in Ihrem Browser](https://app.formit.autodesk.com) verfügbar. Ein **FormIt Pro**-Abonnement ist erforderlich, um [FormIt für Windows](https://formit.autodesk.com/page/download) zu nutzen, die leistungsstärkste und funktionsreichste Version von FormIt. Das **FormIt Pro**-Abonnement bietet außerdem zusätzliche Funktionen für iOS und das Web, wie z. B. Solar- und Energieanalysen. **FormIt Pro** ist in der [Autodesk AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview) enthalten.
 
 **Was ist mit FormIt for Android passiert?**
 
@@ -37,7 +37,7 @@ Um das Produktangebot von FormIt zu optimieren, haben wir die schwere Entscheidu
 
 **Wie erhalte ich FormIt?**
 
-Um die Windows-Version auszuführen, müssen Sie Zugriff auf **FormIt Pro** haben, das Teil unseres Abonnements der [AEC Industry Collection](https://www.autodesk.de/collections/architecture-engineering-construction/overview) ist. Wenn Sie in Ihrem Büro mit Revit arbeiten, haben Sie wahrscheinlich bereits Zugriff auf FormIt. Sie können [FormIt for Windows direkt von unserer Website](https://formit.autodesk.com/page/download) oder über die Autodesk Desktop-App herunterladen.
+Um die Windows-Version auszuführen, müssen Sie Zugriff auf **FormIt Pro** haben, das Teil unseres [AEC Industry Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview)-Abonnements ist. Wenn Sie in Ihrem Büro mit Revit arbeiten, haben Sie wahrscheinlich bereits Zugriff auf FormIt. Sie können [FormIt für Windows direkt von unserer Website herunterladen](https://formit.autodesk.com/page/download) oder über die Autodesk Desktop-App.
 
 Darüber hinaus kann die Web-Version direkt und kostenlos über unsere Website [http://formit.autodesk.com](http://formit.autodesk.com) ausgeführt werden.
 
@@ -45,7 +45,7 @@ Die iOS-Version kann kostenlos aus dem Apple App Store (nur iPad) heruntergelade
 
 **Erhalte ich als Schüler, Student oder Lehrkraft kostenlosen Zugriff auf FormIt Pro?**
 
-Ja. Sie können über das [Autodesk Education Portal](https://www.autodesk.de/education/edu-software/overview?sorting=featured&page=1) auf das FormIt Pro-Abonnement zugreifen.
+Ja. Sie können auf das FormIt Pro-Abonnement über das [Autodesk Education Portal](https://www.autodesk.com/education/free-software/formit-pro) zugreifen.
 
 **Wie lerne ich den Umgang mit FormIt?**
 
@@ -53,7 +53,7 @@ Am besten beginnen Sie mit dem [FormIt-Einführungslernprogramm](../formit-prime
 
 Es gibt mehrere Abschnitte in der Einführung für Einsteiger (Erstellen eines kompletten modernen Hauses) oder Fortgeschrittene (erweiterte Verwendung von Revit und Dynamo).
 
-In unserer FormIt-Webinarserie am Freitag finden Sie außerdem mehr als 20 Videos. Diese finden Sie in unserem [YouTube-Kanal](https://www.youtube.com/channel/UCdZJr6Bo4pwBu3lQqcxlDsw).
+In unserer FormIt-Webinarserie am Freitag finden Sie außerdem mehr als 20 Videos. Diese finden Sie auf unserem [YouTube-Kanal](https://www.youtube.com/channel/UCdZJr6Bo4pwBu3lQqcxlDsw).
 
 ## Arbeiten mit Revit
 
@@ -65,9 +65,9 @@ FormIt ist eine separate 3D-Skizzier- und -Entwurfsanwendung. Die erstellten Dat
 
 Ab Version 2016 ist Revit mit einem Zusatzmodul für die Arbeit mit FormIt-Daten ausgestattet. Wenn Sie eine FormIt-AXM-Datei in Revit importieren, durchsucht dieses Zusatzmodul alle Objekte in der Datei und erstellt sie mithilfe der API in Revit neu. Vorgabemäßig werden alle Elemente in FormIt als Körper kategorisiert.
 
-Der FormIt-Konverter erstellt mithilfe der [API DirectShape](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html) aus jedem Körperobjekt eine Körperfamilie in Revit.
+Der FormIt-Konverter erstellt mithilfe der [DirectShape-API](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/DEU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html) aus jedem Körperobjekt eine Körperfamilie in Revit.
 
-DirectShape ist ein nicht bearbeitbares Objekt, das in IFC-Arbeitsabläufen verwendet wird. Obwohl es nicht bearbeitet werden kann, bietet es den Vorteil, dass die vollständigen Materialtexturen zwischen FormIt und Revit übertragen werden. [In diesem Lernprogramm](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html) wird der Arbeitsablauf für die Übertragung von FormIt in Revit ausführlicher erläutert.
+DirectShape ist ein nicht bearbeitbares Objekt, das in IFC-Arbeitsabläufen verwendet wird. Obwohl es nicht bearbeitet werden kann, bietet es den Vorteil, dass die vollständigen Materialtexturen zwischen FormIt und Revit übertragen werden. [In diesem Lernprogramm](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html) wird der Arbeitsablauf von FormIt zu Revit ausführlicher erläutert.
 
 **Können in FormIt Wände, Geschossdecken und andere Revit-Systemfamilien erstellt werden?**
 
@@ -101,12 +101,12 @@ Der interne Codename von FormIt vor Vergabe des offiziellen Namens lautete XMode
 
 **Wie lässt sich FormIt mit SketchUp vergleichen?**
 
-* Bessere [**Interoperabilität mit Revit**](../tool-library/revit.md) _\*\*_
+* Bessere [**Interoperabilität mit Revit**](../tool-library/revit.md)
 * [**Integration von Dynamo**](../tool-library/dynamo.md) für Computational Design
 * Native Werkzeuge für [**Solaranalysen**](../tool-library/solar-analysis.md) und [**Energieanalysen**](../tool-library/energy-analysis.md) mit Autodesk Insight
 * Robusterer Kernel für die Volumenkörpermodellierung, der erweiterte Modellierungsoperationen ermöglicht
 * Native erweiterte Modellierungswerkzeuge wie [**Sweep, Abdeckung, Erhebung**](../tool-library/cover-sweep-loft.md), Volumenkörper versetzen/einhüllen, 3D-Übergang/-Rundung und [**Flächen abflachen**](../tool-library/flatten-face.md)
-* Mehrere sichtbare [**Schnittebenen** ](../tool-library/section-planes.md)
+* Mehrere sichtbare [**Schnittebenen**](../tool-library/section-planes.md)
 * Diagnosewerkzeuge wie [**Anzeige: Dichtheitsprobleme und Anzeige: Rückseiten**](../tool-library/visual-styles.md)
 * [**Exportieren von Teilen des Modells**](../tool-library/export-data.md) basierend auf der Auswahl und/oder Sichtbarkeit
 * Nativer OBJ-, SAT- und STL-Export
@@ -123,12 +123,16 @@ Ja. In FormIt können 2D- und 3D-DWG-Dateien importiert werden.
 
 **Wie erhalte ich Support?**
 
-Sie können Ihren Autodesk-Fachhändler fragen oder sich über das [FormIt-Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=de) an uns wenden. Suchen Sie am besten zuerst nach der Frage, die Sie haben, und wenn sie noch nicht beantwortet wurde, posten Sie ein neues Thema. Das FormIt-Team antwortet Ihnen dann.
+Sie können Ihren Autodesk-Fachhändler fragen oder sich über das [FormIt-Forum](https://forums.autodesk.com/t5/formit-forum/bd-p/142) an uns wenden. Suchen Sie am besten zuerst nach der Frage, die Sie haben, und wenn sie noch nicht beantwortet wurde, posten Sie ein neues Thema. Das FormIt-Team antwortet Ihnen dann.
 
 **Was muss ich tun, wenn ich mich nicht anmelden kann?**
 
-* In diesem [Forums-Post](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=de) werden häufige Probleme bei der Anmeldung behandelt.
-* Wenn Sie einen PC mit einem schaltbaren Grafikprozessor (GPU) haben, müssen Sie sicherstellen, dass FormIt immer die GPU mit höherer Leistung verwendet. Hier finden Sie Anweisungen für [AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) und [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1) zu finden.
+* Dieser [Forumseintrag](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) behandelt häufige Probleme bei der Anmeldung
+* Wenn Sie einen PC mit einem schaltbaren Grafikprozessor (GPU) haben, müssen Sie sicherstellen, dass FormIt immer die GPU mit höherer Leistung verwendet. Hier finden Sie die Anweisungen für [AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) und [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1).
+
+**Welche Ports sind für die Zusammenarbeit in Echtzeit erforderlich?**
+
+Stellen Sie sicher, dass der ausgehende Port 443 für [collaboration-server.formit.autodesk.com](http://collaboration-server.formit.autodesk.com/) geöffnet ist.
 
 **Was tun, wenn die Insight-Energieanalyse fehlschlägt?**
 

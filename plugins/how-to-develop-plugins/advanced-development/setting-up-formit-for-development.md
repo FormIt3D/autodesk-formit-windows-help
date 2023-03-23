@@ -26,9 +26,9 @@ Der Skript-Editor speichert geschriebenen Code in der Datei scratch.js in dem Ve
 
 Oben befinden sich zwei Schaltflächen:
 
-**Ausführen** ![](<../../../.gitbook/assets/image (8).png>): Führt den gesamten im Fenster geschriebenen Code aus.
+**Ausführen** \![](<../../../.gitbook/assets/image (8) (1).png>): Führt den gesamten im Fenster geschriebenen Code aus.
 
-**Auswahl ausführen** ![](<../../../.gitbook/assets/image (52).png>): Nur die ausgewählten/hervorgehobenen Codezeilen werden ausgeführt.
+**Auswahl ausführen** \![](<../../../.gitbook/assets/image (52).png>): Nur die ausgewählten/hervorgehobenen Codezeilen werden ausgeführt.
 
 ### **Skriptausgabe**
 
@@ -42,7 +42,7 @@ Nach dem [Klonen eines Repositorys](cloning-a-sample-plugin.md) und dem [Einrich
 
 Sie können jedes beliebige Plugin laden oder installieren. Für diese Übung installieren Sie jedoch sowohl ein gruppenbasiertes als auch ein werkzeugkastenbasiertes Plugin. Es wird davon ausgegangen, dass Ihr http-server von npm an Anschluss 8080 ausgeführt wird, der beide Beispiel-Repositorys hostet.
 
-### **Laden im Vergleich zum Installieren**
+### **Laden im Vergleich zu Installieren**
 
 `FormIt.LoadPlugin();` lädt das Plugin nur für die aktuelle Sitzung. Das Plugin wird automatisch entfernt, wenn die App geschlossen und neu gestartet wird.
 
@@ -52,7 +52,7 @@ Dies ist eine gute Möglichkeit, ein Plugin vorübergehend nur für Tests in der
 
 Unter Windows werden die folgenden Registrierungsschlüssel verwendet, um Plugins dauerhaft beizubehalten:
 
-* Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Plugins: Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
 Verwenden Sie `FormIt.UninstallPlugin();` zum Deinstallieren.
 
@@ -66,7 +66,7 @@ Wenn Sie einen lokalen Server ausführen:
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-Beim Laden aus dem [FormIt-GitHub-Repository](https://github.com/FormIt3D/) (Internetverbindung erforderlich):
+Beim Laden aus dem [FormIt GitHub-Repository](https://github.com/FormIt3D/) (Internetverbindung erforderlich):
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
@@ -82,7 +82,7 @@ Wenn Sie einen lokalen Server ausführen:
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-Beim Laden aus dem [FormIt-GitHub-Repository](https://github.com/FormIt3D/) (Internetverbindung erforderlich):
+Beim Laden aus dem [FormIt GitHub-Repository](https://github.com/FormIt3D/) (Internetverbindung erforderlich):
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
@@ -101,7 +101,7 @@ Wenn Sie einen lokalen Server ausführen:
 * Modusabhängig: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
 * Modusunabhängig: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-Beim Laden aus dem [FormIt-GitHub-Repository](https://github.com/FormIt3D/) (Internetverbindung erforderlich):
+Beim Laden aus dem [FormIt GitHub-Repository](https://github.com/FormIt3D/) (Internetverbindung erforderlich):
 
 * Modusabhängig: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
 * Modusabhängig: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
