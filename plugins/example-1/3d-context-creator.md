@@ -1,53 +1,53 @@
 # 3D Context Creator
 
-![](../../.gitbook/assets/contextcreator1.gif)
+\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## Présentation
 
-3D Context Creator est un plug-in très facile à utiliser qui permet de générer rapidement du contexte 3D dans FormIt. Ce plug-in présente plusieurs avantages :
+3D Context Creator est un plug-in facile à utiliser qui permet de générer des bâtiments en contexte en 3D dans FormIt. 
 
-* Visualisez le site de votre projet dans son contexte.
-* Prenez des décisions éclairées, en particulier dès les premières phases du processus de conception.
-* Son téléchargement est gratuit pour tous les utilisateurs de FormIt.&#x20;
+Ce plug-in vous permet de visualiser le site du projet dans son contexte et de prendre des décisions avisées dès les premières phases du processus de conception.
 
-Ce plug-in récupère des données d’[Open Street Map](https://www.openstreetmap.org/about) pour les transformer en géométries FormIt. Le code source de ce plug-in est disponible sur [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+Ce plug-in récupère des données d’[Open Street Map](https://www.openstreetmap.org/about) pour les transformer en géométries FormIt. Le code source de ce plug-in est disponible sur [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).
 
 ## Fonctionnement
 
-Pour l’installer, il suffit d’activer le bouton de basculement du plug-in, comme vous le feriez avec n’importe quel autre plug-in.
+Pour l’installer, il suffit de l’activer sur le bouton du plug-in dans le gestionnaire de plug-in comme avec n’importe quel autre plug-in.
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
 Une fois activé, le plug-in doit apparaître sur le côté droit de l’application et être prêt à l’emploi.
 
-![](../../.gitbook/assets/formitUI.PNG)
+\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
-Avant d’utiliser le plug-in, commencez par définir l’emplacement de votre site via la barre d’outils principale de FormIt.
+Si votre site ne dispose pas encore d’un emplacement, vous pouvez cliquer sur le lien **Définir l’emplacement...** pour spécifier un emplacement et définir la limite qui sera utilisée pour générer un contexte 3D.
 
-![](<../../.gitbook/assets/image (76).png>)
+Une fois que vous avez défini votre emplacement, l’outil 3D Context Creator est mis à jour avec l’emplacement actuel et le bouton est activé :
 
-Recherchez l’emplacement de votre site, puis cliquez sur Importer une image satellite et un terrain.
+\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
-![](<../../.gitbook/assets/image (77).png>)
+L’outil 3D Context Creator utilisera simplement les dimensions de l’image satellite pour générer un contexte 3D. Il vous suffit de cliquer sur **Générer un contexte 3D**.
 
-Une fois l’image satellite importée dans votre projet FormIt, accédez au plug-in 3D Context Creator.
+Selon l’étendue de l’image satellite et la complexité des bâtiments, la génération peut prendre quelques secondes.
 
-Ajustez le curseur de rayon carré pour étendre la distance (en mètres) du contexte à partir du point d’emplacement.
+Les bâtiments en contexte en 3D sont automatiquement placés dans une occurrence de groupe et sur un calque appelé « Bâtiments en contexte ». Vous pouvez activer ou désactiver la visibilité du contexte à l’aide de ce calque.
 
-![](../../.gitbook/assets/contextcreator7.png)
+\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-Cliquez sur le bouton Create (Créer). Et voilà !
+\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
-Une fois que vous êtes satisfait des paramètres, cliquez sur le bouton Create (Créer). Selon la taille et la complexité du rayon donné, le traitement des formes de bâtiment peut prendre quelques instants.
+Si vous décidez par la suite de modifier votre emplacement ou d’ajuster l’étendue de l’image satellite, vous pouvez cliquer à nouveau sur **Générer un contexte 3D** pour régénérer les bâtiments. 
+
+_Sachez qu’une fois le contexte généré à nouveau, l’occurrence de groupe contenant les bâtiments sera remplacée par une nouvelle occurrence. Les modifications apportées aux bâtiments seront donc perdues._ Pour éviter cela, vous pouvez dissocier le conteneur du contexte, puis le regrouper.
 
 ## **Quelques exemples**
 
 Essayez de deviner quelles villes emblématiques sont représentées dans les contextes suivants :
 
-![](<../../.gitbook/assets/image (2).png>)
+\![](<../../.gitbook/assets/image (2) (1).png>)
 
-![](<../../.gitbook/assets/image (34).png>)
+\![](<../../.gitbook/assets/image (34).png>)
 
-![](<../../.gitbook/assets/image (13).png>)
+\![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (59).png>)
+\![](<../../.gitbook/assets/image (59).png>)

@@ -13,3 +13,15 @@ Les splines peuvent également se fermer sur elles-mêmes afin de créer une fac
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+
+## Modification d’une spline
+
+Vous pouvez également modifier les points d’une spline que vous avez déjà placée en cliquant dessus avec le bouton droit de la souris et en choisissant Modifier l’épissure au bas de l’écran :
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Les poignées de modification d’épissure s’affichent afin de vous permettre de les déplacer. La nouvelle spline s’affiche sous forme de contour lors de la modification.
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Pour terminer la modification, quittez l’outil en cliquant dans l’espace ou en appuyant sur la touche ÉCHAP. La nouvelle spline remplacera l’actuelle.

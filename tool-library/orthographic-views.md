@@ -13,15 +13,15 @@ Vous trouverez des vues orthogonales dans le menu Vue, en cliquant sur l’icôn
 * Lorsque vous basculez entre les vues orthogonales, FormIt conserve le niveau de zoom pour plus de cohérence.
 * Lorsque vous basculez entre les vues d’élévation (avant/droite/gauche/arrière), FormIt conserve la hauteur du sol pour des raisons de cohérence.
 * Vous pouvez maintenir la touche Maj enfoncée pendant que vous effectuez un panoramique dans une vue orthogonale pour verrouiller le mouvement panoramique sur l’axe horizontal ou vertical.
-* Les directions de vue orthogonale sont basées sur les axes universels. Vous pouvez réaligner les axes, ce qui modifie l’orientation de toutes les vues orthogonales :
+*   Les directions de vue orthogonale sont basées sur les axes universels. Vous pouvez réaligner les axes, ce qui modifie l’orientation de toutes les vues orthogonales :
 
-   * Utilisez le raccourci SZ ou cliquez avec le bouton droit de la souris dans l’espace (pas sur une géométrie) :
+    * Utilisez le raccourci SZ ou cliquez avec le bouton droit de la souris dans l’espace (pas sur une géométrie) :
 
-   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes_context.PNG" alt="" data-size="original">
 
-   * Définissez l’origine et la poignée sur les axes rouges pour l’aligner dans une direction significative.
+    * Définissez l’origine et la poignée sur les axes rouges pour l’aligner dans une direction significative.
 
-   ![](../.gitbook/assets/set-axes.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes.PNG" alt="" data-size="original">
 
 **Les vues orthogonales fonctionnent conjointement avec d’autres fonctions FormIt :**
 

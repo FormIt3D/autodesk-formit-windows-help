@@ -26,9 +26,9 @@ L’éditeur de scripts stocke le code écrit dans un fichier scratch.js, dans l
 
 Deux boutons sont disponibles dans la partie supérieure :
 
-**Exécuter** ![](<../../../.gitbook/assets/image (8).png>) : exécute tout le code écrit dans la fenêtre.
+**Exécuter** \![](<../../../.gitbook/assets/image (8) (1).png>) : exécute tout le code écrit dans la fenêtre.
 
-**Exécuter la sélection** ![](<../../../.gitbook/assets/image (52).png>) : exécute uniquement les lignes de code sélectionnées/mises en surbrillance.
+**Exécuter la sélection** \![](<../../../.gitbook/assets/image (52).png>) : exécute uniquement les lignes de code sélectionnées/mises en surbrillance.
 
 ### **Sortie de script**
 
@@ -42,7 +42,7 @@ Après avoir [cloné un référentiel](cloning-a-sample-plugin.md) et [configur�
 
 Vous pouvez charger ou installer n’importe quel plug-in, mais dans le cadre de cet exercice, vous allez installer à la fois un plug-in basé sur un groupe de fonctions et un plug-in basé sur une barre d’outils. Nous supposerons que votre serveur HTTP npm est exécuté sur le port 8080 hébergeant les deux exemples de référentiels.
 
-### **Comparaison entre chargement et installation**
+### **Chargement vs. Installation**
 
 `FormIt.LoadPlugin();` charge le plug-in uniquement pour la session en cours. Le plug-in sera déchargé automatiquement après fermeture et redémarrage de l’application.
 
@@ -52,7 +52,7 @@ C’est une excellente option pour activer temporairement un plug-in pour le tes
 
 Sous Windows, les clés de registre suivantes sont utilisées pour conserver les plug-ins :
 
-* Plug-ins : Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Plug-ins : Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
 Utilisez `FormIt.UninstallPlugin();` pour désinstaller le plug-in.
 
@@ -66,7 +66,7 @@ Si vous exécutez un serveur local :
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-Si le chargement se fait à partir du [référentiel FormIt GitHub](https://github.com/FormIt3D/) (nécessite une connexion Internet) :
+Si le chargement est effectué à partir du [référentiel FormIt GitHub](https://github.com/FormIt3D/) (connexion Internet requise) :
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
@@ -82,7 +82,7 @@ Si vous exécutez un serveur local :
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-Si le chargement se fait à partir du [référentiel FormIt GitHub](https://github.com/FormIt3D/) (nécessite une connexion Internet) :
+Si le chargement est effectué à partir du [référentiel FormIt GitHub](https://github.com/FormIt3D/) (connexion Internet requise) :
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
@@ -101,9 +101,9 @@ Si vous exécutez un serveur local :
 * Modale : `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
 * Non modale : `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-Si le chargement se fait à partir du [référentiel FormIt GitHub](https://github.com/FormIt3D/) (nécessite une connexion Internet) :
+Si le chargement est effectué à partir du [référentiel FormIt GitHub](https://github.com/FormIt3D/) (connexion Internet requise) :
 
 * Modale : `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
 * Modale : `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-Vous devriez voir le groupe de fonctions Hello Block ! de l’exemple de groupe de fonctions HTML apparaître à l’écran sous la forme d’une boîte de dialogue modale ou non modale.
+Le panneau Hello Block! de l’exemple de panneau HTML devrait s’afficher sur l’écran comme une boîte de dialogue modale ou non modale.

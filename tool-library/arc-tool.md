@@ -8,7 +8,7 @@ Utilisez l’outil Arc pour créer des demi-cercles ou des arcs symétriques. Il
 
 Un arc est défini par trois points et peut être dessiné sur les axes X, Y et Z. Définissez le premier point, puis déterminez la distance entre les premier et deuxième points. Enfin, définissez un troisième point pour la hauteur de l’arc. Un point en demi-cercle est automatiquement créé, sur lequel vous pourrez effectuer un accrochage ; au-delà de ce point, la ligne d’arc s’étend au-delà des deux premiers points.
 
-La longueur entre les premier et deuxième points s’affiche lorsque vous déterminez l’emplacement suivant du deuxième point. Pour spécifier manuellement une longueur, entrez simplement une valeur, puis une zone de cote s’affiche.
+La longueur entre les premier et deuxième points s’affiche lorsque vous déterminez l’emplacement suivant du deuxième point. Pour spécifier manuellement une longueur, il vous suffit de renseigner une valeur pour qu’une zone de cote s’affiche.
 
 ![](../.gitbook/assets/arc-by-three-pts.png)
 
@@ -16,8 +16,20 @@ Après avoir dessiné l’arc, vous pouvez créer une face à l’aide de l’[o
 
 ## Arc par centre
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+\![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Choisissez le milieu de l’arc, faites glisser le curseur pour choisir le centre, puis faites glisser le curseur pour définir la longueur de l’arc. Il vous suffit de saisir une valeur pour indiquer un nombre précis de degrés pour l’arc.
 
 ![](../.gitbook/assets/arc\_circle\_demo.gif)
+
+## Modifier un arc
+
+Vous pouvez également modifier un arc que vous avez déjà placé en cliquant dessus avec le bouton droit de la souris et en choisissant Modifier l’arc au bas de l’écran :
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+Les poignées de modification d’arc s’affichent, vous permettant de modifier le rayon, l’angle ou l’alignement de l’arc. Le nouvel arc s’affiche sous forme de contour lorsque vous le modifiez.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+Pour terminer la modification, quittez l’outil en cliquant dans un espace vide ou en appuyant sur la touche Échap. Le nouvel arc remplacera l’arc actuel.

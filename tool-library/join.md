@@ -2,7 +2,7 @@
 
 Vous pouvez joindre un objet ou un groupe à un autre à l’aide de l’outil Joindre. L’outil Joindre est accessible de deux façons :
 
-## Lancement préalable de la commande Joindre
+## Jointure booléenne à partir de la barre d’outils
 
 Clavier : J G
 
@@ -12,18 +12,18 @@ Exécutez la commande Joindre et suivez les instructions de mode dans la partie 
 
 Cliquez une fois pour sélectionner un objet à joindre.
 
-![](<../.gitbook/assets/cut\_mode01 (1).png>)
+\![](<../.gitbook/assets/cut_mode01 (1).png>)
 
 Cliquez une fois pour sélectionner un objet ou un groupe à joindre.
 
-![](<../.gitbook/assets/cut\_mode02 (1).png>)
+\![](<../.gitbook/assets/cut_mode02 (1).png>)
 
 Cliquez sur la coche pour terminer la commande.
 
-## Sélection préalable des objets
+## Jointure booléenne à partir du menu contextuel
 
 1. Double-cliquez pour sélectionner l’objet à joindre (cliquez une fois pour sélectionner un groupe).
 2. Tout en maintenant la touche **CTRL** enfoncée, double-cliquez sur l’objet qui se chevauche et que vous souhaitez joindre au premier objet.
 3. Cliquez avec le bouton droit de la souris sur l’un des objets, puis choisissez l’outil Joindre dans le menu contextuel.
 
-![](<../.gitbook/assets/join tool.png>)
+\![](<../.gitbook/assets/join tool.png>)
