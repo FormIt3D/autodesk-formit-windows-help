@@ -13,15 +13,15 @@ Widoki prostopadłe można znaleźć w menu Widok, klikając ikonę Prostopadły
 * Podczas przełączania się między widokami prostopadłymi program FormIt zachowuje poziom powiększenia w celu zachowania spójności.
 * Podczas przełączania się między widokami elewacji (przód/prawo/lewo/tył) program FormIt zachowuje wysokość podłoża w celu zachowania spójności.
 * Aby zablokować przesuwanie widoku w kierunku osi poziomej lub pionowej, podczas przesuwania w widoku prostopadłym można przytrzymać naciśnięty klawisz Shift.
-* Kierunki widoku prostopadłego są oparte na osiach globalnych. Można ponownie wyrównać osie, co spowoduje zmianę orientacji wszystkich widoków prostopadłych:
+*   Kierunki widoku prostopadłego są oparte na osiach globalnych. Można ponownie wyrównać osie, co spowoduje zmianę orientacji wszystkich widoków prostopadłych:
 
-   * Użyj skrótu SZ lub kliknij prawym przyciskiem myszy w pustej przestrzeni (poza wszelkimi geometriami):
+    * Użyj skrótu SZ lub kliknij prawym przyciskiem myszy w pustej przestrzeni (poza wszelkimi geometriami):
 
-   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes_context.PNG" alt="" data-size="original">
 
-   * Ustaw początek i ustaw uchwyt na czerwonych osiach, aby wyrównać go z konkretnym kierunkiem
+    * Ustaw początek i ustaw uchwyt na czerwonych osiach, aby wyrównać go z konkretnym kierunkiem
 
-   ![](../.gitbook/assets/set-axes.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes.PNG" alt="" data-size="original">
 
 **Widoki prostopadłe działają w połączeniu z innymi funkcjami programu FormIt:**
 

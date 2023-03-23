@@ -16,8 +16,20 @@ Po narysowaniu łuku można utworzyć powierzchnię za pomocą [narzędzia Linia
 
 ## Łuk na podstawie środka
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+\![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Wybierz punkt środkowy łuku, przeciągnij, aby wybrać środek, a potem przeciągnij, aby zdefiniować długość łuku. Aby wprowadzić dokładną liczbę stopni kąta łuku, wystarczy rozpocząć wpisywanie wartości.
 
 ![](../.gitbook/assets/arc\_circle\_demo.gif)
+
+## Edytowanie łuku
+
+Można też zmodyfikować łuk, który już umieszczono, klikając go prawym przyciskiem myszy i wybierając opcję Edytuj łuk u dołu:
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+Zostaną wyświetlone uchwyty edycji łuku, co umożliwi zmianę promienia, kąta lub wyrównania łuku. Podczas edycji nowy łuk będzie wyświetlany jako kontur.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+Aby ukończyć edycję, zamknij narzędzie, klikając puste miejsce lub naciskając klawisz ESC. Nowy łuk zastąpi bieżący łuk.

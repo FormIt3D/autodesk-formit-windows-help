@@ -26,9 +26,9 @@ Edytor skryptów przechowuje zapisany kod w pliku scratch.js w katalogu, w któr
 
 W górnej części znajdują się dwa przyciski:
 
-**Uruchom** ![](<../../../.gitbook/assets/image (8).png>): wykonuje cały kod napisany w oknie.
+**Uruchom** \![](<../../../.gitbook/assets/image (8) (1).png>): wykonuje cały kod napisany w oknie.
 
-**Uruchom wybór** ![](<../../../.gitbook/assets/image (52).png>): wykonuje tylko wybrane/wyróżnione wiersze kodu.
+**Uruchom wybór** \![](<../../../.gitbook/assets/image (52).png>): wykonuje tylko wybrane/wyróżnione wiersze kodu.
 
 ### **Wynik skryptu**
 
@@ -40,7 +40,7 @@ Te dane wyjściowe można usunąć, uruchamiając polecenie `console.clear();` w
 
 Po [sklonowaniu repozytorium](cloning-a-sample-plugin.md) i [skonfigurowaniu serwera internetowego](hosting-a-plugin-on-a-local-server.md) można teraz wyświetlić wtyczki lokalne w programie FormIt.
 
-Można wczytać lub zainstalować dowolne wtyczki, ale w ramach tego ćwiczenia zostanie zainstalowana zarówno wtyczka oparta na panelu, jak i na pasku narzędzi. Załóżmy, że serwer http-server programu npm działa na porcie 8080. Są w nim hostowane oba repozytoria przykładowe.
+Można wczytać lub zainstalować dowolne wtyczki, ale w ramach tego ćwiczenia zostanie zainstalowana zarówno wtyczka oparta na panelu, jak i na pasku narzędzi. Załóżmy, że serwer http-server programu npm działa na porcie 8080\. Są w nim hostowane oba repozytoria przykładowe.
 
 ### **Wczytywanie a instalowanie**
 
@@ -52,7 +52,7 @@ Jest to doskonała opcja do tymczasowego wygenerowania wtyczki na potrzeby testo
 
 W systemie Windows do utrwalania wtyczek są używane następujące klucze rejestru:
 
-* Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Plugins: Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
 Użyj opcji `FormIt.UninstallPlugin();`, aby odinstalować.
 

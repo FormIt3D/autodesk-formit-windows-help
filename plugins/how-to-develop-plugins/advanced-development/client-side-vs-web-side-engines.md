@@ -1,9 +1,9 @@
 # Mechanizmy po stronie klienta i po stronie WWW
 
-We wtyczkach programu FormIt wykorzystywane są dwa różne mechanizmy JavaScript:&#x20;
+We wtyczkach programu FormIt wykorzystywane są dwa różne mechanizmy JavaScript:
 
 * Panel wyświetlający HTML (po stronie WWW)
-* Strona klienta (program FormIt) wywołuje program FormIt i jego jądro geometrii.&#x20;
+* Strona klienta (program FormIt) wywołuje program FormIt i jego jądro geometrii.
 
 Te dwa mechanizmy JavaScript działają w odrębnych procesach.
 
@@ -21,26 +21,25 @@ Wtyczki mogą określać, gdzie wczytywany jest kod JavaScript:
 
 ### Strona klienta (FormIt)
 
-Jest to określane przy użyciu pliku [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8)
+Określone przy użyciu pliku [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8)
 
 ```
     "Scripts": [
         "PLUGINLOCATION/blockFormItSide.js",
         "https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/PluginUtils18_0.js"
     ]
-
 ```
 
 ### Strona WWW (HTML)
 
-Jest to określane przy użyciu pliku [index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7)
+Określone przy użyciu pliku [index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7)
 
 * Skrypty po stronie WWW są wczytywane ze strony internetowej.
 * Skrypty po stronie WWW mogą wywoływać kod JavaScript po stronie klienta (FormIt) za pomocą wielu wywołań asynchronicznych.
 
 ## Trzy metody wywoływania poleceń po stronie klienta (FormIt) z poziomu wtyczki opartej na technologii WWW:
 
-### Metoda 1. FormItInterface.CallMethod
+### Metoda 1\. FormItInterface.CallMethod
 
 `CallMethod` pobiera nazwę funkcji i argumenty, które będą uruchamiane po stronie programu FormIt. Przekazana funkcja zostanie wywołana z wynikiem wywołania funkcji.
 
@@ -56,21 +55,21 @@ Jest to określane przy użyciu pliku [index.html](https://github.com/FormIt3D/F
     });
 ```
 
-**Zalety:**&#x20;
+**Zalety:**
 
-➕ Nie potrzeba `await`.&#x20;
+➕ Nie potrzeba `await`.
 
-**Wady:**&#x20;
+**Wady:**
 
-➖ Do uzyskania wyniku potrzebne jest wywołanie zwrotne, o którym nie wiadomo, kiedy nastąpi.&#x20;
+➖ Do uzyskania wyniku potrzebne jest wywołanie zwrotne, o którym nie wiadomo, kiedy nastąpi.
 
-➖ Skrypty są zdefiniowane w dwóch różnych miejscach.&#x20;
+➖ Skrypty są zdefiniowane w dwóch różnych miejscach.
 
 ➖ Logika wtyczki musi być podzielona między dwa różne pliki.
 
-### **Metoda 2. FormIt.CallJS**&#x20;
+### **Metoda 2: FormIt.CallJS**
 
-**\*Jest to dostępne tylko w programie FormIt 2022.1 i nowszych wersjach**
+***Jest to dostępne tylko w programie FormIt 2022.1 i nowszych wersjach**
 
 Funkcja CallJS przyjmuje funkcję JavaScript do wywołania po stronie programu FormIt i obiekt arguments.json.
 
@@ -82,14 +81,13 @@ var args =
     "h": 10
 };
 var result = await FormIt.CallJS("CreateBlock", args);
-
 ```
 
-**Zalety:**&#x20;
+**Zalety:**
 
 ➕ Wynik jest dostępny, gdy jest potrzebny
 
-**Wady:**&#x20;
+**Wady:**
 
 ➖ **** Wszystkie wywołania asynchroniczne należy opatrzyć „await”: pominięcie tego spowoduje bałagan.
 
@@ -101,27 +99,27 @@ var result = await FormIt.CallJS("CreateBlock", args);
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-Po stronie WWW następuje wywołanie asynchroniczne strony programu FormIt. To wywołanie rozpoczyna się w jednym procesie, zostaje wysłane do innego procesu, a jego wynik zostaje przekazany z powrotem do procesu początkowego. Dlatego też potrzebne jest oczekiwanie.&#x20;
+Po stronie WWW następuje wywołanie asynchroniczne strony programu FormIt. To wywołanie rozpoczyna się w jednym procesie, zostaje wysłane do innego procesu, a jego wynik zostaje przekazany z powrotem do procesu początkowego. Dlatego też potrzebne jest oczekiwanie.
 
 Domyślnie można wywoływać tylko wbudowane interfejsy API programu FormIt.
 
-**Zalety:**&#x20;
+**Zalety:**
 
-➕ Wynik jest dostępny, gdy jest potrzebny.&#x20;
+➕ Wynik jest dostępny, gdy jest potrzebny.
 
 ➕ Umożliwia połączenie całego kodu w jednym pliku JS uruchamianym po stronie WWW, bez definiowania skryptów w pliku manifest.json.
 
-**Wady:**&#x20;
+**Wady:**
 
-➖ **** Wszystkie wywołania asynchroniczne należy opatrzyć `await`: pominięcie tego spowoduje bałagan.&#x20;
+➖ **** Wszystkie wywołania asynchroniczne należy opatrzyć `await`: pominięcie tego spowoduje bałagan.
 
 ➖ **** Metoda jest potencjalnie wolniejsza z `await.`
 
-### Metoda 4 (RegisterAsyncAPI)&#x20;
+### Metoda 4 (RegisterAsyncAPI)
 
-**\*Jest to dostępne tylko w programie FormIt 2023.0 i nowszych wersjach**&#x20;
+***Jest to dostępne tylko w programie FormIt 2023.0 i nowszych wersjach**
 
-Aby można było wywoływać funkcję zdefiniowaną przez użytkownika po stronie programu FormIt, ta funkcja musi być zarejestrowana. Na przykład:&#x20;
+Aby można było wywoływać funkcję zdefiniowaną przez użytkownika po stronie programu FormIt, ta funkcja musi być zarejestrowana. Przykładowo:
 
 **Strona klienta (FormIt)**
 
@@ -140,17 +138,17 @@ HelloBlockAsync.CreateBlock = function(args)
 var result = await HelloBlockAsync.CreateBlock(l, w, h);
 ```
 
-Aby zapoznać się z przykładem, zobacz [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0).
+Zobacz przykład [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0).
 
-**Zalety:**&#x20;
+**Zalety:**
 
-➕ Wynik jest dostępny, gdy jest potrzebny.&#x20;
+➕ Wynik jest dostępny, gdy jest potrzebny.
 
 ➕ Umożliwia połączenie całego kodu w jednym pliku JS uruchamianym po stronie WWW, bez definiowania skryptów w pliku manifest.json.
 
-**Wady:**&#x20;
+**Wady:**
 
-➖ **** Wszystkie wywołania asynchroniczne należy opatrzyć „await”: pominięcie tego spowoduje bałagan.&#x20;
+➖ **** Wszystkie wywołania asynchroniczne należy opatrzyć „await”: pominięcie tego spowoduje bałagan.
 
 ➖ **** Metoda jest potencjalnie wolniejsza z `await.`
 

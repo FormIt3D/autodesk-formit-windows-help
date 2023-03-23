@@ -12,19 +12,19 @@ Program FormIt [automatycznie zapisuje pracę użytkownika](../tool-library/auto
 
 ## Ustawienia aplikacji
 
-* Jednostki:
+*   Jednostki:
 
-   ![](../.gitbook/assets/formit\_units.png)
+    <img src="../.gitbook/assets/formit_units.png" alt="" data-size="original">
 
-   * Ustawienie tej opcji wpływa na jednostki we wszystkich narzędziach i w całej zaimportowanej geometrii, na przykład w dodatku Dynamo i plikach bez jednostek, takich jak STL.
+    * Ustawienie tej opcji wpływa na jednostki we wszystkich narzędziach i w całej zaimportowanej geometrii, na przykład w dodatku Dynamo i plikach bez jednostek, takich jak STL.
 * Przyciągaj do siatki:
-   * W przypadku narzędzi z punktami umieszczenia wymusza przyciąganie do punktów przecięcia siatki. Należy pamiętać, że siatkę można wyłączyć w oknie [Style wizualne](../formit-primer/part-i/visual-settings.md). Jeśli siatka jest wyłączona, przyciąganie do niej również zostanie wyłączone.
+  * W przypadku narzędzi z punktami umieszczenia wymusza przyciąganie do punktów przecięcia siatki. Należy pamiętać, że siatkę można wyłączyć w oknie [Style wizualne](../formit-primer/part-i/visual-settings.md). Jeśli siatka jest wyłączona, przyciąganie do niej również zostanie wyłączone.
 * Wyświetl wymiary edytowalne:
-   * Określ, czy pola wymiarów mają być widoczne (zalecane jest pozostawienie ich włączonych, jeśli chcesz rysować z dokładnością).
+  * Określ, czy pola wymiarów mają być widoczne (zalecane jest pozostawienie ich włączonych, jeśli chcesz rysować z dokładnością).
 * Ukryj kontekst/Pokaż tylko edytowaną grupę:
-   * Ma to wpływ na to, czy podczas edycji grupy będzie wyświetlane jej otoczenie. To ustawienie można łatwo zmienić za pomocą skrótu (H). Przełączanie za pomocą skrótu H podczas modelowania w grupach i poza nimi umożliwia wyświetlanie grup w izolacji i w kontekście — zgodnie z potrzebami.
+  * Ma to wpływ na to, czy podczas edycji grupy będzie wyświetlane jej otoczenie. To ustawienie można łatwo zmienić za pomocą skrótu (H). Przełączanie za pomocą skrótu H podczas modelowania w grupach i poza nimi umożliwia wyświetlanie grup w izolacji i w kontekście — zgodnie z potrzebami.
 * Wyróżnienie wstępnego wyboru:
-   * Domyślnie w programie FormIt po umieszczeniu na nich wskaźnika myszy obiekty będą „wstępnie wybierane”. Jest to przydatne, ponieważ pozwala upewnić się, że wybrany jest właściwy obiekt, ale może rozpraszać podczas prezentacji projektu. Użyj tej opcji lub skrótu, aby szybko przełączać się między wyświetlaniem i ukryciem wyróżnienia wstępnego wyboru stosownie do potrzeb. Należy pamiętać, że ta opcja musi być włączona, aby można było korzystać z funkcji takich jak [inteligentny wybór](https://www.youtube.com/watch?v=akLeB1FADt4).&#x20;
+  * Domyślnie w programie FormIt po umieszczeniu na nich wskaźnika myszy obiekty będą „wstępnie wybierane”. Jest to przydatne, ponieważ pozwala upewnić się, że wybrany jest właściwy obiekt, ale może rozpraszać podczas prezentacji projektu. Użyj tej opcji lub skrótu, aby szybko przełączać się między wyświetlaniem i ukryciem wyróżnienia wstępnego wyboru stosownie do potrzeb. Należy pamiętać, że ta opcja musi być włączona, aby można było korzystać z funkcji takich jak [inteligentny wybór](https://www.youtube.com/watch?v=akLeB1FADt4).
 
 ## Tryb dotykowy
 

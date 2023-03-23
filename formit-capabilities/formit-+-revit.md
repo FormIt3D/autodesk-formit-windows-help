@@ -1,19 +1,25 @@
 # FormIt + Revit
 
-![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
+\![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
 
-## Wygoda programu FormIt i możliwości programu Revit <a href="#revit-intro" id="revit-intro"></a>
+## Wygoda programu FormIt i możliwości programu Revit<a href="#revit-intro" id="revit-intro"></a>
 
 Program FormIt dla systemu Windows łączy się bezpośrednio z programem Revit, zapewniając płynną komunikację między wczesną koncepcją a projektem szczegółowym.
 
 ## Co nowego w połączeniu produktów FormIt + Revit <a href="#revit-what-s-new" id="revit-what-s-new"></a>
 
+### **Ulepszenia programu FormIt 2023.1** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
+
+* Położenie ustawione w programie Revit jest teraz synchronizowane z programem FormIt po uruchomieniu za pomocą przycisku Szkic 3D.
+* Ulepszono synchronizację szkicu DWG, gdy program FormIt jest uruchamiany za pomocą przycisku Szkic 3D.
+* Opcjonalna synchronizacja kamery między programem FormIt i programem Revit w trybie szkicu 3D lub podczas edycji połączonego obiektu programu FormIt.
+
 ### Potęga łączenia w wersji 2023 <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
 
 * Połącz model programu FormIt (format AXM) z programem Revit za pomocą przycisku _**Połącz CAD**_ na karcie Wstaw w programie Revit.
 * Wybierz połączony element programu FormIt w programie Revit i użyj nowego przycisku _**Edytuj w programie FormIt**_, aby uruchomić go w programie FormIt w celu natychmiastowej edycji.
-* Użyj nowej _**kolumny Wyślij do programu Revit**_ na palecie Warstwy, aby sterować tym, które warstwy są wysyłane do programu Revit, gdy szkic programu FormIt jest połączony w programie Revit.&#x20;
-* Podgląd geometrii, która zostanie wysłana do programu Revit, jest dostępny w dolnej części panelu Warstwy i obok przycisku Wyślij do programu Revit w nowym trybie _**Podgląd wysyłania do wyborów programu Revit**_.
+* Użyj nowej _**kolumny Wyślij do programu Revit**_ na palecie Warstwy, aby sterować tym, które warstwy są wysyłane do programu Revit, gdy szkic programu FormIt jest połączony w programie Revit. 
+* Podgląd geometrii, która zostanie wysłana do programu Revit, jest dostępny w dolnej części panelu Warstwy i obok przycisku Wyślij do programu Revit w nowym _**trybie Podgląd wysyłania do wyborów programu Revit**_.
 * Dla obiektów programu FormIt w programie Revit są teraz rysowane krawędzie sylwetek.
 
 ### **Ulepszenia programu FormIt 2022.1** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
@@ -44,11 +50,11 @@ Zarówno na wczesnym etapie, jak i na etapie projektowania szczegółowego możn
 * Utwórz odniesienie do modelu programu FormIt w programie Revit za pomocą narzędzia _Połącz CAD_ i kontynuuj wizualizację oraz detalowanie w programie Revit.
 * Uruchamiaj połączenie programu FormIt z programu Revit za pomocą polecenia _Edytuj w programie FormIt_.
 
-![](<../.gitbook/assets/revit to formit.png>)
+\![](<../.gitbook/assets/revit to formit.png>)
 
 ### **Szkic 3D, edycja w programie FormIt i wysyłanie do programu Revit na potrzeby iteracji projektu** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 
-#### **Sugerowane procesy robocze**
+### **Sugerowane procesy robocze**
 
 * Zdefiniuj wewnętrzną część modelu programu Revit za pomocą zakresu przekroju, a następnie kliknij przycisk _**Szkic 3D**_, aby otworzyć program FormIt i eksplorować układy wnętrza lub dostosowane elementy projektu. Wyślij nowy projekt do programu Revit jednym kliknięciem.
 * Rozpocznij od kontekstu miejskiego już wymodelowanego w programie Revit i kliknij przycisk _**Szkic 3D**_, aby przenieść ten kontekst otoczenia do programu FormIt jako odniesienia przyciągalne. Wyślij nowy projekt do programu Revit jednym kliknięciem.
@@ -60,25 +66,41 @@ Zarówno na wczesnym etapie, jak i na etapie projektowania szczegółowego możn
 ![Korzystanie z polecenia Edytuj w programie FormIt po wybraniu obiektu programu FormIt](../.gitbook/assets/revit-edit-in-formit-workflow.gif)
 
 * Użyj _**trybu podglądu programu Revit**_, aby wyświetlić podgląd geometrii, która zostanie wysłana do programu Revit, i upewnić się, że udostępniasz odpowiedni projekt, który ma zostać użyty w opracowywaniu szczegółowym.
-* Wybierz żądane elementy z projektów i wyślij każdy projekt do programu Revit za pomocą przycisku _**Wyślij do programu Revit**_ lub zapisując model połączony.&#x20;
+* Wybierz żądane elementy z projektów i wyślij każdy projekt do programu Revit za pomocą przycisku _**Wyślij do programu Revit**_ lub zapisując model połączony. 
 
-#### **Korzystanie z narzędzi**
+### **Korzystanie z narzędzi**
 
-* Przycisk _**Szkic 3D**_, przycisk _**Edytuj w programie FormIt**_ i proces roboczy _**Wyślij do programu Revit**_ są dostępne dla subskrybentów kolekcji Autodesk z zakresu architektury, inżynierii i budownictwa (AEC) oraz dla klientów z określonymi typami dostępu. Nie jest to dostępne w programie Revit LT. [Dowiedz się więcej o kolekcji z zakresu architektury, inżynierii i budownictwa (AEC Collection) tutaj.](https://www.autodesk.pl/collections/architecture-engineering-construction/overview)
+* Przycisk _**Szkic 3D**_, przycisk _**Edytuj w programie FormIt**_ i proces roboczy _**Wyślij do programu Revit**_ są dostępne dla subskrybentów kolekcji Autodesk z zakresu architektury, inżynierii i budownictwa (AEC) oraz dla klientów z określonymi typami dostępu. Nie jest to dostępne w programie Revit LT. [Dowiedz się więcej o kolekcji z zakresu architektury, inżynierii i budownictwa (AEC Collection) tutaj](https://www.autodesk.com/collections/architecture-engineering-construction/overview).
+
+### Przycisk Szkic 3D
 
 ![Uruchamianie nowego wystąpienia za pomocą przycisku Szkic 3D, a następnie zapisywanie i tworzenie połączenia programu Revit za pomocą polecenia Wyślij do programu FormIt](../.gitbook/assets/revit-3d-sketch-send-to-revit.png)
 
 * Po uruchomieniu programu Revit 2022.0 lub nowszej wersji na karcie Modelowanie bryłowe i teren dostępny jest nowy przycisk o nazwie **Szkic 3D**. Przycisk jest dostępny tylko w widokach 3D. W widokach 2D w programie Revit będzie on wyświetlany jako wyłączony.
-* Upewnij się, że zalogowano się w programie Revit za pomocą poświadczeń Autodesk. Po uruchomieniu przycisku _**Szkic 3D**_ może zostać wyświetlony monit o ponowne zalogowanie się na koncie Autodesk. Ma to na celu sprawdzenie, czy masz odpowiednie uprawnienia.
+* Upewnij się, że zalogowano się w programie Revit za pomocą poświadczeń Autodesk. Po uruchomieniu przycisku _**Szkic 3D**_ może zostać wyświetlony monit o ponowne zalogowanie się na konto Autodesk. Ma to na celu sprawdzenie, czy masz odpowiednie uprawnienia.
 * Jeśli nie jest zainstalowany program FormIt 2022.0 ani jego nowsza wersja (lub jest zainstalowana wersja starsza niż FormIt 2022.0), program FormIt nie zostanie uruchomiony i zostanie wyświetlony monit o pobranie poprawnej wersji programu FormIt.
-* Kliknij przycisk _**Szkic 3D**_, aby uruchomić program FormIt. Wybierz, aby przenieść wszystkie widoczne obiekty lub tylko wybrane obiekty do programu FormIt. Wybór opcji przeniesienia tylko wybranych obiektów jest przydatny, jeśli model programu Revit jest duży, a projekt będzie odnosił się tylko do części tego modelu. Ponadto użyj zakresu przekroju w programie Revit, aby wyizolować wewnętrzny obszar modelu programu Revit w celu przeniesienia go do programu FormIt.
+
+#### Okno dialogowe „Otwórz program FormIt” polecenia Szkic 3D
+
+* Kliknij przycisk _**Szkic 3D**_, aby uruchomić program FormIt. Wybierz przeniesienie wszystkich widocznych obiektów lub tylko wybranych obiektów do programu FormIt. 
+  * Wybór opcji przeniesienia tylko wybranych obiektów jest przydatny, jeśli model programu Revit jest duży, a projekt będzie odnosił się tylko do części tego modelu. 
+  * Ponadto użyj zakresu przekroju w programie Revit, aby wyizolować wewnętrzny obszar modelu programu Revit w celu przeniesienia go do programu FormIt.
 
 ![](../.gitbook/assets/revit-objects.png)
 
-* W przypadku wybrania poziomów w programie Revit zostaną przekazane do programu FormIt. W przeciwnym razie program FormIt otrzyma wszystkie widoczne poziomy w programie Revit.
+#### Szkic 3D i poziomy
+
+* Jeśli wybrano opcję „wszystkie widoczne obiekty programu Revit”, wszystkie widoczne poziomy programu Revit staną się poziomami programu FormIt, które można [wyświetlić na palecie Poziomy](../tool-library/levels-and-area.md#creating-and-configuring-levels) lub [zastosować do obiektów za pomocą palety Właściwości](../tool-library/levels-and-area.md#applying-levels).
+* Jeśli wybrano opcję „wybrane obiekty programu Revit”, tylko wybrane poziomy staną się poziomami programu FormIt.
+
+#### Po uruchomieniu programu FormIt
+
 * Po uruchomieniu programu FormIt dołączona geometria programu Revit będzie wyświetlana na osobnej warstwie w programie FormIt. Warstwa ta ma nazwę „Kontekst programu Revit” i jest domyślnie zablokowana.
 * Modeluj w programie FormIt, dodając formy lub stosując materiały, zawartość i nie tylko.
-* Zastosuj poziomy do obiektów programu FormIt z palety Poziomy.
+* Zastosuj poziomy do obiektów programu FormIt z [palety Poziomy](../tool-library/levels-and-area.md#applying-levels).
+
+### Proces roboczy wysyłania do programu Revit
+
 * Użyj _**kolumny Wyślij do programu Revit**_ na palecie Warstwy, aby uwzględnić lub wykluczyć geometrię, która ma zostać wysłana do programu Revit.
 
 ![Kolumna Wyślij do programu Revit na palecie Warstwy](../.gitbook/assets/revit-send-to-formit-layers-column.png)
@@ -88,17 +110,25 @@ Zarówno na wczesnym etapie, jak i na etapie projektowania szczegółowego możn
 ![Tryb podglądu programu Revit](../.gitbook/assets/revit-preview-mode.png)
 
 * Przenieś geometrię programu FormIt do programu Revit za pomocą przycisku _**Wyślij do programu Revit**_ na pasku narzędzi programu FormIt.
-   * Spowoduje to wyświetlenie monitu o zapisanie pliku, co będzie skutkować połączeniem modelu z programem Revit.
-      * **Uwaga:** zaleca się zapisanie pliku lokalnie, ponieważ zapisanie w usłudze Autodesk Docs spowoduje przerwanie połączenia między programem FormIt i programem Revit. Zamiast tego do udostępniania modeli w chmurze należy użyć programu [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/PLK/).
-   * Po utworzeniu połączenia możesz ponownie zapisać model lub kliknąć przycisk Wyślij do programu Revit za każdym razem, gdy chcesz przenieść zmiany do programu Revit.
+  * Spowoduje to wyświetlenie monitu o zapisanie pliku, co będzie skutkować połączeniem modelu z programem Revit.
+    * **Uwaga:** zaleca się zapisanie pliku lokalnie, ponieważ zapisanie w usłudze Autodesk Docs spowoduje przerwanie połączenia między programem FormIt i programem Revit. Zamiast tego do udostępniania modeli w chmurze należy użyć programu [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/ENU/).
+  * Po utworzeniu połączenia możesz ponownie zapisać model lub kliknąć przycisk Wyślij do programu Revit za każdym razem, gdy chcesz przenieść zmiany do programu Revit.
 
-![](<../.gitbook/assets/send-to-revit (2).png>)
+\![](<../.gitbook/assets/send-to-revit (2).png>)
 
-* Poziomy, warstwy i materiały programu FormIt zostaną przeniesione do programu Revit wraz z geometrią.
-   * Materiały programu FormIt można wyświetlić w oknie dialogowym Materiały programu Revit, filtrując listę za pomocą wyrazu „FormIt”.
-   * Warstwy programu FormIt można znaleźć w widoku programu Revit na karcie importu w oknie Grafika widoczności. Jest to doskonały sposób na wyświetlanie różnych wariantów projektu programu FormIt w programie Revit.
-* Po uruchomieniu programu Revit 2023.0 lub nowszej wersji i wybraniu obiektu programu FormIt można użyć przycisku _**Edytuj w programie FormIt**_, aby uruchomić model w programie FormIt.
-* W przewodniku FormIt Primer można znaleźć [przewodnik po procesach roboczych połączenia produktów FormIt i Revit.](../formit-primer/part-ii/2.8-advanced-revit-workflows.md)
+* Warstwy i materiały programu FormIt zostaną przeniesione do programu Revit wraz z geometrią.
+  * Materiały programu FormIt można wyświetlić w oknie dialogowym Materiały programu Revit, filtrując listę za pomocą wyrazu „FormIt”.
+  * Warstwy programu FormIt można znaleźć w widoku programu Revit na karcie importu w oknie Grafika widoczności. Jest to doskonały sposób na wyświetlanie różnych wariantów projektu programu FormIt w programie Revit.
+  * Aby wysłać poziomy do programu Revit, należy zaimportować plik AXM za pomocą okna dialogowego Import CAD i wybrać opcję „Importuj poziomy” na dole.
+
+### Przycisk Edytuj w programie FormIt
+
+* Po połączeniu modelu programu FormIt w programie Revit lub po utworzeniu nowego modelu programu FormIt za pomocą przycisku _**Szkic 3D**_ i zapisaniu tego modelu element programu FormIt jest zapisywany w programie Revit i można go edytować później.
+* Wybierz element programu FormIt w programie Revit, a następnie kliknij przycisk _**Edytuj w programie FormIt**_ na karcie Zmień, aby uruchomić model w programie FormIt.
+
+\![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
+
+* W przewodniku FormIt Primer można znaleźć [przewodnik po procesach roboczych połączenia produktów FormIt i Revit](../formit-primer/part-ii/2.8-advanced-revit-workflows.md).
 
 ### **Importowanie i łączenie modeli programu FormIt: współpraca projektowa między programami FormIt i Revit** <a href="#importing-formit-models-design-collaboration-between-formit-and-revit" id="importing-formit-models-design-collaboration-between-formit-and-revit"></a>
 
@@ -108,7 +138,7 @@ Zarówno na wczesnym etapie, jak i na etapie projektowania szczegółowego możn
 * Zaimportuj model programu FormIt bezpośrednio do wariantu projektu programu Revit, aby dokładniej badać i porównywać projekty. Ponieważ warstwy programu FormIt są wprowadzane do programu Revit w procesie roboczym importowania, użytkownik programu Revit może kontrolować, które warstwy programu FormIt będą widoczne w poszczególnych wariantach projektu programu Revit.
 * Zaimportuj model programu FormIt do rodziny kategorii brył (a następnie wczytaj go do projektu programu Revit), aby korzystać z narzędzi Poziomy, Zakresy kondygnacji i Według powierzchni oraz stosować rodziny systemowe programu Revit do geometrii programu FormIt.
 
-![Import CAD in Revit](<../.gitbook/assets/revit-workflows (2).png>)
+\![Import CAD w programie Revit](<../.gitbook/assets/revit-workflows (2).png>)
 
 * Połącz istniejący model programu FormIt z programem Revit, aby wysyłać zmiany między tymi programami, aktualizować geometrie i wygląd materiałów podczas ponownego wczytywania oraz używać warstw programu FormIt do sterowania widocznością geometrii.
 
@@ -118,26 +148,26 @@ Zarówno na wczesnym etapie, jak i na etapie projektowania szczegółowego możn
 
 * Określ plik programu FormIt do zaimportowania do bieżącego projektu programu Revit. Otwórz narzędzie _**Import CAD**_ programu Revit. Wybierz plik .AXM z listy dostępnych typów plików. Przejdź do pliku .AXM i kliknij przycisk _Otwórz_.
 * Materiały programu FormIt są przenoszone do programu Revit i wyświetlane w oknie dialogowym Materiały programu Revit. Przefiltruj listę materiałów programu FormIt.
-   * Materiały, które zostały przeskalowane lub obrócone w programie FormIt, zachowują prawidłową skalę i obrót w programie Revit.
+  * Materiały, które zostały przeskalowane lub obrócone w programie FormIt, zachowują prawidłową skalę i obrót w programie Revit.
 * Poziomy z programu FormIt są przenoszone do programu Revit.
-   * Kliknij przycisk „Importuj poziomy FormIt” w oknie dialogowym Import CAD.
+  * Kliknij przycisk „Importuj poziomy FormIt” w oknie dialogowym Import CAD.
 * Ukryte krawędzie geometrii zakrzywionej/płaszczyznowej w programie FormIt są przenoszone do programu Revit z ukrytymi krawędziami.
-   * Znany problem: krawędzie sylwetki są również ukryte w widoku Ukryte linie w programie Revit.
+  * Znany problem: krawędzie sylwetki są również ukryte w widoku Ukryte linie w programie Revit.
 * Punkt początkowy programu FormIt i punkt bazowy programu Revit są używane do niezawodnego umieszczania zaimportowanych obiektów programu FormIt.
 * Geometria programu FormIt zaimportowana do programu Revit jest przenoszona ze wszystkimi warstwami programu FormIt.
-   * Warstwy programu FormIt są dostępne na karcie Widoczność/Grafika > Kategorie importowane. W tym miejscu użytkownik zobaczy listę warstw programie FormIt i będzie mógł je włączać i wyłączać za pomocą pól wyboru.
+  * Warstwy programu FormIt są dostępne na karcie Widoczność/Grafika > Kategorie importowane. W tym miejscu użytkownik zobaczy listę warstw programie FormIt i będzie mógł je włączać i wyłączać za pomocą pól wyboru.
 * Narzędzia programu Revit „Według powierzchni” (znane również jako narzędzia Building Maker) mogą generować elementy programu Revit na podstawie geometrii programu FormIt
-   * Wymaga to zaimportowania geometrii programu FormIt najpierw do rodziny brył lub rodziny modeli ogólnych, a następnie wczytania do środowiska projektu.
+  * Wymaga to zaimportowania geometrii programu FormIt najpierw do rodziny brył lub rodziny modeli ogólnych, a następnie wczytania do środowiska projektu.
 * Geometria programu FormIt jest przekazywana jako jedno wystąpienie importu.
-   * Aby zaimportować model programu FormIt jako oddzielny import, wydziel części modelu w programie FormIt i zaimportuj każdą część jako oddzielny plik .AXM.
-* Więcej informacji podano w [dokumentacji programu Revit.](https://help.autodesk.com/view/RVT/2023/PLK/?guid=GUID-A5F4B6C1-94CD-4433-A4E2-6B39B4BA8E6D)
+  * Aby zaimportować model programu FormIt jako oddzielny import, wydziel części modelu w programie FormIt i zaimportuj każdą część jako oddzielny plik .AXM.
+* Więcej informacji podano w [dokumentacji programu Revit](https://help.autodesk.com/view/RVT/2023/ENU/?guid=GUID-A5F4B6C1-94CD-4433-A4E2-6B39B4BA8E6D).
 
 #### **Praca z poziomami programu Revit i importami programu FormIt**
 
 * Podczas importowania geometrii programu FormIt do programu Revit obiekty wynikowe mogą znaleźć się na nieoczekiwanej rzędnej z powodu poziomów programu Revit.
-   * W widokach elewacji/rzutu zaimportowana geometria programu FormIt będzie wyświetlana w programie Revit na bieżącym poziomie.
-   * W widokach 3D zaimportowana geometria programu FormIt będzie domyślnie ustawiona na najniższym poziomie, który może znajdować się poniżej nachylenia.
-   * Jeśli geometria jest wyświetlana na nieoczekiwanej wysokości w programie Revit, wybierz zaimportowany obiekt i dostosuj poziom podstawy do odpowiedniego poziomu w programie Revit.
+  * W widokach elewacji/rzutu zaimportowana geometria programu FormIt będzie wyświetlana w programie Revit na bieżącym poziomie.
+  * W widokach 3D zaimportowana geometria programu FormIt będzie domyślnie ustawiona na najniższym poziomie, który może znajdować się poniżej nachylenia.
+  * Jeśli geometria jest wyświetlana na nieoczekiwanej wysokości w programie Revit, wybierz zaimportowany obiekt i dostosuj poziom podstawy do odpowiedniego poziomu w programie Revit.
 
 #### **Konwertowanie rodzin programu Revit** <a href="#converting-revit-families" id="converting-revit-families"></a>
 
@@ -161,14 +191,14 @@ Wskutek tych zmian rozpoczyna się proces przejścia z dodatku. Dowiedz się, ja
 
 ### **Nowy sposób importowania plików AXM** <a href="#a-new-way-to-import-axm-files" id="a-new-way-to-import-axm-files"></a>
 
-Przycisk _Importuj z programu FormIt do programu RVT_ w dodatku zastąpiono możliwością importowania plików programu FormIt (.AXM) za pomocą narzędzia Import CAD na karcie Wstaw programu Revit.&#x20;
+Przycisk _Importuj z programu FormIt do programu RVT_ w dodatku zastąpiono możliwością importowania plików programu FormIt (.AXM) za pomocą narzędzia Import CAD na karcie Wstaw programu Revit. 
 
 Ten proces roboczy, oprócz tego, że jest **30 razy szybszy**, jest też zwykle **bardziej niezawodny**. Oprócz tego niektóre zachowania uległy zmianie:
 
 ### **Geometria podczas importowania**
 
 * Geometria programu FormIt jest importowana jako jedno wystąpienie importu. Kategorie programu FormIt nie stają się już kategoriami programu Revit. Pracujemy nad rozwiązaniem tego problemu w przyszłej aktualizacji.
-   * Kategorie programu FormIt są obecnie używane tylko do analizy energetycznej.
+  * Kategorie programu FormIt są obecnie używane tylko do analizy energetycznej.
 * Nie trzeba już dzielić modelu na mniejsze fragmenty — spróbuj wysłać cały model programu FormIt jednocześnie.
 * Aby zaimportować model programu FormIt jako oddzielny import, wydziel części modelu w programie FormIt i zaimportuj każdą część jako oddzielny plik .AXM.
 
@@ -197,13 +227,14 @@ Przycisk _Wczytaj ponownie rodziny_ został usunięty w ramach naszych prac w ce
 
 ### **Uzyskaj pomoc techniczną** <a href="#get-support" id="get-support"></a>
 
-Potrzebujesz pomocy dotyczącej połączenia produktów FormIt + Revit? [Poinformuj nas na forach](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en).
+Potrzebujesz pomocy dotyczącej połączenia produktów FormIt + Revit? [Poinformuj nas na forach](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
 
-Pobieranie starego dodatku dla programu Revit\ (2021 lub starszego) <a href="#revit-download" id="revit-download"></a>
+Pobieranie starego dodatku dla programu Revit\
+ (2021 lub starszego) <a href="#revit-download" id="revit-download"></a>
 ------------------------------------------------------------------
 
 W przypadku korzystania z programów FormIt i Revit 2022 lub nowszych nie ma potrzeby pobierania oddzielnego dodatku.
 
-W przypadku programu Revit 2021 lub wcześniejszych wersji można znaleźć stare wersje dodatku, klikając poniższe łącze:
+W przypadku programu Revit 2021 lub wcześniejszych wersji można znaleźć stare wersje dodatku, klikając poniższy link:
 
 [Zobacz stare dodatki dla programu Revit do pobrania](https://formit.autodesk.com/page/download#download-revit-add-in)

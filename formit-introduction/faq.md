@@ -1,6 +1,6 @@
 # Często zadawane pytania
 
-## Informacje o dodatku FormIt
+## Informacje o programie FormIt
 
 **Co to jest program FormIt i subskrypcja FormIt Pro?**
 
@@ -14,32 +14,32 @@ Funkcje programu FormIt:
 * Materiały z Biblioteki materiałów Autodesk.
 * Narzędzia do porządkowania modelu i określania widoczności, w tym grupy, warstwy i sceny.
 * Narzędzia do analizy, w tym:
-   * Sprawdzanie uszczelnienia i tylnych powierzchni w celu diagnostyki i naprawy modelu bryłowego.
-   * Słońce i cienie.
-   * Analiza oświetlenia naturalnego
-   * Analiza energetyczna
+  * Sprawdzanie uszczelnienia i tylnych powierzchni w celu diagnostyki i naprawy modelu bryłowego.
+  * Słońce i cienie.
+  * Analiza oświetlenia naturalnego
+  * Analiza energetyczna
 * Integracja z produktami Autodesk:
-   * BIM 360 Docs
-   * Insight (Analiza energetyczna)
-   * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
-   * [Revit](https://formit.autodesk.com/page/formit-revit)
+  * BIM 360 Docs
+  * Insight (Analiza energetyczna)
+  * [Dynamo](https://formit.autodesk.com/page/formit-dynamo)
+  * [Revit](https://formit.autodesk.com/page/formit-revit)
 * Obsługa formatów plików:
-   * Otwieranie/importowanie
-      * AXM, DWG, FBX, SAT, STL, OBJ, WSM, SketchUp, obraz
-   * Eksportuj
-      * AXM, FBX, OBJ, STL, SAT, DAE, DXF
+  * Otwieranie/importowanie
+    * AXM, DWG, FBX, SAT, STL, OBJ, WSM, SketchUp, obraz
+  * Eksportuj
+    * AXM, FBX, OBJ, STL, SAT, DAE, DXF
 
-Program FormIt jest dostępny bezpłatnie w systemie [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) i [w przeglądarce](https://app.formit.autodesk.com). Do korzystania z programu [FormIt dla systemu Windows](https://formit.autodesk.com/page/download), najwydajniejszej i najbardziej funkcjonalnej wersji programu FormIt, wymagana jest subskrypcja **FormIt Pro**. Subskrypcja **FormIt Pro** udostępnia również dodatkowe funkcje, takie jak analiza oświetlenia naturalnego i analiza energetyczna, w wersji dla systemu iOS i w przeglądarce. Subskrypcja **FormIt Pro** jest zawarta w kolekcji [Autodesk AEC Collection](https://www.autodesk.pl/collections/architecture-engineering-construction/overview).
+Program FormIt jest dostępny bezpłatnie w systemie [iOS](https://itunes.apple.com/us/app/autodesk-formit-360/id575282599?mt=8) i [w przeglądarce](https://app.formit.autodesk.com). Do korzystania z programu [FormIt dla systemu Windows](https://formit.autodesk.com/page/download), najwydajniejszej i najbardziej funkcjonalnej wersji programu FormIt, wymagana jest subskrypcja **FormIt Pro**. Subskrypcja **FormIt Pro** udostępnia również dodatkowe funkcje, takie jak analiza oświetlenia naturalnego i analiza energetyczna, w wersji dla systemu iOS i w przeglądarce. Program **FormIt Pro** jest zawarty w kolekcji [Autodesk AEC Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview).
 
 **Co się stało z aplikacją FormIt dla systemu Android?**
 
-Aby zoptymalizować ofertę produktu FormIt, musieliśmy podjąć trudną decyzję o wycofaniu aplikacji dla systemu Android. Jeśli jest zainstalowana, będzie nadal działać, ale nie będzie już dostępna w Sklepie Play.
+Aby zoptymalizować ofertę produktu FormIt, musieliśmy podjąć trudną decyzję o wycofaniu aplikacji dla systemu Android. Jeśli jest zainstalowana, będzie nadal działać, ale nie będzie już dostępna w sklepie Play.
 
 **Jak można uzyskać program FormIt?**
 
-Aby uruchomić wersję dla systemu Windows, wymagany jest dostęp do subskrypcji **FormIt Pro**, która jest częścią subskrypcji [kolekcji branżowej AEC](https://www.autodesk.pl/collections/architecture-engineering-construction/overview). Jeśli więc w Twoim biurze używany jest program Revit, być może masz już dostęp do programu FormIt. Można [pobrać program FormIt dla systemu Windows bezpośrednio z naszej strony internetowej](https://formit.autodesk.com/page/download) lub z aplikacji Autodesk Desktop.
+Aby uruchomić wersję dla systemu Windows, wymagany jest dostęp do subskrypcji **FormIt Pro**, która jest częścią subskrypcji kolekcji [AEC Industry Collection](https://www.autodesk.com/collections/architecture-engineering-construction/overview). Jeśli więc w Twoim biurze używany jest program Revit, być może masz już dostęp do programu FormIt. Można [pobrać program FormIt dla systemu Windows bezpośrednio z naszej witryny internetowej](https://formit.autodesk.com/page/download) lub z aplikacji Autodesk Desktop.
 
-Ponadto wersję internetową można uruchomić bezpłatnie na naszej stronie internetowej: [http://formit.autodesk.com](http://formit.autodesk.com)
+Ponadto wersję internetową można uruchomić bezpłatnie w naszej witrynie internetowej: [http://formit.autodesk.com](http://formit.autodesk.com)
 
 Wersję dla systemu iOS można pobrać bezpłatnie ze sklepu Apple App Store (tylko iPad).
 
@@ -63,9 +63,9 @@ FormIt to osobna aplikacja do szkicowania i projektowania 3D, ale tworzone w nie
 
 **Co się stanie po zaimportowaniu danych do programu Revit?**
 
-Począwszy od wersji 2016, program Revit jest dostarczany z dodatkiem umożliwiającym korzystanie z danych programu FormIt. Podczas importowania pliku AXM z programu FormIt do programu Revit ten dodatek analizuje poszczególne obiekty w pliku i odtwarza je w programie Revit za pomocą interfejsu API. Domyślnie wszystkie elementy z programu FormIt są klasyfikowane jako Bryła.
+Od wersji 2016 program Revit jest dostarczany z dodatkiem umożliwiającym korzystanie z danych programu FormIt. Podczas importowania pliku AXM z programu FormIt do programu Revit ten dodatek analizuje poszczególne obiekty w pliku i odtwarza je w programie Revit za pomocą interfejsu API. Domyślnie wszystkie elementy z programu FormIt są klasyfikowane jako bryły.
 
-Konwerter FormIt pobiera wszystkie obiekty brył i tworzy rodzinę brył w programie Revit za pomocą [interfejsu API kształtu bezpośredniego](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
+Dodatek FormIt Converter pobiera wszystkie obiekty brył i tworzy rodzinę brył w programie Revit za pomocą [interfejsu API kształtu bezpośredniego (Direct Shape)](https://knowledge.autodesk.com/search-result/caas/CloudHelp/cloudhelp/2016/ENU/Revit-API/files/GUID-DF7B9D4A-5A8A-4E39-8721-B7782CBD7730-htm.html).
 
 Kształt bezpośredni jest obiektem nieedytowalnym używanym w procesach roboczych IFC. Mimo że nie jest dostępny do edycji, jego zdecydowaną zaletą jest przenoszenie całych tekstur materiałów między programami FormIt i Revit. [Tu znajduje się przewodnik](https://windows.help.formit.autodesk.com/Building-the-Farnsworth-House/Revit-Interop.html), w którym szczegółowo wyjaśniono proces roboczy importu z programu FormIt do programu Revit.
 
@@ -101,7 +101,7 @@ Przed nadaniem oficjalnej nazwy FormIt program ten nosił nazwę wewnętrzną XM
 
 **Jak program FormIt wypada na tle programu SketchUp?**
 
-* Lepsze [**współdziałanie z programem Revit**](../tool-library/revit.md) _\*\*_
+* Lepsze [**współdziałanie z programem Revit**](../tool-library/revit.md)
 * [**Integracja z dodatkiem Dynamo**](../tool-library/dynamo.md) na potrzeby projektowania obliczeniowego.
 * Własne narzędzia do [**analizy oświetlenia naturalnego**](../tool-library/solar-analysis.md) i [**analizy energetycznej**](../tool-library/energy-analysis.md) obsługiwane przez oprogramowanie Autodesk Insight.
 * Bardziej niezawodne jądro modelowania brył umożliwiające wykonywanie zaawansowanych operacji modelowania.
@@ -123,12 +123,16 @@ Tak! Program FormIt obsługuje importowanie plików DWG 2D i 3D.
 
 **Jak uzyskać pomoc techniczną?**
 
-Możesz zacząć od kontaktu ze sprzedawcą Autodesk lub odwiedzić nasze [forum programu FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=en). Najlepiej najpierw wyszukać pytanie, na które potrzebujesz odpowiedzi — jeśli nie znajdziesz odpowiedzi, opublikuj nowy temat i zaczekaj na odpowiedź od zespołu programu FormIt.
+Możesz zacząć od kontaktu ze sprzedawcą Autodesk lub odwiedzić nasze [forum programu FormIt](https://forums.autodesk.com/t5/formit-forum/bd-p/142). Najlepiej najpierw wyszukać pytanie, na które potrzebujesz odpowiedzi — jeśli nie znajdziesz odpowiedzi, opublikuj nowy temat i zaczekaj na odpowiedź od zespołu programu FormIt.
 
 **Co zrobić, jeśli nie mogę się zalogować?**
 
-* Ten [wpis na forum](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572?profile.language=en) zawiera informacje o typowych problemach z logowaniem.
-* Jeśli masz komputer z możliwością przełączania między kartami graficznymi (GPU), ważne jest, aby na potrzeby programu FormIt zawsze była używana karta GPU o wyższej wydajności. Oto instrukcje dotyczące kart [AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) oraz [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1)
+* Ten [wpis na forum](https://forums.autodesk.com/t5/formit-forum/having-trouble-logging-into-formit-for-windows-try-these-steps/td-p/7179572) zawiera informacje o typowych problemach z logowaniem
+* Jeśli masz komputer z możliwością przełączania między kartami graficznymi (GPU), ważne jest, aby na potrzeby programu FormIt zawsze była używana karta GPU o wyższej wydajności. Oto instrukcje dotyczące urządzeń [AMD](https://community.amd.com/docs/DOC-1581#jive\_content\_id\_Assigning\_Applications\_to\_GPUs) i [NVIDIA](http://nvidia.custhelp.com/app/answers/detail/a\_id/2615/kw/manage%203d%20settings/related/1)
+
+**Jakie porty są wymagane, aby można było korzystać ze współpracy w czasie rzeczywistym?**
+
+Upewnij się, że jest otwarty port wyjściowy 443 dla witryny [collaboration-server.formit.autodesk.com](http://collaboration-server.formit.autodesk.com/).
 
 **Co zrobić w przypadku niepowodzenia analizy energetycznej programu Insight?**
 
