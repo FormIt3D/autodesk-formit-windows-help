@@ -2,7 +2,7 @@
 
 É possível cortar um objeto ou grupo de outro com a ferramenta Cortar. Existem duas maneiras de acessar a ferramenta Cortar:
 
-## Executar o comando Cortar primeiro
+## Corte booleano na barra de ferramentas
 
 Teclado: C G
 
@@ -18,10 +18,10 @@ Clique uma vez para selecionar objetos ou grupos a serem removidos:
 
 ![](../.gitbook/assets/boolean\_cut2.png)
 
-Clique na marca de seleção para encerrar o comando. O objeto que foi removido permanece na cena. É possível excluí-lo ou usar [Camadas](layers.md) para ocultá-lo.
+Clique na marca de seleção para encerrar o comando. O objeto que foi removido permanece na cena. É possível excluí-lo ou usar [Camadas ](layers.md)para ocultá-lo.
 
-## Selecionar primeiro os objetos
+## Corte booleano no menu de contexto
 
 1. Clique duas vezes para selecionar o objeto a ser cortado. (Clique uma vez para um grupo)
 2. Mantendo pressionada a tecla **CTRL**, clique duas vezes em um objeto sobreposto para cortar.
-3. Clique com o botão direito do mouse no objeto que será cortado e escolha a [**ferramenta Cortar**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) no menu de contexto. ![](<../.gitbook/assets/cut tool.png>)
+3. Clique com o botão direito do mouse no objeto que será cortado e selecione a [**ferramenta Cortar**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) no menu de contexto. \![](<../.gitbook/assets/cut tool.png>)

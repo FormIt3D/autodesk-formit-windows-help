@@ -14,10 +14,10 @@ A barra de ferramentas padrão é ativada por padrão, mas é dividida nas seç�
 
 ### Geometria
 
-![](<../.gitbook/assets/geometry\_icons (1).png>)
+\![](<../.gitbook/assets/geometry_icons (1).png>)
 
-1. [**Seleção**](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/tool-library/select-edge-face-or-object) e filtros de seleção de área
-2. Ferramentas [**Medir distância** ](../tool-library/measure-tool.md) e [**Medir ângulo**](../tool-library/measure-angle-tool.md)
+1. [**Seleção**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) e filtros de seleção de área
+2. Ferramentas [**Medir distância**](../tool-library/measure-tool.md) e [**Medir ângulo**](../tool-library/measure-angle-tool.md)
 3. [**Planos de corte**](../tool-library/section-planes.md)
 4. [**Ferramentas de desenho 3D**](../formit-primer/part-i/3d-sketching.md)
 5. Barra de ferramentas [**Primitivo**](../tool-library/place-primitive-object.md)
@@ -29,40 +29,46 @@ A barra de ferramentas padrão é ativada por padrão, mas é dividida nas seç�
 ![](../.gitbook/assets/settings\_icons.png)
 
 1. Menu **Configurações** para configurações da interface do usuário e do aplicativo.
-2. **Modo de toque** para ativar interações em dispositivos de tela sensível ao toque.
+2. **Modo de toque** para ativar as interações em dispositivos de tela sensível ao toque.
 3. [**Colaboração**](../tool-library/collaboration.md) para gerenciar sessões de colaboração com vários usuários.
-4. **Login na Autodesk Account.**
-5. Manu **Informações** para ajuda e links.
+4. **Login na Autodesk Account**.
+5. Menu **Informações** para ajuda e links.
 
 ### Projeto
 
 ![](../.gitbook/assets/design\_icons.png)
 
-1. [**Localização** ](../tool-library/setting-location.md)
+1. [**Localização**](../tool-library/setting-location.md)
 2. [**Análise de luz solar, de sombras e de sol**](../tool-library/solar-analysis.md)
 3. [**Análise de energia**](../tool-library/energy-analysis.md)
 
-## Paleta
+## Paletas
 
-![](<../.gitbook/assets/properties (1).png>) [**Propriedades**](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/tool-library/properties)
+\![](<../.gitbook/assets/properties (1).png>) [**Propriedades**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
-![](../.gitbook/assets/layers.png)[**Camadas**](../tool-library/layers.md)
+![](../.gitbook/assets/layers.png) [**Camadas**](../tool-library/layers.md)
 
-![](../.gitbook/assets/scenes.png)[**Cenas**](../tool-library/scenes.md)
+![](../.gitbook/assets/scenes.png) [**Cenas**](../tool-library/scenes.md)
 
-![](../.gitbook/assets/visual\_styles.png)[**Estilos visuais**](../tool-library/visual-styles.md)
+![](../.gitbook/assets/visual\_styles.png) [**Estilos visuais**](../tool-library/visual-styles.md)
 
-![](../.gitbook/assets/branch\_tree.png)[**Árvore de grupos**](../tool-library/groups-tree.md)
+![](../.gitbook/assets/branch\_tree.png) [**Árvore de grupos**](../tool-library/groups-tree.md)
 
-![](../.gitbook/assets/dynamo.png)[**Dynamo**](../tool-library/dynamo.md)
+![](../.gitbook/assets/dynamo.png) [**Dynamo**](../tool-library/dynamo.md)
 
-![](../.gitbook/assets/levels.png)[**Níveis**](../tool-library/levels-and-area.md)
+![](../.gitbook/assets/levels.png) [**Níveis**](../tool-library/levels-and-area.md)
 
-![](../.gitbook/assets/content\_library.png)[**Biblioteca de conteúdo**](../tool-library/content-library.md)
+![](../.gitbook/assets/content\_library.png) [**Biblioteca de conteúdo**](../tool-library/content-library.md)
 
-![](../.gitbook/assets/undo.png)[**Gerenciador de desfazer**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
+![](../.gitbook/assets/undo.png) [**Gerenciador de desfazer**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin\_img.png) [**Plug-ins**](https://windows.help.formit.autodesk.com/v/brazilian-portuguese/tool-library/plug-ins)
+![](../.gitbook/assets/plugin\_img.png) [**Plug-Ins**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
+
+### Mostrar/ocultar todas as paletas
+
+No FormIt 2023 e versões mais recentes, é possível minimizar/restaurar a paleta alternando Mostrar/Ocultar todas as paletas encontradas no menu Janela:
+
+<figure><img src="../.gitbook/assets/ShowHidePalette.png" alt=""><figcaption></figcaption></figure>
 
 ## Menu de contexto
 
@@ -70,8 +76,8 @@ Clique com o botão direito do mouse em um elemento na tela 3D para exibir um me
 
 ![](../.gitbook/assets/wheel\_img.png)
 
-## Atalhos do teclado
+## Atalhos de teclado
 
-Personalize os [atalhos **de teclado**](../appendix/keyboard-shortcuts.md) do FormIt em Editar > Preferências > Atalhos.
+Personalize os [a**talhos de teclado**](../appendix/keyboard-shortcuts.md) do FormIt em Editar > Preferências > Atalhos.
 
-![](<../.gitbook/assets/shortcuts\_img (1).png>)
+\![](<../.gitbook/assets/shortcuts_img (1).png>)

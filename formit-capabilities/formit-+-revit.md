@@ -1,6 +1,6 @@
 # FormIt + Revit
 
-![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
+\![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
 
 ## A facilidade do FormIt aliada à eficácia do Revit <a href="#revit-intro" id="revit-intro"></a>
 
@@ -8,26 +8,32 @@ O FormIt para Windows se conecta diretamente ao Revit para possibilitar uma comu
 
 ## Novidades do FormIt + Revit <a href="#revit-what-s-new" id="revit-what-s-new"></a>
 
+### **Aprimoramentos do FormIt 2023.1** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
+
+* A localização definida no Revit agora é sincronizada com o FormIt quando iniciado por meio do botão Esboço 3D.
+* Foi melhorada a sincronização de estilos de linha DWG quando o FormIt é iniciado por meio do botão Esboço 3D.
+* Sincronização opcional da câmera entre o FormIt e o Revit quando estiver no esboço 3D ou editando um objeto FormIt vinculado.
+
 ### O poder da vinculação para 2023 <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
 
 * Vincule um modelo do FormIt (formato AXM) ao Revit usando o botão _**Vincular CAD**_, na guia Inserir do Revit.
 * Selecione um elemento vinculado do FormIt no Revit e use o novo botão _**Editar no FormIt**_ para iniciá-lo no FormIt de modo a possibilitar a edição imediata.
-* Use a nova _**coluna Enviar para o Revit**_, na paleta Camadas, para controlar quais camadas são enviadas para o Revit quando o esboço do FormIt é vinculado ao Revit.&#x20;
+* Use a nova _**coluna Enviar para o Revit**_, na paleta Camadas, para controlar quais camadas são enviadas para o Revit quando o esboço do FormIt é vinculado ao Revit. 
 * Visualize a geometria que será enviada para o Revit com o novo modo _**Visualizar seleções de Enviar para o Revit**_, disponível na parte inferior do painel Camadas e ao lado do botão Enviar para o Revit.
 * As arestas de silhueta agora são desenhadas para objetos do FormIt no Revit.
 
-### **Aprimoramentos do FormIt 2022.1** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
+### **Melhorias do FormIt 2022.1** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
 
 Inicie o FormIt no Revit com o botão Esboço 3D e inclua todos os dados de nível ou os dados selecionados do Revit na paleta Níveis do FormIt.
 
 ### **Tudo novo para 2022** <a href="#all-new-for-2022" id="all-new-for-2022"></a>
 
 * Inicie o FormIt diretamente no Revit com o novo botão _**Esboço 3D**_, na guia Massa e terreno do Revit.
-* Projete no FormIt e envie o esboço de volta para o Revit usando o botão _**Enviar para o Revit**_, no FormIt, quando iniciado com o botão _Esboço 3D_.
+* Projete no FormIt e envie o esboço de volta para o Revit usando o botão _**Enviar para o Revit**_ no FormIt, quando iniciado com o botão _Esboço 3D_.
 * Importe um modelo do FormIt para o Revit usando o botão _**Importar CAD**_, na guia Inserir do Revit (mais confiável e até **30 vezes mais rápido** do que o botão anterior _Importar do FormIt para RVT_).
 * Não é necessário fazer o download de um complemento separado para recursos do FormIt.
 
-### **Aprimoramentos do Revit 2021.1** <a href="#revit-20211-improvements" id="revit-20211-improvements"></a>
+### **Melhorias do Revit 2021.1** <a href="#revit-20211-improvements" id="revit-20211-improvements"></a>
 
 * Foi melhorada a consistência da visibilidade de arestas: as arestas suavizadas/ocultas no FormIt permanecem ocultas no Revit.
 * Foi melhorada a consistência na orientação dos materiais: os materiais com sobreposições personalizadas de escala/rotação nas faces do FormIt mantêm essas sobreposições no Revit.
@@ -44,11 +50,11 @@ Se você estiver trabalhando tanto no estágio inicial quanto no projeto detalha
 * Faça referência a um modelo do FormIt no Revit usando a ferramenta _Vincular CAD_ e continue com a visualização e o detalhamento no Revit.
 * Use _Editar no FormIt_ para iniciar um vínculo do FormIt no Revit.
 
-![](<../.gitbook/assets/revit to formit.png>)
+\![](<../.gitbook/assets/revit to formit.png>)
 
-### **Esboço 3D, Editar no FormIt e Enviar para o Revit para iteração de projeto** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
+### **Esboço 3D, Editar no FormIt e Enviar para o Revit para iteração do projeto** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 
-#### **Fluxos de trabalho sugeridos**
+### **Fluxos de trabalho sugeridos**
 
 * Defina uma parte interna do modelo do Revit usando uma caixa de corte e, em seguida, clique no botão _**Esboço 3D**_ para abrir o FormIt e explorar layouts internos ou recursos de projeto sob medida. Envie o novo projeto para o Revit com um só clique.
 * Comece com um contexto urbano já modelado no Revit e clique no botão _**Esboço 3D**_ para enviar o contexto circundante para o FormIt como referências encaixáveis. Envie o novo projeto para o Revit com um só clique.
@@ -60,25 +66,41 @@ Se você estiver trabalhando tanto no estágio inicial quanto no projeto detalha
 ![Usar Editar no FormIt após selecionar um objeto do FormIt](../.gitbook/assets/revit-edit-in-formit-workflow.gif)
 
 * Use o _**Modo de visualização do Revit**_ para visualizar a geometria que será enviada ao Revit para assegurar que você esteja compartilhando o projeto correto a ser usado no desenvolvimento detalhado.
-* Selecione os elementos que você deseja dos projetos e envie cada projeto para o Revit usando o botão _**Enviar para o Revit**_ ou salvando o modelo vinculado.&#x20;
+* Selecione os elementos que você deseja dos projetos e envie cada projeto para o Revit usando o botão _**Enviar para o Revit**_ ou salvando o modelo vinculado. 
 
-#### **Usar as ferramentas**
+### **Usar as ferramentas**
 
 * O botão _**Esboço 3D**_, o botão _**Editar no FormIt**_ e o fluxo de trabalho _**Enviar para o Revit**_ estão disponíveis para os assinantes da Autodesk Architecture, Engineering & Construction (AEC) Collection e para clientes com tipos específicos de acesso. Não estão disponíveis através do Revit LT. [Saiba mais sobre a AEC Collection aqui.](https://www.autodesk.com.br/collections/architecture-engineering-construction/overview)
+
+### Botão Esboço 3D
 
 ![Iniciar uma nova instância com o esboço 3D, salvar e criar um vínculo do Revit com Enviar para o FormIt](../.gitbook/assets/revit-3d-sketch-send-to-revit.png)
 
 * Quando você inicia o Revit 2022.0 ou uma versão posterior, há um novo botão na guia Massa e terreno, denominado **Esboço 3D**. O botão está disponível somente nas vistas 3D; ele aparece desativado nas vistas 2D no Revit.
 * Assegure-se de que você esteja conectado ao Revit com as credenciais da Autodesk. Se iniciar o botão _**Esboço 3D**_, poderá ser solicitado que você efetue login na Autodesk Account novamente. Isso é para verificar se você tem os direitos corretos.
-* Se o FormIt 2022.0 ou uma versão posterior não estiver instalado (ou se houver uma versão do FormIt instalada anterior à versão 2022.0), o FormIt não será iniciado e será solicitado que você faça o download da versão correta do FormIt.
-* Clique no botão _**Esboço 3D**_ para iniciar o FormIt. Escolha trazer todos os objetos visíveis ou apenas os objetos selecionados para o FormIt. Escolher trazer somente os objetos selecionados será útil se o modelo do Revit for grande e o projeto fizer referência somente a uma parte do modelo do Revit. Além disso, use uma caixa de corte no Revit para isolar uma área interna do modelo do Revit para enviar ao FormIt.
+* Se o FormIt 2022.0 ou uma versão posterior não estiver instalado (ou se houver uma versão do FormIt instalada anterior à versão 2022.0), o FormIt não será iniciado e será solicitado que você faça o download da versão correta do FormIt.
+
+#### Caixa de diálogo “Abrir FormIt” do Esboço 3D
+
+* Clique no botão _**Esboço 3D**_ para iniciar o FormIt. Escolha entre trazer todos os objetos visíveis ou apenas os objetos selecionados para o FormIt. 
+  * Escolher trazer somente os objetos selecionados será útil se o modelo do Revit for grande e o projeto fizer referência somente a uma parte do modelo do Revit. 
+  * Além disso, use uma caixa de corte no Revit para isolar uma área interna do modelo do Revit para enviar ao FormIt.
 
 ![](../.gitbook/assets/revit-objects.png)
 
-* Se você selecionar níveis no Revit, o FormIt receberá esses níveis. Caso contrário, o FormIt receberá todos os níveis visíveis no Revit.
+#### Esboço 3D e níveis
+
+* Se “todos os objetos visíveis do Revit” for selecionado, todos os níveis visíveis do Revit se tornarão níveis do FormIt e poderão ser [visualizados na paleta Níveis](../tool-library/levels-and-area.md#creating-and-configuring-levels) ou [aplicados a objetos através da paleta Propriedades](../tool-library/levels-and-area.md#applying-levels).
+* Se “objetos selecionados do Revit” for selecionado, somente os níveis selecionados se tornarão níveis do FormIt.
+
+#### Após a inicialização do FormIt
+
 * Quando o FormIt for iniciado, a geometria incluída do Revit será exibida em sua própria camada no FormIt. A camada é denominada “Contexto do Revit” e está bloqueada por padrão.
 * Modele no FormIt adicionando formas ou aplicando materiais, conteúdo etc.
-* Aplique níveis aos objetos do FormIt com base na paleta Níveis.
+* Aplique níveis aos objetos do FormIt com base na [paleta Níveis](../tool-library/levels-and-area.md#applying-levels).
+
+### Fluxo de trabalho Enviar para o Revit
+
 * Use a _**coluna Enviar para o Revit**_, na paleta Camadas, para incluir ou excluir a geometria a ser enviada para o Revit.
 
 ![Coluna Enviar para o Revit na paleta Camadas](../.gitbook/assets/revit-send-to-formit-layers-column.png)
@@ -88,16 +110,24 @@ Se você estiver trabalhando tanto no estágio inicial quanto no projeto detalha
 ![Modo de visualização do Revit](../.gitbook/assets/revit-preview-mode.png)
 
 * Transfira a geometria do FormIt para o Revit usando o botão _**Enviar para o Revit**_, na barra de ferramentas do FormIt.
-   * Você será solicitado a salvar o arquivo, o que vincula o modelo ao Revit.
-      * **Observação:** Recomendamos salvar o arquivo localmente, pois salvar no Autodesk Docs interrompe a conexão entre o FormIt e o Revit. Em vez disso, use o [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/PTB/) para compartilhar modelos na nuvem.
-   * Após o vínculo ter sido criado, sempre que você quiser transferir alterações para o Revit, poderá salvar novamente o modelo ou clicar no botão Enviar para o Revit.
+  * Você será solicitado a salvar o arquivo, o que vinculará o modelo ao Revit.
+    * **Observação:** Recomendamos salvar o arquivo localmente, pois salvar no Autodesk Docs interrompe a conexão entre o FormIt e o Revit. Em vez disso, use o [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/PTB/) para compartilhar modelos na nuvem.
+  * Após o vínculo ter sido criado, sempre que você quiser transferir alterações para o Revit, poderá salvar novamente o modelo ou clicar no botão Enviar para o Revit.
 
-![](<../.gitbook/assets/send-to-revit (2).png>)
+\![](<../.gitbook/assets/send-to-revit (2).png>)
 
-* Os níveis, as camadas e os materiais do FormIt são transferidos para o Revit junto com a geometria.
-   * É possível visualizar os materiais do FormIt na caixa de diálogo Materiais do Revit, ao filtrar a lista por “FormIt”.
-   * É possível localizar camadas do FormIt em uma vista do Revit através da guia de importação dos gráficos de visibilidade. Essa é uma ótima maneira de mostrar diferentes opções de projeto do FormIt no Revit.
-* Quando você inicia o Revit 2023.0 ou uma versão posterior e seleciona um objeto do FormIt, é possível usar o botão _**Editar no FormIt**_ para iniciar o modelo no FormIt.
+* As camadas e os materiais do FormIt são transferidos para o Revit junto com a geometria.
+  * É possível visualizar os materiais do FormIt na caixa de diálogo Materiais do Revit filtrando a lista por “FormIt”.
+  * É possível localizar camadas do FormIt em uma vista do Revit através da guia de importação dos gráficos de visibilidade. Essa é uma ótima maneira de mostrar diferentes opções de projeto do FormIt no Revit.
+  * Para enviar níveis para o Revit, é necessário importar o AXM através da caixa de diálogo Importar CAD e marcar “Importar níveis” na parte inferior.
+
+### O botão Editar no FormIt
+
+* Após vincular um modelo do FormIt no Revit ou após criar um novo modelo do FormIt usando o _**Esboço 3D**_ e salvar o modelo, o elemento do FormIt será salvo no Revit e poderá ser editado novamente mais tarde.
+* Selecione um elemento do FormIt no Revit e, em seguida, clique no botão _**Editar no FormIt**_ na guia Modificar para iniciar o modelo no FormIt.
+
+\![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
+
 * Consulte o manual do FormIt para obter um [tutorial sobre o fluxo de trabalho do FormIt-Revit.](../formit-primer/part-ii/2.8-advanced-revit-workflows.md)
 
 ### **Importar e vincular modelos do FormIt: colaboração de projetos entre o FormIt e o Revit** <a href="#importing-formit-models-design-collaboration-between-formit-and-revit" id="importing-formit-models-design-collaboration-between-formit-and-revit"></a>
@@ -108,7 +138,7 @@ Se você estiver trabalhando tanto no estágio inicial quanto no projeto detalha
 * Importe o modelo do FormIt diretamente numa opção de projeto do Revit para explorar e comparar projetos. Como as camadas do FormIt entram no Revit por meio do fluxo de trabalho de importação, o usuário do Revit pode controlar quais camadas do FormIt são visíveis em qual opção de projeto do Revit.
 * Importe o modelo do FormIt numa família de categoria de massa (e carregue-o em um projeto do Revit) para aproveitar as ferramentas Níveis, Pisos de massa e Por face e aplicar as famílias do sistema do Revit à geometria do FormIt.
 
-![Import CAD in Revit](<../.gitbook/assets/revit-workflows (2).png>)
+\![Import CAD in Revit](<../.gitbook/assets/revit-workflows (2).png>)
 
 * Vincule um modelo existente do FormIt ao Revit para enviar as alterações do Formit para o Revit e vice-versa, atualizar as geometrias e a aparência dos materiais durante o recarregamento e usar as camadas do FormIt para controlar a visibilidade da geometria.
 
@@ -118,26 +148,26 @@ Se você estiver trabalhando tanto no estágio inicial quanto no projeto detalha
 
 * Especifique um arquivo do FormIt para importar para o projeto atual do Revit. Abra a ferramenta _**Importar CAD**_ do Revit. Selecione .AXM na lista de tipos de arquivo disponíveis. Procure um arquivo .AXM e clique em _Abrir_.
 * Os materiais do FormIt são transferidos para o Revit e exibidos na caixa de diálogo Materiais do Revit. Filtre a lista de materiais do FormIt.
-   * Os materiais que foram dimensionados ou rotacionados no FormIt mantêm a escala e a rotação corretas no Revit.
+  * Os materiais que foram dimensionados ou rotacionados no FormIt mantêm a escala e a rotação corretas no Revit.
 * Os níveis do FormIt são transferidos para o Revit.
-   * Clique no botão “Importar níveis do FormIt” na caixa de diálogo Importar CAD.
+  * Clique no botão “Importar níveis do FormIt” na caixa de diálogo Importar CAD.
 * As arestas ocultas de geometria curvada/facetada no FormIt passam para o Revit com arestas ocultas.
-   * Problema conhecido: as arestas de silhueta também aparecem ocultas na vista Linha oculta no Revit.
+  * Problema conhecido: as arestas de silhueta também aparecem ocultas na vista Linha oculta no Revit.
 * O ponto de origem do FormIt e o ponto base do Revit são usados para a colocação confiável de objetos importados do FormIt.
 * A geometria do FormIt importada para o Revit é incluída com todas as camadas do FormIt.
-   * As camadas do FormIt podem ser acessadas na guia Gráficos de visibilidade > Categorias importadas. Aqui, o usuário tem acesso a uma lista de camadas do FormIt e pode ativá-las e desativá-las com as caixas de seleção.
+  * As camadas do FormIt podem ser acessadas na guia Gráficos de visibilidade > Categorias importadas. Aqui, o usuário tem acesso a uma lista de camadas do FormIt e pode ativá-las e desativá-las com as caixas de seleção.
 * As ferramentas “Por face” do Revit (também conhecidas como ferramentas do Building Maker) podem gerar elementos do Revit com base na geometria do FormIt
-   * Isso requer que a geometria do FormIt seja importada para uma família de massa ou de modelo genérico primeiro e, em seguida, carregada no ambiente do projeto.
+  * Isso requer que a geometria do FormIt seja importada para uma família de massa ou de modelo genérico primeiro e, em seguida, carregada no ambiente do projeto.
 * A geometria do FormIt é enviada como uma instância de importação.
-   * Para importar um modelo do FormIt como importações separadas, isole partes do modelo no FormIt e importe cada parte como um arquivo .AXM separado.
-* Saiba mais na [documentação do Revit.](https://help.autodesk.com/view/RVT/2023/PTB/?guid=GUID-A5F4B6C1-94CD-4433-A4E2-6B39B4BA8E6D)
+  * Para importar um modelo do FormIt como importações separadas, isole partes do modelo no FormIt e importe cada parte como um arquivo .AXM separado.
+* Saiba mais na [documentação do Revit.](https://help.autodesk.com/view/RVT/2023/ENU/?guid=GUID-A5F4B6C1-94CD-4433-A4E2-6B39B4BA8E6D)
 
 #### **Trabalhar com níveis do Revit e importações do FormIt**
 
 * Durante a importação da geometria do FormIt para o Revit, os objetos resultantes podem estar em uma elevação inesperada devido aos níveis do Revit.
-   * Nas vistas de elevação/planta, a geometria do FormIt importada é exibida no Revit no nível atual.
-   * Nas vistas 3D, a geometria do FormIt importada é padronizada para o nível mais baixo, que pode estar abaixo do grau.
-   * Se a geometria aparecer em uma altura inesperada no Revit, selecione o objeto importado e ajuste o Nível base para o nível apropriado no Revit.
+  * Nas vistas de elevação/planta, a geometria do FormIt importada é exibida no Revit no nível atual.
+  * Nas vistas 3D, a geometria do FormIt importada é padronizada para o nível mais baixo, que pode estar abaixo do grau.
+  * Se a geometria aparecer em uma altura inesperada no Revit, selecione o objeto importado e ajuste o Nível base para o nível apropriado no Revit.
 
 #### **Converter famílias do Revit** <a href="#converting-revit-families" id="converting-revit-families"></a>
 
@@ -150,7 +180,7 @@ Se você estiver trabalhando tanto no estágio inicial quanto no projeto detalha
 #### **Preparar os arquivos do SketchUp para o Revit** <a href="#preparing-sketchup-files-for-revit" id="preparing-sketchup-files-for-revit"></a>
 
 * Use o FormIt para Windows para abrir ou importar conteúdo do SketchUp
-* Opcionalmente, use as [ferramentas integradas de diagnóstico e reparação para corrigir a geometria](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit) para que ela fique mais sólida para operações de nível superior
+* Opcionalmente, use as [ferramentas integradas de diagnóstico e reparo para corrigir a geometria](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit) para que ela fique melhor para operações de nível superior
 * Salve o arquivo do FormIt e importe-o usando os fluxos de trabalho **Importar CAD** ou **Enviar para o Revit** descritos acima
 
 ## Transição do complemento Conversor FormIt <a href="#revit-the-add-in" id="revit-the-add-in"></a>
@@ -161,14 +191,14 @@ Com essas alterações, o complemento inicia uma transição. Saiba como os flux
 
 ### **Uma nova forma de importar arquivos AXM** <a href="#a-new-way-to-import-axm-files" id="a-new-way-to-import-axm-files"></a>
 
-A substituição do botão _Importar FormIt para RVT_ no complemento corresponde à capacidade de importar arquivos do FormIt (.AXM) através da ferramenta Importar CAD, na guia Inserir do Revit.&#x20;
+A substituição do botão _Importar FormIt para RVT_ no complemento corresponde à capacidade de importar arquivos do FormIt (.AXM) através da ferramenta Importar CAD, na guia Inserir do Revit. 
 
-Além de ser até **30 vezes mais rápido**, você verá que esse fluxo de trabalho geralmente é **mais confiável** também. Juntamente com isso, alguns comportamentos mudaram:
+Além de ser até **30 vezes mais rápido**, você verá que esse fluxo de trabalho geralmente é **mais confiável** também. Juntamente com isso, alguns comportamentos mudaram:
 
 ### **Geometria na importação**
 
 * A geometria do FormIt é importada como uma instância de importação. As categorias do FormIt não se tornam mais categorias do Revit. Estamos trabalhando para resolver isso em uma atualização futura.
-   * As categorias do FormIt atualmente são usadas somente para a análise de energia.
+  * As categorias do FormIt atualmente são usadas somente para a análise de energia.
 * Não é mais necessário dividir o modelo em partes menores. Tente enviar o modelo completo do FormIt de uma vez.
 * Para importar um modelo do FormIt como importações separadas, isole partes do modelo no FormIt e importe cada parte como um arquivo .AXM separado.
 
@@ -182,7 +212,7 @@ Além de ser até **30 vezes mais rápido**, você verá que esse fluxo de traba
 
 ### **Fluxos de trabalho pós-importação**
 
-* Para fluxos de trabalho que envolvem as ferramentas Pisos de massa e Por face (Building Maker), primeiro importe o modelo do FormIt para uma família de massa ou de modelo genérico do Revit e, em seguida, carregue-o no ambiente do projeto.
+* Para fluxos de trabalho que envolvem as ferramentas Pisos de massa e Por face (Modelador), primeiro importe o modelo do FormIt para uma família de massa ou de modelo genérico do Revit e, em seguida, carregue-o no ambiente do projeto.
 * Além disso, aproveite as vantagens de um trabalho mais fluido acessando o novo ambiente de esboço 3D para projetos em estágio inicial diretamente do Revit.
 
 ### **Alterações nas famílias do Revit** <a href="#changes-to-revit-families" id="changes-to-revit-families"></a>
@@ -197,14 +227,14 @@ O botão _Recarregar famílias_ foi removido enquanto trabalhamos para proporcio
 
 ### **Obter suporte** <a href="#get-support" id="get-support"></a>
 
-Precisa de ajuda com o FormIt + Revit? [Nos informe nos fóruns](https://forums.autodesk.com/t5/formit-forum/bd-p/142?profile.language=pt-br).
+Precisa de ajuda com o FormIt + Revit? [Envie uma mensagem nos fóruns](https://forums.autodesk.com/t5/formit-forum/bd-p/142).
 
-Fazer o download do complemento antigo do Revit \
-(2021 ou versão anterior) <a href="#revit-download" id="revit-download"></a>
+Fazer o download do complemento antigo do Revit\
+ (2021 ou versão anterior) <a href="#revit-download" id="revit-download"></a>
 ------------------------------------------------------------------
 
 Se você estiver usando o FormIt e o Revit 2022 ou versões mais recentes, não será necessário fazer o download de um complemento separado.
 
 Para o Revit 2021 ou versões anteriores, será possível encontrar as versões antigas do complemento no link abaixo:
 
-[Consulte Downloads de complementos antigos do Revit](https://formit.autodesk.com/page/download#download-revit-add-in)
+[Veja os antigos downloads do complemento do Revit](https://formit.autodesk.com/page/download#download-revit-add-in)

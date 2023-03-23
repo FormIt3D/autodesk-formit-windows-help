@@ -4,17 +4,17 @@ Antes de visualizar um plug-in clonado no FormIt, é preciso hospedá-lo em um s
 
 ### **Visualizar o terminal no IDE**
 
-Você tem a opção de iniciar o servidor dentro do Visual Studio Code, em vez de em uma janela de terminal separada. \*\*\*\* Antes de abrir um terminal, verifique se a pasta correta está aberta no Visual Studio Code.
+Você tem a opção de iniciar o servidor dentro do Visual Studio Code, em vez de uma janela de terminal separada. **** Antes de abrir um terminal, verifique se a pasta correta está aberta no Visual Studio Code.
 
 Visualizar > Terminal (ou atalho Ctrl + \`)
 
-![](<../../../.gitbook/assets/image (11).png>)
+\![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### Configurar um servidor HTTP
 
 Um servidor HTTP que funciona bem é o [http-server](https://www.npmjs.com/package/http-server) do npm.
 
-Primeiro, você precisará fazer o download e instalar o [NodeJS](https://nodejs.org/pt-br/), se ele ainda não estiver instalado.
+Primeiro, será necessário fazer o download e instalar o [NodeJS](https://nodejs.org/en/), se ele ainda não estiver instalado.
 
 Se você encontrar erros nas etapas a seguir, tente reiniciar o computador para concluir a instalação do NodeJS.
 
@@ -22,7 +22,7 @@ No prompt de comando, insira o seguinte para instalar o _http-server_ do npm glo
 
 * `npm install http-server -g`
 
-![](<../../../.gitbook/assets/image (47).png>)
+\![](<../../../.gitbook/assets/image (47).png>)
 
 ### Iniciar o servidor local
 
@@ -30,7 +30,7 @@ Quando a configuração estiver concluída, execute o seguinte comando no termin
 
 * `http-server`
 
-![](<../../../.gitbook/assets/image (84).png>)
+\![](<../../../.gitbook/assets/image (84).png>)
 
 Dica 1: No caso de problemas com a execução do http-server (instalado globalmente ou localmente), pode ser útil executá-lo diretamente via npx:
 
@@ -47,7 +47,7 @@ Para desenvolver para o FormIt para Web, basta executar o seguinte comando:
 
 * `http-server --cors`
 
-![](<../../../.gitbook/assets/image (10).png>)
+\![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### Verificar o servidor
 
@@ -57,6 +57,6 @@ Para desenvolver para o FormIt para Web, basta executar o seguinte comando:
 
 Você deve ver os arquivos da pasta de projeto na janela do navegador.
 
-\*\*Se você usar um servidor da Web diferente de npm, o endereço/porta padrão poderá ser diferente.
+**Se você usar um servidor da Web diferente de npm, o endereço/porta padrão poderá ser diferente.
 
-![](<../../../.gitbook/assets/image (41).png>)
+\![](<../../../.gitbook/assets/image (41).png>)

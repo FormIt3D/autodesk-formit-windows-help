@@ -26,9 +26,9 @@ O Editor de script armazena o código criado em um arquivo scratch.js no diretó
 
 Na parte superior, há dois botões:
 
-**Executar** ![](<../../../.gitbook/assets/image (8).png>): executa todo o código escrito na janela.
+**Executar** \![](<../../../.gitbook/assets/image (8)(1).png>): executa todo o código escrito na janela.
 
-**Executar seleção** ![](<../../../.gitbook/assets/image (52).png>): executa somente as linhas de código selecionadas/realçadas.
+**Executar seleção** \![](<../../../.gitbook/assets/image (52).png>): executa somente as linhas de código selecionadas/realçadas.
 
 ### **Saída de script**
 
@@ -42,7 +42,7 @@ Após [clonar um repositório](cloning-a-sample-plugin.md) e [configurar um serv
 
 É possível carregar ou instalar qualquer um dos plug-ins, mas para os fins deste exercício, você instalará um plug-in baseado em painel e um baseado em barra de ferramentas. Vamos supor que o servidor http npm esteja sendo executado na porta 8080 hospedando ambos os repositórios de exemplo.
 
-### **Carregar versus instalar**
+### **Carga vs. Instalação**
 
 `FormIt.LoadPlugin();` carrega o plug-in somente para a sessão atual. O plug-in será descarregado automaticamente quando o aplicativo for fechado e reiniciado.
 
@@ -52,11 +52,11 @@ Essa é uma ótima opção para manifestar temporariamente um plug-in para teste
 
 No Windows, as seguintes chaves de registro são usadas para manter os plug-ins:
 
-* Plug-ins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Plug-ins: Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
 Use `FormIt.UninstallPlugin();` para desinstalar.
 
-Nos exemplos a seguir, a não ser que indicado de outra forma, sinta-se à vontade para usar _Instalar_ ou _Carregar,_ dependendo se você deseja que os resultados do exercício sejam persistentes ou não.
+Nos exemplos a seguir, a não ser que indicado de outra forma, sinta-se à vontade para usar _Instalar_ ou _Carregar_, dependendo se você deseja que os resultados do exercício sejam persistentes ou não.
 
 ### **Amostra de plug-in de barra de ferramentas: Inverter ao longo**
 
@@ -66,7 +66,7 @@ Se estiver executando um servidor local:
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-Se estiver carregando do [repositório do FormIt no GitHub](https://github.com/FormIt3D/) (é necessária uma conexão com a Internet):
+Se estiver carregando do repositório do [FormIt GitHub](https://github.com/FormIt3D/) (requer uma conexão com a Internet):
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
@@ -82,7 +82,7 @@ Se estiver executando um servidor local:
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-Se estiver carregando do [repositório do FormIt no GitHub](https://github.com/FormIt3D/) (é necessária uma conexão com a Internet):
+Se estiver carregando do repositório do [FormIt GitHub](https://github.com/FormIt3D/) (requer uma conexão com a Internet):
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
@@ -101,9 +101,9 @@ Se estiver executando um servidor local:
 * Modal: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
 * Sem janela restrita: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-Se estiver carregando do [repositório do FormIt no GitHub](https://github.com/FormIt3D/) (é necessária uma conexão com a Internet):
+Se estiver carregando do repositório do [FormIt GitHub](https://github.com/FormIt3D/) (requer uma conexão com a Internet):
 
 * Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
 * Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-Você deve ver o painel Hello Block! do exemplo de painel HTML ser exibido na tela como uma caixa de diálogo modal ou sem janela restrita.
+Você deve ver o painel Hello Block! do exemplo do painel HTML aparecer na tela como uma caixa de diálogo modal ou sem janela restrita.
