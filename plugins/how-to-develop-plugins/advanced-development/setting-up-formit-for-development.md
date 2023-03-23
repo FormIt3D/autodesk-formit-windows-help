@@ -4,7 +4,7 @@ FormIt デスクトップ アプリケーションでプラグインをテスト
 
 ### **スクリプト エディタとスクリプトの出力を表示する**
 
-FormIt の上部メニューの **[ウィンドウ]** に移動し、**[スクリプト エディタ]** ボックスと **[スクリプトの出力]** ボックスをオンにします。
+FormIt の上部メニューの**[ウィンドウ]**に移動し、**[スクリプト エディタ]**ボックスと**[スクリプトの出力]**ボックスをオンにします。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
@@ -20,15 +20,15 @@ FormIt の上部メニューの **[ウィンドウ]** に移動し、**[スク�
 
 ### **スクリプト エディタ**
 
-スクリプト エディタは、コードを記述およびテストできる簡単な開発環境を提供します。
+[スクリプト エディタ]は、コードを記述およびテストできる簡単な開発環境を提供します。
 
 スクリプト エディタに書き込まれたコードは、FormIt.exe ファイルと同じフォルダ内の scratch.js ファイルに格納されます。
 
 上部には 2 つのボタンがあります。
 
-**実行** ![](<../../../.gitbook/assets/image (8).png>): ウィンドウに書き込まれているすべてのコードを実行します。
+**実行** \![](<../../../.gitbook/assets/image (8) (1).png>): ウィンドウに書き込まれているすべてのコードを実行します。
 
-**選択項目を実行** ![](<../../../.gitbook/assets/image (52).png>): 選択してハイライト表示されたコード行のみを実行します。
+**選択項目を実行** \![](<../../../.gitbook/assets/image (52).png>): 選択してハイライト表示されたコード行のみを実行します。
 
 ### **スクリプトの出力**
 
@@ -42,9 +42,9 @@ FormIt の上部メニューの **[ウィンドウ]** に移動し、**[スク�
 
 プラグインはすべてロードまたはインストールが可能ですが、この演習では、パネルベースのプラグインとツールバーベースのプラグインの両方をインストールします。npm の http-server がポート 8080 で実行中で、例として使用する両方のリポジトリをホストしていることを前提としています。
 
-### **ロードとインストールの違い**
+### **ロードとインストール**
 
-`FormIt.LoadPlugin();` でプラグインをロードすると、現在のセッションのみで使用できます。プラグインは、アプリケーションを閉じて再起動すると、自動的にロード解除されます。
+`FormIt.LoadPlugin();` でロードしたプラグインは、現在のセッションのみで使用できます。プラグインは、アプリケーションを閉じて再起動すると、自動的にロード解除されます。
 
 これは、現在のセッションのみでテストするためにプラグインを一時的に表示する場合に便利なオプションです。
 
@@ -52,11 +52,11 @@ FormIt の上部メニューの **[ウィンドウ]** に移動し、**[スク�
 
 Windows では、プラグインを保持するために次のレジストリ キーが使用されます。
 
-* プラグイン: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* プラグイン: Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
 `FormIt.UninstallPlugin();` を使用してアンインストールします。
 
-次の例では、特に指定がない限り、演習で作成したプラグインを保持するかどうかによって、__インストールと__ロードのどちらを使用してもかまいません。
+次の例では、特に指定がない限り、演習で作成したプラグインを保持するかどうかによって、_インストール_と_ロード_のどちらを使用してもかまいません。
 
 ### **ツールバー プラグインのサンプル: Flip Along**
 
@@ -66,7 +66,7 @@ Windows では、プラグインを保持するために次のレジストリ �
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-[FormIt の GitHub にあるリポジトリ](https://github.com/FormIt3D/)からロードする場合(インターネット接続が必要)
+[FormIt GitHub リポジトリ](https://github.com/FormIt3D/)からロードする場合(インターネット接続が必要です):
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
@@ -82,7 +82,7 @@ Windows では、プラグインを保持するために次のレジストリ �
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-[FormIt の GitHub にあるリポジトリ](https://github.com/FormIt3D/)からロードする場合(インターネット接続が必要)
+[FormIt GitHub リポジトリ](https://github.com/FormIt3D/)からロードする場合(インターネット接続が必要です):
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
@@ -101,9 +101,9 @@ Windows では、プラグインを保持するために次のレジストリ �
 * モーダル: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
 * モードレス: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-[FormIt の GitHub にあるリポジトリ](https://github.com/FormIt3D/)からロードする場合(インターネット接続が必要)
+[FormIt GitHub リポジトリ](https://github.com/FormIt3D/)からロードする場合(インターネット接続が必要です):
 
 * モーダル: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
 * モードレス: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-HTML パネルの例の[Hello Block!]パネルが、モーダル ダイアログまたはモードレス ダイアログとして画面上に表示されます。
+HTMLパネルの例の「Hello Block!」パネルが、モーダルまたはモードレス ダイアログとして画面に表示されます。

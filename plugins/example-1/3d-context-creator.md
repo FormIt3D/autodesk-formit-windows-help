@@ -1,53 +1,53 @@
 # 3D Context Creator
 
-![](../../.gitbook/assets/contextcreator1.gif)
+\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
-## 3D Context Creator とは?
+## 概要
 
-3D Context Creator は、FormIt 内で 3D のコンテキストをすばやく生成するのに役立つ、非常に使いやすいプラグインです。このプラグインでは次のことが可能です。
+3D Context Creator は、FormIt 内に 3D コンテキストの建物を生成するための使いやすいプラグインです。
 
-* 周囲のコンテキストに合わせてプロジェクトの敷地を可視化する。
-* 特に設計プロセスの初期段階で、情報に基づいて意思決定する。
-* FormIt のすべてのユーザが無償でダウンロードできる。&#x20;
+このプラグインを使用すると、周囲の状況に合わせてプロジェクトの敷地を視覚化し、設計プロセスの初期段階で情報に基づいた意思決定を行うことができます。
 
-このプラグインでは、[Open Street Map](https://www.openstreetmap.org/about) からデータを取得して、FormIt ジオメトリに変換できます。このプラグインのソース コードは、[Github](https://github.com/matterlab-co/FormIt-Context-Plugin) で取得できます。&#x20;
+このプラグインは、[Open Street Map](https://www.openstreetmap.org/about) からデータを取得して、FormIt ジオメトリに変換できます。このプラグインのソース コードは、[Github](https://github.com/matterlab-co/FormIt-Context-Plugin) で取得可能です。
 
 ## 使用方法
 
-プラグインをインストールするには、他のプラグインと同様に、プラグインのスイッチをオンにします。
+プラグインをインストールするには、他のプラグインと同様に、プラグインの切り替えをプラグイン マネージャで有効にします。
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
 スイッチをオンにすると、プラグインがアプリケーションの右側に表示され、使用できるようになります。
 
-![](../../.gitbook/assets/formitUI.PNG)
+\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
-プラグインを使用する前に、まず FormIt のメインのツールバーから敷地の場所を設定します。
+敷地に場所が設定されていない場合は、**[場所を設定...]**リンクをクリックして場所を設定し、3D コンテキストの生成に使用する境界を定義します。
 
-![](<../../.gitbook/assets/image (76).png>)
+場所を設定すると、3D Context Creator は現在の場所で更新され、ボタンが有効になります。
 
-敷地の場所を検索し、[衛星画像と地形を読み込む]をクリックします。
+\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
-![](<../../.gitbook/assets/image (77).png>)
+3D Context Creator は、衛星画像の範囲を使用して 3D コンテキストを生成します。**[3D コンテキストを生成]**をクリックするだけで実行できます。
 
-衛星画像が FormIt プロジェクトに正常に読み込まれたら、3D Context Creator プラグインにナビゲートします。
+衛星画像の範囲や建物の複雑さによって、生成には数秒かかることがあります。
 
-正方形の半径をスライダで調整して、場所点からのコンテキストの距離(メートル単位)を拡張します。
+3D コンテキスト建物は自動的にグループ インスタンスに配置され、「コンテキスト建物」と呼ばれるレイヤに配置されます。 このレイヤを使用して、コンテキストの表示を切り替えることができます。
 
-![](../../.gitbook/assets/contextcreator7.png)
+\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-[Create]ボタンをクリックします。これで完了です。
+\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
-設定に問題がなければ、[Create]ボタンをクリックします。指定した半径のサイズと複雑さによっては、建物の形成の処理に少し時間がかかることがあります。
+後で場所を変更したり、衛星画像の範囲を調整する場合は、**[3D コンテキストを生成]**を再度クリックして、建物を再生成することができます。
 
-## **例**
+_コンテキストを再生成すると、建物を含むグループ インスタンスが新しいインスタンスに置き換えられるため、建物に対して行われたすべての変更が失われます。_これを防ぐには、コンテキスト コンテナをグループ解除してから再度グループ化します。
+
+## **次に例を示します**
 
 次のコンテキストで表現される象徴的な都市を推測してみてください。
 
-![](<../../.gitbook/assets/image (2).png>)
+\![](<../../.gitbook/assets/image (2) (1).png>)
 
-![](<../../.gitbook/assets/image (34).png>)
+\![](<../../.gitbook/assets/image (34).png>)
 
-![](<../../.gitbook/assets/image (13).png>)
+\![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (59).png>)
+\![](<../../.gitbook/assets/image (59).png>)

@@ -1,9 +1,9 @@
 # クライアント側エンジンと Web 側エンジン
 
-FormIt プラグインは、2 つの異なる JavaScript エンジンを使用します。&#x20;
+FormIt プラグインは、2 つの異なる JavaScript エンジンを使用します。
 
 * HTML を表示するパネル(Web 側)
-* クライアント側のパネル(FormIt)。FormIt とそのジオメトリ カーネルを呼び出します&#x20;
+* クライアント側のパネル(FormIt)。FormIt とそのジオメトリ カーネルを呼び出します
 
 これら 2 つの JavaScript エンジンは、異なるプロセスで動作します。
 
@@ -21,19 +21,18 @@ FormIt は複数の JavaScript エンジンを同時に実行します。
 
 ### クライアント側(FormIt)
 
-[manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8) を使用して指定されます
+[manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8) を使用して、指定します。
 
 ```
     "Scripts": [
         "PLUGINLOCATION/blockFormItSide.js",
         "https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/PluginUtils18_0.js"
     ]
-
 ```
 
 ### Web 側(HTML)
 
-[index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7) を使用して指定されます
+[index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7) を使用して、指定します。
 
 * Web 側スクリプトは、Web ページからロードされます。
 * Web 側スクリプトは、複数の非同期の呼び出しを使用してクライアント側(FormIt)の JavaScript を呼び出すことができます。
@@ -56,21 +55,21 @@ FormIt は複数の JavaScript エンジンを同時に実行します。
     });
 ```
 
-**長所:**&#x20;
+**長所:**
 
-➕ `await` が不要です。&#x20;
+➕ `await` が不要です。
 
-**短所:**&#x20;
+**短所:**
 
-➖ 結果を取得するにはコールバックが必要ですが、そのタイミングを決めることができません。&#x20;
+➖ 結果を取得するにはコールバックが必要ですが、そのタイミングを決めることができません。
 
-➖ スクリプトは 2 つの異なる場所で定義されます。&#x20;
+➖ スクリプトは 2 つの異なる場所で定義されます。
 
 ➖ プラグイン ロジックを 2 つの異なるファイルに分割する必要があります。
 
-### **メソッド 2: FormIt.CallJS**&#x20;
+### **メソッド 2: FormIt.CallJS**
 
-**\* FormIt 2022.1 以降でのみ使用可能です**
+*** FormIt 2022.1 以降でのみ使用可能です**
 
 CallJS は、FormIt 側で呼び出される JavaScript 関数、および arguments.json オブジェクトを取得します。
 
@@ -82,14 +81,13 @@ var args =
     "h": 10
 };
 var result = await FormIt.CallJS("CreateBlock", args);
-
 ```
 
-**長所:**&#x20;
+**長所:**
 
-➕ 必要なときに結果を利用できます。
+➕ 必要なときに結果を利用できます
 
-**短所:**&#x20;
+**短所:**
 
 ➖ **** 非同期の呼び出しをすべて await で修飾する必要があります。これを忘れると正しく機能しません。
 
@@ -101,27 +99,27 @@ var result = await FormIt.CallJS("CreateBlock", args);
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-非同期の呼び出しで、Web 側が FormIt 側を呼び出します。この呼び出しは、あるプロセスで開始して別のプロセスに送られ、その結果が開始プロセスに戻されます。そのため、await が必要です。&#x20;
+非同期の呼び出しで、Web 側が FormIt 側を呼び出します。この呼び出しは、あるプロセスで開始して別のプロセスに送られ、その結果が開始プロセスに戻されます。そのため、await が必要です。
 
 既定では、組み込みの FormIt API のみを呼び出すことができます。
 
-**長所:**&#x20;
+**長所:**
 
-➕ 必要なときに結果を利用できます。&#x20;
+➕ 必要なときに結果を利用できます。
 
 ➕ manifest.json にスクリプトが定義されていなくても、すべてのコードを結合して、Web 側から実行される 1 つの JS ファイルにすることができます。
 
-**短所:**&#x20;
+**短所:**
 
-➖ **** 非同期の呼び出しをすべて `await` で修飾する必要があります。これを忘れると正しく機能しません。&#x20;
+➖ **** 非同期の呼び出しをすべて `await` で修飾する必要があります。これを忘れると正しく機能しません。
 
 ➖ **** `await.` が原因で動作が遅くなる可能性があります。
 
-### メソッド 4 (RegisterAsyncAPI)&#x20;
+### メソッド 4 (RegisterAsyncAPI)
 
-**\* FormIt 2023.0 以降でのみ使用可能です**&#x20;
+*** FormIt 2023.0 以降でのみ使用可能です**
 
-FormIt 側でユーザ定義関数を呼び出すには、関数を登録する必要があります。例:&#x20;
+FormIt 側でユーザ定義関数を呼び出すには、関数を登録する必要があります。次に例を示します。
 
 **クライアント側(FormIt)**
 
@@ -140,17 +138,17 @@ HelloBlockAsync.CreateBlock = function(args)
 var result = await HelloBlockAsync.CreateBlock(l, w, h);
 ```
 
-例については、「[HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0)」を参照してください。
+例として、[HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0) を参照してください。
 
-**長所:**&#x20;
+**長所:**
 
-➕ 必要なときに結果を利用できます。&#x20;
+➕ 必要なときに結果を利用できます。
 
 ➕ manifest.json にスクリプトが定義されていなくても、すべてのコードを結合して、Web 側から実行される 1 つの JS ファイルにすることができます。
 
-**短所:**&#x20;
+**短所:**
 
-➖ **** 非同期の呼び出しをすべて await で修飾する必要があります。これを忘れると正しく機能しません。&#x20;
+➖ **** 非同期の呼び出しをすべて await で修飾する必要があります。これを忘れると正しく機能しません。
 
 ➖ **** `await.` が原因で動作が遅くなる可能性があります。
 
