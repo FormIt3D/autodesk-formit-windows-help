@@ -4,17 +4,17 @@ FormIt에서 복제된 플러그인을 미리 보려면 로컬 서버에서 해�
 
 ### **IDE에서 터미널 보기**
 
-별도의 터미널 창 대신 Visual Studio Code 내에서 서버를 시작할 수 있습니다. \*\*\*\* 터미널을 열기 전에 Visual Studio Code에서 올바른 폴더가 열려 있는지 확인하십시오.
+별도의 터미널 창 대신 Visual Studio Code 내에서 서버를 시작할 수 있습니다. **** 터미널을 열기 전에 Visual Studio Code에서 올바른 폴더가 열려 있는지 확인하십시오.
 
-뷰 > 터미널(또는 바로 가기 Ctrl + \`)
+뷰 > 터미널(또는 단축키 Ctrl + \`)
 
-![](<../../../.gitbook/assets/image (11).png>)
+\![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### HTTP 서버 설정
 
 제대로 작동하는 HTTP 서버는 npm의 [http-server](https://www.npmjs.com/package/http-server)입니다.
 
-[NodeJS](https://nodejs.org/ko/)가 아직 설치되어 있지 않은 경우, 먼저 NodeJS를 다운로드하여 설치해야 합니다.
+먼저 [NodeJS](https://nodejs.org/en/)(아직 설치되어 있지 않은 경우)를 다운로드하여 설치해야 합니다.
 
 다음 단계에서 오류가 발생하면 컴퓨터를 다시 시작하여 NodeJS 설치를 완료해 봅니다.
 
@@ -22,7 +22,7 @@ FormIt에서 복제된 플러그인을 미리 보려면 로컬 서버에서 해�
 
 * `npm install http-server -g`
 
-![](<../../../.gitbook/assets/image (47).png>)
+\![](<../../../.gitbook/assets/image (47).png>)
 
 ### 로컬 서버 시작
 
@@ -30,7 +30,7 @@ FormIt에서 복제된 플러그인을 미리 보려면 로컬 서버에서 해�
 
 * `http-server`
 
-![](<../../../.gitbook/assets/image (84).png>)
+\![](<../../../.gitbook/assets/image (84).png>)
 
 팁 1: 전역 또는 로컬로 설치된 http-server를 실행하는 데 문제가 있는 경우 npx를 통해 직접 실행하는 것이 도움이 될 수 있습니다.
 
@@ -47,7 +47,7 @@ FormIt 웹용으로 개발하려면 다음 명령을 대신 실행하면 됩니�
 
 * `http-server --cors`
 
-![](<../../../.gitbook/assets/image (10).png>)
+\![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### 서버 확인
 
@@ -57,6 +57,6 @@ FormIt 웹용으로 개발하려면 다음 명령을 대신 실행하면 됩니�
 
 브라우저 창에 프로젝트 폴더 파일이 표시됩니다.
 
-\*\*npm이 아닌 다른 웹 서버를 사용하는 경우 기본 주소/포트가 다를 수 있습니다.
+**npm이 아닌 다른 웹 서버를 사용하는 경우 기본 주소/포트가 다를 수 있습니다.
 
-![](<../../../.gitbook/assets/image (41).png>)
+\![](<../../../.gitbook/assets/image (41).png>)

@@ -16,8 +16,20 @@
 
 ## 중심에 의한 호
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+\![](<../.gitbook/assets/arc-by-center (1).png>)
 
 호의 중간 점을 선택한 다음 끌어 중심을 선택하고, 다시 끌어 호의 길이를 정의합니다. 값 입력을 시작하여 호의 정확한 각도를 입력하기만 하면 됩니다.
 
 ![](../.gitbook/assets/arc\_circle\_demo.gif)
+
+## 호 편집
+
+이미 배치한 호를 마우스 오른쪽 버튼으로 클릭하고 맨 아래에서 호 편집을 선택하여 수정할 수도 있습니다.
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+호 편집 그립이 나타나며, 호의 반지름, 각도 또는 정렬을 변경할 수 있습니다. 편집 중에 새 호가 윤곽으로 나타납니다.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+편집을 완료하려면 빈 공간을 클릭하거나 Esc 키를 눌러 도구를 종료합니다. 새 호가 현재 호를 대치합니다.

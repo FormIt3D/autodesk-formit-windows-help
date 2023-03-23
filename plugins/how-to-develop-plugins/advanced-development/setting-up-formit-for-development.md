@@ -26,9 +26,9 @@ FormIt의 상단 메뉴에서 상단 메뉴의 **창**으로 이동하여 **스�
 
 맨 위에는 다음과 같은 두 개의 버튼이 있습니다.
 
-**실행** ![](<../../../.gitbook/assets/image (8).png>): 창에서 작성한 모든 코드를 실행합니다.
+**실행** \![](<../../../.gitbook/assets/image (8) (1).png>): 창에서 작성한 모든 코드를 실행합니다.
 
-**선택사항 실행** ![](<../../../.gitbook/assets/image (52).png>): 선택한/강조 표시된 코드 줄만 실행합니다.
+**선택사항 실행** (<../../../.gitbook/assets/image (52).png>): 선택한/강조 표시한 코드 줄만 실행합니다.
 
 ### **스크립트 출력**
 
@@ -42,7 +42,7 @@ FormIt의 상단 메뉴에서 상단 메뉴의 **창**으로 이동하여 **스�
 
 플러그인을 로드하거나 설치할 수 있지만, 이 연습을 위해 패널 기반 플러그인과 도구막대 기반 플러그인을 모두 설치하겠습니다. 여기서는 npm http-server가 두 예제 리포지토리를 모두 호스팅하고 있는 포트 8080에서 실행 중이라고 가정합니다.
 
-### **로드와 설치**
+### **로드 대 설치**
 
 `FormIt.LoadPlugin();`은 현재 세션에 대해서만 플러그인을 로드합니다. 플러그인은 앱이 닫혔다가 다시 시작될 때 자동으로 언로드됩니다.
 
@@ -52,11 +52,11 @@ FormIt의 상단 메뉴에서 상단 메뉴의 **창**으로 이동하여 **스�
 
 Windows에서는 플러그인을 유지하는 데 다음 레지스트리 키가 사용됩니다.
 
-* 플러그인: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* 플러그인: Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
 설치제거하려면 `FormIt.UninstallPlugin();`을 사용합니다.
 
-다음 예에서는 별도의 설명이 없는 한, 연습 결과를 유지할지 여부에 따라  _설치_ 또는 _로드_ 를 자유롭게 사용합니다.
+다음 예에서는 별도의 설명이 없는 한, 연습 결과를 유지할지 여부에 따라 _설치_ 또는 _로드_를 자유롭게 사용합니다.
 
 ### **도구막대 플러그인 샘플: 반전**
 
@@ -106,4 +106,4 @@ Windows에서는 플러그인을 유지하는 데 다음 레지스트리 키가 
 * 모달: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
 * 모달: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-HTML 패널 예제의 Hello Block! 패널이 화면에 모달 또는 모델리스 대화상자로 나타납니다.
+HTML 패널 예제의 Hello Block! 패널이 모달 또는 모델리스 대화상자로 화면에 표시되는 것을 볼 수 있습니다.

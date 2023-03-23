@@ -13,3 +13,15 @@
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+
+## 스플라인 편집
+
+이미 배치한 스플라인의 점을 마우스 오른쪽 버튼으로 클릭하고 하단에서 스플라이스 편집을 선택하여 수정할 수도 있습니다.
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+스플라이스 편집 그립이 나타나며, 스플라인을 이동할 수 있습니다. 편집 중에 새 스플라인이 윤곽으로 나타납니다.
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+편집을 완료하려면 공간을 클릭하거나 Esc 키를 눌러 도구를 종료합니다. 새 스플라인이 현재 스플라인을 대치합니다.

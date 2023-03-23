@@ -2,12 +2,12 @@
 
 다각형 도구를 사용하여 공간 또는 다른 객체에 일반 n면 다각형을 그릴 수 있습니다.
 
-![](<../.gitbook/assets/image (9) (1).png>)
+\![](<../.gitbook/assets/image (9) (1).png>)
 
 다각형을 시작하고 중심점을 클릭하여 선택합니다. 두 번째 점을 그리고 치수를 입력하거나 **Tab** 키를 눌러 **도구 옵션**을 표시하여 반지름을 지정합니다.
 
-![](<../.gitbook/assets/image (7).png>)
+\![](<../.gitbook/assets/image (7) (1).png>)
 
 **도구 옵션**을 사용하면 면 수를 변경하고 특정 반지름을 지정할 수 있습니다.
 
-![](../.gitbook/assets/image.png)
+\![](<../.gitbook/assets/image (13) (1).png>)

@@ -14,10 +14,10 @@
 
 ### 형상
 
-![](<../.gitbook/assets/geometry\_icons (1).png>)
+\![](<../.gitbook/assets/geometry_icons (1).png>)
 
-1. [**선택사항**](https://windows.help.formit.autodesk.com/v/korean/tool-library/select-edge-face-or-object) 및 면적 선택 필터
-2. [**거리** ](../tool-library/measure-tool.md)측정 및 [**각도 측정**](../tool-library/measure-angle-tool.md) 도구
+1. [**선택**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) 및 영역 선택 필터
+2. 거리 [**측정**](../tool-library/measure-tool.md) 및 [**각도 측정**](../tool-library/measure-angle-tool.md) 도구
 3. [**단면 평면**](../tool-library/section-planes.md)
 4. [**3D 스케치 도구**](../formit-primer/part-i/3d-sketching.md)
 5. [**원형** ](../tool-library/place-primitive-object.md)도구막대
@@ -38,13 +38,13 @@
 
 ![](../.gitbook/assets/design\_icons.png)
 
-1. [**위치** ](../tool-library/setting-location.md)
+1. [**위치**](../tool-library/setting-location.md)
 2. [**태양, 그림자 및 일조 해석**](../tool-library/solar-analysis.md)
 3. [**에너지 해석**](../tool-library/energy-analysis.md)
 
 ## 팔레트
 
-![](<../.gitbook/assets/properties (1).png>) [**특성**](https://windows.help.formit.autodesk.com/v/korean/tool-library/properties)
+\![](<../.gitbook/assets/properties (1).png>) [**특성**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**레이어**](../tool-library/layers.md)
 
@@ -58,20 +58,26 @@
 
 ![](../.gitbook/assets/levels.png) [**레벨**](../tool-library/levels-and-area.md)
 
-![](../.gitbook/assets/content\_library.png)[**컨텐츠 라이브러리**](../tool-library/content-library.md)
+![](../.gitbook/assets/content\_library.png) [**콘텐츠 라이브러리**](../tool-library/content-library.md)
 
 ![](../.gitbook/assets/undo.png) [**실행취소 관리자**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin\_img.png) [**플러그인**](https://windows.help.formit.autodesk.com/v/korean/tool-library/plug-ins)
+![](../.gitbook/assets/plugin\_img.png) [**플러그인**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
 
-## 상황에 맞는 메뉴
+### 모든 팔레트 표시/숨기기
+
+FormIt 2023 이상에서는 윈도우 메뉴에 있는 모든 팔레트 표시/숨기기를 전환하여 팔레트를 최소화/복원할 수 있습니다.
+
+<figure><img src="../.gitbook/assets/ShowHidePalette.png" alt=""><figcaption></figcaption></figure>
+
+## 컨텍스트 메뉴
 
 3D 캔버스에서 요소를 마우스 오른쪽 버튼으로 클릭하여 해당 유형의 형상에 대한 명령 및 수정 메뉴를 표시할 수 있습니다. 아이콘 위에 마우스 커서를 놓으면 해당 이름을 볼 수 있습니다.
 
 ![](../.gitbook/assets/wheel\_img.png)
 
-## 키보드 바로 가기
+## 키보드 단축키
 
-편집 > 기본 설정 > 바로 가기에서 FormIt [키**보드 바로 가기**](../appendix/keyboard-shortcuts.md)를 사용자화할 수 있습니다.
+편집 > 기본 설정 > 단축키에서 FormIt [**키보드 단축키**](../appendix/keyboard-shortcuts.md)를 사용자화할 수 있습니다.
 
-![](<../.gitbook/assets/shortcuts\_img (1).png>)
+\![](<../.gitbook/assets/shortcuts_img (1).png>)
