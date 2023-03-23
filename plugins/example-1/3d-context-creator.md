@@ -1,53 +1,53 @@
 # 3D Context Creator
 
-![](../../.gitbook/assets/contextcreator1.gif)
+\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## Che cos'è?
 
-3D Context Creator è un plug-in di facile utilizzo che consente di generare rapidamente il contesto 3D all'interno di FormIt. Questo plug-in:
+3D Context Creator è un plug-in di facilissimo utilizzo che consente di generare edifici in contesto 3D all'interno di FormIt. 
 
-* Può aiutare a visualizzare la planimetria del progetto con il contesto circostante.
-* Consente di prendere decisioni informate, soprattutto nelle prime fasi del processo di progettazione.
-* Il download è gratuito per tutti gli utenti di FormIt.&#x20;
+Questo plug-in consente di visualizzare la planimetria del progetto con il contesto circostante e di prendere decisioni informate nella fase iniziale del processo di progettazione.
 
-Questo plug-in recupera i dati da [OpenStreet Map](https://www.openstreetmap.org/about) per trasformarli in geometrie di FormIt. Il codice sorgente per questo plug-in è disponibile in [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+Questo plug-in recupera i dati da [OpenStreet Map](https://www.openstreetmap.org/about) per trasformarli in geometrie di FormIt. Il codice sorgente per questo plug-in è disponibile su [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).
 
 ## Come utilizzarlo
 
-Per installare il plug-in, è sufficiente attivare il pulsante di commutazione, come si farebbe con qualsiasi altro plug-in.
+Per installarlo, è sufficiente attivare il plug-in da Plugin Manager come si farebbe con qualsiasi altro plug-in.
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
 Una volta attivato, il plug-in dovrebbe essere visualizzato sul lato destro dell'app ed essere pronto per l'uso.
 
-![](../../.gitbook/assets/formitUI.PNG)
+\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
-Prima di utilizzare il plug-in, iniziare impostando la posizione della planimetria dalla barra degli strumenti principale di FormIt.
+Se per la planimetria non è già stata configurata una posizione, è possibile fare clic sul collegamento **Set Location...** per impostare una posizione e definire il contorno che verrà utilizzato per la generazione del contesto 3D.
 
-![](<../../.gitbook/assets/image (76).png>)
+Dopo aver impostato la posizione, 3D Context Creator viene aggiornato con la posizione corrente e il pulsante viene attivato:
 
-Cercare la posizione della planimetria, quindi fare clic su Importa immagine satellitare e terreno.
+\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
-![](<../../.gitbook/assets/image (77).png>)
+3D Context Creator utilizzerà semplicemente le estensioni dell'immagine satellitare per generare il contesto 3D. È sufficiente fare clic su **Generate 3D Context**.
 
-Una volta importata correttamente l'immagine satellitare nel progetto di FormIt, passare al plug-in 3D Context Creator.
+A seconda delle estensioni dell'immagine satellitare e della complessità degli edifici, la generazione potrebbe richiedere alcuni secondi.
 
-Regolare il dispositivo di scorrimento del raggio quadrato per espandere la distanza (in metri) del contesto dal punto della posizione.
+Gli edifici in contesto 3D verranno automaticamente posizionati in un'istanza del gruppo e posizionati su un layer denominato Context Buildings. È possibile attivare o disattivare la visibilità del contesto utilizzando questo layer.
 
-![](../../.gitbook/assets/contextcreator7.png)
+\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-Fare clic sul pulsante Create. Ed è tutto.
+\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
-Una volta definite le impostazioni desiderate, fare clic sul pulsante Create. A seconda della dimensione e della complessità del raggio specificato, l'elaborazione delle forme dell'edificio potrebbe richiedere alcuni minuti.
+Se in seguito si decide di modificare la posizione o di regolare l'ambito dell'immagine satellitare, è possibile fare nuovamente clic su **Generate 3D Context** per rigenerare gli edifici. 
+
+_Tenere presente che la rigenerazione del contesto sostituirà l'istanza del gruppo contenente gli edifici con una nuova istanza, pertanto le modifiche apportate agli edifici andranno perse._ Per evitare ciò, è possibile separare il contenitore del contesto e quindi raggrupparlo.
 
 ## **Alcuni esempi**
 
 Provare a indovinare quali città iconiche sono rappresentate nei seguenti contesti:
 
-![](<../../.gitbook/assets/image (2).png>)
+\![](<../../.gitbook/assets/image (2) (1).png>)
 
-![](<../../.gitbook/assets/image (34).png>)
+\![](<../../.gitbook/assets/image (34).png>)
 
-![](<../../.gitbook/assets/image (13).png>)
+\![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (59).png>)
+\![](<../../.gitbook/assets/image (59).png>)

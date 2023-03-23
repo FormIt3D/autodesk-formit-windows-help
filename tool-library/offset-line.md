@@ -2,11 +2,11 @@
 
 È possibile disegnare linee parallele, o di offset, utilizzando lo strumento Linea di offset. Questa opzione è utile per creare forme 2D che possono essere successivamente estruse per assomigliare a muri 3D.
 
-![](<../.gitbook/assets/image (3).png>)
+\![](<../.gitbook/assets/image (3) (1).png>)
 
-Lo strumento **Linea di offset** funziona come lo strumento [**Linea** ](https://windows.help.formit.autodesk.com/v/italian/tool-library/line-tool):
+Lo strumento **Linea di offset** funziona come lo strumento [**Linea**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
-* Fare clic per impostare il primo punto, quindi spostare il cursore e posizionare i punti successivi, eseguendo lo snap alla geometria esistente o agli assi di deduzione.&#x20;
+* Fare clic per impostare il primo punto, quindi spostare il cursore e posizionare i punti successivi, eseguendo lo snap alla geometria esistente o agli assi di deduzione.
 * Viene mostrata un'anteprima della forma risultante. Il secondo e il terzo punto determinano il piano per il resto dei punti da seguire, pertanto il risultato è piano.
 * Continuare ad aggiungere punti e premere **ESC** oppure fare doppio clic per terminare lo strumento.
 * Eventuali autointersezioni verranno corrette e unite, lasciando un'unica superficie estrudibile.
@@ -37,7 +37,7 @@ Modificare **Allineamento** in **Sinistra** e **Spessore** in 6", ad esempio, e 
 
 Di per sé, lo strumento Linea di offset deve generare la geometria su un piano, in modo che i primi punti determinino il piano che seguiranno i punti rimanenti.
 
-Iniziare a disegnare sul lato di un cubo, ad esempio, per utilizzare il piano di tale superficie. Dopo aver posizionato tre punti non collineari, il piano di input è fisso per il resto dell'input. Notare che quando si disegna su una superficie, la forma risultante viene inserita nella superficie, dividendola in più superfici. Per evitare l'inserimento, la superficie disegnata deve far parte di un [gruppo](https://windows.help.formit.autodesk.com/v/italian/tool-library/groups).
+Iniziare a disegnare sul lato di un cubo, ad esempio, per utilizzare il piano di tale superficie. Dopo aver posizionato tre punti non collineari, il piano di input è fisso per il resto dell'input. Notare che quando si disegna su una superficie, la forma risultante viene inserita nella superficie, dividendola in più superfici. Per evitare l'inserimento, la superficie disegnata deve far parte di un [gruppo](https://windows.help.formit.autodesk.com/tool-library/groups).
 
 ![Disegno su una superficie verticale](../.gitbook/assets/walls7.png)
 
@@ -45,7 +45,7 @@ Iniziare a disegnare sul lato di un cubo, ad esempio, per utilizzare il piano di
 
 È inoltre possibile utilizzare lo strumento Linea di offset per eseguire il tracciamento da un disegno di pianta. Importare la pianta come immagine.
 
-* Ridimensionare l'immagine in modo che la pianta abbia la scala corretta. Questa procedura è descritta in maggior dettaglio [qui](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).&#x20;
+* Ridimensionare l'immagine in modo che la pianta abbia la scala corretta. Questa procedura è descritta in maggior dettaglio [qui](https://windows.help.formit.autodesk.com/building-the-farnsworth-house/work-with-images-and-the-ground-plane).
 * È possibile utilizzare la vista della [cinepresa Ortogonale](orthographic-camera.md) per eseguire il tracciamento in una [vista dall'alto](orthographic-views.md) ortogonale.
 
 ![](../.gitbook/assets/walls9.png)

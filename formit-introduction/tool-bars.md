@@ -14,13 +14,13 @@ La barra degli strumenti standard è attivata per default, ma è divisa nelle se
 
 ### Geometria
 
-![](<../.gitbook/assets/geometry\_icons (1).png>)
+\![](<../.gitbook/assets/geometry_icons (1).png>)
 
-1. [**Selezione**](https://windows.help.formit.autodesk.com/v/italian/tool-library/select-edge-face-or-object) e filtri di selezione dell'area
+1. [**Selezione**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) e filtri di selezione dell'area
 2. Strumenti [**Misura** ](../tool-library/measure-tool.md)per la distanza e [**Misura angolo**](../tool-library/measure-angle-tool.md)
-3. [**Piani sezione**](../tool-library/section-planes.md)
+3. [**Piani di sezione**](../tool-library/section-planes.md)
 4. [**Strumenti di disegno 3D**](../formit-primer/part-i/3d-sketching.md)
-5. Barra degli strumenti [**Primitiva**](../tool-library/place-primitive-object.md)
+5. Barra degli strumenti [**Primitiva** ](../tool-library/place-primitive-object.md)
 6. Barra degli strumenti [**Geometria avanzata**](tool-bars.md) con Unisci, Taglia, Estrusione su percorso, Loft e Involucro
 7. Barra degli strumenti [**Gruppi**](../tool-library/groups.md)
 
@@ -34,35 +34,41 @@ La barra degli strumenti standard è attivata per default, ma è divisa nelle se
 4. **Accesso con Autodesk Account**
 5. Menu **Informazioni** per la Guida e i collegamenti
 
-### Disegno
+### Progettazione
 
 ![](../.gitbook/assets/design\_icons.png)
 
-1. [**Posizione** ](../tool-library/setting-location.md)
+1. [**Posizione**](../tool-library/setting-location.md)
 2. [**Sole, Ombre, Analisi solare**](../tool-library/solar-analysis.md)
 3. [**Analisi energetica**](../tool-library/energy-analysis.md)
 
-## Tavolozza
+## Tavolozze
 
-![](<../.gitbook/assets/properties (1).png>) [**Proprietà**](https://windows.help.formit.autodesk.com/v/italian/tool-library/properties)
+\![](<../.gitbook/assets/properties (1).png>) [**Proprietà**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
-![](../.gitbook/assets/layers.png)[**Layer**](../tool-library/layers.md)
+![](../.gitbook/assets/layers.png) [**Layer**](../tool-library/layers.md)
 
-![](../.gitbook/assets/scenes.png)[**Scene**](../tool-library/scenes.md)
+![](../.gitbook/assets/scenes.png) [**Scene**](../tool-library/scenes.md)
 
-![](../.gitbook/assets/visual\_styles.png)[**Stili visualizzazione**](../tool-library/visual-styles.md)
+![](../.gitbook/assets/visual\_styles.png) [**Stili di visualizzazione**](../tool-library/visual-styles.md)
 
-![](../.gitbook/assets/branch\_tree.png)[**Struttura gruppi**](../tool-library/groups-tree.md)
+![](../.gitbook/assets/branch\_tree.png) [**Struttura gruppi**](../tool-library/groups-tree.md)
 
-![](../.gitbook/assets/dynamo.png)[**Dynamo**](../tool-library/dynamo.md)
+![](../.gitbook/assets/dynamo.png) [**Dynamo**](../tool-library/dynamo.md)
 
 ![](../.gitbook/assets/levels.png) [**Livelli**](../tool-library/levels-and-area.md)
 
-![](../.gitbook/assets/content\_library.png)[**Libreria del contenuto**](../tool-library/content-library.md)
+![](../.gitbook/assets/content\_library.png) [**Libreria del contenuto**](../tool-library/content-library.md)
 
 ![](../.gitbook/assets/undo.png) [**Gestione operazioni annullate**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin\_img.png) [**Plug-in**](https://windows.help.formit.autodesk.com/v/italian/tool-library/plug-ins)
+![](../.gitbook/assets/plugin\_img.png) [**Plug-in**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
+
+### Come mostrare/nascondere tutte le tavolozze
+
+In FormIt 2023 e versioni successive, la tavolozza può essere ridotta a icona/ripristinata attivando/disattivando l'opzione Mostra/Nascondi tutte le tavolozze disponibile nel menu Finestra:
+
+<figure><img src="../.gitbook/assets/ShowHidePalette.png" alt=""><figcaption></figcaption></figure>
 
 ## Menu contestuale
 
@@ -74,4 +80,4 @@ Fare clic con il pulsante destro del mouse su un elemento nell'area di disegno 3
 
 Personalizzare i [t**asti di scelta rapida**](../appendix/keyboard-shortcuts.md) di FormIt in Modifica > Preferenze > Tasti di scelta rapida.
 
-![](<../.gitbook/assets/shortcuts\_img (1).png>)
+\![](<../.gitbook/assets/shortcuts_img (1).png>)

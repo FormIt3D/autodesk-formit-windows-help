@@ -13,3 +13,15 @@ Le spline possono anche chiudersi su se stesse creando una superficie.
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+
+## Modifica di una spline
+
+È inoltre possibile modificare i punti di una spline già posizionata facendo clic con il pulsante destro del mouse e scegliendo Modifica spline nella parte inferiore:
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Vengono visualizzati i grip di Modifica spline, che consentono di spostarli. La nuova spline verrà visualizzata come contorno durante la modifica.
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Per completare la modifica, uscire dallo strumento facendo clic all'interno dello spazio o premendo ESC. La nuova spline sostituirà la spline corrente.

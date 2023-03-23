@@ -1,9 +1,9 @@
 # Motori lato client e lato Web
 
-I plug-in di FormIt utilizzano due motori JavaScript distinti:&#x20;
+I plug-in di FormIt utilizzano due motori JavaScript distinti:
 
 * Il pannello che visualizza il codice HTML (lato Web)
-* Il lato client (FormIt) che effettua chiamate a FormIt e al relativo kernel di geometria.&#x20;
+* Il lato client (FormIt) che effettua chiamate a FormIt e al relativo kernel di geometria.
 
 Questi due motori JavaScript funzionano in processi distinti.
 
@@ -28,7 +28,6 @@ Specificato utilizzando [manifest.json](https://github.com/FormIt3D/FormItExampl
         "PLUGINLOCATION/blockFormItSide.js",
         "https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/PluginUtils18_0.js"
     ]
-
 ```
 
 ### Lato Web (HTML)
@@ -42,7 +41,7 @@ Specificato utilizzando [index.html](https://github.com/FormIt3D/FormItExamplePl
 
 ### Metodo 1: FormItInterface.CallMethod
 
-`CallMethod` utilizza un nome di funzione e gli argomenti che verranno eseguiti sul lato FormIt.  La funzione trasferita verrà chiamata con il risultato della chiamata di funzione.
+`CallMethod` utilizza un nome di funzione e gli argomenti che verranno eseguiti sul lato FormIt. La funzione trasferita verrà chiamata con il risultato della chiamata di funzione.
 
 ```
     var args = {
@@ -56,21 +55,21 @@ Specificato utilizzando [index.html](https://github.com/FormIt3D/FormItExamplePl
     });
 ```
 
-**Vantaggi:**&#x20;
+**Vantaggi:**
 
-➕ Non è necessaria la parola chiave `await`.&#x20;
+➕ Non è necessaria la parola chiave `await`.
 
-**Svantaggi:**&#x20;
+**Svantaggi:**
 
-➖ È necessario un callback per ottenere il risultato e viene chiamato "chi sa quando".&#x20;
+➖ È necessario un callback per ottenere il risultato e viene chiamato "chi sa quando".
 
-➖ Gli script vengono definiti in due posizioni diverse.&#x20;
+➖ Gli script vengono definiti in due posizioni diverse.
 
 ➖ Richiede di suddividere la logica del plug-in in due file diversi.
 
-### **Metodo 2: FormIt.CallJS**&#x20;
+### **Metodo 2: FormIt.CallJS**
 
-**\*Disponibile solo in FormIt 2022.1 e versioni successive**
+***Disponibile solo in FormIt 2022.1 e versioni successive**
 
 CallJS utilizza la funzione JavaScript da richiamare sul lato FormIt e l'oggetto arguments.json.
 
@@ -82,14 +81,13 @@ var args =
     "h": 10
 };
 var result = await FormIt.CallJS("CreateBlock", args);
-
 ```
 
-**Vantaggi:**&#x20;
+**Vantaggi:**
 
 ➕ Il risultato è disponibile quando necessario.
 
-**Svantaggi:**&#x20;
+**Svantaggi:**
 
 ➖ **** È necessario modificare tutte le chiamate asincrone con await; in caso contrario, ciò potrebbe provocare problemi.
 
@@ -101,27 +99,27 @@ var result = await FormIt.CallJS("CreateBlock", args);
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-Con una chiamata asincrona, il lato Web chiama il lato FormIt. Questa chiamata inizia in un processo, viene inviata ad un altro processo, quindi il risultato viene ritrasferito al processo iniziale. Per questo motivo è necessaria la parola chiave await.&#x20;
+Con una chiamata asincrona, il lato Web chiama il lato FormIt. Questa chiamata inizia in un processo, viene inviata ad un altro processo, quindi il risultato viene ritrasferito al processo iniziale. Per questo motivo è necessaria la parola chiave await.
 
 Per default è possibile richiamare solo le API di FormIt incorporate.
 
-**Vantaggi:**&#x20;
+**Vantaggi:**
 
-➕ Il risultato è disponibile quando necessario.&#x20;
+➕ Il risultato è disponibile quando necessario.
 
 ➕ Consente di combinare tutto il codice in un unico file JS eseguito dal lato Web, senza script definiti in manifest.json.
 
-**Svantaggi:**&#x20;
+**Svantaggi:**
 
-➖ **** È necessario modificare tutte le chiamate asincrone con `await`; in caso contrario, ciò potrebbe provocare problemi.&#x20;
+➖ **** È necessario modificare tutte le chiamate asincrone con `await`; in caso contrario, ciò potrebbe provocare problemi.
 
 ➖ **** Si potrebbe verificare un rallentamento delle prestazioni a causa di `await.`.
 
-### Metodo 4 (RegisterAsyncAPI)&#x20;
+### Metodo 4 (RegisterAsyncAPI)
 
-**\*Disponibile solo in FormIt 2023.0 e versioni successive**&#x20;
+***Disponibile solo in FormIt 2023.0 e versioni successive**
 
-Per chiamare una funzione definita dall'utente sul lato FormIt, è necessario registrare la funzione. Ad esempio:&#x20;
+Per chiamare una funzione definita dall'utente sul lato FormIt, è necessario registrare la funzione. Ad esempio:
 
 **Lato client (FormIt)**
 
@@ -142,15 +140,15 @@ var result = await HelloBlockAsync.CreateBlock(l, w, h);
 
 Vedere [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0) per un esempio.
 
-**Vantaggi:**&#x20;
+**Vantaggi:**
 
-➕ Il risultato è disponibile quando necessario.&#x20;
+➕ Il risultato è disponibile quando necessario.
 
 ➕ Consente di combinare tutto il codice in un unico file JS eseguito dal lato Web, senza script definiti in manifest.json.
 
-**Svantaggi:**&#x20;
+**Svantaggi:**
 
-➖ **** È necessario modificare tutte le chiamate asincrone con await; in caso contrario, ciò potrebbe provocare problemi.&#x20;
+➖ **** È necessario modificare tutte le chiamate asincrone con await; in caso contrario, ciò potrebbe provocare problemi.
 
 ➖ **** Si potrebbe verificare un rallentamento delle prestazioni a causa di `await.`.
 

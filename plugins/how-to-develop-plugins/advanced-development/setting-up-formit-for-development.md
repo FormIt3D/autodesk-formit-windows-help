@@ -18,7 +18,7 @@ Passare dall'Editor script ad Output script e viceversa utilizzando i pulsanti n
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/ScriptEditor+ScriptOutputConfiguration.gif)
 
-### **Editor di script**
+### **Editor script**
 
 L'Editor script fornisce un ambiente di sviluppo semplice in cui è possibile scrivere e testare il codice.
 
@@ -26,9 +26,9 @@ L'Editor script memorizza il codice scritto all'interno di un file scratch.js ne
 
 Nella parte superiore sono disponibili due pulsanti:
 
-**Esegui** ![](<../../../.gitbook/assets/image (8).png>): esegue tutto il codice scritto nella finestra.
+**Esegui** (<../../.gitbook/assets/image (8) (1).png>): esegue tutto il codice scritto nella finestra.
 
-**Esegui selezione** ![](<../../../.gitbook/assets/image (52).png>): esegue solo le righe di codice selezionate/evidenziate.
+**Esegui selezione** (<../../.gitbook/assets/image (52).png>): esegue solo le righe di codice selezionate/evidenziate.
 
 ### **Output script**
 
@@ -52,7 +52,7 @@ Questa è un'ottima opzione per caricare temporaneamente il file manifesto di un
 
 In Windows, per mantenere i plug-in vengono utilizzate le seguenti chiavi del Registro di sistema:
 
-* Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Plugins: Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
 Utilizzare `FormIt.UninstallPlugin();` per eseguire la disinstallazione.
 

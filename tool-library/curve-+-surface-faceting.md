@@ -1,6 +1,6 @@
 # Sfaccettatura di curve e superfici
 
-FormIt è un sistema di modellazione poliedrica, pertanto oggetti quali cerchi, archi e spline sono rappresentati da una serie di bordi diritti. Analogamente, una superficie curva come il muro di un cilindro, o una cupola, è costituita da una serie di superfici piane con bordi nascosti.
+FormIt è un sistema di modellazione poliedrica, pertanto curve quali cerchi, archi e spline sono rappresentate da una serie di segmenti o bordi diritti. Analogamente, una superficie curva come il muro di un cilindro, o una cupola, è costituita da una serie di superfici piane con bordi nascosti.
 
 Per default, FormIt utilizza 40 bordi, o sfaccettature, per rappresentare un cerchio e 24 sfaccettature per rappresentare un oggetto curvo 3D, come un cilindro. Per superfici più complesse, ad esempio una cupola, un valore pari a 24 imposta il conteggio delle sfaccettature del perimetro e influisce anche sulla densità di sfaccettatura del resto della forma.
 
@@ -18,9 +18,9 @@ Questo valore influirà anche sulla qualità dei cerchi e degli archi importati 
 
 Per le curve esistenti, è anche possibile utilizzare il plug-in Rebuild Curve per ricreare in modo retroattivo un arco o un cerchio **esistente** con un nuovo numero di sfaccettature:
 
-![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+\![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-![](<../.gitbook/assets/faceting\_rebuild-curve (1).gif>)
+\![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
 
 **Surface Faceting Quality**
 
@@ -30,10 +30,10 @@ Ad esempio, impostando questa opzione su 64, quindi eseguendo il baking di una s
 
 Quando si utilizza Dynamo, è possibile modificare la qualità delle sfaccettature e fare clic su Run Graph nel pannello Proprietà senza modificare i parametri, per sfruttare i nuovi conteggi di sfaccettature:
 
-![](<../.gitbook/assets/faceting\_column (1).gif>)
+\![](<../.gitbook/assets/faceting_column (1).gif>)
 
 Come per le curve, è possibile impostare la qualità delle sfaccettature delle superfici per i nuovi disegni o solo per il disegno corrente.
 
 Tenere presente che i valori di sfaccettatura sono attualmente limitati a multipli di 4, pertanto quando si immettono numeri manualmente, in FormIt vengono arrotondati al multiplo più vicino. È possibile utilizzare i dispositivi di scorrimento e le frecce per scorrere i valori accettati.
 
-![](<../.gitbook/assets/units-+-precision (1).png>)
+\![](<../.gitbook/assets/units-+-precision (1).png>)
