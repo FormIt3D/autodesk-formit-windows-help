@@ -1,53 +1,53 @@
 # 3D Context Creator
 
-![](../../.gitbook/assets/contextcreator1.gif)
+\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## ¿Qué es?
 
-3D Context Creator es un módulo de extensión muy fácil de usar que le ayudará a generar rápidamente contexto 3D dentro de FormIt. Este módulo puede ayudarle a realizar lo siguiente:
+3D Context Creator es un módulo de extensión fácil de usar que generará edificios con contexto 3D dentro de FormIt. 
 
-* Visualice el emplazamiento del proyecto con su contexto circundante.
-* Tome decisiones fundamentadas, sobre todo, en las primeras fases del proceso de diseño.
-* Lo pueden descargar de forma gratuita todos los usuarios de FormIt.&#x20;
+Este módulo de extensión le ayuda a visualizar el emplazamiento del proyecto con su contexto circundante y a tomar decisiones fundamentadas en las primeras fases del proceso de diseño.
 
-Este módulo recupera datos de [Open Street Map](https://www.openstreetmap.org/about) para transformarlos en geometrías de FormIt. El código fuente de este módulo de extensión está disponible en [GitHub](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+Este módulo de extensión recupera datos de [Open Street Map](https://www.openstreetmap.org/about) para transformarlos en geometrías de FormIt. El código fuente de este módulo de extensión está disponible en [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).
 
 ## ¿Cómo usarlo?
 
-Para instalarlo, simplemente active el conmutador del módulo, como haría con cualquier otro módulo de extensión.
+Para instalarlo, simplemente active el conmutador del módulo de extensión desde Plugin Manager, como lo haría con cualquier otro módulo.
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
 Una vez activado, el módulo de extensión debe aparecer en el lado derecho de la aplicación y estar listo para su uso.
 
-![](../../.gitbook/assets/formitUI.PNG)
+\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
-Antes de utilizar el módulo de extensión, establezca la ubicación del sitio desde la barra de herramientas principal de FormIt.
+Si el emplazamiento aún no tiene una ubicación, puede hacer clic en el vínculo **Set Location...** para establecer una ubicación y definir el contorno que se utilizará para generar el contexto 3D.
 
-![](<../../.gitbook/assets/image (76).png>)
+Una vez que haya definido la ubicación, 3D Context Creator se actualizará con la ubicación actual y el botón se activará:
 
-Busque la ubicación del emplazamiento y, a continuación, haga clic en Importar imagen de satélite y terreno.
+\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
-![](<../../.gitbook/assets/image (77).png>)
+3D Context Creator simplemente utilizará la extensión de la imagen de satélite para generar el contexto 3D. Solo tiene que hacer clic en **Generate 3D Context**.
 
-Una vez que la imagen de satélite se haya importado correctamente en el proyecto FormIt, vaya al módulo de extensión 3D Context Creator.
+En función de la extensión de la imagen de satélite y de la complejidad de los edificios, el contexto puede tardar algunos segundos en generarse.
 
-Ajuste el control deslizante de radio cuadrado para expandir la distancia (en metros) del contexto desde el punto de ubicación.
+Los edificios con contexto 3D se colocarán automáticamente en un ejemplar de grupo y se insertarán en una capa denominada "Context Buildings". Puede activar y desactivar la visibilidad del contexto mediante esta capa.
 
-![](../../.gitbook/assets/contextcreator7.png)
+\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-Haga clic en el botón Create y eso es todo.
+\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
-Cuando esté satisfecho con los parámetros, haga clic en el botón Create. En función del tamaño y la complejidad del radio especificado, puede que tarde unos minutos en completarse el procesamiento de las formas de los edificios.
+Si más adelante decide cambiar la ubicación o ajustar el alcance de la imagen de satélite, puede hacer clic de nuevo en **Generate 3D Context** para volver a generar los edificios. 
+
+_Tenga en cuenta que, al volver a generar el contexto, se reemplazará el ejemplar de grupo que contiene los edificios por un nuevo ejemplar, por lo que se perderán los cambios realizados en los edificios._ Para evitar esto, puede desagrupar el contenedor de contexto y, a continuación, volver a agruparlo.
 
 ## **Algunos ejemplos**
 
 Intente adivinar las ciudades icónicas que se representan en los siguientes contextos:
 
-![](<../../.gitbook/assets/image (2).png>)
+\![](<../../.gitbook/assets/image (2) (1).png>)
 
-![](<../../.gitbook/assets/image (34).png>)
+\![](<../../.gitbook/assets/image (34).png>)
 
-![](<../../.gitbook/assets/image (13).png>)
+\![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (59).png>)
+\![](<../../.gitbook/assets/image (59).png>)

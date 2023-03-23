@@ -16,8 +16,20 @@ Después de dibujar el arco, puede crear una cara mediante la [herramienta Líne
 
 ## Arco por centro
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+\![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Seleccione el punto medio del arco y, a continuación, arrastre para elegir el centro y definir la longitud del arco. Solo tiene que empezar a escribir un valor para introducir un número preciso de grados para el arco.
 
 ![](../.gitbook/assets/arc\_circle\_demo.gif)
+
+## Edición de un arco
+
+También puede modificar un arco que ya se haya colocado. Para ello, haga clic con el botón derecho en él y seleccione Editar arco en la parte inferior:
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+Aparecerán los pinzamientos de edición de arcos, que permiten cambiar el radio, el ángulo o la alineación del arco. El nuevo arco aparecerá como un contorno durante la edición.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+Para completar la edición, salga de la herramienta. Para ello, haga clic en un espacio vacío o pulse ESC. El nuevo arco reemplazará al actual.

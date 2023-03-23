@@ -12,19 +12,19 @@ FormIt [guarda automáticamente el trabajo](../tool-library/autosave.md) una vez
 
 ## Configuración de la aplicación
 
-* Unidades:
+*   Unidades:
 
-   ![](../.gitbook/assets/formit\_units.png)
+    <img src="../.gitbook/assets/formit_units.png" alt="" data-size="original">
 
-   * Esta configuración afectará a las unidades de todas las herramientas y a la geometría importada, como Dynamo, y los tipos de archivo sin unidad, como STL.
+    * Esta configuración afectará a las unidades de todas las herramientas y a la geometría importada, como Dynamo, y los tipos de archivo sin unidad, como STL.
 * Forzar cursor a rejilla:
-   * Fuerza a las herramientas con puntos de posición a forzar el cursor a los puntos de intersección de la rejilla. Tenga en cuenta que puede desactivar la rejilla en [Estilos visuales](../formit-primer/part-i/visual-settings.md); si la rejilla está desactivada, también se desactivará el forzado de cursor a ella.
+  * Fuerza a las herramientas con puntos de posición a forzar el cursor a los puntos de intersección de la rejilla. Tenga en cuenta que puede desactivar la rejilla en [Estilos visuales](../formit-primer/part-i/visual-settings.md); si la rejilla está desactivada, también se desactivará el forzado de cursor a ella.
 * Mostrar cotas editables:
-   * Elija si desea mantener visibles las casillas de cota (se recomienda mantener esta opción activada si desea dibujar con precisión).
+  * Elija si desea mantener visibles las casillas de cota (se recomienda mantener esta opción activada si desea dibujar con precisión).
 * Ocultar contexto/Mostrar solo grupo editado:
-   * Esto afecta a si la edición de un grupo mostrará su entorno o no. Puede cambiar fácilmente esta configuración mediante el acceso directo (H). Al activar y desactivar H durante el modelado de grupos, puede ver los grupos de forma aislada y en contexto según sea necesario.
+  * Esto afecta a si la edición de un grupo mostrará su entorno o no. Puede cambiar fácilmente esta configuración mediante el acceso directo (H). Al activar y desactivar H durante el modelado de grupos, puede ver los grupos de forma aislada y en contexto según sea necesario.
 * Resaltado de preselección:
-   * Por defecto, FormIt "preselecciona" objetos cuando se mantiene el cursor sobre ellos. Esto resulta útil para asegurarse de que el objeto que desea seleccionar es el que obtiene, pero puede ser una distracción al presentar un diseño. Utilice esta opción o su método abreviado para alternar rápidamente entre visualizar y ocultar el resaltado de preselección según sea necesario. Tenga en cuenta que esta opción debe estar activada para utilizar funciones como [Selección inteligente](https://www.youtube.com/watch?v=akLeB1FADt4).&#x20;
+  * Por defecto, FormIt "preselecciona" objetos cuando se mantiene el cursor sobre ellos. Esto resulta útil para asegurarse de que el objeto que desea seleccionar es el que obtiene, pero puede ser una distracción al presentar un diseño. Utilice esta opción o su método abreviado para alternar rápidamente entre visualizar y ocultar el resaltado de preselección según sea necesario. Tenga en cuenta que esta opción debe estar activada para utilizar funciones como [Selección inteligente](https://www.youtube.com/watch?v=akLeB1FADt4).
 
 ## Modo táctil
 

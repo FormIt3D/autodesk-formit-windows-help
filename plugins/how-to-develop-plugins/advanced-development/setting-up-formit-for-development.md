@@ -24,11 +24,11 @@ El Editor de secuencias de comandos proporciona un entorno de desarrollo sencill
 
 Además, esta herramienta almacena el código escrito en un archivo scratch.js en el directorio en el que se encuentra el archivo FormIt.exe.
 
-En la parte superior, aparecen dos botones:
+En la parte superior, aparecen estos dos botones:
 
-**Ejecutar** ![](<../../../.gitbook/assets/image (8).png>): ejecuta todo el código escrito en la ventana.
+**Ejecutar** \![](<../../../.gitbook/assets/image (8) (1).png>): ejecuta todo el código escrito en la ventana.
 
-**Ejecutar selección** ![](<../../../.gitbook/assets/image (52).png>): ejecuta solo las líneas de código seleccionadas o resaltadas.
+**Ejecutar selección** \![](<../../../.gitbook/assets/image (52).png>): ejecuta solo las líneas de código seleccionadas o resaltadas.
 
 ### **Salida de la secuencia de comandos**
 
@@ -52,7 +52,7 @@ Esta es una opción excelente para mostrar temporalmente un módulo de extensió
 
 En Windows, se utilizan las siguientes claves del Registro para conservar los módulos de extensión:
 
-* Módulos de extensión: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Módulos de extensión: Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
 Utilice `FormIt.UninstallPlugin();` para desinstalar el módulo de extensión.
 
@@ -66,7 +66,7 @@ Si se ejecuta un servidor local, introduzca lo siguiente:
 
 * `FormIt.LoadPlugin("http://localhost:8080/FlipAlong");`
 
-Si la carga se realiza desde el [repositorio de GitHub de FormIt](https://github.com/FormIt3D/), introduzca lo siguiente (requiere una conexión a Internet):
+Si la carga se realiza desde el [repositorio de GitHub de FormIt](https://github.com/FormIt3D/), introduzca lo siguiente (se requiere una conexión a Internet):
 
 * `FormIt.LoadPlugin("https://formit3d.github.io/FlipAlong");`
 
@@ -82,7 +82,7 @@ Si se ejecuta un servidor local, introduzca lo siguiente:
 
 * `FormIt.LoadPlugin("http://localhost:8080/PropertiesPlus");`
 
-Si la carga se realiza desde el [repositorio de GitHub de FormIt](https://github.com/FormIt3D/), introduzca lo siguiente (requiere una conexión a Internet):
+Si la carga se realiza desde el [repositorio de GitHub de FormIt](https://github.com/FormIt3D/), introduzca lo siguiente (se requiere una conexión a Internet):
 
 `FormIt.LoadPlugin("https://formit3d.github.io/PropertiesPlus");`
 
@@ -101,7 +101,7 @@ Si se ejecuta un servidor local, introduzca lo siguiente:
 * Modal: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModalDialog");`
 * Sin modo: `FormIt.LoadPlugin("http://localhost:8080/FormItExamplePlugins/ModelessDialog");`
 
-Si la carga se realiza desde el [repositorio de GitHub de FormIt](https://github.com/FormIt3D/), introduzca lo siguiente (requiere una conexión a Internet):
+Si la carga se realiza desde el [repositorio de GitHub de FormIt](https://github.com/FormIt3D/), introduzca lo siguiente (se requiere una conexión a Internet):
 
 * Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
 * Modal: `FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`

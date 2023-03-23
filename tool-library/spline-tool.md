@@ -13,3 +13,15 @@ Las splines también pueden cerrarse en sí mismas creando una cara.
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+
+## Edición de una spline
+
+También puede modificar los puntos de una spline que ya se haya colocado. Para ello, haga clic con el botón derecho en ella y seleccione Editar spline en la parte inferior:
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Aparecerán los pinzamientos de edición de splines, que se pueden desplazar. La nueva spline aparecerá como un contorno durante la edición.
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Para completar la edición, salga de la herramienta. Para ello, haga clic en un espacio vacío o pulse ESC. La nueva spline reemplazará a la actual.

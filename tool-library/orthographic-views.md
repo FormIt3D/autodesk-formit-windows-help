@@ -13,15 +13,15 @@ Encontrará vistas ortogonales en el menú Vista. Para ello, haga clic en el ico
 * Al cambiar entre vistas ortogonales, FormIt conservará el nivel de zoom para mantener la coherencia.
 * Al cambiar de vista de elevación (frontal/derecha/izquierda/posterior), FormIt conservará la altura del suelo para mantener la coherencia.
 * Puede mantener pulsada la tecla Mayús mientras realiza el encuadre en una vista ortogonal para bloquear el movimiento de encuadre en el eje horizontal o vertical.
-* Las direcciones de las vistas ortogonales se basan en los ejes universales. Puede volver a alinear los ejes, lo que modificará las orientaciones de todas las vistas ortogonales, como se indica a continuación:
+*   Las direcciones de las vistas ortogonales se basan en los ejes universales. Puede volver a alinear los ejes, lo que modificará las orientaciones de todas las vistas ortogonales, como se indica a continuación:
 
-   * Utilice el método abreviado SZ o haga clic con el botón derecho en el espacio (no sobre ninguna geometría):
+    * Utilice el método abreviado SZ o haga clic con el botón derecho en el espacio (no sobre ninguna geometría):
 
-   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes_context.PNG" alt="" data-size="original">
 
-   * Defina el origen y establezca el pinzamiento en los ejes rojos para alinearlo con una dirección significativa.
+    * Defina el origen y establezca el pinzamiento en los ejes rojos para alinearlo con una dirección significativa.
 
-   ![](../.gitbook/assets/set-axes.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes.PNG" alt="" data-size="original">
 
 **Las vistas ortogonales funcionan en combinación con otras funciones de FormIt, como se indica a continuación:**
 
