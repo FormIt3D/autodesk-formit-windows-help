@@ -1,53 +1,53 @@
 # 3D Context Creator
 
-![](../../.gitbook/assets/contextcreator1.gif)
+\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## O co se jedná?
 
-3D Context Creator je snadno použitelný modul plug-in, který vám pomůže rychle vygenerovat 3D kontext v aplikaci FormIt. Tento modul plug-in:
+3D Context Creator je snadno použitelný modul plug-in, který vytvoří 3D kontextové budovy v aplikaci FormIt. 
 
-* Vám pomůže vizualizovat pozemek projektu s okolním kontextem.
-* Vám umožní přijímat informovaná rozhodnutí, zejména v rané fázi procesu návrhu.
-* Je zdarma ke stažení pro všechny uživatele aplikace FormIt.&#x20;
+Tento modul plug-in vám pomůže vizualizovat pozemek projektu v okolním kontextu a přijímat informovaná rozhodnutí v rané fázi procesu návrhu.
 
-Tento modul plug-in načítá data ze služby [Open Street Map](https://www.openstreetmap.org/about) a pomáhá je transformovat do geometrie aplikace FormIt. Zdrojový kód tohoto modulu plug-in je k dispozici na webu [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).&#x20;
+Tento modul plug-in načítá data ze služby [Open Street Map](https://www.openstreetmap.org/about) a pomáhá je transformovat do geometrie aplikace FormIt. Zdrojový kód pro tento modul plug-in je k dispozici na webu [Github](https://github.com/matterlab-co/FormIt-Context-Plugin).
 
 ## Jak se používá
 
-Chcete-li jej nainstalovat, jednoduše zapněte přepínač modulu plug-in, jako u jakéhokoli jiného modulu plug-in.
+Chcete-li jej nainstalovat, jednoduše zapněte přepínač doplňku v nástroji Plugin Manager, jako u jakéhokoli jiného doplňku.
 
 ![](../../.gitbook/assets/contextcreator3.png)
 
 Po přepnutí by se měl modul plug-in zobrazit v pravé části aplikace a měl by být připraven k použití.
 
-![](../../.gitbook/assets/formitUI.PNG)
+\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
-Před použitím modulu plug-in začněte nastavením umístění pozemku z hlavního panelu nástrojů aplikace FormIt.
+Pokud váš pozemek ještě nemá umístění, můžete kliknutím na odkaz **Nastavit umístění...** nastavit umístění a definovat hranici, která bude použita pro generování 3D kontextu.
 
-![](<../../.gitbook/assets/image (76).png>)
+Po nastavení umístění se v modulu plug-in 3D Context Creator aktualizuje aktuální umístění a tlačítko bude aktivní:
 
-Vyhledejte umístění pozemku a poté klikněte na tlačítko Importovat satelitní snímek a terén.
+\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
-![](<../../.gitbook/assets/image (77).png>)
+3D Context Creator jednoduše použije rozsah satelitního snímku k vytvoření 3D kontextu. Stačí kliknout na položku **Generovat 3D kontext**.
 
-Po úspěšném importu satelitního snímku do projektu aplikace FormIt přejděte do modulu plug-in 3D Context Creator.
+V závislosti na rozsahu satelitního snímku a složitosti budov může generování chvíli trvat.
 
-Nastavením posuvníku čtvercového rádiusu rozšiřte vzdálenost kontextu (v metrech) od bodu umístění.
+3D kontextové budovy budou automaticky umístěny do instance skupiny a umístěny na hladinu s názvem Kontextové budovy. Pomocí této hladiny můžete přepínat viditelnost kontextu.
 
-![](../../.gitbook/assets/contextcreator7.png)
+\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-Klikněte na tlačítko Vytvořit. A to je vše!
+\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
-Jakmile budete s nastavením spokojeni, klikněte na tlačítko Vytvořit. V závislosti na velikosti a složitosti daného rádiusu může zpracování tvarů budovy chvíli trvat.
+Pokud se později rozhodnete změnit umístění nebo upravit rozsah satelitního snímku, můžete znovu kliknout na tlačítko **Generovat 3D kontext** a znovu vygenerovat budovy. 
+
+_Upozorňujeme, že nově vytvořený kontext nahradí instanci skupiny obsahující budovy novou instancí, takže veškeré změny provedené v budovách budou ztraceny._ Chcete-li tomu zabránit, můžete zrušit seskupení kontejneru kontextu a poté jej znovu seskupit.
 
 ## **Některé příklady**
 
 Zkuste uhodnout, která známá města jsou zobrazena v následujících kontextech:
 
-![](<../../.gitbook/assets/image (2).png>)
+\![](<../../.gitbook/assets/image (2) (1).png>)
 
-![](<../../.gitbook/assets/image (34).png>)
+\![](<../../.gitbook/assets/image (34).png>)
 
-![](<../../.gitbook/assets/image (13).png>)
+\![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-![](<../../.gitbook/assets/image (59).png>)
+\![](<../../.gitbook/assets/image (59).png>)

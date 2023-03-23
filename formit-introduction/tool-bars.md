@@ -4,25 +4,25 @@
 
 Ve výchozím nastavení je povolen panel nástrojů Standard, který je rozdělen do následujících částí. Jednotlivé části můžete volitelně povolit, zakázat a změnit jejich uspořádání pomocí nabídky systému Windows.
 
-### Soubor
+### File (Soubor)
 
 ![](../.gitbook/assets/file\_icons.png)
 
 1. **Nabídka Soubor** s operacemi souborů, jako jsou Otevřít, Uložit a Exportovat.
-2. **Zpět** – vrácení poslední změny.
-3. **Znovu** – opakované použití změny, kterou jste vrátili zpět.
+2. **Zpět** – Vrácení poslední změny.
+3. **Znovu** – Opakované použití změny, kterou jste vrátili zpět.
 
 ### Geometrie
 
-![](<../.gitbook/assets/geometry\_icons (1).png>)
+\![](<../.gitbook/assets/geometry_icons (1).png>)
 
-1. [**Výběr**](https://windows.help.formit.autodesk.com/v/czech/tool-library/select-edge-face-or-object) a filtry výběru oblasti.
-2. [**Nástroje Odměřit**](../tool-library/measure-tool.md) vzdálenost a [**Odměřit úhel**](../tool-library/measure-angle-tool.md)
+1. [**Výběr**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) a filtry výběru oblasti
+2. [**Nástroje Odměřit** ](../tool-library/measure-tool.md)vzdálenost a [**Odměřit úhel**](../tool-library/measure-angle-tool.md)
 3. [**Roviny řezu**](../tool-library/section-planes.md)
 4. [**Nástroje pro 3D náčrty**](../formit-primer/part-i/3d-sketching.md)
 5. Panel nástrojů [**Základní těleso**](../tool-library/place-primitive-object.md)
-6. Panel nástrojů [**pokročilé geometrie** ](tool-bars.md) s možnostmi Spojit, Oříznout, Tažení, Šablonování a Skořepina.
-7. Panel nástrojů [**Skupiny** ](../tool-library/groups.md)
+6. Panel nástrojů [**pokročilé geometrie**](tool-bars.md) s možnostmi Spojit, Oříznout, Tažení, Šablonování a Skořepina.
+7. Panel nástrojů [**Skupiny**](../tool-library/groups.md)
 
 ### Nastavení
 
@@ -38,13 +38,13 @@ Ve výchozím nastavení je povolen panel nástrojů Standard, který je rozděl
 
 ![](../.gitbook/assets/design\_icons.png)
 
-1. [**Umístění** ](../tool-library/setting-location.md)
+1. [**Umístění**](../tool-library/setting-location.md)
 2. [**Slunce, stíny a analýza slunečního záření**](../tool-library/solar-analysis.md)
 3. [**Energetická analýza**](../tool-library/energy-analysis.md)
 
-## Paleta
+## Palety
 
-![](<../.gitbook/assets/properties (1).png>) [**Vlastnosti**](https://windows.help.formit.autodesk.com/v/czech/tool-library/properties)
+\![](<../.gitbook/assets/properties (1).png>) [**Vlastnosti**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Hladiny**](../tool-library/layers.md)
 
@@ -62,9 +62,15 @@ Ve výchozím nastavení je povolen panel nástrojů Standard, který je rozděl
 
 ![](../.gitbook/assets/undo.png) [**Správce vrácení zpět**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin\_img.png) [**Moduly plug-in**](https://windows.help.formit.autodesk.com/v/czech/tool-library/plug-ins)
+![](../.gitbook/assets/plugin\_img.png) [**Moduly plug-in**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
 
-## Místní nabídka
+### Zobrazit/skrýt všechny palety
+
+V aplikaci FormIt 2023 a novějších verzích můžete minimalizovat nebo obnovit paletu přepnutím možnosti Zobrazit/skrýt všechny palety v nabídce Okno:
+
+<figure><img src="../.gitbook/assets/ShowHidePalette.png" alt=""><figcaption></figcaption></figure>
+
+## Kontextová nabídka
 
 Kliknutím pravým tlačítkem myši na prvek na 3D kreslicí ploše zobrazíte nabídku příkazů a úprav pro daný typ geometrie. Přesunutím ukazatele myši nad ikony zobrazíte jejich názvy.
 
@@ -74,4 +80,4 @@ Kliknutím pravým tlačítkem myši na prvek na 3D kreslicí ploše zobrazíte 
 
 [K**lávesové zkratky**](../appendix/keyboard-shortcuts.md) aplikace FormIt si můžete přizpůsobit v nabídce Úpravy > Předvolby > Klávesové zkratky.
 
-![](<../.gitbook/assets/shortcuts\_img (1).png>)
+\![](<../.gitbook/assets/shortcuts_img (1).png>)

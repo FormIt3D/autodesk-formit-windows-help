@@ -4,7 +4,7 @@
 
 Po spuštění nástroje FormIt se ocitnete ve 3D prostředí. Věnujte trochu času tomu, abyste se naučili [pohybovat ve 3D prostředí](navigating-the-scene.md). Poté začněte vytvářet projekt ([zde zjistíte, jak na to](../formit-primer/)), otevřete existující projekt aplikace FormIt pomocí nabídky Soubor nebo importujte řadu dalších typů souborů.
 
-Aplikace FormIt umožňuje otevírání, ukládání a export do souborů jak místně, tak ve službě Autodesk Docs. [Používání služby Autodesk Docs v aplikaci FormIt](https://formit.autodesk.com/page/formit-autodesk-docs/) je skvělý způsob sdílení modelů v cloudu.
+Aplikace FormIt umožňuje otevírání, ukládání a export do souborů jak místně, tak ve službě Autodesk Docs. [Používání služby Autodesk Docs v aplikaci FormIt](https://formit.autodesk.com/page/formit-autodesk-docs/) je skvělý způsob, jak sdílet modely v cloudu.
 
 Kromě nabídky Soubor můžete také otevřít libovolný importovaný 3D model v aplikaci FormIt přetažením souboru na kreslicí plochu. Chcete-li soubor importovat do aktuálního náčrtu, podržte při přetahování klávesu Ctrl.
 
@@ -12,19 +12,19 @@ Aplikace FormIt [automaticky uloží vaši práci](../tool-library/autosave.md),
 
 ## Nastavení aplikace
 
-* Jednotky:
+*   Jednotky:
 
-   ![](../.gitbook/assets/formit\_units.png)
+    <img src="../.gitbook/assets/formit_units.png" alt="" data-size="original">
 
-   * Nastavení této možnosti ovlivní jednotky ve všech nástrojích a importované geometrii, například v aplikaci Dynamo a typech souborů bez jednotek, jako je STL.
+    * Nastavení této možnosti ovlivní jednotky ve všech nástrojích a importované geometrii, například v aplikaci Dynamo a typech souborů bez jednotek, jako je STL.
 * Přichytit k osnově:
-   * Vynutí přichycení nástrojů s body umístění k bodům průsečíku osnovy. Všimněte si, že osnovu můžete ve [vizuálních stylech](../formit-primer/part-i/visual-settings.md) vypnout. Pokud je osnova vypnutá, bude vypnuto také její přichycení.
+  * Vynutí přichycení nástrojů s body umístění k bodům průsečíku osnovy. Všimněte si, že osnovu můžete ve [vizuálních stylech](../formit-primer/part-i/visual-settings.md) vypnout. Pokud je osnova vypnutá, bude vypnuto také její přichycení.
 * Zobrazit upravitelné kóty:
-   * Vyberte, zda chcete ponechat pole kót viditelná (pokud chcete kreslit s přesností, doporučujeme tuto možnost ponechat zapnutou).
+  * Vyberte, zda chcete ponechat pole kót viditelná (pokud chcete kreslit s přesností, doporučujeme tuto možnost ponechat zapnutou).
 * Skrýt kontext/Zobrazit pouze upravenou skupinu:
-   * Určuje, zda se při úpravě skupiny zobrazí její okolí, nebo ne. Toto nastavení můžete snadno změnit klávesovou zkratkou (H). Přepínáním klávesou H při modelování ve skupinách a mimo ně můžete podle potřeby zobrazit skupiny samostatně i v kontextu.
+  * Určuje, zda se při úpravě skupiny zobrazí její okolí, nebo ne. Toto nastavení můžete snadno změnit klávesovou zkratkou (H). Přepínáním klávesou H při modelování ve skupinách a mimo ně můžete podle potřeby zobrazit skupiny samostatně i v kontextu.
 * Zvýraznění předvýběru:
-   * Ve výchozím nastavení aplikace FormIt objekty „předem vybere“, když nad ně umístíte kurzor myši. To je užitečné, abyste se ujistili, že vyberete právě ten objekt, který chcete vybrat, ale při prezentaci návrhu to může působit rušivě. Pomocí této možnosti nebo klávesové zkratky můžete podle potřeby rychle přepínat mezi zobrazením a skrytím zvýraznění předvýběru. Tuto možnost je nutné povolit, chcete-li používat některé funkce, například [Inteligentní výběr](https://www.youtube.com/watch?v=akLeB1FADt4).&#x20;
+  * Ve výchozím nastavení aplikace FormIt objekty „předem vybere“, když nad ně umístíte kurzor myši. To je užitečné, abyste se ujistili, že vyberete právě ten objekt, který chcete vybrat, ale při prezentaci návrhu to může působit rušivě. Pomocí této možnosti nebo klávesové zkratky můžete podle potřeby rychle přepínat mezi zobrazením a skrytím zvýraznění předvýběru. Tuto možnost je nutné povolit, chcete-li používat některé funkce, například [Inteligentní výběr](https://www.youtube.com/watch?v=akLeB1FADt4).
 
 ## Režim dotykového ovládání
 

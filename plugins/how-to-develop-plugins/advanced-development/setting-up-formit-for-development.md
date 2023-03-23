@@ -20,15 +20,15 @@ Můžete také uspořádat oba panely vedle sebe. Kliknutím na tlačítko vedle
 
 ### **Editor skriptů**
 
-Editor skriptů poskytuje jednoduché vývojové prostředí pro psaní a testovatání kódu.
+Editor skriptů poskytuje jednoduché vývojové prostředí pro psaní a testování kódu.
 
 Editor skriptů ukládá napsaný kód do souboru scratch.js v adresáři, v němž je umístěn soubor FormIt.exe.
 
 Nahoře jsou dvě tlačítka:
 
-**Spustit** ![](<../../../.gitbook/assets/image (8).png>): Spustí veškerý kód zapsaný v okně.
+**Spustit** \![](<../../../.gitbook/assets/image (8) (1).png>): Spustí veškerý kód zapsaný v okně.
 
-**Spustit výběr** ![](<../../../.gitbook/assets/image (52).png>): Spustí pouze vybrané/zvýrazněné řádky kódu.
+**Spustit výběr** \![](<../../../.gitbook/assets/image (52).png>): Spustí pouze vybrané/zvýrazněné řádky kódu.
 
 ### **Výstup skriptu**
 
@@ -42,7 +42,7 @@ Po [klonování úložiště](cloning-a-sample-plugin.md) a [nastavení webovéh
 
 Můžete načíst nebo nainstalovat kterýkoli z modulů plug-in, ale pro účely tohoto cvičení budete instalovat jak modul plug-in založený na panelu, tak modul plug-in založený na panelu nástrojů. Budeme předpokládat, že váš npm http-server běží na portu 8080 a hostuje obě vzorová úložiště.
 
-### **Načtení a instalace**
+### Příkazy **Load vs. Install**
 
 Příkaz `FormIt.LoadPlugin();` načte modul plug-in pouze pro aktuální relaci. Modul plug-in bude automaticky uvolněn při ukončení a restartování aplikace.
 
@@ -52,7 +52,7 @@ Příkaz `FormIt.InstallPlugin();` zajistí, že modul plug-in zůstane zachová
 
 V systému Windows se k zachování modulů plug-in používají následující klíče registru:
 
-* Moduly plug-in: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Plugins: Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
 K odinstalaci použijte příkaz `FormIt.UninstallPlugin();`.
 

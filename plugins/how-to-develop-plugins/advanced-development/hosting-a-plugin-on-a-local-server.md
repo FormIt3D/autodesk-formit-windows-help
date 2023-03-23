@@ -4,15 +4,15 @@ Před zobrazením náhledu klonovaného modulu plug-in v aplikaci FormIt je nut
 
 ### **Zobrazení terminálu v integrovaném vývojovém prostředí**
 
-Místo v samostatném okně terminálu můžete server spustit uvnitř aplikace Visual Studio Code. \*\*\*\* Před spuštěním terminálu se ujistěte, že je v aplikaci Visual Studio Code otevřena správná složka.
+Místo v samostatném okně terminálu můžete server spustit uvnitř aplikace Visual Studio Code. **** Před spuštěním terminálu se ujistěte, že je v aplikaci Visual Studio Code otevřena správná složka.
 
 Klikněte na nabídku View > Terminal (Zobrazit > Terminál), nebo použijte klávesovou zkratku Ctrl + \`.
 
-![](<../../../.gitbook/assets/image (11).png>)
+\![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### Nastavení serveru HTTP
 
-Dobře fungující server HTTP je server [http-server](https://www.npmjs.com/package/http-server) společnosti npm.
+Dobře fungující server HTTP je server [http-server](https://www.npmjs.com/package/http-server)společnosti npm.
 
 Nejprve je nutné stáhnout a nainstalovat prostředí [NodeJS](https://nodejs.org/en/), pokud již není nainstalováno.
 
@@ -22,7 +22,7 @@ Zadáním následujícího příkazu do příkazového řádku globálně nainst
 
 * `npm install http-server -g`
 
-![](<../../../.gitbook/assets/image (47).png>)
+\![](<../../../.gitbook/assets/image (47).png>)
 
 ### Spuštění místního serveru
 
@@ -30,7 +30,7 @@ Po dokončení instalace zadejte v terminálu následující příkaz, který s
 
 * `http-server`
 
-![](<../../../.gitbook/assets/image (84).png>)
+\![](<../../../.gitbook/assets/image (84).png>)
 
 Tip 1: V případě problémů se spuštěním http-serveru (instalovaného globálně nebo místně) jej můžete spustit přímo prostřednictvím npx:
 
@@ -47,7 +47,7 @@ Chcete-li vytvářet moduly plug-in pro webovou aplikaci FormIt, jednoduše spus
 
 * `http-server --cors`
 
-![](<../../../.gitbook/assets/image (10).png>)
+\![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### Ověření serveru
 
@@ -57,6 +57,6 @@ Server můžete ověřit přechodem na následující adresu ve webovém prohlí
 
 V okně prohlížeče by se měly zobrazit soubory ve složce projektu.
 
-\*\*Pokud používáte jiný webový server než npm, může se výchozí adresa nebo port lišit.
+**Pokud používáte jiný webový server než npm, může se výchozí adresa nebo port lišit.
 
-![](<../../../.gitbook/assets/image (41).png>)
+\![](<../../../.gitbook/assets/image (41).png>)

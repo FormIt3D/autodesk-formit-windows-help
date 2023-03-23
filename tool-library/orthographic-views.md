@@ -13,15 +13,15 @@ Ortografické pohledy najdete v nabídce Pohled kliknutím na ikonu Ortografick
 * Při přepínání mezi ortografickými pohledy aplikace FormIt zachová kvůli konzistenci úroveň přiblížení.
 * Při přepínání bokorysných pohledů (přední/pravý/levý/zadní) aplikace FormIt zachová kvůli konzistenci výšku terénu.
 * Při posouvání v ortografickém pohledu můžete podržením klávesy Shift uzamknout pohyb k horizontální nebo vertikální ose.
-* Ortografické směry pohledu jsou založeny na globálních osách. Zarovnání os můžete změnit, čímž se změní orientace všech ortografických pohledů:
+*   Ortografické směry pohledu jsou založeny na globálních osách. Zarovnání os můžete změnit, čímž se změní orientace všech ortografických pohledů:
 
-   * Použijte zkratku SZ nebo klikněte pravým tlačítkem myši do volného místa (vyhněte se jakékoli geometrii):
+    * Použijte zkratku SZ nebo klikněte pravým tlačítkem myši do volného místa (vyhněte se jakékoli geometrii):
 
-   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes_context.PNG" alt="" data-size="original">
 
-   * Nastavte počátek a poté nastavte uzel na červené ose tak, aby byla zarovnána do smysluplného směru.
+    * Nastavte počátek a poté nastavte uzel na červené ose tak, aby byla zarovnána do smysluplného směru.
 
-   ![](../.gitbook/assets/set-axes.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes.PNG" alt="" data-size="original">
 
 **Ortografické pohledy fungují ve spojení s dalšími funkcemi aplikace FormIt:**
 

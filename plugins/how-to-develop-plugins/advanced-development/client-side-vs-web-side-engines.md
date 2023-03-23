@@ -1,9 +1,9 @@
 # Moduly na straně klienta a na straně webu
 
-Moduly plug-in aplikace FormIt využívají dva odlišné moduly jazyka JavaScript:&#x20;
+Moduly plug-in aplikace FormIt využívají dva odlišné moduly jazyka JavaScript:
 
 * Panel zobrazující HTML (na straně webu)
-* Klientská strana (FormIt) volá aplikaci FormIt a její geometrické jádro.&#x20;
+* Klientská strana (FormIt) volá aplikaci FormIt a její geometrické jádro.
 
 Tyto dva moduly jazyka JavaScript využívají různé procesy.
 
@@ -21,19 +21,18 @@ Moduly plug-in mohou určovat, kde se JavaScript načte:
 
 ### Klientská strana (FormIt)
 
-Určeno pomocí souboru [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8)
+Určeno pomocí souboru [manifest.json](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/manifest.json#L8).
 
 ```
     "Scripts": [
         "PLUGINLOCATION/blockFormItSide.js",
         "https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/PluginUtils18_0.js"
     ]
-
 ```
 
 ### Webová strana (HTML)
 
-Určeno pomocí souboru [ index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7)
+Určeno pomocí souboru [index.html](https://github.com/FormIt3D/FormItExamplePlugins/blob/master/HelloBlockAsync/v23\_0/index.html#L7).
 
 * Skripty na webové straně se načítají z webové stránky.
 * Skripty na webové straně mohou volat JavaScript na straně klienta (FormIt) pomocí několika asynchronních volání.
@@ -56,21 +55,21 @@ Určeno pomocí souboru [ index.html](https://github.com/FormIt3D/FormItExampleP
     });
 ```
 
-**Výhody:** &#x20;
+**Výhody:**
 
-➕ Není nutný parametr `await`.&#x20;
+➕ Není nutný parametr `await`.
 
-**Nevýhody:** &#x20;
+**Nevýhody:**
 
-➖ K získání výsledku je zapotřebí zpětné volání, které se volá „kdo ví kdy“.&#x20;
+➖ K získání výsledku je zapotřebí zpětné volání, které se volá „kdo ví kdy“.
 
-➖ Skripty jsou definovány na dvou různých místech.&#x20;
+➖ Skripty jsou definovány na dvou různých místech.
 
 ➖ Logiku modulu plug-in je nutné rozdělit do dvou různých souborů.
 
-### **Metoda 2: FormIt.CallJS**&#x20;
+### **Metoda 2: FormIt.CallJS**
 
-**\*K dispozici pouze ve verzi aplikace FormIt 2022.1 a novějších.**
+***K dispozici pouze ve verzi aplikace FormIt 2022.1 a novějších.**
 
 CallJS převezme funkci jazyka JavaScript, která bude volána na straně aplikace FormIt, a objekt arguments.json.
 
@@ -82,46 +81,45 @@ var args =
     "h": 10
 };
 var result = await FormIt.CallJS("CreateBlock", args);
-
 ```
 
-**Výhody:** &#x20;
+**Výhody:**
 
 ➕ Výsledek je k dispozici v případě potřeby
 
-**Nevýhody:** &#x20;
+**Nevýhody:**
 
 ➖ **** Všechna asynchronní volání vyžadují parametr await, pokud na to zapomenete, nebude skript fungovat.
 
 ➖ **** Potenciálně pomalejší z důvodu nutnosti použití parametru `await`.
 
-### **Metoda 3: (async/await)**
+### **Metoda 3 (async/await)**
 
 ```
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-Při asynchronním volání webová strana volá aplikaci FormIt. Toto volání se spustí v jednom procesu, odešle se do jiného procesu a výsledek se předá zpět do výchozího procesu. Proto je potřeba argument await.&#x20;
+Při asynchronním volání webová strana volá aplikaci FormIt. Toto volání se spustí v jednom procesu, odešle se do jiného procesu a výsledek se předá zpět do výchozího procesu. Proto je potřeba argument await.
 
 Ve výchozím nastavení lze volat pouze integrovaná rozhraní API aplikace FormIt.
 
-**Výhody:** &#x20;
+**Výhody:**
 
-➕ Výsledek je k dispozici v případě potřeby.&#x20;
+➕ Výsledek je k dispozici v případě potřeby.
 
 ➕ Umožňuje sloučit veškerý kód do jednoho souboru JS spouštěného ze strany webu bez skriptů definovaných v souboru manifest.json.
 
-**Nevýhody:** &#x20;
+**Nevýhody:**
 
-➖ **** Všechna asynchronní volání vyžadují parametr `await`, pokud na to zapomenete, nebude skript fungovat.&#x20;
+➖ **** Všechna asynchronní volání vyžadují parametr `await`, pokud na to zapomenete, nebude skript fungovat.
 
 ➖ **** Potenciálně pomalejší z důvodu nutnosti použití parametru `await.`.
 
-### Metoda 4 (RegisterAsyncAPI)&#x20;
+### Metoda 4 (RegisterAsyncAPI)
 
-**\*K dispozici pouze ve verzi aplikace FormIt 2023.0 a novějších.**&#x20;
+***K dispozici pouze ve verzi aplikace FormIt 2023.0 a novějších.**
 
-Chcete-li na straně aplikace FormIt volat uživatelem definovanou funkci, je nutné tuto funkci zaregistrovat. Příklad: &#x20;
+Chcete-li na straně aplikace FormIt volat uživatelem definovanou funkci, je nutné tuto funkci zaregistrovat. Příklad:
 
 **Klientská strana (FormIt)**
 
@@ -140,17 +138,17 @@ HelloBlockAsync.CreateBlock = function(args)
 var result = await HelloBlockAsync.CreateBlock(l, w, h);
 ```
 
-Příklad naleznete zde: [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0).
+Příklad viz [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0).
 
-**Výhody:** &#x20;
+**Výhody:**
 
-➕ Výsledek je k dispozici v případě potřeby.&#x20;
+➕ Výsledek je k dispozici v případě potřeby.
 
 ➕ Umožňuje sloučit veškerý kód do jednoho souboru JS spouštěného ze strany webu bez skriptů definovaných v souboru manifest.json.
 
-**Nevýhody:** &#x20;
+**Nevýhody:**
 
-➖ **** Všechna asynchronní volání vyžadují parametr await, pokud na to zapomenete, nebude skript fungovat.&#x20;
+➖ **** Všechna asynchronní volání vyžadují parametr await, pokud na to zapomenete, nebude skript fungovat.
 
 ➖ **** Potenciálně pomalejší z důvodu nutnosti použití parametru `await.`.
 

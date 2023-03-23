@@ -16,8 +16,20 @@ Po nakreslení oblouku můžete vytvořit plochu pomocí [nástroje Čára](line
 
 ## Oblouk pomocí středu
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+\![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Vyberte středový bod oblouku, poté tažením vyberte střed a tažením definujte délku oblouku. Chcete-li definovat přesný počet stupňů oblouku, jednoduše zadejte požadovanou hodnotu.
 
 ![](../.gitbook/assets/arc\_circle\_demo.gif)
+
+## Úpravy oblouku
+
+Již umístěný oblouk můžete také upravit tak, že na něj kliknete pravým tlačítkem myši a v dolní části vyberete možnost Upravit oblouk:
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+Zobrazí se uzly pro úpravy oblouku, pomocí kterých můžete změnit poloměr, úhel nebo zarovnání oblouku. Nový oblouk se při úpravách zobrazí jako obrys.
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+Úpravy dokončíte kliknutím do prázdného prostoru nebo stisknutím klávesy Esc. Nový oblouk nahradí aktuální oblouk.

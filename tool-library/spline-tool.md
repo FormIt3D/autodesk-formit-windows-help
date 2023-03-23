@@ -13,3 +13,15 @@ Křivky spline se mohou také uzavírat samy do sebe a vytvořit tak plochu.
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+
+## Úpravy křivky spline
+
+Body již umístěné křivky spline můžete také upravit tak, že na křivku kliknete pravým tlačítkem myši a v dolní části vyberete možnost Upravit spline:
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+Zobrazí se uzly pro úpravu křivky spline, které můžete přesouvat. Nová křivka spline se při úpravách zobrazí jako obrys.
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+Úpravy dokončíte kliknutím do prázdného prostoru nebo stisknutím klávesy Esc. Nová křivka spline nahradí aktuální křivku.
