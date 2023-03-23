@@ -13,3 +13,15 @@
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+
+## 编辑样条曲线
+
+还可以通过在已放置的样条曲线上单击鼠标右键，然后选择底部的“编辑接头”，来修改该样条曲线的点：
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+“编辑接头”夹点将显示，以便可以移动它们。新的样条曲线在编辑时会显示为轮廓。
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+要完成编辑，请通过单击进入空间或按 ESC 键以退出该工具。新的样条曲线即会替换当前样条曲线。

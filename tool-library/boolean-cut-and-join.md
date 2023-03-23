@@ -2,7 +2,7 @@
 
 可以使用“切割工具”，从另一个对象或组中切割一个对象或组。有两种方法可以访问“切割”工具：
 
-## 先运行“切割”命令
+## 工具栏中的布尔切割
 
 键盘：C G
 
@@ -18,10 +18,10 @@
 
 ![](../.gitbook/assets/boolean\_cut2.png)
 
-单击复选标记以完成命令。已移除的对象仍保留在场景中。可以删除它，也可以使用[“图层”](layers.md)将其隐藏。
+单击复选标记以完成命令。已移除的对象仍会保留在场景中。可以删除它，也可以使用[“图层”](layers.md)将其隐藏。
 
-## 先选择对象
+## 上下文菜单中的布尔切割
 
 1. 双击以选择要切割的对象。（单击以选择组）
-2. 按住 **CTRL 键**的同时，双击要切除的重叠对象。
-3. 在要切割的对象上单击鼠标右键，然后在上下文菜单中选择[**“切割”工具**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)。![](<../.gitbook/assets/cut tool.png>)
+2. 按住 **CTRL 键**的同时，双击要剪切的重叠对象。
+3. 在要切割的对象上单击鼠标右键，然后在上下文菜单中选择[**“剪切”工具**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)。\![](<../.gitbook/assets/cut tool.png>)

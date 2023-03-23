@@ -2,8 +2,8 @@
 
 FormIt 插件会利用两个不同的 JavaScript 引擎：
 
-* 显示 HTML 的面板（Web 端）
-* 客户端 (FormIt) 会调用 FormIt 及其几何图形内核。&#x20;
+* 显示 HTML（Web 端）的面板
+* 客户端 (FormIt) 会调用 FormIt 及其几何图形内核。
 
 这两个 JavaScript 引擎在不同的进程中工作。
 
@@ -28,7 +28,6 @@ FormIt 同时运行多个 JavaScript 引擎：
         "PLUGINLOCATION/blockFormItSide.js",
         "https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/PluginUtils18_0.js"
     ]
-
 ```
 
 ### Web 端 (HTML)
@@ -58,19 +57,19 @@ FormIt 同时运行多个 JavaScript 引擎：
 
 **优点：**
 
-➕ 无需 `await`。&#x20;
+➕ 无需 `await`。
 
 **缺点：**
 
-➖ 需要回调来获取结果，称为“谁知道何时”。&#x20;
+➖ 需要回调来获取结果，称为“谁知道何时”。
 
-➖ 脚本在两个不同的位置定义。&#x20;
+➖ 脚本在两个不同的位置定义。
 
 ➖ 需要将插件逻辑拆分为两个不同的文件。
 
 ### **方法 2：FormIt.CallJS**
 
-**\*仅在 FormIt 2022.1 及更高版本中可用**
+***仅在 FormIt 2022.1 及更高版本中可用**
 
 CallJS 采用要在 FormIt 端调用的 JavaScript 函数和 arguments.json 对象。
 
@@ -82,7 +81,6 @@ var args =
     "h": 10
 };
 var result = await FormIt.CallJS("CreateBlock", args);
-
 ```
 
 **优点：**
@@ -101,25 +99,25 @@ var result = await FormIt.CallJS("CreateBlock", args);
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-通过异步调用，Web 端将调用 FormIt 端。此调用在一个进程中开始、发送到另一个进程，然后将结果传回起始进程。这就是为什么需要等待。&#x20;
+通过异步调用，Web 端将调用 FormIt 端。此调用在一个进程中开始、发送到另一个进程，然后将结果传回起始进程。这就是为什么需要等待的原因。
 
 默认情况下，只能调用内置的 FormIt API。
 
 **优点：**
 
-➕ 结果在需要时可用。&#x20;
+➕ 结果在需要时可用。
 
-➕ 允许将所有代码都合并到从 Web 端运行的一个 JS 文件中，而无需在 manifest.json 中定义的脚本。
+➕ 允许将所有代码都合并到从 Web 端运行的一个 JS 文件中，而无需在 manifest.json 中定义脚本。
 
 **缺点：**
 
-➖ **** 必须使用 `await` 装饰所有异步调用，忘记这样做会误事。&#x20;
+➖ **** 必须使用 `await` 装饰所有异步调用，忘记这样做会误事。
 
 ➖ **** 由于 `await.`，速度可能会变慢
 
 ### 方法 4 (RegisterAsyncAPI)
 
-**\*仅在 FormIt 2023.0 及更高版本中可用**
+***仅在 FormIt 2023.0 及更高版本中可用**
 
 要在 FormIt 端调用用户定义的函数，需要注册该函数。例如：
 
@@ -144,13 +142,13 @@ var result = await HelloBlockAsync.CreateBlock(l, w, h);
 
 **优点：**
 
-➕ 结果在需要时可用。&#x20;
+➕ 结果在需要时可用。
 
-➕ 允许将所有代码都合并到从 Web 端运行的一个 JS 文件中，而无需在 manifest.json 中定义的脚本。
+➕ 允许将所有代码都合并到从 Web 端运行的一个 JS 文件中，而无需在 manifest.json 中定义脚本。
 
 **缺点：**
 
-➖ **** 必须使用 await 装饰所有异步调用，忘记这样做会误事。&#x20;
+➖ **** 必须使用 await 装饰所有异步调用，忘记这样做会误事。
 
 ➖ **** 由于 `await.`，速度可能会变慢
 
