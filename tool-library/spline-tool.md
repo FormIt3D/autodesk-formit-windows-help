@@ -13,3 +13,15 @@
 ![](../.gitbook/assets/spline2.png)
 
 ![](../.gitbook/assets/spline3.png)
+
+## 編輯雲形線
+
+您也可以在放置的雲形線上按一下右鍵，然後選擇底部的「編輯雲形線」來修改雲形線的點：
+
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+此時會顯示「編輯接合」掣點，讓您移動它們。編輯時，新雲形線將以輪廓顯示。
+
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+
+若要完成編輯，請在空間中離開雲形線的地方按一下或按 Esc 結束工具。新雲形線將取代目前的雲形線。

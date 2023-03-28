@@ -16,8 +16,20 @@
 
 ## 用中心畫弧
 
-![](<../.gitbook/assets/arc-by-center (1).png>)
+\![](<../.gitbook/assets/arc-by-center (1).png>)
 
 選擇弧的中點，然後拖曳以選擇中心點，再拖曳以定義弧的長度。只需開始鍵入值，即可輸入弧的精確度數。
 
 ![](../.gitbook/assets/arc\_circle\_demo.gif)
+
+## 編輯弧
+
+您也可以在放置的弧上按一下右鍵，然後選擇底部的「編輯弧」來修改弧：
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
+此時會顯示「編輯弧」掣點，讓您變更弧的半徑、角度或對齊方式。編輯時，新弧將以輪廓顯示。
+
+<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+
+若要完成編輯，請按一下空白空間或按 Esc 結束工具。新弧將取代目前的弧。

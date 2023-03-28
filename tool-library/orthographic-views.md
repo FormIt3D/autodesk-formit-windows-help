@@ -13,15 +13,15 @@
 * 在正投影視圖之間切換時，FormIt 會維持縮放等級以保持一致性。
 * 切換立面視圖 (前/右/左/後) 時，FormIt 會維持地面高度以保持一致性。
 * 在正投影視圖中平移時，您可以按住 Shift 鍵，將平移的移動鎖定在水平或垂直軸。
-* 正投影視圖方向以世界軸為基礎。您可以重新對齊軸，這會變更所有正投影視圖的方位：
+*   正投影視圖方向以世界軸為基礎。您可以重新對齊軸，這會變更所有正投影視圖的方位：
 
-   * 使用快速鍵 SZ，或在空間 (不在任何幾何圖形上) 中按一下右鍵：
+    * 使用快速鍵 SZ，或在空間 (不在任何幾何圖形上) 中按一下右鍵：
 
-   ![](../.gitbook/assets/set-axes\_context.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes_context.PNG" alt="" data-size="original">
 
-   * 設定原點，並在紅色軸上設定掣點，與有意義的方向對齊
+    * 設定原點，並在紅色軸上設定掣點，與有意義的方向對齊
 
-   ![](../.gitbook/assets/set-axes.PNG)&#x20;
+    <img src="../.gitbook/assets/set-axes.PNG" alt="" data-size="original">
 
 **正投影視圖與其他 FormIt 功能搭配使用：**
 

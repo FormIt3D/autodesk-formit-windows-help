@@ -4,7 +4,7 @@
 
 ### **顯示腳本編輯器和腳本輸出**
 
-在 FormIt 的頂端功能表中，移往頂端功能表的 **「視窗」**，勾選 **「腳本編輯器」** 和 **「腳本輸出」** 方塊。
+在 FormIt 的頂端功能表中，移至頂端功能表的**「視窗」**，勾選**「腳本編輯器」**和**「腳本輸出」**方塊。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 
@@ -26,9 +26,9 @@
 
 頂端有兩個按鈕：
 
-**執行** ![](<../../../../.gitbook/assets/image (8).png>)：執行視窗中編寫的所有程式碼。
+**執行** \![](<../../../.gitbook/assets/image (8) (1).png>)：執行視窗中編寫的所有程式碼。
 
-**執行選取項目** ![](<../../../../.gitbook/assets/image (52).png>)： 僅執行選取的/亮顯的程式碼行。
+**執行選取項目** \![](<../../../.gitbook/assets/image (52).png>)：僅執行選取的/亮顯的程式碼行。
 
 ### **腳本輸出**
 
@@ -50,13 +50,13 @@
 
 `FormIt.InstallPlugin();` 會讓外掛程式持續使用登錄機碼。這很適合您經常在不同工作階段使用的外掛程式。
 
-在 Windows 中，以下登錄機碼會用來保留外掛程式：
+在 Windows 中，以下登錄機碼用來保留外掛程式：
 
-* Plugins: Computer\HKEY\_CURRENT\_USER\Software\Autodesk\FormIt 360\Plugins\InstalledPlugins
+* Plugins: Computer\\HKEY_CURRENT_USER\\Software\\Autodesk\\FormIt 360\\Plugins\\InstalledPlugins
 
-使 用 `FormIt.UninstallPlugin();` 可解除安裝。
+使用 `FormIt.UninstallPlugin();` 可解除安裝。
 
-在下列範例中，除非另有說明，否則請根據您是否希望保留練習結果來自由使用 _安裝_ 或 _載入_。
+在下列範例中，除非另有說明，否則請根據您是否希望保留練習結果來自由使用_安裝_或_載入_。
 
 ### **工具列外掛程式範例：Flip Along**
 
@@ -106,4 +106,4 @@
 * 排他式：`FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModalDialog");`
 * 排他式：`FormIt.LoadPlugin("https://formit3d.github.io/FormItExamplePlugins/ModelessDialog");`
 
-您應該會看到「HTML」面板範例中的「Hello Block!」面板在螢幕上顯示為一個「排他式」或「共存式」對話方塊。
+您應該會看到 HTML 面板範例中的「Hello Block!」面板在螢幕上顯示為一個排他式或共存式對話方塊。

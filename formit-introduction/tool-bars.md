@@ -9,15 +9,15 @@
 ![](../.gitbook/assets/file\_icons.png)
 
 1. **「檔案」功能表**，其中包含「開啟」、「儲存」和「匯出」等檔案作業
-2. **退回**您最後的變更
-3. **重做**您未執行的變更
+2. **退回**您上次的變更
+3. **重做**您退回的變更
 
 ### 幾何圖形
 
-![](<../.gitbook/assets/geometry\_icons (1).png>)
+\![](<../.gitbook/assets/geometry_icons (1).png>)
 
-1. [**選取**](https://windows.help.formit.autodesk.com/v/traditional-chinese/tool-library/select-edge-face-or-object) 和面積選取篩選
-2. [**測量** ](../tool-library/measure-tool.md)距離和 [**測量角度**](../tool-library/measure-angle-tool.md) 工具
+1. [**選取**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object)和區域選取篩選
+2. [**測量**](../tool-library/measure-tool.md)距離和[**測量角度**](../tool-library/measure-angle-tool.md)工具
 3. [**剖面平面**](../tool-library/section-planes.md)
 4. [**3D 草圖繪製工具**](../formit-primer/part-i/3d-sketching.md)
 5. [**基本圖元**](../tool-library/place-primitive-object.md)工具列
@@ -31,20 +31,20 @@
 1. 使用者介面和應用程式設定的**設定**功能表。
 2. **觸控模式**，可在觸控螢幕裝置上進行互動。
 3. [**協同合作**](../tool-library/collaboration.md)，用於管理與多個使用者的協同合作工作階段。
-4. **Autodesk 帳戶登入。**
+4. **Autodesk 帳戶登入**。
 5. **資訊**功能表，取得說明和連結。
 
 ### 設計
 
 ![](../.gitbook/assets/design\_icons.png)
 
-1. [**位置** ](../tool-library/setting-location.md)
+1. [**位置**](../tool-library/setting-location.md)
 2. [**太陽、陰影和日光分析**](../tool-library/solar-analysis.md)
 3. [**能源分析**](../tool-library/energy-analysis.md)
 
 ## 選項板
 
-![](<../.gitbook/assets/properties (1).png>) [**性質**](https://windows.help.formit.autodesk.com/v/traditional-chinese/tool-library/properties)
+\![](<../.gitbook/assets/properties (1).png>) [**性質**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**圖層**](../tool-library/layers.md)
 
@@ -62,7 +62,13 @@
 
 ![](../.gitbook/assets/undo.png) [**退回管理員**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/undo-manager.md)
 
-![](../.gitbook/assets/plugin\_img.png) [**外掛程式**](https://windows.help.formit.autodesk.com/v/traditional-chinese/tool-library/plug-ins)
+![](../.gitbook/assets/plugin\_img.png) [**外掛程式**](https://windows.help.formit.autodesk.com/tool-library/plug-ins)
+
+### 展示/隱藏所有選項板
+
+在 FormIt 2023 和更高版本中，切換「視窗」功能表中的「展示/隱藏所有選項板」，可以最小化/還原選項板：
+
+<figure><img src="../.gitbook/assets/ShowHidePalette.png" alt=""><figcaption></figcaption></figure>
 
 ## 關聯式功能表
 
@@ -74,4 +80,4 @@
 
 在「編輯」>「偏好」>「快速鍵」中自訂 FormIt [**鍵盤快速鍵**](../appendix/keyboard-shortcuts.md)。
 
-![](<../.gitbook/assets/shortcuts\_img (1).png>)
+\![](<../.gitbook/assets/shortcuts_img (1).png>)

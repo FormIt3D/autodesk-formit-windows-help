@@ -1,9 +1,9 @@
 # 用戶端與網頁端引擎
 
-FormIt 外掛程式使用兩個不同的 JavaScript 引擎：&#x20;
+FormIt 外掛程式使用兩個不同的 JavaScript 引擎：
 
 * 面板顯示 HTML (網頁端)
-* 用戶端 (FormIt) 呼叫 FormIt 及其幾何圖形核心。&#x20;
+* 用戶端 (FormIt) 呼叫 FormIt 及其幾何圖形核心。
 
 這兩個 JavaScript 引擎在不同的程序中工作。
 
@@ -28,7 +28,6 @@ FormIt 會同時執行多個 JavaScript 引擎：
         "PLUGINLOCATION/blockFormItSide.js",
         "https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/PluginUtils18_0.js"
     ]
-
 ```
 
 ### 網頁端 (HTML)
@@ -56,21 +55,21 @@ FormIt 會同時執行多個 JavaScript 引擎：
     });
 ```
 
-**優點：**&#x20;
+**優點：**
 
-➕ 不需要 `await`。&#x20;
+➕ 不需要 `await`。
 
-**缺點：**&#x20;
+**缺點：**
 
-➖需要回呼才能得到結果，因此稱為「誰知道時間」。&#x20;
+➖ 需要回呼才能得到結果，也就是所謂的「沒人知道何時」。
 
-➖指令碼定義在兩個不同的位置。&#x20;
+➖ 指令碼定義在兩個不同的位置。
 
-➖需要將外掛程式邏輯分為兩個不同的檔案。
+➖ 需要將外掛程式邏輯分為兩個不同的檔案。
 
-### **方法 2：FormIt.CallJS**&#x20;
+### **方法 2：FormIt.CallJS**
 
-**\*只有 FormIt 2022.1 和更高版本提供**
+***只有 FormIt 2022.1 和更高版本提供**
 
 CallJS 使用要在 FormIt 端呼叫的 JavaScript 函式和 arguments.json 物件。
 
@@ -82,18 +81,17 @@ var args =
     "h": 10
 };
 var result = await FormIt.CallJS("CreateBlock", args);
-
 ```
 
-**優點：**&#x20;
+**優點：**
 
-➕需要時就可以得到結果
+➕ 需要時就可以得到結果
 
-**缺點：**&#x20;
+**缺點：**
 
-➖ ****必須使用 await 裝飾所有非同步呼叫，忘記這樣做就會導致事情惡化。
+➖ **** 必須使用 await 裝飾所有非同步呼叫，忘記這樣做就會導致事情惡化。
 
-➖ ****速度可能會因為 `await` 而變慢
+➖ **** 速度可能會因為 `await` 而變慢
 
 ### **方法 3 (非同步/等待)**
 
@@ -101,27 +99,27 @@ var result = await FormIt.CallJS("CreateBlock", args);
 const pt1 = await WSM.Geom.Point3d(0,0,0);
 ```
 
-網頁端透過非同步呼叫來呼叫 FormIt 端。此呼叫會在一個程序中開始，傳送至另一個程序，然後結果會傳回到開始程序。這就是為什麼需要等待。&#x20;
+網頁端透過非同步呼叫來呼叫 FormIt 端。此呼叫會在一個程序中開始，傳送至另一個程序，然後結果會傳回到開始程序。這就是為什麼需要等待。
 
 預設只能呼叫內建 FormIt API。
 
-**優點：**&#x20;
+**優點：**
 
-➕需要時就可以得到結果。&#x20;
+➕ 需要時就可以得到結果。
 
-➕允許將所有程式碼合併到從網頁端執行的一個 JS 檔案中，不需要在 manifest.json 中定義任何指令碼。
+➕ 允許將所有程式碼合併到從網頁端執行的一個 JS 檔案中，不需要在 manifest.json 中定義任何指令碼。
 
-**缺點：**&#x20;
+**缺點：**
 
-➖ ****必須使用 `await` 裝飾所有非同步呼叫，忘記這樣做就會導致事情惡化。&#x20;
+➖ **** 必須使用 `await` 裝飾所有非同步呼叫，忘記這樣做就會導致事情惡化。
 
-➖ ****速度可能會因為 `await.` 而變慢
+➖ **** 速度可能會因為 `await.` 而變慢
 
-### 方法 4 (RegisterAsyncAPI)&#x20;
+### 方法 4 (RegisterAsyncAPI)
 
-**\*只有 FormIt 2023.0 和更高版本提供**&#x20;
+***只有 FormIt 2023.0 和更高版本提供**
 
-若要在 FormIt 側呼叫使用者定義的函式，需要註冊該函式。例如：&#x20;
+若要在 FormIt 端呼叫使用者定義的函式，需要註冊該函式。例如：
 
 **用戶端 (FormIt)**
 
@@ -140,18 +138,18 @@ HelloBlockAsync.CreateBlock = function(args)
 var result = await HelloBlockAsync.CreateBlock(l, w, h);
 ```
 
-請參閱 [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0) 的範例。
+請參閱 [HelloBlockAsync](https://github.com/FormIt3D/FormItExamplePlugins/tree/master/HelloBlockAsync/v23\_0) 查看範例。
 
-**優點：**&#x20;
+**優點：**
 
-➕需要時就可以得到結果。&#x20;
+➕ 需要時就可以得到結果。
 
-➕允許將所有程式碼合併到從網頁端執行的一個 JS 檔案中，不需要在 manifest.json 中定義任何指令碼。
+➕ 允許將所有程式碼合併到從網頁端執行的一個 JS 檔案中，不需要在 manifest.json 中定義任何指令碼。
 
-**缺點：**&#x20;
+**缺點：**
 
-➖ ****必須使用 await 裝飾所有非同步呼叫，忘記這樣做就會導致事情惡化。&#x20;
+➖ **** 必須使用 await 裝飾所有非同步呼叫，忘記這樣做就會導致事情惡化。
 
-➖ ****速度可能會因為 `await.` 而變慢
+➖ **** 速度可能會因為 `await.` 而變慢
 
 ##
