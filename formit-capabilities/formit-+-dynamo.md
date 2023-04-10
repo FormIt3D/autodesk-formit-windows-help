@@ -10,6 +10,8 @@ FormIt for Windows has Dynamo built-in for incredible computational design workf
 
 ## What's New With FormIt + Dynamo
 
+FormIt 2024 is up to date with the latest Dynamo release 2.17.
+
 ### **Data Graphs, Send Levels to Excel, and Faceting Control**
 
 [FormIt 2023](https://formit.autodesk.com/blog/post/introducing-formit-2023/) enables running Dynamo graphs[ without a SendToFormIt node](formit-+-dynamo.md#graph-types), adds the ability to [send FormIt levels to Excel](formit-+-dynamo.md#send-formit-levels-to-excel), and adds control of [curve and surface faceting via new FormItGroupOptions nodes](../tool-library/curve-+-surface-faceting.md).
