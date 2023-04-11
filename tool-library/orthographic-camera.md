@@ -36,3 +36,23 @@ Once you've selected a camera, any other camera tools will respect the current m
 If you navigate manually to a pre-set Orthographic View, like Top View, or Front View, the Orthographic Camera will snap to that position, making it easier to access those pre-set views.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
+
+### Axonometric
+
+In addition to Orthographic and Perspective Camera options available in the Navigation Toolbar, FormIt offers an Axonometric Camera available only from the View menu (Windows only):
+
+<figure><img src="../.gitbook/assets/AxonometricMenu (2).png" alt=""><figcaption></figcaption></figure>
+
+Selecting this option will put the camera in Axonometric view:
+
+<figure><img src="../.gitbook/assets/Axonometric (2).png" alt=""><figcaption></figcaption></figure>
+
+### Oblique
+
+FormIt also offers an Oblique Camera only available in the View menu (Windows only):
+
+<figure><img src="../.gitbook/assets/ObliqueMenu.png" alt=""><figcaption></figcaption></figure>
+
+Selecting this option will put the Camera in Oblique view:
+
+<figure><img src="../.gitbook/assets/Oblique (2).png" alt=""><figcaption></figcaption></figure>

@@ -113,8 +113,6 @@
   * [Visual Styles](tool-library/visual-styles.md)
   * [Work Planes](tool-library/work-planes.md)
   * [World Axes](tool-library/world-axes.md)
-  * [Oblique Camera](tool-library/oblique-camera.md)
-  * [Axonometric Camera](tool-library/axonometric-camera.md)
 * [Plugins](plugins/README.md)
   * [Introduction to Plugins](plugins/introduction.md)
   * [How to Use Plugins](plugins/how-to-use-plug-ins.md)
