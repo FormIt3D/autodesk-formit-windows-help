@@ -1,6 +1,6 @@
 # 三维上下文创建器
 
-![](<../../.gitbook/assets/3D Context Creator\_new.gif>)
+![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## 它是什么？
 
@@ -18,7 +18,7 @@
 
 打开插件后，该插件应该会显示在应用程序的右侧，并可供使用。
 
-![](<../../.gitbook/assets/3D Context Creator new\_no location (1).png>)
+![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
 如果您的场地还没有位置，可以单击 **“设置位置...”** 链接来设置位置，并定义将用于生成三维上下文的边界。
 
