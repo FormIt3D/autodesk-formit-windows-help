@@ -26,9 +26,9 @@ Editor skriptů ukládá napsaný kód do souboru scratch.js v adresáři, v n
 
 Nahoře jsou dvě tlačítka:
 
-**Spustit** \![](<../../../.gitbook/assets/image (8) (1).png>): Spustí veškerý kód zapsaný v okně.
+**Spustit** ![](<../../../.gitbook/assets/image (8) (1).png>): Spustí veškerý kód zapsaný v okně.
 
-**Spustit výběr** \![](<../../../.gitbook/assets/image (52).png>): Spustí pouze vybrané/zvýrazněné řádky kódu.
+**Spustit výběr** ![](<../../../.gitbook/assets/image (52).png>): Spustí pouze vybrané/zvýrazněné řádky kódu.
 
 ### **Výstup skriptu**
 
