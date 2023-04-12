@@ -16,7 +16,7 @@ FormIt pour Windows se connecte directement à Revit pour une communication flui
 
 ### Les fonctionnalités puissantes de liaison pour 2023 <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
 
-* Liaison d’un modèle FormIt (format AXM) à Revit à l’aide du bouton _**Lier CAO de l’onglet Insérer de Revit.
+* Liaison d’un modèle FormIt (format AXM) à Revit à l’aide du bouton _**Lier CAO**_ de l’onglet Insérer de Revit.
 * Sélection d’un élément FormIt lié dans Revit et utilisation du nouveau bouton _**Modifier dans FormIt**_ pour le lancer dans FormIt en vue de le modifier immédiatement.
 * Utilisation de la nouvelle _**colonne Envoyer vers Revit**_ de la palette des calques pour contrôler les calques qui sont envoyés vers Revit lorsque l’esquisse FormIt est liée dans Revit. 
 * Affichage d’un aperçu de la géométrie qui sera envoyée vers Revit avec le nouveau mode _**Prévisualiser l’envoi aux sélections Revit**_, disponible dans la partie inférieure du groupe de fonctions Calques et à côté du bouton Envoyer vers Revit.

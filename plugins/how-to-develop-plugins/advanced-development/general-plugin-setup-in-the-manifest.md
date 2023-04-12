@@ -24,7 +24,7 @@ Un fichier manifest.json présente la structure suivante. Il possède des propri
 
 Un plug-in typique inclut les propriétés JSON suivantes :
 
-* « PluginName » représente le nom du plug-in à des fins internes et la plupart des fins d’affichage, y compris pour [](../../how-to-use-plug-ins.md#plugin-manager)Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
+* « PluginName » représente le nom du plug-in à des fins internes et la plupart des fins d’affichage, y compris pour [Plugin Manager.](../../how-to-use-plug-ins.md#plugin-manager)
 * « PluginType » représente le type de plug-in, ce qui permet aux utilisateurs de savoir dans la description de [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) ce qu’ils doivent rechercher lorsqu’ils installent le plug-in.
 * « PluginDescription » est affiché dans [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) pour communiquer les fonctionnalités du plug-in.
 * « Scripts » répertorie les scripts externes requis associés au plug-in qui seront chargés dans l’application FormIt et peuvent être exécutés lorsque la fonctionnalité de plug-in est appelée.

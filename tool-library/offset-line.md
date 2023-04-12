@@ -39,7 +39,7 @@ Par nature, l’outil Décaler la ligne doit générer une géométrie sur un pl
 
 Tout d’abord, dessinez sur le côté d’un cube, par exemple, pour utiliser le plan de cette face. Une fois que trois points non colinéaires sont placés, le plan d’entrée est fixe pour le reste de l’entrée. Notez que lorsque vous dessinez sur une face, la forme obtenue est insérée dans la face, ce qui la divise en plusieurs faces. Pour empêcher l'insertion, la face sur laquelle vous dessinez doit faire partie d'un [Groupe](https://windows.help.formit.autodesk.com/tool-library/groups).
 
-![](../.gitbook/assets/walls7.png)Dessiner sur une face verticale](../.gitbook/assets/walls7.png)
+![Dessiner sur une face verticale](../.gitbook/assets/walls7.png)
 
 ![Une fois l’outil terminé, les lignes sont insérées et les faces scindées peuvent être manipulées davantage.](../.gitbook/assets/walls8.png)
 
