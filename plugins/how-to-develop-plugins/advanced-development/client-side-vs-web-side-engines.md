@@ -69,7 +69,7 @@ FormIt は複数の JavaScript エンジンを同時に実行します。
 
 ### **メソッド 2: FormIt.CallJS**
 
-*** FormIt 2022.1 以降でのみ使用可能です**
+***FormIt 2022.1 以降でのみ使用可能です**
 
 CallJS は、FormIt 側で呼び出される JavaScript 関数、および arguments.json オブジェクトを取得します。
 
@@ -117,7 +117,7 @@ const pt1 = await WSM.Geom.Point3d(0,0,0);
 
 ### メソッド 4 (RegisterAsyncAPI)
 
-*** FormIt 2023.0 以降でのみ使用可能です**
+***FormIt 2023.0 以降でのみ使用可能です**
 
 FormIt 側でユーザ定義関数を呼び出すには、関数を登録する必要があります。次に例を示します。
 
