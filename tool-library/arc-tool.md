@@ -16,7 +16,7 @@
 
 ## 用中心畫弧
 
-\![](<../.gitbook/assets/arc-by-center (1).png>)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 選擇弧的中點，然後拖曳以選擇中心點，再拖曳以定義弧的長度。只需開始鍵入值，即可輸入弧的精確度數。
 
