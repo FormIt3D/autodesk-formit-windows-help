@@ -29,10 +29,10 @@ manifest.json 文件具有以下结构。它有其他特性，具体取决于它
 * “PluginDescription”会显示在[插件管理器](../../how-to-use-plug-ins.md#plugin-manager)中，以传达插件的功能。
 * “Scripts”会列出与插件相关联的所需外部脚本，这些脚本将加载到 FormIt 应用程序中并可以在调用插件功能时执行。
 
-\![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 通过在插件文件夹中创建一个 manifest.json 文件，来开始开发插件。接下来，需要确定是创建基于工具栏的插件还是基于面板的插件。
 
-\![](<../../../.gitbook/assets/image (36).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
-**注意：**在上述 manifest.json 文件中使用 PLUGINLOCATION 是必不可少的，并且区分大小写。FormIt 会将 PLUGINLOCATION 替换为插件的服务器位置。
+**注意：** 在上述 manifest.json 文件中使用 PLUGINLOCATION 是必不可少的，并且区分大小写。FormIt 会将 PLUGINLOCATION 替换为插件的服务器位置。
