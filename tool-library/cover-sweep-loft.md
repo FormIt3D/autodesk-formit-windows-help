@@ -37,6 +37,6 @@ Diese Funktionen ermöglichen es, offene Kanten zu schließen, Geometrieänderun
 3.  Wählen Sie die Fläche oder Kanten aus, die Sie auf dem zweiten Objekt erheben möchten. Wiederholen Sie diesen Schritt für weitere Objekte.
 
     <img src="../.gitbook/assets/loft2.png" alt="" data-size="original">
-4.  Klicken Sie auf das Symbol **Fertig stellen**. \![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2) (1).png>)
+4.  Klicken Sie auf das Symbol **Fertig stellen**. ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2) (1).png>)
 
     <img src="../.gitbook/assets/loft3.png" alt="" data-size="original">
