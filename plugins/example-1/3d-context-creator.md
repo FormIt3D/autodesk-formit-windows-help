@@ -1,6 +1,6 @@
 # 3D Context Creator
 
-\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
+![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## O co se jedná?
 
@@ -18,13 +18,13 @@ Chcete-li jej nainstalovat, jednoduše zapněte přepínač doplňku v nástroj
 
 Po přepnutí by se měl modul plug-in zobrazit v pravé části aplikace a měl by být připraven k použití.
 
-\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
+![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
 Pokud váš pozemek ještě nemá umístění, můžete kliknutím na odkaz **Nastavit umístění...** nastavit umístění a definovat hranici, která bude použita pro generování 3D kontextu.
 
 Po nastavení umístění se v modulu plug-in 3D Context Creator aktualizuje aktuální umístění a tlačítko bude aktivní:
 
-\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
+![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
 3D Context Creator jednoduše použije rozsah satelitního snímku k vytvoření 3D kontextu. Stačí kliknout na položku **Generovat 3D kontext**.
 
@@ -32,9 +32,9 @@ V závislosti na rozsahu satelitního snímku a složitosti budov může genero
 
 3D kontextové budovy budou automaticky umístěny do instance skupiny a umístěny na hladinu s názvem Kontextové budovy. Pomocí této hladiny můžete přepínat viditelnost kontextu.
 
-\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
+![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
+![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
 Pokud se později rozhodnete změnit umístění nebo upravit rozsah satelitního snímku, můžete znovu kliknout na tlačítko **Generovat 3D kontext** a znovu vygenerovat budovy. 
 
@@ -44,10 +44,10 @@ _Upozorňujeme, že nově vytvořený kontext nahradí instanci skupiny obsahuj�
 
 Zkuste uhodnout, která známá města jsou zobrazena v následujících kontextech:
 
-\![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
-\![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
-\![](<../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-\![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59).png>)
