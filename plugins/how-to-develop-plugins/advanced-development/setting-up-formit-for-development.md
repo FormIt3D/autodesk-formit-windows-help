@@ -26,9 +26,9 @@ Der Skript-Editor speichert geschriebenen Code in der Datei scratch.js in dem Ve
 
 Oben befinden sich zwei Schaltflächen:
 
-**Ausführen** \![](<../../../.gitbook/assets/image (8) (1).png>): Führt den gesamten im Fenster geschriebenen Code aus.
+**Ausführen** ![](<../../../.gitbook/assets/image (8) (1).png>): Führt den gesamten im Fenster geschriebenen Code aus.
 
-**Auswahl ausführen** \![](<../../../.gitbook/assets/image (52).png>): Nur die ausgewählten/hervorgehobenen Codezeilen werden ausgeführt.
+**Auswahl ausführen** ![](<../../../.gitbook/assets/image (52).png>): Nur die ausgewählten/hervorgehobenen Codezeilen werden ausgeführt.
 
 ### **Skriptausgabe**
 
