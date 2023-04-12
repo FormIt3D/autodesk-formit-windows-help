@@ -2,7 +2,7 @@
 
 Pomocí nástroje Odsadit čáru můžete kreslit rovnoběžné neboli odsazené čáry. To je užitečné při vytváření 2D tvarů, které lze později vysunout tak, aby vypadaly jako 3D stěny.
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 Nástroj **Odsadit čáru** funguje stejně jako nástroj [**Čára**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
