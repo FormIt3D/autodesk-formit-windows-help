@@ -16,7 +16,7 @@
 
 ## 按圆心创建圆弧
 
-\![](<../.gitbook/assets/arc-by-center (1).png>)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 选择圆弧的中点、拖动以选择圆心，然后拖动以定义圆弧的长度。只需开始键入值，即可输入圆弧的精确度数。
 
