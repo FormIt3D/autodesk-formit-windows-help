@@ -28,6 +28,6 @@
 
 1. 双击以选择要切割的对象。（单击以选择组）
 2. 按住 **CTRL 键**的同时，双击要相交的重叠对象。
-3.  在要切割的对象上单击鼠标右键，然后在上下文菜单中选择**“相交”工具**。
+3.  在要切割的对象上单击鼠标右键，然后在上下文菜单中选择 **“相交”工具**。
 
     <figure><img src="../.gitbook/assets/IntersectContext.png" alt=""><figcaption></figcaption></figure>

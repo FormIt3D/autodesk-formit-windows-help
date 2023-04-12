@@ -16,10 +16,10 @@ FormIt for Windows 可直接连接到 Revit，以便在早期概念和详细设�
 
 ### 2023 版的强大链接功能 <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
 
-* 使用 Revit 的“插入”选项卡中的_**“链接 CAD”**_按钮，可将 FormIt 模型（AXM 格式）链接到 Revit。
-* 在 Revit 中选择链接的 FormIt 图元，然后使用新的_**“在 FormIt 中编辑”**_按钮以在 FormIt 中启动它以进行即时编辑。
-* 使用“图层”选项板中新的_**“发送到 Revit”列**_，以控制在 Revit 中链接 FormIt 草图时将发送到 Revit 的图层。
-* 使用新的_**“预览发送到 Revit 选择”**_模式（位于“图层”面板底部、“发送到 Revit”按钮旁边），预览将发送到 Revit 的几何图形。
+* 使用 Revit 的“插入”选项卡中的 _**“链接 CAD”**_ 按钮，可将 FormIt 模型（AXM 格式）链接到 Revit。
+* 在 Revit 中选择链接的 FormIt 图元，然后使用新的 _**“在 FormIt 中编辑”**_ 按钮以在 FormIt 中启动它以进行即时编辑。
+* 使用“图层”选项板中新的 _**“发送到 Revit”列**_，以控制在 Revit 中链接 FormIt 草图时将发送到 Revit 的图层。
+* 使用新的 _**“预览发送到 Revit 选择”**_ 模式（位于“图层”面板底部、“发送到 Revit”按钮旁边），预览将发送到 Revit 的几何图形。
 * 现在，会为 Revit 中的 FormIt 对象绘制轮廓边。
 
 ### **FormIt 2022.1 改进** <a href="#formit-20221-improvements" id="formit-20221-improvements"></a>
@@ -28,9 +28,9 @@ FormIt for Windows 可直接连接到 Revit，以便在早期概念和详细设�
 
 ### **2022 版的所有新特性** <a href="#all-new-for-2022" id="all-new-for-2022"></a>
 
-* 使用 Revit 的“体量和场地”选项卡上的新_**“三维草图”**_按钮，直接从 Revit 启动 FormIt。
-* 在 FormIt 中设计，然后使用从_“三维草图”_按钮启动的 FormIt 中的_**“发送到 Revit”**_按钮将草图发送回 Revit。
-* 使用 Revit 的“插入”选项卡中的_**“输入 CAD”**_按钮将 FormIt 模型输入到 Revit（比先前的_“将 FormIt 输入到 RVT”_按钮更可靠，速度最多快 **30 倍**）。
+* 使用 Revit 的“体量和场地”选项卡上的新 _**“三维草图”**_ 按钮，直接从 Revit 启动 FormIt。
+* 在 FormIt 中设计，然后使用从 _“三维草图”_ 按钮启动的 FormIt 中的 _**“发送到 Revit”**_ 按钮将草图发送回 Revit。
+* 使用 Revit 的“插入”选项卡中的 _**“输入 CAD”**_ 按钮将 FormIt 模型输入到 Revit（比先前的 _“将 FormIt 输入到 RVT”_ 按钮更可靠，速度最多快 **30 倍**）。
 * 无需为实现 FormIt 功能下载单独的附加模块。
 
 ### **Revit 2021.1 改进** <a href="#revit-20211-improvements" id="revit-20211-improvements"></a>
@@ -47,8 +47,8 @@ FormIt for Windows 可直接连接到 Revit，以便在早期概念和详细设�
 
 * 只需单击一次，即可将上下文几何图形从 Revit 推送到 FormIt。
 * 在 FormIt 中进行设计和建模，然后在同一任务中将设计发送回同一 Revit 项目。
-* 在 Revit 中使用_“链接 CAD”_工具参照 FormIt 模型，然后在 Revit 中继续进行可视化和详图设计。
-* 使用_“在 FormIt 中编辑”_，可从 Revit 启动 FormIt 链接。
+* 在 Revit 中使用 _“链接 CAD”_ 工具参照 FormIt 模型，然后在 Revit 中继续进行可视化和详图设计。
+* 使用 _“在 FormIt 中编辑”_，可从 Revit 启动 FormIt 链接。
 
 \![](<../.gitbook/assets/revit to formit.png>)
 
@@ -57,32 +57,32 @@ FormIt for Windows 可直接连接到 Revit，以便在早期概念和详细设�
 ### **建议的工作流**
 
 * 使用剖面框定义 Revit 模型的内部部分，然后单击_**“三维草图”**_按钮以打开 FormIt 并浏览内部布局或定制设计功能。只需单击一下，即可将新设计发送到 Revit。
-* 从已在 Revit 中建模的城市上下文开始，然后单击_**“三维草图”**_按钮，以将周围的上下文作为可捕捉的参照输入到 FormIt。只需单击一下，即可将新设计发送到 Revit。
-* 打开现有 Revit 建筑模型，然后使用_**“三维草图”**_按钮启动 FormIt。对几个设计进行建模以添加新的附加设计，从而将每个设计都放置在不同的 FormIt 图层上。
-* 在 Revit 中选择 FormIt 对象，然后使用_**“在 FormIt 中编辑”**_按钮以在 FormIt 中启动模型。
+* 从已在 Revit 中建模的城市上下文开始，然后单击 _**“三维草图”**_ 按钮，以将周围的上下文作为可捕捉的参照输入到 FormIt。只需单击一下，即可将新设计发送到 Revit。
+* 打开现有 Revit 建筑模型，然后使用 _**“三维草图”**_ 按钮启动 FormIt。对几个设计进行建模以添加新的附加设计，从而将每个设计都放置在不同的 FormIt 图层上。
+* 在 Revit 中选择 FormIt 对象，然后使用 _**“在 FormIt 中编辑”**_ 按钮以在 FormIt 中启动模型。
 
 ![](../.gitbook/assets/edit-in-formit.png)
 
 ![选择 FormIt 对象后使用“在 FormIt 中编辑”](../.gitbook/assets/revit-edit-in-formit-workflow.gif)
 
-* 使用_**“Revit 预览”模式**_，以预览将发送到 Revit 的几何图形，来确保共享的是用于详图开发的正确设计。
-* 从设计中选择所需图元，然后使用_**“发送到 Revit”**_按钮或保存链接模型来将每个设计发送到 Revit。
+* 使用 _**“Revit 预览”模式**_，以预览将发送到 Revit 的几何图形，来确保共享的是用于详图开发的正确设计。
+* 从设计中选择所需图元，然后使用 _**“发送到 Revit”**_ 按钮或保存链接模型来将每个设计发送到 Revit。
 
 ### **使用工具**
 
-* _**“三维草图”**_按钮、_**“在 FormIt 中编辑”**_按钮和_**“发送到 Revit”**_工作流适用于 Autodesk 工程建设 (AEC) 软件集的订购客户以及具有特定访问类型的客户。它不能通过 Revit LT 使用。[在此处了解有关工程建设软件集的详细信息。](https://www.autodesk.com/collections/architecture-engineering-construction/overview)
+* _**“三维草图”**_ 按钮、_**“在 FormIt 中编辑”**_ 按钮和 _**“发送到 Revit”**_ 工作流适用于 Autodesk 工程建设 (AEC) 软件集的订购客户以及具有特定访问类型的客户。它不能通过 Revit LT 使用。[在此处了解有关工程建设软件集的详细信息。](https://www.autodesk.com/collections/architecture-engineering-construction/overview)
 
 ### “三维草图”按钮
 
 ![使用“三维草图”启动新实例，然后使用“发送到 FormIt”保存并创建 Revit 链接](../.gitbook/assets/revit-3d-sketch-send-to-revit.png)
 
-* 启动 Revit 2022.0 或更高版本时，“体量和场地”选项卡上会有一个新按钮，名为**“三维草图”**。该按钮仅在三维视图中可用；它在 Revit 的二维视图中将显示为处于禁用状态。
-* 确保您已使用 Autodesk 凭据登录到 Revit。启动_**“三维草图”**_按钮时，可能会提示您重新登录到 Autodesk 帐户。这是为了检查您是否有正确的权利。
+* 启动 Revit 2022.0 或更高版本时，“体量和场地”选项卡上会有一个新按钮，名为 **“三维草图”**。该按钮仅在三维视图中可用；它在 Revit 的二维视图中将显示为处于禁用状态。
+* 确保您已使用 Autodesk 凭据登录到 Revit。启动_**“三维草图”**_ 按钮时，可能会提示您重新登录到 Autodesk 帐户。这是为了检查您是否有正确的权利。
 * 如果未安装 FormIt 2022.0 或更高版本（或已安装 2022.0 之前的 FormIt 版本），则 FormIt 不会启动，并且系统将提示您下载正确版本的 FormIt。
 
 #### 三维草图“打开 FormIt”对话框
 
-* 单击_**“三维草图”**_按钮以启动 FormIt。选择是将所有可见对象还是仅将选定对象输入到 FormIt。
+* 单击 _**“三维草图”**_ 按钮以启动 FormIt。选择是将所有可见对象还是仅将选定对象输入到 FormIt。
   * 如果 Revit 模型很大且设计将仅参照 Revit 模型的一部分，则选择仅输入选定对象会很有帮助。
   * 此外，使用 Revit 中的剖面框隔离 Revit 模型的内部区域以输入到 FormIt。
 
@@ -101,17 +101,17 @@ FormIt for Windows 可直接连接到 Revit，以便在早期概念和详细设�
 
 ### 发送到 Revit 工作流
 
-* 使用“图层”选项板中的_**“发送到 Revit”列**_，以包含或排除要发送到 Revit 的几何图形。
+* 使用“图层”选项板中的 _**“发送到 Revit”列**_，以包含或排除要发送到 Revit 的几何图形。
 
 ![“图层”选项板中的“发送到 Revit”列](../.gitbook/assets/revit-send-to-formit-layers-column.png)
 
-* 使用_**“Revit 预览”模式**_，可以选择预览要发送到 Revit 的几何图形。使用“图层”选项板底部或“发送到 Revit”按钮旁边的复选框，激活“Revit 预览”模式。
+* 使用 _**“Revit 预览”模式**_，可以选择预览要发送到 Revit 的几何图形。使用“图层”选项板底部或“发送到 Revit”按钮旁边的复选框，激活“Revit 预览”模式。
 
 ![Revit 预览模式](../.gitbook/assets/revit-preview-mode.png)
 
-* 使用 FormIt 工具栏上的_**“发送到 Revit”**_按钮，将 FormIt 几何图形传输到 Revit。
+* 使用 FormIt 工具栏上的 _**“发送到 Revit”**_ 按钮，将 FormIt 几何图形传输到 Revit。
   * 这将提示您保存文件，该文件会将模型链接到 Revit。
-    * **注意：**建议您将文件保存在本地，因为保存到 Autodesk Docs 会断开 FormIt 和 Revit 之间的连接。改为使用 [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/ENU/)，以将模型共享到云。
+    * **注意：** 建议您将文件保存在本地，因为保存到 Autodesk Docs 会断开 FormIt 和 Revit 之间的连接。改为使用 [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/ENU/)，以将模型共享到云。
   * 创建链接后，只要想将更改传输到 Revit，就可以重新保存模型或单击“发送到 Revit”按钮。
 
 \![](<../.gitbook/assets/send-to-revit (2).png>)
@@ -123,8 +123,8 @@ FormIt for Windows 可直接连接到 Revit，以便在早期概念和详细设�
 
 ### “在 FormIt 中编辑”按钮
 
-* 在 Revit 中链接 FormIt 模型后，或在使用_**“三维草图”**_创建新的 FormIt 模型并保存模型后，FormIt 图元会保存到 Revit 中，并可以稍后再次进行编辑。
-* 在 Revit 中选择 FormIt 图元，然后单击“修改”选项卡中的_**“在 FormIt 中编辑”**_按钮以在 FormIt 中启动模型。
+* 在 Revit 中链接 FormIt 模型后，或在使用 _**“三维草图”**_ 创建新的 FormIt 模型并保存模型后，FormIt 图元会保存到 Revit 中，并可以稍后再次进行编辑。
+* 在 Revit 中选择 FormIt 图元，然后单击“修改”选项卡中的 _**“在 FormIt 中编辑”**_ 按钮以在 FormIt 中启动模型。
 
 \![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
 
@@ -146,7 +146,7 @@ FormIt for Windows 可直接连接到 Revit，以便在早期概念和详细设�
 
 #### **使用工具**
 
-* 指定要输入到当前 Revit 项目中的 FormIt 文件。打开 Revit 的_**“输入 CAD”**_工具。从可用文件类型列表中选择“.AXM”。浏览到“.AXM”文件并单击_“打开”_。
+* 指定要输入到当前 Revit 项目中的 FormIt 文件。打开 Revit 的 _**“输入 CAD”**_ 工具。从可用文件类型列表中选择“.AXM”。浏览到“.AXM”文件并单击 _“打开”_。
 * FormIt 材质会传输到 Revit，并显示在 Revit 的材质对话框中。过滤 FormIt 材质列表。
   * 在 FormIt 中缩放或旋转的材质会在 Revit 中保持正确的缩放和旋转。
 * 标高从 FormIt 传输到 Revit。
@@ -171,7 +171,7 @@ FormIt for Windows 可直接连接到 Revit，以便在早期概念和详细设�
 
 #### **转换 Revit 族** <a href="#converting-revit-families" id="converting-revit-families"></a>
 
-* Revit 族会使用 Revit“附加模块”选项卡上的_**“将 RFA 转换为 FormIt”**_按钮转换为 FormIt 内容，从而可以在 FormIt 上下文中高效地重复使用现有 Revit 内容。
+* Revit 族会使用 Revit“附加模块”选项卡上的 _**“将 RFA 转换为 FormIt”**_ 按钮转换为 FormIt 内容，从而可以在 FormIt 上下文中高效地重复使用现有 Revit 内容。
 * 指定将转换为 FormIt 文件并输出到所选文件夹的 RFA 文件的文件夹。
 * 这是重复使用所有已有 Revit 内容的最佳方式。只需将内容转换为 FormIt，并将 FormIt 的内容库指向包含已转换文件的文件夹。然后，在“内容库”选项板中，单击缩略图预览并将其放置在模型中。
 
@@ -181,7 +181,7 @@ FormIt for Windows 可直接连接到 Revit，以便在早期概念和详细设�
 
 * 使用 FormIt for Windows 打开或输入 SketchUp 内容
 * （可选）使用[内置诊断和修复工具修复几何图形](https://formit.autodesk.com/blog/post/using-formit-to-get-sketchup-data-into-revit)，使其更适合下游操作
-* 保存 FormIt 文件，然后使用上面所述的**“输入 CAD”**或**“发送到 Revit”**工作流输入它
+* 保存 FormIt 文件，然后使用上面所述的 **“输入 CAD”** 或 **“发送到 Revit”** 工作流输入它
 
 ## 从 FormIt 转换器附加模块转换 <a href="#revit-the-add-in" id="revit-the-add-in"></a>
 
@@ -191,7 +191,7 @@ FormIt + Revit 2022 及更高版本会提供内置的 Synergy，无需额外下�
 
 ### **输入 AXM 文件的新方法** <a href="#a-new-way-to-import-axm-files" id="a-new-way-to-import-axm-files"></a>
 
-替换附加模块中的_“输入 FormIt 到 RVT”_按钮后，可通过 Revit“插入”选项卡中的“输入 CAD”工具来输入 FormIt (.AXM) 文件。
+替换附加模块中的 _“输入 FormIt 到 RVT”_ 按钮后，可通过 Revit“插入”选项卡中的“输入 CAD”工具来输入 FormIt (.AXM) 文件。
 
 除了速度提高 **30 倍**之外，您还会发现此工作流通常也**更可靠**。除此之外，某些行为已发生变化：
 
@@ -217,9 +217,9 @@ FormIt + Revit 2022 及更高版本会提供内置的 Synergy，无需额外下�
 
 ### **对 Revit 族的更改** <a href="#changes-to-revit-families" id="changes-to-revit-families"></a>
 
-通过使用 Revit“附加模块”选项卡上的_“转换 RFA 为 FormIt”_按钮，可在 FormIt 中继续使用 Revit 族内容；此工作流没有发生任何变化。
+通过使用 Revit“附加模块”选项卡上的 _“转换 RFA 为 FormIt”_ 按钮，可在 FormIt 中继续使用 Revit 族内容；此工作流没有发生任何变化。
 
-_“重新载入族”_按钮已被删除，因为我们致力于提供更好的体验。
+_“重新载入族”_ 按钮已被删除，因为我们致力于提供更好的体验。
 
 ![](../.gitbook/assets/revit-families-old-new.png)
 
