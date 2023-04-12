@@ -24,4 +24,4 @@ Klicken Sie auf das Häkchen, um den Befehl zu beenden. Das entfernte Objekt ble
 
 1. Doppelklicken Sie, um das Objekt auszuwählen, in das geschnitten werden soll. (Einzelklick für eine Gruppe)
 2. Halten Sie die **STRG-Taste** gedrückt, und doppelklicken Sie auf ein überlappendes Objekt, das Sie ausschneiden möchten.
-3. Klicken Sie mit der rechten Maustaste auf das zu schneidende Objekt, und wählen Sie im Kontextmenü das [**Werkzeug Ausschneiden**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md). \![](<../.gitbook/assets/cut tool.png>)
+3. Klicken Sie mit der rechten Maustaste auf das zu schneidende Objekt, und wählen Sie im Kontextmenü das [**Werkzeug Ausschneiden**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md). ![](<../.gitbook/assets/cut tool.png>)
