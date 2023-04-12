@@ -16,7 +16,7 @@ Nachdem Sie den Bogen gezeichnet haben, können Sie mithilfe des [Werkzeugs Lini
 
 ## Bogen durch Mittelpunkt
 
-\![](<../.gitbook/assets/arc-by-center (1).png>)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Wählen Sie den Mittelpunkt des Bogens, ziehen Sie dann den Cursor, um die Mitte zu wählen, und ziehen Sie ihn erneut, um die Länge des Bogens zu definieren. Geben Sie einfach einen Wert ein, um eine genaue Gradzahl für den Bogen einzugeben.
 
