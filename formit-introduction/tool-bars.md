@@ -14,7 +14,7 @@
 
 ### 几何图形
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**选择**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object)和区域选择过滤器
 2. [**测量**](../tool-library/measure-tool.md)距离和[**测量角度**](../tool-library/measure-angle-tool.md)工具
@@ -28,11 +28,11 @@
 
 ![](../.gitbook/assets/settings\_icons.png)
 
-1. **“设置”**菜单，用于 UI 和应用程序设置。
+1. **“设置”** 菜单，用于 UI 和应用程序设置。
 2. **触摸模式**，用于在触摸屏设备上启用交互。
 3. [**协作**](../tool-library/collaboration.md)，用于管理与多个用户的协作任务。
 4. **Autodesk Account 登录。**
-5. **“信息”**菜单，用于显示帮助和链接。
+5. **“信息”** 菜单，用于显示帮助和链接。
 
 ### 设计
 
@@ -44,7 +44,7 @@
 
 ## 选项板
 
-\![](<../.gitbook/assets/properties (1).png>) [**特性**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**特性**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**图层**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@
 
 在“编辑”>“首选项”>“快捷键”中，自定义 FormIt [**键盘快捷键**](../appendix/keyboard-shortcuts.md)。
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
