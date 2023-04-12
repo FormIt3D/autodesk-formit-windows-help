@@ -16,7 +16,7 @@ Po nakreslení oblouku můžete vytvořit plochu pomocí [nástroje Čára](line
 
 ## Oblouk pomocí středu
 
-\![](<../.gitbook/assets/arc-by-center (1).png>)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Vyberte středový bod oblouku, poté tažením vyberte střed a tažením definujte délku oblouku. Chcete-li definovat přesný počet stupňů oblouku, jednoduše zadejte požadovanou hodnotu.
 
