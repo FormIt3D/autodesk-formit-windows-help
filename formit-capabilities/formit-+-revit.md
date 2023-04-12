@@ -1,6 +1,6 @@
 # FormIt a Revit
 
-\![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
+![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
 
 ## Jednoduchost aplikace FormIt se snoubí s výkonem aplikace Revit <a href="#revit-intro" id="revit-intro"></a>
 
@@ -50,7 +50,7 @@ Pokud pracujete na počáteční fázi i na detailním návrhu, můžete rychle
 * Pomocí nástroje _Připojit CAD_ vytvořte v aplikaci Revit referenci na model aplikace FormIt a pokračujte ve vizualizaci a tvorbě detailů v aplikaci Revit.
 * Pomocí tlačítka _Upravit v aplikaci FormIt_ spusťte připojení aplikace FormIt z aplikace Revit.
 
-\![](<../.gitbook/assets/revit to formit.png>)
+![](<../.gitbook/assets/revit to formit.png>)
 
 ### **Iterace návrhu pomocí nástrojů 3D náčrt, Upravit v aplikaci FormIt a Odeslat do aplikace Revit** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 
@@ -114,7 +114,7 @@ Pokud pracujete na počáteční fázi i na detailním návrhu, můžete rychle
     * **Poznámka:** Doporučujeme soubor uložit místně, protože uložením ve službě Autodesk Docs dojde k přerušení připojení mezi aplikacemi FormIt a Revit. Ke sdílení modelů do cloudu použijte aplikaci [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/ENU/).
   * Po vytvoření připojení můžete kdykoliv přenést změny do aplikace Revit novým uložení modelu nebo kliknutím na tlačítko Odeslat do aplikace Revit.
 
-\![](<../.gitbook/assets/send-to-revit (2).png>)
+![](<../.gitbook/assets/send-to-revit (2).png>)
 
 * Společně s geometrií budou do aplikace Revit přeneseny hladiny a materiály aplikace FormIt.
   * Materiály aplikace FormIt si můžete zobrazit v dialogu Materiály v aplikaci Revit filtrováním seznamu podle položky „FormIt“.
@@ -126,7 +126,7 @@ Pokud pracujete na počáteční fázi i na detailním návrhu, můžete rychle
 * Po připojení modelu aplikace FormIt v aplikaci Revit nebo po vytvoření nového modelu aplikace FormIt pomocí nástroje _**3D náčrt**_ a uložení modelu se prvek aplikace FormIt uloží do aplikace Revit a lze jej později znovu upravit.
 * Vyberte prvek aplikace FormIt v aplikaci Revit a poté kliknutím na tlačítko _**Upravit v aplikaci FormIt**_ na kartě Upravit spusťte model v aplikaci FormIt.
 
-\![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
+![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
 
 * [Výukový program k pracovním postupům aplikací FormIt a Revit](../formit-primer/part-ii/2.8-advanced-revit-workflows.md) naleznete v příručce k aplikaci FormIt.
 
@@ -138,7 +138,7 @@ Pokud pracujete na počáteční fázi i na detailním návrhu, můžete rychle
 * Model FormIt můžete importovat přímo do varianty návrhu aplikace Revit za účelem dalšího zkoumání a porovnávání návrhů. Do aplikace Revit jsou importovány hladiny aplikace FormIt a uživatel aplikace Revit může určit, které hladiny aplikace FormIt budou viditelné ve které variantě návrhu aplikace Revit.
 * Importujte model aplikace FormIt do rodiny objemových kategorií (poté jej načtěte do projektu aplikace Revit), abyste mohli využít nástroje Podlaží, Podlaží objemu a Podle plochy a použít systémové rodiny aplikace Revit na geometrii aplikace FormIt.
 
-\![Import CAD do aplikace Revit](<../.gitbook/assets/revit-workflows (2).png>)
+![Import CAD do aplikace Revit](<../.gitbook/assets/revit-workflows (2).png>)
 
 * Připojte existující model aplikace FormIt do aplikace Revit a posílejte změny tam a zpět, aktualizujte geometrii a vzhled materiálu při opakovaném načtení a pomocí hladin aplikace FormIt řiďte viditelnost geometrie.
 
