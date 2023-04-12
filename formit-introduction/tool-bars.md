@@ -14,7 +14,7 @@
 
 ### 幾何圖形
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**選取**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object)和區域選取篩選
 2. [**測量**](../tool-library/measure-tool.md)距離和[**測量角度**](../tool-library/measure-angle-tool.md)工具
@@ -44,7 +44,7 @@
 
 ## 選項板
 
-\![](<../.gitbook/assets/properties (1).png>) [**性質**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**性質**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**圖層**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@
 
 在「編輯」>「偏好」>「快速鍵」中自訂 FormIt [**鍵盤快速鍵**](../appendix/keyboard-shortcuts.md)。
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
