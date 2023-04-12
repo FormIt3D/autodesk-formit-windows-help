@@ -8,7 +8,7 @@
 
 「檢視」>「終端機」(或快速鍵 Ctrl + \`)
 
-\![](<../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### 設定 HTTP 伺服器
 
@@ -22,7 +22,7 @@
 
 * `npm install http-server -g`
 
-\![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (47).png>)
 
 ### 啟動本端伺服器
 
@@ -30,7 +30,7 @@
 
 * `http-server`
 
-\![](<../../../.gitbook/assets/image (84).png>)
+![](<../../../.gitbook/assets/image (84).png>)
 
 秘訣 1：如果執行 http-server (全域安裝或本端安裝) 時發生任何問題，直接透過 npx 執行它可能會有幫助：
 
@@ -47,7 +47,7 @@
 
 * `http-server --cors`
 
-\![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### 確認您的伺服器
 
@@ -59,4 +59,4 @@
 
 **如果您使用的網頁伺服器不是 npm，則預設地址/連接埠可能不同。
 
-\![](<../../../.gitbook/assets/image (41).png>)
+![](<../../../.gitbook/assets/image (41).png>)
