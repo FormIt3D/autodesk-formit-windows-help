@@ -124,7 +124,7 @@ Pokud pracujete na počáteční fázi i na detailním návrhu, můžete rychle
 ### Tlačítko Upravit v aplikaci FormIt
 
 * Po připojení modelu aplikace FormIt v aplikaci Revit nebo po vytvoření nového modelu aplikace FormIt pomocí nástroje _**3D náčrt**_ a uložení modelu se prvek aplikace FormIt uloží do aplikace Revit a lze jej později znovu upravit.
-* Vyberte prvek aplikace FormIt v aplikaci Revit a poté kliknutím na tlačítko _**Upravit v aplikaci FormIt**_na kartě Upravit spusťte model v aplikaci FormIt.
+* Vyberte prvek aplikace FormIt v aplikaci Revit a poté kliknutím na tlačítko _**Upravit v aplikaci FormIt**_ na kartě Upravit spusťte model v aplikaci FormIt.
 
 \![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
 
