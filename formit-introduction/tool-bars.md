@@ -14,7 +14,7 @@ Der Standardwerkzeugkasten ist vorgabemäßig aktiviert, ist jedoch in die folge
 
 ### Geometrie
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**Auswahl**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object)\- und Bereichsauswahlfilter
 2. Werkzeuge [**Abstand messen**](../tool-library/measure-tool.md) und [**Winkel messen**](../tool-library/measure-angle-tool.md)
@@ -44,7 +44,7 @@ Der Standardwerkzeugkasten ist vorgabemäßig aktiviert, ist jedoch in die folge
 
 ## Paletten
 
-\![](<../.gitbook/assets/properties (1).png>) [**Eigenschaften**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**Eigenschaften**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Layer**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@ Klicken Sie mit der rechten Maustaste auf ein Element im 3D-Ansichtsbereich, um 
 
 Passen Sie Ihre FormIt-[**Tastaturkurzbefehle**](../appendix/keyboard-shortcuts.md) unter Bearbeiten > Voreinstellungen > Tastaturkürzel an.
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
