@@ -1,6 +1,6 @@
 # FormIt + Revit
 
-\![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
+![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
 
 ## FormIt 的易用性符合 Revit 的強大功能 <a href="#revit-intro" id="revit-intro"></a>
 
@@ -50,7 +50,7 @@ FormIt for Windows 直接連接至 Revit，方便在早期概念與詳細設計�
 * 在 Revit 中使用 _「連結 CAD」_ 工具參考 FormIt 模型，並繼續在 Revit 中進行視覺化和詳圖製作。
 * 從 Revit 使用 _「以 FormIt 編輯」_ 啟動 FormIt 連結。
 
-\![](<../.gitbook/assets/revit to formit.png>)
+![](<../.gitbook/assets/revit to formit.png>)
 
 ### **3D 草圖、以 FormIt 編輯，以及傳送至 Revit 以進行設計重複過程** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 
@@ -114,7 +114,7 @@ FormIt for Windows 直接連接至 Revit，方便在早期概念與詳細設計�
     * **注意:** 我們建議將檔案儲存在本機，因為儲存至 Autodesk Docs 會中斷 FormIt 與 Revit 之間的連接。請改用 [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/ENU/) 將模型共用至雲端。
   * 建立連結後，只要想將變更轉移到 Revit，您可以重新儲存模型，或按一下「傳送至 Revit」按鈕。
 
-\![](<../.gitbook/assets/send-to-revit (2).png>)
+![](<../.gitbook/assets/send-to-revit (2).png>)
 
 * FormIt 圖層和材料將隨幾何圖形一起轉移到 Revit。
   * 您可以在 Revit 的「材料」對話方塊中依「FormIt」篩選清單，檢視 FormIt 材料。
@@ -126,7 +126,7 @@ FormIt for Windows 直接連接至 Revit，方便在早期概念與詳細設計�
 * 在 Revit 中連結 FormIt 模型後，或使用 _**「3D 草圖」**_ 建立新的 FormIt 模型並儲存模型後，FormIt 元素會儲存至 Revit，稍後可再次編輯。
 * 在 Revit 中選取 FormIt 元素，然後按一下「修改」頁籤中的 _**「以 FormIt 編輯」**_ 按鈕，在 FormIt 中啟動模型。
 
-\![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
+![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
 
 * 請參閱 FormIt 入門手冊，以取得 [FormIt-Revit 工作流程自學課程](../formit-primer/part-ii/2.8-advanced-revit-workflows.md)。
 
@@ -138,7 +138,7 @@ FormIt for Windows 直接連接至 Revit，方便在早期概念與詳細設計�
 * 將 FormIt 模型直接匯入 Revit 設計選項，進一步探索和比較設計。由於 FormIt 圖層是透過匯入工作流程進入 Revit，因此 Revit 使用者可以控制哪些 FormIt 圖層在 Revit 設計選項中可見。
 * 將 FormIt 模型匯入量體品類族群 (然後將其載入 Revit 專案)，以利用「樓層」、「量體樓板」和「依面」等工具，並對 FormIt 幾何圖形套用 Revit 系統族群。
 
-\![在 Revit 中匯入 CAD](<../.gitbook/assets/revit-workflows (2).png>)
+![在 Revit 中匯入 CAD](<../.gitbook/assets/revit-workflows (2).png>)
 
 * 將既有的 FormIt 模型連結至 Revit 以來回傳送變更、在重新載入期間更新幾何圖形和材料外觀，以及使用 FormIt 圖層控制幾何圖形的可見性。
 
