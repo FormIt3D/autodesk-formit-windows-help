@@ -124,7 +124,7 @@ Si trabaja tanto en las primeras fases como en el diseño detallado, puede repet
 ### El botón Editar en FormIt
 
 * Después de vincular un modelo de FormIt en Revit o de crear un nuevo modelo de FormIt con _**Boceto 3D**_ y guardar el modelo, el elemento de FormIt se guarda en Revit y se puede volver a editar más adelante.
-* Seleccione un elemento de FormIt en Revit y, a continuación, haga clic en el botón _**Editar en FormIt** _ de la ficha Modificar para iniciar el modelo en FormIt.
+* Seleccione un elemento de FormIt en Revit y, a continuación, haga clic en el botón _**Editar en FormIt**_ de la ficha Modificar para iniciar el modelo en FormIt.
 
 \![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
 

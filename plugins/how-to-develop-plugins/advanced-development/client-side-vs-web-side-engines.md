@@ -69,7 +69,7 @@ Especificado mediante [index.html](https://github.com/FormIt3D/FormItExamplePlug
 
 ### **Método 2: FormIt.CallJS**
 
-*** Disponible solo en FormIt 2022.1 y versiones posteriores**
+***Disponible solo en FormIt 2022.1 y versiones posteriores**
 
 CallJS utiliza la función de JavaScript a la que se va a llamar en el lado de FormIt y el objeto arguments.json.
 
@@ -117,7 +117,7 @@ Solo se puede llamar por defecto a las API de FormIt integradas.
 
 ### Método 4 (RegisterAsyncAPI)
 
-*** Disponible solo en FormIt 2023.0 y versiones posteriores**
+***Disponible solo en FormIt 2023.0 y versiones posteriores**
 
 Para llamar a una función definida por el usuario en FormIt, la función debe estar registrada. Por ejemplo:
 
