@@ -4,7 +4,7 @@
 
 ### **顯示腳本編輯器和腳本輸出**
 
-在 FormIt 的頂端功能表中，移至頂端功能表的**「視窗」**，勾選**「腳本編輯器」**和**「腳本輸出」**方塊。
+在 FormIt 的頂端功能表中，移至頂端功能表的 **「視窗」**，勾選 **「腳本編輯器」** 和 **「腳本輸出」** 方塊。
 
 ![](https://formit3d.github.io/FormItExamplePlugins/docs/images/EnableDevelopmentWindows.PNG)
 

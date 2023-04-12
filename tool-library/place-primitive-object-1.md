@@ -1,6 +1,6 @@
 # 放置頂點
 
-1.  在[動作工具列](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md)中，按一下以開啟**「草圖」按鈕**，並[選取](select-edge-face-or-object.md)頂點。
+1.  在[動作工具列](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/tool-bars-extended.md)中，按一下以開啟 **「草圖」按鈕**，並[選取](select-edge-face-or-object.md)頂點。
 
     <figure><img src="../.gitbook/assets/VertexToolbar.png" alt=""><figcaption></figcaption></figure>
 2. **按一下以放置**頂點。

@@ -28,6 +28,6 @@
 
 1. 按兩下以選取要被切割的物件。(如果是群組則按一下)
 2. 按住 **Ctrl 鍵**並按兩下要相交的重疊物件。
-3.  在要被切割的物件上按一下右鍵，然後在關聯式功能表中選擇**「相交」工具**。
+3.  在要被切割的物件上按一下右鍵，然後在關聯式功能表中選擇 **「相交」工具**。
 
     <figure><img src="../.gitbook/assets/IntersectContext.png" alt=""><figcaption></figcaption></figure>

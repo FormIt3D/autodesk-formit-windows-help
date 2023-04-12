@@ -20,13 +20,13 @@
 
 \![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
-如果您的敷地還沒有位置，您可以按一下**「Set Location...」**連結來設定位置，並定義將用來產生 3D 環境的邊界。
+如果您的敷地還沒有位置，您可以按一下 **「Set Location...」** 連結來設定位置，並定義將用來產生 3D 環境的邊界。
 
 設定好位置後，3D Context Creator 將使用目前位置更新，且按鈕將啟用：
 
 \![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
-3D Context Creator 只會單純使用衛星影像的範圍來產生 3D 環境。您只需按一下**「Generate 3D Context」**!
+3D Context Creator 只會單純使用衛星影像的範圍來產生 3D 環境。您只需按一下 **「Generate 3D Context」**!
 
 根據衛星影像的範圍和建築的複雜性，這可能需要幾秒鐘的時間才能產生。
 
@@ -36,7 +36,7 @@
 
 \![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
-如果您稍後決定變更位置或調整衛星影像的範圍，可以再按一下**「Generate 3D Context」**重新產生建築。
+如果您稍後決定變更位置或調整衛星影像的範圍，可以再按一下 **「Generate 3D Context」** 重新產生建築。
 
 _請注意，重新產生環境將以新的群組實體取代包含建築的群組實體，因此對建築所做的任何變更都將遺失。_若要避免發生這個狀況，您可以解除環境容器的群組，然後重新群組。
 
