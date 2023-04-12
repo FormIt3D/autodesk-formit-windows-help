@@ -29,10 +29,10 @@ Typický modul plug-in obsahuje tyto vlastnosti JSON:
 * „PluginDescription“ se zobrazuje v okně nástroje [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) a informuje o možnostech modulu plug-in.
 * „Scripts“ uvádí požadované externí skripty přidružené k modulu plug-in, které budou načteny do aplikace FormIt a mohou být spuštěny při vyvolání funkce modulu plug-in.
 
-\![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 Vývoj modulu plug-in začněte vytvořením souboru manifest.json ve složce modulu plug-in. Dále se musíte rozhodnout, zda vytváříte modul plug-in panelu nástrojů nebo panelu.
 
-\![](<../../../.gitbook/assets/image (36).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
 **Poznámka:** Použití parametru PLUGINLOCATION ve výše uvedeném souboru manifest.json je nezbytné a jsou rozlišována malá a velká písmena. Aplikace FormIt nahradí parametr PLUGINLOCATION umístěním serveru pro modul plug-in.
