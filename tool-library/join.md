@@ -12,11 +12,11 @@
 
 按一下以選取要接合的物件。
 
-\![](<../.gitbook/assets/cut_mode01 (1).png>)
+![](<../.gitbook/assets/cut_mode01 (1).png>)
 
 按一下以選取要被接合的物件或群組。
 
-\![](<../.gitbook/assets/cut_mode02 (1).png>)
+![](<../.gitbook/assets/cut_mode02 (1).png>)
 
 按一下勾號以完成指令。
 
@@ -26,4 +26,4 @@
 2. 按住 **Ctrl 鍵**，按兩下要與第一個物件接合的重疊物件。
 3. 在任何物件上按一下右鍵，然後在關聯式功能表中選擇「接合工具」。
 
-\![](<../.gitbook/assets/join tool.png>)
+![](<../.gitbook/assets/join tool.png>)
