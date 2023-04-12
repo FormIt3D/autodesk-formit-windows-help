@@ -2,7 +2,7 @@
 
 使用“偏移线”工具绘制平行线或偏移线。这对于创建二维形状非常有用，稍后可以拉伸该形状以使其看起来像三维墙。
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 **“偏移线”** 工具的工作方式与[**“线”**](https://windows.help.formit.autodesk.com/tool-library/line-tool)工具类似：
 
