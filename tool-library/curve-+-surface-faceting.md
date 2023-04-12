@@ -18,9 +18,9 @@ FormIt 預設使用 40 條邊 (或刻面) 來表示一個圓，使用 24 個刻�
 
 對於既有曲線，您也可以使用 Rebuild Curve 外掛程式，使用新刻面計數以追溯方式重新建置**既有的**弧或圓：
 
-\![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-\![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
+![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
 
 **曲面刻面品質**
 
@@ -30,10 +30,10 @@ FormIt 預設使用 40 條邊 (或刻面) 來表示一個圓，使用 24 個刻�
 
 使用 Dynamo 時，您可以修改刻面品質，並在「性質」面板中按一下「執行圖表」，而不變更任何參數，以利用新的刻面計數：
 
-\![](<../.gitbook/assets/faceting_column (1).gif>)
+![](<../.gitbook/assets/faceting_column (1).gif>)
 
 和曲線一樣，您可以為新草圖或只為目前的草圖設定曲面刻面品質。
 
 請注意，刻面值目前限制為 4 的倍數，因此當手動輸入數字時，FormIt 會捨入為最接近的倍數。您可以使用滑棒和箭頭來循環檢視接受的值。
 
-\![](<../.gitbook/assets/units-+-precision (1).png>)
+![](<../.gitbook/assets/units-+-precision (1).png>)
