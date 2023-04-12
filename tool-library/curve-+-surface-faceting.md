@@ -18,9 +18,9 @@ Tato hodnota ovlivní také kvalitu kružnic a oblouků importovaných ze soubor
 
 U existujících oblouků můžete také použít modul plug-in Rebuild Curve k retroaktivnímu novému vytvoření **existujícího** oblouku nebo kružnice s novým počtem plošek:
 
-\![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-\![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
+![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
 
 **Kvalita tvorby plošek povrchu**
 
@@ -30,10 +30,10 @@ Pokud například nastavíte hodnotu na 64 a poté z aplikace Dynamo zapečete 
 
 Při práci s aplikací Dynamo můžete upravit kvalitu tvorby plošek a kliknout na tlačítko „Run Graph“ na panelu vlastností, aniž byste měnili jakékoli parametry, což vám umožní snadno využít nové počty plošek:
 
-\![](<../.gitbook/assets/faceting_column (1).gif>)
+![](<../.gitbook/assets/faceting_column (1).gif>)
 
 Stejně jako u křivek můžete nastavit kvalitu plošek povrchu pro nové náčrty nebo pouze pro aktuální náčrt.
 
 Hodnoty plošek jsou v současné době omezeny na násobky 4, takže při ručním zadávání čísel bude aplikace FormIt zaokrouhlovat na nejbližší násobek. Přijatelné hodnoty můžete procházet pomocí posuvníků a šipek.
 
-\![](<../.gitbook/assets/units-+-precision (1).png>)
+![](<../.gitbook/assets/units-+-precision (1).png>)
