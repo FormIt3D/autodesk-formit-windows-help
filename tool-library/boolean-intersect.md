@@ -10,7 +10,7 @@ Klávesnice: I G
 
 Spusťte příkaz Průnik a postupujte podle pokynů v levé horní části obrazovky.
 
-Kliknutím vyberte objekt, který chcete oříznout:\\
+Kliknutím vyberte objekt, který chcete oříznout:
 
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
@@ -19,7 +19,7 @@ Kliknutím vyberte objekty nebo skupiny, se kterými chcete provést průnik:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Kliknutím na značku zaškrtnutí dokončete příkaz. První objekt bude nahrazen průsečíkem vybrané geometrie. Pokud objekt nepotřebujete, můžete jej odstranit.\\
+Kliknutím na značku zaškrtnutí dokončete příkaz. První objekt bude nahrazen průsečíkem vybrané geometrie. Pokud objekt nepotřebujete, můžete jej odstranit.
 
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
