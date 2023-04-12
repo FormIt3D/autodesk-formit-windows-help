@@ -2,7 +2,7 @@
 
 使用「偏移線」工具繪製平行 (或稱偏移) 線。這有助於建立 2D 造型，稍後可以擠出為類似 3D 牆的外觀。
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 **偏移線**工具的運作方式與[**直線**](https://windows.help.formit.autodesk.com/tool-library/line-tool)工具類似：
 
