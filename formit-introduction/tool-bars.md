@@ -14,7 +14,7 @@ Ve výchozím nastavení je povolen panel nástrojů Standard, který je rozděl
 
 ### Geometrie
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**Výběr**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) a filtry výběru oblasti
 2. [**Nástroje Odměřit** ](../tool-library/measure-tool.md)vzdálenost a [**Odměřit úhel**](../tool-library/measure-angle-tool.md)
@@ -44,7 +44,7 @@ Ve výchozím nastavení je povolen panel nástrojů Standard, který je rozděl
 
 ## Palety
 
-\![](<../.gitbook/assets/properties (1).png>) [**Vlastnosti**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**Vlastnosti**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Hladiny**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@ Kliknutím pravým tlačítkem myši na prvek na 3D kreslicí ploše zobrazíte 
 
 [K**lávesové zkratky**](../appendix/keyboard-shortcuts.md) aplikace FormIt si můžete přizpůsobit v nabídce Úpravy > Předvolby > Klávesové zkratky.
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
