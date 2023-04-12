@@ -10,7 +10,7 @@
 
 執行「相交」指令，然後遵循螢幕左上角的模式指示
 
-按一下以選取要切割的物件：\\
+按一下以選取要切割的物件：
 
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
