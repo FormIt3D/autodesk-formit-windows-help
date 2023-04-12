@@ -24,4 +24,5 @@
 
 1. 双击以选择要切割的对象。（单击以选择组）
 2. 按住 **CTRL 键**的同时，双击要剪切的重叠对象。
-3. 在要切割的对象上单击鼠标右键，然后在上下文菜单中选择[**“剪切”工具**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)。![](<../.gitbook/assets/cut tool.png>)
+3. 在要切割的对象上单击鼠标右键，然后在上下文菜单中选择[**“剪切”工具**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)。
+![](<../.gitbook/assets/cut tool.png>)
