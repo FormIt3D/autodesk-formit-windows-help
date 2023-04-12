@@ -4,7 +4,7 @@ Diese Funktionen ermöglichen es, offene Kanten zu schließen, Geometrieänderun
 
 ## So schließen Sie eine Reihe von Flächen
 
-1. Klicken Sie im Menü **Erweiterte Geometriewerkzeuge** in der Aktionsleiste auf das Werkzeug **Abdeckung**. \![](<../.gitbook/assets/cover-tool (1).png>)
+1. Klicken Sie im Menü **Erweiterte Geometriewerkzeuge** in der Aktionsleiste auf das Werkzeug **Abdeckung**. ![](<../.gitbook/assets/cover-tool (1).png>)
 2.  Klicken Sie auf die Kanten des abzudeckenden Objekts.
 
     <img src="../.gitbook/assets/cover_tool1.png" alt="" data-size="original">
@@ -16,7 +16,7 @@ Diese Funktionen ermöglichen es, offene Kanten zu schließen, Geometrieänderun
 ## So erstellen Sie ein Sweeping für die Geometrie entlang einem Pfad
 
 1. Verwenden Sie eine Linie, um die Fläche eines zu schneidenden Objekts zu markieren. ![](../.gitbook/assets/sweep.png)
-2. Klicken Sie auf das Symbol für das Sweeping-Werkzeug. \![](<../.gitbook/assets/sweep-tool (1).png>)
+2. Klicken Sie auf das Symbol für das Sweeping-Werkzeug. ![](<../.gitbook/assets/sweep-tool (1).png>)
 3.  Wählen Sie die zuvor markierte Fläche aus.
 
     ```
@@ -30,7 +30,7 @@ Diese Funktionen ermöglichen es, offene Kanten zu schließen, Geometrieänderun
 
 ## So erheben Sie mehrere Profile oder Kanten
 
-1. Klicken Sie im Menü **Erweiterte Geometriewerkzeuge** in der Aktionsleiste auf das Werkzeug **Erhebung**. \![](<../.gitbook/assets/loft-tool (1).png>)
+1. Klicken Sie im Menü **Erweiterte Geometriewerkzeuge** in der Aktionsleiste auf das Werkzeug **Erhebung**. ![](<../.gitbook/assets/loft-tool (1).png>)
 2.  Wählen Sie die Fläche oder Kanten aus, die Sie auf dem ersten Objekt erheben möchten.
 
     <img src="../.gitbook/assets/loft1.png" alt="" data-size="original">
