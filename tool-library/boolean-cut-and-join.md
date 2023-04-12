@@ -24,4 +24,4 @@ Kliknutím na značku zaškrtnutí dokončete příkaz. Odebraný objekt zůstan
 
 1. Dvojitým kliknutím vyberte objekt, který chcete oříznout. (Jedním kliknutím vyberete skupinu.)
 2. Podržte klávesu **Ctrl** a dvakrát klikněte na překrývající se objekty, které chcete oříznout.
-3. Klikněte pravým tlačítkem myši na objekt, který bude oříznut, a v místní nabídce vyberte [**nástroj Oříznout**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md). \![](<../.gitbook/assets/cut tool.png>)
+3. Klikněte pravým tlačítkem myši na objekt, který bude oříznut, a v místní nabídce vyberte [**nástroj Oříznout**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md). ![](<../.gitbook/assets/cut tool.png>)
