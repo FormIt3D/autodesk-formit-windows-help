@@ -29,10 +29,10 @@ manifest.json 파일의 구조는 다음과 같습니다. [도구막대 기반](
 * "PluginDescription"은 플러그인의 기능을 전달하기 위해 [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager)에 표시됩니다.
 * "Scripts"는 FormIt 응용프로그램에 로드될 플러그인과 연관된 필수 외부 스크립트를 나열하며, 플러그인 기능이 호출될 때 실행될 수 있습니다.
 
-\![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 플러그인 폴더에 manifest.json 파일을 생성하여 플러그인 개발을 시작합니다. 다음으로, 도구막대 기반 플러그인을 만들지 아니면 패널 기반 플러그인을 만들지를 결정해야 합니다.
 
-\![](<../../../.gitbook/assets/image (36).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
 **주:** 위의 manifest.json 파일 전반에서 PLUGINLOCATION을 사용해야 하며, PLUGINLOCATION은 대소문자를 구분합니다. FormIt은 PLUGINLOCATION을 플러그인의 서버 위치로 대체합니다.
