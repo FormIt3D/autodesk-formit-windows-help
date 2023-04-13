@@ -14,7 +14,7 @@ La barra degli strumenti standard è attivata per default, ma è divisa nelle se
 
 ### Geometria
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**Selezione**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) e filtri di selezione dell'area
 2. Strumenti [**Misura** ](../tool-library/measure-tool.md)per la distanza e [**Misura angolo**](../tool-library/measure-angle-tool.md)
@@ -44,7 +44,7 @@ La barra degli strumenti standard è attivata per default, ma è divisa nelle se
 
 ## Tavolozze
 
-\![](<../.gitbook/assets/properties (1).png>) [**Proprietà**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**Proprietà**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Layer**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@ Fare clic con il pulsante destro del mouse su un elemento nell'area di disegno 3
 
 Personalizzare i [t**asti di scelta rapida**](../appendix/keyboard-shortcuts.md) di FormIt in Modifica > Preferenze > Tasti di scelta rapida.
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
