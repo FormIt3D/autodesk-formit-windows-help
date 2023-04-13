@@ -10,7 +10,7 @@
 
 교차 명령을 실행하고 화면 왼쪽 위에 있는 모드 지침을 따릅니다.
 
-한 번 클릭하여 잘라낼 객체를 선택합니다.\\
+한 번 클릭하여 잘라낼 객체를 선택합니다.
 
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
@@ -19,7 +19,7 @@
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-확인 표시를 클릭하여 명령을 완료합니다. 첫 번째 객체는 선택한 형상의 교차점으로 대치됩니다. 객체가 필요하지 않은 경우 삭제할 수 있습니다.\\
+확인 표시를 클릭하여 명령을 완료합니다. 첫 번째 객체는 선택한 형상의 교차점으로 대치됩니다. 객체가 필요하지 않은 경우 삭제할 수 있습니다.
 
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
