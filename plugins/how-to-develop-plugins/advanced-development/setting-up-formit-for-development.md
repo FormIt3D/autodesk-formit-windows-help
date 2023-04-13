@@ -26,9 +26,9 @@ L’éditeur de scripts stocke le code écrit dans un fichier scratch.js, dans l
 
 Deux boutons sont disponibles dans la partie supérieure :
 
-**Exécuter** \![](<../../../.gitbook/assets/image (8) (1).png>) : exécute tout le code écrit dans la fenêtre.
+**Exécuter** ![](<../../../.gitbook/assets/image (8) (1).png>) : exécute tout le code écrit dans la fenêtre.
 
-**Exécuter la sélection** \![](<../../../.gitbook/assets/image (52).png>) : exécute uniquement les lignes de code sélectionnées/mises en surbrillance.
+**Exécuter la sélection** ![](<../../../.gitbook/assets/image (52).png>) : exécute uniquement les lignes de code sélectionnées/mises en surbrillance.
 
 ### **Sortie de script**
 
