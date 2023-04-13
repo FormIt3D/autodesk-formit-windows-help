@@ -10,7 +10,7 @@ Raccourci clavier : I G
 
 Exécutez la commande Intersecter et suivez les instructions de mode dans la partie supérieure gauche de l’écran.
 
-Cliquez une fois pour sélectionner un objet à découper :\\
+Cliquez une fois pour sélectionner un objet à découper :
 
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
@@ -19,7 +19,7 @@ Cliquez pour sélectionner un ou plusieurs objets ou groupes avec lesquels effec
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Cliquez sur la coche pour terminer la commande. Le premier objet est remplacé par l’intersection de la géométrie sélectionnée. Vous pouvez supprimer l’objet si vous n’en avez pas besoin !\\
+Cliquez sur la coche pour terminer la commande. Le premier objet est remplacé par l’intersection de la géométrie sélectionnée. Vous pouvez supprimer l’objet si vous n’en avez pas besoin !
 
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
