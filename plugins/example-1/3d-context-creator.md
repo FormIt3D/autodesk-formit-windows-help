@@ -1,6 +1,6 @@
 # 3D Context Creator
 
-\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
+![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## 3D Context Creator는 무엇인가요?
 
@@ -18,13 +18,13 @@
 
 토글을 켜면 플러그인이 앱 오른쪽에 나타나고 사용할 준비가 됩니다.
 
-\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
+![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
 대지에 아직 위치가 없는 경우 **위치 설정...** 링크를 클릭하여 위치를 설정하고 3D 컨텍스트를 생성하는 데 사용할 경계를 정의할 수 있습니다.
 
 위치를 설정하면 3D Context Creator가 현재 위치로 업데이트되고 버튼이 활성화됩니다.
 
-\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
+![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
 3D Context Creator는 위성 이미지의 범위를 사용하여 3D 컨텍스트를 생성합니다. **3D 컨텍스트 생성**을 클릭하기만 하면 됩니다.
 
@@ -32,9 +32,9 @@
 
 3D 컨텍스트 건물은 자동으로 그룹 인스턴스에 배치되고 "컨텍스트 건물"이라는 레이어에 배치됩니다. 이 레이어를 사용하여 컨텍스트의 가시성을 전환할 수 있습니다.
 
-\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
+![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
+![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
 나중에 위치를 변경하거나 위성 이미지의 범위를 조정하려는 경우 **3D 컨텍스트 생성**을 다시 클릭하여 건물을 재생성할 수 있습니다. 
 
@@ -44,10 +44,10 @@ _컨텍스트를 재생성하면 건물이 포함된 그룹 인스턴스가 새 
 
 다음과 같은 컨텍스트에서 대표적인 도시가 무엇인지 추측해 보십시오.
 
-\![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
-\![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
-\![](<../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-\![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59).png>)
