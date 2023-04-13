@@ -18,9 +18,9 @@ Windows 18 버전 이상용 FormIt에서는 곡선 및 표면 면분할 값을 �
 
 기존 곡선의 경우 곡선 재생성 플러그인을 사용하여 **기존** 호 또는 원을 새로운 면분할 개수로 소급해서 재생성할 수도 있습니다.
 
-\![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-\![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
+![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
 
 **표면 면분할 품질**
 
@@ -30,10 +30,10 @@ Windows 18 버전 이상용 FormIt에서는 곡선 및 표면 면분할 값을 �
 
 Dynamo로 작업할 때 면분할 품질을 수정하고, 매개변수 변경 없이 특성 패널에서 "그래프 실행"을 눌러 새로운 면분할 수를 활용할 수 있습니다.
 
-\![](<../.gitbook/assets/faceting_column (1).gif>)
+![](<../.gitbook/assets/faceting_column (1).gif>)
 
 곡선과 마찬가지로 새 스케치 또는 현재 스케치에 대해서만 표면 면분할 품질을 설정할 수 있습니다.
 
 면분할 값은 현재 4의 배수로 제한되므로 수동으로 숫자를 입력하면 가장 가까운 배수로 반올림됩니다. 슬라이더와 화살표를 사용하여 허용되는 값을 순환할 수 있습니다.
 
-\![](<../.gitbook/assets/units-+-precision (1).png>)
+![](<../.gitbook/assets/units-+-precision (1).png>)
