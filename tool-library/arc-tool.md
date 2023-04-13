@@ -16,7 +16,7 @@ Dopo aver disegnato l'arco, è possibile creare una superficie utilizzando lo [s
 
 ## Arco per centro
 
-\![](<../.gitbook/assets/arc-by-center (1).png>)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Scegliere il punto medio dell'arco, quindi trascinare per scegliere il centro e trascinare per definire la lunghezza dell'arco. È sufficiente digitare un valore per immettere un numero preciso di gradi per l'arco.
 
