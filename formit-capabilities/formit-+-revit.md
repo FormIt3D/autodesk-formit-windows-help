@@ -217,7 +217,7 @@ FormIt + Revit 2022 以降はユーザ インタフェースに組み込まれ�
 
 ### **Revit ファミリの変更点** <a href="#changes-to-revit-families" id="changes-to-revit-families"></a>
 
-Revit の[アドイン]タブの_[RFA を FormIt に変換]_ ボタンを使用することにより、FormIt で引き続き Revit ファミリ コンテンツを使用できます。このワークフローに変更はありません。
+Revit の[アドイン]タブの _[RFA を FormIt に変換]_ ボタンを使用することにより、FormIt で引き続き Revit ファミリ コンテンツを使用できます。このワークフローに変更はありません。
 
 より良いエクスペリエンスを提供するため、_[ファミリを再ロード]_ ボタンが削除されました。
 
