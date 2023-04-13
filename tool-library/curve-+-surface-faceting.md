@@ -18,9 +18,9 @@ Dieser Wert wirkt sich auch auf die Qualität von Kreisen und Bogen aus, die aus
 
 Für vorhandene Kurven können Sie auch das Plugin Rebuild Curve verwenden, um einen **vorhandenen** Bogen oder Kreis mit einer neuen Facettenanzahl rückwirkend neu zu erstellen:
 
-\![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-\![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
+![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
 
 **Surface Faceting Quality** (Flächenfacettierungsqualität)
 
@@ -30,10 +30,10 @@ Wenn Sie diesen Wert beispielsweise auf 64 festlegen und dann eine Kugel aus Dyn
 
 Wenn Sie mit Dynamo arbeiten, können Sie die Facettierungsqualität ändern und in der Gruppe Eigenschaften auf Run Graph (Diagramm ausführen) klicken, ohne Parameter zu ändern, um die neue Anzahl der Facettierungen zu nutzen:
 
-\![](<../.gitbook/assets/faceting_column (1).gif>)
+![](<../.gitbook/assets/faceting_column (1).gif>)
 
 Wie bei Kurven können Sie die Qualität der Flächenfacettierung für neue Skizzen oder nur für die aktuelle Skizze festlegen.
 
 Beachten Sie, dass Facettierungswerte derzeit auf ein Vielfaches von 4 beschränkt sind. Wenn Sie Zahlen also manuell eingeben, rundet FormIt auf das nächste Vielfache auf. Sie können die Schieberegler und Pfeile verwenden, um zwischen den zulässigen Werten zu wechseln.
 
-\![](<../.gitbook/assets/units-+-precision (1).png>)
+![](<../.gitbook/assets/units-+-precision (1).png>)
