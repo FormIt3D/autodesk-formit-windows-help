@@ -2,7 +2,7 @@
 
 [オフセット ライン]ツールを使用して、平行つまりオフセットの線分を描画します。これは、後で 3D 壁のように押し出す 2D 形状を作成する場合に便利です。
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 **オフセット ライン** ツールは、[**線分**](https://windows.help.formit.autodesk.com/tool-library/line-tool)ツールと同様に機能します。
 
