@@ -18,9 +18,9 @@ Cette valeur affecte également la qualité des cercles et des arcs importés à
 
 Pour les courbes existantes, vous pouvez également utiliser le plug-in Rebuild Curve pour reconstruire rétroactivement un arc ou un cercle **existant** avec un nouveau nombre de facettes :
 
-\![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-\![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
+![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
 
 **Qualité de création de facettes de surface**
 
@@ -30,10 +30,10 @@ Par exemple, si vous définissez cette option sur 64, l’ancrage d’une sphèr
 
 Lorsque vous utilisez Dynamo, vous pouvez modifier la qualité de la création de facettes et cliquer sur « Exécuter le graphique » dans le groupe de fonctions Propriétés sans modifier les paramètres, afin d’utiliser d’autres nombres pour la création de facettes :
 
-\![](<../.gitbook/assets/faceting_column (1).gif>)
+![](<../.gitbook/assets/faceting_column (1).gif>)
 
 Comme avec les courbes, vous pouvez définir la qualité de la création de facettes de surface pour les nouvelles esquisses ou pour l’esquisse actuelle uniquement.
 
 Notez que les valeurs de la création de facettes sont actuellement limitées à des multiples de 4\. Par conséquent, lorsque vous saisissez des nombres manuellement, FormIt arrondit au multiple le plus proche. Vous pouvez utiliser les curseurs et les flèches pour parcourir les valeurs acceptées.
 
-\![](<../.gitbook/assets/units-+-precision (1).png>)
+![](<../.gitbook/assets/units-+-precision (1).png>)
