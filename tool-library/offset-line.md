@@ -2,7 +2,7 @@
 
 Zeichnen Sie parallele oder versetzte Linien mit dem Werkzeug Versatzlinie. Dies ist nützlich, um 2D-Formen zu erstellen, die später extrudiert werden können, sodass sie 3D-Wänden ähneln.
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 Das Werkzeug **Versatzlinie** funktioniert wie das Werkzeug [**Linie**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
