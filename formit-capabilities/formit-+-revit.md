@@ -1,6 +1,6 @@
 # FormIt + Revit
 
-\![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
+![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
 
 ## La facilità di FormIt incontra la potenza di Revit <a href="#revit-intro" id="revit-intro"></a>
 
@@ -50,7 +50,7 @@ Se si lavora sia nella fase iniziale che nella progettazione dettagliata, è pos
 * Fare riferimento ad un modello di FormIt in Revit mediante lo strumento _Collega CAD_ e continuare con la visualizzazione e la creazione di dettagli in Revit.
 * Utilizzare _Modifica in FormIt_ per avviare un collegamento di FormIt da Revit.
 
-\![](<../.gitbook/assets/revit to formit.png>)
+![](<../.gitbook/assets/revit to formit.png>)
 
 ### **Disegno 3D, Modifica in FormIt e Invia a Revit per l'iterazione di progetto** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 
@@ -114,7 +114,7 @@ Se si lavora sia nella fase iniziale che nella progettazione dettagliata, è pos
     * **Nota** È consigliabile salvare il file localmente, poiché il salvataggio in Autodesk Docs interromperà la connessione tra FormIt e Revit. Utilizzare invece [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/ENU/) per condividere i modelli nel cloud.
   * Una volta creato il collegamento, ogni volta che si desidera trasferire le modifiche in Revit, è possibile salvare nuovamente il modello o fare clic sul pulsante Invia a Revit.
 
-\![](<../.gitbook/assets/send-to-revit (2).png>)
+![](<../.gitbook/assets/send-to-revit (2).png>)
 
 * I layer e i materiali di FormIt verranno trasferiti in Revit insieme alla geometria.
   * È possibile visualizzare i materiali di FormIt nella finestra di dialogo Materiali di Revit filtrando l'elenco in base a FormIt.
@@ -126,7 +126,7 @@ Se si lavora sia nella fase iniziale che nella progettazione dettagliata, è pos
 * Dopo il collegamento di un modello FormIt in Revit o dopo la creazione di un nuovo modello di FormIt utilizzando _**Disegno 3D**_ e il salvataggio del modello, l'elemento di FormIt viene salvato in Revit e può essere modificato nuovamente in un secondo momento.
 * Selezionare un elemento di FormIt in Revit, quindi fare clic sul pulsante _**Modifica in FormIt**_ nella scheda Modifica per avviare il modello in FormIt.
 
-\![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
+![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
 
 * Vedere la Guida introduttiva di FormIt per un'[esercitazione sul workflow FormIt-Revit.](../formit-primer/part-ii/2.8-advanced-revit-workflows.md)
 
@@ -138,7 +138,7 @@ Se si lavora sia nella fase iniziale che nella progettazione dettagliata, è pos
 * Importare il modello di FormIt direttamente in una variante di progetto di Revit per esplorare e confrontare ulteriormente i progetti. Poiché i layer di FormIt vengono inseriti in Revit attraverso il workflow di importazione, l'utente di Revit può controllare quali layer di FormIt sono visibili in quale variante di progetto di Revit.
 * Importare il modello di FormIt in una famiglia della categoria massa (quindi caricarlo in un progetto di Revit) per sfruttare gli strumenti Livelli, Pavimenti di massa e Per superficie e applicare le famiglie di sistema di Revit alla geometria di FormIt.
 
-\![Importa CAD in Revit](<../.gitbook/assets/revit-workflows (2).png>)
+![Importa CAD in Revit](<../.gitbook/assets/revit-workflows (2).png>)
 
 * È possibile collegare un modello di FormIt esistente a Revit per inviare le modifiche avanti e indietro, aggiornare geometrie e aspetto del materiale durante il ricaricamento e utilizzare i layer di FormIt per controllare la visibilità della geometria.
 
