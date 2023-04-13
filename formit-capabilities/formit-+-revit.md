@@ -191,7 +191,7 @@ FormIt + Revit 2022 以降はユーザ インタフェースに組み込まれ�
 
 ### **.AXM ファイルを読み込む新しい方法** <a href="#a-new-way-to-import-axm-files" id="a-new-way-to-import-axm-files"></a>
 
-アドインの _[FormIt を RVT に読み込み]_ボタンに代わり、Revit の[挿入]タブの[CAD 読込]ツールを使用して FormIt (.AXM)ファイルを読み込むことができます。
+アドインの _[FormIt を RVT に読み込み]_ ボタンに代わり、Revit の[挿入]タブの[CAD 読込]ツールを使用して FormIt (.AXM)ファイルを読み込むことができます。
 
 このワークフローでは、速度が最大 **30 倍高速**になるほか、全般的に**信頼性が向上**しています。さらに、いくつかの動作が変更されました。
 
@@ -217,7 +217,7 @@ FormIt + Revit 2022 以降はユーザ インタフェースに組み込まれ�
 
 ### **Revit ファミリの変更点** <a href="#changes-to-revit-families" id="changes-to-revit-families"></a>
 
-Revit の[アドイン]タブの_[RFA を FormIt に変換]_ボタンを使用することにより、FormIt で引き続き Revit ファミリ コンテンツを使用できます。このワークフローに変更はありません。
+Revit の[アドイン]タブの_[RFA を FormIt に変換]_ ボタンを使用することにより、FormIt で引き続き Revit ファミリ コンテンツを使用できます。このワークフローに変更はありません。
 
 より良いエクスペリエンスを提供するため、_[ファミリを再ロード]_ ボタンが削除されました。
 
