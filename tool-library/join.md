@@ -12,11 +12,11 @@
 
 結合先のオブジェクトをシングルクリックで選択します。
 
-\![](<../.gitbook/assets/cut_mode01 (1).png>)
+![](<../.gitbook/assets/cut_mode01 (1).png>)
 
 結合するオブジェクトまたはグループをシングルクリックで選択します。
 
-\![](<../.gitbook/assets/cut_mode02 (1).png>)
+![](<../.gitbook/assets/cut_mode02 (1).png>)
 
 チェックマークをクリックしてコマンドを終了します。
 
@@ -26,4 +26,4 @@
 2. **[Ctrl]キー**を押しながら、最初のオブジェクトと結合する、重なっているオブジェクトをダブルクリックします。
 3. いずれかのオブジェクトを右クリックし、コンテキスト メニューから[結合]ツールを選択します。
 
-\![](<../.gitbook/assets/join tool.png>)
+![](<../.gitbook/assets/join tool.png>)
