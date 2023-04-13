@@ -14,7 +14,7 @@ La barra de herramientas estándar está activada por defecto, pero se divide en
 
 ### Geometría
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**Selección**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) y filtros de selección de área
 2. Herramientas [**Medir** ](../tool-library/measure-tool.md)Distancia y [**Medir ángulo**](../tool-library/measure-angle-tool.md)
@@ -44,7 +44,7 @@ La barra de herramientas estándar está activada por defecto, pero se divide en
 
 ## Paletas
 
-\![](<../.gitbook/assets/properties (1).png>) [**Propiedades**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**Propiedades**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Capas**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@ Haga clic con el botón derecho en un elemento del lienzo 3D para visualizar un 
 
 Personalice los [**métodos abreviados de teclado**](../appendix/keyboard-shortcuts.md) en Editar > Preferencias > Métodos abreviados.
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
