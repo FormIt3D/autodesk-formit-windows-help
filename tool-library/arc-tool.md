@@ -16,7 +16,7 @@ Después de dibujar el arco, puede crear una cara mediante la [herramienta Líne
 
 ## Arco por centro
 
-\![](<../.gitbook/assets/arc-by-center (1).png>)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Seleccione el punto medio del arco y, a continuación, arrastre para elegir el centro y definir la longitud del arco. Solo tiene que empezar a escribir un valor para introducir un número preciso de grados para el arco.
 
