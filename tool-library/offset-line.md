@@ -2,7 +2,7 @@
 
 Dessinez des lignes parallèles ou de décalage à l’aide de l’outil Décaler la ligne. Cet outil permet de créer des formes 2D qui peuvent ensuite être extrudées pour ressembler à des murs 3D.
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 L'outil **Décaler la ligne** fonctionne comme l'outil [**Ligne**](https://windows.help.formit.autodesk.com/tool-library/line-tool) :
 
