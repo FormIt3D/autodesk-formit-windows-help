@@ -26,7 +26,7 @@
     1.  Selezionare il bordo che si desidera tagliare.
 
         <img src="../.gitbook/assets/sweep3.png" alt="" data-size="original">
-    2. Fare clic sull'icona **Fine**. L'oggetto originale viene modificato lungo la traiettoria dell'estrusione su percorso. ![](../.gitbook/assets/sweep4.png)\![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (1).png>)
+    2. Fare clic sull'icona **Fine**. L'oggetto originale viene modificato lungo la traiettoria dell'estrusione su percorso. ![](../.gitbook/assets/sweep4.png)![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (1).png>)
 
 ## Per eseguire il loft di più profili o bordi
 
