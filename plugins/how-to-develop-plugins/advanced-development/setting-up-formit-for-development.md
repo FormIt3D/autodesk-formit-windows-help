@@ -26,9 +26,9 @@ Además, esta herramienta almacena el código escrito en un archivo scratch.js e
 
 En la parte superior, aparecen estos dos botones:
 
-**Ejecutar** \![](<../../../.gitbook/assets/image (8) (1).png>): ejecuta todo el código escrito en la ventana.
+**Ejecutar** ![](<../../../.gitbook/assets/image (8) (1).png>): ejecuta todo el código escrito en la ventana.
 
-**Ejecutar selección** \![](<../../../.gitbook/assets/image (52).png>): ejecuta solo las líneas de código seleccionadas o resaltadas.
+**Ejecutar selección** ![](<../../../.gitbook/assets/image (52).png>): ejecuta solo las líneas de código seleccionadas o resaltadas.
 
 ### **Salida de la secuencia de comandos**
 
