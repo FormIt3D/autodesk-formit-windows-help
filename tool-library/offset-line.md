@@ -2,7 +2,7 @@
 
 간격띄우기 선 도구를 사용하여 평행선 또는 간격띄우기 선을 그립니다. 이 기능은 나중에 돌출되어 3D 벽처럼 보일 수 있는 2D 모양을 작성하는 데 유용합니다.
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 **간격띄우기 선** 도구는 [**선**](https://windows.help.formit.autodesk.com/tool-library/line-tool) 도구처럼 작동합니다.
 
