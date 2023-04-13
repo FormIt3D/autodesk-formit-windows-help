@@ -10,7 +10,7 @@ Teclado: I G
 
 Ejecute el comando Intersección y siga la instrucción de modo que aparece en la parte superior izquierda de la pantalla.
 
-Haga clic una vez para seleccionar un objeto en el que cortar:\\
+Haga clic una vez para seleccionar un objeto en el que cortar:
 
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
