@@ -29,10 +29,10 @@ Un plug-in typique inclut les propriétés JSON suivantes :
 * « PluginDescription » est affiché dans [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) pour communiquer les fonctionnalités du plug-in.
 * « Scripts » répertorie les scripts externes requis associés au plug-in qui seront chargés dans l’application FormIt et peuvent être exécutés lorsque la fonctionnalité de plug-in est appelée.
 
-\![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 Démarrez le développement de votre plug-in en créant un fichier manifest.json dans votre dossier de plug-in. Vous devez ensuite décider si vous créez un plug-in basé sur une barre d’outils ou un groupe de fonctions.
 
-\![](<../../../.gitbook/assets/image (36).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
 **Remarque :** l’utilisation de PLUGINLOCATION dans le fichier manifest.json ci-dessus est essentielle et sensible à la casse. FormIt remplacera PLUGINLOCATION par l’emplacement du serveur pour le plug-in.
