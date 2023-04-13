@@ -12,11 +12,11 @@
 
 한 번 클릭하여 결합할 객체를 선택합니다.
 
-\![](<../.gitbook/assets/cut_mode01 (1).png>)
+![](<../.gitbook/assets/cut_mode01 (1).png>)
 
 한 번 클릭하여 결합할 객체 또는 그룹을 선택합니다.
 
-\![](<../.gitbook/assets/cut_mode02 (1).png>)
+![](<../.gitbook/assets/cut_mode02 (1).png>)
 
 확인 표시를 클릭하여 명령을 완료합니다.
 
@@ -26,4 +26,4 @@
 2. **Ctrl 키**를 누른 상태에서 첫 번째 객체와 결합할 겹치는 객체를 두 번 클릭합니다.
 3. 객체를 마우스 오른쪽 버튼으로 클릭하고 상황에 맞는 메뉴에서 결합 도구를 선택합니다.
 
-\![](<../.gitbook/assets/join tool.png>)
+![](<../.gitbook/assets/join tool.png>)
