@@ -12,11 +12,11 @@ Eseguire il comando Unisci e seguire le istruzioni della modalità nella parte s
 
 Fare un singolo clic per selezionare un oggetto in cui eseguire l'unione.
 
-\![](<../.gitbook/assets/cut_mode01 (1).png>)
+![](<../.gitbook/assets/cut_mode01 (1).png>)
 
 Fare un singolo clic per selezionare un oggetto o un gruppo da unire.
 
-\![](<../.gitbook/assets/cut_mode02 (1).png>)
+![](<../.gitbook/assets/cut_mode02 (1).png>)
 
 Fare clic sul segno di spunta per terminare il comando.
 
@@ -26,4 +26,4 @@ Fare clic sul segno di spunta per terminare il comando.
 2. Tenendo premuto il **tasto CTRL**, fare doppio clic su un oggetto sovrapposto che si desidera unire al primo oggetto.
 3. Fare clic con il pulsante destro del mouse su uno qualsiasi degli oggetti e scegliere lo strumento Unisci nel menu contestuale.
 
-\![](<../.gitbook/assets/join tool.png>)
+![](<../.gitbook/assets/join tool.png>)
