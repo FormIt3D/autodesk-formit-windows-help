@@ -2,7 +2,7 @@
 
 È possibile disegnare linee parallele, o di offset, utilizzando lo strumento Linea di offset. Questa opzione è utile per creare forme 2D che possono essere successivamente estruse per assomigliare a muri 3D.
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 Lo strumento **Linea di offset** funziona come lo strumento [**Linea**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
