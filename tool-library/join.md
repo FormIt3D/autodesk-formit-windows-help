@@ -12,11 +12,11 @@ Ejecute el comando Unir y siga la instrucción de modo que aparece en la parte s
 
 Haga clic una vez para seleccionar un objeto al que unirse.
 
-\![](<../.gitbook/assets/cut_mode01 (1).png>)
+![](<../.gitbook/assets/cut_mode01 (1).png>)
 
 Haga clic una vez para seleccionar un objeto o un grupo que unir.
 
-\![](<../.gitbook/assets/cut_mode02 (1).png>)
+![](<../.gitbook/assets/cut_mode02 (1).png>)
 
 Haga clic en la marca de verificación para finalizar el comando.
 
@@ -26,4 +26,4 @@ Haga clic en la marca de verificación para finalizar el comando.
 2. Mientras mantiene pulsada la **tecla Ctrl**, haga doble clic en un objeto solapado que desee unir con el primer objeto.
 3. Haga clic con el botón derecho en cualquiera de los objetos y seleccione la herramienta Unir en el menú contextual.
 
-\![](<../.gitbook/assets/join tool.png>)
+![](<../.gitbook/assets/join tool.png>)
