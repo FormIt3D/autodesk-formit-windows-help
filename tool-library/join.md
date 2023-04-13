@@ -12,11 +12,11 @@ Exécutez la commande Joindre et suivez les instructions de mode dans la partie 
 
 Cliquez une fois pour sélectionner un objet à joindre.
 
-\![](<../.gitbook/assets/cut_mode01 (1).png>)
+![](<../.gitbook/assets/cut_mode01 (1).png>)
 
 Cliquez une fois pour sélectionner un objet ou un groupe à joindre.
 
-\![](<../.gitbook/assets/cut_mode02 (1).png>)
+![](<../.gitbook/assets/cut_mode02 (1).png>)
 
 Cliquez sur la coche pour terminer la commande.
 
@@ -26,4 +26,4 @@ Cliquez sur la coche pour terminer la commande.
 2. Tout en maintenant la touche **CTRL** enfoncée, double-cliquez sur l’objet qui se chevauche et que vous souhaitez joindre au premier objet.
 3. Cliquez avec le bouton droit de la souris sur l’un des objets, puis choisissez l’outil Joindre dans le menu contextuel.
 
-\![](<../.gitbook/assets/join tool.png>)
+![](<../.gitbook/assets/join tool.png>)
