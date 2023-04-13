@@ -14,7 +14,7 @@ La barre d’outils standard est activée par défaut, mais elle est divisée en
 
 ### Géométrie
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**Filtres de sélection**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) et de sélection de zone
 2. [**Outils Mesurer** ](../tool-library/measure-tool.md)la distance et [**Mesurer l’angle**](../tool-library/measure-angle-tool.md)
@@ -44,7 +44,7 @@ La barre d’outils standard est activée par défaut, mais elle est divisée en
 
 ## Palettes
 
-\![](<../.gitbook/assets/properties (1).png>) [**Properties**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**Properties**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Calques**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@ Cliquez avec le bouton droit de la souris sur un élément de la zone de dessin�
 
 Personnalisez les [r**accourcis clavier**](../appendix/keyboard-shortcuts.md) de FormIt dans Modifier > Préférences > Raccourcis.
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
