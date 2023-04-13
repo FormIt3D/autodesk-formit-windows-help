@@ -24,4 +24,4 @@
 
 1. 잘라낼 객체를 두 번 클릭하여 선택합니다. (그룹의 경우 한 번 클릭)
 2. **Ctrl 키**를 누른 상태에서 겹치는 객체를 두 번 클릭하여 잘라냅니다.
-3. 절단할 객체를 마우스 오른쪽 버튼으로 클릭하고 상황에 맞는 메뉴에서 [**잘라내기 도구**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)를 선택합니다. \![](<./.gitbook/assets/cut tool.png>)
+3. 절단할 객체를 마우스 오른쪽 버튼으로 클릭하고 상황에 맞는 메뉴에서 [**잘라내기 도구**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md)를 선택합니다. ![](<./.gitbook/assets/cut tool.png>)
