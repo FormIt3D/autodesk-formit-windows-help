@@ -14,7 +14,7 @@
 
 ### ジオメトリ
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**選択**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object)および領域選択フィルタ
 2. 距離の[**[計測]**](../tool-library/measure-tool.md)および[**[角度を計測]**](../tool-library/measure-angle-tool.md)ツール
@@ -44,7 +44,7 @@
 
 ## パレット
 
-\![](<../.gitbook/assets/properties (1).png>) [**プロパティ**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**プロパティ**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**レイヤ**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@ FormIt 2023 以降では、ウィンドウ メニューの[すべてのパレッ
 
 FormIt の[**キーボード ショートカット**](../appendix/keyboard-shortcuts.md)は、[編集] > [基本設定] > [ショートカット]でカスタマイズできます。
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
