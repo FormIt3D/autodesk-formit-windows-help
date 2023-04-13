@@ -14,7 +14,7 @@
 
 ### 형상
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**선택**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) 및 영역 선택 필터
 2. 거리 [**측정**](../tool-library/measure-tool.md) 및 [**각도 측정**](../tool-library/measure-angle-tool.md) 도구
@@ -44,7 +44,7 @@
 
 ## 팔레트
 
-\![](<../.gitbook/assets/properties (1).png>) [**특성**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**특성**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**레이어**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@ FormIt 2023 이상에서는 윈도우 메뉴에 있는 모든 팔레트 표시/�
 
 편집 > 기본 설정 > 단축키에서 FormIt [**키보드 단축키**](../appendix/keyboard-shortcuts.md)를 사용자화할 수 있습니다.
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
