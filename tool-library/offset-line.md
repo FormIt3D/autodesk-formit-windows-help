@@ -2,7 +2,7 @@
 
 Dibuje líneas paralelas o de desfase mediante la herramienta Línea de desfase. Esto resulta útil para crear formas 2D que posteriormente se pueden extruir para que tengan un aspecto similar al de los muros 3D.
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 La herramienta **Línea de desfase** funciona como la herramienta [**Línea**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
