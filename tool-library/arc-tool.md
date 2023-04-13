@@ -16,7 +16,7 @@ Après avoir dessiné l’arc, vous pouvez créer une face à l’aide de l’[o
 
 ## Arc par centre
 
-\![](<../.gitbook/assets/arc-by-center (1).png>)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Choisissez le milieu de l’arc, faites glisser le curseur pour choisir le centre, puis faites glisser le curseur pour définir la longueur de l’arc. Il vous suffit de saisir une valeur pour indiquer un nombre précis de degrés pour l’arc.
 
