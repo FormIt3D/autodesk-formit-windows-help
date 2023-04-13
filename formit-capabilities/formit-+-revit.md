@@ -1,6 +1,6 @@
 # FormIt + Revit
 
-\![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
+![](<../.gitbook/assets/2017 formit + revit hero image.jpg>)
 
 ## FormIt의 용이성과 Revit의 성능의 만남 <a href="#revit-intro" id="revit-intro"></a>
 
@@ -29,7 +29,7 @@ Windows용 FormIt은 Revit에 직접 연결되므로 초기 컨셉과 상세 설
 ### **2022의 새로운 기능** <a href="#all-new-for-2022" id="all-new-for-2022"></a>
 
 * Revit의 매스작업 & 대지 탭에 있는 새로운 _**3D 스케치**_ 버튼을 사용하여 Revit에서 직접 FormIt을 실행합니다.
-* FormIt에서 설계하고, _3D 스케치 버튼_으로 실행되었을 때 FormIt의 _**Revit으로 보내기**_ 버튼을 사용하여 Revit으로 스케치를 다시 보낼 수 있습니다.
+* FormIt에서 설계하고, _3D 스케치 버튼_ 으로 실행되었을 때 FormIt의 _**Revit으로 보내기**_ 버튼을 사용하여 Revit으로 스케치를 다시 보낼 수 있습니다.
 * Revit의 삽입 탭에 있는 _**CAD 가져오기**_ 버튼을 사용하여 FormIt 모델을 Revit으로 가져올 수 있습니다. (이전의 _RVT로 FormIt 가져오기_ 버튼보다 안정적이고 최대 **30배 더 빠른** 속도를 제공합니다.)
 * FormIt 기능을 위한 별도의 애드인을 다운로드할 필요가 없습니다.
 
@@ -50,7 +50,7 @@ Windows용 FormIt은 Revit에 직접 연결되므로 초기 컨셉과 상세 설
 * _CAD 링크_ 도구를 사용하여 Revit에서 FormIt 모델을 참조하고 Revit에서 시각화 및 상세 작업을 계속할 수 있습니다.
 * _FormIt에서 편집_ 을 사용하여 Revit에서 FormIt 링크를 실행할 수 있습니다.
 
-\![](<../.gitbook/assets/revit to formit.png>)
+![](<../.gitbook/assets/revit to formit.png>)
 
 ### **3D 스케치, FormIt에서 편집, Revit으로 보내기를 통한 설계 반복** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 
@@ -114,7 +114,7 @@ Windows용 FormIt은 Revit에 직접 연결되므로 초기 컨셉과 상세 설
     * **주:** Autodesk Docs에 저장하면 FormIt과 Revit 간의 연결이 끊어지므로 파일을 로컬로 저장하는 것이 좋습니다. 대신, [Autodesk Desktop Connector](https://help.autodesk.com/view/CONNECT/ENU/)를 사용하여 모델을 클라우드에 공유합니다.
   * 링크가 작성되고 나면 Revit에 변경 사항을 전송하려고 할 때마다 모델을 다시 저장하거나 Revit으로 보내기 버튼을 클릭할 수 있습니다.
 
-\![](<../.gitbook/assets/send-to-revit (2).png>)
+![](<../.gitbook/assets/send-to-revit (2).png>)
 
 * FormIt 레이어 및 재료는 형상과 함께 Revit으로 전송됩니다.
   * "FormIt"별로 리스트를 필터링하여 Revit의 재료 대화상자에서 FormIt 재료를 볼 수 있습니다.
@@ -126,7 +126,7 @@ Windows용 FormIt은 Revit에 직접 연결되므로 초기 컨셉과 상세 설
 * Revit에서 FormIt 모델을 링크한 후 또는 _**3D 스케치**_ 를 사용하여 새 FormIt 모델을 작성하고 모델을 저장한 후에는 FormIt 요소가 Revit에 저장되며 나중에 해당 요소를 다시 편집할 수 있습니다.
 * Revit에서 FormIt 요소를 선택한 다음 수정 탭에서 _**FormIt에서 편집**_ 버튼을 클릭하여 FormIt에서 모델을 실행합니다.
 
-\![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
+![](<../.gitbook/assets/20220809 FormIt-Revit Edit in FormIt.png>)
 
 * FormIt 입문서에서 [FormIt-Revit 워크플로우 튜토리얼](../formit-primer/part-ii/2.8-advanced-revit-workflows.md)을 참고하십시오.
 
@@ -138,7 +138,7 @@ Windows용 FormIt은 Revit에 직접 연결되므로 초기 컨셉과 상세 설
 * Revit 설계 옵션으로 FormIt 모델을 직접 가져오면 설계를 더욱 면밀히 탐색하고 비교할 수 있습니다. 가져오기 워크플로우를 통해 FormIt 레이어를 Revit으로 가져오기 때문에, Revit 사용자는 Revit 설계 옵션에서 표시되는 FormIt 레이어를 제어할 수 있습니다.
 * FormIt 모델을 매스 카테고리 패밀리로 가져온 다음, Revit 프로젝트에 로드하여 레벨, 매스 바닥 및 면별 도구를 활용하고 Revit 시스템 패밀리를 FormIt 형상에 적용합니다.
 
-\![Import CAD in Revit](<../.gitbook/assets/revit-workflows (2).png>)
+![Import CAD in Revit](<../.gitbook/assets/revit-workflows (2).png>)
 
 * 기존 FormIt 모델을 Revit에 링크하여 변경 사항을 앞뒤로 전송하고, 다시 로드하는 동안 형상 및 재료 모양을 업데이트하고, FormIt 레이어를 사용하여 형상 가시성을 제어할 수 있습니다.
 
