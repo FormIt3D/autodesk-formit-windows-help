@@ -32,9 +32,9 @@ Selon l’étendue de l’image satellite et la complexité des bâtiments, la g
 
 Les bâtiments en contexte en 3D sont automatiquement placés dans une occurrence de groupe et sur un calque appelé « Bâtiments en contexte ». Vous pouvez activer ou désactiver la visibilité du contexte à l’aide de ce calque.
 
-\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
+![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
+![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
 Si vous décidez par la suite de modifier votre emplacement ou d’ajuster l’étendue de l’image satellite, vous pouvez cliquer à nouveau sur **Générer un contexte 3D** pour régénérer les bâtiments. 
 
