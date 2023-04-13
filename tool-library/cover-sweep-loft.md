@@ -26,7 +26,7 @@ Diese Funktionen ermöglichen es, offene Kanten zu schließen, Geometrieänderun
     1.  Wählen Sie die zu bearbeitende Kante aus.
 
         <img src="../.gitbook/assets/sweep3.png" alt="" data-size="original">
-    2. Klicken Sie auf das Symbol **Fertig stellen**. Das Originalobjekt wird am Sweep-Pfad entlang geändert. ![](../.gitbook/assets/sweep4.png)\![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (1).png>)
+    2. Klicken Sie auf das Symbol **Fertig stellen**. Das Originalobjekt wird am Sweep-Pfad entlang geändert. ![](../.gitbook/assets/sweep4.png)![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (1).png>)
 
 ## So erheben Sie mehrere Profile oder Kanten
 
