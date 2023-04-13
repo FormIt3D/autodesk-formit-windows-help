@@ -29,10 +29,10 @@ Un módulo de extensión típico incluye estas propiedades JSON:
 * "PluginDescription" se muestra en [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) para indicar las funciones del módulo de extensión.
 * "Scripts" muestra las secuencias de comandos externas necesarias asociadas con el módulo de extensión que se cargará en la aplicación FormIt y que pueden ejecutarse cuando se llame a las funciones del módulo de extensión.
 
-\![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 Para empezar a desarrollar el módulo de extensión, cree un archivo manifest.json en la carpeta del módulo de extensión. A continuación, deberá decidir si va a crear un módulo de extensión basado en barra de herramientas o panel.
 
-\![](<../../../.gitbook/assets/image (36).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
 **Nota:** El uso de PLUGINLOCATION en todo el archivo manifest.json anterior es esencial y distingue entre mayúsculas y minúsculas. FormIt reemplazará PLUGINLOCATION por la ubicación del servidor para el módulo de extensión.
