@@ -24,4 +24,4 @@ Haga clic en la marca de verificación para finalizar el comando. El objeto que 
 
 1. Haga doble clic para seleccionar el objeto en el que desea cortar. (Haga clic una vez para un grupo).
 2. Mientras mantiene pulsada la **tecla Ctrl**, haga doble clic en objetos solapados para recortarlos.
-3. Haga clic con el botón derecho en el objeto que se va a cortar y seleccione la [**herramienta Cortar**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) en el menú contextual. \![](<../.gitbook/assets/cut tool.png>)
+3. Haga clic con el botón derecho en el objeto que se va a cortar y seleccione la [**herramienta Cortar**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) en el menú contextual. ![](<../.gitbook/assets/cut tool.png>)
