@@ -2,7 +2,7 @@
 
 Rysuj linie równoległe (czyli odsunięte) za pomocą narzędzia Linia odsunięcia. Jest to przydatne do tworzenia kształtów 2D, które można później wyciągać, aby wyglądały jak ściany 3D.
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 Narzędzie **Linia odsunięcia** działa podobnie do narzędzia [**Linia**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
