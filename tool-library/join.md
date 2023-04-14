@@ -12,11 +12,11 @@ Execute o comando Unir e siga as instruções de modo no canto superior esquerdo
 
 Clique uma vez para selecionar um objeto para unir.
 
-\![](<../.gitbook/assets/cut_mode01 (1).png>)
+![](<../.gitbook/assets/cut_mode01 (1).png>)
 
 Clique uma vez para selecionar um objeto ou grupo a ser unido.
 
-\![](<../.gitbook/assets/cut_mode02 (1).png>)
+![](<../.gitbook/assets/cut_mode02 (1).png>)
 
 Clique na marca de seleção para encerrar o comando.
 
@@ -26,4 +26,4 @@ Clique na marca de seleção para encerrar o comando.
 2. Mantendo pressionada a **tecla CTRL**, clique duas vezes em um objeto sobreposto que você deseja unir com o primeiro objeto.
 3. Clique com o botão direito do mouse em qualquer um dos objetos e selecione a ferramenta Unir no menu de contexto.
 
-\![](<../.gitbook/assets/join tool.png>)
+![](<../.gitbook/assets/join tool.png>)
