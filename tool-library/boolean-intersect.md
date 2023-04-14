@@ -10,7 +10,7 @@ Teclado: I G
 
 Execute o comando Interseção e siga as instruções de modo no canto superior esquerdo da tela
 
-Clique uma vez para selecionar um objeto para cortar:\\
+Clique uma vez para selecionar um objeto para cortar:
 
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
@@ -19,7 +19,7 @@ Clique uma vez para selecionar objetos ou grupos com os quais realizar a interse
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Clique na marca de seleção para encerrar o comando. O primeiro objeto será substituído pela interseção da geometria selecionada. É possível excluir o objeto se não precisar dele.\\
+Clique na marca de seleção para encerrar o comando. O primeiro objeto será substituído pela interseção da geometria selecionada. É possível excluir o objeto se não precisar dele.
 
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
