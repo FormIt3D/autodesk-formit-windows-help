@@ -26,9 +26,9 @@ Edytor skryptów przechowuje zapisany kod w pliku scratch.js w katalogu, w któr
 
 W górnej części znajdują się dwa przyciski:
 
-**Uruchom** \![](<../../../.gitbook/assets/image (8) (1).png>): wykonuje cały kod napisany w oknie.
+**Uruchom** ![](<../../../.gitbook/assets/image (8) (1).png>): wykonuje cały kod napisany w oknie.
 
-**Uruchom wybór** \![](<../../../.gitbook/assets/image (52).png>): wykonuje tylko wybrane/wyróżnione wiersze kodu.
+**Uruchom wybór** ![](<../../../.gitbook/assets/image (52).png>): wykonuje tylko wybrane/wyróżnione wiersze kodu.
 
 ### **Wynik skryptu**
 
