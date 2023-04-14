@@ -26,7 +26,7 @@
     1.  切り取るエッジを選択します。
 
         <img src="../.gitbook/assets/sweep3.png" alt="" data-size="original">
-    2. **[終了]** アイコンをクリックします。元のオブジェクトがスイープ パスに沿って修正されます。![](../.gitbook/assets/sweep4.png)![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (1).png>))
+    2. **[終了]** アイコンをクリックします。元のオブジェクトがスイープ パスに沿って修正されます。![](../.gitbook/assets/sweep4.png)![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (1).png>)
 
 ## 複数のプロファイルまたはエッジをロフトするには
 
