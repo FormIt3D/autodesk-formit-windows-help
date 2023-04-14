@@ -32,9 +32,9 @@ Generowanie może potrwać kilka sekund w zależności od zakresu obrazu satelit
 
 Budynki kontekstowe 3D zostaną automatycznie umieszczone w wystąpieniu grupy i umieszczone na warstwie o nazwie „Context Buildings” (Budynki kontekstowe). Widoczność kontekstu można przełączać za pomocą tej warstwy.
 
-\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
+![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
+![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
 Jeśli później zdecydujesz się na zmianę położenia lub dopasujesz zakres obrazu satelitarnego, możesz ponownie kliknąć opcję **Generate 3D Context** (Generuj kontekst 3D), aby ponownie wygenerować budynki. 
 
