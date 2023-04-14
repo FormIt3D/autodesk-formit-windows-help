@@ -18,9 +18,9 @@ Ta wartość wpłynie również na jakość okręgów i łuków importowanych z 
 
 W przypadku istniejących krzywych można również użyć wtyczki Rebuild Curve, aby przebudować **istniejący** łuk lub okrąg za pomocą nowej liczby płaszczyzn:
 
-\![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
+![](<../.gitbook/assets/screen-shot-2020-01-10-at-1.20.53-pm (1).png>)
 
-\![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
+![](<../.gitbook/assets/faceting_rebuild-curve (1).gif>)
 
 **Surface Faceting Quality**
 
@@ -30,10 +30,10 @@ Na przykład ustawienie wartości 64 spowoduje, że po naniesieniu sfery z dodat
 
 Podczas pracy z dodatkiem Dynamo można zmienić jakość płaszczyzn i kliknąć przycisk „Run Graph” w panelu Właściwości, nie zmieniając żadnych parametrów, aby skorzystać z nowej liczby płaszczyzn:
 
-\![](<../.gitbook/assets/faceting_column (1).gif>)
+![](<../.gitbook/assets/faceting_column (1).gif>)
 
 Podobnie jak w przypadku krzywych, jakość płaszczyzn powierzchni można ustawić dla nowych szkiców lub tylko dla bieżącego szkicu.
 
 Pamiętaj, że wartości liczby płaszczyzn są obecnie ograniczone do wielokrotności liczby 4, dlatego podczas ręcznego wprowadzania liczb program FormIt będzie zaokrąglał je do najbliższej wielokrotności. Do przełączania akceptowanych wartości służą również suwaki i strzałki.
 
-\![](<../.gitbook/assets/units-+-precision (1).png>)
+![](<../.gitbook/assets/units-+-precision (1).png>)
