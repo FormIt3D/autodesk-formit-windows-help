@@ -4,7 +4,7 @@ Aproxime arestas abertas, faça alterações de geometria ao longo de um caminho
 
 ## Para fechar uma série de faces
 
-1. No menu **Ferramentas avançadas de geometria** na barra de ações, clique na ferramenta **Cobertura**. \![](<../.gitbook/assets/cover-tool (1).png>)
+1. No menu **Ferramentas avançadas de geometria** na barra de ações, clique na ferramenta **Cobertura**. ![](<../.gitbook/assets/cover-tool (1).png>)
 2.  Clique nas arestas do objeto que deseja cobrir.
 
     <img src="../.gitbook/assets/cover_tool1.png" alt="" data-size="original">
@@ -16,7 +16,7 @@ Aproxime arestas abertas, faça alterações de geometria ao longo de um caminho
 ## Para varrer a geometria ao longo de um caminho
 
 1. Use uma linha para marcar a face de um objeto que você deseja cortar. ![](../.gitbook/assets/sweep.png)
-2. Clique no ícone da ferramenta de varredura. \![](<../.gitbook/assets/sweep-tool (1).png>)
+2. Clique no ícone da ferramenta de varredura. ![](<../.gitbook/assets/sweep-tool (1).png>)
 3.  Selecione a face que você marcou anteriormente.
 
     ```
@@ -26,11 +26,11 @@ Aproxime arestas abertas, faça alterações de geometria ao longo de um caminho
     1.  Selecione a aresta a ser recortada.
 
         <img src="../.gitbook/assets/sweep3.png" alt="" data-size="original">
-    2. Clique no ícone **Concluir**. O objeto original é modificado ao longo do caminho de varredura. ![](../.gitbook/assets/sweep4.png)\![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (1).png>)
+    2. Clique no ícone **Concluir**. O objeto original é modificado ao longo do caminho de varredura. ![](../.gitbook/assets/sweep4.png)![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (1).png>)
 
 ## Para elevar vários perfis ou arestas
 
-1. No menu **Ferramentas avançadas de geometria** na barra de ações, clique na ferramenta **Elevar**. \![](<../.gitbook/assets/loft-tool (1).png>)
+1. No menu **Ferramentas avançadas de geometria** na barra de ações, clique na ferramenta **Elevar**. ![](<../.gitbook/assets/loft-tool (1).png>)
 2.  Selecione a face ou as arestas que deseja elevar no primeiro objeto.
 
     <img src="../.gitbook/assets/loft1.png" alt="" data-size="original">
