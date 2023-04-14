@@ -10,7 +10,7 @@ Klawiatura: I G
 
 Uruchom polecenie Przetnij i postępuj zgodnie z instrukcją trybu w lewym górnym rogu ekranu.
 
-Kliknij jednokrotnie, aby wybrać obiekt, w którym zostanie zrobione wycięcie:\\
+Kliknij jednokrotnie, aby wybrać obiekt, w którym zostanie zrobione wycięcie:
 
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
