@@ -14,7 +14,7 @@ A barra de ferramentas padrão é ativada por padrão, mas é dividida nas seç�
 
 ### Geometria
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**Seleção**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) e filtros de seleção de área
 2. Ferramentas [**Medir distância**](../tool-library/measure-tool.md) e [**Medir ângulo**](../tool-library/measure-angle-tool.md)
@@ -44,7 +44,7 @@ A barra de ferramentas padrão é ativada por padrão, mas é dividida nas seç�
 
 ## Paletas
 
-\![](<../.gitbook/assets/properties (1).png>) [**Propriedades**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**Propriedades**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Camadas**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@ Clique com o botão direito do mouse em um elemento na tela 3D para exibir um me
 
 Personalize os [a**talhos de teclado**](../appendix/keyboard-shortcuts.md) do FormIt em Editar > Preferências > Atalhos.
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
