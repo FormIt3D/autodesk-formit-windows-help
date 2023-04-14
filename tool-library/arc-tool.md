@@ -16,7 +16,7 @@ Po narysowaniu łuku można utworzyć powierzchnię za pomocą [narzędzia Linia
 
 ## Łuk na podstawie środka
 
-\![](<../.gitbook/assets/arc-by-center (1).png>)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Wybierz punkt środkowy łuku, przeciągnij, aby wybrać środek, a potem przeciągnij, aby zdefiniować długość łuku. Aby wprowadzić dokładną liczbę stopni kąta łuku, wystarczy rozpocząć wpisywanie wartości.
 
