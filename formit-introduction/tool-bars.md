@@ -14,7 +14,7 @@ Standardowy pasek narzędzi jest domyślnie włączony, ale jest podzielony na n
 
 ### Geometria
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. [**Wybór**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) i filtry wyboru powierzchni
 2. Narzędzia [**Zmierz** ](../tool-library/measure-tool.md)odległość i [**Zmierz kąt**](../tool-library/measure-angle-tool.md)
@@ -44,7 +44,7 @@ Standardowy pasek narzędzi jest domyślnie włączony, ale jest podzielony na n
 
 ## Palety
 
-\![](<../.gitbook/assets/properties (1).png>) [**Właściwości**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**Właściwości**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Warstwy**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@ Kliknij prawym przyciskiem myszy element w obszarze rysunku 3D, aby wyświetlić
 
 Dostosuj [**skróty klawiaturowe**](../appendix/keyboard-shortcuts.md) programu FormIt w menu Edycja > Preferencje > Skróty.
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
