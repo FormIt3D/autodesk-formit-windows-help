@@ -2,7 +2,7 @@
 
 Desenhe linhas paralelas ou de deslocamento usando a ferramenta Linha de deslocamento. Isso será útil para criar formas 2D das quais é possível efetuar a extrusão para que se pareçam com paredes 3D.
 
-\![](<../.gitbook/assets/image (3) (1).png>)
+![](<../.gitbook/assets/image (3) (1).png>)
 
 A ferramenta **Linha de deslocamento** funciona como a ferramenta [**Linha**](https://windows.help.formit.autodesk.com/tool-library/line-tool):
 
