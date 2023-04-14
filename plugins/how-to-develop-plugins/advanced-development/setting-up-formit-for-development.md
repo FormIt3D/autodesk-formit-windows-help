@@ -26,9 +26,9 @@ O Editor de script armazena o código criado em um arquivo scratch.js no diretó
 
 Na parte superior, há dois botões:
 
-**Executar** \![](<../../../.gitbook/assets/image (8)(1).png>): executa todo o código escrito na janela.
+**Executar** ![](<../../../.gitbook/assets/image (8)(1).png>): executa todo o código escrito na janela.
 
-**Executar seleção** \![](<../../../.gitbook/assets/image (52).png>): executa somente as linhas de código selecionadas/realçadas.
+**Executar seleção** ![](<../../../.gitbook/assets/image (52).png>): executa somente as linhas de código selecionadas/realçadas.
 
 ### **Saída de script**
 
