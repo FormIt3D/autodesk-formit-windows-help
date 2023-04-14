@@ -29,10 +29,10 @@ Typowa wtyczka ma następujące właściwości JSON:
 * W narzędziu [Plugin Manager](../../how-to-use-plug-ins.md#plugin-manager) jest wyświetlany opis wtyczki („PluginDescription”) z wyszczególnieniem jej możliwości.
 * „Scripts” — zawiera wymagane skrypty zewnętrzne skojarzone z wtyczką, które zostaną wczytane do aplikacji FormIt i mogą być wykonywane po wywołaniu funkcji wtyczki.
 
-\![](<../../../.gitbook/assets/image (5) (1).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 Rozpocznij tworzenie wtyczki, tworząc plik manifest.json w folderze wtyczki. Następnie należy zdecydować, czy tworzona wtyczka będzie oparta na pasku narzędzi, czy panelu.
 
-\![](<../../../.gitbook/assets/image (36).png>)
+![](<../../../.gitbook/assets/image (36).png>)
 
 **Uwaga:** używanie zmiennej PLUGINLOCATION w całym pliku manifest.json powyżej jest bardzo ważne i jest w nim uwzględniana wielkość liter. Program FormIt zastąpi zmienną PLUGINLOCATION położeniem wtyczki na serwerze.
