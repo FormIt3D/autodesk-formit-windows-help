@@ -24,4 +24,4 @@
 
 1. Двойным щелчком выберите объект, в котором нужно выполнить вырезание. (Чтобы выбрать группу, щелкните один раз.)
 2. Нажав и удерживая клавишу **CTRL**, дважды щелкните перекрывающиеся объекты для вырезания.
-3. Щелкните правой кнопкой мыши объект, который нужно вырезать, и выберите [**инструмент «Вырезать»**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) в контекстном меню. \![](<../.gitbook/assets/cut tool.png>)
+3. Щелкните правой кнопкой мыши объект, который нужно вырезать, и выберите [**инструмент «Вырезать»**](https://github.com/FormIt3D/autodesk-formit-360-windows-help/tree/c377e7b8a3b8e43e684321d0b7de867608d317a3/tool-library/boolean-operations.md) в контекстном меню. ![](<../.gitbook/assets/cut tool.png>)
