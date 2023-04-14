@@ -14,7 +14,7 @@
 
 ### Геометрия
 
-\![](<../.gitbook/assets/geometry_icons (1).png>)
+![](<../.gitbook/assets/geometry_icons (1).png>)
 
 1. Фильтры [**выбора**](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object) и выбора областей
 2. Инструменты [**Измерить расстояние** ](../tool-library/measure-tool.md)и [**Измерить угол**](../tool-library/measure-angle-tool.md)
@@ -44,7 +44,7 @@
 
 ## Палитры
 
-\![](<../.gitbook/assets/properties (1).png>) [**Свойства**](https://windows.help.formit.autodesk.com/tool-library/properties)
+![](<../.gitbook/assets/properties (1).png>) [**Свойства**](https://windows.help.formit.autodesk.com/tool-library/properties)
 
 ![](../.gitbook/assets/layers.png) [**Слои**](../tool-library/layers.md)
 
@@ -80,4 +80,4 @@
 
 Настроить [**сочетания клавиш**](../appendix/keyboard-shortcuts.md) для Formit можно в меню «Правка» > «Настройки» >«Горячие клавиши».
 
-\![](<../.gitbook/assets/shortcuts_img (1).png>)
+![](<../.gitbook/assets/shortcuts_img (1).png>)
