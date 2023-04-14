@@ -50,7 +50,7 @@ FormIt для ОС Windows напрямую подключается к Revit, 
 * Создайте ссылку на модель FormIt в Revit с помощью инструмента _Связь САПР_ и продолжайте работу над визуализацией и детализацией в Revit.
 * Запустите связь с FormIt из Revit с помощью функции _Редактировать в FormIt_.
 
-\![](<../.gitbook/assets/revit to formit.png>)
+![](<../.gitbook/assets/revit to formit.png>)
 
 ### **3D-эскиз, редактирование в FormIt и отправка в Revit для выполнения итераций по проекту** <a href="#3d-sketch-and-send-to-revit-for-design-iteration" id="3d-sketch-and-send-to-revit-for-design-iteration"></a>
 
