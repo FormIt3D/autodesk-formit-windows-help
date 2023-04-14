@@ -16,7 +16,7 @@ Após desenhar o arco, é possível criar uma face usando a [ferramenta Linha](l
 
 ## Arco por centro
 
-\![](<../.gitbook/assets/arc-by-center (1).png>)
+![](<../.gitbook/assets/arc-by-center (1).png>)
 
 Selecione o ponto central do arco, arraste para selecionar o centro e arraste para definir o comprimento do arco. Basta começar a digitar um valor para inserir um número preciso de graus para o arco.
 
