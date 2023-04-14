@@ -1,6 +1,6 @@
 # 3D Context Creator
 
-\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
+![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## Что это такое?
 
@@ -18,13 +18,13 @@
 
 После включения подключаемый модуль должен отображаться в правой части приложения и быть готов к использованию.
 
-\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
+![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
 Если местоположение площадки еще не задано, щелкните ссылку **Задать местоположение...**, чтобы задать местоположение и определить границу, которая будет использоваться для создания 3D-контекста.
 
 После задания местоположения в 3D Context Creator будет выполнено обновление с учетом текущего местоположения, и кнопка будет активирована.
 
-\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
+![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
 Для создания 3D-контекста в 3D Context Creator будут использоваться границы спутникового изображения. Вам просто нужно нажать кнопку **Создать 3D-контекст**.
 
@@ -32,9 +32,9 @@
 
 Здания в 3D-контексте автоматически размещаются в экземпляре группы, а также на слое «Контекстные здания». С помощью этого слоя можно переключать видимость контекста.
 
-\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
+![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
+![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
 Если позднее потребуется изменить местоположение или скорректировать область видимости спутникового изображения, можно снова нажать кнопку **Создать 3D-контекст** для регенерации зданий. 
 
@@ -44,10 +44,10 @@ _Обратите внимание на то, что при регенераци
 
 Попробуйте угадать, какие знаменитые города представлены в следующих контекстах.
 
-\![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
-\![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
-\![](<../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-\![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59).png>)
