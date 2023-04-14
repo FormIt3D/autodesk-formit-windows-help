@@ -1,6 +1,6 @@
 # Kreator kontekstu 3D
 
-\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
+![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## Co to jest?
 
@@ -18,13 +18,13 @@ Aby zainstalować tę wtyczkę, wystarczy włączyć jej przełącznik w narzęd
 
 Po włączeniu wtyczki za pomocą przełącznika powinna ona być widoczna po prawej stronie aplikacji i gotowa do użycia.
 
-\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
+![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
 Jeśli teren nie ma jeszcze położenia, można kliknąć link **Ustaw położenie...**, aby ustawić położenie i zdefiniować obwiednię, która zostanie użyta do wygenerowania kontekstu 3D.
 
 Po ustawieniu położenia wtyczka 3D Context Creator wykona aktualizację z uwzględnieniem bieżącego położenia i przycisk zostanie włączony:
 
-\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
+![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
 Wtyczka 3D Context Creator użyje po prostu zakresu obrazu satelitarnego do wygenerowania kontekstu 3D. Wystarczy kliknąć przycisk **Generate 3D Context** (Generuj kontekst 3D).
 
@@ -44,10 +44,10 @@ _Uwaga: ponowne wygenerowanie kontekstu spowoduje zastąpienie wystąpienia grup
 
 Spróbuj zgadnąć, jakie znane miasta są reprezentowane w następujących kontekstach:
 
-\![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
-\![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
-\![](<../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-\![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59).png>)
