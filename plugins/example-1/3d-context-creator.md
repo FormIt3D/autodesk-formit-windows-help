@@ -1,6 +1,6 @@
 # Criador de contexto 3D
 
-\![](<../../.gitbook/assets/3D Context Creator_new.gif>)
+![](<../../.gitbook/assets/3D Context Creator_new.gif>)
 
 ## O que é?
 
@@ -18,13 +18,13 @@ Para instalá-lo, basta ativar a alternância do plug-in no Gerenciador de plug-
 
 Depois de ativado, o plug-in deve ser exibido no lado direito do aplicativo e estar pronto para uso.
 
-\![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
+![](<../../.gitbook/assets/3D Context Creator new_no location (1).png>)
 
 Se o terreno ainda não tiver uma localização, será possível clicar no link **Definir localização...** para definir uma localização e definir o limite que será usado para gerar o contexto 3D.
 
 Uma vez definida a localização, o Criador de contexto 3D será atualizado com a localização atual e o botão será ativado:
 
-\![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
+![](<../../.gitbook/assets/3D Context Creator new_with location.png>)
 
 O Criador de contexto 3D simplesmente usará as extensões da imagem de satélite para gerar o Contexto 3D. Tudo o que você precisa fazer é clicar em **Gerar contexto 3D**.
 
@@ -32,9 +32,9 @@ Dependendo das extensões da imagem de satélite e da complexidade dos prédios,
 
 As construções de contexto 3D serão automaticamente posicionadas em uma instância de grupo e posicionadas em uma camada denominada “Construções de contexto”. É possível alternar a visibilidade do contexto usando essa camada.
 
-\![](<../../.gitbook/assets/3D Context Creator_layers.png>)
+![](<../../.gitbook/assets/3D Context Creator_layers.png>)
 
-\![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
+![](<../../.gitbook/assets/3D Context Creator_NYC.png>)
 
 Se posteriormente você decidir alterar a localização ou ajustar o escopo da imagem de satélite, será possível clicar em **Gerar contexto 3D** novamente para regenerar as construções. 
 
@@ -44,10 +44,10 @@ _Observe que a regeneração do contexto substituirá a instância do grupo que 
 
 Tente adivinhar quais cidades icônicas são representadas nos seguintes contextos:
 
-\![](<../../.gitbook/assets/image (2) (1).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
-\![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
-\![](<../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../.gitbook/assets/image (13) (1) (1).png>)
 
-\![](<../../.gitbook/assets/image (59).png>)
+![](<../../.gitbook/assets/image (59).png>)
