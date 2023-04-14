@@ -37,6 +37,6 @@ Aproxime arestas abertas, faça alterações de geometria ao longo de um caminho
 3.  Selecione a face ou as arestas que deseja elevar no segundo objeto. Repita essa etapa para objetos adicionais.
 
     <img src="../.gitbook/assets/loft2.png" alt="" data-size="original">
-4.  Clique no ícone **Concluir**. \![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2) (1).png>)
+4.  Clique no ícone **Concluir**. ![](<../.gitbook/assets/guid-e23d787e-5f90-4de1-b690-03306f0cb4b2-low (1) (1) (2) (1).png>)
 
     <img src="../.gitbook/assets/loft3.png" alt="" data-size="original">
