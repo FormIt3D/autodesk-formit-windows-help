@@ -1,14 +1,16 @@
 ---
-описание: Автоматизированное проектирование в FormIt
+description: Computational Design in FormIt
 ---
 
 # FormIt и Dynamo
 
-![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 В FormIt для ОС Windows встроена программа Dynamo, обеспечивающая невероятно мощные рабочие процессы автоматизированного проектирования.
 
 ## Новые возможности FormIt и Dynamo
+
+В FormIt 2024 теперь используется последний выпуск Dynamo версии 2.17.
 
 ### **Графики данных, отправка уровней в Excel и управление фасетизацией**
 
@@ -38,7 +40,7 @@
 
 Используйте панель Dynamo для запуска Dynamo, размещения групп Dynamo и редактирования графиков Dynamo.
 
-![Панель Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+\![Панель Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Добавление локальных каталогов Dynamo и управление ими**
 
@@ -202,7 +204,7 @@ FormIt поддерживает три типа графиков Dynamo.
 * При использовании нескольких узлов **SendToFormIt** эти узлы можно организовать по материалу, что позволяет окрашивать разные подгруппы FormIt с помощью разных материалов.
 * В этом примере из простых плоскостей в FormIt создается целое здание. Каждому компоненту здания, которому требуются уникальные материалы, назначается собственный узел **SendToFormIt**.
 
-![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * После применения материалов к каждой подгруппе эти материалы сохраняются при последующих запусках Dynamo.
 
@@ -229,7 +231,7 @@ FormIt поддерживает три типа графиков Dynamo.
   * При копировании и вставке групп Dynamo их идентичность сохраняется. Любые изменения, внесенные в график Dynamo одной из копий, приводят к обновлению геометрии в идентичных ей экземплярах, если только эти экземпляры не являются уникальными.
   * Группы Dynamo можно сделать уникальными с помощью команды быстрого вызова MU или через контекстное меню.
 
-![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## Ключевые узлы FormIt
 
@@ -239,17 +241,17 @@ FormIt поддерживает три типа графиков Dynamo.
 
 * Для создания объектов Dynamo в FormIt присоедините требуемые выходные данные геометрического узла к входному параметру _geometry_ хотя бы одного узла SendToFormIt.
 
-![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions — новый (дополнительный) порт, доступный в FormIt 2022\. Подробные сведения о нем см. в разделе **Узлы FormItGroupOptions** ниже.
 * В FormIt 2021.3 или более поздней версии можно использовать несколько узлов SendToFormIt для объединения результатов из Dynamo в аккуратные группы и подгруппы FormIt.
 * [Подробнее об использовании групп FormIt в Dynamo](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 
-![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * Узел SendToFormIt учитывает флаг «Является выводом», который устанавливается по умолчанию. Щелкните узел правой кнопкой мыши, чтобы проверить это.
 
-![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * Если этот флаг установлен, геометрия, присоединенная к этому узлу SendToFormIt, появится в FormIt внутри подгруппы.
 * Если этот флаг снят, геометрия не отправляется в FormIt, а соответствующая подгруппа (при ее наличии) удаляется.
@@ -258,11 +260,11 @@ FormIt поддерживает три типа графиков Dynamo.
 
 * В FormIt 2021 или более поздней версии геометрию из FormIt можно выбрать для использования в качестве входных данных в графиках Dynamo.
 
-![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * Имя узла SelectFromFormIt будет использоваться для запросов в FormIt, поэтому следует присвоить ему имя, описывающее тип геометрии FormIt, который необходимо выбрать.
 
-![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * При нажатии кнопки «Выбрать из FormIt» в редакторе графиков Dynamo или на панели «Свойства» в FormIt запускается режим мастера выбора, помогающий выбрать геометрию.
 
@@ -270,7 +272,7 @@ FormIt поддерживает три типа графиков Dynamo.
 
 * Узел SelectFromFormIt учитывает флаг «Является вводом», который устанавливается по умолчанию. Он должен быть установлен для выполнения выбора в FormIt. Щелкните узел правой кнопкой мыши, чтобы проверить это.
 
-![](<../.gitbook/assets/dynamo_isinput (1).png>)
+\![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * Если флаг «Является вводом» установлен:
   * Миниатюра графика на панели Dynamo укажет на необходимость выбора.
@@ -322,7 +324,7 @@ FormIt поддерживает три типа графиков Dynamo.
   * И наоборот, удаление всех узлов FormItLengthString из графика приведет к переключению исходных чисел на заданные параметры единиц FormIt (прежнее поведение).
 * Числовой вывод узлов _FormItLengthString_ также представляется в метрах, однако это не приводит к изменению размера геометрических результатов в FormIt.
 
-![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **Другие поддерживаемые узлы ввода**
 
@@ -336,7 +338,7 @@ FormIt поддерживает три типа графиков Dynamo.
 
 Узлы ввода можно переименовать (рекомендуется сделать это для ясности), и их новые имена появятся в FormIt.
 
-![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -348,7 +350,7 @@ FormIt поддерживает три типа графиков Dynamo.
 
 Узлы Watch, для которых установлен флаг «Является выводом», отображаются в разделе «Выходные данные узла просмотра» панели «Свойства» в FormIt 2022 или более поздней версии.
 
-![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **Отображение уведомлений FormIt**
 
@@ -375,7 +377,7 @@ FormIt поддерживает три типа графиков Dynamo.
 
 Узлы _FormItGeometryOptions_ можно использовать на участках, следующих за узлом _SendToFormIt_.
 
-![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -397,7 +399,7 @@ FormIt поддерживает три типа графиков Dynamo.
 
 Узел **CallJSAPI** позволяет вызывать API-интерфейсы JavaScript, доступные в FormIt, непосредственно из Dynamo.
 
-![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 Информацию об именах функций и параметрах можно найти в документации по JavaScript, которая разделена на две части: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) и [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (ядро моделирования).
 
@@ -405,7 +407,7 @@ FormIt поддерживает три типа графиков Dynamo.
 
 В свою очередь, узел **CallPluginJS** позволяет вызывать пользовательские функции из загруженного подключаемого модуля или фрагмента сценария, который был выполнен из окна редактора сценариев.
 
-![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## Важные примечания
 
