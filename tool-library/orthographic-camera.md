@@ -27,7 +27,7 @@ FormIt 2023 include diverse opzioni di cinepresa ortogonale e prospettica. È po
 
 ### Utilizzo delle modalità
 
-Le modalità della cinepresa sono tutte modalità operative complete, con accesso agli strumenti di navigazione e di disegno in qualsiasi modalità si preferisca. Il menu consente di passare facilmente da una cinepresa all'altra.&#x20;
+Le modalità della cinepresa sono tutte modalità operative complete, con accesso agli strumenti di navigazione e di disegno in qualsiasi modalità si preferisca. Il menu consente di passare facilmente da una cinepresa all'altra. 
 
 ![Attivazione/Disattivazione delle tre diverse modalità della cinepresa: Prospettiva a 3 punti, Prospettica a 2 punti e Ortogonale](../.gitbook/assets/perspective-gif.gif)
 
@@ -36,3 +36,23 @@ Una volta selezionata una cinepresa, eventuali altri strumenti della cinepresa r
 Se si passa manualmente ad una vista Ortogonale preimpostata, ad esempio Vista dall'alto o Vista anteriore, la vista della cinepresa Ortogonale eseguirà lo snap a quella posizione, semplificando l'accesso a tali viste preimpostate.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
+
+### Assonometrica
+
+Oltre alle opzioni della cinepresa Ortogonale e Prospettica disponibili sulla barra degli strumenti di navigazione, FormIt offre una cinepresa Assonometrica disponibile solo dal menu Vista (solo Windows):
+
+<figure><img src="../.gitbook/assets/AxonometricMenu (2).png" alt=""><figcaption></figcaption></figure>
+
+Selezionando questa opzione, la cinepresa verrà impostata nella vista Assonometrica:
+
+<figure><img src="../.gitbook/assets/Axonometric (2).png" alt=""><figcaption></figcaption></figure>
+
+### Obliqua
+
+FormIt offre anche un’opzione della cinepresa Obliqua disponibile solo nel menu Vista (solo Windows):
+
+<figure><img src="../.gitbook/assets/ObliqueMenu.png" alt=""><figcaption></figcaption></figure>
+
+Selezionando questa opzione, la cinepresa verrà impostata nella vista Obliqua:
+
+<figure><img src="../.gitbook/assets/Oblique (2).png" alt=""><figcaption></figcaption></figure>
