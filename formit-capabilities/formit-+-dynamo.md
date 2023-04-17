@@ -1,14 +1,16 @@
 ---
-descripción: Diseño computacional en FormIt
+description: Computational Design in FormIt
 ---
 
 # FormIt + Dynamo
 
-![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 FormIt para Windows incorpora Dynamo para ofrecer flujos de trabajo de diseño computacional excepcionales.
 
 ## Novedades de FormIt + Dynamo
+
+FormIt 2024 se ha actualizado con la versión 2.17 de Dynamo más reciente.
 
 ### **Gráficos de datos, envío de niveles a Excel y control de facetado**
 
@@ -36,9 +38,9 @@ Obtenga más información sobre la interfaz y vincule los directorios de Dynamo 
 
 ### **Panel de Dynamo**
 
-Utilice el panel de Dynamo para iniciar Dynamo, insertar grupos de Dynamo y editar gráficos de Dynamo:
+Utilice el panel de Dynamo para iniciar Dynamo, insertar grupos de esta solución y editar sus gráficos:
 
-![Panel de Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+\![Panel de Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Adición y administración de directorios locales de Dynamo**
 
@@ -61,7 +63,7 @@ Cree y edite gráficos en Dynamo o pruebe parámetros en FormIt sin necesidad de
 
 FormIt admite tres tipos de gráficos de Dynamo:
 
-* Gráfico de datos: los gráficos de datos no tienen nodos _SendToFormIt_ y se utilizan para mostrar o pasar datos a través de FormIt. Por ejemplo, puede utilizar gráficos de datos para enviar datos a Excel o calcular datos no geométricos y mostrarlos en un nodo de visualización.
+* Gráfico de datos: los gráficos de datos no tienen nodos _SendToFormIt_ y se utilizan para visualizar o transferir datos a través de FormIt. Por ejemplo, puede utilizar gráficos de datos para enviar datos a Excel o calcular datos no geométricos y mostrarlos en un nodo de visualización.
 * Gráfico de geometría: estos gráficos generan geometría inmediatamente y se deben colocar en el lienzo para ver sus parámetros. Después de hacer clic en la miniatura, la geometría aparecerá en el cursor para su colocación en la escena 3D. Este gráfico requiere la presencia de al menos un nodo _SendToFormIt_ que reciba geometría al final del gráfico.
 * Gráfico de selección: estos gráficos requieren que haya selecciones de FormIt antes de ejecutarse. Aparecerá una solicitud en la esquina superior izquierda de FormIt para indicar qué se debe seleccionar. Después de proporcionar la selección, el gráfico se ejecutará y generará geometría relativa a la selección. Este gráfico requiere la presencia de al menos un nodo _SendToFormIt_ que reciba geometría al final del gráfico.
 
@@ -73,7 +75,7 @@ FormIt admite tres tipos de gráficos de Dynamo:
 
 * En el panel de Dynamo, haga clic en la miniatura del gráfico de Dynamo que desea ejecutar.
   * Puede utilizar las muestras integradas o [vincular una biblioteca](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) de sus propios archivos de Dynamo.
-* Al colocar la geometría en FormIt, se incrusta una copia del gráfico de Dynamo en el archivo FormIt.
+* Al colocar la geometría en FormIt, se incrusta una copia del gráfico de Dynamo en el archivo de FormIt.
   * Para generar geometría, es necesario enlazar un nodo [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) a los nodos de geometría de salida del gráfico.
 * La geometría del nodo SendToFormIt estará disponible en el cursor para su inserción.
   * Cuando el gráfico tiene nodos [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) marcados como Es entrada, FormIt solicitará primero la selección (en cada nodo de selección en orden vertical) y, a continuación, generará la geometría en el lugar correcto con respecto a la selección.
@@ -85,7 +87,7 @@ FormIt admite tres tipos de gráficos de Dynamo:
 ![](../.gitbook/assets/dynamo\_stairsgif2\_modifyparameters.gif)
 
 * Después de insertar un grupo de Dynamo, selecciónelo y cambie al panel Propiedades, o simplemente haga doble clic en el grupo para cambiar automáticamente a Propiedades.
-  * Aquí se mostrarán todos los nodos de entrada marcado como "Es entrada" en Dynamo.
+  * Aquí se mostrarán todos los nodos de entrada marcados como "Es entrada" en Dynamo.
   * Los nodos de entrada de [**SelectFromFormIt**](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) se mostrarán como botones en la parte superior y se pueden utilizar para actualizar la selección que se emplea para controlar el gráfico.
   * FormIt admite estos nodos de entrada: controles deslizantes de número, controles deslizantes de enteros, conmutadores booleanos y campos de número o cadena.
 * Realice cambios en las entradas de FormIt y, a continuación, haga clic en Ejecutar. El botón Ejecutar cambiará a color azul para indicar que se han modificado los parámetros y que es necesario ejecutar el gráfico.
@@ -101,7 +103,7 @@ En FormIt 2023 y versiones posteriores, puede utilizar Dynamo para enviar nivele
 * Descargue el [gráfico de muestra de Dynamo aquí](https://formit-help.s3.amazonaws.com/Send+Levels+to+Excel.dyn).
 * Dirija la paleta Dynamo al directorio local en el que se ha guardado el gráfico de Dynamo.
 * Haga clic con el botón derecho en la miniatura y seleccione _Editar gráfico incrustado_.
-* Cree una hoja de cálculo de Excel vacía en algún lugar.
+* Cree una hoja de cálculo de Excel vacía en la ubicación que desee.
 * Edite el campo Ubicación de hoja de cálculo y utilice la ruta de la hoja de cálculo de Excel.
 * Edite cualquier otro campo que desee, como Nombre de plano.
 * Cierre Dynamo y guarde el gráfico.
@@ -126,11 +128,11 @@ A medida que realiza cambios en el modelo, puede hacer clic de nuevo en la minia
 
 ### **Editar gráficos incrustados y de origen**
 
-Los gráficos de Dynamo existentes se pueden editar de dos formas distintas: mediante la edición de los gráficos incrustados que ya se han colocado en FormIt o mediante la edición del gráfico de origen guardado en el equipo.
+Los gráficos de Dynamo existentes se pueden editar de estas dos formas: mediante la edición de los gráficos incrustados que ya se han colocado en FormIt o mediante la edición del gráfico de origen guardado en el equipo.
 
 ### **Gráficos incrustados**
 
-Después de colocar un objeto de Dynamo en FormIt, el gráfico subyacente se copia e incrusta en el archivo de FormIt actual. La edición en Dynamo se realiza mediante el botón **Editar gráfico incrustado**.
+Después de colocar un objeto de Dynamo en FormIt, el gráfico subyacente se copia y se incrusta en el archivo de FormIt actual. La edición en Dynamo se realiza mediante el botón **Editar gráfico incrustado**.
 
 ![](../.gitbook/assets/dynamo\_embeddedgraph.png)
 
@@ -138,7 +140,7 @@ Después de colocar un objeto de Dynamo en FormIt, el gráfico subyacente se cop
 
 * Seleccione el grupo de Dynamo y cambie al panel Propiedades, o simplemente haga doble clic en el grupo para cambiar automáticamente a Propiedades.
 * Haga clic en el botón **Editar gráfico incrustado**.
-* En Dynamo, observará que ahora aparece "(FormIt)"en el nombre de archivo de la parte superior. Esto significa que está editando un gráfico incrustado en este archivo de FormIt, sin modificar el gráfico de origen.
+* En Dynamo, observará que ahora aparece "(FormIt)" en el nombre de archivo de la parte superior. Esto significa que está editando un gráfico incrustado en este archivo de FormIt, sin modificar el gráfico de origen.
 * Asegúrese de que uno o varios nodos [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) estén conectados a la geometría que desea enviar a FormIt.
 * FormIt mostrará las actualizaciones de la geometría en tiempo real a medida que se ajuste el gráfico.
 * Si no se guardan los cambios en Dynamo, FormIt volverá a la última versión guardada del gráfico de Dynamo.
@@ -146,7 +148,7 @@ Después de colocar un objeto de Dynamo en FormIt, el gráfico subyacente se cop
 
 ### **Gráficos de origen**
 
-Los gráficos de origen se muestran en el panel de Dynamo después de [vincular directorios locales](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started). Estos gráficos se almacenan en el equipo y se pueden editar en Dynamo haciendo clic en el botón Editar gráfico de origen.
+Los gráficos de origen se muestran en el panel de Dynamo después de [vincular directorios locales](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started). Estos gráficos se almacenan en el equipo y se pueden editar en Dynamo. Para ello, haga clic en el botón Editar gráfico de origen.
 
 ![](../.gitbook/assets/dynamo\_editsourcegraph.png)
 
@@ -202,7 +204,7 @@ Aproveche los grupos de FormIt para obtener una mejor organización de la geomet
 * Cuando se utilizan varios nodos **SendToFormIt**, estos se pueden organizar por material, de modo que se puedan pintar distintos subgrupos de FormIt con materiales diferentes.
 * En este ejemplo, se genera un edificio completo a partir de planos simples de FormIt. Cada componente de construcción que requiera materiales únicos cuenta con su propio nodo **SendToFormIt**:
 
-![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * Después de aplicar materiales a cada uno de los subgrupos, los materiales se conservan entre las ejecuciones de Dynamo:
 
@@ -218,18 +220,18 @@ Aproveche los grupos de FormIt para obtener una mejor organización de la geomet
 * Cuando cambie la forma del edificio, simplemente seleccione el grupo del sistema de montantes y haga clic en Ejecutar en el grupo Propiedades.
   * Aunque el contenido del grupo de cristaleras haya cambiado, el grupo en sí no lo ha hecho, por lo que no es necesario volver a seleccionar la cristalera al ejecutar el gráfico de nuevo.
 * El modelo anterior está disponible en FormIt 2022 y versiones posteriores como "Roof Planes Building" en la subcarpeta **Building Masses** de las **muestras de Dynamo**.
-* En combinación con las amplias prestaciones de FormIt, Dynamo permite crear y probar un diseño totalmente paramétrico —con materiales y lógica anidada incluidos— en el contexto enriquecido de un potente modelador conceptual:
+* En combinación con las amplias prestaciones de FormIt, Dynamo permite crear y probar un diseño totalmente paramétrico (con materiales y lógica anidada incluidos) en el contexto enriquecido de un potente modelador conceptual:
 
 ![](../.gitbook/assets/dynamo\_parametricdesigngif.gif)
 
 ### **El comportamiento estándar de los grupos de FormIt sigue aplicándose**
 
-* Aparte de lo que se ha indicado anteriormente, los grupos de Dynamo en FormIt funcionan con las mismas reglas que el resto de grupos. Estas reglas con las siguientes:
+* Además de lo que se ha indicado anteriormente, los grupos de Dynamo en FormIt funcionan con las mismas reglas que el resto de grupos. Estas reglas con las siguientes:
   * Al colocar un nuevo objeto de Dynamo desde el panel de Dynamo, se crea un grupo exclusivo que no afecta a ningún ejemplar del mismo objeto que ya se haya colocado en el boceto.
   * Al copiar y pegar grupos de Dynamo, estos se mantienen idénticos. Los cambios realizados en el gráfico de Dynamo de una de las copias también actualizarán la geometría en los ejemplares idénticos, a menos que se establezcan como exclusivos.
   * Puede establecer los grupos de Dynamo como exclusivos con el atajo MU o mediante el menú contextual:
 
-![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## Nodos fundamentales de FormIt
 
@@ -239,17 +241,17 @@ Los nodos más eficaces para enviar datos entre FormIt y Dynamo.
 
 * Para generar objetos de Dynamo en FormIt, enlace las salidas de nodo geométrico deseadas a la entrada de _geometría_ de al menos un nodo SendToFormIt:
 
-![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions es un nuevo puerto (opcional) de FormIt 2022 y se detalla en la sección **Nodos FormItGroupOptions** que encontrará a continuación.
 * En FormIt 2021.3 y versiones posteriores, puede utilizar varios nodos SendToFormIt para organizar los resultados de Dynamo en grupos y subgrupos de FormIt.
 * [Vea cómo funciona Dynamo con los grupos de FormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 
-![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * El nodo SendToFormIt respeta el indicador Es salida, que está activado por defecto. Puede hacer clic con el botón derecho en el nodo para verificarlo:
 
-![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * Si está activado, la geometría asociada a este nodo SendToFormIt aparecerá en FormIt dentro de un subgrupo.
 * Si este indicador está desactivado, no se enviará ninguna geometría a FormIt y se suprimirá el subgrupo correspondiente (si existe).
@@ -258,11 +260,11 @@ Los nodos más eficaces para enviar datos entre FormIt y Dynamo.
 
 * FormIt 2021 y versiones posteriores ofrece la posibilidad de seleccionar geometría de FormIt para utilizarla en forma de entradas en los gráficos de Dynamo:
 
-![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
-* El nombre asignado al nodo SelectFromFormIt se utilizará en las solicitudes de FormIt. Por tanto, debe ser un nombre que describa el tipo de geometría de FormIt que se ha de seleccionar:
+* El nombre asignado al nodo SelectFromFormIt se utilizará en las solicitudes de FormIt. Por lo tanto, debe ser un nombre que describa el tipo de geometría de FormIt que se ha de seleccionar:
 
-![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * Cuando se hace clic en el botón Seleccionar desde FormIt en el editor gráfico de Dynamo o el grupo Propiedades, FormIt inicia un modo de asistente de selección para guiarle a través de la selección de geometría:
 
@@ -270,7 +272,7 @@ Los nodos más eficaces para enviar datos entre FormIt y Dynamo.
 
 * El nodo SelectFromFormIt respeta el indicador Es entrada, que está activado por defecto. Debe estar activado para que la selección funcione en FormIt. Haga clic con el botón derecho en el nodo para comprobarlo.
 
-![](<../.gitbook/assets/dynamo_isinput (1).png>)
+\![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * Cuando el indicador Es entrada está activado:
   * La miniatura del panel de Dynamo del gráfico indicará que se requiere una selección:
@@ -282,7 +284,7 @@ Los nodos más eficaces para enviar datos entre FormIt y Dynamo.
 
 ![](../.gitbook/assets/dynamo\_selectarraypath.png)
 
-* Al hacer clic en ellos, se iniciará el asistente de selección para cambiar la selección utilizada para generar la geometría final. El gráfico se volverá a ejecutar automáticamente después de realizar una nueva selección.
+* Al hacer clic en ellos, se iniciará el asistente de selección para cambiar la selección utilizada a fin de generar la geometría final. El gráfico se volverá a ejecutar automáticamente después de realizar una nueva selección.
 
 ### **Consejos, trucos y notas**
 
@@ -290,7 +292,7 @@ Los nodos más eficaces para enviar datos entre FormIt y Dynamo.
   * Puede seleccionar cualquier tipo de geometría de FormIt, pero a menudo es mejor restringir la selección a un grupo de FormIt y [seleccionar este grupo en lugar de la geometría original](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 * Si necesita mover los resultados de un gráfico de Dynamo basado en la selección, es mejor mover primero la geometría de selección y, a continuación, volver a ejecutar el gráfico, que se ajustará a la geometría de selección actualizada y se reubicará de forma adecuada. 
   * También puede agrupar los resultados de Dynamo **y** la selección y, a continuación, mover el grupo contenedor.
-* Cuando se envía geometría de FormIt a Dynamo, todos los atributos, materiales y grupos anidados se pierden al devolver la geometría a FormIt.
+* Cuando se envía geometría de FormIt a Dynamo, todos los atributos, los materiales y los grupos anidados se pierden al devolver la geometría a FormIt.
 * Si va a editar un gráfico basado en la selección en Dynamo y la geometría seleccionada en FormIt cambia, deberá volver a seleccionar la geometría. Para ello, haga clic en el botón "Seleccionar en FormIt" en el nodo SelectFromFormIt. 
 * Al realizar una selección en FormIt, se aplica el [filtro de selección](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object#selection-filtering) activo. Por ejemplo, si desea seleccionar vértices de FormIt, deberá activarlos en el filtro de selección.
 
@@ -302,7 +304,7 @@ Existe una amplia gama de opciones de entrada para personalizar fácilmente los 
 
 ### **Nodo FormItLengthString**
 
-En FormIt 2022.1.0 o posterior, puede utilizar el nodo **FormItLengthString** para especificar cotas en cualquier tipo de unidad de FormIt admitida (pies-pulgada, pulgada, m, cm, mm), independientemente de la configuración de unidades de FormIt en el boceto activo.
+En FormIt 2022.1.0 o posterior, puede utilizar el nodo **FormItLengthString** para especificar cotas en cualquier tipo de unidad de FormIt admitida (pies-pulgada, pulgada, m, cm o mm), independientemente de la configuración de unidades de FormIt en el boceto activo.
 
 ![](../.gitbook/assets/dynamo\_formitlengthstring.png)
 
@@ -316,13 +318,13 @@ Cada ejemplar del nodo _FormItLengthString_ se puede utilizar con cualquier tipo
 
 En FormIt 2022.1.1 y versiones posteriores, al cambiar un gráfico para que utilice nodos FormItLengthString (colocando el primero en un gráfico) o al cambiar un gráfico para que utilice solo números sin procesar (eliminando el último FormItLengthString), se modificarán determinados comportamientos en la edición de gráficos en Dynamo:
 
-* Cuando se utiliza el nodo [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) mientras se edita un gráfico, para cambiar entre los números sin procesar y el nodo _FormItLengthString_ como se ha indicado anteriormente, será necesario volver a seleccionar la geometría de cada nodo _SelectFromFormIt_, de modo que los resultados se sigan adaptando correctamente en FormIt.
+* Cuando se utiliza el nodo [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) mientras se edita un gráfico, para cambiar entre los números sin procesar y el nodo _FormItLengthString_ como se ha indicado anteriormente, será necesario volver a seleccionar la geometría de cada nodo _SelectFromFormIt_ para que los resultados se sigan adaptando correctamente en FormIt.
 * Después de colocar el primer nodo FormItLengthString en un gráfico, todos los números del gráfico destinados a cotas (incluidas las entradas de número sin procesar) indicarán metros (la unidad nativa de Dynamo).
   * El nodo [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) tendrá en cuenta el cambio y garantizará que la geometría generada en FormIt mantiene el tamaño correcto.
   * Por el contrario, al eliminar todos los nodos FormItLengthString del gráfico, los números sin procesar indicarán las unidades establecidas en los parámetros de FormIt (comportamiento anterior).
 * La salida numérica de los nodos _FormItLengthString_ también indicará metros, pero esto no cambiará el tamaño de los resultados geométricos en FormIt:
 
-![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **Otros nodos de entrada admitidos**
 
@@ -336,7 +338,7 @@ Los nodos de entrada estándar de Dynamo se mostrarán en el grupo Propiedades d
 
 Puede cambiar el nombre de los nodos de entrada (recomendado para mayor claridad) y el nuevo nombre aparecerá en FormIt:
 
-![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -348,7 +350,7 @@ Diferentes métodos para mostrar resultados no geométricos de Dynamo en FormIt.
 
 Los nodos de visualización marcados como "Es salida" se mostrarán en la sección "Ver las salidas del nodo" del grupo Propiedades en FormIt 2022 y versiones posteriores:
 
-![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **Mostrar notificaciones de FormIt**
 
@@ -375,7 +377,7 @@ FormIt 2022.1 y versiones posteriores ofrece la posibilidad de personalizar el m
 
 Los nodos _FormItGeometryOptions_ se pueden utilizar a continuación del nodo _SendToFormIt_:
 
-![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -397,7 +399,7 @@ FormIt 2022.1 y versiones posteriores ofrecen acceso a las API de JavaScript y a
 
 El nodo **CallJSAPI** permite llamar a la API de JavaScript de FormIt directamente desde Dynamo.
 
-![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 Para obtener información sobre los parámetros y los nombres de función, consulte nuestra documentación de JavaScript, que se divide en dos partes: [API de FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) y [API de WSM](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (kernel de modelado).
 
@@ -405,7 +407,7 @@ Para obtener información sobre los parámetros y los nombres de función, consu
 
 Por el contrario, el nodo **CallPluginJS** permite llamar a funciones personalizadas de un módulo de extensión cargado o un fragmento de secuencia de comandos que se ha ejecutado desde la ventana del Editor de secuencias de comandos.
 
-![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## Notas importantes
 

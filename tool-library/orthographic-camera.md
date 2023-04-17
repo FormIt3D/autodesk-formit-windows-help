@@ -27,7 +27,7 @@ FormIt 2023 incluye varias opciones de cámara ortogonal y en perspectiva. Puede
 
 ### Uso de los modos
 
-Todos los modos de cámara son modos de trabajo completos con acceso a las herramientas de navegación y dibujo. El menú permite alternar fácilmente entre las distintas cámaras.&#x20;
+Todos los modos de cámara son modos de trabajo completos con acceso a las herramientas de navegación y dibujo. El menú permite alternar fácilmente entre las distintas cámaras. 
 
 ![Cambio entre los tres modos de cámara: perspectiva de tres puntos, perspectiva de dos puntos y ortogonal.](../.gitbook/assets/perspective-gif.gif)
 
@@ -36,3 +36,23 @@ Una vez que haya seleccionado una cámara, todas las demás herramientas de cám
 Si se desplaza manualmente a una vista ortogonal predefinida, como Vista superior o Vista frontal, la cámara ortogonal se ajustará a esa posición, lo que facilitará el acceso a esas vistas predefinidas.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
+
+### Axonométrica
+
+Además de las opciones de Cámara ortogonal y en perspectiva disponibles en la barra de herramientas de navegación, FormIt ofrece una cámara axonométrica disponible únicamente en el menú Vista (solo para Windows):
+
+<figure><img src="../.gitbook/assets/AxonometricMenu (2).png" alt=""><figcaption></figcaption></figure>
+
+Al seleccionar esta opción, la cámara se coloca en la vista axonométrica:
+
+<figure><img src="../.gitbook/assets/Axonometric (2).png" alt=""><figcaption></figcaption></figure>
+
+### Oblicua
+
+FormIt también ofrece una cámara oblicua solo disponible en el menú Vista (solo para Windows):
+
+<figure><img src="../.gitbook/assets/ObliqueMenu.png" alt=""><figcaption></figcaption></figure>
+
+Al seleccionar esta opción, la cámara se coloca en la vista oblicua:
+
+<figure><img src="../.gitbook/assets/Oblique (2).png" alt=""><figcaption></figcaption></figure>
