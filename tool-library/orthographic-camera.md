@@ -27,7 +27,7 @@ Aplikace FormIt 2023 obsahuje několik možností ortografické a perspektivní 
 
 ### Použití režimů
 
-Všechny režimy kamery jsou plnohodnotné pracovní režimy s přístupem k navigačním a kreslicím nástrojům v libovolném režimu, který upřednostňujete. Nabídka umožňuje snadno přepínat mezi různými kamerami.&#x20;
+Všechny režimy kamery jsou plnohodnotné pracovní režimy s přístupem k navigačním a kreslicím nástrojům v libovolném režimu, který upřednostňujete. V nabídce je možné snadno přepínat mezi různými kamerami. 
 
 ![Přepínání tří různých režimů kamery: 3bodová perspektiva, 2bodová perspektiva a ortografická.](../.gitbook/assets/perspective-gif.gif)
 
@@ -36,3 +36,23 @@ Po výběru kamery budou všechny ostatní nástroje kamery respektovat aktuáln
 Pokud ručně přejdete k přednastavenému ortografickému pohledu, například hornímu pohledu nebo přednímu pohledu, ortografická kamera se k této poloze přichytí, což usnadní používání těchto přednastavených pohledů.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
+
+### Axonometrická kamera
+
+Kromě ortografické a perspektivní kamery, které jsou k dispozici na panelu nástrojů navigace, nabízí aplikace FormIt axonometrickou kameru dostupnou pouze v nabídce Pohled (pouze v systému Windows):
+
+<figure><img src="../.gitbook/assets/AxonometricMenu (2).png" alt=""><figcaption></figcaption></figure>
+
+Výběrem této možnosti umístíte kameru do axonometrického pohledu:
+
+<figure><img src="../.gitbook/assets/Axonometric (2).png" alt=""><figcaption></figcaption></figure>
+
+### Šikmá kamera
+
+Aplikace FormIt také nabízí šikmou kameru, která je dostupná pouze v nabídce Pohled (pouze v systému Windows):
+
+<figure><img src="../.gitbook/assets/ObliqueMenu.png" alt=""><figcaption></figcaption></figure>
+
+Výběrem této možnosti umístíte kameru do šikmého pohledu:
+
+<figure><img src="../.gitbook/assets/Oblique (2).png" alt=""><figcaption></figcaption></figure>
