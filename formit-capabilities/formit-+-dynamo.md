@@ -1,14 +1,16 @@
 ---
-description: Conception informatique dans FormIt
+description: Computational Design in FormIt
 ---
 
 # FormIt et Dynamo
 
-![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 FormIt pour Windows intègre Dynamo pour des workflows de conception informatique incroyables.
 
 ## Nouveautés de FormIt et Dynamo
+
+FormIt 2024 est mis à jour avec la dernière version 2.17 de Dynamo.
 
 ### **Graphiques de données, envoi de niveaux vers Excel et contrôle de facettage**
 
@@ -38,7 +40,7 @@ Vous utilisez FormIt et Dynamo pour la première fois ? Vous devrez peut-être 
 
 Utilisez le groupe de fonctions Dynamo pour lancer Dynamo, placer des groupes Dynamo et modifier des graphiques Dynamo :
 
-![Groupe de fonctions Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+\![Groupe de fonctions Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Ajout et gestion de répertoires Dynamo locaux**
 
@@ -202,7 +204,7 @@ Exploitez la puissance des groupes FormIt pour une meilleure organisation de la 
 * Lorsque vous utilisez plusieurs nœuds **SendToFormIt**, vous pouvez les organiser par matériau, de sorte que vous pouvez peindre différents sous-groupes FormIt avec différents matériaux.
 * Dans cet exemple, un bâtiment entier est généré à partir de plans simples dans FormIt. Chaque composant de construction nécessitant des matériaux uniques obtient son propre nœud **SendToFormIt** :
 
-![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * Après l’application de matériaux à chacun des sous-groupes, les matériaux sont conservés entre les exécutions de Dynamo :
 
@@ -229,7 +231,7 @@ Exploitez la puissance des groupes FormIt pour une meilleure organisation de la 
   * Les opérations de copier-coller des groupes Dynamo les maintiennent identiques. Toute modification apportée au graphique Dynamo d’une copie met également à jour la géométrie dans ses instances identiques, sauf si elles sont rendues uniques.
   * Vous pouvez rendre les groupes Dynamo uniques à l’aide du raccourci MU ou via le menu contextuel :
 
-![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## Nœuds FormIt essentiels
 
@@ -239,17 +241,17 @@ Voici les nœuds les plus puissants pour envoyer des données entre FormIt et Dy
 
 * Pour générer des objets Dynamo dans FormIt, attachez les sorties de nœud géométrique souhaitées à l’entrée _geometry_ d’au moins un nœud SendToFormIt :
 
-![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions est un nouveau port (facultatif) dans FormIt 2022\. Il est détaillé dans la section **Nœuds FormItGroupOptions** ci-dessous.
 * Dans FormIt 2021.3 et versions ultérieures, vous pouvez utiliser plusieurs nœuds SendToFormIt pour organiser vos résultats Dynamo en groupes et sous-groupes FormIt ordonnés.
 * [Découvrez comment Dynamo fonctionne avec les groupes FormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 
-![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * Le nœud SendToFormIt respecte l’indicateur de sortie, qui est activé par défaut. Vous pouvez cliquer avec le bouton droit de la souris sur le nœud pour vérifier :
 
-![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * Lorsque cette option est activée, la géométrie attachée à ce nœud SendToFormIt apparaît dans FormIt, à l’intérieur d’un sous-groupe.
 * Lorsque cette option est désactivée, aucune géométrie n’est envoyée à FormIt et le sous-groupe correspondant (s’il en existe un) est supprimé.
@@ -258,11 +260,11 @@ Voici les nœuds les plus puissants pour envoyer des données entre FormIt et Dy
 
 * FormIt 2021 et versions ultérieures permettent de sélectionner une géométrie à partir de FormIt pour l’utiliser comme entrée dans les graphiques Dynamo :
 
-![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * Le nom du nœud SelectFromFormIt sera utilisé pour les invites dans FormIt. Vous devez donc le nommer de manière à décrire le type de géométrie FormIt à sélectionner :
 
-![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * Lorsque vous cliquez sur le bouton Sélectionner depuis FormIt dans l’éditeur graphique Dynamo ou dans le groupe de fonctions Propriétés, FormIt lance un mode d’assistant de sélection pour vous guider dans la sélection de la géométrie :
 
@@ -270,7 +272,7 @@ Voici les nœuds les plus puissants pour envoyer des données entre FormIt et Dy
 
 * Le nœud SelectFromFormIt respecte l’indicateur d’entrée, qui est activé par défaut. Pour que la sélection fonctionne dans FormIt, il doit être activé. Cliquez avec le bouton droit de la souris sur le nœud à vérifier.
 
-![](<../.gitbook/assets/dynamo_isinput (1).png>)
+\![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * Lorsque l’option d’entrée est activée :
   * La miniature du groupe de fonctions Dynamo du graphique indique qu’une sélection est requise :
@@ -322,7 +324,7 @@ Dans FormIt 2022.1.1 et versions ultérieures, le fait de changer un graphique 
   * À l’inverse, la suppression de tous les nœuds FormItLengthString du graphique permet de basculer entre les nombres bruts pour faire référence aux paramètres d’unité de FormIt (ancien comportement).
 * La sortie numérique des nœuds _FormItLengthString_ sera également en mètres, mais cela ne modifiera pas la taille des résultats géométriques dans FormIt :
 
-![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **Autres nœuds d’entrée pris en charge**
 
@@ -336,7 +338,7 @@ Les nœuds d’entrée Dynamo standard s’affichent dans le groupe de fonctions
 
 Vous pouvez renommer les nœuds d’entrée (recommandé pour plus de clarté). Leur nouveau nom s’affichera dans FormIt :
 
-![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -348,7 +350,7 @@ Différentes méthodes pour afficher les résultats non géométriques de Dynamo
 
 Les nœuds de visualisation marqués comme sortis s’affichent dans la section « Regarder les sorties de nœud » du groupe de fonctions Propriétés dans FormIt 2022 et versions ultérieures :
 
-![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **Afficher les notifications FormIt**
 
@@ -375,7 +377,7 @@ FormIt 2022.1 et versions ultérieures permettent de personnaliser la manière 
 
 Les nœuds _FormItGeometryOptions_ peuvent être utilisés en amont du nœud _SendToFormIt_ :
 
-![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -397,7 +399,7 @@ FormIt 2022.1 et les versions ultérieures permettent d’accéder aux API Java
 
 Le nœud **CallJSAPI** vous permet d’appeler des API JavaScript FormIt directement à partir de Dynamo.
 
-![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 Pour les noms de fonction et les paramètres, consultez notre documentation JavaScript, qui est divisée en deux parties : [API FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) et [API WSM](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (noyau de modélisation).
 
@@ -405,7 +407,7 @@ Pour les noms de fonction et les paramètres, consultez notre documentation Java
 
 À l’inverse, le nœud **CallPluginJS** vous permet d’appeler des fonctions personnalisées à partir d’un plug-in chargé ou d’un extrait de script exécuté à partir de la fenêtre de l’éditeur de script.
 
-![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## Remarques importantes
 
