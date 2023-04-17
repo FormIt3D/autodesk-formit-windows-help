@@ -27,7 +27,7 @@ FormIt 2023에는 여러 직교 및 투시 카메라 옵션이 포함되어 있�
 
 ### 모드 사용
 
-카메라 모드는 모두 완전 작동 모드로, 원하는 모드에서 탐색 및 그리기 도구에 액세스할 수 있습니다. 이 메뉴를 사용하면 여러 카메라 간을 쉽게 전환할 수 있습니다.&#x20;
+카메라 모드는 모두 완전 작동 모드로, 원하는 모드에서 탐색 및 그리기 도구에 액세스할 수 있습니다. 이 메뉴를 사용하면 여러 카메라 간을 쉽게 전환할 수 있습니다. 
 
 ![세 가지 카메라 모드(3점 투시, 2점 투시 및 직교)를 전환합니다.](../.gitbook/assets/perspective-gif.gif)
 
@@ -36,3 +36,23 @@ FormIt 2023에는 여러 직교 및 투시 카메라 옵션이 포함되어 있�
 평면도 또는 정면도와 같이 사전 설정된 직교 뷰로 수동으로 이동하면 직교 카메라가 해당 위치로 스냅되어 사전 설정된 뷰에 더 쉽게 액세스할 수 있습니다.
 
 ![](../.gitbook/assets/orthoorienttoface.gif)
+
+### 엑소노메트릭
+
+FormIt은 탐색 도구막대에서 사용할 수 있는 직교 및 투시 카메라 옵션 외에도 뷰 메뉴에서만 사용할 수 있는 엑소노메트릭 카메라를 제공합니다(Windows만 해당).
+
+<figure><img src="../.gitbook/assets/AxonometricMenu (2).png" alt=""><figcaption></figcaption></figure>
+
+이 옵션을 선택하면 카메라가 엑소노메트릭 뷰로 전환됩니다.
+
+<figure><img src="../.gitbook/assets/Axonometric (2).png" alt=""><figcaption></figcaption></figure>
+
+### 기울기
+
+FormIt은 뷰 메뉴에서만 사용할 수 있는 기울기 카메라도 제공합니다(Windows만 해당).
+
+<figure><img src="../.gitbook/assets/ObliqueMenu.png" alt=""><figcaption></figcaption></figure>
+
+이 옵션을 선택하면 카메라가 기울기 뷰로 전환됩니다.
+
+<figure><img src="../.gitbook/assets/Oblique (2).png" alt=""><figcaption></figcaption></figure>
