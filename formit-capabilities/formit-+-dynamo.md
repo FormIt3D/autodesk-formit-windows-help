@@ -4,7 +4,7 @@ description: Computational Design in FormIt
 
 # FormIt + Dynamo
 
-\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 FormIt for Windows には Dynamo が組み込まれており、非常に優れた計算設計ワークフローを実現します。
 
@@ -40,7 +40,7 @@ FormIt + Dynamo を初めて使用する場合は、Dynamo で 3D キャンバ�
 
 [Dynamo]パネルを使用して、Dynamo の起動、Dynamo グループの配置、Dynamo グラフの編集を行います。
 
-\![Dynamo のパネル](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Dynamo のパネル](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **ローカルの Dynamo フォルダを追加および管理する**
 
@@ -204,7 +204,7 @@ FormIt グループの機能を活用して、Dynamo のジオメトリを効率
 * 複数の **SendToFormIt** ノードを使用する場合、マテリアルごとにノードを整理して、異なるマテリアルを使用して別の FormIt サブグループをペイントすることができます。
 * 次の例では、建物全体が FormIt の単純な平面から生成されていますが、建物の各コンポーネントには専用のマテリアルが必要であるため、独自の **SendToFormIt** ノードが用意されています。
 
-\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * 各サブグループにマテリアルを適用した後は、Dynamo の実行操作間でマテリアルが維持されます。
 
@@ -231,7 +231,7 @@ FormIt グループの機能を活用して、Dynamo のジオメトリを効率
   * Dynamo グループのコピーと貼り付けを行うと、同じ状態を維持します。コピーの Dynamo グラフに変更を加えると、同じインスタンスのジオメトリも更新されます。ただし、固有である場合は更新されません。
   * Dynamo グループは、ショートカットの MU またはコンテキスト メニューを使用して固有にすることができます。
 
-\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## FormIt の基本ノード
 
@@ -241,17 +241,17 @@ FormIt と Dynamo の間でデータを送信する、最も高機能なノー�
 
 * FormIt で Dynamo オブジェクトを生成するには、必要なジオメトリ ノード出力を少なくとも 1 つの SendToFormIt ノードの _geometry_ 入力にアタッチします。
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions は FormIt 2022 の新しい(オプションの)ポートです。下の「**FormItGroupOptions ノード** 」セクションで詳しく説明します。
 * FormIt 2021.3 以降では、複数の SendToFormIt ノードを使用して Dynamo の結果を整理し、FormIt グループとサブグループにまとめることができます。
 * [Dynamo と FormIt グループの連携](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)を参照してください。
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * SendToFormIt ノードは、既定でオンになっている「出力」フラグを考慮します。ノードを右クリックして、次の内容を確認できます。
 
-\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * オンにすると、この SendToFormIt ノードにアタッチされたジオメトリが FormIt のサブグループ内に表示されます。
 * オフにすると、ジオメトリは FormIt に送信されず、対応するサブグループ(存在する場合)は削除されます。
@@ -260,11 +260,11 @@ FormIt と Dynamo の間でデータを送信する、最も高機能なノー�
 
 * FormIt 2021 以降では、FormIt からジオメトリを選択して、Dynamo グラフで入力として使用できます。
 
-\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * SelectFromFormIt ノードの名前は FormIt のプロンプトに使用されるため、選択する FormIt ジオメトリのタイプを示すような名前にする必要があります。
 
-\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * Dynamo グラフ エディタまたは[プロパティ]パネルで[FormIt から選択]ボタンをクリックすると、選択ウィザード モードが開始され、ジオメトリの選択手順を確認できます。
 
@@ -272,7 +272,7 @@ FormIt と Dynamo の間でデータを送信する、最も高機能なノー�
 
 * SelectFromFormIt ノードは、「入力」フラグを考慮します。これは、既定でオンになっています。これは、FormIt で選択が機能するよう、オンである必要があります。確認するノードを右クリックします。
 
-\![](<../.gitbook/assets/dynamo_isinput (1).png>)
+![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * 「入力」がオンになっている場合:
   * グラフの Dynamo パネルのサムネイルは、選択が必要であることを示しています。
@@ -324,7 +324,7 @@ FormIt 2022.1.1 以降では、グラフを FormItLengthString ノードを使�
   * 逆に、グラフからすべての FormItLengthString ノードを削除すると、FormIt の単位設定が何であっても生の数値を参照するように切り替わります(旧来の動作)。
 * _FormItLengthString_ ノードの数値出力もメートル単位になりますが、FormIt のジオメトリ結果のサイズは変更されません。
 
-\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **サポートされる他の入力ノード**
 
@@ -338,7 +338,7 @@ Dynamo で「入力」とマークされていると、標準の Dynamo 入力�
 
 入力ノードの名前を変更すると(分かりやすくするために推奨します)、新しい名前が FormIt に表示されます。
 
-\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -350,7 +350,7 @@ Dynamo から FormIt に非ジオメトリの結果を表示する方法はい�
 
 「出力」とマークされた Watch ノードは、FormIt 2022 以降の[プロパティ]パネルの[WATCH ノード出力]セクションに表示されます。
 
-\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **FormIt の通知を表示する**
 
@@ -377,7 +377,7 @@ FormIt 2022.1 以降では、**FormItGeometryOptions** ノードを使用して�
 
 _FormItGeometryOptions_ ノードは、_SendToFormIt_ ノードの上流工程で使用できます。
 
-\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -399,7 +399,7 @@ FormIt 2022.1 以降では、2 つの新しいノードを介して Dynamo か�
 
 **CallJSAPI** ノードを使用すると、Dynamo から FormIt JavaScript API を直接呼び出すことができます。
 
-\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 関数名とパラメータについては、JavaScript に関するドキュメントを参照してください。このドキュメントは、[FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) と [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (モデリング カーネル)の 2 つの部分に分かれています。
 
@@ -407,7 +407,7 @@ FormIt 2022.1 以降では、2 つの新しいノードを介して Dynamo か�
 
 一方、**CallPluginJS** ノードを使用すると、ロード済みのプラグインからカスタム関数を呼び出したり、スクリプト エディタ ウィンドウから実行されたスクリプトのスニペットを呼び出すことができます。
 
-\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## 重要な注意事項
 
