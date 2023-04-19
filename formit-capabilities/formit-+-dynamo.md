@@ -4,7 +4,7 @@ description: Computational Design in FormIt
 
 # FormIt + Dynamo
 
-\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 FormIt for Windows 内置有 Dynamo，可用于实现令人难以置信的计算设计工作流。
 
@@ -40,7 +40,7 @@ FormIt 2024 是最新版本，其中随附最新的 Dynamo 2.17 版。
 
 Dynamo 面板可用于启动 Dynamo、放置 Dynamo 组和编辑 Dynamo 图形：
 
-\![Dynamo 面板](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Dynamo 面板](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **添加和管理本地 Dynamo 目录**
 
@@ -204,7 +204,7 @@ FormIt 支持三种类型的 Dynamo 图形：
 * 使用多个 **SendToFormIt** 节点时，可以按材质组织节点，以便可以使用不同的材质绘制不同的 FormIt 子组。
 * 在本示例中，整个建筑是基于 FormIt 中的简单平面生成的。每个需要唯一材质的建筑构件都有其自己的 **SendToFormIt** 节点：
 
-\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * 在将材质应用于每个子组后，材质会在 Dynamo 运行之间保留：
 
@@ -219,7 +219,7 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 * 当建筑形状更改时，只需选择竖梃系统组，然后在“特性”面板中单击“运行”。
   * 尽管玻璃制品组的内容已更改，但组本身未更改，因此在重新运行图形时无需重新选择玻璃制品。
-* FormIt 2022 及更高版本中提供上述模型，位置为**“Dynamo 样例”** 的 **“建筑体量”** 子文件夹中的“屋顶平面建筑”。
+* FormIt 2022 及更高版本中提供上述模型，位置为 **“Dynamo 样例”** 的 **“建筑体量”** 子文件夹中的“屋顶平面建筑”。
 * 可以将 Dynamo 与 FormIt 的丰富功能结合使用，以在强大的概念建模器的丰富上下文中创建和调整完全参数化的设计（使用材质和嵌套逻辑完成）：
 
 ![](../.gitbook/assets/dynamo\_parametricdesigngif.gif)
@@ -231,7 +231,7 @@ FormIt 支持三种类型的 Dynamo 图形：
   * 复制和粘贴 Dynamo 组会使它们保持相同。对一个副本的 Dynamo 图形所做的任何更改也会更新其相同实例中的几何图形，除非使它们唯一。
   * 可以使用快捷方式 MU 或通过上下文菜单使 Dynamo 组唯一：
 
-\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## 基本 FormIt 节点
 
@@ -241,17 +241,17 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 * 要在 FormIt 中生成 Dynamo 对象，请将所需的几何节点输出附着到至少一个“SendToFormIt”节点的 _“几何图形”_ 输入：
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * “FormItGroupOptions”是 FormIt 2022 中的新（可选）端口，将在下面的 **“FormItGroupOptions 节点”** 部分中进行详细介绍。
 * 在 FormIt 2021.3 及更高版本中，可以使用多个“SendToFormIt”节点将 Dynamo 结果组织为整齐的 FormIt 组和子组。
 * [了解 Dynamo 如何与 FormIt 组结合使用](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups)。
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * “SendToFormIt”节点遵循“是输出”标志，该标志默认处于选中状态。可以在节点上单击鼠标右键以确认：
 
-\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * 如果选中该选项，则附着到此“SendToFormIt”节点的几何图形会显示在 FormIt 中的子组内。
 * 如果取消选中该选项，则不会将任何几何图形发送到 FormIt，并会删除相应的子组（如果有）。
@@ -260,11 +260,11 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 * 在 FormIt 2021 及更高版本中，可以从 FormIt 中选择几何图形以用作 Dynamo 图形中的输入：
 
-\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * “SelectFromFormIt”节点的名称将用于 FormIt 中的提示，因此您应按照描述应选择的 FormIt 几何图形类型的方式对其进行命名：
 
-\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * 在 Dynamo 图形编辑器或“特性”面板中单击“从 FormIt 选择”按钮时，FormIt 会启动选择向导模式以引导您完成选择几何图形：
 
@@ -272,7 +272,7 @@ FormIt 支持三种类型的 Dynamo 图形：
 
 * “SelectFromFormIt”节点会遵循“是输入”标志，该标志默认处于选中状态。需要选中此选项，才能使选择在 FormIt 中可用。在节点上单击鼠标右键以确认。
 
-\![](<../.gitbook/assets/dynamo_isinput (1).png>)
+![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * 当“是输入”处于选中状态时：
   * 图形的 Dynamo 面板缩略图会指示需要选择：
@@ -324,7 +324,7 @@ _FormItLengthString_ 节点的每个实例都可用于任何单位类型，因�
   * 反之，从图形中删除所有“FormItLengthString”节点会切换原始数字以参照 FormIt 的单位设置（旧行为）。
 * _FormItLengthString_ 节点的数值输出也以“米”为单位，但这不会更改 FormIt 中几何结果的大小：
 
-\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **其他支持的输入节点**
 
@@ -338,7 +338,7 @@ _FormItLengthString_ 节点的每个实例都可用于任何单位类型，因�
 
 可以重命名输入节点（为清楚起见建议重命名），其新名称会显示在 FormIt 中：
 
-\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -350,7 +350,7 @@ _FormItLengthString_ 节点的每个实例都可用于任何单位类型，因�
 
 在 FormIt 2022 及更高版本中，标记为“是输出”的“Watch”节点会显示在“特性”面板的“Watch 节点输出”部分：
 
-\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **显示 FormIt 通知**
 
@@ -377,7 +377,7 @@ _FormItLengthString_ 节点的每个实例都可用于任何单位类型，因�
 
 _FormItGeometryOptions_ 节点可以在 _SendToFormIt_ 节点的上游使用：
 
-\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -399,7 +399,7 @@ FormIt 2022.1 及更高版本允许从 Dynamo 通过两个新节点访问 JavaSc
 
 **CallJSAPI** 节点允许直接从 Dynamo 调用 FormIt JavaScript API。
 
-\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 有关函数名称和参数，请查看 JavaScript 文档，该文档分为两个部分： [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) 和 [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html)（建模内核）。
 
@@ -407,7 +407,7 @@ FormIt 2022.1 及更高版本允许从 Dynamo 通过两个新节点访问 JavaSc
 
 反之，**CallPluginJS** 节点允许调用已加载的插件或从“脚本编辑器”窗口执行的脚本片段中的自定义函数。
 
-\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## 重要说明
 
