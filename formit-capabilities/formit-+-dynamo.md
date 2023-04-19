@@ -399,7 +399,7 @@ FormIt 2022.1 und neuer bietet über zwei neue Blöcke Zugriff auf JavaScript-A
 
 Der **CallJSAPI**-Block ermöglicht Ihnen das Aufrufen von FormIt-JavaScript-APIs direkt aus Dynamo.
 
-\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 Weitere Informationen zu Namen und Parametern von Funktionen finden Sie in unserer JavaScript-Dokumentation, die in zwei Bereiche unterteilt ist: [FormIt-API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) und [WSM-API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (Modellierungs-Kernel).
 
