@@ -4,7 +4,7 @@ description: Computational Design in FormIt
 
 # FormIt + Dynamo
 
-\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 Windows용 FormIt에는 유용한 계산 설계 워크플로우를 지원하는 Dynamo가 내장되어 있습니다.
 
@@ -40,7 +40,7 @@ FormIt + Dynamo를 처음 사용해 보십니까? Dynamo에서 3D 캔버스를 �
 
 Dynamo 패널을 사용하여 Dynamo를 시작하고, Dynamo 그룹을 배치하고, Dynamo 그래프를 편집할 수 있습니다.
 
-\![Dynamo 패널](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Dynamo 패널](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **로컬 Dynamo 디렉토리 추가 및 관리**
 
@@ -204,7 +204,7 @@ FormIt 그룹의 강력한 기능을 이용해 Dynamo 형상 구성을 개선하
 * 여러 **SendToFormIt** 노드를 사용하는 경우 노드를 재료별로 구성할 수 있으므로 다른 재료로 다른 FormIt 하위 그룹을 페인팅할 수 있습니다.
 * 이 예에서는 FormIt의 간단한 평면에서 전체 건물이 생성됩니다. 고유한 재료가 필요한 건물 구성요소마다 자체 **SendToFormIt** 노드가 있습니다.
 
-\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * 각 하위 그룹에 재료를 적용하면 다음 Dynamo 실행 시까지 재료가 유지됩니다.
 
@@ -231,7 +231,7 @@ FormIt 그룹의 강력한 기능을 이용해 Dynamo 형상 구성을 개선하
   * Dynamo 그룹을 복사하여 붙여넣으면 동일한 상태로 유지됩니다. 한 사본의 Dynamo 그래프를 변경하면 고유하게 만든 경우를 제외하고 동일한 인스턴스의 형상도 업데이트됩니다.
   * 바로 가기 MU 또는 상황에 맞는 메뉴를 통해 Dynamo 그룹을 고유하게 만들 수 있습니다.
 
-\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## 필수 FormIt 노드
 
@@ -241,17 +241,17 @@ FormIt과 Dynamo 간에 데이터를 전송할 수 있는 가장 강력한 기�
 
 * FormIt에서 Dynamo 객체를 생성하려면 하나 이상의 SendToFormIt 노드의 _형상_ 입력에 원하는 기하학적 노드 출력을 부착합니다.
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions는 FormIt 2022의 새로운 포트(선택 사항)이며, 아래의 **FormItGroupOptions Nodes** 섹션에 자세히 설명되어 있습니다.
 * FormIt 2021.3 이상에서는 여러 SendToFormIt 노드를 사용하여 Dynamo 결과를 FormIt 그룹 및 하위 그룹으로 깔끔하게 구성할 수 있습니다.
 * [Dynamo와 FormIt 그룹이 어떻게 함께 작동하는지 알아보십시오](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * SendToFormIt 노드는 기본적으로 선택되어 있는 '출력임' 플래그를 사용합니다. 노드를 마우스 오른쪽 버튼으로 클릭하여 다음을 확인할 수 있습니다.
 
-\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * 이 옵션을 선택하면, 이 SendToFormIt 노드에 부착된 형상이 FormIt에서 하위 그룹 내에 나타납니다.
 * 이 옵션을 선택하지 않으면, 형상이 FormIt으로 전송되지 않고 해당 하위 그룹(있는 경우)이 삭제됩니다.
@@ -260,11 +260,11 @@ FormIt과 Dynamo 간에 데이터를 전송할 수 있는 가장 강력한 기�
 
 * FormIt 2021 이상 버전은 Dynamo 그래프에서 입력으로 사용할 형상을 FormIt에서 선택하는 기능을 제공합니다.
 
-\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * SelectFromFormIt 노드의 이름은 FormIt의 프롬프트에 사용되므로, 선택해야 하는 FormIt 형상 유형을 알 수 있도록 이름을 지정해야 합니다.
 
-\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * Dynamo 그래프 편집기 또는 특성 패널에서 FormIt에서 선택 버튼을 클릭하면, FormIt에서 형상 선택을 안내하는 선택 마법사 모드가 시작됩니다.
 
@@ -272,7 +272,7 @@ FormIt과 Dynamo 간에 데이터를 전송할 수 있는 가장 강력한 기�
 
 * SelectFromFormIt 노드는 기본적으로 선택되는 '입력임' 플래그를 사용합니다. FormIt에서 선택할 수 있도록 이 옵션이 선택되어 있어야 합니다. 확인할 노드를 마우스 오른쪽 버튼으로 클릭합니다.
 
-\![](<../.gitbook/assets/dynamo_isinput (1).png>)
+![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * '입력임'이 선택된 경우:
   * 그래프의 Dynamo 패널 썸네일에 선택이 필요하다는 표시가 나타납니다.
@@ -308,7 +308,7 @@ FormIt 2022.1.0 이상에서는 **FormItLengthString** 노드를 사용하여 �
 
 ![](../.gitbook/assets/dynamo\_formitlengthstring.png)
 
-지원되는 다른 입력 노드와 마찬가지로 _FormItLengthString_은 '입력임'으로 표시된 경우 FormIt 특성 팔레트에 표시되며, 이름을 바꾸면 FormIt에 새 이름이 표시됩니다.
+지원되는 다른 입력 노드와 마찬가지로 _FormItLengthString_ 은 '입력임'으로 표시된 경우 FormIt 특성 팔레트에 표시되며, 이름을 바꾸면 FormIt에 새 이름이 표시됩니다.
 
 ![](../.gitbook/assets/dynamo\_propertiespalette.png)
 
@@ -318,13 +318,13 @@ _FormItLengthString_ 노드의 각 인스턴스는 어떤 단위 유형으로도
 
 FormIt 2022.1.1 이상에서 FormItLengthString 노드를 사용하도록 그래프를 전환하거나(그래프에 첫 번째 노드를 배치하여) 원시 숫자만 사용하도록 그래프를 전환하면(마지막 FormItLengthString을 제거하여) Dynamo에서 그래프를 편집하는 동안 특정 동작이 변경됩니다.
 
-* 그래프를 편집하는 동안 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 노드를 사용하는 경우, 위와 같이 원시 숫자와 _FormItLengthString_ 노드 간을 전환하려면 각 _SelectFromString_에 대한 형상을 다시 선택해야 합니다. 그래야 결과가 FormIt에서 올바르게 계속 축척됩니다.
+* 그래프를 편집하는 동안 [SelectFromFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 노드를 사용하는 경우, 위와 같이 원시 숫자와 _FormItLengthString_ 노드 간을 전환하려면 각 _SelectFromString_ 에 대한 형상을 다시 선택해야 합니다. 그래야 결과가 FormIt에서 올바르게 계속 축척됩니다.
 * 그래프에 첫 번째 FormItLengthString 노드를 배치한 후, 그래프에서 치수(원시 숫자 입력 포함)로 의도된 모든 숫자는 미터(Dynamo의 기본 단위)를 나타냅니다.
   * [SendToFormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-formit-nodes) 노드는 변경 사항을 고려해 FormIt에서 생성된 형상이 올바른 크기로 유지되도록 합니다.
   * 반대로 그래프에서 모든 FormItLengthString 노드를 제거하면 FormIt의 단위 설정이 무엇이든 관계없이 해당 단위를 나타내도록 원시 숫자가 전환됩니다(이전 동작).
 * _FormItLengthString_ 노드의 숫자 출력은 미터 단위이지만 FormIt에서 형상 결과의 크기를 변경하지는 않습니다.
 
-\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **지원되는 기타 입력 노드**
 
@@ -338,7 +338,7 @@ Dynamo에서 "입력임"으로 표시된 경우 표준 Dynamo 입력 노드가 F
 
 입력 노드의 이름을 바꿀 수 있으며(명확성을 위해 권장됨), 이 경우 해당하는 새 이름이 FormIt에 표시됩니다.
 
-\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -350,7 +350,7 @@ Dynamo에서 FormIt으로 비기하학적 결과를 표시하는 다양한 방�
 
 FormIt 2022 이상에서는 "출력임"으로 표시된 Watch 노드가 특성 패널의 "Watch 노드 출력" 섹션에 표시됩니다.
 
-\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **FormIt 알림 표시**
 
@@ -377,7 +377,7 @@ FormIt 2022.1 이상 버전은 **FormItGeometryOptions** 노드를 사용하여 
 
 _FormItGeometryOptions_ 노드는 _SendToFormIt_ 노드에서 업스트림으로 사용할 수 있습니다.
 
-\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -399,7 +399,7 @@ FormIt 2022.1 이상 버전에서는 다음과 같은 두 개의 새 노드를 �
 
 **CallJSAPI** 노드를 사용하면 Dynamo에서 직접 FormIt JavaScript API를 호출할 수 있습니다.
 
-\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 함수 이름 및 매개변수에 대해서는 두 부분, 즉 [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html)와 [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html)(모델링 커널)로 나누어져 있는 JavaScript 문서를 참고하십시오.
 
@@ -407,7 +407,7 @@ FormIt 2022.1 이상 버전에서는 다음과 같은 두 개의 새 노드를 �
 
 반대로 **CallPluginJS** 노드를 사용하면 로드된 플러그인 또는 스크립트 편집기 창에서 실행된 스크립트 조각에서 사용자 함수를 호출할 수 있습니다.
 
-\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## 중요 참고 사항
 
