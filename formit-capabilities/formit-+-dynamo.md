@@ -4,7 +4,7 @@ description: Computational Design in FormIt
 
 # FormIt + Dynamo
 
-\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 W programie FormIt dla systemu Windows wprowadzono dodatek Dynamo, który zapewnia niezwykłe procesy projektowania obliczeniowego.
 
@@ -40,7 +40,7 @@ Pierwszy raz korzystasz z połączenia produktów FormIt + Dynamo? Może być ko
 
 Używaj panelu Dynamo, aby uruchamiać dodatek Dynamo, umieszczać grupy Dynamo i edytować wykresy Dynamo:
 
-\![Panel Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Panel Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Dodawanie lokalnych katalogów Dynamo i zarządzanie nimi**
 
@@ -204,7 +204,7 @@ Wykorzystaj możliwości grup programu FormIt, aby lepiej zorganizować geometri
 * W przypadku używania wielu węzłów **SendToFormIt** można organizować węzły według materiału, aby można było rysować różne podgrupy programu FormIt za pomocą różnych materiałów.
 * W tym przykładzie cały budynek jest generowany z prostych płaszczyzn w programie FormIt. Każdy komponent budynku wymagający unikatowych materiałów otrzymuje własny węzeł **SendToFormIt**:
 
-\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * Po zastosowaniu materiałów do każdej podgrupy materiały są zachowywane między przebiegami dodatku Dynamo:
 
@@ -231,7 +231,7 @@ Wykorzystaj możliwości grup programu FormIt, aby lepiej zorganizować geometri
   * Kopiowanie i wklejanie grup Dynamo powoduje zachowanie ich identyczności. Wszelkie zmiany wprowadzone w jednej kopii wykresu Dynamo spowodują również aktualizację geometrii w jego identycznych wystąpieniach, chyba że zostaną ona ustawione jako niepowtarzalne.
   * Grupy Dynamo można ustawić jako niepowtarzalne za pomocą skrótu MU lub za pomocą menu kontekstowego:
 
-\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## Podstawowe węzły programu FormIt
 
@@ -241,17 +241,17 @@ Najskuteczniejsze węzły do przesyłania danych między programem FormIt i doda
 
 * Aby wygenerować obiekty Dynamo w programie FormIt, dołącz żądane wyjście węzła geometrycznego do wejścia _geometry_ co najmniej jednego węzła SendToFormIt:
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions jest nowym (opcjonalnym) portem w programie FormIt 2022 i został szczegółowo opisany w sekcji **Węzły FormItGroupOptions poniżej**.
 * W programie FormIt 2021.3 i w nowszych wersjach można użyć wielu węzłów SendToFormIt w celu zorganizowania wyników dodatku Dynamo w uporządkowane grupy i podgrupy programu FormIt.
 * [Zobacz, jak dodatek Dynamo współdziała z grupami programu FormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * Węzeł SendToFormIt uwzględnia flagę Is Output, która jest domyślnie zaznaczona. Kliknięcie węzła prawym przyciskiem myszy umożliwia sprawdzenie:
 
-\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * Gdy ta opcja jest zaznaczona, geometria dołączona do tego węzła SendToFormIt będzie wyświetlana w programie FormIt wewnątrz podgrupy.
 * Gdy ta opcja nie jest zaznaczona, do programu FormIt nie zostanie wysłana żadna geometria, a odpowiednia podgrupa (jeśli istnieje) zostanie usunięta.
@@ -260,11 +260,11 @@ Najskuteczniejsze węzły do przesyłania danych między programem FormIt i doda
 
 * W programie FormIt 2021 i w nowszych wersjach można wybrać geometrię z programu FormIt do użycia jako dane wejściowe w wykresach Dynamo:
 
-\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * Nazwa węzła SelectFromFormIt będzie używana w monitach w programie FormIt, dlatego należy ustawić nazwę dobrze wskazującą, jaki typ geometrii programu FormIt powinien zostać wybrany:
 
-\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * Po kliknięciu przycisku Wybierz z programu FormIt w edytorze wykresów Dynamo lub w panelu Właściwości program FormIt uruchomi tryb kreatora wyboru umożliwiający przejście przez proces wyboru geometrii:
 
@@ -272,7 +272,7 @@ Najskuteczniejsze węzły do przesyłania danych między programem FormIt i doda
 
 * Węzeł SelectFromFormIt uwzględnia flagę Is Input, która jest domyślnie zaznaczona. Należy sprawdzić, czy ta opcja jest włączona, aby można było pracować w programie FormIt. Kliknij prawym przyciskiem myszy węzeł, aby to sprawdzić.
 
-\![](<../.gitbook/assets/dynamo_isinput (1).png>)
+![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * Gdy jest zaznaczone pole wyboru Is Input:
   * Miniatura wykresu w panelu Dynamo wskazuje, że wymagany jest wybór:
@@ -324,7 +324,7 @@ W programie FormIt 2022.1.1 i w nowszych wersjach przełączenie wykresu w celu 
   * I na odwrót: usunięcie wszystkich węzłów FormItLengthString z wykresu spowoduje przełączenie liczb nieprzetworzonych na odpowiednie ustawienia jednostek programu FormIt (jest to stare zachowanie).
 * Liczbowe dane wyjściowe węzłów _FormItLengthString_ będą również wyrażone w metrach, ale nie spowoduje to zmiany rozmiaru wyników geometrycznych w programie FormIt:
 
-\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **Inne obsługiwane węzły wejściowe**
 
@@ -338,7 +338,7 @@ Standardowe węzły wejściowe dodatku Dynamo są wyświetlane w panelu Właści
 
 Można zmienić nazwę węzłów wejściowych: jest to zalecane dla zachowania przejrzystości. Ich nowe nazwy będą wyświetlane w programie FormIt:
 
-\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -350,7 +350,7 @@ Różne metody wyświetlania wyników niegeometrycznych z dodatku Dynamo w progr
 
 Węzły Watch oznaczone jako będące wyjściami (Is Output) są wyświetlane w sekcji wyjść węzłów obserwacyjnych w panelu Właściwości w programie FormIt 2022 i w nowszych wersjach:
 
-\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **Pokazywanie powiadomień programu FormIt**
 
@@ -377,7 +377,7 @@ W programie FormIt 2022.1 i w nowszych wersjach istnieje możliwość dostosowan
 
 Węzły _FormItGeometryOptions_ mogą być używane przed węzłem _SendToFormIt_:
 
-\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -399,7 +399,7 @@ Program FormIt w wersji 2022.1 i nowszych zapewnia dostęp do interfejsów API j
 
 Węzeł **CallJSAPI** umożliwia wywoływanie interfejsów API języka JavaScript programu FormIt bezpośrednio z dodatku Dynamo.
 
-\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 Nazwy funkcji i parametry można znaleźć w dokumentacji języka JavaScript, która jest podzielona na dwie części: [Interfejs API programu FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) oraz [Interfejs API WSM](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (jądro modelowania).
 
@@ -407,7 +407,7 @@ Nazwy funkcji i parametry można znaleźć w dokumentacji języka JavaScript, kt
 
 Natomiast węzeł **CallPluginJS** umożliwia wywoływanie funkcji niestandardowych z wczytanej wtyczki lub fragmentu skryptu wykonywanego z poziomu okna Edytor skryptów.
 
-\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## Ważne uwagi
 
