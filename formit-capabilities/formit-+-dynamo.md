@@ -4,7 +4,7 @@ description: Computational Design in FormIt
 
 # FormIt + Dynamo
 
-\![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
+![](<../.gitbook/assets/20181213 formit + dynamo hero image.png>)
 
 O FormIt para Windows tem o Dynamo incorporado, possibilitando realizar ótimos fluxos de trabalho de projetos de cálculo.
 
@@ -40,7 +40,7 @@ Saiba mais sobre a interface e vincule os diretórios do Dynamo ao FormIt.
 
 Use o painel do Dynamo para iniciar o Dynamo, inserir grupos do Dynamo e editar gráficos do Dynamo:
 
-\![Painel do Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
+![Painel do Dynamo](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Adicionar e gerenciar diretórios locais do Dynamo**
 
@@ -204,7 +204,7 @@ Aproveite os eficazes grupos do FormIt para organizar melhor a geometria do Dyna
 * Quando são usados vários nós **SendToFormIt**, é possível organizar os nós por material, para que você possa pintar diferentes subgrupos do FormIt com diferentes materiais.
 * Neste exemplo, toda a construção é gerada com base em planos simples no FormIt. Cada componente de construção que requer materiais únicos obtém seu próprio nó **SendToFormIt**:
 
-\![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * Após aplicar materiais a cada um dos subgrupos, os materiais persistem nas execuções do Dynamo:
 
@@ -231,7 +231,7 @@ Aproveite os eficazes grupos do FormIt para organizar melhor a geometria do Dyna
   * Copiar e colar grupos do Dynamo permite mantê-los idênticos. Todas as alterações feitas no gráfico do Dynamo de uma cópia também são atualizadas na geometria de suas instâncias idênticas, a não ser que sejam feitas como únicas.
   * É possível tornar os grupos do Dynamo únicos com o atalho MU ou através do menu de contexto:
 
-\![](<../.gitbook/assets/dynamo_makeunique (1).png>)
+![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## Nós essenciais do FormIt
 
@@ -241,17 +241,17 @@ Os nós mais eficazes para enviar dados entre o FormIt e o Dynamo.
 
 * Para gerar objetos do Dynamo no FormIt, anexe as saídas do nó geométrico desejado à entrada de _geometria_ de pelo menos um nó SendToFormIt:
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions é uma nova porta (opcional) no FormIt 2022 e é detalhada na seção **Nós FormItGroupOptions**, abaixo.
 * No FormIt 2021.3 e versões mais recentes, é possível usar vários nós SendToFormIt para organizar os resultados do Dynamo em grupos e subgrupos do FormIt.
 * [Veja como o Dynamo funciona com grupos do FormIt](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 
-\![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * O nó SendToFormIt respeita o indicador É de saída, que está marcado por padrão. É possível clicar com o botão direito do mouse no nó para verificar:
 
-\![](<../.gitbook/assets/dynamo_isoutput (1).png>)
+![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * Quando estiver marcada, a geometria anexada ao nó SendToFormIt aparecerá no FormIt, dentro de um subgrupo.
 * Quando estiver desmarcada, nenhuma geometria será enviada para o FormIt e o subgrupo correspondente (se houver) será excluído.
@@ -260,11 +260,11 @@ Os nós mais eficazes para enviar dados entre o FormIt e o Dynamo.
 
 * O FormIt 2021 e versões mais recentes oferecem a capacidade de selecionar a geometria do FormIt para usar como entradas em gráficos do Dynamo:
 
-\![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * O nome do nó SelectFromFormIt será usado para prompts no FormIt. Portanto, você deve nomeá-lo de forma que descreva o tipo de geometria do FormIt que deve ser selecionada:
 
-\![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
+![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * Quando clicar no botão Selecionar do FormIt, no editor de gráficos do Dynamo ou no painel Propriedades, o FormIt iniciará um modo de assistente de seleção para guiar você para selecionar a geometria:
 
@@ -272,7 +272,7 @@ Os nós mais eficazes para enviar dados entre o FormIt e o Dynamo.
 
 * O nó SelectFromFormIt respeita o indicador É de entrada, que está marcado por padrão. É necessário verificar se isso está selecionado para trabalhar no FormIt. Clique com o botão direito do mouse no nó a ser verificado.
 
-\![](<../.gitbook/assets/dynamo_isinput (1).png>)
+![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * Quando a opção É de entrada está marcada:
   * A miniatura do gráfico do painel do Dynamo indica que é necessário selecionar:
@@ -324,7 +324,7 @@ No FormIt 2022.1.1 e versões mais recentes, se alternar um gráfico para usar 
   * Por outro lado, a remoção de todos os nós FormItLengthString do gráfico permite alternar os números brutos para fazer referência a qualquer que seja a configuração de unidade do FormIt (comportamento antigo).
 * A saída numérica dos nós _FormItLengthString_ também será em metros, mas isso não altera o tamanho dos resultados geométricos no FormIt:
 
-\![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
+![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **Outros nós de entrada suportados**
 
@@ -338,7 +338,7 @@ Os nós de entrada padrão do Dynamo são exibidos no painel Propriedades do For
 
 É possível renomear os nós de entrada (recomendado para obter maior clareza) e o novo nome aparece no FormIt:
 
-\![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
+![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
 ![](../.gitbook/assets/dynamo\_inputs.png)
 
@@ -350,7 +350,7 @@ Diferentes métodos para exibir resultados não geométricos do Dynamo para o Fo
 
 Os nós de inspeção marcados como “É de saída” são exibidos na seção “Saídas dos nós de inspeção” do painel Propriedades no FormIt 2022 e versões mais recentes:
 
-\![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
+![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **Mostrar notificações do FormIt**
 
@@ -377,7 +377,7 @@ O FormIt 2022.1 e versões mais recentes oferecem a capacidade de personalizar 
 
 Os nós _FormItGeometryOptions_ podem ser usados a montante com base no nó _SendToFormIt_:
 
-\![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
+![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -399,7 +399,7 @@ O FormIt 2022.1 e versões mais recentes oferecem acesso a APIs JavaScript e fun
 
 O nó **CallJSAPI** permite que você chame APIs JavaScript do FormIt diretamente do Dynamo.
 
-\![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
+![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
 Para nomes de funções e parâmetros, consulte a nossa documentação JavaScript, que é dividida em duas partes: [API FormIt](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) e [API WSM](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (kernel de modelagem).
 
@@ -407,7 +407,7 @@ Para nomes de funções e parâmetros, consulte a nossa documentação JavaScrip
 
 Inversamente, o nó **CallPluginJS** permite chamar funções personalizadas de um plug-in carregado ou de um fragmento de script que foi executado na janela do Editor de script.
 
-\![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
+![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## Observações importantes
 
