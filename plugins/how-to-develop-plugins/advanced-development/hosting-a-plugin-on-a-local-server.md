@@ -8,7 +8,7 @@ Você tem a opção de iniciar o servidor dentro do Visual Studio Code, em vez d
 
 Visualizar > Terminal (ou atalho Ctrl + \`)
 
-\![](<../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### Configurar um servidor HTTP
 
@@ -22,7 +22,7 @@ No prompt de comando, insira o seguinte para instalar o _http-server_ do npm glo
 
 * `npm install http-server -g`
 
-\![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (47).png>)
 
 ### Iniciar o servidor local
 
@@ -30,7 +30,7 @@ Quando a configuração estiver concluída, execute o seguinte comando no termin
 
 * `http-server`
 
-\![](<../../../.gitbook/assets/image (84).png>)
+![](<../../../.gitbook/assets/image (84).png>)
 
 Dica 1: No caso de problemas com a execução do http-server (instalado globalmente ou localmente), pode ser útil executá-lo diretamente via npx:
 
@@ -47,7 +47,7 @@ Para desenvolver para o FormIt para Web, basta executar o seguinte comando:
 
 * `http-server --cors`
 
-\![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### Verificar o servidor
 
@@ -59,4 +59,4 @@ Você deve ver os arquivos da pasta de projeto na janela do navegador.
 
 **Se você usar um servidor da Web diferente de npm, o endereço/porta padrão poderá ser diferente.
 
-\![](<../../../.gitbook/assets/image (41).png>)
+![](<../../../.gitbook/assets/image (41).png>)
