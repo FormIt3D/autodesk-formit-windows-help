@@ -8,7 +8,7 @@ Istnieje możliwość uruchomienia serwera w programie Visual Studio Code zamias
 
 Widok > Terminal (lub skrót Ctrl + \`)
 
-\![](<../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### Konfigurowanie serwera HTTP
 
@@ -22,7 +22,7 @@ W wierszu polecenia wprowadź następujące wartości, aby zainstalować globaln
 
 * `npm install http-server -g`
 
-\![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (47).png>)
 
 ### Uruchamianie serwera licencji
 
@@ -30,7 +30,7 @@ Po ukończeniu instalacji uruchom następujące polecenie w terminalu, aby uruch
 
 * `http-server`
 
-\![](<../../../.gitbook/assets/image (84).png>)
+![](<../../../.gitbook/assets/image (84).png>)
 
 Wskazówka 1: w przypadku problemów z uruchomieniem serwera http-server (zainstalowanego globalnie lub lokalnie) może być przydatne uruchomienie go bezpośrednio za pośrednictwem serwera npx:
 
@@ -47,7 +47,7 @@ Aby zaprogramować rozwiązanie dla wersji internetowej programu FormIt, zamiast
 
 * `http-server --cors`
 
-\![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### Weryfikowanie serwera
 
@@ -59,4 +59,4 @@ Pliki folderu projektu powinny być widoczne w oknie przeglądarki.
 
 **Jeśli używany jest serwer internetowy inny niż npm, domyślny adres/port może być inny.
 
-\![](<../../../.gitbook/assets/image (41).png>)
+![](<../../../.gitbook/assets/image (41).png>)
