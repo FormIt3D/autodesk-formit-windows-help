@@ -8,7 +8,7 @@
 
 [表示] > [ターミナル] (またはキーボード ショートカット[Ctrl]+[\`])
 
-\![](<../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### HTTP サーバを設定する
 
@@ -22,7 +22,7 @@
 
 * `npm install http-server -g`
 
-\![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (47).png>)
 
 ### ローカル サーバを起動する
 
@@ -30,7 +30,7 @@
 
 * `http-server`
 
-\![](<../../../.gitbook/assets/image (84).png>)
+![](<../../../.gitbook/assets/image (84).png>)
 
 ヒント 1: http-server を実行する際に問題が発生した場合は、インストールがグローバルでもローカルでも、npx を使用して直接実行するとうまくいく場合があります。
 
@@ -47,7 +47,7 @@ FormIt Web 用に開発するには、代わりに次のコマンドを実行し
 
 * `http-server --cors`
 
-\![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### サーバを確認する
 
@@ -59,4 +59,4 @@ Web ブラウザで次のアドレスにナビゲートすると、サーバを�
 
 ** npm 以外の Web サーバを使用している場合は、既定のアドレス/ポートが異なる可能性があります。
 
-\![](<../../../.gitbook/assets/image (41).png>)
+![](<../../../.gitbook/assets/image (41).png>)
