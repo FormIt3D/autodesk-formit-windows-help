@@ -8,7 +8,7 @@ FormIt에서 복제된 플러그인을 미리 보려면 로컬 서버에서 해�
 
 뷰 > 터미널(또는 단축키 Ctrl + \`)
 
-\![](<../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### HTTP 서버 설정
 
@@ -22,7 +22,7 @@ FormIt에서 복제된 플러그인을 미리 보려면 로컬 서버에서 해�
 
 * `npm install http-server -g`
 
-\![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (47).png>)
 
 ### 로컬 서버 시작
 
@@ -30,7 +30,7 @@ FormIt에서 복제된 플러그인을 미리 보려면 로컬 서버에서 해�
 
 * `http-server`
 
-\![](<../../../.gitbook/assets/image (84).png>)
+![](<../../../.gitbook/assets/image (84).png>)
 
 팁 1: 전역 또는 로컬로 설치된 http-server를 실행하는 데 문제가 있는 경우 npx를 통해 직접 실행하는 것이 도움이 될 수 있습니다.
 
@@ -47,7 +47,7 @@ FormIt 웹용으로 개발하려면 다음 명령을 대신 실행하면 됩니�
 
 * `http-server --cors`
 
-\![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### 서버 확인
 
@@ -59,4 +59,4 @@ FormIt 웹용으로 개발하려면 다음 명령을 대신 실행하면 됩니�
 
 **npm이 아닌 다른 웹 서버를 사용하는 경우 기본 주소/포트가 다를 수 있습니다.
 
-\![](<../../../.gitbook/assets/image (41).png>)
+![](<../../../.gitbook/assets/image (41).png>)
