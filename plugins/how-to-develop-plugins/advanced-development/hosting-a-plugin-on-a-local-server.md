@@ -8,7 +8,7 @@ Místo v samostatném okně terminálu můžete server spustit uvnitř aplikace
 
 Klikněte na nabídku View > Terminal (Zobrazit > Terminál), nebo použijte klávesovou zkratku Ctrl + \`.
 
-\![](<../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### Nastavení serveru HTTP
 
@@ -22,7 +22,7 @@ Zadáním následujícího příkazu do příkazového řádku globálně nainst
 
 * `npm install http-server -g`
 
-\![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (47).png>)
 
 ### Spuštění místního serveru
 
@@ -30,7 +30,7 @@ Po dokončení instalace zadejte v terminálu následující příkaz, který s
 
 * `http-server`
 
-\![](<../../../.gitbook/assets/image (84).png>)
+![](<../../../.gitbook/assets/image (84).png>)
 
 Tip 1: V případě problémů se spuštěním http-serveru (instalovaného globálně nebo místně) jej můžete spustit přímo prostřednictvím npx:
 
@@ -47,7 +47,7 @@ Chcete-li vytvářet moduly plug-in pro webovou aplikaci FormIt, jednoduše spus
 
 * `http-server --cors`
 
-\![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### Ověření serveru
 
@@ -59,4 +59,4 @@ V okně prohlížeče by se měly zobrazit soubory ve složce projektu.
 
 **Pokud používáte jiný webový server než npm, může se výchozí adresa nebo port lišit.
 
-\![](<../../../.gitbook/assets/image (41).png>)
+![](<../../../.gitbook/assets/image (41).png>)
