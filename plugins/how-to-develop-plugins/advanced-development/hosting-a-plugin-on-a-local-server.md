@@ -8,7 +8,7 @@
 
 “视图”>“终端”（或快捷键“Ctrl + \`”）
 
-\![](<../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### 设置 HTTP 服务器
 
@@ -22,7 +22,7 @@
 
 * `npm install http-server -g`
 
-\![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (47).png>)
 
 ### 启动本地服务器
 
@@ -30,7 +30,7 @@
 
 * `http-server`
 
-\![](<../../../.gitbook/assets/image (84).png>)
+![](<../../../.gitbook/assets/image (84).png>)
 
 提示 1：如果运行 http-server（全局或本地安装）时出现任何问题，则通过 npx 直接运行它可能会有所帮助：
 
@@ -47,7 +47,7 @@
 
 * `http-server --cors`
 
-\![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### 验证服务器
 
@@ -59,4 +59,4 @@
 
 **如果使用的 Web 服务器与 npm 不同，则默认地址/端口可能不同。
 
-\![](<../../../.gitbook/assets/image (41).png>)
+![](<../../../.gitbook/assets/image (41).png>)
