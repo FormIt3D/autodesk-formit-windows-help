@@ -8,7 +8,7 @@ Prima di poter visualizzare l'anteprima di un plug-in clonato in FormIt, è nece
 
 Vista > Terminale (o tasto di scelta rapida CTRL+')
 
-\![](<../../../.gitbook/assets/image (11) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 ### Impostazione di un server HTTP
 
@@ -22,7 +22,7 @@ Alla riga di comando, immettere quanto segue per installare globalmente _http-se
 
 * `npm install http-server -g`
 
-\![](<../../../.gitbook/assets/image (47).png>)
+![](<../../../.gitbook/assets/image (47).png>)
 
 ### Avvio del server delle licenze
 
@@ -30,7 +30,7 @@ Al termine dell'installazione, eseguire il seguente comando nel terminale per av
 
 * `http-server`
 
-\![](<../../../.gitbook/assets/image (84).png>)
+![](<../../../.gitbook/assets/image (84).png>)
 
 Suggerimento 1 In caso di eventuali problemi con l'esecuzione di http-server (installato globalmente o localmente), potrebbe essere utile eseguirlo direttamente tramite npx:
 
@@ -47,7 +47,7 @@ Per sviluppare per FormIt Web, è sufficiente eseguire il seguente comando:
 
 * `http-server --cors`
 
-\![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
 ### Verifica del server
 
@@ -59,4 +59,4 @@ I file delle cartelle di progetto dovrebbero essere visualizzati nella finestra 
 
 **Se si utilizza un server Web diverso da npm, l'indirizzo/la porta di default potrebbe essere differente.
 
-\![](<../../../.gitbook/assets/image (41).png>)
+![](<../../../.gitbook/assets/image (41).png>)
