@@ -1,4 +1,4 @@
-# Łuk
+# Łuk 
 
 Korzystaj z narzędzia Łuk, aby tworzyć półokręgi lub łuki symetryczne. Istnieją dwa sposoby tworzenia łuków.
 
