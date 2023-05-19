@@ -1,4 +1,4 @@
-# Boolesche Operationen: Schnitt
+# Boolesche Operationen: Schnitt 
 
 Sie können die Schnittmenge von zwei Objekten oder Gruppen mit dem Werkzeug Schnitt schneiden. Es gibt zwei Möglichkeiten, auf das Werkzeug Schnitt zuzugreifen:
 
