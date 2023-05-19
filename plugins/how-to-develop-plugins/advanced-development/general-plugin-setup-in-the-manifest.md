@@ -1,4 +1,4 @@
-# Konfiguracja ogólna wtyczki w manifeście
+# Konfiguracja ogólna wtyczki w manifeście 
 
 Wtyczki programu FormIt mają kluczowy komponent — plik _manifest.json_.
 
