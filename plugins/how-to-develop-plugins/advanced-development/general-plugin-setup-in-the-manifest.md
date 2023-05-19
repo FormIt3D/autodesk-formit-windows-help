@@ -1,4 +1,4 @@
-# Configuration générale de plug-in dans le fichier manifest
+# Configuration générale de plug-in dans le fichier manifest 
 
 Les plug-ins FormIt sont constitués d’un composant principal clé appelé fichier _manifest.json_.
 
