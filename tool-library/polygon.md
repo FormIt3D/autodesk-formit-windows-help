@@ -1,4 +1,4 @@
-# Poligono
+# Poligono 
 
 Utilizzare lo strumento Poligono per disegnare un poligono a n lati regolare nello spazio o su un altro oggetto.
 
