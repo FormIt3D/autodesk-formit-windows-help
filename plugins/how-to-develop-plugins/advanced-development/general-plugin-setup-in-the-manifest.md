@@ -1,4 +1,4 @@
-# Impostazione generale di plug-in nel file manifesto
+# Impostazione generale di plug-in nel file manifesto 
 
 I plug-in di FormIt sono costituiti da un componente principale chiave denominato file _manifest.json_.
 
