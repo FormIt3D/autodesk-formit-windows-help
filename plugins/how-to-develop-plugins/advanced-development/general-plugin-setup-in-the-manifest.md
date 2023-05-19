@@ -1,4 +1,4 @@
-# Configuración general de módulos de extensión en el archivo manifest
+# Configuración general de módulos de extensión en el archivo manifest 
 
 Los módulos de extensión de FormIt están formados por un componente central clave que recibe el nombre de archivo _manifest.json_.
 
