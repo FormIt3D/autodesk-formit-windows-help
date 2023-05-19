@@ -1,4 +1,4 @@
-# Polígono
+# Polígono 
 
 Use a ferramenta Polígono para desenhar um polígono normal de n lados no espaço ou em outro objeto.
 
