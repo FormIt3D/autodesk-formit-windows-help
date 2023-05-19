@@ -1,4 +1,4 @@
-# Arc
+# Arc 
 
 Utilisez l’outil Arc pour créer des demi-cercles ou des arcs symétriques. Il existe deux façons de créer des arcs.
 
