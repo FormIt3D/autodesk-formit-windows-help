@@ -1,4 +1,4 @@
-# Przecięcie logiczne
+# Przecięcie logiczne 
 
 Za pomocą narzędzia Przetnij można wyciąć przecięcie dwóch obiektów lub grup. Dostęp do narzędzia Przetnij można uzyskać na dwa sposoby:
 
