@@ -1,4 +1,4 @@
-# Polygon
+# Polygon 
 
 Verwenden Sie das Werkzeug Polygon, um ein normales n-seitiges Polygon im Raum oder auf einem anderen Objekt zu zeichnen.
 
