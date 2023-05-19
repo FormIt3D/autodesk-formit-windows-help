@@ -1,4 +1,4 @@
-# Booleovský průnik
+# Booleovský průnik 
 
 Pomocí nástroje Průnik můžete oříznout průsečík dvou objektů nebo skupin. Nástroj Průnik lze použít dvěma způsoby:
 
