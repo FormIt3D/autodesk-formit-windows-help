@@ -1,4 +1,4 @@
-# Nastavení aplikace FormIt pro vývoj
+# Nastavení aplikace FormIt pro vývoj 
 
 Chcete-li testovat a vytvářet moduly plug-in v počítačové aplikaci FormIt, budete potřebovat aplikaci FormIt pro systém Windows verze 17.0 nebo novější.
 
