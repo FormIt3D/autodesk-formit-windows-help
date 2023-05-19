@@ -1,4 +1,4 @@
-# Allgemeine Plugin-Einrichtung im Manifest
+# Allgemeine Plugin-Einrichtung im Manifest 
 
 FormIt-Plugins bestehen aus einer wichtigen Kernkomponente, der so genannten _manifest.json_-Datei.
 
