@@ -1,4 +1,4 @@
-# Polygone
+# Polygone 
 
 Utilisez l’outil Polygone pour dessiner un polygone régulier à n côtés dans l’espace ou sur un autre objet.
 
