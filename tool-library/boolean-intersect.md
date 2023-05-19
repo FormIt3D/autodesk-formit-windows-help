@@ -1,4 +1,4 @@
-# Intersezione booleana
+# Intersezione booleana 
 
 È possibile tagliare l'intersezione di due oggetti o gruppi con lo strumento Interseca. Esistono due modi per accedere allo strumento Interseca:
 
