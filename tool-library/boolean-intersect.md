@@ -1,4 +1,4 @@
-# Interseção booleana
+# Interseção booleana 
 
 É possível cortar a interseção de dois objetos ou grupos com a ferramenta Interseção. Há duas maneiras de acessar a ferramenta Interseção:
 
