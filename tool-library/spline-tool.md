@@ -1,4 +1,4 @@
-# Splajn
+# Splajn 
 
 Narzędzie Splajn umożliwia tworzenie szkiców organicznych w przestrzeni lub na innych obiektach.
 
