@@ -1,4 +1,4 @@
-# Einrichten von FormIt für die Entwicklung
+# Einrichten von FormIt für die Entwicklung 
 
 Zum Testen und Erstellen von Plugins in der FormIt Desktop-App benötigen Sie FormIt for Windows v17.0 oder höher.
 
