@@ -1,4 +1,4 @@
-# Obecné nastavení modulu plug-in v manifestu
+# Obecné nastavení modulu plug-in v manifestu 
 
 Moduly plug-in aplikace FormIt se skládají z hlavní komponenty zvané soubor _manifest.json_.
 
