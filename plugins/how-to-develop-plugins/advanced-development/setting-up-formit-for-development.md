@@ -1,4 +1,4 @@
-# Configuration de FormIt pour le développement
+# Configuration de FormIt pour le développement 
 
 Pour tester et créer des plug-ins dans l’application de bureau FormIt, vous aurez besoin de FormIt pour Windows 17.0 ou version ultérieure.
 
