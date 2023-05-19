@@ -1,4 +1,4 @@
-# Spline
+# Spline 
 
 Lo strumento Spline consente di creare disegni organici nello spazio o su altri oggetti.
 
