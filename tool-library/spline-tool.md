@@ -1,4 +1,4 @@
-# Spline
+# Spline 
 
 La herramienta Spline permite crear bocetos orgánicos en el espacio o en otros objetos.
 
