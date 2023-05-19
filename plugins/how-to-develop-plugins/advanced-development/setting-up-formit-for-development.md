@@ -1,4 +1,4 @@
-# Configuración de FormIt para el desarrollo
+# Configuración de FormIt para el desarrollo 
 
 Para crear y probar módulos de extensión en la aplicación de escritorio de FormIt, necesitará FormIt para Windows v17.0 o posterior.
 
