@@ -1,4 +1,4 @@
-# Arco
+# Arco 
 
 Utilizzare lo strumento Arco per creare semicerchi o archi simmetrici. È possibile creare gli archi in due modi.
 
