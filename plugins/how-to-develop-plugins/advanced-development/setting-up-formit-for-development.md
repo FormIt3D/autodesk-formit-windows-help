@@ -1,4 +1,4 @@
-# Konfigurowanie programu FormIt pod kątem programowania
+# Konfigurowanie programu FormIt pod kątem programowania 
 
 Aby testować i opracowywać wtyczki w aplikacji komputerowej FormIt, należy używać programu FormIt dla systemu Windows w wersji 17.0 lub nowszej.
 
