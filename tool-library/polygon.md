@@ -1,4 +1,4 @@
-# Wielobok
+# Wielobok 
 
 Narzędzie Wielobok służy do rysowania wielokąta foremnego o n bokach w przestrzeni lub na innym obiekcie.
 
