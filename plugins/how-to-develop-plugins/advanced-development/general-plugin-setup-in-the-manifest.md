@@ -1,4 +1,4 @@
-# Manifest 中的一般外掛程式設定
+# Manifest 中的一般外掛程式設定 
 
 FormIt 外掛程式由稱為 _manifest.json_ 檔案的關鍵核心元件組成。
 
