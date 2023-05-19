@@ -1,4 +1,4 @@
-# 개발용으로 FormIt 설정
+# 개발용으로 FormIt 설정 
 
 FormIt 데스크톱 앱에서 플러그인을 테스트하고 빌드하려면 Windows 17.0 이상 버전용 FormIt이 필요합니다.
 
