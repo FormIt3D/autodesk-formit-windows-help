@@ -1,4 +1,4 @@
-# Impostazione di FormIt per lo sviluppo
+# Impostazione di FormIt per lo sviluppo 
 
 Per testare e creare plug-in nell'app desktop di FormIt, è necessario utilizzare FormIt per Windows v17.0 o versioni successive.
 
