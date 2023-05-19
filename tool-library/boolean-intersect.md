@@ -1,4 +1,4 @@
-# Intersection booléenne
+# Intersection booléenne 
 
 Vous pouvez couper l’intersection de deux objets ou groupes à l’aide de l’outil Intersection. L’outil Intersection est accessible de deux façons :
 
