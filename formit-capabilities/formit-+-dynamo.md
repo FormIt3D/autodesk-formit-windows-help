@@ -10,7 +10,9 @@ FormIt for Windows has Dynamo built-in for incredible computational design workf
 
 ## What's New With FormIt + Dynamo
 
-FormIt 2024 is up to date with the latest Dynamo release 2.17.
+[FormIt 2024](https://formit.autodesk.com/blog/post/introducing-formit-2024/) includes [Dynamo 2.17](https://dynamobim.org/dynamo-core-2-17-release/)!
+
+FormIt 2024.1 fixes a critical issue preventing Dynamo from running when Revit 2024 was also installed.
 
 ### **Data Graphs, Send Levels to Excel, and Faceting Control**
 
