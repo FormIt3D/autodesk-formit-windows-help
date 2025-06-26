@@ -42,7 +42,7 @@ First time using FormIt + Dynamo? You may need to [configure your system](https:
 
 Use the Dynamo panel to launch Dynamo, place Dynamo Groups, and edit Dynamo graphs:
 
-![Dynamo panel](<../.gitbook/assets/dynamo\_dynamopanel (1).png>)
+![Dynamo panel](<../.gitbook/assets/dynamo_dynamopanel (1).png>)
 
 ### **Adding and Managing Local Dynamo Directories**
 
@@ -50,12 +50,12 @@ Use the Dynamo panel to launch Dynamo, place Dynamo Groups, and edit Dynamo grap
 * Click the "Link Directory" button in the Dynamo panel, and then click (+) again in the Preferences dialog to select a directory to link to FormIt: <img src="../.gitbook/assets/dynamo_selectdirectory.png" alt="" data-size="line">
 * Switch between linked directories using the drop-down:
 
-![](../.gitbook/assets/dynamo\_dropdown.png)
+![](../.gitbook/assets/dynamo_dropdown.png)
 
 * You'll only be able to view .dyn files and subfolders through the Dynamo panel.
 * Use the Filter bar to filter out Dynamo files and subfolders so you can easily find what you need:
 
-![](../.gitbook/assets/dynamo\_filter.png)
+![](../.gitbook/assets/dynamo_filter.png)
 
 ## Different Ways to Dynamo
 
@@ -73,7 +73,7 @@ FormIt supports three types of Dynamo graphs:
 
 ### **Geometry Graph: Place Dynamo Group into FormIt**
 
-![](../.gitbook/assets/dynamo\_stairsgif.gif)
+![](../.gitbook/assets/dynamo_stairsgif.gif)
 
 * In the Dynamo panel, click the thumbnail of the Dynamo graph you want to run.
   * You can use the built-in samples, or [link a library](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) of your own Dynamo files.
@@ -86,7 +86,7 @@ FormIt supports three types of Dynamo graphs:
 
 ### **Geometry Graph: Modify Parameters**
 
-![](../.gitbook/assets/dynamo\_stairsgif2\_modifyparameters.gif)
+![](../.gitbook/assets/dynamo_stairsgif2_modifyparameters.gif)
 
 * After placing a Dynamo Group, select it and switch to the Properties panel, or simply double-click the Group to automatically switch to Properties.
   * Any input nodes marked as "Is Input" in Dynamo will be listed here.
@@ -120,7 +120,7 @@ As you make changes to the model, you can click the graph thumbnail again, or th
 
 ### Launch a New Dynamo Window
 
-![](../.gitbook/assets/dynamo\_launchwindow.gif)
+![](../.gitbook/assets/dynamo_launchwindow.gif)
 
 * In FormIt 2021 and newer, clicking the Launch Dynamo button in the Dynamo panel will start a connected session with FormIt automatically.
   * This opens a graph template in Dynamo, and will automatically generate the template geometry in FormIt.
@@ -136,9 +136,9 @@ Existing Dynamo graphs can be edited in two distinct ways: by editing Embedded G
 
 After placing a Dynamo object into FormIt, its underlying graph is copied and embedded into the current FormIt file. Editing this in Dynamo happens through the **Edit Embedded Graph** button.
 
-![](../.gitbook/assets/dynamo\_embeddedgraph.png)
+![](../.gitbook/assets/dynamo_embeddedgraph.png)
 
-![](../.gitbook/assets/dynamo\_editgraphgif.gif)
+![](../.gitbook/assets/dynamo_editgraphgif.gif)
 
 * Select the Dynamo Group and switch to the Properties panel, or simply double-click the Group to automatically switch to Properties.
 * Click the **Edit Embedded Graph** button.
@@ -152,9 +152,9 @@ After placing a Dynamo object into FormIt, its underlying graph is copied and em
 
 Source Graphs are displayed in the Dynamo panel after [linking local directories](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started). These graphs are stored on your computer, and can be edited in Dynamo by clicking the Edit Source Graph button.
 
-![](../.gitbook/assets/dynamo\_editsourcegraph.png)
+![](../.gitbook/assets/dynamo_editsourcegraph.png)
 
-![](../.gitbook/assets/dynamo\_sourcegraphgif.gif)
+![](../.gitbook/assets/dynamo_sourcegraphgif.gif)
 
 * [Link a directory](https://formit.autodesk.com/page/formit-dynamo#dynamo-getting-started) containing Dynamo files to the Dynamo Panel, then navigate to that location in the panel.&#x20;
 * Right click the thumbnail of the Dynamo graph you want to edit (or click the arrow), and select the **Edit Source Graph** button.
@@ -178,7 +178,7 @@ Source Graphs are displayed in the Dynamo panel after [linking local directories
 * You can also globally set faceting settings in Edit -> Preferences -> Units + Precision
 * After adjusting the faceting quality in Preferences, rerun the graph to use the new global faceting settings.
 
-![](../.gitbook/assets/dynamo\_controlcurve.gif)
+![](../.gitbook/assets/dynamo_controlcurve.gif)
 
 [Learn more about curve and surface faceting settings in FormIt.](https://windows.help.formit.autodesk.com/tool-library/curve-+-surface-faceting)
 
@@ -206,25 +206,25 @@ Harness the power FormIt Groups for better Dynamo geometry organization and incr
 * When using multiple **SendToFormIt** nodes, you can organize the nodes by material, so you can paint different FormIt sub-Groups with different materials.
 * In this example, an entire building is generated from simple planes in FormIt. Each building component requiring unique materials gets its own **SendToFormIt** node:
 
-![](<../.gitbook/assets/dynamo\_sendtoformit (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformit (1).png>)
 
 * After applying materials to each of the sub-Groups, the materials persist between Dynamo runs:
 
-![](../.gitbook/assets/dynamo\_materialsgif.gif)
+![](../.gitbook/assets/dynamo_materialsgif.gif)
 
 ### **Nesting Dynamo Groups**
 
 * You can use the **SelectFromFormIt** node to select the sub-Group results from one Dynamo graph to drive the results of another graph.&#x20;
 * Building on the example above, the glazing output of the building generator graph is used as the selection geometry for the built-in Storefront Curtainwall sample:
 
-![](../.gitbook/assets/dynamo\_storefront\_curtainwallgif.gif)
+![](../.gitbook/assets/dynamo_storefront_curtainwallgif.gif)
 
 * When the building shape changes, you can simply select the mullion system Group, and click Run in the Properties panel.
   * Although the contents of the glazing Group changed, the Group itself didn't, so there's no need to re-select the glazing when re-running the graph.
 * The above model is available in FormIt 2022 and newer as the "Roof Planes Building" in the **Building Masses** subfolder of **Dynamo Samples**.
-* Combined with FormIt**'**s vast capabilities, you can use Dynamo to create and flex an entirely parametric design - complete with materials and nested logic - in the rich context of a powerful conceptual modeler:
+* Combined with FormI&#x74;**'**&#x73; vast capabilities, you can use Dynamo to create and flex an entirely parametric design - complete with materials and nested logic - in the rich context of a powerful conceptual modeler:
 
-![](../.gitbook/assets/dynamo\_parametricdesigngif.gif)
+![](../.gitbook/assets/dynamo_parametricdesigngif.gif)
 
 ### **Standard FormIt Group Behavior Still Applies**
 
@@ -233,7 +233,7 @@ Harness the power FormIt Groups for better Dynamo geometry organization and incr
   * Copying and pasting Dynamo Groups keeps them identical. Any changes made to one copy's Dynamo graph will also update the geometry in its identical instances, unless they are made Unique.
   * You can make Dynamo Groups Unique with shortcut MU or through the Context Menu:
 
-![](<../.gitbook/assets/dynamo\_makeunique (1).png>)
+![](<../.gitbook/assets/dynamo_makeunique (1).png>)
 
 ## Essential FormIt Nodes
 
@@ -243,17 +243,17 @@ The most powerful nodes to send data between FormIt and Dynamo.
 
 * To generate Dynamo objects in FormIt, attach the desired geometric node outputs to the _geometry_ input of at least one SendToFormIt node:
 
-![](<../.gitbook/assets/dynamo\_sendtoformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnode (1).png>)
 
 * FormItGroupOptions is a new (optional) port in FormIt 2022 and is detailed in the **FormItGroupOptions Nodes** section below.
 * In FormIt 2021.3 and newer, you can use multiple SendToFormIt nodes to organize your Dynamo results into tidy FormIt Groups and sub-Groups.
 * [See how Dynamo works with FormIt Groups](https://formit.autodesk.com/page/formit-dynamo#dynamo-groups).
 
-![](<../.gitbook/assets/dynamo\_sendtoformitnodes (1).png>)
+![](<../.gitbook/assets/dynamo_sendtoformitnodes (1).png>)
 
 * The SendToFormIt node respects the Is Output flag, which is checked by default. You can right-click the node to verify:
 
-![](<../.gitbook/assets/dynamo\_isoutput (1).png>)
+![](<../.gitbook/assets/dynamo_isoutput (1).png>)
 
 * When checked, the geometry attached to this SendToFormIt node will appear in FormIt, inside a sub-Group.
 * When unchecked, no geometry will be sent to FormIt, and the corresponding sub-Group (if there is one) will be deleted.
@@ -262,29 +262,29 @@ The most powerful nodes to send data between FormIt and Dynamo.
 
 * FormIt 2021 and newer offers the ability to select geometry from FormIt for use as inputs in Dynamo graphs:
 
-![](<../.gitbook/assets/dynamo\_selectfromformitnode (1).png>)
+![](<../.gitbook/assets/dynamo_selectfromformitnode (1).png>)
 
 * The name of the SelectFromFormIt node will be used for prompts in FormIt, so you should name it in a way that describes what type of FormIt geometry should be selected:
 
-![](<../.gitbook/assets/dynamo\_selectobjectstoarraynode (1).png>)
+![](<../.gitbook/assets/dynamo_selectobjectstoarraynode (1).png>)
 
 * When the Select From FormIt button is clicked from the Dynamo graph editor or the Properties panel, FormIt will start a selection wizard mode to walk you through selecting geometry:
 
-![](../.gitbook/assets/dynamo\_selectobjectstoarrayUI.png)
+![](../.gitbook/assets/dynamo_selectobjectstoarrayUI.png)
 
 * The SelectFromFormIt node respects the Is Input flag, which is checked by default. This needs to be checked for selection to work in FormIt. Right-click the node to verify.
 
-![](<../.gitbook/assets/dynamo\_isinput (1).png>)
+![](<../.gitbook/assets/dynamo_isinput (1).png>)
 
 * When Is Input is checked:
   * The Dynamo panel thumbnail of the graph will indicate that a selection is required:
 
-![](../.gitbook/assets/dynamo\_patharray.png)
+![](../.gitbook/assets/dynamo_patharray.png)
 
 * When running the graph, the FormIt selection wizard will walk you through setting selections for each SelectFromFormIt node, starting at the top of the graph.
 * After generating the first time, you'll see a button for each SelectFromFormIt node in the FormIt Properties panel.
 
-![](../.gitbook/assets/dynamo\_selectarraypath.png)
+![](../.gitbook/assets/dynamo_selectarraypath.png)
 
 * Clicking these will start the selection wizard, so you can change the selection used to generate the final geometry. The graph will re-run automatically after re-selecting.
 
@@ -298,7 +298,7 @@ The most powerful nodes to send data between FormIt and Dynamo.
 * If you're editing a selection-based graph in Dynamo, and the selected geometry in FormIt changes, you'll need to re-select the geometry by clicking the "Select From FormIt" button on the SelectFromFormIt node.&#x20;
 * When selecting in FormIt, the active [Selection Filter](https://windows.help.formit.autodesk.com/tool-library/select-edge-face-or-object#selection-filtering) is applied. For example, if you want to select FormIt vertices, you'll have to enable that in the Selection Filter.
 
-![](../.gitbook/assets/dynamo\_filterselection.png)
+![](../.gitbook/assets/dynamo_filterselection.png)
 
 ## Other Input Nodes
 
@@ -308,11 +308,11 @@ A wide array of input options for easy customization of Dynamo graphs in FormIt.
 
 In FormIt 2022.1.0 or newer, you can use the **FormItLengthString** node to specify dimensions in any supported FormIt unit type (feet-inch, inch, m, cm, mm) regardless of FormIt's unit setting in the active sketch.
 
-![](../.gitbook/assets/dynamo\_formitlengthstring.png)
+![](../.gitbook/assets/dynamo_formitlengthstring.png)
 
 As with other supported input nodes, the _FormItLengthString_ will show up in the FormIt Properties palette when marked as Is Input, and when renamed, its new name will show up in FormIt:
 
-![](../.gitbook/assets/dynamo\_propertiespalette.png)
+![](../.gitbook/assets/dynamo_propertiespalette.png)
 
 Each instance of the _FormItLengthString_ node can be used in any unit type, so a single Dynamo graph could employ a mix of units, as shown above.
 
@@ -326,7 +326,7 @@ In FormIt 2022.1.1 and newer, switching a graph to use FormItLengthString nodes 
   * Conversely, removing all FormItLengthString nodes from the graph will switch raw numbers to refer to whatever FormIt's unit settings are (old behavior).
 * The numeric output of _FormItLengthString_ nodes will also be in meters, but that won't change the size of the geometric results in FormIt:
 
-![](<../.gitbook/assets/dynamo\_outputinmeters (1).png>)
+![](<../.gitbook/assets/dynamo_outputinmeters (1).png>)
 
 ### **Other Supported Input Nodes**
 
@@ -340,9 +340,9 @@ Standard Dynamo input nodes will display in the FormIt Properties panel when mar
 
 You can rename the input nodes (recommended for clarity), and their new name will appear in FormIt:
 
-![](<../.gitbook/assets/dynamo\_cuboidsize (1).png>)
+![](<../.gitbook/assets/dynamo_cuboidsize (1).png>)
 
-![](../.gitbook/assets/dynamo\_inputs.png)
+![](../.gitbook/assets/dynamo_inputs.png)
 
 ## Other Output Nodes
 
@@ -352,19 +352,19 @@ Different methods to display non-geometric results from Dynamo to FormIt.
 
 Watch nodes marked as "Is Output" will display in the "Watch Node Outputs" section of the Properties panel in FormIt 2022 and newer:
 
-![](<../.gitbook/assets/dynamo\_watchnodes (1).png>)
+![](<../.gitbook/assets/dynamo_watchnodes (1).png>)
 
 ### **Show FormIt Notifications**
 
 In FormIt 2022.1 or newer, you can show FormIt-side notifications from a Dynamo graph using the **UI.ShowNotification** node:&#x20;
 
-![](../.gitbook/assets/dynamo\_notifications.png)
+![](../.gitbook/assets/dynamo_notifications.png)
 
 ### **Log to the FormIt Console**
 
 In FormIt 2022.1 or newer, you can log additional data directly to the FormIt application console (Script Output window) with the **FormIt.ConsoleLog** node:
 
-![](../.gitbook/assets/dynamo\_logtoconsole.png)
+![](../.gitbook/assets/dynamo_logtoconsole.png)
 
 ## FormIt Options Nodes
 
@@ -379,7 +379,7 @@ FormIt 2022.1 and newer offers the ability to customize how individual Dynamo ge
 
 _FormItGeometryOptions_ nodes can be used upstream from the _SendToFormIt_ node:
 
-![](<../.gitbook/assets/dynamo\_formitgeometryoptions (1).png>)
+![](<../.gitbook/assets/dynamo_formitgeometryoptions (1).png>)
 
 ### **FormItGroupOptions**
 
@@ -391,7 +391,7 @@ FormIt 2022 and newer offers the ability to customize how the Dynamo group from 
 
 You can use any combination of FormItGroupOptions nodes in any order by daisy-chaining them together:
 
-![](../.gitbook/assets/dynamo\_daisychain.png)
+![](../.gitbook/assets/dynamo_daisychain.png)
 
 ## JavaScript API Nodes
 
@@ -401,15 +401,15 @@ FormIt 2022.1 and newer offers access to JavaScript APIs and custom functions fr
 
 The **CallJSAPI** node allows you to invoke FormIt JavaScript APIs directly from Dynamo.
 
-![](<../.gitbook/assets/dynamo\_calljsapi (1).png>)
+![](<../.gitbook/assets/dynamo_calljsapi (1).png>)
 
-For function names and parameters, take a look at our JavaScript documentation, which is divided into two parts: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_formit.html) and [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group\_\_mod\_\_jsapi\_\_wsm.html) (modeling kernel).
+For function names and parameters, take a look at our JavaScript documentation, which is divided into two parts: [FormIt API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group__mod__jsapi__formit.html) and [WSM API](https://formit3d.github.io/FormItExamplePlugins/docs/FormItJSAPI/group__mod__jsapi__wsm.html) (modeling kernel).
 
 **CallPluginJS**
 
 Conversely, the **CallPluginJS** node allows you to invoke custom functions from a loaded plugin, or a script snippet that's been executed from the Script Editor window.
 
-![](<../.gitbook/assets/dynamo\_callpluginjs (1).png>)
+![](<../.gitbook/assets/dynamo_callpluginjs (1).png>)
 
 ## Important Notes
 
@@ -425,7 +425,7 @@ Conversely, the **CallPluginJS** node allows you to invoke custom functions from
   * _C:/Program Files/Autodesk/FormIt/FormIt.exe_
   * _C:/Program Files/Autodesk/FormIt/DynamoSandbox/FormItDynamoSandbox.exe_
   * If you have an NVIDIA card, [ensure you have the NVIDIA Control Panel installed](https://whatsabyte.com/blog/find-nvidia-control-panel/)
-  * Use the [NVIDIA](https://nvidia.custhelp.com/app/answers/detail/a\_id/2615/\~/how-do-i-customize-optimus-profiles-and-settings%3F) or [AMD](https://www.amd.com/en/support/kb/faq/dh-017) control panels to set the following applications to use your discrete graphics card:
+  * Use the [NVIDIA](https://nvidia.custhelp.com/app/answers/detail/a_id/2615/~/how-do-i-customize-optimus-profiles-and-settings%3F) or [AMD](https://www.amd.com/en/support/kb/faq/dh-017) control panels to set the following applications to use your discrete graphics card:
 * If you're in a non-English locale, you may need to set the Windows 10 region settings to English to avoid issues with certain Dynamo nodes:
   * Search Start for "language" and choose "Language settings"
   * At the top right of the Language dialog, click "Administrative language settings"
@@ -434,7 +434,7 @@ Conversely, the **CallPluginJS** node allows you to invoke custom functions from
 * If you're experiencing graphs failing to generate results in FormIt when working with small geometry or numbers, try changing the Dynamo scaling setting to "Small":
   * Dynamo menu > Preferences > General > Geometry Scaling > Small
 
-![](../.gitbook/assets/dynamo\_geometryscaling.png)
+![](../.gitbook/assets/dynamo_geometryscaling.png)
 
 ### **Get Support**
 
